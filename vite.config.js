@@ -1,22 +1,14 @@
-{
-  "name": "bermuda-market-intel",
-  "version": "1.0.0",
-  "description": "Market intelligence dashboard for Bermuda life insurance actuaries",
-  "private": true,
-  "type": "module",
-  "scripts": {
-    "dev": "vite",
-    "build": "vite build",
-    "preview": "vite preview"
+import { defineConfig } from 'vite';
+import react from '@vitejs/plugin-react';
+
+export default defineConfig({
+  plugins: [react()],
+  base: '/bermuda-market-intel/',
+  build: {
+    outDir: 'dist',
   },
-  "dependencies": {
-    "lucide-react": "^0.383.0",
-    "react": "^18.3.1",
-    "react-dom": "^18.3.1",
-    "recharts": "^2.12.7"
+  server: {
+    port: 3000,
+    open: true,
   },
-  "devDependencies": {
-    "@vitejs/plugin-react": "^4.3.1",
-    "vite": "^5.3.1"
-  }
-}
+});
