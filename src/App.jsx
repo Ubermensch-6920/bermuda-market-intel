@@ -325,4 +325,456 @@ const CreditSpreadSection = ({ data }) => {
   const entries = marketFilter === "us" ? usEntries : euEntries;
 
   return (
-    <div style={{ background: "#0d0f14", border: "1px solid #1e2028
+    <div style={{ background: "#0d0f14", border: "1px solid #1e2028", borderRadius: 10, overflow: "hidden" }}>
+      <div style={{ padding: "16px 20px", borderBottom: "1px solid #1e2028", display: "flex", justifyContent: "space-between", alignItems: "center", flexWrap: "wrap", gap: 10 }}>
+        <div>
+          <h3 style={{ margin: 0, fontSize: 15, fontWeight: 700, color: "#e2e8f0" }}>Corporate Credit Spreads (OAS)</h3>
+          <DataFreshness date={data.date} source={data.source} url={data.url} />
+        </div>
+        <div style={{ display: "flex", gap: 4 }}>
+          {["us", "eu"].map(m => (
+            <button key={m} onClick={() => setMarketFilter(m)} style={{
+              background: marketFilter === m ? "#3b82f6" : "transparent", border: "1px solid #2a2d35",
+              borderRadius: 6, padding: "5px 14px", fontSize: 11, color: marketFilter === m ? "#fff" : "#94a3b8",
+              cursor: "pointer", fontWeight: 600, textTransform: "uppercase"
+            }}>{m === "us" ? "US" : "EUR"}</button>
+          ))}
+        </div>
+      </div>
+      <div style={{ padding: "12px 20px", overflowX: "auto" }}>
+        <table style={{ width: "100%", borderCollapse: "collapse", fontSize: 12 }}>
+          <thead>
+            <tr style={{ borderBottom: "1px solid #1e2028" }}>
+              <th style={{ textAlign: "left", padding: "8px 12px", color: "#64748b", fontWeight: 600, fontSize: 11 }}>Index</th>
+              <th style={{ textAlign: "right", padding: "8px 12px", color: "#64748b", fontWeight: 600, fontSize: 11 }}>OAS (bp)</th>
+              <th style={{ textAlign: "right", padding: "8px 12px", color: "#64748b", fontWeight: 600, fontSize: 11 }}>Prior</th>
+              <th style={{ textAlign: "right", padding: "8px 12px", color: "#64748b", fontWeight: 600, fontSize: 11 }}>Chg</th>
+              <th style={{ textAlign: "right", padding: "8px 12px", color: "#64748b", fontWeight: 600, fontSize: 11 }}>YTD Avg</th>
+            </tr>
+          </thead>
+          <tbody>
+            {entries.map((row, i) => {
+              const chg = row.spread - row.prior;
+              return (
+                <tr key={i} style={{ borderBottom: "1px solid #13151b" }}>
+                  <td style={{ padding: "8px 12px", color: "#e2e8f0", fontWeight: 600 }}>
+                    {row.name} <Badge color={row.bucket === "HY" || row.bucket === "BB" || row.bucket === "B" || row.bucket === "CCC" ? "#ef4444" : "#22c55e"}>{row.bucket}</Badge>
+                  </td>
+                  <td style={{ padding: "8px 12px", color: "#e2e8f0", textAlign: "right", fontFamily: "monospace", fontWeight: 700 }}>{row.spread}</td>
+                  <td style={{ padding: "8px 12px", color: "#94a3b8", textAlign: "right", fontFamily: "monospace" }}>{row.prior}</td>
+                  <td style={{ padding: "8px 12px", textAlign: "right", fontFamily: "monospace", color: getChangeColor(chg * -1), fontWeight: 600 }}>
+                    {chg > 0 ? "+" : ""}{chg}
+                  </td>
+                  <td style={{ padding: "8px 12px", color: "#94a3b8", textAlign: "right", fontFamily: "monospace" }}>{row.ytd_avg}</td>
+                </tr>
+              );
+            })}
+          </tbody>
+        </table>
+      </div>
+      {/* Spread history chart */}
+      <div style={{ padding: "16px 12px 8px" }}>
+        <ResponsiveContainer width="100%" height={200}>
+          <BarChart data={data.history}>
+            <CartesianGrid strokeDasharray="3 3" stroke="#1a1d23" />
+            <XAxis dataKey="date" tick={{ fill: "#64748b", fontSize: 11 }} axisLine={{ stroke: "#1e2028" }} tickLine={false} />
+            <YAxis tick={{ fill: "#64748b", fontSize: 11 }} axisLine={{ stroke: "#1e2028" }} tickLine={false} label={{ value: "bp", fill: "#64748b", fontSize: 10, position: "insideTopLeft" }} />
+            <Tooltip content={<SpreadTooltip />} />
+            <Bar dataKey="ig" fill="#3b82f6" name="IG" radius={[3, 3, 0, 0]} />
+            <Bar dataKey="bbb" fill="#f59e0b" name="BBB" radius={[3, 3, 0, 0]} />
+            <Bar dataKey="hy" fill="#ef4444" name="HY" radius={[3, 3, 0, 0]} />
+            <Legend wrapperStyle={{ fontSize: 11, color: "#64748b" }} />
+          </BarChart>
+        </ResponsiveContainer>
+      </div>
+    </div>
+  );
+};
+
+const NewsSection = ({ news }) => {
+  const topics = [...new Set(news.map(n => n.topic))];
+  const [selectedTopic, setSelectedTopic] = useState("All");
+  const filtered = selectedTopic === "All" ? news : news.filter(n => n.topic === selectedTopic);
+
+  const topicColors = {
+    "Private Credit": "#8b5cf6",
+    "Credit Markets": "#3b82f6",
+    "Rates & Macro": "#22c55e",
+    "Structured Credit": "#f59e0b",
+    "Insurance AM": "#ec4899",
+    "Pension/Insurance": "#14b8a6",
+  };
+
+  return (
+    <div style={{ background: "#0d0f14", border: "1px solid #1e2028", borderRadius: 10, overflow: "hidden" }}>
+      <div style={{ padding: "16px 20px", borderBottom: "1px solid #1e2028" }}>
+        <h3 style={{ margin: "0 0 10px 0", fontSize: 15, fontWeight: 700, color: "#e2e8f0" }}>
+          <Newspaper size={16} style={{ verticalAlign: "middle", marginRight: 8 }} /> Financial Markets News
+        </h3>
+        <div style={{ display: "flex", gap: 6, flexWrap: "wrap" }}>
+          <button onClick={() => setSelectedTopic("All")} style={{
+            background: selectedTopic === "All" ? "#3b82f6" : "transparent", border: "1px solid #2a2d35",
+            borderRadius: 20, padding: "4px 14px", fontSize: 11, color: selectedTopic === "All" ? "#fff" : "#94a3b8",
+            cursor: "pointer", fontWeight: 600
+          }}>All</button>
+          {topics.map(t => (
+            <button key={t} onClick={() => setSelectedTopic(t)} style={{
+              background: selectedTopic === t ? (topicColors[t] || "#3b82f6") : "transparent",
+              border: `1px solid ${selectedTopic === t ? (topicColors[t] || "#3b82f6") : "#2a2d35"}`,
+              borderRadius: 20, padding: "4px 14px", fontSize: 11,
+              color: selectedTopic === t ? "#fff" : "#94a3b8", cursor: "pointer", fontWeight: 500
+            }}>{t}</button>
+          ))}
+        </div>
+      </div>
+      <div style={{ maxHeight: 500, overflowY: "auto" }}>
+        {filtered.map(item => (
+          <div key={item.id} style={{ padding: "14px 20px", borderBottom: "1px solid #13151b", cursor: "pointer" }}
+               onMouseEnter={(e) => e.currentTarget.style.background = "#12141a"}
+               onMouseLeave={(e) => e.currentTarget.style.background = "transparent"}>
+            <div style={{ display: "flex", justifyContent: "space-between", alignItems: "flex-start", gap: 12 }}>
+              <div style={{ flex: 1 }}>
+                <div style={{ display: "flex", gap: 8, alignItems: "center", marginBottom: 4 }}>
+                  <Badge color={topicColors[item.topic] || "#3b82f6"}>{item.topic}</Badge>
+                  <span style={{ fontSize: 11, color: "#475569" }}>{item.source}</span>
+                  <span style={{ fontSize: 11, color: "#334155" }}>•</span>
+                  <span style={{ fontSize: 11, color: "#475569" }}>{timeAgo(item.date)}</span>
+                </div>
+                <h4 style={{ margin: "0 0 4px", fontSize: 13, fontWeight: 600, color: "#e2e8f0", lineHeight: 1.4 }}>{item.title}</h4>
+                <p style={{ margin: 0, fontSize: 12, color: "#64748b", lineHeight: 1.5 }}>{item.summary}</p>
+              </div>
+              <ExternalLink size={14} style={{ color: "#475569", flexShrink: 0, marginTop: 4 }} />
+            </div>
+          </div>
+        ))}
+      </div>
+    </div>
+  );
+};
+
+const BMASection = ({ updates }) => {
+  const categories = [...new Set(updates.map(u => u.category))];
+  const [catFilter, setCatFilter] = useState("All");
+  const filtered = catFilter === "All" ? updates : updates.filter(u => u.category === catFilter);
+
+  const catColors = {
+    "Capital/Solvency": "#ef4444",
+    "Investment": "#f59e0b",
+    "Governance": "#8b5cf6",
+    "Disclosure": "#3b82f6",
+    "Licensing": "#22c55e",
+    "Stress Testing": "#ec4899",
+  };
+
+  return (
+    <div style={{ background: "#0d0f14", border: "1px solid #1e2028", borderRadius: 10, overflow: "hidden" }}>
+      <div style={{ padding: "16px 20px", borderBottom: "1px solid #1e2028" }}>
+        <h3 style={{ margin: "0 0 10px 0", fontSize: 15, fontWeight: 700, color: "#e2e8f0" }}>
+          <Shield size={16} style={{ verticalAlign: "middle", marginRight: 8 }} /> BMA Regulatory Updates
+        </h3>
+        <div style={{ display: "flex", gap: 6, flexWrap: "wrap" }}>
+          <button onClick={() => setCatFilter("All")} style={{
+            background: catFilter === "All" ? "#3b82f6" : "transparent", border: "1px solid #2a2d35",
+            borderRadius: 20, padding: "4px 14px", fontSize: 11, color: catFilter === "All" ? "#fff" : "#94a3b8",
+            cursor: "pointer", fontWeight: 600
+          }}>All</button>
+          {categories.map(c => (
+            <button key={c} onClick={() => setCatFilter(c)} style={{
+              background: catFilter === c ? (catColors[c] || "#3b82f6") : "transparent",
+              border: `1px solid ${catFilter === c ? (catColors[c] || "#3b82f6") : "#2a2d35"}`,
+              borderRadius: 20, padding: "4px 14px", fontSize: 11,
+              color: catFilter === c ? "#fff" : "#94a3b8", cursor: "pointer", fontWeight: 500
+            }}>{c}</button>
+          ))}
+        </div>
+      </div>
+      <div>
+        {filtered.map(item => (
+          <div key={item.id} style={{ padding: "14px 20px", borderBottom: "1px solid #13151b" }}
+               onMouseEnter={(e) => e.currentTarget.style.background = "#12141a"}
+               onMouseLeave={(e) => e.currentTarget.style.background = "transparent"}>
+            <div style={{ display: "flex", justifyContent: "space-between", alignItems: "flex-start", gap: 12 }}>
+              <div style={{ flex: 1 }}>
+                <div style={{ display: "flex", gap: 8, alignItems: "center", marginBottom: 4 }}>
+                  <Badge color={catColors[item.category] || "#3b82f6"}>{item.category}</Badge>
+                  {item.isNew && <Badge color="#22c55e">NEW</Badge>}
+                  <span style={{ fontSize: 11, color: "#475569" }}>{item.date}</span>
+                </div>
+                <h4 style={{ margin: "0 0 4px", fontSize: 13, fontWeight: 600, color: "#e2e8f0", lineHeight: 1.4 }}>{item.title}</h4>
+                <p style={{ margin: 0, fontSize: 12, color: "#64748b", lineHeight: 1.5 }}>{item.summary}</p>
+              </div>
+              <a href={item.url} target="_blank" rel="noopener noreferrer">
+                <ExternalLink size={14} style={{ color: "#475569", flexShrink: 0, marginTop: 4 }} />
+              </a>
+            </div>
+          </div>
+        ))}
+      </div>
+    </div>
+  );
+};
+
+// ─── MAIN APP ───
+
+const PAGES = [
+  { id: "home", label: "Overview", icon: Activity },
+  { id: "ust", label: "US Treasuries", icon: DollarSign },
+  { id: "jgb", label: "Japan JGB", icon: Globe },
+  { id: "gilt", label: "UK Gilts", icon: Globe },
+  { id: "eiopa", label: "EIOPA EUR", icon: Globe },
+  { id: "india", label: "India Govt", icon: Globe },
+  { id: "credit", label: "Credit Spreads", icon: Percent },
+  { id: "news", label: "News", icon: Newspaper },
+  { id: "bma", label: "BMA Updates", icon: Shield },
+];
+
+export default function App() {
+  const [page, setPage] = useState("home");
+  const [sidebarOpen, setSidebarOpen] = useState(true);
+  const [clock, setClock] = useState(new Date().toLocaleTimeString("en-US", { hour12: false }));
+
+  useEffect(() => {
+    const t = setInterval(() => setClock(new Date().toLocaleTimeString("en-US", { hour12: false })), 1000);
+    return () => clearInterval(t);
+  }, []);
+
+  // Yield change summaries for overview
+  const ust10y = SAMPLE_UST.yields[SAMPLE_UST.tenors.indexOf("10Y")];
+  const ust10yPrior = SAMPLE_UST.prior_yields[SAMPLE_UST.tenors.indexOf("10Y")];
+  const ust2y = SAMPLE_UST.yields[SAMPLE_UST.tenors.indexOf("2Y")];
+  const ust2yPrior = SAMPLE_UST.prior_yields[SAMPLE_UST.tenors.indexOf("2Y")];
+  const jgb10y = SAMPLE_JGB.yields[SAMPLE_JGB.tenors.indexOf("10Y")];
+  const jgb10yPrior = SAMPLE_JGB.prior_yields[SAMPLE_JGB.tenors.indexOf("10Y")];
+  const gilt10y = SAMPLE_GILT.yields[SAMPLE_GILT.tenors.indexOf("10Y")];
+  const gilt10yPrior = SAMPLE_GILT.prior_yields[SAMPLE_GILT.tenors.indexOf("10Y")];
+
+  const multiCurveData = SAMPLE_UST.tenors.filter(t => ["1Y","2Y","5Y","10Y","30Y"].includes(t)).map(t => {
+    const idx = SAMPLE_UST.tenors.indexOf(t);
+    const jIdx = SAMPLE_JGB.tenors.indexOf(t);
+    const gIdx = SAMPLE_GILT.tenors.indexOf(t);
+    const eIdx = SAMPLE_EIOPA.tenors.indexOf(t);
+    const iIdx = SAMPLE_INDIA.tenors.indexOf(t);
+    return {
+      tenor: t,
+      UST: idx >= 0 ? SAMPLE_UST.yields[idx] : null,
+      JGB: jIdx >= 0 ? SAMPLE_JGB.yields[jIdx] : null,
+      Gilt: gIdx >= 0 ? SAMPLE_GILT.yields[gIdx] : null,
+      EIOPA: eIdx >= 0 ? SAMPLE_EIOPA.yields[eIdx] : null,
+      India: iIdx >= 0 ? SAMPLE_INDIA.yields[iIdx] : null,
+    };
+  });
+
+  const renderPage = () => {
+    switch (page) {
+      case "ust": return <SovereignYieldSection data={SAMPLE_UST} title="US Treasury Par Yield Curve (CMT)" accentColor="#3b82f6" />;
+      case "jgb": return <SovereignYieldSection data={SAMPLE_JGB} title="Japan Government Bond Yields" accentColor="#ef4444" />;
+      case "gilt": return <SovereignYieldSection data={SAMPLE_GILT} title="UK Gilt Yields" accentColor="#22c55e" />;
+      case "eiopa": return <SovereignYieldSection data={SAMPLE_EIOPA} title="EIOPA Risk-Free Rate Term Structure (EUR)" accentColor="#f59e0b" />;
+      case "india": return <SovereignYieldSection data={SAMPLE_INDIA} title="India Government Bond Yields" accentColor="#ec4899" />;
+      case "credit": return <CreditSpreadSection data={SAMPLE_CREDIT} />;
+      case "news": return <NewsSection news={SAMPLE_NEWS} />;
+      case "bma": return <BMASection updates={SAMPLE_BMA} />;
+      case "home":
+      default:
+        return (
+          <div style={{ display: "flex", flexDirection: "column", gap: 20 }}>
+            {/* Key Rates Snapshot */}
+            <div>
+              <h3 style={{ margin: "0 0 12px", fontSize: 13, fontWeight: 700, color: "#64748b", textTransform: "uppercase", letterSpacing: "0.1em" }}>
+                Key Rates Snapshot
+              </h3>
+              <div style={{ display: "grid", gridTemplateColumns: "repeat(auto-fill, minmax(170px, 1fr))", gap: 10 }}>
+                <MetricCard label="UST 10Y" value={formatYield(ust10y)} change={changeBp(ust10y, ust10yPrior)} />
+                <MetricCard label="UST 2Y" value={formatYield(ust2y)} change={changeBp(ust2y, ust2yPrior)} />
+                <MetricCard label="UST 2s10s" value={((ust10y - ust2y) * 100).toFixed(0) + "bp"} change={((ust10y - ust2y - (ust10yPrior - ust2yPrior)) * 100).toFixed(1)} />
+                <MetricCard label="JGB 10Y" value={formatYield(jgb10y)} change={changeBp(jgb10y, jgb10yPrior)} />
+                <MetricCard label="UK Gilt 10Y" value={formatYield(gilt10y)} change={changeBp(gilt10y, gilt10yPrior)} />
+                <MetricCard label="US IG OAS" value={SAMPLE_CREDIT.us.ig.spread + "bp"} change={(SAMPLE_CREDIT.us.ig.spread - SAMPLE_CREDIT.us.ig.prior).toFixed(0)} />
+                <MetricCard label="US HY OAS" value={SAMPLE_CREDIT.us.hy.spread + "bp"} change={(SAMPLE_CREDIT.us.hy.spread - SAMPLE_CREDIT.us.hy.prior).toFixed(0)} />
+                <MetricCard label="US BBB OAS" value={SAMPLE_CREDIT.us.bbb.spread + "bp"} change={(SAMPLE_CREDIT.us.bbb.spread - SAMPLE_CREDIT.us.bbb.prior).toFixed(0)} />
+              </div>
+            </div>
+
+            {/* Multi-Curve Comparison */}
+            <div style={{ background: "#0d0f14", border: "1px solid #1e2028", borderRadius: 10, padding: "16px 16px 8px" }}>
+              <h3 style={{ margin: "0 0 12px 8px", fontSize: 13, fontWeight: 700, color: "#64748b", textTransform: "uppercase", letterSpacing: "0.1em" }}>
+                Global Yield Curve Comparison
+              </h3>
+              <ResponsiveContainer width="100%" height={280}>
+                <LineChart data={multiCurveData}>
+                  <CartesianGrid strokeDasharray="3 3" stroke="#1a1d23" />
+                  <XAxis dataKey="tenor" tick={{ fill: "#64748b", fontSize: 11 }} axisLine={{ stroke: "#1e2028" }} tickLine={false} />
+                  <YAxis tick={{ fill: "#64748b", fontSize: 11 }} axisLine={{ stroke: "#1e2028" }} tickLine={false} domain={["auto", "auto"]} />
+                  <Tooltip content={<CurveTooltip />} />
+                  <Line type="monotone" dataKey="UST" stroke="#3b82f6" strokeWidth={2} name="US Treasury" dot={{ r: 4 }} />
+                  <Line type="monotone" dataKey="JGB" stroke="#ef4444" strokeWidth={2} name="Japan JGB" dot={{ r: 4 }} />
+                  <Line type="monotone" dataKey="Gilt" stroke="#22c55e" strokeWidth={2} name="UK Gilt" dot={{ r: 4 }} />
+                  <Line type="monotone" dataKey="EIOPA" stroke="#f59e0b" strokeWidth={2} name="EIOPA EUR" dot={{ r: 4 }} />
+                  <Line type="monotone" dataKey="India" stroke="#ec4899" strokeWidth={2} name="India" dot={{ r: 4 }} />
+                  <Legend wrapperStyle={{ fontSize: 11, color: "#64748b" }} />
+                </LineChart>
+              </ResponsiveContainer>
+            </div>
+
+            {/* Two-column: News + BMA */}
+            <div style={{ display: "grid", gridTemplateColumns: "1fr 1fr", gap: 16 }}>
+              <div style={{ background: "#0d0f14", border: "1px solid #1e2028", borderRadius: 10, overflow: "hidden" }}>
+                <div style={{ padding: "14px 20px", borderBottom: "1px solid #1e2028", display: "flex", justifyContent: "space-between", alignItems: "center" }}>
+                  <h3 style={{ margin: 0, fontSize: 13, fontWeight: 700, color: "#e2e8f0" }}>
+                    <Newspaper size={14} style={{ verticalAlign: "middle", marginRight: 6 }} /> Latest News
+                  </h3>
+                  <button onClick={() => setPage("news")} style={{ background: "transparent", border: "none", color: "#3b82f6", fontSize: 11, cursor: "pointer", fontWeight: 600 }}>
+                    View All <ChevronRight size={12} style={{ verticalAlign: "middle" }} />
+                  </button>
+                </div>
+                {SAMPLE_NEWS.slice(0, 5).map(item => (
+                  <div key={item.id} style={{ padding: "10px 20px", borderBottom: "1px solid #13151b" }}>
+                    <div style={{ display: "flex", gap: 8, alignItems: "center", marginBottom: 3 }}>
+                      <Badge color="#3b82f6">{item.topic}</Badge>
+                      <span style={{ fontSize: 10, color: "#475569" }}>{timeAgo(item.date)}</span>
+                    </div>
+                    <div style={{ fontSize: 12, fontWeight: 600, color: "#e2e8f0", lineHeight: 1.4 }}>{item.title}</div>
+                  </div>
+                ))}
+              </div>
+
+              <div style={{ background: "#0d0f14", border: "1px solid #1e2028", borderRadius: 10, overflow: "hidden" }}>
+                <div style={{ padding: "14px 20px", borderBottom: "1px solid #1e2028", display: "flex", justifyContent: "space-between", alignItems: "center" }}>
+                  <h3 style={{ margin: 0, fontSize: 13, fontWeight: 700, color: "#e2e8f0" }}>
+                    <Shield size={14} style={{ verticalAlign: "middle", marginRight: 6 }} /> BMA Updates
+                  </h3>
+                  <button onClick={() => setPage("bma")} style={{ background: "transparent", border: "none", color: "#3b82f6", fontSize: 11, cursor: "pointer", fontWeight: 600 }}>
+                    View All <ChevronRight size={12} style={{ verticalAlign: "middle" }} />
+                  </button>
+                </div>
+                {SAMPLE_BMA.filter(u => u.isNew).slice(0, 4).map(item => (
+                  <div key={item.id} style={{ padding: "10px 20px", borderBottom: "1px solid #13151b" }}>
+                    <div style={{ display: "flex", gap: 8, alignItems: "center", marginBottom: 3 }}>
+                      <Badge color="#22c55e">NEW</Badge>
+                      <Badge>{item.category}</Badge>
+                      <span style={{ fontSize: 10, color: "#475569" }}>{item.date}</span>
+                    </div>
+                    <div style={{ fontSize: 12, fontWeight: 600, color: "#e2e8f0", lineHeight: 1.4 }}>{item.title}</div>
+                  </div>
+                ))}
+              </div>
+            </div>
+
+            {/* UST Curve */}
+            <SovereignYieldSection data={SAMPLE_UST} title="US Treasury Par Yield Curve (CMT)" accentColor="#3b82f6" />
+          </div>
+        );
+    }
+  };
+
+  return (
+    <div style={{
+      display: "flex", height: "100vh", background: "#080a0f", color: "#e2e8f0",
+      fontFamily: "'SF Mono', 'Fira Code', 'JetBrains Mono', 'IBM Plex Sans', -apple-system, sans-serif",
+      fontSize: 13, overflow: "hidden"
+    }}>
+      {/* ─── SIDEBAR ─── */}
+      <div style={{
+        width: sidebarOpen ? 220 : 52, transition: "width 0.2s ease", background: "#0a0c12",
+        borderRight: "1px solid #1a1d23", display: "flex", flexDirection: "column", flexShrink: 0, overflow: "hidden"
+      }}>
+        {/* Logo */}
+        <div style={{
+          padding: sidebarOpen ? "16px 18px" : "16px 12px", borderBottom: "1px solid #1a1d23",
+          display: "flex", alignItems: "center", gap: 10, cursor: "pointer", minHeight: 56
+        }} onClick={() => setSidebarOpen(!sidebarOpen)}>
+          <div style={{
+            width: 28, height: 28, borderRadius: 6, background: "linear-gradient(135deg, #3b82f6, #8b5cf6)",
+            display: "flex", alignItems: "center", justifyContent: "center", flexShrink: 0
+          }}>
+            <BarChart3 size={16} color="#fff" />
+          </div>
+          {sidebarOpen && (
+            <div>
+              <div style={{ fontSize: 13, fontWeight: 800, color: "#e2e8f0", letterSpacing: "-0.02em", lineHeight: 1.1 }}>BERMUDA</div>
+              <div style={{ fontSize: 9, fontWeight: 600, color: "#3b82f6", letterSpacing: "0.15em", textTransform: "uppercase" }}>MARKET INTEL</div>
+            </div>
+          )}
+        </div>
+
+        {/* Nav */}
+        <div style={{ flex: 1, padding: "8px 8px", overflowY: "auto" }}>
+          {PAGES.map(p => {
+            const Icon = p.icon;
+            const isActive = page === p.id;
+            return (
+              <button
+                key={p.id} onClick={() => setPage(p.id)}
+                style={{
+                  width: "100%", display: "flex", alignItems: "center", gap: 10,
+                  padding: sidebarOpen ? "9px 12px" : "9px 8px", marginBottom: 2, borderRadius: 6, border: "none",
+                  background: isActive ? "#1e2028" : "transparent", color: isActive ? "#e2e8f0" : "#64748b",
+                  cursor: "pointer", fontSize: 12, fontWeight: isActive ? 600 : 500, textAlign: "left",
+                  justifyContent: sidebarOpen ? "flex-start" : "center", transition: "all 0.15s"
+                }}
+                onMouseEnter={(e) => { if (!isActive) e.currentTarget.style.background = "#12141a"; }}
+                onMouseLeave={(e) => { if (!isActive) e.currentTarget.style.background = "transparent"; }}
+              >
+                <Icon size={16} style={{ flexShrink: 0 }} />
+                {sidebarOpen && <span>{p.label}</span>}
+                {sidebarOpen && isActive && <div style={{ width: 3, height: 16, borderRadius: 2, background: "#3b82f6", marginLeft: "auto" }} />}
+              </button>
+            );
+          })}
+        </div>
+
+        {/* Footer */}
+        {sidebarOpen && (
+          <div style={{ padding: "12px 16px", borderTop: "1px solid #1a1d23", fontSize: 10, color: "#334155" }}>
+            <div>Data refreshed via GitHub Actions</div>
+            <div style={{ marginTop: 2 }}>Sources: Treasury.gov, MOF Japan,</div>
+            <div>BoE, EIOPA, RBI, FRED, BMA</div>
+          </div>
+        )}
+      </div>
+
+      {/* ─── MAIN CONTENT ─── */}
+      <div style={{ flex: 1, display: "flex", flexDirection: "column", overflow: "hidden" }}>
+        {/* Top Bar */}
+        <div style={{
+          height: 44, padding: "0 20px", borderBottom: "1px solid #1a1d23", background: "#0a0c12",
+          display: "flex", alignItems: "center", justifyContent: "space-between", flexShrink: 0
+        }}>
+          <div style={{ display: "flex", alignItems: "center", gap: 12 }}>
+            <h2 style={{ margin: 0, fontSize: 14, fontWeight: 700, color: "#e2e8f0" }}>
+              {PAGES.find(p => p.id === page)?.label || "Overview"}
+            </h2>
+          </div>
+          <div style={{ display: "flex", alignItems: "center", gap: 16, fontSize: 11 }}>
+            <div style={{ display: "flex", alignItems: "center", gap: 6, color: "#64748b" }}>
+              <div style={{ width: 6, height: 6, borderRadius: "50%", background: "#22c55e" }} />
+              <span>LIVE</span>
+            </div>
+            <span style={{ color: "#3b82f6", fontFamily: "monospace", fontWeight: 700, fontSize: 13 }}>{clock}</span>
+            <span style={{ color: "#475569" }}>BMT</span>
+          </div>
+        </div>
+
+        {/* Content */}
+        <div style={{ flex: 1, overflow: "auto", padding: 20 }}>
+          {renderPage()}
+        </div>
+
+        {/* Bottom Status */}
+        <div style={{
+          height: 28, padding: "0 20px", borderTop: "1px solid #1a1d23", background: "#0a0c12",
+          display: "flex", alignItems: "center", justifyContent: "space-between", fontSize: 10, color: "#334155", flexShrink: 0
+        }}>
+          <div style={{ display: "flex", gap: 16 }}>
+            <span>UST 10Y: {formatYield(ust10y)}</span>
+            <span>JGB 10Y: {formatYield(jgb10y)}</span>
+            <span>Gilt 10Y: {formatYield(gilt10y)}</span>
+            <span>IG OAS: {SAMPLE_CREDIT.us.ig.spread}bp</span>
+            <span>HY OAS: {SAMPLE_CREDIT.us.hy.spread}bp</span>
+          </div>
+          <span>Bermuda Market Intelligence Terminal v1.0 — Sample Data</span>
+        </div>
+      </div>
+    </div>
+  );
+}
