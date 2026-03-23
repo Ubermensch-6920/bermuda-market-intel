@@ -1,7 +1,6 @@
 {
   "name": "bermuda-market-intel",
   "version": "1.0.0",
-  "description": "Market intelligence dashboard for Bermuda life insurance actuaries",
   "private": true,
   "type": "module",
   "scripts": {
