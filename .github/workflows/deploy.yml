@@ -1,16 +1,13 @@
-name: Refresh Data and Deploy
+name: Deploy to GitHub Pages
 
 on:
-  schedule:
-    - cron: '0 22 * * 1-5'
-    - cron: '0 8 * * 1-5'
   push:
     branches:
       - main
   workflow_dispatch:
 
 permissions:
-  contents: write
+  contents: read
   pages: write
   id-token: write
 
@@ -19,45 +16,25 @@ concurrency:
   cancel-in-progress: true
 
 jobs:
-  refresh-and-deploy:
+  build:
     runs-on: ubuntu-latest
-    timeout-minutes: 10
-    environment:
-      name: github-pages
     steps:
       - uses: actions/checkout@v4
-
-      - uses: actions/setup-python@v5
-        with:
-          python-version: '3.11'
-
-      - name: Fetch market data
-        run: python scripts/fetch_all.py
-        continue-on-error: true
-
-      - name: Commit data if changed
-        run: |
-          git config user.name "github-actions[bot]"
-          git config user.email "github-actions[bot]@users.noreply.github.com"
-          git add data/
-          git diff --staged --quiet || git commit -m "data: $(date -u '+%Y-%m-%d %H:%M UTC')"
-          git push || true
-
       - uses: actions/setup-node@v4
         with:
           node-version: 20
-
       - run: npm install
-
-      - name: Copy data into build
-        run: mkdir -p public/data && cp data/*.json public/data/ 2>/dev/null || echo "No data yet"
-
+      - name: Copy data to public
+        run: mkdir -p public/data && cp data/*.json public/data/ 2>/dev/null || echo "No data files yet"
       - run: npm run build
-
       - uses: actions/configure-pages@v4
-
       - uses: actions/upload-pages-artifact@v3
         with:
           path: dist
-
+  deploy:
+    needs: build
+    runs-on: ubuntu-latest
+    environment:
+      name: github-pages
+    steps:
       - uses: actions/deploy-pages@v4
