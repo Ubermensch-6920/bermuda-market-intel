@@ -1,62 +1,62 @@
 {
-  "date": "2026-03-20",
+  "date": "2026-03-23",
   "source": "FRED / ICE BofA Indices",
   "url": "https://fred.stlouisfed.org/release?rid=209",
   "spreads": {
     "ig": {
       "name": "US IG",
       "spread": 88,
-      "prior": 90,
+      "prior": 88,
       "bucket": "IG"
     },
     "aaa": {
       "name": "US AAA",
-      "spread": 41,
+      "spread": 39,
       "prior": 41,
       "bucket": "AAA"
     },
     "aa": {
       "name": "US AA",
-      "spread": 55,
-      "prior": 56,
+      "spread": 54,
+      "prior": 55,
       "bucket": "AA"
     },
     "a": {
       "name": "US A",
       "spread": 73,
-      "prior": 75,
+      "prior": 73,
       "bucket": "A"
     },
     "bbb": {
       "name": "US BBB",
       "spread": 111,
-      "prior": 113,
+      "prior": 111,
       "bucket": "BBB"
     },
     "hy": {
       "name": "US HY",
-      "spread": 324,
-      "prior": 327,
+      "spread": 319,
+      "prior": 324,
       "bucket": "HY"
     },
     "bb": {
       "name": "US BB",
-      "spread": 200,
-      "prior": 204,
+      "spread": 197,
+      "prior": 200,
       "bucket": "BB"
     },
     "b": {
       "name": "US B",
-      "spread": 357,
-      "prior": 361,
+      "spread": 350,
+      "prior": 357,
       "bucket": "B"
     },
     "ccc": {
       "name": "US CCC+",
-      "spread": 979,
-      "prior": 976,
+      "spread": 975,
+      "prior": 979,
       "bucket": "CCC"
     }
   },
-  "_fetched": "2026-03-24T14:39:50.800436Z"
+  "_fetched": "2026-03-24T15:20:18.507018Z"
 }
