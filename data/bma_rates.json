@@ -1,0 +1,250 @@
+{
+  "as_of_date": "30 June 2025",
+  "publication_info": "Published: 30 September 2025",
+  "source": "Bermuda Monetary Authority \u2014 EBS Discount Rates",
+  "url": "https://www.bma.bm/document-centre/reporting-forms-and-guidelines-insurance",
+  "pdf_url": "",
+  "tenors": [
+    "0.5Y",
+    "1Y",
+    "2Y",
+    "3Y",
+    "5Y",
+    "7Y",
+    "10Y",
+    "15Y",
+    "20Y",
+    "25Y",
+    "30Y",
+    "40Y",
+    "50Y"
+  ],
+  "currencies": {
+    "USD": {
+      "rates": [
+        5.1,
+        4.85,
+        4.6,
+        4.35,
+        4.2,
+        4.1,
+        4.05,
+        4.0,
+        3.95,
+        3.9,
+        3.85,
+        3.8,
+        3.75
+      ],
+      "prior_rates": [
+        5.15,
+        4.9,
+        4.65,
+        4.4,
+        4.25,
+        4.15,
+        4.08,
+        4.02,
+        3.97,
+        3.92,
+        3.87,
+        3.82,
+        3.77
+      ]
+    },
+    "GBP": {
+      "rates": [
+        4.8,
+        4.55,
+        4.35,
+        4.2,
+        4.15,
+        4.1,
+        4.08,
+        4.05,
+        4.02,
+        4.0,
+        3.98,
+        3.95,
+        3.92
+      ],
+      "prior_rates": [
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null
+      ]
+    },
+    "EUR": {
+      "rates": [
+        3.2,
+        3.05,
+        2.9,
+        2.75,
+        2.68,
+        2.6,
+        2.55,
+        2.5,
+        2.45,
+        2.4,
+        2.38,
+        2.35,
+        2.32
+      ],
+      "prior_rates": [
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null
+      ]
+    },
+    "JPY": {
+      "rates": [
+        0.1,
+        0.15,
+        0.22,
+        0.35,
+        0.5,
+        0.65,
+        0.85,
+        1.0,
+        1.15,
+        1.25,
+        1.35,
+        1.5,
+        1.6
+      ],
+      "prior_rates": [
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null
+      ]
+    },
+    "CAD": {
+      "rates": [
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null
+      ],
+      "prior_rates": [
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null
+      ]
+    },
+    "AUD": {
+      "rates": [
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null
+      ],
+      "prior_rates": [
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null
+      ]
+    },
+    "CHF": {
+      "rates": [
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null
+      ],
+      "prior_rates": [
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null
+      ]
+    }
+  },
+  "note": "BMA publishes quarterly EBS discount rate curves as PDFs. Rates below are from the manual file (data/bma_rates_manual.json) if available. Update by downloading the latest PDF from the BMA website and editing that file.",
+  "_fetched": "2026-03-24T22:37:35.020105Z"
+}

@@ -1,6 +1,6 @@
 {
-  "date": "2026-03-23",
-  "prior_date": "2026-03-20",
+  "date": "2026-03-24",
+  "prior_date": "2026-03-23",
   "source": "US Treasury Daily Par Yield Curve",
   "url": "https://home.treasury.gov/resource-center/data-chart-center/interest-rates",
   "tenors": [
@@ -17,6 +17,19 @@
     "30Y"
   ],
   "yields": [
+    3.74,
+    3.74,
+    3.78,
+    3.81,
+    3.9,
+    3.93,
+    4.03,
+    4.21,
+    4.39,
+    4.95,
+    4.94
+  ],
+  "prior_yields": [
     3.73,
     3.74,
     3.77,
@@ -29,18 +42,19 @@
     4.93,
     4.91
   ],
-  "prior_yields": [
-    3.73,
-    3.74,
-    3.79,
-    3.8,
-    3.88,
-    3.9,
+  "year_ago_yields": [
+    4.35,
+    4.33,
+    4.27,
+    4.11,
+    4.04,
     4.01,
-    4.2,
-    4.39,
-    4.97,
-    4.96
+    4.09,
+    4.22,
+    4.34,
+    4.68,
+    4.66
   ],
-  "_fetched": "2026-03-24T16:59:46.555557Z"
+  "year_ago_date": "2025-03-24",
+  "_fetched": "2026-03-24T22:34:36.776812Z"
 }

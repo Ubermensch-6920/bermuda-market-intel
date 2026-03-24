@@ -5,8 +5,9 @@
     "gilt": "ok",
     "eur": "ok",
     "india": "ok",
-    "credit": "CREDIT: no series"
+    "credit": "CREDIT: no series",
+    "bma_rates": "ok"
   },
-  "run": "2026-03-24T17:03:03.659269Z",
-  "_fetched": "2026-03-24T17:03:03.659278Z"
+  "run": "2026-03-24T22:37:35.020590Z",
+  "_fetched": "2026-03-24T22:37:35.020595Z"
 }
