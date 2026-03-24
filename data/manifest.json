@@ -2,11 +2,11 @@
   "results": {
     "ust": "ok",
     "jgb": "ok",
-    "gilt": "GILT: 0 dates from 290 lines",
+    "gilt": "ok",
     "eur": "ok",
     "india": "ok",
-    "credit": "ok"
+    "credit": "CREDIT: no series"
   },
-  "run": "2026-03-24T15:20:18.507461Z",
-  "_fetched": "2026-03-24T15:20:18.507468Z"
+  "run": "2026-03-24T17:03:03.659269Z",
+  "_fetched": "2026-03-24T17:03:03.659278Z"
 }

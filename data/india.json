@@ -1,8 +1,8 @@
 {
   "date": "2026-03-24",
   "prior_date": "",
-  "source": "FRED (India 10Y monthly) + manual",
-  "url": "https://fred.stlouisfed.org/series/INDIRLTLT01STM",
+  "source": "Investing.com / FRED (10Y cross-ref)",
+  "url": "https://www.investing.com/rates-bonds/india-government-bonds",
   "tenors": [
     "1Y",
     "2Y",
@@ -15,15 +15,15 @@
     "30Y"
   ],
   "yields": [
+    5.717,
+    6.195,
+    6.175,
+    6.581,
+    6.839,
+    6.867,
+    7.204,
     null,
-    null,
-    null,
-    null,
-    null,
-    6.78,
-    null,
-    null,
-    null
+    7.62
   ],
   "prior_yields": [
     null,
@@ -36,6 +36,6 @@
     null,
     null
   ],
-  "note": "Only 10Y via FRED (monthly). Full curve needs server-side browser scraping.",
-  "_fetched": "2026-03-24T15:20:15.040417Z"
+  "note": "8/9 tenors from investing.com.",
+  "_fetched": "2026-03-24T17:00:47.234967Z"
 }
