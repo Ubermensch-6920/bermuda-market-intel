@@ -2,11 +2,11 @@
   "results": {
     "ust": "ok",
     "jgb": "ok",
-    "gilt": "GILT: 0 valid dates from 261 lines. Header: ['<!DOCTYPE html>']",
+    "gilt": "GILT: 0 dates from 290 lines",
     "eur": "ok",
     "india": "ok",
-    "credit": "CREDIT: no series"
+    "credit": "ok"
   },
-  "run": "2026-03-24T14:37:59.913985Z",
-  "_fetched": "2026-03-24T14:37:59.913994Z"
+  "run": "2026-03-24T14:39:50.800858Z",
+  "_fetched": "2026-03-24T14:39:50.800863Z"
 }

@@ -36,6 +36,6 @@
     3.4726,
     3.485
   ],
-  "note": "EUR AAA govt curve proxy. Actual EIOPA RFR includes UFR extrapolation.",
-  "_fetched": "2026-03-24T14:35:25.775068Z"
+  "note": "EUR AAA govt curve. Actual EIOPA RFR includes UFR extrapolation.",
+  "_fetched": "2026-03-24T14:39:49.907178Z"
 }

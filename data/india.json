@@ -1,8 +1,8 @@
 {
   "date": "2026-03-24",
   "prior_date": "",
-  "source": "CCIL / RBI / FRED",
-  "url": "https://www.ccilindia.com/web/ccil/tenorwise-indicative-yields",
+  "source": "FRED (India 10Y monthly) + manual",
+  "url": "https://fred.stlouisfed.org/series/INDIRLTLT01STM",
   "tenors": [
     "1Y",
     "2Y",
@@ -20,7 +20,7 @@
     null,
     null,
     null,
-    null,
+    6.78,
     null,
     null,
     null
@@ -36,6 +36,6 @@
     null,
     null
   ],
-  "note": "Only 10Y available (FRED monthly). Full curve needs CCIL/RBI server-side browser scraping.",
-  "_fetched": "2026-03-24T14:35:43.762351Z"
+  "note": "Only 10Y via FRED (monthly). Full curve needs server-side browser scraping.",
+  "_fetched": "2026-03-24T14:39:50.148113Z"
 }
