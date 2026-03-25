@@ -1,5 +1,5 @@
 {
-  "date": "2026-03-24",
+  "date": "2026-03-25",
   "prior_date": "",
   "source": "Investing.com / FRED",
   "url": "https://www.investing.com/rates-bonds/india-government-bonds",
@@ -48,5 +48,5 @@
     null
   ],
   "year_ago_date": "",
-  "_fetched": "2026-03-24T22:35:16.439075Z"
+  "_fetched": "2026-03-25T00:30:15.786999Z"
 }
