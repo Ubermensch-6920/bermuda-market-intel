@@ -246,5 +246,5 @@
     }
   },
   "note": "BMA publishes quarterly EBS discount rate curves as PDFs. Rates below are from the manual file (data/bma_rates_manual.json) if available. Update by downloading the latest PDF from the BMA website and editing that file.",
-  "_fetched": "2026-03-25T13:33:21.341105Z"
+  "_fetched": "2026-03-25T13:42:23.600742Z"
 }
