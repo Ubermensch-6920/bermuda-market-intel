@@ -6,7 +6,7 @@ import {
 import {
   Globe, Shield, Newspaper, BarChart3, ChevronRight, ExternalLink,
   Clock, RefreshCw, Activity, DollarSign, Percent, ArrowUpRight,
-  ArrowDownRight, Minus, AlertTriangle, Loader, Landmark
+  ArrowDownRight, Minus, AlertTriangle, Loader, Landmark, TrendingUp
 } from "lucide-react";
 
 /* ═══════════════════════════════════════════════════════════════════
@@ -244,6 +244,125 @@ const BmaRatesSection = ({ data, loading: ld, error }) => {
 };
 
 // ═══════════════════════════════════════════
+// SOFR SECTION
+// ═══════════════════════════════════════════
+const SofrSection = ({ data, loading: ld, error }) => {
+  if (ld) return <div style={{ background: "#0d0f14", border: "1px solid #1e2028", borderRadius: 10, padding: 40, textAlign: "center", color: "#94a3b8" }}><Loader size={24} style={{ animation: "spin 1s linear infinite", margin: "0 auto 12px", display: "block", color: "#60a5fa" }} />Loading SOFR…</div>;
+  if (error) return <div style={{ background: "#0d0f14", border: "1px solid #1e2028", borderRadius: 10, padding: 20 }}><h3 style={{ margin: "0 0 8px", fontSize: 16, fontWeight: 700, color: "#f1f5f9" }}>SOFR</h3><div style={{ color: "#f87171", fontSize: 13 }}><AlertTriangle size={15} style={{ verticalAlign: "middle", marginRight: 6 }} />{error}</div></div>;
+  if (!data) return null;
+
+  const rates = data.rates || {};
+  const history = data.history || [];
+  const ya = data.year_ago || {};
+
+  return (<div style={{ background: "#0d0f14", border: "1px solid #1e2028", borderRadius: 10, overflow: "hidden" }}>
+    <div style={{ padding: "16px 22px", borderBottom: "1px solid #1e2028" }}>
+      <h3 style={{ margin: 0, fontSize: 17, fontWeight: 700, color: "#f1f5f9" }}>
+        <TrendingUp size={18} style={{ verticalAlign: "middle", marginRight: 8 }} />
+        SOFR — Secured Overnight Financing Rate
+      </h3>
+      <DataFresh date={data.date} source={data.source} url={data.url} />
+      {data.note && <div style={{ fontSize: 11, color: "#94a3b8", marginTop: 5 }}>{data.note}</div>}
+    </div>
+
+    {/* Rate cards */}
+    <div style={{ padding: "16px 22px", display: "grid", gridTemplateColumns: "repeat(auto-fill, minmax(200px, 1fr))", gap: 12 }}>
+      {Object.entries(rates).map(([key, r]) => {
+        const chg = r.rate != null && r.prior != null ? ((r.rate - r.prior) * 100).toFixed(1) : null;
+        const chgNum = parseFloat(chg);
+        return (<div key={key} style={{ background: "#12141a", border: "1px solid #1e2028", borderRadius: 10, padding: "16px 20px" }}>
+          <div style={{ fontSize: 12, color: "#94a3b8", fontWeight: 600, marginBottom: 4 }}>{r.name}</div>
+          <div style={{ fontSize: 11, color: "#64748b", marginBottom: 8 }}>{r.desc}</div>
+          <div style={{ display: "flex", alignItems: "baseline", gap: 10 }}>
+            <span style={{ fontSize: 26, fontWeight: 700, color: "#f1f5f9", fontFamily: "'JetBrains Mono', monospace" }}>
+              {r.rate != null ? r.rate.toFixed(2) + "%" : "—"}
+            </span>
+            {chg != null && !isNaN(chgNum) && (
+              <span style={{ fontSize: 13, color: chgCol(chgNum), display: "flex", alignItems: "center", gap: 3, fontWeight: 600, fontFamily: "monospace" }}>
+                <ChgIcon v={chg} />{Math.abs(chgNum).toFixed(1)}bp
+              </span>
+            )}
+          </div>
+          <div style={{ fontSize: 11, color: "#475569", marginTop: 4 }}>Prior: {r.prior != null ? r.prior.toFixed(2) + "%" : "—"}</div>
+        </div>);
+      })}
+
+      {/* Year-ago card */}
+      {ya.rate != null && (<div style={{ background: "#12141a", border: "1px solid #1e2028", borderRadius: 10, padding: "16px 20px" }}>
+        <div style={{ fontSize: 12, color: "#f59e0b", fontWeight: 600, marginBottom: 4 }}>1 Year Ago</div>
+        <div style={{ fontSize: 11, color: "#64748b", marginBottom: 8 }}>{ya.date || ""}</div>
+        <div style={{ display: "flex", alignItems: "baseline", gap: 10 }}>
+          <span style={{ fontSize: 26, fontWeight: 700, color: "#d4a057", fontFamily: "'JetBrains Mono', monospace" }}>
+            {ya.rate.toFixed(2)}%
+          </span>
+          {rates.SOFR?.rate != null && (() => {
+            const yoyChg = ((rates.SOFR.rate - ya.rate) * 100).toFixed(1);
+            const yoyNum = parseFloat(yoyChg);
+            return <span style={{ fontSize: 13, color: chgCol(yoyNum), fontWeight: 600, fontFamily: "monospace" }}>
+              {yoyNum > 0 ? "+" : ""}{yoyChg}bp YoY
+            </span>;
+          })()}
+        </div>
+      </div>)}
+    </div>
+
+    {/* Daily SOFR history chart */}
+    {history.length > 5 && (<div style={{ padding: "8px 14px 16px" }}>
+      <div style={{ fontSize: 13, fontWeight: 700, color: "#94a3b8", marginBottom: 8, marginLeft: 8 }}>DAILY SOFR — LAST 30 BUSINESS DAYS</div>
+      <ResponsiveContainer width="100%" height={220}>
+        <AreaChart data={history}>
+          <defs><linearGradient id="gSofr" x1="0" y1="0" x2="0" y2="1"><stop offset="5%" stopColor="#60a5fa" stopOpacity={0.3} /><stop offset="95%" stopColor="#60a5fa" stopOpacity={0} /></linearGradient></defs>
+          <CartesianGrid strokeDasharray="3 3" stroke="#1e2028" />
+          <XAxis dataKey="date" tick={{ fill: "#94a3b8", fontSize: 10 }} axisLine={{ stroke: "#1e2028" }} tickLine={false}
+            tickFormatter={d => { const p = d.split("-"); return p[1] + "/" + p[2]; }} />
+          <YAxis tick={{ fill: "#94a3b8", fontSize: 12 }} axisLine={{ stroke: "#1e2028" }} tickLine={false} domain={["auto", "auto"]}
+            tickFormatter={v => v.toFixed(2) + "%"} />
+          <Tooltip content={<CTooltip />} />
+          <Area type="monotone" dataKey="rate" stroke="#60a5fa" strokeWidth={2} fill="url(#gSofr)" name="SOFR" dot={false} />
+          {ya.rate != null && <Line type="monotone" dataKey={() => ya.rate} stroke="#f59e0b" strokeWidth={1} strokeDasharray="6 4" name="1Y Ago" dot={false} />}
+        </AreaChart>
+      </ResponsiveContainer>
+    </div>)}
+
+    {/* Summary table */}
+    <div style={{ padding: "0 22px 16px", overflowX: "auto" }}>
+      <table style={{ width: "100%", borderCollapse: "collapse", fontSize: 13 }}>
+        <thead>
+          <tr style={{ borderBottom: "2px solid #1e2028" }}>
+            <th style={{ textAlign: "left", padding: "8px 12px", color: "#94a3b8", fontWeight: 700, fontSize: 12 }}>Metric</th>
+            <th style={{ textAlign: "right", padding: "8px 12px", color: "#94a3b8", fontWeight: 700, fontSize: 12 }}>Rate</th>
+            <th style={{ textAlign: "right", padding: "8px 12px", color: "#94a3b8", fontWeight: 700, fontSize: 12 }}>Prior</th>
+            <th style={{ textAlign: "right", padding: "8px 12px", color: "#94a3b8", fontWeight: 700, fontSize: 12 }}>Chg (bp)</th>
+            <th style={{ textAlign: "right", padding: "8px 12px", color: "#94a3b8", fontWeight: 700, fontSize: 12 }}>Date</th>
+          </tr>
+        </thead>
+        <tbody>
+          {Object.entries(rates).map(([key, r]) => {
+            const ch = r.rate != null && r.prior != null ? ((r.rate - r.prior) * 100).toFixed(1) : null;
+            const chNum = parseFloat(ch);
+            return (<tr key={key} style={{ borderBottom: "1px solid #151820" }}>
+              <td style={{ padding: "7px 12px", color: "#f1f5f9", fontWeight: 600 }}>{r.name}</td>
+              <td style={{ padding: "7px 12px", color: "#f1f5f9", textAlign: "right", fontFamily: "monospace", fontWeight: 700, fontSize: 14 }}>{r.rate != null ? r.rate.toFixed(4) + "%" : "—"}</td>
+              <td style={{ padding: "7px 12px", color: "#94a3b8", textAlign: "right", fontFamily: "monospace" }}>{r.prior != null ? r.prior.toFixed(4) + "%" : "—"}</td>
+              <td style={{ padding: "7px 12px", textAlign: "right", fontFamily: "monospace", color: chgCol(chNum), fontWeight: 600 }}>{ch != null ? (chNum > 0 ? "+" : "") + ch : "—"}</td>
+              <td style={{ padding: "7px 12px", color: "#64748b", textAlign: "right", fontSize: 12 }}>{r.date || "—"}</td>
+            </tr>);
+          })}
+          {ya.rate != null && (<tr style={{ borderBottom: "1px solid #151820", background: "#111318" }}>
+            <td style={{ padding: "7px 12px", color: "#f59e0b", fontWeight: 600 }}>1 Year Ago</td>
+            <td style={{ padding: "7px 12px", color: "#d4a057", textAlign: "right", fontFamily: "monospace", fontWeight: 700, fontSize: 14 }}>{ya.rate.toFixed(4)}%</td>
+            <td colSpan={2} style={{ padding: "7px 12px", textAlign: "right", fontFamily: "monospace", color: chgCol(parseFloat(((rates.SOFR?.rate - ya.rate) * 100).toFixed(1))), fontWeight: 600 }}>
+              {rates.SOFR?.rate != null ? (((rates.SOFR.rate - ya.rate) * 100) > 0 ? "+" : "") + ((rates.SOFR.rate - ya.rate) * 100).toFixed(1) + "bp YoY" : "—"}
+            </td>
+            <td style={{ padding: "7px 12px", color: "#64748b", textAlign: "right", fontSize: 12 }}>{ya.date}</td>
+          </tr>)}
+        </tbody>
+      </table>
+    </div>
+  </div>);
+};
+
+// ═══════════════════════════════════════════
 // NEWS & BMA UPDATES (curated)
 // ═══════════════════════════════════════════
 const NEWS = [
@@ -276,10 +395,11 @@ const PAGES = [
   { id: "jgb", label: "Japan JGB", icon: Globe }, { id: "gilt", label: "UK Gilts", icon: Globe },
   { id: "eiopa", label: "EIOPA EUR", icon: Globe }, { id: "india", label: "India Govt", icon: Globe },
   { id: "bma_rates", label: "BMA Rates", icon: Landmark },
+  { id: "sofr", label: "SOFR", icon: TrendingUp },
   { id: "credit", label: "Credit Spreads", icon: Percent },
   { id: "news", label: "News", icon: Newspaper }, { id: "bma", label: "BMA Updates", icon: Shield },
 ];
-const FILES = { ust: "ust.json", jgb: "jgb.json", gilt: "gilt.json", eiopa: "eur.json", india: "india.json", credit: "credit.json", bma_rates: "bma_rates.json" };
+const FILES = { ust: "ust.json", jgb: "jgb.json", gilt: "gilt.json", eiopa: "eur.json", india: "india.json", credit: "credit.json", sofr: "sofr.json", bma_rates: "bma_rates.json" };
 
 export default function App() {
   const [page, setPage] = useState("home");
@@ -314,6 +434,7 @@ export default function App() {
   const india10y = gv("india", "10Y"), india10yP = gp("india", "10Y");
   const igS = data.credit?.spreads?.ig?.spread, igP = data.credit?.spreads?.ig?.prior;
   const hyS = data.credit?.spreads?.hy?.spread, hyP = data.credit?.spreads?.hy?.prior;
+  const sofrRate = data.sofr?.rates?.SOFR?.rate, sofrPrior = data.sofr?.rates?.SOFR?.prior;
 
   const compT = ["1Y", "2Y", "3Y", "5Y", "7Y", "10Y", "15Y", "20Y", "30Y"];
   const mc = compT.map(t => ({ tenor: t, UST: gv("ust", t), JGB: gv("jgb", t), Gilt: gv("gilt", t), EUR: gv("eiopa", t), India: gv("india", t) }));
@@ -328,6 +449,7 @@ export default function App() {
       case "eiopa": return <SovSection data={data.eiopa} title="EUR Govt Yield Curve (EIOPA proxy)" accentColor="#f59e0b" loading={ls.eiopa} error={errs.eiopa} />;
       case "india": return <SovSection data={data.india} title="India Government Bond Yields" accentColor="#ec4899" loading={ls.india} error={errs.india} />;
       case "bma_rates": return <BmaRatesSection data={data.bma_rates} loading={ls.bma_rates} error={errs.bma_rates} />;
+      case "sofr": return <SofrSection data={data.sofr} loading={ls.sofr} error={errs.sofr} />;
       case "credit": return <CreditSection data={data.credit} loading={ls.credit} error={errs.credit} />;
       case "news": return <NewsSection />; case "bma": return <BMAUpdSection />;
       default: return (<div style={{ display: "flex", flexDirection: "column", gap: 20 }}>
@@ -353,6 +475,7 @@ export default function App() {
             <MetricCard label="India 10Y" value={fmtY(india10y)} change={chgBp(india10y, india10yP)} loading={ls.india} />
             <MetricCard label="US IG OAS" value={igS != null ? igS + "bp" : "—"} change={igP != null ? (igS - igP).toFixed(0) : null} loading={ls.credit} />
             <MetricCard label="US HY OAS" value={hyS != null ? hyS + "bp" : "—"} change={hyP != null ? (hyS - hyP).toFixed(0) : null} loading={ls.credit} />
+            <MetricCard label="SOFR" value={sofrRate != null ? sofrRate.toFixed(2) + "%" : "—"} change={chgBp(sofrRate, sofrPrior)} loading={ls.sofr} />
           </div>
         </div>
 
@@ -422,8 +545,8 @@ export default function App() {
       </div>
       <div style={{ flex: 1, overflow: "auto", padding: 20 }}>{renderPage()}</div>
       <div style={{ height: 28, padding: "0 22px", borderTop: "1px solid #1a1d23", background: "#0a0c12", display: "flex", alignItems: "center", justifyContent: "space-between", fontSize: 11, color: "#475569", flexShrink: 0 }}>
-        <div style={{ display: "flex", gap: 16 }}>{ust10y != null && <span>UST 10Y: {fmtY(ust10y)}</span>}{jgb10y != null && <span>JGB 10Y: {fmtY(jgb10y)}</span>}{gilt10y != null && <span>Gilt 10Y: {fmtY(gilt10y)}</span>}{india10y != null && <span>India 10Y: {fmtY(india10y)}</span>}{igS != null && <span>IG: {igS}bp</span>}{hyS != null && <span>HY: {hyS}bp</span>}</div>
-        <span>Bermuda Market Intel v8</span>
+        <div style={{ display: "flex", gap: 16 }}>{ust10y != null && <span>UST 10Y: {fmtY(ust10y)}</span>}{jgb10y != null && <span>JGB 10Y: {fmtY(jgb10y)}</span>}{gilt10y != null && <span>Gilt 10Y: {fmtY(gilt10y)}</span>}{india10y != null && <span>India 10Y: {fmtY(india10y)}</span>}{sofrRate != null && <span>SOFR: {sofrRate.toFixed(2)}%</span>}{igS != null && <span>IG: {igS}bp</span>}{hyS != null && <span>HY: {hyS}bp</span>}</div>
+        <span>Bermuda Market Intel v9</span>
       </div>
     </div>
   </div>);
