@@ -1,9 +1,9 @@
 {
   "as_of_date": "30 June 2025",
-  "publication_info": "Published: 30 September 2025",
+  "publication_date": "",
   "source": "Bermuda Monetary Authority \u2014 EBS Discount Rates",
   "url": "https://www.bma.bm/document-centre/reporting-forms-and-guidelines-insurance",
-  "pdf_url": "",
+  "pdf_url": "https://cdn.bma.bm/documents/2025-10-22-15-18-14-Discount-Rates.-30-September-2025..xlsx",
   "tenors": [
     "0.5Y",
     "1Y",
@@ -18,6 +18,32 @@
     "30Y",
     "40Y",
     "50Y"
+  ],
+  "all_publications": [
+    {
+      "as_of": "30 September 2025",
+      "published": ""
+    },
+    {
+      "as_of": "30 September 2025",
+      "published": ""
+    },
+    {
+      "as_of": "30 June 2025",
+      "published": ""
+    },
+    {
+      "as_of": "30 June 2025",
+      "published": ""
+    },
+    {
+      "as_of": "31 March 2025",
+      "published": ""
+    },
+    {
+      "as_of": "31 March 2025",
+      "published": ""
+    }
   ],
   "currencies": {
     "USD": {
@@ -245,6 +271,6 @@
       ]
     }
   },
-  "note": "BMA publishes quarterly EBS discount rate curves as PDFs. Rates below are from the manual file (data/bma_rates_manual.json) if available. Update by downloading the latest PDF from the BMA website and editing that file.",
-  "_fetched": "2026-03-25T13:42:23.600742Z"
+  "note": "Latest found: 30 September 2025. Rates from manual file.",
+  "_fetched": "2026-03-25T14:08:15.417112Z"
 }
