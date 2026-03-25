@@ -6,8 +6,9 @@
     "eur": "ok",
     "india": "ok",
     "credit": "CREDIT: no series",
+    "sofr": "SOFR: no data",
     "bma_rates": "ok"
   },
-  "run": "2026-03-25T14:08:15.417642Z",
-  "_fetched": "2026-03-25T14:08:15.417648Z"
+  "run": "2026-03-25T15:07:14.301057Z",
+  "_fetched": "2026-03-25T15:07:14.301061Z"
 }

@@ -1,7 +1,7 @@
 {
   "as_of_date": "30 June 2025",
   "publication_date": "",
-  "source": "Bermuda Monetary Authority \u2014 EBS Discount Rates",
+  "source": "BMA \u2014 EBS Discount Rates",
   "url": "https://www.bma.bm/document-centre/reporting-forms-and-guidelines-insurance",
   "pdf_url": "https://cdn.bma.bm/documents/2025-10-22-15-18-14-Discount-Rates.-30-September-2025..xlsx",
   "tenors": [
@@ -271,6 +271,6 @@
       ]
     }
   },
-  "note": "Latest found: 30 September 2025. Rates from manual file.",
-  "_fetched": "2026-03-25T14:08:15.417112Z"
+  "note": "Latest: 30 September 2025. Rates from manual file.",
+  "_fetched": "2026-03-25T15:07:14.300591Z"
 }
