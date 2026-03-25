@@ -16,7 +16,7 @@
   ],
   "yields": [
     5.801,
-    null,
+    6.252,
     6.305,
     6.602,
     6.814,
@@ -48,6 +48,6 @@
     null
   ],
   "year_ago_date": "",
-  "note": "7/9 tenors. Year-ago: 10Y only (FRED monthly).",
-  "_fetched": "2026-03-25T19:13:59.520520Z"
+  "note": "8/9 tenors. Year-ago: 10Y only (FRED monthly).",
+  "_fetched": "2026-03-25T21:55:53.691279Z"
 }
