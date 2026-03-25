@@ -287,104 +287,120 @@ def fetch_credit():
     log.info(f"  CREDIT OK: {latest_date}")
 
 # ═══════════════════════════════════════════
-# 7. BMA DISCOUNT RATES (quarterly — detect latest from BMA page)
+# 7. SOFR (FRED — daily rate + 30/90/180 day averages + year-ago)
 # ═══════════════════════════════════════════
+def fetch_sofr():
+    log.info("SOFR: fetching")
+    sofr_series = {
+        "SOFR": {"id": "SOFR", "name": "SOFR (Daily)", "desc": "Secured Overnight Financing Rate"},
+        "30D_AVG": {"id": "SOFR30DAYAVG", "name": "SOFR 30-Day Avg", "desc": "30-calendar-day compounded average"},
+        "90D_AVG": {"id": "SOFR90DAYAVG", "name": "SOFR 90-Day Avg", "desc": "90-calendar-day compounded average"},
+        "180D_AVG": {"id": "SOFR180DAYAVG", "name": "SOFR 180-Day Avg", "desc": "180-calendar-day compounded average"},
+    }
+    
+    rates = {}
+    latest_date = ""
+    history = []  # Daily SOFR for last 30 business days for chart
+    
+    for key, info in sofr_series.items():
+        try:
+            obs = fred_csv(info["id"], start="2025-01-01")
+            if obs:
+                curr = round(obs[0]["value"], 4)
+                prev = round(obs[1]["value"], 4) if len(obs) > 1 else curr
+                if obs[0]["date"] > latest_date:
+                    latest_date = obs[0]["date"]
+                rates[key] = {
+                    "name": info["name"],
+                    "desc": info["desc"],
+                    "rate": curr,
+                    "prior": prev,
+                    "date": obs[0]["date"],
+                }
+                log.info(f"  SOFR {key}: {curr}% ({obs[0]['date']})")
+                
+                # Build daily history from the main SOFR series
+                if key == "SOFR":
+                    for o in obs[:30]:
+                        history.append({"date": o["date"], "rate": round(o["value"], 4)})
+        except Exception as e:
+            log.warning(f"  SOFR {key}: {e}")
+    
+    assert rates, "SOFR: no data"
+    
+    # Year-ago SOFR
+    ya_rate, ya_date = None, ""
+    try:
+        target = (datetime.utcnow() - timedelta(days=365)).strftime("%Y-%m-%d")
+        obs = fred_csv("SOFR", start=(datetime.utcnow() - timedelta(days=400)).strftime("%Y-%m-%d"))
+        if obs:
+            best = min(obs, key=lambda o: abs((datetime.strptime(o["date"],"%Y-%m-%d") - datetime.strptime(target,"%Y-%m-%d")).days))
+            ya_rate = round(best["value"], 4); ya_date = best["date"]
+            log.info(f"  SOFR year-ago: {ya_rate}% ({ya_date})")
+    except: pass
+    
+    history.sort(key=lambda x: x["date"])  # ascending for chart
+    
+    write("sofr.json", {
+        "date": latest_date,
+        "source": "FRED / NY Fed",
+        "url": "https://www.newyorkfed.org/markets/reference-rates/sofr",
+        "rates": rates,
+        "history": history,
+        "year_ago": {"rate": ya_rate, "date": ya_date},
+        "note": "SOFR is published daily by the NY Fed at ~8:00 AM ET. Averages are compounded backward-looking.",
+    })
+    log.info(f"  SOFR OK: {latest_date}")
+ 
+# ── 8. BMA RATES ──
 def fetch_bma_rates():
     log.info("BMA RATES: fetching")
-    # Scrape BMA page for latest discount rate publications
-    latest_date = ""
-    latest_pub_date = ""
-    pdf_url = ""
-    all_dr_entries = []
+    latest_date, latest_pub, pdf_url = "", "", ""
+    all_dr = []
     try:
         html = get("https://www.bma.bm/document-centre/reporting-forms-and-guidelines-insurance", timeout=20)
-        # Find all "Discount Rates" entries with their dates
-        # Pattern: "Discount Rates. 31 December 2024. - 17 January 2025"
-        # or "Discount Rates. 30 June 2025. - 18 July 2025"
-        dr_pattern = r'Discount\s+Rates[.\s]*(\d{1,2}\s+\w+\s+\d{4})[.\s]*-?\s*(\d{1,2}\s+\w+\s+\d{4})?'
-        matches = re.findall(dr_pattern, html, re.IGNORECASE)
+        matches = re.findall(r'Discount\s+Rates[.\s]*(\d{1,2}\s+\w+\s+\d{4})[.\s]*-?\s*(\d{1,2}\s+\w+\s+\d{4})?', html, re.IGNORECASE)
         for m in matches:
-            as_of = m[0].strip()
-            published = m[1].strip() if m[1] else ""
-            all_dr_entries.append({"as_of": as_of, "published": published})
-            log.info(f"  BMA DR found: as_of={as_of}, published={published}")
-        
-        # Sort by as_of date to find latest
-        def parse_bma_date(s):
-            try:
-                for fmt in ["%d %B %Y", "%d %b %Y"]:
-                    try: return datetime.strptime(s.strip(), fmt)
-                    except: pass
-            except: pass
+            all_dr.append({"as_of": m[0].strip(), "published": m[1].strip() if m[1] else ""})
+        def parse_d(s):
+            for fmt in ["%d %B %Y", "%d %b %Y"]:
+                try: return datetime.strptime(s.strip(), fmt)
+                except: pass
             return datetime(2000,1,1)
-        
-        if all_dr_entries:
-            all_dr_entries.sort(key=lambda x: parse_bma_date(x["as_of"]), reverse=True)
-            latest_date = all_dr_entries[0]["as_of"]
-            latest_pub_date = all_dr_entries[0]["published"]
-            log.info(f"  BMA latest: as_of={latest_date}, published={latest_pub_date}")
-        
-        # Try to find PDF links for discount rates
-        pdf_matches = re.findall(r'href="([^"]*[Dd]iscount[^"]*\.pdf)"', html)
-        if not pdf_matches:
-            pdf_matches = re.findall(r'href="([^"]*[Dd]iscount[^"]*)"', html)
-        if pdf_matches:
-            pdf_url = pdf_matches[0]
-            if not pdf_url.startswith("http"):
-                pdf_url = f"https://www.bma.bm{pdf_url}"
-            log.info(f"  BMA PDF: {pdf_url}")
-    except Exception as e:
-        log.warning(f"  BMA page scrape: {e}")
-
-    # Load manual rates if available
+        if all_dr:
+            all_dr.sort(key=lambda x: parse_d(x["as_of"]), reverse=True)
+            latest_date = all_dr[0]["as_of"]; latest_pub = all_dr[0]["published"]
+        pdfs = re.findall(r'href="([^"]*[Dd]iscount[^"]*)"', html)
+        if pdfs: pdf_url = pdfs[0] if pdfs[0].startswith("http") else f"https://www.bma.bm{pdfs[0]}"
+    except Exception as e: log.warning(f"  BMA: {e}")
     manual_file = DATA / "bma_rates_manual.json"
-    manual_data = None
-    if manual_file.exists():
-        try: manual_data = json.loads(manual_file.read_text()); log.info("  BMA: loaded manual rates")
-        except: pass
-
+    manual = json.loads(manual_file.read_text()) if manual_file.exists() else None
     bma_tenors = ["0.5Y","1Y","2Y","3Y","5Y","7Y","10Y","15Y","20Y","25Y","30Y","40Y","50Y"]
-    currencies = ["USD", "GBP", "EUR", "JPY", "CAD", "AUD", "CHF"]
-    
-    output = {
-        "as_of_date": latest_date or (manual_data or {}).get("as_of_date", "Check BMA website"),
-        "publication_date": latest_pub_date,
-        "source": "Bermuda Monetary Authority — EBS Discount Rates",
+    currencies = ["USD","GBP","EUR","JPY","CAD","AUD","CHF"]
+    output = {"as_of_date": latest_date or (manual or {}).get("as_of_date","Check BMA website"),
+        "publication_date": latest_pub, "source": "BMA — EBS Discount Rates",
         "url": "https://www.bma.bm/document-centre/reporting-forms-and-guidelines-insurance",
-        "pdf_url": pdf_url,
-        "tenors": bma_tenors,
-        "all_publications": all_dr_entries[:6],  # last 6 quarterly publications found
-        "currencies": {},
-        "note": f"Latest found: {latest_date or 'unknown'}. " +
-                ("Rates from manual file." if manual_data else "Populate data/bma_rates_manual.json with values from the PDF."),
-    }
-    if manual_data and "currencies" in manual_data:
-        output["currencies"] = manual_data["currencies"]
-        if manual_data.get("as_of_date"):
-            output["as_of_date"] = manual_data["as_of_date"]
+        "pdf_url": pdf_url, "tenors": bma_tenors, "all_publications": all_dr[:6], "currencies": {},
+        "note": f"Latest: {latest_date or 'unknown'}. " + ("Rates from manual file." if manual else "Populate data/bma_rates_manual.json.")}
+    if manual and "currencies" in manual:
+        output["currencies"] = manual["currencies"]
+        if manual.get("as_of_date"): output["as_of_date"] = manual["as_of_date"]
     else:
-        for ccy in currencies:
-            output["currencies"][ccy] = {"rates": [None]*len(bma_tenors), "prior_rates": [None]*len(bma_tenors)}
-    
+        for ccy in currencies: output["currencies"][ccy] = {"rates": [None]*len(bma_tenors), "prior_rates": [None]*len(bma_tenors)}
     write("bma_rates.json", output)
-    log.info(f"  BMA RATES OK: {output['as_of_date']}")
-
-# ═══════════════════════════════════════════
-# RUN
-# ═══════════════════════════════════════════
+    log.info(f"  BMA RATES OK")
+ 
+# ── RUN ──
 def main():
     log.info("=" * 50)
-    log.info("Bermuda Market Intel — Data Refresh v5")
-    log.info("=" * 50)
     results = {}
-    for name, fn in [("ust",fetch_ust),("jgb",fetch_jgb),("gilt",fetch_gilt),
-                     ("eur",fetch_eur),("india",fetch_india),("credit",fetch_credit),
-                     ("bma_rates",fetch_bma_rates)]:
+    for name, fn in [("ust",fetch_ust),("jgb",fetch_jgb),("gilt",fetch_gilt),("eur",fetch_eur),
+                     ("india",fetch_india),("credit",fetch_credit),("sofr",fetch_sofr),("bma_rates",fetch_bma_rates)]:
         try: fn(); results[name] = "ok"
         except Exception as e: log.error(f"  {name} FAILED: {e}"); results[name] = str(e)
     write("manifest.json", {"results": results, "run": datetime.utcnow().isoformat()+"Z"})
     failed = [k for k,v in results.items() if v != "ok"]
     log.info(f"Done: {len(results)-len(failed)}/{len(results)} ok" + (f", failed: {failed}" if failed else ""))
-
+ 
 if __name__ == "__main__":
     main()
