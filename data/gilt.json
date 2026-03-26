@@ -1,5 +1,5 @@
 {
-  "date": "2026-03-25",
+  "date": "2026-03-26",
   "prior_date": "",
   "source": "Investing.com / FRED (10Y YoY)",
   "url": "https://www.investing.com/rates-bonds/uk-government-bonds",
@@ -15,15 +15,15 @@
     "30Y"
   ],
   "yields": [
-    4.385,
-    4.417,
-    4.471,
-    4.432,
-    4.64,
-    4.847,
-    5.191,
-    5.402,
-    5.463
+    4.368,
+    4.404,
+    4.371,
+    4.424,
+    4.588,
+    4.836,
+    5.204,
+    5.39,
+    5.434
   ],
   "prior_yields": [
     null,
@@ -49,5 +49,5 @@
   ],
   "year_ago_date": "",
   "note": "9/9 tenors. Year-ago: 10Y only (FRED monthly).",
-  "_fetched": "2026-03-25T21:55:00.248471Z"
+  "_fetched": "2026-03-26T03:28:59.312842Z"
 }

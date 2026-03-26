@@ -1,5 +1,5 @@
 {
-  "date": "2026-03-25",
+  "date": "2026-03-26",
   "prior_date": "",
   "source": "Investing.com / FRED (10Y cross-ref & YoY)",
   "url": "https://www.investing.com/rates-bonds/india-government-bonds",
@@ -49,5 +49,5 @@
   ],
   "year_ago_date": "",
   "note": "8/9 tenors. Year-ago: 10Y only (FRED monthly).",
-  "_fetched": "2026-03-25T21:55:53.691279Z"
+  "_fetched": "2026-03-26T03:29:46.863370Z"
 }
