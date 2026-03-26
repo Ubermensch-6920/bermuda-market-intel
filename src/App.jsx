@@ -254,6 +254,12 @@ const SofrSection = ({ data, loading: ld, error }) => {
   const rates = data.rates || {};
   const history = data.history || [];
   const ya = data.year_ago || {};
+  const sofrDaily = rates.SOFR || {};
+  const yaRate = ya.rate;
+  const sofrCurrent = sofrDaily.rate;
+
+  // Safe YoY calc
+  const yoyBp = sofrCurrent != null && yaRate != null ? ((sofrCurrent - yaRate) * 100).toFixed(1) : null;
 
   return (<div style={{ background: "#0d0f14", border: "1px solid #1e2028", borderRadius: 10, overflow: "hidden" }}>
     <div style={{ padding: "16px 22px", borderBottom: "1px solid #1e2028" }}>
@@ -268,11 +274,12 @@ const SofrSection = ({ data, loading: ld, error }) => {
     {/* Rate cards */}
     <div style={{ padding: "16px 22px", display: "grid", gridTemplateColumns: "repeat(auto-fill, minmax(200px, 1fr))", gap: 12 }}>
       {Object.entries(rates).map(([key, r]) => {
+        if (!r) return null;
         const chg = r.rate != null && r.prior != null ? ((r.rate - r.prior) * 100).toFixed(1) : null;
         const chgNum = parseFloat(chg);
         return (<div key={key} style={{ background: "#12141a", border: "1px solid #1e2028", borderRadius: 10, padding: "16px 20px" }}>
-          <div style={{ fontSize: 12, color: "#94a3b8", fontWeight: 600, marginBottom: 4 }}>{r.name}</div>
-          <div style={{ fontSize: 11, color: "#64748b", marginBottom: 8 }}>{r.desc}</div>
+          <div style={{ fontSize: 12, color: "#94a3b8", fontWeight: 600, marginBottom: 4 }}>{r.name || key}</div>
+          <div style={{ fontSize: 11, color: "#64748b", marginBottom: 8 }}>{r.desc || ""}</div>
           <div style={{ display: "flex", alignItems: "baseline", gap: 10 }}>
             <span style={{ fontSize: 26, fontWeight: 700, color: "#f1f5f9", fontFamily: "'JetBrains Mono', monospace" }}>
               {r.rate != null ? r.rate.toFixed(2) + "%" : "—"}
@@ -288,20 +295,18 @@ const SofrSection = ({ data, loading: ld, error }) => {
       })}
 
       {/* Year-ago card */}
-      {ya.rate != null && (<div style={{ background: "#12141a", border: "1px solid #1e2028", borderRadius: 10, padding: "16px 20px" }}>
+      {yaRate != null && (<div style={{ background: "#12141a", border: "1px solid #1e2028", borderRadius: 10, padding: "16px 20px" }}>
         <div style={{ fontSize: 12, color: "#f59e0b", fontWeight: 600, marginBottom: 4 }}>1 Year Ago</div>
         <div style={{ fontSize: 11, color: "#64748b", marginBottom: 8 }}>{ya.date || ""}</div>
         <div style={{ display: "flex", alignItems: "baseline", gap: 10 }}>
           <span style={{ fontSize: 26, fontWeight: 700, color: "#d4a057", fontFamily: "'JetBrains Mono', monospace" }}>
-            {ya.rate.toFixed(2)}%
+            {yaRate.toFixed(2)}%
           </span>
-          {rates.SOFR?.rate != null && (() => {
-            const yoyChg = ((rates.SOFR.rate - ya.rate) * 100).toFixed(1);
-            const yoyNum = parseFloat(yoyChg);
-            return <span style={{ fontSize: 13, color: chgCol(yoyNum), fontWeight: 600, fontFamily: "monospace" }}>
-              {yoyNum > 0 ? "+" : ""}{yoyChg}bp YoY
-            </span>;
-          })()}
+          {yoyBp != null && (
+            <span style={{ fontSize: 13, color: chgCol(parseFloat(yoyBp)), fontWeight: 600, fontFamily: "monospace" }}>
+              {parseFloat(yoyBp) > 0 ? "+" : ""}{yoyBp}bp YoY
+            </span>
+          )}
         </div>
       </div>)}
     </div>
@@ -310,17 +315,15 @@ const SofrSection = ({ data, loading: ld, error }) => {
     {history.length > 5 && (<div style={{ padding: "8px 14px 16px" }}>
       <div style={{ fontSize: 13, fontWeight: 700, color: "#94a3b8", marginBottom: 8, marginLeft: 8 }}>DAILY SOFR — LAST 30 BUSINESS DAYS</div>
       <ResponsiveContainer width="100%" height={220}>
-        <AreaChart data={history}>
-          <defs><linearGradient id="gSofr" x1="0" y1="0" x2="0" y2="1"><stop offset="5%" stopColor="#60a5fa" stopOpacity={0.3} /><stop offset="95%" stopColor="#60a5fa" stopOpacity={0} /></linearGradient></defs>
+        <LineChart data={history}>
           <CartesianGrid strokeDasharray="3 3" stroke="#1e2028" />
           <XAxis dataKey="date" tick={{ fill: "#94a3b8", fontSize: 10 }} axisLine={{ stroke: "#1e2028" }} tickLine={false}
-            tickFormatter={d => { const p = d.split("-"); return p[1] + "/" + p[2]; }} />
+            tickFormatter={d => { const p = (d || "").split("-"); return p.length >= 3 ? p[1] + "/" + p[2] : d; }} />
           <YAxis tick={{ fill: "#94a3b8", fontSize: 12 }} axisLine={{ stroke: "#1e2028" }} tickLine={false} domain={["auto", "auto"]}
-            tickFormatter={v => v.toFixed(2) + "%"} />
+            tickFormatter={v => typeof v === "number" ? v.toFixed(2) + "%" : ""} />
           <Tooltip content={<CTooltip />} />
-          <Area type="monotone" dataKey="rate" stroke="#60a5fa" strokeWidth={2} fill="url(#gSofr)" name="SOFR" dot={false} />
-          {ya.rate != null && <Line type="monotone" dataKey={() => ya.rate} stroke="#f59e0b" strokeWidth={1} strokeDasharray="6 4" name="1Y Ago" dot={false} />}
-        </AreaChart>
+          <Line type="monotone" dataKey="rate" stroke="#60a5fa" strokeWidth={2} name="SOFR" dot={false} />
+        </LineChart>
       </ResponsiveContainer>
     </div>)}
 
@@ -338,23 +341,24 @@ const SofrSection = ({ data, loading: ld, error }) => {
         </thead>
         <tbody>
           {Object.entries(rates).map(([key, r]) => {
+            if (!r) return null;
             const ch = r.rate != null && r.prior != null ? ((r.rate - r.prior) * 100).toFixed(1) : null;
             const chNum = parseFloat(ch);
             return (<tr key={key} style={{ borderBottom: "1px solid #151820" }}>
-              <td style={{ padding: "7px 12px", color: "#f1f5f9", fontWeight: 600 }}>{r.name}</td>
+              <td style={{ padding: "7px 12px", color: "#f1f5f9", fontWeight: 600 }}>{r.name || key}</td>
               <td style={{ padding: "7px 12px", color: "#f1f5f9", textAlign: "right", fontFamily: "monospace", fontWeight: 700, fontSize: 14 }}>{r.rate != null ? r.rate.toFixed(4) + "%" : "—"}</td>
               <td style={{ padding: "7px 12px", color: "#94a3b8", textAlign: "right", fontFamily: "monospace" }}>{r.prior != null ? r.prior.toFixed(4) + "%" : "—"}</td>
-              <td style={{ padding: "7px 12px", textAlign: "right", fontFamily: "monospace", color: chgCol(chNum), fontWeight: 600 }}>{ch != null ? (chNum > 0 ? "+" : "") + ch : "—"}</td>
+              <td style={{ padding: "7px 12px", textAlign: "right", fontFamily: "monospace", color: ch != null ? chgCol(chNum) : "#94a3b8", fontWeight: 600 }}>{ch != null ? (chNum > 0 ? "+" : "") + ch : "—"}</td>
               <td style={{ padding: "7px 12px", color: "#64748b", textAlign: "right", fontSize: 12 }}>{r.date || "—"}</td>
             </tr>);
           })}
-          {ya.rate != null && (<tr style={{ borderBottom: "1px solid #151820", background: "#111318" }}>
+          {yaRate != null && (<tr style={{ borderBottom: "1px solid #151820", background: "#111318" }}>
             <td style={{ padding: "7px 12px", color: "#f59e0b", fontWeight: 600 }}>1 Year Ago</td>
-            <td style={{ padding: "7px 12px", color: "#d4a057", textAlign: "right", fontFamily: "monospace", fontWeight: 700, fontSize: 14 }}>{ya.rate.toFixed(4)}%</td>
-            <td colSpan={2} style={{ padding: "7px 12px", textAlign: "right", fontFamily: "monospace", color: chgCol(parseFloat(((rates.SOFR?.rate - ya.rate) * 100).toFixed(1))), fontWeight: 600 }}>
-              {rates.SOFR?.rate != null ? (((rates.SOFR.rate - ya.rate) * 100) > 0 ? "+" : "") + ((rates.SOFR.rate - ya.rate) * 100).toFixed(1) + "bp YoY" : "—"}
+            <td style={{ padding: "7px 12px", color: "#d4a057", textAlign: "right", fontFamily: "monospace", fontWeight: 700, fontSize: 14 }}>{yaRate.toFixed(4)}%</td>
+            <td colSpan={2} style={{ padding: "7px 12px", textAlign: "right", fontFamily: "monospace", color: yoyBp != null ? chgCol(parseFloat(yoyBp)) : "#94a3b8", fontWeight: 600 }}>
+              {yoyBp != null ? (parseFloat(yoyBp) > 0 ? "+" : "") + yoyBp + "bp YoY" : "—"}
             </td>
-            <td style={{ padding: "7px 12px", color: "#64748b", textAlign: "right", fontSize: 12 }}>{ya.date}</td>
+            <td style={{ padding: "7px 12px", color: "#64748b", textAlign: "right", fontSize: 12 }}>{ya.date || ""}</td>
           </tr>)}
         </tbody>
       </table>
@@ -483,7 +487,7 @@ export default function App() {
         {hasCurve && <div style={{ background: "#0d0f14", border: "1px solid #1e2028", borderRadius: 10, padding: "16px 16px 8px" }}>
           <h3 style={{ margin: "0 0 12px 8px", fontSize: 14, fontWeight: 700, color: "#94a3b8", textTransform: "uppercase", letterSpacing: "0.1em" }}>Global Yield Curve Comparison</h3>
           <ResponsiveContainer width="100%" height={320}>
-            <LineChart data={mc}><CartesianGrid strokeDasharray="3 3" stroke="#1e2028" /><XAxis dataKey="tenor" tick={{ fill: "#94a3b8", fontSize: 12 }} axisLine={{ stroke: "#1e2028" }} tickLine={false} /><YAxis tick={{ fill: "#94a3b8", fontSize: 12 }} axisLine={{ stroke: "#1e2028" }} tickLine={false} domain={[0, "auto"]} tickFormatter={v => v.toFixed(1) + "%"} /><Tooltip content={<CTooltip />} />
+            <LineChart data={mc}><CartesianGrid strokeDasharray="3 3" stroke="#1e2028" /><XAxis dataKey="tenor" tick={{ fill: "#94a3b8", fontSize: 12 }} axisLine={{ stroke: "#1e2028" }} tickLine={false} /><YAxis tick={{ fill: "#94a3b8", fontSize: 12 }} axisLine={{ stroke: "#1e2028" }} tickLine={false} domain={[0, "auto"]} tickFormatter={v => typeof v === "number" ? v.toFixed(1) + "%" : ""} /><Tooltip content={<CTooltip />} />
               <Line type="monotone" dataKey="India" stroke="#f472b6" strokeWidth={2} name="India" dot={{ r: 3 }} connectNulls />
               <Line type="monotone" dataKey="Gilt" stroke="#4ade80" strokeWidth={2} name="UK Gilt" dot={{ r: 3 }} connectNulls />
               <Line type="monotone" dataKey="UST" stroke="#60a5fa" strokeWidth={2.5} name="US Treasury" dot={{ r: 4 }} connectNulls />
