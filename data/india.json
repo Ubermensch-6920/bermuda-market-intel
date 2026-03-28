@@ -1,5 +1,5 @@
 {
-  "date": "2026-03-27",
+  "date": "2026-03-28",
   "prior_date": "",
   "source": "Investing.com / FRED",
   "url": "https://www.investing.com/rates-bonds/india-government-bonds",
@@ -17,13 +17,13 @@
   "yields": [
     5.946,
     6.376,
-    null,
+    6.4,
     6.675,
-    null,
+    6.839,
     6.932,
     7.296,
     null,
-    null
+    7.686
   ],
   "prior_yields": [
     null,
@@ -48,5 +48,5 @@
     null
   ],
   "year_ago_date": "",
-  "_fetched": "2026-03-27T21:53:13.590623Z"
+  "_fetched": "2026-03-28T03:18:54.800831Z"
 }
