@@ -62,6 +62,21 @@
         3.8,
         3.75
       ],
+      "prior_1m_rates": [
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null
+      ],
       "prior_rates": [
         5.15,
         4.9,
@@ -93,6 +108,21 @@
         3.98,
         3.95,
         3.92
+      ],
+      "prior_1m_rates": [
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null
       ],
       "prior_rates": [
         null,
@@ -126,6 +156,21 @@
         2.35,
         2.32
       ],
+      "prior_1m_rates": [
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null
+      ],
       "prior_rates": [
         null,
         null,
@@ -158,6 +203,21 @@
         1.5,
         1.6
       ],
+      "prior_1m_rates": [
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null
+      ],
       "prior_rates": [
         null,
         null,
@@ -176,6 +236,21 @@
     },
     "CAD": {
       "rates": [
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null
+      ],
+      "prior_1m_rates": [
         null,
         null,
         null,
@@ -222,6 +297,21 @@
         null,
         null
       ],
+      "prior_1m_rates": [
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null
+      ],
       "prior_rates": [
         null,
         null,
@@ -254,6 +344,21 @@
         null,
         null
       ],
+      "prior_1m_rates": [
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null
+      ],
       "prior_rates": [
         null,
         null,
@@ -272,5 +377,5 @@
     }
   },
   "note": "Latest: 30 September 2025. Rates from manual file.",
-  "_fetched": "2026-03-29T15:50:30.275664Z"
+  "_fetched": "2026-03-29T19:09:48.231800Z"
 }
