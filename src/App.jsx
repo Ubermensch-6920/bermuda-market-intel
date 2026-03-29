@@ -4,10 +4,18 @@ import {
   ResponsiveContainer, AreaChart, Area, Legend
 } from "recharts";
 import {
-  Globe, Shield, Newspaper, BarChart3, ChevronRight, ExternalLink,
+  Shield, Newspaper, BarChart3, ChevronRight, ExternalLink,
   Clock, RefreshCw, Activity, DollarSign, Percent, ArrowUpRight,
   ArrowDownRight, Minus, AlertTriangle, Loader, Landmark, TrendingUp
 } from "lucide-react";
+
+const CurrencySymbolIcon = symbol => ({ size = 16, style = {} }) => (
+  <span style={{
+    fontSize: size + 1, fontWeight: 800, lineHeight: 1,
+    display: "inline-flex", alignItems: "center", justifyContent: "center",
+    width: size, height: size, flexShrink: 0, ...style
+  }}>{symbol}</span>
+);
 
 /* ═══════════════════════════════════════════════════════════════════
    BERMUDA MARKET INTELLIGENCE TERMINAL v8
@@ -76,11 +84,16 @@ const SovSection = ({ data, title, accentColor, loading: ld, error }) => {
 
   const hasYearAgo = data.year_ago_yields?.some(v => v != null);
   const hasPrior = data.prior_yields?.some(v => v != null);
+  const has1m = data.prior_1m_yields?.some(v => v != null);
+  const has3m = data.prior_3m_yields?.some(v => v != null);
 
   const curveData = data.tenors.map((t, i) => ({
     tenor: t, current: data.yields[i], prior: data.prior_yields?.[i],
+    prior1m: data.prior_1m_yields?.[i], prior3m: data.prior_3m_yields?.[i],
     yearAgo: data.year_ago_yields?.[i],
     change: data.yields[i] != null && data.prior_yields?.[i] != null ? ((data.yields[i] - data.prior_yields[i]) * 100).toFixed(1) : null,
+    change1m: data.yields[i] != null && data.prior_1m_yields?.[i] != null ? ((data.yields[i] - data.prior_1m_yields[i]) * 100).toFixed(1) : null,
+    change3m: data.yields[i] != null && data.prior_3m_yields?.[i] != null ? ((data.yields[i] - data.prior_3m_yields[i]) * 100).toFixed(1) : null,
     yaChange: data.yields[i] != null && data.year_ago_yields?.[i] != null ? ((data.yields[i] - data.year_ago_yields[i]) * 100).toFixed(1) : null,
   }));
 
@@ -114,8 +127,12 @@ const SovSection = ({ data, title, accentColor, loading: ld, error }) => {
           <tr style={{ borderBottom: "2px solid #1e2028" }}>
             <th style={{ textAlign: "left", padding: "8px 12px", color: "#94a3b8", fontWeight: 700, fontSize: 12, letterSpacing: "0.03em" }}>Tenor</th>
             <th style={{ textAlign: "right", padding: "8px 12px", color: "#94a3b8", fontWeight: 700, fontSize: 12 }}>Yield</th>
-            {hasPrior && <th style={{ textAlign: "right", padding: "8px 12px", color: "#94a3b8", fontWeight: 700, fontSize: 12 }}>Prior</th>}
+            {hasPrior && <th style={{ textAlign: "right", padding: "8px 12px", color: "#94a3b8", fontWeight: 700, fontSize: 12 }}>Prior Day</th>}
             {hasPrior && <th style={{ textAlign: "right", padding: "8px 12px", color: "#94a3b8", fontWeight: 700, fontSize: 12 }}>Chg (bp)</th>}
+            {has1m && <th style={{ textAlign: "right", padding: "8px 12px", color: "#818cf8", fontWeight: 700, fontSize: 12 }}>Prior 1M{data.prior_1m_date ? ` (${data.prior_1m_date})` : ""}</th>}
+            {has1m && <th style={{ textAlign: "right", padding: "8px 12px", color: "#818cf8", fontWeight: 700, fontSize: 12 }}>1M (bp)</th>}
+            {has3m && <th style={{ textAlign: "right", padding: "8px 12px", color: "#34d399", fontWeight: 700, fontSize: 12 }}>Prior 3M{data.prior_3m_date ? ` (${data.prior_3m_date})` : ""}</th>}
+            {has3m && <th style={{ textAlign: "right", padding: "8px 12px", color: "#34d399", fontWeight: 700, fontSize: 12 }}>3M (bp)</th>}
             {hasYearAgo && <th style={{ textAlign: "right", padding: "8px 12px", color: "#f59e0b", fontWeight: 700, fontSize: 12 }}>1Y Ago{data.year_ago_date ? ` (${data.year_ago_date})` : ""}</th>}
             {hasYearAgo && <th style={{ textAlign: "right", padding: "8px 12px", color: "#f59e0b", fontWeight: 700, fontSize: 12 }}>YoY (bp)</th>}
           </tr>
@@ -123,12 +140,18 @@ const SovSection = ({ data, title, accentColor, loading: ld, error }) => {
         <tbody>
           {curveData.map((r, i) => {
             const ch = parseFloat(r.change);
+            const ch1m = parseFloat(r.change1m);
+            const ch3m = parseFloat(r.change3m);
             const ya = parseFloat(r.yaChange);
             return (<tr key={i} style={{ borderBottom: "1px solid #151820" }}>
               <td style={{ padding: "7px 12px", color: "#f1f5f9", fontWeight: 700, fontFamily: "monospace", fontSize: 13 }}>{r.tenor}</td>
               <td style={{ padding: "7px 12px", color: "#f1f5f9", textAlign: "right", fontFamily: "monospace", fontWeight: 600, fontSize: 14 }}>{fmtY(r.current)}</td>
               {hasPrior && <td style={{ padding: "7px 12px", color: "#94a3b8", textAlign: "right", fontFamily: "monospace" }}>{fmtY(r.prior)}</td>}
               {hasPrior && <td style={{ padding: "7px 12px", textAlign: "right", fontFamily: "monospace", color: chgCol(ch), fontWeight: 600 }}>{r.change != null ? (ch > 0 ? "+" : "") + r.change : "—"}</td>}
+              {has1m && <td style={{ padding: "7px 12px", color: "#a5b4fc", textAlign: "right", fontFamily: "monospace" }}>{fmtY(r.prior1m)}</td>}
+              {has1m && <td style={{ padding: "7px 12px", textAlign: "right", fontFamily: "monospace", color: chgCol(ch1m), fontWeight: 600 }}>{r.change1m != null ? (ch1m > 0 ? "+" : "") + r.change1m : "—"}</td>}
+              {has3m && <td style={{ padding: "7px 12px", color: "#6ee7b7", textAlign: "right", fontFamily: "monospace" }}>{fmtY(r.prior3m)}</td>}
+              {has3m && <td style={{ padding: "7px 12px", textAlign: "right", fontFamily: "monospace", color: chgCol(ch3m), fontWeight: 600 }}>{r.change3m != null ? (ch3m > 0 ? "+" : "") + r.change3m : "—"}</td>}
               {hasYearAgo && <td style={{ padding: "7px 12px", color: "#d4a057", textAlign: "right", fontFamily: "monospace" }}>{fmtY(r.yearAgo)}</td>}
               {hasYearAgo && <td style={{ padding: "7px 12px", textAlign: "right", fontFamily: "monospace", color: chgCol(ya), fontWeight: 600 }}>{r.yaChange != null ? (ya > 0 ? "+" : "") + r.yaChange : "—"}</td>}
             </tr>);
@@ -180,6 +203,8 @@ const BmaRatesSection = ({ data, loading: ld, error }) => {
   const ccyData = data.currencies?.[selectedCcy];
   const tenors = data.tenors || [];
   const hasRates = ccyData?.rates?.some(v => v != null);
+  const has1mBma = ccyData?.prior_1m_rates?.some(v => v != null);
+  const hasQtrBma = ccyData?.prior_rates?.some(v => v != null);
 
   return (<div style={{ background: "#0d0f14", border: "1px solid #1e2028", borderRadius: 10, overflow: "hidden" }}>
     <div style={{ padding: "16px 22px", borderBottom: "1px solid #1e2028" }}>
@@ -219,21 +244,28 @@ const BmaRatesSection = ({ data, loading: ld, error }) => {
             <tr style={{ borderBottom: "2px solid #1e2028" }}>
               <th style={{ textAlign: "left", padding: "8px 12px", color: "#94a3b8", fontWeight: 700, fontSize: 12 }}>Tenor</th>
               <th style={{ textAlign: "right", padding: "8px 12px", color: "#94a3b8", fontWeight: 700, fontSize: 12 }}>Spot Rate</th>
-              {ccyData?.prior_rates?.some(v => v != null) && <th style={{ textAlign: "right", padding: "8px 12px", color: "#94a3b8", fontWeight: 700, fontSize: 12 }}>Prior Quarter</th>}
-              {ccyData?.prior_rates?.some(v => v != null) && <th style={{ textAlign: "right", padding: "8px 12px", color: "#94a3b8", fontWeight: 700, fontSize: 12 }}>Chg (bp)</th>}
+              {has1mBma && <th style={{ textAlign: "right", padding: "8px 12px", color: "#818cf8", fontWeight: 700, fontSize: 12 }}>Prior 1M</th>}
+              {has1mBma && <th style={{ textAlign: "right", padding: "8px 12px", color: "#818cf8", fontWeight: 700, fontSize: 12 }}>Chg 1M (bp)</th>}
+              {hasQtrBma && <th style={{ textAlign: "right", padding: "8px 12px", color: "#34d399", fontWeight: 700, fontSize: 12 }}>Prior Qtr</th>}
+              {hasQtrBma && <th style={{ textAlign: "right", padding: "8px 12px", color: "#34d399", fontWeight: 700, fontSize: 12 }}>Chg Qtr (bp)</th>}
             </tr>
           </thead>
           <tbody>
             {tenors.map((t, i) => {
               const curr = ccyData?.rates?.[i];
+              const p1m = ccyData?.prior_1m_rates?.[i];
               const prev = ccyData?.prior_rates?.[i];
-              const ch = curr != null && prev != null ? ((curr - prev) * 100).toFixed(1) : null;
-              const chNum = parseFloat(ch);
+              const ch1m = curr != null && p1m != null ? ((curr - p1m) * 100).toFixed(1) : null;
+              const chQtr = curr != null && prev != null ? ((curr - prev) * 100).toFixed(1) : null;
+              const ch1mNum = parseFloat(ch1m);
+              const chQtrNum = parseFloat(chQtr);
               return (<tr key={i} style={{ borderBottom: "1px solid #151820" }}>
                 <td style={{ padding: "7px 12px", color: "#f1f5f9", fontWeight: 700, fontFamily: "monospace" }}>{t}</td>
                 <td style={{ padding: "7px 12px", color: "#f1f5f9", textAlign: "right", fontFamily: "monospace", fontWeight: 600, fontSize: 14 }}>{curr != null ? curr.toFixed(4) + "%" : "—"}</td>
-                {ccyData?.prior_rates?.some(v => v != null) && <td style={{ padding: "7px 12px", color: "#94a3b8", textAlign: "right", fontFamily: "monospace" }}>{prev != null ? prev.toFixed(4) + "%" : "—"}</td>}
-                {ccyData?.prior_rates?.some(v => v != null) && <td style={{ padding: "7px 12px", textAlign: "right", fontFamily: "monospace", color: chgCol(chNum), fontWeight: 600 }}>{ch != null ? (chNum > 0 ? "+" : "") + ch : "—"}</td>}
+                {has1mBma && <td style={{ padding: "7px 12px", color: "#a5b4fc", textAlign: "right", fontFamily: "monospace" }}>{p1m != null ? p1m.toFixed(4) + "%" : "—"}</td>}
+                {has1mBma && <td style={{ padding: "7px 12px", textAlign: "right", fontFamily: "monospace", color: chgCol(ch1mNum), fontWeight: 600 }}>{ch1m != null ? (ch1mNum > 0 ? "+" : "") + ch1m : "—"}</td>}
+                {hasQtrBma && <td style={{ padding: "7px 12px", color: "#6ee7b7", textAlign: "right", fontFamily: "monospace" }}>{prev != null ? prev.toFixed(4) + "%" : "—"}</td>}
+                {hasQtrBma && <td style={{ padding: "7px 12px", textAlign: "right", fontFamily: "monospace", color: chgCol(chQtrNum), fontWeight: 600 }}>{chQtr != null ? (chQtrNum > 0 ? "+" : "") + chQtr : "—"}</td>}
               </tr>);
             })}
           </tbody>
@@ -396,8 +428,8 @@ const BMAUpdSection = () => { const cats = [...new Set(BMA_UPDATES.map(u => u.ca
 // ═══════════════════════════════════════════
 const PAGES = [
   { id: "home", label: "Overview", icon: Activity }, { id: "ust", label: "US Treasuries", icon: DollarSign },
-  { id: "jgb", label: "Japan JGB", icon: Globe }, { id: "gilt", label: "UK Gilts", icon: Globe },
-  { id: "eiopa", label: "EIOPA EUR", icon: Globe }, { id: "india", label: "India Govt", icon: Globe },
+  { id: "jgb", label: "Japan JGB", icon: CurrencySymbolIcon("¥") }, { id: "gilt", label: "UK Gilts", icon: CurrencySymbolIcon("£") },
+  { id: "eiopa", label: "EIOPA EUR", icon: CurrencySymbolIcon("€") }, { id: "india", label: "India Govt", icon: CurrencySymbolIcon("₹") },
   { id: "bma_rates", label: "BMA Rates", icon: Landmark },
   { id: "sofr", label: "SOFR", icon: TrendingUp },
   { id: "credit", label: "Credit Spreads", icon: Percent },

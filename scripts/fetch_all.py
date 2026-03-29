@@ -84,6 +84,27 @@ def fred_year_ago_10y(series_id):
     best = min(obs, key=lambda o: abs((datetime.strptime(o["date"],"%Y-%m-%d") - datetime.strptime(target,"%Y-%m-%d")).days))
     return round(best["value"], 4), best["date"]
 
+def find_prior_date_yields(rows, days_ago, tenors, max_diff_days=14):
+    """Find yields from rows list closest to N days ago. rows: [{date, yields}] sorted desc."""
+    target = (datetime.utcnow() - timedelta(days=days_ago)).strftime("%Y-%m-%d")
+    if not rows: return [None]*len(tenors), ""
+    best = min(rows, key=lambda r: abs((datetime.strptime(r["date"],"%Y-%m-%d") - datetime.strptime(target,"%Y-%m-%d")).days))
+    diff = abs((datetime.strptime(best["date"],"%Y-%m-%d") - datetime.strptime(target,"%Y-%m-%d")).days)
+    if diff > max_diff_days: return [None]*len(tenors), ""
+    return [best["yields"].get(t) for t in tenors], best["date"]
+
+def fred_prior_single(series_id, days_ago, max_diff_days=14):
+    """Fetch a single FRED series value closest to N days ago. Returns (value, date)."""
+    target_dt = datetime.utcnow() - timedelta(days=days_ago)
+    start = (target_dt - timedelta(days=30)).strftime("%Y-%m-%d")
+    obs = fred_csv(series_id, start=start, retries=1)
+    if not obs: return None, ""
+    target = target_dt.strftime("%Y-%m-%d")
+    best = min(obs, key=lambda o: abs((datetime.strptime(o["date"],"%Y-%m-%d") - datetime.strptime(target,"%Y-%m-%d")).days))
+    diff = abs((datetime.strptime(best["date"],"%Y-%m-%d") - datetime.strptime(target,"%Y-%m-%d")).days)
+    if diff > max_diff_days: return None, ""
+    return round(best["value"], 4), best["date"]
+
 def scrape_investing_yield(url_path):
     try:
         html = get(f"https://www.investing.com{url_path}", timeout=15)
@@ -129,10 +150,16 @@ def fetch_ust():
     if ya_rows:
         best = min(ya_rows, key=lambda r: abs((datetime.strptime(r["date"],"%Y-%m-%d") - datetime.strptime(target_ya,"%Y-%m-%d")).days))
         ya_yields = [best["yields"].get(t) for t in tenors]; ya_date = best["date"]
+    all_rows = rows + ya_rows
+    p1m_yields, p1m_date = find_prior_date_yields(all_rows, 30, tenors)
+    p3m_yields, p3m_date = find_prior_date_yields(all_rows, 91, tenors)
+    log.info(f"  UST 1M ago: {p1m_date}, 3M ago: {p3m_date}")
     write("ust.json", {"date": rows[0]["date"], "prior_date": rows[1]["date"],
         "source": "US Treasury Daily Par Yield Curve", "url": "https://home.treasury.gov/resource-center/data-chart-center/interest-rates",
         "tenors": tenors, "yields": [rows[0]["yields"].get(t) for t in tenors],
         "prior_yields": [rows[1]["yields"].get(t) for t in tenors],
+        "prior_1m_yields": p1m_yields, "prior_1m_date": p1m_date,
+        "prior_3m_yields": p3m_yields, "prior_3m_date": p3m_date,
         "year_ago_yields": ya_yields, "year_ago_date": ya_date})
     log.info(f"  UST OK: {rows[0]['date']}")
 
@@ -168,10 +195,15 @@ def fetch_jgb():
     if not any(v is not None for v in ya_yields):
         fred_ya, fdate = fred_year_ago_10y("IRLTLT01JPM156N")
         if fred_ya: ya_yields[want.index("10Y")] = fred_ya; ya_date = fdate
+    p1m_yields, p1m_date = find_prior_date_yields(rows, 30, want)
+    p3m_yields, p3m_date = find_prior_date_yields(rows, 91, want)
+    log.info(f"  JGB 1M ago: {p1m_date}, 3M ago: {p3m_date}")
     write("jgb.json", {"date": rows[0]["date"], "prior_date": rows[1]["date"],
         "source": "Ministry of Finance Japan", "url": "https://www.mof.go.jp/english/policy/jgbs/reference/interest_rate/",
         "tenors": want, "yields": [rows[0]["yields"].get(t) for t in want],
         "prior_yields": [rows[1]["yields"].get(t) for t in want],
+        "prior_1m_yields": p1m_yields, "prior_1m_date": p1m_date,
+        "prior_3m_yields": p3m_yields, "prior_3m_date": p3m_date,
         "year_ago_yields": ya_yields, "year_ago_date": ya_date})
     log.info(f"  JGB OK: {rows[0]['date']}")
 
@@ -188,9 +220,18 @@ def fetch_gilt():
     ya_yields = [None]*len(tenors); ya_date = ""
     fred_ya, fdate = fred_year_ago_10y("IRLTLT01GBM156N")
     if fred_ya: ya_yields[tenors.index("10Y")] = fred_ya; ya_date = fdate
+    p1m_yields = [None]*len(tenors); p1m_date = ""
+    p3m_yields = [None]*len(tenors); p3m_date = ""
+    p1m_val, p1m_d = fred_prior_single("IRLTLT01GBM156N", 30)
+    p3m_val, p3m_d = fred_prior_single("IRLTLT01GBM156N", 91)
+    if p1m_val: p1m_yields[tenors.index("10Y")] = p1m_val; p1m_date = p1m_d
+    if p3m_val: p3m_yields[tenors.index("10Y")] = p3m_val; p3m_date = p3m_d
+    log.info(f"  Gilt 1M ago (10Y): {p1m_val} ({p1m_date}), 3M ago (10Y): {p3m_val} ({p3m_date})")
     write("gilt.json", {"date": datetime.utcnow().strftime("%Y-%m-%d"), "prior_date": "",
         "source": "Investing.com / FRED", "url": "https://www.investing.com/rates-bonds/uk-government-bonds",
         "tenors": tenors, "yields": [yields.get(t) for t in tenors], "prior_yields": [None]*len(tenors),
+        "prior_1m_yields": p1m_yields, "prior_1m_date": p1m_date,
+        "prior_3m_yields": p3m_yields, "prior_3m_date": p3m_date,
         "year_ago_yields": ya_yields, "year_ago_date": ya_date})
     log.info(f"  GILT OK: {len(yields)} tenors")
 
@@ -201,7 +242,7 @@ def fetch_eur():
     tenors = list(ecb_map.keys()); results = {}
     for tn, sk in ecb_map.items():
         try:
-            raw = get(f"https://data-api.ecb.europa.eu/service/data/YC/B.U2.EUR.4F.G_N_A.SV_C_YM.{sk}?lastNObservations=5&format=csvdata", timeout=15)
+            raw = get(f"https://data-api.ecb.europa.eu/service/data/YC/B.U2.EUR.4F.G_N_A.SV_C_YM.{sk}?lastNObservations=70&format=csvdata", timeout=15)
             lines = raw.strip().split("\n")
             if len(lines) < 2: continue
             header = lines[0].split(",")
@@ -214,14 +255,32 @@ def fetch_eur():
                 try: obs.append({"date": p[ti].strip('"'), "value": round(float(p[oi]), 4)})
                 except: pass
             obs.sort(key=lambda x: x["date"], reverse=True)
-            if obs: results[tn] = {"value": obs[0]["value"], "prior": obs[1]["value"] if len(obs)>1 else None, "date": obs[0]["date"]}
+            if obs:
+                results[tn] = {"value": obs[0]["value"], "prior": obs[1]["value"] if len(obs)>1 else None,
+                               "date": obs[0]["date"], "all_obs": obs}
         except: pass
     assert results
     latest = max(r["date"] for r in results.values())
+    def ecb_find_prior(days_ago):
+        target = (datetime.utcnow() - timedelta(days=days_ago)).strftime("%Y-%m-%d")
+        out = []; d_used = ""
+        for tn in tenors:
+            obs_list = results.get(tn, {}).get("all_obs", [])
+            if not obs_list: out.append(None); continue
+            best = min(obs_list, key=lambda o: abs((datetime.strptime(o["date"],"%Y-%m-%d") - datetime.strptime(target,"%Y-%m-%d")).days))
+            diff = abs((datetime.strptime(best["date"],"%Y-%m-%d") - datetime.strptime(target,"%Y-%m-%d")).days)
+            if diff > 14: out.append(None)
+            else: out.append(best["value"]); d_used = best["date"]
+        return out, d_used
+    p1m_yields, p1m_date = ecb_find_prior(30)
+    p3m_yields, p3m_date = ecb_find_prior(91)
+    log.info(f"  EUR 1M ago: {p1m_date}, 3M ago: {p3m_date}")
     write("eur.json", {"date": latest, "prior_date": "",
         "source": "ECB SDW (EUR AAA Govt — EIOPA proxy)", "url": "https://data.ecb.europa.eu/",
         "tenors": tenors, "yields": [results.get(t,{}).get("value") for t in tenors],
         "prior_yields": [results.get(t,{}).get("prior") for t in tenors],
+        "prior_1m_yields": p1m_yields, "prior_1m_date": p1m_date,
+        "prior_3m_yields": p3m_yields, "prior_3m_date": p3m_date,
         "year_ago_yields": [None]*len(tenors), "year_ago_date": "",
         "note": "EUR AAA govt curve proxy. Actual EIOPA RFR includes UFR extrapolation."})
     log.info(f"  EUR OK: {latest}")
@@ -243,9 +302,18 @@ def fetch_india():
     ya_yields = [None]*len(tenors); ya_date = ""
     fred_ya, fdate = fred_year_ago_10y("INDIRLTLT01STM")
     if fred_ya: ya_yields[tenors.index("10Y")] = fred_ya; ya_date = fdate
+    p1m_yields = [None]*len(tenors); p1m_date = ""
+    p3m_yields = [None]*len(tenors); p3m_date = ""
+    p1m_val, p1m_d = fred_prior_single("INDIRLTLT01STM", 30)
+    p3m_val, p3m_d = fred_prior_single("INDIRLTLT01STM", 91)
+    if p1m_val: p1m_yields[tenors.index("10Y")] = p1m_val; p1m_date = p1m_d
+    if p3m_val: p3m_yields[tenors.index("10Y")] = p3m_val; p3m_date = p3m_d
+    log.info(f"  India 1M ago (10Y): {p1m_val} ({p1m_date}), 3M ago (10Y): {p3m_val} ({p3m_date})")
     write("india.json", {"date": datetime.utcnow().strftime("%Y-%m-%d"), "prior_date": "",
         "source": "Investing.com / FRED", "url": "https://www.investing.com/rates-bonds/india-government-bonds",
         "tenors": tenors, "yields": [yields.get(t) for t in tenors], "prior_yields": [None]*len(tenors),
+        "prior_1m_yields": p1m_yields, "prior_1m_date": p1m_date,
+        "prior_3m_yields": p3m_yields, "prior_3m_date": p3m_date,
         "year_ago_yields": ya_yields, "year_ago_date": ya_date})
     log.info(f"  INDIA OK: {len(yields)} tenors")
 
@@ -435,7 +503,7 @@ def fetch_bma_rates():
         output["currencies"] = manual["currencies"]
         if manual.get("as_of_date"): output["as_of_date"] = manual["as_of_date"]
     else:
-        for ccy in currencies: output["currencies"][ccy] = {"rates": [None]*len(bma_tenors), "prior_rates": [None]*len(bma_tenors)}
+        for ccy in currencies: output["currencies"][ccy] = {"rates": [None]*len(bma_tenors), "prior_1m_rates": [None]*len(bma_tenors), "prior_rates": [None]*len(bma_tenors)}
     write("bma_rates.json", output)
     log.info(f"  BMA RATES OK")
 
