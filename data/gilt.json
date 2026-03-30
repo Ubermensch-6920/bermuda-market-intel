@@ -1,5 +1,5 @@
 {
-  "date": "2026-03-29",
+  "date": "2026-03-30",
   "prior_date": "",
   "source": "Investing.com / FRED",
   "url": "https://www.investing.com/rates-bonds/uk-government-bonds",
@@ -16,7 +16,7 @@
   ],
   "yields": [
     4.404,
-    null,
+    4.483,
     4.481,
     4.543,
     4.716,
@@ -72,5 +72,5 @@
     null
   ],
   "year_ago_date": "",
-  "_fetched": "2026-03-29T21:49:17.340470Z"
+  "_fetched": "2026-03-30T03:44:32.661272Z"
 }
