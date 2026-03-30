@@ -2,13 +2,13 @@
   "results": {
     "ust": "ok",
     "jgb": "ok",
-    "gilt": "ok",
+    "gilt": "",
     "eur": "ok",
-    "india": "ok",
+    "india": "",
     "credit": "CREDIT: no series",
     "sofr": "ok",
     "bma_rates": "ok"
   },
-  "run": "2026-03-30T16:18:23.038297Z",
-  "_fetched": "2026-03-30T16:18:23.038302Z"
+  "run": "2026-03-30T19:22:17.259825Z",
+  "_fetched": "2026-03-30T19:22:17.259831Z"
 }
