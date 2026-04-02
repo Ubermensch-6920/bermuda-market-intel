@@ -4,11 +4,11 @@
     "jgb": "",
     "gilt": "",
     "eur": "ok",
-    "india": "INDIA: insufficient data (2 tenors) even after fallbacks",
+    "india": "ok",
     "credit": "CREDIT: no series",
     "sofr": "ok",
     "bma_rates": "ok"
   },
-  "run": "2026-04-02T16:14:06.120563Z",
-  "_fetched": "2026-04-02T16:14:06.120568Z"
+  "run": "2026-04-02T19:19:22.464992Z",
+  "_fetched": "2026-04-02T19:19:22.464997Z"
 }
