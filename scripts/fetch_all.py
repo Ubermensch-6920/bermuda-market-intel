@@ -105,6 +105,33 @@ def fred_prior_single(series_id, days_ago, max_diff_days=14):
     if diff > max_diff_days: return None, ""
     return round(best["value"], 4), best["date"]
 
+def validate_yield(val):
+    """Range-check a yield value. Returns rounded float or None."""
+    if val is None: return None
+    return round(val, 4) if 0 < val < 20 else None
+
+def interpolate_curve(yields_dict, tenors):
+    """Linear interpolation for missing interior tenors. Does not extrapolate."""
+    def t2n(t): return float(t.replace("Y", ""))
+    known = sorted([(t2n(t), v) for t, v in yields_dict.items() if v is not None], key=lambda k: k[0])
+    if len(known) < 2: return yields_dict
+    for t in tenors:
+        if yields_dict.get(t) is None:
+            x = t2n(t)
+            left  = max((k for k in known if k[0] < x), default=None, key=lambda k: k[0])
+            right = min((k for k in known if k[0] > x), default=None, key=lambda k: k[0])
+            if left and right:
+                yields_dict[t] = round(left[1] + (right[1] - left[1]) * (x - left[0]) / (right[0] - left[0]), 4)
+    return yields_dict
+
+def load_last_india():
+    """Return the last successfully written india.json, or None."""
+    try:
+        f = DATA / "india.json"
+        if f.exists(): return json.loads(f.read_text())
+    except: pass
+    return None
+
 def scrape_investing_yield(url_path):
     try:
         html = get(f"https://www.investing.com{url_path}", timeout=15)
@@ -288,17 +315,41 @@ def fetch_eur():
 # ── 5. INDIA ──
 INDIA_INV = {"1Y":"/rates-bonds/india-1-year-bond-yield","2Y":"/rates-bonds/india-2-year-bond-yield","3Y":"/rates-bonds/india-3-year-bond-yield","5Y":"/rates-bonds/india-5-year-bond-yield","7Y":"/rates-bonds/india-7-year-bond-yield","10Y":"/rates-bonds/india-10-year-bond-yield","15Y":"/rates-bonds/india-15-year-bond-yield","20Y":"/rates-bonds/india-20-year-bond-yield","30Y":"/rates-bonds/india-30-year-bond-yield"}
 def fetch_india():
-    log.info("INDIA: fetching"); tenors = list(INDIA_INV.keys()); yields = {}
+    log.info("INDIA: fetching")
+    tenors = list(INDIA_INV.keys())
+    yields = {}
+
+    # ── L1: Investing.com scrape ──
     for tenor, path in INDIA_INV.items():
-        v = scrape_investing_yield(path)
+        v = validate_yield(scrape_investing_yield(path))
         if v: yields[tenor] = v; log.info(f"  India {tenor}: {v}%")
         else: log.warning(f"  India {tenor}: failed")
-        time.sleep(0.5)
+        time.sleep(0.4)
+
+    # ── L2: FRED 10Y anchor — only fill if scraping missed it ──
     try:
-        obs = fred_csv("INDIRLTLT01STM", start="2025-01-01")
-        if obs and "10Y" not in yields: yields["10Y"] = round(obs[0]["value"], 2)
+        obs = fred_csv("INDIRLTLT01STM", start="2024-01-01")
+        if obs and yields.get("10Y") is None:
+            fred_10y = validate_yield(obs[0]["value"])
+            if fred_10y: yields["10Y"] = fred_10y; log.info(f"  India 10Y (FRED fallback): {fred_10y}%")
     except: pass
-    assert len(yields) >= 1
+
+    # ── L3: Interpolate any remaining interior gaps ──
+    yields = interpolate_curve(yields, tenors)
+
+    # ── L4: Last-known-good fill for anything still missing ──
+    last = load_last_india()
+    if last:
+        last_y = dict(zip(last.get("tenors", []), last.get("yields", [])))
+        for t in tenors:
+            if yields.get(t) is None and last_y.get(t) is not None:
+                yields[t] = last_y[t]
+
+    valid_count = sum(1 for v in yields.values() if v is not None)
+    if valid_count < 3:
+        raise Exception(f"INDIA: insufficient data ({valid_count} tenors) even after fallbacks")
+
+    # ── Historical ──
     ya_yields = [None]*len(tenors); ya_date = ""
     fred_ya, fdate = fred_year_ago_10y("INDIRLTLT01STM")
     if fred_ya: ya_yields[tenors.index("10Y")] = fred_ya; ya_date = fdate
@@ -309,13 +360,18 @@ def fetch_india():
     if p1m_val: p1m_yields[tenors.index("10Y")] = p1m_val; p1m_date = p1m_d
     if p3m_val: p3m_yields[tenors.index("10Y")] = p3m_val; p3m_date = p3m_d
     log.info(f"  India 1M ago (10Y): {p1m_val} ({p1m_date}), 3M ago (10Y): {p3m_val} ({p3m_date})")
-    write("india.json", {"date": datetime.utcnow().strftime("%Y-%m-%d"), "prior_date": "",
-        "source": "Investing.com / FRED", "url": "https://www.investing.com/rates-bonds/india-government-bonds",
-        "tenors": tenors, "yields": [yields.get(t) for t in tenors], "prior_yields": [None]*len(tenors),
+
+    write("india.json", {
+        "date": datetime.utcnow().strftime("%Y-%m-%d"),
+        "source": "Investing.com / FRED / Interpolated",
+        "url": "https://www.investing.com/rates-bonds/india-government-bonds",
+        "tenors": tenors, "yields": [yields.get(t) for t in tenors],
+        "prior_yields": [None]*len(tenors),
         "prior_1m_yields": p1m_yields, "prior_1m_date": p1m_date,
         "prior_3m_yields": p3m_yields, "prior_3m_date": p3m_date,
-        "year_ago_yields": ya_yields, "year_ago_date": ya_date})
-    log.info(f"  INDIA OK: {len(yields)} tenors")
+        "year_ago_yields": ya_yields, "year_ago_date": ya_date,
+        "note": "Hybrid curve: scrape + FRED anchor + interpolation + cache fallback"})
+    log.info(f"  INDIA OK: {valid_count} tenors")
 
 # ── 6. CREDIT (ONE FRED request for all 9 series) ──
 def fetch_credit():
