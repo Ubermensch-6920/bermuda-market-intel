@@ -132,6 +132,28 @@ def load_last_india():
     except: pass
     return None
 
+def load_last_bma():
+    """Return the last successfully written bma_rates.json, or None."""
+    try:
+        f = DATA / "bma_rates.json"
+        if f.exists(): return json.loads(f.read_text())
+    except: pass
+    return None
+
+def parse_d(s):
+    """Parse '31 December 2025' or '31 Dec 2025'. Returns datetime or None."""
+    if not s: return None
+    for fmt in ["%d %B %Y", "%d %b %Y"]:
+        try: return datetime.strptime(s.strip(), fmt)
+        except ValueError: pass
+    return None
+
+def extract_date_from_url(url):
+    """Extract date from PDF filenames like Discount_Rates_31_December_2025.pdf."""
+    m = re.search(r'(\d{1,2})[_\s-](\w+)[_\s-](\d{4})', url)
+    if not m: return None
+    return parse_d(f"{m.group(1)} {m.group(2)} {m.group(3)}")
+
 def scrape_investing_yield(url_path):
     try:
         html = get(f"https://www.investing.com{url_path}", timeout=15)
@@ -530,22 +552,77 @@ def fetch_sofr():
 def fetch_bma_rates():
     log.info("BMA RATES: fetching")
     latest_date, latest_pub, pdf_url = "", "", ""
-    all_dr = []
+    entries = []
+
     try:
         html = get("https://www.bma.bm/document-centre/reporting-forms-and-guidelines-insurance", timeout=20)
-        matches = re.findall(r'Discount\s+Rates[.\s]*(\d{1,2}\s+\w+\s+\d{4})[.\s]*-?\s*(\d{1,2}\s+\w+\s+\d{4})?', html, re.IGNORECASE)
-        for m in matches: all_dr.append({"as_of": m[0].strip(), "published": m[1].strip() if m[1] else ""})
-        def parse_d(s):
-            for fmt in ["%d %B %Y", "%d %b %Y"]:
-                try: return datetime.strptime(s.strip(), fmt)
-                except: pass
-            return datetime(2000,1,1)
-        if all_dr:
-            all_dr.sort(key=lambda x: parse_d(x["as_of"]), reverse=True)
-            latest_date = all_dr[0]["as_of"]; latest_pub = all_dr[0]["published"]
-        pdfs = re.findall(r'href="([^"]*[Dd]iscount[^"]*)"', html)
-        if pdfs: pdf_url = pdfs[0] if pdfs[0].startswith("http") else f"https://www.bma.bm{pdfs[0]}"
-    except Exception as e: log.warning(f"  BMA: {e}")
+
+        # ── T1: co-location regex — date and PDF href captured together ──
+        for asof_raw, pub_raw, href_raw in re.findall(
+            r'Discount\s+Rates.*?(\d{1,2}\s+\w+\s+\d{4}).*?'
+            r'(?:-\s*(\d{1,2}\s+\w+\s+\d{4}))?.*?href="([^"]+\.pdf)"',
+            html, re.IGNORECASE | re.DOTALL
+        ):
+            dt = parse_d(asof_raw.strip())
+            if dt is None: continue
+            href = href_raw if href_raw.startswith("http") else f"https://www.bma.bm{href_raw}"
+            entries.append({"as_of": asof_raw.strip(), "published": pub_raw.strip(),
+                            "url": href, "as_of_dt": dt, "published_dt": parse_d(pub_raw)})
+        log.info(f"  BMA T1: {len(entries)} entries")
+
+        # ── T2: separate regexes (existing approach as safety net) ──
+        if not entries:
+            dr_matches = re.findall(
+                r'Discount\s+Rates[.\s]*(\d{1,2}\s+\w+\s+\d{4})[.\s]*-?\s*(\d{1,2}\s+\w+\s+\d{4})?',
+                html, re.IGNORECASE)
+            pdf_matches = re.findall(r'href="([^"]*[Dd]iscount[^"]*)"', html)
+            for i, m in enumerate(dr_matches):
+                dt = parse_d(m[0].strip())
+                if dt is None: continue
+                href_raw = pdf_matches[i] if i < len(pdf_matches) else ""
+                href = (href_raw if href_raw.startswith("http") else f"https://www.bma.bm{href_raw}") if href_raw else ""
+                entries.append({"as_of": m[0].strip(), "published": m[1].strip() if m[1] else "",
+                                "url": href, "as_of_dt": dt, "published_dt": parse_d(m[1] if m[1] else "")})
+            log.info(f"  BMA T2: {len(entries)} entries")
+
+        # ── T3: extract date from PDF filename ──
+        if not entries:
+            for href_raw in re.findall(r'href="([^"]*[Dd]iscount[^"]*\.pdf)"', html):
+                dt = extract_date_from_url(href_raw)
+                if dt is None: continue
+                href = href_raw if href_raw.startswith("http") else f"https://www.bma.bm{href_raw}"
+                entries.append({"as_of": dt.strftime("%-d %B %Y"), "published": "",
+                                "url": href, "as_of_dt": dt, "published_dt": None})
+            log.info(f"  BMA T3: {len(entries)} entries")
+
+        # ── Sort and pick best ──
+        entries.sort(key=lambda x: (x["as_of_dt"], x["published_dt"] or datetime.min), reverse=True)
+        if entries:
+            latest_date = entries[0]["as_of"]
+            latest_pub  = entries[0]["published"]
+            pdf_url     = entries[0]["url"]
+            log.info(f"  BMA selected: {latest_date}")
+        else:
+            log.warning("  BMA: no structured matches found in any tier")
+
+    except Exception as e:
+        log.warning(f"  BMA scrape failed: {e}")
+
+    # ── T4: last-written cache (fires for network errors AND empty results) ──
+    if not latest_date:
+        last = load_last_bma()
+        if last:
+            latest_date = last.get("as_of_date", "")
+            latest_pub  = last.get("publication_date", "")
+            pdf_url     = last.get("pdf_url", "")
+            log.warning("  BMA: using T4 cache fallback")
+
+    # Build clean publications list (no datetime objects)
+    all_publications = [
+        {"as_of": e["as_of"], "published": e["published"], "url": e["url"]}
+        for e in entries[:6]
+    ]
+
     manual_file = DATA / "bma_rates_manual.json"
     manual = json.loads(manual_file.read_text()) if manual_file.exists() else None
     bma_tenors = ["0.5Y","1Y","2Y","3Y","5Y","7Y","10Y","15Y","20Y","25Y","30Y","40Y","50Y"]
@@ -553,7 +630,7 @@ def fetch_bma_rates():
     output = {"as_of_date": latest_date or (manual or {}).get("as_of_date","Check BMA website"),
         "publication_date": latest_pub, "source": "BMA — EBS Discount Rates",
         "url": "https://www.bma.bm/document-centre/reporting-forms-and-guidelines-insurance",
-        "pdf_url": pdf_url, "tenors": bma_tenors, "all_publications": all_dr[:6], "currencies": {},
+        "pdf_url": pdf_url, "tenors": bma_tenors, "all_publications": all_publications, "currencies": {},
         "note": f"Latest: {latest_date or 'unknown'}. " + ("Rates from manual file." if manual else "Populate data/bma_rates_manual.json.")}
     if manual and "currencies" in manual:
         output["currencies"] = manual["currencies"]
