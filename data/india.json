@@ -14,7 +14,7 @@
     "30Y"
   ],
   "yields": [
-    null,
+    5.897,
     6.387,
     null,
     null,
@@ -72,5 +72,5 @@
   ],
   "year_ago_date": "",
   "note": "Hybrid curve: scrape + FRED anchor + interpolation + cache fallback",
-  "_fetched": "2026-04-02T19:17:50.617754Z"
+  "_fetched": "2026-04-02T21:54:19.956819Z"
 }
