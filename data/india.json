@@ -19,7 +19,7 @@
     6.613,
     null,
     7.166,
-    null,
+    7.129,
     null,
     null,
     7.661
@@ -72,5 +72,5 @@
   ],
   "year_ago_date": "",
   "note": "Hybrid curve: scrape + FRED anchor + interpolation + cache fallback",
-  "_fetched": "2026-04-03T03:30:27.909705Z"
+  "_fetched": "2026-04-03T07:39:43.874363Z"
 }
