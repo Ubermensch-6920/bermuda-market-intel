@@ -1,5 +1,5 @@
 {
-  "date": "2026-04-03",
+  "date": "2026-04-04",
   "source": "Investing.com / FRED / Interpolated",
   "url": "https://www.investing.com/rates-bonds/india-government-bonds",
   "tenors": [
@@ -15,10 +15,10 @@
   ],
   "yields": [
     5.884,
-    6.387,
+    6.2485,
     6.613,
-    null,
-    7.166,
+    6.8855,
+    7.158,
     7.129,
     null,
     null,
@@ -72,5 +72,5 @@
   ],
   "year_ago_date": "",
   "note": "Hybrid curve: scrape + FRED anchor + interpolation + cache fallback",
-  "_fetched": "2026-04-03T21:51:52.561707Z"
+  "_fetched": "2026-04-04T03:18:22.620472Z"
 }
