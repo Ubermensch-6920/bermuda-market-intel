@@ -17,12 +17,12 @@
     5.884,
     6.2485,
     6.613,
-    6.8855,
-    7.158,
-    7.129,
-    null,
-    null,
-    7.661
+    6.839,
+    6.9172,
+    7.0344,
+    7.2298,
+    7.4252,
+    7.816
   ],
   "prior_yields": [
     null,
@@ -72,5 +72,5 @@
   ],
   "year_ago_date": "",
   "note": "Hybrid curve: scrape + FRED anchor + interpolation + cache fallback",
-  "_fetched": "2026-04-04T03:18:22.620472Z"
+  "_fetched": "2026-04-04T07:20:44.565220Z"
 }
