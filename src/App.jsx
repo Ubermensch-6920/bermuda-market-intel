@@ -440,6 +440,8 @@ const round2 = v => Math.round(v * 100) / 100;
 const commChgCol = v => v == null ? "#64748b" : v > 0 ? "#f87171" : v < 0 ? "#4ade80" : "#64748b";
 const futChgCol = v => v == null ? "#64748b" : v > 0 ? "#f87171" : v < 0 ? "#4ade80" : "#64748b";
 
+const COMM_TENOR_ORDER = ["3M", "6M", "12M", "24M"];
+
 const CommoditiesSection = ({ data, loading, error }) => {
   const [sel, setSel] = useState("gold");
   if (loading) return <div style={{ color: "#94a3b8", padding: 40, textAlign: "center" }}>Loading commodities…</div>;
@@ -457,14 +459,40 @@ const CommoditiesSection = ({ data, loading, error }) => {
   const pct3m = chgPctComm(spot, prior_3m);
   const pct1y = chgPctComm(spot, prior_1y);
 
-  const futureRows = futures ? Object.entries(futures).map(([tenor, f]) => ({
-    tenor,
-    price: f.price,
-    expiry: f.expiry,
-    contract: f.contract,
-    vsSpot: spot != null && f.price != null ? round2(f.price - spot) : null,
-    vsSpotPct: spot != null && f.price != null ? round2(((f.price - spot) / spot) * 100) : null,
-  })) : [];
+  // Fixed-order futures rows with prior prices
+  const futureRows = COMM_TENOR_ORDER
+    .filter(t => futures?.[t])
+    .map(t => {
+      const f = futures[t];
+      return {
+        tenor: t,
+        price: f.price,
+        expiry: f.expiry,
+        contract: f.contract,
+        prior_1m: f.prior_1m,
+        prior_1m_date: f.prior_1m_date,
+        prior_3m: f.prior_3m,
+        prior_3m_date: f.prior_3m_date,
+        vsSpot: spot != null && f.price != null ? round2(f.price - spot) : null,
+        vsSpotPct: spot != null && f.price != null ? round2(((f.price - spot) / spot) * 100) : null,
+        chg1m: chgUSD(f.price, f.prior_1m),
+        chg3m: chgUSD(f.price, f.prior_3m),
+      };
+    });
+
+  // Term structure chart data: Spot + all futures tenors
+  const curveData = [
+    { tenor: "Spot", current: spot, m1: prior_1m, m3: prior_3m },
+    ...COMM_TENOR_ORDER.map(t => {
+      const f = futures?.[t] || {};
+      return { tenor: t, current: f.price ?? null, m1: f.prior_1m ?? null, m3: f.prior_3m ?? null };
+    }),
+  ];
+  const hasCurve = curveData.some(d => d.current != null);
+  const has1mCurve = curveData.some(d => d.m1 != null);
+  const has3mCurve = curveData.some(d => d.m3 != null);
+  const has1mFut = futureRows.some(r => r.prior_1m != null);
+  const has3mFut = futureRows.some(r => r.prior_3m != null);
 
   return (
     <div style={{ display: "flex", flexDirection: "column", gap: 16 }}>
@@ -492,8 +520,6 @@ const CommoditiesSection = ({ data, loading, error }) => {
             </div>
             <div style={{ fontSize: 12, color: "#64748b", marginTop: 4 }}>{spot_date || "—"}</div>
           </div>
-
-          {/* Change summary */}
           <div style={{ display: "flex", gap: 20, flexWrap: "wrap", marginLeft: "auto" }}>
             {[
               { label: "vs 1M ago", chg: chg1m, pct: pct1m, date: prior_1m_date },
@@ -513,50 +539,80 @@ const CommoditiesSection = ({ data, loading, error }) => {
         </div>
       </div>
 
-      {/* Futures strip */}
+      {/* Term Structure Chart */}
+      {hasCurve && <div style={{ background: "#0d0f14", border: "1px solid #1e2028", borderRadius: 10, padding: "16px 16px 8px" }}>
+        <h3 style={{ margin: "0 0 12px 8px", fontSize: 14, fontWeight: 700, color: "#94a3b8", textTransform: "uppercase", letterSpacing: "0.08em" }}>
+          Forward Curve — Spot vs Futures
+        </h3>
+        <ResponsiveContainer width="100%" height={240}>
+          <LineChart data={curveData}>
+            <CartesianGrid strokeDasharray="3 3" stroke="#1e2028" />
+            <XAxis dataKey="tenor" tick={{ fill: "#94a3b8", fontSize: 12 }} axisLine={{ stroke: "#1e2028" }} tickLine={false} />
+            <YAxis tick={{ fill: "#94a3b8", fontSize: 11 }} axisLine={{ stroke: "#1e2028" }} tickLine={false}
+              domain={["auto", "auto"]} tickFormatter={v => typeof v === "number" ? fmtUSD(v, 0) : ""} width={70} />
+            <Tooltip formatter={(v, name) => [v != null ? fmtUSD(v) : "—", name]}
+              contentStyle={{ background: "#1e2028", border: "1px solid #334155", borderRadius: 6, fontSize: 12 }}
+              labelStyle={{ color: "#f1f5f9", fontWeight: 700 }} />
+            <Legend wrapperStyle={{ fontSize: 12, paddingTop: 8 }} />
+            <Line type="monotone" dataKey="current" stroke={cfg.color} strokeWidth={2.5} name="Current" dot={{ r: 4, fill: cfg.color }} connectNulls />
+            {has1mCurve && <Line type="monotone" dataKey="m1" stroke="#818cf8" strokeWidth={1.5} strokeDasharray="5 3" name="1M Ago" dot={{ r: 3 }} connectNulls />}
+            {has3mCurve && <Line type="monotone" dataKey="m3" stroke="#34d399" strokeWidth={1.5} strokeDasharray="5 3" name="3M Ago" dot={{ r: 3 }} connectNulls />}
+          </LineChart>
+        </ResponsiveContainer>
+      </div>}
+
+      {/* Futures strip table */}
       <div style={{ background: "#0d0f14", border: "1px solid #1e2028", borderRadius: 10, overflow: "hidden" }}>
         <div style={{ padding: "12px 20px", borderBottom: "1px solid #1e2028" }}>
-          <h3 style={{ margin: 0, fontSize: 14, fontWeight: 700, color: "#94a3b8", textTransform: "uppercase", letterSpacing: "0.08em" }}>
-            Futures Strip
-          </h3>
+          <h3 style={{ margin: 0, fontSize: 14, fontWeight: 700, color: "#94a3b8", textTransform: "uppercase", letterSpacing: "0.08em" }}>Futures Strip</h3>
         </div>
         <div style={{ overflowX: "auto" }}>
           <table style={{ width: "100%", borderCollapse: "collapse", fontSize: 13 }}>
             <thead>
               <tr style={{ borderBottom: "2px solid #1e2028" }}>
-                {["Tenor", "Contract", "Expiry", "Futures Price", "vs Spot ($)", "vs Spot (%)"].map(h => (
-                  <th key={h} style={{ padding: "10px 16px", textAlign: h === "Tenor" || h === "Contract" || h === "Expiry" ? "left" : "right", color: "#94a3b8", fontWeight: 700, fontSize: 12 }}>{h}</th>
-                ))}
+                <th style={{ padding: "10px 14px", textAlign: "left", color: "#94a3b8", fontWeight: 700, fontSize: 12 }}>Tenor</th>
+                <th style={{ padding: "10px 14px", textAlign: "left", color: "#94a3b8", fontWeight: 700, fontSize: 12 }}>Contract</th>
+                <th style={{ padding: "10px 14px", textAlign: "left", color: "#94a3b8", fontWeight: 700, fontSize: 12 }}>Expiry</th>
+                <th style={{ padding: "10px 14px", textAlign: "right", color: "#94a3b8", fontWeight: 700, fontSize: 12 }}>Price</th>
+                <th style={{ padding: "10px 14px", textAlign: "right", color: "#94a3b8", fontWeight: 700, fontSize: 12 }}>vs Spot</th>
+                {has1mFut && <th style={{ padding: "10px 14px", textAlign: "right", color: "#818cf8", fontWeight: 700, fontSize: 12 }}>Prior 1M</th>}
+                {has1mFut && <th style={{ padding: "10px 14px", textAlign: "right", color: "#818cf8", fontWeight: 700, fontSize: 12 }}>1M Chg</th>}
+                {has3mFut && <th style={{ padding: "10px 14px", textAlign: "right", color: "#34d399", fontWeight: 700, fontSize: 12 }}>Prior 3M</th>}
+                {has3mFut && <th style={{ padding: "10px 14px", textAlign: "right", color: "#34d399", fontWeight: 700, fontSize: 12 }}>3M Chg</th>}
               </tr>
             </thead>
             <tbody>
               {futureRows.length === 0 ? (
-                <tr><td colSpan={6} style={{ padding: "20px 16px", textAlign: "center", color: "#64748b" }}>No futures data available</td></tr>
+                <tr><td colSpan={9} style={{ padding: "20px 14px", textAlign: "center", color: "#64748b" }}>No futures data available</td></tr>
               ) : futureRows.map((row, i) => (
                 <tr key={row.tenor} style={{ borderBottom: "1px solid #151820", background: i % 2 === 0 ? "transparent" : "#0a0c10" }}>
-                  <td style={{ padding: "10px 16px", fontWeight: 700, color: cfg.color, fontFamily: "monospace" }}>{row.tenor}</td>
-                  <td style={{ padding: "10px 16px", color: "#94a3b8", fontFamily: "monospace", fontSize: 12 }}>{row.contract || "—"}</td>
-                  <td style={{ padding: "10px 16px", color: "#cbd5e1", fontSize: 12 }}>{row.expiry || "—"}</td>
-                  <td style={{ padding: "10px 16px", textAlign: "right", fontFamily: "monospace", fontWeight: 600, color: "#f1f5f9" }}>{fmtUSD(row.price)}</td>
-                  <td style={{ padding: "10px 16px", textAlign: "right", fontFamily: "monospace", color: futChgCol(row.vsSpot) }}>
+                  <td style={{ padding: "9px 14px", fontWeight: 700, color: cfg.color, fontFamily: "monospace" }}>{row.tenor}</td>
+                  <td style={{ padding: "9px 14px", color: "#94a3b8", fontFamily: "monospace", fontSize: 12 }}>{row.contract || "—"}</td>
+                  <td style={{ padding: "9px 14px", color: "#cbd5e1", fontSize: 12 }}>{row.expiry || "—"}</td>
+                  <td style={{ padding: "9px 14px", textAlign: "right", fontFamily: "monospace", fontWeight: 600, color: "#f1f5f9" }}>{fmtUSD(row.price)}</td>
+                  <td style={{ padding: "9px 14px", textAlign: "right", fontFamily: "monospace", color: futChgCol(row.vsSpot) }}>
                     {row.vsSpot != null ? (row.vsSpot >= 0 ? "+" : "") + fmtUSD(row.vsSpot) : "—"}
                   </td>
-                  <td style={{ padding: "10px 16px", textAlign: "right", fontFamily: "monospace", color: futChgCol(row.vsSpotPct) }}>
-                    {fmtPct(row.vsSpotPct)}
-                  </td>
+                  {has1mFut && <td style={{ padding: "9px 14px", textAlign: "right", fontFamily: "monospace", color: "#94a3b8" }}>{fmtUSD(row.prior_1m)}</td>}
+                  {has1mFut && <td style={{ padding: "9px 14px", textAlign: "right", fontFamily: "monospace", color: commChgCol(row.chg1m) }}>
+                    {row.chg1m != null ? (row.chg1m >= 0 ? "+" : "") + fmtUSD(row.chg1m) : "—"}
+                  </td>}
+                  {has3mFut && <td style={{ padding: "9px 14px", textAlign: "right", fontFamily: "monospace", color: "#94a3b8" }}>{fmtUSD(row.prior_3m)}</td>}
+                  {has3mFut && <td style={{ padding: "9px 14px", textAlign: "right", fontFamily: "monospace", color: commChgCol(row.chg3m) }}>
+                    {row.chg3m != null ? (row.chg3m >= 0 ? "+" : "") + fmtUSD(row.chg3m) : "—"}
+                  </td>}
                 </tr>
               ))}
             </tbody>
           </table>
         </div>
         <div style={{ padding: "10px 20px", fontSize: 11, color: "#475569", borderTop: "1px solid #151820" }}>
-          Source: FRED (spot) / Yahoo Finance (futures) • Contango = futures &gt; spot (red) • Backwardation = futures &lt; spot (green)
+          FRED (spot) / Yahoo Finance (futures) • Contango = futures &gt; spot (red) • Backwardation = futures &lt; spot (green) • 1M/3M prior = same contract price at that date
         </div>
       </div>
 
-      {/* Source note */}
       <div style={{ fontSize: 11, color: "#475569" }}>
-        Data: {data.source || "FRED / Yahoo Finance"} • Last fetched: {data.date || "—"}
+        Source: {data.source || "FRED / Yahoo Finance"} • {data.date || "—"}
       </div>
     </div>
   );

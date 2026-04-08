@@ -221,6 +221,26 @@ def yahoo_price(symbol):
     except: pass
     return None
 
+def yahoo_price_at(symbol, days_ago, max_diff_days=5):
+    """Fetch close price for a Yahoo Finance symbol approximately N days ago."""
+    try:
+        target_dt = datetime.utcnow() - timedelta(days=days_ago)
+        p1 = int((target_dt - timedelta(days=10)).timestamp())
+        p2 = int((target_dt + timedelta(days=3)).timestamp())
+        url = f"https://query1.finance.yahoo.com/v8/finance/chart/{symbol}?interval=1d&period1={p1}&period2={p2}"
+        data = json.loads(get(url, timeout=6))
+        result = data["chart"]["result"][0]
+        timestamps = result.get("timestamp", [])
+        closes = result["indicators"]["quote"][0]["close"]
+        if not timestamps: return None, ""
+        target_ts = int(target_dt.timestamp())
+        pairs = [(ts, c) for ts, c in zip(timestamps, closes) if c is not None]
+        if not pairs: return None, ""
+        best_ts, best_c = min(pairs, key=lambda x: abs(x[0] - target_ts))
+        if abs(best_ts - target_ts) > max_diff_days * 86400: return None, ""
+        return round(best_c, 2), datetime.utcfromtimestamp(best_ts).strftime("%Y-%m-%d")
+    except: return None, ""
+
 # Commodity futures helpers
 _MONTH_ABBR  = ["jan","feb","mar","apr","may","jun","jul","aug","sep","oct","nov","dec"]
 _FUT_CODES   = {1:"F",2:"G",3:"H",4:"J",5:"K",6:"M",7:"N",8:"Q",9:"U",10:"V",11:"X",12:"Z"}
@@ -753,57 +773,74 @@ def fetch_bma_rates():
 # ── 9. COMMODITIES ──
 def fetch_commodities():
     log.info("COMMODITIES: fetching")
-    TENORS = [("3M", 3), ("6M", 6), ("12M", 12), ("24M", 24)]
+    TENOR_ORDER = ["3M", "6M", "12M", "24M"]
+    TENOR_NS    = [("3M", 3), ("6M", 6), ("12M", 12), ("24M", 24)]
     last = load_last_commodities()
 
     def get_spot(fred_series, inv_path, yahoo_front):
         """Tier-1: FRED  Tier-2: Investing.com scrape  Tier-3: Yahoo front-month"""
         obs = fred_csv(fred_series, start="2023-01-01")
-        if obs:
-            return round(obs[0]["value"], 2), obs[0]["date"]
+        if obs: return round(obs[0]["value"], 2), obs[0]["date"]
         v = scrape_commodity_spot(inv_path)
         if v: return v, ""
         v = yahoo_price(yahoo_front)
         return v, ""
 
-    def prior_val(series, days):
-        return fred_prior_single(series, days)
+    def fetch_all_futures(sym_fn, label_prefix):
+        """Fetch current + 1M/3M historical for all 4 tenors in parallel (12 tasks)."""
+        contracts = {lbl: sym_fn(n) for lbl, n in TENOR_NS}
+        # tasks: (tenor_label, symbol, expiry, kind, days_ago)
+        tasks = []
+        for lbl, (sym, exp) in contracts.items():
+            tasks += [(lbl, sym, exp, "now", 0), (lbl, sym, exp, "1m", 30), (lbl, sym, exp, "3m", 91)]
 
-    def fetch_futures_parallel(sym_fn):
-        """Fetch all 4 futures tenors in parallel. sym_fn(n) → (symbol, expiry)."""
-        results = {}
-        tasks = {label: sym_fn(n) for label, n in TENORS}
-        with ThreadPoolExecutor(max_workers=4) as ex:
-            fut_map = {ex.submit(yahoo_price, sym): (label, sym, exp)
-                       for label, (sym, exp) in tasks.items()}
-            for fut in as_completed(fut_map):
-                label, sym, exp = fut_map[fut]
-                try: p = fut.result()
-                except: p = None
-                results[label] = {"price": p, "expiry": exp, "contract": sym.split(".")[0]}
-                log.info(f"  {label} ({sym}): {p}")
-        return results
+        raw = {}
+        def run(t):
+            lbl, sym, exp, kind, days = t
+            if kind == "now": return lbl, kind, yahoo_price(sym), ""
+            v, d = yahoo_price_at(sym, days)
+            return lbl, kind, v, d
+
+        with ThreadPoolExecutor(max_workers=12) as ex:
+            fmap = {ex.submit(run, t): t for t in tasks}
+            for fut in as_completed(fmap):
+                try:
+                    lbl, kind, price, date = fut.result()
+                    raw.setdefault(lbl, {})[kind] = (price, date)
+                    log.info(f"  {label_prefix} {lbl}/{kind}: {price}")
+                except: pass
+
+        result = {}
+        for lbl, (sym, exp) in contracts.items():
+            r = raw.get(lbl, {})
+            cur_p, _     = r.get("now", (None, ""))
+            p1m, p1m_d   = r.get("1m",  (None, ""))
+            p3m, p3m_d   = r.get("3m",  (None, ""))
+            result[lbl] = {"price": cur_p, "expiry": exp, "contract": sym.split(".")[0],
+                            "prior_1m": p1m, "prior_1m_date": p1m_d,
+                            "prior_3m": p3m, "prior_3m_date": p3m_d}
+        return {lbl: result[lbl] for lbl in TENOR_ORDER if lbl in result}
 
     # --- GOLD ---
     gold_spot, gold_spot_date = get_spot("GOLDAMGBD228NLBM", "/commodities/gold", "GC=F")
-    gold_1m, gold_1m_d = prior_val("GOLDAMGBD228NLBM", 30)
-    gold_3m, gold_3m_d = prior_val("GOLDAMGBD228NLBM", 91)
-    gold_1y, gold_1y_d = prior_val("GOLDAMGBD228NLBM", 365)
-    gold_futures = fetch_futures_parallel(_gold_symbol)
+    gold_1m, gold_1m_d = fred_prior_single("GOLDAMGBD228NLBM", 30)
+    gold_3m, gold_3m_d = fred_prior_single("GOLDAMGBD228NLBM", 91)
+    gold_1y, gold_1y_d = fred_prior_single("GOLDAMGBD228NLBM", 365)
+    gold_futures = fetch_all_futures(_gold_symbol, "Gold")
 
     # --- WTI ---
     wti_spot, wti_spot_date = get_spot("DCOILWTICO", "/commodities/crude-oil", "CL=F")
-    wti_1m, wti_1m_d = prior_val("DCOILWTICO", 30)
-    wti_3m, wti_3m_d = prior_val("DCOILWTICO", 91)
-    wti_1y, wti_1y_d = prior_val("DCOILWTICO", 365)
-    wti_futures = fetch_futures_parallel(_wti_symbol)
+    wti_1m, wti_1m_d = fred_prior_single("DCOILWTICO", 30)
+    wti_3m, wti_3m_d = fred_prior_single("DCOILWTICO", 91)
+    wti_1y, wti_1y_d = fred_prior_single("DCOILWTICO", 365)
+    wti_futures = fetch_all_futures(_wti_symbol, "WTI")
 
     # --- BRENT ---
     brent_spot, brent_spot_date = get_spot("DCOILBRENTEU", "/commodities/brent-oil", "BZ=F")
-    brent_1m, brent_1m_d = prior_val("DCOILBRENTEU", 30)
-    brent_3m, brent_3m_d = prior_val("DCOILBRENTEU", 91)
-    brent_1y, brent_1y_d = prior_val("DCOILBRENTEU", 365)
-    brent_futures = fetch_futures_parallel(_brent_symbol)
+    brent_1m, brent_1m_d = fred_prior_single("DCOILBRENTEU", 30)
+    brent_3m, brent_3m_d = fred_prior_single("DCOILBRENTEU", 91)
+    brent_1y, brent_1y_d = fred_prior_single("DCOILBRENTEU", 365)
+    brent_futures = fetch_all_futures(_brent_symbol, "Brent")
 
     # Cache fallback for null spots
     if last:
