@@ -39,3 +39,103 @@
   },
   "_fetched": "2026-04-08T13:31:53.249261Z"
 }
+    "spot": 4806.3,
+    "spot_date": "",
+    "unit": "USD/troy oz",
+    "prior_1m": null,
+    "prior_1m_date": "",
+    "prior_3m": null,
+    "prior_3m_date": "",
+    "prior_1y": null,
+    "prior_1y_date": "",
+    "futures": {
+      "6M": {
+        "price": 4872.9,
+        "expiry": "Oct 2026",
+        "contract": "GCV26"
+      },
+      "24M": {
+        "price": 5065.1,
+        "expiry": "Apr 2028",
+        "contract": "GCJ28"
+      },
+      "3M": {
+        "price": 4842.8,
+        "expiry": "Aug 2026",
+        "contract": "GCQ26"
+      },
+      "12M": {
+        "price": 4859.3,
+        "expiry": "Apr 2027",
+        "contract": "GCJ27"
+      }
+    }
+  },
+  "wti": {
+    "spot": 93.23,
+    "spot_date": "",
+    "unit": "USD/barrel",
+    "prior_1m": null,
+    "prior_1m_date": "",
+    "prior_3m": null,
+    "prior_3m_date": "",
+    "prior_1y": null,
+    "prior_1y_date": "",
+    "futures": {
+      "24M": {
+        "price": 68.93,
+        "expiry": "Apr 2028",
+        "contract": "CLJ28"
+      },
+      "6M": {
+        "price": 73.98,
+        "expiry": "Oct 2026",
+        "contract": "CLV26"
+      },
+      "12M": {
+        "price": 69.55,
+        "expiry": "Apr 2027",
+        "contract": "CLJ27"
+      },
+      "3M": {
+        "price": 81.24,
+        "expiry": "Jul 2026",
+        "contract": "CLN26"
+      }
+    }
+  },
+  "brent": {
+    "spot": 92.27,
+    "spot_date": "",
+    "unit": "USD/barrel",
+    "prior_1m": null,
+    "prior_1m_date": "",
+    "prior_3m": null,
+    "prior_3m_date": "",
+    "prior_1y": null,
+    "prior_1y_date": "",
+    "futures": {
+      "12M": {
+        "price": 78.12,
+        "expiry": "Apr 2027",
+        "contract": "BZJ27"
+      },
+      "3M": {
+        "price": 87.97,
+        "expiry": "Jul 2026",
+        "contract": "BZN26"
+      },
+      "24M": {
+        "price": null,
+        "expiry": "Apr 2028",
+        "contract": "BZJ28"
+      },
+      "6M": {
+        "price": 79.54,
+        "expiry": "Oct 2026",
+        "contract": "BZV26"
+      }
+    }
+  },
+  "_fetched": "2026-04-08T14:12:18.717089Z"
+}
