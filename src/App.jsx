@@ -480,17 +480,25 @@ const CommoditiesSection = ({ data, loading, error }) => {
       };
     });
 
-  // Term structure chart data: Spot + all futures tenors
-  const curveData = [
-    { tenor: "Spot", current: spot, m1: prior_1m, m3: prior_3m },
+  // Change chart: show price delta (current - prior) at each tenor point
+  const chgData = [
+    {
+      tenor: "Spot",
+      chg1m: chgUSD(spot, prior_1m),
+      chg3m: chgUSD(spot, prior_3m),
+    },
     ...COMM_TENOR_ORDER.map(t => {
       const f = futures?.[t] || {};
-      return { tenor: t, current: f.price ?? null, m1: f.prior_1m ?? null, m3: f.prior_3m ?? null };
+      return {
+        tenor: t,
+        chg1m: chgUSD(f.price, f.prior_1m),
+        chg3m: chgUSD(f.price, f.prior_3m),
+      };
     }),
   ];
-  const hasCurve = curveData.some(d => d.current != null);
-  const has1mCurve = curveData.some(d => d.m1 != null);
-  const has3mCurve = curveData.some(d => d.m3 != null);
+  const has1mChg = chgData.some(d => d.chg1m != null);
+  const has3mChg = chgData.some(d => d.chg3m != null);
+  const hasChgChart = has1mChg || has3mChg;
   const has1mFut = futureRows.some(r => r.prior_1m != null);
   const has3mFut = futureRows.some(r => r.prior_3m != null);
 
@@ -539,24 +547,29 @@ const CommoditiesSection = ({ data, loading, error }) => {
         </div>
       </div>
 
-      {/* Term Structure Chart */}
-      {hasCurve && <div style={{ background: "#0d0f14", border: "1px solid #1e2028", borderRadius: 10, padding: "16px 16px 8px" }}>
-        <h3 style={{ margin: "0 0 12px 8px", fontSize: 14, fontWeight: 700, color: "#94a3b8", textTransform: "uppercase", letterSpacing: "0.08em" }}>
-          Forward Curve — Spot vs Futures
+      {/* Change Chart: delta at each tenor point */}
+      {hasChgChart && <div style={{ background: "#0d0f14", border: "1px solid #1e2028", borderRadius: 10, padding: "16px 16px 8px" }}>
+        <h3 style={{ margin: "0 0 4px 8px", fontSize: 14, fontWeight: 700, color: "#94a3b8", textTransform: "uppercase", letterSpacing: "0.08em" }}>
+          Price Change — Spot &amp; Futures
         </h3>
+        <div style={{ marginLeft: 8, marginBottom: 10, fontSize: 11, color: "#64748b" }}>
+          Change in price ($) vs 1M ago and 3M ago across the forward curve
+        </div>
         <ResponsiveContainer width="100%" height={240}>
-          <LineChart data={curveData}>
+          <LineChart data={chgData}>
             <CartesianGrid strokeDasharray="3 3" stroke="#1e2028" />
             <XAxis dataKey="tenor" tick={{ fill: "#94a3b8", fontSize: 12 }} axisLine={{ stroke: "#1e2028" }} tickLine={false} />
             <YAxis tick={{ fill: "#94a3b8", fontSize: 11 }} axisLine={{ stroke: "#1e2028" }} tickLine={false}
-              domain={["auto", "auto"]} tickFormatter={v => typeof v === "number" ? fmtUSD(v, 0) : ""} width={70} />
-            <Tooltip formatter={(v, name) => [v != null ? fmtUSD(v) : "—", name]}
+              domain={["auto", "auto"]}
+              tickFormatter={v => typeof v === "number" ? (v >= 0 ? "+" : "") + fmtUSD(v, 0) : ""}
+              width={76} />
+            <Tooltip
+              formatter={(v, name) => [v != null ? (v >= 0 ? "+" : "") + fmtUSD(v) : "—", name]}
               contentStyle={{ background: "#1e2028", border: "1px solid #334155", borderRadius: 6, fontSize: 12 }}
               labelStyle={{ color: "#f1f5f9", fontWeight: 700 }} />
             <Legend wrapperStyle={{ fontSize: 12, paddingTop: 8 }} />
-            <Line type="monotone" dataKey="current" stroke={cfg.color} strokeWidth={2.5} name="Current" dot={{ r: 4, fill: cfg.color }} connectNulls />
-            {has1mCurve && <Line type="monotone" dataKey="m1" stroke="#818cf8" strokeWidth={1.5} strokeDasharray="5 3" name="1M Ago" dot={{ r: 3 }} connectNulls />}
-            {has3mCurve && <Line type="monotone" dataKey="m3" stroke="#34d399" strokeWidth={1.5} strokeDasharray="5 3" name="3M Ago" dot={{ r: 3 }} connectNulls />}
+            {has1mChg && <Line type="monotone" dataKey="chg1m" stroke="#818cf8" strokeWidth={2.5} name="vs 1M Ago ($)" dot={{ r: 4, fill: "#818cf8" }} connectNulls />}
+            {has3mChg && <Line type="monotone" dataKey="chg3m" stroke="#34d399" strokeWidth={2} strokeDasharray="5 3" name="vs 3M Ago ($)" dot={{ r: 3, fill: "#34d399" }} connectNulls />}
           </LineChart>
         </ResponsiveContainer>
       </div>}
