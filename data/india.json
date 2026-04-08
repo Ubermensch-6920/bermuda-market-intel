@@ -1,6 +1,8 @@
 {
-  "date": "2026-04-08",
+  "date": "2026-03-29",
+  "prior_date": "",
   "source": "Investing.com / FRED / Interpolated",
+  "note": "Hybrid curve: scrape + FRED anchor + interpolation + cache fallback",
   "url": "https://www.investing.com/rates-bonds/india-government-bonds",
   "tenors": [
     "1Y",
@@ -14,15 +16,15 @@
     "30Y"
   ],
   "yields": [
-    5.884,
-    6.2485,
-    6.613,
+    5.751,
+    6.326,
+    6.381,
+    6.662,
     6.839,
-    6.95,
-    7.0344,
-    7.2298,
-    7.4252,
-    7.761
+    6.932,
+    7.306,
+    null,
+    7.698
   ],
   "prior_yields": [
     null,

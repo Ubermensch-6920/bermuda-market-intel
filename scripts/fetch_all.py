@@ -3,6 +3,7 @@
 import json, re, sys, os, logging, time
 from datetime import datetime, timedelta
 from pathlib import Path
+from concurrent.futures import ThreadPoolExecutor, as_completed
 import urllib.request
 
 logging.basicConfig(level=logging.INFO, format="%(asctime)s %(levelname)s %(message)s")
@@ -12,7 +13,7 @@ DATA.mkdir(exist_ok=True)
 HDR = {"User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/124.0.0.0 Safari/537.36",
        "Accept": "text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8", "Accept-Language": "en-US,en;q=0.9"}
 
-def get(url, timeout=25):
+def get(url, timeout=12):
     req = urllib.request.Request(url, headers=HDR)
     with urllib.request.urlopen(req, timeout=timeout) as r:
         return r.read().decode("utf-8", errors="replace")
@@ -172,7 +173,7 @@ def extract_date_from_url(url):
 
 def scrape_investing_yield(url_path):
     try:
-        html = get(f"https://www.investing.com{url_path}", timeout=15)
+        html = get(f"https://www.investing.com{url_path}", timeout=7)
         for pat in [r'data-test="instrument-price-last"[^>]*>([\d.]+)<',
                     r'class="text-5xl[^"]*"[^>]*>([\d.]+)<',
                     r'class="text-2xl[^"]*"[^>]*>([\d.]+)<',
@@ -184,10 +185,21 @@ def scrape_investing_yield(url_path):
     except: pass
     return None
 
+def _scrape_tenors(tenor_path_map, max_workers=4):
+    """Scrape multiple Investing.com yield paths in parallel. Returns {tenor: value_or_None}."""
+    results = {}
+    with ThreadPoolExecutor(max_workers=max_workers) as ex:
+        fut_map = {ex.submit(scrape_investing_yield, path): tenor for tenor, path in tenor_path_map.items()}
+        for fut in as_completed(fut_map):
+            tenor = fut_map[fut]
+            try: results[tenor] = validate_yield(fut.result())
+            except: results[tenor] = None
+    return results
+
 def scrape_commodity_spot(url_path):
     """Scrape a commodity spot/front-month price from Investing.com. Returns float or None."""
     try:
-        html = get(f"https://www.investing.com{url_path}", timeout=15)
+        html = get(f"https://www.investing.com{url_path}", timeout=7)
         for pat in [r'data-test="instrument-price-last"[^>]*>([\d,]+\.?\d*)<',
                     r'class="text-5xl[^"]*"[^>]*>([\d,]+\.?\d*)<',
                     r'"last":\s*([\d.]+)', r'"last_numeric":\s*([\d.]+)']:
@@ -202,7 +214,7 @@ def yahoo_price(symbol):
     """Fetch latest close price for a Yahoo Finance symbol (futures, indices, etc.)."""
     try:
         url = f"https://query1.finance.yahoo.com/v8/finance/chart/{symbol}?interval=1d&range=5d"
-        data = json.loads(get(url, timeout=10))
+        data = json.loads(get(url, timeout=6))
         closes = data["chart"]["result"][0]["indicators"]["quote"][0]["close"]
         for v in reversed(closes):
             if v is not None: return round(v, 2)
@@ -330,12 +342,11 @@ def fetch_gilt():
     tenors = list(GILT_INV.keys())
     yields = {}
 
-    # ── L1: Investing.com scrape with validation ──
-    for tenor, path in GILT_INV.items():
-        v = validate_yield(scrape_investing_yield(path))
+    # ── L1: Investing.com scrape with validation (parallel) ──
+    scraped = _scrape_tenors(GILT_INV)
+    for tenor, v in scraped.items():
         if v: yields[tenor] = v; log.info(f"  Gilt {tenor}: {v}%")
         else: log.warning(f"  Gilt {tenor}: failed")
-        time.sleep(0.5)
 
     # ── L2: FRED 10Y anchor — only fill if scraping missed it ──
     try:
@@ -441,12 +452,11 @@ def fetch_india():
     tenors = list(INDIA_INV.keys())
     yields = {}
 
-    # ── L1: Investing.com scrape ──
-    for tenor, path in INDIA_INV.items():
-        v = validate_yield(scrape_investing_yield(path))
+    # ── L1: Investing.com scrape (parallel) ──
+    scraped = _scrape_tenors(INDIA_INV)
+    for tenor, v in scraped.items():
         if v: yields[tenor] = v; log.info(f"  India {tenor}: {v}%")
         else: log.warning(f"  India {tenor}: failed")
-        time.sleep(0.4)
 
     # ── L2: FRED 10Y anchor — only fill if scraping missed it ──
     try:
@@ -746,56 +756,54 @@ def fetch_commodities():
     TENORS = [("3M", 3), ("6M", 6), ("12M", 12), ("24M", 24)]
     last = load_last_commodities()
 
+    def get_spot(fred_series, inv_path, yahoo_front):
+        """Tier-1: FRED  Tier-2: Investing.com scrape  Tier-3: Yahoo front-month"""
+        obs = fred_csv(fred_series, start="2023-01-01")
+        if obs:
+            return round(obs[0]["value"], 2), obs[0]["date"]
+        v = scrape_commodity_spot(inv_path)
+        if v: return v, ""
+        v = yahoo_price(yahoo_front)
+        return v, ""
+
     def prior_val(series, days):
         return fred_prior_single(series, days)
 
+    def fetch_futures_parallel(sym_fn):
+        """Fetch all 4 futures tenors in parallel. sym_fn(n) → (symbol, expiry)."""
+        results = {}
+        tasks = {label: sym_fn(n) for label, n in TENORS}
+        with ThreadPoolExecutor(max_workers=4) as ex:
+            fut_map = {ex.submit(yahoo_price, sym): (label, sym, exp)
+                       for label, (sym, exp) in tasks.items()}
+            for fut in as_completed(fut_map):
+                label, sym, exp = fut_map[fut]
+                try: p = fut.result()
+                except: p = None
+                results[label] = {"price": p, "expiry": exp, "contract": sym.split(".")[0]}
+                log.info(f"  {label} ({sym}): {p}")
+        return results
+
     # --- GOLD ---
-    gold_obs = fred_csv("GOLDAMGBD228NLBM", start="2023-01-01")
-    gold_spot = round(gold_obs[0]["value"], 2) if gold_obs else None
-    gold_spot_date = gold_obs[0]["date"] if gold_obs else ""
-    if gold_spot is None:
-        gold_spot = scrape_commodity_spot("/commodities/gold"); time.sleep(0.5)
+    gold_spot, gold_spot_date = get_spot("GOLDAMGBD228NLBM", "/commodities/gold", "GC=F")
     gold_1m, gold_1m_d = prior_val("GOLDAMGBD228NLBM", 30)
     gold_3m, gold_3m_d = prior_val("GOLDAMGBD228NLBM", 91)
     gold_1y, gold_1y_d = prior_val("GOLDAMGBD228NLBM", 365)
-    gold_futures = {}
-    for label, n in TENORS:
-        sym, exp = _gold_symbol(n)
-        p = yahoo_price(sym)
-        gold_futures[label] = {"price": p, "expiry": exp, "contract": sym.split(".")[0]}
-        log.info(f"  Gold {label} ({sym}): {p}"); time.sleep(0.3)
+    gold_futures = fetch_futures_parallel(_gold_symbol)
 
     # --- WTI ---
-    wti_obs = fred_csv("DCOILWTICO", start="2023-01-01")
-    wti_spot = round(wti_obs[0]["value"], 2) if wti_obs else None
-    wti_spot_date = wti_obs[0]["date"] if wti_obs else ""
-    if wti_spot is None:
-        wti_spot = scrape_commodity_spot("/commodities/crude-oil"); time.sleep(0.5)
+    wti_spot, wti_spot_date = get_spot("DCOILWTICO", "/commodities/crude-oil", "CL=F")
     wti_1m, wti_1m_d = prior_val("DCOILWTICO", 30)
     wti_3m, wti_3m_d = prior_val("DCOILWTICO", 91)
     wti_1y, wti_1y_d = prior_val("DCOILWTICO", 365)
-    wti_futures = {}
-    for label, n in TENORS:
-        sym, exp = _wti_symbol(n)
-        p = yahoo_price(sym)
-        wti_futures[label] = {"price": p, "expiry": exp, "contract": sym.split(".")[0]}
-        log.info(f"  WTI {label} ({sym}): {p}"); time.sleep(0.3)
+    wti_futures = fetch_futures_parallel(_wti_symbol)
 
     # --- BRENT ---
-    brent_obs = fred_csv("DCOILBRENTEU", start="2023-01-01")
-    brent_spot = round(brent_obs[0]["value"], 2) if brent_obs else None
-    brent_spot_date = brent_obs[0]["date"] if brent_obs else ""
-    if brent_spot is None:
-        brent_spot = scrape_commodity_spot("/commodities/brent-oil"); time.sleep(0.5)
+    brent_spot, brent_spot_date = get_spot("DCOILBRENTEU", "/commodities/brent-oil", "BZ=F")
     brent_1m, brent_1m_d = prior_val("DCOILBRENTEU", 30)
     brent_3m, brent_3m_d = prior_val("DCOILBRENTEU", 91)
     brent_1y, brent_1y_d = prior_val("DCOILBRENTEU", 365)
-    brent_futures = {}
-    for label, n in TENORS:
-        sym, exp = _brent_symbol(n)
-        p = yahoo_price(sym)
-        brent_futures[label] = {"price": p, "expiry": exp, "contract": sym.split(".")[0]}
-        log.info(f"  Brent {label} ({sym}): {p}"); time.sleep(0.3)
+    brent_futures = fetch_futures_parallel(_brent_symbol)
 
     # Cache fallback for null spots
     if last:
