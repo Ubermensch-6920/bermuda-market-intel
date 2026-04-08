@@ -132,6 +132,44 @@ def load_last_india():
     except: pass
     return None
 
+def load_last_bma():
+    """Return the last successfully written bma_rates.json, or None."""
+    try:
+        f = DATA / "bma_rates.json"
+        if f.exists(): return json.loads(f.read_text())
+    except: pass
+    return None
+
+def load_last_gilt():
+    """Return the last successfully written gilt.json, or None."""
+    try:
+        f = DATA / "gilt.json"
+        if f.exists(): return json.loads(f.read_text())
+    except: pass
+    return None
+
+def load_last_commodities():
+    """Return the last successfully written commodities.json, or None."""
+    try:
+        f = DATA / "commodities.json"
+        if f.exists(): return json.loads(f.read_text())
+    except: pass
+    return None
+
+def parse_d(s):
+    """Parse '31 December 2025' or '31 Dec 2025'. Returns datetime or None."""
+    if not s: return None
+    for fmt in ["%d %B %Y", "%d %b %Y"]:
+        try: return datetime.strptime(s.strip(), fmt)
+        except ValueError: pass
+    return None
+
+def extract_date_from_url(url):
+    """Extract date from PDF filenames like Discount_Rates_31_December_2025.pdf."""
+    m = re.search(r'(\d{1,2})[_\s-](\w+)[_\s-](\d{4})', url)
+    if not m: return None
+    return parse_d(f"{m.group(1)} {m.group(2)} {m.group(3)}")
+
 def scrape_investing_yield(url_path):
     try:
         html = get(f"https://www.investing.com{url_path}", timeout=15)
@@ -145,6 +183,57 @@ def scrape_investing_yield(url_path):
                 if 0 < v < 20: return v
     except: pass
     return None
+
+def scrape_commodity_spot(url_path):
+    """Scrape a commodity spot/front-month price from Investing.com. Returns float or None."""
+    try:
+        html = get(f"https://www.investing.com{url_path}", timeout=15)
+        for pat in [r'data-test="instrument-price-last"[^>]*>([\d,]+\.?\d*)<',
+                    r'class="text-5xl[^"]*"[^>]*>([\d,]+\.?\d*)<',
+                    r'"last":\s*([\d.]+)', r'"last_numeric":\s*([\d.]+)']:
+            m = re.search(pat, html)
+            if m:
+                v = float(m.group(1).replace(",", ""))
+                if v > 0: return round(v, 2)
+    except: pass
+    return None
+
+def yahoo_price(symbol):
+    """Fetch latest close price for a Yahoo Finance symbol (futures, indices, etc.)."""
+    try:
+        url = f"https://query1.finance.yahoo.com/v8/finance/chart/{symbol}?interval=1d&range=5d"
+        data = json.loads(get(url, timeout=10))
+        closes = data["chart"]["result"][0]["indicators"]["quote"][0]["close"]
+        for v in reversed(closes):
+            if v is not None: return round(v, 2)
+    except: pass
+    return None
+
+# Commodity futures helpers
+_MONTH_ABBR  = ["jan","feb","mar","apr","may","jun","jul","aug","sep","oct","nov","dec"]
+_FUT_CODES   = {1:"F",2:"G",3:"H",4:"J",5:"K",6:"M",7:"N",8:"Q",9:"U",10:"V",11:"X",12:"Z"}
+_GOLD_MONTHS = [2,4,6,8,10,12]   # COMEX gold active delivery months
+
+def _advance_months(m, y, n):
+    m += n; y += (m-1)//12; m = (m-1)%12+1; return m, y
+
+def _next_active(m, y, actives):
+    for a in actives:
+        if a >= m: return a, y
+    return actives[0], y+1
+
+def _gold_symbol(months_ahead):
+    m, y = _advance_months(datetime.utcnow().month, datetime.utcnow().year, months_ahead)
+    m, y = _next_active(m, y, _GOLD_MONTHS)
+    return f"GC{_FUT_CODES[m]}{y%100:02d}.CMX", f"{_MONTH_ABBR[m-1].capitalize()} {y}"
+
+def _wti_symbol(months_ahead):
+    m, y = _advance_months(datetime.utcnow().month, datetime.utcnow().year, months_ahead)
+    return f"CL{_FUT_CODES[m]}{y%100:02d}.NYM", f"{_MONTH_ABBR[m-1].capitalize()} {y}"
+
+def _brent_symbol(months_ahead):
+    m, y = _advance_months(datetime.utcnow().month, datetime.utcnow().year, months_ahead)
+    return f"BZ{_FUT_CODES[m]}{y%100:02d}.NYM", f"{_MONTH_ABBR[m-1].capitalize()} {y}"
 
 # ── 1. UST ──
 def fetch_ust():
@@ -237,13 +326,41 @@ def fetch_jgb():
 # ── 3. GILT ──
 GILT_INV = {"1Y":"/rates-bonds/uk-1-year-bond-yield","2Y":"/rates-bonds/uk-2-year-bond-yield","3Y":"/rates-bonds/uk-3-year-bond-yield","5Y":"/rates-bonds/uk-5-year-bond-yield","7Y":"/rates-bonds/uk-7-year-bond-yield","10Y":"/rates-bonds/uk-10-year-bond-yield","15Y":"/rates-bonds/uk-15-year-bond-yield","20Y":"/rates-bonds/uk-20-year-bond-yield","30Y":"/rates-bonds/uk-30-year-bond-yield"}
 def fetch_gilt():
-    log.info("GILT: fetching"); tenors = list(GILT_INV.keys()); yields = {}
+    log.info("GILT: fetching")
+    tenors = list(GILT_INV.keys())
+    yields = {}
+
+    # ── L1: Investing.com scrape with validation ──
     for tenor, path in GILT_INV.items():
-        v = scrape_investing_yield(path)
+        v = validate_yield(scrape_investing_yield(path))
         if v: yields[tenor] = v; log.info(f"  Gilt {tenor}: {v}%")
         else: log.warning(f"  Gilt {tenor}: failed")
         time.sleep(0.5)
-    assert len(yields) >= 3
+
+    # ── L2: FRED 10Y anchor — only fill if scraping missed it ──
+    try:
+        obs = fred_csv("IRLTLT01GBM156N", start="2024-01-01")
+        if obs and yields.get("10Y") is None:
+            fred_10y = validate_yield(obs[0]["value"])
+            if fred_10y: yields["10Y"] = fred_10y; log.info(f"  Gilt 10Y (FRED fallback): {fred_10y}%")
+    except: pass
+
+    # ── L3: Interpolate any remaining interior gaps ──
+    yields = interpolate_curve(yields, tenors)
+
+    # ── L4: Last-known-good fill for anything still missing ──
+    last = load_last_gilt()
+    if last:
+        last_y = dict(zip(last.get("tenors", []), last.get("yields", [])))
+        for t in tenors:
+            if yields.get(t) is None and last_y.get(t) is not None:
+                yields[t] = last_y[t]
+
+    valid_count = sum(1 for v in yields.values() if v is not None)
+    if valid_count < 3:
+        raise Exception(f"GILT: insufficient data ({valid_count} tenors) even after fallbacks")
+
+    # ── Historical ──
     ya_yields = [None]*len(tenors); ya_date = ""
     fred_ya, fdate = fred_year_ago_10y("IRLTLT01GBM156N")
     if fred_ya: ya_yields[tenors.index("10Y")] = fred_ya; ya_date = fdate
@@ -254,13 +371,18 @@ def fetch_gilt():
     if p1m_val: p1m_yields[tenors.index("10Y")] = p1m_val; p1m_date = p1m_d
     if p3m_val: p3m_yields[tenors.index("10Y")] = p3m_val; p3m_date = p3m_d
     log.info(f"  Gilt 1M ago (10Y): {p1m_val} ({p1m_date}), 3M ago (10Y): {p3m_val} ({p3m_date})")
-    write("gilt.json", {"date": datetime.utcnow().strftime("%Y-%m-%d"), "prior_date": "",
-        "source": "Investing.com / FRED", "url": "https://www.investing.com/rates-bonds/uk-government-bonds",
-        "tenors": tenors, "yields": [yields.get(t) for t in tenors], "prior_yields": [None]*len(tenors),
+
+    write("gilt.json", {
+        "date": datetime.utcnow().strftime("%Y-%m-%d"), "prior_date": "",
+        "source": "Investing.com / FRED / Interpolated",
+        "note": "Hybrid curve: scrape + FRED anchor + interpolation + cache fallback",
+        "url": "https://www.investing.com/rates-bonds/uk-government-bonds",
+        "tenors": tenors, "yields": [yields.get(t) for t in tenors],
+        "prior_yields": [None]*len(tenors),
         "prior_1m_yields": p1m_yields, "prior_1m_date": p1m_date,
         "prior_3m_yields": p3m_yields, "prior_3m_date": p3m_date,
         "year_ago_yields": ya_yields, "year_ago_date": ya_date})
-    log.info(f"  GILT OK: {len(yields)} tenors")
+    log.info(f"  GILT OK: {valid_count} tenors")
 
 # ── 4. EUR ──
 def fetch_eur():
@@ -530,22 +652,77 @@ def fetch_sofr():
 def fetch_bma_rates():
     log.info("BMA RATES: fetching")
     latest_date, latest_pub, pdf_url = "", "", ""
-    all_dr = []
+    entries = []
+
     try:
         html = get("https://www.bma.bm/document-centre/reporting-forms-and-guidelines-insurance", timeout=20)
-        matches = re.findall(r'Discount\s+Rates[.\s]*(\d{1,2}\s+\w+\s+\d{4})[.\s]*-?\s*(\d{1,2}\s+\w+\s+\d{4})?', html, re.IGNORECASE)
-        for m in matches: all_dr.append({"as_of": m[0].strip(), "published": m[1].strip() if m[1] else ""})
-        def parse_d(s):
-            for fmt in ["%d %B %Y", "%d %b %Y"]:
-                try: return datetime.strptime(s.strip(), fmt)
-                except: pass
-            return datetime(2000,1,1)
-        if all_dr:
-            all_dr.sort(key=lambda x: parse_d(x["as_of"]), reverse=True)
-            latest_date = all_dr[0]["as_of"]; latest_pub = all_dr[0]["published"]
-        pdfs = re.findall(r'href="([^"]*[Dd]iscount[^"]*)"', html)
-        if pdfs: pdf_url = pdfs[0] if pdfs[0].startswith("http") else f"https://www.bma.bm{pdfs[0]}"
-    except Exception as e: log.warning(f"  BMA: {e}")
+
+        # ── T1: co-location regex — date and PDF href captured together ──
+        for asof_raw, pub_raw, href_raw in re.findall(
+            r'Discount\s+Rates.*?(\d{1,2}\s+\w+\s+\d{4}).*?'
+            r'(?:-\s*(\d{1,2}\s+\w+\s+\d{4}))?.*?href="([^"]+\.pdf)"',
+            html, re.IGNORECASE | re.DOTALL
+        ):
+            dt = parse_d(asof_raw.strip())
+            if dt is None: continue
+            href = href_raw if href_raw.startswith("http") else f"https://www.bma.bm{href_raw}"
+            entries.append({"as_of": asof_raw.strip(), "published": pub_raw.strip(),
+                            "url": href, "as_of_dt": dt, "published_dt": parse_d(pub_raw)})
+        log.info(f"  BMA T1: {len(entries)} entries")
+
+        # ── T2: separate regexes (existing approach as safety net) ──
+        if not entries:
+            dr_matches = re.findall(
+                r'Discount\s+Rates[.\s]*(\d{1,2}\s+\w+\s+\d{4})[.\s]*-?\s*(\d{1,2}\s+\w+\s+\d{4})?',
+                html, re.IGNORECASE)
+            pdf_matches = re.findall(r'href="([^"]*[Dd]iscount[^"]*)"', html)
+            for i, m in enumerate(dr_matches):
+                dt = parse_d(m[0].strip())
+                if dt is None: continue
+                href_raw = pdf_matches[i] if i < len(pdf_matches) else ""
+                href = (href_raw if href_raw.startswith("http") else f"https://www.bma.bm{href_raw}") if href_raw else ""
+                entries.append({"as_of": m[0].strip(), "published": m[1].strip() if m[1] else "",
+                                "url": href, "as_of_dt": dt, "published_dt": parse_d(m[1] if m[1] else "")})
+            log.info(f"  BMA T2: {len(entries)} entries")
+
+        # ── T3: extract date from PDF filename ──
+        if not entries:
+            for href_raw in re.findall(r'href="([^"]*[Dd]iscount[^"]*\.pdf)"', html):
+                dt = extract_date_from_url(href_raw)
+                if dt is None: continue
+                href = href_raw if href_raw.startswith("http") else f"https://www.bma.bm{href_raw}"
+                entries.append({"as_of": dt.strftime("%-d %B %Y"), "published": "",
+                                "url": href, "as_of_dt": dt, "published_dt": None})
+            log.info(f"  BMA T3: {len(entries)} entries")
+
+        # ── Sort and pick best ──
+        entries.sort(key=lambda x: (x["as_of_dt"], x["published_dt"] or datetime.min), reverse=True)
+        if entries:
+            latest_date = entries[0]["as_of"]
+            latest_pub  = entries[0]["published"]
+            pdf_url     = entries[0]["url"]
+            log.info(f"  BMA selected: {latest_date}")
+        else:
+            log.warning("  BMA: no structured matches found in any tier")
+
+    except Exception as e:
+        log.warning(f"  BMA scrape failed: {e}")
+
+    # ── T4: last-written cache (fires for network errors AND empty results) ──
+    if not latest_date:
+        last = load_last_bma()
+        if last:
+            latest_date = last.get("as_of_date", "")
+            latest_pub  = last.get("publication_date", "")
+            pdf_url     = last.get("pdf_url", "")
+            log.warning("  BMA: using T4 cache fallback")
+
+    # Build clean publications list (no datetime objects)
+    all_publications = [
+        {"as_of": e["as_of"], "published": e["published"], "url": e["url"]}
+        for e in entries[:6]
+    ]
+
     manual_file = DATA / "bma_rates_manual.json"
     manual = json.loads(manual_file.read_text()) if manual_file.exists() else None
     bma_tenors = ["0.5Y","1Y","2Y","3Y","5Y","7Y","10Y","15Y","20Y","25Y","30Y","40Y","50Y"]
@@ -553,7 +730,7 @@ def fetch_bma_rates():
     output = {"as_of_date": latest_date or (manual or {}).get("as_of_date","Check BMA website"),
         "publication_date": latest_pub, "source": "BMA — EBS Discount Rates",
         "url": "https://www.bma.bm/document-centre/reporting-forms-and-guidelines-insurance",
-        "pdf_url": pdf_url, "tenors": bma_tenors, "all_publications": all_dr[:6], "currencies": {},
+        "pdf_url": pdf_url, "tenors": bma_tenors, "all_publications": all_publications, "currencies": {},
         "note": f"Latest: {latest_date or 'unknown'}. " + ("Rates from manual file." if manual else "Populate data/bma_rates_manual.json.")}
     if manual and "currencies" in manual:
         output["currencies"] = manual["currencies"]
@@ -563,12 +740,103 @@ def fetch_bma_rates():
     write("bma_rates.json", output)
     log.info(f"  BMA RATES OK")
 
+# ── 9. COMMODITIES ──
+def fetch_commodities():
+    log.info("COMMODITIES: fetching")
+    TENORS = [("3M", 3), ("6M", 6), ("12M", 12), ("24M", 24)]
+    last = load_last_commodities()
+
+    def prior_val(series, days):
+        return fred_prior_single(series, days)
+
+    # --- GOLD ---
+    gold_obs = fred_csv("GOLDAMGBD228NLBM", start="2023-01-01")
+    gold_spot = round(gold_obs[0]["value"], 2) if gold_obs else None
+    gold_spot_date = gold_obs[0]["date"] if gold_obs else ""
+    if gold_spot is None:
+        gold_spot = scrape_commodity_spot("/commodities/gold"); time.sleep(0.5)
+    gold_1m, gold_1m_d = prior_val("GOLDAMGBD228NLBM", 30)
+    gold_3m, gold_3m_d = prior_val("GOLDAMGBD228NLBM", 91)
+    gold_1y, gold_1y_d = prior_val("GOLDAMGBD228NLBM", 365)
+    gold_futures = {}
+    for label, n in TENORS:
+        sym, exp = _gold_symbol(n)
+        p = yahoo_price(sym)
+        gold_futures[label] = {"price": p, "expiry": exp, "contract": sym.split(".")[0]}
+        log.info(f"  Gold {label} ({sym}): {p}"); time.sleep(0.3)
+
+    # --- WTI ---
+    wti_obs = fred_csv("DCOILWTICO", start="2023-01-01")
+    wti_spot = round(wti_obs[0]["value"], 2) if wti_obs else None
+    wti_spot_date = wti_obs[0]["date"] if wti_obs else ""
+    if wti_spot is None:
+        wti_spot = scrape_commodity_spot("/commodities/crude-oil"); time.sleep(0.5)
+    wti_1m, wti_1m_d = prior_val("DCOILWTICO", 30)
+    wti_3m, wti_3m_d = prior_val("DCOILWTICO", 91)
+    wti_1y, wti_1y_d = prior_val("DCOILWTICO", 365)
+    wti_futures = {}
+    for label, n in TENORS:
+        sym, exp = _wti_symbol(n)
+        p = yahoo_price(sym)
+        wti_futures[label] = {"price": p, "expiry": exp, "contract": sym.split(".")[0]}
+        log.info(f"  WTI {label} ({sym}): {p}"); time.sleep(0.3)
+
+    # --- BRENT ---
+    brent_obs = fred_csv("DCOILBRENTEU", start="2023-01-01")
+    brent_spot = round(brent_obs[0]["value"], 2) if brent_obs else None
+    brent_spot_date = brent_obs[0]["date"] if brent_obs else ""
+    if brent_spot is None:
+        brent_spot = scrape_commodity_spot("/commodities/brent-oil"); time.sleep(0.5)
+    brent_1m, brent_1m_d = prior_val("DCOILBRENTEU", 30)
+    brent_3m, brent_3m_d = prior_val("DCOILBRENTEU", 91)
+    brent_1y, brent_1y_d = prior_val("DCOILBRENTEU", 365)
+    brent_futures = {}
+    for label, n in TENORS:
+        sym, exp = _brent_symbol(n)
+        p = yahoo_price(sym)
+        brent_futures[label] = {"price": p, "expiry": exp, "contract": sym.split(".")[0]}
+        log.info(f"  Brent {label} ({sym}): {p}"); time.sleep(0.3)
+
+    # Cache fallback for null spots
+    if last:
+        if gold_spot is None: gold_spot = last.get("gold", {}).get("spot")
+        if wti_spot is None: wti_spot = last.get("wti", {}).get("spot")
+        if brent_spot is None: brent_spot = last.get("brent", {}).get("spot")
+
+    write("commodities.json", {
+        "date": datetime.utcnow().strftime("%Y-%m-%d"),
+        "source": "FRED / Yahoo Finance",
+        "gold": {
+            "spot": gold_spot, "spot_date": gold_spot_date, "unit": "USD/troy oz",
+            "prior_1m": gold_1m, "prior_1m_date": gold_1m_d,
+            "prior_3m": gold_3m, "prior_3m_date": gold_3m_d,
+            "prior_1y": gold_1y, "prior_1y_date": gold_1y_d,
+            "futures": gold_futures
+        },
+        "wti": {
+            "spot": wti_spot, "spot_date": wti_spot_date, "unit": "USD/barrel",
+            "prior_1m": wti_1m, "prior_1m_date": wti_1m_d,
+            "prior_3m": wti_3m, "prior_3m_date": wti_3m_d,
+            "prior_1y": wti_1y, "prior_1y_date": wti_1y_d,
+            "futures": wti_futures
+        },
+        "brent": {
+            "spot": brent_spot, "spot_date": brent_spot_date, "unit": "USD/barrel",
+            "prior_1m": brent_1m, "prior_1m_date": brent_1m_d,
+            "prior_3m": brent_3m, "prior_3m_date": brent_3m_d,
+            "prior_1y": brent_1y, "prior_1y_date": brent_1y_d,
+            "futures": brent_futures
+        }
+    })
+    log.info("  COMMODITIES OK")
+
 # ── RUN ──
 def main():
     log.info("=" * 50)
     results = {}
     for name, fn in [("ust",fetch_ust),("jgb",fetch_jgb),("gilt",fetch_gilt),("eur",fetch_eur),
-                     ("india",fetch_india),("credit",fetch_credit),("sofr",fetch_sofr),("bma_rates",fetch_bma_rates)]:
+                     ("india",fetch_india),("credit",fetch_credit),("sofr",fetch_sofr),("bma_rates",fetch_bma_rates),
+                     ("commodities",fetch_commodities)]:
         try: fn(); results[name] = "ok"
         except Exception as e: log.error(f"  {name} FAILED: {e}"); results[name] = str(e)
     write("manifest.json", {"results": results, "run": datetime.utcnow().isoformat()+"Z"})

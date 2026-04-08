@@ -1,0 +1,56 @@
+{
+  "date": "2026-04-08",
+  "source": "FRED / Yahoo Finance",
+  "_fetched": "2026-04-08T00:00:00Z",
+  "gold": {
+    "spot": null,
+    "spot_date": "",
+    "unit": "USD/troy oz",
+    "prior_1m": null,
+    "prior_1m_date": "",
+    "prior_3m": null,
+    "prior_3m_date": "",
+    "prior_1y": null,
+    "prior_1y_date": "",
+    "futures": {
+      "3M": {"price": null, "expiry": "", "contract": ""},
+      "6M": {"price": null, "expiry": "", "contract": ""},
+      "12M": {"price": null, "expiry": "", "contract": ""},
+      "24M": {"price": null, "expiry": "", "contract": ""}
+    }
+  },
+  "wti": {
+    "spot": null,
+    "spot_date": "",
+    "unit": "USD/barrel",
+    "prior_1m": null,
+    "prior_1m_date": "",
+    "prior_3m": null,
+    "prior_3m_date": "",
+    "prior_1y": null,
+    "prior_1y_date": "",
+    "futures": {
+      "3M": {"price": null, "expiry": "", "contract": ""},
+      "6M": {"price": null, "expiry": "", "contract": ""},
+      "12M": {"price": null, "expiry": "", "contract": ""},
+      "24M": {"price": null, "expiry": "", "contract": ""}
+    }
+  },
+  "brent": {
+    "spot": null,
+    "spot_date": "",
+    "unit": "USD/barrel",
+    "prior_1m": null,
+    "prior_1m_date": "",
+    "prior_3m": null,
+    "prior_3m_date": "",
+    "prior_1y": null,
+    "prior_1y_date": "",
+    "futures": {
+      "3M": {"price": null, "expiry": "", "contract": ""},
+      "6M": {"price": null, "expiry": "", "contract": ""},
+      "12M": {"price": null, "expiry": "", "contract": ""},
+      "24M": {"price": null, "expiry": "", "contract": ""}
+    }
+  }
+}
