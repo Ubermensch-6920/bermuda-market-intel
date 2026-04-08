@@ -3,7 +3,7 @@
   "publication_date": "",
   "source": "BMA \u2014 EBS Discount Rates",
   "url": "https://www.bma.bm/document-centre/reporting-forms-and-guidelines-insurance",
-  "pdf_url": "https://cdn.bma.bm/documents/2025-10-22-15-18-14-Discount-Rates.-30-September-2025..xlsx",
+  "pdf_url": "https://www.bma.bm/viewPDF/documents/2026-01-16-12-00-10-Personal-Declaration-Form-for-Director-Officers13-Jan-26.pdf",
   "tenors": [
     "0.5Y",
     "1Y",
@@ -21,28 +21,19 @@
   ],
   "all_publications": [
     {
-      "as_of": "30 September 2025",
-      "published": ""
+      "as_of": "16 January 2026",
+      "published": "",
+      "url": "https://www.bma.bm/viewPDF/documents/2026-01-16-12-00-10-Personal-Declaration-Form-for-Director-Officers13-Jan-26.pdf"
     },
     {
       "as_of": "30 September 2025",
-      "published": ""
-    },
-    {
-      "as_of": "30 June 2025",
-      "published": ""
-    },
-    {
-      "as_of": "30 June 2025",
-      "published": ""
+      "published": "",
+      "url": "https://cdn.bma.bm/documents/2025-05-30-11-47-15-Instructions---Insurance---Class-C-D-and-E---2025-Global-Financial-Crisis-GFC-Stress-Test.pdf"
     },
     {
       "as_of": "31 March 2025",
-      "published": ""
-    },
-    {
-      "as_of": "31 March 2025",
-      "published": ""
+      "published": "",
+      "url": "https://cdn.bma.bm/documents/2025-03-19-11-24-30-Lapse-Liquidity-and-Scenario-Based-Approach-Return---2024-Completion-Instructions.pdf"
     }
   ],
   "currencies": {
@@ -376,6 +367,6 @@
       ]
     }
   },
-  "note": "Latest: 30 September 2025. Rates from manual file.",
-  "_fetched": "2026-04-08T10:21:38.466304Z"
+  "note": "Latest: 16 January 2026. Rates from manual file.",
+  "_fetched": "2026-04-08T13:27:19.576047Z"
 }
