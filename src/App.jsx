@@ -6,7 +6,7 @@ import {
 import {
   Shield, Newspaper, BarChart3, ChevronRight, ExternalLink,
   Clock, RefreshCw, Activity, DollarSign, Percent, ArrowUpRight,
-  ArrowDownRight, Minus, AlertTriangle, Loader, Landmark, TrendingUp
+  ArrowDownRight, Minus, AlertTriangle, Loader, Landmark, TrendingUp, Gem
 } from "lucide-react";
 
 const CurrencySymbolIcon = symbol => ({ size = 16, style = {} }) => (
@@ -424,6 +424,145 @@ const NewsSection = () => { const topics = [...new Set(NEWS.map(n => n.topic))];
 const BMAUpdSection = () => { const cats = [...new Set(BMA_UPDATES.map(u => u.cat))]; const [cf, setCf] = useState("All"); const filtered = cf === "All" ? BMA_UPDATES : BMA_UPDATES.filter(u => u.cat === cf); return (<div style={{ background: "#0d0f14", border: "1px solid #1e2028", borderRadius: 10, overflow: "hidden" }}><div style={{ padding: "16px 22px", borderBottom: "1px solid #1e2028" }}><h3 style={{ margin: "0 0 10px", fontSize: 17, fontWeight: 700, color: "#f1f5f9" }}><Shield size={18} style={{ verticalAlign: "middle", marginRight: 8 }} /> BMA Regulatory Updates</h3><div style={{ display: "flex", gap: 6, flexWrap: "wrap" }}>{["All", ...cats].map(c => <button key={c} onClick={() => setCf(c)} style={{ background: cf === c ? (CC[c] || "#3b82f6") : "transparent", border: `1px solid ${cf === c ? (CC[c] || "#3b82f6") : "#334155"}`, borderRadius: 20, padding: "5px 16px", fontSize: 12, color: cf === c ? "#fff" : "#94a3b8", cursor: "pointer", fontWeight: 500 }}>{c}</button>)}</div></div><div>{filtered.map(item => (<div key={item.id} style={{ padding: "14px 22px", borderBottom: "1px solid #151820" }} onMouseEnter={e => e.currentTarget.style.background = "#12141a"} onMouseLeave={e => e.currentTarget.style.background = "transparent"}><div style={{ display: "flex", gap: 8, alignItems: "center", marginBottom: 5 }}><Badge color={CC[item.cat] || "#60a5fa"}>{item.cat}</Badge>{item.isNew && <Badge color="#4ade80">NEW</Badge>}<span style={{ fontSize: 12, color: "#64748b" }}>{item.date}</span></div><h4 style={{ margin: "0 0 4px", fontSize: 14, fontWeight: 600, color: "#f1f5f9", lineHeight: 1.4 }}>{item.title}</h4><p style={{ margin: 0, fontSize: 13, color: "#94a3b8", lineHeight: 1.5 }}>{item.summary}</p></div>))}</div></div>); };
 
 // ═══════════════════════════════════════════
+// COMMODITIES SECTION
+// ═══════════════════════════════════════════
+const COMMODITY_CONFIGS = {
+  gold:  { label: "Gold",       color: "#f59e0b", unit: "USD/troy oz", symbol: "Au" },
+  wti:   { label: "WTI Crude",  color: "#64748b", unit: "USD/barrel",  symbol: "WTI" },
+  brent: { label: "Brent Crude",color: "#0ea5e9", unit: "USD/barrel",  symbol: "Brent" },
+};
+
+const fmtUSD = (v, decimals = 2) => v != null ? `$${v.toLocaleString("en-US", { minimumFractionDigits: decimals, maximumFractionDigits: decimals })}` : "—";
+const fmtPct = v => v != null ? (v >= 0 ? "+" : "") + v.toFixed(2) + "%" : "—";
+const chgUSD = (cur, prior) => cur != null && prior != null ? round2(cur - prior) : null;
+const chgPctComm = (cur, prior) => cur != null && prior != null ? round2(((cur - prior) / prior) * 100) : null;
+const round2 = v => Math.round(v * 100) / 100;
+const commChgCol = v => v == null ? "#64748b" : v > 0 ? "#f87171" : v < 0 ? "#4ade80" : "#64748b";
+const futChgCol = v => v == null ? "#64748b" : v > 0 ? "#f87171" : v < 0 ? "#4ade80" : "#64748b";
+
+const CommoditiesSection = ({ data, loading, error }) => {
+  const [sel, setSel] = useState("gold");
+  if (loading) return <div style={{ color: "#94a3b8", padding: 40, textAlign: "center" }}>Loading commodities…</div>;
+  if (error) return <div style={{ color: "#f87171", padding: 24 }}>Error: {error}</div>;
+  if (!data) return <div style={{ color: "#64748b", padding: 24 }}>No commodities data available.</div>;
+
+  const cfg = COMMODITY_CONFIGS[sel];
+  const cd = data[sel] || {};
+  const { spot, spot_date, unit, prior_1m, prior_1m_date, prior_3m, prior_3m_date, prior_1y, prior_1y_date, futures } = cd;
+
+  const chg1m = chgUSD(spot, prior_1m);
+  const chg3m = chgUSD(spot, prior_3m);
+  const chg1y = chgUSD(spot, prior_1y);
+  const pct1m = chgPctComm(spot, prior_1m);
+  const pct3m = chgPctComm(spot, prior_3m);
+  const pct1y = chgPctComm(spot, prior_1y);
+
+  const futureRows = futures ? Object.entries(futures).map(([tenor, f]) => ({
+    tenor,
+    price: f.price,
+    expiry: f.expiry,
+    contract: f.contract,
+    vsSpot: spot != null && f.price != null ? round2(f.price - spot) : null,
+    vsSpotPct: spot != null && f.price != null ? round2(((f.price - spot) / spot) * 100) : null,
+  })) : [];
+
+  return (
+    <div style={{ display: "flex", flexDirection: "column", gap: 16 }}>
+      {/* Commodity selector */}
+      <div style={{ display: "flex", gap: 8 }}>
+        {Object.entries(COMMODITY_CONFIGS).map(([key, c]) => (
+          <button key={key} onClick={() => setSel(key)} style={{
+            padding: "8px 20px", borderRadius: 8, border: `1px solid ${sel === key ? c.color : "#334155"}`,
+            background: sel === key ? c.color + "22" : "transparent",
+            color: sel === key ? c.color : "#94a3b8", fontWeight: sel === key ? 700 : 500,
+            fontSize: 13, cursor: "pointer"
+          }}>{c.label}</button>
+        ))}
+      </div>
+
+      {/* Spot price card */}
+      <div style={{ background: "#0d0f14", border: `1px solid ${cfg.color}44`, borderRadius: 10, padding: "20px 24px" }}>
+        <div style={{ display: "flex", alignItems: "baseline", gap: 16, flexWrap: "wrap" }}>
+          <div>
+            <div style={{ fontSize: 12, color: "#64748b", fontWeight: 600, textTransform: "uppercase", letterSpacing: "0.08em", marginBottom: 4 }}>
+              {cfg.label} Spot — {unit}
+            </div>
+            <div style={{ fontSize: 36, fontWeight: 800, color: cfg.color, fontFamily: "monospace", letterSpacing: "-0.02em" }}>
+              {fmtUSD(spot)}
+            </div>
+            <div style={{ fontSize: 12, color: "#64748b", marginTop: 4 }}>{spot_date || "—"}</div>
+          </div>
+
+          {/* Change summary */}
+          <div style={{ display: "flex", gap: 20, flexWrap: "wrap", marginLeft: "auto" }}>
+            {[
+              { label: "vs 1M ago", chg: chg1m, pct: pct1m, date: prior_1m_date },
+              { label: "vs 3M ago", chg: chg3m, pct: pct3m, date: prior_3m_date },
+              { label: "vs 1Y ago", chg: chg1y, pct: pct1y, date: prior_1y_date },
+            ].map(({ label, chg, pct, date }) => (
+              <div key={label} style={{ textAlign: "center", minWidth: 90 }}>
+                <div style={{ fontSize: 11, color: "#64748b", marginBottom: 4, fontWeight: 600 }}>{label}</div>
+                <div style={{ fontSize: 16, fontWeight: 700, color: commChgCol(chg), fontFamily: "monospace" }}>
+                  {chg != null ? (chg >= 0 ? "+" : "") + fmtUSD(chg) : "—"}
+                </div>
+                <div style={{ fontSize: 12, color: commChgCol(pct), fontFamily: "monospace" }}>{fmtPct(pct)}</div>
+                {date && <div style={{ fontSize: 10, color: "#475569", marginTop: 2 }}>{date}</div>}
+              </div>
+            ))}
+          </div>
+        </div>
+      </div>
+
+      {/* Futures strip */}
+      <div style={{ background: "#0d0f14", border: "1px solid #1e2028", borderRadius: 10, overflow: "hidden" }}>
+        <div style={{ padding: "12px 20px", borderBottom: "1px solid #1e2028" }}>
+          <h3 style={{ margin: 0, fontSize: 14, fontWeight: 700, color: "#94a3b8", textTransform: "uppercase", letterSpacing: "0.08em" }}>
+            Futures Strip
+          </h3>
+        </div>
+        <div style={{ overflowX: "auto" }}>
+          <table style={{ width: "100%", borderCollapse: "collapse", fontSize: 13 }}>
+            <thead>
+              <tr style={{ borderBottom: "2px solid #1e2028" }}>
+                {["Tenor", "Contract", "Expiry", "Futures Price", "vs Spot ($)", "vs Spot (%)"].map(h => (
+                  <th key={h} style={{ padding: "10px 16px", textAlign: h === "Tenor" || h === "Contract" || h === "Expiry" ? "left" : "right", color: "#94a3b8", fontWeight: 700, fontSize: 12 }}>{h}</th>
+                ))}
+              </tr>
+            </thead>
+            <tbody>
+              {futureRows.length === 0 ? (
+                <tr><td colSpan={6} style={{ padding: "20px 16px", textAlign: "center", color: "#64748b" }}>No futures data available</td></tr>
+              ) : futureRows.map((row, i) => (
+                <tr key={row.tenor} style={{ borderBottom: "1px solid #151820", background: i % 2 === 0 ? "transparent" : "#0a0c10" }}>
+                  <td style={{ padding: "10px 16px", fontWeight: 700, color: cfg.color, fontFamily: "monospace" }}>{row.tenor}</td>
+                  <td style={{ padding: "10px 16px", color: "#94a3b8", fontFamily: "monospace", fontSize: 12 }}>{row.contract || "—"}</td>
+                  <td style={{ padding: "10px 16px", color: "#cbd5e1", fontSize: 12 }}>{row.expiry || "—"}</td>
+                  <td style={{ padding: "10px 16px", textAlign: "right", fontFamily: "monospace", fontWeight: 600, color: "#f1f5f9" }}>{fmtUSD(row.price)}</td>
+                  <td style={{ padding: "10px 16px", textAlign: "right", fontFamily: "monospace", color: futChgCol(row.vsSpot) }}>
+                    {row.vsSpot != null ? (row.vsSpot >= 0 ? "+" : "") + fmtUSD(row.vsSpot) : "—"}
+                  </td>
+                  <td style={{ padding: "10px 16px", textAlign: "right", fontFamily: "monospace", color: futChgCol(row.vsSpotPct) }}>
+                    {fmtPct(row.vsSpotPct)}
+                  </td>
+                </tr>
+              ))}
+            </tbody>
+          </table>
+        </div>
+        <div style={{ padding: "10px 20px", fontSize: 11, color: "#475569", borderTop: "1px solid #151820" }}>
+          Source: FRED (spot) / Yahoo Finance (futures) • Contango = futures &gt; spot (red) • Backwardation = futures &lt; spot (green)
+        </div>
+      </div>
+
+      {/* Source note */}
+      <div style={{ fontSize: 11, color: "#475569" }}>
+        Data: {data.source || "FRED / Yahoo Finance"} • Last fetched: {data.date || "—"}
+      </div>
+    </div>
+  );
+};
+
+// ═══════════════════════════════════════════
 // MAIN APP
 // ═══════════════════════════════════════════
 const PAGES = [
@@ -431,11 +570,12 @@ const PAGES = [
   { id: "jgb", label: "Japan JGB", icon: CurrencySymbolIcon("¥") }, { id: "gilt", label: "UK Gilts", icon: CurrencySymbolIcon("£") },
   { id: "eiopa", label: "EIOPA EUR", icon: CurrencySymbolIcon("€") }, { id: "india", label: "India Govt", icon: CurrencySymbolIcon("₹") },
   { id: "bma_rates", label: "BMA Rates", icon: Landmark },
+  { id: "commodities", label: "Commodities", icon: Gem },
   { id: "sofr", label: "SOFR", icon: TrendingUp },
   { id: "credit", label: "Credit Spreads", icon: Percent },
   { id: "news", label: "News", icon: Newspaper }, { id: "bma", label: "BMA Updates", icon: Shield },
 ];
-const FILES = { ust: "ust.json", jgb: "jgb.json", gilt: "gilt.json", eiopa: "eur.json", india: "india.json", credit: "credit.json", sofr: "sofr.json", bma_rates: "bma_rates.json" };
+const FILES = { ust: "ust.json", jgb: "jgb.json", gilt: "gilt.json", eiopa: "eur.json", india: "india.json", credit: "credit.json", sofr: "sofr.json", bma_rates: "bma_rates.json", commodities: "commodities.json" };
 
 export default function App() {
   const [page, setPage] = useState("home");
@@ -485,6 +625,7 @@ export default function App() {
       case "eiopa": return <SovSection data={data.eiopa} title="EUR Govt Yield Curve (EIOPA proxy)" accentColor="#f59e0b" loading={ls.eiopa} error={errs.eiopa} />;
       case "india": return <SovSection data={data.india} title="India Government Bond Yields" accentColor="#ec4899" loading={ls.india} error={errs.india} />;
       case "bma_rates": return <BmaRatesSection data={data.bma_rates} loading={ls.bma_rates} error={errs.bma_rates} />;
+      case "commodities": return <CommoditiesSection data={data.commodities} loading={ls.commodities} error={errs.commodities} />;
       case "sofr": return <SofrSection data={data.sofr} loading={ls.sofr} error={errs.sofr} />;
       case "credit": return <CreditSection data={data.credit} loading={ls.credit} error={errs.credit} />;
       case "news": return <NewsSection />; case "bma": return <BMAUpdSection />;
@@ -512,6 +653,8 @@ export default function App() {
             <MetricCard label="US IG OAS" value={igS != null ? igS + "bp" : "—"} change={igP != null ? (igS - igP).toFixed(0) : null} loading={ls.credit} />
             <MetricCard label="US HY OAS" value={hyS != null ? hyS + "bp" : "—"} change={hyP != null ? (hyS - hyP).toFixed(0) : null} loading={ls.credit} />
             <MetricCard label="SOFR" value={sofrRate != null ? sofrRate.toFixed(2) + "%" : "—"} change={chgBp(sofrRate, sofrPrior)} loading={ls.sofr} />
+            <MetricCard label="Gold (spot)" value={data.commodities?.gold?.spot != null ? fmtUSD(data.commodities.gold.spot) : "—"} change={data.commodities?.gold?.spot != null && data.commodities?.gold?.prior_1m != null ? (chgUSD(data.commodities.gold.spot, data.commodities.gold.prior_1m) >= 0 ? "+" : "") + fmtUSD(chgUSD(data.commodities.gold.spot, data.commodities.gold.prior_1m)) + " 1M" : null} loading={ls.commodities} />
+            <MetricCard label="WTI (spot)" value={data.commodities?.wti?.spot != null ? fmtUSD(data.commodities.wti.spot) : "—"} change={data.commodities?.wti?.spot != null && data.commodities?.wti?.prior_1m != null ? (chgUSD(data.commodities.wti.spot, data.commodities.wti.prior_1m) >= 0 ? "+" : "") + fmtUSD(chgUSD(data.commodities.wti.spot, data.commodities.wti.prior_1m)) + " 1M" : null} loading={ls.commodities} />
           </div>
         </div>
 

@@ -1,7 +1,8 @@
 {
   "date": "2026-03-29",
   "prior_date": "",
-  "source": "Investing.com / FRED",
+  "source": "Investing.com / FRED / Interpolated",
+  "note": "Hybrid curve: scrape + FRED anchor + interpolation + cache fallback",
   "url": "https://www.investing.com/rates-bonds/uk-government-bonds",
   "tenors": [
     "1Y",
@@ -36,6 +37,30 @@
     null,
     null
   ],
+  "prior_1m_yields": [
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    null
+  ],
+  "prior_1m_date": "",
+  "prior_3m_yields": [
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    null
+  ],
+  "prior_3m_date": "",
   "year_ago_yields": [
     null,
     null,
