@@ -18,7 +18,7 @@
     6.2485,
     6.613,
     6.839,
-    6.9172,
+    6.95,
     7.0344,
     7.2298,
     7.4252,
@@ -72,5 +72,5 @@
   ],
   "year_ago_date": "",
   "note": "Hybrid curve: scrape + FRED anchor + interpolation + cache fallback",
-  "_fetched": "2026-04-08T03:34:55.439702Z"
+  "_fetched": "2026-04-08T07:55:33.434885Z"
 }
