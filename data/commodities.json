@@ -2,7 +2,7 @@
   "date": "2026-04-08",
   "source": "FRED / Yahoo Finance",
   "gold": {
-    "spot": 4776.4,
+    "spot": 4785.5,
     "spot_date": "",
     "unit": "USD/troy oz",
     "prior_1m": null,
@@ -13,22 +13,22 @@
     "prior_1y_date": "",
     "futures": {
       "3M": {
-        "price": 4817.2,
+        "price": 4823.5,
         "expiry": "Aug 2026",
         "contract": "GCQ26",
         "prior_1m": 5321.2,
         "prior_1m_date": "2026-03-10",
-        "prior_3m": 4561.1,
-        "prior_3m_date": "2026-01-07"
+        "prior_3m": 4560.0,
+        "prior_3m_date": "2026-01-08"
       },
       "6M": {
-        "price": 4846.2,
+        "price": 4857.0,
         "expiry": "Oct 2026",
         "contract": "GCV26",
         "prior_1m": 5356.8,
         "prior_1m_date": "2026-03-10",
-        "prior_3m": 4590.3,
-        "prior_3m_date": "2026-01-07"
+        "prior_3m": 4589.6,
+        "prior_3m_date": "2026-01-08"
       },
       "12M": {
         "price": 4859.3,
@@ -36,8 +36,8 @@
         "contract": "GCJ27",
         "prior_1m": 5460.1,
         "prior_1m_date": "2026-03-10",
-        "prior_3m": 4677.8,
-        "prior_3m_date": "2026-01-07"
+        "prior_3m": 4677.3,
+        "prior_3m_date": "2026-01-08"
       },
       "24M": {
         "price": 5065.1,
@@ -51,7 +51,7 @@
     }
   },
   "wti": {
-    "spot": 94.78,
+    "spot": 94.72,
     "spot_date": "",
     "unit": "USD/barrel",
     "prior_1m": null,
@@ -62,45 +62,45 @@
     "prior_1y_date": "",
     "futures": {
       "3M": {
-        "price": 82.8,
+        "price": 82.91,
         "expiry": "Jul 2026",
         "contract": "CLN26",
         "prior_1m": 76.93,
         "prior_1m_date": "2026-03-10",
-        "prior_3m": 55.87,
-        "prior_3m_date": "2026-01-07"
+        "prior_3m": 57.49,
+        "prior_3m_date": "2026-01-08"
       },
       "6M": {
-        "price": 74.54,
+        "price": 74.74,
         "expiry": "Oct 2026",
         "contract": "CLV26",
         "prior_1m": 71.46,
         "prior_1m_date": "2026-03-10",
-        "prior_3m": 55.85,
-        "prior_3m_date": "2026-01-07"
+        "prior_3m": 57.34,
+        "prior_3m_date": "2026-01-08"
       },
       "12M": {
-        "price": 70.07,
+        "price": 70.48,
         "expiry": "Apr 2027",
         "contract": "CLJ27",
         "prior_1m": 66.97,
         "prior_1m_date": "2026-03-10",
-        "prior_3m": 56.04,
-        "prior_3m_date": "2026-01-07"
+        "prior_3m": 57.31,
+        "prior_3m_date": "2026-01-08"
       },
       "24M": {
-        "price": 68.93,
+        "price": 68.0,
         "expiry": "Apr 2028",
         "contract": "CLJ28",
         "prior_1m": 65.07,
         "prior_1m_date": "2026-03-10",
-        "prior_3m": 57.49,
-        "prior_3m_date": "2026-01-07"
+        "prior_3m": 58.46,
+        "prior_3m_date": "2026-01-08"
       }
     }
   },
   "brent": {
-    "spot": 95.06,
+    "spot": 94.37,
     "spot_date": "",
     "unit": "USD/barrel",
     "prior_1m": null,
@@ -111,22 +111,22 @@
     "prior_1y_date": "",
     "futures": {
       "3M": {
-        "price": 90.29,
+        "price": 89.68,
         "expiry": "Jul 2026",
         "contract": "BZN26",
         "prior_1m": 82.6,
         "prior_1m_date": "2026-03-10",
-        "prior_3m": 59.31,
-        "prior_3m_date": "2026-01-07"
+        "prior_3m": 61.01,
+        "prior_3m_date": "2026-01-08"
       },
       "6M": {
-        "price": 80.72,
+        "price": 80.98,
         "expiry": "Oct 2026",
         "contract": "BZV26",
         "prior_1m": 76.91,
         "prior_1m_date": "2026-03-10",
-        "prior_3m": 59.28,
-        "prior_3m_date": "2026-01-07"
+        "prior_3m": 60.86,
+        "prior_3m_date": "2026-01-08"
       },
       "12M": {
         "price": 78.12,
@@ -134,8 +134,8 @@
         "contract": "BZJ27",
         "prior_1m": 72.05,
         "prior_1m_date": "2026-03-10",
-        "prior_3m": 59.58,
-        "prior_3m_date": "2026-01-07"
+        "prior_3m": 60.93,
+        "prior_3m_date": "2026-01-08"
       },
       "24M": {
         "price": null,
@@ -148,5 +148,5 @@
       }
     }
   },
-  "_fetched": "2026-04-08T16:46:44.468410Z"
+  "_fetched": "2026-04-08T17:25:41.507953Z"
 }
