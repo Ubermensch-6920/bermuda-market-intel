@@ -2,7 +2,7 @@
   "date": "2026-04-08",
   "source": "FRED / Yahoo Finance",
   "gold": {
-    "spot": null,
+    "spot": 4804.3,
     "spot_date": "",
     "unit": "USD/troy oz",
     "prior_1m": null,
@@ -12,16 +12,6 @@
     "prior_1y": null,
     "prior_1y_date": "",
     "futures": {
-      "3M": {
-        "price": 4859.1,
-        "expiry": "Aug 2026",
-        "contract": "GCQ26"
-      },
-      "6M": {
-        "price": 4891.5,
-        "expiry": "Oct 2026",
-        "contract": "GCV26"
-      },
       "12M": {
         "price": 4859.3,
         "expiry": "Apr 2027",
@@ -31,11 +21,21 @@
         "price": 5065.1,
         "expiry": "Apr 2028",
         "contract": "GCJ28"
+      },
+      "3M": {
+        "price": 4839.2,
+        "expiry": "Aug 2026",
+        "contract": "GCQ26"
+      },
+      "6M": {
+        "price": 4875.6,
+        "expiry": "Oct 2026",
+        "contract": "GCV26"
       }
     }
   },
   "wti": {
-    "spot": null,
+    "spot": 94.01,
     "spot_date": "",
     "unit": "USD/barrel",
     "prior_1m": null,
@@ -45,30 +45,30 @@
     "prior_1y": null,
     "prior_1y_date": "",
     "futures": {
-      "3M": {
-        "price": 80.36,
-        "expiry": "Jul 2026",
-        "contract": "CLN26"
-      },
-      "6M": {
-        "price": 73.06,
-        "expiry": "Oct 2026",
-        "contract": "CLV26"
-      },
-      "12M": {
-        "price": 69.23,
-        "expiry": "Apr 2027",
-        "contract": "CLJ27"
-      },
       "24M": {
         "price": 68.93,
         "expiry": "Apr 2028",
         "contract": "CLJ28"
+      },
+      "12M": {
+        "price": 69.55,
+        "expiry": "Apr 2027",
+        "contract": "CLJ27"
+      },
+      "6M": {
+        "price": 74.08,
+        "expiry": "Oct 2026",
+        "contract": "CLV26"
+      },
+      "3M": {
+        "price": 81.59,
+        "expiry": "Jul 2026",
+        "contract": "CLN26"
       }
     }
   },
   "brent": {
-    "spot": null,
+    "spot": 92.37,
     "spot_date": "",
     "unit": "USD/barrel",
     "prior_1m": null,
@@ -78,8 +78,13 @@
     "prior_1y": null,
     "prior_1y_date": "",
     "futures": {
+      "24M": {
+        "price": null,
+        "expiry": "Apr 2028",
+        "contract": "BZJ28"
+      },
       "3M": {
-        "price": 86.98,
+        "price": 87.82,
         "expiry": "Jul 2026",
         "contract": "BZN26"
       },
@@ -92,13 +97,8 @@
         "price": 78.12,
         "expiry": "Apr 2027",
         "contract": "BZJ27"
-      },
-      "24M": {
-        "price": null,
-        "expiry": "Apr 2028",
-        "contract": "BZJ28"
       }
     }
   },
-  "_fetched": "2026-04-08T13:31:53.249261Z"
+  "_fetched": "2026-04-08T13:56:42.893163Z"
 }
