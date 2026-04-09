@@ -2,7 +2,7 @@
   "date": "2026-04-09",
   "source": "FRED / Yahoo Finance",
   "gold": {
-    "spot": 4738.8,
+    "spot": 4729.0,
     "spot_date": "",
     "unit": "USD/troy oz",
     "prior_1m": null,
@@ -13,7 +13,7 @@
     "prior_1y_date": "",
     "futures": {
       "3M": {
-        "price": 4774.9,
+        "price": 4765.9,
         "expiry": "Aug 2026",
         "contract": "GCQ26",
         "prior_1m": 5321.2,
@@ -22,7 +22,7 @@
         "prior_3m_date": "2026-01-08"
       },
       "6M": {
-        "price": 4804.8,
+        "price": 4800.5,
         "expiry": "Oct 2026",
         "contract": "GCV26",
         "prior_1m": 5356.8,
@@ -40,7 +40,7 @@
         "prior_3m_date": "2026-01-08"
       },
       "24M": {
-        "price": 5065.1,
+        "price": 5160.8,
         "expiry": "Apr 2028",
         "contract": "GCJ28",
         "prior_1m": 5647.2,
@@ -51,7 +51,7 @@
     }
   },
   "wti": {
-    "spot": 98.3,
+    "spot": 97.01,
     "spot_date": "",
     "unit": "USD/barrel",
     "prior_1m": null,
@@ -62,7 +62,7 @@
     "prior_1y_date": "",
     "futures": {
       "3M": {
-        "price": 86.08,
+        "price": 85.0,
         "expiry": "Jul 2026",
         "contract": "CLN26",
         "prior_1m": 76.93,
@@ -71,7 +71,7 @@
         "prior_3m_date": "2026-01-08"
       },
       "6M": {
-        "price": 77.3,
+        "price": 76.54,
         "expiry": "Oct 2026",
         "contract": "CLV26",
         "prior_1m": 71.46,
@@ -100,7 +100,7 @@
     }
   },
   "brent": {
-    "spot": 97.6,
+    "spot": 96.73,
     "spot_date": "",
     "unit": "USD/barrel",
     "prior_1m": null,
@@ -111,7 +111,7 @@
     "prior_1y_date": "",
     "futures": {
       "3M": {
-        "price": 92.32,
+        "price": 91.3,
         "expiry": "Jul 2026",
         "contract": "BZN26",
         "prior_1m": 82.6,
@@ -129,7 +129,7 @@
         "prior_3m_date": "2026-01-08"
       },
       "12M": {
-        "price": 78.12,
+        "price": 77.3,
         "expiry": "Apr 2027",
         "contract": "BZJ27",
         "prior_1m": 72.05,
@@ -148,5 +148,5 @@
       }
     }
   },
-  "_fetched": "2026-04-09T01:36:10.915160Z"
+  "_fetched": "2026-04-09T03:38:37.366764Z"
 }
