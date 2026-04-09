@@ -20,7 +20,7 @@ concurrency:
 jobs:
   refresh-and-deploy:
     runs-on: ubuntu-latest
-    timeout-minutes: 10
+    timeout-minutes: 12
     environment:
       name: github-pages
     steps:
