@@ -2,7 +2,7 @@
   "date": "2026-04-09",
   "source": "FRED / TradingEconomics / Investing / Yahoo Finance",
   "gold": {
-    "spot": 4773.41,
+    "spot": 4767.07,
     "spot_date": "",
     "spot_source": "TradingEconomics",
     "unit": "USD/troy oz",
@@ -14,7 +14,7 @@
     "prior_1y_date": "",
     "futures": {
       "3M": {
-        "price": 4838.3,
+        "price": 4827.4,
         "expiry": "Aug 2026",
         "contract": "GCQ26",
         "prior_1m": 5218.1,
@@ -60,7 +60,7 @@
     }
   },
   "wti": {
-    "spot": 99.04,
+    "spot": 98.4,
     "spot_date": "",
     "spot_source": "TradingEconomics",
     "unit": "USD/barrel",
@@ -72,7 +72,7 @@
     "prior_1y_date": "",
     "futures": {
       "3M": {
-        "price": 85.26,
+        "price": 85.21,
         "expiry": "Jul 2026",
         "contract": "CLN26",
         "prior_1m": 83.48,
@@ -83,7 +83,7 @@
         "prior_3m_contract": "CLJ26"
       },
       "6M": {
-        "price": 76.41,
+        "price": 76.57,
         "expiry": "Oct 2026",
         "contract": "CLV26",
         "prior_1m": 76.82,
@@ -94,7 +94,7 @@
         "prior_3m_contract": "CLN26"
       },
       "12M": {
-        "price": 71.73,
+        "price": 71.81,
         "expiry": "Apr 2027",
         "contract": "CLJ27",
         "prior_1m": 69.49,
@@ -118,7 +118,7 @@
     }
   },
   "brent": {
-    "spot": 97.06,
+    "spot": 95.08,
     "spot_date": "",
     "spot_source": "TradingEconomics",
     "unit": "USD/barrel",
@@ -130,7 +130,7 @@
     "prior_1y_date": "",
     "futures": {
       "3M": {
-        "price": 91.11,
+        "price": 90.78,
         "expiry": "Jul 2026",
         "contract": "BZN26",
         "prior_1m": 89.35,
@@ -176,5 +176,5 @@
     }
   },
   "note": "Spot history comes from daily FRED series. Futures history is roll-aware by target date.",
-  "_fetched": "2026-04-09T19:40:58.738472Z"
+  "_fetched": "2026-04-09T22:00:54.643516Z"
 }
