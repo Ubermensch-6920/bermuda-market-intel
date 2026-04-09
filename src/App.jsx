@@ -165,25 +165,46 @@ const SovSection = ({ data, title, accentColor, loading: ld, error }) => {
 // ═══════════════════════════════════════════
 // CREDIT SPREAD SECTION
 // ═══════════════════════════════════════════
+const srcLabel = s => {
+  if (!s) return null;
+  if (s === "cache") return { label: "Cached", color: "#f59e0b" };
+  if (s.startsWith("fred_download")) return { label: "FRED↓", color: "#60a5fa" };
+  if (s.startsWith("fred")) return { label: "FRED", color: "#60a5fa" };
+  return null;
+};
+
 const CreditSection = ({ data, loading: ld, error }) => {
   if (ld) return <div style={{ background: "#0d0f14", border: "1px solid #1e2028", borderRadius: 10, padding: 40, textAlign: "center", color: "#94a3b8" }}><Loader size={24} style={{ animation: "spin 1s linear infinite", margin: "0 auto 10px", display: "block", color: "#60a5fa" }} />Loading…</div>;
   if (error) return <div style={{ background: "#0d0f14", border: "1px solid #1e2028", borderRadius: 10, padding: 20 }}><h3 style={{ margin: "0 0 8px", fontSize: 16, fontWeight: 700, color: "#f1f5f9" }}>Credit Spreads</h3><div style={{ color: "#f87171", fontSize: 13 }}><AlertTriangle size={14} style={{ verticalAlign: "middle", marginRight: 6 }} />{error}</div></div>;
   if (!data) return null;
   const entries = Object.values(data.spreads || {}).filter(e => e.spread != null);
+  const hasCache = entries.some(e => e.source === "cache");
   return (<div style={{ background: "#0d0f14", border: "1px solid #1e2028", borderRadius: 10, overflow: "hidden" }}>
     <div style={{ padding: "16px 22px", borderBottom: "1px solid #1e2028" }}>
       <h3 style={{ margin: 0, fontSize: 17, fontWeight: 700, color: "#f1f5f9" }}>US Corporate Credit Spreads (OAS)</h3>
       <DataFresh date={data.date} source={data.source} url={data.url} />
+      {data.note && <div style={{ fontSize: 11, color: "#64748b", marginTop: 5, lineHeight: 1.5 }}>{data.note}</div>}
     </div>
+    {hasCache && (
+      <div style={{ padding: "8px 22px", background: "#1a1206", borderBottom: "1px solid #854d0e", display: "flex", alignItems: "center", gap: 8, fontSize: 12, color: "#fbbf24" }}>
+        <AlertTriangle size={13} />
+        Some spreads are using cached data — FRED was unavailable at last run.
+      </div>
+    )}
     <div style={{ padding: "10px 22px 16px", overflowX: "auto" }}>
       <table style={{ width: "100%", borderCollapse: "collapse", fontSize: 13 }}>
-        <thead><tr style={{ borderBottom: "2px solid #1e2028" }}>{["Index", "OAS (bp)", "Prior", "Chg"].map(h => <th key={h} style={{ textAlign: h === "Index" ? "left" : "right", padding: "8px 12px", color: "#94a3b8", fontWeight: 700, fontSize: 12 }}>{h}</th>)}</tr></thead>
-        <tbody>{entries.map((r, i) => { const c = (r.spread || 0) - (r.prior || 0); return (<tr key={i} style={{ borderBottom: "1px solid #151820" }}>
-          <td style={{ padding: "7px 12px", color: "#f1f5f9", fontWeight: 600, fontSize: 13 }}>{r.name} <Badge color={["HY", "BB", "B", "CCC"].includes(r.bucket) ? "#f87171" : "#4ade80"}>{r.bucket}</Badge></td>
-          <td style={{ padding: "7px 12px", color: "#f1f5f9", textAlign: "right", fontFamily: "monospace", fontWeight: 700, fontSize: 14 }}>{r.spread}</td>
-          <td style={{ padding: "7px 12px", color: "#94a3b8", textAlign: "right", fontFamily: "monospace" }}>{r.prior || "—"}</td>
-          <td style={{ padding: "7px 12px", textAlign: "right", fontFamily: "monospace", color: chgCol(c * -1), fontWeight: 600 }}>{r.prior ? (c > 0 ? "+" : "") + c : "—"}</td>
-        </tr>); })}</tbody>
+        <thead><tr style={{ borderBottom: "2px solid #1e2028" }}>{["Index", "OAS (bp)", "Prior", "Chg", "Source"].map(h => <th key={h} style={{ textAlign: h === "Index" ? "left" : "right", padding: "8px 12px", color: "#94a3b8", fontWeight: 700, fontSize: 12 }}>{h}</th>)}</tr></thead>
+        <tbody>{entries.map((r, i) => {
+          const c = (r.spread || 0) - (r.prior || 0);
+          const sl = srcLabel(r.source);
+          return (<tr key={i} style={{ borderBottom: "1px solid #151820" }}>
+            <td style={{ padding: "7px 12px", color: "#f1f5f9", fontWeight: 600, fontSize: 13 }}>{r.name} <Badge color={["HY", "BB", "B", "CCC"].includes(r.bucket) ? "#f87171" : "#4ade80"}>{r.bucket}</Badge></td>
+            <td style={{ padding: "7px 12px", color: "#f1f5f9", textAlign: "right", fontFamily: "monospace", fontWeight: 700, fontSize: 14 }}>{r.spread}</td>
+            <td style={{ padding: "7px 12px", color: "#94a3b8", textAlign: "right", fontFamily: "monospace" }}>{r.prior || "—"}</td>
+            <td style={{ padding: "7px 12px", textAlign: "right", fontFamily: "monospace", color: chgCol(c * -1), fontWeight: 600 }}>{r.prior ? (c > 0 ? "+" : "") + c : "—"}</td>
+            <td style={{ padding: "7px 12px", textAlign: "right" }}>{sl && <Badge color={sl.color}>{sl.label}</Badge>}</td>
+          </tr>);
+        })}</tbody>
       </table>
     </div>
   </div>);

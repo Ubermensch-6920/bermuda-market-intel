@@ -23,7 +23,7 @@ HDR = {
     "Accept-Language": "en-US,en;q=0.9",
 }
 
-def get(url, timeout=12):
+def get(url, timeout=8):
     req = urllib.request.Request(url, headers=HDR)
     with urllib.request.urlopen(req, timeout=timeout) as r:
         return r.read().decode("utf-8", errors="replace")
@@ -46,12 +46,12 @@ def write(name, obj):
     (DATA / name).write_text(json.dumps(obj, indent=2, default=str))
     log.info(f"  wrote {name}")
 
-def fred_csv(series_id, start="2024-01-01", retries=1):
+def fred_csv(series_id, start="2024-01-01", retries=0):
     """Fetch single FRED series CSV."""
     for attempt in range(retries + 1):
         try:
             url = f"https://fred.stlouisfed.org/graph/fredgraph.csv?id={series_id}&cosd={start}"
-            raw = get(url, timeout=10)
+            raw = get(url, timeout=6)
             obs = []
             for line in raw.strip().split("\n")[1:]:
                 parts = line.split(",")
@@ -69,7 +69,7 @@ def fred_csv(series_id, start="2024-01-01", retries=1):
                 time.sleep(2)
     return []
 
-def fred_multi_csv(series_ids, start="2024-01-01", retries=1):
+def fred_multi_csv(series_ids, start="2024-01-01", retries=0):
     """Fetch MULTIPLE FRED series in ONE request. Returns {series_id: [obs]}."""
     joined = ",".join(series_ids)
     url = f"https://fred.stlouisfed.org/graph/fredgraph.csv?id={joined}&cosd={start}"
@@ -77,7 +77,7 @@ def fred_multi_csv(series_ids, start="2024-01-01", retries=1):
     sid_upper = {sid.upper(): sid for sid in series_ids}
     for attempt in range(retries + 1):
         try:
-            raw = get(url, timeout=20)
+            raw = get(url, timeout=8)
             rows = list(csv.reader(io.StringIO(raw)))
             if len(rows) < 2:
                 return result
@@ -112,6 +112,31 @@ def fred_multi_csv(series_ids, start="2024-01-01", retries=1):
                 time.sleep(2 * (attempt + 1))
     return result
 
+def fred_download_csv(series_id, start="2024-01-01"):
+    """Alternative FRED endpoint: series download page instead of graph CSV.
+    Served via a different URL path — useful when the graph endpoint is throttled.
+    Single attempt, short timeout, no retries."""
+    url = f"https://fred.stlouisfed.org/series/{series_id}/downloaddata/{series_id}.csv"
+    try:
+        raw = get(url, timeout=6)
+        obs = []
+        for line in raw.strip().split("\n")[1:]:
+            parts = line.split(",")
+            if len(parts) >= 2 and parts[1].strip() not in (".", ""):
+                try:
+                    d = parts[0].strip()
+                    if d >= start:
+                        obs.append({"date": d, "value": float(parts[1].strip())})
+                except Exception:
+                    pass
+        obs.sort(key=lambda x: x["date"], reverse=True)
+        if obs:
+            log.info(f"  FRED↓ {series_id}: got {len(obs)} obs via download endpoint")
+        return obs
+    except Exception as e:
+        log.warning(f"  FRED↓ {series_id}: {e}")
+        return []
+
 def fred_year_ago_10y(series_id):
     target = (datetime.utcnow() - timedelta(days=365)).strftime("%Y-%m-%d")
     obs = fred_csv(series_id, start=(datetime.utcnow() - timedelta(days=400)).strftime("%Y-%m-%d"))
@@ -135,7 +160,7 @@ def fred_prior_single(series_id, days_ago, max_diff_days=14):
     """Fetch a single FRED series value closest to N days ago. Returns (value, date)."""
     target_dt = datetime.utcnow() - timedelta(days=days_ago)
     start = (target_dt - timedelta(days=30)).strftime("%Y-%m-%d")
-    obs = fred_csv(series_id, start=start, retries=1)
+    obs = fred_csv(series_id, start=start, retries=0)
     if not obs:
         return None, ""
     target = target_dt.strftime("%Y-%m-%d")
@@ -1025,21 +1050,31 @@ def fetch_india():
         p3m_yields, p3m_date = history_lookup("india", 91, tenors)
         ya_yields = [te.get(t, {}).get("y1") for t in tenors]
         ya_date = "TE year delta reconstruction"
-        try:
-            p1m_val, p1m_d = fred_prior_single("INDIRLTLT01STM", 30)
-            p3m_val, p3m_d = fred_prior_single("INDIRLTLT01STM", 91)
-            ya_val, ya_d = fred_year_ago_10y("INDIRLTLT01STM")
-            if p1m_val is not None and p1m_yields[tenors.index("10Y")] is None:
-                p1m_yields[tenors.index("10Y")] = p1m_val
-                p1m_date = p1m_d or p1m_date
-            if p3m_val is not None and p3m_yields[tenors.index("10Y")] is None:
-                p3m_yields[tenors.index("10Y")] = p3m_val
-                p3m_date = p3m_d or p3m_date
-            if ya_val is not None and ya_yields[tenors.index("10Y")] is None:
-                ya_yields[tenors.index("10Y")] = ya_val
-                ya_date = ya_d or ya_date
-        except Exception:
-            pass
+        # Only call FRED for 10Y priors that TE didn't cover (avoids expensive
+        # timeout chains when FRED is under load)
+        idx10 = tenors.index("10Y")
+        need_p1m = p1m_yields[idx10] is None
+        need_p3m = p3m_yields[idx10] is None
+        need_ya  = ya_yields[idx10] is None
+        if need_p1m or need_p3m or need_ya:
+            try:
+                if need_p1m:
+                    p1m_val, p1m_d = fred_prior_single("INDIRLTLT01STM", 30)
+                    if p1m_val is not None:
+                        p1m_yields[idx10] = p1m_val
+                        p1m_date = p1m_d or p1m_date
+                if need_p3m:
+                    p3m_val, p3m_d = fred_prior_single("INDIRLTLT01STM", 91)
+                    if p3m_val is not None:
+                        p3m_yields[idx10] = p3m_val
+                        p3m_date = p3m_d or p3m_date
+                if need_ya:
+                    ya_val, ya_d = fred_year_ago_10y("INDIRLTLT01STM")
+                    if ya_val is not None:
+                        ya_yields[idx10] = ya_val
+                        ya_date = ya_d or ya_date
+            except Exception:
+                pass
 
     append_curve_history("india", date_str, tenors, [current.get(t) for t in tenors], source)
 
@@ -1112,7 +1147,8 @@ def fetch_credit():
     spreads = {}
     latest_date = ""
 
-    multi = fred_multi_csv(list(series.values()), start="2024-01-01", retries=2)
+    # ── Stage 1: single bulk FRED call (no retries) ──
+    multi = fred_multi_csv(list(series.values()), start="2024-01-01", retries=0)
     for key, sid in series.items():
         obs = multi.get(sid, [])
         if obs:
@@ -1123,11 +1159,12 @@ def fetch_credit():
         else:
             log.warning(f"  Credit {key}: missing from bulk fetch")
 
+    # ── Stage 2: alternative FRED download endpoint for missing series (parallel) ──
     missing = [key for key in series if key not in spreads]
     if missing:
-        log.info(f"  Credit: retrying missing series individually: {missing}")
+        log.info(f"  Credit: trying download endpoint for: {missing}")
         with ThreadPoolExecutor(max_workers=min(4, len(missing))) as ex:
-            fut_map = {ex.submit(fred_csv, series[key], "2024-01-01", 2): key for key in missing}
+            fut_map = {ex.submit(fred_download_csv, series[key], "2024-01-01"): key for key in missing}
             for fut in as_completed(fut_map):
                 key = fut_map[fut]
                 try:
@@ -1135,38 +1172,21 @@ def fetch_credit():
                 except Exception:
                     obs = []
                 if obs:
-                    spreads[key] = build_row(key, obs, "fred_single")
+                    spreads[key] = build_row(key, obs, "fred_download")
                     if obs[0]["date"] > latest_date:
                         latest_date = obs[0]["date"]
-                    log.info(f"  Credit {key}: {spreads[key]['spread']}bp (single)")
+                    log.info(f"  Credit {key}: {spreads[key]['spread']}bp (download)")
                 else:
-                    log.warning(f"  Credit {key}: no data after single retry")
+                    log.warning(f"  Credit {key}: download endpoint also failed")
 
-    if len(spreads) < 6:
-        still_missing = [key for key in series if key not in spreads]
-        if still_missing:
-            log.info(f"  Credit: bulk path thin, full sweep for {still_missing}")
-            with ThreadPoolExecutor(max_workers=min(4, len(still_missing))) as ex:
-                fut_map = {ex.submit(fred_csv, series[key], "2024-01-01", 2): key for key in still_missing}
-                for fut in as_completed(fut_map):
-                    key = fut_map[fut]
-                    try:
-                        obs = fut.result()
-                    except Exception:
-                        obs = []
-                    if obs:
-                        spreads[key] = build_row(key, obs, "fred_single_sweep")
-                        if obs[0]["date"] > latest_date:
-                            latest_date = obs[0]["date"]
-                        log.info(f"  Credit {key}: {spreads[key]['spread']}bp (single sweep)")
-
+    # ── Stage 3: cache fallback for anything still missing ──
     last = load_last_credit()
     if last:
         last_spreads = last.get("spreads", {})
         for key in series:
             if key not in spreads and key in last_spreads:
                 cached = dict(last_spreads[key])
-                cached["source"] = cached.get("source", "cache")
+                cached["source"] = "cache"
                 spreads[key] = cached
                 latest_date = max(latest_date, cached.get("date", ""))
                 log.warning(f"  Credit {key}: using cache fallback")
@@ -1174,12 +1194,19 @@ def fetch_credit():
     if not spreads:
         raise Exception("CREDIT: no series")
 
+    any_cached = any(spreads[k].get("source") == "cache" for k in spreads)
+    note = (
+        "Single bulk FRED fetch; missing series retried via FRED download endpoint; "
+        "cache fallback used for unavailable series. Values are option-adjusted spreads in basis points."
+        + (" Some series are from cache." if any_cached else "")
+    )
+
     write("credit.json", {
         "date": latest_date,
         "source": "FRED / ICE BofA Indices",
         "url": "https://fred.stlouisfed.org/release?rid=209",
         "spreads": spreads,
-        "note": "Bulk FRED fetch first, then per-series retries, then cache fallback. Values are option-adjusted spreads in basis points.",
+        "note": note,
     })
     log.info(f"  CREDIT OK: {latest_date}, {len(spreads)} series")
 
