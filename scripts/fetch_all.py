@@ -1195,95 +1195,434 @@ def fetch_sofr():
     })
     log.info(f"  SOFR OK: {latest_date}")
 
+
+def _parse_iso_prefix_date_from_url(url):
+    m = re.search(r"/documents/(\d{4}-\d{2}-\d{2})-", url)
+    if m:
+        try:
+            return datetime.strptime(m.group(1), "%Y-%m-%d")
+        except Exception:
+            return None
+    return None
+
+def _quarter_end_from_date(dt):
+    q = (dt.month - 1) // 3 + 1
+    if q == 1:
+        return datetime(dt.year, 3, 31)
+    if q == 2:
+        return datetime(dt.year, 6, 30)
+    if q == 3:
+        return datetime(dt.year, 9, 30)
+    return datetime(dt.year, 12, 31)
+
+def _quarter_label(dt):
+    q = (dt.month - 1) // 3 + 1
+    return f"{dt.year} Q{q}"
+
+def _bma_filename_title_date(url):
+    return extract_date_from_url(url)
+
+def _bma_normalize_tenor(v):
+    if v is None:
+        return None
+    s = str(v).strip().lower()
+    m = re.match(r"(\d+)\s*year", s)
+    if m:
+        return f"{int(m.group(1))}Y"
+    m = re.match(r"(\d+)\s*month", s)
+    if m:
+        return f"{int(m.group(1))}M"
+    return None
+
+def _bma_currency_code(name):
+    mapping = {
+        "US": "USD",
+        "UK": "GBP",
+        "Switzerland": "CHF",
+        "Canada": "CAD",
+        "Japan": "JPY",
+        "Australia": "AUD",
+        "New Zealand": "NZD",
+        "Euro Area": "EUR",
+        "EUR": "EUR",
+        "Europe": "EUR",
+    }
+    s = str(name).strip()
+    return mapping.get(s, s.upper()[:3])
+
+BMA_KNOWN_DISCOUNT_FILES = {
+    "2025-12-31": "https://cdn.bma.bm/documents/2026-01-15-11-20-15-Discount-Rates.-31-December-2025.xlsx",
+    "2025-09-30": "https://cdn.bma.bm/documents/2025-10-22-15-18-14-Discount-Rates.-30-September-2025..xlsx",
+    "2025-06-30": "https://cdn.bma.bm/documents/2025-07-18-10-22-07-Discount-Rates.-30-June-2025..xlsx",
+    "2025-03-31": "https://cdn.bma.bm/documents/2025-04-15-14-44-04-Discount-Rates.-31-March-2025..xlsx",
+    "2024-12-31": "https://cdn.bma.bm/documents/2025-01-17-16-39-24-Discount-Rates.-31-December-2024..xlsx",
+}
+
+BMA_DOC_PAGES = [
+    "https://www.bma.bm/documents-centre/documents-reporting-forms-and-guidelines/documents-insurance",
+    "https://www.bma.bm/documents-centre/documents-reporting-forms-and-guidelines",
+    "https://www.bma.bm/document-centre/reporting-forms-and-guidelines-insurance",
+    "https://www.bma.bm/document-centre/reporting-forms-and-guidelines",
+]
+
+def _bma_discover_discount_files():
+    """
+    Discover BMA discount-rate workbooks/attachments from several BMA document-centre pages.
+    Falls back to a small recent-quarter map because the site markup and pagination are inconsistent.
+    """
+    entries = {}
+
+    def upsert(as_of_dt, uploaded_dt, url, source_page):
+        if not as_of_dt or not url:
+            return
+        key = as_of_dt.strftime("%Y-%m-%d")
+        cur = entries.get(key)
+        candidate = {
+            "as_of_dt": as_of_dt,
+            "as_of": as_of_dt.strftime("%d %B %Y").lstrip("0"),
+            "uploaded_dt": uploaded_dt,
+            "uploaded_on": uploaded_dt.strftime("%d %B %Y").lstrip("0") if uploaded_dt else "",
+            "url": url,
+            "source_page": source_page,
+        }
+        if (cur is None) or ((uploaded_dt or datetime.min) > (cur.get("uploaded_dt") or datetime.min)):
+            entries[key] = candidate
+
+    href_pat = re.compile(r'href="([^"]*(?:Discount[-\s_.]*Rates|discount[-\s_.]*rates)[^"]*\.(?:xlsx|xlsm|xls|pdf))"', re.I)
+    title_pat = re.compile(r"Discount\s+Rates\.?\s*(\d{1,2}\s+\w+\s+\d{4})", re.I)
+    upload_pat = re.compile(r"Uploaded on\s+(\d{1,2}\s+\w+\s+\d{4})", re.I)
+
+    for page in BMA_DOC_PAGES:
+        try:
+            html = get(page, timeout=20)
+        except Exception as e:
+            log.warning(f"  BMA page fetch failed {page}: {e}")
+            continue
+
+        # Strong block-level parse: title + uploaded date + href in proximity.
+        block_pat = re.compile(
+            r"Discount\s+Rates\.?\s*(\d{1,2}\s+\w+\s+\d{4}).{0,1200}?Uploaded on\s+(\d{1,2}\s+\w+\s+\d{4}).{0,1200}?href=\"([^\"]*(?:Discount[-\s_.]*Rates|discount[-\s_.]*rates)[^\"]*\.(?:xlsx|xlsm|xls|pdf))\"",
+            re.I | re.S
+        )
+        for asof_raw, uploaded_raw, href_raw in block_pat.findall(html):
+            as_of_dt = parse_d(asof_raw)
+            uploaded_dt = parse_d(uploaded_raw)
+            url = href_raw if href_raw.startswith("http") else f"https://www.bma.bm{href_raw}"
+            upsert(as_of_dt, uploaded_dt, url, page)
+
+        # Generic href scan with context fallback.
+        for m in href_pat.finditer(html):
+            href_raw = m.group(1)
+            url = href_raw if href_raw.startswith("http") else f"https://www.bma.bm{href_raw}"
+            context = html[max(0, m.start()-1200):m.end()+1200]
+            asof_dt = None
+            uploaded_dt = None
+            mt = title_pat.search(context)
+            mu = upload_pat.search(context)
+            if mt:
+                asof_dt = parse_d(mt.group(1))
+            if mu:
+                uploaded_dt = parse_d(mu.group(1))
+            if asof_dt is None:
+                asof_dt = _bma_filename_title_date(url)
+            if uploaded_dt is None:
+                uploaded_dt = _parse_iso_prefix_date_from_url(url)
+            upsert(asof_dt, uploaded_dt, url, page)
+
+    # Recent-quarter hard fallback for resilience.
+    for k, url in BMA_KNOWN_DISCOUNT_FILES.items():
+        as_of_dt = datetime.strptime(k, "%Y-%m-%d")
+        uploaded_dt = _parse_iso_prefix_date_from_url(url)
+        upsert(as_of_dt, uploaded_dt, url, "known_fallback")
+
+    out = list(entries.values())
+    out.sort(key=lambda x: (x["as_of_dt"], x["uploaded_dt"] or datetime.min), reverse=True)
+    return out
+
+def _bma_extract_table(ws, title_text):
+    title_cell = None
+    for r in range(1, min(ws.max_row, 25) + 1):
+        for c in range(1, min(ws.max_column, 30) + 1):
+            v = ws.cell(r, c).value
+            if isinstance(v, str) and title_text.lower() in v.lower():
+                title_cell = (r, c)
+                break
+        if title_cell:
+            break
+    if not title_cell:
+        return {}
+
+    title_row, title_col = title_cell
+    header_row = title_row + 1
+    maturity_col = title_col
+    currencies = []
+    c = maturity_col + 1
+    while c <= ws.max_column:
+        hv = ws.cell(header_row, c).value
+        if hv in (None, ""):
+            break
+        currencies.append((c, _bma_currency_code(hv)))
+        c += 1
+
+    table = {ccy: {} for _, ccy in currencies}
+    r = header_row + 1
+    blank_streak = 0
+    while r <= ws.max_row:
+        tenor = _bma_normalize_tenor(ws.cell(r, maturity_col).value)
+        if not tenor:
+            blank_streak += 1
+            if blank_streak >= 2:
+                break
+            r += 1
+            continue
+        blank_streak = 0
+        for c, ccy in currencies:
+            val = ws.cell(r, c).value
+            table[ccy][tenor] = round(float(val), 10) if isinstance(val, (int, float)) else _as_float(val)
+        r += 1
+    return table
+
+def _bma_parse_discount_workbook(blob):
+    if load_workbook is None:
+        raise RuntimeError("openpyxl not available for BMA workbook parsing")
+
+    wb = load_workbook(io.BytesIO(blob), data_only=True, read_only=True)
+    ws = wb[wb.sheetnames[0]]
+
+    change_header = ""
+    change_note = ""
+    for r in range(1, 6):
+        v = ws.cell(r, 2).value
+        if isinstance(v, str) and "Changes for" in v:
+            change_header = v.strip().rstrip(":")
+            v2 = ws.cell(r + 1, 2).value
+            if isinstance(v2, str):
+                change_note = v2.strip()
+            break
+
+    risk_free = _bma_extract_table(ws, "Risk-Free Spot Rates")
+    standard = _bma_extract_table(ws, "Standard Spot Rates")
+
+    selected_tenors = ["0.5Y", "1Y", "2Y", "3Y", "5Y", "7Y", "10Y", "15Y", "20Y", "25Y", "30Y", "40Y", "50Y"]
+    all_currencies = sorted(set(risk_free.keys()) | set(standard.keys()))
+
+    currencies = {}
+    for ccy in all_currencies:
+        currencies[ccy] = {
+            "risk_free_rates": [risk_free.get(ccy, {}).get(t) for t in selected_tenors],
+            "standard_spot_rates": [standard.get(ccy, {}).get(t) for t in selected_tenors],
+            # Preserve a simple legacy alias for downstream consumers.
+            "rates": [standard.get(ccy, {}).get(t) for t in selected_tenors],
+        }
+
+    return {
+        "sheet": ws.title,
+        "change_header": change_header,
+        "change_note": change_note,
+        "tenors": selected_tenors,
+        "currencies": currencies,
+        "available_currencies": all_currencies,
+    }
+
+def _bma_load_quarter_url_cache():
+    f = DATA / "bma_discount_url_cache.json"
+    try:
+        if f.exists():
+            return json.loads(f.read_text())
+    except Exception:
+        pass
+    return {}
+
+def _bma_save_quarter_url_cache(entries):
+    f = DATA / "bma_discount_url_cache.json"
+    cache = {}
+    for e in entries:
+        key = e["as_of_dt"].strftime("%Y-%m-%d")
+        cache[key] = {
+            "url": e.get("url", ""),
+            "uploaded_on": e.get("uploaded_on", ""),
+            "source_page": e.get("source_page", ""),
+        }
+    try:
+        f.write_text(json.dumps(cache, indent=2))
+    except Exception as e:
+        log.warning(f"  BMA cache write failed: {e}")
+
+def _bma_merge_cache_entries(entries):
+    merged = {e["as_of_dt"].strftime("%Y-%m-%d"): e for e in entries}
+    cache = _bma_load_quarter_url_cache()
+    for k, v in cache.items():
+        if k not in merged and v.get("url"):
+            try:
+                as_of_dt = datetime.strptime(k, "%Y-%m-%d")
+            except Exception:
+                continue
+            uploaded_dt = parse_d(v.get("uploaded_on", "")) or _parse_iso_prefix_date_from_url(v.get("url", ""))
+            merged[k] = {
+                "as_of_dt": as_of_dt,
+                "as_of": as_of_dt.strftime("%d %B %Y").lstrip("0"),
+                "uploaded_dt": uploaded_dt,
+                "uploaded_on": uploaded_dt.strftime("%d %B %Y").lstrip("0") if uploaded_dt else v.get("uploaded_on", ""),
+                "url": v.get("url", ""),
+                "source_page": v.get("source_page", "cache"),
+            }
+    out = list(merged.values())
+    out.sort(key=lambda x: (x["as_of_dt"], x["uploaded_dt"] or datetime.min), reverse=True)
+    return out
+
+def _bma_bp_diff(a, b):
+    if a is None or b is None:
+        return None
+    return round((a - b) * 10000, 2)
+
+def _bma_build_comparison(quarters):
+    if not quarters:
+        return {}
+    latest = quarters[0]
+    prev = quarters[1] if len(quarters) > 1 else None
+    oldest = quarters[-1] if len(quarters) > 1 else None
+    all_ccy = sorted(set().union(*[set(q.get("currencies", {}).keys()) for q in quarters]))
+    tenors = latest.get("tenors", [])
+    out = {}
+    for ccy in all_ccy:
+        rf_latest = latest.get("currencies", {}).get(ccy, {}).get("risk_free_rates", [None] * len(tenors))
+        ss_latest = latest.get("currencies", {}).get(ccy, {}).get("standard_spot_rates", [None] * len(tenors))
+        rf_prev = prev.get("currencies", {}).get(ccy, {}).get("risk_free_rates", [None] * len(tenors)) if prev else [None] * len(tenors)
+        ss_prev = prev.get("currencies", {}).get(ccy, {}).get("standard_spot_rates", [None] * len(tenors)) if prev else [None] * len(tenors)
+        rf_old = oldest.get("currencies", {}).get(ccy, {}).get("risk_free_rates", [None] * len(tenors)) if oldest else [None] * len(tenors)
+        ss_old = oldest.get("currencies", {}).get(ccy, {}).get("standard_spot_rates", [None] * len(tenors)) if oldest else [None] * len(tenors)
+        out[ccy] = {
+            "risk_free_qoq_bp": [_bma_bp_diff(a, b) for a, b in zip(rf_latest, rf_prev)],
+            "standard_spot_qoq_bp": [_bma_bp_diff(a, b) for a, b in zip(ss_latest, ss_prev)],
+            "risk_free_vs_3q_ago_bp": [_bma_bp_diff(a, b) for a, b in zip(rf_latest, rf_old)],
+            "standard_spot_vs_3q_ago_bp": [_bma_bp_diff(a, b) for a, b in zip(ss_latest, ss_old)],
+        }
+    return out
+
+
 # ── 8. BMA RATES ──
 def fetch_bma_rates():
     log.info("BMA RATES: fetching")
-    latest_date, latest_pub, pdf_url = "", "", ""
-    entries = []
-
-    try:
-        html = get("https://www.bma.bm/document-centre/reporting-forms-and-guidelines-insurance", timeout=20)
-        for asof_raw, pub_raw, href_raw in re.findall(
-            r'Discount\s+Rates.*?(\d{1,2}\s+\w+\s+\d{4}).*?(?:-\s*(\d{1,2}\s+\w+\s+\d{4}))?.*?href="([^"]+\.pdf)"',
-            html, re.IGNORECASE | re.DOTALL
-        ):
-            dt = parse_d(asof_raw.strip())
-            if dt is None:
-                continue
-            href = href_raw if href_raw.startswith("http") else f"https://www.bma.bm{href_raw}"
-            entries.append({"as_of": asof_raw.strip(), "published": pub_raw.strip(), "url": href, "as_of_dt": dt, "published_dt": parse_d(pub_raw)})
-        log.info(f"  BMA T1: {len(entries)} entries")
-
-        if not entries:
-            dr_matches = re.findall(
-                r'Discount\s+Rates[.\s]*(\d{1,2}\s+\w+\s+\d{4})[.\s]*-?\s*(\d{1,2}\s+\w+\s+\d{4})?',
-                html, re.IGNORECASE
-            )
-            pdf_matches = re.findall(r'href="([^"]*[Dd]iscount[^"]*)"', html)
-            for i, m in enumerate(dr_matches):
-                dt = parse_d(m[0].strip())
-                if dt is None:
-                    continue
-                href_raw = pdf_matches[i] if i < len(pdf_matches) else ""
-                href = (href_raw if href_raw.startswith("http") else f"https://www.bma.bm{href_raw}") if href_raw else ""
-                entries.append({"as_of": m[0].strip(), "published": m[1].strip() if m[1] else "", "url": href, "as_of_dt": dt, "published_dt": parse_d(m[1] if m[1] else "")})
-            log.info(f"  BMA T2: {len(entries)} entries")
-
-        if not entries:
-            for href_raw in re.findall(r'href="([^"]*[Dd]iscount[^"]*\.pdf)"', html):
-                dt = extract_date_from_url(href_raw)
-                if dt is None:
-                    continue
-                href = href_raw if href_raw.startswith("http") else f"https://www.bma.bm{href_raw}"
-                entries.append({"as_of": dt.strftime("%d %B %Y").lstrip("0"), "published": "", "url": href, "as_of_dt": dt, "published_dt": None})
-            log.info(f"  BMA T3: {len(entries)} entries")
-
-        entries.sort(key=lambda x: (x["as_of_dt"], x["published_dt"] or datetime.min), reverse=True)
-        if entries:
-            latest_date = entries[0]["as_of"]
-            latest_pub = entries[0]["published"]
-            pdf_url = entries[0]["url"]
-            log.info(f"  BMA selected: {latest_date}")
-        else:
-            log.warning("  BMA: no structured matches found in any tier")
-
-    except Exception as e:
-        log.warning(f"  BMA scrape failed: {e}")
-
-    if not latest_date:
-        last = load_last_bma()
-        if last:
-            latest_date = last.get("as_of_date", "")
-            latest_pub = last.get("publication_date", "")
-            pdf_url = last.get("pdf_url", "")
-            log.warning("  BMA: using T4 cache fallback")
-
-    all_publications = [{"as_of": e["as_of"], "published": e["published"], "url": e["url"]} for e in entries[:6]]
-
     manual_file = DATA / "bma_rates_manual.json"
     manual = json.loads(manual_file.read_text()) if manual_file.exists() else None
-    bma_tenors = ["0.5Y", "1Y", "2Y", "3Y", "5Y", "7Y", "10Y", "15Y", "20Y", "25Y", "30Y", "40Y", "50Y"]
-    currencies = ["USD", "GBP", "EUR", "JPY", "CAD", "AUD", "CHF"]
-    output = {
-        "as_of_date": latest_date or (manual or {}).get("as_of_date", "Check BMA website"),
-        "publication_date": latest_pub,
-        "source": "BMA — EBS Discount Rates",
-        "url": "https://www.bma.bm/document-centre/reporting-forms-and-guidelines-insurance",
-        "pdf_url": pdf_url,
-        "tenors": bma_tenors,
-        "all_publications": all_publications,
-        "currencies": {},
-        "note": f"Latest: {latest_date or 'unknown'}. " + ("Rates from manual file." if manual else "Populate data/bma_rates_manual.json.")
-    }
-    if manual and "currencies" in manual:
-        output["currencies"] = manual["currencies"]
-        if manual.get("as_of_date"):
-            output["as_of_date"] = manual["as_of_date"]
+
+    entries = _bma_merge_cache_entries(_bma_discover_discount_files())
+    _bma_save_quarter_url_cache(entries)
+
+    latest = entries[0] if entries else None
+    quarter_entries = []
+    seen_quarters = set()
+    for e in entries:
+        qkey = e["as_of_dt"].strftime("%Y-%m-%d")
+        if qkey not in seen_quarters:
+            quarter_entries.append(e)
+            seen_quarters.add(qkey)
+        if len(quarter_entries) >= 4:
+            break
+
+    quarter_data = []
+    for e in quarter_entries:
+        parsed = None
+        try:
+            if e["url"].lower().endswith((".xlsx", ".xlsm", ".xls")):
+                blob = get_bytes(e["url"], timeout=30, retries=2)
+                parsed = _bma_parse_discount_workbook(blob)
+                log.info(f"  BMA parsed workbook: {e['as_of']} ({e['url']})")
+        except Exception as ex:
+            log.warning(f"  BMA workbook parse failed for {e['as_of']}: {ex}")
+
+        if parsed is None and manual and "quarters" in manual:
+            parsed = manual["quarters"].get(e["as_of_dt"].strftime("%Y-%m-%d"))
+
+        if parsed is not None:
+            quarter_data.append({
+                "as_of_date": e["as_of_dt"].strftime("%Y-%m-%d"),
+                "as_of_display": e["as_of"],
+                "publication_date": e["uploaded_dt"].strftime("%Y-%m-%d") if e.get("uploaded_dt") else "",
+                "publication_display": e.get("uploaded_on", ""),
+                "quarter": _quarter_label(e["as_of_dt"]),
+                "url": e["url"],
+                "source_page": e.get("source_page", ""),
+                "change_header": parsed.get("change_header", ""),
+                "change_note": parsed.get("change_note", ""),
+                "tenors": parsed.get("tenors", []),
+                "available_currencies": parsed.get("available_currencies", []),
+                "currencies": parsed.get("currencies", {}),
+            })
+        else:
+            quarter_data.append({
+                "as_of_date": e["as_of_dt"].strftime("%Y-%m-%d"),
+                "as_of_display": e["as_of"],
+                "publication_date": e["uploaded_dt"].strftime("%Y-%m-%d") if e.get("uploaded_dt") else "",
+                "publication_display": e.get("uploaded_on", ""),
+                "quarter": _quarter_label(e["as_of_dt"]),
+                "url": e["url"],
+                "source_page": e.get("source_page", ""),
+                "change_header": "",
+                "change_note": "",
+                "tenors": ["0.5Y", "1Y", "2Y", "3Y", "5Y", "7Y", "10Y", "15Y", "20Y", "25Y", "30Y", "40Y", "50Y"],
+                "available_currencies": [],
+                "currencies": {},
+            })
+
+    latest_q = quarter_data[0] if quarter_data else None
+    comparison = _bma_build_comparison(quarter_data)
+
+    # Preserve a compact top-level shape for downstream consumers.
+    if latest_q:
+        top_tenors = latest_q.get("tenors", ["0.5Y", "1Y", "2Y", "3Y", "5Y", "7Y", "10Y", "15Y", "20Y", "25Y", "30Y", "40Y", "50Y"])
+        top_currencies = latest_q.get("currencies", {})
     else:
-        for ccy in currencies:
-            output["currencies"][ccy] = {"rates": [None] * len(bma_tenors), "prior_1m_rates": [None] * len(bma_tenors), "prior_rates": [None] * len(bma_tenors)}
+        top_tenors = ["0.5Y", "1Y", "2Y", "3Y", "5Y", "7Y", "10Y", "15Y", "20Y", "25Y", "30Y", "40Y", "50Y"]
+        top_currencies = {}
+
+    output = {
+        "as_of_date": latest_q.get("as_of_display", "") if latest_q else (manual or {}).get("as_of_date", "Check BMA website"),
+        "as_of_date_iso": latest_q.get("as_of_date", "") if latest_q else "",
+        "publication_date": latest_q.get("publication_display", "") if latest_q else "",
+        "publication_date_iso": latest_q.get("publication_date", "") if latest_q else "",
+        "source": "BMA — EBS Discount Rates",
+        "url": "https://www.bma.bm/documents-centre/documents-reporting-forms-and-guidelines/documents-insurance",
+        "pdf_url": latest_q.get("url", "") if latest_q else "",
+        "tenors": top_tenors,
+        "currencies": top_currencies,
+        "all_publications": [
+            {
+                "as_of": e["as_of"],
+                "as_of_date": e["as_of_dt"].strftime("%Y-%m-%d"),
+                "published": e.get("uploaded_on", ""),
+                "published_date": e["uploaded_dt"].strftime("%Y-%m-%d") if e.get("uploaded_dt") else "",
+                "url": e["url"],
+                "source_page": e.get("source_page", ""),
+            }
+            for e in entries[:12]
+        ],
+        "quarter_history": quarter_data,
+        "comparison": comparison,
+        "note": (
+            "Latest available BMA discount-rate workbook plus prior three quarter-end workbooks. "
+            "Current top-level currencies are the latest quarter. "
+            "For each currency, 'rates' aliases standard_spot_rates for backward compatibility."
+        ),
+    }
+
+    # Optional manual override merge.
+    if manual:
+        if not output["currencies"] and manual.get("currencies"):
+            output["currencies"] = manual["currencies"]
+        if manual.get("tenors") and not latest_q:
+            output["tenors"] = manual["tenors"]
+        if manual.get("quarter_history") and not quarter_data:
+            output["quarter_history"] = manual["quarter_history"]
+
+    if not output["quarter_history"] and not output["currencies"]:
+        last = load_last_bma()
+        if last:
+            output = last
+            output["note"] = str(output.get("note", "")) + " Cache fallback used."
+
     write("bma_rates.json", output)
-    log.info("  BMA RATES OK")
+    log.info(f"  BMA RATES OK: {output.get('as_of_date_iso') or output.get('as_of_date','')}")
 
 # ── 9. COMMODITIES ──
 def fetch_commodities():
