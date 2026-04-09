@@ -1,5 +1,5 @@
 {
-  "date": "2026-03-23",
+  "date": "",
   "source": "FRED / ICE BofA Indices",
   "url": "https://fred.stlouisfed.org/release?rid=209",
   "spreads": {
@@ -7,56 +7,66 @@
       "name": "US IG",
       "spread": 88,
       "prior": 88,
-      "bucket": "IG"
+      "bucket": "IG",
+      "source": "cache"
     },
     "aaa": {
       "name": "US AAA",
       "spread": 39,
       "prior": 41,
-      "bucket": "AAA"
+      "bucket": "AAA",
+      "source": "cache"
     },
     "aa": {
       "name": "US AA",
       "spread": 54,
       "prior": 55,
-      "bucket": "AA"
+      "bucket": "AA",
+      "source": "cache"
     },
     "a": {
       "name": "US A",
       "spread": 73,
       "prior": 73,
-      "bucket": "A"
+      "bucket": "A",
+      "source": "cache"
     },
     "bbb": {
       "name": "US BBB",
       "spread": 111,
       "prior": 111,
-      "bucket": "BBB"
+      "bucket": "BBB",
+      "source": "cache"
     },
     "hy": {
       "name": "US HY",
       "spread": 319,
       "prior": 324,
-      "bucket": "HY"
+      "bucket": "HY",
+      "source": "cache"
     },
     "bb": {
       "name": "US BB",
       "spread": 197,
       "prior": 200,
-      "bucket": "BB"
+      "bucket": "BB",
+      "source": "cache"
     },
     "b": {
       "name": "US B",
       "spread": 350,
       "prior": 357,
-      "bucket": "B"
+      "bucket": "B",
+      "source": "cache"
     },
     "ccc": {
       "name": "US CCC+",
       "spread": 975,
       "prior": 979,
-      "bucket": "CCC"
+      "bucket": "CCC",
+      "source": "cache"
     }
   },
-  "_fetched": "2026-03-24T15:20:18.507018Z"
+  "note": "Single bulk FRED fetch; missing series retried via FRED download endpoint; cache fallback used for unavailable series. Values are option-adjusted spreads in basis points. Some series are from cache.",
+  "_fetched": "2026-04-09T15:45:39.031878Z"
 }
