@@ -480,25 +480,25 @@ const CommoditiesSection = ({ data, loading, error }) => {
       };
     });
 
-  // Change chart: show price delta (current - prior) at each tenor point
-  const chgData = [
-    {
-      tenor: "Spot",
-      chg1m: chgUSD(spot, prior_1m),
-      chg3m: chgUSD(spot, prior_3m),
-    },
+  // Forward premium chart: % above/below spot at each tenor — shows market expectation
+  // Spot is always 0% (the reference); lines show how much market is pricing in vs spot
+  const prem = (fwd, ref) => fwd != null && ref != null && ref !== 0 ? round2(((fwd - ref) / ref) * 100) : null;
+  const premData = [
+    { tenor: "Spot", curr: 0, m1: prior_1m != null ? 0 : null, m3: prior_3m != null ? 0 : null },
     ...COMM_TENOR_ORDER.map(t => {
       const f = futures?.[t] || {};
       return {
         tenor: t,
-        chg1m: chgUSD(f.price, f.prior_1m),
-        chg3m: chgUSD(f.price, f.prior_3m),
+        curr: prem(f.price,    spot),
+        m1:   prem(f.prior_1m, prior_1m),
+        m3:   prem(f.prior_3m, prior_3m),
       };
     }),
   ];
-  const has1mChg = chgData.some(d => d.chg1m != null);
-  const has3mChg = chgData.some(d => d.chg3m != null);
-  const hasChgChart = has1mChg || has3mChg;
+  const hasCurrPrem = premData.some(d => d.curr != null && d.tenor !== "Spot");
+  const has1mPrem   = premData.some(d => d.m1   != null && d.tenor !== "Spot");
+  const has3mPrem   = premData.some(d => d.m3   != null && d.tenor !== "Spot");
+  const hasPremChart = hasCurrPrem || has1mPrem || has3mPrem;
   const has1mFut = futureRows.some(r => r.prior_1m != null);
   const has3mFut = futureRows.some(r => r.prior_3m != null);
 
@@ -547,29 +547,30 @@ const CommoditiesSection = ({ data, loading, error }) => {
         </div>
       </div>
 
-      {/* Change Chart: delta at each tenor point */}
-      {hasChgChart && <div style={{ background: "#0d0f14", border: "1px solid #1e2028", borderRadius: 10, padding: "16px 16px 8px" }}>
+      {/* Forward Premium Chart: % above/below spot at each tenor */}
+      {hasPremChart && <div style={{ background: "#0d0f14", border: "1px solid #1e2028", borderRadius: 10, padding: "16px 16px 8px" }}>
         <h3 style={{ margin: "0 0 4px 8px", fontSize: 14, fontWeight: 700, color: "#94a3b8", textTransform: "uppercase", letterSpacing: "0.08em" }}>
-          Price Change — Spot &amp; Futures
+          Forward Premium — % vs Spot
         </h3>
         <div style={{ marginLeft: 8, marginBottom: 10, fontSize: 11, color: "#64748b" }}>
-          Change in price ($) vs 1M ago and 3M ago across the forward curve
+          Each line anchors at 0% (spot) and shows the market's priced-in premium / discount at each tenor. Positive = contango; negative = backwardation.
         </div>
         <ResponsiveContainer width="100%" height={240}>
-          <LineChart data={chgData}>
+          <LineChart data={premData}>
             <CartesianGrid strokeDasharray="3 3" stroke="#1e2028" />
             <XAxis dataKey="tenor" tick={{ fill: "#94a3b8", fontSize: 12 }} axisLine={{ stroke: "#1e2028" }} tickLine={false} />
             <YAxis tick={{ fill: "#94a3b8", fontSize: 11 }} axisLine={{ stroke: "#1e2028" }} tickLine={false}
               domain={["auto", "auto"]}
-              tickFormatter={v => typeof v === "number" ? (v >= 0 ? "+" : "") + fmtUSD(v, 0) : ""}
-              width={76} />
+              tickFormatter={v => typeof v === "number" ? (v >= 0 ? "+" : "") + v.toFixed(2) + "%" : ""}
+              width={72} />
             <Tooltip
-              formatter={(v, name) => [v != null ? (v >= 0 ? "+" : "") + fmtUSD(v) : "—", name]}
+              formatter={(v, name) => [v != null ? (v >= 0 ? "+" : "") + v.toFixed(2) + "%" : "—", name]}
               contentStyle={{ background: "#1e2028", border: "1px solid #334155", borderRadius: 6, fontSize: 12 }}
               labelStyle={{ color: "#f1f5f9", fontWeight: 700 }} />
             <Legend wrapperStyle={{ fontSize: 12, paddingTop: 8 }} />
-            {has1mChg && <Line type="monotone" dataKey="chg1m" stroke="#818cf8" strokeWidth={2.5} name="vs 1M Ago ($)" dot={{ r: 4, fill: "#818cf8" }} connectNulls />}
-            {has3mChg && <Line type="monotone" dataKey="chg3m" stroke="#34d399" strokeWidth={2} strokeDasharray="5 3" name="vs 3M Ago ($)" dot={{ r: 3, fill: "#34d399" }} connectNulls />}
+            {hasCurrPrem && <Line type="monotone" dataKey="curr" stroke={cfg.color} strokeWidth={2.5} name="Current" dot={{ r: 4, fill: cfg.color }} connectNulls />}
+            {has1mPrem   && <Line type="monotone" dataKey="m1"   stroke="#818cf8" strokeWidth={1.5} strokeDasharray="5 3" name="1M Ago" dot={{ r: 3 }} connectNulls />}
+            {has3mPrem   && <Line type="monotone" dataKey="m3"   stroke="#34d399" strokeWidth={1.5} strokeDasharray="5 3" name="3M Ago" dot={{ r: 3 }} connectNulls />}
           </LineChart>
         </ResponsiveContainer>
       </div>}
