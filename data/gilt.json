@@ -1,5 +1,5 @@
 {
-  "date": "2026-04-08",
+  "date": "2026-04-09",
   "prior_date": "",
   "source": "Investing.com / FRED / Interpolated",
   "note": "Hybrid curve: scrape + FRED anchor + interpolation + cache fallback",
@@ -73,5 +73,5 @@
     null
   ],
   "year_ago_date": "",
-  "_fetched": "2026-04-08T22:02:38.980468Z"
+  "_fetched": "2026-04-09T01:28:35.864891Z"
 }
