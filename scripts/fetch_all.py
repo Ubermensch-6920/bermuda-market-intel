@@ -2,7 +2,7 @@
 """Bermuda Market Intel — Data Pipeline v8.
 Improved India / UK rates sourcing and roll-aware commodity futures history.
 """
-import json, re, sys, os, logging, time, io, zipfile
+import json, re, sys, os, logging, time, io, zipfile, csv
 from datetime import datetime, timedelta, date
 from pathlib import Path
 from concurrent.futures import ThreadPoolExecutor, as_completed
@@ -69,46 +69,47 @@ def fred_csv(series_id, start="2024-01-01", retries=1):
                 time.sleep(2)
     return []
 
-def fred_multi_csv(series_ids, start="2024-01-01"):
+def fred_multi_csv(series_ids, start="2024-01-01", retries=1):
     """Fetch MULTIPLE FRED series in ONE request. Returns {series_id: [obs]}."""
     joined = ",".join(series_ids)
     url = f"https://fred.stlouisfed.org/graph/fredgraph.csv?id={joined}&cosd={start}"
     result = {sid: [] for sid in series_ids}
-    try:
-        raw = get(url, timeout=15)
-        lines = raw.strip().split("\n")
-        if len(lines) < 2:
+    sid_upper = {sid.upper(): sid for sid in series_ids}
+    for attempt in range(retries + 1):
+        try:
+            raw = get(url, timeout=20)
+            rows = list(csv.reader(io.StringIO(raw)))
+            if len(rows) < 2:
+                return result
+            header = [h.strip().strip('"') for h in rows[0]]
+            col_map = {}
+            for i, h in enumerate(header):
+                if i == 0:
+                    continue
+                sid = sid_upper.get(h.upper())
+                if sid:
+                    col_map[i] = sid
+            for parts in rows[1:]:
+                if len(parts) < 2:
+                    continue
+                date_val = parts[0].strip().strip('"')
+                if not re.match(r"\d{4}-\d{2}-\d{2}", date_val):
+                    continue
+                for ci, sid in col_map.items():
+                    if ci < len(parts):
+                        val = parts[ci].strip().strip('"')
+                        if val not in (".", ""):
+                            try:
+                                result[sid].append({"date": date_val, "value": float(val)})
+                            except Exception:
+                                pass
+            for sid in result:
+                result[sid].sort(key=lambda x: x["date"], reverse=True)
             return result
-        header = lines[0].split(",")
-        col_map = {}
-        for i, h in enumerate(header):
-            h = h.strip().strip('"')
-            if h in series_ids:
-                col_map[i] = h
-            elif h.upper() in [s.upper() for s in series_ids]:
-                for sid in series_ids:
-                    if sid.upper() == h.upper():
-                        col_map[i] = sid
-                        break
-        for line in lines[1:]:
-            parts = line.split(",")
-            if len(parts) < 2:
-                continue
-            date_val = parts[0].strip().strip('"')
-            if not re.match(r"\d{4}-\d{2}-\d{2}", date_val):
-                continue
-            for ci, sid in col_map.items():
-                if ci < len(parts):
-                    val = parts[ci].strip().strip('"')
-                    if val not in (".", ""):
-                        try:
-                            result[sid].append({"date": date_val, "value": float(val)})
-                        except Exception:
-                            pass
-        for sid in result:
-            result[sid].sort(key=lambda x: x["date"], reverse=True)
-    except Exception as e:
-        log.warning(f"  FRED multi fetch failed: {e}")
+        except Exception as e:
+            log.warning(f"  FRED multi fetch attempt {attempt+1}: {e}")
+            if attempt < retries:
+                time.sleep(2 * (attempt + 1))
     return result
 
 def fred_year_ago_10y(series_id):
@@ -196,6 +197,15 @@ def load_last_gilt():
 def load_last_commodities():
     try:
         f = DATA / "commodities.json"
+        if f.exists():
+            return json.loads(f.read_text())
+    except Exception:
+        pass
+    return None
+
+def load_last_credit():
+    try:
+        f = DATA / "credit.json"
         if f.exists():
             return json.loads(f.read_text())
     except Exception:
@@ -1052,42 +1062,125 @@ def fetch_india():
 
 # ── 6. CREDIT ──
 def fetch_credit():
-    log.info("CREDIT: fetching all series in single request")
-    series = {"ig": "BAMLC0A0CM", "aaa": "BAMLC0A1CAAA", "aa": "BAMLC0A2CAA", "a": "BAMLC0A3CA", "bbb": "BAMLC0A4CBBB", "hy": "BAMLH0A0HYM2", "bb": "BAMLH0A1HYBB", "b": "BAMLH0A2HYB", "ccc": "BAMLH0A3HYC"}
-    names = {"ig": "US IG", "aaa": "US AAA", "aa": "US AA", "a": "US A", "bbb": "US BBB", "hy": "US HY", "bb": "US BB", "b": "US B", "ccc": "US CCC+"}
-    buckets = {"ig": "IG", "aaa": "AAA", "aa": "AA", "a": "A", "bbb": "BBB", "hy": "HY", "bb": "BB", "b": "B", "ccc": "CCC"}
+    log.info("CREDIT: fetching")
+    series = {
+        "ig": "BAMLC0A0CM",
+        "aaa": "BAMLC0A1CAAA",
+        "aa": "BAMLC0A2CAA",
+        "a": "BAMLC0A3CA",
+        "bbb": "BAMLC0A4CBBB",
+        "hy": "BAMLH0A0HYM2",
+        "bb": "BAMLH0A1HYBB",
+        "b": "BAMLH0A2HYB",
+        "ccc": "BAMLH0A3HYC",
+    }
+    names = {
+        "ig": "US IG",
+        "aaa": "US AAA",
+        "aa": "US AA",
+        "a": "US A",
+        "bbb": "US BBB",
+        "hy": "US HY",
+        "bb": "US BB",
+        "b": "US B",
+        "ccc": "US CCC+",
+    }
+    buckets = {
+        "ig": "IG",
+        "aaa": "AAA",
+        "aa": "AA",
+        "a": "A",
+        "bbb": "BBB",
+        "hy": "HY",
+        "bb": "BB",
+        "b": "B",
+        "ccc": "CCC",
+    }
 
-    all_sids = list(series.values())
-    multi = fred_multi_csv(all_sids, start="2025-01-01")
+    def build_row(key, obs, source_tag):
+        curr = round(obs[0]["value"] * 100)
+        prev = round(obs[1]["value"] * 100) if len(obs) > 1 else curr
+        return {
+            "name": names[key],
+            "spread": curr,
+            "prior": prev,
+            "bucket": buckets[key],
+            "date": obs[0]["date"],
+            "source": source_tag,
+        }
 
     spreads = {}
     latest_date = ""
+
+    multi = fred_multi_csv(list(series.values()), start="2024-01-01", retries=2)
     for key, sid in series.items():
         obs = multi.get(sid, [])
         if obs:
-            curr = round(obs[0]["value"] * 100)
-            prev = round(obs[1]["value"] * 100) if len(obs) > 1 else curr
+            spreads[key] = build_row(key, obs, "fred_multi")
             if obs[0]["date"] > latest_date:
                 latest_date = obs[0]["date"]
-            spreads[key] = {"name": names[key], "spread": curr, "prior": prev, "bucket": buckets[key]}
-            log.info(f"  Credit {key}: {curr}bp")
+            log.info(f"  Credit {key}: {spreads[key]['spread']}bp (multi)")
         else:
-            log.warning(f"  Credit {key}: no data")
+            log.warning(f"  Credit {key}: missing from bulk fetch")
+
+    missing = [key for key in series if key not in spreads]
+    if missing:
+        log.info(f"  Credit: retrying missing series individually: {missing}")
+        with ThreadPoolExecutor(max_workers=min(4, len(missing))) as ex:
+            fut_map = {ex.submit(fred_csv, series[key], "2024-01-01", 2): key for key in missing}
+            for fut in as_completed(fut_map):
+                key = fut_map[fut]
+                try:
+                    obs = fut.result()
+                except Exception:
+                    obs = []
+                if obs:
+                    spreads[key] = build_row(key, obs, "fred_single")
+                    if obs[0]["date"] > latest_date:
+                        latest_date = obs[0]["date"]
+                    log.info(f"  Credit {key}: {spreads[key]['spread']}bp (single)")
+                else:
+                    log.warning(f"  Credit {key}: no data after single retry")
+
+    if len(spreads) < 6:
+        still_missing = [key for key in series if key not in spreads]
+        if still_missing:
+            log.info(f"  Credit: bulk path thin, full sweep for {still_missing}")
+            with ThreadPoolExecutor(max_workers=min(4, len(still_missing))) as ex:
+                fut_map = {ex.submit(fred_csv, series[key], "2024-01-01", 2): key for key in still_missing}
+                for fut in as_completed(fut_map):
+                    key = fut_map[fut]
+                    try:
+                        obs = fut.result()
+                    except Exception:
+                        obs = []
+                    if obs:
+                        spreads[key] = build_row(key, obs, "fred_single_sweep")
+                        if obs[0]["date"] > latest_date:
+                            latest_date = obs[0]["date"]
+                        log.info(f"  Credit {key}: {spreads[key]['spread']}bp (single sweep)")
+
+    last = load_last_credit()
+    if last:
+        last_spreads = last.get("spreads", {})
+        for key in series:
+            if key not in spreads and key in last_spreads:
+                cached = dict(last_spreads[key])
+                cached["source"] = cached.get("source", "cache")
+                spreads[key] = cached
+                latest_date = max(latest_date, cached.get("date", ""))
+                log.warning(f"  Credit {key}: using cache fallback")
 
     if not spreads:
-        log.info("  Credit: multi failed, trying individual requests")
-        for key, sid in list(series.items())[:3]:
-            obs = fred_csv(sid, start="2025-01-01", retries=1)
-            if obs:
-                curr = round(obs[0]["value"] * 100)
-                prev = round(obs[1]["value"] * 100) if len(obs) > 1 else curr
-                if obs[0]["date"] > latest_date:
-                    latest_date = obs[0]["date"]
-                spreads[key] = {"name": names[key], "spread": curr, "prior": prev, "bucket": buckets[key]}
-            time.sleep(2)
+        raise Exception("CREDIT: no series")
 
-    assert spreads, "CREDIT: no series"
-    write("credit.json", {"date": latest_date, "source": "FRED / ICE BofA Indices", "url": "https://fred.stlouisfed.org/release?rid=209", "spreads": spreads})
+    write("credit.json", {
+        "date": latest_date,
+        "source": "FRED / ICE BofA Indices",
+        "url": "https://fred.stlouisfed.org/release?rid=209",
+        "spreads": spreads,
+        "note": "Bulk FRED fetch first, then per-series retries, then cache fallback. Values are option-adjusted spreads in basis points.",
+    })
     log.info(f"  CREDIT OK: {latest_date}, {len(spreads)} series")
 
 # ── 7. SOFR ──
