@@ -2,7 +2,7 @@
   "date": "2026-04-09",
   "source": "FRED / TradingEconomics / Investing / Yahoo Finance",
   "gold": {
-    "spot": 4739.24,
+    "spot": 4761.0,
     "spot_date": "",
     "spot_source": "TradingEconomics",
     "unit": "USD/troy oz",
@@ -14,7 +14,7 @@
     "prior_1y_date": "",
     "futures": {
       "3M": {
-        "price": 4802.6,
+        "price": 4833.3,
         "expiry": "Aug 2026",
         "contract": "GCQ26",
         "prior_1m": 5281.5,
@@ -25,7 +25,7 @@
         "prior_3m_contract": "GCJ26"
       },
       "6M": {
-        "price": 4851.8,
+        "price": 4866.4,
         "expiry": "Oct 2026",
         "contract": "GCV26",
         "prior_1m": 5356.8,
@@ -60,7 +60,7 @@
     }
   },
   "wti": {
-    "spot": 99.28,
+    "spot": 101.28,
     "spot_date": "",
     "spot_source": "TradingEconomics",
     "unit": "USD/barrel",
@@ -72,7 +72,7 @@
     "prior_1y_date": "",
     "futures": {
       "3M": {
-        "price": 85.84,
+        "price": 86.48,
         "expiry": "Jul 2026",
         "contract": "CLN26",
         "prior_1m": 79.44,
@@ -83,7 +83,7 @@
         "prior_3m_contract": "CLJ26"
       },
       "6M": {
-        "price": 76.68,
+        "price": 76.99,
         "expiry": "Oct 2026",
         "contract": "CLV26",
         "prior_1m": 72.95,
@@ -94,7 +94,7 @@
         "prior_3m_contract": "CLN26"
       },
       "12M": {
-        "price": 71.65,
+        "price": 71.91,
         "expiry": "Apr 2027",
         "contract": "CLJ27",
         "prior_1m": 67.35,
@@ -118,7 +118,7 @@
     }
   },
   "brent": {
-    "spot": 98.02,
+    "spot": 99.0,
     "spot_date": "",
     "spot_source": "TradingEconomics",
     "unit": "USD/barrel",
@@ -130,7 +130,7 @@
     "prior_1y_date": "",
     "futures": {
       "3M": {
-        "price": 91.88,
+        "price": 92.65,
         "expiry": "Jul 2026",
         "contract": "BZN26",
         "prior_1m": 85.27,
@@ -176,5 +176,5 @@
     }
   },
   "note": "Spot history comes from daily FRED series. Futures history is roll-aware by target date.",
-  "_fetched": "2026-04-09T12:40:16.320226Z"
+  "_fetched": "2026-04-09T14:28:16.539881Z"
 }

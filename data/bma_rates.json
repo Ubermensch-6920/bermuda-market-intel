@@ -1,9 +1,11 @@
 {
-  "as_of_date": "30 June 2025",
-  "publication_date": "",
+  "as_of_date": "31 December 2025",
+  "as_of_date_iso": "2025-12-31",
+  "publication_date": "15 January 2026",
+  "publication_date_iso": "2026-01-15",
   "source": "BMA \u2014 EBS Discount Rates",
-  "url": "https://www.bma.bm/document-centre/reporting-forms-and-guidelines-insurance",
-  "pdf_url": "https://www.bma.bm/viewPDF/documents/2026-01-16-12-00-10-Personal-Declaration-Form-for-Director-Officers13-Jan-26.pdf",
+  "url": "https://www.bma.bm/documents-centre/documents-reporting-forms-and-guidelines/documents-insurance",
+  "pdf_url": "https://cdn.bma.bm/documents/2026-01-15-11-20-15-Discount-Rates.-31-December-2025.xlsx",
   "tenors": [
     "0.5Y",
     "1Y",
@@ -18,23 +20,6 @@
     "30Y",
     "40Y",
     "50Y"
-  ],
-  "all_publications": [
-    {
-      "as_of": "16 January 2026",
-      "published": "",
-      "url": "https://www.bma.bm/viewPDF/documents/2026-01-16-12-00-10-Personal-Declaration-Form-for-Director-Officers13-Jan-26.pdf"
-    },
-    {
-      "as_of": "30 September 2025",
-      "published": "",
-      "url": "https://cdn.bma.bm/documents/2025-05-30-11-47-15-Instructions---Insurance---Class-C-D-and-E---2025-Global-Financial-Crisis-GFC-Stress-Test.pdf"
-    },
-    {
-      "as_of": "31 March 2025",
-      "published": "",
-      "url": "https://cdn.bma.bm/documents/2025-03-19-11-24-30-Lapse-Liquidity-and-Scenario-Based-Approach-Return---2024-Completion-Instructions.pdf"
-    }
   ],
   "currencies": {
     "USD": {
@@ -367,6 +352,163 @@
       ]
     }
   },
-  "note": "Latest: 16 January 2026. Rates from manual file.",
-  "_fetched": "2026-04-09T12:35:48.218224Z"
+  "all_publications": [
+    {
+      "as_of": "31 December 2025",
+      "as_of_date": "2025-12-31",
+      "published": "15 January 2026",
+      "published_date": "2026-01-15",
+      "url": "https://cdn.bma.bm/documents/2026-01-15-11-20-15-Discount-Rates.-31-December-2025.xlsx",
+      "source_page": "known_fallback"
+    },
+    {
+      "as_of": "30 September 2025",
+      "as_of_date": "2025-09-30",
+      "published": "22 October 2025",
+      "published_date": "2025-10-22",
+      "url": "https://cdn.bma.bm/documents/2025-10-22-15-18-14-Discount-Rates.-30-September-2025..xlsx",
+      "source_page": "https://www.bma.bm/documents-centre/documents-reporting-forms-and-guidelines/documents-insurance"
+    },
+    {
+      "as_of": "30 June 2025",
+      "as_of_date": "2025-06-30",
+      "published": "18 July 2025",
+      "published_date": "2025-07-18",
+      "url": "https://cdn.bma.bm/documents/2025-07-18-10-22-07-Discount-Rates.-30-June-2025..xlsx",
+      "source_page": "https://www.bma.bm/documents-centre/documents-reporting-forms-and-guidelines/documents-insurance"
+    },
+    {
+      "as_of": "31 March 2025",
+      "as_of_date": "2025-03-31",
+      "published": "15 April 2025",
+      "published_date": "2025-04-15",
+      "url": "https://cdn.bma.bm/documents/2025-04-15-14-44-04-Discount-Rates.-31-March-2025..xlsx",
+      "source_page": "https://www.bma.bm/documents-centre/documents-reporting-forms-and-guidelines/documents-insurance"
+    },
+    {
+      "as_of": "31 December 2024",
+      "as_of_date": "2024-12-31",
+      "published": "17 January 2025",
+      "published_date": "2025-01-17",
+      "url": "https://cdn.bma.bm/documents/2025-01-17-16-39-24-Discount-Rates.-31-December-2024..xlsx",
+      "source_page": "known_fallback"
+    }
+  ],
+  "quarter_history": [
+    {
+      "as_of_date": "2025-12-31",
+      "as_of_display": "31 December 2025",
+      "publication_date": "2026-01-15",
+      "publication_display": "15 January 2026",
+      "quarter": "2025 Q4",
+      "url": "https://cdn.bma.bm/documents/2026-01-15-11-20-15-Discount-Rates.-31-December-2025.xlsx",
+      "source_page": "known_fallback",
+      "change_header": "",
+      "change_note": "",
+      "tenors": [
+        "0.5Y",
+        "1Y",
+        "2Y",
+        "3Y",
+        "5Y",
+        "7Y",
+        "10Y",
+        "15Y",
+        "20Y",
+        "25Y",
+        "30Y",
+        "40Y",
+        "50Y"
+      ],
+      "available_currencies": [],
+      "currencies": {}
+    },
+    {
+      "as_of_date": "2025-09-30",
+      "as_of_display": "30 September 2025",
+      "publication_date": "2025-10-22",
+      "publication_display": "22 October 2025",
+      "quarter": "2025 Q3",
+      "url": "https://cdn.bma.bm/documents/2025-10-22-15-18-14-Discount-Rates.-30-September-2025..xlsx",
+      "source_page": "https://www.bma.bm/documents-centre/documents-reporting-forms-and-guidelines/documents-insurance",
+      "change_header": "",
+      "change_note": "",
+      "tenors": [
+        "0.5Y",
+        "1Y",
+        "2Y",
+        "3Y",
+        "5Y",
+        "7Y",
+        "10Y",
+        "15Y",
+        "20Y",
+        "25Y",
+        "30Y",
+        "40Y",
+        "50Y"
+      ],
+      "available_currencies": [],
+      "currencies": {}
+    },
+    {
+      "as_of_date": "2025-06-30",
+      "as_of_display": "30 June 2025",
+      "publication_date": "2025-07-18",
+      "publication_display": "18 July 2025",
+      "quarter": "2025 Q2",
+      "url": "https://cdn.bma.bm/documents/2025-07-18-10-22-07-Discount-Rates.-30-June-2025..xlsx",
+      "source_page": "https://www.bma.bm/documents-centre/documents-reporting-forms-and-guidelines/documents-insurance",
+      "change_header": "",
+      "change_note": "",
+      "tenors": [
+        "0.5Y",
+        "1Y",
+        "2Y",
+        "3Y",
+        "5Y",
+        "7Y",
+        "10Y",
+        "15Y",
+        "20Y",
+        "25Y",
+        "30Y",
+        "40Y",
+        "50Y"
+      ],
+      "available_currencies": [],
+      "currencies": {}
+    },
+    {
+      "as_of_date": "2025-03-31",
+      "as_of_display": "31 March 2025",
+      "publication_date": "2025-04-15",
+      "publication_display": "15 April 2025",
+      "quarter": "2025 Q1",
+      "url": "https://cdn.bma.bm/documents/2025-04-15-14-44-04-Discount-Rates.-31-March-2025..xlsx",
+      "source_page": "https://www.bma.bm/documents-centre/documents-reporting-forms-and-guidelines/documents-insurance",
+      "change_header": "",
+      "change_note": "",
+      "tenors": [
+        "0.5Y",
+        "1Y",
+        "2Y",
+        "3Y",
+        "5Y",
+        "7Y",
+        "10Y",
+        "15Y",
+        "20Y",
+        "25Y",
+        "30Y",
+        "40Y",
+        "50Y"
+      ],
+      "available_currencies": [],
+      "currencies": {}
+    }
+  ],
+  "comparison": {},
+  "note": "Latest available BMA discount-rate workbook plus prior three quarter-end workbooks. Current top-level currencies are the latest quarter. For each currency, 'rates' aliases standard_spot_rates for backward compatibility.",
+  "_fetched": "2026-04-09T14:23:48.860892Z"
 }
