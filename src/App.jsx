@@ -282,10 +282,10 @@ const BmaRatesSection = ({ data, loading: ld, error }) => {
               const chQtrNum = parseFloat(chQtr);
               return (<tr key={i} style={{ borderBottom: "1px solid #151820" }}>
                 <td style={{ padding: "7px 12px", color: "#f1f5f9", fontWeight: 700, fontFamily: "monospace" }}>{t}</td>
-                <td style={{ padding: "7px 12px", color: "#f1f5f9", textAlign: "right", fontFamily: "monospace", fontWeight: 600, fontSize: 14 }}>{curr != null ? curr.toFixed(4) + "%" : "—"}</td>
-                {has1mBma && <td style={{ padding: "7px 12px", color: "#a5b4fc", textAlign: "right", fontFamily: "monospace" }}>{p1m != null ? p1m.toFixed(4) + "%" : "—"}</td>}
+                <td style={{ padding: "7px 12px", color: "#f1f5f9", textAlign: "right", fontFamily: "monospace", fontWeight: 600, fontSize: 14 }}>{curr != null ? curr.toFixed(2) + "%" : "—"}</td>
+                {has1mBma && <td style={{ padding: "7px 12px", color: "#a5b4fc", textAlign: "right", fontFamily: "monospace" }}>{p1m != null ? p1m.toFixed(2) + "%" : "—"}</td>}
                 {has1mBma && <td style={{ padding: "7px 12px", textAlign: "right", fontFamily: "monospace", color: chgCol(ch1mNum), fontWeight: 600 }}>{ch1m != null ? (ch1mNum > 0 ? "+" : "") + ch1m : "—"}</td>}
-                {hasQtrBma && <td style={{ padding: "7px 12px", color: "#6ee7b7", textAlign: "right", fontFamily: "monospace" }}>{prev != null ? prev.toFixed(4) + "%" : "—"}</td>}
+                {hasQtrBma && <td style={{ padding: "7px 12px", color: "#6ee7b7", textAlign: "right", fontFamily: "monospace" }}>{prev != null ? prev.toFixed(2) + "%" : "—"}</td>}
                 {hasQtrBma && <td style={{ padding: "7px 12px", textAlign: "right", fontFamily: "monospace", color: chgCol(chQtrNum), fontWeight: 600 }}>{chQtr != null ? (chQtrNum > 0 ? "+" : "") + chQtr : "—"}</td>}
               </tr>);
             })}

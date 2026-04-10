@@ -1498,7 +1498,7 @@ def _bma_extract_table(ws, title_text):
         blank_streak = 0
         for c, ccy in currencies:
             val = ws.cell(r, c).value
-            table[ccy][tenor] = round(float(val), 10) if isinstance(val, (int, float)) else _as_float(val)
+            table[ccy][tenor] = round(float(val) * 100, 6) if isinstance(val, (int, float)) else _as_float(val)
         r += 1
     return table
 
@@ -1593,7 +1593,7 @@ def _bma_merge_cache_entries(entries):
 def _bma_bp_diff(a, b):
     if a is None or b is None:
         return None
-    return round((a - b) * 10000, 2)
+    return round((a - b) * 100, 2)
 
 def _bma_build_comparison(quarters):
     if not quarters:
