@@ -170,6 +170,13 @@ def fred_prior_single(series_id, days_ago, max_diff_days=14):
         return None, ""
     return round(best["value"], 4), best["date"]
 
+def get_prior_spot(fred_series, yahoo_symbol, days_ago, max_diff_days=14):
+    """FRED-first prior spot price; falls back to Yahoo Finance close."""
+    v, d = fred_prior_single(fred_series, days_ago, max_diff_days=max_diff_days)
+    if v is not None:
+        return v, d
+    return yahoo_price_at(yahoo_symbol, days_ago, max_diff_days=max_diff_days)
+
 def validate_yield(val):
     """Range-check a yield value. Returns rounded float or None."""
     if val is None:
@@ -1814,21 +1821,24 @@ def fetch_commodities():
         return {lbl: result[lbl] for lbl in TENOR_ORDER if lbl in result}
 
     gold_spot, gold_spot_date, gold_spot_source = get_spot("GOLDAMGBD228NLBM", "/commodities/gold", "GC=F", "https://tradingeconomics.com/commodity/gold")
-    gold_1m, gold_1m_d = fred_prior_single("GOLDAMGBD228NLBM", 30)
-    gold_3m, gold_3m_d = fred_prior_single("GOLDAMGBD228NLBM", 91)
-    gold_1y, gold_1y_d = fred_prior_single("GOLDAMGBD228NLBM", 365)
+    gold_1d, gold_1d_d = get_prior_spot("GOLDAMGBD228NLBM", "GC=F",   1, max_diff_days=5)
+    gold_1m, gold_1m_d = get_prior_spot("GOLDAMGBD228NLBM", "GC=F",  30)
+    gold_3m, gold_3m_d = get_prior_spot("GOLDAMGBD228NLBM", "GC=F",  91)
+    gold_1y, gold_1y_d = get_prior_spot("GOLDAMGBD228NLBM", "GC=F", 365)
     gold_futures = fetch_all_futures(_gold_symbol, "Gold")
 
     wti_spot, wti_spot_date, wti_spot_source = get_spot("DCOILWTICO", "/commodities/crude-oil", "CL=F", "https://tradingeconomics.com/commodity/crude-oil")
-    wti_1m, wti_1m_d = fred_prior_single("DCOILWTICO", 30)
-    wti_3m, wti_3m_d = fred_prior_single("DCOILWTICO", 91)
-    wti_1y, wti_1y_d = fred_prior_single("DCOILWTICO", 365)
+    wti_1d, wti_1d_d   = get_prior_spot("DCOILWTICO",   "CL=F",   1, max_diff_days=5)
+    wti_1m, wti_1m_d   = get_prior_spot("DCOILWTICO",   "CL=F",  30)
+    wti_3m, wti_3m_d   = get_prior_spot("DCOILWTICO",   "CL=F",  91)
+    wti_1y, wti_1y_d   = get_prior_spot("DCOILWTICO",   "CL=F", 365)
     wti_futures = fetch_all_futures(_wti_symbol, "WTI")
 
     brent_spot, brent_spot_date, brent_spot_source = get_spot("DCOILBRENTEU", "/commodities/brent-oil", "BZ=F", "https://tradingeconomics.com/commodity/brent-crude-oil")
-    brent_1m, brent_1m_d = fred_prior_single("DCOILBRENTEU", 30)
-    brent_3m, brent_3m_d = fred_prior_single("DCOILBRENTEU", 91)
-    brent_1y, brent_1y_d = fred_prior_single("DCOILBRENTEU", 365)
+    brent_1d, brent_1d_d = get_prior_spot("DCOILBRENTEU", "BZ=F",   1, max_diff_days=5)
+    brent_1m, brent_1m_d = get_prior_spot("DCOILBRENTEU", "BZ=F",  30)
+    brent_3m, brent_3m_d = get_prior_spot("DCOILBRENTEU", "BZ=F",  91)
+    brent_1y, brent_1y_d = get_prior_spot("DCOILBRENTEU", "BZ=F", 365)
     brent_futures = fetch_all_futures(_brent_symbol, "Brent")
 
     if last:
@@ -1847,6 +1857,7 @@ def fetch_commodities():
             "spot_date": gold_spot_date,
             "spot_source": gold_spot_source,
             "unit": "USD/troy oz",
+            "prior_1d": gold_1d, "prior_1d_date": gold_1d_d,
             "prior_1m": gold_1m, "prior_1m_date": gold_1m_d,
             "prior_3m": gold_3m, "prior_3m_date": gold_3m_d,
             "prior_1y": gold_1y, "prior_1y_date": gold_1y_d,
@@ -1857,9 +1868,10 @@ def fetch_commodities():
             "spot_date": wti_spot_date,
             "spot_source": wti_spot_source,
             "unit": "USD/barrel",
-            "prior_1m": wti_1m, "prior_1m_date": wti_1m_d,
-            "prior_3m": wti_3m, "prior_3m_date": wti_3m_d,
-            "prior_1y": wti_1y, "prior_1y_date": wti_1y_d,
+            "prior_1d": wti_1d,   "prior_1d_date": wti_1d_d,
+            "prior_1m": wti_1m,   "prior_1m_date": wti_1m_d,
+            "prior_3m": wti_3m,   "prior_3m_date": wti_3m_d,
+            "prior_1y": wti_1y,   "prior_1y_date": wti_1y_d,
             "futures": wti_futures
         },
         "brent": {
@@ -1867,6 +1879,7 @@ def fetch_commodities():
             "spot_date": brent_spot_date,
             "spot_source": brent_spot_source,
             "unit": "USD/barrel",
+            "prior_1d": brent_1d, "prior_1d_date": brent_1d_d,
             "prior_1m": brent_1m, "prior_1m_date": brent_1m_d,
             "prior_3m": brent_3m, "prior_3m_date": brent_3m_d,
             "prior_1y": brent_1y, "prior_1y_date": brent_1y_d,

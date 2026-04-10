@@ -471,11 +471,13 @@ const CommoditiesSection = ({ data, loading, error }) => {
 
   const cfg = COMMODITY_CONFIGS[sel];
   const cd = data[sel] || {};
-  const { spot, spot_date, unit, prior_1m, prior_1m_date, prior_3m, prior_3m_date, prior_1y, prior_1y_date, futures } = cd;
+  const { spot, spot_date, unit, prior_1d, prior_1d_date, prior_1m, prior_1m_date, prior_3m, prior_3m_date, prior_1y, prior_1y_date, futures } = cd;
 
+  const chg1d  = chgUSD(spot, prior_1d);
   const chg1m = chgUSD(spot, prior_1m);
   const chg3m = chgUSD(spot, prior_3m);
   const chg1y = chgUSD(spot, prior_1y);
+  const pct1d  = chgPctComm(spot, prior_1d);
   const pct1m = chgPctComm(spot, prior_1m);
   const pct3m = chgPctComm(spot, prior_3m);
   const pct1y = chgPctComm(spot, prior_1y);
@@ -551,6 +553,7 @@ const CommoditiesSection = ({ data, loading, error }) => {
           </div>
           <div style={{ display: "flex", gap: 20, flexWrap: "wrap", marginLeft: "auto" }}>
             {[
+              { label: "vs 1D ago", chg: chg1d,  pct: pct1d,  date: prior_1d_date },
               { label: "vs 1M ago", chg: chg1m, pct: pct1m, date: prior_1m_date },
               { label: "vs 3M ago", chg: chg3m, pct: pct3m, date: prior_3m_date },
               { label: "vs 1Y ago", chg: chg1y, pct: pct1y, date: prior_1y_date },
