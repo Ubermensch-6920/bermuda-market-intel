@@ -2,11 +2,11 @@
   "date": "2026-04-10",
   "source": "FRED / TradingEconomics / Investing / Yahoo Finance",
   "gold": {
-    "spot": 4747.97,
+    "spot": 4751.68,
     "spot_date": "",
     "spot_source": "TradingEconomics",
     "unit": "USD/troy oz",
-    "prior_1d": 4775.0,
+    "prior_1d": 4771.0,
     "prior_1d_date": "2026-04-10",
     "prior_1m": 5115.8,
     "prior_1m_date": "2026-03-12",
@@ -16,7 +16,7 @@
     "prior_1y_date": "2025-04-11",
     "futures": {
       "3M": {
-        "price": 4808.0,
+        "price": 4809.8,
         "expiry": "Aug 2026",
         "contract": "GCQ26",
         "prior_1m": 5163.8,
@@ -62,11 +62,11 @@
     }
   },
   "wti": {
-    "spot": 95.82,
+    "spot": 95.57,
     "spot_date": "",
     "spot_source": "TradingEconomics",
     "unit": "USD/barrel",
-    "prior_1d": 95.74,
+    "prior_1d": 95.63,
     "prior_1d_date": "2026-04-10",
     "prior_1m": 95.73,
     "prior_1m_date": "2026-03-12",
@@ -76,7 +76,7 @@
     "prior_1y_date": "2025-04-11",
     "futures": {
       "3M": {
-        "price": 84.36,
+        "price": 84.31,
         "expiry": "Jul 2026",
         "contract": "CLN26",
         "prior_1m": 90.48,
@@ -87,7 +87,7 @@
         "prior_3m_contract": "CLJ26"
       },
       "6M": {
-        "price": 76.77,
+        "price": 76.72,
         "expiry": "Oct 2026",
         "contract": "CLV26",
         "prior_1m": 81.28,
@@ -122,11 +122,11 @@
     }
   },
   "brent": {
-    "spot": 94.47,
+    "spot": 94.34,
     "spot_date": "",
     "spot_source": "TradingEconomics",
     "unit": "USD/barrel",
-    "prior_1d": 94.39,
+    "prior_1d": 94.45,
     "prior_1d_date": "2026-04-10",
     "prior_1m": 100.46,
     "prior_1m_date": "2026-03-12",
@@ -136,7 +136,7 @@
     "prior_1y_date": "2025-04-11",
     "futures": {
       "3M": {
-        "price": 89.6,
+        "price": 89.69,
         "expiry": "Jul 2026",
         "contract": "BZN26",
         "prior_1m": 96.63,
@@ -182,5 +182,5 @@
     }
   },
   "note": "Spot history comes from daily FRED series. Futures history is roll-aware by target date.",
-  "_fetched": "2026-04-10T20:51:40.726190Z"
+  "_fetched": "2026-04-10T21:58:00.147427Z"
 }
