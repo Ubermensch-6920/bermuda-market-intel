@@ -1225,7 +1225,7 @@ def fetch_sofr():
     latest_date = ""
 
     try:
-        url = "https://markets.newyorkfed.org/api/rates/secured/sofr/last/30.json"
+        url = "https://markets.newyorkfed.org/api/rates/secured/sofr/last/270.json"
         raw = get(url, timeout=15)
         data = json.loads(raw)
         sofr_data = data.get("refRates", [])
@@ -1284,7 +1284,7 @@ def fetch_sofr():
             if obs:
                 rates[key] = {"name": name, "desc": desc, "rate": round(obs[0]["value"], 4), "prior": round(obs[1]["value"], 4) if len(obs) > 1 else None, "date": obs[0]["date"]}
                 if key == "SOFR":
-                    for o in obs[:30]:
+                    for o in obs[:270]:
                         history.append({"date": o["date"], "rate": round(o["value"], 4)})
                     history.sort(key=lambda x: x["date"])
                     if obs[0]["date"] > latest_date:
@@ -1311,6 +1311,41 @@ def fetch_sofr():
 
     log.info(f"  SOFR year-ago: {ya_rate}% ({ya_date})")
 
+    # Merge UST 3M and 1Y into history records
+    try:
+        one_yr_ago = (datetime.utcnow() - timedelta(days=380)).strftime("%Y-%m-%d")
+        ust_raw = fred_multi_csv(["DGS3MO", "DGS1"], start=one_yr_ago)
+        ust_3m_map = {o["date"]: round(o["value"], 4) for o in (ust_raw.get("DGS3MO") or [])}
+        ust_1y_map = {o["date"]: round(o["value"], 4) for o in (ust_raw.get("DGS1")   or [])}
+        for rec in history:
+            rec["ust_3m"] = ust_3m_map.get(rec["date"])
+            rec["ust_1y"] = ust_1y_map.get(rec["date"])
+        log.info(f"  UST 3M/1Y merged: {len(ust_3m_map)} / {len(ust_1y_map)} observations")
+    except Exception as e:
+        log.warning(f"  UST history merge: {e}")
+
+    # Term SOFR (forward-looking CME reference rates via FRED)
+    term_rates = {}
+    try:
+        tr_start = (datetime.utcnow() - timedelta(days=7)).strftime("%Y-%m-%d")
+        tr_raw = fred_multi_csv(["SOFRTERM1M", "SOFRTERM3M", "SOFRTERM6M", "SOFRTERM1Y"], start=tr_start)
+        term_map = {"SOFRTERM1M": "1M", "SOFRTERM3M": "3M", "SOFRTERM6M": "6M", "SOFRTERM1Y": "1Y"}
+        term_labels = {"1M": "Term SOFR 1M", "3M": "Term SOFR 3M", "6M": "Term SOFR 6M", "1Y": "Term SOFR 1Y"}
+        for sid, key in term_map.items():
+            obs = tr_raw.get(sid) or []
+            if obs:
+                cur = obs[0]
+                prior = obs[1] if len(obs) > 1 else None
+                term_rates[key] = {
+                    "name": term_labels[key],
+                    "rate": round(cur["value"], 4),
+                    "prior": round(prior["value"], 4) if prior else None,
+                    "date": cur["date"],
+                }
+        log.info(f"  Term SOFR: {list(term_rates.keys())}")
+    except Exception as e:
+        log.warning(f"  Term SOFR: {e}")
+
     write("sofr.json", {
         "date": latest_date,
         "source": "NY Fed / FRED",
@@ -1318,7 +1353,8 @@ def fetch_sofr():
         "rates": rates,
         "history": history,
         "year_ago": {"rate": ya_rate, "date": ya_date},
-        "note": "Published daily by NY Fed at ~8:00 AM ET. Averages are backward-looking compounded."
+        "term_rates": term_rates,
+        "note": "Published daily by NY Fed at ~8:00 AM ET. Averages are backward-looking compounded. Term SOFR via CME/FRED."
     })
     log.info(f"  SOFR OK: {latest_date}")
 

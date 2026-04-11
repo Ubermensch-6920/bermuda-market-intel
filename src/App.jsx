@@ -307,6 +307,7 @@ const SofrSection = ({ data, loading: ld, error }) => {
   const rates = data.rates || {};
   const history = data.history || [];
   const ya = data.year_ago || {};
+  const termRates = data.term_rates || {};
   const sofrDaily = rates.SOFR || {};
   const yaRate = ya.rate;
   const sofrCurrent = sofrDaily.rate;
@@ -364,18 +365,61 @@ const SofrSection = ({ data, loading: ld, error }) => {
       </div>)}
     </div>
 
-    {/* Daily SOFR history chart */}
+    {/* Term SOFR cards */}
+    {Object.keys(termRates).length > 0 && (
+      <div style={{ padding: "0 22px 16px" }}>
+        <div style={{ fontSize: 11, color: "#64748b", fontWeight: 700, textTransform: "uppercase", letterSpacing: "0.08em", marginBottom: 10 }}>
+          CME Term SOFR — Forward-Looking Reference Rates
+        </div>
+        <div style={{ display: "grid", gridTemplateColumns: "repeat(auto-fill, minmax(170px, 1fr))", gap: 12 }}>
+          {["1M", "3M", "6M", "1Y"].filter(k => termRates[k]).map(key => {
+            const r = termRates[key];
+            const chg = r.rate != null && r.prior != null ? ((r.rate - r.prior) * 100).toFixed(1) : null;
+            const chgNum = parseFloat(chg);
+            return (
+              <div key={key} style={{ background: "#12141a", border: "1px solid #2a2d35", borderRadius: 10, padding: "14px 18px" }}>
+                <div style={{ fontSize: 12, color: "#818cf8", fontWeight: 600, marginBottom: 2 }}>{r.name}</div>
+                <div style={{ display: "flex", alignItems: "baseline", gap: 8, marginTop: 6 }}>
+                  <span style={{ fontSize: 24, fontWeight: 700, color: "#f1f5f9", fontFamily: "monospace" }}>
+                    {r.rate != null ? r.rate.toFixed(2) + "%" : "—"}
+                  </span>
+                  {chg != null && !isNaN(chgNum) && (
+                    <span style={{ fontSize: 12, color: chgCol(chgNum), fontWeight: 600, fontFamily: "monospace" }}>
+                      <ChgIcon v={chg} />{Math.abs(chgNum).toFixed(1)}bp
+                    </span>
+                  )}
+                </div>
+                <div style={{ fontSize: 11, color: "#475569", marginTop: 4 }}>
+                  Prior: {r.prior != null ? r.prior.toFixed(2) + "%" : "—"} • {r.date || "—"}
+                </div>
+              </div>
+            );
+          })}
+        </div>
+      </div>
+    )}
+
+    {/* SOFR + UST history chart — last 12 months */}
     {history.length > 5 && (<div style={{ padding: "8px 14px 16px" }}>
-      <div style={{ fontSize: 13, fontWeight: 700, color: "#94a3b8", marginBottom: 8, marginLeft: 8 }}>DAILY SOFR — LAST 30 BUSINESS DAYS</div>
-      <ResponsiveContainer width="100%" height={220}>
+      <div style={{ fontSize: 13, fontWeight: 700, color: "#94a3b8", marginBottom: 8, marginLeft: 8 }}>SOFR &amp; UST — LAST 12 MONTHS</div>
+      <ResponsiveContainer width="100%" height={260}>
         <LineChart data={history}>
           <CartesianGrid strokeDasharray="3 3" stroke="#1e2028" />
           <XAxis dataKey="date" tick={{ fill: "#94a3b8", fontSize: 10 }} axisLine={{ stroke: "#1e2028" }} tickLine={false}
-            tickFormatter={d => { const p = (d || "").split("-"); return p.length >= 3 ? p[1] + "/" + p[2] : d; }} />
+            interval="preserveStartEnd"
+            tickFormatter={d => {
+              const p = (d || "").split("-");
+              if (p.length < 3) return d;
+              const mo = ["Jan","Feb","Mar","Apr","May","Jun","Jul","Aug","Sep","Oct","Nov","Dec"];
+              return mo[parseInt(p[1], 10) - 1] + " '" + p[0].slice(2);
+            }} />
           <YAxis tick={{ fill: "#94a3b8", fontSize: 12 }} axisLine={{ stroke: "#1e2028" }} tickLine={false} domain={["auto", "auto"]}
             tickFormatter={v => typeof v === "number" ? v.toFixed(2) + "%" : ""} />
           <Tooltip content={<CTooltip />} />
-          <Line type="monotone" dataKey="rate" stroke="#60a5fa" strokeWidth={2} name="SOFR" dot={false} />
+          <Legend wrapperStyle={{ fontSize: 12, paddingTop: 8 }} />
+          <Line type="monotone" dataKey="rate"   stroke="#60a5fa" strokeWidth={2}   name="SOFR"   dot={false} connectNulls />
+          <Line type="monotone" dataKey="ust_3m" stroke="#34d399" strokeWidth={1.5} name="UST 3M" dot={false} connectNulls />
+          <Line type="monotone" dataKey="ust_1y" stroke="#f59e0b" strokeWidth={1.5} name="UST 1Y" dot={false} connectNulls />
         </LineChart>
       </ResponsiveContainer>
     </div>)}
