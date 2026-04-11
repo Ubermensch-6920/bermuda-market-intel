@@ -16,130 +16,1631 @@
   },
   "history": [
     {
+      "date": "2025-03-11",
+      "rate": 4.32,
+      "ust_3m": null,
+      "ust_1y": null
+    },
+    {
+      "date": "2025-03-12",
+      "rate": 4.31,
+      "ust_3m": null,
+      "ust_1y": null
+    },
+    {
+      "date": "2025-03-13",
+      "rate": 4.3,
+      "ust_3m": null,
+      "ust_1y": null
+    },
+    {
+      "date": "2025-03-14",
+      "rate": 4.3,
+      "ust_3m": null,
+      "ust_1y": null
+    },
+    {
+      "date": "2025-03-17",
+      "rate": 4.32,
+      "ust_3m": null,
+      "ust_1y": null
+    },
+    {
+      "date": "2025-03-18",
+      "rate": 4.31,
+      "ust_3m": null,
+      "ust_1y": null
+    },
+    {
+      "date": "2025-03-19",
+      "rate": 4.29,
+      "ust_3m": null,
+      "ust_1y": null
+    },
+    {
+      "date": "2025-03-20",
+      "rate": 4.29,
+      "ust_3m": null,
+      "ust_1y": null
+    },
+    {
+      "date": "2025-03-21",
+      "rate": 4.3,
+      "ust_3m": null,
+      "ust_1y": null
+    },
+    {
+      "date": "2025-03-24",
+      "rate": 4.31,
+      "ust_3m": null,
+      "ust_1y": null
+    },
+    {
+      "date": "2025-03-25",
+      "rate": 4.33,
+      "ust_3m": null,
+      "ust_1y": null
+    },
+    {
+      "date": "2025-03-26",
+      "rate": 4.35,
+      "ust_3m": null,
+      "ust_1y": null
+    },
+    {
+      "date": "2025-03-27",
+      "rate": 4.36,
+      "ust_3m": null,
+      "ust_1y": null
+    },
+    {
+      "date": "2025-03-28",
+      "rate": 4.34,
+      "ust_3m": null,
+      "ust_1y": null
+    },
+    {
+      "date": "2025-03-31",
+      "rate": 4.41,
+      "ust_3m": null,
+      "ust_1y": null
+    },
+    {
+      "date": "2025-04-01",
+      "rate": 4.39,
+      "ust_3m": null,
+      "ust_1y": null
+    },
+    {
+      "date": "2025-04-02",
+      "rate": 4.37,
+      "ust_3m": null,
+      "ust_1y": null
+    },
+    {
+      "date": "2025-04-03",
+      "rate": 4.39,
+      "ust_3m": null,
+      "ust_1y": null
+    },
+    {
+      "date": "2025-04-04",
+      "rate": 4.35,
+      "ust_3m": null,
+      "ust_1y": null
+    },
+    {
+      "date": "2025-04-07",
+      "rate": 4.33,
+      "ust_3m": null,
+      "ust_1y": null
+    },
+    {
+      "date": "2025-04-08",
+      "rate": 4.4,
+      "ust_3m": null,
+      "ust_1y": null
+    },
+    {
+      "date": "2025-04-09",
+      "rate": 4.42,
+      "ust_3m": null,
+      "ust_1y": null
+    },
+    {
+      "date": "2025-04-10",
+      "rate": 4.37,
+      "ust_3m": null,
+      "ust_1y": null
+    },
+    {
+      "date": "2025-04-11",
+      "rate": 4.33,
+      "ust_3m": null,
+      "ust_1y": null
+    },
+    {
+      "date": "2025-04-14",
+      "rate": 4.33,
+      "ust_3m": null,
+      "ust_1y": null
+    },
+    {
+      "date": "2025-04-15",
+      "rate": 4.36,
+      "ust_3m": null,
+      "ust_1y": null
+    },
+    {
+      "date": "2025-04-16",
+      "rate": 4.31,
+      "ust_3m": null,
+      "ust_1y": null
+    },
+    {
+      "date": "2025-04-17",
+      "rate": 4.32,
+      "ust_3m": null,
+      "ust_1y": null
+    },
+    {
+      "date": "2025-04-21",
+      "rate": 4.32,
+      "ust_3m": null,
+      "ust_1y": null
+    },
+    {
+      "date": "2025-04-22",
+      "rate": 4.3,
+      "ust_3m": null,
+      "ust_1y": null
+    },
+    {
+      "date": "2025-04-23",
+      "rate": 4.28,
+      "ust_3m": null,
+      "ust_1y": null
+    },
+    {
+      "date": "2025-04-24",
+      "rate": 4.29,
+      "ust_3m": null,
+      "ust_1y": null
+    },
+    {
+      "date": "2025-04-25",
+      "rate": 4.33,
+      "ust_3m": null,
+      "ust_1y": null
+    },
+    {
+      "date": "2025-04-28",
+      "rate": 4.36,
+      "ust_3m": null,
+      "ust_1y": null
+    },
+    {
+      "date": "2025-04-29",
+      "rate": 4.36,
+      "ust_3m": null,
+      "ust_1y": null
+    },
+    {
+      "date": "2025-04-30",
+      "rate": 4.41,
+      "ust_3m": null,
+      "ust_1y": null
+    },
+    {
+      "date": "2025-05-01",
+      "rate": 4.39,
+      "ust_3m": null,
+      "ust_1y": null
+    },
+    {
+      "date": "2025-05-02",
+      "rate": 4.36,
+      "ust_3m": null,
+      "ust_1y": null
+    },
+    {
+      "date": "2025-05-05",
+      "rate": 4.33,
+      "ust_3m": null,
+      "ust_1y": null
+    },
+    {
+      "date": "2025-05-06",
+      "rate": 4.32,
+      "ust_3m": null,
+      "ust_1y": null
+    },
+    {
+      "date": "2025-05-07",
+      "rate": 4.3,
+      "ust_3m": null,
+      "ust_1y": null
+    },
+    {
+      "date": "2025-05-08",
+      "rate": 4.29,
+      "ust_3m": null,
+      "ust_1y": null
+    },
+    {
+      "date": "2025-05-09",
+      "rate": 4.28,
+      "ust_3m": null,
+      "ust_1y": null
+    },
+    {
+      "date": "2025-05-12",
+      "rate": 4.28,
+      "ust_3m": null,
+      "ust_1y": null
+    },
+    {
+      "date": "2025-05-13",
+      "rate": 4.3,
+      "ust_3m": null,
+      "ust_1y": null
+    },
+    {
+      "date": "2025-05-14",
+      "rate": 4.29,
+      "ust_3m": null,
+      "ust_1y": null
+    },
+    {
+      "date": "2025-05-15",
+      "rate": 4.31,
+      "ust_3m": null,
+      "ust_1y": null
+    },
+    {
+      "date": "2025-05-16",
+      "rate": 4.3,
+      "ust_3m": null,
+      "ust_1y": null
+    },
+    {
+      "date": "2025-05-19",
+      "rate": 4.29,
+      "ust_3m": null,
+      "ust_1y": null
+    },
+    {
+      "date": "2025-05-20",
+      "rate": 4.27,
+      "ust_3m": null,
+      "ust_1y": null
+    },
+    {
+      "date": "2025-05-21",
+      "rate": 4.26,
+      "ust_3m": null,
+      "ust_1y": null
+    },
+    {
+      "date": "2025-05-22",
+      "rate": 4.26,
+      "ust_3m": null,
+      "ust_1y": null
+    },
+    {
+      "date": "2025-05-23",
+      "rate": 4.26,
+      "ust_3m": null,
+      "ust_1y": null
+    },
+    {
+      "date": "2025-05-27",
+      "rate": 4.31,
+      "ust_3m": null,
+      "ust_1y": null
+    },
+    {
+      "date": "2025-05-28",
+      "rate": 4.33,
+      "ust_3m": null,
+      "ust_1y": null
+    },
+    {
+      "date": "2025-05-29",
+      "rate": 4.33,
+      "ust_3m": null,
+      "ust_1y": null
+    },
+    {
+      "date": "2025-05-30",
+      "rate": 4.35,
+      "ust_3m": null,
+      "ust_1y": null
+    },
+    {
+      "date": "2025-06-02",
+      "rate": 4.35,
+      "ust_3m": null,
+      "ust_1y": null
+    },
+    {
+      "date": "2025-06-03",
+      "rate": 4.32,
+      "ust_3m": null,
+      "ust_1y": null
+    },
+    {
+      "date": "2025-06-04",
+      "rate": 4.28,
+      "ust_3m": null,
+      "ust_1y": null
+    },
+    {
+      "date": "2025-06-05",
+      "rate": 4.29,
+      "ust_3m": null,
+      "ust_1y": null
+    },
+    {
+      "date": "2025-06-06",
+      "rate": 4.29,
+      "ust_3m": null,
+      "ust_1y": null
+    },
+    {
+      "date": "2025-06-09",
+      "rate": 4.29,
+      "ust_3m": null,
+      "ust_1y": null
+    },
+    {
+      "date": "2025-06-10",
+      "rate": 4.28,
+      "ust_3m": null,
+      "ust_1y": null
+    },
+    {
+      "date": "2025-06-11",
+      "rate": 4.28,
+      "ust_3m": null,
+      "ust_1y": null
+    },
+    {
+      "date": "2025-06-12",
+      "rate": 4.28,
+      "ust_3m": null,
+      "ust_1y": null
+    },
+    {
+      "date": "2025-06-13",
+      "rate": 4.28,
+      "ust_3m": null,
+      "ust_1y": null
+    },
+    {
+      "date": "2025-06-16",
+      "rate": 4.32,
+      "ust_3m": null,
+      "ust_1y": null
+    },
+    {
+      "date": "2025-06-17",
+      "rate": 4.31,
+      "ust_3m": null,
+      "ust_1y": null
+    },
+    {
+      "date": "2025-06-18",
+      "rate": 4.28,
+      "ust_3m": null,
+      "ust_1y": null
+    },
+    {
+      "date": "2025-06-20",
+      "rate": 4.29,
+      "ust_3m": null,
+      "ust_1y": null
+    },
+    {
+      "date": "2025-06-23",
+      "rate": 4.29,
+      "ust_3m": null,
+      "ust_1y": null
+    },
+    {
+      "date": "2025-06-24",
+      "rate": 4.3,
+      "ust_3m": null,
+      "ust_1y": null
+    },
+    {
+      "date": "2025-06-25",
+      "rate": 4.36,
+      "ust_3m": null,
+      "ust_1y": null
+    },
+    {
+      "date": "2025-06-26",
+      "rate": 4.4,
+      "ust_3m": null,
+      "ust_1y": null
+    },
+    {
+      "date": "2025-06-27",
+      "rate": 4.39,
+      "ust_3m": null,
+      "ust_1y": null
+    },
+    {
+      "date": "2025-06-30",
+      "rate": 4.45,
+      "ust_3m": null,
+      "ust_1y": null
+    },
+    {
+      "date": "2025-07-01",
+      "rate": 4.44,
+      "ust_3m": null,
+      "ust_1y": null
+    },
+    {
+      "date": "2025-07-02",
+      "rate": 4.4,
+      "ust_3m": null,
+      "ust_1y": null
+    },
+    {
+      "date": "2025-07-03",
+      "rate": 4.35,
+      "ust_3m": null,
+      "ust_1y": null
+    },
+    {
+      "date": "2025-07-07",
+      "rate": 4.33,
+      "ust_3m": null,
+      "ust_1y": null
+    },
+    {
+      "date": "2025-07-08",
+      "rate": 4.34,
+      "ust_3m": null,
+      "ust_1y": null
+    },
+    {
+      "date": "2025-07-09",
+      "rate": 4.32,
+      "ust_3m": null,
+      "ust_1y": null
+    },
+    {
+      "date": "2025-07-10",
+      "rate": 4.31,
+      "ust_3m": null,
+      "ust_1y": null
+    },
+    {
+      "date": "2025-07-11",
+      "rate": 4.31,
+      "ust_3m": null,
+      "ust_1y": null
+    },
+    {
+      "date": "2025-07-14",
+      "rate": 4.33,
+      "ust_3m": null,
+      "ust_1y": null
+    },
+    {
+      "date": "2025-07-15",
+      "rate": 4.37,
+      "ust_3m": null,
+      "ust_1y": null
+    },
+    {
+      "date": "2025-07-16",
+      "rate": 4.34,
+      "ust_3m": null,
+      "ust_1y": null
+    },
+    {
+      "date": "2025-07-17",
+      "rate": 4.34,
+      "ust_3m": null,
+      "ust_1y": null
+    },
+    {
+      "date": "2025-07-18",
+      "rate": 4.3,
+      "ust_3m": null,
+      "ust_1y": null
+    },
+    {
+      "date": "2025-07-21",
+      "rate": 4.28,
+      "ust_3m": null,
+      "ust_1y": null
+    },
+    {
+      "date": "2025-07-22",
+      "rate": 4.28,
+      "ust_3m": null,
+      "ust_1y": null
+    },
+    {
+      "date": "2025-07-23",
+      "rate": 4.28,
+      "ust_3m": null,
+      "ust_1y": null
+    },
+    {
+      "date": "2025-07-24",
+      "rate": 4.3,
+      "ust_3m": null,
+      "ust_1y": null
+    },
+    {
+      "date": "2025-07-25",
+      "rate": 4.36,
+      "ust_3m": null,
+      "ust_1y": null
+    },
+    {
+      "date": "2025-07-28",
+      "rate": 4.36,
+      "ust_3m": null,
+      "ust_1y": null
+    },
+    {
+      "date": "2025-07-29",
+      "rate": 4.36,
+      "ust_3m": null,
+      "ust_1y": null
+    },
+    {
+      "date": "2025-07-30",
+      "rate": 4.32,
+      "ust_3m": null,
+      "ust_1y": null
+    },
+    {
+      "date": "2025-07-31",
+      "rate": 4.39,
+      "ust_3m": null,
+      "ust_1y": null
+    },
+    {
+      "date": "2025-08-01",
+      "rate": 4.34,
+      "ust_3m": null,
+      "ust_1y": null
+    },
+    {
+      "date": "2025-08-04",
+      "rate": 4.33,
+      "ust_3m": null,
+      "ust_1y": null
+    },
+    {
+      "date": "2025-08-05",
+      "rate": 4.34,
+      "ust_3m": null,
+      "ust_1y": null
+    },
+    {
+      "date": "2025-08-06",
+      "rate": 4.34,
+      "ust_3m": null,
+      "ust_1y": null
+    },
+    {
+      "date": "2025-08-07",
+      "rate": 4.35,
+      "ust_3m": null,
+      "ust_1y": null
+    },
+    {
+      "date": "2025-08-08",
+      "rate": 4.35,
+      "ust_3m": null,
+      "ust_1y": null
+    },
+    {
+      "date": "2025-08-11",
+      "rate": 4.34,
+      "ust_3m": null,
+      "ust_1y": null
+    },
+    {
+      "date": "2025-08-12",
+      "rate": 4.36,
+      "ust_3m": null,
+      "ust_1y": null
+    },
+    {
+      "date": "2025-08-13",
+      "rate": 4.33,
+      "ust_3m": null,
+      "ust_1y": null
+    },
+    {
+      "date": "2025-08-14",
+      "rate": 4.34,
+      "ust_3m": null,
+      "ust_1y": null
+    },
+    {
+      "date": "2025-08-15",
+      "rate": 4.36,
+      "ust_3m": null,
+      "ust_1y": null
+    },
+    {
+      "date": "2025-08-18",
+      "rate": 4.34,
+      "ust_3m": null,
+      "ust_1y": null
+    },
+    {
+      "date": "2025-08-19",
+      "rate": 4.33,
+      "ust_3m": null,
+      "ust_1y": null
+    },
+    {
+      "date": "2025-08-20",
+      "rate": 4.31,
+      "ust_3m": null,
+      "ust_1y": null
+    },
+    {
+      "date": "2025-08-21",
+      "rate": 4.32,
+      "ust_3m": null,
+      "ust_1y": null
+    },
+    {
+      "date": "2025-08-22",
+      "rate": 4.36,
+      "ust_3m": null,
+      "ust_1y": null
+    },
+    {
+      "date": "2025-08-25",
+      "rate": 4.37,
+      "ust_3m": null,
+      "ust_1y": null
+    },
+    {
+      "date": "2025-08-26",
+      "rate": 4.38,
+      "ust_3m": null,
+      "ust_1y": null
+    },
+    {
+      "date": "2025-08-27",
+      "rate": 4.36,
+      "ust_3m": null,
+      "ust_1y": null
+    },
+    {
+      "date": "2025-08-28",
+      "rate": 4.34,
+      "ust_3m": null,
+      "ust_1y": null
+    },
+    {
+      "date": "2025-08-29",
+      "rate": 4.34,
+      "ust_3m": null,
+      "ust_1y": null
+    },
+    {
+      "date": "2025-09-02",
+      "rate": 4.39,
+      "ust_3m": null,
+      "ust_1y": null
+    },
+    {
+      "date": "2025-09-03",
+      "rate": 4.39,
+      "ust_3m": null,
+      "ust_1y": null
+    },
+    {
+      "date": "2025-09-04",
+      "rate": 4.41,
+      "ust_3m": null,
+      "ust_1y": null
+    },
+    {
+      "date": "2025-09-05",
+      "rate": 4.42,
+      "ust_3m": null,
+      "ust_1y": null
+    },
+    {
+      "date": "2025-09-08",
+      "rate": 4.4,
+      "ust_3m": null,
+      "ust_1y": null
+    },
+    {
+      "date": "2025-09-09",
+      "rate": 4.4,
+      "ust_3m": null,
+      "ust_1y": null
+    },
+    {
+      "date": "2025-09-10",
+      "rate": 4.39,
+      "ust_3m": null,
+      "ust_1y": null
+    },
+    {
+      "date": "2025-09-11",
+      "rate": 4.41,
+      "ust_3m": null,
+      "ust_1y": null
+    },
+    {
+      "date": "2025-09-12",
+      "rate": 4.42,
+      "ust_3m": null,
+      "ust_1y": null
+    },
+    {
+      "date": "2025-09-15",
+      "rate": 4.51,
+      "ust_3m": null,
+      "ust_1y": null
+    },
+    {
+      "date": "2025-09-16",
+      "rate": 4.39,
+      "ust_3m": null,
+      "ust_1y": null
+    },
+    {
+      "date": "2025-09-17",
+      "rate": 4.38,
+      "ust_3m": null,
+      "ust_1y": null
+    },
+    {
+      "date": "2025-09-18",
+      "rate": 4.14,
+      "ust_3m": null,
+      "ust_1y": null
+    },
+    {
+      "date": "2025-09-19",
+      "rate": 4.14,
+      "ust_3m": null,
+      "ust_1y": null
+    },
+    {
+      "date": "2025-09-22",
+      "rate": 4.14,
+      "ust_3m": null,
+      "ust_1y": null
+    },
+    {
+      "date": "2025-09-23",
+      "rate": 4.12,
+      "ust_3m": null,
+      "ust_1y": null
+    },
+    {
+      "date": "2025-09-24",
+      "rate": 4.13,
+      "ust_3m": null,
+      "ust_1y": null
+    },
+    {
+      "date": "2025-09-25",
+      "rate": 4.18,
+      "ust_3m": null,
+      "ust_1y": null
+    },
+    {
+      "date": "2025-09-26",
+      "rate": 4.16,
+      "ust_3m": null,
+      "ust_1y": null
+    },
+    {
+      "date": "2025-09-29",
+      "rate": 4.13,
+      "ust_3m": null,
+      "ust_1y": null
+    },
+    {
+      "date": "2025-09-30",
+      "rate": 4.24,
+      "ust_3m": null,
+      "ust_1y": null
+    },
+    {
+      "date": "2025-10-01",
+      "rate": 4.2,
+      "ust_3m": null,
+      "ust_1y": null
+    },
+    {
+      "date": "2025-10-02",
+      "rate": 4.2,
+      "ust_3m": null,
+      "ust_1y": null
+    },
+    {
+      "date": "2025-10-03",
+      "rate": 4.18,
+      "ust_3m": null,
+      "ust_1y": null
+    },
+    {
+      "date": "2025-10-06",
+      "rate": 4.15,
+      "ust_3m": null,
+      "ust_1y": null
+    },
+    {
+      "date": "2025-10-07",
+      "rate": 4.14,
+      "ust_3m": null,
+      "ust_1y": null
+    },
+    {
+      "date": "2025-10-08",
+      "rate": 4.12,
+      "ust_3m": null,
+      "ust_1y": null
+    },
+    {
+      "date": "2025-10-09",
+      "rate": 4.13,
+      "ust_3m": null,
+      "ust_1y": null
+    },
+    {
+      "date": "2025-10-10",
+      "rate": 4.15,
+      "ust_3m": null,
+      "ust_1y": null
+    },
+    {
+      "date": "2025-10-14",
+      "rate": 4.19,
+      "ust_3m": null,
+      "ust_1y": null
+    },
+    {
+      "date": "2025-10-15",
+      "rate": 4.29,
+      "ust_3m": null,
+      "ust_1y": null
+    },
+    {
+      "date": "2025-10-16",
+      "rate": 4.3,
+      "ust_3m": null,
+      "ust_1y": null
+    },
+    {
+      "date": "2025-10-17",
+      "rate": 4.18,
+      "ust_3m": null,
+      "ust_1y": null
+    },
+    {
+      "date": "2025-10-20",
+      "rate": 4.16,
+      "ust_3m": null,
+      "ust_1y": null
+    },
+    {
+      "date": "2025-10-21",
+      "rate": 4.23,
+      "ust_3m": null,
+      "ust_1y": null
+    },
+    {
+      "date": "2025-10-22",
+      "rate": 4.21,
+      "ust_3m": null,
+      "ust_1y": null
+    },
+    {
+      "date": "2025-10-23",
+      "rate": 4.24,
+      "ust_3m": null,
+      "ust_1y": null
+    },
+    {
+      "date": "2025-10-24",
+      "rate": 4.24,
+      "ust_3m": null,
+      "ust_1y": null
+    },
+    {
+      "date": "2025-10-27",
+      "rate": 4.27,
+      "ust_3m": null,
+      "ust_1y": null
+    },
+    {
+      "date": "2025-10-28",
+      "rate": 4.31,
+      "ust_3m": null,
+      "ust_1y": null
+    },
+    {
+      "date": "2025-10-29",
+      "rate": 4.27,
+      "ust_3m": null,
+      "ust_1y": null
+    },
+    {
+      "date": "2025-10-30",
+      "rate": 4.04,
+      "ust_3m": null,
+      "ust_1y": null
+    },
+    {
+      "date": "2025-10-31",
+      "rate": 4.22,
+      "ust_3m": null,
+      "ust_1y": null
+    },
+    {
+      "date": "2025-11-03",
+      "rate": 4.13,
+      "ust_3m": null,
+      "ust_1y": null
+    },
+    {
+      "date": "2025-11-04",
+      "rate": 4.0,
+      "ust_3m": null,
+      "ust_1y": null
+    },
+    {
+      "date": "2025-11-05",
+      "rate": 3.91,
+      "ust_3m": null,
+      "ust_1y": null
+    },
+    {
+      "date": "2025-11-06",
+      "rate": 3.92,
+      "ust_3m": null,
+      "ust_1y": null
+    },
+    {
+      "date": "2025-11-07",
+      "rate": 3.93,
+      "ust_3m": null,
+      "ust_1y": null
+    },
+    {
+      "date": "2025-11-10",
+      "rate": 3.95,
+      "ust_3m": null,
+      "ust_1y": null
+    },
+    {
+      "date": "2025-11-12",
+      "rate": 3.98,
+      "ust_3m": null,
+      "ust_1y": null
+    },
+    {
+      "date": "2025-11-13",
+      "rate": 4.0,
+      "ust_3m": null,
+      "ust_1y": null
+    },
+    {
+      "date": "2025-11-14",
+      "rate": 3.95,
+      "ust_3m": null,
+      "ust_1y": null
+    },
+    {
+      "date": "2025-11-17",
+      "rate": 4.0,
+      "ust_3m": null,
+      "ust_1y": null
+    },
+    {
+      "date": "2025-11-18",
+      "rate": 3.94,
+      "ust_3m": null,
+      "ust_1y": null
+    },
+    {
+      "date": "2025-11-19",
+      "rate": 3.91,
+      "ust_3m": null,
+      "ust_1y": null
+    },
+    {
+      "date": "2025-11-20",
+      "rate": 3.91,
+      "ust_3m": null,
+      "ust_1y": null
+    },
+    {
+      "date": "2025-11-21",
+      "rate": 3.93,
+      "ust_3m": null,
+      "ust_1y": null
+    },
+    {
+      "date": "2025-11-24",
+      "rate": 3.96,
+      "ust_3m": null,
+      "ust_1y": null
+    },
+    {
+      "date": "2025-11-25",
+      "rate": 4.01,
+      "ust_3m": null,
+      "ust_1y": null
+    },
+    {
+      "date": "2025-11-26",
+      "rate": 4.05,
+      "ust_3m": null,
+      "ust_1y": null
+    },
+    {
+      "date": "2025-11-28",
+      "rate": 4.12,
+      "ust_3m": null,
+      "ust_1y": null
+    },
+    {
+      "date": "2025-12-01",
+      "rate": 4.12,
+      "ust_3m": null,
+      "ust_1y": null
+    },
+    {
+      "date": "2025-12-02",
+      "rate": 4.01,
+      "ust_3m": null,
+      "ust_1y": null
+    },
+    {
+      "date": "2025-12-03",
+      "rate": 3.95,
+      "ust_3m": null,
+      "ust_1y": null
+    },
+    {
+      "date": "2025-12-04",
+      "rate": 3.92,
+      "ust_3m": null,
+      "ust_1y": null
+    },
+    {
+      "date": "2025-12-05",
+      "rate": 3.93,
+      "ust_3m": null,
+      "ust_1y": null
+    },
+    {
+      "date": "2025-12-08",
+      "rate": 3.95,
+      "ust_3m": null,
+      "ust_1y": null
+    },
+    {
+      "date": "2025-12-09",
+      "rate": 3.93,
+      "ust_3m": null,
+      "ust_1y": null
+    },
+    {
+      "date": "2025-12-10",
+      "rate": 3.9,
+      "ust_3m": null,
+      "ust_1y": null
+    },
+    {
+      "date": "2025-12-11",
+      "rate": 3.66,
+      "ust_3m": null,
+      "ust_1y": null
+    },
+    {
+      "date": "2025-12-12",
+      "rate": 3.67,
+      "ust_3m": null,
+      "ust_1y": null
+    },
+    {
+      "date": "2025-12-15",
+      "rate": 3.75,
+      "ust_3m": null,
+      "ust_1y": null
+    },
+    {
+      "date": "2025-12-16",
+      "rate": 3.69,
+      "ust_3m": null,
+      "ust_1y": null
+    },
+    {
+      "date": "2025-12-17",
+      "rate": 3.69,
+      "ust_3m": null,
+      "ust_1y": null
+    },
+    {
+      "date": "2025-12-18",
+      "rate": 3.66,
+      "ust_3m": null,
+      "ust_1y": null
+    },
+    {
+      "date": "2025-12-19",
+      "rate": 3.66,
+      "ust_3m": null,
+      "ust_1y": null
+    },
+    {
+      "date": "2025-12-22",
+      "rate": 3.68,
+      "ust_3m": null,
+      "ust_1y": null
+    },
+    {
+      "date": "2025-12-23",
+      "rate": 3.66,
+      "ust_3m": null,
+      "ust_1y": null
+    },
+    {
+      "date": "2025-12-24",
+      "rate": 3.66,
+      "ust_3m": null,
+      "ust_1y": null
+    },
+    {
+      "date": "2025-12-26",
+      "rate": 3.76,
+      "ust_3m": null,
+      "ust_1y": null
+    },
+    {
+      "date": "2025-12-29",
+      "rate": 3.77,
+      "ust_3m": null,
+      "ust_1y": null
+    },
+    {
+      "date": "2025-12-30",
+      "rate": 3.71,
+      "ust_3m": null,
+      "ust_1y": null
+    },
+    {
+      "date": "2025-12-31",
+      "rate": 3.87,
+      "ust_3m": null,
+      "ust_1y": null
+    },
+    {
+      "date": "2026-01-02",
+      "rate": 3.75,
+      "ust_3m": null,
+      "ust_1y": null
+    },
+    {
+      "date": "2026-01-05",
+      "rate": 3.7,
+      "ust_3m": null,
+      "ust_1y": null
+    },
+    {
+      "date": "2026-01-06",
+      "rate": 3.66,
+      "ust_3m": null,
+      "ust_1y": null
+    },
+    {
+      "date": "2026-01-07",
+      "rate": 3.65,
+      "ust_3m": null,
+      "ust_1y": null
+    },
+    {
+      "date": "2026-01-08",
+      "rate": 3.64,
+      "ust_3m": null,
+      "ust_1y": null
+    },
+    {
+      "date": "2026-01-09",
+      "rate": 3.64,
+      "ust_3m": null,
+      "ust_1y": null
+    },
+    {
+      "date": "2026-01-12",
+      "rate": 3.64,
+      "ust_3m": null,
+      "ust_1y": null
+    },
+    {
+      "date": "2026-01-13",
+      "rate": 3.65,
+      "ust_3m": null,
+      "ust_1y": null
+    },
+    {
+      "date": "2026-01-14",
+      "rate": 3.64,
+      "ust_3m": null,
+      "ust_1y": null
+    },
+    {
+      "date": "2026-01-15",
+      "rate": 3.66,
+      "ust_3m": null,
+      "ust_1y": null
+    },
+    {
+      "date": "2026-01-16",
+      "rate": 3.65,
+      "ust_3m": null,
+      "ust_1y": null
+    },
+    {
+      "date": "2026-01-20",
+      "rate": 3.64,
+      "ust_3m": null,
+      "ust_1y": null
+    },
+    {
+      "date": "2026-01-21",
+      "rate": 3.63,
+      "ust_3m": null,
+      "ust_1y": null
+    },
+    {
+      "date": "2026-01-22",
+      "rate": 3.64,
+      "ust_3m": null,
+      "ust_1y": null
+    },
+    {
+      "date": "2026-01-23",
+      "rate": 3.65,
+      "ust_3m": null,
+      "ust_1y": null
+    },
+    {
+      "date": "2026-01-26",
+      "rate": 3.66,
+      "ust_3m": null,
+      "ust_1y": null
+    },
+    {
+      "date": "2026-01-27",
+      "rate": 3.66,
+      "ust_3m": null,
+      "ust_1y": null
+    },
+    {
+      "date": "2026-01-28",
+      "rate": 3.64,
+      "ust_3m": null,
+      "ust_1y": null
+    },
+    {
+      "date": "2026-01-29",
+      "rate": 3.65,
+      "ust_3m": null,
+      "ust_1y": null
+    },
+    {
+      "date": "2026-01-30",
+      "rate": 3.68,
+      "ust_3m": null,
+      "ust_1y": null
+    },
+    {
+      "date": "2026-02-02",
+      "rate": 3.69,
+      "ust_3m": null,
+      "ust_1y": null
+    },
+    {
+      "date": "2026-02-03",
+      "rate": 3.69,
+      "ust_3m": null,
+      "ust_1y": null
+    },
+    {
+      "date": "2026-02-04",
+      "rate": 3.65,
+      "ust_3m": null,
+      "ust_1y": null
+    },
+    {
+      "date": "2026-02-05",
+      "rate": 3.65,
+      "ust_3m": null,
+      "ust_1y": null
+    },
+    {
+      "date": "2026-02-06",
+      "rate": 3.64,
+      "ust_3m": null,
+      "ust_1y": null
+    },
+    {
+      "date": "2026-02-09",
+      "rate": 3.63,
+      "ust_3m": null,
+      "ust_1y": null
+    },
+    {
+      "date": "2026-02-10",
+      "rate": 3.65,
+      "ust_3m": null,
+      "ust_1y": null
+    },
+    {
+      "date": "2026-02-11",
+      "rate": 3.65,
+      "ust_3m": null,
+      "ust_1y": null
+    },
+    {
+      "date": "2026-02-12",
+      "rate": 3.65,
+      "ust_3m": null,
+      "ust_1y": null
+    },
+    {
+      "date": "2026-02-13",
+      "rate": 3.66,
+      "ust_3m": null,
+      "ust_1y": null
+    },
+    {
+      "date": "2026-02-17",
+      "rate": 3.71,
+      "ust_3m": null,
+      "ust_1y": null
+    },
+    {
+      "date": "2026-02-18",
+      "rate": 3.73,
+      "ust_3m": null,
+      "ust_1y": null
+    },
+    {
+      "date": "2026-02-19",
+      "rate": 3.67,
+      "ust_3m": null,
+      "ust_1y": null
+    },
+    {
+      "date": "2026-02-20",
+      "rate": 3.66,
+      "ust_3m": null,
+      "ust_1y": null
+    },
+    {
+      "date": "2026-02-23",
+      "rate": 3.66,
+      "ust_3m": null,
+      "ust_1y": null
+    },
+    {
+      "date": "2026-02-24",
+      "rate": 3.67,
+      "ust_3m": null,
+      "ust_1y": null
+    },
+    {
+      "date": "2026-02-25",
+      "rate": 3.67,
+      "ust_3m": null,
+      "ust_1y": null
+    },
+    {
       "date": "2026-02-26",
-      "rate": 3.67
+      "rate": 3.67,
+      "ust_3m": null,
+      "ust_1y": null
     },
     {
       "date": "2026-02-27",
-      "rate": 3.68
+      "rate": 3.68,
+      "ust_3m": null,
+      "ust_1y": null
     },
     {
       "date": "2026-03-02",
-      "rate": 3.71
+      "rate": 3.71,
+      "ust_3m": null,
+      "ust_1y": null
     },
     {
       "date": "2026-03-03",
-      "rate": 3.7
+      "rate": 3.7,
+      "ust_3m": null,
+      "ust_1y": null
     },
     {
       "date": "2026-03-04",
-      "rate": 3.67
+      "rate": 3.67,
+      "ust_3m": null,
+      "ust_1y": null
     },
     {
       "date": "2026-03-05",
-      "rate": 3.66
+      "rate": 3.66,
+      "ust_3m": null,
+      "ust_1y": null
     },
     {
       "date": "2026-03-06",
-      "rate": 3.65
+      "rate": 3.65,
+      "ust_3m": null,
+      "ust_1y": null
     },
     {
       "date": "2026-03-09",
-      "rate": 3.65
+      "rate": 3.65,
+      "ust_3m": null,
+      "ust_1y": null
     },
     {
       "date": "2026-03-10",
-      "rate": 3.64
+      "rate": 3.64,
+      "ust_3m": null,
+      "ust_1y": null
     },
     {
       "date": "2026-03-11",
-      "rate": 3.64
+      "rate": 3.64,
+      "ust_3m": null,
+      "ust_1y": null
     },
     {
       "date": "2026-03-12",
-      "rate": 3.65
+      "rate": 3.65,
+      "ust_3m": null,
+      "ust_1y": null
     },
     {
       "date": "2026-03-13",
-      "rate": 3.65
+      "rate": 3.65,
+      "ust_3m": null,
+      "ust_1y": null
     },
     {
       "date": "2026-03-16",
-      "rate": 3.7
+      "rate": 3.7,
+      "ust_3m": null,
+      "ust_1y": null
     },
     {
       "date": "2026-03-17",
-      "rate": 3.65
+      "rate": 3.65,
+      "ust_3m": null,
+      "ust_1y": null
     },
     {
       "date": "2026-03-18",
-      "rate": 3.62
+      "rate": 3.62,
+      "ust_3m": null,
+      "ust_1y": null
     },
     {
       "date": "2026-03-19",
-      "rate": 3.62
+      "rate": 3.62,
+      "ust_3m": null,
+      "ust_1y": null
     },
     {
       "date": "2026-03-20",
-      "rate": 3.62
+      "rate": 3.62,
+      "ust_3m": null,
+      "ust_1y": null
     },
     {
       "date": "2026-03-23",
-      "rate": 3.62
+      "rate": 3.62,
+      "ust_3m": null,
+      "ust_1y": null
     },
     {
       "date": "2026-03-24",
-      "rate": 3.63
+      "rate": 3.63,
+      "ust_3m": null,
+      "ust_1y": null
     },
     {
       "date": "2026-03-25",
-      "rate": 3.64
+      "rate": 3.64,
+      "ust_3m": null,
+      "ust_1y": null
     },
     {
       "date": "2026-03-26",
-      "rate": 3.65
+      "rate": 3.65,
+      "ust_3m": null,
+      "ust_1y": null
     },
     {
       "date": "2026-03-27",
-      "rate": 3.63
+      "rate": 3.63,
+      "ust_3m": null,
+      "ust_1y": null
     },
     {
       "date": "2026-03-30",
-      "rate": 3.63
+      "rate": 3.63,
+      "ust_3m": null,
+      "ust_1y": null
     },
     {
       "date": "2026-03-31",
-      "rate": 3.68
+      "rate": 3.68,
+      "ust_3m": null,
+      "ust_1y": null
     },
     {
       "date": "2026-04-01",
-      "rate": 3.65
+      "rate": 3.65,
+      "ust_3m": null,
+      "ust_1y": null
     },
     {
       "date": "2026-04-02",
-      "rate": 3.66
+      "rate": 3.66,
+      "ust_3m": null,
+      "ust_1y": null
     },
     {
       "date": "2026-04-06",
-      "rate": 3.65
+      "rate": 3.65,
+      "ust_3m": null,
+      "ust_1y": null
     },
     {
       "date": "2026-04-07",
-      "rate": 3.62
+      "rate": 3.62,
+      "ust_3m": null,
+      "ust_1y": null
     },
     {
       "date": "2026-04-08",
-      "rate": 3.59
+      "rate": 3.59,
+      "ust_3m": null,
+      "ust_1y": null
     },
     {
       "date": "2026-04-09",
-      "rate": 3.57
+      "rate": 3.57,
+      "ust_3m": null,
+      "ust_1y": null
     }
   ],
   "year_ago": {
     "rate": 4.33,
     "date": "2025-04-11"
   },
-  "note": "Published daily by NY Fed at ~8:00 AM ET. Averages are backward-looking compounded.",
-  "_fetched": "2026-04-11T21:49:41.412315Z"
+  "term_rates": {},
+  "note": "Published daily by NY Fed at ~8:00 AM ET. Averages are backward-looking compounded. Term SOFR via CME/FRED.",
+  "_fetched": "2026-04-11T22:08:58.365177Z"
 }
