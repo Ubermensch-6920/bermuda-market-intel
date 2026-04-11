@@ -1,5 +1,5 @@
 {
-  "date": "2026-04-10",
+  "date": "2026-04-11",
   "source": "FRED / TradingEconomics / Investing / Yahoo Finance",
   "gold": {
     "spot": 4751.68,
@@ -49,7 +49,7 @@
         "prior_3m_contract": "GCG27"
       },
       "24M": {
-        "price": 5204.3,
+        "price": 5170.0,
         "expiry": "Apr 2028",
         "contract": "GCJ28",
         "prior_1m": 5536.1,
@@ -62,7 +62,7 @@
     }
   },
   "wti": {
-    "spot": 95.57,
+    "spot": 95.63,
     "spot_date": "",
     "spot_source": "TradingEconomics",
     "unit": "USD/barrel",
@@ -109,7 +109,7 @@
         "prior_3m_contract": "CLF27"
       },
       "24M": {
-        "price": 68.64,
+        "price": 69.34,
         "expiry": "Apr 2028",
         "contract": "CLJ28",
         "prior_1m": 66.96,
@@ -122,7 +122,7 @@
     }
   },
   "brent": {
-    "spot": 94.34,
+    "spot": 94.45,
     "spot_date": "",
     "spot_source": "TradingEconomics",
     "unit": "USD/barrel",
@@ -158,7 +158,7 @@
         "prior_3m_contract": "BZN26"
       },
       "12M": {
-        "price": 77.2,
+        "price": 78.15,
         "expiry": "Apr 2027",
         "contract": "BZJ27",
         "prior_1m": 76.97,
@@ -182,5 +182,5 @@
     }
   },
   "note": "Spot history comes from daily FRED series. Futures history is roll-aware by target date.",
-  "_fetched": "2026-04-10T21:58:00.147427Z"
+  "_fetched": "2026-04-11T03:23:05.696764Z"
 }
