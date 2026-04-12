@@ -1,5 +1,5 @@
 {
-  "date": "2026-04-11",
+  "date": "2026-04-12",
   "source": "FRED / TradingEconomics / Investing / Yahoo Finance",
   "gold": {
     "spot": 4751.68,
@@ -182,5 +182,5 @@
     }
   },
   "note": "Spot history comes from daily FRED series. Futures history is roll-aware by target date.",
-  "_fetched": "2026-04-11T22:11:09.624289Z"
+  "_fetched": "2026-04-12T03:50:11.946374Z"
 }
