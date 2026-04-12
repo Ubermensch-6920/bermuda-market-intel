@@ -12,8 +12,8 @@
     "prior_1m_date": "2026-03-13",
     "prior_3m": 4604.3,
     "prior_3m_date": "2026-01-12",
-    "prior_1y": 3222.2,
-    "prior_1y_date": "2025-04-11",
+    "prior_1y": 3204.8,
+    "prior_1y_date": "2025-04-14",
     "futures": {
       "3M": {
         "price": 4824.6,
@@ -72,8 +72,8 @@
     "prior_1m_date": "2026-03-13",
     "prior_3m": 59.5,
     "prior_3m_date": "2026-01-12",
-    "prior_1y": 61.5,
-    "prior_1y_date": "2025-04-11",
+    "prior_1y": 61.53,
+    "prior_1y_date": "2025-04-14",
     "futures": {
       "3M": {
         "price": 84.93,
@@ -132,8 +132,8 @@
     "prior_1m_date": "2026-03-13",
     "prior_3m": 63.87,
     "prior_3m_date": "2026-01-12",
-    "prior_1y": 64.76,
-    "prior_1y_date": "2025-04-11",
+    "prior_1y": 64.88,
+    "prior_1y_date": "2025-04-14",
     "futures": {
       "3M": {
         "price": 90.28,
@@ -182,5 +182,5 @@
     }
   },
   "note": "Spot history comes from daily FRED series. Futures history is roll-aware by target date.",
-  "_fetched": "2026-04-12T15:56:10.711535Z"
+  "_fetched": "2026-04-12T19:12:17.495252Z"
 }
