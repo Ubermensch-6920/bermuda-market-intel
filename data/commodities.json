@@ -62,7 +62,7 @@
     }
   },
   "wti": {
-    "spot": 96.57,
+    "spot": 97.49,
     "spot_date": "",
     "spot_source": "TradingEconomics",
     "unit": "USD/barrel",
@@ -122,7 +122,7 @@
     }
   },
   "brent": {
-    "spot": 95.2,
+    "spot": 95.0,
     "spot_date": "",
     "spot_source": "TradingEconomics",
     "unit": "USD/barrel",
@@ -182,5 +182,5 @@
     }
   },
   "note": "Spot history comes from daily FRED series. Futures history is roll-aware by target date.",
-  "_fetched": "2026-04-12T19:12:17.495252Z"
+  "_fetched": "2026-04-12T21:54:29.068612Z"
 }
