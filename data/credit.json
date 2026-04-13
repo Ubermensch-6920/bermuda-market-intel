@@ -68,5 +68,5 @@
     }
   },
   "note": "Single bulk FRED fetch; missing series retried via FRED download endpoint; cache fallback used for unavailable series. Values are option-adjusted spreads in basis points. Some series are from cache.",
-  "_fetched": "2026-04-13T19:39:48.506720Z"
+  "_fetched": "2026-04-13T22:04:12.899575Z"
 }
