@@ -2,7 +2,7 @@
   "date": "2026-04-14",
   "source": "FRED / TradingEconomics / Investing / Yahoo Finance",
   "gold": {
-    "spot": 4779.2,
+    "spot": 4762.62,
     "spot_date": "",
     "spot_source": "TradingEconomics",
     "unit": "USD/troy oz",
@@ -16,7 +16,7 @@
     "prior_1y_date": "2025-04-14",
     "futures": {
       "3M": {
-        "price": 4836.8,
+        "price": 4845.0,
         "expiry": "Aug 2026",
         "contract": "GCQ26",
         "prior_1m": 5039.4,
@@ -27,7 +27,7 @@
         "prior_3m_contract": "GCJ26"
       },
       "6M": {
-        "price": 4886.0,
+        "price": 4870.0,
         "expiry": "Oct 2026",
         "contract": "GCV26",
         "prior_1m": 5113.7,
@@ -62,7 +62,7 @@
     }
   },
   "wti": {
-    "spot": 96.49,
+    "spot": 97.37,
     "spot_date": "",
     "spot_source": "TradingEconomics",
     "unit": "USD/barrel",
@@ -76,7 +76,7 @@
     "prior_1y_date": "2025-04-14",
     "futures": {
       "3M": {
-        "price": 87.34,
+        "price": 87.64,
         "expiry": "Jul 2026",
         "contract": "CLN26",
         "prior_1m": 88.54,
@@ -87,7 +87,7 @@
         "prior_3m_contract": "CLJ26"
       },
       "6M": {
-        "price": 79.71,
+        "price": 79.93,
         "expiry": "Oct 2026",
         "contract": "CLV26",
         "prior_1m": 79.67,
@@ -98,7 +98,7 @@
         "prior_3m_contract": "CLN26"
       },
       "12M": {
-        "price": 74.21,
+        "price": 74.43,
         "expiry": "Apr 2027",
         "contract": "CLJ27",
         "prior_1m": 71.91,
@@ -122,7 +122,7 @@
     }
   },
   "brent": {
-    "spot": 98.51,
+    "spot": 98.99,
     "spot_date": "",
     "spot_source": "TradingEconomics",
     "unit": "USD/barrel",
@@ -136,7 +136,7 @@
     "prior_1y_date": "2025-04-14",
     "futures": {
       "3M": {
-        "price": 92.94,
+        "price": 93.36,
         "expiry": "Jul 2026",
         "contract": "BZN26",
         "prior_1m": 96.04,
@@ -182,5 +182,5 @@
     }
   },
   "note": "Spot history comes from daily FRED series. Futures history is roll-aware by target date.",
-  "_fetched": "2026-04-14T08:07:48.587936Z"
+  "_fetched": "2026-04-14T10:44:27.364806Z"
 }
