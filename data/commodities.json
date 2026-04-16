@@ -2,7 +2,7 @@
   "date": "2026-04-16",
   "source": "FRED / TradingEconomics / Investing / Yahoo Finance",
   "gold": {
-    "spot": 4809.07,
+    "spot": 4800.2,
     "spot_date": "",
     "spot_source": "TradingEconomics",
     "unit": "USD/troy oz",
@@ -16,7 +16,7 @@
     "prior_1y_date": "2025-04-16",
     "futures": {
       "3M": {
-        "price": 4863.8,
+        "price": 4848.2,
         "expiry": "Aug 2026",
         "contract": "GCQ26",
         "prior_1m": 5045.6,
@@ -27,7 +27,7 @@
         "prior_3m_contract": "GCJ26"
       },
       "6M": {
-        "price": 4898.0,
+        "price": 4878.0,
         "expiry": "Oct 2026",
         "contract": "GCV26",
         "prior_1m": 5120.0,
@@ -62,7 +62,7 @@
     }
   },
   "wti": {
-    "spot": 92.5,
+    "spot": 93.08,
     "spot_date": "",
     "spot_source": "TradingEconomics",
     "unit": "USD/barrel",
@@ -76,7 +76,7 @@
     "prior_1y_date": "2025-04-16",
     "futures": {
       "3M": {
-        "price": 86.05,
+        "price": 86.54,
         "expiry": "Jul 2026",
         "contract": "CLN26",
         "prior_1m": 91.64,
@@ -87,7 +87,7 @@
         "prior_3m_contract": "CLJ26"
       },
       "6M": {
-        "price": 78.75,
+        "price": 78.77,
         "expiry": "Oct 2026",
         "contract": "CLV26",
         "prior_1m": 81.69,
@@ -98,7 +98,7 @@
         "prior_3m_contract": "CLN26"
       },
       "12M": {
-        "price": 74.32,
+        "price": 74.13,
         "expiry": "Apr 2027",
         "contract": "CLJ27",
         "prior_1m": 73.17,
@@ -122,7 +122,7 @@
     }
   },
   "brent": {
-    "spot": 96.47,
+    "spot": 97.52,
     "spot_date": "",
     "spot_source": "TradingEconomics",
     "unit": "USD/barrel",
@@ -136,7 +136,7 @@
     "prior_1y_date": "2025-04-16",
     "futures": {
       "3M": {
-        "price": 91.81,
+        "price": 92.47,
         "expiry": "Jul 2026",
         "contract": "BZN26",
         "prior_1m": 99.39,
@@ -182,5 +182,5 @@
     }
   },
   "note": "Spot history comes from daily FRED series. Futures history is roll-aware by target date.",
-  "_fetched": "2026-04-16T10:44:54.718735Z"
+  "_fetched": "2026-04-16T14:18:18.713545Z"
 }
