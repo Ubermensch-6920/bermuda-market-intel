@@ -1,5 +1,5 @@
 {
-  "date": "2026-04-17",
+  "date": "2026-04-18",
   "source": "FRED / TradingEconomics / Investing / Yahoo Finance",
   "gold": {
     "spot": 4833.56,
@@ -38,7 +38,7 @@
         "prior_3m_contract": "GCQ26"
       },
       "12M": {
-        "price": 4987.4,
+        "price": 5058.0,
         "expiry": "Apr 2027",
         "contract": "GCJ27",
         "prior_1m": 4813.3,
@@ -49,7 +49,7 @@
         "prior_3m_contract": "GCG27"
       },
       "24M": {
-        "price": 5191.9,
+        "price": 5262.4,
         "expiry": "Apr 2028",
         "contract": "GCJ28",
         "prior_1m": 5001.3,
@@ -109,7 +109,7 @@
         "prior_3m_contract": "CLF27"
       },
       "24M": {
-        "price": 70.77,
+        "price": 68.32,
         "expiry": "Apr 2028",
         "contract": "CLJ28",
         "prior_1m": 71.61,
@@ -158,7 +158,7 @@
         "prior_3m_contract": "BZN26"
       },
       "12M": {
-        "price": 79.5,
+        "price": 75.83,
         "expiry": "Apr 2027",
         "contract": "BZJ27",
         "prior_1m": 82.07,
@@ -182,5 +182,5 @@
     }
   },
   "note": "Spot history comes from daily FRED series. Futures history is roll-aware by target date.",
-  "_fetched": "2026-04-17T22:04:50.236304Z"
+  "_fetched": "2026-04-18T03:34:08.229102Z"
 }
