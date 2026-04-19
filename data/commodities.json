@@ -182,5 +182,5 @@
     }
   },
   "note": "Spot history comes from daily FRED series. Futures history is roll-aware by target date.",
-  "_fetched": "2026-04-19T13:38:13.522635Z"
+  "_fetched": "2026-04-19T15:58:11.489864Z"
 }
