@@ -1,8 +1,8 @@
 {
-  "date": "2026-04-24",
+  "date": "2026-04-25",
   "source": "FRED / TradingEconomics / Investing / Yahoo Finance",
   "gold": {
-    "spot": 4707.89,
+    "spot": 4709.27,
     "spot_date": "",
     "spot_source": "TradingEconomics",
     "unit": "USD/troy oz",
@@ -49,7 +49,7 @@
         "prior_3m_contract": "GCG27"
       },
       "24M": {
-        "price": 5099.0,
+        "price": 5116.8,
         "expiry": "Apr 2028",
         "contract": "GCJ28",
         "prior_1m": 4750.3,
@@ -109,7 +109,7 @@
         "prior_3m_contract": "CLF27"
       },
       "24M": {
-        "price": 70.13,
+        "price": 69.63,
         "expiry": "Apr 2028",
         "contract": "CLJ28",
         "prior_1m": 71.21,
@@ -182,5 +182,5 @@
     }
   },
   "note": "Spot history comes from daily FRED series. Futures history is roll-aware by target date.",
-  "_fetched": "2026-04-24T22:06:31.002393Z"
+  "_fetched": "2026-04-25T03:36:11.877259Z"
 }
