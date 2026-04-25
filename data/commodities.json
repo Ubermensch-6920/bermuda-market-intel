@@ -139,8 +139,8 @@
         "price": 99.13,
         "expiry": "Jul 2026",
         "contract": "BZN26",
-        "prior_1m": 101.89,
-        "prior_1m_date": "2026-03-26",
+        "prior_1m": 105.32,
+        "prior_1m_date": "2026-03-27",
         "prior_1m_contract": "BZM26",
         "prior_3m": null,
         "prior_3m_date": "",
@@ -150,8 +150,8 @@
         "price": 88.41,
         "expiry": "Oct 2026",
         "contract": "BZV26",
-        "prior_1m": 89.82,
-        "prior_1m_date": "2026-03-26",
+        "prior_1m": 90.35,
+        "prior_1m_date": "2026-03-27",
         "prior_1m_contract": "BZU26",
         "prior_3m": 64.0,
         "prior_3m_date": "2026-01-23",
@@ -161,8 +161,8 @@
         "price": 80.04,
         "expiry": "Apr 2027",
         "contract": "BZJ27",
-        "prior_1m": 81.17,
-        "prior_1m_date": "2026-03-26",
+        "prior_1m": 81.06,
+        "prior_1m_date": "2026-03-27",
         "prior_1m_contract": "BZH27",
         "prior_3m": 63.29,
         "prior_3m_date": "2026-01-23",
@@ -182,5 +182,5 @@
     }
   },
   "note": "Spot history comes from daily FRED series. Futures history is roll-aware by target date.",
-  "_fetched": "2026-04-25T13:43:09.144733Z"
+  "_fetched": "2026-04-25T16:00:08.361062Z"
 }
