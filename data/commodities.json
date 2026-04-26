@@ -6,7 +6,7 @@
     "spot_date": "",
     "spot_source": "TradingEconomics",
     "unit": "USD/troy oz",
-    "prior_1d": 4722.3,
+    "prior_1d": 4740.9,
     "prior_1d_date": "2026-04-24",
     "prior_1m": 4492.0,
     "prior_1m_date": "2026-03-27",
@@ -126,7 +126,7 @@
     "spot_date": "",
     "spot_source": "TradingEconomics",
     "unit": "USD/barrel",
-    "prior_1d": 105.33,
+    "prior_1d": 99.13,
     "prior_1d_date": "2026-04-24",
     "prior_1m": 112.57,
     "prior_1m_date": "2026-03-27",
@@ -182,5 +182,5 @@
     }
   },
   "note": "Spot history comes from daily FRED series. Futures history is roll-aware by target date.",
-  "_fetched": "2026-04-26T03:59:47.785025Z"
+  "_fetched": "2026-04-26T07:58:17.727169Z"
 }
