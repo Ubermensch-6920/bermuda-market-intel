@@ -1,12 +1,12 @@
 {
-  "date": "2026-04-26",
+  "date": "2026-04-27",
   "source": "FRED / TradingEconomics / Investing / Yahoo Finance",
   "gold": {
-    "spot": 4709.27,
+    "spot": 4724.27,
     "spot_date": "",
     "spot_source": "TradingEconomics",
     "unit": "USD/troy oz",
-    "prior_1d": 4740.9,
+    "prior_1d": 4722.3,
     "prior_1d_date": "2026-04-24",
     "prior_1m": 4492.0,
     "prior_1m_date": "2026-03-27",
@@ -62,7 +62,7 @@
     }
   },
   "wti": {
-    "spot": 95.9,
+    "spot": 95.33,
     "spot_date": "",
     "spot_source": "TradingEconomics",
     "unit": "USD/barrel",
@@ -122,11 +122,11 @@
     }
   },
   "brent": {
-    "spot": 104.8,
+    "spot": 106.55,
     "spot_date": "",
     "spot_source": "TradingEconomics",
     "unit": "USD/barrel",
-    "prior_1d": 99.13,
+    "prior_1d": 105.33,
     "prior_1d_date": "2026-04-24",
     "prior_1m": 112.57,
     "prior_1m_date": "2026-03-27",
@@ -182,5 +182,5 @@
     }
   },
   "note": "Spot history comes from daily FRED series. Futures history is roll-aware by target date.",
-  "_fetched": "2026-04-26T21:58:00.955890Z"
+  "_fetched": "2026-04-27T04:04:22.843231Z"
 }
