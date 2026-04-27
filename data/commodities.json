@@ -2,11 +2,11 @@
   "date": "2026-04-27",
   "source": "FRED / TradingEconomics / Investing / Yahoo Finance",
   "gold": {
-    "spot": 4702.97,
+    "spot": 4695.95,
     "spot_date": "",
     "spot_source": "TradingEconomics",
     "unit": "USD/troy oz",
-    "prior_1d": 4721.8,
+    "prior_1d": 4710.8,
     "prior_1d_date": "2026-04-27",
     "prior_1m": 4492.0,
     "prior_1m_date": "2026-03-27",
@@ -16,7 +16,7 @@
     "prior_1y_date": "2025-04-28",
     "futures": {
       "3M": {
-        "price": 4757.4,
+        "price": 4745.6,
         "expiry": "Aug 2026",
         "contract": "GCQ26",
         "prior_1m": 4524.3,
@@ -27,7 +27,7 @@
         "prior_3m_contract": "GCJ26"
       },
       "6M": {
-        "price": 4786.7,
+        "price": 4772.5,
         "expiry": "Oct 2026",
         "contract": "GCV26",
         "prior_1m": 4591.0,
@@ -62,11 +62,11 @@
     }
   },
   "wti": {
-    "spot": 95.13,
+    "spot": 96.15,
     "spot_date": "",
     "spot_source": "TradingEconomics",
     "unit": "USD/barrel",
-    "prior_1d": 95.25,
+    "prior_1d": 96.2,
     "prior_1d_date": "2026-04-27",
     "prior_1m": 99.64,
     "prior_1m_date": "2026-03-27",
@@ -76,7 +76,7 @@
     "prior_1y_date": "2025-04-28",
     "futures": {
       "3M": {
-        "price": 90.31,
+        "price": 91.24,
         "expiry": "Jul 2026",
         "contract": "CLN26",
         "prior_1m": 94.19,
@@ -87,7 +87,7 @@
         "prior_3m_contract": "CLJ26"
       },
       "6M": {
-        "price": 81.19,
+        "price": 81.44,
         "expiry": "Oct 2026",
         "contract": "CLV26",
         "prior_1m": 82.89,
@@ -98,7 +98,7 @@
         "prior_3m_contract": "CLN26"
       },
       "12M": {
-        "price": 75.24,
+        "price": 74.38,
         "expiry": "Apr 2027",
         "contract": "CLJ27",
         "prior_1m": 74.68,
@@ -122,11 +122,11 @@
     }
   },
   "brent": {
-    "spot": 106.5,
+    "spot": 108.0,
     "spot_date": "",
     "spot_source": "TradingEconomics",
     "unit": "USD/barrel",
-    "prior_1d": 100.26,
+    "prior_1d": 101.59,
     "prior_1d_date": "2026-04-27",
     "prior_1m": 112.57,
     "prior_1m_date": "2026-03-27",
@@ -136,7 +136,7 @@
     "prior_1y_date": "2025-04-28",
     "futures": {
       "3M": {
-        "price": 100.26,
+        "price": 101.55,
         "expiry": "Jul 2026",
         "contract": "BZN26",
         "prior_1m": 105.32,
@@ -147,7 +147,7 @@
         "prior_3m_contract": "BZJ26"
       },
       "6M": {
-        "price": 90.21,
+        "price": 89.45,
         "expiry": "Oct 2026",
         "contract": "BZV26",
         "prior_1m": 90.35,
@@ -182,5 +182,5 @@
     }
   },
   "note": "Spot history comes from daily FRED series. Futures history is roll-aware by target date.",
-  "_fetched": "2026-04-27T11:21:47.654678Z"
+  "_fetched": "2026-04-27T14:30:54.576519Z"
 }
