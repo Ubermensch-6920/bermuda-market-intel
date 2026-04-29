@@ -2,7 +2,7 @@
   "date": "2026-04-29",
   "source": "FRED / TradingEconomics / Investing / Yahoo Finance",
   "gold": {
-    "spot": 4568.51,
+    "spot": 4567.64,
     "spot_date": "",
     "spot_source": "TradingEconomics",
     "unit": "USD/troy oz",
@@ -16,7 +16,7 @@
     "prior_1y_date": "2025-04-29",
     "futures": {
       "3M": {
-        "price": 4618.6,
+        "price": 4611.4,
         "expiry": "Aug 2026",
         "contract": "GCQ26",
         "prior_1m": 4557.5,
@@ -27,7 +27,7 @@
         "prior_3m_contract": "GCJ26"
       },
       "6M": {
-        "price": 4648.6,
+        "price": 4647.2,
         "expiry": "Oct 2026",
         "contract": "GCV26",
         "prior_1m": 4623.7,
@@ -62,7 +62,7 @@
     }
   },
   "wti": {
-    "spot": 102.66,
+    "spot": 103.27,
     "spot_date": "",
     "spot_source": "TradingEconomics",
     "unit": "USD/barrel",
@@ -76,7 +76,7 @@
     "prior_1y_date": "2025-04-29",
     "futures": {
       "3M": {
-        "price": 96.99,
+        "price": 97.29,
         "expiry": "Jul 2026",
         "contract": "CLN26",
         "prior_1m": 96.02,
@@ -87,7 +87,7 @@
         "prior_3m_contract": "CLJ26"
       },
       "6M": {
-        "price": 84.55,
+        "price": 84.1,
         "expiry": "Oct 2026",
         "contract": "CLV26",
         "prior_1m": 82.78,
@@ -98,7 +98,7 @@
         "prior_3m_contract": "CLN26"
       },
       "12M": {
-        "price": 74.76,
+        "price": 75.52,
         "expiry": "Apr 2027",
         "contract": "CLJ27",
         "prior_1m": 74.19,
@@ -122,7 +122,7 @@
     }
   },
   "brent": {
-    "spot": 115.03,
+    "spot": 114.25,
     "spot_date": "",
     "spot_source": "TradingEconomics",
     "unit": "USD/barrel",
@@ -136,7 +136,7 @@
     "prior_1y_date": "2025-04-29",
     "futures": {
       "3M": {
-        "price": 107.08,
+        "price": 107.25,
         "expiry": "Jul 2026",
         "contract": "BZN26",
         "prior_1m": 107.39,
@@ -182,5 +182,5 @@
     }
   },
   "note": "Spot history comes from daily FRED series. Futures history is roll-aware by target date.",
-  "_fetched": "2026-04-29T08:37:21.317590Z"
+  "_fetched": "2026-04-29T11:09:00.908927Z"
 }
