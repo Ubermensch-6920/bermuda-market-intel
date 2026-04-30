@@ -15,49 +15,49 @@
     "30Y"
   ],
   "yields": [
+    2.5662,
     null,
     null,
     null,
-    2.779,
     null,
     null,
     null,
     null,
-    3.521
+    null
   ],
   "prior_yields": [
+    2.5175,
     null,
     null,
     null,
-    2.723,
     null,
     null,
     null,
     null,
-    3.5255
+    null
   ],
   "prior_1m_yields": [
+    2.497,
     null,
     null,
     null,
-    2.694,
     null,
     null,
     null,
     null,
-    3.3983
+    null
   ],
   "prior_1m_date": "2026-03-31",
   "prior_3m_yields": [
+    1.9596,
     null,
     null,
     null,
-    2.3729,
     null,
     null,
     null,
     null,
-    3.5058
+    null
   ],
   "prior_3m_date": "2026-01-29",
   "year_ago_yields": [
@@ -73,5 +73,5 @@
   ],
   "year_ago_date": "",
   "note": "EUR AAA govt curve proxy. Actual EIOPA RFR includes UFR extrapolation.",
-  "_fetched": "2026-04-30T11:07:56.229110Z"
+  "_fetched": "2026-04-30T14:26:45.625175Z"
 }
