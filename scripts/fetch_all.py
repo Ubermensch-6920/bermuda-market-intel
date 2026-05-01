@@ -717,8 +717,14 @@ def fetch_ust():
     now = datetime.utcnow()
     rows = parse_year(now.year)
     assert len(rows) >= 2
-    target_ya = (now - timedelta(days=365)).strftime("%Y-%m-%d")
     ya_rows = parse_year(now.year - 1)
+    # Interpolate 15Y (linear between 10Y and 20Y) for all fetched rows
+    for r in rows + ya_rows:
+        y = r["yields"]
+        y10, y20 = y.get("10Y"), y.get("20Y")
+        y["15Y"] = round(y10 + (y20 - y10) * 0.5, 4) if y10 is not None and y20 is not None else None
+    tenors = ['1M', '3M', '6M', '1Y', '2Y', '3Y', '5Y', '7Y', '10Y', '15Y', '20Y', '30Y']
+    target_ya = (now - timedelta(days=365)).strftime("%Y-%m-%d")
     ya_yields, ya_date = [None] * len(tenors), ""
     if ya_rows:
         best = min(ya_rows, key=lambda r: abs((datetime.strptime(r["date"], "%Y-%m-%d") - datetime.strptime(target_ya, "%Y-%m-%d")).days))
@@ -1885,6 +1891,28 @@ def fetch_commodities():
         if brent_spot is None:
             brent_spot = last.get("brent", {}).get("spot")
 
+    # USD/INR spot and history from FRED DEXINUS (Indian Rupees per 1 USD)
+    usdinr_obs = fred_csv("DEXINUS", start="2023-01-01")
+    if not usdinr_obs and last:
+        usdinr_obs = []
+    if usdinr_obs:
+        usdinr_spot = round(usdinr_obs[0]["value"], 4)
+        usdinr_spot_date = usdinr_obs[0]["date"]
+        def _usdinr_prior(days_back, max_diff=14):
+            target = datetime.utcnow() - timedelta(days=days_back)
+            best = min(usdinr_obs, key=lambda o: abs((datetime.strptime(o["date"], "%Y-%m-%d") - target).days))
+            diff = abs((datetime.strptime(best["date"], "%Y-%m-%d") - target).days)
+            return (round(best["value"], 4), best["date"]) if diff <= max_diff else (None, None)
+        usdinr_1d, usdinr_1d_d = _usdinr_prior(1, max_diff=5)
+        usdinr_1m, usdinr_1m_d = _usdinr_prior(30)
+        usdinr_3m, usdinr_3m_d = _usdinr_prior(91)
+        usdinr_1y, usdinr_1y_d = _usdinr_prior(365)
+    else:
+        usdinr_spot = last.get("usdinr", {}).get("spot") if last else None
+        usdinr_spot_date = last.get("usdinr", {}).get("spot_date", "") if last else ""
+        usdinr_1d = usdinr_1d_d = usdinr_1m = usdinr_1m_d = None
+        usdinr_3m = usdinr_3m_d = usdinr_1y = usdinr_1y_d = None
+
     write("commodities.json", {
         "date": datetime.utcnow().strftime("%Y-%m-%d"),
         "source": "FRED / TradingEconomics / Investing / Yahoo Finance",
@@ -1921,7 +1949,16 @@ def fetch_commodities():
             "prior_1y": brent_1y, "prior_1y_date": brent_1y_d,
             "futures": brent_futures
         },
-        "note": "Spot history comes from daily FRED series. Futures history is roll-aware by target date."
+        "usdinr": {
+            "spot": usdinr_spot,
+            "spot_date": usdinr_spot_date,
+            "unit": "INR per USD",
+            "prior_1d": usdinr_1d, "prior_1d_date": usdinr_1d_d,
+            "prior_1m": usdinr_1m, "prior_1m_date": usdinr_1m_d,
+            "prior_3m": usdinr_3m, "prior_3m_date": usdinr_3m_d,
+            "prior_1y": usdinr_1y, "prior_1y_date": usdinr_1y_d,
+        },
+        "note": "Spot history comes from daily FRED series. Futures history is roll-aware by target date. USD/INR from FRED DEXINUS."
     })
     log.info("  COMMODITIES OK")
 
