@@ -1963,6 +1963,76 @@ def fetch_commodities():
     log.info("  COMMODITIES OK")
 
 # ── RUN ──
+def fetch_news():
+    import xml.etree.ElementTree as ET
+    import urllib.parse
+    from email.utils import parsedate_to_datetime
+
+    FEEDS = [
+        {
+            "topic": "Rates & Macro",
+            "query": "federal reserve OR treasury yields OR interest rates OR ECB OR central bank OR bond yields",
+            "max": 6,
+        },
+        {
+            "topic": "Credit",
+            "query": "credit spreads OR private credit OR CLO OR high yield bonds OR leveraged loans",
+            "max": 5,
+        },
+        {
+            "topic": "Insurance & Bermuda",
+            "query": "insurance OR reinsurance OR Bermuda BMA OR annuity OR AM Best",
+            "max": 5,
+        },
+    ]
+
+    def parse_rss_date(s):
+        try:
+            return parsedate_to_datetime(s).strftime("%Y-%m-%dT%H:%M:%SZ")
+        except Exception:
+            return ""
+
+    seen_titles, articles = set(), []
+    for feed in FEEDS:
+        q = urllib.parse.quote(feed["query"])
+        url = f"https://news.google.com/rss/search?q={q}&hl=en-US&gl=US&ceid=US:en"
+        try:
+            xml_text = get(url, timeout=12)
+            root = ET.fromstring(xml_text)
+            count = 0
+            for item in root.findall(".//item"):
+                title = (item.findtext("title") or "").strip()
+                if not title or title in seen_titles:
+                    continue
+                source = ""
+                src_el = item.find("source")
+                if src_el is not None and src_el.text:
+                    source = src_el.text.strip()
+                elif " - " in title:
+                    source = title.rsplit(" - ", 1)[-1]
+                    title  = title.rsplit(" - ", 1)[0].strip()
+                link = (item.findtext("link") or "").strip()
+                pub_date = parse_rss_date(item.findtext("pubDate") or "")
+                seen_titles.add(title)
+                articles.append({
+                    "title":  title,
+                    "url":    link,
+                    "source": source,
+                    "date":   pub_date,
+                    "topic":  feed["topic"],
+                })
+                count += 1
+                if count >= feed["max"]:
+                    break
+            log.info(f"  news '{feed['topic']}': {count} articles")
+        except Exception as e:
+            log.warning(f"  news feed '{feed['topic']}' failed: {e}")
+
+    articles.sort(key=lambda a: a["date"], reverse=True)
+    write("news.json", {"articles": articles, "count": len(articles)})
+    log.info(f"  NEWS OK: {len(articles)} articles total")
+
+
 def main():
     log.info("=" * 50)
     results = {}
@@ -1976,6 +2046,7 @@ def main():
         ("sofr", fetch_sofr),
         ("bma_rates", fetch_bma_rates),
         ("commodities", fetch_commodities),
+        ("news", fetch_news),
     ]:
         try:
             fn()

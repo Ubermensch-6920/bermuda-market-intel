@@ -1,0 +1,70 @@
+{
+  "articles": [
+    {
+      "title": "Fed holds rates steady; Powell signals patience on cuts amid tariff uncertainty",
+      "url": "",
+      "source": "Reuters",
+      "date": "2026-04-30T18:00:00Z",
+      "topic": "Rates & Macro"
+    },
+    {
+      "title": "US Treasury 10Y yield touches 4.40% as growth fears ease",
+      "url": "",
+      "source": "Bloomberg",
+      "date": "2026-04-30T14:20:00Z",
+      "topic": "Rates & Macro"
+    },
+    {
+      "title": "ECB cuts rates 25bp to 2.25%; Lagarde flags global trade risks",
+      "url": "",
+      "source": "FT",
+      "date": "2026-04-29T12:45:00Z",
+      "topic": "Rates & Macro"
+    },
+    {
+      "title": "US IG credit spreads tighten to 85bp as risk appetite returns",
+      "url": "",
+      "source": "Bloomberg",
+      "date": "2026-04-30T10:30:00Z",
+      "topic": "Credit"
+    },
+    {
+      "title": "Private credit AUM hits $2.5T globally; insurance allocations drive growth",
+      "url": "",
+      "source": "Preqin",
+      "date": "2026-04-29T09:00:00Z",
+      "topic": "Credit"
+    },
+    {
+      "title": "CLO issuance surges 40% YoY as leveraged loan demand rebounds",
+      "url": "",
+      "source": "S&P Global",
+      "date": "2026-04-28T11:15:00Z",
+      "topic": "Credit"
+    },
+    {
+      "title": "Bermuda reinsurers report strong Q1 on cat loss discipline and rate adequacy",
+      "url": "",
+      "source": "Insurance Insider",
+      "date": "2026-04-30T08:00:00Z",
+      "topic": "Insurance & Bermuda"
+    },
+    {
+      "title": "BMA proposes enhanced cyber risk framework for Class E insurers",
+      "url": "",
+      "source": "BMA",
+      "date": "2026-04-28T14:00:00Z",
+      "topic": "Insurance & Bermuda"
+    },
+    {
+      "title": "AM Best upgrades outlook for Bermuda market on reserve adequacy",
+      "url": "",
+      "source": "AM Best",
+      "date": "2026-04-27T10:00:00Z",
+      "topic": "Insurance & Bermuda"
+    }
+  ],
+  "count": 9,
+  "note": "Seed data — replaced by live Google News RSS on each pipeline run.",
+  "_fetched": "2026-05-01T05:17:41.072673Z"
+}

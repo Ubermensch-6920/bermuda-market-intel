@@ -484,16 +484,8 @@ const SofrSection = ({ data, loading: ld, error }) => {
 };
 
 // ═══════════════════════════════════════════
-// NEWS & BMA UPDATES (curated)
+// NEWS & BMA UPDATES
 // ═══════════════════════════════════════════
-const NEWS = [
-  { id: 1, title: "UK gilt 10Y hits 5% for first time since 2008", source: "CNBC", date: "2026-03-20T09:30:00Z", topic: "Rates & Macro", summary: "Energy surge + hawkish BOE." },
-  { id: 2, title: "BOJ holds; Takata dissents, calls for 25bp hike", source: "Reuters", date: "2026-03-19T08:00:00Z", topic: "Rates & Macro", summary: "Ueda signals possible rate hike." },
-  { id: 3, title: "Apollo raises $8.2B for insurance private credit", source: "Reuters", date: "2026-03-20T14:30:00Z", topic: "Private Credit", summary: "IG private placements for insurance." },
-  { id: 4, title: "BOE holds at 3.75%; inflation warning from conflict", source: "FT", date: "2026-03-20T10:00:00Z", topic: "Rates & Macro", summary: "Markets price in rate hikes." },
-  { id: 5, title: "Bermuda reinsurer completes $1.5B structured credit deal", source: "Ins. Insider", date: "2026-03-19T16:45:00Z", topic: "Structured Credit", summary: "CLO/ABS to Class E insurer." },
-  { id: 6, title: "NAIC proposes enhanced private credit reporting", source: "AM Best", date: "2026-03-19T14:20:00Z", topic: "Insurance AM", summary: "More transparency on illiquid assets." },
-];
 const BMA_UPDATES = [
   { id: 1, title: "Notice – Pre-Approval for New Insurance Registrations", date: "2026-03-19", cat: "Licensing", summary: "Updated Class D/E requirements.", isNew: true },
   { id: 2, title: "Notice – Regulatory Burden Reduction", date: "2026-02-19", cat: "Governance", summary: "Streamlined reporting.", isNew: true },
@@ -502,10 +494,75 @@ const BMA_UPDATES = [
   { id: 5, title: "CP – Prudent Person Principle", date: "2025-12-15", cat: "Investment", summary: "PPP guidance for NPTA.", isNew: false },
   { id: 6, title: "Class C,D,E Solvency Amendment Rules 2025", date: "2025-12-01", cat: "Capital/Solvency", summary: "New A&L disclosure.", isNew: false },
 ];
-const TC = { "Private Credit": "#8b5cf6", "Rates & Macro": "#4ade80", "Structured Credit": "#fbbf24", "Insurance AM": "#f472b6" };
+const NEWS_TC = { "Rates & Macro": "#4ade80", "Credit": "#8b5cf6", "Insurance & Bermuda": "#f472b6" };
 const CC = { "Capital/Solvency": "#f87171", Investment: "#fbbf24", Governance: "#a78bfa", Licensing: "#4ade80" };
 
-const NewsSection = () => { const topics = [...new Set(NEWS.map(n => n.topic))]; const [sel, setSel] = useState("All"); const filtered = sel === "All" ? NEWS : NEWS.filter(n => n.topic === sel); return (<div style={{ background: "#0d0f14", border: "1px solid #1e2028", borderRadius: 10, overflow: "hidden" }}><div style={{ padding: "16px 22px", borderBottom: "1px solid #1e2028" }}><h3 style={{ margin: "0 0 10px", fontSize: 17, fontWeight: 700, color: "#f1f5f9" }}><Newspaper size={18} style={{ verticalAlign: "middle", marginRight: 8 }} /> News</h3><div style={{ fontSize: 12, color: "#fbbf24", marginBottom: 10 }}><AlertTriangle size={13} style={{ verticalAlign: "middle", marginRight: 4 }} />Curated — live RSS via GitHub Actions (Phase 2).</div><div style={{ display: "flex", gap: 6, flexWrap: "wrap" }}>{["All", ...topics].map(t => <button key={t} onClick={() => setSel(t)} style={{ background: sel === t ? (TC[t] || "#3b82f6") : "transparent", border: `1px solid ${sel === t ? (TC[t] || "#3b82f6") : "#334155"}`, borderRadius: 20, padding: "5px 16px", fontSize: 12, color: sel === t ? "#fff" : "#94a3b8", cursor: "pointer", fontWeight: 600 }}>{t}</button>)}</div></div><div style={{ maxHeight: 500, overflowY: "auto" }}>{filtered.map(item => (<div key={item.id} style={{ padding: "14px 22px", borderBottom: "1px solid #151820" }} onMouseEnter={e => e.currentTarget.style.background = "#12141a"} onMouseLeave={e => e.currentTarget.style.background = "transparent"}><div style={{ display: "flex", gap: 8, alignItems: "center", marginBottom: 5 }}><Badge color={TC[item.topic] || "#60a5fa"}>{item.topic}</Badge><span style={{ fontSize: 12, color: "#64748b" }}>{item.source} • {timeAgo(item.date)}</span></div><h4 style={{ margin: "0 0 4px", fontSize: 14, fontWeight: 600, color: "#f1f5f9", lineHeight: 1.4 }}>{item.title}</h4><p style={{ margin: 0, fontSize: 13, color: "#94a3b8", lineHeight: 1.5 }}>{item.summary}</p></div>))}</div></div>); };
+const NewsSection = ({ data, loading, error }) => {
+  const articles = data?.articles || [];
+  const topics = [...new Set(articles.map(n => n.topic))];
+  const [sel, setSel] = useState("All");
+  const filtered = sel === "All" ? articles : articles.filter(n => n.topic === sel);
+
+  if (loading) return (
+    <div style={{ background: "#0d0f14", border: "1px solid #1e2028", borderRadius: 10, padding: 40, textAlign: "center", color: "#94a3b8" }}>
+      <Loader size={24} style={{ animation: "spin 1s linear infinite", margin: "0 auto 12px", display: "block", color: "#60a5fa" }} />Loading news…
+    </div>
+  );
+  if (error) return (
+    <div style={{ background: "#0d0f14", border: "1px solid #1e2028", borderRadius: 10, padding: 20 }}>
+      <h3 style={{ margin: "0 0 8px", fontSize: 16, fontWeight: 700, color: "#f1f5f9" }}>News</h3>
+      <div style={{ color: "#f87171", fontSize: 13 }}><AlertTriangle size={15} style={{ verticalAlign: "middle", marginRight: 6 }} />{error}</div>
+    </div>
+  );
+
+  return (
+    <div style={{ background: "#0d0f14", border: "1px solid #1e2028", borderRadius: 10, overflow: "hidden" }}>
+      <div style={{ padding: "16px 22px", borderBottom: "1px solid #1e2028" }}>
+        <div style={{ display: "flex", justifyContent: "space-between", alignItems: "flex-start", marginBottom: 10 }}>
+          <h3 style={{ margin: 0, fontSize: 17, fontWeight: 700, color: "#f1f5f9" }}>
+            <Newspaper size={18} style={{ verticalAlign: "middle", marginRight: 8 }} />News
+          </h3>
+          {data?._fetched && <span style={{ fontSize: 11, color: "#475569" }}>Updated {timeAgo(data._fetched)}</span>}
+        </div>
+        <div style={{ display: "flex", gap: 6, flexWrap: "wrap" }}>
+          {["All", ...topics].map(t => (
+            <button key={t} onClick={() => setSel(t)} style={{
+              background: sel === t ? (NEWS_TC[t] || "#3b82f6") + "22" : "transparent",
+              border: `1px solid ${sel === t ? (NEWS_TC[t] || "#3b82f6") : "#334155"}`,
+              borderRadius: 20, padding: "5px 16px", fontSize: 12,
+              color: sel === t ? (NEWS_TC[t] || "#3b82f6") : "#94a3b8",
+              cursor: "pointer", fontWeight: 600
+            }}>{t}</button>
+          ))}
+        </div>
+      </div>
+      <div style={{ maxHeight: 520, overflowY: "auto" }}>
+        {filtered.length === 0
+          ? <div style={{ padding: "32px 22px", textAlign: "center", color: "#64748b", fontSize: 13 }}>
+              No articles yet — run the pipeline to populate news.json.
+            </div>
+          : filtered.map((item, i) => (
+              <a key={i} href={item.url} target="_blank" rel="noopener noreferrer" style={{
+                display: "block", padding: "14px 22px", borderBottom: "1px solid #151820",
+                textDecoration: "none", color: "inherit",
+                transition: "background 0.15s"
+              }}
+              onMouseEnter={e => e.currentTarget.style.background = "#12141a"}
+              onMouseLeave={e => e.currentTarget.style.background = "transparent"}>
+                <div style={{ display: "flex", gap: 8, alignItems: "center", marginBottom: 5 }}>
+                  <Badge color={NEWS_TC[item.topic] || "#60a5fa"}>{item.topic}</Badge>
+                  <span style={{ fontSize: 12, color: "#64748b" }}>{item.source} • {timeAgo(item.date)}</span>
+                  <ExternalLink size={11} style={{ color: "#475569", marginLeft: "auto", flexShrink: 0 }} />
+                </div>
+                <div style={{ fontSize: 14, fontWeight: 600, color: "#f1f5f9", lineHeight: 1.4 }}>{item.title}</div>
+              </a>
+            ))
+        }
+      </div>
+    </div>
+  );
+};
+
 const BMAUpdSection = () => { const cats = [...new Set(BMA_UPDATES.map(u => u.cat))]; const [cf, setCf] = useState("All"); const filtered = cf === "All" ? BMA_UPDATES : BMA_UPDATES.filter(u => u.cat === cf); return (<div style={{ background: "#0d0f14", border: "1px solid #1e2028", borderRadius: 10, overflow: "hidden" }}><div style={{ padding: "16px 22px", borderBottom: "1px solid #1e2028" }}><h3 style={{ margin: "0 0 10px", fontSize: 17, fontWeight: 700, color: "#f1f5f9" }}><Shield size={18} style={{ verticalAlign: "middle", marginRight: 8 }} /> BMA Regulatory Updates</h3><div style={{ display: "flex", gap: 6, flexWrap: "wrap" }}>{["All", ...cats].map(c => <button key={c} onClick={() => setCf(c)} style={{ background: cf === c ? (CC[c] || "#3b82f6") : "transparent", border: `1px solid ${cf === c ? (CC[c] || "#3b82f6") : "#334155"}`, borderRadius: 20, padding: "5px 16px", fontSize: 12, color: cf === c ? "#fff" : "#94a3b8", cursor: "pointer", fontWeight: 500 }}>{c}</button>)}</div></div><div>{filtered.map(item => (<div key={item.id} style={{ padding: "14px 22px", borderBottom: "1px solid #151820" }} onMouseEnter={e => e.currentTarget.style.background = "#12141a"} onMouseLeave={e => e.currentTarget.style.background = "transparent"}><div style={{ display: "flex", gap: 8, alignItems: "center", marginBottom: 5 }}><Badge color={CC[item.cat] || "#60a5fa"}>{item.cat}</Badge>{item.isNew && <Badge color="#4ade80">NEW</Badge>}<span style={{ fontSize: 12, color: "#64748b" }}>{item.date}</span></div><h4 style={{ margin: "0 0 4px", fontSize: 14, fontWeight: 600, color: "#f1f5f9", lineHeight: 1.4 }}>{item.title}</h4><p style={{ margin: 0, fontSize: 13, color: "#94a3b8", lineHeight: 1.5 }}>{item.summary}</p></div>))}</div></div>); };
 
 // ═══════════════════════════════════════════
@@ -740,7 +797,7 @@ const PAGES = [
   { id: "credit", label: "Credit Spreads", icon: Percent },
   { id: "news", label: "News", icon: Newspaper }, { id: "bma", label: "BMA Updates", icon: Shield },
 ];
-const FILES = { ust: "ust.json", jgb: "jgb.json", gilt: "gilt.json", eiopa: "eur.json", india: "india.json", credit: "credit.json", sofr: "sofr.json", bma_rates: "bma_rates.json", commodities: "commodities.json" };
+const FILES = { ust: "ust.json", jgb: "jgb.json", gilt: "gilt.json", eiopa: "eur.json", india: "india.json", credit: "credit.json", sofr: "sofr.json", bma_rates: "bma_rates.json", commodities: "commodities.json", news: "news.json" };
 
 export default function App() {
   const [page, setPage] = useState("home");
@@ -793,7 +850,7 @@ export default function App() {
       case "commodities": return <CommoditiesSection data={data.commodities} loading={ls.commodities} error={errs.commodities} />;
       case "sofr": return <SofrSection data={data.sofr} loading={ls.sofr} error={errs.sofr} />;
       case "credit": return <CreditSection data={data.credit} loading={ls.credit} error={errs.credit} />;
-      case "news": return <NewsSection />; case "bma": return <BMAUpdSection />;
+      case "news": return <NewsSection data={data.news} loading={ls.news} error={errs.news} />; case "bma": return <BMAUpdSection />;
       default: return (<div style={{ display: "flex", flexDirection: "column", gap: 20 }}>
         {noData && <div style={{ background: "#1a1206", border: "1px solid #854d0e", borderRadius: 10, padding: "18px 22px" }}>
           <div style={{ color: "#fbbf24", fontWeight: 700, fontSize: 15, marginBottom: 6 }}>No data files found</div>
@@ -850,7 +907,20 @@ export default function App() {
         <div style={{ display: "grid", gridTemplateColumns: "1fr 1fr", gap: 14 }}>
           <div style={{ background: "#0d0f14", border: "1px solid #1e2028", borderRadius: 10, overflow: "hidden" }}>
             <div style={{ padding: "14px 22px", borderBottom: "1px solid #1e2028", display: "flex", justifyContent: "space-between", alignItems: "center" }}><h3 style={{ margin: 0, fontSize: 14, fontWeight: 700, color: "#f1f5f9" }}><Newspaper size={15} style={{ verticalAlign: "middle", marginRight: 6 }} /> News</h3><button onClick={() => setPage("news")} style={{ background: "transparent", border: "none", color: "#60a5fa", fontSize: 12, cursor: "pointer", fontWeight: 600 }}>All <ChevronRight size={13} style={{ verticalAlign: "middle" }} /></button></div>
-            {NEWS.slice(0, 4).map(item => <div key={item.id} style={{ padding: "10px 22px", borderBottom: "1px solid #151820" }}><div style={{ display: "flex", gap: 6, alignItems: "center", marginBottom: 3 }}><Badge>{item.topic}</Badge><span style={{ fontSize: 11, color: "#64748b" }}>{timeAgo(item.date)}</span></div><div style={{ fontSize: 13, fontWeight: 600, color: "#f1f5f9", lineHeight: 1.4 }}>{item.title}</div></div>)}
+            {ls.news
+              ? <div style={{ padding: "16px 22px", color: "#64748b", fontSize: 13 }}><Loader size={14} style={{ verticalAlign: "middle", marginRight: 6, animation: "spin 1s linear infinite", color: "#60a5fa" }} />Loading…</div>
+              : (data.news?.articles || []).slice(0, 4).map((item, i) => (
+                  <a key={i} href={item.url} target="_blank" rel="noopener noreferrer" style={{ display: "block", padding: "10px 22px", borderBottom: "1px solid #151820", textDecoration: "none", color: "inherit" }}
+                    onMouseEnter={e => e.currentTarget.style.background = "#12141a"}
+                    onMouseLeave={e => e.currentTarget.style.background = "transparent"}>
+                    <div style={{ display: "flex", gap: 6, alignItems: "center", marginBottom: 3 }}>
+                      <Badge color={NEWS_TC[item.topic] || "#60a5fa"}>{item.topic}</Badge>
+                      <span style={{ fontSize: 11, color: "#64748b" }}>{item.source} • {timeAgo(item.date)}</span>
+                    </div>
+                    <div style={{ fontSize: 13, fontWeight: 600, color: "#f1f5f9", lineHeight: 1.4 }}>{item.title}</div>
+                  </a>
+                ))
+            }
           </div>
           <div style={{ background: "#0d0f14", border: "1px solid #1e2028", borderRadius: 10, overflow: "hidden" }}>
             <div style={{ padding: "14px 22px", borderBottom: "1px solid #1e2028", display: "flex", justifyContent: "space-between", alignItems: "center" }}><h3 style={{ margin: 0, fontSize: 14, fontWeight: 700, color: "#f1f5f9" }}><Shield size={15} style={{ verticalAlign: "middle", marginRight: 6 }} /> BMA</h3><button onClick={() => setPage("bma")} style={{ background: "transparent", border: "none", color: "#60a5fa", fontSize: 12, cursor: "pointer", fontWeight: 600 }}>All <ChevronRight size={13} style={{ verticalAlign: "middle" }} /></button></div>
