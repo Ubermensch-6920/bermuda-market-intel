@@ -2,7 +2,7 @@
   "date": "2026-05-01",
   "source": "FRED / TradingEconomics / Investing / Yahoo Finance",
   "gold": {
-    "spot": 4623.22,
+    "spot": 4609.21,
     "spot_date": "",
     "spot_source": "TradingEconomics",
     "unit": "USD/troy oz",
@@ -16,7 +16,7 @@
     "prior_1y_date": "2025-05-01",
     "futures": {
       "3M": {
-        "price": 4666.3,
+        "price": 4653.6,
         "expiry": "Aug 2026",
         "contract": "GCQ26",
         "prior_1m": 4849.8,
@@ -62,7 +62,7 @@
     }
   },
   "wti": {
-    "spot": 105.43,
+    "spot": 104.93,
     "spot_date": "",
     "spot_source": "TradingEconomics",
     "unit": "USD/barrel",
@@ -76,7 +76,7 @@
     "prior_1y_date": "2025-05-01",
     "futures": {
       "3M": {
-        "price": 94.47,
+        "price": 94.11,
         "expiry": "Aug 2026",
         "contract": "CLQ26",
         "prior_1m": 84.21,
@@ -87,7 +87,7 @@
         "prior_3m_contract": "CLJ26"
       },
       "6M": {
-        "price": 83.25,
+        "price": 82.87,
         "expiry": "Nov 2026",
         "contract": "CLX26",
         "prior_1m": 73.85,
@@ -122,11 +122,11 @@
     }
   },
   "brent": {
-    "spot": 111.34,
+    "spot": 110.82,
     "spot_date": "",
     "spot_source": "TradingEconomics",
     "unit": "USD/barrel",
-    "prior_1d": 111.35,
+    "prior_1d": 111.06,
     "prior_1d_date": "2026-05-01",
     "prior_1m": 101.16,
     "prior_1m_date": "2026-04-01",
@@ -136,7 +136,7 @@
     "prior_1y_date": "2025-05-01",
     "futures": {
       "3M": {
-        "price": 104.5,
+        "price": 104.2,
         "expiry": "Aug 2026",
         "contract": "BZQ26",
         "prior_1m": 93.5,
@@ -185,15 +185,15 @@
     "spot": 85.4325,
     "spot_date": "2026-04-30",
     "unit": "INR per USD",
-    "prior_1d": 85.395,
-    "prior_1d_date": "2026-04-29",
-    "prior_1m": 84.705,
-    "prior_1m_date": "2026-04-01",
-    "prior_3m": 84.21,
-    "prior_3m_date": "2026-01-30",
-    "prior_1y": 83.54,
-    "prior_1y_date": "2025-04-30"
+    "prior_1d": null,
+    "prior_1d_date": null,
+    "prior_1m": null,
+    "prior_1m_date": null,
+    "prior_3m": null,
+    "prior_3m_date": null,
+    "prior_1y": null,
+    "prior_1y_date": null
   },
   "note": "Spot history comes from daily FRED series. Futures history is roll-aware by target date. USD/INR from FRED DEXINUS.",
-  "_fetched": "2026-05-01T04:22:02.876485Z"
+  "_fetched": "2026-05-01T05:13:29.843548Z"
 }
