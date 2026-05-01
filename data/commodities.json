@@ -181,6 +181,19 @@
       }
     }
   },
-  "note": "Spot history comes from daily FRED series. Futures history is roll-aware by target date.",
+  "usdinr": {
+    "spot": 85.4325,
+    "spot_date": "2026-04-30",
+    "unit": "INR per USD",
+    "prior_1d": 85.395,
+    "prior_1d_date": "2026-04-29",
+    "prior_1m": 84.705,
+    "prior_1m_date": "2026-04-01",
+    "prior_3m": 84.21,
+    "prior_3m_date": "2026-01-30",
+    "prior_1y": 83.54,
+    "prior_1y_date": "2025-04-30"
+  },
+  "note": "Spot history comes from daily FRED series. Futures history is roll-aware by target date. USD/INR from FRED DEXINUS.",
   "_fetched": "2026-05-01T04:22:02.876485Z"
 }

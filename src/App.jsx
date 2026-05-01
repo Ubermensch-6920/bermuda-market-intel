@@ -77,6 +77,9 @@ const MetricCard = ({ label, value, change, loading: ld }) => {
 // SOVEREIGN YIELD SECTION (chart + table + year-ago row)
 // ═══════════════════════════════════════════
 
+// Common x-axis for all sovereign rate charts — enables direct visual comparison across views
+const STANDARD_TENORS = ["1Y", "2Y", "3Y", "5Y", "7Y", "10Y", "15Y", "20Y", "30Y"];
+
 const SovSection = ({ data, title, accentColor, loading: ld, error }) => {
   if (ld) return <div style={{ background: "#0d0f14", border: "1px solid #1e2028", borderRadius: 10, padding: 40, textAlign: "center", color: "#94a3b8" }}><Loader size={24} style={{ animation: "spin 1s linear infinite", margin: "0 auto 12px", display: "block", color: "#60a5fa" }} />Loading {title}…</div>;
   if (error) return <div style={{ background: "#0d0f14", border: "1px solid #1e2028", borderRadius: 10, padding: 20 }}><h3 style={{ margin: "0 0 8px", fontSize: 16, fontWeight: 700, color: "#f1f5f9" }}>{title}</h3><div style={{ color: "#f87171", fontSize: 13 }}><AlertTriangle size={15} style={{ verticalAlign: "middle", marginRight: 6 }} />{error}</div></div>;
@@ -87,6 +90,23 @@ const SovSection = ({ data, title, accentColor, loading: ld, error }) => {
   const has1m = data.prior_1m_yields?.some(v => v != null);
   const has3m = data.prior_3m_yields?.some(v => v != null);
 
+  // Build per-tenor lookups for the chart (standardized x-axis across all rate views)
+  const yByT = {}, pByT = {}, p1mByT = {}, p3mByT = {}, yaByT = {};
+  data.tenors.forEach((t, i) => {
+    yByT[t] = data.yields[i];
+    pByT[t] = data.prior_yields?.[i];
+    p1mByT[t] = data.prior_1m_yields?.[i];
+    p3mByT[t] = data.prior_3m_yields?.[i];
+    yaByT[t] = data.year_ago_yields?.[i];
+  });
+  const chartData = STANDARD_TENORS.map(t => ({
+    tenor: t,
+    current: yByT[t] ?? null,
+    prior: pByT[t] ?? null,
+    yearAgo: yaByT[t] ?? null,
+  }));
+
+  // Table uses all tenors available in the dataset (including short-end for UST)
   const curveData = data.tenors.map((t, i) => ({
     tenor: t, current: data.yields[i], prior: data.prior_yields?.[i],
     prior1m: data.prior_1m_yields?.[i], prior3m: data.prior_3m_yields?.[i],
@@ -104,10 +124,10 @@ const SovSection = ({ data, title, accentColor, loading: ld, error }) => {
       {data.note && <div style={{ fontSize: 11, color: "#f59e0b", marginTop: 5 }}>{data.note}</div>}
     </div>
 
-    {/* Chart */}
+    {/* Chart — uses STANDARD_TENORS for a consistent x-axis across all rate views */}
     <div style={{ padding: "14px 14px 6px" }}>
       <ResponsiveContainer width="100%" height={230}>
-        <AreaChart data={curveData}>
+        <AreaChart data={chartData}>
           <defs><linearGradient id={`g${accentColor.slice(1)}`} x1="0" y1="0" x2="0" y2="1"><stop offset="5%" stopColor={accentColor} stopOpacity={0.3} /><stop offset="95%" stopColor={accentColor} stopOpacity={0} /></linearGradient></defs>
           <CartesianGrid strokeDasharray="3 3" stroke="#1e2028" />
           <XAxis dataKey="tenor" tick={{ fill: "#94a3b8", fontSize: 12, fontWeight: 500 }} axisLine={{ stroke: "#1e2028" }} tickLine={false} />
@@ -492,9 +512,10 @@ const BMAUpdSection = () => { const cats = [...new Set(BMA_UPDATES.map(u => u.ca
 // COMMODITIES SECTION
 // ═══════════════════════════════════════════
 const COMMODITY_CONFIGS = {
-  gold:  { label: "Gold",       color: "#f59e0b", unit: "USD/troy oz", symbol: "Au" },
-  wti:   { label: "WTI Crude",  color: "#64748b", unit: "USD/barrel",  symbol: "WTI" },
-  brent: { label: "Brent Crude",color: "#0ea5e9", unit: "USD/barrel",  symbol: "Brent" },
+  gold:   { label: "Gold",       color: "#f59e0b", unit: "USD/troy oz", symbol: "Au" },
+  wti:    { label: "WTI Crude",  color: "#64748b", unit: "USD/barrel",  symbol: "WTI" },
+  brent:  { label: "Brent Crude",color: "#0ea5e9", unit: "USD/barrel",  symbol: "Brent" },
+  usdinr: { label: "USD/INR",    color: "#a78bfa", unit: "INR per USD", symbol: "₹",  isFX: true },
 };
 
 const fmtUSD = (v, decimals = 2) => v != null ? `$${v.toLocaleString("en-US", { minimumFractionDigits: decimals, maximumFractionDigits: decimals })}` : "—";
@@ -516,6 +537,12 @@ const CommoditiesSection = ({ data, loading, error }) => {
   const cfg = COMMODITY_CONFIGS[sel];
   const cd = data[sel] || {};
   const { spot, spot_date, unit, prior_1d, prior_1d_date, prior_1m, prior_1m_date, prior_3m, prior_3m_date, prior_1y, prior_1y_date, futures } = cd;
+
+  // FX rates (USD/INR) use 4dp number formatting; commodities use USD currency formatting
+  const fmtSpotVal = v => cfg.isFX ? (v != null ? v.toFixed(4) : "—") : fmtUSD(v);
+  const fmtChgVal = v => cfg.isFX
+    ? (v != null ? (v >= 0 ? "+" : "") + v.toFixed(4) : "—")
+    : (v != null ? (v >= 0 ? "+" : "") + fmtUSD(v) : "—");
 
   const chg1d  = chgUSD(spot, prior_1d);
   const chg1m = chgUSD(spot, prior_1m);
@@ -591,7 +618,7 @@ const CommoditiesSection = ({ data, loading, error }) => {
               {cfg.label} Spot — {unit}
             </div>
             <div style={{ fontSize: 36, fontWeight: 800, color: cfg.color, fontFamily: "monospace", letterSpacing: "-0.02em" }}>
-              {fmtUSD(spot)}
+              {fmtSpotVal(spot)}
             </div>
             <div style={{ fontSize: 12, color: "#64748b", marginTop: 4 }}>{spot_date || "—"}</div>
           </div>
@@ -605,7 +632,7 @@ const CommoditiesSection = ({ data, loading, error }) => {
               <div key={label} style={{ textAlign: "center", minWidth: 90 }}>
                 <div style={{ fontSize: 11, color: "#64748b", marginBottom: 4, fontWeight: 600 }}>{label}</div>
                 <div style={{ fontSize: 16, fontWeight: 700, color: commChgCol(chg), fontFamily: "monospace" }}>
-                  {chg != null ? (chg >= 0 ? "+" : "") + fmtUSD(chg) : "—"}
+                  {fmtChgVal(chg)}
                 </div>
                 <div style={{ fontSize: 12, color: commChgCol(pct), fontFamily: "monospace" }}>{fmtPct(pct)}</div>
                 {date && <div style={{ fontSize: 10, color: "#475569", marginTop: 2 }}>{date}</div>}
