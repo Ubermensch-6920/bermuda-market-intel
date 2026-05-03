@@ -12,8 +12,8 @@
     "prior_1m_date": "2026-04-02",
     "prior_3m": 4622.5,
     "prior_3m_date": "2026-02-02",
-    "prior_1y": 3231.9,
-    "prior_1y_date": "2025-05-02",
+    "prior_1y": 3311.3,
+    "prior_1y_date": "2025-05-05",
     "futures": {
       "3M": {
         "price": 4679.9,
@@ -72,8 +72,8 @@
     "prior_1m_date": "2026-04-02",
     "prior_3m": 62.14,
     "prior_3m_date": "2026-02-02",
-    "prior_1y": 58.29,
-    "prior_1y_date": "2025-05-02",
+    "prior_1y": 57.13,
+    "prior_1y_date": "2025-05-05",
     "futures": {
       "3M": {
         "price": 91.56,
@@ -132,8 +132,8 @@
     "prior_1m_date": "2026-04-02",
     "prior_3m": 66.3,
     "prior_3m_date": "2026-02-02",
-    "prior_1y": 61.29,
-    "prior_1y_date": "2025-05-02",
+    "prior_1y": 60.23,
+    "prior_1y_date": "2025-05-05",
     "futures": {
       "3M": {
         "price": 101.91,
@@ -195,5 +195,5 @@
     "prior_1y_date": null
   },
   "note": "Spot history comes from daily FRED series. Futures history is roll-aware by target date. USD/INR from FRED DEXINUS.",
-  "_fetched": "2026-05-03T13:53:34.672098Z"
+  "_fetched": "2026-05-03T16:04:43.998175Z"
 }
