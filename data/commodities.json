@@ -122,7 +122,7 @@
     }
   },
   "brent": {
-    "spot": 101.32,
+    "spot": 101.73,
     "spot_date": "",
     "spot_source": "TradingEconomics",
     "unit": "USD/barrel",
@@ -195,5 +195,5 @@
     "prior_1y_date": null
   },
   "note": "Spot history comes from daily FRED series. Futures history is roll-aware by target date. USD/INR from FRED DEXINUS.",
-  "_fetched": "2026-05-09T10:20:16.353920Z"
+  "_fetched": "2026-05-09T13:56:48.039559Z"
 }
