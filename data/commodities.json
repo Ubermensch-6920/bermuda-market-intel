@@ -2,7 +2,7 @@
   "date": "2026-05-09",
   "source": "FRED / TradingEconomics / Investing / Yahoo Finance",
   "gold": {
-    "spot": 4706.36,
+    "spot": 4715.85,
     "spot_date": "",
     "spot_source": "TradingEconomics",
     "unit": "USD/troy oz",
@@ -10,8 +10,8 @@
     "prior_1d_date": "2026-05-08",
     "prior_1m": 4761.9,
     "prior_1m_date": "2026-04-10",
-    "prior_3m": 4951.2,
-    "prior_3m_date": "2026-02-06",
+    "prior_3m": 5050.9,
+    "prior_3m_date": "2026-02-09",
     "prior_1y": 3335.4,
     "prior_1y_date": "2025-05-09",
     "futures": {
@@ -22,8 +22,8 @@
         "prior_1m": 4824.6,
         "prior_1m_date": "2026-04-10",
         "prior_1m_contract": "GCQ26",
-        "prior_3m": 5017.0,
-        "prior_3m_date": "2026-02-06",
+        "prior_3m": 5117.8,
+        "prior_3m_date": "2026-02-09",
         "prior_3m_contract": "GCM26"
       },
       "6M": {
@@ -33,8 +33,8 @@
         "prior_1m": 4859.9,
         "prior_1m_date": "2026-04-10",
         "prior_1m_contract": "GCV26",
-        "prior_3m": 5054.3,
-        "prior_3m_date": "2026-02-06",
+        "prior_3m": 5156.1,
+        "prior_3m_date": "2026-02-09",
         "prior_3m_contract": "GCQ26"
       },
       "12M": {
@@ -44,8 +44,8 @@
         "prior_1m": 4966.4,
         "prior_1m_date": "2026-04-10",
         "prior_1m_contract": "GCJ27",
-        "prior_3m": 5152.4,
-        "prior_3m_date": "2026-02-06",
+        "prior_3m": 5255.2,
+        "prior_3m_date": "2026-02-09",
         "prior_3m_contract": "GCG27"
       },
       "24M": {
@@ -55,14 +55,14 @@
         "prior_1m": 5170.0,
         "prior_1m_date": "2026-04-10",
         "prior_1m_contract": "GCJ28",
-        "prior_3m": 5327.3,
-        "prior_3m_date": "2026-02-06",
+        "prior_3m": 5431.0,
+        "prior_3m_date": "2026-02-09",
         "prior_3m_contract": "GCG28"
       }
     }
   },
   "wti": {
-    "spot": 95.92,
+    "spot": 95.42,
     "spot_date": "",
     "spot_source": "TradingEconomics",
     "unit": "USD/barrel",
@@ -70,8 +70,8 @@
     "prior_1d_date": "2026-05-08",
     "prior_1m": 96.57,
     "prior_1m_date": "2026-04-10",
-    "prior_3m": 63.55,
-    "prior_3m_date": "2026-02-06",
+    "prior_3m": 64.36,
+    "prior_3m_date": "2026-02-09",
     "prior_1y": 61.02,
     "prior_1y_date": "2025-05-09",
     "futures": {
@@ -93,8 +93,8 @@
         "prior_1m": 77.3,
         "prior_1m_date": "2026-04-10",
         "prior_1m_contract": "CLV26",
-        "prior_3m": 62.36,
-        "prior_3m_date": "2026-02-06",
+        "prior_3m": 63.26,
+        "prior_3m_date": "2026-02-09",
         "prior_3m_contract": "CLQ26"
       },
       "12M": {
@@ -104,8 +104,8 @@
         "prior_1m": 72.87,
         "prior_1m_date": "2026-04-10",
         "prior_1m_contract": "CLJ27",
-        "prior_3m": 60.99,
-        "prior_3m_date": "2026-02-06",
+        "prior_3m": 61.73,
+        "prior_3m_date": "2026-02-09",
         "prior_3m_contract": "CLG27"
       },
       "24M": {
@@ -115,14 +115,14 @@
         "prior_1m": 69.34,
         "prior_1m_date": "2026-04-10",
         "prior_1m_contract": "CLJ28",
-        "prior_3m": 60.92,
-        "prior_3m_date": "2026-02-06",
+        "prior_3m": 61.39,
+        "prior_3m_date": "2026-02-09",
         "prior_3m_contract": "CLG28"
       }
     }
   },
   "brent": {
-    "spot": 101.32,
+    "spot": 100.49,
     "spot_date": "",
     "spot_source": "TradingEconomics",
     "unit": "USD/barrel",
@@ -130,8 +130,8 @@
     "prior_1d_date": "2026-05-08",
     "prior_1m": 95.2,
     "prior_1m_date": "2026-04-10",
-    "prior_3m": 68.05,
-    "prior_3m_date": "2026-02-06",
+    "prior_3m": 69.04,
+    "prior_3m_date": "2026-02-09",
     "prior_1y": 63.91,
     "prior_1y_date": "2025-05-09",
     "futures": {
@@ -153,8 +153,8 @@
         "prior_1m": 83.13,
         "prior_1m_date": "2026-04-10",
         "prior_1m_contract": "BZV26",
-        "prior_3m": 66.26,
-        "prior_3m_date": "2026-02-06",
+        "prior_3m": 67.17,
+        "prior_3m_date": "2026-02-09",
         "prior_3m_contract": "BZQ26"
       },
       "12M": {
@@ -164,8 +164,8 @@
         "prior_1m": 78.15,
         "prior_1m_date": "2026-04-10",
         "prior_1m_contract": "BZJ27",
-        "prior_3m": 64.95,
-        "prior_3m_date": "2026-02-06",
+        "prior_3m": 65.7,
+        "prior_3m_date": "2026-02-09",
         "prior_3m_contract": "BZG27"
       },
       "24M": {
@@ -175,8 +175,8 @@
         "prior_1m": null,
         "prior_1m_date": "",
         "prior_1m_contract": "BZJ28",
-        "prior_3m": 64.91,
-        "prior_3m_date": "2026-02-06",
+        "prior_3m": 65.4,
+        "prior_3m_date": "2026-02-09",
         "prior_3m_contract": "BZG28"
       }
     }
@@ -195,5 +195,5 @@
     "prior_1y_date": null
   },
   "note": "Spot history comes from daily FRED series. Futures history is roll-aware by target date. USD/INR from FRED DEXINUS.",
-  "_fetched": "2026-05-09T16:12:07.209639Z"
+  "_fetched": "2026-05-09T19:37:24.045389Z"
 }
