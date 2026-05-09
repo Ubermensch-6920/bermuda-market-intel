@@ -1,5 +1,5 @@
 {
-  "date": "2026-05-08",
+  "date": "2026-05-09",
   "source": "FRED / TradingEconomics / Investing / Yahoo Finance",
   "gold": {
     "spot": 4706.36,
@@ -38,7 +38,7 @@
         "prior_3m_contract": "GCQ26"
       },
       "12M": {
-        "price": 4922.1,
+        "price": 4941.5,
         "expiry": "Jun 2027",
         "contract": "GCM27",
         "prior_1m": 4999.8,
@@ -49,7 +49,7 @@
         "prior_3m_contract": "GCG27"
       },
       "24M": {
-        "price": 5129.0,
+        "price": 5148.5,
         "expiry": "Jun 2028",
         "contract": "GCM28",
         "prior_1m": 5204.3,
@@ -109,7 +109,7 @@
         "prior_3m_contract": "CLG27"
       },
       "24M": {
-        "price": 69.79,
+        "price": 71.35,
         "expiry": "May 2028",
         "contract": "CLK28",
         "prior_1m": 68.64,
@@ -122,7 +122,7 @@
     }
   },
   "brent": {
-    "spot": 101.73,
+    "spot": 101.32,
     "spot_date": "",
     "spot_source": "TradingEconomics",
     "unit": "USD/barrel",
@@ -158,7 +158,7 @@
         "prior_3m_contract": "BZQ26"
       },
       "12M": {
-        "price": 79.05,
+        "price": 80.93,
         "expiry": "May 2027",
         "contract": "BZK27",
         "prior_1m": 77.2,
@@ -195,5 +195,5 @@
     "prior_1y_date": null
   },
   "note": "Spot history comes from daily FRED series. Futures history is roll-aware by target date. USD/INR from FRED DEXINUS.",
-  "_fetched": "2026-05-08T22:15:20.095800Z"
+  "_fetched": "2026-05-09T03:59:47.723500Z"
 }
