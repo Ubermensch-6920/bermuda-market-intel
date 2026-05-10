@@ -195,5 +195,5 @@
     "prior_1y_date": null
   },
   "note": "Spot history comes from daily FRED series. Futures history is roll-aware by target date. USD/INR from FRED DEXINUS.",
-  "_fetched": "2026-05-10T21:06:41.951356Z"
+  "_fetched": "2026-05-10T22:09:11.802822Z"
 }
