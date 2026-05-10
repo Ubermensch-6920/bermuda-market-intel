@@ -1,13 +1,14 @@
 #!/usr/bin/env python3
 """Fast, bounded credit-spread refresh for Bermuda Market Intel.
 
-This script intentionally stays separate from fetch_all.py for now. It runs after the
-main pipeline, overwrites data/credit.json with the latest available ICE BofA OAS
-series from FRED, and patches data/manifest.json with an honest credit status.
+This script intentionally stays separate from fetch_all.py. It runs after the
+main pipeline, overwrites data/credit.json with the latest available ICE BofA
+OAS series, and patches data/manifest.json with an honest credit status.
 
 Runtime design:
-- One bulk FRED graph CSV call over a short recent window.
-- Bounded parallel fallback calls only for missing series.
+- One bulk FRED CSV call over a short recent window.
+- Bounded parallel per-series CSV fallback for missing series.
+- Bounded parallel per-series FRED graph API fallback if CSV is blocked/empty.
 - Cache fallback if FRED is unavailable.
 - No long retry chains, no scraping, no external packages.
 """
@@ -17,7 +18,7 @@ import io
 import json
 import logging
 import re
-import time
+import urllib.parse
 import urllib.request
 from collections import Counter
 from concurrent.futures import ThreadPoolExecutor, as_completed
@@ -33,7 +34,7 @@ DATA.mkdir(exist_ok=True)
 HDR = {
     "User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 "
                   "(KHTML, like Gecko) Chrome/124.0.0.0 Safari/537.36",
-    "Accept": "text/csv,text/plain,*/*",
+    "Accept": "text/csv,application/json,text/plain,*/*",
     "Accept-Language": "en-US,en;q=0.9",
 }
 
@@ -52,9 +53,9 @@ SERIES = {
 }
 
 MAX_FRESH_AGE_DAYS = 7
-RECENT_WINDOW_DAYS = 45
-REQUEST_TIMEOUT_SECONDS = 7
-FALLBACK_TIMEOUT_SECONDS = 5
+RECENT_WINDOW_DAYS = 90
+REQUEST_TIMEOUT_SECONDS = 8
+FALLBACK_TIMEOUT_SECONDS = 6
 FALLBACK_WORKERS = 6
 
 
@@ -64,6 +65,10 @@ def utc_now():
 
 def iso_now():
     return utc_now().isoformat() + "Z"
+
+
+def recent_start():
+    return (utc_now() - timedelta(days=RECENT_WINDOW_DAYS)).strftime("%Y-%m-%d")
 
 
 def get(url, timeout):
@@ -87,17 +92,25 @@ def write_json(path, obj):
     log.info("wrote %s", path.name)
 
 
-def parse_fred_csv(raw, expected_series):
-    """Parse FRED graph/download CSV into {series_id: [{date, value}]}.
+def valid_bp(v):
+    try:
+        bp = round(float(v) * 100)
+        return bp if 0 < bp < 5000 else None
+    except Exception:
+        return None
 
-    Works for both multi-series graph CSV and single-series download CSV.
+
+def parse_fred_csv(raw, expected_series):
+    """Parse FRED CSV into {series_id: [{date, value_bp}]}.
+
+    Handles both multi-series graph CSV and single-series download CSV.
     """
     out = {sid: [] for sid in expected_series}
     rows = list(csv.reader(io.StringIO(raw)))
     if len(rows) < 2:
         return out
 
-    header = [h.strip().strip('"') for h in rows[0]]
+    header = [h.strip().strip('"').lstrip("\ufeff") for h in rows[0]]
     expected_upper = {sid.upper(): sid for sid in expected_series}
 
     col_map = {}
@@ -108,7 +121,7 @@ def parse_fred_csv(raw, expected_series):
         if sid:
             col_map[i] = sid
 
-    # Single-series download endpoint often has DATE,VALUE rather than DATE,SERIES_ID.
+    # Single-series download endpoint can use DATE,VALUE rather than DATE,SERIES_ID.
     if not col_map and len(expected_series) == 1 and len(header) >= 2:
         col_map[1] = expected_series[0]
 
@@ -124,36 +137,140 @@ def parse_fred_csv(raw, expected_series):
             val = parts[ci].strip().strip('"')
             if val in ("", ".", "NA", "N/A"):
                 continue
-            try:
-                # FRED OAS is in percentage points; dashboard stores basis points.
-                bp = round(float(val) * 100)
-                if 0 < bp < 5000:
-                    out[sid].append({"date": date_val, "value": bp})
-            except Exception:
-                pass
+            bp = valid_bp(val)
+            if bp is not None:
+                out[sid].append({"date": date_val, "value": bp})
 
     for sid in out:
         out[sid].sort(key=lambda x: x["date"], reverse=True)
     return out
 
 
+def to_date_string(value):
+    if value is None:
+        return None
+    if isinstance(value, str):
+        s = value.strip()
+        if re.fullmatch(r"\d{4}-\d{2}-\d{2}", s):
+            return s
+        # Some graph endpoints return epoch milliseconds as strings.
+        if re.fullmatch(r"\d{10,13}", s):
+            try:
+                n = int(s)
+                if n > 10_000_000_000:
+                    n = n / 1000
+                return datetime.utcfromtimestamp(n).strftime("%Y-%m-%d")
+            except Exception:
+                return None
+    if isinstance(value, (int, float)):
+        try:
+            n = value / 1000 if value > 10_000_000_000 else value
+            return datetime.utcfromtimestamp(n).strftime("%Y-%m-%d")
+        except Exception:
+            return None
+    return None
+
+
+def collect_json_points(obj):
+    """Recursively collect date/value observations from FRED graph JSON variants."""
+    points = []
+
+    if isinstance(obj, dict):
+        # Common FRED API shape: {date: ..., value: ...}
+        if "date" in obj and "value" in obj:
+            d = to_date_string(obj.get("date"))
+            bp = valid_bp(obj.get("value"))
+            if d and bp is not None:
+                points.append({"date": d, "value": bp})
+
+        # Common graph shape: {x: epoch_ms, y: value} or {0: date, 1: value} nested in data.
+        for dk in ("x", "timestamp", "time"):
+            for vk in ("y", "value"):
+                if dk in obj and vk in obj:
+                    d = to_date_string(obj.get(dk))
+                    bp = valid_bp(obj.get(vk))
+                    if d and bp is not None:
+                        points.append({"date": d, "value": bp})
+
+        for v in obj.values():
+            points.extend(collect_json_points(v))
+
+    elif isinstance(obj, list):
+        # Common FRED graph data shape: [[epoch_ms, value], ...]
+        if len(obj) >= 2:
+            d = to_date_string(obj[0])
+            bp = valid_bp(obj[1])
+            if d and bp is not None:
+                points.append({"date": d, "value": bp})
+        for item in obj:
+            points.extend(collect_json_points(item))
+
+    return points
+
+
+def dedupe_sort(points):
+    by_date = {}
+    for p in points:
+        if p.get("date") and p.get("value") is not None:
+            by_date[p["date"]] = p["value"]
+    out = [{"date": d, "value": v} for d, v in by_date.items()]
+    out.sort(key=lambda x: x["date"], reverse=True)
+    return out
+
+
 def fred_bulk(series_ids):
-    start = (utc_now() - timedelta(days=RECENT_WINDOW_DAYS)).strftime("%Y-%m-%d")
-    joined = ",".join(series_ids)
-    url = f"https://fred.stlouisfed.org/graph/fredgraph.csv?id={joined}&cosd={start}"
+    params = urllib.parse.urlencode({"id": ",".join(series_ids), "cosd": recent_start()})
+    url = f"https://fred.stlouisfed.org/graph/fredgraph.csv?{params}"
     raw = get(url, timeout=REQUEST_TIMEOUT_SECONDS)
     return parse_fred_csv(raw, series_ids)
 
 
+def fred_graph_csv_one(series_id):
+    params = urllib.parse.urlencode({"id": series_id, "cosd": recent_start()})
+    url = f"https://fred.stlouisfed.org/graph/fredgraph.csv?{params}"
+    try:
+        raw = get(url, timeout=FALLBACK_TIMEOUT_SECONDS)
+        return series_id, parse_fred_csv(raw, [series_id]).get(series_id, [])
+    except Exception as exc:
+        log.warning("FRED single CSV failed for %s: %s", series_id, exc)
+        return series_id, []
+
+
 def fred_download_one(series_id):
-    start = (utc_now() - timedelta(days=RECENT_WINDOW_DAYS)).strftime("%Y-%m-%d")
     url = f"https://fred.stlouisfed.org/series/{series_id}/downloaddata/{series_id}.csv"
     try:
         raw = get(url, timeout=FALLBACK_TIMEOUT_SECONDS)
         return series_id, parse_fred_csv(raw, [series_id]).get(series_id, [])
     except Exception as exc:
-        log.warning("FRED fallback failed for %s: %s", series_id, exc)
+        log.warning("FRED download failed for %s: %s", series_id, exc)
         return series_id, []
+
+
+def fred_graph_api_one(series_id):
+    params = urllib.parse.urlencode({"obs": "true", "id": series_id, "cosd": recent_start()})
+    url = f"https://fred.stlouisfed.org/graph/api/series/?{params}"
+    try:
+        raw = get(url, timeout=FALLBACK_TIMEOUT_SECONDS)
+        data = json.loads(raw)
+        return series_id, dedupe_sort(collect_json_points(data))
+    except Exception as exc:
+        log.warning("FRED graph API failed for %s: %s", series_id, exc)
+        return series_id, []
+
+
+def parallel_fill(observations, missing, fetcher, label):
+    if not missing:
+        return observations
+    log.info("Trying %s for %s missing series", label, len(missing))
+    with ThreadPoolExecutor(max_workers=min(FALLBACK_WORKERS, len(missing))) as ex:
+        futures = [ex.submit(fetcher, sid) for sid in missing]
+        for fut in as_completed(futures):
+            sid, rows = fut.result()
+            if rows:
+                observations[sid] = rows
+    got = sum(1 for sid in missing if observations.get(sid))
+    log.info("%s filled %s/%s missing series", label, got, len(missing))
+    return observations
 
 
 def fetch_observations():
@@ -163,19 +280,18 @@ def fetch_observations():
     try:
         observations.update(fred_bulk(series_ids))
         got = sum(1 for sid in series_ids if observations.get(sid))
-        log.info("FRED bulk returned %s/%s series", got, len(series_ids))
+        log.info("FRED bulk CSV returned %s/%s series", got, len(series_ids))
     except Exception as exc:
-        log.warning("FRED bulk failed: %s", exc)
+        log.warning("FRED bulk CSV failed: %s", exc)
 
     missing = [sid for sid in series_ids if not observations.get(sid)]
-    if missing:
-        log.info("Trying bounded parallel fallback for %s missing series", len(missing))
-        with ThreadPoolExecutor(max_workers=FALLBACK_WORKERS) as ex:
-            futures = [ex.submit(fred_download_one, sid) for sid in missing]
-            for fut in as_completed(futures):
-                sid, rows = fut.result()
-                if rows:
-                    observations[sid] = rows
+    observations = parallel_fill(observations, missing, fred_graph_csv_one, "single-series CSV")
+
+    missing = [sid for sid in series_ids if not observations.get(sid)]
+    observations = parallel_fill(observations, missing, fred_download_one, "download CSV")
+
+    missing = [sid for sid in series_ids if not observations.get(sid)]
+    observations = parallel_fill(observations, missing, fred_graph_api_one, "graph API")
 
     return observations
 
@@ -204,7 +320,7 @@ def build_credit_json(observations, last_credit):
 
         if latest:
             row_age = age_days(latest["date"])
-            is_stale = row_age is not None and row_age > MAX_FRESH_AGE_DAYS
+            is_stale = row_age is None or row_age > MAX_FRESH_AGE_DAYS
             source = "fred_stale" if is_stale else "fred"
             if is_stale:
                 stale_count += 1
@@ -237,8 +353,6 @@ def build_credit_json(observations, last_credit):
             }
 
     if fresh_dates:
-        # Use the modal latest date so one delayed rating bucket does not make the whole
-        # file date jump around. Fall back to max date if no clear mode exists.
         date_counts = Counter(fresh_dates)
         modal_date, modal_count = date_counts.most_common(1)[0]
         file_date = modal_date if modal_count >= 2 else max(fresh_dates)
@@ -256,9 +370,9 @@ def build_credit_json(observations, last_credit):
         status = "cached"
 
     note = (
-        "ICE BofA option-adjusted spreads from FRED. Fast bulk CSV fetch over a "
-        "short recent window; missing series use bounded parallel download fallback; "
-        "cache is used only where FRED data is unavailable. Values are basis points."
+        "ICE BofA option-adjusted spreads from FRED. Uses bounded CSV and graph API "
+        "fallbacks over a recent window; cache is used only where FRED data is unavailable. "
+        "Values are basis points."
     )
     if status != "ok":
         note += f" Status={status}: fresh={fresh_count}, stale={stale_count}, cached={cache_count}."
