@@ -108,6 +108,6 @@
       "age_days": null
     }
   },
-  "note": "ICE BofA option-adjusted spreads from FRED. Fast bulk CSV fetch over a short recent window; missing series use bounded parallel download fallback; cache is used only where FRED data is unavailable. Values are basis points. Status=cached: fresh=0, stale=0, cached=9.",
-  "_fetched": "2026-05-10T20:46:00.044889Z"
+  "note": "ICE BofA option-adjusted spreads from FRED. Uses bounded CSV and graph API fallbacks over a recent window; cache is used only where FRED data is unavailable. Values are basis points. Status=cached: fresh=0, stale=0, cached=9.",
+  "_fetched": "2026-05-10T21:07:26.653460Z"
 }
