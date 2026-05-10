@@ -12,8 +12,8 @@
     "prior_1m_date": "2026-04-10",
     "prior_3m": 5050.9,
     "prior_3m_date": "2026-02-09",
-    "prior_1y": 3335.4,
-    "prior_1y_date": "2025-05-09",
+    "prior_1y": 3220.0,
+    "prior_1y_date": "2025-05-12",
     "futures": {
       "3M": {
         "price": 4766.6,
@@ -62,7 +62,7 @@
     }
   },
   "wti": {
-    "spot": 94.68,
+    "spot": 95.42,
     "spot_date": "",
     "spot_source": "TradingEconomics",
     "unit": "USD/barrel",
@@ -72,8 +72,8 @@
     "prior_1m_date": "2026-04-10",
     "prior_3m": 64.36,
     "prior_3m_date": "2026-02-09",
-    "prior_1y": 61.02,
-    "prior_1y_date": "2025-05-09",
+    "prior_1y": 61.95,
+    "prior_1y_date": "2025-05-12",
     "futures": {
       "3M": {
         "price": 88.15,
@@ -132,8 +132,8 @@
     "prior_1m_date": "2026-04-10",
     "prior_3m": 69.04,
     "prior_3m_date": "2026-02-09",
-    "prior_1y": 63.91,
-    "prior_1y_date": "2025-05-09",
+    "prior_1y": 64.96,
+    "prior_1y_date": "2025-05-12",
     "futures": {
       "3M": {
         "price": 97.57,
@@ -195,5 +195,5 @@
     "prior_1y_date": null
   },
   "note": "Spot history comes from daily FRED series. Futures history is roll-aware by target date. USD/INR from FRED DEXINUS.",
-  "_fetched": "2026-05-10T14:00:04.619164Z"
+  "_fetched": "2026-05-10T16:13:53.903047Z"
 }
