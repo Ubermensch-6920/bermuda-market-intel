@@ -2,71 +2,112 @@
   "date": "",
   "source": "FRED / ICE BofA Indices",
   "url": "https://fred.stlouisfed.org/release?rid=209",
+  "status": "cached",
+  "fresh_count": 0,
+  "stale_count": 0,
+  "cache_count": 9,
+  "max_fresh_age_days": 7,
   "spreads": {
     "ig": {
       "name": "US IG",
       "spread": 88,
       "prior": 88,
       "bucket": "IG",
-      "source": "cache"
+      "source": "cache",
+      "series_id": "BAMLC0A0CM",
+      "date": "",
+      "prior_date": "",
+      "age_days": null
     },
     "aaa": {
       "name": "US AAA",
       "spread": 39,
       "prior": 41,
       "bucket": "AAA",
-      "source": "cache"
+      "source": "cache",
+      "series_id": "BAMLC0A1CAAA",
+      "date": "",
+      "prior_date": "",
+      "age_days": null
     },
     "aa": {
       "name": "US AA",
       "spread": 54,
       "prior": 55,
       "bucket": "AA",
-      "source": "cache"
+      "source": "cache",
+      "series_id": "BAMLC0A2CAA",
+      "date": "",
+      "prior_date": "",
+      "age_days": null
     },
     "a": {
       "name": "US A",
       "spread": 73,
       "prior": 73,
       "bucket": "A",
-      "source": "cache"
+      "source": "cache",
+      "series_id": "BAMLC0A3CA",
+      "date": "",
+      "prior_date": "",
+      "age_days": null
     },
     "bbb": {
       "name": "US BBB",
       "spread": 111,
       "prior": 111,
       "bucket": "BBB",
-      "source": "cache"
+      "source": "cache",
+      "series_id": "BAMLC0A4CBBB",
+      "date": "",
+      "prior_date": "",
+      "age_days": null
     },
     "hy": {
       "name": "US HY",
       "spread": 319,
       "prior": 324,
       "bucket": "HY",
-      "source": "cache"
+      "source": "cache",
+      "series_id": "BAMLH0A0HYM2",
+      "date": "",
+      "prior_date": "",
+      "age_days": null
     },
     "bb": {
       "name": "US BB",
       "spread": 197,
       "prior": 200,
       "bucket": "BB",
-      "source": "cache"
+      "source": "cache",
+      "series_id": "BAMLH0A1HYBB",
+      "date": "",
+      "prior_date": "",
+      "age_days": null
     },
     "b": {
       "name": "US B",
       "spread": 350,
       "prior": 357,
       "bucket": "B",
-      "source": "cache"
+      "source": "cache",
+      "series_id": "BAMLH0A2HYB",
+      "date": "",
+      "prior_date": "",
+      "age_days": null
     },
     "ccc": {
       "name": "US CCC+",
       "spread": 975,
       "prior": 979,
       "bucket": "CCC",
-      "source": "cache"
+      "source": "cache",
+      "series_id": "BAMLH0A3HYC",
+      "date": "",
+      "prior_date": "",
+      "age_days": null
     }
   },
-  "note": "Single bulk FRED fetch; missing series retried via FRED download endpoint; cache fallback used for unavailable series. Values are option-adjusted spreads in basis points. Some series are from cache.",
-  "_fetched": "2026-05-10T19:34:55.320658Z"
+  "note": "ICE BofA option-adjusted spreads from FRED. Fast bulk CSV fetch over a short recent window; missing series use bounded parallel download fallback; cache is used only where FRED data is unavailable. Values are basis points. Status=cached: fresh=0, stale=0, cached=9.",
+  "_fetched": "2026-05-10T20:46:00.044889Z"
 }
