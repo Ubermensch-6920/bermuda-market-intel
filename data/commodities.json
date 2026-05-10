@@ -62,7 +62,7 @@
     }
   },
   "wti": {
-    "spot": 94.68,
+    "spot": 95.42,
     "spot_date": "",
     "spot_source": "TradingEconomics",
     "unit": "USD/barrel",
@@ -195,5 +195,5 @@
     "prior_1y_date": null
   },
   "note": "Spot history comes from daily FRED series. Futures history is roll-aware by target date. USD/INR from FRED DEXINUS.",
-  "_fetched": "2026-05-10T08:25:46.398255Z"
+  "_fetched": "2026-05-10T10:41:42.706877Z"
 }
