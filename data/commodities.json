@@ -1,12 +1,12 @@
 {
-  "date": "2026-05-09",
+  "date": "2026-05-10",
   "source": "FRED / TradingEconomics / Investing / Yahoo Finance",
   "gold": {
     "spot": 4715.85,
     "spot_date": "",
     "spot_source": "TradingEconomics",
     "unit": "USD/troy oz",
-    "prior_1d": 4720.4,
+    "prior_1d": 4730.7,
     "prior_1d_date": "2026-05-08",
     "prior_1m": 4761.9,
     "prior_1m_date": "2026-04-10",
@@ -195,5 +195,5 @@
     "prior_1y_date": null
   },
   "note": "Spot history comes from daily FRED series. Futures history is roll-aware by target date. USD/INR from FRED DEXINUS.",
-  "_fetched": "2026-05-09T22:06:10.289947Z"
+  "_fetched": "2026-05-10T04:19:45.329690Z"
 }
