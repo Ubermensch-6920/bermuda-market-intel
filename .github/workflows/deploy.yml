@@ -39,6 +39,10 @@ jobs:
         run: python scripts/fetch_all.py
         continue-on-error: true
 
+      - name: Refresh latest credit spreads
+        run: python scripts/fetch_credit_latest.py
+        continue-on-error: true
+
       - name: Commit data if changed
         run: |
           git config user.name "github-actions[bot]"
@@ -51,7 +55,7 @@ jobs:
         with:
           node-version: 20
 
-      - run: npm install
+      - run: npm ci
 
       - name: Copy data into build
         run: mkdir -p public/data && cp data/*.json public/data/ 2>/dev/null || echo "No data yet"
