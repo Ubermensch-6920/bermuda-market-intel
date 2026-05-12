@@ -1,5 +1,5 @@
 {
-  "date": "2026-05-08",
+  "date": "2026-05-11",
   "source": "NY Fed / FRED",
   "url": "https://www.newyorkfed.org/markets/reference-rates/sofr",
   "rates": {
@@ -8,19 +8,13 @@
       "desc": "Secured Overnight Financing Rate",
       "rate": 3.6,
       "prior": 3.6,
-      "date": "2026-05-08",
-      "volume": 3087,
+      "date": "2026-05-11",
+      "volume": 3090,
       "percentile_25": 3.58,
-      "percentile_75": 3.65
+      "percentile_75": 3.64
     }
   },
   "history": [
-    {
-      "date": "2025-04-09",
-      "rate": 4.42,
-      "ust_3m": null,
-      "ust_1y": null
-    },
     {
       "date": "2025-04-10",
       "rate": 4.37,
@@ -1634,6 +1628,12 @@
       "rate": 3.6,
       "ust_3m": null,
       "ust_1y": null
+    },
+    {
+      "date": "2026-05-11",
+      "rate": 3.6,
+      "ust_3m": null,
+      "ust_1y": null
     }
   ],
   "year_ago": {
@@ -1642,5 +1642,5 @@
   },
   "term_rates": {},
   "note": "Published daily by NY Fed at ~8:00 AM ET. Averages are backward-looking compounded. Term SOFR via CME/FRED.",
-  "_fetched": "2026-05-12T11:28:56.977058Z"
+  "_fetched": "2026-05-12T14:52:16.682194Z"
 }
