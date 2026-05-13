@@ -3,13 +3,13 @@
     "ust": "ok",
     "jgb": "ok",
     "gilt": "ok",
-    "eur": "",
+    "eur": "ok",
     "india": "ok",
     "credit": "cached",
     "sofr": "ok",
     "bma_rates": "ok",
     "commodities": "ok"
   },
-  "run": "2026-05-13T15:20:22.778633Z",
-  "_fetched": "2026-05-13T15:21:07.736871Z"
+  "run": "2026-05-13T17:29:51.056529Z",
+  "_fetched": "2026-05-13T17:30:36.052008Z"
 }
