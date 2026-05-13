@@ -367,7 +367,7 @@
       "published": "22 October 2025",
       "published_date": "2025-10-22",
       "url": "https://cdn.bma.bm/documents/2025-10-22-15-18-14-Discount-Rates.-30-September-2025..xlsx",
-      "source_page": "known_fallback"
+      "source_page": "https://www.bma.bm/documents-centre/documents-reporting-forms-and-guidelines/documents-insurance"
     },
     {
       "as_of": "30 June 2025",
@@ -375,7 +375,7 @@
       "published": "18 July 2025",
       "published_date": "2025-07-18",
       "url": "https://cdn.bma.bm/documents/2025-07-18-10-22-07-Discount-Rates.-30-June-2025..xlsx",
-      "source_page": "known_fallback"
+      "source_page": "https://www.bma.bm/documents-centre/documents-reporting-forms-and-guidelines/documents-insurance"
     },
     {
       "as_of": "31 March 2025",
@@ -383,7 +383,7 @@
       "published": "15 April 2025",
       "published_date": "2025-04-15",
       "url": "https://cdn.bma.bm/documents/2025-04-15-14-44-04-Discount-Rates.-31-March-2025..xlsx",
-      "source_page": "known_fallback"
+      "source_page": "https://www.bma.bm/documents-centre/documents-reporting-forms-and-guidelines/documents-insurance"
     },
     {
       "as_of": "31 December 2024",
@@ -768,7 +768,7 @@
       "publication_display": "22 October 2025",
       "quarter": "2025 Q3",
       "url": "https://cdn.bma.bm/documents/2025-10-22-15-18-14-Discount-Rates.-30-September-2025..xlsx",
-      "source_page": "known_fallback",
+      "source_page": "https://www.bma.bm/documents-centre/documents-reporting-forms-and-guidelines/documents-insurance",
       "change_header": "Changes for 2025 Q3",
       "change_note": "No particular change",
       "tenors": [
@@ -1134,7 +1134,7 @@
       "publication_display": "18 July 2025",
       "quarter": "2025 Q2",
       "url": "https://cdn.bma.bm/documents/2025-07-18-10-22-07-Discount-Rates.-30-June-2025..xlsx",
-      "source_page": "known_fallback",
+      "source_page": "https://www.bma.bm/documents-centre/documents-reporting-forms-and-guidelines/documents-insurance",
       "change_header": "Changes for 2025 Q2",
       "change_note": "No particular change",
       "tenors": [
@@ -1500,7 +1500,7 @@
       "publication_display": "15 April 2025",
       "quarter": "2025 Q1",
       "url": "https://cdn.bma.bm/documents/2025-04-15-14-44-04-Discount-Rates.-31-March-2025..xlsx",
-      "source_page": "known_fallback",
+      "source_page": "https://www.bma.bm/documents-centre/documents-reporting-forms-and-guidelines/documents-insurance",
       "change_header": "Changes for 2025 Q1",
       "change_note": "No particular change",
       "tenors": [
@@ -2297,5 +2297,5 @@
     }
   },
   "note": "Latest available BMA discount-rate workbook plus prior three quarter-end workbooks. Current top-level currencies are the latest quarter. For each currency, 'rates' aliases standard_spot_rates for backward compatibility.",
-  "_fetched": "2026-05-13T04:16:25.139650Z"
+  "_fetched": "2026-05-13T09:21:25.844100Z"
 }
