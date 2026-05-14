@@ -15,15 +15,15 @@
     "30Y"
   ],
   "yields": [
-    4.314,
-    4.483,
-    4.521,
-    4.6,
-    4.779,
-    5.055,
-    5.461,
-    5.675,
-    5.729
+    4.278,
+    4.455,
+    4.493,
+    4.568,
+    4.75,
+    5.024,
+    5.432,
+    5.629,
+    5.69
   ],
   "prior_yields": [
     null,
@@ -38,14 +38,14 @@
   ],
   "prior_1m_yields": [
     4.199,
-    4.241,
-    4.263,
-    4.34,
-    4.539,
+    4.238,
+    4.264,
+    4.338,
+    4.535,
     4.763,
     null,
     5.421,
-    5.495
+    5.501
   ],
   "prior_1m_date": "TE month delta reconstruction",
   "prior_3m_yields": [
@@ -62,16 +62,16 @@
   "prior_3m_date": "",
   "year_ago_yields": [
     3.784,
-    3.978,
-    3.987,
-    4.137,
-    4.281,
+    3.975,
+    3.988,
+    4.135,
+    4.277,
     4.666,
     null,
     5.291,
-    5.398
+    5.404
   ],
   "year_ago_date": "TE year delta reconstruction",
   "note": "Official BoE daily archive first; then market scrapes; then local history / cache.",
-  "_fetched": "2026-05-14T08:50:40.824083Z"
+  "_fetched": "2026-05-14T11:22:00.538986Z"
 }
