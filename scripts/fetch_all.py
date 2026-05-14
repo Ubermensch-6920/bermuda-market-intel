@@ -494,6 +494,53 @@ def scrape_commodity_spot(url_path):
         pass
     return None
 
+def scrape_fx_spot(url_path):
+    try:
+        html = get(f"https://www.investing.com{url_path}", timeout=8)
+        for pat in [
+            r'data-test="instrument-price-last"[^>]*>([\d,]+\.?\d*)<',
+            r'class="text-5xl[^"]*"[^>]*>([\d,]+\.?\d*)<',
+            r'class="text-2xl[^"]*"[^>]*>([\d,]+\.?\d*)<',
+            r'"last":\s*([\d.]+)',
+            r'"last_numeric":\s*([\d.]+)',
+        ]:
+            m = re.search(pat, html)
+            if m:
+                v = float(m.group(1).replace(",", ""))
+                if v > 0:
+                    return round(v, 4)
+    except Exception:
+        pass
+    return None
+
+def scrape_usdinr_forwards():
+    """
+    Best-effort parse of USD/INR forward rates from Investing.
+    Returns tenor map like {"3M": 83.12, "6M": 83.45, "12M": 84.01, "24M": 84.92}.
+    """
+    out = {}
+    try:
+        text = _strip_html(get("https://www.investing.com/currencies/usd-inr-forward-rates", timeout=10))
+        # Capture tenor tokens followed by nearby decimal quote values.
+        # We keep this permissive because page markup can change.
+        patterns = {
+            "3M": [r"\b3M\b[^0-9]{0,40}([0-9]{2,3}\.[0-9]{2,4})", r"\b3 Month\b[^0-9]{0,40}([0-9]{2,3}\.[0-9]{2,4})"],
+            "6M": [r"\b6M\b[^0-9]{0,40}([0-9]{2,3}\.[0-9]{2,4})", r"\b6 Month\b[^0-9]{0,40}([0-9]{2,3}\.[0-9]{2,4})"],
+            "12M": [r"\b1Y\b[^0-9]{0,40}([0-9]{2,3}\.[0-9]{2,4})", r"\b12M\b[^0-9]{0,40}([0-9]{2,3}\.[0-9]{2,4})"],
+            "24M": [r"\b2Y\b[^0-9]{0,40}([0-9]{2,3}\.[0-9]{2,4})", r"\b24M\b[^0-9]{0,40}([0-9]{2,3}\.[0-9]{2,4})"],
+        }
+        for tenor, pats in patterns.items():
+            for pat in pats:
+                m = re.search(pat, text, flags=re.I)
+                if m:
+                    v = float(m.group(1))
+                    if 50 <= v <= 120:
+                        out[tenor] = round(v, 4)
+                        break
+    except Exception:
+        pass
+    return out
+
 def scrape_te_last_value(url):
     try:
         text = _strip_html(get(url, timeout=12))
@@ -630,6 +677,15 @@ def _brent_symbol(months_ahead, base_dt=None):
     base_dt = base_dt or datetime.utcnow()
     m, y = _advance_months(base_dt.month, base_dt.year, months_ahead)
     return f"BZ{_FUT_CODES[m]}{y%100:02d}.NYM", f"{_MONTH_ABBR[m-1].capitalize()} {y}"
+
+def _usdinr_symbol(months_ahead, base_dt=None):
+    """
+    INR CME futures-style symbol.
+    Falls back to continuous INR=F in fetch logic if contract ticker is unavailable.
+    """
+    base_dt = base_dt or datetime.utcnow()
+    m, y = _advance_months(base_dt.month, base_dt.year, months_ahead)
+    return f"INR{_FUT_CODES[m]}{y%100:02d}.CME", f"{_MONTH_ABBR[m-1].capitalize()} {y}"
 
 def _boe_nominal_rows():
     """
@@ -1828,9 +1884,17 @@ def fetch_commodities():
         def run(task):
             lbl, months, sym, exp, kind, target_dt = task
             if kind == "now":
-                return lbl, kind, yahoo_price(sym), "", sym, exp
+                px = yahoo_price(sym)
+                used_sym = sym
+                if px is None and label_prefix == "USDINR":
+                    px = yahoo_price("INR=F")
+                    used_sym = "INR=F"
+                return lbl, kind, px, "", used_sym, exp
             hist_sym, hist_exp = sym_fn(months, base_dt=target_dt)
             v, d = yahoo_price_near_date(hist_sym, target_dt)
+            if v is None and label_prefix == "USDINR":
+                v, d = yahoo_price_near_date("INR=F", target_dt)
+                hist_sym = "INR=F"
             return lbl, kind, v, d, hist_sym, hist_exp
 
         with ThreadPoolExecutor(max_workers=12) as ex:
@@ -1892,12 +1956,14 @@ def fetch_commodities():
             brent_spot = last.get("brent", {}).get("spot")
 
     # USD/INR spot and history from FRED DEXINUS (Indian Rupees per 1 USD)
+    # Fallback for latest spot uses manual market scrape if FRED is stale/unavailable.
     usdinr_obs = fred_csv("DEXINUS", start="2023-01-01")
     if not usdinr_obs and last:
         usdinr_obs = []
     if usdinr_obs:
         usdinr_spot = round(usdinr_obs[0]["value"], 4)
         usdinr_spot_date = usdinr_obs[0]["date"]
+        usdinr_spot_source = "FRED DEXINUS"
         def _usdinr_prior(days_back, max_diff=14):
             target = datetime.utcnow() - timedelta(days=days_back)
             best = min(usdinr_obs, key=lambda o: abs((datetime.strptime(o["date"], "%Y-%m-%d") - target).days))
@@ -1910,8 +1976,34 @@ def fetch_commodities():
     else:
         usdinr_spot = last.get("usdinr", {}).get("spot") if last else None
         usdinr_spot_date = last.get("usdinr", {}).get("spot_date", "") if last else ""
+        usdinr_spot_source = "cache"
         usdinr_1d = usdinr_1d_d = usdinr_1m = usdinr_1m_d = None
         usdinr_3m = usdinr_3m_d = usdinr_1y = usdinr_1y_d = None
+
+    # If FRED spot is stale (>2 days old) or missing, use manual scrape for latest spot.
+    try:
+        spot_dt = datetime.strptime(usdinr_spot_date, "%Y-%m-%d") if usdinr_spot_date else None
+        spot_age_days = (datetime.utcnow() - spot_dt).days if spot_dt else 999
+    except Exception:
+        spot_age_days = 999
+    if usdinr_spot is None or spot_age_days > 2:
+        scraped_usdinr = scrape_fx_spot("/currencies/usd-inr")
+        if scraped_usdinr is not None:
+            usdinr_spot = scraped_usdinr
+            usdinr_spot_date = datetime.utcnow().strftime("%Y-%m-%d")
+            usdinr_spot_source = "Investing scrape"
+
+    usdinr_futures = fetch_all_futures(_usdinr_symbol, "USDINR")
+    if not any((usdinr_futures.get(t, {}) or {}).get("price") is not None for t in ["3M", "6M", "12M", "24M"]):
+        fwds = scrape_usdinr_forwards()
+        if fwds:
+            for t in ["3M", "6M", "12M", "24M"]:
+                if t not in usdinr_futures:
+                    usdinr_futures[t] = {}
+                if usdinr_futures[t].get("price") is None and fwds.get(t) is not None:
+                    usdinr_futures[t]["price"] = fwds[t]
+                    usdinr_futures[t]["contract"] = "INV-FWD"
+                    usdinr_futures[t]["expiry"] = t
 
     write("commodities.json", {
         "date": datetime.utcnow().strftime("%Y-%m-%d"),
@@ -1952,13 +2044,15 @@ def fetch_commodities():
         "usdinr": {
             "spot": usdinr_spot,
             "spot_date": usdinr_spot_date,
+            "spot_source": usdinr_spot_source,
             "unit": "INR per USD",
             "prior_1d": usdinr_1d, "prior_1d_date": usdinr_1d_d,
             "prior_1m": usdinr_1m, "prior_1m_date": usdinr_1m_d,
             "prior_3m": usdinr_3m, "prior_3m_date": usdinr_3m_d,
             "prior_1y": usdinr_1y, "prior_1y_date": usdinr_1y_d,
+            "futures": usdinr_futures,
         },
-        "note": "Spot history comes from daily FRED series. Futures history is roll-aware by target date. USD/INR from FRED DEXINUS."
+        "note": "Spot history comes from daily FRED series. Futures history is roll-aware by target date. USD/INR uses FRED DEXINUS with Investing scrape fallback for latest spot."
     })
     log.info("  COMMODITIES OK")
 

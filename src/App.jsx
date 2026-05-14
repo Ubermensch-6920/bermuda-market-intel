@@ -9,6 +9,9 @@ import {
   ArrowDownRight, Minus, AlertTriangle, Loader, Landmark, TrendingUp, Gem
 } from "lucide-react";
 
+const PLATFORM_NAME = "Bermuda Market Intel";
+const TOOL_NAME = "GENESIS // CORE";
+
 const CurrencySymbolIcon = symbol => ({ size = 16, style = {} }) => (
   <span style={{
     fontSize: size + 1, fontWeight: 800, lineHeight: 1,
@@ -543,6 +546,8 @@ const CommoditiesSection = ({ data, loading, error }) => {
   const fmtChgVal = v => cfg.isFX
     ? (v != null ? (v >= 0 ? "+" : "") + v.toFixed(4) : "—")
     : (v != null ? (v >= 0 ? "+" : "") + fmtUSD(v) : "—");
+  const fmtFutVal = v => cfg.isFX ? (v != null ? v.toFixed(4) : "—") : fmtUSD(v);
+  const fmtFutChgVal = v => cfg.isFX ? (v != null ? (v >= 0 ? "+" : "") + v.toFixed(4) : "—") : (v != null ? (v >= 0 ? "+" : "") + fmtUSD(v) : "—");
 
   const chg1d  = chgUSD(spot, prior_1d);
   const chg1m = chgUSD(spot, prior_1m);
@@ -698,17 +703,17 @@ const CommoditiesSection = ({ data, loading, error }) => {
                   <td style={{ padding: "9px 14px", fontWeight: 700, color: cfg.color, fontFamily: "monospace" }}>{row.tenor}</td>
                   <td style={{ padding: "9px 14px", color: "#94a3b8", fontFamily: "monospace", fontSize: 12 }}>{row.contract || "—"}</td>
                   <td style={{ padding: "9px 14px", color: "#cbd5e1", fontSize: 12 }}>{row.expiry || "—"}</td>
-                  <td style={{ padding: "9px 14px", textAlign: "right", fontFamily: "monospace", fontWeight: 600, color: "#f1f5f9" }}>{fmtUSD(row.price)}</td>
+                  <td style={{ padding: "9px 14px", textAlign: "right", fontFamily: "monospace", fontWeight: 600, color: "#f1f5f9" }}>{fmtFutVal(row.price)}</td>
                   <td style={{ padding: "9px 14px", textAlign: "right", fontFamily: "monospace", color: futChgCol(row.vsSpot) }}>
-                    {row.vsSpot != null ? (row.vsSpot >= 0 ? "+" : "") + fmtUSD(row.vsSpot) : "—"}
+                    {fmtFutChgVal(row.vsSpot)}
                   </td>
-                  {has1mFut && <td style={{ padding: "9px 14px", textAlign: "right", fontFamily: "monospace", color: "#94a3b8" }}>{fmtUSD(row.prior_1m)}</td>}
+                  {has1mFut && <td style={{ padding: "9px 14px", textAlign: "right", fontFamily: "monospace", color: "#94a3b8" }}>{fmtFutVal(row.prior_1m)}</td>}
                   {has1mFut && <td style={{ padding: "9px 14px", textAlign: "right", fontFamily: "monospace", color: commChgCol(row.chg1m) }}>
-                    {row.chg1m != null ? (row.chg1m >= 0 ? "+" : "") + fmtUSD(row.chg1m) : "—"}
+                    {fmtFutChgVal(row.chg1m)}
                   </td>}
-                  {has3mFut && <td style={{ padding: "9px 14px", textAlign: "right", fontFamily: "monospace", color: "#94a3b8" }}>{fmtUSD(row.prior_3m)}</td>}
+                  {has3mFut && <td style={{ padding: "9px 14px", textAlign: "right", fontFamily: "monospace", color: "#94a3b8" }}>{fmtFutVal(row.prior_3m)}</td>}
                   {has3mFut && <td style={{ padding: "9px 14px", textAlign: "right", fontFamily: "monospace", color: commChgCol(row.chg3m) }}>
-                    {row.chg3m != null ? (row.chg3m >= 0 ? "+" : "") + fmtUSD(row.chg3m) : "—"}
+                    {fmtFutChgVal(row.chg3m)}
                   </td>}
                 </tr>
               ))}
@@ -820,6 +825,7 @@ export default function App() {
             <MetricCard label="SOFR" value={sofrRate != null ? sofrRate.toFixed(2) + "%" : "—"} change={chgBp(sofrRate, sofrPrior)} loading={ls.sofr} />
             <MetricCard label="Gold (spot)" value={data.commodities?.gold?.spot != null ? fmtUSD(data.commodities.gold.spot) : "—"} change={data.commodities?.gold?.spot != null && data.commodities?.gold?.prior_1m != null ? (chgUSD(data.commodities.gold.spot, data.commodities.gold.prior_1m) >= 0 ? "+" : "") + fmtUSD(chgUSD(data.commodities.gold.spot, data.commodities.gold.prior_1m)) + " 1M" : null} loading={ls.commodities} />
             <MetricCard label="WTI (spot)" value={data.commodities?.wti?.spot != null ? fmtUSD(data.commodities.wti.spot) : "—"} change={data.commodities?.wti?.spot != null && data.commodities?.wti?.prior_1m != null ? (chgUSD(data.commodities.wti.spot, data.commodities.wti.prior_1m) >= 0 ? "+" : "") + fmtUSD(chgUSD(data.commodities.wti.spot, data.commodities.wti.prior_1m)) + " 1M" : null} loading={ls.commodities} />
+            <MetricCard label="USD/INR (spot)" value={data.commodities?.usdinr?.spot != null ? data.commodities.usdinr.spot.toFixed(4) : "—"} change={data.commodities?.usdinr?.spot != null && data.commodities?.usdinr?.prior_1m != null ? (chgUSD(data.commodities.usdinr.spot, data.commodities.usdinr.prior_1m) >= 0 ? "+" : "") + chgUSD(data.commodities.usdinr.spot, data.commodities.usdinr.prior_1m).toFixed(4) + " 1M" : null} loading={ls.commodities} />
           </div>
         </div>
 
@@ -868,7 +874,7 @@ export default function App() {
     <div style={{ width: sidebarOpen ? 220 : 54, transition: "width 0.2s", background: "#0a0c12", borderRight: "1px solid #1a1d23", display: "flex", flexDirection: "column", flexShrink: 0, overflow: "hidden" }}>
       <div style={{ padding: sidebarOpen ? "16px 18px" : "16px 12px", borderBottom: "1px solid #1a1d23", display: "flex", alignItems: "center", gap: 10, cursor: "pointer", minHeight: 56 }} onClick={() => setSidebarOpen(!sidebarOpen)}>
         <div style={{ width: 30, height: 30, borderRadius: 7, background: "linear-gradient(135deg, #3b82f6, #8b5cf6)", display: "flex", alignItems: "center", justifyContent: "center", flexShrink: 0 }}><BarChart3 size={17} color="#fff" /></div>
-        {sidebarOpen && <div><div style={{ fontSize: 14, fontWeight: 800, color: "#f1f5f9", letterSpacing: "-0.02em", lineHeight: 1.1 }}>BERMUDA</div><div style={{ fontSize: 10, fontWeight: 600, color: "#60a5fa", letterSpacing: "0.15em", textTransform: "uppercase" }}>MARKET INTEL</div></div>}
+        {sidebarOpen && <div><div style={{ fontSize: 14, fontWeight: 800, color: "#f1f5f9", letterSpacing: "-0.02em", lineHeight: 1.1 }}>{PLATFORM_NAME.toUpperCase()}</div><div style={{ fontSize: 10, fontWeight: 700, color: "#22d3ee", letterSpacing: "0.18em", textTransform: "uppercase", textShadow: "0 0 10px rgba(34,211,238,0.35)" }}>{TOOL_NAME}</div></div>}
       </div>
       <div style={{ flex: 1, padding: "8px 7px", overflowY: "auto" }}>{PAGES.map(p => { const Icon = p.icon; const a = page === p.id; return <button key={p.id} onClick={() => setPage(p.id)} style={{ width: "100%", display: "flex", alignItems: "center", gap: 11, padding: sidebarOpen ? "9px 12px" : "9px", marginBottom: 2, borderRadius: 7, border: "none", background: a ? "#1e2028" : "transparent", color: a ? "#f1f5f9" : "#94a3b8", cursor: "pointer", fontSize: 13, fontWeight: a ? 600 : 500, textAlign: "left", justifyContent: sidebarOpen ? "flex-start" : "center" }} onMouseEnter={e => { if (!a) e.currentTarget.style.background = "#12141a" }} onMouseLeave={e => { if (!a) e.currentTarget.style.background = "transparent" }}><Icon size={16} style={{ flexShrink: 0 }} />{sidebarOpen && <span>{p.label}</span>}</button>; })}</div>
       {sidebarOpen && <div style={{ padding: "12px 16px", borderTop: "1px solid #1a1d23", fontSize: 11, color: "#475569" }}>Data via GitHub Actions</div>}
@@ -889,8 +895,8 @@ export default function App() {
       </div>
       <div style={{ flex: 1, overflow: "auto", padding: 20 }}>{renderPage()}</div>
       <div style={{ height: 28, padding: "0 22px", borderTop: "1px solid #1a1d23", background: "#0a0c12", display: "flex", alignItems: "center", justifyContent: "space-between", fontSize: 11, color: "#475569", flexShrink: 0 }}>
-        <div style={{ display: "flex", gap: 16 }}>{ust10y != null && <span>UST 10Y: {fmtY(ust10y)}</span>}{jgb10y != null && <span>JGB 10Y: {fmtY(jgb10y)}</span>}{gilt10y != null && <span>Gilt 10Y: {fmtY(gilt10y)}</span>}{india10y != null && <span>India 10Y: {fmtY(india10y)}</span>}{sofrRate != null && <span>SOFR: {sofrRate.toFixed(2)}%</span>}{igS != null && <span>IG: {igS}bp</span>}{hyS != null && <span>HY: {hyS}bp</span>}</div>
-        <span>Bermuda Market Intel v9</span>
+        <div style={{ display: "flex", gap: 16 }}>{ust10y != null && <span>UST 10Y: {fmtY(ust10y)}</span>}{jgb10y != null && <span>JGB 10Y: {fmtY(jgb10y)}</span>}{gilt10y != null && <span>Gilt 10Y: {fmtY(gilt10y)}</span>}{india10y != null && <span>India 10Y: {fmtY(india10y)}</span>}{sofrRate != null && <span>SOFR: {sofrRate.toFixed(2)}%</span>}{igS != null && <span>IG: {igS}bp</span>}{hyS != null && <span>HY: {hyS}bp</span>}{data.commodities?.usdinr?.spot != null && <span>USD/INR: {data.commodities.usdinr.spot.toFixed(4)}</span>}</div>
+        <span>{PLATFORM_NAME} • {TOOL_NAME} • v9</span>
       </div>
     </div>
   </div>);
