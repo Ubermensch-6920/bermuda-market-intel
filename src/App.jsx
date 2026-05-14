@@ -546,6 +546,8 @@ const CommoditiesSection = ({ data, loading, error }) => {
   const fmtChgVal = v => cfg.isFX
     ? (v != null ? (v >= 0 ? "+" : "") + v.toFixed(4) : "—")
     : (v != null ? (v >= 0 ? "+" : "") + fmtUSD(v) : "—");
+  const fmtFutVal = v => cfg.isFX ? (v != null ? v.toFixed(4) : "—") : fmtUSD(v);
+  const fmtFutChgVal = v => cfg.isFX ? (v != null ? (v >= 0 ? "+" : "") + v.toFixed(4) : "—") : (v != null ? (v >= 0 ? "+" : "") + fmtUSD(v) : "—");
 
   const chg1d  = chgUSD(spot, prior_1d);
   const chg1m = chgUSD(spot, prior_1m);
@@ -701,17 +703,17 @@ const CommoditiesSection = ({ data, loading, error }) => {
                   <td style={{ padding: "9px 14px", fontWeight: 700, color: cfg.color, fontFamily: "monospace" }}>{row.tenor}</td>
                   <td style={{ padding: "9px 14px", color: "#94a3b8", fontFamily: "monospace", fontSize: 12 }}>{row.contract || "—"}</td>
                   <td style={{ padding: "9px 14px", color: "#cbd5e1", fontSize: 12 }}>{row.expiry || "—"}</td>
-                  <td style={{ padding: "9px 14px", textAlign: "right", fontFamily: "monospace", fontWeight: 600, color: "#f1f5f9" }}>{fmtUSD(row.price)}</td>
+                  <td style={{ padding: "9px 14px", textAlign: "right", fontFamily: "monospace", fontWeight: 600, color: "#f1f5f9" }}>{fmtFutVal(row.price)}</td>
                   <td style={{ padding: "9px 14px", textAlign: "right", fontFamily: "monospace", color: futChgCol(row.vsSpot) }}>
-                    {row.vsSpot != null ? (row.vsSpot >= 0 ? "+" : "") + fmtUSD(row.vsSpot) : "—"}
+                    {fmtFutChgVal(row.vsSpot)}
                   </td>
-                  {has1mFut && <td style={{ padding: "9px 14px", textAlign: "right", fontFamily: "monospace", color: "#94a3b8" }}>{fmtUSD(row.prior_1m)}</td>}
+                  {has1mFut && <td style={{ padding: "9px 14px", textAlign: "right", fontFamily: "monospace", color: "#94a3b8" }}>{fmtFutVal(row.prior_1m)}</td>}
                   {has1mFut && <td style={{ padding: "9px 14px", textAlign: "right", fontFamily: "monospace", color: commChgCol(row.chg1m) }}>
-                    {row.chg1m != null ? (row.chg1m >= 0 ? "+" : "") + fmtUSD(row.chg1m) : "—"}
+                    {fmtFutChgVal(row.chg1m)}
                   </td>}
-                  {has3mFut && <td style={{ padding: "9px 14px", textAlign: "right", fontFamily: "monospace", color: "#94a3b8" }}>{fmtUSD(row.prior_3m)}</td>}
+                  {has3mFut && <td style={{ padding: "9px 14px", textAlign: "right", fontFamily: "monospace", color: "#94a3b8" }}>{fmtFutVal(row.prior_3m)}</td>}
                   {has3mFut && <td style={{ padding: "9px 14px", textAlign: "right", fontFamily: "monospace", color: commChgCol(row.chg3m) }}>
-                    {row.chg3m != null ? (row.chg3m >= 0 ? "+" : "") + fmtUSD(row.chg3m) : "—"}
+                    {fmtFutChgVal(row.chg3m)}
                   </td>}
                 </tr>
               ))}
