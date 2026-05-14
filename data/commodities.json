@@ -6,7 +6,7 @@
     "spot_date": "",
     "spot_source": "TradingEconomics",
     "unit": "USD/troy oz",
-    "prior_1d": 4674.7,
+    "prior_1d": 4675.7,
     "prior_1d_date": "2026-05-14",
     "prior_1m": 4800.0,
     "prior_1m_date": "2026-04-15",
@@ -16,7 +16,7 @@
     "prior_1y_date": "2025-05-15",
     "futures": {
       "3M": {
-        "price": 4708.9,
+        "price": 4711.5,
         "expiry": "Aug 2026",
         "contract": "GCQ26",
         "prior_1m": 4860.8,
@@ -27,7 +27,7 @@
         "prior_3m_contract": "GCM26"
       },
       "6M": {
-        "price": 4776.7,
+        "price": 4778.0,
         "expiry": "Dec 2026",
         "contract": "GCZ26",
         "prior_1m": 4896.1,
@@ -66,7 +66,7 @@
     "spot_date": "",
     "spot_source": "TradingEconomics",
     "unit": "USD/barrel",
-    "prior_1d": 101.46,
+    "prior_1d": 101.39,
     "prior_1d_date": "2026-05-14",
     "prior_1m": 91.29,
     "prior_1m_date": "2026-04-15",
@@ -76,7 +76,7 @@
     "prior_1y_date": "2025-05-15",
     "futures": {
       "3M": {
-        "price": 92.72,
+        "price": 92.63,
         "expiry": "Aug 2026",
         "contract": "CLQ26",
         "prior_1m": 85.21,
@@ -98,7 +98,7 @@
         "prior_3m_contract": "CLQ26"
       },
       "12M": {
-        "price": 76.21,
+        "price": 76.25,
         "expiry": "May 2027",
         "contract": "CLK27",
         "prior_1m": 74.08,
@@ -126,7 +126,7 @@
     "spot_date": "",
     "spot_source": "TradingEconomics",
     "unit": "USD/barrel",
-    "prior_1d": 105.93,
+    "prior_1d": 105.94,
     "prior_1d_date": "2026-05-14",
     "prior_1m": 94.93,
     "prior_1m_date": "2026-04-15",
@@ -136,7 +136,7 @@
     "prior_1y_date": "2025-05-15",
     "futures": {
       "3M": {
-        "price": 101.61,
+        "price": 101.55,
         "expiry": "Aug 2026",
         "contract": "BZQ26",
         "prior_1m": 90.81,
@@ -184,7 +184,7 @@
   "usdinr": {
     "spot": 95.559,
     "spot_date": "2026-05-14",
-    "spot_source": "Investing scrape",
+    "spot_source": "cache",
     "unit": "INR per USD",
     "prior_1d": null,
     "prior_1d_date": null,
@@ -196,5 +196,5 @@
     "prior_1y_date": null
   },
   "note": "Spot history comes from daily FRED series. Futures history is roll-aware by target date. USD/INR uses FRED DEXINUS with Investing scrape fallback for latest spot.",
-  "_fetched": "2026-05-14T19:05:04.895052Z"
+  "_fetched": "2026-05-14T19:11:48.782360Z"
 }
