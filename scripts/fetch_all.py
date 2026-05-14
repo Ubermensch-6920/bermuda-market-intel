@@ -494,6 +494,25 @@ def scrape_commodity_spot(url_path):
         pass
     return None
 
+def scrape_fx_spot(url_path):
+    try:
+        html = get(f"https://www.investing.com{url_path}", timeout=8)
+        for pat in [
+            r'data-test="instrument-price-last"[^>]*>([\d,]+\.?\d*)<',
+            r'class="text-5xl[^"]*"[^>]*>([\d,]+\.?\d*)<',
+            r'class="text-2xl[^"]*"[^>]*>([\d,]+\.?\d*)<',
+            r'"last":\s*([\d.]+)',
+            r'"last_numeric":\s*([\d.]+)',
+        ]:
+            m = re.search(pat, html)
+            if m:
+                v = float(m.group(1).replace(",", ""))
+                if v > 0:
+                    return round(v, 4)
+    except Exception:
+        pass
+    return None
+
 def scrape_te_last_value(url):
     try:
         text = _strip_html(get(url, timeout=12))
@@ -1892,12 +1911,14 @@ def fetch_commodities():
             brent_spot = last.get("brent", {}).get("spot")
 
     # USD/INR spot and history from FRED DEXINUS (Indian Rupees per 1 USD)
+    # Fallback for latest spot uses manual market scrape if FRED is stale/unavailable.
     usdinr_obs = fred_csv("DEXINUS", start="2023-01-01")
     if not usdinr_obs and last:
         usdinr_obs = []
     if usdinr_obs:
         usdinr_spot = round(usdinr_obs[0]["value"], 4)
         usdinr_spot_date = usdinr_obs[0]["date"]
+        usdinr_spot_source = "FRED DEXINUS"
         def _usdinr_prior(days_back, max_diff=14):
             target = datetime.utcnow() - timedelta(days=days_back)
             best = min(usdinr_obs, key=lambda o: abs((datetime.strptime(o["date"], "%Y-%m-%d") - target).days))
@@ -1910,8 +1931,22 @@ def fetch_commodities():
     else:
         usdinr_spot = last.get("usdinr", {}).get("spot") if last else None
         usdinr_spot_date = last.get("usdinr", {}).get("spot_date", "") if last else ""
+        usdinr_spot_source = "cache"
         usdinr_1d = usdinr_1d_d = usdinr_1m = usdinr_1m_d = None
         usdinr_3m = usdinr_3m_d = usdinr_1y = usdinr_1y_d = None
+
+    # If FRED spot is stale (>2 days old) or missing, use manual scrape for latest spot.
+    try:
+        spot_dt = datetime.strptime(usdinr_spot_date, "%Y-%m-%d") if usdinr_spot_date else None
+        spot_age_days = (datetime.utcnow() - spot_dt).days if spot_dt else 999
+    except Exception:
+        spot_age_days = 999
+    if usdinr_spot is None or spot_age_days > 2:
+        scraped_usdinr = scrape_fx_spot("/currencies/usd-inr")
+        if scraped_usdinr is not None:
+            usdinr_spot = scraped_usdinr
+            usdinr_spot_date = datetime.utcnow().strftime("%Y-%m-%d")
+            usdinr_spot_source = "Investing scrape"
 
     write("commodities.json", {
         "date": datetime.utcnow().strftime("%Y-%m-%d"),
@@ -1952,13 +1987,14 @@ def fetch_commodities():
         "usdinr": {
             "spot": usdinr_spot,
             "spot_date": usdinr_spot_date,
+            "spot_source": usdinr_spot_source,
             "unit": "INR per USD",
             "prior_1d": usdinr_1d, "prior_1d_date": usdinr_1d_d,
             "prior_1m": usdinr_1m, "prior_1m_date": usdinr_1m_d,
             "prior_3m": usdinr_3m, "prior_3m_date": usdinr_3m_d,
             "prior_1y": usdinr_1y, "prior_1y_date": usdinr_1y_d,
         },
-        "note": "Spot history comes from daily FRED series. Futures history is roll-aware by target date. USD/INR from FRED DEXINUS."
+        "note": "Spot history comes from daily FRED series. Futures history is roll-aware by target date. USD/INR uses FRED DEXINUS with Investing scrape fallback for latest spot."
     })
     log.info("  COMMODITIES OK")
 
