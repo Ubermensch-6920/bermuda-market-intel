@@ -1,5 +1,5 @@
 #!/usr/bin/env python3
-"""Fast, bounded credit-spread refresh for Bermuda Market Intel.
+"""Fast, bounded credit-spread refresh for GENESIS.
 
 This script intentionally stays separate from fetch_all.py. It runs after the
 main pipeline, overwrites data/credit.json with the latest available ICE BofA
