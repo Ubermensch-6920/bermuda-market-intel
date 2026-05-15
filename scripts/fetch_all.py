@@ -513,7 +513,7 @@ def scrape_fx_spot(url_path):
         pass
     return None
 
-def scrape_usdinr_forwards():
+def scrape_usdinr_forwards(spot_hint=None):
     """
     Best-effort parse of USD/INR forward rates from Investing.
     Returns tenor map like {"3M": 83.12, "6M": 83.45, "12M": 84.01, "24M": 84.92}.
@@ -534,9 +534,17 @@ def scrape_usdinr_forwards():
                 m = re.search(pat, text, flags=re.I)
                 if m:
                     v = float(m.group(1))
-                    if 50 <= v <= 120:
-                        out[tenor] = round(v, 4)
-                        break
+                    # USD/INR outright forwards should be in the same general neighborhood as spot.
+                    # Keep wide hard bounds and, when a spot hint is available, reject obviously
+                    # misparsed numbers (e.g., forward points / unrelated fields).
+                    if not (50 <= v <= 120):
+                        continue
+                    if spot_hint is not None and spot_hint > 0:
+                        max_allowed_diff = 15.0 if tenor == "24M" else 10.0
+                        if abs(v - spot_hint) > max_allowed_diff:
+                            continue
+                    out[tenor] = round(v, 4)
+                    break
     except Exception:
         pass
     return out
@@ -2034,7 +2042,7 @@ def fetch_commodities():
 
     usdinr_futures = fetch_all_futures(_usdinr_symbol, "USDINR")
     if not any((usdinr_futures.get(t, {}) or {}).get("price") is not None for t in ["3M", "6M", "12M", "24M"]):
-        fwds = scrape_usdinr_forwards()
+        fwds = scrape_usdinr_forwards(usdinr_spot)
         if fwds:
             for t in ["3M", "6M", "12M", "24M"]:
                 if t not in usdinr_futures:
