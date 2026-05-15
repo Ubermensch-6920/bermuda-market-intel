@@ -1,5 +1,5 @@
 #!/usr/bin/env python3
-"""Bermuda Market Intel — Data Pipeline v8.
+"""GENESIS — Data Pipeline v8.
 Improved India / UK rates sourcing and roll-aware commodity futures history.
 """
 import json, re, sys, os, logging, time, io, zipfile, csv
@@ -512,6 +512,44 @@ def scrape_fx_spot(url_path):
     except Exception:
         pass
     return None
+
+def nse_usdinr_forwards(spot_hint=None):
+    """
+    Source USD/INR forward curve proxies from NSE currency derivatives.
+    Maps nearest listed monthly expiries to 3M/6M/12M/24M buckets.
+    """
+    out = {}
+    try:
+        raw = get("https://www.nseindia.com/api/currency-derivatives?symbol=USDINR", timeout=12)
+        data = json.loads(raw)
+        records = data.get("data", []) if isinstance(data, dict) else []
+        now = datetime.utcnow().date()
+        rows = []
+        for r in records:
+            exp = r.get("expiryDate")
+            lp = r.get("lastPrice")
+            if not exp or lp in (None, "-", ""):
+                continue
+            try:
+                dt = datetime.strptime(exp, "%d-%b-%Y").date()
+                v = float(lp)
+            except Exception:
+                continue
+            if dt < now or not (50 <= v <= 120):
+                continue
+            if spot_hint is not None and abs(v - spot_hint) > 20:
+                continue
+            rows.append((dt, round(v, 4)))
+        rows.sort(key=lambda x: x[0])
+        buckets = {"3M": 90, "6M": 182, "12M": 365, "24M": 730}
+        for tenor, days in buckets.items():
+            target = now + timedelta(days=days)
+            cand = min(rows, key=lambda x: abs((x[0] - target).days)) if rows else None
+            if cand is not None:
+                out[tenor] = cand[1]
+    except Exception:
+        pass
+    return out
 
 def scrape_usdinr_forwards(spot_hint=None):
     """
@@ -2041,16 +2079,19 @@ def fetch_commodities():
             usdinr_spot_source = "Investing scrape"
 
     usdinr_futures = fetch_all_futures(_usdinr_symbol, "USDINR")
-    if not any((usdinr_futures.get(t, {}) or {}).get("price") is not None for t in ["3M", "6M", "12M", "24M"]):
-        fwds = scrape_usdinr_forwards(usdinr_spot)
-        if fwds:
-            for t in ["3M", "6M", "12M", "24M"]:
-                if t not in usdinr_futures:
-                    usdinr_futures[t] = {}
-                if usdinr_futures[t].get("price") is None and fwds.get(t) is not None:
-                    usdinr_futures[t]["price"] = fwds[t]
-                    usdinr_futures[t]["contract"] = "INV-FWD"
-                    usdinr_futures[t]["expiry"] = t
+    for source_name, fwds in [
+        ("NSE-USDINR", nse_usdinr_forwards(usdinr_spot)),
+        ("INV-FWD", scrape_usdinr_forwards(usdinr_spot)),
+    ]:
+        if not fwds:
+            continue
+        for t in ["3M", "6M", "12M", "24M"]:
+            if t not in usdinr_futures:
+                usdinr_futures[t] = {}
+            if usdinr_futures[t].get("price") is None and fwds.get(t) is not None:
+                usdinr_futures[t]["price"] = fwds[t]
+                usdinr_futures[t]["contract"] = source_name
+                usdinr_futures[t]["expiry"] = t
 
     write("commodities.json", {
         "date": datetime.utcnow().strftime("%Y-%m-%d"),

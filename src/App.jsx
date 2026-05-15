@@ -9,7 +9,7 @@ import {
   ArrowDownRight, Minus, AlertTriangle, Loader, Landmark, TrendingUp, Gem
 } from "lucide-react";
 
-const PLATFORM_NAME = "Bermuda Market Intel";
+const PLATFORM_NAME = "GENESIS";
 const TOOL_NAME = "GENESIS // CORE";
 
 const CurrencySymbolIcon = symbol => ({ size = 16, style = {} }) => (
@@ -21,7 +21,7 @@ const CurrencySymbolIcon = symbol => ({ size = 16, style = {} }) => (
 );
 
 /* ═══════════════════════════════════════════════════════════════════
-   BERMUDA MARKET INTELLIGENCE TERMINAL v8
+   GENESIS MARKET INTELLIGENCE TERMINAL v8
    Reads data/*.json from GitHub Actions pipeline.
    v8: improved legibility, year-ago yields, BMA discount rates tab
    ═══════════════════════════════════════════════════════════════════ */
@@ -494,7 +494,7 @@ const NEWS = [
   { id: 2, title: "BOJ holds; Takata dissents, calls for 25bp hike", source: "Reuters", date: "2026-03-19T08:00:00Z", topic: "Rates & Macro", summary: "Ueda signals possible rate hike." },
   { id: 3, title: "Apollo raises $8.2B for insurance private credit", source: "Reuters", date: "2026-03-20T14:30:00Z", topic: "Private Credit", summary: "IG private placements for insurance." },
   { id: 4, title: "BOE holds at 3.75%; inflation warning from conflict", source: "FT", date: "2026-03-20T10:00:00Z", topic: "Rates & Macro", summary: "Markets price in rate hikes." },
-  { id: 5, title: "Bermuda reinsurer completes $1.5B structured credit deal", source: "Ins. Insider", date: "2026-03-19T16:45:00Z", topic: "Structured Credit", summary: "CLO/ABS to Class E insurer." },
+  { id: 5, title: "Global reinsurer completes $1.5B structured credit deal", source: "Ins. Insider", date: "2026-03-19T16:45:00Z", topic: "Structured Credit", summary: "CLO/ABS to Class E insurer." },
   { id: 6, title: "NAIC proposes enhanced private credit reporting", source: "AM Best", date: "2026-03-19T14:20:00Z", topic: "Insurance AM", summary: "More transparency on illiquid assets." },
 ];
 const BMA_UPDATES = [
