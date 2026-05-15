@@ -1603,7 +1603,16 @@ def _bma_extract_table(ws, title_text):
         blank_streak = 0
         for c, ccy in currencies:
             val = ws.cell(r, c).value
-            table[ccy][tenor] = round(float(val) * 100, 6) if isinstance(val, (int, float)) else _as_float(val)
+            if isinstance(val, (int, float)):
+                # Some BMA sheets store decimals (0.045) while others store percent values (4.5).
+                v = float(val)
+                v = v * 100.0 if abs(v) <= 1.0 else v
+                table[ccy][tenor] = round(v, 6)
+            else:
+                parsed = _as_float(val)
+                if parsed is not None and abs(parsed) <= 1.0:
+                    parsed *= 100.0
+                table[ccy][tenor] = round(parsed, 6) if parsed is not None else None
         r += 1
     return table
 
@@ -1657,6 +1666,30 @@ def _bma_load_quarter_url_cache():
     except Exception:
         pass
     return {}
+
+def _bma_validate_quarter_payload(quarter):
+    """Validate quarter payload and reject obvious absolute-value parse errors."""
+    tenors = quarter.get("tenors", [])
+    currencies = quarter.get("currencies", {})
+    if not tenors or not currencies:
+        return False, "missing tenors/currencies"
+
+    non_null = 0
+    for ccy, cdata in currencies.items():
+        for key in ("risk_free_rates", "standard_spot_rates"):
+            arr = cdata.get(key, [])
+            if len(arr) != len(tenors):
+                return False, f"{ccy} {key} length mismatch"
+            for v in arr:
+                if v is None:
+                    continue
+                non_null += 1
+                # Guardrail for incorrectly-scaled values like 450 instead of 4.50.
+                if v < -5 or v > 30:
+                    return False, f"{ccy} {key} out-of-range value {v}"
+    if non_null < 20:
+        return False, "too few populated points"
+    return True, "ok"
 
 def _bma_save_quarter_url_cache(entries):
     f = DATA / "bma_discount_url_cache.json"
@@ -1760,7 +1793,7 @@ def fetch_bma_rates():
             parsed = manual["quarters"].get(e["as_of_dt"].strftime("%Y-%m-%d"))
 
         if parsed is not None:
-            quarter_data.append({
+            candidate = {
                 "as_of_date": e["as_of_dt"].strftime("%Y-%m-%d"),
                 "as_of_display": e["as_of"],
                 "publication_date": e["uploaded_dt"].strftime("%Y-%m-%d") if e.get("uploaded_dt") else "",
@@ -1773,7 +1806,12 @@ def fetch_bma_rates():
                 "tenors": parsed.get("tenors", []),
                 "available_currencies": parsed.get("available_currencies", []),
                 "currencies": parsed.get("currencies", {}),
-            })
+            }
+            ok, reason = _bma_validate_quarter_payload(candidate)
+            if not ok:
+                log.warning(f"  BMA validation rejected {candidate['as_of_date']}: {reason}")
+                continue
+            quarter_data.append(candidate)
         else:
             quarter_data.append({
                 "as_of_date": e["as_of_dt"].strftime("%Y-%m-%d"),
@@ -1790,6 +1828,7 @@ def fetch_bma_rates():
                 "currencies": {},
             })
 
+    quarter_data = sorted(quarter_data, key=lambda q: q.get("as_of_date", ""), reverse=True)[:4]
     latest_q = quarter_data[0] if quarter_data else None
     comparison = _bma_build_comparison(quarter_data)
 
