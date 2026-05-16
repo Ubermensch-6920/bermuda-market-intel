@@ -62,7 +62,7 @@
     }
   },
   "wti": {
-    "spot": 105.66,
+    "spot": 105.42,
     "spot_date": "",
     "spot_source": "TradingEconomics",
     "unit": "USD/barrel",
@@ -122,7 +122,7 @@
     }
   },
   "brent": {
-    "spot": 109.24,
+    "spot": 109.26,
     "spot_date": "",
     "spot_source": "TradingEconomics",
     "unit": "USD/barrel",
@@ -242,5 +242,5 @@
     }
   },
   "note": "Spot history comes from daily FRED series. Futures history is roll-aware by target date. USD/INR uses FRED DEXINUS with Investing scrape fallback for latest spot.",
-  "_fetched": "2026-05-16T16:13:26.486951Z"
+  "_fetched": "2026-05-16T19:37:24.138136Z"
 }
