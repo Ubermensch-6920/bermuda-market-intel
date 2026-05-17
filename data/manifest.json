@@ -6,10 +6,10 @@
     "eur": "ok",
     "india": "ok",
     "credit": "cached",
-    "sofr": "SOFR: no data from NY Fed or FRED",
+    "sofr": "ok",
     "bma_rates": "ok",
     "commodities": "ok"
   },
-  "run": "2026-05-16T22:09:38.934249Z",
-  "_fetched": "2026-05-16T22:10:23.426835Z"
+  "run": "2026-05-17T04:36:35.341381Z",
+  "_fetched": "2026-05-17T04:37:20.008911Z"
 }

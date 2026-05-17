@@ -1,12 +1,12 @@
 {
-  "date": "2026-05-16",
+  "date": "2026-05-17",
   "source": "FRED / TradingEconomics / Investing / Yahoo Finance",
   "gold": {
     "spot": 4547.89,
     "spot_date": "",
     "spot_source": "TradingEconomics",
     "unit": "USD/troy oz",
-    "prior_1d": 4555.8,
+    "prior_1d": 4561.9,
     "prior_1d_date": "2026-05-15",
     "prior_1m": 4857.6,
     "prior_1m_date": "2026-04-17",
@@ -66,7 +66,7 @@
     "spot_date": "",
     "spot_source": "TradingEconomics",
     "unit": "USD/barrel",
-    "prior_1d": 105.42,
+    "prior_1d": 101.02,
     "prior_1d_date": "2026-05-15",
     "prior_1m": 83.85,
     "prior_1m_date": "2026-04-17",
@@ -182,9 +182,9 @@
     }
   },
   "usdinr": {
-    "spot": 95.559,
-    "spot_date": "2026-05-14",
-    "spot_source": "cache",
+    "spot": 95.97,
+    "spot_date": "2026-05-17",
+    "spot_source": "Investing scrape",
     "unit": "INR per USD",
     "prior_1d": null,
     "prior_1d_date": null,
@@ -242,5 +242,5 @@
     }
   },
   "note": "Spot history comes from daily FRED series. Futures history is roll-aware by target date. USD/INR uses FRED DEXINUS with Investing scrape fallback for latest spot.",
-  "_fetched": "2026-05-16T22:09:38.933749Z"
+  "_fetched": "2026-05-17T04:36:35.340730Z"
 }

@@ -43,19 +43,19 @@
     3.806
   ],
   "prior_1m_yields": [
-    null,
-    null,
-    null,
-    null,
-    null,
-    null,
-    null,
-    null,
-    null,
-    null,
-    null
+    1.073,
+    1.385,
+    1.542,
+    1.888,
+    2.133,
+    2.507,
+    3.051,
+    3.381,
+    3.673,
+    3.706,
+    3.73
   ],
-  "prior_1m_date": "",
+  "prior_1m_date": "2026-05-01",
   "prior_3m_yields": [
     null,
     null,
@@ -84,5 +84,5 @@
     null
   ],
   "year_ago_date": "",
-  "_fetched": "2026-05-16T22:05:27.735219Z"
+  "_fetched": "2026-05-17T04:32:54.410593Z"
 }
