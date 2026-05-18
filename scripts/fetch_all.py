@@ -2106,6 +2106,23 @@ def fetch_commodities():
             usdinr_spot_date = datetime.utcnow().strftime("%Y-%m-%d")
             usdinr_spot_source = "Investing scrape"
 
+    # Third spot fallback: exchangerate.host free API (stdlib urllib, no new deps).
+    if usdinr_spot is None:
+        try:
+            import urllib.request as _ur
+            _resp = _ur.urlopen(
+                "https://api.exchangerate.host/latest?base=USD&symbols=INR",
+                timeout=10,
+            )
+            _d = json.loads(_resp.read())
+            _v = float(_d["rates"]["INR"])
+            if 50 <= _v <= 120:
+                usdinr_spot = round(_v, 4)
+                usdinr_spot_date = datetime.utcnow().strftime("%Y-%m-%d")
+                usdinr_spot_source = "exchangerate.host"
+        except Exception:
+            pass
+
     usdinr_futures = fetch_all_futures(_usdinr_symbol, "USDINR")
     for source_name, fwds in [
         ("NSE-USDINR", nse_usdinr_forwards(usdinr_spot)),
