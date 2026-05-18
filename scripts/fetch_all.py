@@ -539,6 +539,10 @@ def nse_usdinr_forwards(spot_hint=None):
                 continue
             if spot_hint is not None and abs(v - spot_hint) > 20:
                 continue
+            # USD/INR forwards always trade at a premium to spot (persistent INR carry discount).
+            # Values more than 3 INR below spot are stale/misparsed.
+            if spot_hint is not None and v < spot_hint - 3.0:
+                continue
             rows.append((dt, round(v, 4)))
         rows.sort(key=lambda x: x[0])
         buckets = {"3M": 90, "6M": 182, "12M": 365, "24M": 730}
@@ -558,28 +562,50 @@ def scrape_usdinr_forwards(spot_hint=None):
     """
     out = {}
     try:
-        text = _strip_html(get("https://www.investing.com/currencies/usd-inr-forward-rates", timeout=10))
-        # Capture tenor tokens followed by nearby decimal quote values.
-        # We keep this permissive because page markup can change.
+        raw = get("https://www.investing.com/currencies/usd-inr-forward-rates", timeout=10)
+        text = _strip_html(raw)
+        # Use non-greedy any-char matching ([\s\S]{0,120}?) so the pattern still matches
+        # when table cells contain dates or other digits between the tenor label and the
+        # outright forward rate.  The decimal requirement + hard 50-120 bounds + directional
+        # guard below keep false-positive matches well-controlled.
         patterns = {
-            "3M": [r"\b3M\b[^0-9]{0,40}([0-9]{2,3}\.[0-9]{2,4})", r"\b3 Month\b[^0-9]{0,40}([0-9]{2,3}\.[0-9]{2,4})"],
-            "6M": [r"\b6M\b[^0-9]{0,40}([0-9]{2,3}\.[0-9]{2,4})", r"\b6 Month\b[^0-9]{0,40}([0-9]{2,3}\.[0-9]{2,4})"],
-            "12M": [r"\b1Y\b[^0-9]{0,40}([0-9]{2,3}\.[0-9]{2,4})", r"\b12M\b[^0-9]{0,40}([0-9]{2,3}\.[0-9]{2,4})"],
-            "24M": [r"\b2Y\b[^0-9]{0,40}([0-9]{2,3}\.[0-9]{2,4})", r"\b24M\b[^0-9]{0,40}([0-9]{2,3}\.[0-9]{2,4})"],
+            "3M": [
+                r"\b3\s*M\b[\s\S]{0,120}?([0-9]{2,3}\.[0-9]{2,4})",
+                r"\b3\s*Month\b[\s\S]{0,120}?([0-9]{2,3}\.[0-9]{2,4})",
+                r"\b3\s*Months\b[\s\S]{0,120}?([0-9]{2,3}\.[0-9]{2,4})",
+            ],
+            "6M": [
+                r"\b6\s*M\b[\s\S]{0,120}?([0-9]{2,3}\.[0-9]{2,4})",
+                r"\b6\s*Month\b[\s\S]{0,120}?([0-9]{2,3}\.[0-9]{2,4})",
+                r"\b6\s*Months\b[\s\S]{0,120}?([0-9]{2,3}\.[0-9]{2,4})",
+            ],
+            "12M": [
+                r"\b1\s*Y\b[\s\S]{0,120}?([0-9]{2,3}\.[0-9]{2,4})",
+                r"\b12\s*M\b[\s\S]{0,120}?([0-9]{2,3}\.[0-9]{2,4})",
+                r"\b1\s*Year\b[\s\S]{0,120}?([0-9]{2,3}\.[0-9]{2,4})",
+                r"\b12\s*Month\b[\s\S]{0,120}?([0-9]{2,3}\.[0-9]{2,4})",
+            ],
+            "24M": [
+                r"\b2\s*Y\b[\s\S]{0,120}?([0-9]{2,3}\.[0-9]{2,4})",
+                r"\b24\s*M\b[\s\S]{0,120}?([0-9]{2,3}\.[0-9]{2,4})",
+                r"\b2\s*Year\b[\s\S]{0,120}?([0-9]{2,3}\.[0-9]{2,4})",
+                r"\b24\s*Month\b[\s\S]{0,120}?([0-9]{2,3}\.[0-9]{2,4})",
+            ],
         }
         for tenor, pats in patterns.items():
             for pat in pats:
-                m = re.search(pat, text, flags=re.I)
+                m = re.search(pat, text, flags=re.I | re.DOTALL)
                 if m:
                     v = float(m.group(1))
-                    # USD/INR outright forwards should be in the same general neighborhood as spot.
-                    # Keep wide hard bounds and, when a spot hint is available, reject obviously
-                    # misparsed numbers (e.g., forward points / unrelated fields).
                     if not (50 <= v <= 120):
                         continue
                     if spot_hint is not None and spot_hint > 0:
                         max_allowed_diff = 15.0 if tenor == "24M" else 10.0
                         if abs(v - spot_hint) > max_allowed_diff:
+                            continue
+                        # USD/INR forwards always price at a premium to spot; values
+                        # more than 3 INR below spot are stale or misparsed.
+                        if v < spot_hint - 3.0:
                             continue
                     out[tenor] = round(v, 4)
                     break
@@ -2071,7 +2097,9 @@ def fetch_commodities():
         spot_age_days = (datetime.utcnow() - spot_dt).days if spot_dt else 999
     except Exception:
         spot_age_days = 999
-    if usdinr_spot is None or spot_age_days > 2:
+    # Also trigger when FRED was unavailable and we fell through to cache — a cache
+    # value can be arbitrarily old even if its date looks recent.
+    if usdinr_spot is None or spot_age_days > 2 or usdinr_spot_source == "cache":
         scraped_usdinr = scrape_fx_spot("/currencies/usd-inr")
         if scraped_usdinr is not None:
             usdinr_spot = scraped_usdinr
@@ -2091,6 +2119,29 @@ def fetch_commodities():
             if usdinr_futures[t].get("price") is None and fwds.get(t) is not None:
                 usdinr_futures[t]["price"] = fwds[t]
                 usdinr_futures[t]["contract"] = source_name
+                usdinr_futures[t]["expiry"] = t
+
+    # Reject any forward price that is more than 3 INR below spot — these are stale or
+    # misparsed values from a prior spot regime that slipped through scraper validation.
+    if usdinr_spot is not None:
+        for t in ["3M", "6M", "12M", "24M"]:
+            px = (usdinr_futures.get(t) or {}).get("price")
+            if px is not None and px < usdinr_spot - 3.0:
+                usdinr_futures[t]["price"] = None
+
+    # Last-resort cache fallback: use the previous run's forward price for any tenor still
+    # missing a live price, provided the cached value is coherent with the current spot.
+    if usdinr_spot is not None and last:
+        last_futs = last.get("usdinr", {}).get("futures", {})
+        for t in ["3M", "6M", "12M", "24M"]:
+            if (usdinr_futures.get(t) or {}).get("price") is not None:
+                continue
+            cached_px = (last_futs.get(t) or {}).get("price")
+            if cached_px is not None and cached_px >= usdinr_spot - 3.0 and cached_px <= usdinr_spot + 20.0:
+                if t not in usdinr_futures:
+                    usdinr_futures[t] = {}
+                usdinr_futures[t]["price"] = cached_px
+                usdinr_futures[t]["contract"] = "cache"
                 usdinr_futures[t]["expiry"] = t
 
     write("commodities.json", {
