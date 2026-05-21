@@ -109,5 +109,5 @@
     }
   },
   "note": "ICE BofA option-adjusted spreads from FRED. Uses bounded CSV and graph API fallbacks over a recent window; cache is used only where FRED data is unavailable. Values are basis points. Status=cached: fresh=0, stale=0, cached=9.",
-  "_fetched": "2026-05-21T20:15:06.389984Z"
+  "_fetched": "2026-05-21T22:46:39.049527Z"
 }
