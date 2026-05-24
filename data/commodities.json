@@ -7,7 +7,7 @@
     "spot_source": "TradingEconomics",
     "unit": "USD/troy oz",
     "prior_1d": 4523.2,
-    "prior_1d_date": "2026-05-22",
+    "prior_1d_date": "2026-05-24",
     "prior_1m": 4722.3,
     "prior_1m_date": "2026-04-24",
     "prior_3m": 5204.7,
@@ -67,7 +67,7 @@
     "spot_source": "TradingEconomics",
     "unit": "USD/barrel",
     "prior_1d": 96.6,
-    "prior_1d_date": "2026-05-22",
+    "prior_1d_date": "2026-05-24",
     "prior_1m": 94.4,
     "prior_1m_date": "2026-04-24",
     "prior_3m": 66.31,
@@ -127,7 +127,7 @@
     "spot_source": "TradingEconomics",
     "unit": "USD/barrel",
     "prior_1d": 100.21,
-    "prior_1d_date": "2026-05-22",
+    "prior_1d_date": "2026-05-24",
     "prior_1m": 105.33,
     "prior_1m_date": "2026-04-24",
     "prior_3m": 71.49,
@@ -242,5 +242,5 @@
     }
   },
   "note": "Spot history comes from daily FRED series. Futures history is roll-aware by target date. USD/INR uses FRED DEXINUS with Investing scrape fallback for latest spot.",
-  "_fetched": "2026-05-24T19:44:27.686253Z"
+  "_fetched": "2026-05-24T22:14:55.624664Z"
 }
