@@ -1,19 +1,19 @@
 {
-  "date": "2026-05-24",
+  "date": "2026-05-25",
   "source": "FRED / TradingEconomics / Investing / Yahoo Finance",
   "gold": {
-    "spot": 4516.75,
+    "spot": 4561.46,
     "spot_date": "",
     "spot_source": "TradingEconomics",
     "unit": "USD/troy oz",
     "prior_1d": 4523.2,
-    "prior_1d_date": "2026-05-24",
+    "prior_1d_date": "2026-05-25",
     "prior_1m": 4722.3,
     "prior_1m_date": "2026-04-24",
     "prior_3m": 5204.7,
     "prior_3m_date": "2026-02-23",
-    "prior_1y": 3363.6,
-    "prior_1y_date": "2025-05-23",
+    "prior_1y": 3299.1,
+    "prior_1y_date": "2025-05-27",
     "futures": {
       "3M": {
         "price": 4556.4,
@@ -62,18 +62,18 @@
     }
   },
   "wti": {
-    "spot": 97.0,
+    "spot": 91.13,
     "spot_date": "",
     "spot_source": "TradingEconomics",
     "unit": "USD/barrel",
     "prior_1d": 96.6,
-    "prior_1d_date": "2026-05-24",
+    "prior_1d_date": "2026-05-25",
     "prior_1m": 94.4,
     "prior_1m_date": "2026-04-24",
     "prior_3m": 66.31,
     "prior_3m_date": "2026-02-23",
-    "prior_1y": 61.53,
-    "prior_1y_date": "2025-05-23",
+    "prior_1y": 60.89,
+    "prior_1y_date": "2025-05-27",
     "futures": {
       "3M": {
         "price": 93.09,
@@ -122,18 +122,18 @@
     }
   },
   "brent": {
-    "spot": 103.94,
+    "spot": 97.94,
     "spot_date": "",
     "spot_source": "TradingEconomics",
     "unit": "USD/barrel",
     "prior_1d": 100.21,
-    "prior_1d_date": "2026-05-24",
+    "prior_1d_date": "2026-05-25",
     "prior_1m": 105.33,
     "prior_1m_date": "2026-04-24",
     "prior_3m": 71.49,
     "prior_3m_date": "2026-02-23",
-    "prior_1y": 64.78,
-    "prior_1y_date": "2025-05-23",
+    "prior_1y": 64.09,
+    "prior_1y_date": "2025-05-27",
     "futures": {
       "3M": {
         "price": 100.21,
@@ -242,5 +242,5 @@
     }
   },
   "note": "Spot history comes from daily FRED series. Futures history is roll-aware by target date. USD/INR uses FRED DEXINUS with Investing scrape fallback for latest spot.",
-  "_fetched": "2026-05-24T22:14:55.624664Z"
+  "_fetched": "2026-05-25T04:55:57.776743Z"
 }
