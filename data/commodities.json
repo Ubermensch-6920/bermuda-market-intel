@@ -6,7 +6,7 @@
     "spot_date": "",
     "spot_source": "TradingEconomics",
     "unit": "USD/troy oz",
-    "prior_1d": 4523.2,
+    "prior_1d": 4574.1,
     "prior_1d_date": "2026-05-25",
     "prior_1m": 4675.4,
     "prior_1m_date": "2026-04-27",
@@ -16,7 +16,7 @@
     "prior_1y_date": "2025-05-27",
     "futures": {
       "3M": {
-        "price": 4556.4,
+        "price": 4606.8,
         "expiry": "Aug 2026",
         "contract": "GCQ26",
         "prior_1m": 4728.8,
@@ -62,11 +62,11 @@
     }
   },
   "wti": {
-    "spot": 90.45,
+    "spot": 90.62,
     "spot_date": "",
     "spot_source": "TradingEconomics",
     "unit": "USD/barrel",
-    "prior_1d": 96.6,
+    "prior_1d": 90.58,
     "prior_1d_date": "2026-05-25",
     "prior_1m": 96.37,
     "prior_1m_date": "2026-04-27",
@@ -76,7 +76,7 @@
     "prior_1y_date": "2025-05-27",
     "futures": {
       "3M": {
-        "price": 93.09,
+        "price": 87.84,
         "expiry": "Aug 2026",
         "contract": "CLQ26",
         "prior_1m": 91.45,
@@ -87,7 +87,7 @@
         "prior_3m_contract": "CLK26"
       },
       "6M": {
-        "price": 83.63,
+        "price": 80.56,
         "expiry": "Nov 2026",
         "contract": "CLX26",
         "prior_1m": 81.52,
@@ -122,11 +122,11 @@
     }
   },
   "brent": {
-    "spot": 96.61,
+    "spot": 96.82,
     "spot_date": "",
     "spot_source": "TradingEconomics",
     "unit": "USD/barrel",
-    "prior_1d": 100.21,
+    "prior_1d": 93.97,
     "prior_1d_date": "2026-05-25",
     "prior_1m": 108.23,
     "prior_1m_date": "2026-04-27",
@@ -136,7 +136,7 @@
     "prior_1y_date": "2025-05-27",
     "futures": {
       "3M": {
-        "price": 100.21,
+        "price": 93.93,
         "expiry": "Aug 2026",
         "contract": "BZQ26",
         "prior_1m": 101.69,
@@ -242,5 +242,5 @@
     }
   },
   "note": "Spot history comes from daily FRED series. Futures history is roll-aware by target date. USD/INR uses FRED DEXINUS with Investing scrape fallback for latest spot.",
-  "_fetched": "2026-05-25T20:02:40.468610Z"
+  "_fetched": "2026-05-25T22:21:42.466705Z"
 }
