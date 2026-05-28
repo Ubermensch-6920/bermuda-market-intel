@@ -1,6 +1,6 @@
 {
-  "date": "2026-05-27",
-  "prior_date": "2026-05-26",
+  "date": "2026-05-28",
+  "prior_date": "2026-05-27",
   "source": "US Treasury Daily Par Yield Curve",
   "url": "https://home.treasury.gov/resource-center/data-chart-center/interest-rates",
   "tenors": [
@@ -19,6 +19,20 @@
   ],
   "yields": [
     3.72,
+    3.69,
+    3.79,
+    3.8,
+    3.99,
+    4.07,
+    4.15,
+    4.29,
+    4.45,
+    4.715,
+    4.98,
+    4.98
+  ],
+  "prior_yields": [
+    3.72,
     3.68,
     3.79,
     3.8,
@@ -30,20 +44,6 @@
     4.745,
     5.01,
     5.01
-  ],
-  "prior_yields": [
-    3.72,
-    3.68,
-    3.8,
-    3.82,
-    4.01,
-    4.1,
-    4.19,
-    4.33,
-    4.5,
-    4.765,
-    5.03,
-    5.03
   ],
   "prior_1m_yields": [
     3.68,
@@ -90,5 +90,5 @@
     4.97
   ],
   "year_ago_date": "2025-05-28",
-  "_fetched": "2026-05-28T16:34:18.951225Z"
+  "_fetched": "2026-05-28T20:37:06.408602Z"
 }
