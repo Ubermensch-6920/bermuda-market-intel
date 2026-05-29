@@ -1638,9 +1638,9 @@
   ],
   "year_ago": {
     "rate": 4.33,
-    "date": "2025-05-28"
+    "date": "2025-05-29"
   },
   "term_rates": {},
   "note": "Published daily by NY Fed at ~8:00 AM ET. Averages are backward-looking compounded. Term SOFR via CME/FRED.",
-  "_fetched": "2026-05-28T22:47:07.188638Z"
+  "_fetched": "2026-05-29T04:44:44.059626Z"
 }
