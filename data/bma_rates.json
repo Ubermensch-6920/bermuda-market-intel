@@ -2297,5 +2297,5 @@
     }
   },
   "note": "Latest available BMA discount-rate workbook plus prior three quarter-end workbooks. Current top-level currencies are the latest quarter. For each currency, 'rates' aliases standard_spot_rates for backward compatibility.",
-  "_fetched": "2026-05-30T08:42:40.454062Z"
+  "_fetched": "2026-05-30T10:55:09.247938Z"
 }
