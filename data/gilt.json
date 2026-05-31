@@ -45,7 +45,7 @@
     5.018,
     null,
     5.637,
-    5.712
+    5.713
   ],
   "prior_1m_date": "TE month delta reconstruction",
   "prior_3m_yields": [
@@ -69,9 +69,9 @@
     4.652,
     null,
     5.27,
-    5.369
+    5.37
   ],
   "year_ago_date": "TE year delta reconstruction",
   "note": "Official BoE daily archive first; then market scrapes; then local history / cache.",
-  "_fetched": "2026-05-31T04:52:07.690300Z"
+  "_fetched": "2026-05-31T09:24:31.564692Z"
 }
