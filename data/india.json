@@ -1,5 +1,5 @@
 {
-  "date": "2026-05-30",
+  "date": "2026-05-31",
   "source": "Investing.com / TradingEconomics / FRED / cache",
   "url": "https://www.investing.com/rates-bonds/india-government-bonds",
   "tenors": [
@@ -72,5 +72,5 @@
   ],
   "year_ago_date": "TE year delta reconstruction",
   "note": "FBIL latest first, then Investing/TE/FRED, then local history / cache. India 3M curve is exact once local history accumulates.",
-  "_fetched": "2026-05-30T22:14:02.839365Z"
+  "_fetched": "2026-05-31T04:52:33.271700Z"
 }
