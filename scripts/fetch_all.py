@@ -1351,6 +1351,228 @@ def fetch_credit():
     })
     log.info(f"  CREDIT OK: {latest_date}, {len(spreads)} series")
 
+# ── 6b. CDS (Credit Default Swaps) ──
+def fetch_cds():
+    log.info("CDS: fetching")
+
+    # ── Part A: Corporate rating buckets — re-read credit.json (no extra FRED calls) ──
+    CORP_KEY_MAP = {
+        "aaa": ("aaa", "AAA Corp"),
+        "aa":  ("aa",  "AA Corp"),
+        "a":   ("a",   "A Corp"),
+        "bbb": ("bbb", "BBB Corp"),
+        "bb":  ("bb",  "BB Corp"),
+        "b":   ("b",   "B Corp"),
+        "ccc": ("ccc", "CCC Corp"),
+    }
+    corporate = {}
+    try:
+        credit_file = DATA / "credit.json"
+        if credit_file.exists():
+            credit_data = json.loads(credit_file.read_text())
+            for cds_key, (credit_key, display_name) in CORP_KEY_MAP.items():
+                row = credit_data.get("spreads", {}).get(credit_key)
+                if row and row.get("spread") is not None:
+                    corporate[cds_key] = {
+                        "name": display_name,
+                        "spread": row["spread"],
+                        "prior": row.get("prior"),
+                        "series_id": row.get("series_id", ""),
+                        "date": row.get("date", ""),
+                        "source": "credit.json",
+                    }
+    except Exception as e:
+        log.warning(f"  CDS corporate: could not read credit.json: {e}")
+
+    # ── Part B: US Sovereign 5Y CDS ──
+    sovereign_spread = None
+    sovereign_date = ""
+    sovereign_source = ""
+
+    # Attempt 1: TradingEconomics
+    try:
+        te_url = "https://tradingeconomics.com/united-states/credit-default-swap"
+        text = _strip_html(get(te_url, timeout=15))
+        patterns = [
+            r"Credit Default Swap[^0-9]{0,40}([0-9]+(?:\.[0-9]+)?)",
+            r"5\s*[Yy](?:ear)?\s+CDS[^0-9]{0,20}([0-9]+(?:\.[0-9]+)?)",
+            r"Actual[^0-9]{0,60}([0-9]+(?:\.[0-9]+)?)",
+            r"\b([0-9]{1,3}(?:\.[0-9]{1,2})?)\s*(?:bp|bps|basis)",
+        ]
+        for pat in patterns:
+            m = re.search(pat, text, flags=re.I)
+            if m:
+                v = float(m.group(1))
+                if 5 <= v <= 500:
+                    sovereign_spread = round(v, 1)
+                    sovereign_source = "TradingEconomics"
+                    sovereign_date = datetime.utcnow().strftime("%Y-%m-%d")
+                    log.info(f"  CDS sovereign (TE): {sovereign_spread}bp")
+                    break
+    except Exception as e:
+        log.warning(f"  CDS sovereign TE scrape failed: {e}")
+
+    # Attempt 2: worldgovernmentbonds fallback
+    if sovereign_spread is None:
+        try:
+            wgb_url = "https://www.worldgovernmentbonds.com/credit-default-swaps/"
+            text = _strip_html(get(wgb_url, timeout=15))
+            for pat in [r"United\s+States[^0-9]{0,30}([0-9]+(?:\.[0-9]+)?)",
+                        r"USA[^0-9]{0,20}([0-9]+(?:\.[0-9]+)?)"]:
+                m = re.search(pat, text, flags=re.I)
+                if m:
+                    v = float(m.group(1))
+                    if 5 <= v <= 500:
+                        sovereign_spread = round(v, 1)
+                        sovereign_source = "worldgovernmentbonds"
+                        sovereign_date = datetime.utcnow().strftime("%Y-%m-%d")
+                        log.info(f"  CDS sovereign (WGB): {sovereign_spread}bp")
+                        break
+        except Exception as e:
+            log.warning(f"  CDS sovereign WGB scrape failed: {e}")
+
+    # ── Part C: Sector OAS from FRED ──
+    SECTOR_SERIES = {
+        "financial_ig": {"series_id": "BAMLC0A0CMFIN",    "name": "Financials IG"},
+        "financial_hy": {"series_id": "BAMLH0A0HYM2FIN",  "name": "Financials HY"},
+        "tech_ig":      {"series_id": "BAMLC8A0C7T10YEY", "name": "Technology IG"},
+        "tech_hy":      {"series_id": "BAMLH0A0HYM2TMK",  "name": "Technology HY"},
+    }
+    sector = {}
+
+    # Stage 1: bulk multi-series FRED fetch
+    sector_sids = [v["series_id"] for v in SECTOR_SERIES.values()]
+    try:
+        multi = fred_multi_csv(sector_sids, start="2024-01-01", retries=1)
+        for sec_key, meta in SECTOR_SERIES.items():
+            sid = meta["series_id"]
+            obs = multi.get(sid, [])
+            if obs:
+                curr = round(obs[0]["value"] * 100)
+                prior_val = round(obs[1]["value"] * 100) if len(obs) > 1 else curr
+                sector[sec_key] = {
+                    "name": meta["name"],
+                    "spread": curr,
+                    "prior": prior_val,
+                    "series_id": sid,
+                    "date": obs[0]["date"],
+                    "source": "fred_multi",
+                }
+                log.info(f"  CDS sector {sec_key}: {curr}bp")
+    except Exception as e:
+        log.warning(f"  CDS sector bulk FRED failed: {e}")
+
+    # Stage 2: individual download fallback for any missing sector series
+    for sec_key, meta in SECTOR_SERIES.items():
+        if sec_key in sector:
+            continue
+        sid = meta["series_id"]
+        try:
+            obs = fred_download_csv(sid, start="2024-01-01")
+            if obs:
+                curr = round(obs[0]["value"] * 100)
+                prior_val = round(obs[1]["value"] * 100) if len(obs) > 1 else curr
+                sector[sec_key] = {
+                    "name": meta["name"],
+                    "spread": curr,
+                    "prior": prior_val,
+                    "series_id": sid,
+                    "date": obs[0]["date"],
+                    "source": "fred_download",
+                }
+                log.info(f"  CDS sector {sec_key}: {curr}bp (download)")
+            else:
+                log.warning(f"  CDS sector {sec_key}: no data on FRED")
+        except Exception as e:
+            log.warning(f"  CDS sector {sec_key} download failed: {e}")
+
+    # ── Stage 3: cache fallback for all three dimensions ──
+    try:
+        last_cds_file = DATA / "cds.json"
+        if last_cds_file.exists():
+            last_cds = json.loads(last_cds_file.read_text())
+
+            for k in CORP_KEY_MAP:
+                if k not in corporate:
+                    cached_row = last_cds.get("corporate", {}).get(k)
+                    if cached_row:
+                        cached_row = dict(cached_row)
+                        cached_row["source"] = "cache"
+                        corporate[k] = cached_row
+
+            if sovereign_spread is None:
+                last_sov = last_cds.get("sovereign", {}).get("us_5y")
+                if last_sov and last_sov.get("spread") is not None:
+                    sovereign_spread = last_sov["spread"]
+                    sovereign_date = last_sov.get("date", "")
+                    sovereign_source = "cache"
+                    log.warning("  CDS sovereign: using cache fallback")
+
+            for k, meta in SECTOR_SERIES.items():
+                if k not in sector:
+                    cached_sec = last_cds.get("sector", {}).get(k)
+                    if cached_sec:
+                        cached_sec = dict(cached_sec)
+                        cached_sec["source"] = "cache"
+                        sector[k] = cached_sec
+    except Exception as e:
+        log.warning(f"  CDS cache fallback failed: {e}")
+
+    # Fill any still-missing sector entries with explicit unavailable marker
+    for k, meta in SECTOR_SERIES.items():
+        if k not in sector:
+            sector[k] = {
+                "name": meta["name"],
+                "spread": None,
+                "prior": None,
+                "series_id": meta["series_id"],
+                "date": "",
+                "source": "unavailable",
+            }
+
+    # ── Determine overall status ──
+    fresh_corp = sum(1 for v in corporate.values() if v.get("source") == "credit.json")
+    has_sov = sovereign_spread is not None and sovereign_source not in ("cache", "")
+    fresh_sector = sum(1 for v in sector.values() if v.get("source", "").startswith("fred"))
+    any_cache = (
+        any(v.get("source") == "cache" for v in corporate.values()) or
+        sovereign_source == "cache" or
+        any(v.get("source") in ("cache", "unavailable") for v in sector.values())
+    )
+    if fresh_corp >= 7 and fresh_sector >= 1:
+        status = "ok"
+    elif fresh_corp >= 3 or has_sov or fresh_sector >= 1:
+        status = "partial"
+    elif any_cache:
+        status = "cached"
+    else:
+        status = "stale"
+
+    dates = (
+        [v.get("date", "") for v in corporate.values()] +
+        [v.get("date", "") for v in sector.values() if v.get("date")] +
+        ([sovereign_date] if sovereign_date else [])
+    )
+    latest_date = max(dates, default="")
+
+    write("cds.json", {
+        "date": latest_date,
+        "source": "FRED ICE BofA / TradingEconomics",
+        "status": status,
+        "sovereign": {
+            "us_5y": {
+                "name": "US 5Y CDS",
+                "spread": sovereign_spread,
+                "prior": None,
+                "date": sovereign_date,
+                "source": sovereign_source,
+            }
+        },
+        "corporate": corporate,
+        "sector": sector,
+    })
+    log.info(f"  CDS OK: {latest_date}, status={status}, sov={sovereign_spread}, corp={len(corporate)}, sector={len(sector)}")
+
 # ── 7. SOFR ──
 def fetch_sofr():
     log.info("SOFR: fetching from NY Fed API")
@@ -2223,6 +2445,7 @@ def main():
         ("eur", fetch_eur),
         ("india", fetch_india),
         ("credit", fetch_credit),
+        ("cds", fetch_cds),
         ("sofr", fetch_sofr),
         ("bma_rates", fetch_bma_rates),
         ("commodities", fetch_commodities),

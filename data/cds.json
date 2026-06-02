@@ -1,0 +1,107 @@
+{
+  "date": "",
+  "source": "FRED ICE BofA / TradingEconomics",
+  "status": "partial",
+  "sovereign": {
+    "us_5y": {
+      "name": "US 5Y CDS",
+      "spread": null,
+      "prior": null,
+      "date": "",
+      "source": ""
+    }
+  },
+  "corporate": {
+    "aaa": {
+      "name": "AAA Corp",
+      "spread": 39,
+      "prior": 41,
+      "series_id": "BAMLC0A1CAAA",
+      "date": "",
+      "source": "credit.json"
+    },
+    "aa": {
+      "name": "AA Corp",
+      "spread": 54,
+      "prior": 55,
+      "series_id": "BAMLC0A2CAA",
+      "date": "",
+      "source": "credit.json"
+    },
+    "a": {
+      "name": "A Corp",
+      "spread": 73,
+      "prior": 73,
+      "series_id": "BAMLC0A3CA",
+      "date": "",
+      "source": "credit.json"
+    },
+    "bbb": {
+      "name": "BBB Corp",
+      "spread": 111,
+      "prior": 111,
+      "series_id": "BAMLC0A4CBBB",
+      "date": "",
+      "source": "credit.json"
+    },
+    "bb": {
+      "name": "BB Corp",
+      "spread": 197,
+      "prior": 200,
+      "series_id": "BAMLH0A1HYBB",
+      "date": "",
+      "source": "credit.json"
+    },
+    "b": {
+      "name": "B Corp",
+      "spread": 350,
+      "prior": 357,
+      "series_id": "BAMLH0A2HYB",
+      "date": "",
+      "source": "credit.json"
+    },
+    "ccc": {
+      "name": "CCC Corp",
+      "spread": 975,
+      "prior": 979,
+      "series_id": "BAMLH0A3HYC",
+      "date": "",
+      "source": "credit.json"
+    }
+  },
+  "sector": {
+    "financial_ig": {
+      "name": "Financials IG",
+      "spread": null,
+      "prior": null,
+      "series_id": "BAMLC0A0CMFIN",
+      "date": "",
+      "source": "unavailable"
+    },
+    "financial_hy": {
+      "name": "Financials HY",
+      "spread": null,
+      "prior": null,
+      "series_id": "BAMLH0A0HYM2FIN",
+      "date": "",
+      "source": "unavailable"
+    },
+    "tech_ig": {
+      "name": "Technology IG",
+      "spread": null,
+      "prior": null,
+      "series_id": "BAMLC8A0C7T10YEY",
+      "date": "",
+      "source": "unavailable"
+    },
+    "tech_hy": {
+      "name": "Technology HY",
+      "spread": null,
+      "prior": null,
+      "series_id": "BAMLH0A0HYM2TMK",
+      "date": "",
+      "source": "unavailable"
+    }
+  },
+  "_fetched": "2026-06-02T17:12:06.643753Z"
+}

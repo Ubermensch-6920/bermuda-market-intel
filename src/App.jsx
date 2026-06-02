@@ -234,6 +234,174 @@ const CreditSection = ({ data, loading: ld, error }) => {
 };
 
 // ═══════════════════════════════════════════
+// CDS SPREADS SECTION
+// ═══════════════════════════════════════════
+const CORP_ORDER = ["aaa", "aa", "a", "bbb", "bb", "b", "ccc"];
+const CORP_LABELS = { aaa: "AAA", aa: "AA", a: "A", bbb: "BBB", bb: "BB", b: "B", ccc: "CCC" };
+const IS_HY = new Set(["bb", "b", "ccc"]);
+const SECTOR_ORDER = ["financial_ig", "financial_hy", "tech_ig", "tech_hy"];
+
+const CDSSection = ({ data, loading: ld, error }) => {
+  if (ld) return <div style={{ background: "#0d0f14", border: "1px solid #1e2028", borderRadius: 10, padding: 40, textAlign: "center", color: "#94a3b8" }}><Loader size={24} style={{ animation: "spin 1s linear infinite", margin: "0 auto 10px", display: "block", color: "#60a5fa" }} />Loading…</div>;
+  if (error) return <div style={{ background: "#0d0f14", border: "1px solid #1e2028", borderRadius: 10, padding: 20 }}><h3 style={{ margin: "0 0 8px", fontSize: 16, fontWeight: 700, color: "#f1f5f9" }}>CDS Spreads</h3><div style={{ color: "#f87171", fontSize: 13 }}><AlertTriangle size={14} style={{ verticalAlign: "middle", marginRight: 6 }} />{error}</div></div>;
+  if (!data) return null;
+
+  const sovereign = data.sovereign?.us_5y;
+  const corporate = data.corporate || {};
+  const sector = data.sector || {};
+
+  const fmtBp = v => v != null ? v + "bp" : "—";
+  const cdsChgCol = v => v > 0 ? "#f87171" : v < 0 ? "#4ade80" : "#94a3b8";
+  const spreadChg = (curr, prior) => curr != null && prior != null ? curr - prior : null;
+
+  const hasCache = (
+    Object.values(corporate).some(r => r.source === "cache") ||
+    Object.values(sector).some(r => r.source === "cache") ||
+    sovereign?.source === "cache"
+  );
+
+  return (<div style={{ display: "flex", flexDirection: "column", gap: 16 }}>
+    <div style={{ background: "#0d0f14", border: "1px solid #1e2028", borderRadius: 10, overflow: "hidden" }}>
+
+      {/* Header */}
+      <div style={{ padding: "16px 22px", borderBottom: "1px solid #1e2028" }}>
+        <h3 style={{ margin: 0, fontSize: 17, fontWeight: 700, color: "#f1f5f9" }}>CDS Spreads</h3>
+        <DataFresh date={data.date} source={data.source} />
+        {data.status && data.status !== "ok" && (
+          <div style={{ fontSize: 11, color: "#f59e0b", marginTop: 5 }}>
+            <AlertTriangle size={12} style={{ verticalAlign: "middle", marginRight: 4 }} />
+            Data status: {data.status}
+          </div>
+        )}
+      </div>
+
+      {hasCache && (
+        <div style={{ padding: "8px 22px", background: "#1a1206", borderBottom: "1px solid #854d0e", display: "flex", alignItems: "center", gap: 8, fontSize: 12, color: "#fbbf24" }}>
+          <AlertTriangle size={13} />
+          Some data is from cache — live fetch was unavailable at last run.
+        </div>
+      )}
+
+      {/* Panel A: US Sovereign CDS */}
+      <div style={{ padding: "16px 22px", borderBottom: "1px solid #1e2028" }}>
+        <div style={{ fontSize: 12, color: "#94a3b8", fontWeight: 700, textTransform: "uppercase", letterSpacing: "0.08em", marginBottom: 12 }}>US Sovereign CDS</div>
+        {sovereign && sovereign.spread != null ? (
+          <div style={{ display: "flex", gap: 16, flexWrap: "wrap" }}>
+            <div style={{ background: "#12141a", border: "1px solid #2a2d35", borderRadius: 10, padding: "14px 20px", minWidth: 200 }}>
+              <div style={{ fontSize: 12, color: "#94a3b8", fontWeight: 600, marginBottom: 6 }}>{sovereign.name || "US 5Y CDS"}</div>
+              <div style={{ display: "flex", alignItems: "baseline", gap: 10 }}>
+                <span style={{ fontSize: 28, fontWeight: 700, color: "#f1f5f9", fontFamily: "monospace" }}>{sovereign.spread}bp</span>
+                {(() => { const chg = spreadChg(sovereign.spread, sovereign.prior); if (chg == null) return null; return <span style={{ fontSize: 13, color: cdsChgCol(chg), fontWeight: 600, fontFamily: "monospace", display: "flex", alignItems: "center", gap: 3 }}><ChgIcon v={chg} />{Math.abs(chg).toFixed(1)}bp</span>; })()}
+              </div>
+              <div style={{ fontSize: 11, color: "#475569", marginTop: 4 }}>
+                5Y CDS on US Treasuries{sovereign.date ? ` • ${sovereign.date}` : ""}{sovereign.source && sovereign.source !== "cache" ? ` • ${sovereign.source}` : ""}
+              </div>
+            </div>
+          </div>
+        ) : (
+          <div style={{ color: "#64748b", fontSize: 13 }}>No sovereign CDS data available — will populate from TradingEconomics on next pipeline run.</div>
+        )}
+      </div>
+
+      {/* Panel B: Corporate CDS by Rating */}
+      <div style={{ padding: "10px 22px 16px", borderBottom: "1px solid #1e2028", overflowX: "auto" }}>
+        <div style={{ fontSize: 12, color: "#94a3b8", fontWeight: 700, textTransform: "uppercase", letterSpacing: "0.08em", marginBottom: 10 }}>Corporate CDS Equivalent — By Rating</div>
+        <table style={{ width: "100%", borderCollapse: "collapse", fontSize: 13 }}>
+          <thead>
+            <tr style={{ borderBottom: "2px solid #1e2028" }}>
+              {["Rating", "Spread (bp)", "Prior", "Chg (bp)", "Source"].map(h => (
+                <th key={h} style={{ textAlign: h === "Rating" ? "left" : "right", padding: "8px 12px", color: "#94a3b8", fontWeight: 700, fontSize: 12 }}>{h}</th>
+              ))}
+            </tr>
+          </thead>
+          <tbody>
+            {CORP_ORDER.map(k => {
+              const r = corporate[k];
+              const isHY = IS_HY.has(k);
+              if (!r) return (
+                <tr key={k} style={{ borderBottom: "1px solid #151820" }}>
+                  <td style={{ padding: "7px 12px", color: "#f1f5f9", fontWeight: 600 }}>{CORP_LABELS[k]} <Badge color={isHY ? "#f87171" : "#4ade80"}>{isHY ? "HY" : "IG"}</Badge></td>
+                  <td colSpan={4} style={{ padding: "7px 12px", color: "#475569", textAlign: "right", fontSize: 12 }}>—</td>
+                </tr>
+              );
+              const chg = spreadChg(r.spread, r.prior);
+              return (
+                <tr key={k} style={{ borderBottom: "1px solid #151820" }}>
+                  <td style={{ padding: "7px 12px", color: "#f1f5f9", fontWeight: 600, fontSize: 13 }}>
+                    {r.name || CORP_LABELS[k]} <Badge color={isHY ? "#f87171" : "#4ade80"}>{isHY ? "HY" : "IG"}</Badge>
+                  </td>
+                  <td style={{ padding: "7px 12px", color: "#f1f5f9", textAlign: "right", fontFamily: "monospace", fontWeight: 700, fontSize: 14 }}>{fmtBp(r.spread)}</td>
+                  <td style={{ padding: "7px 12px", color: "#94a3b8", textAlign: "right", fontFamily: "monospace" }}>{r.prior != null ? r.prior + "bp" : "—"}</td>
+                  <td style={{ padding: "7px 12px", textAlign: "right", fontFamily: "monospace", color: chg != null ? cdsChgCol(chg) : "#94a3b8", fontWeight: 600 }}>
+                    {chg != null ? (chg > 0 ? "+" : "") + chg : "—"}
+                  </td>
+                  <td style={{ padding: "7px 12px", textAlign: "right" }}>
+                    {r.source === "cache" && <Badge color="#f59e0b">Cached</Badge>}
+                    {r.source === "credit.json" && <Badge color="#60a5fa">FRED</Badge>}
+                    {r.source?.startsWith("fred") && <Badge color="#60a5fa">FRED</Badge>}
+                  </td>
+                </tr>
+              );
+            })}
+          </tbody>
+        </table>
+        <div style={{ fontSize: 11, color: "#475569", marginTop: 8 }}>ICE BofA OAS indices via FRED — used as 5Y CDS spread proxy.</div>
+      </div>
+
+      {/* Panel C: Sector CDS Indices */}
+      <div style={{ padding: "10px 22px 16px", overflowX: "auto" }}>
+        <div style={{ fontSize: 12, color: "#94a3b8", fontWeight: 700, textTransform: "uppercase", letterSpacing: "0.08em", marginBottom: 10 }}>Sector CDS Indices — Tech &amp; Finance</div>
+        <table style={{ width: "100%", borderCollapse: "collapse", fontSize: 13 }}>
+          <thead>
+            <tr style={{ borderBottom: "2px solid #1e2028" }}>
+              {["Sector", "Spread (bp)", "Prior", "Chg (bp)", "Series", "Source"].map(h => (
+                <th key={h} style={{ textAlign: h === "Sector" ? "left" : "right", padding: "8px 12px", color: "#94a3b8", fontWeight: 700, fontSize: 12 }}>{h}</th>
+              ))}
+            </tr>
+          </thead>
+          <tbody>
+            {SECTOR_ORDER.map(k => {
+              const r = sector[k];
+              const isHY = k.endsWith("_hy");
+              if (!r || r.spread == null) return (
+                <tr key={k} style={{ borderBottom: "1px solid #151820" }}>
+                  <td style={{ padding: "7px 12px", color: "#f1f5f9", fontWeight: 600 }}>
+                    {r?.name || k} <Badge color={isHY ? "#f87171" : "#4ade80"}>{isHY ? "HY" : "IG"}</Badge>
+                  </td>
+                  <td colSpan={5} style={{ padding: "7px 12px", color: "#475569", textAlign: "right", fontSize: 12 }}>
+                    {r?.source === "unavailable" ? "Series unavailable on FRED" : "—"}
+                  </td>
+                </tr>
+              );
+              const chg = spreadChg(r.spread, r.prior);
+              return (
+                <tr key={k} style={{ borderBottom: "1px solid #151820" }}>
+                  <td style={{ padding: "7px 12px", color: "#f1f5f9", fontWeight: 600 }}>
+                    {r.name} <Badge color={isHY ? "#f87171" : "#4ade80"}>{isHY ? "HY" : "IG"}</Badge>
+                  </td>
+                  <td style={{ padding: "7px 12px", color: "#f1f5f9", textAlign: "right", fontFamily: "monospace", fontWeight: 700, fontSize: 14 }}>{fmtBp(r.spread)}</td>
+                  <td style={{ padding: "7px 12px", color: "#94a3b8", textAlign: "right", fontFamily: "monospace" }}>{r.prior != null ? r.prior + "bp" : "—"}</td>
+                  <td style={{ padding: "7px 12px", textAlign: "right", fontFamily: "monospace", color: chg != null ? cdsChgCol(chg) : "#94a3b8", fontWeight: 600 }}>
+                    {chg != null ? (chg > 0 ? "+" : "") + chg : "—"}
+                  </td>
+                  <td style={{ padding: "7px 12px", color: "#475569", textAlign: "right", fontFamily: "monospace", fontSize: 11 }}>{r.series_id || "—"}</td>
+                  <td style={{ padding: "7px 12px", textAlign: "right" }}>
+                    {r.source === "cache" && <Badge color="#f59e0b">Cached</Badge>}
+                    {r.source?.startsWith("fred") && <Badge color="#60a5fa">FRED</Badge>}
+                    {r.source === "unavailable" && <Badge color="#475569">N/A</Badge>}
+                  </td>
+                </tr>
+              );
+            })}
+          </tbody>
+        </table>
+        <div style={{ fontSize: 11, color: "#475569", marginTop: 8 }}>Sector OAS sub-indices from FRED ICE BofA. Series availability varies.</div>
+      </div>
+    </div>
+  </div>);
+};
+
+// ═══════════════════════════════════════════
 // BMA DISCOUNT RATES SECTION (new)
 // ═══════════════════════════════════════════
 const BmaRatesSection = ({ data, loading: ld, error }) => {
@@ -743,9 +911,10 @@ const PAGES = [
   { id: "commodities", label: "Commodities", icon: Gem },
   { id: "sofr", label: "SOFR", icon: TrendingUp },
   { id: "credit", label: "Credit Spreads", icon: Percent },
+  { id: "cds", label: "CDS Spreads", icon: BarChart3 },
   { id: "news", label: "News", icon: Newspaper }, { id: "bma", label: "BMA Updates", icon: Shield },
 ];
-const FILES = { ust: "ust.json", jgb: "jgb.json", gilt: "gilt.json", eiopa: "eur.json", india: "india.json", credit: "credit.json", sofr: "sofr.json", bma_rates: "bma_rates.json", commodities: "commodities.json" };
+const FILES = { ust: "ust.json", jgb: "jgb.json", gilt: "gilt.json", eiopa: "eur.json", india: "india.json", credit: "credit.json", cds: "cds.json", sofr: "sofr.json", bma_rates: "bma_rates.json", commodities: "commodities.json" };
 
 export default function App() {
   const [page, setPage] = useState("home");
@@ -798,6 +967,7 @@ export default function App() {
       case "commodities": return <CommoditiesSection data={data.commodities} loading={ls.commodities} error={errs.commodities} />;
       case "sofr": return <SofrSection data={data.sofr} loading={ls.sofr} error={errs.sofr} />;
       case "credit": return <CreditSection data={data.credit} loading={ls.credit} error={errs.credit} />;
+      case "cds": return <CDSSection data={data.cds} loading={ls.cds} error={errs.cds} />;
       case "news": return <NewsSection />; case "bma": return <BMAUpdSection />;
       default: return (<div style={{ display: "flex", flexDirection: "column", gap: 20 }}>
         {noData && <div style={{ background: "#1a1206", border: "1px solid #854d0e", borderRadius: 10, padding: "18px 22px" }}>
@@ -895,7 +1065,7 @@ export default function App() {
       </div>
       <div style={{ flex: 1, overflow: "auto", padding: 20 }}>{renderPage()}</div>
       <div style={{ height: 28, padding: "0 22px", borderTop: "1px solid #1a1d23", background: "#0a0c12", display: "flex", alignItems: "center", justifyContent: "space-between", fontSize: 11, color: "#475569", flexShrink: 0 }}>
-        <div style={{ display: "flex", gap: 16 }}>{ust10y != null && <span>UST 10Y: {fmtY(ust10y)}</span>}{jgb10y != null && <span>JGB 10Y: {fmtY(jgb10y)}</span>}{gilt10y != null && <span>Gilt 10Y: {fmtY(gilt10y)}</span>}{india10y != null && <span>India 10Y: {fmtY(india10y)}</span>}{sofrRate != null && <span>SOFR: {sofrRate.toFixed(2)}%</span>}{igS != null && <span>IG: {igS}bp</span>}{hyS != null && <span>HY: {hyS}bp</span>}{data.commodities?.usdinr?.spot != null && <span>USD/INR: {data.commodities.usdinr.spot.toFixed(4)}</span>}</div>
+        <div style={{ display: "flex", gap: 16 }}>{ust10y != null && <span>UST 10Y: {fmtY(ust10y)}</span>}{jgb10y != null && <span>JGB 10Y: {fmtY(jgb10y)}</span>}{gilt10y != null && <span>Gilt 10Y: {fmtY(gilt10y)}</span>}{india10y != null && <span>India 10Y: {fmtY(india10y)}</span>}{sofrRate != null && <span>SOFR: {sofrRate.toFixed(2)}%</span>}{igS != null && <span>IG: {igS}bp</span>}{hyS != null && <span>HY: {hyS}bp</span>}{data.cds?.sovereign?.us_5y?.spread != null && <span>US CDS: {data.cds.sovereign.us_5y.spread}bp</span>}{data.commodities?.usdinr?.spot != null && <span>USD/INR: {data.commodities.usdinr.spot.toFixed(4)}</span>}</div>
         <span>{PLATFORM_NAME} • {TOOL_NAME} • v9</span>
       </div>
     </div>
