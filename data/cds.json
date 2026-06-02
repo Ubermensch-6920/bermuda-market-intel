@@ -76,7 +76,7 @@
       "prior": null,
       "series_id": "BAMLC0A0CMFIN",
       "date": "",
-      "source": "unavailable"
+      "source": "cache"
     },
     "financial_hy": {
       "name": "Financials HY",
@@ -84,7 +84,7 @@
       "prior": null,
       "series_id": "BAMLH0A0HYM2FIN",
       "date": "",
-      "source": "unavailable"
+      "source": "cache"
     },
     "tech_ig": {
       "name": "Technology IG",
@@ -92,7 +92,7 @@
       "prior": null,
       "series_id": "BAMLC8A0C7T10YEY",
       "date": "",
-      "source": "unavailable"
+      "source": "cache"
     },
     "tech_hy": {
       "name": "Technology HY",
@@ -100,8 +100,8 @@
       "prior": null,
       "series_id": "BAMLH0A0HYM2TMK",
       "date": "",
-      "source": "unavailable"
+      "source": "cache"
     }
   },
-  "_fetched": "2026-06-02T17:12:06.643753Z"
+  "_fetched": "2026-06-02T17:28:44.615687Z"
 }

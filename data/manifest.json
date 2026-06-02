@@ -6,10 +6,11 @@
     "eur": "ok",
     "india": "ok",
     "credit": "cached",
+    "cds": "ok",
     "sofr": "ok",
     "bma_rates": "ok",
     "commodities": "ok"
   },
-  "run": "2026-06-02T16:58:44.856915Z",
-  "_fetched": "2026-06-02T16:59:29.456453Z"
+  "run": "2026-06-02T17:31:25.890106Z",
+  "_fetched": "2026-06-02T17:32:10.501057Z"
 }
