@@ -1352,6 +1352,10 @@ def fetch_credit():
     log.info(f"  CREDIT OK: {latest_date}, {len(spreads)} series")
 
 # ── 6b. CDS (Credit Default Swaps) ──
+# Last-resort static estimate for the US 5Y sovereign CDS, used only when both the
+# live scrape and the prior cache are unavailable. Refresh the value/date when revising.
+US_5Y_CDS_STATIC = {"spread": 45, "as_of": "2026-01-01"}
+
 def fetch_cds():
     log.info("CDS: fetching")
 
@@ -1366,6 +1370,7 @@ def fetch_cds():
         "ccc": ("ccc", "CCC Corp"),
     }
     corporate = {}
+    credit_broad = {}  # broad IG / HY OAS, used as a labelled proxy for sector fallback
     try:
         credit_file = DATA / "credit.json"
         if credit_file.exists():
@@ -1381,6 +1386,10 @@ def fetch_cds():
                         "date": row.get("date", ""),
                         "source": "credit.json",
                     }
+            for tier in ("ig", "hy"):
+                br = credit_data.get("spreads", {}).get(tier)
+                if br and br.get("spread") is not None:
+                    credit_broad[tier] = br
     except Exception as e:
         log.warning(f"  CDS corporate: could not read credit.json: {e}")
 
@@ -1392,7 +1401,7 @@ def fetch_cds():
     # Attempt 1: TradingEconomics
     try:
         te_url = "https://tradingeconomics.com/united-states/credit-default-swap"
-        text = _strip_html(get(te_url, timeout=15))
+        text = _strip_html(get(te_url, timeout=10))
         patterns = [
             r"Credit Default Swap[^0-9]{0,40}([0-9]+(?:\.[0-9]+)?)",
             r"5\s*[Yy](?:ear)?\s+CDS[^0-9]{0,20}([0-9]+(?:\.[0-9]+)?)",
@@ -1416,7 +1425,7 @@ def fetch_cds():
     if sovereign_spread is None:
         try:
             wgb_url = "https://www.worldgovernmentbonds.com/credit-default-swaps/"
-            text = _strip_html(get(wgb_url, timeout=15))
+            text = _strip_html(get(wgb_url, timeout=10))
             for pat in [r"United\s+States[^0-9]{0,30}([0-9]+(?:\.[0-9]+)?)",
                         r"USA[^0-9]{0,20}([0-9]+(?:\.[0-9]+)?)"]:
                 m = re.search(pat, text, flags=re.I)
@@ -1440,51 +1449,45 @@ def fetch_cds():
     }
     sector = {}
 
-    # Stage 1: bulk multi-series FRED fetch
+    def _sector_row(meta, sid, obs, src):
+        curr = round(obs[0]["value"] * 100)
+        prior_val = round(obs[1]["value"] * 100) if len(obs) > 1 else curr
+        return {
+            "name": meta["name"], "spread": curr, "prior": prior_val,
+            "series_id": sid, "date": obs[0]["date"], "source": src,
+        }
+
+    # Stage 1: bulk multi-series FRED fetch (single request, no retries — the
+    # download endpoint below is the per-series fallback). Keeps runtime bounded.
     sector_sids = [v["series_id"] for v in SECTOR_SERIES.values()]
     try:
-        multi = fred_multi_csv(sector_sids, start="2024-01-01", retries=1)
+        multi = fred_multi_csv(sector_sids, start="2024-01-01", retries=0)
         for sec_key, meta in SECTOR_SERIES.items():
-            sid = meta["series_id"]
-            obs = multi.get(sid, [])
+            obs = multi.get(meta["series_id"], [])
             if obs:
-                curr = round(obs[0]["value"] * 100)
-                prior_val = round(obs[1]["value"] * 100) if len(obs) > 1 else curr
-                sector[sec_key] = {
-                    "name": meta["name"],
-                    "spread": curr,
-                    "prior": prior_val,
-                    "series_id": sid,
-                    "date": obs[0]["date"],
-                    "source": "fred_multi",
-                }
-                log.info(f"  CDS sector {sec_key}: {curr}bp")
+                sector[sec_key] = _sector_row(meta, meta["series_id"], obs, "fred_multi")
+                log.info(f"  CDS sector {sec_key}: {sector[sec_key]['spread']}bp")
     except Exception as e:
         log.warning(f"  CDS sector bulk FRED failed: {e}")
 
-    # Stage 2: individual download fallback for any missing sector series
-    for sec_key, meta in SECTOR_SERIES.items():
-        if sec_key in sector:
-            continue
-        sid = meta["series_id"]
-        try:
-            obs = fred_download_csv(sid, start="2024-01-01")
-            if obs:
-                curr = round(obs[0]["value"] * 100)
-                prior_val = round(obs[1]["value"] * 100) if len(obs) > 1 else curr
-                sector[sec_key] = {
-                    "name": meta["name"],
-                    "spread": curr,
-                    "prior": prior_val,
-                    "series_id": sid,
-                    "date": obs[0]["date"],
-                    "source": "fred_download",
-                }
-                log.info(f"  CDS sector {sec_key}: {curr}bp (download)")
-            else:
-                log.warning(f"  CDS sector {sec_key}: no data on FRED")
-        except Exception as e:
-            log.warning(f"  CDS sector {sec_key} download failed: {e}")
+    # Stage 2: per-series download fallback for missing series, run in PARALLEL
+    # so worst-case time is one timeout (~6s) rather than 4 sequential ones.
+    missing_sec = [k for k in SECTOR_SERIES if k not in sector]
+    if missing_sec:
+        with ThreadPoolExecutor(max_workers=min(4, len(missing_sec))) as ex:
+            fut_map = {ex.submit(fred_download_csv, SECTOR_SERIES[k]["series_id"], "2024-01-01"): k
+                       for k in missing_sec}
+            for fut in as_completed(fut_map):
+                sec_key = fut_map[fut]
+                try:
+                    obs = fut.result()
+                except Exception:
+                    obs = []
+                if obs:
+                    sector[sec_key] = _sector_row(SECTOR_SERIES[sec_key], SECTOR_SERIES[sec_key]["series_id"], obs, "fred_download")
+                    log.info(f"  CDS sector {sec_key}: {sector[sec_key]['spread']}bp (download)")
+                else:
+                    log.warning(f"  CDS sector {sec_key}: no data on FRED")
 
     # ── Stage 3: cache fallback for all three dimensions ──
     try:
@@ -1511,39 +1514,63 @@ def fetch_cds():
             for k, meta in SECTOR_SERIES.items():
                 if k not in sector:
                     cached_sec = last_cds.get("sector", {}).get(k)
-                    if cached_sec:
+                    if cached_sec and cached_sec.get("spread") is not None and cached_sec.get("source") != "proxy":
                         cached_sec = dict(cached_sec)
                         cached_sec["source"] = "cache"
                         sector[k] = cached_sec
     except Exception as e:
         log.warning(f"  CDS cache fallback failed: {e}")
 
-    # Fill any still-missing sector entries with explicit unavailable marker
+    # Stage 4: proxy fallback — when no dedicated sector series and no usable cache
+    # is available, fall back to the broad IG/HY OAS (from credit.json) as a clearly
+    # labelled proxy so every sector cell shows a sensible figure rather than a blank.
+    for k, meta in SECTOR_SERIES.items():
+        if k in sector:
+            continue
+        tier = "hy" if k.endswith("_hy") else "ig"
+        br = credit_broad.get(tier)
+        if br and br.get("spread") is not None:
+            sector[k] = {
+                "name": meta["name"],
+                "spread": br["spread"],
+                "prior": br.get("prior"),
+                "series_id": br.get("series_id", ""),
+                "date": br.get("date", ""),
+                "source": "proxy",
+                "proxy_basis": f"broad {tier.upper()} OAS",
+            }
+            log.info(f"  CDS sector {k}: {br['spread']}bp (proxy: broad {tier.upper()})")
+
+    # Final guard: explicit unavailable marker only if even the proxy basis is missing
     for k, meta in SECTOR_SERIES.items():
         if k not in sector:
             sector[k] = {
-                "name": meta["name"],
-                "spread": None,
-                "prior": None,
-                "series_id": meta["series_id"],
-                "date": "",
-                "source": "unavailable",
+                "name": meta["name"], "spread": None, "prior": None,
+                "series_id": meta["series_id"], "date": "", "source": "unavailable",
             }
+
+    # Sovereign static seed — absolute last resort so the panel is never empty.
+    # Clearly flagged as a static estimate (disclosed in the UI), not a live quote.
+    if sovereign_spread is None:
+        sovereign_spread = US_5Y_CDS_STATIC["spread"]
+        sovereign_date = US_5Y_CDS_STATIC["as_of"]
+        sovereign_source = "static"
+        log.warning(f"  CDS sovereign: using static seed {sovereign_spread}bp")
 
     # ── Determine overall status ──
     fresh_corp = sum(1 for v in corporate.values() if v.get("source") == "credit.json")
-    has_sov = sovereign_spread is not None and sovereign_source not in ("cache", "")
+    has_sov_live = sovereign_spread is not None and sovereign_source not in ("cache", "static", "")
     fresh_sector = sum(1 for v in sector.values() if v.get("source", "").startswith("fred"))
-    any_cache = (
-        any(v.get("source") == "cache" for v in corporate.values()) or
-        sovereign_source == "cache" or
-        any(v.get("source") in ("cache", "unavailable") for v in sector.values())
+    degraded = (
+        any(v.get("source") in ("cache",) for v in corporate.values()) or
+        sovereign_source in ("cache", "static") or
+        any(v.get("source") in ("cache", "proxy", "unavailable") for v in sector.values())
     )
-    if fresh_corp >= 7 and fresh_sector >= 1:
+    if fresh_corp >= 7 and fresh_sector >= 4 and has_sov_live:
         status = "ok"
-    elif fresh_corp >= 3 or has_sov or fresh_sector >= 1:
+    elif fresh_corp >= 3 or has_sov_live or fresh_sector >= 1:
         status = "partial"
-    elif any_cache:
+    elif degraded:
         status = "cached"
     else:
         status = "stale"

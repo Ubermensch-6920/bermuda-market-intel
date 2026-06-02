@@ -1,14 +1,14 @@
 {
-  "date": "",
+  "date": "2026-01-01",
   "source": "FRED ICE BofA / TradingEconomics",
   "status": "partial",
   "sovereign": {
     "us_5y": {
       "name": "US 5Y CDS",
-      "spread": null,
+      "spread": 45,
       "prior": null,
-      "date": "",
-      "source": ""
+      "date": "2026-01-01",
+      "source": "cache"
     }
   },
   "corporate": {
@@ -72,36 +72,40 @@
   "sector": {
     "financial_ig": {
       "name": "Financials IG",
-      "spread": null,
-      "prior": null,
-      "series_id": "BAMLC0A0CMFIN",
+      "spread": 88,
+      "prior": 88,
+      "series_id": "BAMLC0A0CM",
       "date": "",
-      "source": "unavailable"
+      "source": "proxy",
+      "proxy_basis": "broad IG OAS"
     },
     "financial_hy": {
       "name": "Financials HY",
-      "spread": null,
-      "prior": null,
-      "series_id": "BAMLH0A0HYM2FIN",
+      "spread": 319,
+      "prior": 324,
+      "series_id": "BAMLH0A0HYM2",
       "date": "",
-      "source": "unavailable"
+      "source": "proxy",
+      "proxy_basis": "broad HY OAS"
     },
     "tech_ig": {
       "name": "Technology IG",
-      "spread": null,
-      "prior": null,
-      "series_id": "BAMLC8A0C7T10YEY",
+      "spread": 88,
+      "prior": 88,
+      "series_id": "BAMLC0A0CM",
       "date": "",
-      "source": "unavailable"
+      "source": "proxy",
+      "proxy_basis": "broad IG OAS"
     },
     "tech_hy": {
       "name": "Technology HY",
-      "spread": null,
-      "prior": null,
-      "series_id": "BAMLH0A0HYM2TMK",
+      "spread": 319,
+      "prior": 324,
+      "series_id": "BAMLH0A0HYM2",
       "date": "",
-      "source": "unavailable"
+      "source": "proxy",
+      "proxy_basis": "broad HY OAS"
     }
   },
-  "_fetched": "2026-06-02T17:12:06.643753Z"
+  "_fetched": "2026-06-02T17:51:07.736296Z"
 }

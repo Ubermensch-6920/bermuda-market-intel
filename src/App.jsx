@@ -254,10 +254,11 @@ const CDSSection = ({ data, loading: ld, error }) => {
   const cdsChgCol = v => v > 0 ? "#f87171" : v < 0 ? "#4ade80" : "#94a3b8";
   const spreadChg = (curr, prior) => curr != null && prior != null ? curr - prior : null;
 
-  const hasCache = (
-    Object.values(corporate).some(r => r.source === "cache") ||
-    Object.values(sector).some(r => r.source === "cache") ||
-    sovereign?.source === "cache"
+  const FALLBACK_SRC = new Set(["cache", "proxy", "static"]);
+  const hasFallback = (
+    Object.values(corporate).some(r => FALLBACK_SRC.has(r.source)) ||
+    Object.values(sector).some(r => FALLBACK_SRC.has(r.source)) ||
+    FALLBACK_SRC.has(sovereign?.source)
   );
 
   return (<div style={{ display: "flex", flexDirection: "column", gap: 16 }}>
@@ -275,10 +276,10 @@ const CDSSection = ({ data, loading: ld, error }) => {
         )}
       </div>
 
-      {hasCache && (
+      {hasFallback && (
         <div style={{ padding: "8px 22px", background: "#1a1206", borderBottom: "1px solid #854d0e", display: "flex", alignItems: "center", gap: 8, fontSize: 12, color: "#fbbf24" }}>
           <AlertTriangle size={13} />
-          Some data is from cache — live fetch was unavailable at last run.
+          Some figures use fallback values (cache, proxy, or static estimate) — see per-row labels.
         </div>
       )}
 
@@ -288,13 +289,19 @@ const CDSSection = ({ data, loading: ld, error }) => {
         {sovereign && sovereign.spread != null ? (
           <div style={{ display: "flex", gap: 16, flexWrap: "wrap" }}>
             <div style={{ background: "#12141a", border: "1px solid #2a2d35", borderRadius: 10, padding: "14px 20px", minWidth: 200 }}>
-              <div style={{ fontSize: 12, color: "#94a3b8", fontWeight: 600, marginBottom: 6 }}>{sovereign.name || "US 5Y CDS"}</div>
+              <div style={{ fontSize: 12, color: "#94a3b8", fontWeight: 600, marginBottom: 6, display: "flex", alignItems: "center", gap: 8 }}>
+                {sovereign.name || "US 5Y CDS"}
+                {sovereign.source === "static" && <Badge color="#a78bfa">Static est.</Badge>}
+                {sovereign.source === "cache" && <Badge color="#f59e0b">Cached</Badge>}
+              </div>
               <div style={{ display: "flex", alignItems: "baseline", gap: 10 }}>
                 <span style={{ fontSize: 28, fontWeight: 700, color: "#f1f5f9", fontFamily: "monospace" }}>{sovereign.spread}bp</span>
                 {(() => { const chg = spreadChg(sovereign.spread, sovereign.prior); if (chg == null) return null; return <span style={{ fontSize: 13, color: cdsChgCol(chg), fontWeight: 600, fontFamily: "monospace", display: "flex", alignItems: "center", gap: 3 }}><ChgIcon v={chg} />{Math.abs(chg).toFixed(1)}bp</span>; })()}
               </div>
               <div style={{ fontSize: 11, color: "#475569", marginTop: 4 }}>
-                5Y CDS on US Treasuries{sovereign.date ? ` • ${sovereign.date}` : ""}{sovereign.source && sovereign.source !== "cache" ? ` • ${sovereign.source}` : ""}
+                {sovereign.source === "static"
+                  ? `Static estimate (as of ${sovereign.date || "—"}) — live source unavailable`
+                  : `5Y CDS on US Treasuries${sovereign.date ? ` • ${sovereign.date}` : ""}${sovereign.source && sovereign.source !== "cache" ? ` • ${sovereign.source}` : ""}`}
               </div>
             </div>
           </div>
@@ -384,9 +391,10 @@ const CDSSection = ({ data, loading: ld, error }) => {
                   <td style={{ padding: "7px 12px", textAlign: "right", fontFamily: "monospace", color: chg != null ? cdsChgCol(chg) : "#94a3b8", fontWeight: 600 }}>
                     {chg != null ? (chg > 0 ? "+" : "") + chg : "—"}
                   </td>
-                  <td style={{ padding: "7px 12px", color: "#475569", textAlign: "right", fontFamily: "monospace", fontSize: 11 }}>{r.series_id || "—"}</td>
+                  <td style={{ padding: "7px 12px", color: "#475569", textAlign: "right", fontFamily: "monospace", fontSize: 11 }} title={r.source === "proxy" ? `Proxy: ${r.proxy_basis || "broad index OAS"}` : ""}>{r.source === "proxy" ? (r.proxy_basis || "broad OAS") : (r.series_id || "—")}</td>
                   <td style={{ padding: "7px 12px", textAlign: "right" }}>
                     {r.source === "cache" && <Badge color="#f59e0b">Cached</Badge>}
+                    {r.source === "proxy" && <Badge color="#a78bfa">Proxy</Badge>}
                     {r.source?.startsWith("fred") && <Badge color="#60a5fa">FRED</Badge>}
                     {r.source === "unavailable" && <Badge color="#475569">N/A</Badge>}
                   </td>
@@ -395,7 +403,9 @@ const CDSSection = ({ data, loading: ld, error }) => {
             })}
           </tbody>
         </table>
-        <div style={{ fontSize: 11, color: "#475569", marginTop: 8 }}>Sector OAS sub-indices from FRED ICE BofA. Series availability varies.</div>
+        <div style={{ fontSize: 11, color: "#475569", marginTop: 8 }}>
+          Sector OAS sub-indices from FRED ICE BofA. When a dedicated sector series is unavailable, the broad IG/HY OAS is shown as a labelled <span style={{ color: "#a78bfa" }}>Proxy</span>.
+        </div>
       </div>
     </div>
   </div>);
