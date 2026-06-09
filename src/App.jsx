@@ -1,7 +1,7 @@
 import { useState, useEffect, useCallback } from "react";
 import {
   LineChart, Line, XAxis, YAxis, CartesianGrid, Tooltip,
-  ResponsiveContainer, AreaChart, Area, Legend
+  ResponsiveContainer, AreaChart, Area, Legend, ReferenceLine
 } from "recharts";
 import {
   Shield, Newspaper, BarChart3, ChevronRight, ExternalLink,
@@ -35,6 +35,9 @@ const chgBp = (c, p) => c != null && p != null ? ((c - p) * 100).toFixed(1) : nu
 const chgCol = v => v > 0 ? "#f87171" : v < 0 ? "#4ade80" : "#94a3b8";
 const ChgIcon = ({ v }) => { const n = parseFloat(v); return n > 0 ? <ArrowUpRight size={14} /> : n < 0 ? <ArrowDownRight size={14} /> : <Minus size={14} />; };
 const timeAgo = ds => { const h = Math.floor((Date.now() - new Date(ds)) / 36e5); if (h < 1) return "Now"; if (h < 24) return h + "h ago"; const d = Math.floor(h / 24); return d < 7 ? d + "d" : new Date(ds).toLocaleDateString("en-US", { month: "short", day: "numeric" }); };
+const fmtWAM = v => v != null ? v.toFixed(1) + "yr" : "—";
+const TENOR_YEARS = { "1Y": 1, "2Y": 2, "3Y": 3, "5Y": 5, "7Y": 7, "10Y": 10, "15Y": 15, "20Y": 20, "30Y": 30 };
+const wamToTenor = years => { if (years == null) return null; let best = null, minDiff = Infinity; for (const [t, y] of Object.entries(TENOR_YEARS)) { const d = Math.abs(y - years); if (d < minDiff) { minDiff = d; best = t; } } return best; };
 
 // ── Shared Components (legibility improved: larger text, more padding, brighter) ──
 
@@ -77,13 +80,112 @@ const MetricCard = ({ label, value, change, loading: ld }) => {
 };
 
 // ═══════════════════════════════════════════
+// GOVT DEBT WAM COMPARISON SECTION
+// ═══════════════════════════════════════════
+
+const WAM_COUNTRY_CONFIG = {
+  usa:   { label: "USA",   color: "#3b82f6" },
+  japan: { label: "Japan", color: "#ef4444" },
+  uk:    { label: "UK",    color: "#22c55e" },
+  eur:   { label: "EUR",   color: "#f59e0b" },
+  india: { label: "India", color: "#ec4899" },
+};
+const WAM_COUNTRY_KEYS = ["usa", "japan", "uk", "eur", "india"];
+
+const WamComparisonSection = ({ data, loading: ld, error }) => {
+  if (ld) return <div style={{ background: "#0d0f14", border: "1px solid #1e2028", borderRadius: 10, padding: 30, textAlign: "center", color: "#94a3b8" }}><Loader size={20} style={{ animation: "spin 1s linear infinite", display: "block", margin: "0 auto 10px", color: "#a78bfa" }} />Loading debt maturity data…</div>;
+  if (error || !data) return null;
+  const countries = data.countries || {};
+  return (
+    <div style={{ background: "#0d0f14", border: "1px solid #1e2028", borderRadius: 10, overflow: "hidden" }}>
+      <div style={{ padding: "16px 22px", borderBottom: "1px solid #1e2028" }}>
+        <h3 style={{ margin: 0, fontSize: 17, fontWeight: 700, color: "#f1f5f9" }}>Govt Debt — Avg Weighted Maturity</h3>
+        <div style={{ fontSize: 12, color: "#94a3b8", marginTop: 4 }}>Remaining maturity of outstanding central govt marketable debt. Longer = more financing locked in at current rates.</div>
+        <DataFresh date={data.date} source="FRED / MOF / DMO / OECD / RBI" url="https://fred.stlouisfed.org/series/AVMATPUSDM" />
+      </div>
+
+      {/* Cards */}
+      <div style={{ padding: "16px 22px", display: "grid", gridTemplateColumns: "repeat(auto-fill, minmax(155px, 1fr))", gap: 12 }}>
+        {WAM_COUNTRY_KEYS.map(k => {
+          const c = countries[k];
+          if (!c) return null;
+          const cfg = WAM_COUNTRY_CONFIG[k];
+          const chg = c.change_years;
+          const isStale = c.source === "cache" || c.source === "static_default";
+          return (
+            <div key={k} style={{ background: "#12141a", border: `1px solid ${cfg.color}33`, borderRadius: 10, padding: "14px 16px" }}>
+              <div style={{ fontSize: 11, color: cfg.color, fontWeight: 700, textTransform: "uppercase", letterSpacing: "0.08em", marginBottom: 6 }}>{cfg.label}</div>
+              <div style={{ fontSize: 28, fontWeight: 800, color: "#f1f5f9", fontFamily: "'JetBrains Mono', monospace", lineHeight: 1 }}>{fmtWAM(c.wam_years)}</div>
+              {chg != null && (
+                <div style={{ fontSize: 11, color: chg > 0 ? "#f59e0b" : chg < 0 ? "#60a5fa" : "#64748b", marginTop: 6, fontFamily: "monospace" }}>
+                  {chg > 0 ? "+" : ""}{chg.toFixed(2)}yr vs prior
+                </div>
+              )}
+              <div style={{ fontSize: 10, color: "#475569", marginTop: 4 }}>
+                {c.data_date || "—"} · {c.frequency}
+                {isStale && <span style={{ color: "#f59e0b", marginLeft: 4 }}>⚠</span>}
+              </div>
+            </div>
+          );
+        })}
+      </div>
+
+      {/* Table */}
+      <div style={{ padding: "0 22px 16px", overflowX: "auto" }}>
+        <table style={{ width: "100%", borderCollapse: "collapse", fontSize: 13 }}>
+          <thead>
+            <tr style={{ borderBottom: "2px solid #1e2028" }}>
+              <th style={{ textAlign: "left", padding: "8px 12px", color: "#94a3b8", fontWeight: 700, fontSize: 12 }}>Country</th>
+              <th style={{ textAlign: "right", padding: "8px 12px", color: "#94a3b8", fontWeight: 700, fontSize: 12 }}>WAM</th>
+              <th style={{ textAlign: "right", padding: "8px 12px", color: "#94a3b8", fontWeight: 700, fontSize: 12 }}>Prior</th>
+              <th style={{ textAlign: "right", padding: "8px 12px", color: "#94a3b8", fontWeight: 700, fontSize: 12 }}>Change</th>
+              <th style={{ textAlign: "right", padding: "8px 12px", color: "#94a3b8", fontWeight: 700, fontSize: 12 }}>As of</th>
+              <th style={{ textAlign: "left", padding: "8px 12px", color: "#94a3b8", fontWeight: 700, fontSize: 12 }}>Source</th>
+            </tr>
+          </thead>
+          <tbody>
+            {WAM_COUNTRY_KEYS.map(k => {
+              const c = countries[k];
+              if (!c) return null;
+              const cfg = WAM_COUNTRY_CONFIG[k];
+              const chg = c.change_years;
+              return (
+                <tr key={k} style={{ borderBottom: "1px solid #151820" }}>
+                  <td style={{ padding: "7px 12px", color: cfg.color, fontWeight: 700, fontFamily: "monospace" }}>{cfg.label}</td>
+                  <td style={{ padding: "7px 12px", color: "#f1f5f9", textAlign: "right", fontFamily: "monospace", fontWeight: 700, fontSize: 15 }}>{fmtWAM(c.wam_years)}</td>
+                  <td style={{ padding: "7px 12px", color: "#94a3b8", textAlign: "right", fontFamily: "monospace" }}>{fmtWAM(c.prior_wam_years)}</td>
+                  <td style={{ padding: "7px 12px", textAlign: "right", fontFamily: "monospace", fontWeight: 600, color: chg != null ? (chg > 0 ? "#f59e0b" : "#60a5fa") : "#64748b" }}>
+                    {chg != null ? (chg > 0 ? "+" : "") + chg.toFixed(2) + "yr" : "—"}
+                  </td>
+                  <td style={{ padding: "7px 12px", color: "#64748b", textAlign: "right", fontSize: 12 }}>{c.data_date || "—"}</td>
+                  <td style={{ padding: "7px 12px", fontSize: 11 }}>
+                    {c.source === "cache" ? <Badge color="#f59e0b">Cached</Badge>
+                      : c.source === "static_default" ? <Badge color="#64748b">Static</Badge>
+                      : <a href={c.source_url} target="_blank" rel="noopener noreferrer" style={{ color: "#60a5fa", textDecoration: "none" }}>
+                          {c.source?.split("—")[0]?.trim() || c.source} <ExternalLink size={10} style={{ verticalAlign: "middle" }} />
+                        </a>
+                    }
+                    {c.note && <span title={c.note} style={{ color: "#64748b", marginLeft: 5, cursor: "help" }}>ⓘ</span>}
+                  </td>
+                </tr>
+              );
+            })}
+          </tbody>
+        </table>
+      </div>
+      {data.note && <div style={{ padding: "0 22px 14px", fontSize: 11, color: "#475569", lineHeight: 1.6 }}>{data.note}</div>}
+    </div>
+  );
+};
+
+// ═══════════════════════════════════════════
 // SOVEREIGN YIELD SECTION (chart + table + year-ago row)
 // ═══════════════════════════════════════════
 
 // Common x-axis for all sovereign rate charts — enables direct visual comparison across views
 const STANDARD_TENORS = ["1Y", "2Y", "3Y", "5Y", "7Y", "10Y", "15Y", "20Y", "30Y"];
 
-const SovSection = ({ data, title, accentColor, loading: ld, error }) => {
+const SovSection = ({ data, title, accentColor, loading: ld, error, wamData }) => {
   if (ld) return <div style={{ background: "#0d0f14", border: "1px solid #1e2028", borderRadius: 10, padding: 40, textAlign: "center", color: "#94a3b8" }}><Loader size={24} style={{ animation: "spin 1s linear infinite", margin: "0 auto 12px", display: "block", color: "#60a5fa" }} />Loading {title}…</div>;
   if (error) return <div style={{ background: "#0d0f14", border: "1px solid #1e2028", borderRadius: 10, padding: 20 }}><h3 style={{ margin: "0 0 8px", fontSize: 16, fontWeight: 700, color: "#f1f5f9" }}>{title}</h3><div style={{ color: "#f87171", fontSize: 13 }}><AlertTriangle size={15} style={{ verticalAlign: "middle", marginRight: 6 }} />{error}</div></div>;
   if (!data) return null;
@@ -125,6 +227,16 @@ const SovSection = ({ data, title, accentColor, loading: ld, error }) => {
       <h3 style={{ margin: 0, fontSize: 17, fontWeight: 700, color: "#f1f5f9" }}>{title}</h3>
       <DataFresh date={data.date} source={data.source} url={data.url} />
       {data.note && <div style={{ fontSize: 11, color: "#f59e0b", marginTop: 5 }}>{data.note}</div>}
+      {wamData?.wam_years != null && (
+        <div style={{ fontSize: 11, color: "#a78bfa", marginTop: 5 }}>
+          Avg debt maturity: <strong style={{ color: "#c4b5fd" }}>{fmtWAM(wamData.wam_years)}</strong>
+          {wamData.change_years != null && (
+            <span style={{ color: "#64748b" }}> ({wamData.change_years > 0 ? "+" : ""}{wamData.change_years.toFixed(2)}yr vs prior)</span>
+          )}
+          <span style={{ color: "#475569" }}> · {wamData.source} · {wamData.data_date}</span>
+          {wamData.note && <span style={{ color: "#64748b" }}> · {wamData.note}</span>}
+        </div>
+      )}
     </div>
 
     {/* Chart — uses STANDARD_TENORS for a consistent x-axis across all rate views */}
@@ -139,6 +251,10 @@ const SovSection = ({ data, title, accentColor, loading: ld, error }) => {
           <Area type="monotone" dataKey="current" stroke={accentColor} strokeWidth={2.5} fill={`url(#g${accentColor.slice(1)})`} name="Current" dot={{ r: 4, fill: accentColor }} connectNulls />
           {hasPrior && <Line type="monotone" dataKey="prior" stroke="#64748b" strokeWidth={1.5} strokeDasharray="5 5" name="Prior Day" dot={false} connectNulls />}
           {hasYearAgo && <Line type="monotone" dataKey="yearAgo" stroke="#f59e0b" strokeWidth={1.5} strokeDasharray="3 6" name="1 Year Ago" dot={false} connectNulls />}
+          {wamData?.wam_years != null && (() => {
+            const t = wamToTenor(wamData.wam_years);
+            return t ? <ReferenceLine x={t} stroke="#a78bfa" strokeWidth={1.5} strokeDasharray="4 3" label={{ value: `WAM ${fmtWAM(wamData.wam_years)}`, position: "insideTopRight", fill: "#a78bfa", fontSize: 11, fontWeight: 700 }} /> : null;
+          })()}
         </AreaChart>
       </ResponsiveContainer>
     </div>
@@ -914,7 +1030,7 @@ const PAGES = [
   { id: "cds", label: "CDS Spreads", icon: BarChart3 },
   { id: "news", label: "News", icon: Newspaper }, { id: "bma", label: "BMA Updates", icon: Shield },
 ];
-const FILES = { ust: "ust.json", jgb: "jgb.json", gilt: "gilt.json", eiopa: "eur.json", india: "india.json", credit: "credit.json", cds: "cds.json", sofr: "sofr.json", bma_rates: "bma_rates.json", commodities: "commodities.json" };
+const FILES = { ust: "ust.json", jgb: "jgb.json", gilt: "gilt.json", eiopa: "eur.json", india: "india.json", credit: "credit.json", cds: "cds.json", sofr: "sofr.json", bma_rates: "bma_rates.json", commodities: "commodities.json", debt_maturity: "debt_maturity.json" };
 
 export default function App() {
   const [page, setPage] = useState("home");
@@ -958,11 +1074,11 @@ export default function App() {
 
   const renderPage = () => {
     switch (page) {
-      case "ust": return <SovSection data={data.ust} title="US Treasury Par Yield Curve" accentColor="#3b82f6" loading={ls.ust} error={errs.ust} />;
-      case "jgb": return <SovSection data={data.jgb} title="Japan Government Bond Yields" accentColor="#ef4444" loading={ls.jgb} error={errs.jgb} />;
-      case "gilt": return <SovSection data={data.gilt} title="UK Gilt Nominal Par Yields" accentColor="#22c55e" loading={ls.gilt} error={errs.gilt} />;
-      case "eiopa": return <SovSection data={data.eiopa} title="EUR Govt Yield Curve (EIOPA proxy)" accentColor="#f59e0b" loading={ls.eiopa} error={errs.eiopa} />;
-      case "india": return <SovSection data={data.india} title="India Government Bond Yields" accentColor="#ec4899" loading={ls.india} error={errs.india} />;
+      case "ust": return <SovSection data={data.ust} title="US Treasury Par Yield Curve" accentColor="#3b82f6" loading={ls.ust} error={errs.ust} wamData={data.debt_maturity?.countries?.usa} />;
+      case "jgb": return <SovSection data={data.jgb} title="Japan Government Bond Yields" accentColor="#ef4444" loading={ls.jgb} error={errs.jgb} wamData={data.debt_maturity?.countries?.japan} />;
+      case "gilt": return <SovSection data={data.gilt} title="UK Gilt Nominal Par Yields" accentColor="#22c55e" loading={ls.gilt} error={errs.gilt} wamData={data.debt_maturity?.countries?.uk} />;
+      case "eiopa": return <SovSection data={data.eiopa} title="EUR Govt Yield Curve (EIOPA proxy)" accentColor="#f59e0b" loading={ls.eiopa} error={errs.eiopa} wamData={data.debt_maturity?.countries?.eur} />;
+      case "india": return <SovSection data={data.india} title="India Government Bond Yields" accentColor="#ec4899" loading={ls.india} error={errs.india} wamData={data.debt_maturity?.countries?.india} />;
       case "bma_rates": return <BmaRatesSection data={data.bma_rates} loading={ls.bma_rates} error={errs.bma_rates} />;
       case "commodities": return <CommoditiesSection data={data.commodities} loading={ls.commodities} error={errs.commodities} />;
       case "sofr": return <SofrSection data={data.sofr} loading={ls.sofr} error={errs.sofr} />;
@@ -1021,6 +1137,9 @@ export default function App() {
             {data.ust && <span>UST: {data.ust.date}</span>}{data.jgb && <span>JGB: {data.jgb.date}</span>}{data.gilt && <span>Gilt: {data.gilt.date}</span>}{data.eiopa && <span>EUR: {data.eiopa.date}</span>}{data.india && <span>India: {data.india.date}</span>}
           </div>
         </div>}
+
+        {/* Govt Debt WAM */}
+        <WamComparisonSection data={data.debt_maturity} loading={ls.debt_maturity} error={errs.debt_maturity} />
 
         {/* News + BMA Updates */}
         <div style={{ display: "grid", gridTemplateColumns: "1fr 1fr", gap: 14 }}>
