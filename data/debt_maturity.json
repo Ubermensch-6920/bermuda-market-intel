@@ -1,0 +1,67 @@
+{
+  "date": "2025-03-31",
+  "countries": {
+    "usa": {
+      "wam_years": 6.4,
+      "wam_months": 76.8,
+      "prior_wam_years": 6.3,
+      "prior_date": "2025-02-28",
+      "change_years": 0.1,
+      "data_date": "2025-03-31",
+      "source": "cache",
+      "source_url": "https://fred.stlouisfed.org/series/AVMATPUSDM",
+      "frequency": "monthly",
+      "note": null
+    },
+    "japan": {
+      "wam_years": 9.7,
+      "wam_months": null,
+      "prior_wam_years": 9.65,
+      "prior_date": "2025-01-01",
+      "change_years": 0.05,
+      "data_date": "2025-02-01",
+      "source": "cache",
+      "source_url": "https://www.mof.go.jp/english/policy/jgbs/statistics/outstanding/",
+      "frequency": "monthly",
+      "note": null
+    },
+    "uk": {
+      "wam_years": 14.5,
+      "wam_months": null,
+      "prior_wam_years": 14.4,
+      "prior_date": "2025-02-28",
+      "change_years": 0.1,
+      "data_date": "2025-03-31",
+      "source": "cache",
+      "source_url": "https://www.dmo.gov.uk/data/gilt-market/",
+      "frequency": "monthly",
+      "note": null
+    },
+    "eur": {
+      "wam_years": 7.0,
+      "wam_months": null,
+      "prior_wam_years": 6.8,
+      "prior_date": "2024-01-01",
+      "change_years": 0.2,
+      "data_date": "2025-01-01",
+      "source": "cache",
+      "source_url": "https://www.oecd.org/finance/sovereign-borrowing/",
+      "frequency": "annual",
+      "note": "Germany WAM used as Eurozone proxy (largest issuer). Annual OECD data."
+    },
+    "india": {
+      "wam_years": 11.5,
+      "wam_months": null,
+      "prior_wam_years": 11.2,
+      "prior_date": "2024-04-01",
+      "change_years": 0.3,
+      "data_date": "2024-04-01",
+      "source": "RBI Annual Report 2024",
+      "source_url": "https://www.rbi.org.in/Scripts/AnnualReportPublications.aspx",
+      "frequency": "annual",
+      "note": "Static value from RBI Annual Report 2024. Updated annually."
+    }
+  },
+  "note": "WAM = weighted average remaining maturity of outstanding central govt marketable debt (not duration). USA monthly via FRED AVMATPUSDM; Japan monthly via MOF JGB Outstanding; UK monthly via UK DMO; EUR annual via OECD (Germany proxy); India annual via RBI Annual Report.",
+  "_fetched": "2026-06-09T14:30:05.961822Z"
+}
