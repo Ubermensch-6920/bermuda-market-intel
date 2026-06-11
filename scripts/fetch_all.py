@@ -1864,6 +1864,27 @@ def _bma_discover_discount_files():
         uploaded_dt = _parse_iso_prefix_date_from_url(url)
         upsert(as_of_dt, uploaded_dt, url, "known_fallback")
 
+    # User-maintained override: bma.bm now blocks non-browser clients, so new
+    # quarterly workbook URLs can be dropped into bma_rates_manual.json
+    # ("known_files": {"YYYY-MM-DD": "https://cdn.bma.bm/...xlsx"}) and are
+    # picked up here without a code change.
+    try:
+        manual_path = DATA / "bma_rates_manual.json"
+        if manual_path.exists():
+            manual_files = (json.loads(manual_path.read_text()) or {}).get("known_files") or {}
+            for k, url in manual_files.items():
+                if not isinstance(url, str) or "cdn.bma.bm" not in url:
+                    continue
+                try:
+                    as_of_dt = datetime.strptime(k, "%Y-%m-%d")
+                except ValueError:
+                    log.warning(f"  BMA manual known_files: bad date key {k!r} (want YYYY-MM-DD)")
+                    continue
+                uploaded_dt = _parse_iso_prefix_date_from_url(url)
+                upsert(as_of_dt, uploaded_dt, url, "manual")
+    except Exception as e:
+        log.warning(f"  BMA manual known_files: {e}")
+
     out = list(entries.values())
     out.sort(key=lambda x: (x["as_of_dt"], x["uploaded_dt"] or datetime.min), reverse=True)
     return out
@@ -2188,6 +2209,37 @@ def fetch_bma_rates():
         if last:
             output = last
             output["note"] = str(output.get("note", "")) + " Cache fallback used."
+
+    # Staleness check: BMA publishes ~2-4 weeks after quarter end. If the most
+    # recent completed quarter (with 35 days publication grace) is newer than
+    # what we have, flag it so the dashboard says so explicitly.
+    now = datetime.utcnow()
+    grace = now - timedelta(days=35)
+    q_month = ((grace.month - 1) // 3) * 3
+    if q_month == 0:
+        expected_q_end = datetime(grace.year - 1, 12, 31)
+    else:
+        last_day = {3: 31, 6: 30, 9: 30}[q_month]
+        expected_q_end = datetime(grace.year, q_month, last_day)
+    expected_iso = expected_q_end.strftime("%Y-%m-%d")
+    have_iso = output.get("as_of_date_iso") or ""
+    output["expected_as_of"] = expected_iso
+    output["stale"] = bool(have_iso) and have_iso < expected_iso
+    if output["stale"]:
+        output["note"] = str(output.get("note", "")) + (
+            f" STALE: the {expected_iso} workbook should be published by now but was not found —"
+            " bma.bm blocks automated clients. Paste its URL into data/bma_rates_manual.json under known_files."
+        )
+        log.warning(f"  BMA RATES stale: have {have_iso}, expected {expected_iso}")
+    discovered_live = any(
+        e.get("source_page") not in ("known_fallback", "manual") for e in entries
+    )
+    record_source(
+        "BMA", "EBS discount rates",
+        ok=discovered_live and not output["stale"],
+        fallback=None if discovered_live else ("manual known_files" if not output["stale"] else "cache"),
+        note=f"latest quarter {have_iso or '?'}; expected {expected_iso}",
+    )
 
     write("bma_rates.json", output)
     log.info(f"  BMA RATES OK: {output.get('as_of_date_iso') or output.get('as_of_date','')}")

@@ -3,3 +3,4 @@ dist/
 public/
 scripts/__pycache__/
 usd_inr_forward_rates.csv
+.env
