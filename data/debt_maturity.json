@@ -15,7 +15,7 @@
     },
     "japan": {
       "wam_years": 9.7,
-      "wam_months": null,
+      "wam_months": 116.4,
       "prior_wam_years": 9.65,
       "prior_date": "2025-01-01",
       "change_years": 0.05,
@@ -27,7 +27,7 @@
     },
     "uk": {
       "wam_years": 14.5,
-      "wam_months": null,
+      "wam_months": 174.0,
       "prior_wam_years": 14.4,
       "prior_date": "2025-02-28",
       "change_years": 0.1,
@@ -39,7 +39,7 @@
     },
     "eur": {
       "wam_years": 7.0,
-      "wam_months": null,
+      "wam_months": 84.0,
       "prior_wam_years": 6.8,
       "prior_date": "2024-01-01",
       "change_years": 0.2,
@@ -51,7 +51,7 @@
     },
     "india": {
       "wam_years": 11.5,
-      "wam_months": null,
+      "wam_months": 138.0,
       "prior_wam_years": 11.2,
       "prior_date": "2024-04-01",
       "change_years": 0.3,
@@ -63,5 +63,5 @@
     }
   },
   "note": "WAM = weighted average remaining maturity of outstanding central govt marketable debt (not duration). USA monthly via FRED AVMATPUSDM; Japan monthly via MOF JGB Outstanding; UK monthly via UK DMO; EUR annual via OECD (Germany proxy); India annual via RBI Annual Report.",
-  "_fetched": "2026-06-11T11:03:56.044100Z"
+  "_fetched": "2026-06-11T17:20:04.448511Z"
 }
