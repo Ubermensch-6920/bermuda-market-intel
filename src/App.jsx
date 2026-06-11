@@ -123,7 +123,7 @@ const WamComparisonSection = ({ data, loading: ld, error }) => {
               )}
               <div style={{ fontSize: 10, color: "#475569", marginTop: 4 }}>
                 {c.data_date || "—"} · {c.frequency}
-                {isStale && <span style={{ color: "#f59e0b", marginLeft: 4 }}>⚠</span>}
+                {isStale && <span style={{ marginLeft: 5 }}><Badge color="#f59e0b">{c.source === "cache" ? "cached" : "static default"}</Badge></span>}
               </div>
             </div>
           );
@@ -184,6 +184,7 @@ const WamComparisonSection = ({ data, loading: ld, error }) => {
 
 // Common x-axis for all sovereign rate charts — enables direct visual comparison across views
 const STANDARD_TENORS = ["1Y", "2Y", "3Y", "5Y", "7Y", "10Y", "15Y", "20Y", "30Y"];
+const DERIVED_LABELS = { prior_day: "Prior day", prior_1m: "1M", prior_3m: "3M", year_ago: "1Y ago" };
 
 const SovSection = ({ data, title, accentColor, loading: ld, error, wamData }) => {
   if (ld) return <div style={{ background: "#0d0f14", border: "1px solid #1e2028", borderRadius: 10, padding: 40, textAlign: "center", color: "#94a3b8" }}><Loader size={24} style={{ animation: "spin 1s linear infinite", margin: "0 auto 12px", display: "block", color: "#60a5fa" }} />Loading {title}…</div>;
@@ -227,6 +228,19 @@ const SovSection = ({ data, title, accentColor, loading: ld, error, wamData }) =
       <h3 style={{ margin: 0, fontSize: 17, fontWeight: 700, color: "#f1f5f9" }}>{title}</h3>
       <DataFresh date={data.date} source={data.source} url={data.url} />
       {data.note && <div style={{ fontSize: 11, color: "#f59e0b", marginTop: 5 }}>{data.note}</div>}
+      {data.derived && Object.keys(data.derived).length > 0 && (
+        <div style={{ display: "flex", gap: 6, flexWrap: "wrap", marginTop: 6, alignItems: "center" }}>
+          <span style={{ fontSize: 11, color: "#94a3b8" }}>Derived (not direct market quotes):</span>
+          {Object.entries(data.derived).map(([k, v]) => (
+            <Badge key={k} color="#f59e0b">{DERIVED_LABELS[k] || k}: {v}</Badge>
+          ))}
+        </div>
+      )}
+      {!hasPrior && (
+        <div style={{ fontSize: 11, color: "#64748b", marginTop: 5 }}>
+          No prior-day data available yet for this market — day-over-day comparisons appear once the pipeline has history.
+        </div>
+      )}
       {wamData?.wam_years != null && (
         <div style={{ fontSize: 11, color: "#a78bfa", marginTop: 5 }}>
           Avg debt maturity: <strong style={{ color: "#c4b5fd" }}>{fmtWAM(wamData.wam_years)}</strong>
@@ -248,9 +262,9 @@ const SovSection = ({ data, title, accentColor, loading: ld, error, wamData }) =
           <XAxis dataKey="tenor" tick={{ fill: "#94a3b8", fontSize: 12, fontWeight: 500 }} axisLine={{ stroke: "#1e2028" }} tickLine={false} />
           <YAxis tick={{ fill: "#94a3b8", fontSize: 12 }} axisLine={{ stroke: "#1e2028" }} tickLine={false} domain={["auto", "auto"]} tickFormatter={v => v?.toFixed(1)} />
           <Tooltip content={<CTooltip />} />
-          <Area type="monotone" dataKey="current" stroke={accentColor} strokeWidth={2.5} fill={`url(#g${accentColor.slice(1)})`} name="Current" dot={{ r: 4, fill: accentColor }} connectNulls />
-          {hasPrior && <Line type="monotone" dataKey="prior" stroke="#64748b" strokeWidth={1.5} strokeDasharray="5 5" name="Prior Day" dot={false} connectNulls />}
-          {hasYearAgo && <Line type="monotone" dataKey="yearAgo" stroke="#f59e0b" strokeWidth={1.5} strokeDasharray="3 6" name="1 Year Ago" dot={false} connectNulls />}
+          <Area type="monotone" dataKey="current" stroke={accentColor} strokeWidth={2.5} fill={`url(#g${accentColor.slice(1)})`} name="Current" dot={{ r: 4, fill: accentColor }} />
+          {hasPrior && <Line type="monotone" dataKey="prior" stroke="#64748b" strokeWidth={1.5} strokeDasharray="5 5" name="Prior Day" dot={false} />}
+          {hasYearAgo && <Line type="monotone" dataKey="yearAgo" stroke="#f59e0b" strokeWidth={1.5} strokeDasharray="3 6" name="1 Year Ago" dot={false} />}
           {wamData?.wam_years != null && (() => {
             const t = wamToTenor(wamData.wam_years);
             return t ? <ReferenceLine x={t} stroke="#a78bfa" strokeWidth={1.5} strokeDasharray="4 3" label={{ value: `WAM ${fmtWAM(wamData.wam_years)}`, position: "insideTopRight", fill: "#a78bfa", fontSize: 11, fontWeight: 700 }} /> : null;
@@ -321,7 +335,7 @@ const CreditSection = ({ data, loading: ld, error }) => {
   return (<div style={{ background: "#0d0f14", border: "1px solid #1e2028", borderRadius: 10, overflow: "hidden" }}>
     <div style={{ padding: "16px 22px", borderBottom: "1px solid #1e2028" }}>
       <h3 style={{ margin: 0, fontSize: 17, fontWeight: 700, color: "#f1f5f9" }}>US Corporate Credit Spreads (OAS)</h3>
-      <DataFresh date={data.date} source={data.source} url={data.url} />
+      <DataFresh date={data.date || (data._fetched ? `${data._fetched.slice(0, 10)} (last attempt — serving cache)` : "")} source={data.source} url={data.url} />
       {data.note && <div style={{ fontSize: 11, color: "#64748b", marginTop: 5, lineHeight: 1.5 }}>{data.note}</div>}
     </div>
     {hasCache && (
@@ -672,11 +686,11 @@ const SofrSection = ({ data, loading: ld, error }) => {
       </div>)}
     </div>
 
-    {/* Term SOFR cards */}
+    {/* SOFR average cards (NY Fed compounded averages via FRED) */}
     {Object.keys(termRates).length > 0 && (
       <div style={{ padding: "0 22px 16px" }}>
         <div style={{ fontSize: 11, color: "#64748b", fontWeight: 700, textTransform: "uppercase", letterSpacing: "0.08em", marginBottom: 10 }}>
-          CME Term SOFR — Forward-Looking Reference Rates
+          SOFR Averages — Backward-Looking Compounded (NY Fed)
         </div>
         <div style={{ display: "grid", gridTemplateColumns: "repeat(auto-fill, minmax(170px, 1fr))", gap: 12 }}>
           {["1M", "3M", "6M", "1Y"].filter(k => termRates[k]).map(key => {
@@ -1032,6 +1046,48 @@ const PAGES = [
 ];
 const FILES = { ust: "ust.json", jgb: "jgb.json", gilt: "gilt.json", eiopa: "eur.json", india: "india.json", credit: "credit.json", cds: "cds.json", sofr: "sofr.json", bma_rates: "bma_rates.json", commodities: "commodities.json", debt_maturity: "debt_maturity.json" };
 
+// ── Source health (data/source_health.json written by the pipeline) ──
+const HEALTH_COLORS = { active: "#4ade80", fallback: "#fbbf24", stagnant: "#f87171" };
+const HEALTH_LABELS = { active: "live", fallback: "fallback", stagnant: "stagnant" };
+
+const SourceHealthIndicator = ({ health }) => {
+  const [open, setOpen] = useState(false);
+  if (!health?.sources?.length) return null;
+  const s = health.summary || {};
+  const total = (s.active || 0) + (s.fallback || 0) + (s.stagnant || 0);
+  const color = (s.stagnant || 0) > 0 ? "#f87171" : (s.fallback || 0) > 0 ? "#fbbf24" : "#4ade80";
+  return (
+    <div style={{ position: "relative" }}>
+      <button onClick={() => setOpen(!open)} title="Data source health"
+        style={{ background: "transparent", border: `1px solid ${color}55`, borderRadius: 7, padding: "5px 10px", color, cursor: "pointer", display: "flex", alignItems: "center", gap: 6, fontSize: 11, fontWeight: 700 }}>
+        <span style={{ width: 7, height: 7, borderRadius: "50%", background: color, display: "inline-block" }} />
+        {s.active || 0}/{total} sources live
+      </button>
+      {open && (
+        <div style={{ position: "absolute", right: 0, top: "130%", zIndex: 50, background: "#12141a", border: "1px solid #2a2d35", borderRadius: 8, padding: "10px 0", width: 380, maxHeight: 400, overflowY: "auto", boxShadow: "0 8px 24px rgba(0,0,0,0.5)" }}>
+          <div style={{ padding: "0 14px 8px", borderBottom: "1px solid #1e2028", fontSize: 11, color: "#94a3b8" }}>
+            Upstream data sources — last pipeline run{health.updated ? ` ${new Date(health.updated).toLocaleString()}` : ""}
+          </div>
+          {health.sources.map(src => (
+            <div key={src.source} style={{ padding: "8px 14px", borderBottom: "1px solid #151820" }}>
+              <div style={{ display: "flex", alignItems: "center", gap: 8 }}>
+                <span style={{ width: 7, height: 7, borderRadius: "50%", background: HEALTH_COLORS[src.status] || "#64748b", flexShrink: 0 }} />
+                <span style={{ fontSize: 12, fontWeight: 700, color: "#f1f5f9" }}>{src.source}</span>
+                <Badge color={HEALTH_COLORS[src.status] || "#64748b"}>{HEALTH_LABELS[src.status] || src.status}</Badge>
+                {src.fallback && <span style={{ fontSize: 10, color: "#fbbf24" }}>→ {src.fallback}</span>}
+              </div>
+              <div style={{ fontSize: 11, color: "#64748b", marginTop: 3, marginLeft: 15 }}>{src.feeds}</div>
+              {src.last_success && (
+                <div style={{ fontSize: 10, color: "#475569", marginTop: 2, marginLeft: 15 }}>last success: {src.last_success.slice(0, 16).replace("T", " ")} UTC</div>
+              )}
+            </div>
+          ))}
+        </div>
+      )}
+    </div>
+  );
+};
+
 export default function App() {
   const [page, setPage] = useState("home");
   const [sidebarOpen, setSidebarOpen] = useState(true);
@@ -1042,6 +1098,7 @@ export default function App() {
   const [gLoad, setGLoad] = useState(false);
   const [lastRef, setLastRef] = useState(null);
   const [manifest, setManifest] = useState(null);
+  const [health, setHealth] = useState(null);
 
   useEffect(() => { const t = setInterval(() => setClock(new Date().toLocaleTimeString("en-US", { hour12: false })), 1000); setClock(new Date().toLocaleTimeString("en-US", { hour12: false })); return () => clearInterval(t); }, []);
 
@@ -1049,6 +1106,7 @@ export default function App() {
     setGLoad(true); const newLs = {}, newErrs = {}, newData = {};
     Object.keys(FILES).forEach(k => newLs[k] = true); setLs(newLs); setErrs({});
     try { setManifest(await loadJson("manifest.json")); } catch {}
+    try { setHealth(await loadJson("source_health.json")); } catch {}
     await Promise.all(Object.entries(FILES).map(async ([key, file]) => {
       try { newData[key] = await loadJson(file); } catch (e) { newErrs[key] = e.message; }
       finally { setLs(p => ({ ...p, [key]: false })); }
@@ -1174,6 +1232,7 @@ export default function App() {
       <div style={{ height: 46, padding: "0 22px", borderBottom: "1px solid #1a1d23", background: "#0a0c12", display: "flex", alignItems: "center", justifyContent: "space-between", flexShrink: 0 }}>
         <h2 style={{ margin: 0, fontSize: 16, fontWeight: 700, color: "#f1f5f9" }}>{PAGES.find(p => p.id === page)?.label || "Overview"}</h2>
         <div style={{ display: "flex", alignItems: "center", gap: 12, fontSize: 12 }}>
+          <SourceHealthIndicator health={health} />
           {lastRef && <span style={{ color: "#64748b", fontSize: 11 }}>Loaded: {lastRef.toLocaleTimeString()}</span>}
           {gLoad && <Loader size={15} style={{ color: "#60a5fa", animation: "spin 1s linear infinite" }} />}
           <button onClick={loadData} disabled={gLoad} style={{ background: gLoad ? "#1e2028" : "#3b82f6", border: "none", borderRadius: 7, padding: "6px 16px", color: gLoad ? "#94a3b8" : "#fff", cursor: gLoad ? "not-allowed" : "pointer", display: "flex", alignItems: "center", gap: 6, fontWeight: 700, fontSize: 13 }}>
