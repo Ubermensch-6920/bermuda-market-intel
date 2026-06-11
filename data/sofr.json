@@ -1641,6 +1641,6 @@
     "date": "2025-06-11"
   },
   "term_rates": {},
-  "note": "Published daily by NY Fed at ~8:00 AM ET. Averages are backward-looking compounded. Term SOFR via CME/FRED.",
-  "_fetched": "2026-06-11T16:22:41.006006Z"
+  "note": "Published daily by NY Fed at ~8:00 AM ET. Averages are backward-looking compounded (30/90/180-day) via FRED.",
+  "_fetched": "2026-06-11T17:13:42.372831Z"
 }
