@@ -1,5 +1,5 @@
 {
-  "date": "",
+  "date": "2026-06-10",
   "source": "FRED ICE BofA / TradingEconomics",
   "status": "partial",
   "sovereign": {
@@ -14,58 +14,58 @@
   "corporate": {
     "aaa": {
       "name": "AAA Corp",
-      "spread": 39,
-      "prior": 41,
-      "series_id": "BAMLC0A1CAAA",
-      "date": "",
+      "spread": 34,
+      "prior": 33,
+      "series_id": "",
+      "date": "2026-06-10",
       "source": "credit.json"
     },
     "aa": {
       "name": "AA Corp",
-      "spread": 54,
-      "prior": 55,
-      "series_id": "BAMLC0A2CAA",
-      "date": "",
+      "spread": 49,
+      "prior": 49,
+      "series_id": "",
+      "date": "2026-06-10",
       "source": "credit.json"
     },
     "a": {
       "name": "A Corp",
-      "spread": 73,
-      "prior": 73,
-      "series_id": "BAMLC0A3CA",
-      "date": "",
+      "spread": 63,
+      "prior": 63,
+      "series_id": "",
+      "date": "2026-06-10",
       "source": "credit.json"
     },
     "bbb": {
       "name": "BBB Corp",
-      "spread": 111,
-      "prior": 111,
-      "series_id": "BAMLC0A4CBBB",
-      "date": "",
+      "spread": 94,
+      "prior": 93,
+      "series_id": "",
+      "date": "2026-06-10",
       "source": "credit.json"
     },
     "bb": {
       "name": "BB Corp",
-      "spread": 197,
-      "prior": 200,
-      "series_id": "BAMLH0A1HYBB",
-      "date": "",
+      "spread": 170,
+      "prior": 168,
+      "series_id": "",
+      "date": "2026-06-10",
       "source": "credit.json"
     },
     "b": {
       "name": "B Corp",
-      "spread": 350,
-      "prior": 357,
-      "series_id": "BAMLH0A2HYB",
-      "date": "",
+      "spread": 303,
+      "prior": 302,
+      "series_id": "",
+      "date": "2026-06-10",
       "source": "credit.json"
     },
     "ccc": {
       "name": "CCC Corp",
-      "spread": 975,
-      "prior": 979,
-      "series_id": "BAMLH0A3HYC",
-      "date": "",
+      "spread": 957,
+      "prior": 951,
+      "series_id": "",
+      "date": "2026-06-10",
       "source": "credit.json"
     }
   },
@@ -103,5 +103,5 @@
       "source": "cache"
     }
   },
-  "_fetched": "2026-06-11T17:12:29.170494Z"
+  "_fetched": "2026-06-11T17:39:07.077742Z"
 }

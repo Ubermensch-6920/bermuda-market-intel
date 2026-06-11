@@ -5,12 +5,12 @@
     "gilt": "ok",
     "eur": "ok",
     "india": "ok",
-    "credit": "cached",
+    "credit": "ok",
     "cds": "ok",
     "sofr": "ok",
     "bma_rates": "ok",
     "commodities": "ok"
   },
-  "run": "2026-06-11T17:18:54.190916Z",
-  "_fetched": "2026-06-11T17:19:38.886345Z"
+  "run": "2026-06-11T17:41:22.220874Z",
+  "_fetched": "2026-06-11T17:41:27.411298Z"
 }

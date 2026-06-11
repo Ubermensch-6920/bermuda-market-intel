@@ -76,13 +76,13 @@
     null,
     null,
     null,
-    null,
+    1.42,
     null,
     null,
     null,
     null,
     null
   ],
-  "year_ago_date": "",
-  "_fetched": "2026-06-11T17:09:39.952337Z"
+  "year_ago_date": "2025-06-01",
+  "_fetched": "2026-06-11T17:37:57.975660Z"
 }
