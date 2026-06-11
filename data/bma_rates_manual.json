@@ -333,6 +333,7 @@
     }
   },
   "known_files": {
-    "_instructions": "bma.bm blocks automated clients, so new quarterly workbooks may not be auto-discovered. Open https://www.bma.bm/document-centre/reporting-forms-and-guidelines-insurance in a browser, copy the 'Discount Rates. <quarter end>' link, and add it here as 'YYYY-MM-DD': 'https://cdn.bma.bm/documents/...xlsx'. The pipeline downloads and parses it on the next run."
+    "_instructions": "bma.bm blocks automated clients, so new quarterly workbooks may not be auto-discovered. Open https://www.bma.bm/document-centre/reporting-forms-and-guidelines-insurance in a browser, copy the 'Discount Rates. <quarter end>' link, and add it here as 'YYYY-MM-DD': 'https://cdn.bma.bm/documents/...xlsx'. The pipeline downloads and parses it on the next run.",
+    "2026-03-31": "https://cdn.bma.bm/documents/2026-04-15-16-51-45-Discounts-Rates.-31-March-2026.xlsx"
   }
 }

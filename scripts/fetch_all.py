@@ -1780,6 +1780,7 @@ def _bma_currency_code(name):
     return mapping.get(s, s.upper()[:3])
 
 BMA_KNOWN_DISCOUNT_FILES = {
+    "2026-03-31": "https://cdn.bma.bm/documents/2026-04-15-16-51-45-Discounts-Rates.-31-March-2026.xlsx",
     "2025-12-31": "https://cdn.bma.bm/documents/2026-01-15-11-20-15-Discount-Rates.-31-December-2025.xlsx",
     "2025-09-30": "https://cdn.bma.bm/documents/2025-10-22-15-18-14-Discount-Rates.-30-September-2025..xlsx",
     "2025-06-30": "https://cdn.bma.bm/documents/2025-07-18-10-22-07-Discount-Rates.-30-June-2025..xlsx",
