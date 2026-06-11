@@ -17,6 +17,9 @@ logging.basicConfig(level=logging.INFO, format="%(asctime)s %(levelname)s %(mess
 log = logging.getLogger("fetch")
 DATA = Path(__file__).parent.parent / "data"
 DATA.mkdir(exist_ok=True)
+
+sys.path.insert(0, str(Path(__file__).parent))
+from fetchlib import fred_fetch, record_source, flush_source_health
 HDR = {
     "User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/124.0.0.0 Safari/537.36",
     "Accept": "text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8",
@@ -46,71 +49,13 @@ def write(name, obj):
     (DATA / name).write_text(json.dumps(obj, indent=2, default=str))
     log.info(f"  wrote {name}")
 
-def fred_csv(series_id, start="2024-01-01", retries=0):
-    """Fetch single FRED series CSV."""
-    for attempt in range(retries + 1):
-        try:
-            url = f"https://fred.stlouisfed.org/graph/fredgraph.csv?id={series_id}&cosd={start}"
-            raw = get(url, timeout=6)
-            obs = []
-            for line in raw.strip().split("\n")[1:]:
-                parts = line.split(",")
-                if len(parts) >= 2 and parts[1] not in (".", ""):
-                    try:
-                        obs.append({"date": parts[0], "value": float(parts[1])})
-                    except Exception:
-                        pass
-            obs.sort(key=lambda x: x["date"], reverse=True)
-            if obs:
-                return obs
-        except Exception as e:
-            log.warning(f"  FRED {series_id} attempt {attempt+1}: {e}")
-            if attempt < retries:
-                time.sleep(2)
-    return []
+def fred_csv(series_id, start="2024-01-01", retries=2):
+    """Fetch single FRED series (official API when keyed, CSV fallback)."""
+    return fred_fetch([series_id], start=start, retries=retries).get(series_id, [])
 
-def fred_multi_csv(series_ids, start="2024-01-01", retries=0):
-    """Fetch MULTIPLE FRED series in ONE request. Returns {series_id: [obs]}."""
-    joined = ",".join(series_ids)
-    url = f"https://fred.stlouisfed.org/graph/fredgraph.csv?id={joined}&cosd={start}"
-    result = {sid: [] for sid in series_ids}
-    sid_upper = {sid.upper(): sid for sid in series_ids}
-    for attempt in range(retries + 1):
-        try:
-            raw = get(url, timeout=8)
-            rows = list(csv.reader(io.StringIO(raw)))
-            if len(rows) < 2:
-                return result
-            header = [h.strip().strip('"') for h in rows[0]]
-            col_map = {}
-            for i, h in enumerate(header):
-                if i == 0:
-                    continue
-                sid = sid_upper.get(h.upper())
-                if sid:
-                    col_map[i] = sid
-            for parts in rows[1:]:
-                if len(parts) < 2:
-                    continue
-                date_val = parts[0].strip().strip('"')
-                if not re.match(r"\d{4}-\d{2}-\d{2}", date_val):
-                    continue
-                for ci, sid in col_map.items():
-                    if ci < len(parts):
-                        val = parts[ci].strip().strip('"')
-                        if val not in (".", ""):
-                            try:
-                                result[sid].append({"date": date_val, "value": float(val)})
-                            except Exception:
-                                pass
-            for sid in result:
-                result[sid].sort(key=lambda x: x["date"], reverse=True)
-            return result
-        except Exception as e:
-            log.warning(f"  FRED multi fetch attempt {attempt+1}: {e}")
-            if attempt < retries:
-                time.sleep(2 * (attempt + 1))
-    return result
+def fred_multi_csv(series_ids, start="2024-01-01", retries=2):
+    """Fetch MULTIPLE FRED series. Returns {series_id: [obs]}."""
+    return fred_fetch(list(series_ids), start=start, retries=retries)
 
 def fred_download_csv(series_id, start="2024-01-01"):
     """Alternative FRED endpoint: series download page instead of graph CSV.
@@ -458,9 +403,11 @@ def scrape_investing_yield(url_path):
             if m:
                 v = float(m.group(1))
                 if 0 < v < 20:
+                    record_source("Investing.com", "yield scrapes", ok=True)
                     return v
     except Exception:
         pass
+    record_source("Investing.com", "yield scrapes", ok=False)
     return None
 
 def _scrape_tenors(tenor_path_map, max_workers=4):
@@ -489,9 +436,11 @@ def scrape_commodity_spot(url_path):
             if m:
                 v = float(m.group(1).replace(",", ""))
                 if v > 0:
+                    record_source("Investing.com", "commodity spots", ok=True)
                     return round(v, 2)
     except Exception:
         pass
+    record_source("Investing.com", "commodity spots", ok=False)
     return None
 
 def scrape_fx_spot(url_path):
@@ -508,9 +457,11 @@ def scrape_fx_spot(url_path):
             if m:
                 v = float(m.group(1).replace(",", ""))
                 if v > 0:
+                    record_source("Investing.com", "FX spots", ok=True)
                     return round(v, 4)
     except Exception:
         pass
+    record_source("Investing.com", "FX spots", ok=False)
     return None
 
 def nse_usdinr_forwards(spot_hint=None):
@@ -551,8 +502,9 @@ def nse_usdinr_forwards(spot_hint=None):
             cand = min(rows, key=lambda x: abs((x[0] - target).days)) if rows else None
             if cand is not None:
                 out[tenor] = cand[1]
-    except Exception:
-        pass
+    except Exception as e:
+        log.warning(f"  NSE USD/INR forwards: {e}")
+    record_source("NSE", "USD/INR forwards", ok=bool(out))
     return out
 
 def scrape_usdinr_forwards(spot_hint=None):
@@ -609,8 +561,8 @@ def scrape_usdinr_forwards(spot_hint=None):
                             continue
                     out[tenor] = round(v, 4)
                     break
-    except Exception:
-        pass
+    except Exception as e:
+        log.warning(f"  Investing USD/INR forwards: {e}")
     return out
 
 def scrape_te_last_value(url):
@@ -636,6 +588,7 @@ def te_bonds_table(url, code_map):
     try:
         text = _strip_html(get(url, timeout=15))
     except Exception:
+        record_source("TradingEconomics", "bond yield tables", ok=False)
         return {}
 
     out = {}
@@ -656,6 +609,7 @@ def te_bonds_table(url, code_map):
             "y1": round(cur - year_delta, 4),
             "date": m.group(5),
         }
+    record_source("TradingEconomics", "bond yield tables", ok=bool(out))
     return out
 
 def yahoo_price(symbol):
@@ -666,9 +620,11 @@ def yahoo_price(symbol):
         closes = data["chart"]["result"][0]["indicators"]["quote"][0]["close"]
         for v in reversed(closes):
             if v is not None:
+                record_source("Yahoo Finance", "futures / spot prices", ok=True)
                 return round(v, 2)
     except Exception:
         pass
+    record_source("Yahoo Finance", "futures / spot prices", ok=False)
     return None
 
 def yahoo_price_at(symbol, days_ago, max_diff_days=5):
@@ -766,10 +722,16 @@ def _boe_nominal_rows():
     if load_workbook is None:
         return []
     want = {"1Y": 1.0, "2Y": 2.0, "3Y": 3.0, "5Y": 5.0, "7Y": 7.0, "10Y": 10.0, "15Y": 15.0, "20Y": 20.0, "30Y": 30.0}
-    blob = get_bytes("https://www.bankofengland.co.uk/-/media/boe/files/statistics/yield-curves/glcnominalddata.zip", timeout=40, retries=2)
-    wb = load_workbook(_open_first_xlsx_from_zip(blob), data_only=True, read_only=True)
-    ws = wb["4. spot curve"] if "4. spot curve" in wb.sheetnames else wb[wb.sheetnames[0]]
-    return _extract_curve_rows_from_sheet(ws, want)
+    try:
+        blob = get_bytes("https://www.bankofengland.co.uk/-/media/boe/files/statistics/yield-curves/glcnominalddata.zip", timeout=40, retries=2)
+        wb = load_workbook(_open_first_xlsx_from_zip(blob), data_only=True, read_only=True)
+        ws = wb["4. spot curve"] if "4. spot curve" in wb.sheetnames else wb[wb.sheetnames[0]]
+        rows = _extract_curve_rows_from_sheet(ws, want)
+        record_source("Bank of England", "GBP gilt curve", ok=bool(rows))
+        return rows
+    except Exception:
+        record_source("Bank of England", "GBP gilt curve", ok=False)
+        raise
 
 def _discover_fbil_xlsx_urls():
     urls = []
@@ -808,9 +770,11 @@ def _fbil_rows():
             for s in wb.sheetnames:
                 rows = _extract_curve_rows_from_sheet(wb[s], want)
                 if rows:
+                    record_source("FBIL", "India G-Sec curve", ok=True)
                     return rows
         except Exception as e:
             log.warning(f"  FBIL parse failed for {url}: {e}")
+    record_source("FBIL", "India G-Sec curve", ok=False)
     return []
 
 # ── 1. UST ──
@@ -843,8 +807,13 @@ def fetch_ust():
         return rows
 
     now = datetime.utcnow()
-    rows = parse_year(now.year)
-    assert len(rows) >= 2
+    try:
+        rows = parse_year(now.year)
+        assert len(rows) >= 2
+    except Exception:
+        record_source("US Treasury", "UST curve", ok=False)
+        raise
+    record_source("US Treasury", "UST curve", ok=True)
     ya_rows = parse_year(now.year - 1)
     # Interpolate 15Y (linear between 10Y and 20Y) for all fetched rows
     for r in rows + ya_rows:
@@ -883,7 +852,12 @@ def fetch_ust():
 def fetch_jgb():
     log.info("JGB: fetching")
     want = ["1Y", "2Y", "3Y", "5Y", "7Y", "10Y", "15Y", "20Y", "25Y", "30Y", "40Y"]
-    raw = get("https://www.mof.go.jp/english/policy/jgbs/reference/interest_rate/jgbcme.csv")
+    try:
+        raw = get("https://www.mof.go.jp/english/policy/jgbs/reference/interest_rate/jgbcme.csv")
+    except Exception:
+        record_source("MOF Japan", "JGB curve", ok=False)
+        raise
+    record_source("MOF Japan", "JGB curve", ok=True)
     lines = raw.split("\n")
     hdr_idx, headers = -1, []
     for i, line in enumerate(lines[:5]):
@@ -1068,8 +1042,9 @@ def fetch_eur():
             obs.sort(key=lambda x: x["date"], reverse=True)
             if obs:
                 results[tn] = {"value": obs[0]["value"], "prior": obs[1]["value"] if len(obs) > 1 else None, "date": obs[0]["date"], "all_obs": obs}
-        except Exception:
-            pass
+        except Exception as e:
+            log.warning(f"  ECB {tn}: {e}")
+    record_source("ECB SDW", "EUR AAA govt curve", ok=bool(results))
     assert results
     latest = max(r["date"] for r in results.values())
 
@@ -1181,16 +1156,36 @@ def fetch_india():
     if valid_count < 3:
         raise Exception(f"INDIA: insufficient data ({valid_count} tenors)")
 
+    # Our own stored history (excluding today) supplies prior-day and fills
+    # gaps the upstream sources leave — this is what makes comparisons
+    # self-healing after a day of runs.
+    hist_rows = [r for r in load_curve_history("india") if r["date"] < date_str]
+    derived = {}
+
+    if rows and len(rows) > 1:
+        prior_yields = [rows[1]["yields"].get(t) for t in tenors]
+        prior_date = rows[1]["date"]
+    else:
+        prior_yields, prior_date = find_prior_date_yields(hist_rows, 1, tenors, max_diff_days=5)
+        if prior_date:
+            derived["prior_day"] = "own history"
+
     if rows and len(rows) > 2:
         p1m_yields, p1m_date = find_prior_date_yields(rows, 30, tenors)
         p3m_yields, p3m_date = find_prior_date_yields(rows, 91, tenors)
         ya_yields, ya_date = find_prior_date_yields(rows, 365, tenors, max_diff_days=21)
     else:
         p1m_yields = [te.get(t, {}).get("m1") for t in tenors]
-        p1m_date = "TE month delta reconstruction"
-        p3m_yields, p3m_date = history_lookup("india", 91, tenors)
+        p1m_date = ""
+        if any(v is not None for v in p1m_yields):
+            derived["prior_1m"] = "TE month delta reconstruction"
+        p3m_yields, p3m_date = find_prior_date_yields(hist_rows, 91, tenors)
+        if p3m_date:
+            derived["prior_3m"] = "own history"
         ya_yields = [te.get(t, {}).get("y1") for t in tenors]
-        ya_date = "TE year delta reconstruction"
+        ya_date = ""
+        if any(v is not None for v in ya_yields):
+            derived["year_ago"] = "TE year delta reconstruction"
         # Only call FRED for 10Y priors that TE didn't cover (avoids expensive
         # timeout chains when FRED is under load)
         idx10 = tenors.index("10Y")
@@ -1217,6 +1212,16 @@ def fetch_india():
             except Exception:
                 pass
 
+    # Fill remaining comparison gaps from our own history
+    for vals, days_ago, max_diff, key in ((p1m_yields, 30, 7, "prior_1m"), (ya_yields, 365, 21, "year_ago")):
+        if any(v is None for v in vals):
+            hv, hd = find_prior_date_yields(hist_rows, days_ago, tenors, max_diff_days=max_diff)
+            if hd:
+                for i in range(len(vals)):
+                    if vals[i] is None and hv[i] is not None:
+                        vals[i] = hv[i]
+                        derived.setdefault(key, "own history")
+
     append_curve_history("india", date_str, tenors, [current.get(t) for t in tenors], source)
 
     write("india.json", {
@@ -1225,13 +1230,15 @@ def fetch_india():
         "url": source_url,
         "tenors": tenors,
         "yields": [current.get(t) for t in tenors],
-        "prior_yields": [None] * len(tenors),
+        "prior_yields": prior_yields,
+        "prior_date": prior_date,
         "prior_1m_yields": p1m_yields,
         "prior_1m_date": p1m_date,
         "prior_3m_yields": p3m_yields,
         "prior_3m_date": p3m_date,
         "year_ago_yields": ya_yields,
         "year_ago_date": ya_date,
+        "derived": derived,
         "note": "FBIL latest first, then Investing/TE/FRED, then local history / cache. India 3M curve is exact once local history accumulates."
     })
     log.info(f"  INDIA OK: {valid_count} tenors")
@@ -1628,6 +1635,7 @@ def fetch_sofr():
     except Exception as e:
         log.warning(f"  SOFR averages: {e}")
 
+    record_source("NY Fed", "SOFR rates", ok=bool(rates), fallback=None if rates else "FRED")
     if not rates:
         log.info("  SOFR: trying FRED fallback")
         for key, sid, name, desc in [
@@ -1680,13 +1688,15 @@ def fetch_sofr():
     except Exception as e:
         log.warning(f"  UST history merge: {e}")
 
-    # Term SOFR (forward-looking CME reference rates via FRED)
+    # Compounded SOFR averages (NY Fed, published on FRED). CME Term SOFR is
+    # licensed and not on FRED — the old SOFRTERM* series IDs never existed,
+    # which is why this table was always empty.
     term_rates = {}
     try:
-        tr_start = (datetime.utcnow() - timedelta(days=7)).strftime("%Y-%m-%d")
-        tr_raw = fred_multi_csv(["SOFRTERM1M", "SOFRTERM3M", "SOFRTERM6M", "SOFRTERM1Y"], start=tr_start)
-        term_map = {"SOFRTERM1M": "1M", "SOFRTERM3M": "3M", "SOFRTERM6M": "6M", "SOFRTERM1Y": "1Y"}
-        term_labels = {"1M": "Term SOFR 1M", "3M": "Term SOFR 3M", "6M": "Term SOFR 6M", "1Y": "Term SOFR 1Y"}
+        tr_start = (datetime.utcnow() - timedelta(days=14)).strftime("%Y-%m-%d")
+        tr_raw = fred_multi_csv(["SOFR30DAYAVG", "SOFR90DAYAVG", "SOFR180DAYAVG"], start=tr_start)
+        term_map = {"SOFR30DAYAVG": "1M", "SOFR90DAYAVG": "3M", "SOFR180DAYAVG": "6M"}
+        term_labels = {"1M": "SOFR 30D Avg", "3M": "SOFR 90D Avg", "6M": "SOFR 180D Avg"}
         for sid, key in term_map.items():
             obs = tr_raw.get(sid) or []
             if obs:
@@ -1698,9 +1708,9 @@ def fetch_sofr():
                     "prior": round(prior["value"], 4) if prior else None,
                     "date": cur["date"],
                 }
-        log.info(f"  Term SOFR: {list(term_rates.keys())}")
+        log.info(f"  SOFR averages: {list(term_rates.keys())}")
     except Exception as e:
-        log.warning(f"  Term SOFR: {e}")
+        log.warning(f"  SOFR averages: {e}")
 
     write("sofr.json", {
         "date": latest_date,
@@ -1710,7 +1720,7 @@ def fetch_sofr():
         "history": history,
         "year_ago": {"rate": ya_rate, "date": ya_date},
         "term_rates": term_rates,
-        "note": "Published daily by NY Fed at ~8:00 AM ET. Averages are backward-looking compounded. Term SOFR via CME/FRED."
+        "note": "Published daily by NY Fed at ~8:00 AM ET. Averages are backward-looking compounded (30/90/180-day) via FRED."
     })
     log.info(f"  SOFR OK: {latest_date}")
 
@@ -2359,6 +2369,10 @@ def fetch_commodities():
                 usdinr_futures[t]["price"] = fwds[t]
                 usdinr_futures[t]["contract"] = source_name
                 usdinr_futures[t]["expiry"] = t
+    filled = [t for t in ["3M", "6M", "12M", "24M"] if usdinr_futures.get(t, {}).get("price") is not None]
+    missing = [t for t in ["3M", "6M", "12M", "24M"] if t not in filled]
+    if missing:
+        log.warning(f"  USD/INR forwards missing after Yahoo+NSE+Investing: {missing}")
 
     # Reject any forward price that is more than 3 INR below spot — these are stale or
     # misparsed values from a prior spot regime that slipped through scraper validation.
@@ -2457,6 +2471,10 @@ def main():
             log.error(f"  {name} FAILED: {e}")
             results[name] = str(e)
     write("manifest.json", {"results": results, "run": datetime.utcnow().isoformat() + "Z"})
+    try:
+        flush_source_health()
+    except Exception as e:
+        log.warning(f"  source health flush: {e}")
     failed = [k for k, v in results.items() if v != "ok"]
     log.info(f"Done: {len(results)-len(failed)}/{len(results)} ok" + (f", failed: {failed}" if failed else ""))
 

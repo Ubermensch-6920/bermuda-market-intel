@@ -18,12 +18,16 @@ import io
 import json
 import logging
 import re
+import sys
 import urllib.parse
 import urllib.request
 from collections import Counter
 from concurrent.futures import ThreadPoolExecutor, as_completed
 from datetime import datetime, timedelta
 from pathlib import Path
+
+sys.path.insert(0, str(Path(__file__).parent))
+from fetchlib import FRED_API_KEY, fred_fetch, record_source, flush_source_health
 
 logging.basicConfig(level=logging.INFO, format="%(asctime)s %(levelname)s %(message)s")
 log = logging.getLogger("credit")
@@ -277,6 +281,26 @@ def fetch_observations():
     series_ids = [meta["sid"] for meta in SERIES.values()]
     observations = {sid: [] for sid in series_ids}
 
+    # Official FRED API first when a key is configured — the public CSV
+    # endpoints below are frequently blocked from CI runner IPs.
+    if FRED_API_KEY:
+        try:
+            api = fred_fetch(series_ids, start=recent_start())
+            for sid, obs in api.items():
+                rows = []
+                for o in obs:
+                    bp = valid_bp(o["value"])
+                    if bp is not None:
+                        rows.append({"date": o["date"], "value": bp})
+                if rows:
+                    observations[sid] = rows
+            got = sum(1 for sid in series_ids if observations.get(sid))
+            log.info("FRED official API returned %s/%s series", got, len(series_ids))
+            if got == len(series_ids):
+                return observations
+        except Exception as exc:
+            log.warning("FRED official API stage failed: %s", exc)
+
     try:
         observations.update(fred_bulk(series_ids))
         got = sum(1 for sid in series_ids if observations.get(sid))
@@ -417,6 +441,18 @@ def main():
 
     write_json(DATA / "credit.json", credit)
     patch_manifest(credit.get("status", "cached"))
+    try:
+        fresh = credit.get("fresh_count", 0) or 0
+        record_source(
+            "FRED",
+            "credit spreads (ICE BofA OAS)",
+            ok=fresh > 0,
+            fallback=None if fresh > 0 else "cache",
+            note=f"credit status={credit.get('status', '?')}",
+        )
+        flush_source_health()
+    except Exception as exc:
+        log.warning("source health flush: %s", exc)
 
 
 if __name__ == "__main__":

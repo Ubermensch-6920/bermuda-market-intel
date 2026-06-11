@@ -17,11 +17,15 @@ import io
 import json
 import logging
 import re
+import sys
 import time
 import urllib.request
 import urllib.parse
 from datetime import datetime
 from pathlib import Path
+
+sys.path.insert(0, str(Path(__file__).parent))
+from fetchlib import fred_fetch, record_source, flush_source_health
 
 logging.basicConfig(level=logging.INFO, format="%(asctime)s %(levelname)s %(message)s")
 log = logging.getLogger("debt_maturity")
@@ -65,28 +69,9 @@ def write(name, obj):
     log.info(f"  wrote {name}")
 
 
-def fred_csv(series_id, start="2015-01-01", retries=1):
+def fred_csv(series_id, start="2015-01-01", retries=2):
     """Fetch single FRED series, return list of {date, value} sorted newest first."""
-    for attempt in range(retries + 1):
-        try:
-            url = f"https://fred.stlouisfed.org/graph/fredgraph.csv?id={series_id}&cosd={start}"
-            raw = get(url, timeout=10)
-            obs = []
-            for line in raw.strip().split("\n")[1:]:
-                parts = line.split(",")
-                if len(parts) >= 2 and parts[1] not in (".", ""):
-                    try:
-                        obs.append({"date": parts[0], "value": float(parts[1])})
-                    except Exception:
-                        pass
-            obs.sort(key=lambda x: x["date"], reverse=True)
-            if obs:
-                return obs
-        except Exception as e:
-            log.warning(f"  FRED {series_id} attempt {attempt+1}: {e}")
-            if attempt < retries:
-                time.sleep(3)
-    return []
+    return fred_fetch([series_id], start=start, retries=retries).get(series_id, [])
 
 
 # ── Cache ─────────────────────────────────────────────────────────────────────
@@ -361,6 +346,19 @@ def fetch_debt_maturity():
     else:
         countries["india"] = {**STATIC_DEFAULTS["india"], "wam_months": round(STATIC_DEFAULTS["india"]["wam_years"] * 12, 1), "change_years": 0.3}
 
+    # Cached/static entries can predate the wam_months field — derive it from
+    # wam_years so the dashboard always has the months value.
+    for c in countries.values():
+        if c.get("wam_months") is None and c.get("wam_years") is not None:
+            c["wam_months"] = round(c["wam_years"] * 12, 1)
+
+    record_source("MOF Japan", "JGB weighted avg maturity", ok=jpn_wam is not None,
+                  fallback=None if jpn_wam is not None else "cache")
+    record_source("UK DMO", "gilt weighted avg maturity", ok=uk_wam is not None,
+                  fallback=None if uk_wam is not None else "cache")
+    record_source("OECD", "Germany weighted avg maturity (EUR proxy)", ok=eur_wam is not None,
+                  fallback=None if eur_wam is not None else "cache")
+
     # ── Write output ──────────────────────────────────────────────────────────
     latest_date = max(
         (c.get("data_date", "") for c in countries.values() if c.get("data_date")),
@@ -384,6 +382,10 @@ def fetch_debt_maturity():
 
 def main():
     fetch_debt_maturity()
+    try:
+        flush_source_health()
+    except Exception as e:
+        log.warning(f"source health flush: {e}")
 
 
 if __name__ == "__main__":
