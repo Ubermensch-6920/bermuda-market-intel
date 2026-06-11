@@ -328,11 +328,25 @@ const srcLabel = s => {
 };
 
 const CreditSection = ({ data, loading: ld, error }) => {
+  const [copied, setCopied] = useState("");
   if (ld) return <div style={{ background: "#0d0f14", border: "1px solid #1e2028", borderRadius: 10, padding: 40, textAlign: "center", color: "#94a3b8" }}><Loader size={24} style={{ animation: "spin 1s linear infinite", margin: "0 auto 10px", display: "block", color: "#60a5fa" }} />Loading…</div>;
   if (error) return <div style={{ background: "#0d0f14", border: "1px solid #1e2028", borderRadius: 10, padding: 20 }}><h3 style={{ margin: "0 0 8px", fontSize: 16, fontWeight: 700, color: "#f1f5f9" }}>Credit Spreads</h3><div style={{ color: "#f87171", fontSize: 13 }}><AlertTriangle size={14} style={{ verticalAlign: "middle", marginRight: 6 }} />{error}</div></div>;
   if (!data) return null;
   const entries = Object.values(data.spreads || {}).filter(e => e.spread != null);
   const hasCache = entries.some(e => e.source === "cache");
+
+  // Quarter-end history (written by fetch_credit_latest.py), newest first.
+  const creditQs = (data.quarter_history || []).slice(0, 4);
+  const spreadKeys = Object.keys(data.spreads || {});
+  const buildCreditQTsv = () => {
+    const lines = [["Index", "Current (bp)", ...creditQs.map(q => `${q.quarter} (${q.date})`), "QoQ (bp)"].join("\t")];
+    spreadKeys.forEach(k => {
+      const vals = creditQs.map(q => q.spreads?.[k]);
+      const qoq = vals[0] != null && vals[1] != null ? vals[0] - vals[1] : "";
+      lines.push([data.spreads[k]?.name || k, data.spreads[k]?.spread ?? "", ...vals.map(v => v ?? ""), qoq].join("\t"));
+    });
+    return lines.join("\n");
+  };
   return (<div style={{ background: "#0d0f14", border: "1px solid #1e2028", borderRadius: 10, overflow: "hidden" }}>
     <div style={{ padding: "16px 22px", borderBottom: "1px solid #1e2028" }}>
       <h3 style={{ margin: 0, fontSize: 17, fontWeight: 700, color: "#f1f5f9" }}>US Corporate Credit Spreads (OAS)</h3>
@@ -361,6 +375,58 @@ const CreditSection = ({ data, loading: ld, error }) => {
         })}</tbody>
       </table>
     </div>
+
+    {/* Quarter-end history */}
+    {creditQs.length > 1 && (
+      <div style={{ padding: "4px 22px 18px", borderTop: "1px solid #1e2028" }}>
+        <div style={{ display: "flex", alignItems: "center", gap: 10, flexWrap: "wrap", padding: "12px 0 10px" }}>
+          <div style={{ fontSize: 12, color: "#94a3b8", fontWeight: 700, textTransform: "uppercase", letterSpacing: "0.08em" }}>
+            Last {creditQs.length} Quarters — OAS (bp)
+          </div>
+          <div style={{ marginLeft: "auto" }}>
+            <CopyTableButton label="Copy quarters" id="creditQ" buildText={buildCreditQTsv} copied={copied} setCopied={setCopied} />
+          </div>
+        </div>
+        <div style={{ overflowX: "auto" }}>
+          <table style={{ width: "100%", borderCollapse: "collapse", fontSize: 13 }}>
+            <thead>
+              <tr style={{ borderBottom: "2px solid #1e2028" }}>
+                <th style={{ textAlign: "left", padding: "8px 12px", color: "#94a3b8", fontWeight: 700, fontSize: 12 }}>Index</th>
+                <th style={{ textAlign: "right", padding: "8px 12px", color: "#f1f5f9", fontWeight: 700, fontSize: 12 }}>Current</th>
+                {creditQs.map(q => (
+                  <th key={q.date} style={{ textAlign: "right", padding: "8px 12px", color: "#94a3b8", fontWeight: 700, fontSize: 12 }}>
+                    {q.quarter}<div style={{ fontSize: 10, fontWeight: 500, color: "#475569" }}>{q.date}</div>
+                  </th>
+                ))}
+                <th style={{ textAlign: "right", padding: "8px 12px", color: "#34d399", fontWeight: 700, fontSize: 12 }}>QoQ (bp)</th>
+              </tr>
+            </thead>
+            <tbody>
+              {spreadKeys.map(k => {
+                const meta = data.spreads[k] || {};
+                const vals = creditQs.map(q => q.spreads?.[k]);
+                const qoq = vals[0] != null && vals[1] != null ? vals[0] - vals[1] : null;
+                return (
+                  <tr key={k} style={{ borderBottom: "1px solid #151820" }}>
+                    <td style={{ padding: "7px 12px", color: "#f1f5f9", fontWeight: 600, fontSize: 13 }}>{meta.name || k} {meta.bucket && <Badge color={["HY", "BB", "B", "CCC"].includes(meta.bucket) ? "#f87171" : "#4ade80"}>{meta.bucket}</Badge>}</td>
+                    <td style={{ padding: "7px 12px", textAlign: "right", fontFamily: "monospace", color: "#f1f5f9", fontWeight: 700, fontSize: 14 }}>{meta.spread ?? "—"}</td>
+                    {vals.map((v, vi) => (
+                      <td key={vi} style={{ padding: "7px 12px", textAlign: "right", fontFamily: "monospace", color: "#94a3b8" }}>{v ?? "—"}</td>
+                    ))}
+                    <td style={{ padding: "7px 12px", textAlign: "right", fontFamily: "monospace", color: chgCol(qoq), fontWeight: 600 }}>
+                      {qoq != null ? (qoq > 0 ? "+" : "") + qoq : "—"}
+                    </td>
+                  </tr>
+                );
+              })}
+            </tbody>
+          </table>
+        </div>
+        <div style={{ fontSize: 10, color: "#475569", marginTop: 8 }}>
+          Quarter-end ICE BofA OAS snapshots (nearest business day on or before quarter end). QoQ compares the two most recent quarter ends.
+        </div>
+      </div>
+    )}
   </div>);
 };
 

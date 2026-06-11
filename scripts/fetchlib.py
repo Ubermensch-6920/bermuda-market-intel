@@ -16,6 +16,7 @@ import logging
 import os
 import re
 import time
+import urllib.error
 import urllib.parse
 import urllib.request
 from datetime import datetime
@@ -62,7 +63,11 @@ def _http_get(url, timeout=10):
 
 
 def _fred_api_series(series_id, start, timeout=10):
-    """Fetch one series via the official FRED API. Returns obs newest-first."""
+    """Fetch one series via the official FRED API. Returns obs newest-first.
+
+    The API allows 120 requests/min; a pipeline run makes dozens of calls, so
+    back off and retry on HTTP 429 instead of failing the series.
+    """
     params = urllib.parse.urlencode({
         "series_id": series_id,
         "api_key": FRED_API_KEY,
@@ -70,7 +75,18 @@ def _fred_api_series(series_id, start, timeout=10):
         "observation_start": start,
         "sort_order": "desc",
     })
-    raw = _http_get(f"{FRED_API_URL}?{params}", timeout=timeout)
+    url = f"{FRED_API_URL}?{params}"
+    raw = None
+    for attempt, backoff in enumerate((2, 5, None)):
+        try:
+            raw = _http_get(url, timeout=timeout)
+            break
+        except urllib.error.HTTPError as e:
+            if e.code == 429 and backoff is not None:
+                log.warning(f"  FRED API {series_id}: 429 rate-limited, retrying in {backoff}s")
+                time.sleep(backoff)
+                continue
+            raise
     data = json.loads(raw)
     obs = []
     for o in data.get("observations", []):
@@ -143,7 +159,7 @@ def fred_fetch(series_ids, start="2024-01-01", timeout=10, retries=2):
         for sid in series_ids:
             try:
                 result[sid] = _fred_api_series(sid, start, timeout=timeout)
-                time.sleep(0.3)
+                time.sleep(0.5)
             except Exception as e:
                 api_failed.append(sid)
                 log.warning(f"  FRED API {sid}: {e}")
@@ -242,7 +258,13 @@ def flush_source_health():
                 merged["status"] = "stagnant"
         existing[source] = merged
 
-    sources = sorted(existing.values(), key=lambda s: s["source"].lower())
+    # Prune entries not attempted recently (renamed/retired source labels).
+    def _fresh(s):
+        try:
+            return (now - datetime.strptime(s.get("last_attempt", "")[:10], "%Y-%m-%d")).days <= 14
+        except ValueError:
+            return False
+    sources = sorted((s for s in existing.values() if _fresh(s)), key=lambda s: s["source"].lower())
     counts = {"active": 0, "fallback": 0, "stagnant": 0}
     for s in sources:
         counts[s.get("status", "stagnant")] = counts.get(s.get("status", "stagnant"), 0) + 1

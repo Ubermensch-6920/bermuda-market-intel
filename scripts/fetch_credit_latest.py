@@ -58,6 +58,10 @@ SERIES = {
 
 MAX_FRESH_AGE_DAYS = 7
 RECENT_WINDOW_DAYS = 90
+# Official-API window: long enough to cover the last 4 completed quarter-ends
+# for the quarter_history table. Same request count, just a wider window.
+QUARTER_WINDOW_DAYS = 420
+QUARTER_MATCH_MAX_DAYS = 10
 REQUEST_TIMEOUT_SECONDS = 8
 FALLBACK_TIMEOUT_SECONDS = 6
 FALLBACK_WORKERS = 6
@@ -73,6 +77,69 @@ def iso_now():
 
 def recent_start():
     return (utc_now() - timedelta(days=RECENT_WINDOW_DAYS)).strftime("%Y-%m-%d")
+
+
+def quarter_start():
+    return (utc_now() - timedelta(days=QUARTER_WINDOW_DAYS)).strftime("%Y-%m-%d")
+
+
+def last_quarter_ends(n=4):
+    """Most recent n completed calendar quarter-end dates, newest first."""
+    d = utc_now().date()
+    y = d.year
+    qm = ((d.month - 1) // 3) * 3  # end-month of the last completed quarter
+    ends = []
+    for _ in range(n):
+        if qm == 0:
+            y -= 1
+            qm = 12
+        ends.append(datetime(y, qm, {3: 31, 6: 30, 9: 30, 12: 31}[qm]).date())
+        qm -= 3
+    return ends
+
+
+def quarter_label(d):
+    return f"{d.year} Q{(d.month - 1) // 3 + 1}"
+
+
+def build_quarter_history(observations, last_credit):
+    """Quarter-end OAS snapshots for the last 4 completed quarters.
+
+    Uses the nearest observation on or before each quarter end (within
+    QUARTER_MATCH_MAX_DAYS). Quarters the current fetch can't reach (e.g. the
+    90-day CSV fallback window) are preserved from the previous credit.json so
+    history survives FRED outages.
+    """
+    prev = {
+        q.get("date"): q
+        for q in (last_credit or {}).get("quarter_history", [])
+        if isinstance(q, dict) and q.get("date")
+    }
+    out = []
+    for qend in last_quarter_ends(4):
+        qiso = qend.strftime("%Y-%m-%d")
+        spreads = {}
+        for key, meta in SERIES.items():
+            best = next((r for r in (observations.get(meta["sid"]) or []) if r["date"] <= qiso), None)
+            if best:
+                try:
+                    diff = (qend - datetime.strptime(best["date"], "%Y-%m-%d").date()).days
+                except ValueError:
+                    diff = QUARTER_MATCH_MAX_DAYS + 1
+                if diff <= QUARTER_MATCH_MAX_DAYS:
+                    spreads[key] = best["value"]
+        source = "fred"
+        if not spreads and qiso in prev:
+            cached = dict(prev[qiso])
+            cached["source"] = "cache"
+            out.append(cached)
+            continue
+        if qiso in prev:
+            for key, v in (prev[qiso].get("spreads") or {}).items():
+                spreads.setdefault(key, v)
+        if spreads:
+            out.append({"quarter": quarter_label(qend), "date": qiso, "spreads": spreads, "source": source})
+    return out
 
 
 def get(url, timeout):
@@ -285,7 +352,7 @@ def fetch_observations():
     # endpoints below are frequently blocked from CI runner IPs.
     if FRED_API_KEY:
         try:
-            api = fred_fetch(series_ids, start=recent_start())
+            api = fred_fetch(series_ids, start=quarter_start())
             for sid, obs in api.items():
                 rows = []
                 for o in obs:
@@ -411,6 +478,7 @@ def build_credit_json(observations, last_credit):
         "cache_count": cache_count,
         "max_fresh_age_days": MAX_FRESH_AGE_DAYS,
         "spreads": spreads,
+        "quarter_history": build_quarter_history(observations, last_credit),
         "note": note,
     }
 
