@@ -108,6 +108,72 @@
       "age_days": 1
     }
   },
+  "quarter_history": [
+    {
+      "quarter": "2026 Q1",
+      "date": "2026-03-31",
+      "spreads": {
+        "ig": 90,
+        "aaa": 40,
+        "aa": 56,
+        "a": 75,
+        "bbb": 113,
+        "hy": 328,
+        "bb": 208,
+        "b": 361,
+        "ccc": 994
+      },
+      "source": "fred"
+    },
+    {
+      "quarter": "2025 Q4",
+      "date": "2025-12-31",
+      "spreads": {
+        "ig": 79,
+        "aaa": 34,
+        "aa": 49,
+        "a": 65,
+        "bbb": 101,
+        "hy": 281,
+        "bb": 169,
+        "b": 301,
+        "ccc": 885
+      },
+      "source": "fred"
+    },
+    {
+      "quarter": "2025 Q3",
+      "date": "2025-09-30",
+      "spreads": {
+        "ig": 76,
+        "aaa": 31,
+        "aa": 43,
+        "a": 63,
+        "bbb": 97,
+        "hy": 280,
+        "bb": 177,
+        "b": 283,
+        "ccc": 807
+      },
+      "source": "fred"
+    },
+    {
+      "quarter": "2025 Q2",
+      "date": "2025-06-30",
+      "spreads": {
+        "ig": 86,
+        "aaa": 35,
+        "aa": 49,
+        "a": 73,
+        "bbb": 108,
+        "hy": 296,
+        "bb": 171,
+        "b": 305,
+        "ccc": 886
+      },
+      "source": "fred"
+    }
+  ],
   "note": "ICE BofA option-adjusted spreads from FRED. Uses bounded CSV and graph API fallbacks over a recent window; cache is used only where FRED data is unavailable. Values are basis points.",
-  "_fetched": "2026-06-11T20:39:02.786606Z"
+  "_fetched": "2026-06-11T20:56:19.703365Z"
 }
