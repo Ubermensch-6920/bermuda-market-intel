@@ -107,16 +107,19 @@ def _fiscaldata_mspd_wam():
         rows = json.loads(raw).get("data", [])
         if rows:
             months = float(rows[0]["avg_maturity_months"])
+            record_source("FiscalData Treasury", "USA WAM (MSPD)", ok=True)
             return round(months / 12, 2), rows[0]["record_date"]
+        log.warning(f"  FiscalData MSPD: empty data array ({raw[:200]})")
     except Exception as e:
         log.warning(f"  FiscalData MSPD: {e}")
+    record_source("FiscalData Treasury", "USA WAM (MSPD)", ok=False, fallback="cache")
     return None, ""
 
 
 def _jgb_wam_from_mof():
     """Probe MOF gbb{YYYYMM}.csv up to 4 months back for average remaining life. Returns (wam_years, date_str)."""
     now = datetime.utcnow()
-    for delta in range(0, 5):
+    for delta in range(0, 3):
         month = now.month - delta
         year = now.year
         while month <= 0:
@@ -148,7 +151,7 @@ def _uk_dmo_wam():
     """GET DMO ExportReport D5I, scan for float in 10–25yr range with adjacent date. Returns (wam_years, date_str)."""
     try:
         url = "https://www.dmo.gov.uk/data/ExportReport?reportCode=D5I"
-        raw = get(url, timeout=20)
+        raw = get(url, timeout=12)
         # Each row may be CSV or tab-separated; look for a numeric value in 10–25yr range
         date_found = ""
         for line in raw.split("\n"):
@@ -190,7 +193,7 @@ def _oecd_germany_wam():
             "OECD.SDD.NAD,DSD_SOSS@DF_SOSS,1.0/DEU.WAMTD....."
             "?startPeriod=2018&format=csvfilewithlabels"
         )
-        raw = get(url, timeout=20)
+        raw = get(url, timeout=12)
         reader = csv.DictReader(io.StringIO(raw))
         best_date, best_val = "", None
         for row in reader:
@@ -352,11 +355,14 @@ def fetch_debt_maturity():
         if c.get("wam_months") is None and c.get("wam_years") is not None:
             c["wam_months"] = round(c["wam_years"] * 12, 1)
 
-    record_source("MOF Japan", "JGB weighted avg maturity", ok=jpn_wam is not None,
+    # Distinct labels per feed: this script runs after fetch_all.py, and the
+    # health merge is keyed by source name — plain "MOF Japan" here would
+    # overwrite the JGB-curve status recorded by the main pipeline.
+    record_source("MOF Japan (WAM)", "JGB weighted avg maturity", ok=jpn_wam is not None,
                   fallback=None if jpn_wam is not None else "cache")
-    record_source("UK DMO", "gilt weighted avg maturity", ok=uk_wam is not None,
+    record_source("UK DMO (WAM)", "gilt weighted avg maturity", ok=uk_wam is not None,
                   fallback=None if uk_wam is not None else "cache")
-    record_source("OECD", "Germany weighted avg maturity (EUR proxy)", ok=eur_wam is not None,
+    record_source("OECD (WAM)", "Germany weighted avg maturity (EUR proxy)", ok=eur_wam is not None,
                   fallback=None if eur_wam is not None else "cache")
 
     # ── Write output ──────────────────────────────────────────────────────────

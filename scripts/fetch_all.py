@@ -504,7 +504,8 @@ def nse_usdinr_forwards(spot_hint=None):
                 out[tenor] = cand[1]
     except Exception as e:
         log.warning(f"  NSE USD/INR forwards: {e}")
-    record_source("NSE", "USD/INR forwards", ok=bool(out))
+    record_source("NSE", "USD/INR forwards", ok=bool(out),
+                  fallback=None if out else "Investing forwards / Yahoo futures")
     return out
 
 def scrape_usdinr_forwards(spot_hint=None):
@@ -723,20 +724,20 @@ def _boe_nominal_rows():
         return []
     want = {"1Y": 1.0, "2Y": 2.0, "3Y": 3.0, "5Y": 5.0, "7Y": 7.0, "10Y": 10.0, "15Y": 15.0, "20Y": 20.0, "30Y": 30.0}
     try:
-        blob = get_bytes("https://www.bankofengland.co.uk/-/media/boe/files/statistics/yield-curves/glcnominalddata.zip", timeout=40, retries=2)
+        blob = get_bytes("https://www.bankofengland.co.uk/-/media/boe/files/statistics/yield-curves/glcnominalddata.zip", timeout=20, retries=1)
         wb = load_workbook(_open_first_xlsx_from_zip(blob), data_only=True, read_only=True)
         ws = wb["4. spot curve"] if "4. spot curve" in wb.sheetnames else wb[wb.sheetnames[0]]
         rows = _extract_curve_rows_from_sheet(ws, want)
-        record_source("Bank of England", "GBP gilt curve", ok=bool(rows))
+        record_source("Bank of England", "GBP gilt curve", ok=bool(rows), fallback=None if rows else "Investing/TE scrape")
         return rows
     except Exception:
-        record_source("Bank of England", "GBP gilt curve", ok=False)
+        record_source("Bank of England", "GBP gilt curve", ok=False, fallback="Investing/TE scrape")
         raise
 
 def _discover_fbil_xlsx_urls():
     urls = []
     try:
-        html = get("https://www.fbil.org.in/", timeout=20)
+        html = get("https://www.fbil.org.in/", timeout=12)
         for href in re.findall(r'href="([^"]+\.(?:xlsx|xlsm|xls))"', html, flags=re.I):
             full = href if href.startswith("http") else f"https://www.fbil.org.in{href}"
             low = full.lower()
@@ -760,11 +761,13 @@ def _fbil_rows():
     if load_workbook is None:
         return []
     want = {"1Y": 1.0, "2Y": 2.0, "3Y": 3.0, "5Y": 5.0, "7Y": 7.0, "10Y": 10.0, "15Y": 15.0, "20Y": 20.0, "30Y": 30.0}
-    for url in _discover_fbil_xlsx_urls():
+    # Bounded probe: FBIL blocks CI more often than not, so cap candidates and
+    # skip retries — Investing/TE/FRED cover the curve when this fails.
+    for url in _discover_fbil_xlsx_urls()[:3]:
         try:
             low = url.lower()
             if low.endswith(".xlsx") or low.endswith(".xlsm"):
-                wb = _load_workbook_from_bytes(get_bytes(url, timeout=30, retries=1))
+                wb = _load_workbook_from_bytes(get_bytes(url, timeout=20, retries=0))
             else:
                 continue
             for s in wb.sheetnames:
@@ -774,7 +777,7 @@ def _fbil_rows():
                     return rows
         except Exception as e:
             log.warning(f"  FBIL parse failed for {url}: {e}")
-    record_source("FBIL", "India G-Sec curve", ok=False)
+    record_source("FBIL", "India G-Sec curve", ok=False, fallback="Investing/TE/FRED")
     return []
 
 # ── 1. UST ──
@@ -1354,6 +1357,9 @@ def fetch_credit():
         "source": "FRED / ICE BofA Indices",
         "url": "https://fred.stlouisfed.org/release?rid=209",
         "spreads": spreads,
+        # Carry forward quarter-end history maintained by fetch_credit_latest.py
+        # (which runs after this script) so it survives this rewrite.
+        "quarter_history": (load_last_credit() or {}).get("quarter_history", []),
         "note": note,
     })
     log.info(f"  CREDIT OK: {latest_date}, {len(spreads)} series")
