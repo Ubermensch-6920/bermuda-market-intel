@@ -31,7 +31,27 @@ HDR = {
     "Accept-Language": "en-US,en;q=0.9",
 }
 
-FRED_API_KEY = os.environ.get("FRED_API_KEY", "").strip()
+def _load_fred_api_key():
+    """FRED_API_KEY env var first (CI uses the GitHub secret), then a local
+    .env file at the repo root for local runs (gitignored; see .env.example)."""
+    key = os.environ.get("FRED_API_KEY", "").strip()
+    if key:
+        return key
+    env_path = Path(__file__).parent.parent / ".env"
+    try:
+        if env_path.exists():
+            for line in env_path.read_text().splitlines():
+                line = line.strip()
+                if line.startswith("FRED_API_KEY"):
+                    val = line.split("=", 1)[1].strip().strip("'\"") if "=" in line else ""
+                    if val and "your" not in val.lower():
+                        return val
+    except Exception:
+        pass
+    return ""
+
+
+FRED_API_KEY = _load_fred_api_key()
 FRED_API_URL = "https://api.stlouisfed.org/fred/series/observations"
 
 

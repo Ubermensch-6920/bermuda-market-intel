@@ -6,7 +6,8 @@ import {
 import {
   Shield, Newspaper, BarChart3, ChevronRight, ExternalLink,
   Clock, RefreshCw, Activity, DollarSign, Percent, ArrowUpRight,
-  ArrowDownRight, Minus, AlertTriangle, Loader, Landmark, TrendingUp, Gem
+  ArrowDownRight, Minus, AlertTriangle, Loader, Landmark, TrendingUp, Gem,
+  Copy, Check
 } from "lucide-react";
 
 const PLATFORM_NAME = "GENESIS";
@@ -534,8 +535,41 @@ const CDSSection = ({ data, loading: ld, error }) => {
 // ═══════════════════════════════════════════
 // BMA DISCOUNT RATES SECTION (new)
 // ═══════════════════════════════════════════
+// Copy text to clipboard with a fallback for non-secure contexts.
+async function copyToClipboard(text) {
+  try {
+    await navigator.clipboard.writeText(text);
+    return true;
+  } catch {
+    try {
+      const ta = document.createElement("textarea");
+      ta.value = text;
+      ta.style.position = "fixed";
+      ta.style.opacity = "0";
+      document.body.appendChild(ta);
+      ta.select();
+      const ok = document.execCommand("copy");
+      document.body.removeChild(ta);
+      return ok;
+    } catch {
+      return false;
+    }
+  }
+}
+
+const CopyTableButton = ({ label, buildText, id, copied, setCopied }) => (
+  <button
+    onClick={async () => { if (await copyToClipboard(buildText())) { setCopied(id); setTimeout(() => setCopied(c => (c === id ? "" : c)), 2000); } }}
+    style={{ background: "transparent", border: "1px solid #2a2d35", borderRadius: 6, padding: "5px 12px", fontSize: 12, fontWeight: 600, color: copied === id ? "#4ade80" : "#94a3b8", cursor: "pointer", display: "inline-flex", alignItems: "center", gap: 6 }}>
+    {copied === id ? <Check size={13} /> : <Copy size={13} />}
+    {copied === id ? "Copied" : label}
+  </button>
+);
+
 const BmaRatesSection = ({ data, loading: ld, error }) => {
   const [selectedCcy, setSelectedCcy] = useState("USD");
+  const [copied, setCopied] = useState("");
+  const [rateType, setRateType] = useState("standard_spot_rates");
 
   if (ld) return <div style={{ background: "#0d0f14", border: "1px solid #1e2028", borderRadius: 10, padding: 40, textAlign: "center", color: "#94a3b8" }}><Loader size={24} style={{ animation: "spin 1s linear infinite", margin: "0 auto 10px", display: "block", color: "#60a5fa" }} />Loading BMA rates…</div>;
   if (error) return <div style={{ background: "#0d0f14", border: "1px solid #1e2028", borderRadius: 10, padding: 20 }}><h3 style={{ margin: "0 0 8px", fontSize: 16, fontWeight: 700, color: "#f1f5f9" }}>BMA EBS Discount Rates</h3><div style={{ color: "#f87171", fontSize: 13 }}><AlertTriangle size={14} style={{ verticalAlign: "middle", marginRight: 6 }} />{error}</div></div>;
@@ -548,6 +582,46 @@ const BmaRatesSection = ({ data, loading: ld, error }) => {
   const has1mBma = ccyData?.prior_1m_rates?.some(v => v != null);
   const hasQtrBma = ccyData?.prior_rates?.some(v => v != null);
 
+  // TSV builders — tab-separated so the table pastes straight into Excel/Sheets.
+  const num = v => (v == null ? "" : String(v));
+  const buildCcyTsv = () => {
+    const head = ["Tenor", `${selectedCcy} Spot Rate (%)`];
+    if (has1mBma) head.push("Prior 1M (%)", "Chg 1M (bp)");
+    if (hasQtrBma) head.push("Prior Qtr (%)", "Chg Qtr (bp)");
+    const lines = [head.join("\t")];
+    tenors.forEach((t, i) => {
+      const curr = ccyData?.rates?.[i], p1m = ccyData?.prior_1m_rates?.[i], prev = ccyData?.prior_rates?.[i];
+      const row = [t, num(curr)];
+      if (has1mBma) row.push(num(p1m), curr != null && p1m != null ? ((curr - p1m) * 100).toFixed(1) : "");
+      if (hasQtrBma) row.push(num(prev), curr != null && prev != null ? ((curr - prev) * 100).toFixed(1) : "");
+      lines.push(row.join("\t"));
+    });
+    return lines.join("\n");
+  };
+  const buildAllTsv = () => {
+    const lines = [["Tenor", ...ccys].join("\t")];
+    tenors.forEach((t, i) => lines.push([t, ...ccys.map(c => num(data.currencies?.[c]?.rates?.[i]))].join("\t")));
+    return lines.join("\n");
+  };
+
+  // Quarter history, tenor-aligned per quarter (newest first). Each quarter
+  // carries its own tenor list, so align via per-quarter tenor→value maps.
+  const qCols = (data.quarter_history || []).slice(0, 4).map(q => {
+    const series = q.currencies?.[selectedCcy]?.[rateType];
+    const map = {};
+    (q.tenors || []).forEach((t, i) => { map[t] = series?.[i] ?? null; });
+    return { label: q.quarter || q.as_of_display || q.as_of_date, asOf: q.as_of_date, map };
+  });
+  const buildQuartersTsv = () => {
+    const lines = [["Tenor", ...qCols.map(q => `${q.label} (${q.asOf})`), "QoQ (bp)"].join("\t")];
+    tenors.forEach(t => {
+      const vals = qCols.map(q => q.map[t]);
+      const qoq = vals[0] != null && vals[1] != null ? ((vals[0] - vals[1]) * 100).toFixed(1) : "";
+      lines.push([t, ...vals.map(num), qoq].join("\t"));
+    });
+    return lines.join("\n");
+  };
+
   return (<div style={{ background: "#0d0f14", border: "1px solid #1e2028", borderRadius: 10, overflow: "hidden" }}>
     <div style={{ padding: "16px 22px", borderBottom: "1px solid #1e2028" }}>
       <h3 style={{ margin: 0, fontSize: 17, fontWeight: 700, color: "#f1f5f9" }}>
@@ -556,11 +630,21 @@ const BmaRatesSection = ({ data, loading: ld, error }) => {
       </h3>
       <DataFresh date={data.as_of_date} source={data.source} url={data.url} />
       {data.note && <div style={{ fontSize: 11, color: "#f59e0b", marginTop: 5, lineHeight: 1.5 }}>{data.note}</div>}
-      {data.pdf_url && <div style={{ marginTop: 5 }}><a href={data.pdf_url} target="_blank" rel="noopener noreferrer" style={{ fontSize: 12, color: "#60a5fa", textDecoration: "none" }}>Download latest PDF <ExternalLink size={11} style={{ verticalAlign: "middle" }} /></a></div>}
+      {data.pdf_url && <div style={{ marginTop: 5 }}><a href={data.pdf_url} target="_blank" rel="noopener noreferrer" style={{ fontSize: 12, color: "#60a5fa", textDecoration: "none" }}>Download latest workbook <ExternalLink size={11} style={{ verticalAlign: "middle" }} /></a></div>}
     </div>
 
-    {/* Currency selector */}
-    <div style={{ padding: "12px 22px", display: "flex", gap: 6, flexWrap: "wrap", borderBottom: "1px solid #1e2028" }}>
+    {data.stale && (
+      <div style={{ padding: "8px 22px", background: "#1a1206", borderBottom: "1px solid #854d0e", display: "flex", alignItems: "center", gap: 8, fontSize: 12, color: "#fbbf24" }}>
+        <AlertTriangle size={13} style={{ flexShrink: 0 }} />
+        <span>
+          Newer quarter expected ({data.expected_as_of}) — showing {data.as_of_date_iso || data.as_of_date}. BMA blocks automated clients;
+          paste the new workbook URL into <code style={{ color: "#fde68a" }}>data/bma_rates_manual.json</code> → <code style={{ color: "#fde68a" }}>known_files</code>.
+        </span>
+      </div>
+    )}
+
+    {/* Currency selector + copy actions */}
+    <div style={{ padding: "12px 22px", display: "flex", gap: 6, flexWrap: "wrap", alignItems: "center", borderBottom: "1px solid #1e2028" }}>
       {ccys.map(ccy => (
         <button key={ccy} onClick={() => setSelectedCcy(ccy)} style={{
           background: selectedCcy === ccy ? "#3b82f6" : "transparent",
@@ -570,6 +654,10 @@ const BmaRatesSection = ({ data, loading: ld, error }) => {
           letterSpacing: "0.03em"
         }}>{ccy}</button>
       ))}
+      <div style={{ marginLeft: "auto", display: "flex", gap: 8 }}>
+        {hasRates && <CopyTableButton label={`Copy ${selectedCcy} table`} id="ccy" buildText={buildCcyTsv} copied={copied} setCopied={setCopied} />}
+        {ccys.length > 1 && <CopyTableButton label="Copy all currencies" id="all" buildText={buildAllTsv} copied={copied} setCopied={setCopied} />}
+      </div>
     </div>
 
     {/* Rates table */}
@@ -614,6 +702,68 @@ const BmaRatesSection = ({ data, loading: ld, error }) => {
         </table>
       )}
     </div>
+
+    {/* Last 4 quarters history */}
+    {qCols.length > 1 && (
+      <div style={{ padding: "4px 22px 18px", borderTop: "1px solid #1e2028" }}>
+        <div style={{ display: "flex", alignItems: "center", gap: 10, flexWrap: "wrap", padding: "12px 0 10px" }}>
+          <div style={{ fontSize: 12, color: "#94a3b8", fontWeight: 700, textTransform: "uppercase", letterSpacing: "0.08em" }}>
+            Last {qCols.length} Quarters — {selectedCcy}
+          </div>
+          <div style={{ display: "flex", gap: 4 }}>
+            {[["standard_spot_rates", "Standard Spot"], ["risk_free_rates", "Risk-Free"]].map(([key, label]) => (
+              <button key={key} onClick={() => setRateType(key)} style={{
+                background: rateType === key ? "#1e2028" : "transparent",
+                border: `1px solid ${rateType === key ? "#475569" : "#2a2d35"}`,
+                borderRadius: 5, padding: "3px 10px", fontSize: 11, fontWeight: 600,
+                color: rateType === key ? "#f1f5f9" : "#64748b", cursor: "pointer"
+              }}>{label}</button>
+            ))}
+          </div>
+          <div style={{ marginLeft: "auto" }}>
+            <CopyTableButton label="Copy quarters" id="quarters" buildText={buildQuartersTsv} copied={copied} setCopied={setCopied} />
+          </div>
+        </div>
+        <div style={{ overflowX: "auto" }}>
+          <table style={{ width: "100%", borderCollapse: "collapse", fontSize: 13 }}>
+            <thead>
+              <tr style={{ borderBottom: "2px solid #1e2028" }}>
+                <th style={{ textAlign: "left", padding: "8px 12px", color: "#94a3b8", fontWeight: 700, fontSize: 12 }}>Tenor</th>
+                {qCols.map((q, qi) => (
+                  <th key={q.asOf} style={{ textAlign: "right", padding: "8px 12px", color: qi === 0 ? "#f1f5f9" : "#94a3b8", fontWeight: 700, fontSize: 12 }}>
+                    {q.label}<div style={{ fontSize: 10, fontWeight: 500, color: "#475569" }}>{q.asOf}</div>
+                  </th>
+                ))}
+                <th style={{ textAlign: "right", padding: "8px 12px", color: "#34d399", fontWeight: 700, fontSize: 12 }}>QoQ (bp)</th>
+              </tr>
+            </thead>
+            <tbody>
+              {tenors.map(t => {
+                const vals = qCols.map(q => q.map[t]);
+                const qoq = vals[0] != null && vals[1] != null ? ((vals[0] - vals[1]) * 100).toFixed(1) : null;
+                const qoqNum = parseFloat(qoq);
+                return (
+                  <tr key={t} style={{ borderBottom: "1px solid #151820" }}>
+                    <td style={{ padding: "7px 12px", color: "#f1f5f9", fontWeight: 700, fontFamily: "monospace" }}>{t}</td>
+                    {vals.map((v, vi) => (
+                      <td key={vi} style={{ padding: "7px 12px", textAlign: "right", fontFamily: "monospace", color: vi === 0 ? "#f1f5f9" : "#94a3b8", fontWeight: vi === 0 ? 600 : 400, fontSize: vi === 0 ? 14 : 13 }}>
+                        {v != null ? v.toFixed(2) + "%" : "—"}
+                      </td>
+                    ))}
+                    <td style={{ padding: "7px 12px", textAlign: "right", fontFamily: "monospace", color: chgCol(qoqNum), fontWeight: 600 }}>
+                      {qoq != null ? (qoqNum > 0 ? "+" : "") + qoq : "—"}
+                    </td>
+                  </tr>
+                );
+              })}
+            </tbody>
+          </table>
+        </div>
+        <div style={{ fontSize: 10, color: "#475569", marginTop: 8 }}>
+          {rateType === "standard_spot_rates" ? "Standard approach spot discount rates" : "Risk-free spot rates"} per BMA quarterly EBS workbooks. QoQ compares the two most recent quarters.
+        </div>
+      </div>
+    )}
   </div>);
 };
 
