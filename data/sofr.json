@@ -8,10 +8,28 @@
       "desc": "Secured Overnight Financing Rate",
       "rate": 3.6,
       "prior": 3.59,
-      "date": "2026-06-11",
-      "volume": 3061,
-      "percentile_25": 3.58,
-      "percentile_75": 3.66
+      "date": "2026-06-11"
+    },
+    "30D_AVG": {
+      "name": "SOFR 30-Day Avg",
+      "desc": "30-day compounded average",
+      "rate": 3.593,
+      "prior": 3.593,
+      "date": "2026-06-12"
+    },
+    "90D_AVG": {
+      "name": "SOFR 90-Day Avg",
+      "desc": "90-day compounded average",
+      "rate": 3.6362,
+      "prior": 3.6367,
+      "date": "2026-06-12"
+    },
+    "180D_AVG": {
+      "name": "SOFR 180-Day Avg",
+      "desc": "180-day compounded average",
+      "rate": 3.6801,
+      "prior": 3.6805,
+      "date": "2026-06-12"
     }
   },
   "history": [
@@ -1661,5 +1679,5 @@
     }
   },
   "note": "Published daily by NY Fed at ~8:00 AM ET. Averages are backward-looking compounded (30/90/180-day) via FRED.",
-  "_fetched": "2026-06-12T20:28:07.946268Z"
+  "_fetched": "2026-06-12T22:48:52.991800Z"
 }
