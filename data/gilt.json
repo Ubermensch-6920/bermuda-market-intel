@@ -1,5 +1,5 @@
 {
-  "date": "2026-06-13",
+  "date": "2026-06-14",
   "prior_date": "",
   "source": "Investing.com / TradingEconomics / FRED / cache",
   "url": "https://www.investing.com/rates-bonds/uk-government-bonds",
@@ -73,5 +73,5 @@
   ],
   "year_ago_date": "TE year delta reconstruction",
   "note": "Official BoE daily archive first; then market scrapes; then local history / cache.",
-  "_fetched": "2026-06-13T22:18:52.298671Z"
+  "_fetched": "2026-06-14T05:08:14.045634Z"
 }
