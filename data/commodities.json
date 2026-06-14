@@ -2,9 +2,9 @@
   "date": "2026-06-14",
   "source": "FRED / TradingEconomics / Investing / Yahoo Finance",
   "gold": {
-    "spot": 4222.0,
+    "spot": 4238.8,
     "spot_date": "",
-    "spot_source": "TradingEconomics",
+    "spot_source": "Yahoo",
     "unit": "USD/troy oz",
     "prior_1d": 4238.8,
     "prior_1d_date": "2026-06-12",
@@ -12,8 +12,8 @@
     "prior_1m_date": "2026-05-15",
     "prior_3m": 4994.0,
     "prior_3m_date": "2026-03-16",
-    "prior_1y": 3431.2,
-    "prior_1y_date": "2025-06-13",
+    "prior_1y": 3396.4,
+    "prior_1y_date": "2025-06-16",
     "futures": {
       "3M": {
         "price": 4268.3,
@@ -242,5 +242,5 @@
     }
   },
   "note": "Spot history comes from daily FRED series. Futures history is roll-aware by target date. USD/INR uses FRED DEXINUS with Investing scrape fallback for latest spot.",
-  "_fetched": "2026-06-14T14:32:11.946635Z"
+  "_fetched": "2026-06-14T16:49:53.685095Z"
 }
