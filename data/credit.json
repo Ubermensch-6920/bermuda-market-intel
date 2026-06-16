@@ -17,7 +17,7 @@
       "series_id": "BAMLC0A0CM",
       "date": "2026-06-12",
       "prior_date": "2026-06-11",
-      "age_days": 3
+      "age_days": 4
     },
     "aaa": {
       "name": "US AAA",
@@ -28,7 +28,7 @@
       "series_id": "BAMLC0A1CAAA",
       "date": "2026-06-12",
       "prior_date": "2026-06-11",
-      "age_days": 3
+      "age_days": 4
     },
     "aa": {
       "name": "US AA",
@@ -39,7 +39,7 @@
       "series_id": "BAMLC0A2CAA",
       "date": "2026-06-12",
       "prior_date": "2026-06-11",
-      "age_days": 3
+      "age_days": 4
     },
     "a": {
       "name": "US A",
@@ -50,7 +50,7 @@
       "series_id": "BAMLC0A3CA",
       "date": "2026-06-12",
       "prior_date": "2026-06-11",
-      "age_days": 3
+      "age_days": 4
     },
     "bbb": {
       "name": "US BBB",
@@ -61,7 +61,7 @@
       "series_id": "BAMLC0A4CBBB",
       "date": "2026-06-12",
       "prior_date": "2026-06-11",
-      "age_days": 3
+      "age_days": 4
     },
     "hy": {
       "name": "US HY",
@@ -72,7 +72,7 @@
       "series_id": "BAMLH0A0HYM2",
       "date": "2026-06-12",
       "prior_date": "2026-06-11",
-      "age_days": 3
+      "age_days": 4
     },
     "bb": {
       "name": "US BB",
@@ -83,7 +83,7 @@
       "series_id": "BAMLH0A1HYBB",
       "date": "2026-06-12",
       "prior_date": "2026-06-11",
-      "age_days": 3
+      "age_days": 4
     },
     "b": {
       "name": "US B",
@@ -94,7 +94,7 @@
       "series_id": "BAMLH0A2HYB",
       "date": "2026-06-12",
       "prior_date": "2026-06-11",
-      "age_days": 3
+      "age_days": 4
     },
     "ccc": {
       "name": "US CCC+",
@@ -105,7 +105,7 @@
       "series_id": "BAMLH0A3HYC",
       "date": "2026-06-12",
       "prior_date": "2026-06-11",
-      "age_days": 3
+      "age_days": 4
     }
   },
   "quarter_history": [
@@ -175,5 +175,5 @@
     }
   ],
   "note": "ICE BofA option-adjusted spreads from FRED. Uses bounded CSV and graph API fallbacks over a recent window; cache is used only where FRED data is unavailable. Values are basis points.",
-  "_fetched": "2026-06-15T23:12:33.954020Z"
+  "_fetched": "2026-06-16T05:37:31.221632Z"
 }
