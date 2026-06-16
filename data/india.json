@@ -77,5 +77,5 @@
     "prior_1m": "own history"
   },
   "note": "FBIL latest first, then Investing/TE/FRED, then local history / cache. India 3M curve is exact once local history accumulates.",
-  "_fetched": "2026-06-16T17:21:08.991112Z"
+  "_fetched": "2026-06-16T21:19:58.176323Z"
 }
