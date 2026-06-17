@@ -1,6 +1,6 @@
 {
-  "date": "2026-06-15",
-  "prior_date": "2026-06-12",
+  "date": "2026-06-16",
+  "prior_date": "2026-06-15",
   "source": "Ministry of Finance Japan",
   "url": "https://www.mof.go.jp/english/policy/jgbs/reference/interest_rate/",
   "tenors": [
@@ -17,6 +17,19 @@
     "40Y"
   ],
   "yields": [
+    1.147,
+    1.414,
+    1.585,
+    1.945,
+    2.227,
+    2.655,
+    3.206,
+    3.52,
+    3.763,
+    3.747,
+    3.692
+  ],
+  "prior_yields": [
     1.141,
     1.409,
     1.556,
@@ -29,33 +42,20 @@
     3.725,
     3.674
   ],
-  "prior_yields": [
-    1.15,
-    1.417,
-    1.579,
-    1.938,
-    2.218,
-    2.643,
-    3.189,
-    3.508,
-    3.77,
-    3.767,
-    3.713
-  ],
   "prior_1m_yields": [
-    null,
-    null,
-    null,
-    null,
-    null,
-    null,
-    null,
-    null,
-    null,
-    null,
-    null
+    1.123,
+    1.4,
+    1.558,
+    1.948,
+    2.243,
+    2.682,
+    3.225,
+    3.567,
+    3.871,
+    3.863,
+    3.8
   ],
-  "prior_1m_date": "",
+  "prior_1m_date": "2026-06-01",
   "prior_3m_yields": [
     null,
     null,
@@ -84,5 +84,5 @@
     null
   ],
   "year_ago_date": "2025-07-01",
-  "_fetched": "2026-06-16T21:19:40.930451Z"
+  "_fetched": "2026-06-17T05:16:39.546157Z"
 }
