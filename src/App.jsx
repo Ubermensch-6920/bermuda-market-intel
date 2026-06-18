@@ -210,6 +210,8 @@ const SovSection = ({ data, title, accentColor, loading: ld, error, wamData }) =
     tenor: t,
     current: yByT[t] ?? null,
     prior: pByT[t] ?? null,
+    prior1m: p1mByT[t] ?? null,
+    prior3m: p3mByT[t] ?? null,
     yearAgo: yaByT[t] ?? null,
   }));
 
@@ -265,6 +267,8 @@ const SovSection = ({ data, title, accentColor, loading: ld, error, wamData }) =
           <Tooltip content={<CTooltip />} />
           <Area type="monotone" dataKey="current" stroke={accentColor} strokeWidth={2.5} fill={`url(#g${accentColor.slice(1)})`} name="Current" dot={{ r: 4, fill: accentColor }} />
           {hasPrior && <Line type="monotone" dataKey="prior" stroke="#64748b" strokeWidth={1.5} strokeDasharray="5 5" name="Prior Day" dot={false} />}
+          {has1m && <Line type="monotone" dataKey="prior1m" stroke="#818cf8" strokeWidth={1.5} strokeDasharray="6 3" name="Prior 1M" dot={false} />}
+          {has3m && <Line type="monotone" dataKey="prior3m" stroke="#34d399" strokeWidth={1.5} strokeDasharray="4 4" name="Prior 3M" dot={false} />}
           {hasYearAgo && <Line type="monotone" dataKey="yearAgo" stroke="#f59e0b" strokeWidth={1.5} strokeDasharray="3 6" name="1 Year Ago" dot={false} />}
           {wamData?.wam_years != null && (() => {
             const t = wamToTenor(wamData.wam_years);
