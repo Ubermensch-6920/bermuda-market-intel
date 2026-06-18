@@ -265,10 +265,11 @@ const SovSection = ({ data, title, accentColor, loading: ld, error, wamData }) =
           <XAxis dataKey="tenor" tick={{ fill: "#94a3b8", fontSize: 12, fontWeight: 500 }} axisLine={{ stroke: "#1e2028" }} tickLine={false} />
           <YAxis tick={{ fill: "#94a3b8", fontSize: 12 }} axisLine={{ stroke: "#1e2028" }} tickLine={false} domain={["auto", "auto"]} tickFormatter={v => v?.toFixed(1)} />
           <Tooltip content={<CTooltip />} />
+          <Legend wrapperStyle={{ fontSize: 11, color: "#94a3b8", paddingTop: 4 }} />
           <Area type="monotone" dataKey="current" stroke={accentColor} strokeWidth={2.5} fill={`url(#g${accentColor.slice(1)})`} name="Current" dot={{ r: 4, fill: accentColor }} />
           {hasPrior && <Line type="monotone" dataKey="prior" stroke="#64748b" strokeWidth={1.5} strokeDasharray="5 5" name="Prior Day" dot={false} />}
-          {has1m && <Line type="monotone" dataKey="prior1m" stroke="#818cf8" strokeWidth={1.5} strokeDasharray="6 3" name="Prior 1M" dot={false} />}
-          {has3m && <Line type="monotone" dataKey="prior3m" stroke="#34d399" strokeWidth={1.5} strokeDasharray="4 4" name="Prior 3M" dot={false} />}
+          {has1m && <Line type="monotone" dataKey="prior1m" stroke="#818cf8" strokeWidth={1.5} strokeDasharray="6 3" name={`Prior 1M${data.prior_1m_date ? ` (${data.prior_1m_date})` : ""}`} dot={false} />}
+          {has3m && <Line type="monotone" dataKey="prior3m" stroke="#34d399" strokeWidth={1.5} strokeDasharray="4 4" name={`Prior 3M${data.prior_3m_date ? ` (${data.prior_3m_date})` : ""}`} dot={false} />}
           {hasYearAgo && <Line type="monotone" dataKey="yearAgo" stroke="#f59e0b" strokeWidth={1.5} strokeDasharray="3 6" name="1 Year Ago" dot={false} />}
           {wamData?.wam_years != null && (() => {
             const t = wamToTenor(wamData.wam_years);
