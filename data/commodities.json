@@ -2,11 +2,11 @@
   "date": "2026-06-18",
   "source": "FRED / TradingEconomics / Investing / Yahoo Finance",
   "gold": {
-    "spot": 4214.62,
+    "spot": 4207.47,
     "spot_date": "",
     "spot_source": "TradingEconomics",
     "unit": "USD/troy oz",
-    "prior_1d": 4236.0,
+    "prior_1d": 4226.8,
     "prior_1d_date": "2026-06-18",
     "prior_1m": 4531.3,
     "prior_1m_date": "2026-05-20",
@@ -16,7 +16,7 @@
     "prior_1y_date": "2025-06-18",
     "futures": {
       "3M": {
-        "price": 4268.0,
+        "price": 4251.1,
         "expiry": "Oct 2026",
         "contract": "GCV26",
         "prior_1m": 4569.1,
@@ -27,7 +27,7 @@
         "prior_3m_contract": "GCM26"
       },
       "6M": {
-        "price": 4297.2,
+        "price": 4291.3,
         "expiry": "Dec 2026",
         "contract": "GCZ26",
         "prior_1m": 4634.4,
@@ -76,7 +76,7 @@
     "prior_1y_date": "2025-06-18",
     "futures": {
       "3M": {
-        "price": 74.59,
+        "price": 74.53,
         "expiry": "Sep 2026",
         "contract": "CLU26",
         "prior_1m": 94.01,
@@ -87,7 +87,7 @@
         "prior_3m_contract": "CLM26"
       },
       "6M": {
-        "price": 72.06,
+        "price": 72.02,
         "expiry": "Dec 2026",
         "contract": "CLZ26",
         "prior_1m": 83.69,
@@ -98,7 +98,7 @@
         "prior_3m_contract": "CLU26"
       },
       "12M": {
-        "price": 69.31,
+        "price": 69.44,
         "expiry": "Jun 2027",
         "contract": "CLM27",
         "prior_1m": 75.66,
@@ -136,7 +136,7 @@
     "prior_1y_date": "2025-06-18",
     "futures": {
       "3M": {
-        "price": 79.02,
+        "price": 78.86,
         "expiry": "Sep 2026",
         "contract": "BZU26",
         "prior_1m": 101.04,
@@ -147,7 +147,7 @@
         "prior_3m_contract": "BZM26"
       },
       "6M": {
-        "price": 76.96,
+        "price": 77.09,
         "expiry": "Dec 2026",
         "contract": "BZZ26",
         "prior_1m": 90.58,
@@ -242,5 +242,5 @@
     }
   },
   "note": "Spot history comes from daily FRED series. Futures history is roll-aware by target date. USD/INR uses FRED DEXINUS with Investing scrape fallback for latest spot.",
-  "_fetched": "2026-06-18T20:42:18.680819Z"
+  "_fetched": "2026-06-18T23:08:41.343706Z"
 }
