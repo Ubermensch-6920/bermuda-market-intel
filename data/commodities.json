@@ -2,7 +2,7 @@
   "date": "2026-06-19",
   "source": "FRED / TradingEconomics / Investing / Yahoo Finance",
   "gold": {
-    "spot": 4136.49,
+    "spot": 4151.74,
     "spot_date": "",
     "spot_source": "TradingEconomics",
     "unit": "USD/troy oz",
@@ -242,5 +242,5 @@
     }
   },
   "note": "Spot history comes from daily FRED series. Futures history is roll-aware by target date. USD/INR uses FRED DEXINUS with Investing scrape fallback for latest spot.",
-  "_fetched": "2026-06-19T20:06:54.861792Z"
+  "_fetched": "2026-06-19T22:17:14.999233Z"
 }
