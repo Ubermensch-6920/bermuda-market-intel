@@ -1,26 +1,498 @@
 {
-  "updated": "2026-06-22T16:11:17Z",
+  "updated": "2026-06-22T16:53:11Z",
   "naic": [
     {
-      "title": "NAIC adopts enhanced reporting for insurer private credit",
-      "date": "2026-03-19",
-      "cat": "Reporting",
-      "summary": "Expanded Schedule disclosures for illiquid and affiliated investments.",
-      "link": "https://content.naic.org/",
-      "id": "f77c8111b7dc",
+      "id": "108cd074c4e9",
+      "title": "Is private credit a $2 trillion-dollar insurance timebomb?",
+      "date": "2026-06-22",
+      "cat": "Investment",
+      "summary": "",
+      "source": "American Banker",
+      "link": "https://news.google.com/rss/articles/CBMilwFBVV95cUxQOGZZb1hxVGRLTGg1RGZqc2RRMEd2QVJ5OG9yQklWS29fa1lDTER4WUdyV2pxVEg3dEVmVl9KbUw2UTQ4Rm9IZ2l2RTM4TElmQ09KRXBJNFZzcmRZV1pxejB5Qmp3ZHl2dU8yb1BYSFNQWUN0STVpVU5ZWjZtb01qbHdDZG5pcTRQNVQzN1BWc2x1V0dLOGhJ?oc=5",
+      "isNew": true
+    },
+    {
+      "id": "8fc23b3e0271",
+      "title": "Industry experts warn NAIC: Fix flawed IUL illustrations now",
+      "date": "2026-06-18",
+      "cat": "General",
+      "summary": "",
+      "source": "InsuranceNewsNet",
+      "link": "https://news.google.com/rss/articles/CBMioAFBVV95cUxNbmlUandUMTdtaVhyVHFkc0xiS2ZlOVJjV0VGS0RyVUlHRUFoQmp2MEJJMW9vc3hydzhZRnhDdlV4VktqZjAxOW9BX0tZb2ZvNjNaVUFqMUctQjBHNWJPT2VaRm9BS2FwTC1KNXpRQ3F5MEg3OE56WFByWnlYLTM1aDhvODZjNEFkQk41TlVveXFFN0g2NTFPdkZsWlNEUVJp?oc=5",
+      "isNew": true
+    },
+    {
+      "id": "8d1222246edf",
+      "title": "Insurers are funding AI infrastructure \u2013 NAIC wants to know if the ratings hold up",
+      "date": "2026-06-12",
+      "cat": "Governance",
+      "summary": "",
+      "source": "Insurance Business",
+      "link": "https://news.google.com/rss/articles/CBMi4wFBVV95cUxQUGZvVkhzQXAwR3ZRVkU1QW1TSC1GcjhrS0FTdTJyTFMxUGp2R1pxNDJwdHV4LXUyTDQzVzZlX1l6dVJBSkhTQlBQM2NaQ2EzM0FHOTNpOUJydlJkblB5WDhiWF80RWxYR1hWb09kdERHNUFPN2p2Z1l4V0FaTVpXclI0YUZwLTBPNExYMi1pSzR0bTR2R0pLaUtDYTBVU1hIaVFpZjB6bWZyR0c5aUJzNFhwRm12c3JJUDBpXzRSWXUyM0czM3BpbXJ5ckVfd05DckhFT2lERkptZmUwSWg0WHlyNA?oc=5",
+      "isNew": true
+    },
+    {
+      "id": "329988367e0e",
+      "title": "US insurance rulemaker probes credit risks tied to data centres",
+      "date": "2026-06-11",
+      "cat": "Investment",
+      "summary": "",
+      "source": "Financial Times",
+      "link": "https://news.google.com/rss/articles/CBMihAFBVV95cUxQNmNqS1JUTy1ZeWlNSFFoRVY2ZEJ0Z2lLZ2w5dm9Pb2hMazNRdXpuR3NlbFR4bWlwYjVJVHY0bWdhdWNTOU1OLXB5cXQ0dVVjbThMNEdjVG5IcHZKdVZveGp2MXBSTGh5YWNlZXc5ZWRJQjJXekRibGMtZEpWWHZFU3NQSXg?oc=5",
+      "isNew": true
+    },
+    {
+      "id": "f6e7716d4d23",
+      "title": "US life insurers' private credit push is creating liquidity and concentration risks, Moody's warns",
+      "date": "2026-06-08",
+      "cat": "Investment",
+      "summary": "",
+      "source": "Insurance Business",
+      "link": "https://news.google.com/rss/articles/CBMi-wFBVV95cUxPN2s3cXF1STQwc2tfNW9lTHhZaXZzQmJsS0UtZG14N1ZhcnZfWkZlRDF0LV9UNFhXQW1WVkxMQWxYd0ZvTWx1N2JoLTFzNDViTHQyNzN1V1ctSEp5dE9kLVI5TndLUktXNXVGUHRMQ05pZjBMZnBUR29SN3FnTk55TnVVdk9ndzVuaTJBY2drR3ZRNDBYcFl6N09jWF9jR0FRemJ4N205VVVzUTg2MURhb1NBLUFORnRzWWQ4R1dmYS1TdG9IbXdhUVdLUUp3WHBpVjUzUkpBUVFMZHNDOXRlSXBKY3ZxalFTWTFuVFgtLTlxY201V0F3SFdRNA?oc=5",
+      "isNew": true
+    },
+    {
+      "id": "ee60ab92e372",
+      "title": "NAIC regulators continue pushing for annuity illustration updates",
+      "date": "2026-06-03",
+      "cat": "General",
+      "summary": "",
+      "source": "InsuranceNewsNet",
+      "link": "https://news.google.com/rss/articles/CBMiqAFBVV95cUxPN0tUREdCOGRsWnhKVUR6d3haM29PRGtCeU83ZXROSVBjUk5ncTF5THhSbUZybmloME5MYnVSQjVaVnpXU3BZM3RyZ0Jzc3hqdC1rVFlzSDNqdHpQWnRmelBONEJkYjBrVnBhd2djMW1FWmJ2QUZ4cWl1cWhmY1F1MUpfMUJ6TDhEdW9KUEQ4U01heDhVS1FDd0J4MmlkLUJDN0NsU0M3TGw?oc=5",
+      "isNew": true
+    },
+    {
+      "id": "2044e7d90adc",
+      "title": "CCIR overhauls insurance OmbudServices oversight framework after decade",
+      "date": "2026-05-22",
+      "cat": "General",
+      "summary": "",
+      "source": "Insurance Business",
+      "link": "https://news.google.com/rss/articles/CBMi2wFBVV95cUxOeGpDREluWDJEQjdoeGdJdi14LTNpTnk5c2owd1cwMmdLTm1QTnBJZnZwcWpIZG5VbTBQSU52cEViZ2JuMGgzRnkzWnlkQWVXUmlvdVN1X2t2V093ZXRfTEZlZkVvT2NPaERIQmdKWUpZbUlFSWg5T0NDV29LQko1dVp4TUVzOTNwbkJtV0xHbzJhNVlrSUgya3FDc25BQmdGbTA0dldGQVBjWFZZSjdJUWVTdGNvcURRV1V3Y3B0QmJjYVBiTlU1ZDJZSWtOVVdJVEEwdUpFem9DWFE?oc=5",
       "isNew": false
     },
     {
-      "title": "NAIC Macroprudential Working Group exposure on asset risk",
-      "date": "2026-02-12",
+      "id": "e469c9cb7dd0",
+      "title": "Iowa rewrites captive insurance rules, dangles tax break for new domiciles",
+      "date": "2026-05-20",
+      "cat": "General",
+      "summary": "",
+      "source": "Insurance Business",
+      "link": "https://news.google.com/rss/articles/CBMi5wFBVV95cUxNUXA1OV95SmQ5WXlCWDduMUdXQmdDQ09ORGQ1cTZhT3R3OTMtMDZEd2pmUXVGSzhGc1lnMVg1T0Jra3hOb3YzUEJnbVRtN0hFaWJjak01Y2h6bDNXN2dwT0wxTWt6VW1uaFRFZGNTNjNqbUljTWJmak95cTNmZlBnZmJIMGRhMW5mZHRYQVBrcVlOem13Rkd3aERybDlSYzJ4SEZYdzZaVXlwQkV0RUJFbGhlbGpiNnJUajc5X3dwRm84aWYtTi1RVXVaMXVmbWY0a3RlMHYwa3ZHUnFWRy0zNmVtUUxFbTg?oc=5",
+      "isNew": false
+    },
+    {
+      "id": "910deea88fda",
+      "title": "Billionaire Boehly\u2019s Allies Donated Heavily to Kansas Insurance Regulator",
+      "date": "2026-05-14",
+      "cat": "General",
+      "summary": "",
+      "source": "Insurance Journal",
+      "link": "https://news.google.com/rss/articles/CBMidkFVX3lxTE5MVjhLbFNWLVU1QXFaRWVMMEdTYzcydVZRLWU4WkdITmxyeHdQeDdlakhYZW9iVXlZLUlCQmNkQzk4WVFtRFNHZHgtdDJja1ZiTHNIRnlXSlFxMGNxX2U5ZjV4VFZuSExQZC1MUVc4ZXpadGlYdUE?oc=5",
+      "isNew": false
+    },
+    {
+      "id": "20463f58cb04",
+      "title": "US Treasury and NAIC Regulators Tackle the Private Credit Pivot",
+      "date": "2026-05-13",
       "cat": "Investment",
-      "summary": "Exposure draft on concentration and structured-asset risk for life insurers.",
-      "link": "https://content.naic.org/",
-      "id": "86587f5987ea",
+      "summary": "",
+      "source": "The Global Treasurer",
+      "link": "https://news.google.com/rss/articles/CBMirwFBVV95cUxOUXBQUEdpQU9KM3FQM21OZVhQM0x5eTBOZkJBQjZfTW56RGkwczdnVUU3a0l1M1VuTlJxRTlPdVZGS0lLdng5ZEVXc1ZSRWVBWFNUaHNQdEVkcjFBTUh4WWo4TDRLendQUXNlNlZUaWJ6akx4WHNfUGc5TU1GaGVjckVrX1U4bE50NTY0amZOLWlreEZwT1VsMF9ETWw3ZmxpMDZEWkJTZnJBSXR2MDY0?oc=5",
+      "isNew": false
+    },
+    {
+      "id": "58b52eeb2cdf",
+      "title": "NAIC annuity guidance updates divide insurance and advisory groups",
+      "date": "2026-05-13",
+      "cat": "General",
+      "summary": "",
+      "source": "InsuranceNewsNet",
+      "link": "https://news.google.com/rss/articles/CBMiqgFBVV95cUxOcGoycE5GbTc4MktKenpQc044NkJtNDZPYjZxX3pMcnozNzJaTnllT1lpaGV3MGsxNm9EUzJfYlRUOThXQl9DYTdwa0tJakc0RzF6ZFhjcV9neFhBMC02Rjk2dWM4ZnYxRFQ5bzRXbU5KdmpJeUNDWmp3ZzdkN0V1YWRLd3NPb0RBWnVZZU5nU2VDTUdGQVdfTUY1NmpvRFhPOUlQVzZBWDB6Zw?oc=5",
+      "isNew": false
+    },
+    {
+      "id": "9ed5daa12384",
+      "title": "Commissioner Kuderer to chair NAIC\u2019s Child Care Insurance Working Group",
+      "date": "2026-05-13",
+      "cat": "General",
+      "summary": "",
+      "source": "| Office of the Insurance Commissioner (.gov)",
+      "link": "https://news.google.com/rss/articles/CBMitgFBVV95cUxQQUZDdUNYSDB6cWxkelRVX05xTTUwYlFuQmJWNFVpWEhDNk5VWGdEMzA3elYxRV9vV0xpdWlKbUZrUTlNeHN3eE9EWEJQcnBDS09VOWdHcGpBUjBCeTBZOEdxSmVjOFpOQWRSV3VmOURGdlVOeWxlNEhJM2JaR3NTcm81S0NYLThvX2V4OVVIRXk3d0o3bzVNazlkcENIaTBQMUlGZ2U0SUpTTFdkZHdTLU9GLTI5UQ?oc=5",
+      "isNew": false
+    },
+    {
+      "id": "58a5ed7fc253",
+      "title": "US Treasury joins scrutiny of $1.52 trillion Bermuda reinsurance market",
+      "date": "2026-05-12",
+      "cat": "Capital/Solvency",
+      "summary": "",
+      "source": "Insurance Business",
+      "link": "https://news.google.com/rss/articles/CBMi5AFBVV95cUxNM2NkQkFhUkFpWktHNEhnMnIzWDhUc2pENG1wbUx3OEpTU2Q1cXJkVDFXS2ZzcVZpOUtNdGg5YWlvUkdUX1ZibGZ6U25ibnA0azR3T0RGNUZJcVc1N1pyZXFpbEc3YXRsMDJyZ1ZkOFRrYUYtVWxOTW5WZnRyLTFudGRQMjhoTXhva1gtRGRfb1gtNkJicFR6WEhtZk03R2pJWFQ1RTlGUWRhUmRHNmxqVU1hb0ZOSnFqOTFPc2ZHeUxQMEhtUFpxbk9NMUlCam1ibHFkdUp2eXdBQ0dKeWVlOU5SYVM?oc=5",
+      "isNew": false
+    },
+    {
+      "id": "0662d7801c39",
+      "title": "U.S. Treasury and insurance regulators discuss evolving risk oversight",
+      "date": "2026-05-12",
+      "cat": "General",
+      "summary": "",
+      "source": "Reinsurance News",
+      "link": "https://news.google.com/rss/articles/CBMioAFBVV95cUxNaDc2UkxQRlB4M044QnhfV25Wa2hDZ3N2eE90bzVGM0dzWGJ0dFJHNUVSSG53WXlHcUIxMXFXcW81OW81VDAxMUhCeFZhX0NfSTNMek1sd2dnWWtub0RpZXdURzlIZHBGQ0VvSUZtSXkyZXk3RnhqbERJQWx5LWFLNjRZSGlTeWFXU0ROd3lGR28yei1MVjVCR3k5cTZXdXdk?oc=5",
+      "isNew": false
+    },
+    {
+      "id": "dd0f4005632e",
+      "title": "NAIC Working Group Adopts 0.68% \u201cLook-Through\u201d RBC Factor for Funds Investing in Resi Mortgages",
+      "date": "2026-05-11",
+      "cat": "Investment",
+      "summary": "",
+      "source": "Mayer Brown",
+      "link": "https://news.google.com/rss/articles/CBMi5gFBVV95cUxNZWpjYnJ3SkNNUW81T1EzTk53QmllMHdEQjZRZlNSVXRJZG9hT1NMQlV6TlpjRGdtM2dKVGRhN2JTdlJwQWJ6OGQxUHJ6Smw4d3dMMWFhVjVfdTgwMGt2aS1oS3M0SWNhT0c0SmpfZ1hYVTZIZ05sUFI5SnlFZ2lESFdrQ1FZZ1FVWmthQ0d1RXFUX1dTR04zb0dtdUl1ZGhCbmpicGRkSV9yU2dTY3dVTFl3SkpLcE5tWERxOUJsanJBeXdSVzRnWTJmU0dOeVd6QkthMlh2anBmTzVFdGNpX0QwVl9vUQ?oc=5",
+      "isNew": false
+    },
+    {
+      "id": "2eb644e90200",
+      "title": "Island under scrutiny as Bessent and NAIC discuss life sector",
+      "date": "2026-05-11",
+      "cat": "Capital/Solvency",
+      "summary": "",
+      "source": "Royal Gazette | Bermuda",
+      "link": "https://news.google.com/rss/articles/CBMiyAFBVV95cUxPUEZhREZvajVMUzZQWXRRa2RUX2pNSHRzT0hWN2diQ21JSTV2T3ZHS251Q1gxS2FHbGNjNzA0eEhlbEgwWHl3S1A5Vlh1VHQxVGlZc3ZaYW10dThhd0g2eWc2UjJDdjNIRmpQYTRyX081WklFY2RQTzFxd0pqYm15WVhySFRtU3F1LThiMnNyNGFNWFRBQlpkdm1aV0s4Y0szd0FkcmdYQVBYVWJnWnFWR0tPNDJyYUxnWURpaFp2aFdFS1d2ejBHMw?oc=5",
+      "isNew": false
+    },
+    {
+      "id": "0b39d5bb50d5",
+      "title": "US state insurance regulators, Treasury secretary meet to discuss private credit",
+      "date": "2026-05-08",
+      "cat": "Investment",
+      "summary": "",
+      "source": "S&P Global",
+      "link": "https://news.google.com/rss/articles/CBMi-wFBVV95cUxPSmRtV2lxRkpwemtNWnRZSFVnQ1BTYVJzZTl5bXJhVXJwV1JYRGRoaE1TVHdZbFg1cTZDWHdwTzRQUHJMakd1S1M3VjIzSG1SYWowZGdDM1YxTl9GR29pbUlCa3JKS2lIS2h5UGtDYWNKQ3NjRWVacXUyMjJ2OWl1VXVqb0ltLU1QaUdWOUF0b09pX3ZRUTdqcmZNVkM1Z0Z5NU4yYjhFb1R3YldCOGJVUzFNWDVwNDJZYWJZM1JESFVneEt6ejVQT1M3am50YzFpS3hoQTlMeHZNVGlJUl9YZllBRVdZSGluelNhSjRBQW0zOEJXeGpWVFVaUQ?oc=5",
+      "isNew": false
+    },
+    {
+      "id": "1e1bbd5f2258",
+      "title": "NAIC private rating review may pressure US insurers",
+      "date": "2026-05-08",
+      "cat": "General",
+      "summary": "",
+      "source": "Beinsure",
+      "link": "https://news.google.com/rss/articles/CBMihAFBVV95cUxQYWM1a0JZcUJLNWgyM2d5RXJzbjZZVGE5UldVR1BtOFFKVEYyUWQtMVBDR2t2Ykx6Ul9OUlpQanhCN3JjTVNVTHZKZUdpRWc1NFlpcjhiMG9BbmZLbXhDTktVQnlqTmRxZlpJU3l4SlJPY25tZV9KQkZxRnJUdFlIWVo4TVQ?oc=5",
+      "isNew": false
+    },
+    {
+      "id": "858d0462edd9",
+      "title": "US Treasury meets insurance regulators on private credit",
+      "date": "2026-05-07",
+      "cat": "Investment",
+      "summary": "",
+      "source": "Beinsure",
+      "link": "https://news.google.com/rss/articles/CBMiiwFBVV95cUxPNTJDbDdOckhRY1dOMVp0ZDhLNWNtUkd4SksyUjY5YjRGNjFFdlFBOTJ6LXhMeGZ1Ry1VdTN3bGt2Q21wNFd3ZXdoNGNVSFNhaC13cUU5N3JVb0tLODhmeWdiWUwtLVVVZUFqb1RaS0tZWngwN01ra1l3cFJHMUJwN3RoWmpmQzJRSGpF?oc=5",
+      "isNew": false
+    },
+    {
+      "id": "6cb6b5152e22",
+      "title": "U.S. Department of the Treasury Hosts Convening with State Insurance Commissioners on Private Credit and the Insurance Sector",
+      "date": "2026-05-07",
+      "cat": "Investment",
+      "summary": "",
+      "source": "U.S. Department of the Treasury (.gov)",
+      "link": "https://news.google.com/rss/articles/CBMiYkFVX3lxTE00Wk1MNFZHekFOeDd5VjVWcUhjSXRZbW1HN3hpeHB4bUZJejVHTVMzWmZ4YlhZbGtoaWxqVHlmS2tqTEUweTdQSkZwWUE1T1c1LVRGU3lxcTZkcDRWMm82akJR?oc=5",
+      "isNew": false
+    },
+    {
+      "id": "9b03e2ea76ec",
+      "title": "Treasury meets with life insurers to discuss private credit",
+      "date": "2026-05-07",
+      "cat": "Investment",
+      "summary": "",
+      "source": "American Banker",
+      "link": "https://news.google.com/rss/articles/CBMimwFBVV95cUxOQ2J0a1B5WXB6Q0ZhMzlETTV6cFFVNWM1Ry0yNFItSHF1U2xTaDFLN0xTek1nV3E3WU1MNm1XTUVJT0tRYmotQ0VuQTNBOWxaVlQ5ZTQ3RER3XzNOYUhXcVRGemw3S1RyMlJvMXl6NkQxVENYZktSZXZMdVlYQWtoWXN0eHNuTGxJMktFSjFxblpBSE1aYlpCYWdCWQ?oc=5",
+      "isNew": false
+    },
+    {
+      "id": "693d82e9d328",
+      "title": "NAIC Working Group Continues to Discuss Proposed Changes to RBC Factors for CLOs",
+      "date": "2026-05-07",
+      "cat": "General",
+      "summary": "",
+      "source": "Mayer Brown",
+      "link": "https://news.google.com/rss/articles/CBMi1wFBVV95cUxPaXlsZUxWSlhrcWdzMzFOUk9sY0JtNWlGM2hhUFVKN1Q4cE1BNEwyeVhILU44bldJRGI0YzBvbGVnc2RTcnJlM0FEYW5QclRCWjB5UXc2QUZ3d05qUXkzYWdXZnZhVHg2ZkVTSFlyd3R5S243NEFQeWdrZlBxb3RBVDV1cnYwVFl5d2VYLVdVelNFd1NWRHFSX2hUQWlQTGpJU1RoS2NzUmtia3NkdGxWRzdWVEh4cmhUanBTTUw2Z1RFeE1VWkw2RFpaVUVYb3lFcUtFWlA4aw?oc=5",
+      "isNew": false
+    },
+    {
+      "id": "91753183eb92",
+      "title": "AI Bias in the Insurance Industry",
+      "date": "2026-05-01",
+      "cat": "Governance",
+      "summary": "",
+      "source": "Reuters",
+      "link": "https://news.google.com/rss/articles/CBMipAFBVV95cUxPT0t5aXZYN0dlRE5mcnYwZ2FQc3VIYzJPcXM2S1NhYWg1aWJ6cklLdTZORThtcTF6MENNaC1xbGQ3aFo4VmxWdDdyNk55SWxXNUlzRmplak84THRtWHJ0ajVOaGhUMEpKREhGalMxd1ROb0duem0wNU84RUU2b05OT0N4eU5uRmxUWElvVjlEMHRudWdyTTRkWlZVSm1mZmJRdlItbg?oc=5",
+      "isNew": false
+    },
+    {
+      "id": "4af763f934cf",
+      "title": "States are demanding property insurance records to study climate change",
+      "date": "2026-04-30",
+      "cat": "General",
+      "summary": "",
+      "source": "E&E News by POLITICO",
+      "link": "https://news.google.com/rss/articles/CBMipwFBVV95cUxQNmVNQjQ2R0lxU3hmdnozNHpIeHVyVVZUcVBSM0duVGJydXYwcHlxT0pqMXI5d2tzekRVMmtmUkxLREkyYUprdFVHRkpxLVNEWjFYYzdJQnRLT1Y4Y1phZUVsem15OW81enBrTFh3ZGIyYVFmN0hMRlZ3eDRBT0FIOHJZSEhKbWViMTRSMTRwVFJ4NGU3Z3JneUx2eVR3WTlOSjlGeEpxdw?oc=5",
+      "isNew": false
+    },
+    {
+      "id": "9ad624b81ce5",
+      "title": "DC Council imposes capital, liquidity mandates on insurance holding companies",
+      "date": "2026-04-28",
+      "cat": "Capital/Solvency",
+      "summary": "",
+      "source": "Insurance Business",
+      "link": "https://news.google.com/rss/articles/CBMi7AFBVV95cUxPUVIyVW1ESE1XSTd2VjVuWkdBcHlzcGVUVVFySEo4UndCNlRrUno0LXhLcDJ2LUUwUXl6NHc4bm5JWW1ieEZkY0dtVXZyRElzNjVUMkVhOGFfV0dNcFJRM0hVbEkxdFMzcWh5a1JHM2EyYmVjWlZSeWlCay1pVWdzaE9VTXBmQnhGWUlXSE83VEliRENMcU14c1d5NVk0Y0lCaFhZd29mNXVxSkpqeFgxWjNwTm5mOV9XMG1hSHo2Y19xQWc2SEhTRWdaZHhjUUNmSWkyMHQxQjMzZ0VXbVV0UEJXTnJaWFJCNU5KMg?oc=5",
       "isNew": false
     }
   ],
   "bma": [
+    {
+      "id": "4231bbf6ed1d",
+      "title": "HCI joins tokenized catastrophe risk market",
+      "date": "2026-06-19",
+      "cat": "General",
+      "summary": "",
+      "source": "Insurance Business",
+      "link": "https://news.google.com/rss/articles/CBMiwAFBVV95cUxQdUdlYmx3eFkyMjR0RjZyZ1NyelVTd2tHWS03UktvMW92ZWhybEhUcFpHZEthNXhLVVFERFVjdE1DRnZpbmtEbGQ1RTFCUDg1YkRJTzF2NmVHbXYwaXR5aEI5WWhfNDBQcWsteTZNVk4tMEszbXdOTzNsUUFRSG0zLWhtQ0d2SVVRZlViQlhkYzVIYW5WSGpudVptZGFfUUVMR3IxU055X0o1dzV6ekxzY0VxLWJkT281dHdRNUVrZTQ?oc=5",
+      "isNew": true
+    },
+    {
+      "id": "286b674b1558",
+      "title": "Walkers report says crypto narrative has shifted",
+      "date": "2026-06-09",
+      "cat": "General",
+      "summary": "",
+      "source": "Royal Gazette | Bermuda",
+      "link": "https://news.google.com/rss/articles/CBMiuwFBVV95cUxNbEpKZ19lNjZkZ0prak1zOE5pZW9aX0dXQkhENjI1YmxjaHgtRUw5YlBOS2JVc24zLWUwZE50OGRNTmNyVVVvNWN6cGhUOHdIcmNNb200bzFyaGp3X1hkOXlXSzNKdDl1YlViU1AxamRiVzBXZTJCV0YyTE8yV2VYdnBQWF84TTlIVmZCYlNCTU96ZnJQLW90MGctb0pYUXRBTUluUzV3OFZKbEw5MUhWa3FoY0kxZUtIS0JF?oc=5",
+      "isNew": true
+    },
+    {
+      "id": "dfd86ef5618e",
+      "title": "Late filings could cost banks $10m under BMA proposals",
+      "date": "2026-06-04",
+      "cat": "Reporting",
+      "summary": "",
+      "source": "Royal Gazette | Bermuda",
+      "link": "https://news.google.com/rss/articles/CBMiuAFBVV95cUxPcl9iYU8yTXRseVotd0FMSmVURGpKMFFBc1JmYnBLWHhCRmtrOWFKdmhJVndpbUQtNFp6MndrZDRrbzVCemZvbkZ2SEZnMDBTVS1vUG01Wm9ldWQzajBJUTY5VmQ2MTBVWnJ0WldjR2h4YTVRZ1JuODdLdWQyVE83a3JuUUJBbTVYMDh3T1FHU2VKSEJlX242UjQ1dlBUd1N0eHc1NkZVU24ya01BZWNJQ2xhal9yNnNy?oc=5",
+      "isNew": true
+    },
+    {
+      "id": "aa842d8b4f06",
+      "title": "BMA explores opening door to foreign banks",
+      "date": "2026-06-03",
+      "cat": "General",
+      "summary": "",
+      "source": "Royal Gazette | Bermuda",
+      "link": "https://news.google.com/rss/articles/CBMiqgFBVV95cUxQT0Q4Y1BleU1nMjdXTlpTS3VFZVJoekhkOUhxb1VwaTdwbXFVQkx6STZuRktnV2hqRHJ3c3F2TFJlRnhDaFFXMURBLXhoVUxPdkpTS0JKQlVhNXpNOUk3bng1MFlJMkxoU01EU2ZEdTZuR2RGZWJFRjdRMkJTVGJ3UVBZSUlQSjZtV2ZFMTRFODIzdlNZczhqZ0w2NmZybURxUE5ZT1ZHV2x0QQ?oc=5",
+      "isNew": true
+    },
+    {
+      "id": "220edb10c2ca",
+      "title": "BMA seeks to wind up investment fund",
+      "date": "2026-05-28",
+      "cat": "Investment",
+      "summary": "",
+      "source": "Royal Gazette | Bermuda",
+      "link": "https://news.google.com/rss/articles/CBMitgFBVV95cUxPOEVzR2pieUhJSjJmeGFHV3EwXzJOQzJYVDZRX1RwOE9SYk5LenYzRURTWVI4amlmcy1LTGo4WkNMRUZxOE05R1NCTjl1dEFORWVwYlBQdzJUcTBkV3FyaDZSd0JTRWFwTl8waXN3VWlLUXVGMmVRMi1zNFFjSXhDcU9MMU9hSV9pUVZ5TFNiRkN4WE9fTUJTR2twcVM3bEFTeU15Y0VibTd2OTJZTmVZbDQ4WHRoUQ?oc=5",
+      "isNew": true
+    },
+    {
+      "id": "b3f60971f2ab",
+      "title": "BMA CEO: onchain economy may require law changes",
+      "date": "2026-05-28",
+      "cat": "General",
+      "summary": "",
+      "source": "Royal Gazette | Bermuda",
+      "link": "https://news.google.com/rss/articles/CBMixAFBVV95cUxQMlN0azZCbVBNS043TElPb2tOcHdDc3RNUEtsZmxwVWFLN2pvcjR4R20xR1lyaHNmb2xfbXR4ZzVXdVphUHJqZGZBb29hTDh1MlZ1dHdKYk9MZDFYSlZKM1JBZzRMRVpoaEYwb0Y0SDZGQXpLbEd4emZ2NnJBZ09GZWc0YVUtaGRwZnlWNm5iS3Z1Z2YtbGZDMDY5T2FzaTZkR1IweTVnZ2MyRVdzQXFrX0w1QUp2V1hydWVpNk5aUWdOandN?oc=5",
+      "isNew": true
+    },
+    {
+      "id": "db81ed09ab9f",
+      "title": "The use and regulation of artificial intelligence offshore: An emerging legal landscape",
+      "date": "2026-05-27",
+      "cat": "General",
+      "summary": "",
+      "source": "Cayman Finance",
+      "link": "https://news.google.com/rss/articles/CBMiwAFBVV95cUxNUDVEaDZOamVPSVhzODViU083Vk5zNkRpd0tTWFAxNHJJZHpJSXRvbU5fRm04ZTJfRHYyMXlQWHpOLUhHS0llcTZFWl92Y3FmWW1XTjM0c3pXTDBPc1RjM0VCNV9IMUk3ZkNuYm9UamcyV3BzaEVMdm82VmFLcUw0Q3ZUVVJpUE5ubjJLdWJNbHl5Wkg4aGEzSjZRSWs0VV9wM2NYU0cwU3Vnc0huUkhYSmxTNGhTMjFhTWFSNFlzenk?oc=5",
+      "isNew": true
+    },
+    {
+      "id": "98436dd12dc7",
+      "title": "Walkers Publishes Fintech White Paper",
+      "date": "2026-05-21",
+      "cat": "General",
+      "summary": "",
+      "source": "Bernews",
+      "link": "https://news.google.com/rss/articles/CBMidEFVX3lxTE55ZFFrU1VwWk11d0o1elZSaDg4cEJUWENyclFLbGhUSG9PNk5yTlZqUE5OT09CVVYwWDJWeHdkN21JV2xTNWl2M2VnV000aU5wMTJtcExKUTJSdGlnZERscUpkU2tob1dGbHBuZVpuSmN2WEZs?oc=5",
+      "isNew": false
+    },
+    {
+      "id": "5c8fd3de3a31",
+      "title": "Official Govt & Legal Notices For May 13 2026",
+      "date": "2026-05-13",
+      "cat": "General",
+      "summary": "",
+      "source": "Bernews",
+      "link": "https://news.google.com/rss/articles/CBMid0FVX3lxTE5WZ0dlSldsRm54ZnBTWDlNYUw0aFZCSldmSElHRmttVWZZeGlJb2FfLWZhRkJxVU5PQnA3d2c0b0N0Ymk3Yk9wTzhYbUJTYVNObkRUS3RRQkpMZlhNckZiY1pVN1Jyd2c0S1lScGgxd21Ob3NwUmxZ?oc=5",
+      "isNew": false
+    },
+    {
+      "id": "d71087151097",
+      "title": "UK regulator moves to curb flow of Bermuda life sector deals",
+      "date": "2026-05-01",
+      "cat": "General",
+      "summary": "",
+      "source": "Royal Gazette | Bermuda",
+      "link": "https://news.google.com/rss/articles/CBMixwFBVV95cUxNbU9WWFowZ1VSSUVVRkJhS1VKZm5SQTZuT2FPUUhYdElybWdIQkRfTVlEWlB5aVpZVEVHTWNVOFZKbUpORnBTNHlvdkN6bFVXbFZVTEdYSy1RXzJBSm1CUVZDUGpsakFwVTlscXFQTHF4ckVCUGVuUFoyb3Q5R1FtSWt2UUxCM0tub1BoV000NDJZTm54Z2w0RndYQUJMekFaV0RZQ1BmazZmVm00Z2RwMjdIZDdiUG9wQmpTVWhPNWpnRHlCUnZV?oc=5",
+      "isNew": false
+    },
+    {
+      "id": "53bf912932e4",
+      "title": "Official Govt & Legal Notices For April 28 2026",
+      "date": "2026-04-28",
+      "cat": "General",
+      "summary": "",
+      "source": "Bernews",
+      "link": "https://news.google.com/rss/articles/CBMiekFVX3lxTFBDb1MzMnlMeEhweWViTzA5U2locF9JdkNEQ0RncUV4R0xaNkhJaFpuSmpJMnl5cEJmVm5jS0ZnaG1tSFNnb01MaDlOUEtYdTVMWUNrUzk5ZXRRU0E4cjdybkh6Y0pEY2VVY1ZSNUFCSDhJei1lMndGc3Fn?oc=5",
+      "isNew": false
+    },
+    {
+      "id": "eb4286c48b1a",
+      "title": "\u2018Digital assets can give us better financial system\u2019",
+      "date": "2026-04-21",
+      "cat": "Investment",
+      "summary": "",
+      "source": "Royal Gazette | Bermuda",
+      "link": "https://news.google.com/rss/articles/CBMitAFBVV95cUxPR2t0cE5wTkNUSGE1dUxYZGFsZ0k3aXZhLVlzWU9obnN3RlByaDNSeVY3ZTM0cV9HSGx2VnZkeENIdDc1TzNwZ21nSWN2WEh5cElHVmZKbm9oWDZDQjhfUlNSSzlYVldCbXNRZmZ3YnNvVldhYkNtZXgzMUdNQ3ZfaGwxbnpfRGVTUnNCUmEwYlBQaVBUeEhSSEUzQ3E4ZVEzd0RKc183SGJkZTN6Qi1sdDJTUzI?oc=5",
+      "isNew": false
+    },
+    {
+      "id": "d9fda9d60127",
+      "title": "BMA Prohibition Order On Joakim Samuelsson",
+      "date": "2026-04-21",
+      "cat": "General",
+      "summary": "",
+      "source": "Bernews",
+      "link": "https://news.google.com/rss/articles/CBMie0FVX3lxTE9DWmZBVmtadkZRTDNPb2ZNTkhQa2xjZ096RUJlZG91OE5wVFIxNTZBYUl3ZlVsbWtKX1U3S19CdEM3MW95Ukc2TzZiTl9pcERqSW0wOUQ3MXI2YzJnRksxX2xQMmNwcWF1N0RfOWdUOHpJZlg3dUktRXI0WQ?oc=5",
+      "isNew": false
+    },
+    {
+      "id": "66a81440b392",
+      "title": "Premier discusses insurance and digital assets with US politicians",
+      "date": "2026-04-20",
+      "cat": "Investment",
+      "summary": "",
+      "source": "Royal Gazette | Bermuda",
+      "link": "https://news.google.com/rss/articles/CBMi3gFBVV95cUxOSmtJV1RWRXFzNjdhSFJkVzZLd2hIUWZzcGFnSUpxaUMwbUhnTlVaNjJ5MGRQTjVUU3ctY0Q1aGlUUHBJLUxrX1VVUGxzMEhOcEpobDBlRWF5djkwd2QtRmZYa2FSOXNqWHlibTFVaWx5ZDFHSnhKUUI4UEdtekpPcnAxaklYMTZZRDhJUjJYUXBwbmtORUtZX3VDM1E1WjlMWEI0dWZONEl4OU51alBDWHRTdFlobWlVZTNXVDU1cEZ5OE1yUGVvSXNPb0xad3hfS1IxWkdJWmVITm5JNUE?oc=5",
+      "isNew": false
+    },
+    {
+      "id": "3b600e25dc87",
+      "title": "Re Bittrex \u2013 asset recovery and insolvency lessons for crypto exchanges",
+      "date": "2026-04-16",
+      "cat": "Capital/Solvency",
+      "summary": "",
+      "source": "Macfarlanes",
+      "link": "https://news.google.com/rss/articles/CBMitAFBVV95cUxPN19rRzZFSzkzUVpYSjFrVGlsaWFJUGY0ZExaSk9LWW1PYV9nemhvazA0WVplMi16UmpCWlFLLTJEc05qZmRKVXFGVDIxaVVXZkpMOVVuWVdvbXltRnhMbXkyWVdVYWt4dVdnMmFYb0Y3bE4wZXp6Z0xCcEl6Z1JpRDJRRmNvTzRzUExlTHkzVlZVWWcwZkE5cXMwY1JHRnEwYkprSG1xc1RfOVdXX1Y1OURrWFQ?oc=5",
+      "isNew": false
+    },
+    {
+      "id": "c31fc47c76a8",
+      "title": "Official Govt & Legal Notices For April 15 2026",
+      "date": "2026-04-15",
+      "cat": "General",
+      "summary": "",
+      "source": "Bernews",
+      "link": "https://news.google.com/rss/articles/CBMiekFVX3lxTFBXZkpwUUpxblFrMkhiWTBwUkl1V19fTEluWlhGWDF2QVR2QWd1QUFYLXNiZ2xLU1BGaEltRkNZQ055Q0Q1X2FMdFE5YzB0RGxaUUxMOWJtMkVmNEhqUEdVeTljdTRXX3VpZU5GOUdaT0d6dkhqQWVOS2V3?oc=5",
+      "isNew": false
+    },
+    {
+      "id": "8890f9eab908",
+      "title": "Digital asset developments and Bermuda\u2019s regulatory readiness",
+      "date": "2026-04-10",
+      "cat": "Investment",
+      "summary": "",
+      "source": "Royal Gazette | Bermuda",
+      "link": "https://news.google.com/rss/articles/CBMiywFBVV95cUxOYjA2anRORW0tUS0zNnBSbzRJcjhncVl6cjBOOTdrNGJURGR1amZ0VzdzaHNicHBKaVZrdVFxLXY2cFJYN2pYRTBPZHpWV0dYWXlZZDZwQ1BJUlAzZHpsYkxRdDYyODhHR0JmMzdaY0EzSWtGTkVoQlR6ejZIN25aVzQ3NFFRVWFGejFob2JYbnliUUlseW8tQlFoX21WN1BiVFBWTDlGd3N1TmlzTlhkZWpUMDF5T2ZhRlZzN3dWZ2t2TFpNWVpiREZjYw?oc=5",
+      "isNew": false
+    },
+    {
+      "id": "248c91f12428",
+      "title": "Bermuda captives thrive on evolution, not just heritage",
+      "date": "2026-04-10",
+      "cat": "General",
+      "summary": "",
+      "source": "Captive International",
+      "link": "https://news.google.com/rss/articles/CBMilgFBVV95cUxOY2N6d0RKVWUwdzRJaG1naDl2aVViaWtZSVNkNmIxYVpOUmV2aFNrLXg5V0dPZ2dQWUNSUm9CYkdWdzA1SHdRODdzODRLVEhnd1pYaXlWTFpMOGRFNzFFclQ3NjZYZ0dqdklhcVNVS0UxRlVKeXJuekFqUm1KNXNYSWVtMF9yQzQ0X25RXy1qYi03UWhfdUE?oc=5",
+      "isNew": false
+    },
+    {
+      "id": "f251c6a382b2",
+      "title": "BMA sets \u2018substance over form\u2019 approach for tokenised assets",
+      "date": "2026-04-10",
+      "cat": "Investment",
+      "summary": "",
+      "source": "Royal Gazette | Bermuda",
+      "link": "https://news.google.com/rss/articles/CBMi0wFBVV95cUxQZzN4MGNhR3RfS2ZQY0FKRWlQN0xuT2tFbjVPa2JKOWo0X0J3RVJRdVNsNzhZZm5OTzBKYk55NmNNeHdaemhNaC0wVVZMZi1jX3JPZXhCMzdZZW8wdW5QZDE5SGtXVVlHZlhIUGxLRDhPSjFQdU9FY2k5TUFWY2VlSUJlb2Jqbmx3UGxUZHZRdHhzbGYxMk5la1o5Z0NNU2xVQTI5QXkyUjZoRnNVcGQxclQyLVV4VS1ybk82VThGLUc0ODEwdW1oRjNmS05fR2U5X0VF?oc=5",
+      "isNew": false
+    },
+    {
+      "id": "ca1082c39c30",
+      "title": "Stronger rules help to fuel life sector\u2019s growth, says Biltir CEO",
+      "date": "2026-04-06",
+      "cat": "General",
+      "summary": "",
+      "source": "Royal Gazette | Bermuda",
+      "link": "https://news.google.com/rss/articles/CBMiywFBVV95cUxQR2tvMkpTdURYcVlNUWd6NWRVLTBsTFJtMFc1T2NPQ3QyODZULV9INUpuaEhrQXFMT2F3aEhQVUVCVTdQLWpyOVZoM0dlb1J2SDdZalgyamhuNENUNGpfR0luM2wyX2JFbXpONjVmVzQ2Q2NpNWNyS3dQWlRaSWprcnFGelN1Z1F5SWhiT2lGenBTVWtvdzNRMklwOUcta19ucGZYWWQtRlFTWmNDTzhFbVpXWkRKX18zUXRJdDc4NTdjaUE2bVNRekhmVQ?oc=5",
+      "isNew": false
+    },
+    {
+      "id": "7f5488808ef5",
+      "title": "BMA softens ESG disclosure plans",
+      "date": "2026-04-06",
+      "cat": "Reporting",
+      "summary": "",
+      "source": "Royal Gazette | Bermuda",
+      "link": "https://news.google.com/rss/articles/CBMisAFBVV95cUxOZV9PSXNLQ1hFSlN5OFJBRHRNVlNJblhPTkR0OWxjRkZkTi1ad1UxVzYtbGxXU2N4MWVkWHpDVDJ0cTdBWmJYM3ptcm9ma2NlWlZpREcyTzRMR3NxYThqVUVJVlc3T2JqbmpwelFWY0NrcWpvNHdKeXcwQXhVaVVRYnd6S3k0V185Ul9aRE5VUXNKTXM3MlNjc2hyT3NUa3BPZExJeEZuTGpNMEdSUkcyYg?oc=5",
+      "isNew": false
+    },
+    {
+      "id": "04bbfc4acb12",
+      "title": "BMA weighs streamlined tokenisation rules after industry feedback",
+      "date": "2026-04-02",
+      "cat": "General",
+      "summary": "",
+      "source": "Royal Gazette | Bermuda",
+      "link": "https://news.google.com/rss/articles/CBMi3AFBVV95cUxOWXRaUW94ZU1ubUR0UkxvWThpYjYwRWppNkdSUWhSdlg1ekRtTW83SDI0LUNEa0pndF9GRHF4U0pPc05hSVZ3S09wSmNZUEZiUkl1aUNlRUlkRXVjc2dXcTYweUZ4SXN4a294QkpFV3JEcGJuTEZNRFAtNGgzS2lONTVTV0RwazNNUjBZQWJPYXMwN3RTRlZkemZSNjY3UlVRanFUZEJ3NTlvbGJtcVFzX0pZU3p3Y2FjVVBOZm9HN2FETlFVU18xU1p3SXRaWlVxOHlKd0t6LUhGSm1N?oc=5",
+      "isNew": false
+    },
+    {
+      "id": "321f59389648",
+      "title": "The Globalization of Asset-Intensive Reinsurance",
+      "date": "2026-04-01",
+      "cat": "Investment",
+      "summary": "",
+      "source": "Mayer Brown",
+      "link": "https://news.google.com/rss/articles/CBMirAFBVV95cUxNR19lZ1kxU0dxOGdPLVozUnU1YnpQQmRIX05qV2JNdjR4WF9BYWNEdFRwaEhXVmxyRzVfQVJ3NGpLVWJ2NllaeUd5RnFnWlAxWWVPWkRBQ0pQaG1Kb0MwTlJpbUswemJuN1JuM2JKNWpSbUlmaDNPRVg3OUFSbzliU3V4bGYyQ01QTEFZZjF3eWxYaWUtMkhYdk5acHN1Z0ZmaEpIcHBweE1mNWFS?oc=5",
+      "isNew": false
+    },
+    {
+      "id": "792bcf5b990b",
+      "title": "Bermuda investment funds - Spring 2026 update",
+      "date": "2026-04-01",
+      "cat": "Investment",
+      "summary": "",
+      "source": "JD Supra",
+      "link": "https://news.google.com/rss/articles/CBMihgFBVV95cUxNZzUxVmJjLUFlUTlXSDNnVFhVaXhsTkE1TUJTaE9WSktqOGhrNS1TYmRGcnMzUmx5aXJzdzlfel9Wc1hOZUZWZjZ3QVJ0RFdhVHpVdnRfSW9CRVpQaHhLR3Q3bjdXWWVCTXR6NGhSa0VsaGQ1Q0RkV1hDcEZHWGRYT0R0WlByUQ?oc=5",
+      "isNew": false
+    },
     {
       "title": "Notice \u2013 Pre-Approval for New Insurance Registrations",
       "date": "2026-03-19",
@@ -29,27 +501,79 @@
       "link": "https://www.bma.bm/",
       "id": "f6fded9a5612",
       "isNew": false
-    },
-    {
-      "title": "Notice \u2013 2025 Year-End BSCR Model Republication",
-      "date": "2026-02-18",
-      "cat": "Capital/Solvency",
-      "summary": "BSCR model republished with validation updates.",
-      "link": "https://www.bma.bm/",
-      "id": "85125117cb53",
-      "isNew": false
-    },
-    {
-      "title": "Discussion Paper \u2013 AI Governance Framework",
-      "date": "2026-02-09",
-      "cat": "Governance",
-      "summary": "Proposed framework for the governance of AI in regulated entities.",
-      "link": "https://www.bma.bm/",
-      "id": "4703e5d5fa1a",
-      "isNew": false
     }
   ],
   "cayman": [
+    {
+      "id": "b3b98c17621c",
+      "title": "Cyberattacks in Africa: insurers are starting to take action",
+      "date": "2026-06-04",
+      "cat": "General",
+      "summary": "",
+      "source": "africabusinessplus.com",
+      "link": "https://news.google.com/rss/articles/CBMiqAFBVV95cUxNRDJ1ekQ1a0h5cDRzOVF3TkNjeFNRNzFnaFp2ODdvVjljZHV4V3EwSzVPdl9qOVhlbEdxd24xdVNVOGN6WHBUQy1raHVYNDdPNk8tZF8ycVhENHduQW5rdk9DandDZEpDdzc1WGpZbFlKLW1yeVBnbWdPV29zUzRMRXZrNk96SmpNWTJhcFVGMFd5T0UxSkZzbEVWaWdoRGkzaVl2QnZ0OS0?oc=5",
+      "isNew": true
+    },
+    {
+      "id": "f7ddcee848ac",
+      "title": "The International Insurance Institute opens entrance exam for fourth insurance master\u2019s cohort",
+      "date": "2026-04-29",
+      "cat": "General",
+      "summary": "",
+      "source": "Togo First",
+      "link": "https://news.google.com/rss/articles/CBMi2gFBVV95cUxNTUZqaGFhOFpaNzFYZzZFSVJiSm8yY3dEekpmUXo5ME1rS25NazBmWjVXTVlNWk9EUzNFZGxTcVBTLUh6aU9kNF8xVTBhbkVpT0Zac1FKVnptY3VWaG9rRXp2YmdjT1M4a2J3bGpsTExIMGNmaDdlVFE4VE5qTFdiTmxYaGItcFBZZUpZaGJRdHRhVXZEX25wVEJ6OUQtZTV0cTYtVklhd29LbkUxRUNwU1J5SUJTSnY1MlFhbHZ2Rl9ySHRBenFuZmRaNldjNnRJNXJlSzUtdzZzQQ?oc=5",
+      "isNew": false
+    },
+    {
+      "id": "69b422a690bf",
+      "title": "Cayman to apply for NAIC qualified jurisdiction status by Q2 2026",
+      "date": "2026-04-22",
+      "cat": "General",
+      "summary": "",
+      "source": "Captive Insurance Times",
+      "link": "https://news.google.com/rss/articles/CBMi3wFBVV95cUxQdXVXdmg0N0xOakJ4ZGhNQkhjU0R1RGdzY0hMWFN4Zmt6bUQtMElYczY4a0l4aXV1RnRpY0h0dldSaWxPSHF3T1doNm03OUFOMzlmdldNeTJxc29xRHEwa3lGSnJsQnpxUUV6REFqVUxJanFKNWY3WmVqanpCd1dMclFEUl9DZWJTUTlyakJDN0hSbEZ6VU54Y2hhUVh0RE1jYWpMclQ2UW1VaDJYQlluWk4tb05ScWdCMUQ2eUJINExxbjFTZzJCX093dXNibUFoc2FjbkpOZFdUbWlONnlv?oc=5",
+      "isNew": false
+    },
+    {
+      "id": "4a2115337b69",
+      "title": "Cayman Reinsurance: setting the record straight",
+      "date": "2026-04-15",
+      "cat": "General",
+      "summary": "",
+      "source": "Captive International",
+      "link": "https://news.google.com/rss/articles/CBMiiwFBVV95cUxNX0FYQWxDb18zWldBYkliSmJtS3BhT0xleExUUGRKSHczM3lOcUU3OFNmLVpFdnZpbXRBSXNrSkxrM1R0a21tVFdHeFJxX0FsYWUtRmVmdXl0bHhVN1RPdm0walFtR3E0dHM2bjZ5ZmszM25kMFpmSkRTb01DR29MLWNxUjhrTURBNFVV?oc=5",
+      "isNew": false
+    },
+    {
+      "id": "1a9744395f6d",
+      "title": "PwC highlights growing role of asset-intensive reinsurance in Cayman market",
+      "date": "2026-04-14",
+      "cat": "Investment",
+      "summary": "",
+      "source": "Reinsurance News",
+      "link": "https://news.google.com/rss/articles/CBMiqAFBVV95cUxPTW4zV0tmdURhaEtBcE94djBmQUJWbWVSbXNzZnJOc29HWlhmRUZ5RG5xelZIZDNKQWdNTzIyT2wzbjIyZnd5QWR3Rjd0bXFHTWxDVlBybXUyZElBZjU5c0hiV2FYQ0x4bUxDUVdQWGpxUkUzN3EtUUh2WHIyMWszZ3REdFNld3hBajRROTFvRGp3LXRNblNqa2ROLXp3ZkxXN3VHc0FDSWo?oc=5",
+      "isNew": false
+    },
+    {
+      "id": "d7ac65566691",
+      "title": "CIMA announces senior leadership promotions and new hire",
+      "date": "2026-04-08",
+      "cat": "General",
+      "summary": "",
+      "source": "Cayman Finance",
+      "link": "https://news.google.com/rss/articles/CBMimAFBVV95cUxNa1pxUVNjVy03ZXo3cTRaOWtQd1I0RWhmOGgyS05OSTdxZ3lwNmVrZDh5cWMzZ0plR19wNGFVLU5Rb2Jmc24yakpncGhiaVoxeHhCelRGMndBZ01pS0pXYkZncFVROXJYR3BWTVlMLTVTQnI5ZWtUdklWTWhxOWR6bkdBR1BRc0xtdzZtQVNGZ1RaSXI5czdGVw?oc=5",
+      "isNew": false
+    },
+    {
+      "id": "be43f7563849",
+      "title": "New Society of Actuaries report highlights the Cayman Islands\u2019 growing role in international reinsurance",
+      "date": "2026-04-01",
+      "cat": "General",
+      "summary": "",
+      "source": "Cayman Compass",
+      "link": "https://news.google.com/rss/articles/CBMi3gFBVV95cUxQN2VPUUh0eGcyV2VzRmdrd3diaXVVcENhQW9rOFM1X0xxczZCcVZlUkc2cmZ5SmhTN2VjNGc4amQwU2RwSUJPdVVfNTBMMGV2emhxQVhVZHI5QzBWS2txMWFhZlFpSE42cUhrSlZ2SS1BTFcxakxVVE45MWh0MzFycnRxYzFaRjdVdVU3dXMtMFNiSGkyZkk5SE9oVFB0WkVnRUl4MEsxWDc4MGZhc1c0Uzl1SkxmcjZUSk1ORElQNmM0Sngxc2FWekhTYmdDYWJBb3M2NklEYlVQT2J6cFE?oc=5",
+      "isNew": false
+    },
     {
       "title": "CIMA \u2013 Updated Rule on Reinsurance Arrangements",
       "date": "2026-02-25",
