@@ -1,5 +1,5 @@
 {
-  "updated": "2026-06-22T16:53:11Z",
+  "updated": "2026-06-22T18:57:06Z",
   "naic": [
     {
       "id": "108cd074c4e9",
@@ -29,6 +29,16 @@
       "summary": "",
       "source": "Insurance Business",
       "link": "https://news.google.com/rss/articles/CBMi4wFBVV95cUxQUGZvVkhzQXAwR3ZRVkU1QW1TSC1GcjhrS0FTdTJyTFMxUGp2R1pxNDJwdHV4LXUyTDQzVzZlX1l6dVJBSkhTQlBQM2NaQ2EzM0FHOTNpOUJydlJkblB5WDhiWF80RWxYR1hWb09kdERHNUFPN2p2Z1l4V0FaTVpXclI0YUZwLTBPNExYMi1pSzR0bTR2R0pLaUtDYTBVU1hIaVFpZjB6bWZyR0c5aUJzNFhwRm12c3JJUDBpXzRSWXUyM0czM3BpbXJ5ckVfd05DckhFT2lERkptZmUwSWg0WHlyNA?oc=5",
+      "isNew": true
+    },
+    {
+      "id": "dfba21cc81c4",
+      "title": "Insurance AI Under Fire for Alleged Racial Bias | Insurify",
+      "date": "2026-06-12",
+      "cat": "Governance",
+      "summary": "",
+      "source": "The MSU Exponent",
+      "link": "https://news.google.com/rss/articles/CBMi4gFBVV95cUxOLTdTdlJrMXhaYXEyWTM2TkN3ZUhrNzFIUWR3YnU4c0c3REhWbmxuYlpfUDhIZEViZ3FFekhqN0hTTFBtU2FZR191WlJjTTRiN05VbDJsS2txLXprSXM5NlVmekxWNXUtd0pVQnhnVG5yaHAwQkNpeVFuSEJKZmRGSmdIVDJiMXlBT2FPOFM1VjkyZ3JSMXlFTzBKaEJqaE9VX3ZaTFF0NmRYV1l4UU5DMXRKaWh3TlBuZjRlMXdrWDJBWmlpQTlENDdUWEJJZHhQN25HQ1NlSmZlbkdyS1paRkpR?oc=5",
       "isNew": true
     },
     {
@@ -240,16 +250,6 @@
       "source": "E&E News by POLITICO",
       "link": "https://news.google.com/rss/articles/CBMipwFBVV95cUxQNmVNQjQ2R0lxU3hmdnozNHpIeHVyVVZUcVBSM0duVGJydXYwcHlxT0pqMXI5d2tzekRVMmtmUkxLREkyYUprdFVHRkpxLVNEWjFYYzdJQnRLT1Y4Y1phZUVsem15OW81enBrTFh3ZGIyYVFmN0hMRlZ3eDRBT0FIOHJZSEhKbWViMTRSMTRwVFJ4NGU3Z3JneUx2eVR3WTlOSjlGeEpxdw?oc=5",
       "isNew": false
-    },
-    {
-      "id": "9ad624b81ce5",
-      "title": "DC Council imposes capital, liquidity mandates on insurance holding companies",
-      "date": "2026-04-28",
-      "cat": "Capital/Solvency",
-      "summary": "",
-      "source": "Insurance Business",
-      "link": "https://news.google.com/rss/articles/CBMi7AFBVV95cUxPUVIyVW1ESE1XSTd2VjVuWkdBcHlzcGVUVVFySEo4UndCNlRrUno0LXhLcDJ2LUUwUXl6NHc4bm5JWW1ieEZkY0dtVXZyRElzNjVUMkVhOGFfV0dNcFJRM0hVbEkxdFMzcWh5a1JHM2EyYmVjWlZSeWlCay1pVWdzaE9VTXBmQnhGWUlXSE83VEliRENMcU14c1d5NVk0Y0lCaFhZd29mNXVxSkpqeFgxWjNwTm5mOV9XMG1hSHo2Y19xQWc2SEhTRWdaZHhjUUNmSWkyMHQxQjMzZ0VXbVV0UEJXTnJaWFJCNU5KMg?oc=5",
-      "isNew": false
     }
   ],
   "bma": [
@@ -321,6 +321,16 @@
       "summary": "",
       "source": "Cayman Finance",
       "link": "https://news.google.com/rss/articles/CBMiwAFBVV95cUxNUDVEaDZOamVPSVhzODViU083Vk5zNkRpd0tTWFAxNHJJZHpJSXRvbU5fRm04ZTJfRHYyMXlQWHpOLUhHS0llcTZFWl92Y3FmWW1XTjM0c3pXTDBPc1RjM0VCNV9IMUk3ZkNuYm9UamcyV3BzaEVMdm82VmFLcUw0Q3ZUVVJpUE5ubjJLdWJNbHl5Wkg4aGEzSjZRSWs0VV9wM2NYU0cwU3Vnc0huUkhYSmxTNGhTMjFhTWFSNFlzenk?oc=5",
+      "isNew": true
+    },
+    {
+      "id": "00f51bacdc49",
+      "title": "Bermuda, the small island nation with huge crypto ambitions",
+      "date": "2026-05-26",
+      "cat": "General",
+      "summary": "",
+      "source": "CoinDesk",
+      "link": "https://news.google.com/rss/articles/CBMipgFBVV95cUxNdnpLNXBtQkgwMHRuZ1luLU1rbHlJZWRYSlNWdEpvYW1yTktOLWhTNW1RVXFFOFhwM2dWUXhZUUJ5QzY4NlpMZFJyOTRUQ1YtdWpfVUtmOVczd20zQktXV3pYYW9XRG4zS3RDWVREQXV1NFJSMWtGd1RUSVd6OUhKWkV0S283aFpxVndRMUd6NFFCOE14OXVjYnpEcFFFVFlfU0lHUXNB?oc=5",
       "isNew": true
     },
     {
@@ -491,15 +501,6 @@
       "summary": "",
       "source": "JD Supra",
       "link": "https://news.google.com/rss/articles/CBMihgFBVV95cUxNZzUxVmJjLUFlUTlXSDNnVFhVaXhsTkE1TUJTaE9WSktqOGhrNS1TYmRGcnMzUmx5aXJzdzlfel9Wc1hOZUZWZjZ3QVJ0RFdhVHpVdnRfSW9CRVpQaHhLR3Q3bjdXWWVCTXR6NGhSa0VsaGQ1Q0RkV1hDcEZHWGRYT0R0WlByUQ?oc=5",
-      "isNew": false
-    },
-    {
-      "title": "Notice \u2013 Pre-Approval for New Insurance Registrations",
-      "date": "2026-03-19",
-      "cat": "Licensing",
-      "summary": "Updated Class D/E pre-approval requirements for new registrations.",
-      "link": "https://www.bma.bm/",
-      "id": "f6fded9a5612",
       "isNew": false
     }
   ],
