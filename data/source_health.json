@@ -1,9 +1,9 @@
 {
-  "updated": "2026-06-22T12:29:57.324759Z",
+  "updated": "2026-06-22T16:11:17.975970Z",
   "summary": {
     "active": 8,
     "fallback": 1,
-    "stagnant": 9
+    "stagnant": 13
   },
   "sources": [
     {
@@ -23,6 +23,24 @@
       "fallback": null,
       "note": "latest quarter 2026-03-31; expected 2026-03-31",
       "status": "active"
+    },
+    {
+      "source": "BMA updates",
+      "feeds": "BMA regulatory publications",
+      "last_attempt": "2026-06-22T16:11:17.941439Z",
+      "last_success": null,
+      "fallback": "static_default",
+      "note": "3 items",
+      "status": "stagnant"
+    },
+    {
+      "source": "Cayman updates",
+      "feeds": "Cayman regulatory publications",
+      "last_attempt": "2026-06-22T16:11:17.975533Z",
+      "last_success": null,
+      "fallback": "static_default",
+      "note": "2 items",
+      "status": "stagnant"
     },
     {
       "source": "ECB SDW",
@@ -61,6 +79,15 @@
       "status": "fallback"
     },
     {
+      "source": "Google News (market)",
+      "feeds": "market & insurance news feed",
+      "last_attempt": "2026-06-22T16:11:17.870762Z",
+      "last_success": null,
+      "fallback": "static_default",
+      "note": "0/4 topic feeds returned data",
+      "status": "stagnant"
+    },
+    {
       "source": "Investing.com",
       "feeds": "yield scrapes; FX spots",
       "last_attempt": "2026-06-22T12:29:24.286398Z",
@@ -85,6 +112,15 @@
       "last_success": null,
       "fallback": "cache",
       "note": null,
+      "status": "stagnant"
+    },
+    {
+      "source": "NAIC updates",
+      "feeds": "NAIC regulatory publications",
+      "last_attempt": "2026-06-22T16:11:17.904650Z",
+      "last_success": null,
+      "fallback": "static_default",
+      "note": "2 items",
       "status": "stagnant"
     },
     {
