@@ -53,6 +53,10 @@ jobs:
         env:
           FRED_API_KEY: ${{ secrets.FRED_API_KEY }}
 
+      - name: Fetch news & regulatory updates
+        run: python scripts/fetch_news.py
+        continue-on-error: true
+
       - name: Commit data if changed
         run: |
           git config user.name "github-actions[bot]"

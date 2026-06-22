@@ -1,0 +1,72 @@
+{
+  "updated": "2026-06-22T16:11:17Z",
+  "naic": [
+    {
+      "title": "NAIC adopts enhanced reporting for insurer private credit",
+      "date": "2026-03-19",
+      "cat": "Reporting",
+      "summary": "Expanded Schedule disclosures for illiquid and affiliated investments.",
+      "link": "https://content.naic.org/",
+      "id": "f77c8111b7dc",
+      "isNew": false
+    },
+    {
+      "title": "NAIC Macroprudential Working Group exposure on asset risk",
+      "date": "2026-02-12",
+      "cat": "Investment",
+      "summary": "Exposure draft on concentration and structured-asset risk for life insurers.",
+      "link": "https://content.naic.org/",
+      "id": "86587f5987ea",
+      "isNew": false
+    }
+  ],
+  "bma": [
+    {
+      "title": "Notice \u2013 Pre-Approval for New Insurance Registrations",
+      "date": "2026-03-19",
+      "cat": "Licensing",
+      "summary": "Updated Class D/E pre-approval requirements for new registrations.",
+      "link": "https://www.bma.bm/",
+      "id": "f6fded9a5612",
+      "isNew": false
+    },
+    {
+      "title": "Notice \u2013 2025 Year-End BSCR Model Republication",
+      "date": "2026-02-18",
+      "cat": "Capital/Solvency",
+      "summary": "BSCR model republished with validation updates.",
+      "link": "https://www.bma.bm/",
+      "id": "85125117cb53",
+      "isNew": false
+    },
+    {
+      "title": "Discussion Paper \u2013 AI Governance Framework",
+      "date": "2026-02-09",
+      "cat": "Governance",
+      "summary": "Proposed framework for the governance of AI in regulated entities.",
+      "link": "https://www.bma.bm/",
+      "id": "4703e5d5fa1a",
+      "isNew": false
+    }
+  ],
+  "cayman": [
+    {
+      "title": "CIMA \u2013 Updated Rule on Reinsurance Arrangements",
+      "date": "2026-02-25",
+      "cat": "Capital/Solvency",
+      "summary": "Revised expectations for collateral and risk transfer in reinsurance.",
+      "link": "https://www.cima.ky/",
+      "id": "8cd85f826449",
+      "isNew": false
+    },
+    {
+      "title": "CIMA \u2013 Statement of Guidance on Investment Activities",
+      "date": "2026-01-20",
+      "cat": "Investment",
+      "summary": "Guidance on prudent investment management for licensed insurers.",
+      "link": "https://www.cima.ky/",
+      "id": "bd11f6b6cad0",
+      "isNew": false
+    }
+  ]
+}

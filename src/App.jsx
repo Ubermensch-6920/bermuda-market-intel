@@ -1006,7 +1006,8 @@ const SofrSection = ({ data, loading: ld, error }) => {
 };
 
 // ═══════════════════════════════════════════
-// NEWS & BMA UPDATES (curated)
+// NEWS & REGULATORY UPDATES (live via scripts/fetch_news.py → data/*.json,
+// with curated fallbacks below so the UI is never empty before the first run)
 // ═══════════════════════════════════════════
 const NEWS = [
   { id: 1, title: "UK gilt 10Y hits 5% for first time since 2008", source: "CNBC", date: "2026-03-20T09:30:00Z", topic: "Rates & Macro", summary: "Energy surge + hawkish BOE." },
@@ -1016,19 +1017,89 @@ const NEWS = [
   { id: 5, title: "Global reinsurer completes $1.5B structured credit deal", source: "Ins. Insider", date: "2026-03-19T16:45:00Z", topic: "Structured Credit", summary: "CLO/ABS to Class E insurer." },
   { id: 6, title: "NAIC proposes enhanced private credit reporting", source: "AM Best", date: "2026-03-19T14:20:00Z", topic: "Insurance AM", summary: "More transparency on illiquid assets." },
 ];
-const BMA_UPDATES = [
-  { id: 1, title: "Notice – Pre-Approval for New Insurance Registrations", date: "2026-03-19", cat: "Licensing", summary: "Updated Class D/E requirements.", isNew: true },
-  { id: 2, title: "Notice – Regulatory Burden Reduction", date: "2026-02-19", cat: "Governance", summary: "Streamlined reporting.", isNew: true },
-  { id: 3, title: "Notice – 2025 Year-End BSCR Model Republication", date: "2026-02-18", cat: "Capital/Solvency", summary: "Republished BSCR with validation.", isNew: true },
-  { id: 4, title: "DP – AI Governance Framework", date: "2026-02-09", cat: "Governance", summary: "Final proposal Q3 2026.", isNew: true },
-  { id: 5, title: "CP – Prudent Person Principle", date: "2025-12-15", cat: "Investment", summary: "PPP guidance for NPTA.", isNew: false },
-  { id: 6, title: "Class C,D,E Solvency Amendment Rules 2025", date: "2025-12-01", cat: "Capital/Solvency", summary: "New A&L disclosure.", isNew: false },
+// Per-regulator curated fallbacks (mirror scripts/fetch_news.py SEED_REG).
+const REG_FALLBACK = {
+  naic: [
+    { id: "naic1", title: "NAIC adopts enhanced reporting for insurer private credit", date: "2026-03-19", cat: "Reporting", summary: "Expanded Schedule disclosures for illiquid and affiliated investments.", link: "https://content.naic.org/", isNew: true },
+    { id: "naic2", title: "NAIC Macroprudential Working Group exposure on asset risk", date: "2026-02-12", cat: "Investment", summary: "Exposure draft on concentration and structured-asset risk for life insurers.", link: "https://content.naic.org/", isNew: false },
+  ],
+  bma: [
+    { id: "bma1", title: "Notice – Pre-Approval for New Insurance Registrations", date: "2026-03-19", cat: "Licensing", summary: "Updated Class D/E requirements.", link: "https://www.bma.bm/", isNew: true },
+    { id: "bma2", title: "Notice – 2025 Year-End BSCR Model Republication", date: "2026-02-18", cat: "Capital/Solvency", summary: "Republished BSCR with validation.", link: "https://www.bma.bm/", isNew: true },
+    { id: "bma3", title: "DP – AI Governance Framework", date: "2026-02-09", cat: "Governance", summary: "Final proposal Q3 2026.", link: "https://www.bma.bm/", isNew: true },
+  ],
+  cayman: [
+    { id: "cay1", title: "CIMA – Updated Rule on Reinsurance Arrangements", date: "2026-02-25", cat: "Capital/Solvency", summary: "Revised expectations for collateral and risk transfer in reinsurance.", link: "https://www.cima.ky/", isNew: true },
+    { id: "cay2", title: "CIMA – Statement of Guidance on Investment Activities", date: "2026-01-20", cat: "Investment", summary: "Guidance on prudent investment management for licensed insurers.", link: "https://www.cima.ky/", isNew: false },
+  ],
+};
+const REG_TABS = [
+  { key: "naic", label: "NAIC", color: "#60a5fa" },
+  { key: "bma", label: "BMA", color: "#4ade80" },
+  { key: "cayman", label: "Cayman", color: "#f472b6" },
 ];
 const TC = { "Private Credit": "#8b5cf6", "Rates & Macro": "#4ade80", "Structured Credit": "#fbbf24", "Insurance AM": "#f472b6" };
-const CC = { "Capital/Solvency": "#f87171", Investment: "#fbbf24", Governance: "#a78bfa", Licensing: "#4ade80" };
+const CC = { "Capital/Solvency": "#f87171", Investment: "#fbbf24", Governance: "#a78bfa", Licensing: "#4ade80", Reporting: "#38bdf8", General: "#94a3b8" };
 
-const NewsSection = () => { const topics = [...new Set(NEWS.map(n => n.topic))]; const [sel, setSel] = useState("All"); const filtered = sel === "All" ? NEWS : NEWS.filter(n => n.topic === sel); return (<div style={{ background: "#0d0f14", border: "1px solid #1e2028", borderRadius: 10, overflow: "hidden" }}><div style={{ padding: "16px 22px", borderBottom: "1px solid #1e2028" }}><h3 style={{ margin: "0 0 10px", fontSize: 17, fontWeight: 700, color: "#f1f5f9" }}><Newspaper size={18} style={{ verticalAlign: "middle", marginRight: 8 }} /> News</h3><div style={{ fontSize: 12, color: "#fbbf24", marginBottom: 10 }}><AlertTriangle size={13} style={{ verticalAlign: "middle", marginRight: 4 }} />Curated — live RSS via GitHub Actions (Phase 2).</div><div style={{ display: "flex", gap: 6, flexWrap: "wrap" }}>{["All", ...topics].map(t => <button key={t} onClick={() => setSel(t)} style={{ background: sel === t ? (TC[t] || "#3b82f6") : "transparent", border: `1px solid ${sel === t ? (TC[t] || "#3b82f6") : "#334155"}`, borderRadius: 20, padding: "5px 16px", fontSize: 12, color: sel === t ? "#fff" : "#94a3b8", cursor: "pointer", fontWeight: 600 }}>{t}</button>)}</div></div><div style={{ maxHeight: 500, overflowY: "auto" }}>{filtered.map(item => (<div key={item.id} style={{ padding: "14px 22px", borderBottom: "1px solid #151820" }} onMouseEnter={e => e.currentTarget.style.background = "#12141a"} onMouseLeave={e => e.currentTarget.style.background = "transparent"}><div style={{ display: "flex", gap: 8, alignItems: "center", marginBottom: 5 }}><Badge color={TC[item.topic] || "#60a5fa"}>{item.topic}</Badge><span style={{ fontSize: 12, color: "#64748b" }}>{item.source} • {timeAgo(item.date)}</span></div><h4 style={{ margin: "0 0 4px", fontSize: 14, fontWeight: 600, color: "#f1f5f9", lineHeight: 1.4 }}>{item.title}</h4><p style={{ margin: 0, fontSize: 13, color: "#94a3b8", lineHeight: 1.5 }}>{item.summary}</p></div>))}</div></div>); };
-const BMAUpdSection = () => { const cats = [...new Set(BMA_UPDATES.map(u => u.cat))]; const [cf, setCf] = useState("All"); const filtered = cf === "All" ? BMA_UPDATES : BMA_UPDATES.filter(u => u.cat === cf); return (<div style={{ background: "#0d0f14", border: "1px solid #1e2028", borderRadius: 10, overflow: "hidden" }}><div style={{ padding: "16px 22px", borderBottom: "1px solid #1e2028" }}><h3 style={{ margin: "0 0 10px", fontSize: 17, fontWeight: 700, color: "#f1f5f9" }}><Shield size={18} style={{ verticalAlign: "middle", marginRight: 8 }} /> BMA Regulatory Updates</h3><div style={{ display: "flex", gap: 6, flexWrap: "wrap" }}>{["All", ...cats].map(c => <button key={c} onClick={() => setCf(c)} style={{ background: cf === c ? (CC[c] || "#3b82f6") : "transparent", border: `1px solid ${cf === c ? (CC[c] || "#3b82f6") : "#334155"}`, borderRadius: 20, padding: "5px 16px", fontSize: 12, color: cf === c ? "#fff" : "#94a3b8", cursor: "pointer", fontWeight: 500 }}>{c}</button>)}</div></div><div>{filtered.map(item => (<div key={item.id} style={{ padding: "14px 22px", borderBottom: "1px solid #151820" }} onMouseEnter={e => e.currentTarget.style.background = "#12141a"} onMouseLeave={e => e.currentTarget.style.background = "transparent"}><div style={{ display: "flex", gap: 8, alignItems: "center", marginBottom: 5 }}><Badge color={CC[item.cat] || "#60a5fa"}>{item.cat}</Badge>{item.isNew && <Badge color="#4ade80">NEW</Badge>}<span style={{ fontSize: 12, color: "#64748b" }}>{item.date}</span></div><h4 style={{ margin: "0 0 4px", fontSize: 14, fontWeight: 600, color: "#f1f5f9", lineHeight: 1.4 }}>{item.title}</h4><p style={{ margin: 0, fontSize: 13, color: "#94a3b8", lineHeight: 1.5 }}>{item.summary}</p></div>))}</div></div>); };
+// Live news items if loaded, else curated fallback.
+const newsItems = data => (data?.items?.length ? data.items : NEWS);
+const regItems = (data, key) => (data?.[key]?.length ? data[key] : (REG_FALLBACK[key] || []));
+
+// Title that links to the publication/presentation when a URL is present.
+const ItemTitle = ({ title, link }) => link
+  ? <a href={link} target="_blank" rel="noopener noreferrer" style={{ color: "#f1f5f9", textDecoration: "none", display: "inline-flex", alignItems: "baseline", gap: 5 }} onMouseEnter={e => e.currentTarget.style.color = "#60a5fa"} onMouseLeave={e => e.currentTarget.style.color = "#f1f5f9"}>{title}<ExternalLink size={12} style={{ flexShrink: 0, opacity: 0.7 }} /></a>
+  : <span style={{ color: "#f1f5f9" }}>{title}</span>;
+
+const NewsSection = ({ data, loading, error }) => {
+  const items = newsItems(data);
+  const topics = [...new Set(items.map(n => n.topic).filter(Boolean))];
+  const [sel, setSel] = useState("All");
+  const filtered = sel === "All" ? items : items.filter(n => n.topic === sel);
+  const live = !!data?.items?.length;
+  return (<div style={{ background: "#0d0f14", border: "1px solid #1e2028", borderRadius: 10, overflow: "hidden" }}>
+    <div style={{ padding: "16px 22px", borderBottom: "1px solid #1e2028" }}>
+      <h3 style={{ margin: "0 0 10px", fontSize: 17, fontWeight: 700, color: "#f1f5f9" }}><Newspaper size={18} style={{ verticalAlign: "middle", marginRight: 8 }} /> News</h3>
+      <div style={{ fontSize: 12, color: live ? "#4ade80" : "#fbbf24", marginBottom: 10 }}>{loading ? <><Loader size={13} style={{ verticalAlign: "middle", marginRight: 4, animation: "spin 1s linear infinite" }} />Refreshing…</> : live ? <>Live feed{data?.updated ? ` — updated ${timeAgo(data.updated)}` : ""}. Refresh to update.</> : <><AlertTriangle size={13} style={{ verticalAlign: "middle", marginRight: 4 }} />Showing curated fallback — run the data pipeline for live items.</>}</div>
+      <div style={{ display: "flex", gap: 6, flexWrap: "wrap" }}>{["All", ...topics].map(t => <button key={t} onClick={() => setSel(t)} style={{ background: sel === t ? (TC[t] || "#3b82f6") : "transparent", border: `1px solid ${sel === t ? (TC[t] || "#3b82f6") : "#334155"}`, borderRadius: 20, padding: "5px 16px", fontSize: 12, color: sel === t ? "#fff" : "#94a3b8", cursor: "pointer", fontWeight: 600 }}>{t}</button>)}</div>
+    </div>
+    <div style={{ maxHeight: 560, overflowY: "auto" }}>
+      {error && !live && <div style={{ padding: "10px 22px", fontSize: 12, color: "#f87171" }}><AlertTriangle size={13} style={{ verticalAlign: "middle", marginRight: 4 }} />{error}</div>}
+      {filtered.map(item => (<div key={item.id} style={{ padding: "14px 22px", borderBottom: "1px solid #151820" }} onMouseEnter={e => e.currentTarget.style.background = "#12141a"} onMouseLeave={e => e.currentTarget.style.background = "transparent"}>
+        <div style={{ display: "flex", gap: 8, alignItems: "center", marginBottom: 5 }}><Badge color={TC[item.topic] || "#60a5fa"}>{item.topic}</Badge><span style={{ fontSize: 12, color: "#64748b" }}>{[item.source, item.date ? timeAgo(item.date) : null].filter(Boolean).join(" • ")}</span></div>
+        <h4 style={{ margin: "0 0 4px", fontSize: 14, fontWeight: 600, lineHeight: 1.4 }}><ItemTitle title={item.title} link={item.link} /></h4>
+        {item.summary && <p style={{ margin: 0, fontSize: 13, color: "#94a3b8", lineHeight: 1.5 }}>{item.summary}</p>}
+      </div>))}
+    </div>
+  </div>);
+};
+
+const RegulatorySection = ({ data, loading, error }) => {
+  const [tab, setTab] = useState("naic");
+  const [cf, setCf] = useState("All");
+  const items = regItems(data, tab);
+  const cats = [...new Set(items.map(u => u.cat).filter(Boolean))];
+  const filtered = cf === "All" ? items : items.filter(u => u.cat === cf);
+  const live = !!data?.[tab]?.length;
+  const setTabReset = k => { setTab(k); setCf("All"); };
+  return (<div style={{ background: "#0d0f14", border: "1px solid #1e2028", borderRadius: 10, overflow: "hidden" }}>
+    <div style={{ padding: "16px 22px", borderBottom: "1px solid #1e2028" }}>
+      <h3 style={{ margin: "0 0 12px", fontSize: 17, fontWeight: 700, color: "#f1f5f9" }}><Shield size={18} style={{ verticalAlign: "middle", marginRight: 8 }} /> Regulatory Updates</h3>
+      {/* Regulator tabs: NAIC / BMA / Cayman */}
+      <div style={{ display: "flex", gap: 8, marginBottom: 12 }}>{REG_TABS.map(t => <button key={t.key} onClick={() => setTabReset(t.key)} style={{ padding: "7px 20px", borderRadius: 8, border: `1px solid ${tab === t.key ? t.color : "#334155"}`, background: tab === t.key ? t.color + "22" : "transparent", color: tab === t.key ? t.color : "#94a3b8", fontWeight: tab === t.key ? 700 : 500, fontSize: 13, cursor: "pointer" }}>{t.label}</button>)}</div>
+      <div style={{ fontSize: 12, color: live ? "#4ade80" : "#fbbf24", marginBottom: 10 }}>{loading ? <><Loader size={13} style={{ verticalAlign: "middle", marginRight: 4, animation: "spin 1s linear infinite" }} />Refreshing…</> : live ? <>Live feed{data?.updated ? ` — updated ${timeAgo(data.updated)}` : ""}.</> : <><AlertTriangle size={13} style={{ verticalAlign: "middle", marginRight: 4 }} />Showing curated fallback — run the data pipeline for live items.</>}</div>
+      <div style={{ display: "flex", gap: 6, flexWrap: "wrap" }}>{["All", ...cats].map(c => <button key={c} onClick={() => setCf(c)} style={{ background: cf === c ? (CC[c] || "#3b82f6") : "transparent", border: `1px solid ${cf === c ? (CC[c] || "#3b82f6") : "#334155"}`, borderRadius: 20, padding: "5px 16px", fontSize: 12, color: cf === c ? "#fff" : "#94a3b8", cursor: "pointer", fontWeight: 500 }}>{c}</button>)}</div>
+    </div>
+    <div style={{ maxHeight: 560, overflowY: "auto" }}>
+      {error && !live && <div style={{ padding: "10px 22px", fontSize: 12, color: "#f87171" }}><AlertTriangle size={13} style={{ verticalAlign: "middle", marginRight: 4 }} />{error}</div>}
+      {filtered.length === 0 && <div style={{ padding: "20px 22px", fontSize: 13, color: "#64748b" }}>No items.</div>}
+      {filtered.map(item => (<div key={item.id} style={{ padding: "14px 22px", borderBottom: "1px solid #151820" }} onMouseEnter={e => e.currentTarget.style.background = "#12141a"} onMouseLeave={e => e.currentTarget.style.background = "transparent"}>
+        <div style={{ display: "flex", gap: 8, alignItems: "center", marginBottom: 5 }}><Badge color={CC[item.cat] || "#60a5fa"}>{item.cat}</Badge>{item.isNew && <Badge color="#4ade80">NEW</Badge>}<span style={{ fontSize: 12, color: "#64748b" }}>{[item.source, item.date].filter(Boolean).join(" • ")}</span></div>
+        <h4 style={{ margin: "0 0 4px", fontSize: 14, fontWeight: 600, lineHeight: 1.4 }}><ItemTitle title={item.title} link={item.link} /></h4>
+        {item.summary && <p style={{ margin: 0, fontSize: 13, color: "#94a3b8", lineHeight: 1.5 }}>{item.summary}</p>}
+      </div>))}
+    </div>
+  </div>);
+};
 
 // ═══════════════════════════════════════════
 // COMMODITIES SECTION
@@ -1263,9 +1334,9 @@ const PAGES = [
   { id: "sofr", label: "SOFR", icon: TrendingUp },
   { id: "credit", label: "Credit Spreads", icon: Percent },
   { id: "cds", label: "CDS Spreads", icon: BarChart3 },
-  { id: "news", label: "News", icon: Newspaper }, { id: "bma", label: "BMA Updates", icon: Shield },
+  { id: "news", label: "News", icon: Newspaper }, { id: "bma", label: "Regulatory", icon: Shield },
 ];
-const FILES = { ust: "ust.json", jgb: "jgb.json", gilt: "gilt.json", eiopa: "eur.json", india: "india.json", credit: "credit.json", cds: "cds.json", sofr: "sofr.json", bma_rates: "bma_rates.json", commodities: "commodities.json", debt_maturity: "debt_maturity.json" };
+const FILES = { ust: "ust.json", jgb: "jgb.json", gilt: "gilt.json", eiopa: "eur.json", india: "india.json", credit: "credit.json", cds: "cds.json", sofr: "sofr.json", bma_rates: "bma_rates.json", commodities: "commodities.json", debt_maturity: "debt_maturity.json", news: "news.json", regulatory: "regulatory.json" };
 
 // ── Source health (data/source_health.json written by the pipeline) ──
 const HEALTH_COLORS = { active: "#4ade80", fallback: "#fbbf24", stagnant: "#f87171" };
@@ -1363,7 +1434,8 @@ export default function App() {
       case "sofr": return <SofrSection data={data.sofr} loading={ls.sofr} error={errs.sofr} />;
       case "credit": return <CreditSection data={data.credit} loading={ls.credit} error={errs.credit} />;
       case "cds": return <CDSSection data={data.cds} loading={ls.cds} error={errs.cds} />;
-      case "news": return <NewsSection />; case "bma": return <BMAUpdSection />;
+      case "news": return <NewsSection data={data.news} loading={ls.news} error={errs.news} />;
+      case "bma": return <RegulatorySection data={data.regulatory} loading={ls.regulatory} error={errs.regulatory} />;
       default: return (<div style={{ display: "flex", flexDirection: "column", gap: 20 }}>
         {noData && <div style={{ background: "#1a1206", border: "1px solid #854d0e", borderRadius: 10, padding: "18px 22px" }}>
           <div style={{ color: "#fbbf24", fontWeight: 700, fontSize: 15, marginBottom: 6 }}>No data files found</div>
@@ -1424,11 +1496,11 @@ export default function App() {
         <div style={{ display: "grid", gridTemplateColumns: "1fr 1fr", gap: 14 }}>
           <div style={{ background: "#0d0f14", border: "1px solid #1e2028", borderRadius: 10, overflow: "hidden" }}>
             <div style={{ padding: "14px 22px", borderBottom: "1px solid #1e2028", display: "flex", justifyContent: "space-between", alignItems: "center" }}><h3 style={{ margin: 0, fontSize: 14, fontWeight: 700, color: "#f1f5f9" }}><Newspaper size={15} style={{ verticalAlign: "middle", marginRight: 6 }} /> News</h3><button onClick={() => setPage("news")} style={{ background: "transparent", border: "none", color: "#60a5fa", fontSize: 12, cursor: "pointer", fontWeight: 600 }}>All <ChevronRight size={13} style={{ verticalAlign: "middle" }} /></button></div>
-            {NEWS.slice(0, 4).map(item => <div key={item.id} style={{ padding: "10px 22px", borderBottom: "1px solid #151820" }}><div style={{ display: "flex", gap: 6, alignItems: "center", marginBottom: 3 }}><Badge>{item.topic}</Badge><span style={{ fontSize: 11, color: "#64748b" }}>{timeAgo(item.date)}</span></div><div style={{ fontSize: 13, fontWeight: 600, color: "#f1f5f9", lineHeight: 1.4 }}>{item.title}</div></div>)}
+            {newsItems(data.news).slice(0, 4).map(item => <div key={item.id} style={{ padding: "10px 22px", borderBottom: "1px solid #151820" }}><div style={{ display: "flex", gap: 6, alignItems: "center", marginBottom: 3 }}><Badge color={TC[item.topic] || "#60a5fa"}>{item.topic}</Badge><span style={{ fontSize: 11, color: "#64748b" }}>{[item.source, item.date ? timeAgo(item.date) : null].filter(Boolean).join(" • ")}</span></div><div style={{ fontSize: 13, fontWeight: 600, color: "#f1f5f9", lineHeight: 1.4 }}><ItemTitle title={item.title} link={item.link} /></div></div>)}
           </div>
           <div style={{ background: "#0d0f14", border: "1px solid #1e2028", borderRadius: 10, overflow: "hidden" }}>
-            <div style={{ padding: "14px 22px", borderBottom: "1px solid #1e2028", display: "flex", justifyContent: "space-between", alignItems: "center" }}><h3 style={{ margin: 0, fontSize: 14, fontWeight: 700, color: "#f1f5f9" }}><Shield size={15} style={{ verticalAlign: "middle", marginRight: 6 }} /> BMA</h3><button onClick={() => setPage("bma")} style={{ background: "transparent", border: "none", color: "#60a5fa", fontSize: 12, cursor: "pointer", fontWeight: 600 }}>All <ChevronRight size={13} style={{ verticalAlign: "middle" }} /></button></div>
-            {BMA_UPDATES.filter(u => u.isNew).slice(0, 4).map(item => <div key={item.id} style={{ padding: "10px 22px", borderBottom: "1px solid #151820" }}><div style={{ display: "flex", gap: 6, alignItems: "center", marginBottom: 3 }}><Badge color="#4ade80">NEW</Badge><Badge>{item.cat}</Badge><span style={{ fontSize: 11, color: "#64748b" }}>{item.date}</span></div><div style={{ fontSize: 13, fontWeight: 600, color: "#f1f5f9", lineHeight: 1.4 }}>{item.title}</div></div>)}
+            <div style={{ padding: "14px 22px", borderBottom: "1px solid #1e2028", display: "flex", justifyContent: "space-between", alignItems: "center" }}><h3 style={{ margin: 0, fontSize: 14, fontWeight: 700, color: "#f1f5f9" }}><Shield size={15} style={{ verticalAlign: "middle", marginRight: 6 }} /> Regulatory</h3><button onClick={() => setPage("bma")} style={{ background: "transparent", border: "none", color: "#60a5fa", fontSize: 12, cursor: "pointer", fontWeight: 600 }}>All <ChevronRight size={13} style={{ verticalAlign: "middle" }} /></button></div>
+            {REG_TABS.flatMap(t => regItems(data.regulatory, t.key).map(it => ({ ...it, reg: t.label, regColor: t.color }))).sort((a, b) => (b.date || "").localeCompare(a.date || "")).slice(0, 4).map(item => <div key={item.reg + item.id} style={{ padding: "10px 22px", borderBottom: "1px solid #151820" }}><div style={{ display: "flex", gap: 6, alignItems: "center", marginBottom: 3 }}><Badge color={item.regColor}>{item.reg}</Badge>{item.isNew && <Badge color="#4ade80">NEW</Badge>}<span style={{ fontSize: 11, color: "#64748b" }}>{item.date}</span></div><div style={{ fontSize: 13, fontWeight: 600, color: "#f1f5f9", lineHeight: 1.4 }}><ItemTitle title={item.title} link={item.link} /></div></div>)}
           </div>
         </div>
       </div>);
@@ -1465,7 +1537,7 @@ export default function App() {
       <div style={{ flex: 1, overflow: "auto", padding: 20 }}>{renderPage()}</div>
       <div style={{ height: 28, padding: "0 22px", borderTop: "1px solid #1a1d23", background: "#0a0c12", display: "flex", alignItems: "center", justifyContent: "space-between", fontSize: 11, color: "#475569", flexShrink: 0 }}>
         <div style={{ display: "flex", gap: 16 }}>{ust10y != null && <span>UST 10Y: {fmtY(ust10y)}</span>}{jgb10y != null && <span>JGB 10Y: {fmtY(jgb10y)}</span>}{gilt10y != null && <span>Gilt 10Y: {fmtY(gilt10y)}</span>}{india10y != null && <span>India 10Y: {fmtY(india10y)}</span>}{sofrRate != null && <span>SOFR: {sofrRate.toFixed(2)}%</span>}{igS != null && <span>IG: {igS}bp</span>}{hyS != null && <span>HY: {hyS}bp</span>}{data.cds?.sovereign?.us_5y?.spread != null && <span>US CDS: {data.cds.sovereign.us_5y.spread}bp</span>}{data.commodities?.usdinr?.spot != null && <span>USD/INR: {data.commodities.usdinr.spot.toFixed(4)}</span>}</div>
-        <span>{PLATFORM_NAME} • {TOOL_NAME} • v9</span>
+        <span>{PLATFORM_NAME} • {TOOL_NAME} • v10</span>
       </div>
     </div>
   </div>);
