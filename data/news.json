@@ -1,5 +1,5 @@
 {
-  "updated": "2026-06-22T18:57:06Z",
+  "updated": "2026-06-22T22:58:50Z",
   "topics": [
     "Insurance AM",
     "Private Credit",
@@ -7,6 +7,16 @@
     "Structured Credit"
   ],
   "items": [
+    {
+      "id": "8ab12cce20d2",
+      "title": "Central Bank Bond Purchases and the Price of Safety",
+      "source": "Federal Reserve Bank of San Francisco",
+      "date": "2026-06-22T17:00:00Z",
+      "topic": "Rates & Macro",
+      "summary": "",
+      "link": "https://news.google.com/rss/articles/CBMiyAFBVV95cUxOeEdSZDdJa29DZHRyNlN0VlM5N2xXN1lWOGxkcGRKZmhsYjJxbXdBZExCZ1dGaGhPT29RTDV1d3dLaUZuaW5xT0ZFMVh3U2VkZDNlbWI5Y195UzRLM2h4eXdoWUhVVVIxbnZFVVQ2VVY3dmFhVllPMGRGem9EWEU3clVIWlhYcEhPMUMtMmVGZ2JleGJpRUM0ajN5bmg3REl3bHZjV1VLUjJVazM0ODBfRGtLWk9qOTJXSER1cy1OWnowaEptNm80Ug?oc=5",
+      "isNew": false
+    },
     {
       "id": "9c485d1e74e5",
       "title": "Insurers Court Bank Balance Sheets As Regulators Push Back on Private Credit",
@@ -48,6 +58,16 @@
       "isNew": false
     },
     {
+      "id": "c58cb60a4c8a",
+      "title": "European insurers eye bigger private debt allocations",
+      "source": "Private Debt Investor",
+      "date": "2026-06-22T08:00:05Z",
+      "topic": "Private Credit",
+      "summary": "",
+      "link": "https://news.google.com/rss/articles/CBMilAFBVV95cUxOX09wRTA1WS1Sb1c3N0hQYUZPbERGbEtvV3VlWmp2WWNSMWJJUmdjdUtsREhnZEUxSTJmTG9OUVBYMWdKZWlQY3k4WjZ6TTZ5Y3pVdmJBQ1lVT0w3eEs5X0JwZE9qRkdvVTRrTkNwMktzUXdubU5EdlJWV0lSbUUyT2ZDdmZIa3dCMTlCMkxocjc2dzRS?oc=5",
+      "isNew": false
+    },
+    {
       "id": "fb4d3938cc32",
       "title": "Should the European Central Bank slow down quantitative tightening?",
       "source": "Bruegel",
@@ -55,16 +75,6 @@
       "topic": "Rates & Macro",
       "summary": "",
       "link": "https://news.google.com/rss/articles/CBMimwFBVV95cUxONUFUb2JQQ2JwaFdMVy1IbFljaWRWbnNmUWtRb3JTcjdLNVU4MFNVd1FUWHZ3M2h3QzlEYXhfV0NobTl2dVp5cDdTQ2xsRFM0eGE3blNERDhKZUtFUDR4S2JMbGllZmtBMUhUTlpudVdMTUJTUXQ3NFV1c05OaTBheGJiTU9YTU8tODZKYjI4anNvOUY1VW50VmpNbw?oc=5",
-      "isNew": false
-    },
-    {
-      "id": "c58cb60a4c8a",
-      "title": "European insurers eye bigger private debt allocations",
-      "source": "Private Debt Investor",
-      "date": "2026-06-22T07:15:18Z",
-      "topic": "Private Credit",
-      "summary": "",
-      "link": "https://news.google.com/rss/articles/CBMilAFBVV95cUxOX09wRTA1WS1Sb1c3N0hQYUZPbERGbEtvV3VlWmp2WWNSMWJJUmdjdUtsREhnZEUxSTJmTG9OUVBYMWdKZWlQY3k4WjZ6TTZ5Y3pVdmJBQ1lVT0w3eEs5X0JwZE9qRkdvVTRrTkNwMktzUXdubU5EdlJWV0lSbUUyT2ZDdmZIa3dCMTlCMkxocjc2dzRS?oc=5",
       "isNew": false
     },
     {
@@ -221,7 +231,7 @@
       "id": "35150f02b6bf",
       "title": "Kevin Warsh faces rate hike pressure at first FOMC meeting",
       "source": "qz.com",
-      "date": "2026-06-15T13:25:24Z",
+      "date": "2026-06-15T11:55:54Z",
       "topic": "Rates & Macro",
       "summary": "",
       "link": "https://news.google.com/rss/articles/CBMigwFBVV95cUxPRFprLUVobTN4emtDZ1pwQ05NUjB2R0tfcHpXUXpBNFNVQVZBcWpnLW9ySGtURDZuTC1MSDBpa0dlaVZDa2V5bU9ySzN0NmxjeDRJY1lZUkhEZHRFSUVCM2s2aUdpc1QtdC1fN1RRZkM4dnhMUWk1RHkxeXJaYndyVGFDOA?oc=5",
@@ -295,16 +305,6 @@
       "topic": "Private Credit",
       "summary": "",
       "link": "https://news.google.com/rss/articles/CBMioAFBVV95cUxPejlpdS1LZmFzMnBjVktFWWZqMFVyV3RRdlNqUnJKM3RyMTNfVWttcVpWRnFNUW45ZlZXakR2dmYwcXBCVUNYdXB0LWNfQ0lfRy1zTjVGU0kyVDd1MGIzckFNclBxRDg4V0djWWkxbUFmTkJyZktKQi1QRDBiUm5UQTl4aUNqWlFobERiT3NLM0NrTEtjZ2N0U2wyUkx5TDlG?oc=5",
-      "isNew": false
-    },
-    {
-      "id": "61e8906393c7",
-      "title": "Fidelity Investments\u00ae to Expand Target Date Lineup With Launch of Guaranteed Income Solution",
-      "source": "Fidelity Newsroom",
-      "date": "2026-06-10T07:00:00Z",
-      "topic": "Insurance AM",
-      "summary": "",
-      "link": "https://news.google.com/rss/articles/CBMihgJBVV95cUxQM0xONjVLZ2M3UktBQWc0XzZUQ3pQQnplbFh1TmRKakFfTjVPdTdBTDNZOTZtcnU1X1duMExPeU1iNjRUWl9XOW1hZnRja3NSQ2w1RDU4TmVHVW43Z0pfQUZWVV9QYmFZbG9MTkhwV2g3S2lHaWZsbVJrbnlsdnVfZzRNeU1GU09CTktkWkJJQi1sSmNTVUtvcHNSTDN1WUpoYzdhOUdUYmVWaE1UeXFhZGJDdW41eHRCWldVZjRvNUJ1RnRfdTVtcVFmcWpmaFdKakdJbmd2UTJmNlROeGFuRDFjanZjMnVuSW1GYjdkT3dfekw5VWhkUHdGdHk0aE4xVExON2xn?oc=5",
       "isNew": false
     }
   ]
