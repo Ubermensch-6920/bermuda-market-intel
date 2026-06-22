@@ -55,6 +55,49 @@ body{background:var(--bg);color:var(--text);font-family:'DM Sans',system-ui,sans
 .sect-title{font-size:.65rem;font-weight:700;text-transform:uppercase;letter-spacing:.1em;color:var(--dim);margin-bottom:.6rem}
 .sect-full{grid-column:1/-1}
 
+/* Sub-tabs */
+.subtabs{display:flex;flex-wrap:wrap;gap:.15rem;border-bottom:1px solid var(--border);margin-bottom:1rem}
+.subtab{background:none;border:none;border-bottom:2px solid transparent;color:var(--muted);font-family:inherit;font-size:.72rem;font-weight:600;padding:.5rem .75rem;cursor:pointer;letter-spacing:.02em;margin-bottom:-1px;transition:color .15s}
+.subtab:hover{color:var(--text)}
+.subtab.active{color:var(--text);border-bottom-color:var(--orange)}
+.subpane{display:none}
+.subpane.active{display:block;animation:fadeIn .25s ease}
+
+/* Stat chips */
+.stat-row{display:flex;flex-wrap:wrap;gap:.5rem;margin-bottom:1rem}
+.stat-chip{background:var(--card2);border:1px solid var(--border);border-radius:.4rem;padding:.5rem .7rem;min-width:7.5rem}
+.stat-chip .k{font-size:.58rem;text-transform:uppercase;letter-spacing:.06em;color:var(--dim);margin-bottom:.2rem}
+.stat-chip .v{font-family:'JetBrains Mono',monospace;font-size:.82rem;font-weight:600;color:var(--text)}
+
+/* Key-value blocks */
+.kv{display:flex;gap:.6rem;font-size:.75rem;padding:.32rem 0;border-bottom:1px solid #111827}
+.kv:last-child{border-bottom:none}
+.kv .kvk{flex:0 0 8.5rem;color:var(--dim);font-weight:600}
+.kv .kvv{flex:1;color:var(--muted)}
+
+/* Ordered steps */
+.steps{counter-reset:step;margin:.2rem 0}
+.step{display:flex;gap:.6rem;margin-bottom:.55rem;font-size:.78rem;color:var(--muted);line-height:1.55}
+.step::before{counter-increment:step;content:counter(step);flex-shrink:0;width:1.35rem;height:1.35rem;border-radius:50%;background:var(--card);border:1px solid var(--border2);color:var(--text);font-size:.64rem;font-weight:700;display:flex;align-items:center;justify-content:center;font-family:'JetBrains Mono',monospace}
+
+/* Watch-outs */
+.watch{display:flex;gap:.45rem;margin-bottom:.4rem;font-size:.75rem;color:var(--muted);align-items:flex-start;line-height:1.5}
+.watch .wi{flex-shrink:0;margin-top:.02rem;color:var(--amber)}
+
+/* Case study */
+.case{background:var(--card);border:1px solid var(--border2);border-left:3px solid var(--orange);border-radius:.4rem;padding:.85rem 1rem;margin-top:.8rem}
+.case-h{font-size:.82rem;font-weight:700;color:var(--text);margin-bottom:.35rem}
+.case-o{font-size:.73rem;color:var(--green);margin-top:.45rem;font-weight:500}
+
+/* Source links */
+.src{display:block;font-size:.75rem;color:var(--blue);text-decoration:none;padding:.35rem 0;border-bottom:1px solid #111827}
+.src:hover{text-decoration:underline}
+.src:last-child{border-bottom:none}
+.src .sd{color:var(--dim);font-size:.66rem;word-break:break-all}
+
+/* Empty hint */
+.empty{font-size:.74rem;color:var(--dim);font-style:italic;padding:.4rem 0}
+
 /* Tags */
 .tag{display:inline-block;padding:.12rem .45rem;border-radius:.2rem;font-size:.62rem;font-weight:600;letter-spacing:.03em;margin-right:.2rem;margin-bottom:.2rem}
 
@@ -564,14 +607,234 @@ const S = [
 ];
 
 // ── Render ──
+// ════════════════════════════════════════════════════════════════════
+// STRUCTURE_DETAILS — additive depth, keyed by structure `num`.
+// First-pass seed content (qualitative / well-established facts) so every
+// sub-tab is populated. Replace any entry wholesale with the output of the
+// deep-research prompt; cards with no entry fall back to the base layout.
+// Hard quantitative deal figures and source URLs are intentionally left for
+// the research pass (latestDeals/sources default to []).
+// ════════════════════════════════════════════════════════════════════
+const STRUCTURE_DETAILS = {
+  "01": {
+    tagline: "Wholly-owned domestic reinsurer for intra-group risk pooling - no offshore arbitrage.",
+    whenToUse: ["Consolidating risk across multiple US-licensed subsidiaries","Groups prioritizing regulatory transparency over capital arbitrage","Internal capital and surplus management within one state regime","Avoiding BEAT / FET / CFC complexity entirely"],
+    howItWorks: ["Parent capitalizes a same-state reinsurance subsidiary with common equity.","Operating insurer cedes a quota share or coinsurance pool to the affiliate.","Both entities hold full US statutory reserves and file RBC.","Risk and surplus are redistributed within the group; no reserve is released.","Dividends and capital flow back to the parent over time."],
+    economics: { reserveRelief: "None (full US Stat both sides)", roeOrIrrUplift: "Modest - capital efficiency only", minCapital: "State RBC minimums", collateral: "Not required (affiliated, same state)", setupTime: "3-6 months", setupCost: "Low", ongoingCost: "Low" },
+    keyStats: [{ label: "Reserve relief", value: "None" }, { label: "Collateral", value: "0%" }, { label: "Regime", value: "US Stat / RBC" }, { label: "Complexity", value: "2 / 10" }],
+    regulatory: { regime: "US state insurance regulation (same state as cedant)", capitalBasis: "Risk-Based Capital (RBC)", reporting: "Statutory annual / quarterly (Blue Book)", supervision: "State commissioner; standard holding-company review" },
+    tax: { beat: "Avoided (domestic affiliate)", fet: "None (US-to-US)", cfcPfic: "N/A - domestic", corporateTax: "US federal 21% + state", electionNotes: "No 953(d) needed" },
+    watchOuts: ["Higher capital carry than any offshore alternative","NAIC group-capital (GCC) and holding-company disclosures still apply"],
+    caseStudy: { headline: "Large US groups' intercompany pools", body: "Most major US life groups run an affiliated domestic reinsurer or pooling arrangement to consolidate mortality and longevity risk across subsidiaries. The aim is internal diversification and surplus mobility rather than reserve arbitrage, so both sides remain on full statutory reserves.", outcome: "Cleaner internal capital allocation with full regulatory transparency." },
+    latestDeals: [], sources: [],
+  },
+  "02": {
+    tagline: "Onshore captive that finances redundant XXX / AXXX term and UL reserves.",
+    whenToUse: ["Financing formulaic reserve redundancy on term and UL-SG blocks","Pre-PBR grandfathered blocks still in force","Groups with access to LOC / surplus-note capital","Domiciles offering permitted practices (VT, AZ, SC)"],
+    howItWorks: ["Insurer issues XXX / AXXX business carrying redundant statutory reserves.","Excess reserves are ceded to an affiliated captive via coinsurance / ModCo.","The captive backs economic reserves with hard assets and the redundant slice with synthetic capital (LOCs, surplus notes).","AG 48 / Model 787 requires Primary Security for the economic piece.","Capital support is renewed and serviced over the life of the block."],
+    economics: { reserveRelief: "Finances XXX / AXXX redundancy", roeOrIrrUplift: "Historically material pre-PBR", minCapital: "Captive statutory minimum", collateral: "Primary Security under AG 48", setupTime: "6-12 months", setupCost: "Moderate", ongoingCost: "LOC fees, surplus-note servicing" },
+    keyStats: [{ label: "Peak shadow reserves", value: "~$364B (2012)" }, { label: "Key rule", value: "AG 48 / Model 787" }, { label: "New-business case", value: "Eroded post-PBR" }, { label: "Complexity", value: "4 / 10" }],
+    regulatory: { regime: "US captive statute + permitted practices", capitalBasis: "Captive statutory; AG 48 Primary Security test", reporting: "Captive statutory filings (often confidential)", supervision: "Domiciliary captive regulator" },
+    tax: { beat: "Domestic - not BEAT-exposed", fet: "None (US captive)", cfcPfic: "N/A - domestic", corporateTax: "US 21% + state", electionNotes: "N/A" },
+    watchOuts: ["PBR (2020) removed the new-business incentive; mostly run-off now","NAIC AG 48 / Model 787 limits asset quality backing redundant reserves","Lingering 'shadow insurance' reputational scrutiny"],
+    caseStudy: { headline: "Lincoln and Prudential XXX / AXXX captives", body: "Several large term and UL writers built affiliated captives in Vermont, Arizona and South Carolina to finance XXX / AXXX redundancy, using letters of credit and surplus notes for the non-economic reserve slice. After AG 48 and principle-based reserving, the economics for new business largely disappeared, leaving grandfathered blocks in run-off.", outcome: "Grandfathered structures retained; new formation effectively stopped." },
+    latestDeals: [], sources: [],
+  },
+  "03": {
+    tagline: "The workhorse: wholly-owned Bermuda Class E / Cayman Class D reinsurer for reserve arbitrage.",
+    whenToUse: ["Asset-intensive blocks (FIA, fixed annuity, PRT) seeking reserve relief","US groups wanting EBS economics without third-party profit share","Keeping assets on US books via ModCo / FWH","Building a captive offshore platform before adding third-party capital"],
+    howItWorks: ["US insurer establishes a wholly-owned Bermuda Class E (or Cayman Class D) reinsurer.","Asset-intensive liabilities are ceded via ModCo and / or Co-FWH.","Assets remain on the US cedant's books; funds-withheld acts as implicit collateral.","Reserves move from US Stat (AG 33/35) to BMA EBS (BEL + risk margin).","Bermuda reciprocal status means zero required collateral; Cayman unauthorized status needs 100%.","Released capital and spread income are retained offshore."],
+    economics: { reserveRelief: "~10-14% on FIA blocks", roeOrIrrUplift: "Meaningful via reserve release", minCapital: "Bermuda Class E: $8M min", collateral: "Bermuda 0% (reciprocal); Cayman 100%", setupTime: "6-12 months", setupCost: "Moderate", ongoingCost: "Dual-regime reporting" },
+    keyStats: [{ label: "Reserve relief", value: "~10-14%" }, { label: "BDA collateral", value: "0%" }, { label: "Min capital", value: "$8M (Class E)" }, { label: "Complexity", value: "5 / 10" }],
+    regulatory: { regime: "BMA (Bermuda Class E) or CIMA (Cayman Class D)", capitalBasis: "BMA EBS / BSCR; CIMA principle-based", reporting: "EBS + BSCR returns; plus US Stat at cedant", supervision: "BMA / CIMA; US credit-for-reinsurance rules at cedant" },
+    tax: { beat: "Potential BEAT on affiliated premiums", fet: "1% on reinsurance premiums unless treaty / 953(d)", cfcPfic: "CFC - watch Subpart F / GILTI", corporateTax: "Bermuda 15% CIT from 2025 (large MNEs)", electionNotes: "953(d) election common to be taxed as US" },
+    watchOuts: ["Bermuda 15% corporate income tax effective Jan 2025 for large groups","BMA enhanced scrutiny: lapse-risk, liquidity stress, prior approval","NAIC AG 55 asset-adequacy testing on ceded asset-intensive business"],
+    caseStudy: { headline: "Standard Bermuda Class E affiliated reinsurer", body: "A US annuity writer sets up a Bermuda Class E affiliate and cedes FIA reserves via ModCo with funds withheld. Moving from US statutory to BMA EBS valuation releases roughly a tenth of reserves, and Bermuda's reciprocal-jurisdiction status removes the collateral requirement that a Cayman entity would face.", outcome: "Capital freed and retained offshore; assets stay on the US balance sheet." },
+    latestDeals: [], sources: [],
+  },
+  "04": {
+    tagline: "The Apollo / Athene model: offshore reinsurer plus affiliated asset manager capturing the full chain.",
+    whenToUse: ["PE firms building a permanent-capital / spread-lending platform","Capturing underwriting + reserve arb + asset-management fees together","Scaling FIA / annuity origination via IMO distribution","Pairing insurance liabilities with private-credit origination"],
+    howItWorks: ["PE sponsor acquires or builds a US operating insurer (OpCo).","OpCo cedes liabilities offshore (Bermuda Class E) via ModCo / FWH.","The sponsor's affiliated asset manager runs the supporting assets under an IMA.","Manager earns management, origination and performance fees on top of spread.","Sidecars (e.g. ACRA, Ivy) add third-party capacity for large blocks."],
+    economics: { reserveRelief: "~10-14% (EBS)", roeOrIrrUplift: "AM alpha ~80-200 bps + spread", minCapital: "Platform-scale equity", collateral: "Bermuda 0% (reciprocal)", setupTime: "12-24 months", setupCost: "High", ongoingCost: "Multi-regime; AM oversight" },
+    keyStats: [{ label: "Combined AUM (top platforms)", value: "$800B+" }, { label: "AM alpha", value: "~80-200 bps" }, { label: "Reserve relief", value: "~10-14%" }, { label: "Complexity", value: "8 / 10" }],
+    regulatory: { regime: "US state (OpCo) + BMA (Bermuda Re)", capitalBasis: "RBC at OpCo; EBS / BSCR offshore", reporting: "US Stat + EBS + consolidated GAAP", supervision: "NAIC PE-owned-insurer scrutiny; BMA group supervision" },
+    tax: { beat: "BEAT exposure on affiliated cessions", fet: "1% unless 953(d) / treaty", cfcPfic: "CFC; GILTI / Subpart F planning", corporateTax: "Bermuda 15% CIT from 2025", electionNotes: "953(d) common" },
+    watchOuts: ["NAIC flagged 137+ PE-owned insurers for enhanced scrutiny","Affiliated-AM conflicts: valuation, liquidity, related-party limits","98% of affiliated bonds are private placements - transparency concerns","777 Re collapse is the cautionary tale of affiliated asset self-dealing"],
+    caseStudy: { headline: "Apollo / Athene", body: "Apollo built Athene into the archetype: a Bermuda-anchored annuity platform whose assets are managed by Apollo's credit arm. Underwriting margin, reserve arbitrage and asset-management economics all accrue to the group, and sidecars bring in third-party capital for large block deals. The model now anchors hundreds of billions in AUM across the PE-insurance complex.", outcome: "Full value-chain capture; template copied by KKR, Blackstone, Brookfield, Carlyle." },
+    latestDeals: [], sources: [],
+  },
+  "05": {
+    tagline: "Professional third-party reinsurers - underwriting profit, not PE asset-management fees.",
+    whenToUse: ["Cedants wanting fast execution via existing reinsurer infrastructure","Avoiding affiliated-AM conflict concerns","Counterparties needing strong (AA- / A+) credit support","Bespoke risk transfer: QS, excess, structured, securitized"],
+    howItWorks: ["A professional reinsurer maintains an offshore platform (Bermuda, Barbados, Luxembourg).","The cedant transfers risk via QS, coinsurance, excess-of-loss or ModCo.","The reinsurer prices for underwriting profit and traditional investment return.","Strong parent ratings reduce counterparty / collateral needs.","Some sponsor sidecars (e.g. Ruby Re) to add third-party capacity."],
+    economics: { reserveRelief: "Varies by treaty", roeOrIrrUplift: "Underwriting-margin driven", minCapital: "Reinsurer balance sheet", collateral: "Often reduced by rating", setupTime: "Fast (existing infra)", setupCost: "Low-moderate", ongoingCost: "Profit share to reinsurer" },
+    keyStats: [{ label: "Model", value: "Underwriting profit" }, { label: "Ratings", value: "AA- / A+ typical" }, { label: "AM conflicts", value: "None" }, { label: "Complexity", value: "5 / 10" }],
+    regulatory: { regime: "Varies (BMA, Barbados FSC, Luxembourg CAA)", capitalBasis: "Entity-specific (EBS, Solvency II, etc.)", reporting: "Home-regulator returns", supervision: "Home regulator; credit-for-reinsurance at cedant" },
+    tax: { beat: "Generally not affiliated", fet: "1% unless treaty / 953(d)", cfcPfic: "Usually N/A (third-party)", corporateTax: "Jurisdiction-dependent", electionNotes: "Treaty relief common" },
+    watchOuts: ["Profit share cedes future economics to the reinsurer","Recapture risk can force illiquid assets back to the cedant","Counterparty risk if the reinsurer is stressed"],
+    caseStudy: { headline: "RGA, Hannover Re, Swiss Re offshore platforms", body: "Established reinsurers run Bermuda and European platforms to write QS, structured and block reinsurance for ceding insurers worldwide. Their value is speed, balance-sheet strength and structuring flexibility rather than affiliated asset-management fees; some have launched sidecars (RGA's Ruby Re) to add third-party capacity.", outcome: "Reliable capacity with strong ratings and no related-party-asset concerns." },
+    latestDeals: [], sources: [],
+  },
+  "06": {
+    tagline: "Off-balance-sheet vehicle bringing third-party institutional capital into reinsurance.",
+    whenToUse: ["Adding underwriting capacity without diluting sponsor equity","Pre-committed capacity for large opportunistic blocks","Generating fee income for a sponsor / manager","Letting pensions / SWFs access insurance spread"],
+    howItWorks: ["Sponsor seeds a Bermuda Class C / E sidecar, keeping voting control with minority economics.","Third-party investors (SWFs, pensions) provide the majority of equity.","The sponsor cedes or retrocedes quota-share / forward-flow business to the sidecar.","The sponsor's manager runs the assets for fees plus carry.","Returns are shared pro rata; the vehicle can be scaled or wound down."],
+    economics: { reserveRelief: "Via offshore cession", roeOrIrrUplift: "Fees + carry to sponsor", minCapital: "Vehicle-specific", collateral: "Bermuda reciprocal", setupTime: "9-24 months", setupCost: "High (legal / tax)", ongoingCost: "Manager fees 30-50 bps" },
+    keyStats: [{ label: "Reserves ceded", value: "~$55B (to 2023)" }, { label: "Growth", value: "+183% since 2023" }, { label: "Sponsor stake", value: "~15-40% econ" }, { label: "Complexity", value: "7 / 10" }],
+    regulatory: { regime: "BMA (Bermuda Class C / E)", capitalBasis: "BMA EBS / BSCR", reporting: "BMA returns; sponsor consolidation analysis", supervision: "BMA; sponsor's group regulator" },
+    tax: { beat: "Depends on affiliation / flows", fet: "1% unless 953(d) / treaty", cfcPfic: "PFIC analysis for investors", corporateTax: "Bermuda 15% CIT from 2025 (if in scope)", electionNotes: "Investor-level structuring" },
+    watchOuts: ["Governance tension: sponsor control vs investor economics","Profit share lowers sponsor long-run returns","Sidecar is an independent counterparty - recapture / credit risk"],
+    caseStudy: { headline: "Apollo ACRA and KKR / Global Atlantic Ivy Re", body: "Leading platforms run sidecars - Apollo's ACRA vehicles and Global Atlantic's Ivy Re - to bring sovereign-wealth and pension capital alongside their own. The sponsor typically holds full voting control with a minority of the economics, earns asset-management fees, and gains pre-committed capacity to win large block transactions.", outcome: "Scalable third-party capacity; sidecar reserves have grown rapidly since 2023." },
+    latestDeals: [], sources: [],
+  },
+  "07": {
+    tagline: "Capital-markets risk transfer: mortality / longevity / reserve risk turned into 144A notes.",
+    whenToUse: ["Transferring tail mortality or longevity risk to capital markets","Fully collateralized cover with no counterparty credit risk","Diversifying funding away from traditional reinsurance","Reserve-financing securitizations (XXX / AXXX) historically"],
+    howItWorks: ["Sponsor sets up an orphaned SPV (Cayman / Bermuda).","The SPV writes indemnity or index retrocession to the sponsor.","It issues Rule 144A notes to institutional investors.","Proceeds sit in a collateral trust (AAA money-market / govt).","If the trigger (e.g. mortality index) breaches, investors lose principal to pay claims."],
+    economics: { reserveRelief: "Risk transfer / financing", roeOrIrrUplift: "Cost-of-cover driven", minCapital: "Fully collateralized", collateral: "100% in trust", setupTime: "3-6 months / deal", setupCost: "High (legal / rating)", ongoingCost: "Coupon spread to investors" },
+    keyStats: [{ label: "ILS risk capital", value: "~$60B+ outstanding" }, { label: "Counterparty risk", value: "~Zero (collateral)" }, { label: "Format", value: "144A notes" }, { label: "Complexity", value: "7 / 10" }],
+    regulatory: { regime: "SPV jurisdiction (Cayman / Bermuda SPI)", capitalBasis: "Fully funded / collateralized", reporting: "Trustee + offering disclosure", supervision: "Light - bankruptcy-remote orphan SPV" },
+    tax: { beat: "Generally outside (capital markets)", fet: "Deal-specific", cfcPfic: "Investor PFIC analysis", corporateTax: "SPV tax-neutral", electionNotes: "Structured for tax neutrality" },
+    watchOuts: ["Life ILS is niche and episodic vs P&C cat bonds","Basis risk where index triggers diverge from actual losses","COVID showed real loss potential (Swiss Re Vita VI)"],
+    caseStudy: { headline: "Swiss Re Vita Capital mortality bonds", body: "Swiss Re's Vita Capital program pioneered extreme-mortality cat bonds, paying investors a spread unless a population mortality index spiked above a trigger. The COVID-19 pandemic drove losses on later Vita tranches, demonstrating that life ILS carries genuine, if rare, principal risk for investors.", outcome: "Proven capital-markets capacity for tail mortality; real losses realized in COVID." },
+    latestDeals: [], sources: [],
+  },
+  "08": {
+    tagline: "Segregated cells and turnkey ISAC platforms - fast, ring-fenced reinsurance vehicles.",
+    whenToUse: ["New entrants wanting speed-to-market without a full standalone license","Ring-fencing multiple deals / participants in segregated cells","Lower setup cost than a standalone Class E entity","Sponsors using turnkey governance / ops infrastructure"],
+    howItWorks: ["A core company (ISAC / PCC / SPC) holds multiple legally segregated cells.","Each cell is funded by its sponsor and is bankruptcy-remote from the others.","A cedant coinsures a block into a specific cell.","The platform supplies shared ops, governance and regulatory wrappers.","Assets and liabilities stay ring-fenced per cell."],
+    economics: { reserveRelief: "Per cell (often EBS)", roeOrIrrUplift: "Deal-specific", minCapital: "Cell-level, lower than standalone", collateral: "Per regime", setupTime: "Fast (turnkey)", setupCost: "Lower than standalone", ongoingCost: "Shared platform fee" },
+    keyStats: [{ label: "Setup", value: "Turnkey / fast" }, { label: "Isolation", value: "Bankruptcy-remote cells" }, { label: "Model", value: "Segregated accounts" }, { label: "Complexity", value: "6 / 10" }],
+    regulatory: { regime: "VT SPFC / Bermuda SPI-ISAC / Cayman SPC", capitalBasis: "Varies by cell (EBS, CIMA, US Stat)", reporting: "Core + per-cell reporting", supervision: "Domicile regulator; novel to some raters" },
+    tax: { beat: "Structure-dependent", fet: "1% unless treaty / 953(d)", cfcPfic: "Cell-by-cell analysis", corporateTax: "Domicile-dependent", electionNotes: "Per-cell elections" },
+    watchOuts: ["Less control than a wholly-owned entity","Cell structures unfamiliar to some regulators / rating agencies","Platform concentration is a single point of failure"],
+    caseStudy: { headline: "Agam Capital ISAC platforms (Bermuda)", body: "Agam Capital's incorporated segregated-accounts companies give sponsors a turnkey Bermuda reinsurance wrapper: each segregated account operates as a ring-fenced reinsurer with shared governance, actuarial and asset-liability tooling. Backers such as 26North have used the model to stand up annuity reinsurance capacity quickly.", outcome: "Faster, cheaper market entry than building a standalone Class E." },
+    latestDeals: [], sources: [],
+  },
+  "09": {
+    tagline: "Full institutional stack - HoldCo / MidCo / OpCo + offshore Re + sidecar + AM.",
+    whenToUse: ["Large PE platforms optimizing across every regulatory regime at once","Creating optionality (IPO an OpCo, sell a block, raise external debt)","Running US OpCos, offshore Re, sidecars and an AM sub together","IAIG-scale groups managing group capital"],
+    howItWorks: ["PE fund owns a Delaware HoldCo that issues senior unsecured debt.","A MidCo layer holds subordinated debt / preferred for tax isolation and leverage.","US OpCos issue and administer policies and hold surplus notes.","An offshore Bermuda Re takes liabilities via ModCo / FWH on EBS.","An AM sub and sidecars sit alongside for fees and third-party capacity.","Each entity is optimized for its own regulator."],
+    economics: { reserveRelief: "~10-14% offshore leg", roeOrIrrUplift: "Maximized via multi-regime + leverage", minCapital: "Platform-scale", collateral: "Bermuda reciprocal", setupTime: "18-24+ months", setupCost: "Very high", ongoingCost: "3+ regimes; intercompany agreements" },
+    keyStats: [{ label: "Entities", value: "4+ legal layers" }, { label: "Regimes", value: "3+ simultaneously" }, { label: "Example reg capital", value: "$30B+ (Athene)" }, { label: "Complexity", value: "9 / 10" }],
+    regulatory: { regime: "US states + BMA + (often) Cayman", capitalBasis: "RBC + EBS / BSCR + consolidated", reporting: "US Stat + EBS + GAAP + group capital (GCC / ICS)", supervision: "Group-wide; IAIG designation possible" },
+    tax: { beat: "BEAT on affiliated cessions", fet: "1% unless 953(d) / treaty", cfcPfic: "CFC; GILTI / Subpart F", corporateTax: "Bermuda 15% CIT; US 21%", electionNotes: "953(d); MidCo for tax isolation" },
+    watchOuts: ["IAIG designation brings ICS group-capital overlay","Double leverage at MidCo creates stress fragility","NAIC Macroprudential Initiative targets exactly this structure"],
+    caseStudy: { headline: "Athene / Apollo and Brookfield / AEL chains", body: "The largest platforms stack a Delaware HoldCo, a MidCo debt layer, US operating insurers, a Bermuda reinsurer and an asset-management sub, with sidecars bolted on. Athene's chain carries tens of billions in regulatory capital and was designated an Internationally Active Insurance Group, bringing group-capital supervision.", outcome: "Maximum capital efficiency and optionality - with maximum oversight." },
+    latestDeals: [], sources: [],
+  },
+  "10": {
+    tagline: "Everything at once: block acquisition + forward-flow + sidecar retro, multi-treaty.",
+    whenToUse: ["Platforms running block M&A and organic flow simultaneously","Maximizing ROE via layered treaties and third-party retro","Large consolidators (Fortitude, Talcott, Brookfield / AEL)","Building predictable AUM growth for an affiliated manager"],
+    howItWorks: ["The reinsurer acquires in-force blocks via coinsurance (one-time scale).","It writes forward-flow quota share on new production (ongoing AUM).","It retrocedes slices to sidecars for third-party capacity.","An affiliated manager runs assets across all entities.","Legacy XXX captives and US OpCos remain in the chain.","Treaties and capital are layered across Delaware, Iowa, Vermont, Bermuda, Cayman."],
+    economics: { reserveRelief: "Layered (block + flow)", roeOrIrrUplift: "~11% to ~20% IRR with 50% flow (Gallagher Re)", minCapital: "Platform-scale", collateral: "Bermuda reciprocal", setupTime: "Built over years", setupCost: "Very high", ongoingCost: "All regimes simultaneously" },
+    keyStats: [{ label: "IRR uplift", value: "~11% -> ~20%" }, { label: "Treaties", value: "Block + flow + retro" }, { label: "Jurisdictions", value: "5 (DE/IA/VT/BDA/KY)" }, { label: "Complexity", value: "10 / 10" }],
+    regulatory: { regime: "US states + BMA + CIMA", capitalBasis: "RBC + EBS / BSCR + consolidated", reporting: "All of US Stat, EBS, GAAP, group capital", supervision: "Group-wide; intense NAIC / BMA attention" },
+    tax: { beat: "BEAT across affiliated flows", fet: "1% unless 953(d) / treaty", cfcPfic: "CFC; GILTI / Subpart F", corporateTax: "Bermuda 15% CIT; US 21%", electionNotes: "953(d); multi-entity planning" },
+    watchOuts: ["AG 55, NAIC scrutiny, ICS and Bermuda CIT all compound here","Operational overhead: 4+ entities, 3+ jurisdictions, intercompany pricing","777 Re shows what happens when controls fail at complexity"],
+    caseStudy: { headline: "Brookfield / AEL and Fortitude Re", body: "The most advanced consolidators combine a large in-force block acquisition with a forward-flow quota share on new sales and retrocession into sidecars, all managed by an affiliated asset manager. Gallagher Re analysis shows adding roughly 50% flow cession can lift a carrier's IRR from the low-teens toward 20%.", outcome: "Best-in-class ROE - at the cost of maximal regulatory and operational complexity." },
+    latestDeals: [], sources: [],
+  },
+};
+
 const root = document.getElementById("structures");
 
 function cxBar(n) {
   return `<div class="cx-bar">${Array.from({length:10},(_,i)=>`<div class="cx-dot${i<n?' on':''}"></div>`).join("")}<span class="cx-label">${n}/10</span></div>`;
 }
 
+// ── helpers ──
+const hasVals = o => o && Object.values(o).some(v => v);
+function kvRows(obj, labels) {
+  if (!obj) return "";
+  return Object.keys(labels).filter(k => obj[k]).map(k =>
+    `<div class="kv"><span class="kvk">${labels[k]}</span><span class="kvv">${obj[k]}</span></div>`).join("");
+}
+const ECON_LBL = { reserveRelief: "Reserve relief", roeOrIrrUplift: "ROE / IRR uplift", minCapital: "Min. capital", collateral: "Collateral", setupTime: "Setup time", setupCost: "Setup cost", ongoingCost: "Ongoing cost" };
+const REG_LBL = { regime: "Regime", capitalBasis: "Capital basis", reporting: "Reporting", supervision: "Supervision" };
+const TAX_LBL = { beat: "BEAT", fet: "Excise (FET)", cfcPfic: "CFC / PFIC", corporateTax: "Corporate tax", electionNotes: "Elections" };
+
+function paneOverview(s, d) {
+  return `
+    ${d.tagline ? `<p class="flow" style="color:var(--text);font-weight:600;font-size:.85rem;margin-bottom:.7rem">${d.tagline}</p>` : ""}
+    <p class="flow" style="margin-bottom:.9rem">${s.desc}</p>
+    <div class="sect-grid">
+      <div class="sect">
+        <div class="sect-title">Treaty &amp; Jurisdiction</div>
+        <p class="flow"><strong>Treaty:</strong> ${s.treaty}</p>
+        <p class="flow"><strong>Jurisdiction:</strong> ${s.jurisdiction}</p>
+        <p class="flow"><strong>Framework:</strong> ${s.framework}</p>
+      </div>
+      ${d.whenToUse && d.whenToUse.length ? `<div class="sect"><div class="sect-title">When to use</div>${d.whenToUse.map(w => `<div class="pc-item"><span class="pc-icon" style="color:var(--blue)">&#9656;</span><span>${w}</span></div>`).join("")}</div>` : ""}
+      <div class="sect"><div class="sect-title">Advantages</div>${s.pros.map(p => `<div class="pc-item"><span class="pc-icon" style="color:var(--green)">&#10003;</span><span>${p}</span></div>`).join("")}</div>
+      <div class="sect"><div class="sect-title">Risks &amp; Limitations</div>${s.cons.map(c => `<div class="pc-item"><span class="pc-icon" style="color:var(--red)">&#10007;</span><span>${c}</span></div>`).join("")}</div>
+    </div>`;
+}
+
+function paneMechanics(s, d) {
+  return `
+    <div class="sect-grid">
+      <div class="sect">
+        <div class="sect-title">How it works</div>
+        ${d.howItWorks && d.howItWorks.length ? `<div class="steps">${d.howItWorks.map(h => `<div class="step">${h}</div>`).join("")}</div>` : `<p class="empty">Step-by-step mechanics pending research.</p>`}
+      </div>
+      <div class="sect">
+        <div class="sect-title">Capital Stack</div>
+        <div class="cap-stack">${s.capStack.map(c => `<div class="cap-layer" style="background:${c.bg}"><span class="label">${c.label}</span><span class="val" style="color:${c.color}">${c.val}</span></div>`).join("")}</div>
+      </div>
+    </div>`;
+}
+
+function paneEconomics(s, d) {
+  return `
+    ${d.keyStats && d.keyStats.length ? `<div class="stat-row">${d.keyStats.map(k => `<div class="stat-chip"><div class="k">${k.label}</div><div class="v">${k.value}</div></div>`).join("")}</div>` : ""}
+    ${hasVals(d.economics) ? `<div class="sect"><div class="sect-title">Economics</div>${kvRows(d.economics, ECON_LBL)}</div>` : ""}`;
+}
+
+function paneRegTax(s, d) {
+  return `
+    <div class="sect-grid">
+      ${hasVals(d.regulatory) ? `<div class="sect"><div class="sect-title">Regulatory</div>${kvRows(d.regulatory, REG_LBL)}</div>` : ""}
+      ${hasVals(d.tax) ? `<div class="sect"><div class="sect-title">Tax</div>${kvRows(d.tax, TAX_LBL)}</div>` : ""}
+      ${d.watchOuts && d.watchOuts.length ? `<div class="sect sect-full"><div class="sect-title">2025-26 Watch-outs</div>${d.watchOuts.map(w => `<div class="watch"><span class="wi">&#9888;</span><span>${w}</span></div>`).join("")}</div>` : ""}
+    </div>`;
+}
+
+function paneExamples(s, d) {
+  const latest = (d.latestDeals && d.latestDeals.length)
+    ? `<div class="sect sect-full" style="margin-top:1rem"><div class="sect-title">Recent Deals (2025-26)</div><table class="ex-table"><tr><th>Entity / Deal</th><th>Details</th><th>Scale</th><th>Date / Note</th></tr>${d.latestDeals.map(e => `<tr>${e.map(c => `<td>${c}</td>`).join("")}</tr>`).join("")}</table></div>` : "";
+  const cs = (d.caseStudy && d.caseStudy.headline)
+    ? `<div class="case"><div class="case-h">${d.caseStudy.headline}</div><p class="flow">${d.caseStudy.body}</p>${d.caseStudy.outcome ? `<div class="case-o">&#8594; ${d.caseStudy.outcome}</div>` : ""}</div>` : "";
+  const tr = (d.trends2026 && d.trends2026.length)
+    ? `<div class="sect sect-full" style="margin-top:1rem"><div class="sect-title">2025-26 Trends</div>${d.trends2026.map(t => `<div class="pc-item"><span class="pc-icon" style="color:var(--cyan)">&#9656;</span><span>${t}</span></div>`).join("")}</div>` : "";
+  return `
+    <div class="sect sect-full">
+      <div class="sect-title">Live Deal Examples</div>
+      <table class="ex-table">
+        <tr><th>Entity / Deal</th><th>Details</th><th>Scale</th><th>Notes</th></tr>
+        ${s.examples.map(e => `<tr>${e.map(c => `<td>${c}</td>`).join("")}</tr>`).join("")}
+      </table>
+    </div>
+    ${latest}${cs}${tr}`;
+}
+
+function paneSources(s, d) {
+  return `<div class="sect"><div class="sect-title">Sources &amp; References</div>${d.sources.map(x => `<a class="src" href="${x.url}" target="_blank" rel="noopener noreferrer">${x.label} <span class="sd">${x.url}</span></a>`).join("")}</div>`;
+}
+
 function renderAll() {
   root.innerHTML = S.map((s, idx) => {
+    const d = STRUCTURE_DETAILS[s.num] || {};
+    const tabs = [
+      { id: "overview", label: "Overview", html: paneOverview(s, d) },
+      { id: "mechanics", label: "How it works", html: paneMechanics(s, d) },
+    ];
+    if ((d.keyStats && d.keyStats.length) || hasVals(d.economics)) tabs.push({ id: "economics", label: "Economics", html: paneEconomics(s, d) });
+    if (hasVals(d.regulatory) || hasVals(d.tax) || (d.watchOuts && d.watchOuts.length)) tabs.push({ id: "regtax", label: "Regulatory & Tax", html: paneRegTax(s, d) });
+    tabs.push({ id: "examples", label: "Examples", html: paneExamples(s, d) });
+    if (d.sources && d.sources.length) tabs.push({ id: "sources", label: "Sources", html: paneSources(s, d) });
+
     return `
     <div class="struct${idx===0?' open':''}" id="s${idx}">
       <div class="struct-hdr" onclick="toggle(${idx})">
@@ -588,42 +851,14 @@ function renderAll() {
         <div class="struct-toggle">&#9662;</div>
       </div>
       <div class="struct-body">
-        <p class="flow" style="margin-bottom:.8rem">${s.desc}</p>
-
         <div class="diagram-wrap">
           <div class="diagram-label">Entity &amp; Flow Diagram</div>
           ${s.diagram}
         </div>
-
-        <div class="sect-grid">
-          <div class="sect">
-            <div class="sect-title">Treaty &amp; Jurisdiction</div>
-            <p class="flow"><strong>Treaty:</strong> ${s.treaty}</p>
-            <p class="flow"><strong>Jurisdiction:</strong> ${s.jurisdiction}</p>
-            <p class="flow"><strong>Framework:</strong> ${s.framework}</p>
-          </div>
-          <div class="sect">
-            <div class="sect-title">Capital Stack</div>
-            <div class="cap-stack">
-              ${s.capStack.map(c => `<div class="cap-layer" style="background:${c.bg}"><span class="label">${c.label}</span><span class="val" style="color:${c.color}">${c.val}</span></div>`).join("")}
-            </div>
-          </div>
-          <div class="sect sect-full">
-            <div class="sect-title">Live Deal Examples</div>
-            <table class="ex-table">
-              <tr><th>Entity / Deal</th><th>Details</th><th>Scale</th><th>Notes</th></tr>
-              ${s.examples.map(e => `<tr>${e.map(c => `<td>${c}</td>`).join("")}</tr>`).join("")}
-            </table>
-          </div>
-          <div class="sect">
-            <div class="sect-title">Advantages</div>
-            ${s.pros.map(p => `<div class="pc-item"><span class="pc-icon" style="color:var(--green)">&#10003;</span><span>${p}</span></div>`).join("")}
-          </div>
-          <div class="sect">
-            <div class="sect-title">Risks &amp; Limitations</div>
-            ${s.cons.map(c => `<div class="pc-item"><span class="pc-icon" style="color:var(--red)">&#10007;</span><span>${c}</span></div>`).join("")}
-          </div>
+        <div class="subtabs">
+          ${tabs.map((t, i) => `<button class="subtab${i===0?' active':''}" data-tab="${t.id}" onclick="switchTab(${idx},'${t.id}')">${t.label}</button>`).join("")}
         </div>
+        ${tabs.map((t, i) => `<div class="subpane${i===0?' active':''}" data-pane="${t.id}">${t.html}</div>`).join("")}
       </div>
     </div>`;
   }).join("");
@@ -631,6 +866,13 @@ function renderAll() {
 
 function toggle(idx) {
   document.getElementById("s"+idx).classList.toggle("open");
+}
+
+function switchTab(idx, tabId) {
+  const card = document.getElementById("s"+idx);
+  if (!card) return;
+  card.querySelectorAll(".subtab").forEach(b => b.classList.toggle("active", b.dataset.tab === tabId));
+  card.querySelectorAll(".subpane").forEach(p => p.classList.toggle("active", p.dataset.pane === tabId));
 }
 
 renderAll();

@@ -1554,7 +1554,7 @@ export default function App() {
       <div style={{ flex: 1, overflow: "auto", padding: 20 }}>{renderPage()}</div>
       <div style={{ height: 28, padding: "0 22px", borderTop: "1px solid #1a1d23", background: "#0a0c12", display: "flex", alignItems: "center", justifyContent: "space-between", fontSize: 11, color: "#475569", flexShrink: 0 }}>
         <div style={{ display: "flex", gap: 16 }}>{ust10y != null && <span>UST 10Y: {fmtY(ust10y)}</span>}{jgb10y != null && <span>JGB 10Y: {fmtY(jgb10y)}</span>}{gilt10y != null && <span>Gilt 10Y: {fmtY(gilt10y)}</span>}{india10y != null && <span>India 10Y: {fmtY(india10y)}</span>}{sofrRate != null && <span>SOFR: {sofrRate.toFixed(2)}%</span>}{igS != null && <span>IG: {igS}bp</span>}{hyS != null && <span>HY: {hyS}bp</span>}{data.cds?.sovereign?.us_5y?.spread != null && <span>US CDS: {data.cds.sovereign.us_5y.spread}bp</span>}{data.commodities?.usdinr?.spot != null && <span>USD/INR: {data.commodities.usdinr.spot.toFixed(4)}</span>}</div>
-        <span>{PLATFORM_NAME} • {TOOL_NAME} • v11</span>
+        <span>{PLATFORM_NAME} • {TOOL_NAME} • v12</span>
       </div>
     </div>
   </div>);
