@@ -7,8 +7,9 @@ import {
   Shield, Newspaper, BarChart3, ChevronRight, ExternalLink,
   Clock, RefreshCw, Activity, DollarSign, Percent, ArrowUpRight,
   ArrowDownRight, Minus, AlertTriangle, Loader, Landmark, TrendingUp, Gem,
-  Copy, Check
+  Copy, Check, Layers
 } from "lucide-react";
+import structuresHtml from "./reinsurance_structures.html?raw";
 
 const PLATFORM_NAME = "GENESIS";
 const TOOL_NAME = "GENESIS // CORE";
@@ -1102,6 +1103,20 @@ const RegulatorySection = ({ data, loading, error }) => {
 };
 
 // ═══════════════════════════════════════════
+// RI STRUCTURES SECTION (embedded HTML viewer)
+// ═══════════════════════════════════════════
+const StructuresSection = () => (
+  <div style={{ background: "#0d0f14", border: "1px solid #1e2028", borderRadius: 10, overflow: "hidden", height: "calc(100vh - 110px)" }}>
+    <iframe
+      srcDoc={structuresHtml}
+      title="Offshore Reinsurance Legal Structures"
+      style={{ width: "100%", height: "100%", border: "none", display: "block" }}
+      sandbox="allow-scripts"
+    />
+  </div>
+);
+
+// ═══════════════════════════════════════════
 // COMMODITIES SECTION
 // ═══════════════════════════════════════════
 const COMMODITY_CONFIGS = {
@@ -1335,6 +1350,7 @@ const PAGES = [
   { id: "credit", label: "Credit Spreads", icon: Percent },
   { id: "cds", label: "CDS Spreads", icon: BarChart3 },
   { id: "news", label: "News", icon: Newspaper }, { id: "bma", label: "Regulatory", icon: Shield },
+  { id: "structures", label: "RI Structures", icon: Layers },
 ];
 const FILES = { ust: "ust.json", jgb: "jgb.json", gilt: "gilt.json", eiopa: "eur.json", india: "india.json", credit: "credit.json", cds: "cds.json", sofr: "sofr.json", bma_rates: "bma_rates.json", commodities: "commodities.json", debt_maturity: "debt_maturity.json", news: "news.json", regulatory: "regulatory.json" };
 
@@ -1436,6 +1452,7 @@ export default function App() {
       case "cds": return <CDSSection data={data.cds} loading={ls.cds} error={errs.cds} />;
       case "news": return <NewsSection data={data.news} loading={ls.news} error={errs.news} />;
       case "bma": return <RegulatorySection data={data.regulatory} loading={ls.regulatory} error={errs.regulatory} />;
+      case "structures": return <StructuresSection />;
       default: return (<div style={{ display: "flex", flexDirection: "column", gap: 20 }}>
         {noData && <div style={{ background: "#1a1206", border: "1px solid #854d0e", borderRadius: 10, padding: "18px 22px" }}>
           <div style={{ color: "#fbbf24", fontWeight: 700, fontSize: 15, marginBottom: 6 }}>No data files found</div>
@@ -1537,7 +1554,7 @@ export default function App() {
       <div style={{ flex: 1, overflow: "auto", padding: 20 }}>{renderPage()}</div>
       <div style={{ height: 28, padding: "0 22px", borderTop: "1px solid #1a1d23", background: "#0a0c12", display: "flex", alignItems: "center", justifyContent: "space-between", fontSize: 11, color: "#475569", flexShrink: 0 }}>
         <div style={{ display: "flex", gap: 16 }}>{ust10y != null && <span>UST 10Y: {fmtY(ust10y)}</span>}{jgb10y != null && <span>JGB 10Y: {fmtY(jgb10y)}</span>}{gilt10y != null && <span>Gilt 10Y: {fmtY(gilt10y)}</span>}{india10y != null && <span>India 10Y: {fmtY(india10y)}</span>}{sofrRate != null && <span>SOFR: {sofrRate.toFixed(2)}%</span>}{igS != null && <span>IG: {igS}bp</span>}{hyS != null && <span>HY: {hyS}bp</span>}{data.cds?.sovereign?.us_5y?.spread != null && <span>US CDS: {data.cds.sovereign.us_5y.spread}bp</span>}{data.commodities?.usdinr?.spot != null && <span>USD/INR: {data.commodities.usdinr.spot.toFixed(4)}</span>}</div>
-        <span>{PLATFORM_NAME} • {TOOL_NAME} • v10</span>
+        <span>{PLATFORM_NAME} • {TOOL_NAME} • v11</span>
       </div>
     </div>
   </div>);
