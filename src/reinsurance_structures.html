@@ -1,0 +1,1449 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8"/>
+<meta name="viewport" content="width=device-width,initial-scale=1.0"/>
+<title>10 Offshore Reinsurance Legal Structures — Visual Taxonomy</title>
+<link href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;600;700&family=JetBrains+Mono:wght@400;500&display=swap" rel="stylesheet"/>
+<style>
+:root{
+  --bg:#060A12;--card:#0B1120;--card2:#0E1629;--border:#172040;--border2:#1E2D55;
+  --text:#D8DEE9;--muted:#7B8BA5;--dim:#4A5672;
+  --green:#34D399;--red:#F87171;--blue:#60A5FA;--purple:#A78BFA;--amber:#FBBF24;
+  --teal:#2DD4BF;--pink:#F472B6;--orange:#FB923C;--cyan:#22D3EE;--lime:#A3E635;
+}
+*{margin:0;padding:0;box-sizing:border-box}
+body{background:var(--bg);color:var(--text);font-family:'DM Sans',system-ui,sans-serif;-webkit-font-smoothing:antialiased;min-height:100vh}
+.wrap{max-width:1320px;margin:0 auto;padding:2rem 1.5rem}
+
+/* Header */
+.hdr-tag{font-size:.65rem;font-weight:700;text-transform:uppercase;letter-spacing:.18em;color:var(--orange);margin-bottom:.2rem}
+.hdr-title{font-size:1.7rem;font-weight:700;margin-bottom:.3rem}
+.hdr-sub{font-size:.85rem;color:var(--muted);margin-bottom:1.5rem;line-height:1.6}
+
+/* Complexity bar */
+.cx-bar{display:flex;gap:3px;align-items:center;margin:.5rem 0}
+.cx-dot{width:18px;height:6px;border-radius:3px;background:#1E293B}
+.cx-dot.on{background:var(--orange)}
+.cx-label{font-size:.7rem;color:var(--dim);margin-left:.4rem;font-family:'JetBrains Mono',monospace}
+
+/* Structure cards */
+.struct{background:var(--card);border:1px solid var(--border);border-radius:.6rem;margin-bottom:1.5rem;overflow:hidden;transition:border-color .2s}
+.struct:hover{border-color:var(--border2)}
+.struct-hdr{padding:1.2rem 1.4rem .8rem;display:flex;align-items:flex-start;gap:1rem;cursor:pointer;user-select:none}
+.struct-num{display:flex;align-items:center;justify-content:center;min-width:2.4rem;height:2.4rem;border-radius:.5rem;font-size:1rem;font-weight:700;font-family:'JetBrains Mono',monospace;flex-shrink:0}
+.struct-hdr-text{flex:1;min-width:0}
+.struct-title{font-size:1.05rem;font-weight:700;margin-bottom:.15rem}
+.struct-meta{font-size:.75rem;color:var(--muted);display:flex;flex-wrap:wrap;gap:.3rem .8rem;margin-bottom:.3rem}
+.struct-meta span{display:inline-flex;align-items:center;gap:.25rem}
+.struct-meta .dot{width:5px;height:5px;border-radius:50%;flex-shrink:0}
+.struct-toggle{font-size:.85rem;color:var(--dim);padding:.3rem .5rem;transition:transform .2s}
+.struct.open .struct-toggle{transform:rotate(180deg)}
+
+.struct-body{display:none;padding:0 1.4rem 1.4rem}
+.struct.open .struct-body{display:block;animation:fadeIn .3s ease}
+@keyframes fadeIn{from{opacity:0;transform:translateY(6px)}to{opacity:1;transform:translateY(0)}}
+
+/* Diagram */
+.diagram-wrap{background:var(--card2);border:1px solid var(--border);border-radius:.5rem;padding:1rem;margin-bottom:1rem}
+.diagram-label{font-size:.65rem;font-weight:700;text-transform:uppercase;letter-spacing:.1em;color:var(--dim);margin-bottom:.6rem}
+
+/* Grid sections */
+.sect-grid{display:grid;grid-template-columns:1fr 1fr;gap:1rem;margin-bottom:1rem}
+@media(max-width:860px){.sect-grid{grid-template-columns:1fr}}
+.sect{background:var(--card2);border:1px solid var(--border);border-radius:.5rem;padding:1rem}
+.sect-title{font-size:.65rem;font-weight:700;text-transform:uppercase;letter-spacing:.1em;color:var(--dim);margin-bottom:.6rem}
+.sect-full{grid-column:1/-1}
+
+/* Sub-tabs */
+.subtabs{display:flex;flex-wrap:wrap;gap:.15rem;border-bottom:1px solid var(--border);margin-bottom:1rem}
+.subtab{background:none;border:none;border-bottom:2px solid transparent;color:var(--muted);font-family:inherit;font-size:.72rem;font-weight:600;padding:.5rem .75rem;cursor:pointer;letter-spacing:.02em;margin-bottom:-1px;transition:color .15s}
+.subtab:hover{color:var(--text)}
+.subtab.active{color:var(--text);border-bottom-color:var(--orange)}
+.subpane{display:none}
+.subpane.active{display:block;animation:fadeIn .25s ease}
+
+/* Stat chips */
+.stat-row{display:flex;flex-wrap:wrap;gap:.5rem;margin-bottom:1rem}
+.stat-chip{background:var(--card2);border:1px solid var(--border);border-radius:.4rem;padding:.5rem .7rem;min-width:7.5rem}
+.stat-chip .k{font-size:.58rem;text-transform:uppercase;letter-spacing:.06em;color:var(--dim);margin-bottom:.2rem}
+.stat-chip .v{font-family:'JetBrains Mono',monospace;font-size:.82rem;font-weight:600;color:var(--text)}
+
+/* Key-value blocks */
+.kv{display:flex;gap:.6rem;font-size:.75rem;padding:.32rem 0;border-bottom:1px solid #111827}
+.kv:last-child{border-bottom:none}
+.kv .kvk{flex:0 0 8.5rem;color:var(--dim);font-weight:600}
+.kv .kvv{flex:1;color:var(--muted)}
+
+/* Ordered steps */
+.steps{counter-reset:step;margin:.2rem 0}
+.step{display:flex;gap:.6rem;margin-bottom:.55rem;font-size:.78rem;color:var(--muted);line-height:1.55}
+.step::before{counter-increment:step;content:counter(step);flex-shrink:0;width:1.35rem;height:1.35rem;border-radius:50%;background:var(--card);border:1px solid var(--border2);color:var(--text);font-size:.64rem;font-weight:700;display:flex;align-items:center;justify-content:center;font-family:'JetBrains Mono',monospace}
+
+/* Watch-outs */
+.watch{display:flex;gap:.45rem;margin-bottom:.4rem;font-size:.75rem;color:var(--muted);align-items:flex-start;line-height:1.5}
+.watch .wi{flex-shrink:0;margin-top:.02rem;color:var(--amber)}
+
+/* Case study */
+.case{background:var(--card);border:1px solid var(--border2);border-left:3px solid var(--orange);border-radius:.4rem;padding:.85rem 1rem;margin-top:.8rem}
+.case-h{font-size:.82rem;font-weight:700;color:var(--text);margin-bottom:.35rem}
+.case-o{font-size:.73rem;color:var(--green);margin-top:.45rem;font-weight:500}
+
+/* Source links */
+.src{display:block;font-size:.75rem;color:var(--blue);text-decoration:none;padding:.35rem 0;border-bottom:1px solid #111827}
+.src:hover{text-decoration:underline}
+.src:last-child{border-bottom:none}
+.src .sd{color:var(--dim);font-size:.66rem;word-break:break-all}
+
+/* Empty hint */
+.empty{font-size:.74rem;color:var(--dim);font-style:italic;padding:.4rem 0}
+
+/* Tags */
+.tag{display:inline-block;padding:.12rem .45rem;border-radius:.2rem;font-size:.62rem;font-weight:600;letter-spacing:.03em;margin-right:.2rem;margin-bottom:.2rem}
+
+/* Examples table */
+.ex-table{width:100%;border-collapse:collapse;font-size:.75rem;margin-top:.4rem}
+.ex-table th{text-align:left;color:var(--dim);font-weight:600;font-size:.65rem;text-transform:uppercase;letter-spacing:.06em;padding:.3rem .5rem;border-bottom:1px solid var(--border)}
+.ex-table td{padding:.4rem .5rem;border-bottom:1px solid #111827;color:var(--muted);vertical-align:top}
+.ex-table td:first-child{color:var(--text);font-weight:600}
+.ex-table tr:last-child td{border-bottom:none}
+
+/* Pros/cons */
+.pc-item{display:flex;gap:.4rem;margin-bottom:.3rem;font-size:.75rem;color:var(--muted);align-items:flex-start}
+.pc-icon{flex-shrink:0;margin-top:.15rem;font-size:.7rem}
+
+/* Flow text */
+.flow{font-size:.78rem;color:var(--muted);line-height:1.7;margin-bottom:.5rem}
+.flow strong{color:var(--text)}
+.flow .hl{color:var(--green);font-weight:600}
+.flow .hlr{color:var(--red);font-weight:600}
+.flow .hlb{color:var(--blue);font-weight:600}
+.flow .hlp{color:var(--purple);font-weight:600}
+
+/* Capital stack visual */
+.cap-stack{display:flex;flex-direction:column;gap:4px;margin:.4rem 0}
+.cap-layer{display:flex;align-items:center;gap:.5rem;padding:.35rem .6rem;border-radius:.3rem;font-size:.72rem}
+.cap-layer .label{flex:1;color:var(--text);font-weight:500}
+.cap-layer .val{font-family:'JetBrains Mono',monospace;font-size:.7rem;font-weight:600}
+
+/* Footer */
+.footer{margin-top:2rem;padding-top:1rem;border-top:1px solid var(--border);font-size:.68rem;color:var(--dim);line-height:1.6}
+</style>
+</head>
+<body>
+<div class="wrap">
+
+<div class="hdr-tag">Reinsurance Legal Structures</div>
+<h1 class="hdr-title">10 Offshore L&amp;A Reinsurance Structures</h1>
+<p class="hdr-sub">
+A visual taxonomy of the most common legal/financing architectures — from simple domestic captives (complexity 2/10) to fully layered PE-backed multi-entity platforms (10/10). Each structure shows the entity flow diagram, treaty type, capital stack, jurisdiction, live deal examples, and pros/cons. Click any card to expand.
+</p>
+
+<div id="structures"></div>
+
+<div class="footer">
+Illustrative representations for educational purposes. Entity structures simplified for clarity — actual implementations involve additional legal, tax, and regulatory layers.<br>
+Sources: SOA/EY "International Reinsurance Landscape" (Feb 2026), AM Best affiliated investment reports, BMA annual reports, SEC/NAIC filings, company investor presentations. Deal figures as of latest public disclosure.
+</div>
+</div>
+
+<script>
+const S = [
+// ════════════════════════════════════════
+// 1
+{
+  num: "01", title: "Simple Affiliated Domestic Reinsurance",
+  complexity: 2, color: "#60A5FA",
+  treaty: "Quota Share Coinsurance / ModCo", jurisdiction: "Same state as cedant",
+  framework: "US Statutory / Full RBC", category: "Domestic",
+  desc: "Wholly-owned reinsurance subsidiary under standard state insurance regulation. Business cedes via quota share pool or coinsurance. Both entities hold full US statutory reserves and file RBC. No offshore arbitrage — purely for risk pooling and capital optimization within a domestic group.",
+  diagram: `<svg viewBox="0 0 680 140" width="100%">
+    <rect x="20" y="10" width="180" height="50" rx="5" fill="#0F2A4A" stroke="#2563EB" stroke-width="1.2"/>
+    <text x="110" y="30" text-anchor="middle" fill="#93C5FD" font-size="10" font-weight="600" font-family="DM Sans">US HoldCo</text>
+    <text x="110" y="44" text-anchor="middle" fill="#4B5563" font-size="8" font-family="DM Sans">Parent Group</text>
+    <line x1="110" y1="60" x2="110" y2="80" stroke="#4B5563" stroke-width="1" marker-end="url(#ah)"/>
+    <line x1="110" y1="60" x2="430" y2="80" stroke="#4B5563" stroke-width="1" marker-end="url(#ah)"/>
+    <rect x="20" y="82" width="180" height="50" rx="5" fill="#0F2A4A" stroke="#2563EB" stroke-width="1.2"/>
+    <text x="110" y="102" text-anchor="middle" fill="#93C5FD" font-size="10" font-weight="600" font-family="DM Sans">US Life Insurer</text>
+    <text x="110" y="116" text-anchor="middle" fill="#4B5563" font-size="8" font-family="DM Sans">Ceding Co · State Licensed</text>
+    <line x1="200" y1="107" x2="340" y2="107" stroke="#60A5FA" stroke-width="1.2" stroke-dasharray="4,3" marker-end="url(#ah)"/>
+    <text x="270" y="100" text-anchor="middle" fill="#7B8BA5" font-size="8" font-family="DM Sans">QS / Coinsurance</text>
+    <rect x="340" y="82" width="200" height="50" rx="5" fill="#1A1A2E" stroke="#7C3AED" stroke-width="1.2"/>
+    <text x="440" y="102" text-anchor="middle" fill="#A78BFA" font-size="10" font-weight="600" font-family="DM Sans">Affiliated Reinsurer</text>
+    <text x="440" y="116" text-anchor="middle" fill="#4B5563" font-size="8" font-family="DM Sans">Same State · Full US Stat/RBC</text>
+    <defs><marker id="ah" markerWidth="7" markerHeight="5" refX="7" refY="2.5" orient="auto"><polygon points="0 0,7 2.5,0 5" fill="#4B5563"/></marker></defs>
+  </svg>`,
+  capStack: [
+    { label: "Common equity from parent", val: "Primary", bg: "#1E3A5F", color: "#60A5FA" },
+    { label: "Retained earnings", val: "Ongoing", bg: "#1E3A5F", color: "#60A5FA" },
+    { label: "Surplus notes (optional)", val: "Variable", bg: "#172040", color: "#7B8BA5" },
+  ],
+  examples: [
+    ["Prudential PICA", "Domestic coinsurance", "~$144B in-force", "Intercompany pool"],
+    ["Most large US groups", "QS pooling arrangement", "Varies", "Risk consolidation"],
+  ],
+  pros: ["Full regulatory transparency — no 'shadow insurance' perception","No collateral, LOC, or trust required","No BEAT, FET, or CFC exposure","Simple governance — single regulatory regime"],
+  cons: ["No reserve arbitrage — both entities under US Stat","Highest capital requirements of any structure","Limited investment flexibility vs. offshore","State premium taxes may apply on ceded premiums"],
+},
+// ════════════════════════════════════════
+// 2
+{
+  num: "02", title: "US Life Insurer Captive (Reg XXX / AXXX)",
+  complexity: 4, color: "#2DD4BF",
+  treaty: "Coinsurance (dominant), ModCo, YRT", jurisdiction: "Vermont, Arizona, South Carolina, Iowa",
+  framework: "Captive Statutory + Permitted Practices", category: "Domestic Captive",
+  desc: "Created to address reserve redundancy under Regulation XXX (term) and AG 38/AXXX (UL w/ secondary guarantees). Ceding company transfers excess reserves to affiliated captive that holds lower-quality or synthetic capital. Post-PBR (2020), new business incentive has largely evaporated — but $364B of grandfathered structures remain in force.",
+  diagram: `<svg viewBox="0 0 680 160" width="100%">
+    <rect x="20" y="10" width="200" height="48" rx="5" fill="#0F2A4A" stroke="#2563EB" stroke-width="1.2"/>
+    <text x="120" y="30" text-anchor="middle" fill="#93C5FD" font-size="10" font-weight="600" font-family="DM Sans">US Life Insurer</text>
+    <text x="120" y="43" text-anchor="middle" fill="#4B5563" font-size="8" font-family="DM Sans">Issues Term / UL · State Regulated</text>
+    <line x1="120" y1="58" x2="120" y2="78" stroke="#2DD4BF" stroke-width="1.2" marker-end="url(#ah)"/>
+    <text x="132" y="72" fill="#7B8BA5" font-size="7.5" font-family="DM Sans">Cede redundant reserves</text>
+    <rect x="20" y="80" width="200" height="48" rx="5" fill="#0E1A29" stroke="#2DD4BF" stroke-width="1.2"/>
+    <text x="120" y="100" text-anchor="middle" fill="#2DD4BF" font-size="10" font-weight="600" font-family="DM Sans">Captive Reinsurer</text>
+    <text x="120" y="113" text-anchor="middle" fill="#4B5563" font-size="8" font-family="DM Sans">Vermont / Arizona · Permitted Practices</text>
+    <line x1="220" y1="104" x2="340" y2="104" stroke="#FBBF24" stroke-width="1" stroke-dasharray="4,3" marker-end="url(#ah)"/>
+    <text x="280" y="97" text-anchor="middle" fill="#7B8BA5" font-size="7.5" font-family="DM Sans">Capital support</text>
+    <rect x="340" y="55" width="180" height="80" rx="5" fill="#111827" stroke="#FBBF24" stroke-width="1"/>
+    <text x="430" y="75" text-anchor="middle" fill="#FBBF24" font-size="9" font-weight="600" font-family="DM Sans">Capital Sources</text>
+    <text x="430" y="92" text-anchor="middle" fill="#7B8BA5" font-size="8" font-family="DM Sans">Surplus notes · LOCs</text>
+    <text x="430" y="105" text-anchor="middle" fill="#7B8BA5" font-size="8" font-family="DM Sans">Credit-linked notes</text>
+    <text x="430" y="118" text-anchor="middle" fill="#7B8BA5" font-size="8" font-family="DM Sans">Parental guarantees</text>
+    <rect x="540" y="10" width="130" height="36" rx="4" fill="#0C1524" stroke="#334155" stroke-width="1"/>
+    <text x="605" y="25" text-anchor="middle" fill="#F87171" font-size="8" font-weight="600" font-family="DM Sans">Shadow Insurance</text>
+    <text x="605" y="38" text-anchor="middle" fill="#4B5563" font-size="7" font-family="DM Sans">$364B (2012 peak)</text>
+    <defs><marker id="ah" markerWidth="7" markerHeight="5" refX="7" refY="2.5" orient="auto"><polygon points="0 0,7 2.5,0 5" fill="#4B5563"/></marker></defs>
+  </svg>`,
+  capStack: [
+    { label: "Surplus notes (equity for SAP)", val: "$3.0B (Pru)", bg: "#1A2E3E", color: "#2DD4BF" },
+    { label: "Bank letters of credit", val: "$900M (LNC)", bg: "#1A2E3E", color: "#2DD4BF" },
+    { label: "Credit-linked notes / SPV", val: "Variable", bg: "#172040", color: "#7B8BA5" },
+    { label: "Parental guarantees", val: "Backstop", bg: "#172040", color: "#7B8BA5" },
+  ],
+  examples: [
+    ["Prudential", "PARCC, UPARC + 4 others", "Arizona", "Term, UL, VA"],
+    ["Lincoln National", "Lincoln Re VT I–VII, SC, LNBAR", "VT, SC, Barbados", "$582M ACL reduction"],
+    ["MetLife", "Exeter Reassurance (dissolved 2014)", "Cayman→Delaware", "VA guarantees"],
+  ],
+  pros: ["Addresses formulaic reserve redundancy for XXX/AXXX products","Synthetic capital (LOCs, surplus notes) cheaper than equity","Enables competitive pricing for term and UL products","Grandfathered structures locked in favorable economics"],
+  cons: ["'Shadow insurance' perception — heavy regulatory/media scrutiny","Post-PBR (2020): no new-business economic incentive","AG 48 / Model #787 imposed uniform standards — reduced flexibility","Complex capital maintenance: LOC renewals, surplus note servicing"],
+},
+// ════════════════════════════════════════
+// 3
+{
+  num: "03", title: "Offshore Affiliated Reinsurer (Bermuda / Cayman)",
+  complexity: 5, color: "#A78BFA",
+  treaty: "ModCo + Co-FWH (dominant)", jurisdiction: "Bermuda Class E (80%+), Cayman Class D (~10%)",
+  framework: "BMA EBS / BSCR or CIMA", category: "Offshore Affiliated",
+  desc: "The workhorse structure. US insurer establishes a wholly-owned Bermuda Class E or Cayman Class D reinsurer, cedes asset-intensive business via ModCo/FWH. Assets stay on US books but economic risk transfers offshore. The reserve arbitrage between US statutory (AG 33/35) and BMA EBS (BEL + Risk Margin) is the core value driver — typically 10–14% reserve release.",
+  diagram: `<svg viewBox="0 0 700 160" width="100%">
+    <rect x="20" y="10" width="200" height="48" rx="5" fill="#0F2A4A" stroke="#2563EB" stroke-width="1.2"/>
+    <text x="120" y="30" text-anchor="middle" fill="#93C5FD" font-size="10" font-weight="600" font-family="DM Sans">US Life Insurer</text>
+    <text x="120" y="43" text-anchor="middle" fill="#4B5563" font-size="8" font-family="DM Sans">Ceding Co · State Regulated</text>
+    <line x1="220" y1="34" x2="340" y2="34" stroke="#A78BFA" stroke-width="1.2" marker-end="url(#ah)"/>
+    <text x="280" y="27" text-anchor="middle" fill="#7B8BA5" font-size="8" font-family="DM Sans">ModCo / Co-FWH</text>
+    <rect x="340" y="10" width="220" height="48" rx="5" fill="#1A1A2E" stroke="#7C3AED" stroke-width="1.2"/>
+    <text x="450" y="30" text-anchor="middle" fill="#A78BFA" font-size="10" font-weight="600" font-family="DM Sans">Bermuda Reinsurer</text>
+    <text x="450" y="43" text-anchor="middle" fill="#4B5563" font-size="8" font-family="DM Sans">Class E · EBS/BSCR · $8M min cap</text>
+    <rect x="20" y="80" width="200" height="40" rx="4" fill="#111827" stroke="#334155" stroke-width="1"/>
+    <text x="120" y="96" text-anchor="middle" fill="#60A5FA" font-size="8.5" font-weight="600" font-family="DM Sans">Assets stay on US books</text>
+    <text x="120" y="110" text-anchor="middle" fill="#4B5563" font-size="7.5" font-family="DM Sans">FWH = implicit collateral</text>
+    <rect x="340" y="80" width="220" height="40" rx="4" fill="#0C1524" stroke="#34D399" stroke-width="1"/>
+    <text x="450" y="96" text-anchor="middle" fill="#34D399" font-size="8.5" font-weight="600" font-family="DM Sans">Reserve Arbitrage</text>
+    <text x="450" y="110" text-anchor="middle" fill="#4B5563" font-size="7.5" font-family="DM Sans">US Stat $10.5B → EBS $9.1B = $1.4B freed</text>
+    <rect x="580" y="10" width="110" height="48" rx="4" fill="#111827" stroke="#FBBF24" stroke-width="1"/>
+    <text x="635" y="28" text-anchor="middle" fill="#FBBF24" font-size="8" font-weight="600" font-family="DM Sans">Reg 114 Trust</text>
+    <text x="635" y="40" text-anchor="middle" fill="#4B5563" font-size="7" font-family="DM Sans">If Cayman: 100%</text>
+    <text x="635" y="50" text-anchor="middle" fill="#4B5563" font-size="7" font-family="DM Sans">Bermuda: zero</text>
+    <defs><marker id="ah" markerWidth="7" markerHeight="5" refX="7" refY="2.5" orient="auto"><polygon points="0 0,7 2.5,0 5" fill="#4B5563"/></marker></defs>
+  </svg>`,
+  capStack: [
+    { label: "Equity from parent HoldCo", val: "Primary", bg: "#1E1A3E", color: "#A78BFA" },
+    { label: "Retained earnings (spread income)", val: "Ongoing", bg: "#1E1A3E", color: "#A78BFA" },
+    { label: "Bermuda: zero collateral (reciprocal)", val: "0%", bg: "#0E2A1E", color: "#34D399" },
+    { label: "Cayman: full collateral (unauthorized)", val: "100%", bg: "#2E1A2E", color: "#F87171" },
+  ],
+  examples: [
+    ["80+ Bermuda Class E entities", "BMA-regulated", "2024: 10 new licenses", "$708B total reserves"],
+    ["9 Cayman Class D entities", "CIMA-regulated", "Growing", "Principle-based capital"],
+  ],
+  pros: ["10–14% reserve release on FIA blocks (US Stat → EBS)","Bermuda reciprocal: zero collateral since Jan 2020","BMA matching adjustment reduces BEL by 30–80 bps","Well-established regulatory pathway — 80+ precedents"],
+  cons: ["Dual-regime reporting (US Stat + EBS)","Bermuda 15% CIT effective Jan 2025 for large MNEs","Cayman requires 100% collateral (not qualified/reciprocal)","BMA enhanced scrutiny: lapse cost, liquidity stress, prior approval"],
+},
+// ════════════════════════════════════════
+// 4
+{
+  num: "04", title: "PE-Backed Affiliated Reinsurer + Asset Manager",
+  complexity: 8, color: "#FB923C",
+  treaty: "ModCo + Co-FWH (combined)", jurisdiction: "Bermuda (dominant) + US OpCo states (Iowa, MA, IN, CT)",
+  framework: "US Stat (OpCo) + EBS/BSCR (Bermuda)", category: "PE-Backed",
+  desc: "The Apollo/Athene model. PE firm acquires or builds an insurance platform, cedes liabilities offshore via ModCo/FWH, and manages supporting assets through its affiliated AM arm — earning management fees, origination fees, and performance allocations on top of underwriting margins. The four major platforms control $800B+ combined AUM.",
+  diagram: `<svg viewBox="0 0 720 200" width="100%">
+    <rect x="240" y="5" width="200" height="40" rx="5" fill="#2D1B4E" stroke="#A855F7" stroke-width="1.2"/>
+    <text x="340" y="22" text-anchor="middle" fill="#C4B5FD" font-size="10" font-weight="700" font-family="DM Sans">PE Fund / Asset Manager</text>
+    <text x="340" y="36" text-anchor="middle" fill="#4B5563" font-size="7.5" font-family="DM Sans">Apollo · KKR · Blackstone · Brookfield · Carlyle</text>
+    <line x1="280" y1="45" x2="140" y2="70" stroke="#4B5563" stroke-width="1" marker-end="url(#ah)"/>
+    <line x1="400" y1="45" x2="500" y2="70" stroke="#4B5563" stroke-width="1" marker-end="url(#ah)"/>
+    <line x1="340" y1="45" x2="620" y2="70" stroke="#34D399" stroke-width="1" marker-end="url(#ah)"/>
+    <rect x="40" y="72" width="200" height="44" rx="5" fill="#0F2A4A" stroke="#2563EB" stroke-width="1.2"/>
+    <text x="140" y="90" text-anchor="middle" fill="#93C5FD" font-size="9.5" font-weight="600" font-family="DM Sans">US OpCo (Life Insurer)</text>
+    <text x="140" y="104" text-anchor="middle" fill="#4B5563" font-size="7.5" font-family="DM Sans">Iowa / MA / IN · Issues FIAs</text>
+    <line x1="240" y1="94" x2="390" y2="94" stroke="#A78BFA" stroke-width="1.2" marker-end="url(#ah)"/>
+    <text x="315" y="87" text-anchor="middle" fill="#7B8BA5" font-size="7.5" font-family="DM Sans">ModCo/FWH 80–100%</text>
+    <rect x="390" y="72" width="210" height="44" rx="5" fill="#1A1A2E" stroke="#7C3AED" stroke-width="1.2"/>
+    <text x="495" y="90" text-anchor="middle" fill="#A78BFA" font-size="9.5" font-weight="600" font-family="DM Sans">Offshore Reinsurer</text>
+    <text x="495" y="104" text-anchor="middle" fill="#4B5563" font-size="7.5" font-family="DM Sans">Bermuda Class E · EBS/BSCR</text>
+    <rect x="560" y="72" width="150" height="44" rx="5" fill="#0E2A1E" stroke="#34D399" stroke-width="1.2"/>
+    <text x="635" y="90" text-anchor="middle" fill="#34D399" font-size="9.5" font-weight="600" font-family="DM Sans">Affiliated AM</text>
+    <text x="635" y="104" text-anchor="middle" fill="#4B5563" font-size="7.5" font-family="DM Sans">IMA · 30–50 bps fees</text>
+    <rect x="40" y="135" width="200" height="36" rx="4" fill="#111827" stroke="#FB923C" stroke-width="1"/>
+    <text x="140" y="150" text-anchor="middle" fill="#FB923C" font-size="8" font-weight="600" font-family="DM Sans">IMO Distribution</text>
+    <text x="140" y="163" text-anchor="middle" fill="#4B5563" font-size="7" font-family="DM Sans">Capital-light agent channel</text>
+    <rect x="390" y="135" width="210" height="36" rx="4" fill="#111827" stroke="#F472B6" stroke-width="1"/>
+    <text x="495" y="150" text-anchor="middle" fill="#F472B6" font-size="8" font-weight="600" font-family="DM Sans">Sidecar (ACRA / Ivy)</text>
+    <text x="495" y="163" text-anchor="middle" fill="#4B5563" font-size="7" font-family="DM Sans">Third-party capital · Retrocession</text>
+    <line x1="495" y1="116" x2="495" y2="135" stroke="#F472B6" stroke-width="1" stroke-dasharray="3,2" marker-end="url(#ah)"/>
+    <defs><marker id="ah" markerWidth="7" markerHeight="5" refX="7" refY="2.5" orient="auto"><polygon points="0 0,7 2.5,0 5" fill="#4B5563"/></marker></defs>
+  </svg>`,
+  capStack: [
+    { label: "PE fund equity (seed + follow-on)", val: "$1B–$10B+", bg: "#2D1B3E", color: "#C4B5FD" },
+    { label: "HoldCo senior unsecured bonds", val: "$2B–$5B", bg: "#1E1A3E", color: "#A78BFA" },
+    { label: "OpCo surplus notes", val: "Variable", bg: "#1E3A5F", color: "#60A5FA" },
+    { label: "Retained spread income (offshore)", val: "Ongoing", bg: "#0E2A1E", color: "#34D399" },
+    { label: "Sidecar third-party capital", val: "$1B–$6B", bg: "#2E1A2E", color: "#F472B6" },
+  ],
+  examples: [
+    ["Apollo / Athene", "$192.4B ModCo+FWH ceded", "$440B AUM", "RBC 419%, BSCR 243%"],
+    ["KKR / Global Atlantic", "$219B AUM", "GALIC, Forethought, Accordia", "AM Best A (Excellent)"],
+    ["Blackstone / F&G", "$52.5B AUM", "FGLIC (Iowa), F&G Life Re (BDA)", "AM only — not equity owner"],
+    ["Brookfield / AEL", "$120B+ AUM", "$4.3B acquisition (May 2024)", "50% IF + 70% flow to Freestone"],
+    ["Carlyle / Fortitude Re", "$105B AUM", "$37B from AIG + Lincoln + Pru", "Capital-light advisory model"],
+    ["Sixth Street / Talcott", "~$140B liabilities managed", "Hartford legacy run-off", "Allianz $35B, Principal $25B"],
+  ],
+  pros: ["Full value chain capture: underwriting + reserve arb + AM fees + spread","Asset management alpha: 80–200 bps incremental yield","Sidecar capacity for opportunistic block deals","$800B+ combined AUM demonstrates market acceptance"],
+  cons: ["NAIC identified 137 PE-owned insurers under enhanced scrutiny","Affiliated AM creates conflicts of interest (valuation, liquidity)","98% of affiliated bonds are private placements — visibility concerns","777 Re failure: catastrophic example of affiliated asset self-dealing"],
+},
+// ════════════════════════════════════════
+// 5
+{
+  num: "05", title: "Third-Party Offshore Reinsurance",
+  complexity: 5, color: "#22D3EE",
+  treaty: "QS, Excess-of-Loss, Coinsurance, ModCo", jurisdiction: "Bermuda, Barbados, Luxembourg",
+  framework: "Multiple (varies by entity)", category: "Third-Party",
+  desc: "Professional third-party reinsurers maintain offshore entities for tax efficiency, capital optimization, and regulatory flexibility — but independently of any PE asset management relationship. Business model centers on underwriting profit and traditional investment returns.",
+  diagram: `<svg viewBox="0 0 680 120" width="100%">
+    <rect x="20" y="10" width="200" height="44" rx="5" fill="#0F2A4A" stroke="#2563EB" stroke-width="1.2"/>
+    <text x="120" y="28" text-anchor="middle" fill="#93C5FD" font-size="10" font-weight="600" font-family="DM Sans">US Ceding Company</text>
+    <text x="120" y="42" text-anchor="middle" fill="#4B5563" font-size="8" font-family="DM Sans">Any licensed life insurer</text>
+    <line x1="220" y1="32" x2="340" y2="32" stroke="#22D3EE" stroke-width="1.2" marker-end="url(#ah)"/>
+    <text x="280" y="25" text-anchor="middle" fill="#7B8BA5" font-size="8" font-family="DM Sans">QS / Coinsurance / ModCo</text>
+    <rect x="340" y="10" width="220" height="44" rx="5" fill="#0E1A29" stroke="#22D3EE" stroke-width="1.2"/>
+    <text x="450" y="28" text-anchor="middle" fill="#22D3EE" font-size="10" font-weight="600" font-family="DM Sans">Third-Party Reinsurer</text>
+    <text x="450" y="42" text-anchor="middle" fill="#4B5563" font-size="8" font-family="DM Sans">RGA · Hannover · Swiss Re · Monument</text>
+    <rect x="340" y="70" width="220" height="38" rx="4" fill="#111827" stroke="#334155" stroke-width="1"/>
+    <text x="450" y="86" text-anchor="middle" fill="#7B8BA5" font-size="8" font-weight="600" font-family="DM Sans">Bermuda / Barbados / Luxembourg</text>
+    <text x="450" y="99" text-anchor="middle" fill="#4B5563" font-size="7.5" font-family="DM Sans">Underwriting profit model · No PE AM fees</text>
+    <defs><marker id="ah" markerWidth="7" markerHeight="5" refX="7" refY="2.5" orient="auto"><polygon points="0 0,7 2.5,0 5" fill="#4B5563"/></marker></defs>
+  </svg>`,
+  capStack: [
+    { label: "Reinsurer's own capital + retained earnings", val: "Primary", bg: "#0E1A29", color: "#22D3EE" },
+    { label: "AA-/A+ rated parent support", val: "Guarantee", bg: "#0E1A29", color: "#22D3EE" },
+    { label: "Sidecar (Ruby Re for RGA)", val: "$480M", bg: "#172040", color: "#7B8BA5" },
+  ],
+  examples: [
+    ["RGA Americas Re (BDA)", "Bermuda Class E", "$480M Ruby Re sidecar", "€1.4B Monument block"],
+    ["Hannover Re (BDA)", "Class E · 953(d) elected", "Structure-agnostic", "AA- (S&P)"],
+    ["Swiss Re", "NY, Luxembourg, BDA SPIs", "Vita Capital cat bonds", "Life Capital disbanded"],
+    ["Monument Re", "Bermuda Class E (2016)", "Multi-subsidiary EU/Asia", "Acquisition + reinsurance"],
+  ],
+  pros: ["Speed of implementation — leverage existing infrastructure","No affiliated AM conflicts — pure underwriting model","Strong credit ratings (AA-/A+) reduce counterparty concerns","Structure-agnostic: QS, excess, notes, derivatives, securitization"],
+  cons: ["Profit sharing — ceding co relinquishes future economics","Counterparty risk if reinsurer can't meet obligations","Less investment flexibility than PE-backed platforms","Recapture risk: forced unwind transfers illiquid assets back"],
+},
+// ════════════════════════════════════════
+// 6
+{
+  num: "06", title: "Sidecar / Co-Investment Vehicle",
+  complexity: 7, color: "#F472B6",
+  treaty: "QS (dominant), Forward-Flow, ModCo/FWH variants", jurisdiction: "Bermuda Class E / Class C",
+  framework: "BMA EBS/BSCR", category: "Sidecar",
+  desc: "Off-balance-sheet vehicles accessing third-party institutional capital — sovereign wealth funds, pensions, endowments — for underwriting capacity without equity dilution. Reserves ceded to sidecars nearly tripled between 2021–2023 to ~$55B. The sidecar market has grown 183% since 2023.",
+  diagram: `<svg viewBox="0 0 700 160" width="100%">
+    <rect x="20" y="10" width="190" height="44" rx="5" fill="#0F2A4A" stroke="#2563EB" stroke-width="1.2"/>
+    <text x="115" y="28" text-anchor="middle" fill="#93C5FD" font-size="9.5" font-weight="600" font-family="DM Sans">Sponsor (Insurer/PE)</text>
+    <text x="115" y="42" text-anchor="middle" fill="#4B5563" font-size="7.5" font-family="DM Sans">15–40% equity · 100% voting</text>
+    <line x1="210" y1="32" x2="320" y2="32" stroke="#F472B6" stroke-width="1.2" marker-end="url(#ah)"/>
+    <text x="265" y="25" text-anchor="middle" fill="#7B8BA5" font-size="7.5" font-family="DM Sans">Quota Share / Flow</text>
+    <rect x="320" y="10" width="210" height="44" rx="5" fill="#2E1A2E" stroke="#F472B6" stroke-width="1.2"/>
+    <text x="425" y="28" text-anchor="middle" fill="#F472B6" font-size="9.5" font-weight="600" font-family="DM Sans">Sidecar Vehicle</text>
+    <text x="425" y="42" text-anchor="middle" fill="#4B5563" font-size="7.5" font-family="DM Sans">Bermuda Class E/C · Shared equity</text>
+    <rect x="550" y="10" width="140" height="44" rx="5" fill="#111827" stroke="#FBBF24" stroke-width="1"/>
+    <text x="620" y="28" text-anchor="middle" fill="#FBBF24" font-size="9.5" font-weight="600" font-family="DM Sans">3rd-Party Investors</text>
+    <text x="620" y="42" text-anchor="middle" fill="#4B5563" font-size="7.5" font-family="DM Sans">SWFs · Pensions · 60–85% equity</text>
+    <line x1="530" y1="32" x2="550" y2="32" stroke="#FBBF24" stroke-width="1" marker-end="url(#ah)"/>
+    <rect x="320" y="75" width="210" height="44" rx="4" fill="#111827" stroke="#34D399" stroke-width="1"/>
+    <text x="425" y="93" text-anchor="middle" fill="#34D399" font-size="8.5" font-weight="600" font-family="DM Sans">PE Asset Manager</text>
+    <text x="425" y="107" text-anchor="middle" fill="#4B5563" font-size="7.5" font-family="DM Sans">Mgmt fees + carried interest</text>
+    <line x1="425" y1="54" x2="425" y2="75" stroke="#34D399" stroke-width="1" stroke-dasharray="3,2" marker-end="url(#ah)"/>
+    <rect x="20" y="75" width="190" height="44" rx="4" fill="#0C1524" stroke="#334155" stroke-width="1"/>
+    <text x="115" y="91" text-anchor="middle" fill="#FB923C" font-size="8" font-weight="600" font-family="DM Sans">~$55B reserves ceded</text>
+    <text x="115" y="106" text-anchor="middle" fill="#4B5563" font-size="7.5" font-family="DM Sans">183% growth since 2023</text>
+    <defs><marker id="ah" markerWidth="7" markerHeight="5" refX="7" refY="2.5" orient="auto"><polygon points="0 0,7 2.5,0 5" fill="#4B5563"/></marker></defs>
+  </svg>`,
+  capStack: [
+    { label: "Sponsor equity (15–40%)", val: "$300M–$2B", bg: "#2E1A2E", color: "#F472B6" },
+    { label: "Third-party investor equity (60–85%)", val: "$700M–$5B", bg: "#2A2A1A", color: "#FBBF24" },
+    { label: "Debt facility (e.g., Deutsche Bank)", val: "Variable", bg: "#172040", color: "#7B8BA5" },
+    { label: "AM fees to PE sponsor", val: "30–50 bps", bg: "#0E2A1E", color: "#34D399" },
+  ],
+  examples: [
+    ["ACRA 1 & 2 (Apollo)", "~$6B third-party", "Bermuda Class C", "ALRe 37% econ / 100% vote"],
+    ["Ivy Re 1 & 2 (KKR/GA)", "$6B+ committed", "Japan Post $2B anchor", "$4.8B AXA China deal"],
+    ["Sconset Re (Allianz/PIMCO)", "$4B block + $5-10B flow", "Dec 2024", "PIMCO manages assets"],
+    ["Chariot Re (MetLife/GA)", "$1B+ equity", "H1 2025", "MetLife + GA ~15% each"],
+    ["Ruby Re (RGA)", "$480M after 2 rounds", "2023", "First trad reinsurer sidecar"],
+    ["Fort Greene Re (F&G/BX)", "$1B (Blackstone funds)", "2025", "Forward-flow on FIA"],
+    ["FCA Re (Carlyle/Fortitude)", "$700M+ deployable", "2025", "Carlyle, T&D, AB, Shinhan"],
+  ],
+  pros: ["Access institutional capital without equity dilution","Fee income for PE sponsor (mgmt + carry)","'Call option' capacity for large opportunistic block deals","Investor demand is surging — $55B+ and growing 183%"],
+  cons: ["Complex governance: sponsor control vs. investor economics","Profit sharing reduces sponsor's long-term returns","Counterparty risk — sidecar is independent reinsurer","9–24 month setup time; expensive legal/tax structuring"],
+},
+// ════════════════════════════════════════
+// 7
+{
+  num: "07", title: "ILS / Mortality Cat Bond Backed Reinsurance",
+  complexity: 7, color: "#A3E635",
+  treaty: "Indemnity retrocession from sponsor to SPV", jurisdiction: "Cayman (cat bonds), Bermuda (SPIs)",
+  framework: "Capital markets / Collateralized", category: "ILS",
+  desc: "Insurance-linked securities transform mortality, longevity, or reserve-financing risk into tradeable capital markets instruments. Orphaned SPV issues Rule 144A notes to institutional investors. If a trigger event occurs (e.g., mortality index >130% baseline), investors lose principal. Total outstanding ILS risk capital: $61.3B.",
+  diagram: `<svg viewBox="0 0 700 140" width="100%">
+    <rect x="20" y="10" width="180" height="44" rx="5" fill="#0F2A4A" stroke="#2563EB" stroke-width="1.2"/>
+    <text x="110" y="28" text-anchor="middle" fill="#93C5FD" font-size="9.5" font-weight="600" font-family="DM Sans">Sponsor (Insurer/Re)</text>
+    <text x="110" y="42" text-anchor="middle" fill="#4B5563" font-size="7.5" font-family="DM Sans">e.g., Swiss Re, MetLife</text>
+    <line x1="200" y1="32" x2="290" y2="32" stroke="#A3E635" stroke-width="1.2" marker-end="url(#ah)"/>
+    <text x="245" y="25" text-anchor="middle" fill="#7B8BA5" font-size="7.5" font-family="DM Sans">Retrocession</text>
+    <rect x="290" y="10" width="180" height="44" rx="5" fill="#1A2E1A" stroke="#A3E635" stroke-width="1.2"/>
+    <text x="380" y="28" text-anchor="middle" fill="#A3E635" font-size="9.5" font-weight="600" font-family="DM Sans">SPV (Orphaned)</text>
+    <text x="380" y="42" text-anchor="middle" fill="#4B5563" font-size="7.5" font-family="DM Sans">Cayman exempted co · STAR trust</text>
+    <line x1="470" y1="32" x2="530" y2="32" stroke="#FBBF24" stroke-width="1.2" marker-end="url(#ah)"/>
+    <text x="500" y="25" text-anchor="middle" fill="#7B8BA5" font-size="7.5" font-family="DM Sans">144A Notes</text>
+    <rect x="530" y="10" width="150" height="44" rx="5" fill="#111827" stroke="#FBBF24" stroke-width="1"/>
+    <text x="605" y="28" text-anchor="middle" fill="#FBBF24" font-size="9.5" font-weight="600" font-family="DM Sans">Capital Markets</text>
+    <text x="605" y="42" text-anchor="middle" fill="#4B5563" font-size="7.5" font-family="DM Sans">Pension/hedge/SWF investors</text>
+    <rect x="290" y="75" width="180" height="44" rx="4" fill="#111827" stroke="#334155" stroke-width="1"/>
+    <text x="380" y="91" text-anchor="middle" fill="#7B8BA5" font-size="8" font-weight="600" font-family="DM Sans">Collateral Trust</text>
+    <text x="380" y="106" text-anchor="middle" fill="#4B5563" font-size="7.5" font-family="DM Sans">AAA MMF / Govt securities</text>
+    <line x1="380" y1="54" x2="380" y2="75" stroke="#4B5563" stroke-width="1" stroke-dasharray="3,2" marker-end="url(#ah)"/>
+    <defs><marker id="ah" markerWidth="7" markerHeight="5" refX="7" refY="2.5" orient="auto"><polygon points="0 0,7 2.5,0 5" fill="#4B5563"/></marker></defs>
+  </svg>`,
+  capStack: [
+    { label: "Senior notes (Class A)", val: "LIBOR + 100–200 bps", bg: "#1A2E1A", color: "#A3E635" },
+    { label: "Mezzanine notes (Class B)", val: "LIBOR + 300–500 bps", bg: "#1A2E1A", color: "#A3E635" },
+    { label: "Junior/equity (Class C)", val: "Residual", bg: "#172040", color: "#7B8BA5" },
+    { label: "Collateral trust (AAA)", val: "Full notional", bg: "#172040", color: "#7B8BA5" },
+  ],
+  examples: [
+    ["Swiss Re Vita Capital I–VI", "Mortality cat bonds", "$400M (I), $120M (VI)", "VI: near-total COVID loss"],
+    ["XXX Securitizations (2003+)", "Reserve financing SPVs", "Vermont/Iowa → Cayman", "Monoline wraps pre-GFC"],
+    ["Longevity swaps", "UK pension schemes", "Growing market", "Swiss Re, Hannover"],
+  ],
+  pros: ["Access capital markets for uncorrelated insurance risk","Fully collateralized — zero counterparty risk for sponsor","Diversification benefit for capital markets investors","Off-balance-sheet: no consolidation for orphaned SPVs"],
+  cons: ["Life-specific ILS is niche — episodic issuance","Basis risk if trigger doesn't match actual losses","COVID demonstrated real loss potential (Vita VI)","Expensive structuring: legal, rating, placement costs"],
+},
+// ════════════════════════════════════════
+// 8
+{
+  num: "08", title: "SPV / Protected Cell / ISAC Structures",
+  complexity: 6, color: "#FBBF24",
+  treaty: "Coinsurance / ModCo from cedant to SPV/cell", jurisdiction: "Vermont (SPFCs), Bermuda (SPIs/ISACs), Cayman (SPCs)",
+  framework: "Varies by cell — EBS, CIMA, or US Stat", category: "SPV / Cell",
+  desc: "Special Purpose Reinsurance Vehicles (Model #789) are conduits channeling risk to capital markets — fully funded at inception. Protected Cell Companies (PCCs) house multiple segregated cells within a single legal entity. Agam Capital's ISAC model in Bermuda provides turnkey infrastructure for new reinsurers within segregated accounts.",
+  diagram: `<svg viewBox="0 0 700 160" width="100%">
+    <rect x="20" y="10" width="180" height="44" rx="5" fill="#0F2A4A" stroke="#2563EB" stroke-width="1.2"/>
+    <text x="110" y="28" text-anchor="middle" fill="#93C5FD" font-size="9.5" font-weight="600" font-family="DM Sans">US Ceding Insurer</text>
+    <text x="110" y="42" text-anchor="middle" fill="#4B5563" font-size="7.5" font-family="DM Sans">e.g., AEL, National Life/LSW</text>
+    <line x1="200" y1="32" x2="300" y2="32" stroke="#FBBF24" stroke-width="1.2" marker-end="url(#ah)"/>
+    <text x="250" y="25" text-anchor="middle" fill="#7B8BA5" font-size="7.5" font-family="DM Sans">Coinsurance / ModCo</text>
+    <rect x="300" y="5" width="240" height="56" rx="5" fill="#1A1A0E" stroke="#FBBF24" stroke-width="1.2"/>
+    <text x="420" y="22" text-anchor="middle" fill="#FBBF24" font-size="9.5" font-weight="600" font-family="DM Sans">ISAC / PCC / SPV</text>
+    <text x="420" y="36" text-anchor="middle" fill="#4B5563" font-size="7.5" font-family="DM Sans">e.g., Agam Bermuda ISAC Ltd.</text>
+    <text x="420" y="48" text-anchor="middle" fill="#4B5563" font-size="7" font-family="DM Sans">Class E · Turnkey ops/governance</text>
+    <rect x="310" y="80" width="100" height="36" rx="4" fill="#111827" stroke="#60A5FA" stroke-width="1"/>
+    <text x="360" y="95" text-anchor="middle" fill="#60A5FA" font-size="8" font-weight="600" font-family="DM Sans">Cell A</text>
+    <text x="360" y="108" text-anchor="middle" fill="#4B5563" font-size="7" font-family="DM Sans">AeBe (AEL FIA)</text>
+    <rect x="420" y="80" width="100" height="36" rx="4" fill="#111827" stroke="#A78BFA" stroke-width="1"/>
+    <text x="470" y="95" text-anchor="middle" fill="#A78BFA" font-size="8" font-weight="600" font-family="DM Sans">Cell B</text>
+    <text x="470" y="108" text-anchor="middle" fill="#4B5563" font-size="7" font-family="DM Sans">AeCe (NLG SPDA)</text>
+    <line x1="360" y1="61" x2="360" y2="80" stroke="#4B5563" stroke-width="1" marker-end="url(#ah)"/>
+    <line x1="470" y1="61" x2="470" y2="80" stroke="#4B5563" stroke-width="1" marker-end="url(#ah)"/>
+    <rect x="560" y="20" width="130" height="36" rx="4" fill="#111827" stroke="#34D399" stroke-width="1"/>
+    <text x="625" y="34" text-anchor="middle" fill="#34D399" font-size="8" font-weight="600" font-family="DM Sans">26North / Sponsor</text>
+    <text x="625" y="47" text-anchor="middle" fill="#4B5563" font-size="7" font-family="DM Sans">Josh Harris / PE capital</text>
+    <line x1="540" y1="38" x2="560" y2="38" stroke="#34D399" stroke-width="1" marker-end="url(#ah)"/>
+    <rect x="560" y="80" width="130" height="36" rx="4" fill="#0C1524" stroke="#F472B6" stroke-width="1"/>
+    <text x="625" y="94" text-anchor="middle" fill="#F472B6" font-size="8" font-weight="600" font-family="DM Sans">pALM Platform</text>
+    <text x="625" y="107" text-anchor="middle" fill="#4B5563" font-size="7" font-family="DM Sans">$250B liabilities analyzed</text>
+    <defs><marker id="ah" markerWidth="7" markerHeight="5" refX="7" refY="2.5" orient="auto"><polygon points="0 0,7 2.5,0 5" fill="#4B5563"/></marker></defs>
+  </svg>`,
+  capStack: [
+    { label: "Cell-specific equity from sponsor", val: "Per deal", bg: "#1A1A0E", color: "#FBBF24" },
+    { label: "Ring-fenced assets per cell", val: "Bankruptcy remote", bg: "#1A1A0E", color: "#FBBF24" },
+    { label: "ISAC ops/governance infrastructure", val: "Shared", bg: "#172040", color: "#7B8BA5" },
+  ],
+  examples: [
+    ["Agam / AeBe ISA", "~$4.3B AEL FIA reserves", "26North/Josh Harris", "Bermuda ISAC"],
+    ["Agam / AeCe ISA", "NLG/LSW SPDAs", "26North → $10B AUM", "+$4.9B (2025)"],
+    ["Agam pALM platform", "$250B liabilities analyzed", "Ex-Apollo + Aflac founders", "Turnkey for new entrants"],
+    ["Cayman SPCs", "Protected cell structure", "CIMA-regulated", "Multiple cell participants"],
+  ],
+  pros: ["Fast time-to-market via turnkey ISAC infrastructure","Bankruptcy-remote: ring-fenced assets per cell","Lower setup cost than standalone Class E license","Shared governance/compliance reduces operational burden"],
+  cons: ["Less control than wholly-owned entity","Cell structure unfamiliar to some regulators/rating agencies","Concentration risk: ISAC platform is single point of failure","Limited track record vs. standalone Class E structures"],
+},
+// ════════════════════════════════════════
+// 9
+{
+  num: "09", title: "HoldCo / MidCo / OpCo Multi-Entity Platform",
+  complexity: 9, color: "#C4B5FD",
+  treaty: "Multiple — ModCo, Co-FWH, Coinsurance layered", jurisdiction: "Delaware (HoldCo) + Iowa/MA/CT (OpCos) + Bermuda + Cayman",
+  framework: "US Stat + EBS + CIMA + Consolidated GAAP", category: "Institutional Platform",
+  desc: "Full PE institutional platform stacking multiple entity levels with distinct capital tranches. PE Fund → HoldCo → MidCo → US OpCos + Offshore Reinsurer + Sidecar + Asset Management Sub. Each entity faces different regulators. Athene's chain carries $30.6B gross regulatory capital; Iowa designated Apollo/Athene as an IAIG in Feb 2024.",
+  diagram: `<svg viewBox="0 0 720 210" width="100%">
+    <rect x="260" y="5" width="200" height="34" rx="4" fill="#2D1B4E" stroke="#A855F7" stroke-width="1.2"/>
+    <text x="360" y="25" text-anchor="middle" fill="#C4B5FD" font-size="9" font-weight="700" font-family="DM Sans">PE Fund / Asset Manager</text>
+    <line x1="360" y1="39" x2="360" y2="52" stroke="#4B5563" stroke-width="1" marker-end="url(#ah)"/>
+    <rect x="260" y="54" width="200" height="30" rx="4" fill="#111827" stroke="#6366F1" stroke-width="1"/>
+    <text x="360" y="73" text-anchor="middle" fill="#818CF8" font-size="8.5" font-weight="600" font-family="DM Sans">HoldCo (Delaware) — Sr Unsecured Debt</text>
+    <line x1="360" y1="84" x2="360" y2="97" stroke="#4B5563" stroke-width="1" marker-end="url(#ah)"/>
+    <rect x="260" y="99" width="200" height="30" rx="4" fill="#111827" stroke="#6366F1" stroke-width="1" stroke-dasharray="4,3"/>
+    <text x="360" y="118" text-anchor="middle" fill="#818CF8" font-size="8.5" font-weight="600" font-family="DM Sans">MidCo — Sub Debt · Tax Isolation</text>
+    <line x1="200" y1="114" x2="110" y2="147" stroke="#4B5563" stroke-width="1" marker-end="url(#ah)"/>
+    <line x1="360" y1="129" x2="360" y2="147" stroke="#4B5563" stroke-width="1" marker-end="url(#ah)"/>
+    <line x1="520" y1="114" x2="600" y2="147" stroke="#4B5563" stroke-width="1" marker-end="url(#ah)"/>
+    <rect x="20" y="149" width="180" height="38" rx="4" fill="#0F2A4A" stroke="#2563EB" stroke-width="1"/>
+    <text x="110" y="165" text-anchor="middle" fill="#93C5FD" font-size="8.5" font-weight="600" font-family="DM Sans">US OpCo 1 &amp; 2</text>
+    <text x="110" y="178" text-anchor="middle" fill="#4B5563" font-size="7" font-family="DM Sans">Licensed insurers · Surplus notes</text>
+    <rect x="260" y="149" width="200" height="38" rx="4" fill="#1A1A2E" stroke="#7C3AED" stroke-width="1"/>
+    <text x="360" y="165" text-anchor="middle" fill="#A78BFA" font-size="8.5" font-weight="600" font-family="DM Sans">Offshore Re (Bermuda E)</text>
+    <text x="360" y="178" text-anchor="middle" fill="#4B5563" font-size="7" font-family="DM Sans">EBS reserves · Contributed surplus</text>
+    <rect x="520" y="149" width="180" height="38" rx="4" fill="#0E2A1E" stroke="#34D399" stroke-width="1"/>
+    <text x="610" y="165" text-anchor="middle" fill="#34D399" font-size="8.5" font-weight="600" font-family="DM Sans">Asset Mgmt Sub + Sidecar</text>
+    <text x="610" y="178" text-anchor="middle" fill="#4B5563" font-size="7" font-family="DM Sans">IMA fees · Third-party capital</text>
+    <line x1="200" y1="168" x2="260" y2="168" stroke="#A78BFA" stroke-width="1" stroke-dasharray="3,2" marker-end="url(#ah)"/>
+    <text x="230" y="161" text-anchor="middle" fill="#7B8BA5" font-size="6.5" font-family="DM Sans">ModCo/FWH</text>
+    <defs><marker id="ah" markerWidth="7" markerHeight="5" refX="7" refY="2.5" orient="auto"><polygon points="0 0,7 2.5,0 5" fill="#4B5563"/></marker></defs>
+  </svg>`,
+  capStack: [
+    { label: "PE fund equity", val: "$5–20B", bg: "#2D1B3E", color: "#C4B5FD" },
+    { label: "HoldCo senior unsecured bonds", val: "$2–5B", bg: "#1E1A3E", color: "#818CF8" },
+    { label: "MidCo subordinated debt / pref shares", val: "Double leverage", bg: "#1E1A3E", color: "#818CF8" },
+    { label: "OpCo surplus notes", val: "Equity for SAP", bg: "#1E3A5F", color: "#60A5FA" },
+    { label: "Offshore Re contributed surplus", val: "From HoldCo", bg: "#1E1A3E", color: "#A78BFA" },
+    { label: "Sidecar third-party equity", val: "$1–6B per vehicle", bg: "#2E1A2E", color: "#F472B6" },
+  ],
+  examples: [
+    ["Apollo/Athene", "AHL→AARe→AAIA→AANY chain", "$30.6B reg capital", "IAIG designated Feb 2024"],
+    ["Brookfield/AEL", "BNRE→AEL→Freestone/NEnd→AEL Re VT", "$120B+ AUM", "Iowa + VT + BDA + Cayman"],
+    ["KKR/GA", "GA HoldCo→GALIC/Forethought→GA Re", "$219B AUM", "Redomiciled DE Jan 2024"],
+  ],
+  pros: ["Maximum capital efficiency across all frameworks simultaneously","MidCo provides optionality: IPO OpCo, sell block, raise external debt","Each entity optimized for its regulatory regime","Sidecar layer adds capacity without dilution"],
+  cons: ["4+ legal entities, 3+ regulatory regimes, intercompany agreements","IAIG designation brings ICS group capital overlay","Double leverage at MidCo creates fragility in stress","NAIC Macroprudential Initiative targets this exact structure"],
+},
+// ════════════════════════════════════════
+// 10
+{
+  num: "10", title: "Hybrid Flow + Block Multi-Treaty Layered",
+  complexity: 10, color: "#FB923C",
+  treaty: "Combined: Coinsurance (block) + QS ModCo/FWH (flow) + Retro to sidecar", jurisdiction: "Multi: Delaware + Iowa + Vermont + Bermuda + Cayman",
+  framework: "All frameworks simultaneously", category: "Maximum Complexity",
+  desc: "The most sophisticated structures simultaneously operate block acquisition (one-time portfolio transfers), forward-flow origination (ongoing new production quota share), and third-party sidecar vehicles — each requiring different treaty structures and capital treatment. Gallagher Re analysis shows 50% flow cession improves carrier IRR from 11.4% to 20.4%.",
+  diagram: `<svg viewBox="0 0 720 200" width="100%">
+    <rect x="10" y="5" width="150" height="38" rx="4" fill="#111827" stroke="#FB923C" stroke-width="1"/>
+    <text x="85" y="19" text-anchor="middle" fill="#FB923C" font-size="8" font-weight="600" font-family="DM Sans">BLOCK DEALS</text>
+    <text x="85" y="33" text-anchor="middle" fill="#4B5563" font-size="7" font-family="DM Sans">Fortitude $37B · Talcott $35B</text>
+    <rect x="10" y="55" width="150" height="38" rx="4" fill="#111827" stroke="#22D3EE" stroke-width="1"/>
+    <text x="85" y="69" text-anchor="middle" fill="#22D3EE" font-size="8" font-weight="600" font-family="DM Sans">FLOW DEALS</text>
+    <text x="85" y="83" text-anchor="middle" fill="#4B5563" font-size="7" font-family="DM Sans">50–100% QS on new production</text>
+    <rect x="10" y="105" width="150" height="38" rx="4" fill="#111827" stroke="#F472B6" stroke-width="1"/>
+    <text x="85" y="119" text-anchor="middle" fill="#F472B6" font-size="8" font-weight="600" font-family="DM Sans">SIDECAR RETRO</text>
+    <text x="85" y="133" text-anchor="middle" fill="#4B5563" font-size="7" font-family="DM Sans">ACRA $50.1B · Ivy $6B</text>
+    <line x1="160" y1="24" x2="230" y2="85" stroke="#FB923C" stroke-width="1" marker-end="url(#ah)"/>
+    <line x1="160" y1="74" x2="230" y2="85" stroke="#22D3EE" stroke-width="1" marker-end="url(#ah)"/>
+    <line x1="160" y1="124" x2="230" y2="95" stroke="#F472B6" stroke-width="1" marker-end="url(#ah)"/>
+    <rect x="230" y="62" width="200" height="48" rx="5" fill="#1A1A2E" stroke="#7C3AED" stroke-width="1.2"/>
+    <text x="330" y="82" text-anchor="middle" fill="#A78BFA" font-size="10" font-weight="600" font-family="DM Sans">Offshore Reinsurer</text>
+    <text x="330" y="96" text-anchor="middle" fill="#4B5563" font-size="7.5" font-family="DM Sans">Bermuda Class E · All treaties layered</text>
+    <line x1="430" y1="86" x2="500" y2="40" stroke="#34D399" stroke-width="1" marker-end="url(#ah)"/>
+    <line x1="430" y1="86" x2="500" y2="86" stroke="#60A5FA" stroke-width="1" marker-end="url(#ah)"/>
+    <line x1="430" y1="86" x2="500" y2="132" stroke="#FBBF24" stroke-width="1" marker-end="url(#ah)"/>
+    <rect x="500" y="16" width="200" height="38" rx="4" fill="#0E2A1E" stroke="#34D399" stroke-width="1"/>
+    <text x="600" y="31" text-anchor="middle" fill="#34D399" font-size="8.5" font-weight="600" font-family="DM Sans">PE Asset Manager</text>
+    <text x="600" y="44" text-anchor="middle" fill="#4B5563" font-size="7" font-family="DM Sans">Manages ALL portfolios across entities</text>
+    <rect x="500" y="66" width="200" height="38" rx="4" fill="#0F2A4A" stroke="#60A5FA" stroke-width="1"/>
+    <text x="600" y="81" text-anchor="middle" fill="#60A5FA" font-size="8.5" font-weight="600" font-family="DM Sans">US OpCo(s)</text>
+    <text x="600" y="94" text-anchor="middle" fill="#4B5563" font-size="7" font-family="DM Sans">Iowa / MA / CT · Issues + administers</text>
+    <rect x="500" y="116" width="200" height="38" rx="4" fill="#111827" stroke="#FBBF24" stroke-width="1"/>
+    <text x="600" y="131" text-anchor="middle" fill="#FBBF24" font-size="8.5" font-weight="600" font-family="DM Sans">Vermont Captive (Legacy XXX)</text>
+    <text x="600" y="144" text-anchor="middle" fill="#4B5563" font-size="7" font-family="DM Sans">Grandfathered reserve financing</text>
+    <rect x="230" y="130" width="200" height="50" rx="4" fill="#0C1524" stroke="#FB923C" stroke-width="1.2"/>
+    <text x="330" y="146" text-anchor="middle" fill="#FB923C" font-size="8" font-weight="600" font-family="DM Sans">COMBINED ECONOMICS</text>
+    <text x="330" y="160" text-anchor="middle" fill="#34D399" font-size="8" font-family="JetBrains Mono">IRR: 11.4% → 20.4%</text>
+    <text x="330" y="173" text-anchor="middle" fill="#4B5563" font-size="7" font-family="DM Sans">50% flow cession (Gallagher Re analysis)</text>
+    <defs><marker id="ah" markerWidth="7" markerHeight="5" refX="7" refY="2.5" orient="auto"><polygon points="0 0,7 2.5,0 5" fill="#4B5563"/></marker></defs>
+  </svg>`,
+  capStack: [
+    { label: "Block deal: upfront equity + ceding commission", val: "$1–5B per deal", bg: "#2D1B3E", color: "#C4B5FD" },
+    { label: "Flow deal: recurring ceding commission", val: ">100% of yr 1 premium", bg: "#0E2A1E", color: "#34D399" },
+    { label: "Sidecar retro: third-party equity + debt", val: "$1–6B per vehicle", bg: "#2E1A2E", color: "#F472B6" },
+    { label: "Multi-layered HoldCo/MidCo debt stack", val: "Structured", bg: "#172040", color: "#7B8BA5" },
+    { label: "AM fees across all entity assets", val: "30–50 bps", bg: "#0E2A1E", color: "#34D399" },
+  ],
+  examples: [
+    ["Brookfield/AEL (Dec 2024)", "50% IF + 70% flow → Freestone (BDA)", "LIBR → VT captive", "Iowa + VT + BDA + Cayman"],
+    ["Fortitude Re", "AIG $37B block + Lincoln $28B + Pru $31B", "Flow + retro to FCA Re", "Capital-light advisory"],
+    ["Talcott Resolution", "Hartford legacy + Allianz $35B + Principal $25B", "Multi-treaty layered", "~$140B liabilities"],
+  ],
+  pros: ["Maximum capital efficiency and ROE optimization","Flow deals provide predictable growing AUM for AM","Block deals generate immediate scale + fee base","Sidecar retro adds 'call option' capacity for mega-deals"],
+  cons: ["Maximum regulatory complexity — all frameworks simultaneously","AG 55, NAIC scrutiny, ICS, Bermuda CIT all compound","Operational overhead: 4+ entities, 3+ jurisdictions, intercompany pricing","777 Re: cautionary tale of what happens when controls fail"],
+},
+];
+
+// ── Render ──
+// ════════════════════════════════════════════════════════════════════
+// STRUCTURE_DETAILS — additive depth, keyed by structure `num`, merged at
+// render time without touching the curated base fields. Populated from the
+// deep-research pass (sourced; citation markup stripped). Cards with no entry
+// fall back to the base layout; sub-tabs/sections render only when data exists.
+// ════════════════════════════════════════════════════════════════════
+const STRUCTURE_DETAILS = {
+  "01": {
+    "tagline": "Intra-group US reinsurance to pool risk and free capital without leaving the US perimeter.",
+    "whenToUse": [
+      "Multi-entity US insurer groups consolidating risk onto one balance sheet",
+      "Insurers wanting capital and reserve efficiency without offshore optics",
+      "A first, low-risk step before building offshore or third-party platforms",
+      "Groups managing legacy blocks among affiliated US-licensed carriers"
+    ],
+    "howItWorks": [
+      "US ceding insurer enters quota share or coinsurance with an affiliated US-licensed reinsurer",
+      "Ceding company takes reserve credit on Schedule S; reinsurer books assumed reserves",
+      "Assets either transfer (coinsurance) or stay with cedant (ModCo or funds withheld)",
+      "No collateral needed since the assuming reinsurer is US-licensed and accredited",
+      "Both entities file statutory blanks and roll into the group capital calculation"
+    ],
+    "economics": {
+      "reserveRelief": "Modest; mainly diversification and RBC smoothing",
+      "roeOrIrrUplift": "Roughly 1-3 points from capital reallocation",
+      "minCapital": "RBC-based; company action level at 200% ACL",
+      "collateral": "None required (US-licensed assuming reinsurer)",
+      "setupTime": "3-6 months",
+      "setupCost": "Low (existing licensed entities)",
+      "ongoingCost": "Low; standard statutory reporting"
+    },
+    "keyStats": [
+      { "label": "RBC trigger", "value": "200% ACL" },
+      { "label": "Federal excise tax", "value": "None (domestic)" },
+      { "label": "Collateral", "value": "0%" },
+      { "label": "Affiliated share offshore", "value": "Nearly 70%" }
+    ],
+    "regulatory": {
+      "regime": "US state insurance law; NAIC accreditation standards",
+      "capitalBasis": "NAIC risk-based capital (RBC)",
+      "reporting": "Statutory annual statement; Schedule S; Form F",
+      "supervision": "Domiciliary state insurance department"
+    },
+    "tax": {
+      "beat": "Not applicable; both parties US taxpayers",
+      "fet": "None; no foreign insurer or reinsurer involved",
+      "cfcPfic": "Not applicable (domestic entities)",
+      "corporateTax": "US corporate income tax at 21%",
+      "electionNotes": "No 953(d) election needed; both already domestic"
+    },
+    "watchOuts": [
+      "AG 55 disclosure can apply where the affiliated reinsurer files no VM-30 memorandum",
+      "NAIC and FSOC heightened scrutiny of intra-group reinsurance and group capital",
+      "Domestic regulator may still require cash-flow testing for asset-intensive blocks"
+    ],
+    "caseStudy": {
+      "headline": "Prudential New Jersey captive supports a closed block via affiliated reinsurance",
+      "body": "Prudential Financial established Prudential New Jersey Captive Insurance Company, a wholly owned subsidiary, to reinsure a closed block of life policies issued or assumed by The Prudential Insurance Company of America. A USD 2 billion letter of credit facility backed the captive obligations. The arrangement kept risk and assets within the US holding company system while financing reserves, illustrating the simplest affiliated domestic model before groups graduate to offshore structures.",
+      "outcome": "Demonstrated onshore reserve financing with bank-supported LOC capacity inside the US group."
+    },
+    "trends2026": [
+      "AM Best: nearly 70% of reserves ceded offshore go to affiliates, with PE or asset-manager firms 46% of those",
+      "AM Best: ceded reserves grew 6.4% in 2024, a deceleration from double-digit growth in 2021-2023",
+      "NAIC group capital calculation and Form F scrutiny rising for intra-group cessions"
+    ],
+    "latestDeals": [],
+    "sources": [
+      { "label": "AM Best via Insurance Business: Bermuda reinsurance growth", "url": "https://www.insurancebusinessmag.com/reinsurance/news/breaking-news/us-insurers-turn-to-bermuda-as-reinsurance-growth-slows-but-remains-strong-542547.aspx" },
+      { "label": "NAIC: Captive Insurance Companies topic", "url": "https://content.naic.org/insurance-topics/captive-insurance-companies" },
+      { "label": "Mayer Brown: Life Insurance and Reinsurance Transactions", "url": "https://www.mayerbrown.com/en/industries/life-insurance--reinsurance-transactions" }
+    ]
+  },
+  "02": {
+    "tagline": "Onshore captive financing redundant XXX and AXXX term and UL reserves with primary security.",
+    "whenToUse": [
+      "Level-premium term life writers carrying redundant XXX reserves",
+      "Universal life with secondary guarantee blocks under AXXX",
+      "Pre-principle-based-reserving blocks needing reserve financing",
+      "Groups wanting reserve relief while keeping the reinsurer US-domiciled"
+    ],
+    "howItWorks": [
+      "Insurer cedes the XXX or AXXX block to a wholly owned captive reinsurer",
+      "Captive holds primary security (high-quality assets) per the AG 48 actuarial method",
+      "Remaining reserve backed by other security such as letters of credit or notes",
+      "Appointed actuary tests primary security sufficiency; deficiency forces qualified opinion",
+      "Transaction filed on the XXX/AXXX Reinsurance Supplement with the domiciliary regulator"
+    ],
+    "economics": {
+      "reserveRelief": "High on the redundant portion of statutory reserves",
+      "roeOrIrrUplift": "Meaningful where economic reserve is far below statutory",
+      "minCapital": "Per state captive law; primary security must be fully funded",
+      "collateral": "Primary security plus LOC or contingent notes for other security",
+      "setupTime": "6-12 months",
+      "setupCost": "Moderate; legal, actuarial, LOC arrangement fees",
+      "ongoingCost": "Moderate; LOC fees, actuarial testing, captive admin"
+    },
+    "keyStats": [
+      { "label": "Model 787 adoption", "value": "42 jurisdictions" },
+      { "label": "AG 48 fallback states", "value": "9 jurisdictions" },
+      { "label": "Federal excise tax", "value": "None (domestic)" },
+      { "label": "Other security", "value": "LOC / notes" }
+    ],
+    "regulatory": {
+      "regime": "State captive statutes; AG 48 and NAIC Model 787",
+      "capitalBasis": "Statutory; actuarial method primary security test",
+      "reporting": "XXX/AXXX Reinsurance Supplement; AG 48 certification",
+      "supervision": "Domiciliary state department; NAIC accreditation review"
+    },
+    "tax": {
+      "beat": "Not applicable; domestic captive",
+      "fet": "None; US-domiciled reinsurer",
+      "cfcPfic": "Not applicable",
+      "corporateTax": "US corporate income tax at 21%",
+      "electionNotes": "No 953(d) election (already domestic)"
+    },
+    "watchOuts": [
+      "Principle-based reserving is shrinking the need for new XXX/AXXX captives",
+      "AG 55 now captures captive and affiliated asset-intensive treaties for AAT disclosure",
+      "FSOC has flagged variable annuity and long-term-care captives as areas of concern"
+    ],
+    "caseStudy": {
+      "headline": "NAIC harmonizes XXX/AXXX captive reserve financing under Model 787",
+      "body": "After New York DFS published Shining a Light on Shadow Insurance in 2013, the NAIC adopted AG 48 (effective January 2015) and later codified it in the Term and Universal Life Insurance Reserve Financing Model Regulation (Model 787). The framework sets a uniform actuarial method defining required primary security held even when reserves are assumed by a captive, with the remainder backed by other security. As of August 2025, 42 jurisdictions had implemented Model 787 while 9 still relied on AG 48.",
+      "outcome": "Standardized national treatment curbed regulatory arbitrage; new-captive formation has fallen as PBR phases in."
+    },
+    "trends2026": [
+      "PBR adoption reduces new XXX/AXXX securitization need; existing captives run off over years to decades",
+      "AG 55, adopted August 2025, layers asset adequacy testing onto captive and affiliated treaties",
+      "Model 787 an accreditation standard; AG 48 deemed substantially similar in remaining states"
+    ],
+    "latestDeals": [],
+    "sources": [
+      { "label": "NAIC: Captive Insurance Companies topic", "url": "https://content.naic.org/insurance-topics/captive-insurance-companies" },
+      { "label": "Corvid Partners: Reg XXX/AXXX Securitizations", "url": "https://www.corvidpartners.com/field-guide/insurance/reg-xxx-axxx-securitizations" },
+      { "label": "NAIC: Term and Universal Life Reserve Financing brief", "url": "https://content.naic.org/sites/default/files/government-affairs-brief-term-universal-life-reserve-financing.pdf" }
+    ]
+  },
+  "03": {
+    "tagline": "US insurer cedes annuity blocks to its own Bermuda or Cayman affiliate for capital efficiency.",
+    "whenToUse": [
+      "Fixed and indexed annuity writers seeking favorable offshore discount rates",
+      "Groups that already operate or want a Bermuda Class C/D/E platform",
+      "Insurers replicating the Athene-style affiliated reinsurance model",
+      "Carriers wanting capital relief while retaining group control of assets"
+    ],
+    "howItWorks": [
+      "US insurer cedes annuity reserves to its Bermuda or Cayman affiliate",
+      "Structured as ModCo or funds withheld so assets often stay with the cedant",
+      "Affiliate values liabilities on the Bermuda EBS basis, generally more favorable than US statutory",
+      "Ceding insurer takes reserve credit; Bermuda reciprocal-jurisdiction status removes collateral",
+      "Affiliated asset manager or group invests the supporting portfolio"
+    ],
+    "economics": {
+      "reserveRelief": "Significant via lower EBS discount rate versus US statutory",
+      "roeOrIrrUplift": "Several points from capital release and spread",
+      "minCapital": "BMA Class C floor USD 500k; Class D USD 4m; Class E USD 8m",
+      "collateral": "Often funds withheld or ModCo; no trust where reciprocal",
+      "setupTime": "6-12 months including BMA licensing",
+      "setupCost": "Moderate to high; licensing, actuarial, legal",
+      "ongoingCost": "Moderate; BMA fees, CISSA/ORSA, audit"
+    },
+    "keyStats": [
+      { "label": "Bermuda US reserves 2024", "value": "Over $900bn" },
+      { "label": "Athene affiliate cession", "value": "$192bn" },
+      { "label": "Class E capital floor", "value": "$8m" },
+      { "label": "Bermuda CIT", "value": "15%" }
+    ],
+    "regulatory": {
+      "regime": "BMA Insurance Act; Class C/D/E long-term; NAIC reciprocal jurisdiction",
+      "capitalBasis": "Economic Balance Sheet; BSCR at 1-in-200 (ECR, TCL 120%)",
+      "reporting": "EBS, BSCR, CISSA, GAAP/IFRS financials; AG 55 at US cedant",
+      "supervision": "Bermuda Monetary Authority; US domiciliary for cedant"
+    },
+    "tax": {
+      "beat": "BEAT exposure on related-party premiums; rate 12.5% from 2026",
+      "fet": "1% on life reinsurance premiums unless 953(d) elected",
+      "cfcPfic": "CFC if 25%+ US-controlled; subpart F or 953(d)",
+      "corporateTax": "Bermuda CIT 15% for MNE groups over EUR 750m revenue",
+      "electionNotes": "953(d) election common to be taxed as US insurer and avoid FET"
+    },
+    "watchOuts": [
+      "AG 55 asset adequacy testing for in-scope affiliated treaties, first reports due April 1, 2026",
+      "BMA rules effective January 2026 demand explicit asset market-value projections and disclosure",
+      "Bermuda 15% CIT live since January 2025; substance-based credits partly offset",
+      "US Treasury and NAIC scrutiny of offshore affiliated reinsurance intensifying"
+    ],
+    "caseStudy": {
+      "headline": "Athene routes nearly all its reinsurance through its own Bermuda affiliate",
+      "body": "Athene, the Apollo-owned retirement-services company, became the template for affiliated offshore reinsurance. In 2024, 96% of its roughly USD 200 billion of reinsurance came from Bermuda, and all USD 192 billion of that Bermuda support came from its own affiliate rather than any third party, per US company-level filings compiled by AM Best. Athene reports over USD 400 billion of total assets as of mid-2025 and uses ModCo and funds-withheld structures to keep fee-generating assets under Apollo management while obtaining capital relief.",
+      "outcome": "Affiliated Bermuda cessions drove industry-wide growth to over $900bn US reserves in Bermuda by 2024."
+    },
+    "trends2026": [
+      "Fitch (July 2025): US reserves ceded offshore rose 147% to over $1.1tn, with Bermuda at 84% of the total",
+      "Bermuda long-term reinsurers managed $1.52tn in assets as of September 2025 (BMA data)",
+      "Bermuda saw fewer new L&A entrants in 2025 as BMA tightened disclosure rules"
+    ],
+    "latestDeals": [
+      ["Athene", "Block reinsurance with Sony Life; Swiss Re retrocedes mortality", "~$19bn Japan cumulative", "Sept 2025"],
+      ["Brookfield Wealth Solutions", "Flow reinsurance with Dai-ichi Frontier Life via American National", "Flow basis", "Oct 2025"]
+    ],
+    "sources": [
+      { "label": "Bloomberg: Offshoring of America's Retirement Savings", "url": "https://www.bloomberg.com/graphics/2025-bermuda-insurance/" },
+      { "label": "Insurance Business: US Treasury joins scrutiny of Bermuda", "url": "https://www.insurancebusinessmag.com/reinsurance/news/breaking-news/us-treasury-joins-scrutiny-of-1-52-trillion-bermuda-reinsurance-market-574857.aspx" },
+      { "label": "BMA: Licensing classes and capital floors", "url": "https://www.bma.bm/insurance-licensing" },
+      { "label": "Athene: Sony Life block reinsurance", "url": "https://www.athene.com/news/annuities-news/2025/athene-announces-block-reinsurance-transaction-with-sony-life-in-japan.html" }
+    ]
+  },
+  "04": {
+    "tagline": "The Bermuda Triangle - one owner runs the insurer, the offshore reinsurer and the asset manager.",
+    "whenToUse": [
+      "Alternative asset managers building permanent capital and AUM",
+      "Insurers seeking private-credit origination alpha on annuity float",
+      "Scale annuity manufacturers optimizing spread and fee income",
+      "PE platforms wanting capital-light growth via funds withheld and ModCo"
+    ],
+    "howItWorks": [
+      "PE firm acquires or partners with a US life insurer issuing fixed and indexed annuities",
+      "Insurer cedes liabilities to an affiliated Bermuda reinsurer via funds withheld or ModCo",
+      "Affiliated asset manager invests the float in private credit, CLOs and structured assets",
+      "Manager earns asset-management and structuring fees plus the investment spread",
+      "Capital relief from offshore EBS funds renewed annuity sales and new cessions"
+    ],
+    "economics": {
+      "reserveRelief": "Significant; offshore EBS plus capital-light recycling",
+      "roeOrIrrUplift": "High; combines net spread, fees and leverage",
+      "minCapital": "BMA Class E floor USD 8m; far higher in practice",
+      "collateral": "Funds withheld or ModCo keeps assets near the manager",
+      "setupTime": "12+ months to build full platform",
+      "setupCost": "High; multi-entity legal, licensing, asset platform",
+      "ongoingCost": "High; asset management, governance, CISSA/ORSA"
+    },
+    "keyStats": [
+      { "label": "Apollo new-capital share", "value": "~40%" },
+      { "label": "Athene Level 3 assets", "value": "~1/3 of total" },
+      { "label": "Affiliated-fund lending", "value": "~20%" },
+      { "label": "Bermuda L&A assets", "value": "$1.52tn" }
+    ],
+    "regulatory": {
+      "regime": "BMA Class E; enhanced PE-insurer supervision; reciprocal jurisdiction",
+      "capitalBasis": "EBS; BSCR with scenario-based approach for long-term insurers",
+      "reporting": "EBS, BSCR, CISSA, prior approval of long-term blocks; AG 55 at US cedant",
+      "supervision": "BMA with prudent person principle and affiliated-asset review"
+    },
+    "tax": {
+      "beat": "Material BEAT exposure on related-party premiums; 12.5% from 2026",
+      "fet": "1% on life reinsurance premiums unless 953(d) elected",
+      "cfcPfic": "CFC; subpart F unless 953(d) treats as US insurer",
+      "corporateTax": "Bermuda CIT 15% for in-scope MNE groups",
+      "electionNotes": "953(d) commonly elected; CFC income exclusion election for first 2025 fiscal year"
+    },
+    "watchOuts": [
+      "FSOC 2025 Annual Report formally identified offshore affiliated reinsurance as a systemic risk",
+      "BMA prudent person principle and prior approval of affiliated investments tightening",
+      "Private-credit redemption stress hit Blackstone, Blue Owl and PE managers in late 2025",
+      "AG 55 treaty testing plus US Treasury and IAIS scrutiny of conflicts and Level 3 valuations"
+    ],
+    "caseStudy": {
+      "headline": "Apollo and Athene pioneer the asset-manager-owned offshore reinsurance playbook",
+      "body": "Apollo built Athene from a post-crisis annuity consolidator into the template for the Bermuda Triangle, in which a single owner controls the annuity issuer, the offshore reinsurer and the asset manager. Athene's then-vice chairman Bill Wheeler told US Labor Department officials in mid-2023 that Athene represented about 40% of new capital entering the industry, much of it via reinsurance and Bermuda. KKR/Global Atlantic, Blackstone/F&G, Carlyle/Fortitude and Brookfield followed. By Q3 2025, Level 3 assets were about a third of Athene and Global Atlantic portfolios, and roughly a fifth of their investments were loans to affiliated funds.",
+      "outcome": "Strategy scaled to over $1.1tn offshore reserves but drew FSOC, Treasury and IAIS systemic-risk attention."
+    },
+    "trends2026": [
+      "Bermuda BMA report: total long-term assets rose 19.1% to $1.52tn and GWP 17.8% to $200.1bn, net income doubling to $26.3bn in 2024",
+      "Apollo AUM approaching the $1tn mark; Athene manages over $300bn in assets",
+      "PE-backed firms (Apollo, KKR, Ares, Brookfield, Carlyle) dominate Bermuda L&A capacity"
+    ],
+    "latestDeals": [
+      ["F&G / Blackstone", "Fort Greene Re FIA flow sidecar backed by Blackstone capital", "~$1bn commitments", "Aug 2025"],
+      ["Carlyle / Fortitude Re", "FCA Re Bermuda JV targeting Asian life and annuity", "$700m deployable", "Oct 2025"]
+    ],
+    "sources": [
+      { "label": "Bloomberg: Apollo and Wall Street bet on US life insurance", "url": "https://www.bloomberg.com/graphics/2025-america-insurance-part-1/" },
+      { "label": "CEPR: Private Equity Comes For Your Annuity", "url": "https://cepr.net/publications/you-bet-your-life-insurance-private-equity-comes-for-your-annuity/" },
+      { "label": "National Law Review: The Bermuda Triangle", "url": "https://natlawreview.com/article/bermuda-triangle-and-growing-risk-insurance-markets" },
+      { "label": "Skadden: BMA approach to PE-owned reinsurers", "url": "https://www.skadden.com/insights/publications/2024/05/the-bermuda-monetary-authoritys-approach" }
+    ]
+  },
+  "05": {
+    "tagline": "Independent Bermuda or Cayman reinsurer assumes blocks from unrelated cedants for true risk transfer.",
+    "whenToUse": [
+      "Insurers seeking genuine arm's-length risk transfer, not affiliated relief",
+      "Carriers disposing of legacy, runoff or non-core in-force blocks",
+      "Cedants releasing capital with third-party priced ceding commissions",
+      "Companies de-risking interest rate or market exposure on guaranteed blocks"
+    ],
+    "howItWorks": [
+      "Cedant runs a competitive auction or bilateral process for a block",
+      "Reinsurer assumes via coinsurance, ModCo or funds withheld",
+      "Collateral trust or funds-withheld account posted to secure the cedant",
+      "BMA prior approval required for long-term block transactions",
+      "Reinsurer manages the assets and books reserves on EBS basis"
+    ],
+    "economics": {
+      "reserveRelief": "Significant; full risk transfer of the ceded block",
+      "roeOrIrrUplift": "Cedant releases capital; reinsurer earns spread and fees",
+      "minCapital": "BMA Class C/D/E floors USD 0.5m to USD 8m",
+      "collateral": "Collateral trust, funds withheld or ModCo typical for third party",
+      "setupTime": "3-9 months per transaction including approval",
+      "setupCost": "Transaction-driven; advisory, actuarial, legal",
+      "ongoingCost": "Moderate; asset management, reporting, collateral admin"
+    },
+    "keyStats": [
+      { "label": "BMA block review", "value": "2-4 weeks" },
+      { "label": "Third-party share", "value": "~30% capacity" },
+      { "label": "Non-qualified collateral", "value": "100%" },
+      { "label": "Bermuda CIT", "value": "15%" }
+    ],
+    "regulatory": {
+      "regime": "BMA Class C/D/E; prior approval of long-term blocks since 2023",
+      "capitalBasis": "Economic Balance Sheet; BSCR 1-in-200",
+      "reporting": "EBS, BSCR, CISSA; Total Asset Requirement reconciliation",
+      "supervision": "Bermuda Monetary Authority with regulator-to-regulator cooperation"
+    },
+    "tax": {
+      "beat": "Generally limited where cedant is unrelated",
+      "fet": "1% on life reinsurance premiums unless 953(d) elected",
+      "cfcPfic": "Depends on ownership; third-party reinsurers often not CFCs of cedant",
+      "corporateTax": "Bermuda CIT 15% for in-scope MNE groups; Cayman none",
+      "electionNotes": "953(d) available; Cayman pursuing NAIC qualified-jurisdiction status"
+    },
+    "watchOuts": [
+      "BMA prior approval and TAR reconciliation now standard for in-scope blocks",
+      "AG 55 disclosure applies at the US cedant for asset-intensive blocks",
+      "Counterparty concentration and private-credit valuation risk under review",
+      "Cayman still posts 100% collateral until it gains qualified-jurisdiction status"
+    ],
+    "caseStudy": {
+      "headline": "Protective cedes USD 9.7 billion of runoff blocks to Resolution Life",
+      "body": "In March 2025, Protective Life, a US subsidiary of Dai-ichi Life Holdings, entered a strategic reinsurance agreement with Resolution Life to cede approximately USD 9.7 billion of reserves from runoff blocks of structured settlement annuities and secondary-guarantee universal life policies. The deal let Protective reduce market risk and release capital for growth and potential acquisitions, a textbook third-party block transfer to an independent Bermuda-based consolidator rather than an affiliate.",
+      "outcome": "Protective freed capital for higher-return businesses; Resolution Life added long-duration liabilities."
+    },
+    "trends2026": [
+      "Guy Carpenter and AM Best: dedicated life reinsurance capital topped $160bn in 2025, third-party about one-third",
+      "Third-party life capital roughly doubled from ~$24bn (2022) to ~$57bn (2025) per Guy Carpenter",
+      "BMA two-to-four-week block review where documentation is complete and proactive"
+    ],
+    "latestDeals": [
+      ["Resolution Life / Protective", "Structured settlement and secondary-guarantee UL runoff blocks", "~$9.7bn reserves", "Mar 2025"],
+      ["Talcott Re / MetLife", "Variable annuity block on ModCo and funds-withheld basis", "~$10bn reserves", "Dec 2025"],
+      ["Fortitude Re / Unum", "Individual LTC plus IDI in-force premium, biometric retroceded", "$3.4bn LTC", "Closed Jul 2025"],
+      ["Talcott Life Re / Japan Post", "Bermuda block reinsurance amid J-ICS rollout", "$3.6bn", "2025"]
+    ],
+    "sources": [
+      { "label": "Mayer Brown: Globalization of Asset-Intensive Reinsurance", "url": "https://www.mayerbrown.com/en/insights/publications/2026/03/the-globalization-of-asset-intensive-reinsurance" },
+      { "label": "Walkers: Bermuda block reinsurance approval", "url": "https://www.walkersglobal.com/en/Insights/2025/04/A-comprehensive-guide-to-obtaining-regulatory-approval-for-long-term-block-reinsurance-in-Bermuda" },
+      { "label": "Beinsure: Life reinsurance capital tops $160bn", "url": "https://beinsure.com/news/life-reinsurance-capital-tops-160bn/" },
+      { "label": "Milliman: LTC mergers and acquisitions since 2023", "url": "https://www.milliman.com/en/insight/ltc-mergers-acquisitions-what-have-we-learned" }
+    ]
+  },
+  "06": {
+    "tagline": "Third-party-capitalized reinsurer takes quota share from one sponsor for fee income and capacity.",
+    "whenToUse": [
+      "Reinsurers and insurers wanting alternative capital and a second balance sheet",
+      "Sponsors seeking fee income while sharing economics with investors",
+      "Institutional investors seeking uncorrelated L&A and annuity exposure",
+      "Carriers funding growth in asset-intensive annuity and PRT business"
+    ],
+    "howItWorks": [
+      "Sponsor forms a Bermuda Class E vehicle, often market-facing in future",
+      "Institutional investors and asset managers fund the equity",
+      "Sponsor retrocedes an initial block plus a forward-flow quota share",
+      "An external asset manager invests the supporting portfolio",
+      "Sponsor earns ceding economics and fee income; investors share returns"
+    ],
+    "economics": {
+      "reserveRelief": "Via quota share cession to the sidecar balance sheet",
+      "roeOrIrrUplift": "Sponsor adds fee income; investors target equity-type returns",
+      "minCapital": "BMA Class E floor USD 8m; capital raises in the hundreds of millions",
+      "collateral": "Funds withheld or ModCo common; trust where required",
+      "setupTime": "6-12 months including capital raise and licensing",
+      "setupCost": "High; structuring, licensing, investor onboarding",
+      "ongoingCost": "Moderate to high; asset management and governance"
+    },
+    "keyStats": [
+      { "label": "Chariot Re initial block", "value": "$10bn" },
+      { "label": "Ruby Re total capital", "value": "$480m" },
+      { "label": "Martello Re raised", "value": "$2.9bn" },
+      { "label": "Life reins. capital 2025", "value": "~$160bn" }
+    ],
+    "regulatory": {
+      "regime": "BMA Class E long-term; prior approval of blocks",
+      "capitalBasis": "Economic Balance Sheet; BSCR 1-in-200",
+      "reporting": "EBS, BSCR, CISSA; AG 55 at US cedant",
+      "supervision": "Bermuda Monetary Authority"
+    },
+    "tax": {
+      "beat": "BEAT if cessions are related-party; less so for independent sidecars",
+      "fet": "1% on life reinsurance premiums unless 953(d) elected",
+      "cfcPfic": "Depends on investor ownership and control",
+      "corporateTax": "Bermuda CIT 15% for in-scope MNE groups",
+      "electionNotes": "953(d) election available to electing vehicles"
+    },
+    "watchOuts": [
+      "BMA prior approval and affiliated-asset scrutiny apply to sidecar cessions",
+      "Investor redemption appetite tested by 2025 private-credit volatility",
+      "AG 55 disclosure where sidecar files no VM-30 memorandum",
+      "Forward-flow commitments carry future-business and pricing uncertainty"
+    ],
+    "caseStudy": {
+      "headline": "MetLife and General Atlantic launch Chariot Re with a USD 10 billion first deal",
+      "body": "On July 1, 2025, MetLife, General Atlantic and Chariot Reinsurance, Ltd., an independent Bermuda Class E life and annuity reinsurer, completed Chariot Re's initial transaction with a MetLife subsidiary. Chariot Re reinsured approximately USD 10 billion of liabilities, including structured settlement annuities and group annuities tied to pension risk transfers. The vehicle is co-sponsored by MetLife and General Atlantic with lead investor Chubb; MetLife Investment Management and General Atlantic serve as external asset managers, giving MetLife a second balance sheet plus fee income.",
+      "outcome": "Chariot Re launched as a scalable sidecar positioned to become market-facing across L&A reinsurance."
+    },
+    "trends2026": [
+      "Guy Carpenter and AM Best: total life reinsurance capital above $160bn in 2025, third-party about one-third",
+      "RGA Ruby Re closed a second round at $480m (Nov 2024); Martello Re has raised about $2.9bn since 2021",
+      "Fitch: sidecars and offshore platforms expected to keep growing among North American life insurers"
+    ],
+    "latestDeals": [
+      ["Chariot Re / MetLife", "Structured settlement and group annuity PRT liabilities", "~$10bn", "Jul 2025"],
+      ["Ruby Re / RGA", "Missouri sidecar second round; AB, EnTrust, Enstar added", "$480m total", "Nov 2024"],
+      ["Sconset Re / Allianz", "FIA block plus forward flow; PIMCO asset manager", "$4bn initial block", "2024"],
+      ["Global Atlantic / Japan Post", "Co-investment vehicle; operations begin H1 2026", "$2bn investment", "Jul 2025"]
+    ],
+    "sources": [
+      { "label": "MetLife 8-K: Chariot Re launch", "url": "https://www.sec.gov/Archives/edgar/data/0001099219/000119312525154039/d40473dex991.htm" },
+      { "label": "Artemis: Sidecar use surges among life reinsurers (Fitch)", "url": "https://www.artemis.bm/news/sidecar-use-continues-to-surge-among-life-reinsurers-fitch/" },
+      { "label": "Business Wire: Ruby Re reaches $480m", "url": "https://www.businesswire.com/news/home/20241113088992/en/RGA-Announces-Ruby-Re-Has-Reached-%24480-Million-in-Total-Funding-with-the-Successful-Close-of-Second-Investment-Round" },
+      { "label": "PR Newswire: Martello Re launch", "url": "https://www.prnewswire.com/news-releases/new-reinsurer-martello-re-launches-with-backing-of-massmutual-centerbridge-partners-and-brown-brothers-harriman-301458877.html" }
+    ]
+  },
+  "07": {
+    "tagline": "Capital-markets-funded SPV provides collateralized extreme-mortality reinsurance via tradable notes.",
+    "whenToUse": [
+      "Life reinsurers hedging pandemic and extreme-mortality tail risk",
+      "Sponsors diversifying retrocession away from traditional reinsurers",
+      "Issuers seeking fully collateralized, multi-year protection",
+      "Investors wanting mortality risk uncorrelated with financial markets"
+    ],
+    "howItWorks": [
+      "Sponsor establishes a special purpose insurer or vehicle",
+      "SPV issues mortality-linked notes to capital-markets investors",
+      "Proceeds held as collateral in a trust, invested in low-risk assets",
+      "An age and gender weighted mortality index defines the trigger",
+      "If the index breaches attachment, principal pays the sponsor; otherwise returned with coupon"
+    ],
+    "economics": {
+      "reserveRelief": "Tail protection rather than balance-sheet reserve relief",
+      "roeOrIrrUplift": "Reduces required capital for mortality catastrophe risk",
+      "minCapital": "Fully collateralized; SPI minimal own capital",
+      "collateral": "100% collateralized via note proceeds in trust",
+      "setupTime": "2-4 months",
+      "setupCost": "Moderate; structuring, modeling, legal, rating",
+      "ongoingCost": "Coupon spread plus structuring and admin fees"
+    },
+    "keyStats": [
+      { "label": "Vita Capital VI", "value": "$120m" },
+      { "label": "Cat bond issuance 2025", "value": "$25.6bn" },
+      { "label": "Cat bonds outstanding", "value": "$61.3bn" },
+      { "label": "New mortality bonds 24-26", "value": "None found" }
+    ],
+    "regulatory": {
+      "regime": "Bermuda SPI, Cayman Class C, or Irish/other SPV; light-touch",
+      "capitalBasis": "Fully funded collateral; minimal solvency margin",
+      "reporting": "SPV reporting; rating agency surveillance",
+      "supervision": "BMA, CIMA or relevant SPV regulator"
+    },
+    "tax": {
+      "beat": "Generally not material at SPV level",
+      "fet": "1% reinsurance FET can apply on covered premiums",
+      "cfcPfic": "PFIC analysis relevant for note investors",
+      "corporateTax": "SPVs structured tax-neutral; Bermuda CIT only if in-scope",
+      "electionNotes": "SPV typically does not elect 953(d)"
+    },
+    "watchOuts": [
+      "No new dedicated mortality cat bonds found in 2024-2026; segment in runoff",
+      "Pandemic experience has recalibrated investor pricing of extreme-mortality risk",
+      "Basis risk between index trigger and actual book losses",
+      "Maturity and rollover risk as legacy Vita and Matterhorn deals wind down"
+    ],
+    "caseStudy": {
+      "headline": "Swiss Re's Vita Capital VI remains the benchmark extreme-mortality cat bond",
+      "body": "Swiss Re's Vita Capital VI Ltd. (Series 2021-1), its eighth Vita issuance, settled at USD 120 million of extreme-mortality protection covering Australia, Canada, the UK and the US from early 2021 to year-end 2025, maturing in early 2026. Mortality-linked notes pay investors a coupon unless an age and gender weighted index breaches attachment. During COVID-19 the broader Vita and Matterhorn programs faced markdowns and extensions; in January 2026 Swiss Re made an early redemption of loss-exposed Matterhorn Re Series 2020-2 notes, recovering about USD 33.1 million.",
+      "outcome": "Dedicated mortality-bond issuance has paused; the segment is contracting rather than growing into 2026."
+    },
+    "trends2026": [
+      "Artemis: record $25.6bn of cat bond issuance in 2025 across 122 transactions, up 45% year on year",
+      "Outstanding cat bond market reached a record $61.3bn at year-end 2025",
+      "No new Vita or Benu mortality bonds in 2024-2026; legacy deals maturing, segment small and shrinking"
+    ],
+    "latestDeals": [],
+    "sources": [
+      { "label": "Artemis: Mortality catastrophe bond news", "url": "https://www.artemis.bm/news/topic/mortality-catastrophe-bond/" },
+      { "label": "Artemis: Cat bond issuance breaks full-year records, market grows 24%", "url": "https://www.artemis.bm/news/catastrophe-bond-issuance-breaks-q4-and-full-year-records-market-grows-24-report/" },
+      { "label": "Artemis: Extreme mortality news", "url": "https://www.artemis.bm/news/topic/extreme-mortality/" }
+    ]
+  },
+  "08": {
+    "tagline": "Segregated cells and ISACs ring-fence assets and liabilities per deal or investor within one platform.",
+    "whenToUse": [
+      "Asset managers segregating multiple cedants or investors on one platform",
+      "Investors wanting bankruptcy-remote, cell-level ring-fencing",
+      "Sponsors running multi-deal reinsurance platforms efficiently",
+      "Structures isolating cedant equity at the transaction level"
+    ],
+    "howItWorks": [
+      "Sponsor forms a Bermuda SAC or ISAC, or a Cayman SPC with portfolio insurance companies",
+      "Each incorporated cell is created by board resolution as a distinct account",
+      "Where incorporated (ISAC or PIC), the cell is a separate legal entity that registers and writes reinsurance",
+      "Assets and liabilities of each cell are statutorily ring-fenced from other cells and the core",
+      "Investor or cedant equity sits in its own cell, insulated from group creditor claims"
+    ],
+    "economics": {
+      "reserveRelief": "Per-cell relief; depends on each treaty",
+      "roeOrIrrUplift": "Lower overhead than separate full entities",
+      "minCapital": "Per cell or PIC; capital scoped to each transaction",
+      "collateral": "Cell-level ring-fencing plus deal collateral as agreed",
+      "setupTime": "Fast per cell once platform exists",
+      "setupCost": "Moderate platform cost; low incremental per cell",
+      "ongoingCost": "Per-cell registration and admin fees"
+    },
+    "keyStats": [
+      { "label": "AeCe ISA cession", "value": "$4.9bn" },
+      { "label": "Cayman Class B/C/D", "value": "720 insurers" },
+      { "label": "Cell formation", "value": "Board resolution" },
+      { "label": "Cayman CIT", "value": "None" }
+    ],
+    "regulatory": {
+      "regime": "Bermuda SAC Act or ISAC; Cayman SPC with PICs",
+      "capitalBasis": "EBS and BSCR per cell where commercial long-term",
+      "reporting": "Cell-level filings; BMA segregated account guidance",
+      "supervision": "Bermuda Monetary Authority or CIMA"
+    },
+    "tax": {
+      "beat": "Per-cell analysis depending on cedant relationship",
+      "fet": "1% on life reinsurance premiums unless 953(d) elected",
+      "cfcPfic": "Per-cell ownership analysis",
+      "corporateTax": "Bermuda CIT 15% if in an in-scope MNE group; Cayman none",
+      "electionNotes": "953(d) by cell or PIC where applicable"
+    },
+    "watchOuts": [
+      "BMA July 2024 guidance raised expectations on segregated and separate account governance and collateral",
+      "Cross-cell contagion and enforceability tested only partly in court",
+      "AG 55 disclosure applies to in-scope cell treaties at the US cedant",
+      "Collateral quality and impairment disclosure under BMA review"
+    ],
+    "caseStudy": {
+      "headline": "26North and National Life form AeCe ISA, a Bermuda ISAC, for a USD 4.9 billion block",
+      "body": "In 2024, 26North Reinsurance Holdings, founded by Josh Harris, partnered with Agam Capital and National Life Group to form AeCe ISA, Ltd., a Bermuda Class E reinsurer leveraging Agam's Incorporated Segregated Accounts Company structure. AeCe closed a USD 4.9 billion reinsurance transaction with Life Insurance Company of the Southwest, reinsuring a seasoned, diversified block of multi-year guarantee and fixed index annuity products plus a quota share of future fixed annuities. National Life is a minority owner of AeCe, which functions as a dedicated sidecar within an ISAC.",
+      "outcome": "The deal lifted 26North reinsurance AUM to roughly $10bn while ring-fencing the block in its own incorporated cell."
+    },
+    "trends2026": [
+      "Mayer Brown: ISACs, SACs and Cayman SPCs increasingly used by asset-manager-backed reinsurers",
+      "Cayman home to 720 Class B, C and D insurers, tax-neutral and pursuing NAIC qualified-jurisdiction status",
+      "BMA refining segregated and separate account expectations through 2025-2026"
+    ],
+    "latestDeals": [
+      ["AeCe ISA / National Life", "ISAC cell reinsuring LSW MYGA and FIA block", "$4.9bn liabilities", "2024"]
+    ],
+    "sources": [
+      { "label": "PR Newswire: 26North Re closes $4.9bn with National Life", "url": "https://www.prnewswire.com/news-releases/26north-re-closes-4-9b-reinsurance-transaction-with-national-life-groups-life-insurance-company-of-the-southwest-302137974.html" },
+      { "label": "Mayer Brown: Globalization of Asset-Intensive Reinsurance", "url": "https://www.mayerbrown.com/en/insights/publications/2026/03/the-globalization-of-asset-intensive-reinsurance" },
+      { "label": "Ogier: Segregated portfolio companies in the Cayman Islands", "url": "https://www.ogier.com/news-and-insights/insights/segregated-portfolio-companies-in-the-cayman-islands/" },
+      { "label": "Captive.com: Cayman issues new insurance licenses (PIC/SPC)", "url": "https://www.captive.com/news/cayman-islands-issues-40-new-international-insurance-licenses" }
+    ]
+  },
+  "09": {
+    "tagline": "Layered holding-company platform stacking insurer, reinsurer, sidecar and asset manager.",
+    "whenToUse": [
+      "Large institutional consolidators of life and annuity blocks",
+      "PE permanent-capital platforms operating across jurisdictions",
+      "Multi-jurisdiction annuity manufacturers needing diversified capital",
+      "Groups integrating origination, manufacturing and reinsurance"
+    ],
+    "howItWorks": [
+      "HoldCo owns MidCo and OpCo US insurers plus a Bermuda reinsurance hub",
+      "The reinsurer assumes both affiliate and third-party business",
+      "Sidecars and co-investment vehicles bolt on third-party capital",
+      "An affiliated or strategic asset manager runs the consolidated portfolio",
+      "Capital and dividends cascade up the stack across regulators"
+    ],
+    "economics": {
+      "reserveRelief": "Substantial at platform scale across treaties",
+      "roeOrIrrUplift": "High; leverage plus spread plus fee income",
+      "minCapital": "Group capital plus entity floors across regimes",
+      "collateral": "Mix of funds withheld, ModCo and trusts by entity",
+      "setupTime": "Multi-year to build the full platform",
+      "setupCost": "Very high; multi-entity legal and licensing",
+      "ongoingCost": "High; group governance, ICS, multi-regulator reporting"
+    },
+    "keyStats": [
+      { "label": "Athene total assets", "value": "$400bn+" },
+      { "label": "Apollo AUM", "value": "Near $1tn" },
+      { "label": "IAIGs identified", "value": "59 in 18 jurisdictions" },
+      { "label": "Bermuda L&A assets", "value": "$1.52tn" }
+    ],
+    "regulatory": {
+      "regime": "Multi-jurisdiction; NAIC group capital; ICS for IAIGs",
+      "capitalBasis": "EBS/BSCR plus US RBC plus group capital calculation",
+      "reporting": "Group ORSA/Form F, EBS, BSCR, ICS reporting",
+      "supervision": "Group-wide supervisor coordinating with involved supervisors"
+    },
+    "tax": {
+      "beat": "BEAT on related-party premiums; 12.5% rate from 2026",
+      "fet": "1% on life reinsurance premiums unless 953(d) elected",
+      "cfcPfic": "CFC across the group; subpart F unless 953(d)",
+      "corporateTax": "Bermuda CIT 15%; US 21%; subject to Pillar Two",
+      "electionNotes": "953(d) at entity level; CFC income exclusion election available for 2025"
+    },
+    "watchOuts": [
+      "ICS adopted as PCR for IAIGs Dec 2024; self-assessment 2026, jurisdictional assessment from 2027",
+      "FSOC 2025 flagged the structure as systemic; Treasury met NAIC on offshore reinsurance",
+      "BMA group-level scrutiny of affiliated assets, liquidity and PPP",
+      "OECD Pillar Two global minimum tax reshapes Bermuda and Cayman group economics"
+    ],
+    "caseStudy": {
+      "headline": "Nippon Life acquires Resolution Life in a USD 10.6 billion platform deal",
+      "body": "In 2025 Nippon Life agreed to acquire 100% of Resolution Life at a USD 10.6 billion valuation, the largest acquisition ever by a Japanese insurer. Resolution Life is a global life consolidator with over USD 85 billion of reserves and more than four million policies across the US, UK, Bermuda and Singapore, built with Blackstone as investment manager and Nippon as its largest investor since 2019. Post-close, Resolution Life's institutional business becomes a Nippon subsidiary, illustrating a layered HoldCo platform spanning multiple jurisdictions and capital sources.",
+      "outcome": "Created a globally integrated multi-entity life platform; deal targeted to close in H2 2025."
+    },
+    "trends2026": [
+      "IAIS adopted ICS as prescribed capital requirement Dec 2024; 59 IAIGs across 18 jurisdictions",
+      "Apollo AUM approaching $1tn; Athene over $400bn total assets and over $300bn managed",
+      "US Aggregation Method deemed outcome-equivalent to ICS, sparing US IAIGs major changes"
+    ],
+    "latestDeals": [
+      ["Nippon Life / Resolution Life", "Acquisition of global life consolidation platform", "$10.6bn valuation", "2025"],
+      ["Sixth Street / Talcott Resolution", "Acquisition of Bermuda-led annuity platform", "Closed 2025", "2025"]
+    ],
+    "sources": [
+      { "label": "Linklaters: Resolution Life acquired by Nippon Life", "url": "https://www.linklaters.com/en/about-us/news-and-deals/deals/2025/february/linklaters-advises-resolution-life-on-its-acquisition-by-nippon-life" },
+      { "label": "IAIS: Adopts Insurance Capital Standard (ICS)", "url": "https://www.iais.org/2024/12/iais-adopts-insurance-capital-standard-and-other-enhancements-to-its-global-standards-to-promote-a-resilient-insurance-sector/" },
+      { "label": "Talcott: Completion of acquisition by Sixth Street", "url": "https://talcott.com/articles/talcott-resolution-announces-completion-of-acquisition-by-sixth-street/" },
+      { "label": "Skadden: Unpacking the IAIS adoption of the ICS", "url": "https://www.skadden.com/insights/podcasts/2025/02/unpacking-the-iais-adoption-of-the-insurance-capital-standard" }
+    ]
+  },
+  "10": {
+    "tagline": "In-force blocks plus forward-flow treaties layered across multiple reinsurers and structures.",
+    "whenToUse": [
+      "Largest annuity platforms optimizing across every capital source",
+      "Complex multi-product, cross-border programs (US plus Japan plus Asia)",
+      "Cedants blending affiliate, sidecar and third-party capacity",
+      "Issuers seeking maximum capital efficiency on new and legacy business"
+    ],
+    "howItWorks": [
+      "Cedant places an in-force block plus an ongoing forward-flow quota share",
+      "Cessions split across an affiliate, one or more sidecars and third-party reinsurers",
+      "Treaties mix coinsurance, ModCo and funds withheld by counterparty",
+      "Collateral varies by treaty; trusts, FWH and ModCo accounts coexist",
+      "Assets spread across multiple managers; capital optimized across regimes"
+    ],
+    "economics": {
+      "reserveRelief": "Maximum; layered across treaties and regimes",
+      "roeOrIrrUplift": "Maximized via leverage, spread and fee income",
+      "minCapital": "Group plus per-entity floors across jurisdictions",
+      "collateral": "Heterogeneous; trust, FWH and ModCo per treaty",
+      "setupTime": "Multi-year program build",
+      "setupCost": "Highest; many entities, treaties and managers",
+      "ongoingCost": "Highest; multi-treaty, multi-regulator administration"
+    },
+    "keyStats": [
+      { "label": "Prismic liabilities", "value": "~$17bn" },
+      { "label": "F&G reinsured 2024", "value": "$9.3bn of $12.5bn" },
+      { "label": "Bermuda L&A assets", "value": "$1.52tn" },
+      { "label": "Prismic 3rd raise", "value": "$1.3bn" }
+    ],
+    "regulatory": {
+      "regime": "Full multi-regime; ICS; BMA block approval per treaty",
+      "capitalBasis": "EBS/BSCR plus US RBC plus group capital",
+      "reporting": "AG 55 treaty-level testing; EBS; BSCR; ICS",
+      "supervision": "Multiple supervisors with group-wide coordination"
+    },
+    "tax": {
+      "beat": "BEAT across related-party flow and block premiums",
+      "fet": "1% on life reinsurance premiums unless 953(d) elected",
+      "cfcPfic": "CFC across the group structure; 953(d) mitigates",
+      "corporateTax": "Bermuda CIT 15%; US 21%; Pillar Two top-up risk",
+      "electionNotes": "953(d) per electing entity; layered FET and BEAT planning"
+    },
+    "watchOuts": [
+      "AG 55 requires treaty-level cash-flow testing from year-end 2026 by product line",
+      "BMA prior approval needed for each in-scope block and modification",
+      "ICS implementation assessments from 2027 add group capital pressure",
+      "Layered counterparty and collateral risk multiplies across treaties"
+    ],
+    "caseStudy": {
+      "headline": "Prismic Life Re scales a layered Prudential platform to about USD 17 billion of liabilities",
+      "body": "Prudential Financial and Warburg Pincus launched Prismic Life Reinsurance, a Bermuda Class E reinsurer, in September 2023 with USD 1 billion of initial equity and an opening block of about USD 10 billion of structured settlement annuities. Prismic layered in further blocks and forward flow, including roughly USD 7 billion of Japanese whole life in early 2025. On November 18, 2025 it closed a third capital raise of USD 1.3 billion, bringing total capital raised to over USD 2.8 billion supporting roughly USD 17 billion of Prudential US and Japanese liabilities, with PGIM and Warburg Pincus managing about USD 15 billion of assets.",
+      "outcome": "Prismic exemplifies layered block-plus-flow reinsurance across products and geographies at platform scale."
+    },
+    "trends2026": [
+      "Prismic closed a $1.3bn third raise Nov 2025, total over $2.8bn supporting ~$17bn of liabilities",
+      "F&G reinsured $9.3bn of $12.5bn annuity sales in 2024 using FWH and ModCo to stay capital-light",
+      "Bermuda long-term assets rose 19.1% to $1.52tn in 2024 per BMA stress-testing report"
+    ],
+    "latestDeals": [
+      ["Prismic Life Re / Prudential", "Third capital raise; ~$17bn US and Japan liabilities", "$1.3bn raise", "Nov 2025"],
+      ["Prudential / Wilton Re", "Guaranteed universal life reserves cession", "$11bn", "Dec 2024"],
+      ["Prudential / Somerset Re", "Guaranteed universal life reserves cession", "$12.5bn", "Apr 2024"]
+    ],
+    "sources": [
+      { "label": "Prudential: Prismic closes $1.3B capital raise", "url": "https://news.prudential.com/us-en/latest-news/prudential-news/2025/q4/Prismic-Life-announces-close-of-US-1-3B-capital-raise" },
+      { "label": "Mayer Brown: Globalization of Asset-Intensive Reinsurance", "url": "https://www.mayerbrown.com/en/insights/publications/2026/03/the-globalization-of-asset-intensive-reinsurance" },
+      { "label": "WTW: Actuarial Guideline 55 guardrail", "url": "https://www.wtwco.com/en-us/insights/2025/09/actuarial-guideline-55-a-new-guardrail-for-asset-intensive-reinsurance" },
+      { "label": "Retirement Income Journal: F&G capital-light strategy", "url": "https://retirementincomejournal.com/article/investors-cool-to-fgs-capital-light-strategy/" }
+    ]
+  },
+};
+
+const root = document.getElementById("structures");
+
+function cxBar(n) {
+  return `<div class="cx-bar">${Array.from({length:10},(_,i)=>`<div class="cx-dot${i<n?' on':''}"></div>`).join("")}<span class="cx-label">${n}/10</span></div>`;
+}
+
+// ── helpers ──
+const hasVals = o => o && Object.values(o).some(v => v);
+function kvRows(obj, labels) {
+  if (!obj) return "";
+  return Object.keys(labels).filter(k => obj[k]).map(k =>
+    `<div class="kv"><span class="kvk">${labels[k]}</span><span class="kvv">${obj[k]}</span></div>`).join("");
+}
+const ECON_LBL = { reserveRelief: "Reserve relief", roeOrIrrUplift: "ROE / IRR uplift", minCapital: "Min. capital", collateral: "Collateral", setupTime: "Setup time", setupCost: "Setup cost", ongoingCost: "Ongoing cost" };
+const REG_LBL = { regime: "Regime", capitalBasis: "Capital basis", reporting: "Reporting", supervision: "Supervision" };
+const TAX_LBL = { beat: "BEAT", fet: "Excise (FET)", cfcPfic: "CFC / PFIC", corporateTax: "Corporate tax", electionNotes: "Elections" };
+
+function paneOverview(s, d) {
+  return `
+    ${d.tagline ? `<p class="flow" style="color:var(--text);font-weight:600;font-size:.85rem;margin-bottom:.7rem">${d.tagline}</p>` : ""}
+    <p class="flow" style="margin-bottom:.9rem">${s.desc}</p>
+    <div class="sect-grid">
+      <div class="sect">
+        <div class="sect-title">Treaty &amp; Jurisdiction</div>
+        <p class="flow"><strong>Treaty:</strong> ${s.treaty}</p>
+        <p class="flow"><strong>Jurisdiction:</strong> ${s.jurisdiction}</p>
+        <p class="flow"><strong>Framework:</strong> ${s.framework}</p>
+      </div>
+      ${d.whenToUse && d.whenToUse.length ? `<div class="sect"><div class="sect-title">When to use</div>${d.whenToUse.map(w => `<div class="pc-item"><span class="pc-icon" style="color:var(--blue)">&#9656;</span><span>${w}</span></div>`).join("")}</div>` : ""}
+      <div class="sect"><div class="sect-title">Advantages</div>${s.pros.map(p => `<div class="pc-item"><span class="pc-icon" style="color:var(--green)">&#10003;</span><span>${p}</span></div>`).join("")}</div>
+      <div class="sect"><div class="sect-title">Risks &amp; Limitations</div>${s.cons.map(c => `<div class="pc-item"><span class="pc-icon" style="color:var(--red)">&#10007;</span><span>${c}</span></div>`).join("")}</div>
+    </div>`;
+}
+
+function paneMechanics(s, d) {
+  return `
+    <div class="sect-grid">
+      <div class="sect">
+        <div class="sect-title">How it works</div>
+        ${d.howItWorks && d.howItWorks.length ? `<div class="steps">${d.howItWorks.map(h => `<div class="step">${h}</div>`).join("")}</div>` : `<p class="empty">Step-by-step mechanics pending research.</p>`}
+      </div>
+      <div class="sect">
+        <div class="sect-title">Capital Stack</div>
+        <div class="cap-stack">${s.capStack.map(c => `<div class="cap-layer" style="background:${c.bg}"><span class="label">${c.label}</span><span class="val" style="color:${c.color}">${c.val}</span></div>`).join("")}</div>
+      </div>
+    </div>`;
+}
+
+function paneEconomics(s, d) {
+  return `
+    ${d.keyStats && d.keyStats.length ? `<div class="stat-row">${d.keyStats.map(k => `<div class="stat-chip"><div class="k">${k.label}</div><div class="v">${k.value}</div></div>`).join("")}</div>` : ""}
+    ${hasVals(d.economics) ? `<div class="sect"><div class="sect-title">Economics</div>${kvRows(d.economics, ECON_LBL)}</div>` : ""}`;
+}
+
+function paneRegTax(s, d) {
+  return `
+    <div class="sect-grid">
+      ${hasVals(d.regulatory) ? `<div class="sect"><div class="sect-title">Regulatory</div>${kvRows(d.regulatory, REG_LBL)}</div>` : ""}
+      ${hasVals(d.tax) ? `<div class="sect"><div class="sect-title">Tax</div>${kvRows(d.tax, TAX_LBL)}</div>` : ""}
+      ${d.watchOuts && d.watchOuts.length ? `<div class="sect sect-full"><div class="sect-title">2025-26 Watch-outs</div>${d.watchOuts.map(w => `<div class="watch"><span class="wi">&#9888;</span><span>${w}</span></div>`).join("")}</div>` : ""}
+    </div>`;
+}
+
+function paneExamples(s, d) {
+  const latest = (d.latestDeals && d.latestDeals.length)
+    ? `<div class="sect sect-full" style="margin-top:1rem"><div class="sect-title">Recent Deals (2025-26)</div><table class="ex-table"><tr><th>Entity / Deal</th><th>Details</th><th>Scale</th><th>Date / Note</th></tr>${d.latestDeals.map(e => `<tr>${e.map(c => `<td>${c}</td>`).join("")}</tr>`).join("")}</table></div>` : "";
+  const cs = (d.caseStudy && d.caseStudy.headline)
+    ? `<div class="case"><div class="case-h">${d.caseStudy.headline}</div><p class="flow">${d.caseStudy.body}</p>${d.caseStudy.outcome ? `<div class="case-o">&#8594; ${d.caseStudy.outcome}</div>` : ""}</div>` : "";
+  const tr = (d.trends2026 && d.trends2026.length)
+    ? `<div class="sect sect-full" style="margin-top:1rem"><div class="sect-title">2025-26 Trends</div>${d.trends2026.map(t => `<div class="pc-item"><span class="pc-icon" style="color:var(--cyan)">&#9656;</span><span>${t}</span></div>`).join("")}</div>` : "";
+  return `
+    <div class="sect sect-full">
+      <div class="sect-title">Live Deal Examples</div>
+      <table class="ex-table">
+        <tr><th>Entity / Deal</th><th>Details</th><th>Scale</th><th>Notes</th></tr>
+        ${s.examples.map(e => `<tr>${e.map(c => `<td>${c}</td>`).join("")}</tr>`).join("")}
+      </table>
+    </div>
+    ${latest}${cs}${tr}`;
+}
+
+function paneSources(s, d) {
+  return `<div class="sect"><div class="sect-title">Sources &amp; References</div>${d.sources.map(x => `<a class="src" href="${x.url}" target="_blank" rel="noopener noreferrer">${x.label} <span class="sd">${x.url}</span></a>`).join("")}</div>`;
+}
+
+function renderAll() {
+  root.innerHTML = S.map((s, idx) => {
+    const d = STRUCTURE_DETAILS[s.num] || {};
+    const tabs = [
+      { id: "overview", label: "Overview", html: paneOverview(s, d) },
+      { id: "mechanics", label: "How it works", html: paneMechanics(s, d) },
+    ];
+    if ((d.keyStats && d.keyStats.length) || hasVals(d.economics)) tabs.push({ id: "economics", label: "Economics", html: paneEconomics(s, d) });
+    if (hasVals(d.regulatory) || hasVals(d.tax) || (d.watchOuts && d.watchOuts.length)) tabs.push({ id: "regtax", label: "Regulatory & Tax", html: paneRegTax(s, d) });
+    tabs.push({ id: "examples", label: "Examples", html: paneExamples(s, d) });
+    if (d.sources && d.sources.length) tabs.push({ id: "sources", label: "Sources", html: paneSources(s, d) });
+
+    return `
+    <div class="struct${idx===0?' open':''}" id="s${idx}">
+      <div class="struct-hdr" onclick="toggle(${idx})">
+        <div class="struct-num" style="background:${s.color}18;color:${s.color};border:1px solid ${s.color}44">${s.num}</div>
+        <div class="struct-hdr-text">
+          <div class="struct-title">${s.title}</div>
+          <div class="struct-meta">
+            <span><span class="dot" style="background:${s.color}"></span>${s.category}</span>
+            <span style="color:${s.color}">${s.treaty.split(",")[0]}</span>
+            <span>${s.jurisdiction.split(",")[0].split("(")[0].trim()}</span>
+          </div>
+          ${cxBar(s.complexity)}
+        </div>
+        <div class="struct-toggle">&#9662;</div>
+      </div>
+      <div class="struct-body">
+        <div class="diagram-wrap">
+          <div class="diagram-label">Entity &amp; Flow Diagram</div>
+          ${s.diagram}
+        </div>
+        <div class="subtabs">
+          ${tabs.map((t, i) => `<button class="subtab${i===0?' active':''}" data-tab="${t.id}" onclick="switchTab(${idx},'${t.id}')">${t.label}</button>`).join("")}
+        </div>
+        ${tabs.map((t, i) => `<div class="subpane${i===0?' active':''}" data-pane="${t.id}">${t.html}</div>`).join("")}
+      </div>
+    </div>`;
+  }).join("");
+}
+
+function toggle(idx) {
+  document.getElementById("s"+idx).classList.toggle("open");
+}
+
+function switchTab(idx, tabId) {
+  const card = document.getElementById("s"+idx);
+  if (!card) return;
+  card.querySelectorAll(".subtab").forEach(b => b.classList.toggle("active", b.dataset.tab === tabId));
+  card.querySelectorAll(".subpane").forEach(p => p.classList.toggle("active", p.dataset.pane === tabId));
+}
+
+renderAll();
+</script>
+</body>
+</html>
