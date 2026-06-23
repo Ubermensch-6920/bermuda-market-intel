@@ -608,133 +608,701 @@ const S = [
 
 // ── Render ──
 // ════════════════════════════════════════════════════════════════════
-// STRUCTURE_DETAILS — additive depth, keyed by structure `num`.
-// First-pass seed content (qualitative / well-established facts) so every
-// sub-tab is populated. Replace any entry wholesale with the output of the
-// deep-research prompt; cards with no entry fall back to the base layout.
-// Hard quantitative deal figures and source URLs are intentionally left for
-// the research pass (latestDeals/sources default to []).
+// STRUCTURE_DETAILS — additive depth, keyed by structure `num`, merged at
+// render time without touching the curated base fields. Populated from the
+// deep-research pass (sourced; citation markup stripped). Cards with no entry
+// fall back to the base layout; sub-tabs/sections render only when data exists.
 // ════════════════════════════════════════════════════════════════════
 const STRUCTURE_DETAILS = {
   "01": {
-    tagline: "Wholly-owned domestic reinsurer for intra-group risk pooling - no offshore arbitrage.",
-    whenToUse: ["Consolidating risk across multiple US-licensed subsidiaries","Groups prioritizing regulatory transparency over capital arbitrage","Internal capital and surplus management within one state regime","Avoiding BEAT / FET / CFC complexity entirely"],
-    howItWorks: ["Parent capitalizes a same-state reinsurance subsidiary with common equity.","Operating insurer cedes a quota share or coinsurance pool to the affiliate.","Both entities hold full US statutory reserves and file RBC.","Risk and surplus are redistributed within the group; no reserve is released.","Dividends and capital flow back to the parent over time."],
-    economics: { reserveRelief: "None (full US Stat both sides)", roeOrIrrUplift: "Modest - capital efficiency only", minCapital: "State RBC minimums", collateral: "Not required (affiliated, same state)", setupTime: "3-6 months", setupCost: "Low", ongoingCost: "Low" },
-    keyStats: [{ label: "Reserve relief", value: "None" }, { label: "Collateral", value: "0%" }, { label: "Regime", value: "US Stat / RBC" }, { label: "Complexity", value: "2 / 10" }],
-    regulatory: { regime: "US state insurance regulation (same state as cedant)", capitalBasis: "Risk-Based Capital (RBC)", reporting: "Statutory annual / quarterly (Blue Book)", supervision: "State commissioner; standard holding-company review" },
-    tax: { beat: "Avoided (domestic affiliate)", fet: "None (US-to-US)", cfcPfic: "N/A - domestic", corporateTax: "US federal 21% + state", electionNotes: "No 953(d) needed" },
-    watchOuts: ["Higher capital carry than any offshore alternative","NAIC group-capital (GCC) and holding-company disclosures still apply"],
-    caseStudy: { headline: "Large US groups' intercompany pools", body: "Most major US life groups run an affiliated domestic reinsurer or pooling arrangement to consolidate mortality and longevity risk across subsidiaries. The aim is internal diversification and surplus mobility rather than reserve arbitrage, so both sides remain on full statutory reserves.", outcome: "Cleaner internal capital allocation with full regulatory transparency." },
-    latestDeals: [], sources: [],
+    "tagline": "Intra-group US reinsurance to pool risk and free capital without leaving the US perimeter.",
+    "whenToUse": [
+      "Multi-entity US insurer groups consolidating risk onto one balance sheet",
+      "Insurers wanting capital and reserve efficiency without offshore optics",
+      "A first, low-risk step before building offshore or third-party platforms",
+      "Groups managing legacy blocks among affiliated US-licensed carriers"
+    ],
+    "howItWorks": [
+      "US ceding insurer enters quota share or coinsurance with an affiliated US-licensed reinsurer",
+      "Ceding company takes reserve credit on Schedule S; reinsurer books assumed reserves",
+      "Assets either transfer (coinsurance) or stay with cedant (ModCo or funds withheld)",
+      "No collateral needed since the assuming reinsurer is US-licensed and accredited",
+      "Both entities file statutory blanks and roll into the group capital calculation"
+    ],
+    "economics": {
+      "reserveRelief": "Modest; mainly diversification and RBC smoothing",
+      "roeOrIrrUplift": "Roughly 1-3 points from capital reallocation",
+      "minCapital": "RBC-based; company action level at 200% ACL",
+      "collateral": "None required (US-licensed assuming reinsurer)",
+      "setupTime": "3-6 months",
+      "setupCost": "Low (existing licensed entities)",
+      "ongoingCost": "Low; standard statutory reporting"
+    },
+    "keyStats": [
+      { "label": "RBC trigger", "value": "200% ACL" },
+      { "label": "Federal excise tax", "value": "None (domestic)" },
+      { "label": "Collateral", "value": "0%" },
+      { "label": "Affiliated share offshore", "value": "Nearly 70%" }
+    ],
+    "regulatory": {
+      "regime": "US state insurance law; NAIC accreditation standards",
+      "capitalBasis": "NAIC risk-based capital (RBC)",
+      "reporting": "Statutory annual statement; Schedule S; Form F",
+      "supervision": "Domiciliary state insurance department"
+    },
+    "tax": {
+      "beat": "Not applicable; both parties US taxpayers",
+      "fet": "None; no foreign insurer or reinsurer involved",
+      "cfcPfic": "Not applicable (domestic entities)",
+      "corporateTax": "US corporate income tax at 21%",
+      "electionNotes": "No 953(d) election needed; both already domestic"
+    },
+    "watchOuts": [
+      "AG 55 disclosure can apply where the affiliated reinsurer files no VM-30 memorandum",
+      "NAIC and FSOC heightened scrutiny of intra-group reinsurance and group capital",
+      "Domestic regulator may still require cash-flow testing for asset-intensive blocks"
+    ],
+    "caseStudy": {
+      "headline": "Prudential New Jersey captive supports a closed block via affiliated reinsurance",
+      "body": "Prudential Financial established Prudential New Jersey Captive Insurance Company, a wholly owned subsidiary, to reinsure a closed block of life policies issued or assumed by The Prudential Insurance Company of America. A USD 2 billion letter of credit facility backed the captive obligations. The arrangement kept risk and assets within the US holding company system while financing reserves, illustrating the simplest affiliated domestic model before groups graduate to offshore structures.",
+      "outcome": "Demonstrated onshore reserve financing with bank-supported LOC capacity inside the US group."
+    },
+    "trends2026": [
+      "AM Best: nearly 70% of reserves ceded offshore go to affiliates, with PE or asset-manager firms 46% of those",
+      "AM Best: ceded reserves grew 6.4% in 2024, a deceleration from double-digit growth in 2021-2023",
+      "NAIC group capital calculation and Form F scrutiny rising for intra-group cessions"
+    ],
+    "latestDeals": [],
+    "sources": [
+      { "label": "AM Best via Insurance Business: Bermuda reinsurance growth", "url": "https://www.insurancebusinessmag.com/reinsurance/news/breaking-news/us-insurers-turn-to-bermuda-as-reinsurance-growth-slows-but-remains-strong-542547.aspx" },
+      { "label": "NAIC: Captive Insurance Companies topic", "url": "https://content.naic.org/insurance-topics/captive-insurance-companies" },
+      { "label": "Mayer Brown: Life Insurance and Reinsurance Transactions", "url": "https://www.mayerbrown.com/en/industries/life-insurance--reinsurance-transactions" }
+    ]
   },
   "02": {
-    tagline: "Onshore captive that finances redundant XXX / AXXX term and UL reserves.",
-    whenToUse: ["Financing formulaic reserve redundancy on term and UL-SG blocks","Pre-PBR grandfathered blocks still in force","Groups with access to LOC / surplus-note capital","Domiciles offering permitted practices (VT, AZ, SC)"],
-    howItWorks: ["Insurer issues XXX / AXXX business carrying redundant statutory reserves.","Excess reserves are ceded to an affiliated captive via coinsurance / ModCo.","The captive backs economic reserves with hard assets and the redundant slice with synthetic capital (LOCs, surplus notes).","AG 48 / Model 787 requires Primary Security for the economic piece.","Capital support is renewed and serviced over the life of the block."],
-    economics: { reserveRelief: "Finances XXX / AXXX redundancy", roeOrIrrUplift: "Historically material pre-PBR", minCapital: "Captive statutory minimum", collateral: "Primary Security under AG 48", setupTime: "6-12 months", setupCost: "Moderate", ongoingCost: "LOC fees, surplus-note servicing" },
-    keyStats: [{ label: "Peak shadow reserves", value: "~$364B (2012)" }, { label: "Key rule", value: "AG 48 / Model 787" }, { label: "New-business case", value: "Eroded post-PBR" }, { label: "Complexity", value: "4 / 10" }],
-    regulatory: { regime: "US captive statute + permitted practices", capitalBasis: "Captive statutory; AG 48 Primary Security test", reporting: "Captive statutory filings (often confidential)", supervision: "Domiciliary captive regulator" },
-    tax: { beat: "Domestic - not BEAT-exposed", fet: "None (US captive)", cfcPfic: "N/A - domestic", corporateTax: "US 21% + state", electionNotes: "N/A" },
-    watchOuts: ["PBR (2020) removed the new-business incentive; mostly run-off now","NAIC AG 48 / Model 787 limits asset quality backing redundant reserves","Lingering 'shadow insurance' reputational scrutiny"],
-    caseStudy: { headline: "Lincoln and Prudential XXX / AXXX captives", body: "Several large term and UL writers built affiliated captives in Vermont, Arizona and South Carolina to finance XXX / AXXX redundancy, using letters of credit and surplus notes for the non-economic reserve slice. After AG 48 and principle-based reserving, the economics for new business largely disappeared, leaving grandfathered blocks in run-off.", outcome: "Grandfathered structures retained; new formation effectively stopped." },
-    latestDeals: [], sources: [],
+    "tagline": "Onshore captive financing redundant XXX and AXXX term and UL reserves with primary security.",
+    "whenToUse": [
+      "Level-premium term life writers carrying redundant XXX reserves",
+      "Universal life with secondary guarantee blocks under AXXX",
+      "Pre-principle-based-reserving blocks needing reserve financing",
+      "Groups wanting reserve relief while keeping the reinsurer US-domiciled"
+    ],
+    "howItWorks": [
+      "Insurer cedes the XXX or AXXX block to a wholly owned captive reinsurer",
+      "Captive holds primary security (high-quality assets) per the AG 48 actuarial method",
+      "Remaining reserve backed by other security such as letters of credit or notes",
+      "Appointed actuary tests primary security sufficiency; deficiency forces qualified opinion",
+      "Transaction filed on the XXX/AXXX Reinsurance Supplement with the domiciliary regulator"
+    ],
+    "economics": {
+      "reserveRelief": "High on the redundant portion of statutory reserves",
+      "roeOrIrrUplift": "Meaningful where economic reserve is far below statutory",
+      "minCapital": "Per state captive law; primary security must be fully funded",
+      "collateral": "Primary security plus LOC or contingent notes for other security",
+      "setupTime": "6-12 months",
+      "setupCost": "Moderate; legal, actuarial, LOC arrangement fees",
+      "ongoingCost": "Moderate; LOC fees, actuarial testing, captive admin"
+    },
+    "keyStats": [
+      { "label": "Model 787 adoption", "value": "42 jurisdictions" },
+      { "label": "AG 48 fallback states", "value": "9 jurisdictions" },
+      { "label": "Federal excise tax", "value": "None (domestic)" },
+      { "label": "Other security", "value": "LOC / notes" }
+    ],
+    "regulatory": {
+      "regime": "State captive statutes; AG 48 and NAIC Model 787",
+      "capitalBasis": "Statutory; actuarial method primary security test",
+      "reporting": "XXX/AXXX Reinsurance Supplement; AG 48 certification",
+      "supervision": "Domiciliary state department; NAIC accreditation review"
+    },
+    "tax": {
+      "beat": "Not applicable; domestic captive",
+      "fet": "None; US-domiciled reinsurer",
+      "cfcPfic": "Not applicable",
+      "corporateTax": "US corporate income tax at 21%",
+      "electionNotes": "No 953(d) election (already domestic)"
+    },
+    "watchOuts": [
+      "Principle-based reserving is shrinking the need for new XXX/AXXX captives",
+      "AG 55 now captures captive and affiliated asset-intensive treaties for AAT disclosure",
+      "FSOC has flagged variable annuity and long-term-care captives as areas of concern"
+    ],
+    "caseStudy": {
+      "headline": "NAIC harmonizes XXX/AXXX captive reserve financing under Model 787",
+      "body": "After New York DFS published Shining a Light on Shadow Insurance in 2013, the NAIC adopted AG 48 (effective January 2015) and later codified it in the Term and Universal Life Insurance Reserve Financing Model Regulation (Model 787). The framework sets a uniform actuarial method defining required primary security held even when reserves are assumed by a captive, with the remainder backed by other security. As of August 2025, 42 jurisdictions had implemented Model 787 while 9 still relied on AG 48.",
+      "outcome": "Standardized national treatment curbed regulatory arbitrage; new-captive formation has fallen as PBR phases in."
+    },
+    "trends2026": [
+      "PBR adoption reduces new XXX/AXXX securitization need; existing captives run off over years to decades",
+      "AG 55, adopted August 2025, layers asset adequacy testing onto captive and affiliated treaties",
+      "Model 787 an accreditation standard; AG 48 deemed substantially similar in remaining states"
+    ],
+    "latestDeals": [],
+    "sources": [
+      { "label": "NAIC: Captive Insurance Companies topic", "url": "https://content.naic.org/insurance-topics/captive-insurance-companies" },
+      { "label": "Corvid Partners: Reg XXX/AXXX Securitizations", "url": "https://www.corvidpartners.com/field-guide/insurance/reg-xxx-axxx-securitizations" },
+      { "label": "NAIC: Term and Universal Life Reserve Financing brief", "url": "https://content.naic.org/sites/default/files/government-affairs-brief-term-universal-life-reserve-financing.pdf" }
+    ]
   },
   "03": {
-    tagline: "The workhorse: wholly-owned Bermuda Class E / Cayman Class D reinsurer for reserve arbitrage.",
-    whenToUse: ["Asset-intensive blocks (FIA, fixed annuity, PRT) seeking reserve relief","US groups wanting EBS economics without third-party profit share","Keeping assets on US books via ModCo / FWH","Building a captive offshore platform before adding third-party capital"],
-    howItWorks: ["US insurer establishes a wholly-owned Bermuda Class E (or Cayman Class D) reinsurer.","Asset-intensive liabilities are ceded via ModCo and / or Co-FWH.","Assets remain on the US cedant's books; funds-withheld acts as implicit collateral.","Reserves move from US Stat (AG 33/35) to BMA EBS (BEL + risk margin).","Bermuda reciprocal status means zero required collateral; Cayman unauthorized status needs 100%.","Released capital and spread income are retained offshore."],
-    economics: { reserveRelief: "~10-14% on FIA blocks", roeOrIrrUplift: "Meaningful via reserve release", minCapital: "Bermuda Class E: $8M min", collateral: "Bermuda 0% (reciprocal); Cayman 100%", setupTime: "6-12 months", setupCost: "Moderate", ongoingCost: "Dual-regime reporting" },
-    keyStats: [{ label: "Reserve relief", value: "~10-14%" }, { label: "BDA collateral", value: "0%" }, { label: "Min capital", value: "$8M (Class E)" }, { label: "Complexity", value: "5 / 10" }],
-    regulatory: { regime: "BMA (Bermuda Class E) or CIMA (Cayman Class D)", capitalBasis: "BMA EBS / BSCR; CIMA principle-based", reporting: "EBS + BSCR returns; plus US Stat at cedant", supervision: "BMA / CIMA; US credit-for-reinsurance rules at cedant" },
-    tax: { beat: "Potential BEAT on affiliated premiums", fet: "1% on reinsurance premiums unless treaty / 953(d)", cfcPfic: "CFC - watch Subpart F / GILTI", corporateTax: "Bermuda 15% CIT from 2025 (large MNEs)", electionNotes: "953(d) election common to be taxed as US" },
-    watchOuts: ["Bermuda 15% corporate income tax effective Jan 2025 for large groups","BMA enhanced scrutiny: lapse-risk, liquidity stress, prior approval","NAIC AG 55 asset-adequacy testing on ceded asset-intensive business"],
-    caseStudy: { headline: "Standard Bermuda Class E affiliated reinsurer", body: "A US annuity writer sets up a Bermuda Class E affiliate and cedes FIA reserves via ModCo with funds withheld. Moving from US statutory to BMA EBS valuation releases roughly a tenth of reserves, and Bermuda's reciprocal-jurisdiction status removes the collateral requirement that a Cayman entity would face.", outcome: "Capital freed and retained offshore; assets stay on the US balance sheet." },
-    latestDeals: [], sources: [],
+    "tagline": "US insurer cedes annuity blocks to its own Bermuda or Cayman affiliate for capital efficiency.",
+    "whenToUse": [
+      "Fixed and indexed annuity writers seeking favorable offshore discount rates",
+      "Groups that already operate or want a Bermuda Class C/D/E platform",
+      "Insurers replicating the Athene-style affiliated reinsurance model",
+      "Carriers wanting capital relief while retaining group control of assets"
+    ],
+    "howItWorks": [
+      "US insurer cedes annuity reserves to its Bermuda or Cayman affiliate",
+      "Structured as ModCo or funds withheld so assets often stay with the cedant",
+      "Affiliate values liabilities on the Bermuda EBS basis, generally more favorable than US statutory",
+      "Ceding insurer takes reserve credit; Bermuda reciprocal-jurisdiction status removes collateral",
+      "Affiliated asset manager or group invests the supporting portfolio"
+    ],
+    "economics": {
+      "reserveRelief": "Significant via lower EBS discount rate versus US statutory",
+      "roeOrIrrUplift": "Several points from capital release and spread",
+      "minCapital": "BMA Class C floor USD 500k; Class D USD 4m; Class E USD 8m",
+      "collateral": "Often funds withheld or ModCo; no trust where reciprocal",
+      "setupTime": "6-12 months including BMA licensing",
+      "setupCost": "Moderate to high; licensing, actuarial, legal",
+      "ongoingCost": "Moderate; BMA fees, CISSA/ORSA, audit"
+    },
+    "keyStats": [
+      { "label": "Bermuda US reserves 2024", "value": "Over $900bn" },
+      { "label": "Athene affiliate cession", "value": "$192bn" },
+      { "label": "Class E capital floor", "value": "$8m" },
+      { "label": "Bermuda CIT", "value": "15%" }
+    ],
+    "regulatory": {
+      "regime": "BMA Insurance Act; Class C/D/E long-term; NAIC reciprocal jurisdiction",
+      "capitalBasis": "Economic Balance Sheet; BSCR at 1-in-200 (ECR, TCL 120%)",
+      "reporting": "EBS, BSCR, CISSA, GAAP/IFRS financials; AG 55 at US cedant",
+      "supervision": "Bermuda Monetary Authority; US domiciliary for cedant"
+    },
+    "tax": {
+      "beat": "BEAT exposure on related-party premiums; rate 12.5% from 2026",
+      "fet": "1% on life reinsurance premiums unless 953(d) elected",
+      "cfcPfic": "CFC if 25%+ US-controlled; subpart F or 953(d)",
+      "corporateTax": "Bermuda CIT 15% for MNE groups over EUR 750m revenue",
+      "electionNotes": "953(d) election common to be taxed as US insurer and avoid FET"
+    },
+    "watchOuts": [
+      "AG 55 asset adequacy testing for in-scope affiliated treaties, first reports due April 1, 2026",
+      "BMA rules effective January 2026 demand explicit asset market-value projections and disclosure",
+      "Bermuda 15% CIT live since January 2025; substance-based credits partly offset",
+      "US Treasury and NAIC scrutiny of offshore affiliated reinsurance intensifying"
+    ],
+    "caseStudy": {
+      "headline": "Athene routes nearly all its reinsurance through its own Bermuda affiliate",
+      "body": "Athene, the Apollo-owned retirement-services company, became the template for affiliated offshore reinsurance. In 2024, 96% of its roughly USD 200 billion of reinsurance came from Bermuda, and all USD 192 billion of that Bermuda support came from its own affiliate rather than any third party, per US company-level filings compiled by AM Best. Athene reports over USD 400 billion of total assets as of mid-2025 and uses ModCo and funds-withheld structures to keep fee-generating assets under Apollo management while obtaining capital relief.",
+      "outcome": "Affiliated Bermuda cessions drove industry-wide growth to over $900bn US reserves in Bermuda by 2024."
+    },
+    "trends2026": [
+      "Fitch (July 2025): US reserves ceded offshore rose 147% to over $1.1tn, with Bermuda at 84% of the total",
+      "Bermuda long-term reinsurers managed $1.52tn in assets as of September 2025 (BMA data)",
+      "Bermuda saw fewer new L&A entrants in 2025 as BMA tightened disclosure rules"
+    ],
+    "latestDeals": [
+      ["Athene", "Block reinsurance with Sony Life; Swiss Re retrocedes mortality", "~$19bn Japan cumulative", "Sept 2025"],
+      ["Brookfield Wealth Solutions", "Flow reinsurance with Dai-ichi Frontier Life via American National", "Flow basis", "Oct 2025"]
+    ],
+    "sources": [
+      { "label": "Bloomberg: Offshoring of America's Retirement Savings", "url": "https://www.bloomberg.com/graphics/2025-bermuda-insurance/" },
+      { "label": "Insurance Business: US Treasury joins scrutiny of Bermuda", "url": "https://www.insurancebusinessmag.com/reinsurance/news/breaking-news/us-treasury-joins-scrutiny-of-1-52-trillion-bermuda-reinsurance-market-574857.aspx" },
+      { "label": "BMA: Licensing classes and capital floors", "url": "https://www.bma.bm/insurance-licensing" },
+      { "label": "Athene: Sony Life block reinsurance", "url": "https://www.athene.com/news/annuities-news/2025/athene-announces-block-reinsurance-transaction-with-sony-life-in-japan.html" }
+    ]
   },
   "04": {
-    tagline: "The Apollo / Athene model: offshore reinsurer plus affiliated asset manager capturing the full chain.",
-    whenToUse: ["PE firms building a permanent-capital / spread-lending platform","Capturing underwriting + reserve arb + asset-management fees together","Scaling FIA / annuity origination via IMO distribution","Pairing insurance liabilities with private-credit origination"],
-    howItWorks: ["PE sponsor acquires or builds a US operating insurer (OpCo).","OpCo cedes liabilities offshore (Bermuda Class E) via ModCo / FWH.","The sponsor's affiliated asset manager runs the supporting assets under an IMA.","Manager earns management, origination and performance fees on top of spread.","Sidecars (e.g. ACRA, Ivy) add third-party capacity for large blocks."],
-    economics: { reserveRelief: "~10-14% (EBS)", roeOrIrrUplift: "AM alpha ~80-200 bps + spread", minCapital: "Platform-scale equity", collateral: "Bermuda 0% (reciprocal)", setupTime: "12-24 months", setupCost: "High", ongoingCost: "Multi-regime; AM oversight" },
-    keyStats: [{ label: "Combined AUM (top platforms)", value: "$800B+" }, { label: "AM alpha", value: "~80-200 bps" }, { label: "Reserve relief", value: "~10-14%" }, { label: "Complexity", value: "8 / 10" }],
-    regulatory: { regime: "US state (OpCo) + BMA (Bermuda Re)", capitalBasis: "RBC at OpCo; EBS / BSCR offshore", reporting: "US Stat + EBS + consolidated GAAP", supervision: "NAIC PE-owned-insurer scrutiny; BMA group supervision" },
-    tax: { beat: "BEAT exposure on affiliated cessions", fet: "1% unless 953(d) / treaty", cfcPfic: "CFC; GILTI / Subpart F planning", corporateTax: "Bermuda 15% CIT from 2025", electionNotes: "953(d) common" },
-    watchOuts: ["NAIC flagged 137+ PE-owned insurers for enhanced scrutiny","Affiliated-AM conflicts: valuation, liquidity, related-party limits","98% of affiliated bonds are private placements - transparency concerns","777 Re collapse is the cautionary tale of affiliated asset self-dealing"],
-    caseStudy: { headline: "Apollo / Athene", body: "Apollo built Athene into the archetype: a Bermuda-anchored annuity platform whose assets are managed by Apollo's credit arm. Underwriting margin, reserve arbitrage and asset-management economics all accrue to the group, and sidecars bring in third-party capital for large block deals. The model now anchors hundreds of billions in AUM across the PE-insurance complex.", outcome: "Full value-chain capture; template copied by KKR, Blackstone, Brookfield, Carlyle." },
-    latestDeals: [], sources: [],
+    "tagline": "The Bermuda Triangle - one owner runs the insurer, the offshore reinsurer and the asset manager.",
+    "whenToUse": [
+      "Alternative asset managers building permanent capital and AUM",
+      "Insurers seeking private-credit origination alpha on annuity float",
+      "Scale annuity manufacturers optimizing spread and fee income",
+      "PE platforms wanting capital-light growth via funds withheld and ModCo"
+    ],
+    "howItWorks": [
+      "PE firm acquires or partners with a US life insurer issuing fixed and indexed annuities",
+      "Insurer cedes liabilities to an affiliated Bermuda reinsurer via funds withheld or ModCo",
+      "Affiliated asset manager invests the float in private credit, CLOs and structured assets",
+      "Manager earns asset-management and structuring fees plus the investment spread",
+      "Capital relief from offshore EBS funds renewed annuity sales and new cessions"
+    ],
+    "economics": {
+      "reserveRelief": "Significant; offshore EBS plus capital-light recycling",
+      "roeOrIrrUplift": "High; combines net spread, fees and leverage",
+      "minCapital": "BMA Class E floor USD 8m; far higher in practice",
+      "collateral": "Funds withheld or ModCo keeps assets near the manager",
+      "setupTime": "12+ months to build full platform",
+      "setupCost": "High; multi-entity legal, licensing, asset platform",
+      "ongoingCost": "High; asset management, governance, CISSA/ORSA"
+    },
+    "keyStats": [
+      { "label": "Apollo new-capital share", "value": "~40%" },
+      { "label": "Athene Level 3 assets", "value": "~1/3 of total" },
+      { "label": "Affiliated-fund lending", "value": "~20%" },
+      { "label": "Bermuda L&A assets", "value": "$1.52tn" }
+    ],
+    "regulatory": {
+      "regime": "BMA Class E; enhanced PE-insurer supervision; reciprocal jurisdiction",
+      "capitalBasis": "EBS; BSCR with scenario-based approach for long-term insurers",
+      "reporting": "EBS, BSCR, CISSA, prior approval of long-term blocks; AG 55 at US cedant",
+      "supervision": "BMA with prudent person principle and affiliated-asset review"
+    },
+    "tax": {
+      "beat": "Material BEAT exposure on related-party premiums; 12.5% from 2026",
+      "fet": "1% on life reinsurance premiums unless 953(d) elected",
+      "cfcPfic": "CFC; subpart F unless 953(d) treats as US insurer",
+      "corporateTax": "Bermuda CIT 15% for in-scope MNE groups",
+      "electionNotes": "953(d) commonly elected; CFC income exclusion election for first 2025 fiscal year"
+    },
+    "watchOuts": [
+      "FSOC 2025 Annual Report formally identified offshore affiliated reinsurance as a systemic risk",
+      "BMA prudent person principle and prior approval of affiliated investments tightening",
+      "Private-credit redemption stress hit Blackstone, Blue Owl and PE managers in late 2025",
+      "AG 55 treaty testing plus US Treasury and IAIS scrutiny of conflicts and Level 3 valuations"
+    ],
+    "caseStudy": {
+      "headline": "Apollo and Athene pioneer the asset-manager-owned offshore reinsurance playbook",
+      "body": "Apollo built Athene from a post-crisis annuity consolidator into the template for the Bermuda Triangle, in which a single owner controls the annuity issuer, the offshore reinsurer and the asset manager. Athene's then-vice chairman Bill Wheeler told US Labor Department officials in mid-2023 that Athene represented about 40% of new capital entering the industry, much of it via reinsurance and Bermuda. KKR/Global Atlantic, Blackstone/F&G, Carlyle/Fortitude and Brookfield followed. By Q3 2025, Level 3 assets were about a third of Athene and Global Atlantic portfolios, and roughly a fifth of their investments were loans to affiliated funds.",
+      "outcome": "Strategy scaled to over $1.1tn offshore reserves but drew FSOC, Treasury and IAIS systemic-risk attention."
+    },
+    "trends2026": [
+      "Bermuda BMA report: total long-term assets rose 19.1% to $1.52tn and GWP 17.8% to $200.1bn, net income doubling to $26.3bn in 2024",
+      "Apollo AUM approaching the $1tn mark; Athene manages over $300bn in assets",
+      "PE-backed firms (Apollo, KKR, Ares, Brookfield, Carlyle) dominate Bermuda L&A capacity"
+    ],
+    "latestDeals": [
+      ["F&G / Blackstone", "Fort Greene Re FIA flow sidecar backed by Blackstone capital", "~$1bn commitments", "Aug 2025"],
+      ["Carlyle / Fortitude Re", "FCA Re Bermuda JV targeting Asian life and annuity", "$700m deployable", "Oct 2025"]
+    ],
+    "sources": [
+      { "label": "Bloomberg: Apollo and Wall Street bet on US life insurance", "url": "https://www.bloomberg.com/graphics/2025-america-insurance-part-1/" },
+      { "label": "CEPR: Private Equity Comes For Your Annuity", "url": "https://cepr.net/publications/you-bet-your-life-insurance-private-equity-comes-for-your-annuity/" },
+      { "label": "National Law Review: The Bermuda Triangle", "url": "https://natlawreview.com/article/bermuda-triangle-and-growing-risk-insurance-markets" },
+      { "label": "Skadden: BMA approach to PE-owned reinsurers", "url": "https://www.skadden.com/insights/publications/2024/05/the-bermuda-monetary-authoritys-approach" }
+    ]
   },
   "05": {
-    tagline: "Professional third-party reinsurers - underwriting profit, not PE asset-management fees.",
-    whenToUse: ["Cedants wanting fast execution via existing reinsurer infrastructure","Avoiding affiliated-AM conflict concerns","Counterparties needing strong (AA- / A+) credit support","Bespoke risk transfer: QS, excess, structured, securitized"],
-    howItWorks: ["A professional reinsurer maintains an offshore platform (Bermuda, Barbados, Luxembourg).","The cedant transfers risk via QS, coinsurance, excess-of-loss or ModCo.","The reinsurer prices for underwriting profit and traditional investment return.","Strong parent ratings reduce counterparty / collateral needs.","Some sponsor sidecars (e.g. Ruby Re) to add third-party capacity."],
-    economics: { reserveRelief: "Varies by treaty", roeOrIrrUplift: "Underwriting-margin driven", minCapital: "Reinsurer balance sheet", collateral: "Often reduced by rating", setupTime: "Fast (existing infra)", setupCost: "Low-moderate", ongoingCost: "Profit share to reinsurer" },
-    keyStats: [{ label: "Model", value: "Underwriting profit" }, { label: "Ratings", value: "AA- / A+ typical" }, { label: "AM conflicts", value: "None" }, { label: "Complexity", value: "5 / 10" }],
-    regulatory: { regime: "Varies (BMA, Barbados FSC, Luxembourg CAA)", capitalBasis: "Entity-specific (EBS, Solvency II, etc.)", reporting: "Home-regulator returns", supervision: "Home regulator; credit-for-reinsurance at cedant" },
-    tax: { beat: "Generally not affiliated", fet: "1% unless treaty / 953(d)", cfcPfic: "Usually N/A (third-party)", corporateTax: "Jurisdiction-dependent", electionNotes: "Treaty relief common" },
-    watchOuts: ["Profit share cedes future economics to the reinsurer","Recapture risk can force illiquid assets back to the cedant","Counterparty risk if the reinsurer is stressed"],
-    caseStudy: { headline: "RGA, Hannover Re, Swiss Re offshore platforms", body: "Established reinsurers run Bermuda and European platforms to write QS, structured and block reinsurance for ceding insurers worldwide. Their value is speed, balance-sheet strength and structuring flexibility rather than affiliated asset-management fees; some have launched sidecars (RGA's Ruby Re) to add third-party capacity.", outcome: "Reliable capacity with strong ratings and no related-party-asset concerns." },
-    latestDeals: [], sources: [],
+    "tagline": "Independent Bermuda or Cayman reinsurer assumes blocks from unrelated cedants for true risk transfer.",
+    "whenToUse": [
+      "Insurers seeking genuine arm's-length risk transfer, not affiliated relief",
+      "Carriers disposing of legacy, runoff or non-core in-force blocks",
+      "Cedants releasing capital with third-party priced ceding commissions",
+      "Companies de-risking interest rate or market exposure on guaranteed blocks"
+    ],
+    "howItWorks": [
+      "Cedant runs a competitive auction or bilateral process for a block",
+      "Reinsurer assumes via coinsurance, ModCo or funds withheld",
+      "Collateral trust or funds-withheld account posted to secure the cedant",
+      "BMA prior approval required for long-term block transactions",
+      "Reinsurer manages the assets and books reserves on EBS basis"
+    ],
+    "economics": {
+      "reserveRelief": "Significant; full risk transfer of the ceded block",
+      "roeOrIrrUplift": "Cedant releases capital; reinsurer earns spread and fees",
+      "minCapital": "BMA Class C/D/E floors USD 0.5m to USD 8m",
+      "collateral": "Collateral trust, funds withheld or ModCo typical for third party",
+      "setupTime": "3-9 months per transaction including approval",
+      "setupCost": "Transaction-driven; advisory, actuarial, legal",
+      "ongoingCost": "Moderate; asset management, reporting, collateral admin"
+    },
+    "keyStats": [
+      { "label": "BMA block review", "value": "2-4 weeks" },
+      { "label": "Third-party share", "value": "~30% capacity" },
+      { "label": "Non-qualified collateral", "value": "100%" },
+      { "label": "Bermuda CIT", "value": "15%" }
+    ],
+    "regulatory": {
+      "regime": "BMA Class C/D/E; prior approval of long-term blocks since 2023",
+      "capitalBasis": "Economic Balance Sheet; BSCR 1-in-200",
+      "reporting": "EBS, BSCR, CISSA; Total Asset Requirement reconciliation",
+      "supervision": "Bermuda Monetary Authority with regulator-to-regulator cooperation"
+    },
+    "tax": {
+      "beat": "Generally limited where cedant is unrelated",
+      "fet": "1% on life reinsurance premiums unless 953(d) elected",
+      "cfcPfic": "Depends on ownership; third-party reinsurers often not CFCs of cedant",
+      "corporateTax": "Bermuda CIT 15% for in-scope MNE groups; Cayman none",
+      "electionNotes": "953(d) available; Cayman pursuing NAIC qualified-jurisdiction status"
+    },
+    "watchOuts": [
+      "BMA prior approval and TAR reconciliation now standard for in-scope blocks",
+      "AG 55 disclosure applies at the US cedant for asset-intensive blocks",
+      "Counterparty concentration and private-credit valuation risk under review",
+      "Cayman still posts 100% collateral until it gains qualified-jurisdiction status"
+    ],
+    "caseStudy": {
+      "headline": "Protective cedes USD 9.7 billion of runoff blocks to Resolution Life",
+      "body": "In March 2025, Protective Life, a US subsidiary of Dai-ichi Life Holdings, entered a strategic reinsurance agreement with Resolution Life to cede approximately USD 9.7 billion of reserves from runoff blocks of structured settlement annuities and secondary-guarantee universal life policies. The deal let Protective reduce market risk and release capital for growth and potential acquisitions, a textbook third-party block transfer to an independent Bermuda-based consolidator rather than an affiliate.",
+      "outcome": "Protective freed capital for higher-return businesses; Resolution Life added long-duration liabilities."
+    },
+    "trends2026": [
+      "Guy Carpenter and AM Best: dedicated life reinsurance capital topped $160bn in 2025, third-party about one-third",
+      "Third-party life capital roughly doubled from ~$24bn (2022) to ~$57bn (2025) per Guy Carpenter",
+      "BMA two-to-four-week block review where documentation is complete and proactive"
+    ],
+    "latestDeals": [
+      ["Resolution Life / Protective", "Structured settlement and secondary-guarantee UL runoff blocks", "~$9.7bn reserves", "Mar 2025"],
+      ["Talcott Re / MetLife", "Variable annuity block on ModCo and funds-withheld basis", "~$10bn reserves", "Dec 2025"],
+      ["Fortitude Re / Unum", "Individual LTC plus IDI in-force premium, biometric retroceded", "$3.4bn LTC", "Closed Jul 2025"],
+      ["Talcott Life Re / Japan Post", "Bermuda block reinsurance amid J-ICS rollout", "$3.6bn", "2025"]
+    ],
+    "sources": [
+      { "label": "Mayer Brown: Globalization of Asset-Intensive Reinsurance", "url": "https://www.mayerbrown.com/en/insights/publications/2026/03/the-globalization-of-asset-intensive-reinsurance" },
+      { "label": "Walkers: Bermuda block reinsurance approval", "url": "https://www.walkersglobal.com/en/Insights/2025/04/A-comprehensive-guide-to-obtaining-regulatory-approval-for-long-term-block-reinsurance-in-Bermuda" },
+      { "label": "Beinsure: Life reinsurance capital tops $160bn", "url": "https://beinsure.com/news/life-reinsurance-capital-tops-160bn/" },
+      { "label": "Milliman: LTC mergers and acquisitions since 2023", "url": "https://www.milliman.com/en/insight/ltc-mergers-acquisitions-what-have-we-learned" }
+    ]
   },
   "06": {
-    tagline: "Off-balance-sheet vehicle bringing third-party institutional capital into reinsurance.",
-    whenToUse: ["Adding underwriting capacity without diluting sponsor equity","Pre-committed capacity for large opportunistic blocks","Generating fee income for a sponsor / manager","Letting pensions / SWFs access insurance spread"],
-    howItWorks: ["Sponsor seeds a Bermuda Class C / E sidecar, keeping voting control with minority economics.","Third-party investors (SWFs, pensions) provide the majority of equity.","The sponsor cedes or retrocedes quota-share / forward-flow business to the sidecar.","The sponsor's manager runs the assets for fees plus carry.","Returns are shared pro rata; the vehicle can be scaled or wound down."],
-    economics: { reserveRelief: "Via offshore cession", roeOrIrrUplift: "Fees + carry to sponsor", minCapital: "Vehicle-specific", collateral: "Bermuda reciprocal", setupTime: "9-24 months", setupCost: "High (legal / tax)", ongoingCost: "Manager fees 30-50 bps" },
-    keyStats: [{ label: "Reserves ceded", value: "~$55B (to 2023)" }, { label: "Growth", value: "+183% since 2023" }, { label: "Sponsor stake", value: "~15-40% econ" }, { label: "Complexity", value: "7 / 10" }],
-    regulatory: { regime: "BMA (Bermuda Class C / E)", capitalBasis: "BMA EBS / BSCR", reporting: "BMA returns; sponsor consolidation analysis", supervision: "BMA; sponsor's group regulator" },
-    tax: { beat: "Depends on affiliation / flows", fet: "1% unless 953(d) / treaty", cfcPfic: "PFIC analysis for investors", corporateTax: "Bermuda 15% CIT from 2025 (if in scope)", electionNotes: "Investor-level structuring" },
-    watchOuts: ["Governance tension: sponsor control vs investor economics","Profit share lowers sponsor long-run returns","Sidecar is an independent counterparty - recapture / credit risk"],
-    caseStudy: { headline: "Apollo ACRA and KKR / Global Atlantic Ivy Re", body: "Leading platforms run sidecars - Apollo's ACRA vehicles and Global Atlantic's Ivy Re - to bring sovereign-wealth and pension capital alongside their own. The sponsor typically holds full voting control with a minority of the economics, earns asset-management fees, and gains pre-committed capacity to win large block transactions.", outcome: "Scalable third-party capacity; sidecar reserves have grown rapidly since 2023." },
-    latestDeals: [], sources: [],
+    "tagline": "Third-party-capitalized reinsurer takes quota share from one sponsor for fee income and capacity.",
+    "whenToUse": [
+      "Reinsurers and insurers wanting alternative capital and a second balance sheet",
+      "Sponsors seeking fee income while sharing economics with investors",
+      "Institutional investors seeking uncorrelated L&A and annuity exposure",
+      "Carriers funding growth in asset-intensive annuity and PRT business"
+    ],
+    "howItWorks": [
+      "Sponsor forms a Bermuda Class E vehicle, often market-facing in future",
+      "Institutional investors and asset managers fund the equity",
+      "Sponsor retrocedes an initial block plus a forward-flow quota share",
+      "An external asset manager invests the supporting portfolio",
+      "Sponsor earns ceding economics and fee income; investors share returns"
+    ],
+    "economics": {
+      "reserveRelief": "Via quota share cession to the sidecar balance sheet",
+      "roeOrIrrUplift": "Sponsor adds fee income; investors target equity-type returns",
+      "minCapital": "BMA Class E floor USD 8m; capital raises in the hundreds of millions",
+      "collateral": "Funds withheld or ModCo common; trust where required",
+      "setupTime": "6-12 months including capital raise and licensing",
+      "setupCost": "High; structuring, licensing, investor onboarding",
+      "ongoingCost": "Moderate to high; asset management and governance"
+    },
+    "keyStats": [
+      { "label": "Chariot Re initial block", "value": "$10bn" },
+      { "label": "Ruby Re total capital", "value": "$480m" },
+      { "label": "Martello Re raised", "value": "$2.9bn" },
+      { "label": "Life reins. capital 2025", "value": "~$160bn" }
+    ],
+    "regulatory": {
+      "regime": "BMA Class E long-term; prior approval of blocks",
+      "capitalBasis": "Economic Balance Sheet; BSCR 1-in-200",
+      "reporting": "EBS, BSCR, CISSA; AG 55 at US cedant",
+      "supervision": "Bermuda Monetary Authority"
+    },
+    "tax": {
+      "beat": "BEAT if cessions are related-party; less so for independent sidecars",
+      "fet": "1% on life reinsurance premiums unless 953(d) elected",
+      "cfcPfic": "Depends on investor ownership and control",
+      "corporateTax": "Bermuda CIT 15% for in-scope MNE groups",
+      "electionNotes": "953(d) election available to electing vehicles"
+    },
+    "watchOuts": [
+      "BMA prior approval and affiliated-asset scrutiny apply to sidecar cessions",
+      "Investor redemption appetite tested by 2025 private-credit volatility",
+      "AG 55 disclosure where sidecar files no VM-30 memorandum",
+      "Forward-flow commitments carry future-business and pricing uncertainty"
+    ],
+    "caseStudy": {
+      "headline": "MetLife and General Atlantic launch Chariot Re with a USD 10 billion first deal",
+      "body": "On July 1, 2025, MetLife, General Atlantic and Chariot Reinsurance, Ltd., an independent Bermuda Class E life and annuity reinsurer, completed Chariot Re's initial transaction with a MetLife subsidiary. Chariot Re reinsured approximately USD 10 billion of liabilities, including structured settlement annuities and group annuities tied to pension risk transfers. The vehicle is co-sponsored by MetLife and General Atlantic with lead investor Chubb; MetLife Investment Management and General Atlantic serve as external asset managers, giving MetLife a second balance sheet plus fee income.",
+      "outcome": "Chariot Re launched as a scalable sidecar positioned to become market-facing across L&A reinsurance."
+    },
+    "trends2026": [
+      "Guy Carpenter and AM Best: total life reinsurance capital above $160bn in 2025, third-party about one-third",
+      "RGA Ruby Re closed a second round at $480m (Nov 2024); Martello Re has raised about $2.9bn since 2021",
+      "Fitch: sidecars and offshore platforms expected to keep growing among North American life insurers"
+    ],
+    "latestDeals": [
+      ["Chariot Re / MetLife", "Structured settlement and group annuity PRT liabilities", "~$10bn", "Jul 2025"],
+      ["Ruby Re / RGA", "Missouri sidecar second round; AB, EnTrust, Enstar added", "$480m total", "Nov 2024"],
+      ["Sconset Re / Allianz", "FIA block plus forward flow; PIMCO asset manager", "$4bn initial block", "2024"],
+      ["Global Atlantic / Japan Post", "Co-investment vehicle; operations begin H1 2026", "$2bn investment", "Jul 2025"]
+    ],
+    "sources": [
+      { "label": "MetLife 8-K: Chariot Re launch", "url": "https://www.sec.gov/Archives/edgar/data/0001099219/000119312525154039/d40473dex991.htm" },
+      { "label": "Artemis: Sidecar use surges among life reinsurers (Fitch)", "url": "https://www.artemis.bm/news/sidecar-use-continues-to-surge-among-life-reinsurers-fitch/" },
+      { "label": "Business Wire: Ruby Re reaches $480m", "url": "https://www.businesswire.com/news/home/20241113088992/en/RGA-Announces-Ruby-Re-Has-Reached-%24480-Million-in-Total-Funding-with-the-Successful-Close-of-Second-Investment-Round" },
+      { "label": "PR Newswire: Martello Re launch", "url": "https://www.prnewswire.com/news-releases/new-reinsurer-martello-re-launches-with-backing-of-massmutual-centerbridge-partners-and-brown-brothers-harriman-301458877.html" }
+    ]
   },
   "07": {
-    tagline: "Capital-markets risk transfer: mortality / longevity / reserve risk turned into 144A notes.",
-    whenToUse: ["Transferring tail mortality or longevity risk to capital markets","Fully collateralized cover with no counterparty credit risk","Diversifying funding away from traditional reinsurance","Reserve-financing securitizations (XXX / AXXX) historically"],
-    howItWorks: ["Sponsor sets up an orphaned SPV (Cayman / Bermuda).","The SPV writes indemnity or index retrocession to the sponsor.","It issues Rule 144A notes to institutional investors.","Proceeds sit in a collateral trust (AAA money-market / govt).","If the trigger (e.g. mortality index) breaches, investors lose principal to pay claims."],
-    economics: { reserveRelief: "Risk transfer / financing", roeOrIrrUplift: "Cost-of-cover driven", minCapital: "Fully collateralized", collateral: "100% in trust", setupTime: "3-6 months / deal", setupCost: "High (legal / rating)", ongoingCost: "Coupon spread to investors" },
-    keyStats: [{ label: "ILS risk capital", value: "~$60B+ outstanding" }, { label: "Counterparty risk", value: "~Zero (collateral)" }, { label: "Format", value: "144A notes" }, { label: "Complexity", value: "7 / 10" }],
-    regulatory: { regime: "SPV jurisdiction (Cayman / Bermuda SPI)", capitalBasis: "Fully funded / collateralized", reporting: "Trustee + offering disclosure", supervision: "Light - bankruptcy-remote orphan SPV" },
-    tax: { beat: "Generally outside (capital markets)", fet: "Deal-specific", cfcPfic: "Investor PFIC analysis", corporateTax: "SPV tax-neutral", electionNotes: "Structured for tax neutrality" },
-    watchOuts: ["Life ILS is niche and episodic vs P&C cat bonds","Basis risk where index triggers diverge from actual losses","COVID showed real loss potential (Swiss Re Vita VI)"],
-    caseStudy: { headline: "Swiss Re Vita Capital mortality bonds", body: "Swiss Re's Vita Capital program pioneered extreme-mortality cat bonds, paying investors a spread unless a population mortality index spiked above a trigger. The COVID-19 pandemic drove losses on later Vita tranches, demonstrating that life ILS carries genuine, if rare, principal risk for investors.", outcome: "Proven capital-markets capacity for tail mortality; real losses realized in COVID." },
-    latestDeals: [], sources: [],
+    "tagline": "Capital-markets-funded SPV provides collateralized extreme-mortality reinsurance via tradable notes.",
+    "whenToUse": [
+      "Life reinsurers hedging pandemic and extreme-mortality tail risk",
+      "Sponsors diversifying retrocession away from traditional reinsurers",
+      "Issuers seeking fully collateralized, multi-year protection",
+      "Investors wanting mortality risk uncorrelated with financial markets"
+    ],
+    "howItWorks": [
+      "Sponsor establishes a special purpose insurer or vehicle",
+      "SPV issues mortality-linked notes to capital-markets investors",
+      "Proceeds held as collateral in a trust, invested in low-risk assets",
+      "An age and gender weighted mortality index defines the trigger",
+      "If the index breaches attachment, principal pays the sponsor; otherwise returned with coupon"
+    ],
+    "economics": {
+      "reserveRelief": "Tail protection rather than balance-sheet reserve relief",
+      "roeOrIrrUplift": "Reduces required capital for mortality catastrophe risk",
+      "minCapital": "Fully collateralized; SPI minimal own capital",
+      "collateral": "100% collateralized via note proceeds in trust",
+      "setupTime": "2-4 months",
+      "setupCost": "Moderate; structuring, modeling, legal, rating",
+      "ongoingCost": "Coupon spread plus structuring and admin fees"
+    },
+    "keyStats": [
+      { "label": "Vita Capital VI", "value": "$120m" },
+      { "label": "Cat bond issuance 2025", "value": "$25.6bn" },
+      { "label": "Cat bonds outstanding", "value": "$61.3bn" },
+      { "label": "New mortality bonds 24-26", "value": "None found" }
+    ],
+    "regulatory": {
+      "regime": "Bermuda SPI, Cayman Class C, or Irish/other SPV; light-touch",
+      "capitalBasis": "Fully funded collateral; minimal solvency margin",
+      "reporting": "SPV reporting; rating agency surveillance",
+      "supervision": "BMA, CIMA or relevant SPV regulator"
+    },
+    "tax": {
+      "beat": "Generally not material at SPV level",
+      "fet": "1% reinsurance FET can apply on covered premiums",
+      "cfcPfic": "PFIC analysis relevant for note investors",
+      "corporateTax": "SPVs structured tax-neutral; Bermuda CIT only if in-scope",
+      "electionNotes": "SPV typically does not elect 953(d)"
+    },
+    "watchOuts": [
+      "No new dedicated mortality cat bonds found in 2024-2026; segment in runoff",
+      "Pandemic experience has recalibrated investor pricing of extreme-mortality risk",
+      "Basis risk between index trigger and actual book losses",
+      "Maturity and rollover risk as legacy Vita and Matterhorn deals wind down"
+    ],
+    "caseStudy": {
+      "headline": "Swiss Re's Vita Capital VI remains the benchmark extreme-mortality cat bond",
+      "body": "Swiss Re's Vita Capital VI Ltd. (Series 2021-1), its eighth Vita issuance, settled at USD 120 million of extreme-mortality protection covering Australia, Canada, the UK and the US from early 2021 to year-end 2025, maturing in early 2026. Mortality-linked notes pay investors a coupon unless an age and gender weighted index breaches attachment. During COVID-19 the broader Vita and Matterhorn programs faced markdowns and extensions; in January 2026 Swiss Re made an early redemption of loss-exposed Matterhorn Re Series 2020-2 notes, recovering about USD 33.1 million.",
+      "outcome": "Dedicated mortality-bond issuance has paused; the segment is contracting rather than growing into 2026."
+    },
+    "trends2026": [
+      "Artemis: record $25.6bn of cat bond issuance in 2025 across 122 transactions, up 45% year on year",
+      "Outstanding cat bond market reached a record $61.3bn at year-end 2025",
+      "No new Vita or Benu mortality bonds in 2024-2026; legacy deals maturing, segment small and shrinking"
+    ],
+    "latestDeals": [],
+    "sources": [
+      { "label": "Artemis: Mortality catastrophe bond news", "url": "https://www.artemis.bm/news/topic/mortality-catastrophe-bond/" },
+      { "label": "Artemis: Cat bond issuance breaks full-year records, market grows 24%", "url": "https://www.artemis.bm/news/catastrophe-bond-issuance-breaks-q4-and-full-year-records-market-grows-24-report/" },
+      { "label": "Artemis: Extreme mortality news", "url": "https://www.artemis.bm/news/topic/extreme-mortality/" }
+    ]
   },
   "08": {
-    tagline: "Segregated cells and turnkey ISAC platforms - fast, ring-fenced reinsurance vehicles.",
-    whenToUse: ["New entrants wanting speed-to-market without a full standalone license","Ring-fencing multiple deals / participants in segregated cells","Lower setup cost than a standalone Class E entity","Sponsors using turnkey governance / ops infrastructure"],
-    howItWorks: ["A core company (ISAC / PCC / SPC) holds multiple legally segregated cells.","Each cell is funded by its sponsor and is bankruptcy-remote from the others.","A cedant coinsures a block into a specific cell.","The platform supplies shared ops, governance and regulatory wrappers.","Assets and liabilities stay ring-fenced per cell."],
-    economics: { reserveRelief: "Per cell (often EBS)", roeOrIrrUplift: "Deal-specific", minCapital: "Cell-level, lower than standalone", collateral: "Per regime", setupTime: "Fast (turnkey)", setupCost: "Lower than standalone", ongoingCost: "Shared platform fee" },
-    keyStats: [{ label: "Setup", value: "Turnkey / fast" }, { label: "Isolation", value: "Bankruptcy-remote cells" }, { label: "Model", value: "Segregated accounts" }, { label: "Complexity", value: "6 / 10" }],
-    regulatory: { regime: "VT SPFC / Bermuda SPI-ISAC / Cayman SPC", capitalBasis: "Varies by cell (EBS, CIMA, US Stat)", reporting: "Core + per-cell reporting", supervision: "Domicile regulator; novel to some raters" },
-    tax: { beat: "Structure-dependent", fet: "1% unless treaty / 953(d)", cfcPfic: "Cell-by-cell analysis", corporateTax: "Domicile-dependent", electionNotes: "Per-cell elections" },
-    watchOuts: ["Less control than a wholly-owned entity","Cell structures unfamiliar to some regulators / rating agencies","Platform concentration is a single point of failure"],
-    caseStudy: { headline: "Agam Capital ISAC platforms (Bermuda)", body: "Agam Capital's incorporated segregated-accounts companies give sponsors a turnkey Bermuda reinsurance wrapper: each segregated account operates as a ring-fenced reinsurer with shared governance, actuarial and asset-liability tooling. Backers such as 26North have used the model to stand up annuity reinsurance capacity quickly.", outcome: "Faster, cheaper market entry than building a standalone Class E." },
-    latestDeals: [], sources: [],
+    "tagline": "Segregated cells and ISACs ring-fence assets and liabilities per deal or investor within one platform.",
+    "whenToUse": [
+      "Asset managers segregating multiple cedants or investors on one platform",
+      "Investors wanting bankruptcy-remote, cell-level ring-fencing",
+      "Sponsors running multi-deal reinsurance platforms efficiently",
+      "Structures isolating cedant equity at the transaction level"
+    ],
+    "howItWorks": [
+      "Sponsor forms a Bermuda SAC or ISAC, or a Cayman SPC with portfolio insurance companies",
+      "Each incorporated cell is created by board resolution as a distinct account",
+      "Where incorporated (ISAC or PIC), the cell is a separate legal entity that registers and writes reinsurance",
+      "Assets and liabilities of each cell are statutorily ring-fenced from other cells and the core",
+      "Investor or cedant equity sits in its own cell, insulated from group creditor claims"
+    ],
+    "economics": {
+      "reserveRelief": "Per-cell relief; depends on each treaty",
+      "roeOrIrrUplift": "Lower overhead than separate full entities",
+      "minCapital": "Per cell or PIC; capital scoped to each transaction",
+      "collateral": "Cell-level ring-fencing plus deal collateral as agreed",
+      "setupTime": "Fast per cell once platform exists",
+      "setupCost": "Moderate platform cost; low incremental per cell",
+      "ongoingCost": "Per-cell registration and admin fees"
+    },
+    "keyStats": [
+      { "label": "AeCe ISA cession", "value": "$4.9bn" },
+      { "label": "Cayman Class B/C/D", "value": "720 insurers" },
+      { "label": "Cell formation", "value": "Board resolution" },
+      { "label": "Cayman CIT", "value": "None" }
+    ],
+    "regulatory": {
+      "regime": "Bermuda SAC Act or ISAC; Cayman SPC with PICs",
+      "capitalBasis": "EBS and BSCR per cell where commercial long-term",
+      "reporting": "Cell-level filings; BMA segregated account guidance",
+      "supervision": "Bermuda Monetary Authority or CIMA"
+    },
+    "tax": {
+      "beat": "Per-cell analysis depending on cedant relationship",
+      "fet": "1% on life reinsurance premiums unless 953(d) elected",
+      "cfcPfic": "Per-cell ownership analysis",
+      "corporateTax": "Bermuda CIT 15% if in an in-scope MNE group; Cayman none",
+      "electionNotes": "953(d) by cell or PIC where applicable"
+    },
+    "watchOuts": [
+      "BMA July 2024 guidance raised expectations on segregated and separate account governance and collateral",
+      "Cross-cell contagion and enforceability tested only partly in court",
+      "AG 55 disclosure applies to in-scope cell treaties at the US cedant",
+      "Collateral quality and impairment disclosure under BMA review"
+    ],
+    "caseStudy": {
+      "headline": "26North and National Life form AeCe ISA, a Bermuda ISAC, for a USD 4.9 billion block",
+      "body": "In 2024, 26North Reinsurance Holdings, founded by Josh Harris, partnered with Agam Capital and National Life Group to form AeCe ISA, Ltd., a Bermuda Class E reinsurer leveraging Agam's Incorporated Segregated Accounts Company structure. AeCe closed a USD 4.9 billion reinsurance transaction with Life Insurance Company of the Southwest, reinsuring a seasoned, diversified block of multi-year guarantee and fixed index annuity products plus a quota share of future fixed annuities. National Life is a minority owner of AeCe, which functions as a dedicated sidecar within an ISAC.",
+      "outcome": "The deal lifted 26North reinsurance AUM to roughly $10bn while ring-fencing the block in its own incorporated cell."
+    },
+    "trends2026": [
+      "Mayer Brown: ISACs, SACs and Cayman SPCs increasingly used by asset-manager-backed reinsurers",
+      "Cayman home to 720 Class B, C and D insurers, tax-neutral and pursuing NAIC qualified-jurisdiction status",
+      "BMA refining segregated and separate account expectations through 2025-2026"
+    ],
+    "latestDeals": [
+      ["AeCe ISA / National Life", "ISAC cell reinsuring LSW MYGA and FIA block", "$4.9bn liabilities", "2024"]
+    ],
+    "sources": [
+      { "label": "PR Newswire: 26North Re closes $4.9bn with National Life", "url": "https://www.prnewswire.com/news-releases/26north-re-closes-4-9b-reinsurance-transaction-with-national-life-groups-life-insurance-company-of-the-southwest-302137974.html" },
+      { "label": "Mayer Brown: Globalization of Asset-Intensive Reinsurance", "url": "https://www.mayerbrown.com/en/insights/publications/2026/03/the-globalization-of-asset-intensive-reinsurance" },
+      { "label": "Ogier: Segregated portfolio companies in the Cayman Islands", "url": "https://www.ogier.com/news-and-insights/insights/segregated-portfolio-companies-in-the-cayman-islands/" },
+      { "label": "Captive.com: Cayman issues new insurance licenses (PIC/SPC)", "url": "https://www.captive.com/news/cayman-islands-issues-40-new-international-insurance-licenses" }
+    ]
   },
   "09": {
-    tagline: "Full institutional stack - HoldCo / MidCo / OpCo + offshore Re + sidecar + AM.",
-    whenToUse: ["Large PE platforms optimizing across every regulatory regime at once","Creating optionality (IPO an OpCo, sell a block, raise external debt)","Running US OpCos, offshore Re, sidecars and an AM sub together","IAIG-scale groups managing group capital"],
-    howItWorks: ["PE fund owns a Delaware HoldCo that issues senior unsecured debt.","A MidCo layer holds subordinated debt / preferred for tax isolation and leverage.","US OpCos issue and administer policies and hold surplus notes.","An offshore Bermuda Re takes liabilities via ModCo / FWH on EBS.","An AM sub and sidecars sit alongside for fees and third-party capacity.","Each entity is optimized for its own regulator."],
-    economics: { reserveRelief: "~10-14% offshore leg", roeOrIrrUplift: "Maximized via multi-regime + leverage", minCapital: "Platform-scale", collateral: "Bermuda reciprocal", setupTime: "18-24+ months", setupCost: "Very high", ongoingCost: "3+ regimes; intercompany agreements" },
-    keyStats: [{ label: "Entities", value: "4+ legal layers" }, { label: "Regimes", value: "3+ simultaneously" }, { label: "Example reg capital", value: "$30B+ (Athene)" }, { label: "Complexity", value: "9 / 10" }],
-    regulatory: { regime: "US states + BMA + (often) Cayman", capitalBasis: "RBC + EBS / BSCR + consolidated", reporting: "US Stat + EBS + GAAP + group capital (GCC / ICS)", supervision: "Group-wide; IAIG designation possible" },
-    tax: { beat: "BEAT on affiliated cessions", fet: "1% unless 953(d) / treaty", cfcPfic: "CFC; GILTI / Subpart F", corporateTax: "Bermuda 15% CIT; US 21%", electionNotes: "953(d); MidCo for tax isolation" },
-    watchOuts: ["IAIG designation brings ICS group-capital overlay","Double leverage at MidCo creates stress fragility","NAIC Macroprudential Initiative targets exactly this structure"],
-    caseStudy: { headline: "Athene / Apollo and Brookfield / AEL chains", body: "The largest platforms stack a Delaware HoldCo, a MidCo debt layer, US operating insurers, a Bermuda reinsurer and an asset-management sub, with sidecars bolted on. Athene's chain carries tens of billions in regulatory capital and was designated an Internationally Active Insurance Group, bringing group-capital supervision.", outcome: "Maximum capital efficiency and optionality - with maximum oversight." },
-    latestDeals: [], sources: [],
+    "tagline": "Layered holding-company platform stacking insurer, reinsurer, sidecar and asset manager.",
+    "whenToUse": [
+      "Large institutional consolidators of life and annuity blocks",
+      "PE permanent-capital platforms operating across jurisdictions",
+      "Multi-jurisdiction annuity manufacturers needing diversified capital",
+      "Groups integrating origination, manufacturing and reinsurance"
+    ],
+    "howItWorks": [
+      "HoldCo owns MidCo and OpCo US insurers plus a Bermuda reinsurance hub",
+      "The reinsurer assumes both affiliate and third-party business",
+      "Sidecars and co-investment vehicles bolt on third-party capital",
+      "An affiliated or strategic asset manager runs the consolidated portfolio",
+      "Capital and dividends cascade up the stack across regulators"
+    ],
+    "economics": {
+      "reserveRelief": "Substantial at platform scale across treaties",
+      "roeOrIrrUplift": "High; leverage plus spread plus fee income",
+      "minCapital": "Group capital plus entity floors across regimes",
+      "collateral": "Mix of funds withheld, ModCo and trusts by entity",
+      "setupTime": "Multi-year to build the full platform",
+      "setupCost": "Very high; multi-entity legal and licensing",
+      "ongoingCost": "High; group governance, ICS, multi-regulator reporting"
+    },
+    "keyStats": [
+      { "label": "Athene total assets", "value": "$400bn+" },
+      { "label": "Apollo AUM", "value": "Near $1tn" },
+      { "label": "IAIGs identified", "value": "59 in 18 jurisdictions" },
+      { "label": "Bermuda L&A assets", "value": "$1.52tn" }
+    ],
+    "regulatory": {
+      "regime": "Multi-jurisdiction; NAIC group capital; ICS for IAIGs",
+      "capitalBasis": "EBS/BSCR plus US RBC plus group capital calculation",
+      "reporting": "Group ORSA/Form F, EBS, BSCR, ICS reporting",
+      "supervision": "Group-wide supervisor coordinating with involved supervisors"
+    },
+    "tax": {
+      "beat": "BEAT on related-party premiums; 12.5% rate from 2026",
+      "fet": "1% on life reinsurance premiums unless 953(d) elected",
+      "cfcPfic": "CFC across the group; subpart F unless 953(d)",
+      "corporateTax": "Bermuda CIT 15%; US 21%; subject to Pillar Two",
+      "electionNotes": "953(d) at entity level; CFC income exclusion election available for 2025"
+    },
+    "watchOuts": [
+      "ICS adopted as PCR for IAIGs Dec 2024; self-assessment 2026, jurisdictional assessment from 2027",
+      "FSOC 2025 flagged the structure as systemic; Treasury met NAIC on offshore reinsurance",
+      "BMA group-level scrutiny of affiliated assets, liquidity and PPP",
+      "OECD Pillar Two global minimum tax reshapes Bermuda and Cayman group economics"
+    ],
+    "caseStudy": {
+      "headline": "Nippon Life acquires Resolution Life in a USD 10.6 billion platform deal",
+      "body": "In 2025 Nippon Life agreed to acquire 100% of Resolution Life at a USD 10.6 billion valuation, the largest acquisition ever by a Japanese insurer. Resolution Life is a global life consolidator with over USD 85 billion of reserves and more than four million policies across the US, UK, Bermuda and Singapore, built with Blackstone as investment manager and Nippon as its largest investor since 2019. Post-close, Resolution Life's institutional business becomes a Nippon subsidiary, illustrating a layered HoldCo platform spanning multiple jurisdictions and capital sources.",
+      "outcome": "Created a globally integrated multi-entity life platform; deal targeted to close in H2 2025."
+    },
+    "trends2026": [
+      "IAIS adopted ICS as prescribed capital requirement Dec 2024; 59 IAIGs across 18 jurisdictions",
+      "Apollo AUM approaching $1tn; Athene over $400bn total assets and over $300bn managed",
+      "US Aggregation Method deemed outcome-equivalent to ICS, sparing US IAIGs major changes"
+    ],
+    "latestDeals": [
+      ["Nippon Life / Resolution Life", "Acquisition of global life consolidation platform", "$10.6bn valuation", "2025"],
+      ["Sixth Street / Talcott Resolution", "Acquisition of Bermuda-led annuity platform", "Closed 2025", "2025"]
+    ],
+    "sources": [
+      { "label": "Linklaters: Resolution Life acquired by Nippon Life", "url": "https://www.linklaters.com/en/about-us/news-and-deals/deals/2025/february/linklaters-advises-resolution-life-on-its-acquisition-by-nippon-life" },
+      { "label": "IAIS: Adopts Insurance Capital Standard (ICS)", "url": "https://www.iais.org/2024/12/iais-adopts-insurance-capital-standard-and-other-enhancements-to-its-global-standards-to-promote-a-resilient-insurance-sector/" },
+      { "label": "Talcott: Completion of acquisition by Sixth Street", "url": "https://talcott.com/articles/talcott-resolution-announces-completion-of-acquisition-by-sixth-street/" },
+      { "label": "Skadden: Unpacking the IAIS adoption of the ICS", "url": "https://www.skadden.com/insights/podcasts/2025/02/unpacking-the-iais-adoption-of-the-insurance-capital-standard" }
+    ]
   },
   "10": {
-    tagline: "Everything at once: block acquisition + forward-flow + sidecar retro, multi-treaty.",
-    whenToUse: ["Platforms running block M&A and organic flow simultaneously","Maximizing ROE via layered treaties and third-party retro","Large consolidators (Fortitude, Talcott, Brookfield / AEL)","Building predictable AUM growth for an affiliated manager"],
-    howItWorks: ["The reinsurer acquires in-force blocks via coinsurance (one-time scale).","It writes forward-flow quota share on new production (ongoing AUM).","It retrocedes slices to sidecars for third-party capacity.","An affiliated manager runs assets across all entities.","Legacy XXX captives and US OpCos remain in the chain.","Treaties and capital are layered across Delaware, Iowa, Vermont, Bermuda, Cayman."],
-    economics: { reserveRelief: "Layered (block + flow)", roeOrIrrUplift: "~11% to ~20% IRR with 50% flow (Gallagher Re)", minCapital: "Platform-scale", collateral: "Bermuda reciprocal", setupTime: "Built over years", setupCost: "Very high", ongoingCost: "All regimes simultaneously" },
-    keyStats: [{ label: "IRR uplift", value: "~11% -> ~20%" }, { label: "Treaties", value: "Block + flow + retro" }, { label: "Jurisdictions", value: "5 (DE/IA/VT/BDA/KY)" }, { label: "Complexity", value: "10 / 10" }],
-    regulatory: { regime: "US states + BMA + CIMA", capitalBasis: "RBC + EBS / BSCR + consolidated", reporting: "All of US Stat, EBS, GAAP, group capital", supervision: "Group-wide; intense NAIC / BMA attention" },
-    tax: { beat: "BEAT across affiliated flows", fet: "1% unless 953(d) / treaty", cfcPfic: "CFC; GILTI / Subpart F", corporateTax: "Bermuda 15% CIT; US 21%", electionNotes: "953(d); multi-entity planning" },
-    watchOuts: ["AG 55, NAIC scrutiny, ICS and Bermuda CIT all compound here","Operational overhead: 4+ entities, 3+ jurisdictions, intercompany pricing","777 Re shows what happens when controls fail at complexity"],
-    caseStudy: { headline: "Brookfield / AEL and Fortitude Re", body: "The most advanced consolidators combine a large in-force block acquisition with a forward-flow quota share on new sales and retrocession into sidecars, all managed by an affiliated asset manager. Gallagher Re analysis shows adding roughly 50% flow cession can lift a carrier's IRR from the low-teens toward 20%.", outcome: "Best-in-class ROE - at the cost of maximal regulatory and operational complexity." },
-    latestDeals: [], sources: [],
+    "tagline": "In-force blocks plus forward-flow treaties layered across multiple reinsurers and structures.",
+    "whenToUse": [
+      "Largest annuity platforms optimizing across every capital source",
+      "Complex multi-product, cross-border programs (US plus Japan plus Asia)",
+      "Cedants blending affiliate, sidecar and third-party capacity",
+      "Issuers seeking maximum capital efficiency on new and legacy business"
+    ],
+    "howItWorks": [
+      "Cedant places an in-force block plus an ongoing forward-flow quota share",
+      "Cessions split across an affiliate, one or more sidecars and third-party reinsurers",
+      "Treaties mix coinsurance, ModCo and funds withheld by counterparty",
+      "Collateral varies by treaty; trusts, FWH and ModCo accounts coexist",
+      "Assets spread across multiple managers; capital optimized across regimes"
+    ],
+    "economics": {
+      "reserveRelief": "Maximum; layered across treaties and regimes",
+      "roeOrIrrUplift": "Maximized via leverage, spread and fee income",
+      "minCapital": "Group plus per-entity floors across jurisdictions",
+      "collateral": "Heterogeneous; trust, FWH and ModCo per treaty",
+      "setupTime": "Multi-year program build",
+      "setupCost": "Highest; many entities, treaties and managers",
+      "ongoingCost": "Highest; multi-treaty, multi-regulator administration"
+    },
+    "keyStats": [
+      { "label": "Prismic liabilities", "value": "~$17bn" },
+      { "label": "F&G reinsured 2024", "value": "$9.3bn of $12.5bn" },
+      { "label": "Bermuda L&A assets", "value": "$1.52tn" },
+      { "label": "Prismic 3rd raise", "value": "$1.3bn" }
+    ],
+    "regulatory": {
+      "regime": "Full multi-regime; ICS; BMA block approval per treaty",
+      "capitalBasis": "EBS/BSCR plus US RBC plus group capital",
+      "reporting": "AG 55 treaty-level testing; EBS; BSCR; ICS",
+      "supervision": "Multiple supervisors with group-wide coordination"
+    },
+    "tax": {
+      "beat": "BEAT across related-party flow and block premiums",
+      "fet": "1% on life reinsurance premiums unless 953(d) elected",
+      "cfcPfic": "CFC across the group structure; 953(d) mitigates",
+      "corporateTax": "Bermuda CIT 15%; US 21%; Pillar Two top-up risk",
+      "electionNotes": "953(d) per electing entity; layered FET and BEAT planning"
+    },
+    "watchOuts": [
+      "AG 55 requires treaty-level cash-flow testing from year-end 2026 by product line",
+      "BMA prior approval needed for each in-scope block and modification",
+      "ICS implementation assessments from 2027 add group capital pressure",
+      "Layered counterparty and collateral risk multiplies across treaties"
+    ],
+    "caseStudy": {
+      "headline": "Prismic Life Re scales a layered Prudential platform to about USD 17 billion of liabilities",
+      "body": "Prudential Financial and Warburg Pincus launched Prismic Life Reinsurance, a Bermuda Class E reinsurer, in September 2023 with USD 1 billion of initial equity and an opening block of about USD 10 billion of structured settlement annuities. Prismic layered in further blocks and forward flow, including roughly USD 7 billion of Japanese whole life in early 2025. On November 18, 2025 it closed a third capital raise of USD 1.3 billion, bringing total capital raised to over USD 2.8 billion supporting roughly USD 17 billion of Prudential US and Japanese liabilities, with PGIM and Warburg Pincus managing about USD 15 billion of assets.",
+      "outcome": "Prismic exemplifies layered block-plus-flow reinsurance across products and geographies at platform scale."
+    },
+    "trends2026": [
+      "Prismic closed a $1.3bn third raise Nov 2025, total over $2.8bn supporting ~$17bn of liabilities",
+      "F&G reinsured $9.3bn of $12.5bn annuity sales in 2024 using FWH and ModCo to stay capital-light",
+      "Bermuda long-term assets rose 19.1% to $1.52tn in 2024 per BMA stress-testing report"
+    ],
+    "latestDeals": [
+      ["Prismic Life Re / Prudential", "Third capital raise; ~$17bn US and Japan liabilities", "$1.3bn raise", "Nov 2025"],
+      ["Prudential / Wilton Re", "Guaranteed universal life reserves cession", "$11bn", "Dec 2024"],
+      ["Prudential / Somerset Re", "Guaranteed universal life reserves cession", "$12.5bn", "Apr 2024"]
+    ],
+    "sources": [
+      { "label": "Prudential: Prismic closes $1.3B capital raise", "url": "https://news.prudential.com/us-en/latest-news/prudential-news/2025/q4/Prismic-Life-announces-close-of-US-1-3B-capital-raise" },
+      { "label": "Mayer Brown: Globalization of Asset-Intensive Reinsurance", "url": "https://www.mayerbrown.com/en/insights/publications/2026/03/the-globalization-of-asset-intensive-reinsurance" },
+      { "label": "WTW: Actuarial Guideline 55 guardrail", "url": "https://www.wtwco.com/en-us/insights/2025/09/actuarial-guideline-55-a-new-guardrail-for-asset-intensive-reinsurance" },
+      { "label": "Retirement Income Journal: F&G capital-light strategy", "url": "https://retirementincomejournal.com/article/investors-cool-to-fgs-capital-light-strategy/" }
+    ]
   },
 };
 
