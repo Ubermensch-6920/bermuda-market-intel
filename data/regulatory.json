@@ -1,6 +1,16 @@
 {
-  "updated": "2026-06-24T15:13:09Z",
+  "updated": "2026-06-24T17:22:55Z",
   "naic": [
+    {
+      "id": "28861d5852c4",
+      "title": "NAIC Victim of Cyber Incident Via PeopleSoft System",
+      "date": "2026-06-24",
+      "cat": "General",
+      "summary": "",
+      "source": "Insurance Journal",
+      "link": "https://news.google.com/rss/articles/CBMid0FVX3lxTE10VzhJcktwSkVNZTJ2MzBraDZkZUpQMzV5R3p5OHFNUE8zYkF4NnpmZWZ1SGtuRTFjOXYyT1kwSFlTUjBzbG9vWnk2MDJnM3BaUFNOX011aTRremw2TFdEaGZqekJ3YVZadHg1Ym5EWHFHT0VSRXhF?oc=5",
+      "isNew": true
+    },
     {
       "id": "108cd074c4e9",
       "title": "Is private credit a $2 trillion-dollar insurance timebomb?",
@@ -240,16 +250,6 @@
       "source": "American Banker",
       "link": "https://news.google.com/rss/articles/CBMimwFBVV95cUxOQ2J0a1B5WXB6Q0ZhMzlETTV6cFFVNWM1Ry0yNFItSHF1U2xTaDFLN0xTek1nV3E3WU1MNm1XTUVJT0tRYmotQ0VuQTNBOWxaVlQ5ZTQ3RER3XzNOYUhXcVRGemw3S1RyMlJvMXl6NkQxVENYZktSZXZMdVlYQWtoWXN0eHNuTGxJMktFSjFxblpBSE1aYlpCYWdCWQ?oc=5",
       "isNew": false
-    },
-    {
-      "id": "693d82e9d328",
-      "title": "NAIC Working Group Continues to Discuss Proposed Changes to RBC Factors for CLOs",
-      "date": "2026-05-07",
-      "cat": "General",
-      "summary": "",
-      "source": "Mayer Brown",
-      "link": "https://news.google.com/rss/articles/CBMi1wFBVV95cUxPaXlsZUxWSlhrcWdzMzFOUk9sY0JtNWlGM2hhUFVKN1Q4cE1BNEwyeVhILU44bldJRGI0YzBvbGVnc2RTcnJlM0FEYW5QclRCWjB5UXc2QUZ3d05qUXkzYWdXZnZhVHg2ZkVTSFlyd3R5S243NEFQeWdrZlBxb3RBVDV1cnYwVFl5d2VYLVdVelNFd1NWRHFSX2hUQWlQTGpJU1RoS2NzUmtia3NkdGxWRzdWVEh4cmhUanBTTUw2Z1RFeE1VWkw2RFpaVUVYb3lFcUtFWlA4aw?oc=5",
-      "isNew": false
     }
   ],
   "bma": [
@@ -261,6 +261,16 @@
       "summary": "",
       "source": "Insurance Business",
       "link": "https://news.google.com/rss/articles/CBMiwAFBVV95cUxQdUdlYmx3eFkyMjR0RjZyZ1NyelVTd2tHWS03UktvMW92ZWhybEhUcFpHZEthNXhLVVFERFVjdE1DRnZpbmtEbGQ1RTFCUDg1YkRJTzF2NmVHbXYwaXR5aEI5WWhfNDBQcWsteTZNVk4tMEszbXdOTzNsUUFRSG0zLWhtQ0d2SVVRZlViQlhkYzVIYW5WSGpudVptZGFfUUVMR3IxU055X0o1dzV6ekxzY0VxLWJkT281dHdRNUVrZTQ?oc=5",
+      "isNew": true
+    },
+    {
+      "id": "acf626ac360d",
+      "title": "Bermuda regulator expands conduct rules and tightens investment principles in consultation package",
+      "date": "2026-06-12",
+      "cat": "Investment",
+      "summary": "",
+      "source": "Captive Insurance Times",
+      "link": "https://news.google.com/rss/articles/CBMi6wFBVV95cUxQWDdqUWsyTHdMNFk3LXNJVHhDS3Q1MXI4SnRKVV9fT1pPT0c4dXNKYzJ3MXByS0ZVUU5hTUthOE9iUGpCMlh0dUdVZXRBMTZiX2R5UU9ZU2M4MXZRVnVEY1ByTDNVMWQ0cjE0S1p3cGlZOXdaLUEwVzB2eGFLZFZWN044aldBQXM0MFRQUUpKT2g1UGdKd2l0azZZaFpfWS1uSXJqbkpmSzVQYWFtZGtYSUhJSF8wMUtnSzYzcl9vSmJ6VlA3OXBQTjdPOXI3ZnZTUlV6ZDdwWXhzaVFsaWVaajh0MTJpWk42eDNR?oc=5",
       "isNew": true
     },
     {
@@ -491,16 +501,6 @@
       "summary": "",
       "source": "Mayer Brown",
       "link": "https://news.google.com/rss/articles/CBMirAFBVV95cUxNR19lZ1kxU0dxOGdPLVozUnU1YnpQQmRIX05qV2JNdjR4WF9BYWNEdFRwaEhXVmxyRzVfQVJ3NGpLVWJ2NllaeUd5RnFnWlAxWWVPWkRBQ0pQaG1Kb0MwTlJpbUswemJuN1JuM2JKNWpSbUlmaDNPRVg3OUFSbzliU3V4bGYyQ01QTEFZZjF3eWxYaWUtMkhYdk5acHN1Z0ZmaEpIcHBweE1mNWFS?oc=5",
-      "isNew": false
-    },
-    {
-      "id": "792bcf5b990b",
-      "title": "Bermuda investment funds - Spring 2026 update",
-      "date": "2026-04-01",
-      "cat": "Investment",
-      "summary": "",
-      "source": "JD Supra",
-      "link": "https://news.google.com/rss/articles/CBMihgFBVV95cUxNZzUxVmJjLUFlUTlXSDNnVFhVaXhsTkE1TUJTaE9WSktqOGhrNS1TYmRGcnMzUmx5aXJzdzlfel9Wc1hOZUZWZjZ3QVJ0RFdhVHpVdnRfSW9CRVpQaHhLR3Q3bjdXWWVCTXR6NGhSa0VsaGQ1Q0RkV1hDcEZHWGRYT0R0WlByUQ?oc=5",
       "isNew": false
     }
   ],
