@@ -1,16 +1,17 @@
 {
   "results": {
-    "ust": "ok",
-    "jgb": "ok",
+    "ust": "HTTP Error 403: Forbidden",
+    "jgb": "HTTP Error 403: Forbidden",
     "gilt": "ok",
-    "eur": "ok",
+    "eur": "",
     "india": "ok",
     "credit": "ok",
     "cds": "ok",
-    "sofr": "ok",
+    "sofr": "SOFR: no data from NY Fed or FRED",
     "bma_rates": "ok",
-    "commodities": "ok"
+    "commodities": "ok",
+    "inflation": "ok"
   },
-  "run": "2026-06-22T12:29:25.642467Z",
-  "_fetched": "2026-06-22T12:29:32.696086Z"
+  "run": "2026-06-24T13:57:15.562325Z",
+  "_fetched": "2026-06-24T13:57:15.562330Z"
 }

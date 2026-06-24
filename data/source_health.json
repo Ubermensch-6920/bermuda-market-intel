@@ -1,8 +1,8 @@
 {
-  "updated": "2026-06-22T16:11:17.975970Z",
+  "updated": "2026-06-24T13:57:15.563180Z",
   "summary": {
-    "active": 8,
-    "fallback": 1,
+    "active": 0,
+    "fallback": 9,
     "stagnant": 13
   },
   "sources": [
@@ -18,11 +18,11 @@
     {
       "source": "BMA",
       "feeds": "EBS discount rates",
-      "last_attempt": "2026-06-22T12:27:56.139462Z",
+      "last_attempt": "2026-06-24T13:56:39.643663Z",
       "last_success": "2026-06-22T12:27:56.139462Z",
-      "fallback": null,
+      "fallback": "manual known_files",
       "note": "latest quarter 2026-03-31; expected 2026-03-31",
-      "status": "active"
+      "status": "fallback"
     },
     {
       "source": "BMA updates",
@@ -45,11 +45,11 @@
     {
       "source": "ECB SDW",
       "feeds": "EUR AAA govt curve",
-      "last_attempt": "2026-06-22T12:26:06.542616Z",
+      "last_attempt": "2026-06-24T13:55:43.892566Z",
       "last_success": "2026-06-22T12:26:06.542616Z",
       "fallback": null,
       "note": null,
-      "status": "active"
+      "status": "fallback"
     },
     {
       "source": "FBIL",
@@ -72,10 +72,10 @@
     {
       "source": "FRED",
       "feeds": "rates / spreads / FX reference data",
-      "last_attempt": "2026-06-22T12:29:55.092680Z",
+      "last_attempt": "2026-06-24T13:57:15.561682Z",
       "last_success": "2026-06-22T12:29:32.696300Z",
       "fallback": null,
-      "note": "0/1 series returned data",
+      "note": "0/1 series returned data (no FRED_API_KEY; using public CSV endpoint); 0/1 series returned data (no FRED_API_KEY; using public CSV endpoint); 0/1 series returned data (no FRED_API_KEY; using public CSV endpoint); 0/1 series returned data (no FRED_API_KEY; using public CSV endpoint); 0/1 series returned data (no FRED_API_KEY; using public CSV endpoint); 0/9 series returned data (no FRED_API_KEY; using public CSV endpoint); 0/4 series returned data (no FRED_API_KEY; using public CSV endpoint); 0/1 series returned data (no FRED_API_KEY; using public CSV endpoint); 0/1 series returned data (no FRED_API_KEY; using public CSV endpoint); 0/1 series returned data (no FRED_API_KEY; using public CSV endpoint); 0/1 series returned data (no FRED_API_KEY; using public CSV endpoint); 0/1 series returned data (no FRED_API_KEY; using public CSV endpoint); 0/1 series returned data (no FRED_API_KEY; using public CSV endpoint); 0/1 series returned data (no FRED_API_KEY; using public CSV endpoint); 0/1 series returned data (no FRED_API_KEY; using public CSV endpoint); 0/1 series returned data (no FRED_API_KEY; using public CSV endpoint); 0/1 series returned data (no FRED_API_KEY; using public CSV endpoint); 0/1 series returned data (no FRED_API_KEY; using public CSV endpoint); 0/1 series returned data (no FRED_API_KEY; using public CSV endpoint); 0/1 series returned data (no FRED_API_KEY; using public CSV endpoint); 0/1 series returned data (no FRED_API_KEY; using public CSV endpoint); 0/1 series returned data (no FRED_API_KEY; using public CSV endpoint); 0/1 series returned data (no FRED_API_KEY; using public CSV endpoint); 0/1 series returned data (no FRED_API_KEY; using public CSV endpoint); 0/1 series returned data (no FRED_API_KEY; using public CSV endpoint); 0/1 series returned data (no FRED_API_KEY; using public CSV endpoint); 0/1 series returned data (no FRED_API_KEY; using public CSV endpoint); 0/5 series returned data (no FRED_API_KEY; using public CSV endpoint)",
       "status": "fallback"
     },
     {
@@ -89,21 +89,21 @@
     },
     {
       "source": "Investing.com",
-      "feeds": "yield scrapes; FX spots",
-      "last_attempt": "2026-06-22T12:29:24.286398Z",
+      "feeds": "yield scrapes; commodity spots; FX spots",
+      "last_attempt": "2026-06-24T13:57:08.366608Z",
       "last_success": "2026-06-22T12:29:24.286398Z",
       "fallback": null,
       "note": null,
-      "status": "active"
+      "status": "fallback"
     },
     {
       "source": "MOF Japan",
       "feeds": "JGB curve",
-      "last_attempt": "2026-06-22T12:25:46.540689Z",
+      "last_attempt": "2026-06-24T13:55:35.786683Z",
       "last_success": "2026-06-22T12:25:46.540689Z",
       "fallback": null,
       "note": null,
-      "status": "active"
+      "status": "fallback"
     },
     {
       "source": "MOF Japan (WAM)",
@@ -126,7 +126,7 @@
     {
       "source": "NSE",
       "feeds": "USD/INR forwards",
-      "last_attempt": "2026-06-22T12:29:25.109029Z",
+      "last_attempt": "2026-06-24T13:57:09.297178Z",
       "last_success": null,
       "fallback": "Investing forwards / Yahoo futures",
       "note": null,
@@ -135,11 +135,11 @@
     {
       "source": "NY Fed",
       "feeds": "SOFR rates",
-      "last_attempt": "2026-06-22T12:27:08.234104Z",
+      "last_attempt": "2026-06-24T13:56:00.558708Z",
       "last_success": "2026-06-22T12:27:08.234104Z",
-      "fallback": null,
+      "fallback": "FRED",
       "note": null,
-      "status": "active"
+      "status": "fallback"
     },
     {
       "source": "OECD",
@@ -162,11 +162,11 @@
     {
       "source": "TradingEconomics",
       "feeds": "bond yield tables",
-      "last_attempt": "2026-06-22T12:26:10.187016Z",
+      "last_attempt": "2026-06-24T13:55:44.387037Z",
       "last_success": "2026-06-22T12:26:10.187016Z",
       "fallback": null,
       "note": null,
-      "status": "active"
+      "status": "fallback"
     },
     {
       "source": "UK DMO",
@@ -189,20 +189,20 @@
     {
       "source": "US Treasury",
       "feeds": "UST curve",
-      "last_attempt": "2026-06-22T12:25:45.222458Z",
+      "last_attempt": "2026-06-24T13:55:35.451084Z",
       "last_success": "2026-06-22T12:25:45.222458Z",
       "fallback": null,
       "note": null,
-      "status": "active"
+      "status": "fallback"
     },
     {
       "source": "Yahoo Finance",
       "feeds": "futures / spot prices",
-      "last_attempt": "2026-06-22T12:29:24.700416Z",
+      "last_attempt": "2026-06-24T13:57:09.228826Z",
       "last_success": "2026-06-22T12:29:22.777108Z",
       "fallback": null,
       "note": null,
-      "status": "active"
+      "status": "fallback"
     }
   ]
 }
