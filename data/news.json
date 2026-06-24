@@ -1,5 +1,5 @@
 {
-  "updated": "2026-06-23T22:42:48Z",
+  "updated": "2026-06-24T04:40:31Z",
   "topics": [
     "Insurance AM",
     "Private Credit",
@@ -98,6 +98,16 @@
       "isNew": false
     },
     {
+      "id": "0d058a94f4e7",
+      "title": "Average 30-year U.S. mortgage rate falls to 6.47%, tracking lower bond yields as Iran war winds down",
+      "source": "NBC Bay Area",
+      "date": "2026-06-18T19:39:18Z",
+      "topic": "Rates & Macro",
+      "summary": "",
+      "link": "https://news.google.com/rss/articles/CBMiiwFBVV95cUxQTHdkQ01YMEhIb2U2X0xwTjVlZkg4WTRVdDlFNkxkTk9nVm0yN3JhaG5yZXBYb0NaQm14QWJyaTI0dWVfUHJ4M1RNQ2I0OWZDaE00NmdBUmRicXlMS2pZWnc2aWZmajF3cElQM1N2WlBtVk5XYzVaODhUZ3p4ZWhqbXZUbTlQWnFNWEww0gGTAUFVX3lxTE93T1cweTg2ZGVBWHhpQ0dIZmVlZWdmYkhKRF9kTkpnaVVSQTltWW5SeF9NZzFyTy1UdmdtVGhndDN3ODJrb01DYk5VSU5zYWhyX2NkcTdvYlRGd2hHYTZ1X2R2azBMektJYk8zbWQ5d1l5NkdKUXhLd0hzNXR6YjFheDQwTDJRZ24yZnBsZmVRUWlQYw?oc=5",
+      "isNew": false
+    },
+    {
       "id": "68dbf900064e",
       "title": "InsuranceAUM.com Celebrates a Historic 5th Annual Insurance Investment Executives\u2019 Meeting in Chicago, Honoring Outstanding Industry Leaders and Spotlighting Next Event in Austin",
       "source": "Business Wire",
@@ -180,7 +190,7 @@
     {
       "id": "bbf8fcf1c69b",
       "title": "China\u2019s Central Bank Hints at Shift That Aligns It More With Fed",
-      "source": "Bloomberg",
+      "source": "Bloomberg.com",
       "date": "2026-06-17T10:30:45Z",
       "topic": "Rates & Macro",
       "summary": "",
@@ -228,13 +238,13 @@
       "isNew": false
     },
     {
-      "id": "a56915d54b5c",
-      "title": "Bank of Japan hikes rates to 1%, highest since 1995, as yen and inflation worries take hold",
-      "source": "CNBC",
-      "date": "2026-06-16T03:21:00Z",
+      "id": "e28816b0071b",
+      "title": "Australia central bank warns rate hikes might not be over after holding fire",
+      "source": "Reuters",
+      "date": "2026-06-16T05:51:21Z",
       "topic": "Rates & Macro",
       "summary": "",
-      "link": "https://news.google.com/rss/articles/CBMieEFVX3lxTFB5OV9Yc0JEMlltWk1jR3lDeDlaWm92TnZSNTI3a2xJWndXVjJNc19YaEw2cTd3cW1SSDBzZTNyd0M3c2ZyRlJCN1p1Y2hYemNwLURmMl9Rd2RZMTBZYl9jS0hOdnQ2T1pQYWRpaUx2R05ncFBwS2t1U9IBfkFVX3lxTE80T1hGSE1Rcll5dlZNVUFhYWRaWDU5V1Iwcm1xX0MyZXpKWGZKZFN6WlJIVk5DY1ZzdTNRZW82MlZCY2k3bXdKZnp3U1dlQTAwRk9hdnBVRWdxcmZFVTZBRDZrMDJ4dzFlaUNkLWprQklTeEJ6ZnFkV2k0aFRWUQ?oc=5",
+      "link": "https://news.google.com/rss/articles/CBMiuwFBVV95cUxOVXcwZ3F3eVg2ZnM2bVBfcVVlSWhmUzJEbmJmLTh4VU5qamRuVDFOUUJneGF3OG9nMzVPeTFMTFRxaC1YaXNrMTBoYmhUQjZlR3ppR3Q0UnQ1VndIa0NVMEhkM0xfd08zbnpDVkVtWUJ6eDJIVE1FNURoZjczem5Tblc4bTlEaV9NTmZOUlhiQjB4SU1INDlFVnNkd1lJOTlIMmVkZU0xN19LNFIyTlpLNVl0TV9nZTFyUXpr?oc=5",
       "isNew": false
     },
     {
@@ -288,23 +298,13 @@
       "isNew": false
     },
     {
-      "id": "e28816b0071b",
-      "title": "Australia central bank warns rate hikes might not be over after holding fire",
-      "source": "Reuters",
+      "id": "a56915d54b5c",
+      "title": "Bank of Japan hikes rates to 1%, highest since 1995, as yen and inflation worries take hold",
+      "source": "CNBC",
       "date": "2026-06-15T07:00:00Z",
       "topic": "Rates & Macro",
       "summary": "",
-      "link": "https://news.google.com/rss/articles/CBMiuwFBVV95cUxOVXcwZ3F3eVg2ZnM2bVBfcVVlSWhmUzJEbmJmLTh4VU5qamRuVDFOUUJneGF3OG9nMzVPeTFMTFRxaC1YaXNrMTBoYmhUQjZlR3ppR3Q0UnQ1VndIa0NVMEhkM0xfd08zbnpDVkVtWUJ6eDJIVE1FNURoZjczem5Tblc4bTlEaV9NTmZOUlhiQjB4SU1INDlFVnNkd1lJOTlIMmVkZU0xN19LNFIyTlpLNVl0TV9nZTFyUXpr?oc=5",
-      "isNew": false
-    },
-    {
-      "id": "2f46f7a4d798",
-      "title": "Verdant Rock Receives BBB+ Long-Term Insurer Financial Strength Rating with a Stable Outlook from Fitch Ratings",
-      "source": "Media OutReach Newswire",
-      "date": "2026-06-12T13:09:20Z",
-      "topic": "Structured Credit",
-      "summary": "",
-      "link": "https://news.google.com/rss/articles/CBMigwJBVV95cUxQTFlsQktZQ3hPN0hnYnFIR3pJeWFLS0trWDFNaUU2djFJZW1WUVJpRUptNjN6MTVsTURKUS1jQVlrZlpwSjBYZUVtRThSbWt1Zk1KYTBJZE1KU01kMGJUbGx2MVhUOTRJTHNHMnAtOEFySjJoanVUeC15eW1KZTJfV2xrblJCNVdDZ01yRFl5RFAtWHdTZkcwQW90NEF5X09MMmZXOE5ONk1UMU9uNlJYd0doWlNrd182eEprSnZ6ckNpZFhZYTVyNE9MMS1yeFNsRFl2Vjh1YnVna05wSlNTcU1DeGRNM214RXZZSm9PQnlGd0d5dEpfOGJGV3llLUszT3Fj?oc=5",
+      "link": "https://news.google.com/rss/articles/CBMieEFVX3lxTFB5OV9Yc0JEMlltWk1jR3lDeDlaWm92TnZSNTI3a2xJWndXVjJNc19YaEw2cTd3cW1SSDBzZTNyd0M3c2ZyRlJCN1p1Y2hYemNwLURmMl9Rd2RZMTBZYl9jS0hOdnQ2T1pQYWRpaUx2R05ncFBwS2t1U9IBfkFVX3lxTE80T1hGSE1Rcll5dlZNVUFhYWRaWDU5V1Iwcm1xX0MyZXpKWGZKZFN6WlJIVk5DY1ZzdTNRZW82MlZCY2k3bXdKZnp3U1dlQTAwRk9hdnBVRWdxcmZFVTZBRDZrMDJ4dzFlaUNkLWprQklTeEJ6ZnFkV2k0aFRWUQ?oc=5",
       "isNew": false
     }
   ]
