@@ -1,5 +1,5 @@
 {
-  "date": "2026-06-17",
+  "date": "2026-06-22",
   "source": "FRED ICE BofA / TradingEconomics",
   "status": "partial",
   "sovereign": {
@@ -15,57 +15,57 @@
     "aaa": {
       "name": "AAA Corp",
       "spread": 36,
-      "prior": 35,
-      "series_id": "BAMLC0A1CAAA",
-      "date": "2026-06-17",
+      "prior": 36,
+      "series_id": "",
+      "date": "2026-06-22",
       "source": "credit.json"
     },
     "aa": {
       "name": "AA Corp",
       "spread": 50,
       "prior": 50,
-      "series_id": "BAMLC0A2CAA",
-      "date": "2026-06-17",
+      "series_id": "",
+      "date": "2026-06-22",
       "source": "credit.json"
     },
     "a": {
       "name": "A Corp",
       "spread": 62,
-      "prior": 63,
-      "series_id": "BAMLC0A3CA",
-      "date": "2026-06-17",
+      "prior": 62,
+      "series_id": "",
+      "date": "2026-06-22",
       "source": "credit.json"
     },
     "bbb": {
       "name": "BBB Corp",
-      "spread": 92,
+      "spread": 93,
       "prior": 93,
-      "series_id": "BAMLC0A4CBBB",
-      "date": "2026-06-17",
+      "series_id": "",
+      "date": "2026-06-22",
       "source": "credit.json"
     },
     "bb": {
       "name": "BB Corp",
       "spread": 156,
-      "prior": 164,
-      "series_id": "BAMLH0A1HYBB",
-      "date": "2026-06-17",
+      "prior": 158,
+      "series_id": "",
+      "date": "2026-06-22",
       "source": "credit.json"
     },
     "b": {
       "name": "B Corp",
-      "spread": 282,
-      "prior": 289,
-      "series_id": "BAMLH0A2HYB",
-      "date": "2026-06-17",
+      "spread": 283,
+      "prior": 283,
+      "series_id": "",
+      "date": "2026-06-22",
       "source": "credit.json"
     },
     "ccc": {
       "name": "CCC Corp",
-      "spread": 939,
-      "prior": 944,
-      "series_id": "BAMLH0A3HYC",
-      "date": "2026-06-17",
+      "spread": 947,
+      "prior": 947,
+      "series_id": "",
+      "date": "2026-06-22",
       "source": "credit.json"
     }
   },
@@ -103,5 +103,5 @@
       "source": "cache"
     }
   },
-  "_fetched": "2026-06-24T13:56:00.326041Z"
+  "_fetched": "2026-06-24T09:52:27.821292Z"
 }

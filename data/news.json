@@ -1,5 +1,5 @@
 {
-  "updated": "2026-06-22T16:11:17Z",
+  "updated": "2026-06-24T09:55:21Z",
   "topics": [
     "Insurance AM",
     "Private Credit",
@@ -8,43 +8,303 @@
   ],
   "items": [
     {
-      "title": "Apollo raises $8.2B for insurance private credit",
-      "source": "Reuters",
-      "date": "2026-03-20T14:30:00Z",
+      "id": "fbe06f62e966",
+      "title": "Exclusive | Life Insurers Aren\u2019t Just Investors in Private Credit. They\u2019re Major Lenders, Too.",
+      "source": "WSJ",
+      "date": "2026-06-24T09:30:00Z",
       "topic": "Private Credit",
-      "summary": "Investment-grade private placements earmarked for insurance balance sheets.",
-      "link": "",
-      "id": "50e0072aec99",
+      "summary": "",
+      "link": "https://news.google.com/rss/articles/CBMiwgFBVV95cUxOQWNFaHIwa1pRV051V1VaNkVISWloR1pqZ2t6OU1wcVU3NVlkRFhnNDRMTWtfZnljR2pfUWpNQ0hodlVQUnJ1VnFRekF1NXhFSS1VVmFBeUxmaU4tcGZGejFMZkJlcTFRSzVjWTJIU2xkRnR1RlJ5MXp3WTZFTURod19aRjZLbERRZXlCMk94WkYwRE1wVXFDSDBHNWdTLTdvRzJfMUtGNVFiX3czSWo0QTZITmFrckdkOVZ2R3dxWGZrUQ?oc=5",
       "isNew": false
     },
     {
-      "title": "UK gilt 10Y hits 5% for first time since 2008",
-      "source": "CNBC",
-      "date": "2026-03-20T09:30:00Z",
+      "id": "8ab12cce20d2",
+      "title": "Central Bank Bond Purchases and the Price of Safety",
+      "source": "Federal Reserve Bank of San Francisco",
+      "date": "2026-06-22T17:00:00Z",
       "topic": "Rates & Macro",
-      "summary": "Energy surge plus hawkish BOE push long-end gilt yields higher.",
-      "link": "",
-      "id": "0a19daa6e8c1",
+      "summary": "",
+      "link": "https://news.google.com/rss/articles/CBMiyAFBVV95cUxOeEdSZDdJa29DZHRyNlN0VlM5N2xXN1lWOGxkcGRKZmhsYjJxbXdBZExCZ1dGaGhPT29RTDV1d3dLaUZuaW5xT0ZFMVh3U2VkZDNlbWI5Y195UzRLM2h4eXdoWUhVVVIxbnZFVVQ2VVY3dmFhVllPMGRGem9EWEU3clVIWlhYcEhPMUMtMmVGZ2JleGJpRUM0ajN5bmg3REl3bHZjV1VLUjJVazM0ODBfRGtLWk9qOTJXSER1cy1OWnowaEptNm80Ug?oc=5",
       "isNew": false
     },
     {
-      "title": "Global reinsurer completes $1.5B structured credit deal",
-      "source": "Insurance Insider",
-      "date": "2026-03-19T16:45:00Z",
-      "topic": "Structured Credit",
-      "summary": "CLO and ABS exposure transferred to a Class E insurer.",
-      "link": "",
-      "id": "42bedc7ceca0",
+      "id": "9c485d1e74e5",
+      "title": "Insurers Court Bank Balance Sheets As Regulators Push Back on Private Credit",
+      "source": "Risk Market News",
+      "date": "2026-06-22T15:27:18Z",
+      "topic": "Private Credit",
+      "summary": "",
+      "link": "https://news.google.com/rss/articles/CBMirAFBVV95cUxPOUZiNHB5MGNGNnpsaDhXUzRtX0FWam1lMFBZTGJzMWpLTXNwSFVlU2VPMGRVT2xqM2VOU0dTdWZCTFkxTHBHU2RQek4zeXFvREFYYmdRd2xTRm1YSTVEemZtMDl2cWQxY0h2bFk1Ym1QN1dXOGFObzBvb2NRUTRZYkRqTjlHU2stRzkzNTlvUW5wRGZIX01NemNLTXBBUHhodnVUNS1CTzVRZjNW?oc=5",
       "isNew": false
     },
     {
-      "title": "NAIC proposes enhanced private credit reporting",
-      "source": "AM Best",
-      "date": "2026-03-19T14:20:00Z",
+      "id": "2e86281fad7e",
+      "title": "Investment Managers React To Central Bank Rate Decisions",
+      "source": "Family Wealth Report",
+      "date": "2026-06-22T11:27:38Z",
+      "topic": "Rates & Macro",
+      "summary": "",
+      "link": "https://news.google.com/rss/articles/CBMipgFBVV95cUxQcVNWTHRpZFc0RUM4WXd3aUZOSWdXNkZfSFNYcEgxd3NsT3FoY3FpREVLc2VrbVNINm1jaGxIN1dGSG5ZZ2xjSXFycEpXeER4NUZzeUJvQ001R3ZCTUR2MVUxUWN1TkZETGpVNWs5Z3c1eWdrcjZRcEdoMjVDbjd2Ny1HSUVzcUFTS0FfR0dwRFg3eXkyMUxFa1gxU05kQWR4aUJ5ZDlR?oc=5",
+      "isNew": false
+    },
+    {
+      "id": "108cd074c4e9",
+      "title": "Is private credit a $2 trillion-dollar insurance timebomb?",
+      "source": "American Banker",
+      "date": "2026-06-22T10:00:00Z",
+      "topic": "Private Credit",
+      "summary": "",
+      "link": "https://news.google.com/rss/articles/CBMilwFBVV95cUxQOGZZb1hxVGRLTGg1RGZqc2RRMEd2QVJ5OG9yQklWS29fa1lDTER4WUdyV2pxVEg3dEVmVl9KbUw2UTQ4Rm9IZ2l2RTM4TElmQ09KRXBJNFZzcmRZV1pxejB5Qmp3ZHl2dU8yb1BYSFNQWUN0STVpVU5ZWjZtb01qbHdDZG5pcTRQNVQzN1BWc2x1V0dLOGhJ?oc=5",
+      "isNew": false
+    },
+    {
+      "id": "e8fdbae01c4d",
+      "title": "Swedish insurer LF eyes move into private debt secondaries",
+      "source": "Secondaries Investor",
+      "date": "2026-06-22T08:30:09Z",
+      "topic": "Private Credit",
+      "summary": "",
+      "link": "https://news.google.com/rss/articles/CBMimwFBVV95cUxOSlFtVGR1VW5TR3NfTTVsZm1jTk1HSHgydDFoQWs1WnZ6Vnk3TjJuZ1hiUFh2eWcxMFdkQksxN21LNmhZbjRwZjBxc3BSbmxiVThFTk1BWmdHVzg5V01Uc054QnozTTVhbFBKUFpfZ3U0QlVhZ21UQXpqTGwzZmYzZ3hmZGtmSnc2R3NjdENpQW9hQWc3c1ZkT1hvVQ?oc=5",
+      "isNew": false
+    },
+    {
+      "id": "c58cb60a4c8a",
+      "title": "European insurers eye bigger private debt allocations",
+      "source": "Private Debt Investor",
+      "date": "2026-06-22T08:00:05Z",
+      "topic": "Private Credit",
+      "summary": "",
+      "link": "https://news.google.com/rss/articles/CBMilAFBVV95cUxOX09wRTA1WS1Sb1c3N0hQYUZPbERGbEtvV3VlWmp2WWNSMWJJUmdjdUtsREhnZEUxSTJmTG9OUVBYMWdKZWlQY3k4WjZ6TTZ5Y3pVdmJBQ1lVT0w3eEs5X0JwZE9qRkdvVTRrTkNwMktzUXdubU5EdlJWV0lSbUUyT2ZDdmZIa3dCMTlCMkxocjc2dzRS?oc=5",
+      "isNew": false
+    },
+    {
+      "id": "fb4d3938cc32",
+      "title": "Should the European Central Bank slow down quantitative tightening?",
+      "source": "Bruegel",
+      "date": "2026-06-22T07:51:29Z",
+      "topic": "Rates & Macro",
+      "summary": "",
+      "link": "https://news.google.com/rss/articles/CBMimwFBVV95cUxONUFUb2JQQ2JwaFdMVy1IbFljaWRWbnNmUWtRb3JTcjdLNVU4MFNVd1FUWHZ3M2h3QzlEYXhfV0NobTl2dVp5cDdTQ2xsRFM0eGE3blNERDhKZUtFUDR4S2JMbGllZmtBMUhUTlpudVdMTUJTUXQ3NFV1c05OaTBheGJiTU9YTU8tODZKYjI4anNvOUY1VW50VmpNbw?oc=5",
+      "isNew": false
+    },
+    {
+      "id": "6b24c6e1fcee",
+      "title": "Japan Post Insurance Balances 110 Years of Trust With AI, Impact Investing and Global Asset Management Growth",
+      "source": "The Worldfolio",
+      "date": "2026-06-21T23:32:56Z",
       "topic": "Insurance AM",
-      "summary": "More transparency sought on insurers' illiquid asset holdings.",
-      "link": "",
-      "id": "62eeb4a6d1d9",
+      "summary": "",
+      "link": "https://news.google.com/rss/articles/CBMi6wFBVV95cUxQMENPeDZQRGdJaUNyUFZOWm00SkR6RUNwcHBRMzdBOXlBNHBtWGh0WWRmeDVoVTVZb1E1aEUxZEhiRTQ2RDJJMU5BaFdhcGZheFdXejdHQVNBV2MweVE2MzVUeGxrbGtXeE9Ec1F5TGVkQklMb1NmWUh0alVZZ19UbENqSFhUQk5RSVlEZjlORUkwSzA5cEZjbGI0YV9DNnV2TXdORl9ud3hvQ0p0UnFjSlBCSTNTU0U3Q290ajRFR3BxUzRaUXZYVUpWQjl3S3Raa08wb0M5MDJPOGxGSHpQNUcxWnVEYXh0OFpJ?oc=5",
+      "isNew": false
+    },
+    {
+      "id": "fcd1f4f7e785",
+      "title": "Conning report says investment strategy may become a key differentiator for P&C insurers",
+      "source": "Reinsurance News",
+      "date": "2026-06-19T13:00:56Z",
+      "topic": "Structured Credit",
+      "summary": "",
+      "link": "https://news.google.com/rss/articles/CBMiuAFBVV95cUxOZDQwZkFicElWcENNRXlCM1BYU3Fkd3FpcWJGUzk5UzdaWl82blRYR2M0Vk12eGNPd01yUm0zaGJTZEM0Y19RYjN5N0ZycWhjbXZDdjV1UFNXSkI4VThzYmMwRThjUFp2LU9WWUFIc2FpWGJ5MkhGa3hRN3J3eDZneXdscGo2U1VVTjNPUUVHVEJidHBiU2gwejRROXN5TW9faHJzX0J1cmF3bXV4RUFPMW5CdmFQM1dV?oc=5",
+      "isNew": false
+    },
+    {
+      "id": "0d058a94f4e7",
+      "title": "Average 30-year U.S. mortgage rate falls to 6.47%, tracking lower bond yields as Iran war winds down",
+      "source": "NBC Bay Area",
+      "date": "2026-06-18T19:39:18Z",
+      "topic": "Rates & Macro",
+      "summary": "",
+      "link": "https://news.google.com/rss/articles/CBMiiwFBVV95cUxQTHdkQ01YMEhIb2U2X0xwTjVlZkg4WTRVdDlFNkxkTk9nVm0yN3JhaG5yZXBYb0NaQm14QWJyaTI0dWVfUHJ4M1RNQ2I0OWZDaE00NmdBUmRicXlMS2pZWnc2aWZmajF3cElQM1N2WlBtVk5XYzVaODhUZ3p4ZWhqbXZUbTlQWnFNWEww0gGTAUFVX3lxTE93T1cweTg2ZGVBWHhpQ0dIZmVlZWdmYkhKRF9kTkpnaVVSQTltWW5SeF9NZzFyTy1UdmdtVGhndDN3ODJrb01DYk5VSU5zYWhyX2NkcTdvYlRGd2hHYTZ1X2R2azBMektJYk8zbWQ5d1l5NkdKUXhLd0hzNXR6YjFheDQwTDJRZ24yZnBsZmVRUWlQYw?oc=5",
+      "isNew": false
+    },
+    {
+      "id": "68dbf900064e",
+      "title": "InsuranceAUM.com Celebrates a Historic 5th Annual Insurance Investment Executives\u2019 Meeting in Chicago, Honoring Outstanding Industry Leaders and Spotlighting Next Event in Austin",
+      "source": "Business Wire",
+      "date": "2026-06-18T14:28:00Z",
+      "topic": "Insurance AM",
+      "summary": "",
+      "link": "https://news.google.com/rss/articles/CBMi0wJBVV95cUxPTTZHN2YzUEdVd2Z1Z1N0Q0RPMzVOSG1jOGNhNXE2UnlmM1pSb29Mck0taUo0TkhzT0poS3VQUS12WUVjcUlmWGZjd0N5Z3lYSmRnRkNPdFBDSG1wUUNOTUNzc2JnMXROVVRMelRQZU1ZbU9QYXR2N2pHTzY5M3pSa1BkR3Zlem9CUmVNU2dTTlZaVUFPUEJfVERCU2lBYzBGaFJHb2JhMGZSMTJhUC1VR1NjamVyU1dvbVdpbTRBUzFOSGc0YkRzMEVjdUc1TDN4REotT09BS09lQ2dMYzA5ZjZRaFc0clBYMjVDZ3ZHaG9zRVFTWDBtRjY1Tm9zd0F2MTFHTlJXQTgwNEN0R1g0V3JvWk4zUE11d2JoZ2xCYVJQNFZuNTBwLXNtc0hFeVFtQy1vSVo1bGRxX2pHcEh5MHJERE9hSTlyb2FnOVlqWURpMWM?oc=5",
+      "isNew": false
+    },
+    {
+      "id": "fcc5ba226127",
+      "title": "ECB's Lane hints at higher rates even after Iran shock",
+      "source": "Reuters",
+      "date": "2026-06-18T13:30:55Z",
+      "topic": "Rates & Macro",
+      "summary": "",
+      "link": "https://news.google.com/rss/articles/CBMimwFBVV95cUxOR2NKSzlPVXdscXlER2piOGpyS1ZFbC1NSWRyamVzdzkzVkpVeXBzYU9TMU1Od3JjOXdnaUhqTWRuTk1YcWVNM1F4U1BMQ2JkN0Q1NWJvQkFTTHk0XzlTMWNiZEVUT21WbTl1MGtaNWRfUmx6eGJ2Z1B6UUozOWFwVm9yWHJVRG9FQXhrRTVxMzZSLUx1Y01OWTdZdw?oc=5",
+      "isNew": false
+    },
+    {
+      "id": "7338c9882f68",
+      "title": "What Federal Reserve monetary policy means for investors",
+      "source": "U.S. Bank",
+      "date": "2026-06-18T07:00:00Z",
+      "topic": "Insurance AM",
+      "summary": "",
+      "link": "https://news.google.com/rss/articles/CBMiswFBVV95cUxOa2V2OFo4WjFPclRZRGtjZXJvb3dsaDVUM3FjRnVCTkxfX184eHRyQjJ2NFlDc09TUlZrUDZGUzQzTjgyV1drNG9PSnc2Y0RELWZ5LVktLTlFcGFFa2s0Qm04RzRoYjNRSE9aSGw3aDljNFEyUEZJS1RNa203WlBLdmxxS2lWNmNXT0pRZGdDcGdqdEZ1YmMxN2lhci1RdVRMTEJtWE5wM3RJSFhGMXJjMjdqZw?oc=5",
+      "isNew": false
+    },
+    {
+      "id": "6c933132064d",
+      "title": "Japan Just Raised Interest Rates To A Level Not Seen Since 1995\u2014 And The Yen Carry Trade Is Back",
+      "source": "Yahoo Finance",
+      "date": "2026-06-18T00:31:00Z",
+      "topic": "Rates & Macro",
+      "summary": "",
+      "link": "https://news.google.com/rss/articles/CBMingFBVV95cUxQOTdGU0dES29UMnViLVdobzhPNHZhaFhHTF9ZY3F5YThIZDVkeDNSdDlHVTVzaHNqNGZqZDVqOU5IMDVjbC1wdDVBUlUtaDlVTllIZzZnMk1RMTVtNU9rWlB6LXNMM1gyQ2dCdkd0RWtjUlBzQXJ6RXBtSHZIRDZnSHhtci1QcmJMTlNZN3U3OFRfTjV4RFFscExfWEtzdw?oc=5",
+      "isNew": false
+    },
+    {
+      "id": "afb08d31dedb",
+      "title": "Federal Reserve officials tilt towards rate rise as Kevin Warsh era begins",
+      "source": "Financial Times",
+      "date": "2026-06-17T21:12:24Z",
+      "topic": "Rates & Macro",
+      "summary": "",
+      "link": "https://news.google.com/rss/articles/CBMihAFBVV95cUxPaDBmejBOZG1EUUtGeEsyU2ZWYktLU0NWOFlPRE0zMWFIVDBWNGRtM3JMYkpRNFFSU0RCbmtMSzRMTzBBNF9WVG5JQXBuYXNoUFNiQzcxNzJiOTQ1cGdIQ3N2RnVHQjc1aEFfeEJNT0p5RVhlV1EtX0FWcFNUN3ZtUFJkQ2g?oc=5",
+      "isNew": false
+    },
+    {
+      "id": "b758ac8a7186",
+      "title": "Stocks Retreat After Fed Hints at Higher Rates",
+      "source": "WSJ",
+      "date": "2026-06-17T20:18:00Z",
+      "topic": "Rates & Macro",
+      "summary": "",
+      "link": "https://news.google.com/rss/articles/CBMiqwFBVV95cUxOcURLMmd3M3JGZmNXTFNrN2pXS0pxWlJkOXJjRG9XWmdsalRHUDNHVS0yTkpEaGVScnRHd1QzLXp2Z093VWp0Nk1ZNzZ6bGFHTGZ3dUkwcjdjMDhiclNnQTdnRnQ1VDEyVWNvU0ZCekZ4RGpuRmk5bVNlZnc3T3dlV1RzeDAxdHluenVqNnhhbDdHN1J2R0NmdGhmbzZXbHQ4TXFmWDgxU0JfSVE?oc=5",
+      "isNew": false
+    },
+    {
+      "id": "644d0151ca42",
+      "title": "WATCH: New Fed chair Kevin Warsh holds first news conference after leaving interest rate unchanged",
+      "source": "PBS",
+      "date": "2026-06-17T15:14:03Z",
+      "topic": "Rates & Macro",
+      "summary": "",
+      "link": "https://news.google.com/rss/articles/CBMiygFBVV95cUxNdWttZklFSUw5UnFUanJHNmFHMFZCdnQ4MGNJOE9PRGJYSExWaGJBX250R1VEMk1Kc1V0TThPY2xHZ0ZTMWdDV0J2WTRfOUdEU0pDTndmTnBwZkRIYkw5LXlzRi1JUW4wQnVFOURMM2dhcGU2dzZQbmtyV3FKUGFWX1ByZnFTOGIxYldVLWQzMTl1aWNOdWF2OU1GbnRzQW1CcGl6VWYySTR6TTN4VDk3Qy1GYVplWVdiS1p6ZDlRaUhSeE4wdVowQUFn0gHPAUFVX3lxTE9JSXB0X050RXhVNVdyb2pjMUljZmlCNjhjQWJNU0pDUy1LZUljci1WaXpVZFR5b3RjMnhRSUNXODc2M0ppV2RQOHJyRG9sMVJWU1hRc3d5VnBiN2xPUjZwOGpWVFRRZ0YtZjJ2SWdFcXE5eEp4NWkwaVctSndKSG5fM3dyY1NwM19SRnBYMkRRX0NHVEc1UXU4ekpTbHVQdTFqaWQ4VWFiXzVZc2J1b09UZlpabWF5ZXpYZzRRNV95Mm1LN1dJaUtIY0Myd1Nfdw?oc=5",
+      "isNew": false
+    },
+    {
+      "id": "f33e2231375f",
+      "title": "Navigating private markets for insurers",
+      "source": "invesco.com",
+      "date": "2026-06-17T15:13:20Z",
+      "topic": "Private Credit",
+      "summary": "",
+      "link": "https://news.google.com/rss/articles/CBMiiwFBVV95cUxOX3h1cEliVU03WUhUdkh0ZVlLUndEMVpZckVVQ3NaMDVqUlFNejJrSDdXdlUwcWlUeDRVUy1qV1hoLXpTeEpqQXQzOXE1QlRKUHp3NjRCXzlfcWdxZVl1X1NSMnBaY3JUN2FKaTNVSUtaTE9fU0hXWnRlR1ZPM3F2ajVqYWgxTTQ0Y0hF?oc=5",
+      "isNew": false
+    },
+    {
+      "id": "bbf8fcf1c69b",
+      "title": "China\u2019s Central Bank Hints at Shift That Aligns It More With Fed",
+      "source": "Bloomberg.com",
+      "date": "2026-06-17T10:30:45Z",
+      "topic": "Rates & Macro",
+      "summary": "",
+      "link": "https://news.google.com/rss/articles/CBMisAFBVV95cUxPTktiQTMwaVJmeG5tRk1HLWVKN1BBRW1lb0JfdkZaZGJRb0lYNG9qSVpRYWt1ZVBzNWRIa3NFV0pSMTVFQ0FLQ0lmODFYcDRWbUN1UEJhSHR2Y3dweFFqbnBjZ3ZtRXJlN0ZzOHRTZW9RbmphaHJNa3FzT0ZXR1pkVTF1V2k2T2hFMTJQRE1TbVBSSC15bV9XWW1iLVhMSndURXktU21ZYUs3RF81ejV6QQ?oc=5",
+      "isNew": false
+    },
+    {
+      "id": "c2f0ff6ec408",
+      "title": "Trump is demanding rate cuts. Kevin Warsh\u2019s first challenge may be saying no.",
+      "source": "Politico",
+      "date": "2026-06-17T09:00:00Z",
+      "topic": "Rates & Macro",
+      "summary": "",
+      "link": "https://news.google.com/rss/articles/CBMikgFBVV95cUxOaEFjQm9OdjYweHJkeGRLRzZQWjhsQ3VDZV9wZ0hzdDhqNVREWXE5NklEN0FBTnBpS0ZUZXFIQmdBa05nNE9QRVZ1NnYyVGVremJHOGRQNXQ3bEtneW5QdDFRVGlxNzZkSWpCOUgzczhUOU5tMlMtdlQwVVowQlpoVGxjbXN3RE5YcGY3ZU81cC01QQ?oc=5",
+      "isNew": false
+    },
+    {
+      "id": "2eb43cff68af",
+      "title": "Insurance: US Deals 2026 midyear outlook: M&A Trends",
+      "source": "PwC",
+      "date": "2026-06-17T07:00:00Z",
+      "topic": "Insurance AM",
+      "summary": "",
+      "link": "https://news.google.com/rss/articles/CBMilwFBVV95cUxNMXdaQjV6X2FTQkFWRVpaSTJPM3ZIT0VTNHhod2lmTldrcDJhcW5OaXlpX3BieDMtaGgyVkFueGF2bzlQLVBxS0p6RmhNQ1BDdlI3SmxMOV9fb1NhUlVBSUZMQ2lUeTNxbnJHSFNBZUd2dEdWcko1akc3MEhGR0VQdWltaUl2a3NCdEYtTzdFMDVZWExlRDlj?oc=5",
+      "isNew": false
+    },
+    {
+      "id": "d512b0d6df1f",
+      "title": "AI boom creates hidden portfolio risk as insurers face concentration across sectors",
+      "source": "Pensions & Investments",
+      "date": "2026-06-16T17:50:00Z",
+      "topic": "Insurance AM",
+      "summary": "",
+      "link": "https://news.google.com/rss/articles/CBMitwFBVV95cUxQaUtTZmg5d29IOXFDbC12ZXVXc3ExOHR2VU0tLUxDaUFaRERQbG5IREVfQmE2d3A1N05SV19Fb1BsdTNjb3RDVE1KNE9DYWRHdGhIMkpGU1hOWm02WEFvNmNNajMtbUdFLXBSOFQ1Y2FuZjhxdmozLTJ1ZGRNNTVsa09HNUxRdTdkQWRmdGU1NVNqWmRyYjZtaVBoM25jajBuQmJHSG5xa3NGT1ZBRWtjVUU4NHh5OXc?oc=5",
+      "isNew": false
+    },
+    {
+      "id": "543949a9d105",
+      "title": "U.S. Bank Wealth Management Appoints Daniel Farley Chief Investment Officer",
+      "source": "U.S. Bank",
+      "date": "2026-06-16T12:02:50Z",
+      "topic": "Insurance AM",
+      "summary": "",
+      "link": "https://news.google.com/rss/articles/CBMi3gFBVV95cUxQM1FhNVpZRHl2NzdlZ3hjTTF1NFNtcWFjUE5JM2EtczVxcG1TQndYQ1d5eGFCNWkycXdrUWZWLU5HZFJ5eXcyY1ZERUc2NS1YSF9LSi1YV1lRTW5sSmtkUUVScE9NLV9qWmFyRGRpS3lWZV9VNThJbjFHTkhJcjMxaUpJRU5TelFGVE9XalgybURfNlR3R1JfME5JY3plSTZNZHpiNmZ1dTJza2VyVjJMenU2N2xYVjU2UzdUbTNRN1NQek1aTmpwNHNnVFR2YVN2WW9rVEpsWlRkSE5xc0E?oc=5",
+      "isNew": false
+    },
+    {
+      "id": "d21b44f0e667",
+      "title": "How Fixed-Income Investing Is Evolving for European Insurers",
+      "source": "AllianceBernstein",
+      "date": "2026-06-16T02:58:13Z",
+      "topic": "Private Credit",
+      "summary": "",
+      "link": "https://news.google.com/rss/articles/CBMi2gFBVV95cUxPdmlFZDJja19pZDdPVzhpVmRNNXZCaGpZTnZWQU9YZlZOaXZDYmtRYXJwU2gyUlhnQldReEhnekZtZFVkRHBqMVZXWVZzd3RyckItVVhBYU1VMFVkU1F2XzdKZGJ2WmlzYkJXajJiUkw3ZS1id3dibldrcEw3TWhlTExXdWFQVFVVSko0bzE0b1FQSGRUU1hVWlB1bFpyT3dRZUt0V2VQa0hJbFVyNFQxNG9QYkZ1MUdEekFpWk1wQnhWVG9PLS1xT1NsY25Qelh2WGZNNFVBSi1iZw?oc=5",
+      "isNew": false
+    },
+    {
+      "id": "54cd2eb3abbb",
+      "title": "Kevin Warsh steps into Fed Chair role amid spiky inflation and political pressure",
+      "source": "marketplace.org",
+      "date": "2026-06-15T22:05:00Z",
+      "topic": "Rates & Macro",
+      "summary": "",
+      "link": "https://news.google.com/rss/articles/CBMipwFBVV95cUxNWTZSRzNQUjZQczNSRWVXN1NYaU1ZZFNRdnlMRndxdmQtak5NN0t4bEJ3LTFLTzlUTkU5aklabTBlTGpGRkhNV2d1SFhvZ1Z4R2pJYXo5XzRobnJ2Smt0MEtWRzRwNWhKTllGVGpZVmk5Sk1wSzBWVFNWSW1GODFnaDk5cVZncWF5QkxVTTVUR2tpTHZaM0R4QmFlTjktUzYtb00yUGdmcw?oc=5",
+      "isNew": false
+    },
+    {
+      "id": "9ef0367a12b1",
+      "title": "Bank of Japan raises rates to 31-year high, flags more to come",
+      "source": "Reuters",
+      "date": "2026-06-15T21:09:08Z",
+      "topic": "Rates & Macro",
+      "summary": "",
+      "link": "https://news.google.com/rss/articles/CBMitwFBVV95cUxPY3g0RV9ZYVZhWG1HQzEyLVU3MU1PQnduNndhaERJN0dTcWVrYUs3YXFEQ1k4NXFsdllBdDJZOHRGSEt4cy1tV3JnZGJfSVVCdFFxNFppZ2YxN3kxZ2VEa2JpU3phbTFDVllJRVEtNnM2VEFHNTZST2dLeTQxY1N1ODJqMlRZZVlfdUcySllSVU5JREJZSWp1RUdiTko3TnYtUktwdzZhMWNrM0ZHbU0tcXByYU1YZVk?oc=5",
+      "isNew": false
+    },
+    {
+      "id": "07ad094713fd",
+      "title": "Stone Point raises $610.5m in first close of new Insurance Solutions Fund",
+      "source": "Artemis.bm",
+      "date": "2026-06-15T13:05:00Z",
+      "topic": "Insurance AM",
+      "summary": "",
+      "link": "https://news.google.com/rss/articles/CBMiowFBVV95cUxPb2l1NmRkNWtVQUh3dEFEbEkwT1pOSzllcndBbWVBQXd3NkptY21uRG8zYng0dzBtNEdoVkxyZF9BSGRPYkVwaDZ1b3BxZGpxeUxSZjNZaEo3R0FodjY3MXhuZ1N2OE9JaHRidTctUG52eElHcXZYTEFVWHNpMU0tUUlhUXlibHR5emxETnYxTFZUa2psQWFDaU8wcUU0ZFgwZ0dj?oc=5",
+      "isNew": false
+    },
+    {
+      "id": "35150f02b6bf",
+      "title": "Kevin Warsh faces rate hike pressure at first FOMC meeting",
+      "source": "qz.com",
+      "date": "2026-06-15T11:55:54Z",
+      "topic": "Rates & Macro",
+      "summary": "",
+      "link": "https://news.google.com/rss/articles/CBMigwFBVV95cUxPRFprLUVobTN4emtDZ1pwQ05NUjB2R0tfcHpXUXpBNFNVQVZBcWpnLW9ySGtURDZuTC1MSDBpa0dlaVZDa2V5bU9ySzN0NmxjeDRJY1lZUkhEZHRFSUVCM2s2aUdpc1QtdC1fN1RRZkM4dnhMUWk1RHkxeXJaYndyVGFDOA?oc=5",
+      "isNew": false
+    },
+    {
+      "id": "0fc654617718",
+      "title": "10-year Treasury yield slides as Iran deal drives rethink on Fed interest rate hikes",
+      "source": "CNBC",
+      "date": "2026-06-15T09:25:55Z",
+      "topic": "Rates & Macro",
+      "summary": "",
+      "link": "https://news.google.com/rss/articles/CBMimAFBVV95cUxPRG9oQVRDYjVZbTFuZERZUjFJSjZyWER6ZTB0bXFGaWhGM1BMSENPY0ZqQ29kSEhqOExHQ0toekFGcE9fd0prUVRFdHlWTzVOX1RMNVdXVDc0OTRqRWtSTGpFRFJ0OV9QS3JyME0zSmdJUDJ2S0VhcEZYUGhqVE9BeXdUNTZ6cU5sNWxZOHRYTS01a1o2WEF5btIBngFBVV95cUxOQS1BejRFaVlpMml3aFNMb0FTbGdCQkVLZFVJd3VvbHJQVGxvQ1ZCeFkxWnBXcm1GcGx4OTEtaE1pTzBDZ0U1bzRfZjF0NjdETV9RXzJ5aXBwNE8xajE0dTNmbUs4YmhZQUdFWDlsM2VtNWZDLUd6R2FSeDRjRWUyVFVJa3MxVHBWTmNqTFhrbVZPMzEteUdkY2t0NGUyUQ?oc=5",
       "isNew": false
     }
   ]
