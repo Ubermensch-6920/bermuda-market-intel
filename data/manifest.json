@@ -9,8 +9,9 @@
     "cds": "ok",
     "sofr": "ok",
     "bma_rates": "ok",
-    "commodities": "ok"
+    "commodities": "ok",
+    "inflation": "ok"
   },
-  "run": "2026-06-24T09:54:46.221794Z",
-  "_fetched": "2026-06-24T09:54:53.224066Z"
+  "run": "2026-06-24T14:10:12.156468Z",
+  "_fetched": "2026-06-24T14:10:20.529648Z"
 }

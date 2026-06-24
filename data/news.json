@@ -1,5 +1,5 @@
 {
-  "updated": "2026-06-24T09:55:21Z",
+  "updated": "2026-06-24T14:10:48Z",
   "topics": [
     "Insurance AM",
     "Private Credit",
@@ -55,6 +55,16 @@
       "topic": "Private Credit",
       "summary": "",
       "link": "https://news.google.com/rss/articles/CBMilwFBVV95cUxQOGZZb1hxVGRLTGg1RGZqc2RRMEd2QVJ5OG9yQklWS29fa1lDTER4WUdyV2pxVEg3dEVmVl9KbUw2UTQ4Rm9IZ2l2RTM4TElmQ09KRXBJNFZzcmRZV1pxejB5Qmp3ZHl2dU8yb1BYSFNQWUN0STVpVU5ZWjZtb01qbHdDZG5pcTRQNVQzN1BWc2x1V0dLOGhJ?oc=5",
+      "isNew": false
+    },
+    {
+      "id": "06ea4beb9640",
+      "title": "Will New US Fed Chair Kevin Warsh Raise Interest Rates This Year?",
+      "source": "Morningstar",
+      "date": "2026-06-22T08:56:06Z",
+      "topic": "Rates & Macro",
+      "summary": "",
+      "link": "https://news.google.com/rss/articles/CBMirgFBVV95cUxOS1FNbzVqYmVtRGlCTGxnUHQ5b0ZXUUdIU0g3NUlDMWdFalYtbzlVSHBsaGpUTThkTWlQOVlUNnJQRm5qQVRPeUV2elhOS2pFQTRkeDNZbFN4TEo3SHVWdjRyYVMyc2NVSkRoMmlnaW14Tm85VHZOa181RjUxWjB4anZCYUI0RnpJYUZleFdESFZETW9SODJ2cFNNNUU1RWNGVFU3R1JUUzgyMXp0Wmc?oc=5",
       "isNew": false
     },
     {
@@ -248,6 +258,16 @@
       "isNew": false
     },
     {
+      "id": "e28816b0071b",
+      "title": "Australia central bank warns rate hikes might not be over after holding fire",
+      "source": "Reuters",
+      "date": "2026-06-16T07:00:00Z",
+      "topic": "Rates & Macro",
+      "summary": "",
+      "link": "https://news.google.com/rss/articles/CBMiuwFBVV95cUxOVXcwZ3F3eVg2ZnM2bVBfcVVlSWhmUzJEbmJmLTh4VU5qamRuVDFOUUJneGF3OG9nMzVPeTFMTFRxaC1YaXNrMTBoYmhUQjZlR3ppR3Q0UnQ1VndIa0NVMEhkM0xfd08zbnpDVkVtWUJ6eDJIVE1FNURoZjczem5Tblc4bTlEaV9NTmZOUlhiQjB4SU1INDlFVnNkd1lJOTlIMmVkZU0xN19LNFIyTlpLNVl0TV9nZTFyUXpr?oc=5",
+      "isNew": false
+    },
+    {
       "id": "d21b44f0e667",
       "title": "How Fixed-Income Investing Is Evolving for European Insurers",
       "source": "AllianceBernstein",
@@ -285,26 +305,6 @@
       "topic": "Insurance AM",
       "summary": "",
       "link": "https://news.google.com/rss/articles/CBMiowFBVV95cUxPb2l1NmRkNWtVQUh3dEFEbEkwT1pOSzllcndBbWVBQXd3NkptY21uRG8zYng0dzBtNEdoVkxyZF9BSGRPYkVwaDZ1b3BxZGpxeUxSZjNZaEo3R0FodjY3MXhuZ1N2OE9JaHRidTctUG52eElHcXZYTEFVWHNpMU0tUUlhUXlibHR5emxETnYxTFZUa2psQWFDaU8wcUU0ZFgwZ0dj?oc=5",
-      "isNew": false
-    },
-    {
-      "id": "35150f02b6bf",
-      "title": "Kevin Warsh faces rate hike pressure at first FOMC meeting",
-      "source": "qz.com",
-      "date": "2026-06-15T11:55:54Z",
-      "topic": "Rates & Macro",
-      "summary": "",
-      "link": "https://news.google.com/rss/articles/CBMigwFBVV95cUxPRFprLUVobTN4emtDZ1pwQ05NUjB2R0tfcHpXUXpBNFNVQVZBcWpnLW9ySGtURDZuTC1MSDBpa0dlaVZDa2V5bU9ySzN0NmxjeDRJY1lZUkhEZHRFSUVCM2s2aUdpc1QtdC1fN1RRZkM4dnhMUWk1RHkxeXJaYndyVGFDOA?oc=5",
-      "isNew": false
-    },
-    {
-      "id": "0fc654617718",
-      "title": "10-year Treasury yield slides as Iran deal drives rethink on Fed interest rate hikes",
-      "source": "CNBC",
-      "date": "2026-06-15T09:25:55Z",
-      "topic": "Rates & Macro",
-      "summary": "",
-      "link": "https://news.google.com/rss/articles/CBMimAFBVV95cUxPRG9oQVRDYjVZbTFuZERZUjFJSjZyWER6ZTB0bXFGaWhGM1BMSENPY0ZqQ29kSEhqOExHQ0toekFGcE9fd0prUVRFdHlWTzVOX1RMNVdXVDc0OTRqRWtSTGpFRFJ0OV9QS3JyME0zSmdJUDJ2S0VhcEZYUGhqVE9BeXdUNTZ6cU5sNWxZOHRYTS01a1o2WEF5btIBngFBVV95cUxOQS1BejRFaVlpMml3aFNMb0FTbGdCQkVLZFVJd3VvbHJQVGxvQ1ZCeFkxWnBXcm1GcGx4OTEtaE1pTzBDZ0U1bzRfZjF0NjdETV9RXzJ5aXBwNE8xajE0dTNmbUs4YmhZQUdFWDlsM2VtNWZDLUd6R2FSeDRjRWUyVFVJa3MxVHBWTmNqTFhrbVZPMzEteUdkY2t0NGUyUQ?oc=5",
       "isNew": false
     }
   ]

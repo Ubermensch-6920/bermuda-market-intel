@@ -1,5 +1,5 @@
 {
-  "updated": "2026-06-24T09:55:21Z",
+  "updated": "2026-06-24T14:10:48Z",
   "naic": [
     {
       "id": "108cd074c4e9",
@@ -19,6 +19,16 @@
       "summary": "",
       "source": "InsuranceNewsNet",
       "link": "https://news.google.com/rss/articles/CBMioAFBVV95cUxNbmlUandUMTdtaVhyVHFkc0xiS2ZlOVJjV0VGS0RyVUlHRUFoQmp2MEJJMW9vc3hydzhZRnhDdlV4VktqZjAxOW9BX0tZb2ZvNjNaVUFqMUctQjBHNWJPT2VaRm9BS2FwTC1KNXpRQ3F5MEg3OE56WFByWnlYLTM1aDhvODZjNEFkQk41TlVveXFFN0g2NTFPdkZsWlNEUVJp?oc=5",
+      "isNew": true
+    },
+    {
+      "id": "d7862c1a9ef0",
+      "title": "US insurance regulator probes carrier data centre exposure",
+      "date": "2026-06-12",
+      "cat": "General",
+      "summary": "",
+      "source": "Intelligent Insurer",
+      "link": "https://news.google.com/rss/articles/CBMimAFBVV95cUxQbWdfWTdEWURjcGYyaE1aZGNlekxJRHNQQ1FseDByU3FEYUh5MDZVbFhHaXlmMENaMmJfRThjbGtmWXl4UzNSX0ZWTzBfNTN4cEJwMldaTEl0ZDdjZkZKNzZGT1VCLTk3cUNQSjVjVUlnaG9sWmhkUmpGUzJaZ2ZsMFVsN2JaXzNEU1FrcFRZcE1qX2RKdS1BZw?oc=5",
       "isNew": true
     },
     {
@@ -239,16 +249,6 @@
       "summary": "",
       "source": "Mayer Brown",
       "link": "https://news.google.com/rss/articles/CBMi1wFBVV95cUxPaXlsZUxWSlhrcWdzMzFOUk9sY0JtNWlGM2hhUFVKN1Q4cE1BNEwyeVhILU44bldJRGI0YzBvbGVnc2RTcnJlM0FEYW5QclRCWjB5UXc2QUZ3d05qUXkzYWdXZnZhVHg2ZkVTSFlyd3R5S243NEFQeWdrZlBxb3RBVDV1cnYwVFl5d2VYLVdVelNFd1NWRHFSX2hUQWlQTGpJU1RoS2NzUmtia3NkdGxWRzdWVEh4cmhUanBTTUw2Z1RFeE1VWkw2RFpaVUVYb3lFcUtFWlA4aw?oc=5",
-      "isNew": false
-    },
-    {
-      "id": "91753183eb92",
-      "title": "AI Bias in the Insurance Industry",
-      "date": "2026-05-01",
-      "cat": "Governance",
-      "summary": "",
-      "source": "Reuters",
-      "link": "https://news.google.com/rss/articles/CBMipAFBVV95cUxPT0t5aXZYN0dlRE5mcnYwZ2FQc3VIYzJPcXM2S1NhYWg1aWJ6cklLdTZORThtcTF6MENNaC1xbGQ3aFo4VmxWdDdyNk55SWxXNUlzRmplak84THRtWHJ0ajVOaGhUMEpKREhGalMxd1ROb0duem0wNU84RUU2b05OT0N4eU5uRmxUWElvVjlEMHRudWdyTTRkWlZVSm1mZmJRdlItbg?oc=5",
       "isNew": false
     }
   ],

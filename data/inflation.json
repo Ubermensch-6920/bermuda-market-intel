@@ -1,46 +1,46 @@
 {
-  "updated": "2026-06-24T00:00:00Z",
-  "_note": "Seed values - replaced by live FRED data on next CI run (FRED_API_KEY required)",
+  "updated": "2026-06-24T14:10:12.155994Z",
   "countries": {
     "us": {
       "series": "CPIAUCSL",
       "label": "US CPI-U (SA, BLS)",
-      "yoy": 2.4,
-      "mom": 0.1,
+      "yoy": 4.27,
+      "mom": 1.572,
       "trend": "up",
-      "date": "2026-04-01"
+      "date": "2026-05-01"
     },
     "jp": {
       "series": "JPNCPIALLMINMEI",
       "label": "Japan CPI all items (OECD/FRED)",
-      "yoy": 3.6,
-      "mom": 0.2,
-      "trend": "up",
-      "date": "2026-04-01"
+      "yoy": null,
+      "mom": null,
+      "trend": null,
+      "date": null
     },
     "uk": {
       "series": "GBRCPIALLMINMEI",
       "label": "UK CPI all items (OECD/FRED)",
-      "yoy": 3.5,
-      "mom": 0.1,
-      "trend": "up",
-      "date": "2026-04-01"
+      "yoy": null,
+      "mom": null,
+      "trend": null,
+      "date": null
     },
     "eur": {
       "series": "CP0000EZ19M086NEST",
       "label": "Euro area HICP all items (ECB/FRED)",
-      "yoy": 2.2,
-      "mom": -0.1,
-      "trend": "down",
-      "date": "2026-04-01"
+      "yoy": 3.14,
+      "mom": 0.08,
+      "trend": "up",
+      "date": "2026-05-01"
     },
     "in": {
       "series": "INDCPIALLMINMEI",
       "label": "India CPI all items (OECD/FRED)",
-      "yoy": 4.6,
-      "mom": 0.1,
-      "trend": "up",
-      "date": "2026-03-01"
+      "yoy": null,
+      "mom": null,
+      "trend": null,
+      "date": null
     }
-  }
+  },
+  "_fetched": "2026-06-24T14:10:12.155999Z"
 }
