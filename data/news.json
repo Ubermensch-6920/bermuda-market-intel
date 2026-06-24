@@ -1,5 +1,5 @@
 {
-  "updated": "2026-06-24T20:12:59Z",
+  "updated": "2026-06-24T22:44:25Z",
   "topics": [
     "Insurance AM",
     "Private Credit",
@@ -152,9 +152,19 @@
       "title": "What Federal Reserve monetary policy means for investors",
       "source": "U.S. Bank",
       "date": "2026-06-18T07:00:00Z",
-      "topic": "Insurance AM",
+      "topic": "Rates & Macro",
       "summary": "",
       "link": "https://news.google.com/rss/articles/CBMiswFBVV95cUxOa2V2OFo4WjFPclRZRGtjZXJvb3dsaDVUM3FjRnVCTkxfX184eHRyQjJ2NFlDc09TUlZrUDZGUzQzTjgyV1drNG9PSnc2Y0RELWZ5LVktLTlFcGFFa2s0Qm04RzRoYjNRSE9aSGw3aDljNFEyUEZJS1RNa203WlBLdmxxS2lWNmNXT0pRZGdDcGdqdEZ1YmMxN2lhci1RdVRMTEJtWE5wM3RJSFhGMXJjMjdqZw?oc=5",
+      "isNew": false
+    },
+    {
+      "id": "cee0e11fa20f",
+      "title": "Interest rates and monetary policy: Economic indicators",
+      "source": "The House of Commons Library",
+      "date": "2026-06-18T07:00:00Z",
+      "topic": "Rates & Macro",
+      "summary": "",
+      "link": "https://news.google.com/rss/articles/CBMickFVX3lxTE92Wm8yQUtBUUMySFA5VHVva05qYlNhMkNTTHY5RThzOVE0VUdsZnRJOUFtYlcyODk3Y0RBWERCV2pSWXlST0xWWUpRX3B4V3JDX3k3am8wenJLcVdzTDh4MDhfM3VpUnllTW5QU19Nc3dCQQ?oc=5",
       "isNew": false
     },
     {
@@ -238,6 +248,16 @@
       "isNew": false
     },
     {
+      "id": "d232d26d2934",
+      "title": "Fed holds rates steady as new Chair Kevin Warsh commits to price stability",
+      "source": "U.S. Bank",
+      "date": "2026-06-17T07:00:00Z",
+      "topic": "Rates & Macro",
+      "summary": "",
+      "link": "https://news.google.com/rss/articles/CBMipAFBVV95cUxNRHE2X3NqMTh3SDJDcXAyMlBMcE96b2xIc3BBSTJvNXA1WFZuSHlpanRkMnlJdjNYZUdONHVqT3g5VXZONm02UGRzTjVLSU11bldvdHktMjVOVHBrdnYya3RCS0c1TFp1Zl9lX1dDQUhaTTVMM2wzeFlvNGFYNktiVEl2dk50aWhUU3diQUFYaVh1OXpQRnZPdDN5LTdycndSRDVOdw?oc=5",
+      "isNew": false
+    },
+    {
       "id": "d512b0d6df1f",
       "title": "AI boom creates hidden portfolio risk as insurers face concentration across sectors",
       "source": "Pensions & Investments",
@@ -285,26 +305,6 @@
       "topic": "Rates & Macro",
       "summary": "",
       "link": "https://news.google.com/rss/articles/CBMipwFBVV95cUxNWTZSRzNQUjZQczNSRWVXN1NYaU1ZZFNRdnlMRndxdmQtak5NN0t4bEJ3LTFLTzlUTkU5aklabTBlTGpGRkhNV2d1SFhvZ1Z4R2pJYXo5XzRobnJ2Smt0MEtWRzRwNWhKTllGVGpZVmk5Sk1wSzBWVFNWSW1GODFnaDk5cVZncWF5QkxVTTVUR2tpTHZaM0R4QmFlTjktUzYtb00yUGdmcw?oc=5",
-      "isNew": false
-    },
-    {
-      "id": "9ef0367a12b1",
-      "title": "Bank of Japan raises rates to 31-year high, flags more to come",
-      "source": "Reuters",
-      "date": "2026-06-15T21:09:08Z",
-      "topic": "Rates & Macro",
-      "summary": "",
-      "link": "https://news.google.com/rss/articles/CBMitwFBVV95cUxPY3g0RV9ZYVZhWG1HQzEyLVU3MU1PQnduNndhaERJN0dTcWVrYUs3YXFEQ1k4NXFsdllBdDJZOHRGSEt4cy1tV3JnZGJfSVVCdFFxNFppZ2YxN3kxZ2VEa2JpU3phbTFDVllJRVEtNnM2VEFHNTZST2dLeTQxY1N1ODJqMlRZZVlfdUcySllSVU5JREJZSWp1RUdiTko3TnYtUktwdzZhMWNrM0ZHbU0tcXByYU1YZVk?oc=5",
-      "isNew": false
-    },
-    {
-      "id": "07ad094713fd",
-      "title": "Stone Point raises $610.5m in first close of new Insurance Solutions Fund",
-      "source": "Artemis.bm",
-      "date": "2026-06-15T07:00:00Z",
-      "topic": "Insurance AM",
-      "summary": "",
-      "link": "https://news.google.com/rss/articles/CBMiowFBVV95cUxPb2l1NmRkNWtVQUh3dEFEbEkwT1pOSzllcndBbWVBQXd3NkptY21uRG8zYng0dzBtNEdoVkxyZF9BSGRPYkVwaDZ1b3BxZGpxeUxSZjNZaEo3R0FodjY3MXhuZ1N2OE9JaHRidTctUG52eElHcXZYTEFVWHNpMU0tUUlhUXlibHR5emxETnYxTFZUa2psQWFDaU8wcUU0ZFgwZ0dj?oc=5",
       "isNew": false
     }
   ]
