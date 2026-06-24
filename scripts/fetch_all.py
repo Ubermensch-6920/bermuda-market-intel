@@ -2508,6 +2508,53 @@ def fetch_commodities():
     log.info("  COMMODITIES OK")
 
 # ── RUN ──
+def fetch_inflation():
+    """Fetch CPI data for the 5 sovereign markets and write data/inflation.json.
+
+    Uses the existing fred_fetch() helper (official API if keyed, fredgraph.csv
+    otherwise). All five series are monthly; we compute YoY and MoM from the
+    last 15 observations so we always have at least 13 data points for the
+    YoY calculation.
+    """
+    log.info("INFLATION: fetching CPI series")
+    series_map = {
+        "us":  ("CPIAUCSL",           "US CPI-U (SA, BLS)"),
+        "jp":  ("JPNCPIALLMINMEI",    "Japan CPI all items (OECD/FRED)"),
+        "uk":  ("GBRCPIALLMINMEI",    "UK CPI all items (OECD/FRED)"),
+        "eur": ("CP0000EZ19M086NEST", "Euro area HICP all items (ECB/FRED)"),
+        "in":  ("INDCPIALLMINMEI",    "India CPI all items (OECD/FRED)"),
+    }
+    # Fetch 15+ months so we always have obs[0] and obs[12] for YoY.
+    from datetime import date, timedelta
+    start = (date.today() - timedelta(days=480)).isoformat()
+    series_ids = [v[0] for v in series_map.values()]
+    raw = fred_fetch(series_ids, start=start)
+
+    countries = {}
+    for key, (sid, label) in series_map.items():
+        obs = raw.get(sid, [])  # newest-first list of {date, value}
+        entry = {"series": sid, "label": label, "yoy": None, "mom": None,
+                 "trend": None, "date": None}
+        if len(obs) >= 13:
+            entry["date"] = obs[0]["date"]
+            yoy = round((obs[0]["value"] / obs[12]["value"] - 1) * 100, 2)
+            entry["yoy"] = yoy
+            if len(obs) >= 2:
+                mom = round(obs[0]["value"] - obs[1]["value"], 4)
+                entry["mom"] = mom
+                entry["trend"] = "up" if mom > 0 else ("down" if mom < 0 else "flat")
+            log.info(f"  {key.upper()} ({sid}): YoY={entry['yoy']}%, date={entry['date']}")
+        else:
+            log.warning(f"  {key.upper()} ({sid}): only {len(obs)} obs, skipping YoY")
+        countries[key] = entry
+
+    write("inflation.json", {
+        "updated": datetime.utcnow().isoformat() + "Z",
+        "countries": countries,
+    })
+    log.info(f"  inflation.json written ({len([c for c in countries.values() if c['yoy'] is not None])}/5 with YoY)")
+
+
 def main():
     log.info("=" * 50)
     results = {}
@@ -2522,6 +2569,7 @@ def main():
         ("sofr", fetch_sofr),
         ("bma_rates", fetch_bma_rates),
         ("commodities", fetch_commodities),
+        ("inflation", fetch_inflation),
     ]:
         try:
             fn()
