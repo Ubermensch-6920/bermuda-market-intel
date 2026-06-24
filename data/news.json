@@ -1,5 +1,5 @@
 {
-  "updated": "2026-06-24T04:40:31Z",
+  "updated": "2026-06-24T09:55:21Z",
   "topics": [
     "Insurance AM",
     "Private Credit",
@@ -7,6 +7,16 @@
     "Structured Credit"
   ],
   "items": [
+    {
+      "id": "fbe06f62e966",
+      "title": "Exclusive | Life Insurers Aren\u2019t Just Investors in Private Credit. They\u2019re Major Lenders, Too.",
+      "source": "WSJ",
+      "date": "2026-06-24T09:30:00Z",
+      "topic": "Private Credit",
+      "summary": "",
+      "link": "https://news.google.com/rss/articles/CBMiwgFBVV95cUxOQWNFaHIwa1pRV051V1VaNkVISWloR1pqZ2t6OU1wcVU3NVlkRFhnNDRMTWtfZnljR2pfUWpNQ0hodlVQUnJ1VnFRekF1NXhFSS1VVmFBeUxmaU4tcGZGejFMZkJlcTFRSzVjWTJIU2xkRnR1RlJ5MXp3WTZFTURod19aRjZLbERRZXlCMk94WkYwRE1wVXFDSDBHNWdTLTdvRzJfMUtGNVFiX3czSWo0QTZITmFrckdkOVZ2R3dxWGZrUQ?oc=5",
+      "isNew": false
+    },
     {
       "id": "8ab12cce20d2",
       "title": "Central Bank Bond Purchases and the Price of Safety",
@@ -238,16 +248,6 @@
       "isNew": false
     },
     {
-      "id": "e28816b0071b",
-      "title": "Australia central bank warns rate hikes might not be over after holding fire",
-      "source": "Reuters",
-      "date": "2026-06-16T05:51:21Z",
-      "topic": "Rates & Macro",
-      "summary": "",
-      "link": "https://news.google.com/rss/articles/CBMiuwFBVV95cUxOVXcwZ3F3eVg2ZnM2bVBfcVVlSWhmUzJEbmJmLTh4VU5qamRuVDFOUUJneGF3OG9nMzVPeTFMTFRxaC1YaXNrMTBoYmhUQjZlR3ppR3Q0UnQ1VndIa0NVMEhkM0xfd08zbnpDVkVtWUJ6eDJIVE1FNURoZjczem5Tblc4bTlEaV9NTmZOUlhiQjB4SU1INDlFVnNkd1lJOTlIMmVkZU0xN19LNFIyTlpLNVl0TV9nZTFyUXpr?oc=5",
-      "isNew": false
-    },
-    {
       "id": "d21b44f0e667",
       "title": "How Fixed-Income Investing Is Evolving for European Insurers",
       "source": "AllianceBernstein",
@@ -278,6 +278,16 @@
       "isNew": false
     },
     {
+      "id": "07ad094713fd",
+      "title": "Stone Point raises $610.5m in first close of new Insurance Solutions Fund",
+      "source": "Artemis.bm",
+      "date": "2026-06-15T13:05:00Z",
+      "topic": "Insurance AM",
+      "summary": "",
+      "link": "https://news.google.com/rss/articles/CBMiowFBVV95cUxPb2l1NmRkNWtVQUh3dEFEbEkwT1pOSzllcndBbWVBQXd3NkptY21uRG8zYng0dzBtNEdoVkxyZF9BSGRPYkVwaDZ1b3BxZGpxeUxSZjNZaEo3R0FodjY3MXhuZ1N2OE9JaHRidTctUG52eElHcXZYTEFVWHNpMU0tUUlhUXlibHR5emxETnYxTFZUa2psQWFDaU8wcUU0ZFgwZ0dj?oc=5",
+      "isNew": false
+    },
+    {
       "id": "35150f02b6bf",
       "title": "Kevin Warsh faces rate hike pressure at first FOMC meeting",
       "source": "qz.com",
@@ -295,16 +305,6 @@
       "topic": "Rates & Macro",
       "summary": "",
       "link": "https://news.google.com/rss/articles/CBMimAFBVV95cUxPRG9oQVRDYjVZbTFuZERZUjFJSjZyWER6ZTB0bXFGaWhGM1BMSENPY0ZqQ29kSEhqOExHQ0toekFGcE9fd0prUVRFdHlWTzVOX1RMNVdXVDc0OTRqRWtSTGpFRFJ0OV9QS3JyME0zSmdJUDJ2S0VhcEZYUGhqVE9BeXdUNTZ6cU5sNWxZOHRYTS01a1o2WEF5btIBngFBVV95cUxOQS1BejRFaVlpMml3aFNMb0FTbGdCQkVLZFVJd3VvbHJQVGxvQ1ZCeFkxWnBXcm1GcGx4OTEtaE1pTzBDZ0U1bzRfZjF0NjdETV9RXzJ5aXBwNE8xajE0dTNmbUs4YmhZQUdFWDlsM2VtNWZDLUd6R2FSeDRjRWUyVFVJa3MxVHBWTmNqTFhrbVZPMzEteUdkY2t0NGUyUQ?oc=5",
-      "isNew": false
-    },
-    {
-      "id": "a56915d54b5c",
-      "title": "Bank of Japan hikes rates to 1%, highest since 1995, as yen and inflation worries take hold",
-      "source": "CNBC",
-      "date": "2026-06-15T07:00:00Z",
-      "topic": "Rates & Macro",
-      "summary": "",
-      "link": "https://news.google.com/rss/articles/CBMieEFVX3lxTFB5OV9Yc0JEMlltWk1jR3lDeDlaWm92TnZSNTI3a2xJWndXVjJNc19YaEw2cTd3cW1SSDBzZTNyd0M3c2ZyRlJCN1p1Y2hYemNwLURmMl9Rd2RZMTBZYl9jS0hOdnQ2T1pQYWRpaUx2R05ncFBwS2t1U9IBfkFVX3lxTE80T1hGSE1Rcll5dlZNVUFhYWRaWDU5V1Iwcm1xX0MyZXpKWGZKZFN6WlJIVk5DY1ZzdTNRZW82MlZCY2k3bXdKZnp3U1dlQTAwRk9hdnBVRWdxcmZFVTZBRDZrMDJ4dzFlaUNkLWprQklTeEJ6ZnFkV2k0aFRWUQ?oc=5",
       "isNew": false
     }
   ]
