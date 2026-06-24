@@ -188,7 +188,7 @@ const WamComparisonSection = ({ data, loading: ld, error }) => {
 const STANDARD_TENORS = ["1Y", "2Y", "3Y", "5Y", "7Y", "10Y", "15Y", "20Y", "30Y"];
 const DERIVED_LABELS = { prior_day: "Prior day", prior_1m: "1M", prior_3m: "3M", year_ago: "1Y ago" };
 
-const SovSection = ({ data, title, accentColor, loading: ld, error, wamData }) => {
+const SovSection = ({ data, title, accentColor, loading: ld, error, wamData, inflationData }) => {
   if (ld) return <div style={{ background: "#0d0f14", border: "1px solid #1e2028", borderRadius: 10, padding: 40, textAlign: "center", color: "#94a3b8" }}><Loader size={24} style={{ animation: "spin 1s linear infinite", margin: "0 auto 12px", display: "block", color: "#60a5fa" }} />Loading {title}…</div>;
   if (error) return <div style={{ background: "#0d0f14", border: "1px solid #1e2028", borderRadius: 10, padding: 20 }}><h3 style={{ margin: "0 0 8px", fontSize: 16, fontWeight: 700, color: "#f1f5f9" }}>{title}</h3><div style={{ color: "#f87171", fontSize: 13 }}><AlertTriangle size={15} style={{ verticalAlign: "middle", marginRight: 6 }} />{error}</div></div>;
   if (!data) return null;
@@ -255,6 +255,29 @@ const SovSection = ({ data, title, accentColor, loading: ld, error, wamData }) =
           {wamData.note && <span style={{ color: "#64748b" }}> · {wamData.note}</span>}
         </div>
       )}
+      {inflationData?.yoy != null && (() => {
+        const inf = inflationData.yoy;
+        const infColor = inf > 4 ? "#f87171" : inf > 2 ? "#fbbf24" : "#34d399";
+        const trendIcon = inflationData.trend === "up" ? "▲" : inflationData.trend === "down" ? "▼" : "—";
+        const real10y = yByT["10Y"] != null ? (yByT["10Y"] - inf).toFixed(2) : null;
+        const realColor = real10y != null ? (parseFloat(real10y) < 0 ? "#f87171" : "#34d399") : "#94a3b8";
+        return (
+          <div style={{ display: "flex", gap: 16, flexWrap: "wrap", marginTop: 6, alignItems: "baseline" }}>
+            <div style={{ fontSize: 11 }}>
+              <span style={{ color: "#64748b" }}>Inflation (YoY, CPI)&nbsp;</span>
+              <strong style={{ color: infColor, fontSize: 13 }}>{inf.toFixed(2)}%</strong>
+              <span style={{ color: "#475569", marginLeft: 4 }}>{trendIcon} MoM</span>
+              {inflationData.date && <span style={{ color: "#475569" }}> · {inflationData.date.slice(0, 7)}</span>}
+            </div>
+            {real10y != null && (
+              <div style={{ fontSize: 11 }}>
+                <span style={{ color: "#64748b" }}>Real 10Y (approx)&nbsp;</span>
+                <strong style={{ color: realColor, fontSize: 13 }}>{parseFloat(real10y) > 0 ? "+" : ""}{real10y}%</strong>
+              </div>
+            )}
+          </div>
+        );
+      })()}
     </div>
 
     {/* Chart — uses STANDARD_TENORS for a consistent x-axis across all rate views */}
@@ -1352,7 +1375,7 @@ const PAGES = [
   { id: "news", label: "News", icon: Newspaper }, { id: "bma", label: "Regulatory", icon: Shield },
   { id: "structures", label: "RI Structures", icon: Layers },
 ];
-const FILES = { ust: "ust.json", jgb: "jgb.json", gilt: "gilt.json", eiopa: "eur.json", india: "india.json", credit: "credit.json", cds: "cds.json", sofr: "sofr.json", bma_rates: "bma_rates.json", commodities: "commodities.json", debt_maturity: "debt_maturity.json", news: "news.json", regulatory: "regulatory.json" };
+const FILES = { ust: "ust.json", jgb: "jgb.json", gilt: "gilt.json", eiopa: "eur.json", india: "india.json", credit: "credit.json", cds: "cds.json", sofr: "sofr.json", bma_rates: "bma_rates.json", commodities: "commodities.json", debt_maturity: "debt_maturity.json", news: "news.json", regulatory: "regulatory.json", inflation: "inflation.json" };
 
 // ── Source health (data/source_health.json written by the pipeline) ──
 const HEALTH_COLORS = { active: "#4ade80", fallback: "#fbbf24", stagnant: "#f87171" };
@@ -1440,11 +1463,11 @@ export default function App() {
 
   const renderPage = () => {
     switch (page) {
-      case "ust": return <SovSection data={data.ust} title="US Treasury Par Yield Curve" accentColor="#3b82f6" loading={ls.ust} error={errs.ust} wamData={data.debt_maturity?.countries?.usa} />;
-      case "jgb": return <SovSection data={data.jgb} title="Japan Government Bond Yields" accentColor="#ef4444" loading={ls.jgb} error={errs.jgb} wamData={data.debt_maturity?.countries?.japan} />;
-      case "gilt": return <SovSection data={data.gilt} title="UK Gilt Nominal Par Yields" accentColor="#22c55e" loading={ls.gilt} error={errs.gilt} wamData={data.debt_maturity?.countries?.uk} />;
-      case "eiopa": return <SovSection data={data.eiopa} title="EUR Govt Yield Curve (EIOPA proxy)" accentColor="#f59e0b" loading={ls.eiopa} error={errs.eiopa} wamData={data.debt_maturity?.countries?.eur} />;
-      case "india": return <SovSection data={data.india} title="India Government Bond Yields" accentColor="#ec4899" loading={ls.india} error={errs.india} wamData={data.debt_maturity?.countries?.india} />;
+      case "ust": return <SovSection data={data.ust} title="US Treasury Par Yield Curve" accentColor="#3b82f6" loading={ls.ust} error={errs.ust} wamData={data.debt_maturity?.countries?.usa} inflationData={data.inflation?.countries?.us} />;
+      case "jgb": return <SovSection data={data.jgb} title="Japan Government Bond Yields" accentColor="#ef4444" loading={ls.jgb} error={errs.jgb} wamData={data.debt_maturity?.countries?.japan} inflationData={data.inflation?.countries?.jp} />;
+      case "gilt": return <SovSection data={data.gilt} title="UK Gilt Nominal Par Yields" accentColor="#22c55e" loading={ls.gilt} error={errs.gilt} wamData={data.debt_maturity?.countries?.uk} inflationData={data.inflation?.countries?.uk} />;
+      case "eiopa": return <SovSection data={data.eiopa} title="EUR Govt Yield Curve (EIOPA proxy)" accentColor="#f59e0b" loading={ls.eiopa} error={errs.eiopa} wamData={data.debt_maturity?.countries?.eur} inflationData={data.inflation?.countries?.eur} />;
+      case "india": return <SovSection data={data.india} title="India Government Bond Yields" accentColor="#ec4899" loading={ls.india} error={errs.india} wamData={data.debt_maturity?.countries?.india} inflationData={data.inflation?.countries?.in} />;
       case "bma_rates": return <BmaRatesSection data={data.bma_rates} loading={ls.bma_rates} error={errs.bma_rates} />;
       case "commodities": return <CommoditiesSection data={data.commodities} loading={ls.commodities} error={errs.commodities} />;
       case "sofr": return <SofrSection data={data.sofr} loading={ls.sofr} error={errs.sofr} />;
@@ -1554,7 +1577,7 @@ export default function App() {
       <div style={{ flex: 1, overflow: "auto", padding: 20 }}>{renderPage()}</div>
       <div style={{ height: 28, padding: "0 22px", borderTop: "1px solid #1a1d23", background: "#0a0c12", display: "flex", alignItems: "center", justifyContent: "space-between", fontSize: 11, color: "#475569", flexShrink: 0 }}>
         <div style={{ display: "flex", gap: 16 }}>{ust10y != null && <span>UST 10Y: {fmtY(ust10y)}</span>}{jgb10y != null && <span>JGB 10Y: {fmtY(jgb10y)}</span>}{gilt10y != null && <span>Gilt 10Y: {fmtY(gilt10y)}</span>}{india10y != null && <span>India 10Y: {fmtY(india10y)}</span>}{sofrRate != null && <span>SOFR: {sofrRate.toFixed(2)}%</span>}{igS != null && <span>IG: {igS}bp</span>}{hyS != null && <span>HY: {hyS}bp</span>}{data.cds?.sovereign?.us_5y?.spread != null && <span>US CDS: {data.cds.sovereign.us_5y.spread}bp</span>}{data.commodities?.usdinr?.spot != null && <span>USD/INR: {data.commodities.usdinr.spot.toFixed(4)}</span>}</div>
-        <span>{PLATFORM_NAME} • {TOOL_NAME} • v12</span>
+        <span>{PLATFORM_NAME} • {TOOL_NAME} • v13</span>
       </div>
     </div>
   </div>);
