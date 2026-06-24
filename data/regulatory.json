@@ -1,5 +1,5 @@
 {
-  "updated": "2026-06-24T17:22:55Z",
+  "updated": "2026-06-24T20:12:59Z",
   "naic": [
     {
       "id": "28861d5852c4",
@@ -39,6 +39,16 @@
       "summary": "",
       "source": "Intelligent Insurer",
       "link": "https://news.google.com/rss/articles/CBMimAFBVV95cUxQbWdfWTdEWURjcGYyaE1aZGNlekxJRHNQQ1FseDByU3FEYUh5MDZVbFhHaXlmMENaMmJfRThjbGtmWXl4UzNSX0ZWTzBfNTN4cEJwMldaTEl0ZDdjZkZKNzZGT1VCLTk3cUNQSjVjVUlnaG9sWmhkUmpGUzJaZ2ZsMFVsN2JaXzNEU1FrcFRZcE1qX2RKdS1BZw?oc=5",
+      "isNew": true
+    },
+    {
+      "id": "efab1c1dc9a5",
+      "title": "US NAIC Spring 2026 National Meeting Highlights: Investment-Related Highlights",
+      "date": "2026-06-12",
+      "cat": "Investment",
+      "summary": "",
+      "source": "Mayer Brown",
+      "link": "https://news.google.com/rss/articles/CBMi4AFBVV95cUxPM091c0NPa2VtelpGdGZHY2ViaFdWSjRXUDJtcUlMaE0wYk5ENDRLVVdNMjZpbWtfUEhHV2s0VmVVV04tOW15SlNlbmRZTy1QdS11TkhKME1GYjJVMjR5X0ZrYnpfcFhRR19wa0tOcEJxaHR1Yi1Vck5jSTFBS0lGb3VjSDNXeFZIcDUtaE5pQVVidG9CMlczVFljTVhNWFZ1ejBFWTM0eE1UaFJtR281ekdwNENteTd1V0VzaC16RE1CTjlPYllhem1iYmV6ZlJzdkZjLVJKVE1FcmlweUNkTQ?oc=5",
       "isNew": true
     },
     {
@@ -239,16 +249,6 @@
       "summary": "",
       "source": "U.S. Department of the Treasury (.gov)",
       "link": "https://news.google.com/rss/articles/CBMiYkFVX3lxTE00Wk1MNFZHekFOeDd5VjVWcUhjSXRZbW1HN3hpeHB4bUZJejVHTVMzWmZ4YlhZbGtoaWxqVHlmS2tqTEUweTdQSkZwWUE1T1c1LVRGU3lxcTZkcDRWMm82akJR?oc=5",
-      "isNew": false
-    },
-    {
-      "id": "9b03e2ea76ec",
-      "title": "Treasury meets with life insurers to discuss private credit",
-      "date": "2026-05-07",
-      "cat": "Investment",
-      "summary": "",
-      "source": "American Banker",
-      "link": "https://news.google.com/rss/articles/CBMimwFBVV95cUxOQ2J0a1B5WXB6Q0ZhMzlETTV6cFFVNWM1Ry0yNFItSHF1U2xTaDFLN0xTek1nV3E3WU1MNm1XTUVJT0tRYmotQ0VuQTNBOWxaVlQ5ZTQ3RER3XzNOYUhXcVRGemw3S1RyMlJvMXl6NkQxVENYZktSZXZMdVlYQWtoWXN0eHNuTGxJMktFSjFxblpBSE1aYlpCYWdCWQ?oc=5",
       "isNew": false
     }
   ],
