@@ -1,5 +1,5 @@
 {
-  "updated": "2026-06-25T04:38:03Z",
+  "updated": "2026-06-25T09:48:37Z",
   "naic": [
     {
       "id": "28861d5852c4",
@@ -89,6 +89,16 @@
       "summary": "",
       "source": "Insurance Business",
       "link": "https://news.google.com/rss/articles/CBMi-wFBVV95cUxPN2s3cXF1STQwc2tfNW9lTHhZaXZzQmJsS0UtZG14N1ZhcnZfWkZlRDF0LV9UNFhXQW1WVkxMQWxYd0ZvTWx1N2JoLTFzNDViTHQyNzN1V1ctSEp5dE9kLVI5TndLUktXNXVGUHRMQ05pZjBMZnBUR29SN3FnTk55TnVVdk9ndzVuaTJBY2drR3ZRNDBYcFl6N09jWF9jR0FRemJ4N205VVVzUTg2MURhb1NBLUFORnRzWWQ4R1dmYS1TdG9IbXdhUVdLUUp3WHBpVjUzUkpBUVFMZHNDOXRlSXBKY3ZxalFTWTFuVFgtLTlxY201V0F3SFdRNA?oc=5",
+      "isNew": true
+    },
+    {
+      "id": "484bbb4f34f1",
+      "title": "AI Governance Expectations on the Rise for Insurers Amid New Regulatory Activity: NYDFS Highlights Frontier Risks, Colorado Redefines its AI Law, and NAIC Prepares Regulators with New Tools",
+      "date": "2026-06-05",
+      "cat": "Governance",
+      "summary": "",
+      "source": "JD Supra",
+      "link": "https://news.google.com/rss/articles/CBMiiAFBVV95cUxQbERvSzg1aGpESjZZYUR5MVhSdVpFYnNLNjVQYzdMUVJMZm5FVHN3RW5OWmhTZm02SG90U18tNUlnLTRiMnlWVXBNRnM5bktiVjJLSTJIUEFYZnp1TEo5THdRd25fcVk1Q2hET0VtOEpQU3ZuU3ljalAtbUQyX0JsbjZGZ2kxZVpE?oc=5",
       "isNew": true
     },
     {
@@ -239,16 +249,6 @@
       "summary": "",
       "source": "Beinsure",
       "link": "https://news.google.com/rss/articles/CBMiiwFBVV95cUxPNTJDbDdOckhRY1dOMVp0ZDhLNWNtUkd4SksyUjY5YjRGNjFFdlFBOTJ6LXhMeGZ1Ry1VdTN3bGt2Q21wNFd3ZXdoNGNVSFNhaC13cUU5N3JVb0tLODhmeWdiWUwtLVVVZUFqb1RaS0tZWngwN01ra1l3cFJHMUJwN3RoWmpmQzJRSGpF?oc=5",
-      "isNew": false
-    },
-    {
-      "id": "6cb6b5152e22",
-      "title": "U.S. Department of the Treasury Hosts Convening with State Insurance Commissioners on Private Credit and the Insurance Sector",
-      "date": "2026-05-07",
-      "cat": "Investment",
-      "summary": "",
-      "source": "U.S. Department of the Treasury (.gov)",
-      "link": "https://news.google.com/rss/articles/CBMiYkFVX3lxTE00Wk1MNFZHekFOeDd5VjVWcUhjSXRZbW1HN3hpeHB4bUZJejVHTVMzWmZ4YlhZbGtoaWxqVHlmS2tqTEUweTdQSkZwWUE1T1c1LVRGU3lxcTZkcDRWMm82akJR?oc=5",
       "isNew": false
     }
   ],
