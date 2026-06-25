@@ -1,5 +1,5 @@
 {
-  "updated": "2026-06-25T17:28:57Z",
+  "updated": "2026-06-25T20:26:11Z",
   "topics": [
     "Insurance AM",
     "Private Credit",
@@ -11,7 +11,7 @@
       "id": "91e6bc1b7bba",
       "title": "Bonds, Precious Metals Markets Converge on Inflation Concerns",
       "source": "CME Group",
-      "date": "2026-06-25T14:37:30Z",
+      "date": "2026-06-25T17:02:04Z",
       "topic": "Rates & Macro",
       "summary": "",
       "link": "https://news.google.com/rss/articles/CBMizgFBVV95cUxPaktwM19fNDcyN1pOc1NTU3dlNXJhcXFETmRFTmRiM25XS1dvTE5rVHVOMVZWYzFiajc4bUVDaFNjVXkyUXFzZXRFNzVqNmFCVUlybkx1aUhmNkh3SG5NMi1udVFKWGxoeS1EQ0lXcWNXd1dvX09RaTBTc25zX1JSU0xsOXZVejhaRTFmTlEyN1lnY0IzRXA2b0toQzY4bU9aSWlIdkVlRWMxMV9NTjlJOS02NVFpaDFIZk9MdG50Z3JkYzF5YUIxckdXZVI3dw?oc=5",
@@ -35,6 +35,16 @@
       "topic": "Private Credit",
       "summary": "",
       "link": "https://news.google.com/rss/articles/CBMiowFBVV95cUxOY2lKb2FCcVUyeGFMWkFWMUc1NVhPLWlpT2R4Q0ttcnVUN3doN05WNFFCZEhmMFpuTEVlS1JielVEakxFaFlrdUFLMmtzemlfRmc0MmNtOEIzUTJZcFNfcEZwcktuQTZueUlZLWxMTHNKdXRfSnRhVmNDZ0xxT29CNDIwV1VMaHRVVEEyYXphX2NlT05WY2EyWEVTZldQblZzMlhr?oc=5",
+      "isNew": false
+    },
+    {
+      "id": "c0cc4f6cb813",
+      "title": "Many Life Insurers Lend to Private-Credit Funds They Invest In, Report Finds -- WSJ",
+      "source": "Moomoo",
+      "date": "2026-06-24T10:16:24Z",
+      "topic": "Private Credit",
+      "summary": "",
+      "link": "https://news.google.com/rss/articles/CBMiowFBVV95cUxPcVlTQVAtRGRtYkxsQkN1MjFiNjlsSTlMZ3hvZnBIdkExQndzZnlOM3B1M1VIRW1jWjQ5UkJRRVI0T3pEdlQ2QXZrUUduZy1oaDNrc2FsSkZ2NUg2ZFF6ZWNlVzZwbG1mMWFGRm9WTjdNdUdLX1J4MWZoazh0VzhBOWxvMkdfazJkS0RaRWpvR2d0XzIwYXlidnlkLS12NHlrbDZj?oc=5",
       "isNew": false
     },
     {
@@ -228,23 +238,13 @@
       "isNew": false
     },
     {
-      "id": "afb08d31dedb",
-      "title": "Federal Reserve officials tilt towards rate rise as Kevin Warsh era begins",
-      "source": "Financial Times",
-      "date": "2026-06-17T21:12:24Z",
+      "id": "dd90e5059121",
+      "title": "Fed holds interest rates steady: Here's what that means for credit cards, savings rates, mortgages and car loans",
+      "source": "CNBC",
+      "date": "2026-06-17T18:00:48Z",
       "topic": "Rates & Macro",
       "summary": "",
-      "link": "https://news.google.com/rss/articles/CBMihAFBVV95cUxPaDBmejBOZG1EUUtGeEsyU2ZWYktLU0NWOFlPRE0zMWFIVDBWNGRtM3JMYkpRNFFSU0RCbmtMSzRMTzBBNF9WVG5JQXBuYXNoUFNiQzcxNzJiOTQ1cGdIQ3N2RnVHQjc1aEFfeEJNT0p5RVhlV1EtX0FWcFNUN3ZtUFJkQ2g?oc=5",
-      "isNew": false
-    },
-    {
-      "id": "b758ac8a7186",
-      "title": "Stocks Retreat After Fed Hints at Higher Rates",
-      "source": "WSJ",
-      "date": "2026-06-17T20:18:00Z",
-      "topic": "Rates & Macro",
-      "summary": "",
-      "link": "https://news.google.com/rss/articles/CBMiqwFBVV95cUxOcURLMmd3M3JGZmNXTFNrN2pXS0pxWlJkOXJjRG9XWmdsalRHUDNHVS0yTkpEaGVScnRHd1QzLXp2Z093VWp0Nk1ZNzZ6bGFHTGZ3dUkwcjdjMDhiclNnQTdnRnQ1VDEyVWNvU0ZCekZ4RGpuRmk5bVNlZnc3T3dlV1RzeDAxdHluenVqNnhhbDdHN1J2R0NmdGhmbzZXbHQ4TXFmWDgxU0JfSVE?oc=5",
+      "link": "https://news.google.com/rss/articles/CBMiekFVX3lxTE16LVNnWnBCazkwbXB6djJNMFgxMC1Ja190Y3V0RXNPSnNKcWw5S0xoNjY1U2l5Snc2ZFM4Snhvc2FNUGtnQ2xNMVMwT2ZWN3o4S0g0TzRSVy1TVURpX3ZUU3NKYmJMQTFQc0lUbGRUZXdTVFYydFV2clR30gF_QVVfeXFMTmthOXhBdS14eUNpaEtHbGZ2TXpRNzFpSEoxMGN1MVg3OV91aUpQc01mQ05iYml1OGJOUmczbldCWllXTExlRWpKTk1BdTg3NU1pcVVJMm9taEpnMC1DaUZzSkVxcmFDMUJkT1pDNXdDWHNoOU5vcGVWaklaTWZKSQ?oc=5",
       "isNew": false
     },
     {
@@ -288,6 +288,16 @@
       "isNew": false
     },
     {
+      "id": "b758ac8a7186",
+      "title": "Stocks Retreat After Fed Hints at Higher Rates",
+      "source": "WSJ",
+      "date": "2026-06-17T07:00:00Z",
+      "topic": "Rates & Macro",
+      "summary": "",
+      "link": "https://news.google.com/rss/articles/CBMiqwFBVV95cUxOcURLMmd3M3JGZmNXTFNrN2pXS0pxWlJkOXJjRG9XWmdsalRHUDNHVS0yTkpEaGVScnRHd1QzLXp2Z093VWp0Nk1ZNzZ6bGFHTGZ3dUkwcjdjMDhiclNnQTdnRnQ1VDEyVWNvU0ZCekZ4RGpuRmk5bVNlZnc3T3dlV1RzeDAxdHluenVqNnhhbDdHN1J2R0NmdGhmbzZXbHQ4TXFmWDgxU0JfSVE?oc=5",
+      "isNew": false
+    },
+    {
       "id": "17cb6b835480",
       "title": "Navigating private markets for insurers",
       "source": "invesco.com",
@@ -295,16 +305,6 @@
       "topic": "Private Credit",
       "summary": "",
       "link": "https://news.google.com/rss/articles/CBMiigFBVV95cUxPUUZuOXRzYV9HTTVKcmtBYXpnQ0Y1RUwta1ZZOTcxZWRFRy1vS2h5a0FTb2IxYzlmcVZKZmowNFo3Y3hSdFB5b0g0bmYxSmRXLWY5S0VScGJySWU0djZDamZqZ3h3NjRJeTJCeWd5SGllZ2ZPM2ZMVlNJR0JUN2pOaDlVNERwcEZ3ckE?oc=5",
-      "isNew": false
-    },
-    {
-      "id": "2eb43cff68af",
-      "title": "Insurance: US Deals 2026 midyear outlook: M&A Trends",
-      "source": "PwC",
-      "date": "2026-06-17T07:00:00Z",
-      "topic": "Insurance AM",
-      "summary": "",
-      "link": "https://news.google.com/rss/articles/CBMilwFBVV95cUxNMXdaQjV6X2FTQkFWRVpaSTJPM3ZIT0VTNHhod2lmTldrcDJhcW5OaXlpX3BieDMtaGgyVkFueGF2bzlQLVBxS0p6RmhNQ1BDdlI3SmxMOV9fb1NhUlVBSUZMQ2lUeTNxbnJHSFNBZUd2dEdWcko1akc3MEhGR0VQdWltaUl2a3NCdEYtTzdFMDVZWExlRDlj?oc=5",
       "isNew": false
     }
   ]
