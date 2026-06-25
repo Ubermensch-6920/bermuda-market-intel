@@ -1,5 +1,5 @@
 {
-  "updated": "2026-06-25T15:18:29Z",
+  "updated": "2026-06-25T17:28:57Z",
   "topics": [
     "Insurance AM",
     "Private Credit",
@@ -7,6 +7,16 @@
     "Structured Credit"
   ],
   "items": [
+    {
+      "id": "91e6bc1b7bba",
+      "title": "Bonds, Precious Metals Markets Converge on Inflation Concerns",
+      "source": "CME Group",
+      "date": "2026-06-25T14:37:30Z",
+      "topic": "Rates & Macro",
+      "summary": "",
+      "link": "https://news.google.com/rss/articles/CBMizgFBVV95cUxPaktwM19fNDcyN1pOc1NTU3dlNXJhcXFETmRFTmRiM25XS1dvTE5rVHVOMVZWYzFiajc4bUVDaFNjVXkyUXFzZXRFNzVqNmFCVUlybkx1aUhmNkh3SG5NMi1udVFKWGxoeS1EQ0lXcWNXd1dvX09RaTBTc25zX1JSU0xsOXZVejhaRTFmTlEyN1lnY0IzRXA2b0toQzY4bU9aSWlIdkVlRWMxMV9NTjlJOS02NVFpaDFIZk9MdG50Z3JkYzF5YUIxckdXZVI3dw?oc=5",
+      "isNew": false
+    },
     {
       "id": "14528be4a47b",
       "title": "Bonds, Precious Metals Markets Converge on Inflation Concerns",
@@ -198,6 +208,16 @@
       "isNew": false
     },
     {
+      "id": "884d27445718",
+      "title": "How do changing interest rates affect the stock market in 2026",
+      "source": "U.S. Bank",
+      "date": "2026-06-18T07:00:00Z",
+      "topic": "Rates & Macro",
+      "summary": "",
+      "link": "https://news.google.com/rss/articles/CBMiwwFBVV95cUxQVVJpa2pCR3B0TmxRZGlpSmRZaFctZ21ybGtrVUVBMFozZ0xiSGFRY0ZZdGNWaV80dnhHUTR2TTVoSnZEU190aGtMamY2MDAxT0hYYzRXcUl5OUEyOGRGYWlBbm54T3ppaEZWRWtyV01EOEJGcVRaM2xROWlCX2FxSFYxX1NXeUQwZmJLS3pqcGhCWjR5RVJrNlhmbUtRcy1EUGJLaFI4UTNkUHg4emNPUE95cTc0bnlDcklaaG5EcWhBeVU?oc=5",
+      "isNew": false
+    },
+    {
       "id": "6c933132064d",
       "title": "Japan Just Raised Interest Rates To A Level Not Seen Since 1995\u2014 And The Yen Carry Trade Is Back",
       "source": "Yahoo Finance",
@@ -285,26 +305,6 @@
       "topic": "Insurance AM",
       "summary": "",
       "link": "https://news.google.com/rss/articles/CBMilwFBVV95cUxNMXdaQjV6X2FTQkFWRVpaSTJPM3ZIT0VTNHhod2lmTldrcDJhcW5OaXlpX3BieDMtaGgyVkFueGF2bzlQLVBxS0p6RmhNQ1BDdlI3SmxMOV9fb1NhUlVBSUZMQ2lUeTNxbnJHSFNBZUd2dEdWcko1akc3MEhGR0VQdWltaUl2a3NCdEYtTzdFMDVZWExlRDlj?oc=5",
-      "isNew": false
-    },
-    {
-      "id": "d232d26d2934",
-      "title": "Fed holds rates steady as new Chair Kevin Warsh commits to price stability",
-      "source": "U.S. Bank",
-      "date": "2026-06-17T07:00:00Z",
-      "topic": "Rates & Macro",
-      "summary": "",
-      "link": "https://news.google.com/rss/articles/CBMipAFBVV95cUxNRHE2X3NqMTh3SDJDcXAyMlBMcE96b2xIc3BBSTJvNXA1WFZuSHlpanRkMnlJdjNYZUdONHVqT3g5VXZONm02UGRzTjVLSU11bldvdHktMjVOVHBrdnYya3RCS0c1TFp1Zl9lX1dDQUhaTTVMM2wzeFlvNGFYNktiVEl2dk50aWhUU3diQUFYaVh1OXpQRnZPdDN5LTdycndSRDVOdw?oc=5",
-      "isNew": false
-    },
-    {
-      "id": "d512b0d6df1f",
-      "title": "AI boom creates hidden portfolio risk as insurers face concentration across sectors",
-      "source": "Pensions & Investments",
-      "date": "2026-06-16T17:50:00Z",
-      "topic": "Insurance AM",
-      "summary": "",
-      "link": "https://news.google.com/rss/articles/CBMitwFBVV95cUxQaUtTZmg5d29IOXFDbC12ZXVXc3ExOHR2VU0tLUxDaUFaRERQbG5IREVfQmE2d3A1N05SV19Fb1BsdTNjb3RDVE1KNE9DYWRHdGhIMkpGU1hOWm02WEFvNmNNajMtbUdFLXBSOFQ1Y2FuZjhxdmozLTJ1ZGRNNTVsa09HNUxRdTdkQWRmdGU1NVNqWmRyYjZtaVBoM25jajBuQmJHSG5xa3NGT1ZBRWtjVUU4NHh5OXc?oc=5",
       "isNew": false
     }
   ]
