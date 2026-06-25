@@ -1,5 +1,5 @@
 {
-  "updated": "2026-06-25T20:26:11Z",
+  "updated": "2026-06-25T22:50:21Z",
   "topics": [
     "Insurance AM",
     "Private Credit",
@@ -228,6 +228,16 @@
       "isNew": false
     },
     {
+      "id": "178212095dbe",
+      "title": "How The Fed's Rate Decisions Move Mortgage Rates",
+      "source": "Bankrate",
+      "date": "2026-06-18T07:00:00Z",
+      "topic": "Rates & Macro",
+      "summary": "",
+      "link": "https://news.google.com/rss/articles/CBMiekFVX3lxTE91SnpCc3JDQ2J1ek5kNlZqSDNyYWczbWY0ZVJoX2hyNFZDcHREbEZwNjM5REVfdzRoa3pYNXJ1cEhFQjN3d19HRVBzQjgydTR6NzA2YU43WGJSdGgtbFZnb3JEUzRSeG9mXzZybmt0QzcxZW9sVHpwZkJR?oc=5",
+      "isNew": false
+    },
+    {
       "id": "6c933132064d",
       "title": "Japan Just Raised Interest Rates To A Level Not Seen Since 1995\u2014 And The Yen Carry Trade Is Back",
       "source": "Yahoo Finance",
@@ -295,16 +305,6 @@
       "topic": "Rates & Macro",
       "summary": "",
       "link": "https://news.google.com/rss/articles/CBMiqwFBVV95cUxOcURLMmd3M3JGZmNXTFNrN2pXS0pxWlJkOXJjRG9XWmdsalRHUDNHVS0yTkpEaGVScnRHd1QzLXp2Z093VWp0Nk1ZNzZ6bGFHTGZ3dUkwcjdjMDhiclNnQTdnRnQ1VDEyVWNvU0ZCekZ4RGpuRmk5bVNlZnc3T3dlV1RzeDAxdHluenVqNnhhbDdHN1J2R0NmdGhmbzZXbHQ4TXFmWDgxU0JfSVE?oc=5",
-      "isNew": false
-    },
-    {
-      "id": "17cb6b835480",
-      "title": "Navigating private markets for insurers",
-      "source": "invesco.com",
-      "date": "2026-06-17T07:00:00Z",
-      "topic": "Private Credit",
-      "summary": "",
-      "link": "https://news.google.com/rss/articles/CBMiigFBVV95cUxPUUZuOXRzYV9HTTVKcmtBYXpnQ0Y1RUwta1ZZOTcxZWRFRy1vS2h5a0FTb2IxYzlmcVZKZmowNFo3Y3hSdFB5b0g0bmYxSmRXLWY5S0VScGJySWU0djZDamZqZ3h3NjRJeTJCeWd5SGllZ2ZPM2ZMVlNJR0JUN2pOaDlVNERwcEZ3ckE?oc=5",
       "isNew": false
     }
   ]

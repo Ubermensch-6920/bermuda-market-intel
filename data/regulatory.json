@@ -1,5 +1,5 @@
 {
-  "updated": "2026-06-25T20:26:11Z",
+  "updated": "2026-06-25T22:50:21Z",
   "naic": [
     {
       "id": "28861d5852c4",
@@ -79,6 +79,16 @@
       "summary": "",
       "source": "Financial Times",
       "link": "https://news.google.com/rss/articles/CBMihAFBVV95cUxQNmNqS1JUTy1ZeWlNSFFoRVY2ZEJ0Z2lLZ2w5dm9Pb2hMazNRdXpuR3NlbFR4bWlwYjVJVHY0bWdhdWNTOU1OLXB5cXQ0dVVjbThMNEdjVG5IcHZKdVZveGp2MXBSTGh5YWNlZXc5ZWRJQjJXekRibGMtZEpWWHZFU3NQSXg?oc=5",
+      "isNew": true
+    },
+    {
+      "id": "3ddf0d1bb02e",
+      "title": "Insurance portfolios and private credit: How rising allocations widen credit quality gaps",
+      "date": "2026-06-09",
+      "cat": "Investment",
+      "summary": "",
+      "source": "Pensions & Investments",
+      "link": "https://news.google.com/rss/articles/CBMipgFBVV95cUxPNFpRWWlzdV91S3BOcWgyZHRmUHFXZk00TW1WWEpOLTNGSkRLaUpmd29HeDJyZVRhbVpuaDhFUElfNm0xVkZ4dzJscUZycU43bEdwd3lxRE9pdzBiSHcyVXkzdGVBZjBNcDJpblkySmp5c3hpUlYzTkx0ZE5fZXh2dUI3X2trdnNBY1JiVGY5Y0lTMGlPLU1zckQ5MTZZSnYtdGRBSkFn?oc=5",
       "isNew": true
     },
     {
@@ -239,16 +249,6 @@
       "summary": "",
       "source": "Beinsure",
       "link": "https://news.google.com/rss/articles/CBMihAFBVV95cUxQYWM1a0JZcUJLNWgyM2d5RXJzbjZZVGE5UldVR1BtOFFKVEYyUWQtMVBDR2t2Ykx6Ul9OUlpQanhCN3JjTVNVTHZKZUdpRWc1NFlpcjhiMG9BbmZLbXhDTktVQnlqTmRxZlpJU3l4SlJPY25tZV9KQkZxRnJUdFlIWVo4TVQ?oc=5",
-      "isNew": false
-    },
-    {
-      "id": "858d0462edd9",
-      "title": "US Treasury meets insurance regulators on private credit",
-      "date": "2026-05-07",
-      "cat": "Investment",
-      "summary": "",
-      "source": "Beinsure",
-      "link": "https://news.google.com/rss/articles/CBMiiwFBVV95cUxPNTJDbDdOckhRY1dOMVp0ZDhLNWNtUkd4SksyUjY5YjRGNjFFdlFBOTJ6LXhMeGZ1Ry1VdTN3bGt2Q21wNFd3ZXdoNGNVSFNhaC13cUU5N3JVb0tLODhmeWdiWUwtLVVVZUFqb1RaS0tZWngwN01ra1l3cFJHMUJwN3RoWmpmQzJRSGpF?oc=5",
       "isNew": false
     }
   ],
