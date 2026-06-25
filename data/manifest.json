@@ -1,6 +1,6 @@
 {
   "results": {
-    "ust": "ok",
+    "ust": "<urlopen error _ssl.c:999: The handshake operation timed out>",
     "jgb": "ok",
     "gilt": "ok",
     "eur": "ok",
@@ -12,6 +12,6 @@
     "commodities": "ok",
     "inflation": "ok"
   },
-  "run": "2026-06-25T09:48:02.579491Z",
-  "_fetched": "2026-06-25T09:48:09.628147Z"
+  "run": "2026-06-25T15:17:53.230765Z",
+  "_fetched": "2026-06-25T15:18:00.570032Z"
 }
