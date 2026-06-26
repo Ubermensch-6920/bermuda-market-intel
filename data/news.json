@@ -1,5 +1,5 @@
 {
-  "updated": "2026-06-26T14:51:27Z",
+  "updated": "2026-06-26T17:12:00Z",
   "topics": [
     "Insurance AM",
     "Private Credit",
@@ -7,6 +7,26 @@
     "Structured Credit"
   ],
   "items": [
+    {
+      "id": "68f71dfb8e0f",
+      "title": "Announcement: The Private Credit Intelligence Mapping",
+      "source": "Substack",
+      "date": "2026-06-26T16:53:47Z",
+      "topic": "Structured Credit",
+      "summary": "",
+      "link": "https://news.google.com/rss/articles/CBMijAFBVV95cUxOenRwWDRucW16SE1LRWlPVjlNTGJ1bVpYUEJnZHZjYTJpT0pPMjlXRXNfWDZpVlZlb1JreTVxekZJOXRNUkd5cDN0aFl3a3dNNzJ3VVRRSUFMcENnX1UzdDV2WEVZZXJMZ2ZoTUFiS1BRRHpJODNDZk1HdkJrak84SVowQW1udUpNWksxRA?oc=5",
+      "isNew": false
+    },
+    {
+      "id": "bffd029942f6",
+      "title": "Private Credit Fund Stress Rises as PIK Loans Swell",
+      "source": "Bloomberg.com",
+      "date": "2026-06-26T11:23:49Z",
+      "topic": "Private Credit",
+      "summary": "",
+      "link": "https://news.google.com/rss/articles/CBMingFBVV95cUxOR1ZuN1BVVjdWazFzbmluUTdSd21OUW5PWGxlQ2ZhT1pNWndBaWNFUWFyQjBOWUs0RHhjb2REbmQ5RUV6cGd2dGlxRlRMckRjZTZlUy1raFRQS19oYzkzaE1TTUZiWllrUWRfbXctOWFfQ1h4a1VvREJod084SkZ3VnVDOGo3OUtwbzhhdUI3WjlKcHhTdVAwNjhRZG5kQQ?oc=5",
+      "isNew": false
+    },
     {
       "id": "91e6bc1b7bba",
       "title": "Bonds, Precious Metals Markets Converge on Inflation Concerns",
@@ -188,16 +208,6 @@
       "isNew": false
     },
     {
-      "id": "fcc5ba226127",
-      "title": "ECB's Lane hints at higher rates even after Iran shock",
-      "source": "Reuters",
-      "date": "2026-06-18T13:30:55Z",
-      "topic": "Rates & Macro",
-      "summary": "",
-      "link": "https://news.google.com/rss/articles/CBMimwFBVV95cUxOR2NKSzlPVXdscXlER2piOGpyS1ZFbC1NSWRyamVzdzkzVkpVeXBzYU9TMU1Od3JjOXdnaUhqTWRuTk1YcWVNM1F4U1BMQ2JkN0Q1NWJvQkFTTHk0XzlTMWNiZEVUT21WbTl1MGtaNWRfUmx6eGJ2Z1B6UUozOWFwVm9yWHJVRG9FQXhrRTVxMzZSLUx1Y01OWTdZdw?oc=5",
-      "isNew": false
-    },
-    {
       "id": "7338c9882f68",
       "title": "What Federal Reserve monetary policy means for investors",
       "source": "U.S. Bank",
@@ -235,6 +245,16 @@
       "topic": "Rates & Macro",
       "summary": "",
       "link": "https://news.google.com/rss/articles/CBMiekFVX3lxTE91SnpCc3JDQ2J1ek5kNlZqSDNyYWczbWY0ZVJoX2hyNFZDcHREbEZwNjM5REVfdzRoa3pYNXJ1cEhFQjN3d19HRVBzQjgydTR6NzA2YU43WGJSdGgtbFZnb3JEUzRSeG9mXzZybmt0QzcxZW9sVHpwZkJR?oc=5",
+      "isNew": false
+    },
+    {
+      "id": "fcc5ba226127",
+      "title": "ECB's Lane hints at higher rates even after Iran shock",
+      "source": "Reuters",
+      "date": "2026-06-18T07:00:00Z",
+      "topic": "Rates & Macro",
+      "summary": "",
+      "link": "https://news.google.com/rss/articles/CBMimwFBVV95cUxOR2NKSzlPVXdscXlER2piOGpyS1ZFbC1NSWRyamVzdzkzVkpVeXBzYU9TMU1Od3JjOXdnaUhqTWRuTk1YcWVNM1F4U1BMQ2JkN0Q1NWJvQkFTTHk0XzlTMWNiZEVUT21WbTl1MGtaNWRfUmx6eGJ2Z1B6UUozOWFwVm9yWHJVRG9FQXhrRTVxMzZSLUx1Y01OWTdZdw?oc=5",
       "isNew": false
     },
     {
@@ -285,26 +305,6 @@
       "topic": "Rates & Macro",
       "summary": "",
       "link": "https://news.google.com/rss/articles/CBMiqwFBVV95cUxOcURLMmd3M3JGZmNXTFNrN2pXS0pxWlJkOXJjRG9XWmdsalRHUDNHVS0yTkpEaGVScnRHd1QzLXp2Z093VWp0Nk1ZNzZ6bGFHTGZ3dUkwcjdjMDhiclNnQTdnRnQ1VDEyVWNvU0ZCekZ4RGpuRmk5bVNlZnc3T3dlV1RzeDAxdHluenVqNnhhbDdHN1J2R0NmdGhmbzZXbHQ4TXFmWDgxU0JfSVE?oc=5",
-      "isNew": false
-    },
-    {
-      "id": "17cb6b835480",
-      "title": "Navigating private markets for insurers",
-      "source": "invesco.com",
-      "date": "2026-06-17T07:00:00Z",
-      "topic": "Private Credit",
-      "summary": "",
-      "link": "https://news.google.com/rss/articles/CBMiigFBVV95cUxPUUZuOXRzYV9HTTVKcmtBYXpnQ0Y1RUwta1ZZOTcxZWRFRy1vS2h5a0FTb2IxYzlmcVZKZmowNFo3Y3hSdFB5b0g0bmYxSmRXLWY5S0VScGJySWU0djZDamZqZ3h3NjRJeTJCeWd5SGllZ2ZPM2ZMVlNJR0JUN2pOaDlVNERwcEZ3ckE?oc=5",
-      "isNew": false
-    },
-    {
-      "id": "2eb43cff68af",
-      "title": "Insurance: US Deals 2026 midyear outlook: M&A Trends",
-      "source": "PwC",
-      "date": "2026-06-17T07:00:00Z",
-      "topic": "Insurance AM",
-      "summary": "",
-      "link": "https://news.google.com/rss/articles/CBMilwFBVV95cUxNMXdaQjV6X2FTQkFWRVpaSTJPM3ZIT0VTNHhod2lmTldrcDJhcW5OaXlpX3BieDMtaGgyVkFueGF2bzlQLVBxS0p6RmhNQ1BDdlI3SmxMOV9fb1NhUlVBSUZMQ2lUeTNxbnJHSFNBZUd2dEdWcko1akc3MEhGR0VQdWltaUl2a3NCdEYtTzdFMDVZWExlRDlj?oc=5",
       "isNew": false
     }
   ]
