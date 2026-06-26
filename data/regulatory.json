@@ -1,5 +1,5 @@
 {
-  "updated": "2026-06-26T09:55:57Z",
+  "updated": "2026-06-26T14:51:27Z",
   "naic": [
     {
       "id": "28861d5852c4",
@@ -29,6 +29,16 @@
       "summary": "",
       "source": "InsuranceNewsNet",
       "link": "https://news.google.com/rss/articles/CBMioAFBVV95cUxNbmlUandUMTdtaVhyVHFkc0xiS2ZlOVJjV0VGS0RyVUlHRUFoQmp2MEJJMW9vc3hydzhZRnhDdlV4VktqZjAxOW9BX0tZb2ZvNjNaVUFqMUctQjBHNWJPT2VaRm9BS2FwTC1KNXpRQ3F5MEg3OE56WFByWnlYLTM1aDhvODZjNEFkQk41TlVveXFFN0g2NTFPdkZsWlNEUVJp?oc=5",
+      "isNew": true
+    },
+    {
+      "id": "950a25571377",
+      "title": "Advocates: Life insurers potentially missing millions of deaths annually",
+      "date": "2026-06-17",
+      "cat": "General",
+      "summary": "",
+      "source": "InsuranceNewsNet",
+      "link": "https://news.google.com/rss/articles/CBMisAFBVV95cUxNZWIycDBuTnFjWjBXc1BGd0hTNzV3QmdTcnlkS2txTDkyLTN4Ri1SVGY2eENsODMycGNfZjJ3THdkTWZ6VDh1NW9CbC1kVkRkMmNFS3d0STY0dWpHMmp2N1o2OHBDS1o1RE5yQjIzaGhtLWlNQjFRY3dTZFhweVJlWVVYb2stYi13WmI0eEp2MExxTG1GZzRCZ21TWmM4Vk0wb1ZtM0JhNW45ZDZQTzVaTw?oc=5",
       "isNew": true
     },
     {
@@ -109,6 +119,16 @@
       "summary": "",
       "source": "JD Supra",
       "link": "https://news.google.com/rss/articles/CBMiiAFBVV95cUxQbERvSzg1aGpESjZZYUR5MVhSdVpFYnNLNjVQYzdMUVJMZm5FVHN3RW5OWmhTZm02SG90U18tNUlnLTRiMnlWVXBNRnM5bktiVjJLSTJIUEFYZnp1TEo5THdRd25fcVk1Q2hET0VtOEpQU3ZuU3ljalAtbUQyX0JsbjZGZ2kxZVpE?oc=5",
+      "isNew": true
+    },
+    {
+      "id": "a5b8c9cde2c7",
+      "title": "NAIC quarterly mandate to trump any SEC reporting changes for insurers",
+      "date": "2026-06-04",
+      "cat": "Reporting",
+      "summary": "",
+      "source": "S&P Global",
+      "link": "https://news.google.com/rss/articles/CBMi7wFBVV95cUxPWC10RlRZQ2xKVmY4YnItNlM1WlYtYU00UmRHeDRrbF9qWWNpNDFPcWlsNGlVa1BRRzV0dTU4UkdHZGNtaHY5T0I0LUtNU2Y0VWFPbTZXb3pEeFo3eTN5U3V3UHZFSjN2d2ZWbE9uRmwtZzBLWnl4ak1ZXzFIaUdrZkVSU0ZHT2JpeWpZVURJY0ZTbFlXeWtxQ0psSFNhWWdFVF9IWXdBQ09rNDlQWXhjOU4xT3dUY3ZQUG9FMTJBT0t2Y3hpQkV6ZjR2U1V3d3B2T0M5d3U4TExEaGZoY3dOazVaZzlHLUx4Ym5JRWhlMA?oc=5",
       "isNew": true
     },
     {
@@ -229,26 +249,6 @@
       "summary": "",
       "source": "Royal Gazette | Bermuda",
       "link": "https://news.google.com/rss/articles/CBMiyAFBVV95cUxPUEZhREZvajVMUzZQWXRRa2RUX2pNSHRzT0hWN2diQ21JSTV2T3ZHS251Q1gxS2FHbGNjNzA0eEhlbEgwWHl3S1A5Vlh1VHQxVGlZc3ZaYW10dThhd0g2eWc2UjJDdjNIRmpQYTRyX081WklFY2RQTzFxd0pqYm15WVhySFRtU3F1LThiMnNyNGFNWFRBQlpkdm1aV0s4Y0szd0FkcmdYQVBYVWJnWnFWR0tPNDJyYUxnWURpaFp2aFdFS1d2ejBHMw?oc=5",
-      "isNew": false
-    },
-    {
-      "id": "0b39d5bb50d5",
-      "title": "US state insurance regulators, Treasury secretary meet to discuss private credit",
-      "date": "2026-05-08",
-      "cat": "Investment",
-      "summary": "",
-      "source": "S&P Global",
-      "link": "https://news.google.com/rss/articles/CBMi-wFBVV95cUxPSmRtV2lxRkpwemtNWnRZSFVnQ1BTYVJzZTl5bXJhVXJwV1JYRGRoaE1TVHdZbFg1cTZDWHdwTzRQUHJMakd1S1M3VjIzSG1SYWowZGdDM1YxTl9GR29pbUlCa3JKS2lIS2h5UGtDYWNKQ3NjRWVacXUyMjJ2OWl1VXVqb0ltLU1QaUdWOUF0b09pX3ZRUTdqcmZNVkM1Z0Z5NU4yYjhFb1R3YldCOGJVUzFNWDVwNDJZYWJZM1JESFVneEt6ejVQT1M3am50YzFpS3hoQTlMeHZNVGlJUl9YZllBRVdZSGluelNhSjRBQW0zOEJXeGpWVFVaUQ?oc=5",
-      "isNew": false
-    },
-    {
-      "id": "1e1bbd5f2258",
-      "title": "NAIC private rating review may pressure US insurers",
-      "date": "2026-05-08",
-      "cat": "General",
-      "summary": "",
-      "source": "Beinsure",
-      "link": "https://news.google.com/rss/articles/CBMihAFBVV95cUxQYWM1a0JZcUJLNWgyM2d5RXJzbjZZVGE5UldVR1BtOFFKVEYyUWQtMVBDR2t2Ykx6Ul9OUlpQanhCN3JjTVNVTHZKZUdpRWc1NFlpcjhiMG9BbmZLbXhDTktVQnlqTmRxZlpJU3l4SlJPY25tZV9KQkZxRnJUdFlIWVo4TVQ?oc=5",
       "isNew": false
     }
   ],
@@ -505,6 +505,26 @@
     }
   ],
   "cayman": [
+    {
+      "id": "a0edf2367151",
+      "title": "What CIMA\u2019s 2026 Thematic Review means for Cayman reinsurers",
+      "date": "2026-06-26",
+      "cat": "General",
+      "summary": "",
+      "source": "JD Supra",
+      "link": "https://news.google.com/rss/articles/CBMiiAFBVV95cUxNcklMVDg1a1NLMjBGNy1fRHlST3Bra0JqYXhTR2VPdWpkdXdOa0IzVmNrbnlxdWE2eDRaNWVISmhwNUx5SS1WbWMwYUNSeEMweFdfOFFCWi0tdldldE9kZFpMSUNNT05TNzhhNFZYTjlMMXVUYXRmS1JwUVZaTDcyUWF6OVdIczUw?oc=5",
+      "isNew": true
+    },
+    {
+      "id": "9a86e4a05258",
+      "title": "CIMA cancels registrations",
+      "date": "2026-06-11",
+      "cat": "Licensing",
+      "summary": "",
+      "source": "Cayman Compass",
+      "link": "https://news.google.com/rss/articles/CBMid0FVX3lxTE5HS2pISXFHV2hHSG15NDJxbjRTSnNjMjVFelN6dDVTOERreERUUENJbUdpNG9BTy1zWXFiTnNKQ3pfZU80RERuVWVVN0diajRNVEtCbi1aMTZrZHhOQVdxRUxFVjRBU2UxN3A4bWd5MnBRUGc5dHNv?oc=5",
+      "isNew": true
+    },
     {
       "id": "b3b98c17621c",
       "title": "Cyberattacks in Africa: insurers are starting to take action",

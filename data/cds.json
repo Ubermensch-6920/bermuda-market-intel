@@ -1,5 +1,5 @@
 {
-  "date": "2026-06-24",
+  "date": "2026-06-25",
   "source": "FRED ICE BofA / TradingEconomics",
   "status": "partial",
   "sovereign": {
@@ -62,10 +62,10 @@
     },
     "ccc": {
       "name": "CCC Corp",
-      "spread": 964,
-      "prior": 956,
+      "spread": 968,
+      "prior": 964,
       "series_id": "",
-      "date": "2026-06-24",
+      "date": "2026-06-25",
       "source": "credit.json"
     }
   },
@@ -103,5 +103,5 @@
       "source": "cache"
     }
   },
-  "_fetched": "2026-06-26T09:53:04.148446Z"
+  "_fetched": "2026-06-26T14:48:32.362772Z"
 }
