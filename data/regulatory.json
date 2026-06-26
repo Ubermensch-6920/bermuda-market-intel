@@ -1,5 +1,5 @@
 {
-  "updated": "2026-06-26T04:44:26Z",
+  "updated": "2026-06-26T09:55:57Z",
   "naic": [
     {
       "id": "28861d5852c4",
@@ -334,6 +334,16 @@
       "isNew": false
     },
     {
+      "id": "8f54587c933e",
+      "title": "Bermuda, the tiny island nation with huge crypto ambitions",
+      "date": "2026-05-26",
+      "cat": "General",
+      "summary": "",
+      "source": "CoinDesk",
+      "link": "https://news.google.com/rss/articles/CBMipgFBVV95cUxNdnpLNXBtQkgwMHRuZ1luLU1rbHlJZWRYSlNWdEpvYW1yTktOLWhTNW1RVXFFOFhwM2dWUXhZUUJ5QzY4NlpMZFJyOTRUQ1YtdWpfVUtmOVczd20zQktXV3pYYW9XRG4zS3RDWVREQXV1NFJSMWtGd1RUSVd6OUhKWkV0S283aFpxVndRMUd6NFFCOE14OXVjYnpEcFFFVFlfU0lHUXNB?oc=5",
+      "isNew": false
+    },
+    {
       "id": "00f51bacdc49",
       "title": "Bermuda, the small island nation with huge crypto ambitions",
       "date": "2026-05-26",
@@ -491,16 +501,6 @@
       "summary": "",
       "source": "Royal Gazette | Bermuda",
       "link": "https://news.google.com/rss/articles/CBMi3AFBVV95cUxOWXRaUW94ZU1ubUR0UkxvWThpYjYwRWppNkdSUWhSdlg1ekRtTW83SDI0LUNEa0pndF9GRHF4U0pPc05hSVZ3S09wSmNZUEZiUkl1aUNlRUlkRXVjc2dXcTYweUZ4SXN4a294QkpFV3JEcGJuTEZNRFAtNGgzS2lONTVTV0RwazNNUjBZQWJPYXMwN3RTRlZkemZSNjY3UlVRanFUZEJ3NTlvbGJtcVFzX0pZU3p3Y2FjVVBOZm9HN2FETlFVU18xU1p3SXRaWlVxOHlKd0t6LUhGSm1N?oc=5",
-      "isNew": false
-    },
-    {
-      "id": "321f59389648",
-      "title": "The Globalization of Asset-Intensive Reinsurance",
-      "date": "2026-04-01",
-      "cat": "Investment",
-      "summary": "",
-      "source": "Mayer Brown",
-      "link": "https://news.google.com/rss/articles/CBMirAFBVV95cUxNR19lZ1kxU0dxOGdPLVozUnU1YnpQQmRIX05qV2JNdjR4WF9BYWNEdFRwaEhXVmxyRzVfQVJ3NGpLVWJ2NllaeUd5RnFnWlAxWWVPWkRBQ0pQaG1Kb0MwTlJpbUswemJuN1JuM2JKNWpSbUlmaDNPRVg3OUFSbzliU3V4bGYyQ01QTEFZZjF3eWxYaWUtMkhYdk5acHN1Z0ZmaEpIcHBweE1mNWFS?oc=5",
       "isNew": false
     }
   ],
