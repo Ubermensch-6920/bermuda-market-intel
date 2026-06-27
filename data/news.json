@@ -1,5 +1,5 @@
 {
-  "updated": "2026-06-27T08:53:30Z",
+  "updated": "2026-06-27T11:07:44Z",
   "topics": [
     "Insurance AM",
     "Private Credit",
@@ -188,6 +188,16 @@
       "isNew": false
     },
     {
+      "id": "e1155e2fa3a1",
+      "title": "Weekly market commentary",
+      "source": "blackrock.com",
+      "date": "2026-06-22T07:00:00Z",
+      "topic": "Insurance AM",
+      "summary": "",
+      "link": "https://news.google.com/rss/articles/CBMiqgFBVV95cUxNUVRpWnpzel9vdWlfUTRyMGZwLVhXN2dmVDBNclBHRzhhNWx4MnVDSFBZNl8wZmxuZzlpZjZPTC0zMTZMRU9Udl9zWTB1X0FFR2ZBMGFQaWgydTVSY21qTzBkUWoyaTlGUHFJeVZybVZnb3d3YWoyRkZHeDVyLWszMmFPLUNZUmh0WUh3UG9ZejBFanRudmt5VV9YNmVSa1hmeWp2TE1CUWgtdw?oc=5",
+      "isNew": false
+    },
+    {
       "id": "a18ccaac41a6",
       "title": "From Regional to Global: How EU Insurance Capital Re...",
       "source": "Dechert",
@@ -228,6 +238,16 @@
       "isNew": false
     },
     {
+      "id": "68dbf900064e",
+      "title": "InsuranceAUM.com Celebrates a Historic 5th Annual Insurance Investment Executives\u2019 Meeting in Chicago, Honoring Outstanding Industry Leaders and Spotlighting Next Event in Austin",
+      "source": "Business Wire",
+      "date": "2026-06-18T20:04:13Z",
+      "topic": "Insurance AM",
+      "summary": "",
+      "link": "https://news.google.com/rss/articles/CBMi0wJBVV95cUxPTTZHN2YzUEdVd2Z1Z1N0Q0RPMzVOSG1jOGNhNXE2UnlmM1pSb29Mck0taUo0TkhzT0poS3VQUS12WUVjcUlmWGZjd0N5Z3lYSmRnRkNPdFBDSG1wUUNOTUNzc2JnMXROVVRMelRQZU1ZbU9QYXR2N2pHTzY5M3pSa1BkR3Zlem9CUmVNU2dTTlZaVUFPUEJfVERCU2lBYzBGaFJHb2JhMGZSMTJhUC1VR1NjamVyU1dvbVdpbTRBUzFOSGc0YkRzMEVjdUc1TDN4REotT09BS09lQ2dMYzA5ZjZRaFc0clBYMjVDZ3ZHaG9zRVFTWDBtRjY1Tm9zd0F2MTFHTlJXQTgwNEN0R1g0V3JvWk4zUE11d2JoZ2xCYVJQNFZuNTBwLXNtc0hFeVFtQy1vSVo1bGRxX2pHcEh5MHJERE9hSTlyb2FnOVlqWURpMWM?oc=5",
+      "isNew": false
+    },
+    {
       "id": "0d058a94f4e7",
       "title": "Average 30-year U.S. mortgage rate falls to 6.47%, tracking lower bond yields as Iran war winds down",
       "source": "NBC Bay Area",
@@ -235,16 +255,6 @@
       "topic": "Rates & Macro",
       "summary": "",
       "link": "https://news.google.com/rss/articles/CBMiiwFBVV95cUxQTHdkQ01YMEhIb2U2X0xwTjVlZkg4WTRVdDlFNkxkTk9nVm0yN3JhaG5yZXBYb0NaQm14QWJyaTI0dWVfUHJ4M1RNQ2I0OWZDaE00NmdBUmRicXlMS2pZWnc2aWZmajF3cElQM1N2WlBtVk5XYzVaODhUZ3p4ZWhqbXZUbTlQWnFNWEww0gGTAUFVX3lxTE93T1cweTg2ZGVBWHhpQ0dIZmVlZWdmYkhKRF9kTkpnaVVSQTltWW5SeF9NZzFyTy1UdmdtVGhndDN3ODJrb01DYk5VSU5zYWhyX2NkcTdvYlRGd2hHYTZ1X2R2azBMektJYk8zbWQ5d1l5NkdKUXhLd0hzNXR6YjFheDQwTDJRZ24yZnBsZmVRUWlQYw?oc=5",
-      "isNew": false
-    },
-    {
-      "id": "68dbf900064e",
-      "title": "InsuranceAUM.com Celebrates a Historic 5th Annual Insurance Investment Executives\u2019 Meeting in Chicago, Honoring Outstanding Industry Leaders and Spotlighting Next Event in Austin",
-      "source": "Business Wire",
-      "date": "2026-06-18T14:28:00Z",
-      "topic": "Insurance AM",
-      "summary": "",
-      "link": "https://news.google.com/rss/articles/CBMi0wJBVV95cUxPTTZHN2YzUEdVd2Z1Z1N0Q0RPMzVOSG1jOGNhNXE2UnlmM1pSb29Mck0taUo0TkhzT0poS3VQUS12WUVjcUlmWGZjd0N5Z3lYSmRnRkNPdFBDSG1wUUNOTUNzc2JnMXROVVRMelRQZU1ZbU9QYXR2N2pHTzY5M3pSa1BkR3Zlem9CUmVNU2dTTlZaVUFPUEJfVERCU2lBYzBGaFJHb2JhMGZSMTJhUC1VR1NjamVyU1dvbVdpbTRBUzFOSGc0YkRzMEVjdUc1TDN4REotT09BS09lQ2dMYzA5ZjZRaFc0clBYMjVDZ3ZHaG9zRVFTWDBtRjY1Tm9zd0F2MTFHTlJXQTgwNEN0R1g0V3JvWk4zUE11d2JoZ2xCYVJQNFZuNTBwLXNtc0hFeVFtQy1vSVo1bGRxX2pHcEh5MHJERE9hSTlyb2FnOVlqWURpMWM?oc=5",
       "isNew": false
     },
     {
@@ -295,16 +305,6 @@
       "topic": "Rates & Macro",
       "summary": "",
       "link": "https://news.google.com/rss/articles/CBMimwFBVV95cUxOR2NKSzlPVXdscXlER2piOGpyS1ZFbC1NSWRyamVzdzkzVkpVeXBzYU9TMU1Od3JjOXdnaUhqTWRuTk1YcWVNM1F4U1BMQ2JkN0Q1NWJvQkFTTHk0XzlTMWNiZEVUT21WbTl1MGtaNWRfUmx6eGJ2Z1B6UUozOWFwVm9yWHJVRG9FQXhrRTVxMzZSLUx1Y01OWTdZdw?oc=5",
-      "isNew": false
-    },
-    {
-      "id": "6c933132064d",
-      "title": "Japan Just Raised Interest Rates To A Level Not Seen Since 1995\u2014 And The Yen Carry Trade Is Back",
-      "source": "Yahoo Finance",
-      "date": "2026-06-18T00:31:00Z",
-      "topic": "Rates & Macro",
-      "summary": "",
-      "link": "https://news.google.com/rss/articles/CBMingFBVV95cUxQOTdGU0dES29UMnViLVdobzhPNHZhaFhHTF9ZY3F5YThIZDVkeDNSdDlHVTVzaHNqNGZqZDVqOU5IMDVjbC1wdDVBUlUtaDlVTllIZzZnMk1RMTVtNU9rWlB6LXNMM1gyQ2dCdkd0RWtjUlBzQXJ6RXBtSHZIRDZnSHhtci1QcmJMTlNZN3U3OFRfTjV4RFFscExfWEtzdw?oc=5",
       "isNew": false
     }
   ]
