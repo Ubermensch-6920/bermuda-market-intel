@@ -1,5 +1,5 @@
 {
-  "updated": "2026-06-26T22:40:50Z",
+  "updated": "2026-06-27T04:20:23Z",
   "naic": [
     {
       "id": "28861d5852c4",
@@ -311,7 +311,7 @@
       "summary": "",
       "source": "Royal Gazette | Bermuda",
       "link": "https://news.google.com/rss/articles/CBMitgFBVV95cUxPOEVzR2pieUhJSjJmeGFHV3EwXzJOQzJYVDZRX1RwOE9SYk5LenYzRURTWVI4amlmcy1LTGo4WkNMRUZxOE05R1NCTjl1dEFORWVwYlBQdzJUcTBkV3FyaDZSd0JTRWFwTl8waXN3VWlLUXVGMmVRMi1zNFFjSXhDcU9MMU9hSV9pUVZ5TFNiRkN4WE9fTUJTR2twcVM3bEFTeU15Y0VibTd2OTJZTmVZbDQ4WHRoUQ?oc=5",
-      "isNew": true
+      "isNew": false
     },
     {
       "id": "b3f60971f2ab",
@@ -321,7 +321,7 @@
       "summary": "",
       "source": "Royal Gazette | Bermuda",
       "link": "https://news.google.com/rss/articles/CBMixAFBVV95cUxQMlN0azZCbVBNS043TElPb2tOcHdDc3RNUEtsZmxwVWFLN2pvcjR4R20xR1lyaHNmb2xfbXR4ZzVXdVphUHJqZGZBb29hTDh1MlZ1dHdKYk9MZDFYSlZKM1JBZzRMRVpoaEYwb0Y0SDZGQXpLbEd4emZ2NnJBZ09GZWc0YVUtaGRwZnlWNm5iS3Z1Z2YtbGZDMDY5T2FzaTZkR1IweTVnZ2MyRVdzQXFrX0w1QUp2V1hydWVpNk5aUWdOandN?oc=5",
-      "isNew": true
+      "isNew": false
     },
     {
       "id": "db81ed09ab9f",
@@ -513,6 +513,16 @@
       "summary": "",
       "source": "JD Supra",
       "link": "https://news.google.com/rss/articles/CBMiiAFBVV95cUxNcklMVDg1a1NLMjBGNy1fRHlST3Bra0JqYXhTR2VPdWpkdXdOa0IzVmNrbnlxdWE2eDRaNWVISmhwNUx5SS1WbWMwYUNSeEMweFdfOFFCWi0tdldldE9kZFpMSUNNT05TNzhhNFZYTjlMMXVUYXRmS1JwUVZaTDcyUWF6OVdIczUw?oc=5",
+      "isNew": true
+    },
+    {
+      "id": "a91ab91f1446",
+      "title": "CIMA Publishes Thematic Review of Reinsurance Companies",
+      "date": "2026-06-23",
+      "cat": "General",
+      "summary": "",
+      "source": "Lexology",
+      "link": "https://news.google.com/rss/articles/CBMiiwFBVV95cUxQcmVzbVA1bWV3ZWVXSjBXOG94MF92WjBpUEhCV01Nbm80bXZRT3hOUGEwanlZaDl0cDJuUk5PNHlZYnAwb3Z6U3hjbEd3T1RFNUg2ZklseGUzbVJUSk1rdk03UHVKbTJOZWR4M2dXWUFTa1UwVEc4cHl2ZldjQV9yeVU3aEpZZldjUjhJ?oc=5",
       "isNew": true
     },
     {
