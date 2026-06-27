@@ -1,5 +1,5 @@
 {
-  "updated": "2026-06-27T11:07:44Z",
+  "updated": "2026-06-27T14:10:25Z",
   "naic": [
     {
       "id": "28861d5852c4",
@@ -284,6 +284,16 @@
       "isNew": true
     },
     {
+      "id": "baacb35b6e7c",
+      "title": "\u2018Potential Banking Models For Bermuda\u2019",
+      "date": "2026-06-04",
+      "cat": "General",
+      "summary": "",
+      "source": "Bernews",
+      "link": "https://news.google.com/rss/articles/CBMic0FVX3lxTE52dEloN1pmUUE3RWtyaEUzVFAzYS02NnlILWxYNW5hRmNsUTdTN2R2R2I0WEdqZUZoZkZOU3luRV9ORHMtSEdxLVJtYk4xZ2FWcVhWMVk1NmVkUk44a0JrRm1oTXJhVVJ0Y0JCREQ3dFNBYUk?oc=5",
+      "isNew": true
+    },
+    {
       "id": "dfd86ef5618e",
       "title": "Late filings could cost banks $10m under BMA proposals",
       "date": "2026-06-04",
@@ -491,16 +501,6 @@
       "summary": "",
       "source": "Royal Gazette | Bermuda",
       "link": "https://news.google.com/rss/articles/CBMisAFBVV95cUxOZV9PSXNLQ1hFSlN5OFJBRHRNVlNJblhPTkR0OWxjRkZkTi1ad1UxVzYtbGxXU2N4MWVkWHpDVDJ0cTdBWmJYM3ptcm9ma2NlWlZpREcyTzRMR3NxYThqVUVJVlc3T2JqbmpwelFWY0NrcWpvNHdKeXcwQXhVaVVRYnd6S3k0V185Ul9aRE5VUXNKTXM3MlNjc2hyT3NUa3BPZExJeEZuTGpNMEdSUkcyYg?oc=5",
-      "isNew": false
-    },
-    {
-      "id": "04bbfc4acb12",
-      "title": "BMA weighs streamlined tokenisation rules after industry feedback",
-      "date": "2026-04-02",
-      "cat": "General",
-      "summary": "",
-      "source": "Royal Gazette | Bermuda",
-      "link": "https://news.google.com/rss/articles/CBMi3AFBVV95cUxOWXRaUW94ZU1ubUR0UkxvWThpYjYwRWppNkdSUWhSdlg1ekRtTW83SDI0LUNEa0pndF9GRHF4U0pPc05hSVZ3S09wSmNZUEZiUkl1aUNlRUlkRXVjc2dXcTYweUZ4SXN4a294QkpFV3JEcGJuTEZNRFAtNGgzS2lONTVTV0RwazNNUjBZQWJPYXMwN3RTRlZkemZSNjY3UlVRanFUZEJ3NTlvbGJtcVFzX0pZU3p3Y2FjVVBOZm9HN2FETlFVU18xU1p3SXRaWlVxOHlKd0t6LUhGSm1N?oc=5",
       "isNew": false
     }
   ],
