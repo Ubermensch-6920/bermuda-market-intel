@@ -1,5 +1,5 @@
 {
-  "updated": "2026-06-27T14:10:25Z",
+  "updated": "2026-06-27T16:23:20Z",
   "topics": [
     "Insurance AM",
     "Private Credit",
@@ -7,6 +7,16 @@
     "Structured Credit"
   ],
   "items": [
+    {
+      "id": "37cc77f763bb",
+      "title": "Why investors may want to prioritize bond markets outside the U.S.",
+      "source": "CNBC",
+      "date": "2026-06-27T15:00:01Z",
+      "topic": "Rates & Macro",
+      "summary": "",
+      "link": "https://news.google.com/rss/articles/CBMimwFBVV95cUxQY0pWdkdxOWJ6MGNSdVdYV1U2REF2RnY2cjFtRGR6cjl4bWJOT0wxOEZtOENLUnUwMTlxR014QTE4a2o4eFo3T1ZCN21VWGtfV3NPd3VHRkRCUVBpX0x6X3o2c0F1a2R2N3FjZnN0dFZOdS1aWWM2QkxRWU5yLXJ3dE5mTzFhSGlZMHVqZFBxVUZiMEYxVFFJckdtQdIBoAFBVV95cUxQX0F4bVRkRkRmZmNYUzFqWXcyaEVlOGZ2OW9UaXAwWF94N2FwY195NXpqZTRTZXU2QjZtZHczMU1iRG9jaF9ubjRablY0clh1d0M1WW1WTTlzLUtXaFFNRFNhWjkzTGMxUWN1QVh6eDRpM3V1RFFybHg0VGM5ckxhSFlyeWc4MGdqTi00Vzdkc20zRWZnZzNRdlluSTlwNDlV?oc=5",
+      "isNew": false
+    },
     {
       "id": "68f71dfb8e0f",
       "title": "Announcement: The Private Credit Intelligence Mapping",
@@ -295,16 +305,6 @@
       "topic": "Rates & Macro",
       "summary": "",
       "link": "https://news.google.com/rss/articles/CBMiekFVX3lxTE91SnpCc3JDQ2J1ek5kNlZqSDNyYWczbWY0ZVJoX2hyNFZDcHREbEZwNjM5REVfdzRoa3pYNXJ1cEhFQjN3d19HRVBzQjgydTR6NzA2YU43WGJSdGgtbFZnb3JEUzRSeG9mXzZybmt0QzcxZW9sVHpwZkJR?oc=5",
-      "isNew": false
-    },
-    {
-      "id": "fcc5ba226127",
-      "title": "ECB's Lane hints at higher rates even after Iran shock",
-      "source": "Reuters",
-      "date": "2026-06-18T07:00:00Z",
-      "topic": "Rates & Macro",
-      "summary": "",
-      "link": "https://news.google.com/rss/articles/CBMimwFBVV95cUxOR2NKSzlPVXdscXlER2piOGpyS1ZFbC1NSWRyamVzdzkzVkpVeXBzYU9TMU1Od3JjOXdnaUhqTWRuTk1YcWVNM1F4U1BMQ2JkN0Q1NWJvQkFTTHk0XzlTMWNiZEVUT21WbTl1MGtaNWRfUmx6eGJ2Z1B6UUozOWFwVm9yWHJVRG9FQXhrRTVxMzZSLUx1Y01OWTdZdw?oc=5",
       "isNew": false
     }
   ]
