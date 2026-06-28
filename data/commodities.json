@@ -12,8 +12,8 @@
     "prior_1m_date": "2026-05-29",
     "prior_3m": 4526.0,
     "prior_3m_date": "2026-03-30",
-    "prior_1y": 3273.7,
-    "prior_1y_date": "2025-06-27",
+    "prior_1y": 3294.4,
+    "prior_1y_date": "2025-06-30",
     "futures": {
       "3M": {
         "price": 4125.3,
@@ -242,5 +242,5 @@
     }
   },
   "note": "Spot history comes from daily FRED series. Futures history is roll-aware by target date. USD/INR uses FRED DEXINUS with Investing scrape fallback for latest spot.",
-  "_fetched": "2026-06-28T14:19:41.279070Z"
+  "_fetched": "2026-06-28T16:40:13.536186Z"
 }
