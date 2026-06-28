@@ -7,7 +7,7 @@
     "spot_source": "TradingEconomics",
     "unit": "USD/troy oz",
     "prior_1d": 4096.3,
-    "prior_1d_date": "2026-06-26",
+    "prior_1d_date": "2026-06-28",
     "prior_1m": 4560.5,
     "prior_1m_date": "2026-05-29",
     "prior_3m": 4526.0,
@@ -242,5 +242,5 @@
     }
   },
   "note": "Spot history comes from daily FRED series. Futures history is roll-aware by target date. USD/INR uses FRED DEXINUS with Investing scrape fallback for latest spot.",
-  "_fetched": "2026-06-28T19:49:34.380854Z"
+  "_fetched": "2026-06-28T22:18:44.430307Z"
 }

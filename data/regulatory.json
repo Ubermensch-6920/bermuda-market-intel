@@ -1,6 +1,16 @@
 {
-  "updated": "2026-06-28T19:50:12Z",
+  "updated": "2026-06-28T22:19:24Z",
   "naic": [
+    {
+      "id": "7c9f5aba40c5",
+      "title": "Terabytes of data dumped on the dark web after US insurance regulator hacked",
+      "date": "2026-06-28",
+      "cat": "General",
+      "summary": "",
+      "source": "Insurance Business",
+      "link": "https://news.google.com/rss/articles/CBMi4AFBVV95cUxQU0xDNGJIVFg3amludjF2QWFGWk9iZlYwRm5JblMxWXhpY2FSMUJSamlYLVhNQ0oxaFBpZkxGMFlCTlR2V1ViNzdFU1FfZUVsbzgtd0ptTlJZanJRQmdnbC1ib3o2bV9UMlZraFAwczN2OVFlcWVDVDJTcXdIMkFhaWJhRXMzbzVKeFFFSXpyWkNjNGZiUDJUMHBteDQwTjV2aTJTeFhEemlmS0V3WFdualltX0RyMHk0ckVVdVp3SXB0VWJEbU82UlFETHRHVkRJNXhDVjFsZ1hVY3lsWlV1MQ?oc=5",
+      "isNew": true
+    },
     {
       "id": "28861d5852c4",
       "title": "NAIC Victim of Cyber Incident Via PeopleSoft System",
@@ -89,6 +99,16 @@
       "summary": "",
       "source": "Financial Times",
       "link": "https://news.google.com/rss/articles/CBMihAFBVV95cUxQNmNqS1JUTy1ZeWlNSFFoRVY2ZEJ0Z2lLZ2w5dm9Pb2hMazNRdXpuR3NlbFR4bWlwYjVJVHY0bWdhdWNTOU1OLXB5cXQ0dVVjbThMNEdjVG5IcHZKdVZveGp2MXBSTGh5YWNlZXc5ZWRJQjJXekRibGMtZEpWWHZFU3NQSXg?oc=5",
+      "isNew": true
+    },
+    {
+      "id": "8c6f657dd25c",
+      "title": "US Insurance Regulators Probe Systemic Credit Risks in Data Centre Boom",
+      "date": "2026-06-11",
+      "cat": "Investment",
+      "summary": "",
+      "source": "streamlinefeed.co.ke",
+      "link": "https://news.google.com/rss/articles/CBMipAFBVV95cUxNWGhlR01WQmZTN3lRSzVSNHZTUVFqRFFmR2dxQUlzbDNTcEQzUVhkX1pPLTEtbmZhbEJKN1M0MXRTU2k5bzNuTUFPbWIzeTA2M0E0N1JYUDF6dHNuNVpyZXRwS0hNc0VyR3k5ZElPY05TSzRPM3JRSjROaXZ6bE5NRmx3c3o2czNqeFloWmJGYWJjYmxldkFnS1lXNklxdFBkMjZpYQ?oc=5",
       "isNew": true
     },
     {
@@ -229,26 +249,6 @@
       "summary": "",
       "source": "Insurance Business",
       "link": "https://news.google.com/rss/articles/CBMi5AFBVV95cUxNM2NkQkFhUkFpWktHNEhnMnIzWDhUc2pENG1wbUx3OEpTU2Q1cXJkVDFXS2ZzcVZpOUtNdGg5YWlvUkdUX1ZibGZ6U25ibnA0azR3T0RGNUZJcVc1N1pyZXFpbEc3YXRsMDJyZ1ZkOFRrYUYtVWxOTW5WZnRyLTFudGRQMjhoTXhva1gtRGRfb1gtNkJicFR6WEhtZk03R2pJWFQ1RTlGUWRhUmRHNmxqVU1hb0ZOSnFqOTFPc2ZHeUxQMEhtUFpxbk9NMUlCam1ibHFkdUp2eXdBQ0dKeWVlOU5SYVM?oc=5",
-      "isNew": false
-    },
-    {
-      "id": "0662d7801c39",
-      "title": "U.S. Treasury and insurance regulators discuss evolving risk oversight",
-      "date": "2026-05-12",
-      "cat": "General",
-      "summary": "",
-      "source": "Reinsurance News",
-      "link": "https://news.google.com/rss/articles/CBMioAFBVV95cUxNaDc2UkxQRlB4M044QnhfV25Wa2hDZ3N2eE90bzVGM0dzWGJ0dFJHNUVSSG53WXlHcUIxMXFXcW81OW81VDAxMUhCeFZhX0NfSTNMek1sd2dnWWtub0RpZXdURzlIZHBGQ0VvSUZtSXkyZXk3RnhqbERJQWx5LWFLNjRZSGlTeWFXU0ROd3lGR28yei1MVjVCR3k5cTZXdXdk?oc=5",
-      "isNew": false
-    },
-    {
-      "id": "dd0f4005632e",
-      "title": "NAIC Working Group Adopts 0.68% \u201cLook-Through\u201d RBC Factor for Funds Investing in Resi Mortgages",
-      "date": "2026-05-11",
-      "cat": "Investment",
-      "summary": "",
-      "source": "Mayer Brown",
-      "link": "https://news.google.com/rss/articles/CBMi5gFBVV95cUxNZWpjYnJ3SkNNUW81T1EzTk53QmllMHdEQjZRZlNSVXRJZG9hT1NMQlV6TlpjRGdtM2dKVGRhN2JTdlJwQWJ6OGQxUHJ6Smw4d3dMMWFhVjVfdTgwMGt2aS1oS3M0SWNhT0c0SmpfZ1hYVTZIZ05sUFI5SnlFZ2lESFdrQ1FZZ1FVWmthQ0d1RXFUX1dTR04zb0dtdUl1ZGhCbmpicGRkSV9yU2dTY3dVTFl3SkpLcE5tWERxOUJsanJBeXdSVzRnWTJmU0dOeVd6QkthMlh2anBmTzVFdGNpX0QwVl9vUQ?oc=5",
       "isNew": false
     }
   ],
