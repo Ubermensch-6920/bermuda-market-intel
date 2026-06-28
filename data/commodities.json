@@ -1,12 +1,12 @@
 {
-  "date": "2026-06-27",
+  "date": "2026-06-28",
   "source": "FRED / TradingEconomics / Investing / Yahoo Finance",
   "gold": {
     "spot": 4087.01,
     "spot_date": "",
     "spot_source": "TradingEconomics",
     "unit": "USD/troy oz",
-    "prior_1d": 4078.7,
+    "prior_1d": 4096.3,
     "prior_1d_date": "2026-06-26",
     "prior_1m": 4560.5,
     "prior_1m_date": "2026-05-29",
@@ -68,10 +68,10 @@
     "unit": "USD/barrel",
     "prior_1d": 78.94,
     "prior_1d_date": "2026-06-22",
-    "prior_1m": 92.65,
-    "prior_1m_date": "2026-05-28",
-    "prior_3m": 101.26,
-    "prior_3m_date": "2026-03-27",
+    "prior_1m": 91.16,
+    "prior_1m_date": "2026-05-29",
+    "prior_3m": 104.69,
+    "prior_3m_date": "2026-03-30",
     "prior_1y": 66.66,
     "prior_1y_date": "2025-06-27",
     "futures": {
@@ -128,10 +128,10 @@
     "unit": "USD/barrel",
     "prior_1d": 76.49,
     "prior_1d_date": "2026-06-22",
-    "prior_1m": 95.47,
-    "prior_1m_date": "2026-05-28",
-    "prior_3m": 121.47,
-    "prior_3m_date": "2026-03-27",
+    "prior_1m": 92.88,
+    "prior_1m_date": "2026-05-29",
+    "prior_3m": 121.88,
+    "prior_3m_date": "2026-03-30",
     "prior_1y": 69.37,
     "prior_1y_date": "2025-06-27",
     "futures": {
@@ -192,8 +192,8 @@
     "prior_1m_date": "2026-05-29",
     "prior_3m": 94.41,
     "prior_3m_date": "2026-03-30",
-    "prior_1y": 85.45,
-    "prior_1y_date": "2025-06-27",
+    "prior_1y": 85.74,
+    "prior_1y_date": "2025-06-30",
     "futures": {
       "3M": {
         "price": null,
@@ -242,5 +242,5 @@
     }
   },
   "note": "Spot history comes from daily FRED series. Futures history is roll-aware by target date. USD/INR uses FRED DEXINUS with Investing scrape fallback for latest spot.",
-  "_fetched": "2026-06-27T22:19:28.397268Z"
+  "_fetched": "2026-06-28T04:54:28.541980Z"
 }
