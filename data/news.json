@@ -1,5 +1,5 @@
 {
-  "updated": "2026-06-29T05:04:08Z",
+  "updated": "2026-06-29T11:27:35Z",
   "topics": [
     "Insurance AM",
     "Private Credit",
@@ -7,6 +7,16 @@
     "Structured Credit"
   ],
   "items": [
+    {
+      "id": "c71803efcb2c",
+      "title": "European Bonds Outlook for Q3: What Investors Need to Know",
+      "source": "Morningstar",
+      "date": "2026-06-29T06:04:27Z",
+      "topic": "Rates & Macro",
+      "summary": "",
+      "link": "https://news.google.com/rss/articles/CBMimAFBVV95cUxOMEc2bWJORnA0UVVUYkd2dzBoNnQtM1lrd0tDSGc1ZS1YNjUwZGpYZGMtQVBMcVJSNXVWUlZKZnpCeGozaW5lU2Q3ZEJsZXZOLWdseFRKZ24wTHZyXzhURHB1X21mTmZiRzZHaFd2YWF1RUVPTUo2SlpIU0NkVFlBejdNRGxteDIxTmhhanZFc2FYQ2xXeF82dQ?oc=5",
+      "isNew": false
+    },
     {
       "id": "1491af03a5c1",
       "title": "Australia central bank outlines policy tools for times of crisis",
@@ -60,7 +70,7 @@
     {
       "id": "bffd029942f6",
       "title": "Private Credit Fund Stress Rises as PIK Loans Swell",
-      "source": "Bloomberg.com",
+      "source": "Bloomberg",
       "date": "2026-06-26T11:23:49Z",
       "topic": "Private Credit",
       "summary": "",
@@ -295,16 +305,6 @@
       "topic": "Insurance AM",
       "summary": "",
       "link": "https://news.google.com/rss/articles/CBMiuwFBVV95cUxNRFlYVFpJcldnZFBhVnU3VkVNMmtKOGQ4U0lxdk1DN2tmWFFVRllzYk55djhPa1o5cVktdHJqOFpoSVVZOEpYZnQ5OG5XVkIwTzFCTGR2VGRhV0x4eF9SSkJKd3BjWFVGYUFGR2dZUzg2RWhXN0M3dmpTRE9HZlBBaTRhbERYQ3d6Y2xWa0xRZzBPSUFHVk5VSnIyNzN5cGR0TUpfMUkxQjJHem83dHhRTTlCdFA4RFdoQzc0?oc=5",
-      "isNew": false
-    },
-    {
-      "id": "29644126db50",
-      "title": "FSRA publishes proposed total cost reporting rules for seg fund sector",
-      "source": "Investment Executive",
-      "date": "2026-06-19T07:00:00Z",
-      "topic": "Insurance AM",
-      "summary": "",
-      "link": "https://news.google.com/rss/articles/CBMivAFBVV95cUxNZU9sZ0tUMy0tVVJ0anNSX2NPeXlmbXc2OGxHUmlIaDA5eDBpV0JEOG5hQ1ltMHZXRVlrejBzak5UaXowZjZ5S0lxczY1b0tWVmZOa3BsUWhUblpLbE9nZkpBLTd4QmJMS2JNSFpvUjhaOVhHZEI5ekMyWmJSdENPTzlDLXNDYjF5alVYUkFuNHdfQ1lyRUZ1SzBILTE2WjlqTUV3a1RTYWxnbnpySm5XYmJ6Z3RmTHdxdV9CZw?oc=5",
       "isNew": false
     }
   ]
