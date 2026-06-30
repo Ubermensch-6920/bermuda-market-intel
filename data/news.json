@@ -1,5 +1,5 @@
 {
-  "updated": "2026-06-30T20:23:08Z",
+  "updated": "2026-06-30T22:44:14Z",
   "topics": [
     "Insurance AM",
     "Private Credit",
@@ -7,16 +7,6 @@
     "Structured Credit"
   ],
   "items": [
-    {
-      "id": "e1155e2fa3a1",
-      "title": "Weekly market commentary",
-      "source": "blackrock.com",
-      "date": "2026-06-29T19:00:27Z",
-      "topic": "Insurance AM",
-      "summary": "",
-      "link": "https://news.google.com/rss/articles/CBMiqgFBVV95cUxNUVRpWnpzel9vdWlfUTRyMGZwLVhXN2dmVDBNclBHRzhhNWx4MnVDSFBZNl8wZmxuZzlpZjZPTC0zMTZMRU9Udl9zWTB1X0FFR2ZBMGFQaWgydTVSY21qTzBkUWoyaTlGUHFJeVZybVZnb3d3YWoyRkZHeDVyLWszMmFPLUNZUmh0WUh3UG9ZejBFanRudmt5VV9YNmVSa1hmeWp2TE1CUWgtdw?oc=5",
-      "isNew": false
-    },
     {
       "id": "803109ff9e48",
       "title": "As the Playing Field Expands, Insurance Investors Must Stay Nimble",
@@ -35,6 +25,16 @@
       "topic": "Private Credit",
       "summary": "",
       "link": "https://news.google.com/rss/articles/CBMiwwFBVV95cUxQa3JySndwazF2OFlYRGxwbUplSTY4YVNDMVNkRS1PX2txYTRrcmpTUXF5YlFLZDJjTDE0dVF6NTl3Y2JCVFJ5OUtRbzJWbnJhazNsbDAtZXhZMmhwSFhzdlpDb2xiWjVkNTRuVndpaFVSZElUYU5rQWxIdm9OSG1TeUlmRTlLUy1qeGltOW1SeV94cWxyU3dSd052TVpsM05SekV5d2xHNjdKVVdleTdyQzRDcFpEVmx3OWdfSUxGd0JqbWc?oc=5",
+      "isNew": false
+    },
+    {
+      "id": "e1155e2fa3a1",
+      "title": "Weekly market commentary",
+      "source": "blackrock.com",
+      "date": "2026-06-29T07:00:00Z",
+      "topic": "Insurance AM",
+      "summary": "",
+      "link": "https://news.google.com/rss/articles/CBMiqgFBVV95cUxNUVRpWnpzel9vdWlfUTRyMGZwLVhXN2dmVDBNclBHRzhhNWx4MnVDSFBZNl8wZmxuZzlpZjZPTC0zMTZMRU9Udl9zWTB1X0FFR2ZBMGFQaWgydTVSY21qTzBkUWoyaTlGUHFJeVZybVZnb3d3YWoyRkZHeDVyLWszMmFPLUNZUmh0WUh3UG9ZejBFanRudmt5VV9YNmVSa1hmeWp2TE1CUWgtdw?oc=5",
       "isNew": false
     },
     {
@@ -218,6 +218,16 @@
       "isNew": false
     },
     {
+      "id": "57f5b97dce44",
+      "title": "How Changing Interest Rates Affect Bonds",
+      "source": "U.S. Bank",
+      "date": "2026-06-23T07:00:00Z",
+      "topic": "Rates & Macro",
+      "summary": "",
+      "link": "https://news.google.com/rss/articles/CBMiogFBVV95cUxOZFhSQmZsVVZfQUZjT2pUOEFvdUI3SzFacnlsem9WU2RqbGx2c2ZyVFljSHJkakNJZ2lvaUk3UnZtSmVKTDF0V25mZzV4Q1BKbURaT2FzbDZYVlc3VHZqVVQ3RUxzclYxcFQ4M2x0OW12Y3hiV2Y3OW1fejdGbmlUZnYwTTg0anBqeW82RVp2MzU2Y182NV9RQTgzamxhYTFtbnc?oc=5",
+      "isNew": false
+    },
+    {
       "id": "8ab12cce20d2",
       "title": "Central Bank Bond Purchases and the Price of Safety",
       "source": "Federal Reserve Bank of San Francisco",
@@ -295,16 +305,6 @@
       "topic": "Private Credit",
       "summary": "",
       "link": "https://news.google.com/rss/articles/CBMilAFBVV95cUxOX09wRTA1WS1Sb1c3N0hQYUZPbERGbEtvV3VlWmp2WWNSMWJJUmdjdUtsREhnZEUxSTJmTG9OUVBYMWdKZWlQY3k4WjZ6TTZ5Y3pVdmJBQ1lVT0w3eEs5X0JwZE9qRkdvVTRrTkNwMktzUXdubU5EdlJWV0lSbUUyT2ZDdmZIa3dCMTlCMkxocjc2dzRS?oc=5",
-      "isNew": false
-    },
-    {
-      "id": "fb4d3938cc32",
-      "title": "Should the European Central Bank slow down quantitative tightening?",
-      "source": "Bruegel",
-      "date": "2026-06-22T07:51:29Z",
-      "topic": "Rates & Macro",
-      "summary": "",
-      "link": "https://news.google.com/rss/articles/CBMimwFBVV95cUxONUFUb2JQQ2JwaFdMVy1IbFljaWRWbnNmUWtRb3JTcjdLNVU4MFNVd1FUWHZ3M2h3QzlEYXhfV0NobTl2dVp5cDdTQ2xsRFM0eGE3blNERDhKZUtFUDR4S2JMbGllZmtBMUhUTlpudVdMTUJTUXQ3NFV1c05OaTBheGJiTU9YTU8tODZKYjI4anNvOUY1VW50VmpNbw?oc=5",
       "isNew": false
     }
   ]
