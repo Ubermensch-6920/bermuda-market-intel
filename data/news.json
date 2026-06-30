@@ -1,5 +1,5 @@
 {
-  "updated": "2026-06-29T22:35:23Z",
+  "updated": "2026-06-30T04:38:34Z",
   "topics": [
     "Insurance AM",
     "Private Credit",
@@ -7,6 +7,16 @@
     "Structured Credit"
   ],
   "items": [
+    {
+      "id": "e1155e2fa3a1",
+      "title": "Weekly market commentary",
+      "source": "blackrock.com",
+      "date": "2026-06-29T19:00:27Z",
+      "topic": "Insurance AM",
+      "summary": "",
+      "link": "https://news.google.com/rss/articles/CBMiqgFBVV95cUxNUVRpWnpzel9vdWlfUTRyMGZwLVhXN2dmVDBNclBHRzhhNWx4MnVDSFBZNl8wZmxuZzlpZjZPTC0zMTZMRU9Udl9zWTB1X0FFR2ZBMGFQaWgydTVSY21qTzBkUWoyaTlGUHFJeVZybVZnb3d3YWoyRkZHeDVyLWszMmFPLUNZUmh0WUh3UG9ZejBFanRudmt5VV9YNmVSa1hmeWp2TE1CUWgtdw?oc=5",
+      "isNew": false
+    },
     {
       "id": "c71803efcb2c",
       "title": "European Bonds Outlook for Q3: What Investors Need to Know",
@@ -258,13 +268,13 @@
       "isNew": false
     },
     {
-      "id": "e1155e2fa3a1",
-      "title": "Weekly market commentary",
-      "source": "blackrock.com",
-      "date": "2026-06-22T07:00:00Z",
+      "id": "10640bb05e1c",
+      "title": "Swiss Re renames ILS investment management unit Swiss Re Insurance-Linked Strategies Inc.",
+      "source": "Artemis.bm",
+      "date": "2026-06-22T07:27:47Z",
       "topic": "Insurance AM",
       "summary": "",
-      "link": "https://news.google.com/rss/articles/CBMiqgFBVV95cUxNUVRpWnpzel9vdWlfUTRyMGZwLVhXN2dmVDBNclBHRzhhNWx4MnVDSFBZNl8wZmxuZzlpZjZPTC0zMTZMRU9Udl9zWTB1X0FFR2ZBMGFQaWgydTVSY21qTzBkUWoyaTlGUHFJeVZybVZnb3d3YWoyRkZHeDVyLWszMmFPLUNZUmh0WUh3UG9ZejBFanRudmt5VV9YNmVSa1hmeWp2TE1CUWgtdw?oc=5",
+      "link": "https://news.google.com/rss/articles/CBMiuAFBVV95cUxQc2thZVNLNXRIbnRsTkg1Y191MjdTbEJWTWFxN2pBVTBwSFZxNlVRZjFCUkl2dUQ1c0d2cUJCbldKSnNBbHotdjd5ZzhyVDF6RUJRMWF0Y0owNDhYLWx4am5lQVpEcXNicl80dDJCZnRfVkVhRlJINjVqUXQ2MEJnSVVBZHF5d3dnclcxeGpoNF9VanBMTGNPdUZZcjBvTUFYa19YMzNSMGpDSEhUangwd1NFR2JQTzVq?oc=5",
       "isNew": false
     },
     {
@@ -295,16 +305,6 @@
       "topic": "Insurance AM",
       "summary": "",
       "link": "https://news.google.com/rss/articles/CBMi6wFBVV95cUxQMENPeDZQRGdJaUNyUFZOWm00SkR6RUNwcHBRMzdBOXlBNHBtWGh0WWRmeDVoVTVZb1E1aEUxZEhiRTQ2RDJJMU5BaFdhcGZheFdXejdHQVNBV2MweVE2MzVUeGxrbGtXeE9Ec1F5TGVkQklMb1NmWUh0alVZZ19UbENqSFhUQk5RSVlEZjlORUkwSzA5cEZjbGI0YV9DNnV2TXdORl9ud3hvQ0p0UnFjSlBCSTNTU0U3Q290ajRFR3BxUzRaUXZYVUpWQjl3S3Raa08wb0M5MDJPOGxGSHpQNUcxWnVEYXh0OFpJ?oc=5",
-      "isNew": false
-    },
-    {
-      "id": "aab1072b4543",
-      "title": "Fed Holds Rates and Leans Toward Fighting Inflation With Future Increases",
-      "source": "The New York Times",
-      "date": "2026-06-21T07:00:00Z",
-      "topic": "Rates & Macro",
-      "summary": "",
-      "link": "https://news.google.com/rss/articles/CBMiiAFBVV95cUxOWlo2eWRfMHQzRGk2MTdTdkR4R3FLWHlxWjdRekZCOWRhWk42ajJxamdDcmZlbER4TzVxZlFMa0F5d0wycHVMejh1Qk1vTGtWQW1qV05HdXp6ZFFOd3FEOXdaRmw5ZC1HdDd6WGl1Q3NnOS0xc3Y0YUdyQ3htLUlzTVJqRG9oalZM?oc=5",
       "isNew": false
     }
   ]
