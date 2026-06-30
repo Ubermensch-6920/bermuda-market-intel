@@ -1,6 +1,16 @@
 {
-  "updated": "2026-06-30T14:47:34Z",
+  "updated": "2026-06-30T17:20:08Z",
   "naic": [
+    {
+      "id": "0ad19d7bf081",
+      "title": "The NAIC Data Breach: A Turning Point for Data Collection and Privacy in the Insurance Industry",
+      "date": "2026-06-30",
+      "cat": "General",
+      "summary": "",
+      "source": "JD Supra",
+      "link": "https://news.google.com/rss/articles/CBMihgFBVV95cUxOTnhrUWJwb012TGZ1TFJZTzNNM1FCTm9yUzFMY0VNMXZPOXFUdS12Nl9WQk52YnVPQTdWQlNrd2VmY0kxNDBVSWh2YThpQlV6dDI1OXJ0dXpUdEdJb0VQVThHOWNfdDFadzU1aFVWNmRGcUR4TWlUZ0hhbU5XRFZfREVGTUppZw?oc=5",
+      "isNew": true
+    },
     {
       "id": "c834c634413f",
       "title": "NAIC criticized regarding cybersecurity event",
@@ -240,19 +250,19 @@
       "source": "Beinsure",
       "link": "https://news.google.com/rss/articles/CBMiiwFBVV95cUxNYmd1bDY2bV9ac3ZTN0xaXzd1cWl2cGVNMW1UUTY4LTB5UHNpeG5yWGZjUTFBOXpfWW9FNkpFQlBsUkltenZVZ0pvcGpLZ05iQklBOU8zbjl6MTJoSXRBdWtQMGtzQWRLZEtoM1ItRTdQMlpPbWFBUXlqS3BOTFkyb3JkUHh6UzZzRzE0?oc=5",
       "isNew": false
-    },
-    {
-      "id": "910deea88fda",
-      "title": "Billionaire Boehly\u2019s Allies Donated Heavily to Kansas Insurance Regulator",
-      "date": "2026-05-14",
-      "cat": "General",
-      "summary": "",
-      "source": "Insurance Journal",
-      "link": "https://news.google.com/rss/articles/CBMidkFVX3lxTE5MVjhLbFNWLVU1QXFaRWVMMEdTYzcydVZRLWU4WkdITmxyeHdQeDdlakhYZW9iVXlZLUlCQmNkQzk4WVFtRFNHZHgtdDJja1ZiTHNIRnlXSlFxMGNxX2U5ZjV4VFZuSExQZC1MUVc4ZXpadGlYdUE?oc=5",
-      "isNew": false
     }
   ],
   "bma": [
+    {
+      "id": "eb30e015210a",
+      "title": "Investment fund wound up for repeated rule breaches",
+      "date": "2026-06-30",
+      "cat": "Investment",
+      "summary": "",
+      "source": "Royal Gazette | Bermuda",
+      "link": "https://news.google.com/rss/articles/CBMiygFBVV95cUxNZ3BKTUhMdEtodG1Ob3habzVsSi12NXZFRUh3SmZnd0pYUHJiU1JfWkozU2tOdFpXUmFtbWxpdUZPS0UzdUNqQmlFWmFFMERpWEpFVUNWVS11dERBRDY4aGtLQjNXWnI4ajAxQm1MdVpzZC10b2lXYl9QN0tVUy1LaUJaRnprYTNkdzRUcFBQOENxdWNZRm5kc0E2N1pKUklDOFh2dHRsUlVmX3YxZ3B3aGxLUWE2Z2V0Z3loYzdFSnNXU3g0RjdaMlV3?oc=5",
+      "isNew": true
+    },
     {
       "id": "4231bbf6ed1d",
       "title": "HCI joins tokenized catastrophe risk market",
@@ -491,16 +501,6 @@
       "summary": "",
       "source": "Royal Gazette | Bermuda",
       "link": "https://news.google.com/rss/articles/CBMiywFBVV95cUxQR2tvMkpTdURYcVlNUWd6NWRVLTBsTFJtMFc1T2NPQ3QyODZULV9INUpuaEhrQXFMT2F3aEhQVUVCVTdQLWpyOVZoM0dlb1J2SDdZalgyamhuNENUNGpfR0luM2wyX2JFbXpONjVmVzQ2Q2NpNWNyS3dQWlRaSWprcnFGelN1Z1F5SWhiT2lGenBTVWtvdzNRMklwOUcta19ucGZYWWQtRlFTWmNDTzhFbVpXWkRKX18zUXRJdDc4NTdjaUE2bVNRekhmVQ?oc=5",
-      "isNew": false
-    },
-    {
-      "id": "7f5488808ef5",
-      "title": "BMA softens ESG disclosure plans",
-      "date": "2026-04-06",
-      "cat": "Reporting",
-      "summary": "",
-      "source": "Royal Gazette | Bermuda",
-      "link": "https://news.google.com/rss/articles/CBMisAFBVV95cUxOZV9PSXNLQ1hFSlN5OFJBRHRNVlNJblhPTkR0OWxjRkZkTi1ad1UxVzYtbGxXU2N4MWVkWHpDVDJ0cTdBWmJYM3ptcm9ma2NlWlZpREcyTzRMR3NxYThqVUVJVlc3T2JqbmpwelFWY0NrcWpvNHdKeXcwQXhVaVVRYnd6S3k0V185Ul9aRE5VUXNKTXM3MlNjc2hyT3NUa3BPZExJeEZuTGpNMEdSUkcyYg?oc=5",
       "isNew": false
     }
   ],
