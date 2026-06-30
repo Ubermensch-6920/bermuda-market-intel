@@ -1,6 +1,16 @@
 {
-  "updated": "2026-06-30T10:05:38Z",
+  "updated": "2026-06-30T14:47:34Z",
   "naic": [
+    {
+      "id": "c834c634413f",
+      "title": "NAIC criticized regarding cybersecurity event",
+      "date": "2026-06-30",
+      "cat": "General",
+      "summary": "",
+      "source": "repairerdrivennews.com",
+      "link": "https://news.google.com/rss/articles/CBMilwFBVV95cUxORUZCS2FIcU9mMmFMRFRBSGh0UDIwLUFmX3ZzNVQtbVlSUjl4VUpJc21nVXZWY2pLZHlYNmZFajBaN2dtV1dYWnhoR18wQUJFS01jZTQ4d0NsaGM4cnBveFJhUDBpYlNoeE5lNUpJaU9GU2tHU2htLTZSTWxLcVlJc0U0UkxobVd3VEJKSTJLZVNEcllXcGE0?oc=5",
+      "isNew": true
+    },
     {
       "id": "b9cddd9e1cd9",
       "title": "3.1TB of NAIC data dumped on to the dark web",
@@ -239,16 +249,6 @@
       "summary": "",
       "source": "Insurance Journal",
       "link": "https://news.google.com/rss/articles/CBMidkFVX3lxTE5MVjhLbFNWLVU1QXFaRWVMMEdTYzcydVZRLWU4WkdITmxyeHdQeDdlakhYZW9iVXlZLUlCQmNkQzk4WVFtRFNHZHgtdDJja1ZiTHNIRnlXSlFxMGNxX2U5ZjV4VFZuSExQZC1MUVc4ZXpadGlYdUE?oc=5",
-      "isNew": false
-    },
-    {
-      "id": "20463f58cb04",
-      "title": "US Treasury and NAIC Regulators Tackle the Private Credit Pivot",
-      "date": "2026-05-13",
-      "cat": "Investment",
-      "summary": "",
-      "source": "The Global Treasurer",
-      "link": "https://news.google.com/rss/articles/CBMirwFBVV95cUxOUXBQUEdpQU9KM3FQM21OZVhQM0x5eTBOZkJBQjZfTW56RGkwczdnVUU3a0l1M1VuTlJxRTlPdVZGS0lLdng5ZEVXc1ZSRWVBWFNUaHNQdEVkcjFBTUh4WWo4TDRLendQUXNlNlZUaWJ6akx4WHNfUGc5TU1GaGVjckVrX1U4bE50NTY0amZOLWlreEZwT1VsMF9ETWw3ZmxpMDZEWkJTZnJBSXR2MDY0?oc=5",
       "isNew": false
     }
   ],
