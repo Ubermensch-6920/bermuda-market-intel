@@ -1,5 +1,5 @@
 {
-  "updated": "2026-07-01T17:27:44Z",
+  "updated": "2026-07-01T20:18:50Z",
   "naic": [
     {
       "id": "0ad19d7bf081",
@@ -182,6 +182,16 @@
       "isNew": true
     },
     {
+      "id": "f55d45a5820e",
+      "title": "May 2026 NAIC-Related Activity",
+      "date": "2026-06-05",
+      "cat": "General",
+      "summary": "",
+      "source": "Forvis Mazars US",
+      "link": "https://news.google.com/rss/articles/CBMiggFBVV95cUxNM2ZDVXBzVWM3SHJGNHdiaGFENGQyeWRpUVZndURVTHZVeUstT2tuVktOQjJJWmlpN2VZdzlyT0FGNHJJaWNaSzNHcEwzc1U4X0pXajhCaURIbklka2ttemczSVRPRnozTFNqSGxaazB3OTVnTEJkUjVSZzMzRnhOY1Nn?oc=5",
+      "isNew": true
+    },
+    {
       "id": "fd9fc11891e8",
       "title": "AI Governance Expectations on the Rise for Insurers Amid New Regulatory Activity: NYDFS Highlights Frontier Risks, Colorado Redefines its AI Law, and NAIC Prepares Regulators with New Tools | Hinshaw & Culbertson - Privacy, Cyber & AI Decoded",
       "date": "2026-06-05",
@@ -199,6 +209,16 @@
       "summary": "",
       "source": "JD Supra",
       "link": "https://news.google.com/rss/articles/CBMiiAFBVV95cUxQbERvSzg1aGpESjZZYUR5MVhSdVpFYnNLNjVQYzdMUVJMZm5FVHN3RW5OWmhTZm02SG90U18tNUlnLTRiMnlWVXBNRnM5bktiVjJLSTJIUEFYZnp1TEo5THdRd25fcVk1Q2hET0VtOEpQU3ZuU3ljalAtbUQyX0JsbjZGZ2kxZVpE?oc=5",
+      "isNew": true
+    },
+    {
+      "id": "a902f53038e5",
+      "title": "AI Governance Expectations on the Rise for Insurers Amid New Regulatory Activity",
+      "date": "2026-06-05",
+      "cat": "Governance",
+      "summary": "",
+      "source": "Hinshaw & Culbertson LLP",
+      "link": "https://news.google.com/rss/articles/CBMi6gFBVV95cUxNcDFZMk0yeUZzWUs5cWczX2Q5NnhwN3Z3cC1KTFpkU2RkeTBFU2txMUVmWk1wcnFHRFBtTHlQR3RNN20yRFNlUlFiV3kzYjQ4VDZvVkthWFprM1NITnlKOFRRQVVYczFMbkFCYUQ4Zk84Wm5ibjNxdTNIdE11WWtIamdCNjBndk1qSXIwbnVGU0xmQktLTlFMYkppNWxndDVRUUJzQ21qT29kRlR0VDQwNHkwYl9NVEtWODVBUWotYXRGc2QtSWllN1FIMzRheEZXenFEWlE5VEJuc0phLXpCSlFiSjkxb3lrcmc?oc=5",
       "isNew": true
     },
     {
@@ -229,26 +249,6 @@
       "summary": "",
       "source": "Insurify",
       "link": "https://news.google.com/rss/articles/CBMilgFBVV95cUxPaHFBcWdJbnhBdktOR3R5SGM0T1VvWkFZMW1GQlZkeFl1VnFRSUF4SVVDQ3BuVE03T1V4cFlMNWVKTWxvcHFPaUFPSWlkWVcxLU9ZVjVHMXZLZDZrdXpZeThqOWZYd1ptWEZ3R3A1Q1dzWS1CYW9ybzdmTW84MVFVaXg5bGhhcDdhOXpFTGlhenVlWU51VXc?oc=5",
-      "isNew": false
-    },
-    {
-      "id": "2044e7d90adc",
-      "title": "CCIR overhauls insurance OmbudServices oversight framework after decade",
-      "date": "2026-05-22",
-      "cat": "General",
-      "summary": "",
-      "source": "Insurance Business",
-      "link": "https://news.google.com/rss/articles/CBMi2wFBVV95cUxOeGpDREluWDJEQjdoeGdJdi14LTNpTnk5c2owd1cwMmdLTm1QTnBJZnZwcWpIZG5VbTBQSU52cEViZ2JuMGgzRnkzWnlkQWVXUmlvdVN1X2t2V093ZXRfTEZlZkVvT2NPaERIQmdKWUpZbUlFSWg5T0NDV29LQko1dVp4TUVzOTNwbkJtV0xHbzJhNVlrSUgya3FDc25BQmdGbTA0dldGQVBjWFZZSjdJUWVTdGNvcURRV1V3Y3B0QmJjYVBiTlU1ZDJZSWtOVVdJVEEwdUpFem9DWFE?oc=5",
-      "isNew": false
-    },
-    {
-      "id": "e469c9cb7dd0",
-      "title": "Iowa rewrites captive insurance rules, dangles tax break for new domiciles",
-      "date": "2026-05-20",
-      "cat": "General",
-      "summary": "",
-      "source": "Insurance Business",
-      "link": "https://news.google.com/rss/articles/CBMi5wFBVV95cUxNUXA1OV95SmQ5WXlCWDduMUdXQmdDQ09ORGQ1cTZhT3R3OTMtMDZEd2pmUXVGSzhGc1lnMVg1T0Jra3hOb3YzUEJnbVRtN0hFaWJjak01Y2h6bDNXN2dwT0wxTWt6VW1uaFRFZGNTNjNqbUljTWJmak95cTNmZlBnZmJIMGRhMW5mZHRYQVBrcVlOem13Rkd3aERybDlSYzJ4SEZYdzZaVXlwQkV0RUJFbGhlbGpiNnJUajc5X3dwRm84aWYtTi1RVXVaMXVmbWY0a3RlMHYwa3ZHUnFWRy0zNmVtUUxFbTg?oc=5",
       "isNew": false
     }
   ],
