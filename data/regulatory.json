@@ -1,5 +1,5 @@
 {
-  "updated": "2026-07-01T04:58:12Z",
+  "updated": "2026-07-01T10:18:30Z",
   "naic": [
     {
       "id": "0ad19d7bf081",
@@ -505,6 +505,16 @@
     }
   ],
   "cayman": [
+    {
+      "id": "d50a6675fe0c",
+      "title": "Regulator\u2019s reinsurance review finds corporate governance weaknesses",
+      "date": "2026-07-01",
+      "cat": "Governance",
+      "summary": "",
+      "source": "Cayman Compass",
+      "link": "https://news.google.com/rss/articles/CBMirgFBVV95cUxOVWdmX3c0N2F6UHZTRld2S1Z1dHVibHF6NV9VbkMtVWx2ZWVrb0ZabVpLcjRGemFmOWZxSTNWY2hNVjRvcXJjTG9CUW9jNGIydDlQTG1EeDZkaUVCY1I5S3pmazNQWi04MVdYR29OQ0trajcySWxSaUR5NEFLR1ducVJvUGNOQmNZUkE2NHdIUjFqZUhRZzQ1blcybzlieEw2YS15R0VCWTVrd0h4NUE?oc=5",
+      "isNew": true
+    },
     {
       "id": "a0edf2367151",
       "title": "What CIMA\u2019s 2026 Thematic Review means for Cayman reinsurers",

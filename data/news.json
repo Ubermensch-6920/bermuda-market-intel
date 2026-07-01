@@ -1,5 +1,5 @@
 {
-  "updated": "2026-07-01T04:58:12Z",
+  "updated": "2026-07-01T10:18:30Z",
   "topics": [
     "Insurance AM",
     "Private Credit",
@@ -7,6 +7,16 @@
     "Structured Credit"
   ],
   "items": [
+    {
+      "id": "5a4f78745d99",
+      "title": "Game, set, duration match: How real estate credit is serving an ace for insurers",
+      "source": "PERE Credit",
+      "date": "2026-07-01T02:00:39Z",
+      "topic": "Insurance AM",
+      "summary": "",
+      "link": "https://news.google.com/rss/articles/CBMiqAFBVV95cUxQbmtfWUI3MXo1MlBnZkp5alR2NWVIZzFPMl9Gd2JEUGRlc25PVU15T3E5M245TFA1OC1xX2RNWWJUOVN6R29iT0FXVmlwcV9ESU8tWDVyaXRjZjVsNmxLS2RMY1ZCc2paYmxwOS1ORWlYSWVsMHpaN211YThwdU1uNUNCYVdJUW9jMURXVlNFb0FGYklyMVpKMm1veU84R2o4eFVvb0E2R1c?oc=5",
+      "isNew": false
+    },
     {
       "id": "803109ff9e48",
       "title": "As the Playing Field Expands, Insurance Investors Must Stay Nimble",
@@ -295,16 +305,6 @@
       "topic": "Private Credit",
       "summary": "",
       "link": "https://news.google.com/rss/articles/CBMimwFBVV95cUxOSlFtVGR1VW5TR3NfTTVsZm1jTk1HSHgydDFoQWs1WnZ6Vnk3TjJuZ1hiUFh2eWcxMFdkQksxN21LNmhZbjRwZjBxc3BSbmxiVThFTk1BWmdHVzg5V01Uc054QnozTTVhbFBKUFpfZ3U0QlVhZ21UQXpqTGwzZmYzZ3hmZGtmSnc2R3NjdENpQW9hQWc3c1ZkT1hvVQ?oc=5",
-      "isNew": false
-    },
-    {
-      "id": "c58cb60a4c8a",
-      "title": "European insurers eye bigger private debt allocations",
-      "source": "Private Debt Investor",
-      "date": "2026-06-22T08:00:05Z",
-      "topic": "Private Credit",
-      "summary": "",
-      "link": "https://news.google.com/rss/articles/CBMilAFBVV95cUxOX09wRTA1WS1Sb1c3N0hQYUZPbERGbEtvV3VlWmp2WWNSMWJJUmdjdUtsREhnZEUxSTJmTG9OUVBYMWdKZWlQY3k4WjZ6TTZ5Y3pVdmJBQ1lVT0w3eEs5X0JwZE9qRkdvVTRrTkNwMktzUXdubU5EdlJWV0lSbUUyT2ZDdmZIa3dCMTlCMkxocjc2dzRS?oc=5",
       "isNew": false
     }
   ]
