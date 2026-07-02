@@ -1,6 +1,16 @@
 {
-  "updated": "2026-07-02T09:36:18Z",
+  "updated": "2026-07-02T14:33:33Z",
   "naic": [
+    {
+      "id": "e501ab483761",
+      "title": "NAIC vote pulls private credit CLOs into new risk-based capital regime",
+      "date": "2026-07-02",
+      "cat": "Capital/Solvency",
+      "summary": "",
+      "source": "Structured Credit Investor",
+      "link": "https://news.google.com/rss/articles/CBMixgFBVV95cUxOMDZQUk5UR2J1MzVPYjJtOEtFa1RkVFA1eGVXN1VlOTJBSFVnd1JlQUFDZ1FrRmFKbjJmY0FFUUlOYWY2eU5pVURBM0ZXMGozWGNKS1U3YjdGQmhiRTVIMThJdldGTDd2UnBPYmcyWjl2el9EWDdKaHA2WXBodTQzSmUwUUxHeVB5MVhQZlpvMXdiYzNRcnlqc2NaVW53WkJLV0toTm81eHdYa0hVYzdZNzJuQ295ZUY0RUhUOW1hUEVvMTdmNUE?oc=5",
+      "isNew": true
+    },
     {
       "id": "0ad19d7bf081",
       "title": "The NAIC Data Breach: A Turning Point for Data Collection and Privacy in the Insurance Industry",
@@ -240,16 +250,6 @@
       "source": "InsuranceNewsNet",
       "link": "https://news.google.com/rss/articles/CBMiqAFBVV95cUxPN0tUREdCOGRsWnhKVUR6d3haM29PRGtCeU83ZXROSVBjUk5ncTF5THhSbUZybmloME5MYnVSQjVaVnpXU3BZM3RyZ0Jzc3hqdC1rVFlzSDNqdHpQWnRmelBONEJkYjBrVnBhd2djMW1FWmJ2QUZ4cWl1cWhmY1F1MUpfMUJ6TDhEdW9KUEQ4U01heDhVS1FDd0J4MmlkLUJDN0NsU0M3TGw?oc=5",
       "isNew": true
-    },
-    {
-      "id": "d1dc9c199f50",
-      "title": "Insurance AI Under Fire for Alleged Racial Bias",
-      "date": "2026-05-26",
-      "cat": "Governance",
-      "summary": "",
-      "source": "Insurify",
-      "link": "https://news.google.com/rss/articles/CBMilgFBVV95cUxPaHFBcWdJbnhBdktOR3R5SGM0T1VvWkFZMW1GQlZkeFl1VnFRSUF4SVVDQ3BuVE03T1V4cFlMNWVKTWxvcHFPaUFPSWlkWVcxLU9ZVjVHMXZLZDZrdXpZeThqOWZYd1ptWEZ3R3A1Q1dzWS1CYW9ybzdmTW84MVFVaXg5bGhhcDdhOXpFTGlhenVlWU51VXc?oc=5",
-      "isNew": false
     }
   ],
   "bma": [
