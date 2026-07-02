@@ -1,5 +1,5 @@
 {
-  "updated": "2026-07-02T14:33:33Z",
+  "updated": "2026-07-02T17:05:52Z",
   "topics": [
     "Insurance AM",
     "Private Credit",
@@ -7,6 +7,36 @@
     "Structured Credit"
   ],
   "items": [
+    {
+      "id": "4c89116a1a72",
+      "title": "BrokerTec EU repo jumps 19% YoY for June",
+      "source": "Securities Finance Times",
+      "date": "2026-07-02T13:52:04Z",
+      "topic": "Rates & Macro",
+      "summary": "",
+      "link": "https://news.google.com/rss/articles/CBMimgFBVV95cUxNRVhscjJuV2docWstNldCallzc0xzN0FKTnIxa1Y3UnJiX2h6R0lIVDJDX1NEaEgtdUxzTTNkYW8yaWJ2OTYyRnU0V2lFbDFpRjBDVm1oZmNzSEx0WHhKRzRDRUVOaGU3UWJVa2I0cHZmdXIzRU42V0xnVzdLZjE5ZDBnZmxHelFfSy13YThPNzdWc19GNE5JX0Jn?oc=5",
+      "isNew": false
+    },
+    {
+      "id": "e0275c677638",
+      "title": "Japan government panel member calls for moderate BOJ rate hikes",
+      "source": "Reuters",
+      "date": "2026-07-02T06:27:00Z",
+      "topic": "Rates & Macro",
+      "summary": "",
+      "link": "https://news.google.com/rss/articles/CBMitAFBVV95cUxOOU82WlNIbkUxMjdQQ3VVWTJUZTNZV09IZEN0TWVjTm42MGowYWU2SmhudzRyQkRIZnd3NG9vdXZjaG10WHlCOFBhbEhwYlMyODNiWEhyT1VZb2xlbVpYRmZ1MkRabEJwZmhwcHRNb05EZmtaY3FjeHVjbTF5S21TdW9rb3hLem5jY0Iyc09UbWVFckpNWF9YQUozRWdxTHZDWnUxRTUySXlpQmtRYzFLSlpQd1E?oc=5",
+      "isNew": false
+    },
+    {
+      "id": "0241ccec0dab",
+      "title": "Macquarie Asset Management Surpasses $1.6 Billion in CLO Pricing",
+      "source": "Macquarie",
+      "date": "2026-07-02T05:48:08Z",
+      "topic": "Insurance AM",
+      "summary": "",
+      "link": "https://news.google.com/rss/articles/CBMirwFBVV95cUxPZFNVY2RqQVpBbGNhV3FNcEhqNmM3ZVhrZktFQkJxQ1BsLVR0TUxhN2EwbkZXRmNaTWQ0Rk1LeEltZGs3SDJmTHhTN0FiLVJuYVhxaTBjbU9KeEtqcUhhYWJsX3EtbkJFQThrY09tMTVubVBiUTRfYWhOWXJMZ2lZT1o4blFIcm1uM1ExTGhyOFhPYUJuUGl6R29ad2ZPbzM4Skcyak9Yd0JGMXBDRmVz?oc=5",
+      "isNew": false
+    },
     {
       "id": "3f1d9b0bf118",
       "title": "The blind spots in private credit",
@@ -275,36 +305,6 @@
       "topic": "Rates & Macro",
       "summary": "",
       "link": "https://news.google.com/rss/articles/CBMilAJBVV95cUxNOGxpekF2V1kwM1J3RFpkVHR5cTBxZUpWU1hKUVEzTF8zNzFWeU05SVRKOVY4ZjRSM0FmUFRfTE0yRHlHNGRieFJIMXNrTzBKeGN6aFJEcVNiR194dV9tSkwxaTJUTFZOOEc4Mm5YRFlvX1FjVlpLTjdvNFFZRTBubVYtb1MzcnQwaC1CRVA2aUlybzQ3dTFCazFobEItRjQzZlhYSjJLMzZTOW5FY2tNM1BCUFJISWswNjVzekFyNl9fVm05QnkyM2RiRFlTVklVZF9Mc3ZBckh5QW5aNHE0eHpXVHI2UVpKWURnMEl4NllIOGJrVi1OWlhhUktJMXBPS0RLSkw2My1PZW1IRG8yRlVDUi0?oc=5",
-      "isNew": false
-    },
-    {
-      "id": "43a3776c8896",
-      "title": "Principal Financial (PFG) Q1 2026 Earnings Call Transcript",
-      "source": "Fortune",
-      "date": "2026-06-25T06:37:12Z",
-      "topic": "Insurance AM",
-      "summary": "",
-      "link": "https://news.google.com/rss/articles/CBMic0FVX3lxTFA4RmFHa0Qzd2V0X1dFcUtlSXV6SFJkWWx0bXNGaVBZLVBFdk40b2pGajItZW9TeDlmUGtlMFhhSE9fQ3cyTm5IQUVScUhRSHNpSE5DOHhYQy1lZ1NCRnJHRVFkblVaa3lJRThPc1dQREN6Mkk?oc=5",
-      "isNew": false
-    },
-    {
-      "id": "597f982da274",
-      "title": "Japan's Major Insurers Will Continue Diversifying",
-      "source": "S&P Global",
-      "date": "2026-06-25T06:22:00Z",
-      "topic": "Insurance AM",
-      "summary": "",
-      "link": "https://news.google.com/rss/articles/CBMitAFBVV95cUxNdkZUbE1TOHJCRHpyNTZIdzJ4ZG5UVkp5WjZTTGtkSFh3a3lpWlBPZGRDUUpJZkQ5ejY4SDRrM19uSVJ0UUV5MTFRR2FDN2ZseWpka1diOTlja19EV3FIaUg1Mzc4dFBrZEhlSk9ITjBqTm93TFVtVDh3aFk3WHRxRzlQS3dWWjg4akh1TVJuVFBxb0JPMWo5TUhEVjVjVlR2bTI1UUtwY25SQ0tYSWVnQl9TNEc?oc=5",
-      "isNew": false
-    },
-    {
-      "id": "e9d3f8e27b5c",
-      "title": "Japan's Major Insurers Will Continue Diversifying",
-      "source": "S&P Global",
-      "date": "2026-06-25T06:22:00Z",
-      "topic": "Insurance AM",
-      "summary": "",
-      "link": "https://news.google.com/rss/articles/CBMiigFBVV95cUxOSEpxcWFQZUhDMnFXcmI4cE44d2RwYWpZOWN5bFpWUGFhM1FIWUUyYWV3NFNwNzFVSWVXMTZreUdoVExfOXJmcDhFck9BUllRdVkwLWNMeGxqU21DOTBEenY0cXR4MTdueHB3NmliTXIxRGFrakNxS3ZJX3ludXB3aks1NWQ2Uno2T2c?oc=5",
       "isNew": false
     }
   ]
