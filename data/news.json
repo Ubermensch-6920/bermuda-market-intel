@@ -1,5 +1,5 @@
 {
-  "updated": "2026-07-03T16:49:26Z",
+  "updated": "2026-07-03T19:53:37Z",
   "topics": [
     "Insurance AM",
     "Private Credit",
@@ -7,6 +7,16 @@
     "Structured Credit"
   ],
   "items": [
+    {
+      "id": "571cbd9281cf",
+      "title": "MISMO Updates Mortgage Insurance Standards To Support FICO 10T, VantageScore 4.0",
+      "source": "National Mortgage Professional",
+      "date": "2026-07-03T13:00:03Z",
+      "topic": "Private Credit",
+      "summary": "",
+      "link": "https://news.google.com/rss/articles/CBMivgFBVV95cUxNU0hYa2R0eGxQOTdpZndOYkc1Q2NWV3lXU3VwV2ttb2FhRTVmN2U1UkpCb1laZTdTWFYyNmJaVEJKeFpCQ3dYemtjMUF2WlJOamR2MEp0d3J2OUpwNkVmcjVhME50LWdSM3AxOUZpZ21iZGRrTmNKNkk0Q0hpamw0RGdlM3EtczBzR1pmclFRZHZNa0lFbGtsR2xFcHRILTZsZy1MczhCTFgwNFNocEtmNFoxS2NsckRKc0xXeXZB?oc=5",
+      "isNew": false
+    },
     {
       "id": "776ff5294d3d",
       "title": "Samsung Asset Management to boost infra exposure",
@@ -295,16 +305,6 @@
       "topic": "Rates & Macro",
       "summary": "",
       "link": "https://news.google.com/rss/articles/CBMi3AFBVV95cUxNbndYa2gzN2pJVW4zdTFkcDlpb0VEZU1ZM1d5Rk50aWhIZ1hXRnB3amRLOU1iSWszUU4zWnBoMVVKdXFpVDNyQlhCMXNKUnEwdzRLSHRXakt0TXlUSS1qdnF2YlpJSVY3UjlDVXhXT0xLOXhjLXB0dFFpQ2VnQUR6NDJEQzM5ZlJFbWwzbGZXOGJkalFaeFlBMjdFYlA5U0NNNDVXNURwN2JBMWdFdkNmYXg4aGs2NGE2ZDZWdnVOdGFQQmIwVnJCZXdacWctc0lvM1EtQ1hTbVd3S2xk?oc=5",
-      "isNew": false
-    },
-    {
-      "id": "bffd029942f6",
-      "title": "Private Credit Fund Stress Rises as PIK Loans Swell",
-      "source": "Bloomberg.com",
-      "date": "2026-06-26T11:23:49Z",
-      "topic": "Private Credit",
-      "summary": "",
-      "link": "https://news.google.com/rss/articles/CBMingFBVV95cUxOR1ZuN1BVVjdWazFzbmluUTdSd21OUW5PWGxlQ2ZhT1pNWndBaWNFUWFyQjBOWUs0RHhjb2REbmQ5RUV6cGd2dGlxRlRMckRjZTZlUy1raFRQS19oYzkzaE1TTUZiWllrUWRfbXctOWFfQ1h4a1VvREJod084SkZ3VnVDOGo3OUtwbzhhdUI3WjlKcHhTdVAwNjhRZG5kQQ?oc=5",
       "isNew": false
     }
   ]
