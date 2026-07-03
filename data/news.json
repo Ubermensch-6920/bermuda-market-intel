@@ -1,5 +1,5 @@
 {
-  "updated": "2026-07-03T04:13:35Z",
+  "updated": "2026-07-03T09:38:42Z",
   "topics": [
     "Insurance AM",
     "Private Credit",
@@ -7,6 +7,26 @@
     "Structured Credit"
   ],
   "items": [
+    {
+      "id": "776ff5294d3d",
+      "title": "Samsung Asset Management to boost infra exposure",
+      "source": "Infrastructure Investor",
+      "date": "2026-07-02T23:55:38Z",
+      "topic": "Insurance AM",
+      "summary": "",
+      "link": "https://news.google.com/rss/articles/CBMikgFBVV95cUxNSlFOdGg1NTJTUnQ5NU1RbGNJRzMtM1lzdzltTU9yOFlydmJLSVNXRzdoNWtwZldReDR5dUVONzduNnc5eTRYLWtYYjNRc3VjYlU1Q2puajhnYUZiWHNLODZxMHdRWnF3Tjh1MUgtR2V4R041QUZHWlUzelc3ZlNCbklRM214aEVMM1gtTUhRVnkzZw?oc=5",
+      "isNew": false
+    },
+    {
+      "id": "6d78145c75bd",
+      "title": "Watch TD Securities: Data Now Guiding Central Bank Rate Paths",
+      "source": "Bloomberg.com",
+      "date": "2026-07-02T20:25:28Z",
+      "topic": "Rates & Macro",
+      "summary": "",
+      "link": "https://news.google.com/rss/articles/CBMirgFBVV95cUxNVFV5bHdYY1ZlUk9WV3FvT1Y5Z0s1T3Jrd3NMQm1sZFJFZGRlRXNRSjgwaEVXR2VMMkgzV2ZwNy1xREV1YTZCVjczZk9wb1dTdDNGa2FpUmUyLW1STWdWdUJrazNabTVqQ29QOWo1RVNSaTBIS1ZMZ1pYa2pORlRKYVJxS01CbzZSZGJScG8wWFRKNEI5LVhWWlM3YXl4Vm9hYmdocUQ2QTRWQk10Z0E?oc=5",
+      "isNew": false
+    },
     {
       "id": "84bf4d7b1280",
       "title": "Sun Life completes acquisition of Bell Partners",
@@ -45,16 +65,6 @@
       "topic": "Rates & Macro",
       "summary": "",
       "link": "https://news.google.com/rss/articles/CBMitAFBVV95cUxOOU82WlNIbkUxMjdQQ3VVWTJUZTNZV09IZEN0TWVjTm42MGowYWU2SmhudzRyQkRIZnd3NG9vdXZjaG10WHlCOFBhbEhwYlMyODNiWEhyT1VZb2xlbVpYRmZ1MkRabEJwZmhwcHRNb05EZmtaY3FjeHVjbTF5S21TdW9rb3hLem5jY0Iyc09UbWVFckpNWF9YQUozRWdxTHZDWnUxRTUySXlpQmtRYzFLSlpQd1E?oc=5",
-      "isNew": false
-    },
-    {
-      "id": "6d78145c75bd",
-      "title": "Watch TD Securities: Data Now Guiding Central Bank Rate Paths",
-      "source": "Bloomberg.com",
-      "date": "2026-07-02T00:00:00Z",
-      "topic": "Rates & Macro",
-      "summary": "",
-      "link": "https://news.google.com/rss/articles/CBMirgFBVV95cUxNVFV5bHdYY1ZlUk9WV3FvT1Y5Z0s1T3Jrd3NMQm1sZFJFZGRlRXNRSjgwaEVXR2VMMkgzV2ZwNy1xREV1YTZCVjczZk9wb1dTdDNGa2FpUmUyLW1STWdWdUJrazNabTVqQ29QOWo1RVNSaTBIS1ZMZ1pYa2pORlRKYVJxS01CbzZSZGJScG8wWFRKNEI5LVhWWlM3YXl4Vm9hYmdocUQ2QTRWQk10Z0E?oc=5",
       "isNew": false
     },
     {
@@ -108,6 +118,16 @@
       "isNew": false
     },
     {
+      "id": "bdc6802f7efd",
+      "title": "Eurozone short-term bond yields ease as markets await Sintra policy signals",
+      "source": "Yahoo Finance UK",
+      "date": "2026-06-30T09:30:13Z",
+      "topic": "Rates & Macro",
+      "summary": "",
+      "link": "https://news.google.com/rss/articles/CBMihwFBVV95cUxOLUhhNDJWSnh6MWtnVjJqNGNVSmZmNlVidzBJaTNLdkhzYUxMSDlfWGtYMkFBanVLV2N0OUxZODhmVVhBbGVIWE9DcFdtTHowOVpoZlpHZHNxNk9IeDVja2tOLXIzdmZpcmh6WmptU1U1bTJ0TDR3aU9HQWdadEgxRXJya3ZHQjA?oc=5",
+      "isNew": false
+    },
+    {
       "id": "2162a29b2ae7",
       "title": "Cheapest Car Insurance Options in California 2026",
       "source": "WSJ",
@@ -115,6 +135,26 @@
       "topic": "Private Credit",
       "summary": "",
       "link": "https://news.google.com/rss/articles/CBMilAFBVV95cUxPaG45T2hhbFpZNVFFSEtXRVU5anQ4MHo4clc0eWVQTTFUZ0x2NVViY1AxZ3FYdlJOMjBVbW1kX3FvZFFCdVlZSlUyckxnM0FYck9KRTNqUDJDaVoxVkFjbEJRT2tncUY1Z2h5TjZxazRXVTYzZXYzODNCcWlVSmZxZHZsNDk2WnVNOV9MdGMyRnNYM0w1?oc=5",
+      "isNew": false
+    },
+    {
+      "id": "ed4cb102f41d",
+      "title": "What\u2019s happening this week in economics?",
+      "source": "Deloitte",
+      "date": "2026-06-30T07:00:00Z",
+      "topic": "Rates & Macro",
+      "summary": "",
+      "link": "https://news.google.com/rss/articles/CBMingFBVV95cUxNcV9VYnV0R0RPcWN0d2g1SHJIVlNmaVA1TV9nXzRKdVlFcWtSMjQ1T1B0djE4dDNRanZvSVFGX0ZBNUd6cnZkVnAtenFuMnFzdU9zYzg5cFdkTVRxU1F5YVVXVFhVWGdhd2RsTDBkNS1Xcm9ub1FnMFp5NnB3WVBYa3JJa1FVbG5IT0ZRRHphTUhtNThkenVJS1ZrdWNDdw?oc=5",
+      "isNew": false
+    },
+    {
+      "id": "cffd50ce3257",
+      "title": "17 Top Wealth Management Companies",
+      "source": "Built In",
+      "date": "2026-06-30T07:00:00Z",
+      "topic": "Insurance AM",
+      "summary": "",
+      "link": "https://news.google.com/rss/articles/CBMiZ0FVX3lxTE4wOVNLTDI4Nmo2bjhpUUZRb0JhLWRvVUJYZ1lhTTJOWHRPNFMybU9GMVhyb09DaVBIU2lIWWdjdGdYak82Vk5nZVRld00wLWRLOTg0UXBGUU5JekxTWFByUWxfd3Q5LUk?oc=5",
       "isNew": false
     },
     {
@@ -248,6 +288,16 @@
       "isNew": false
     },
     {
+      "id": "490d9bdd378b",
+      "title": "Week Ahead for FX, Bonds: U.S. Jobs Data in Focus as Markets Search for Clues on Fed Rate Path",
+      "source": "WSJ",
+      "date": "2026-06-26T12:12:00Z",
+      "topic": "Rates & Macro",
+      "summary": "",
+      "link": "https://news.google.com/rss/articles/CBMi3AFBVV95cUxNbndYa2gzN2pJVW4zdTFkcDlpb0VEZU1ZM1d5Rk50aWhIZ1hXRnB3amRLOU1iSWszUU4zWnBoMVVKdXFpVDNyQlhCMXNKUnEwdzRLSHRXakt0TXlUSS1qdnF2YlpJSVY3UjlDVXhXT0xLOXhjLXB0dFFpQ2VnQUR6NDJEQzM5ZlJFbWwzbGZXOGJkalFaeFlBMjdFYlA5U0NNNDVXNURwN2JBMWdFdkNmYXg4aGs2NGE2ZDZWdnVOdGFQQmIwVnJCZXdacWctc0lvM1EtQ1hTbVd3S2xk?oc=5",
+      "isNew": false
+    },
+    {
       "id": "bffd029942f6",
       "title": "Private Credit Fund Stress Rises as PIK Loans Swell",
       "source": "Bloomberg.com",
@@ -255,56 +305,6 @@
       "topic": "Private Credit",
       "summary": "",
       "link": "https://news.google.com/rss/articles/CBMingFBVV95cUxOR1ZuN1BVVjdWazFzbmluUTdSd21OUW5PWGxlQ2ZhT1pNWndBaWNFUWFyQjBOWUs0RHhjb2REbmQ5RUV6cGd2dGlxRlRMckRjZTZlUy1raFRQS19oYzkzaE1TTUZiWllrUWRfbXctOWFfQ1h4a1VvREJod084SkZ3VnVDOGo3OUtwbzhhdUI3WjlKcHhTdVAwNjhRZG5kQQ?oc=5",
-      "isNew": false
-    },
-    {
-      "id": "067941d38587",
-      "title": "Headway Capital Business Line of Credit Review 2026",
-      "source": "WSJ",
-      "date": "2026-06-26T07:00:00Z",
-      "topic": "Private Credit",
-      "summary": "",
-      "link": "https://news.google.com/rss/articles/CBMiqgFBVV95cUxPQmlXMzhkN0Z4U24tdGVmWTZob0ZUdnhlNXNNUU1YUTJsNmttSmRQcE0tVlpNc3c1YzIwcXVvQkVRMndZRVpXa2dyaGRHR2RFTThydU41RHV5TzQ0dUpfUGRoUUJmb19MUy0tR2wtSGxOMHptQk1NaU5IczNpM00xNy1VN29tYkhNd3FHNF9uM2VCTHRSY0RQdFJHT1NlMlJzSXk4LXN2TmN6UQ?oc=5",
-      "isNew": false
-    },
-    {
-      "id": "9950139d7c6a",
-      "title": "When will mortgage rates go down again? Inflation may stand in the way.",
-      "source": "Yahoo Finance",
-      "date": "2026-06-25T21:55:34Z",
-      "topic": "Rates & Macro",
-      "summary": "",
-      "link": "https://news.google.com/rss/articles/CBMi3gFBVV95cUxOdTgwanU2My14YW92NzF1cnViRC1KeTVIVGRTZlpJQnJrc3N4V2N4N2FOdUVVMWs1dkJFbkhUQk1RUTgzeW5LQndoUVloOUpld2VYVFVxODE1VF8tcmsweEV3Y3BETGVya0dETG9Dd0xNWkdLM1hpdHc0RU9WSGJWSE1TdkZFNkFIMjJUVzNzVEo0M0xtM3k3RGVrUkRCSHZpZE5IT1NScmpQZkQzM256OXptbkpVSlRBQzV5cy1GRDVSM2RiNGN1QnVOdUI3aUZObXFfQVNnTUpIR3RpZGc?oc=5",
-      "isNew": false
-    },
-    {
-      "id": "2aa0d6de90a1",
-      "title": "Japan banks hesitate to buy JGBs as BOJ steps back",
-      "source": "Nikkei Asia",
-      "date": "2026-06-25T16:52:00Z",
-      "topic": "Rates & Macro",
-      "summary": "",
-      "link": "https://news.google.com/rss/articles/CBMingFBVV95cUxOWGczTndjaHRERXRwSmRBM1MyZ0dGTklrOV9xVXRJTkpUTm0wNEhPbGhjTHlpckYxa1RXX3ZhYl83LVp1SlRIdmJtSGJPRkZNbkRyVHBfU1d6WllFOEVRREt4QWlKOEhvLWFFa1VwR2ZUM0Q0Vlp1Ym96ZU5icVg4MU9TZ09pLUJCUGtDcHl2bUlSakVrVWdjdDl6NEhsZw?oc=5",
-      "isNew": false
-    },
-    {
-      "id": "91e6bc1b7bba",
-      "title": "Bonds, Precious Metals Markets Converge on Inflation Concerns",
-      "source": "CME Group",
-      "date": "2026-06-25T14:42:11Z",
-      "topic": "Rates & Macro",
-      "summary": "",
-      "link": "https://news.google.com/rss/articles/CBMizgFBVV95cUxPaktwM19fNDcyN1pOc1NTU3dlNXJhcXFETmRFTmRiM25XS1dvTE5rVHVOMVZWYzFiajc4bUVDaFNjVXkyUXFzZXRFNzVqNmFCVUlybkx1aUhmNkh3SG5NMi1udVFKWGxoeS1EQ0lXcWNXd1dvX09RaTBTc25zX1JSU0xsOXZVejhaRTFmTlEyN1lnY0IzRXA2b0toQzY4bU9aSWlIdkVlRWMxMV9NTjlJOS02NVFpaDFIZk9MdG50Z3JkYzF5YUIxckdXZVI3dw?oc=5",
-      "isNew": false
-    },
-    {
-      "id": "a9fe11e4a51b",
-      "title": "US bond market expects rate hikes the Fed may never deliver",
-      "source": "Reuters",
-      "date": "2026-06-25T10:09:07Z",
-      "topic": "Rates & Macro",
-      "summary": "",
-      "link": "https://news.google.com/rss/articles/CBMirAFBVV95cUxOb2xYMVNxREhIRmpJUjdXV3BXWTE1SmJER1YwOXhJVGozUkdScTdnWWRXLUxmOHhwWnAyOTY0MU9VVm5tZWNzd1ZmRUJCZGpNQ1I5Y0RTODJQZGFTNG9LYVpvT3hLa29uSkRjVjNXNFFoQmtCdG9CMHpRbktQY2pXR3p3ZFg4YXpWd1NCQ3NsellISWpQbHNtVnl4WVM2cVlvV1cyWDBwMlZpV3Zs?oc=5",
       "isNew": false
     }
   ]
