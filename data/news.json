@@ -1,10 +1,9 @@
 {
-  "updated": "2026-07-04T11:04:53Z",
+  "updated": "2026-07-04T14:02:36Z",
   "topics": [
     "Insurance AM",
     "Private Credit",
-    "Rates & Macro",
-    "Structured Credit"
+    "Rates & Macro"
   ],
   "items": [
     {
@@ -48,6 +47,16 @@
       "isNew": false
     },
     {
+      "id": "f2576bdd0140",
+      "title": "When will mortgage rates go down again? The bond market may hold a signal.",
+      "source": "Yahoo Finance",
+      "date": "2026-07-02T17:47:23Z",
+      "topic": "Rates & Macro",
+      "summary": "",
+      "link": "https://news.google.com/rss/articles/CBMi3gFBVV95cUxOdTgwanU2My14YW92NzF1cnViRC1KeTVIVGRTZlpJQnJrc3N4V2N4N2FOdUVVMWs1dkJFbkhUQk1RUTgzeW5LQndoUVloOUpld2VYVFVxODE1VF8tcmsweEV3Y3BETGVya0dETG9Dd0xNWkdLM1hpdHc0RU9WSGJWSE1TdkZFNkFIMjJUVzNzVEo0M0xtM3k3RGVrUkRCSHZpZE5IT1NScmpQZkQzM256OXptbkpVSlRBQzV5cy1GRDVSM2RiNGN1QnVOdUI3aUZObXFfQVNnTUpIR3RpZGc?oc=5",
+      "isNew": false
+    },
+    {
       "id": "0241ccec0dab",
       "title": "Macquarie Asset Management Surpasses $1.6 Billion in CLO Pricing",
       "source": "Macquarie",
@@ -71,7 +80,7 @@
       "id": "e0275c677638",
       "title": "Japan government panel member calls for moderate BOJ rate hikes",
       "source": "Reuters",
-      "date": "2026-07-02T06:27:00Z",
+      "date": "2026-07-02T06:33:03Z",
       "topic": "Rates & Macro",
       "summary": "",
       "link": "https://news.google.com/rss/articles/CBMitAFBVV95cUxOOU82WlNIbkUxMjdQQ3VVWTJUZTNZV09IZEN0TWVjTm42MGowYWU2SmhudzRyQkRIZnd3NG9vdXZjaG10WHlCOFBhbEhwYlMyODNiWEhyT1VZb2xlbVpYRmZ1MkRabEJwZmhwcHRNb05EZmtaY3FjeHVjbTF5S21TdW9rb3hLem5jY0Iyc09UbWVFckpNWF9YQUozRWdxTHZDWnUxRTUySXlpQmtRYzFLSlpQd1E?oc=5",
@@ -295,16 +304,6 @@
       "topic": "Rates & Macro",
       "summary": "",
       "link": "https://news.google.com/rss/articles/CBMioAFBVV95cUxQX0F4bVRkRkRmZmNYUzFqWXcyaEVlOGZ2OW9UaXAwWF94N2FwY195NXpqZTRTZXU2QjZtZHczMU1iRG9jaF9ubjRablY0clh1d0M1WW1WTTlzLUtXaFFNRFNhWjkzTGMxUWN1QVh6eDRpM3V1RFFybHg0VGM5ckxhSFlyeWc4MGdqTi00Vzdkc20zRWZnZzNRdlluSTlwNDlV0gGgAUFVX3lxTFBfQXhtVGRGRGZmY1hTMWpZdzJoRWU4ZnY5b1RpcDBYX3g3YXBjX3k1emplNFNldTZCNm1kdzMxTWJEb2NoX25uNFpuVjRyWHV3QzVZbVZNOXMtS1doUU1EU2FaOTNMYzFRY3VBWHp4NGkzdXVEUXJseDRUYzlyTGFIWXJ5ZzgwZ2pOLTRXN2RzbTNFZmdnM1F2WW5JOXA0OVU?oc=5",
-      "isNew": false
-    },
-    {
-      "id": "68f71dfb8e0f",
-      "title": "Announcement: The Private Credit Intelligence Mapping",
-      "source": "Substack",
-      "date": "2026-06-26T16:53:47Z",
-      "topic": "Structured Credit",
-      "summary": "",
-      "link": "https://news.google.com/rss/articles/CBMijAFBVV95cUxOenRwWDRucW16SE1LRWlPVjlNTGJ1bVpYUEJnZHZjYTJpT0pPMjlXRXNfWDZpVlZlb1JreTVxekZJOXRNUkd5cDN0aFl3a3dNNzJ3VVRRSUFMcENnX1UzdDV2WEVZZXJMZ2ZoTUFiS1BRRHpJODNDZk1HdkJrak84SVowQW1udUpNWksxRA?oc=5",
       "isNew": false
     }
   ]
