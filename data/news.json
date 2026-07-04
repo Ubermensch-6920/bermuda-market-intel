@@ -1,9 +1,10 @@
 {
-  "updated": "2026-07-04T19:41:02Z",
+  "updated": "2026-07-04T22:15:11Z",
   "topics": [
     "Insurance AM",
     "Private Credit",
-    "Rates & Macro"
+    "Rates & Macro",
+    "Structured Credit"
   ],
   "items": [
     {
@@ -277,16 +278,6 @@
       "isNew": false
     },
     {
-      "id": "c0cc4f6cb813",
-      "title": "Many Life Insurers Lend to Private-Credit Funds They Invest In, Report Finds -- WSJ",
-      "source": "Moomoo",
-      "date": "2026-06-28T07:00:00Z",
-      "topic": "Private Credit",
-      "summary": "",
-      "link": "https://news.google.com/rss/articles/CBMiowFBVV95cUxPcVlTQVAtRGRtYkxsQkN1MjFiNjlsSTlMZ3hvZnBIdkExQndzZnlOM3B1M1VIRW1jWjQ5UkJRRVI0T3pEdlQ2QXZrUUduZy1oaDNrc2FsSkZ2NUg2ZFF6ZWNlVzZwbG1mMWFGRm9WTjdNdUdLX1J4MWZoazh0VzhBOWxvMkdfazJkS0RaRWpvR2d0XzIwYXlidnlkLS12NHlrbDZj?oc=5",
-      "isNew": false
-    },
-    {
       "id": "37cc77f763bb",
       "title": "Why investors may want to prioritize bond markets outside the U.S.",
       "source": "CNBC",
@@ -304,6 +295,16 @@
       "topic": "Rates & Macro",
       "summary": "",
       "link": "https://news.google.com/rss/articles/CBMioAFBVV95cUxQX0F4bVRkRkRmZmNYUzFqWXcyaEVlOGZ2OW9UaXAwWF94N2FwY195NXpqZTRTZXU2QjZtZHczMU1iRG9jaF9ubjRablY0clh1d0M1WW1WTTlzLUtXaFFNRFNhWjkzTGMxUWN1QVh6eDRpM3V1RFFybHg0VGM5ckxhSFlyeWc4MGdqTi00Vzdkc20zRWZnZzNRdlluSTlwNDlV0gGgAUFVX3lxTFBfQXhtVGRGRGZmY1hTMWpZdzJoRWU4ZnY5b1RpcDBYX3g3YXBjX3k1emplNFNldTZCNm1kdzMxTWJEb2NoX25uNFpuVjRyWHV3QzVZbVZNOXMtS1doUU1EU2FaOTNMYzFRY3VBWHp4NGkzdXVEUXJseDRUYzlyTGFIWXJ5ZzgwZ2pOLTRXN2RzbTNFZmdnM1F2WW5JOXA0OVU?oc=5",
+      "isNew": false
+    },
+    {
+      "id": "68f71dfb8e0f",
+      "title": "Announcement: The Private Credit Intelligence Mapping",
+      "source": "Substack",
+      "date": "2026-06-26T16:53:47Z",
+      "topic": "Structured Credit",
+      "summary": "",
+      "link": "https://news.google.com/rss/articles/CBMijAFBVV95cUxOenRwWDRucW16SE1LRWlPVjlNTGJ1bVpYUEJnZHZjYTJpT0pPMjlXRXNfWDZpVlZlb1JreTVxekZJOXRNUkd5cDN0aFl3a3dNNzJ3VVRRSUFMcENnX1UzdDV2WEVZZXJMZ2ZoTUFiS1BRRHpJODNDZk1HdkJrak84SVowQW1udUpNWksxRA?oc=5",
       "isNew": false
     }
   ]
