@@ -1,5 +1,5 @@
 {
-  "updated": "2026-07-03T22:20:37Z",
+  "updated": "2026-07-04T04:06:25Z",
   "naic": [
     {
       "id": "e501ab483761",
@@ -249,10 +249,20 @@
       "summary": "",
       "source": "S&P Global",
       "link": "https://news.google.com/rss/articles/CBMi7wFBVV95cUxPWC10RlRZQ2xKVmY4YnItNlM1WlYtYU00UmRHeDRrbF9qWWNpNDFPcWlsNGlVa1BRRzV0dTU4UkdHZGNtaHY5T0I0LUtNU2Y0VWFPbTZXb3pEeFo3eTN5U3V3UHZFSjN2d2ZWbE9uRmwtZzBLWnl4ak1ZXzFIaUdrZkVSU0ZHT2JpeWpZVURJY0ZTbFlXeWtxQ0psSFNhWWdFVF9IWXdBQ09rNDlQWXhjOU4xT3dUY3ZQUG9FMTJBT0t2Y3hpQkV6ZjR2U1V3d3B2T0M5d3U4TExEaGZoY3dOazVaZzlHLUx4Ym5JRWhlMA?oc=5",
-      "isNew": true
+      "isNew": false
     }
   ],
   "bma": [
+    {
+      "id": "fbf27abd4f84",
+      "title": "BMA Releases 2025 Annual Report",
+      "date": "2026-07-03",
+      "cat": "General",
+      "summary": "",
+      "source": "Bernews",
+      "link": "https://news.google.com/rss/articles/CBMibEFVX3lxTE1ndUMwb19HYU9HOFA4emVfelZra0FLbmZabXVwaHRtZ211SFJ2M3J0WnpDWi1Wb1dlTU1sdHNaR3M3aTJlMC1VUDJPNkthX0x4WmpQcUQwRi1EemsxVjM5UEJvTzByUDJ3cTdTdw?oc=5",
+      "isNew": true
+    },
     {
       "id": "eb30e015210a",
       "title": "Investment fund wound up for repeated rule breaches",
@@ -301,7 +311,7 @@
       "summary": "",
       "source": "Bernews",
       "link": "https://news.google.com/rss/articles/CBMic0FVX3lxTE52dEloN1pmUUE3RWtyaEUzVFAzYS02NnlILWxYNW5hRmNsUTdTN2R2R2I0WEdqZUZoZkZOU3luRV9ORHMtSEdxLVJtYk4xZ2FWcVhWMVk1NmVkUk44a0JrRm1oTXJhVVJ0Y0JCREQ3dFNBYUk?oc=5",
-      "isNew": true
+      "isNew": false
     },
     {
       "id": "dfd86ef5618e",
@@ -311,7 +321,7 @@
       "summary": "",
       "source": "Royal Gazette | Bermuda",
       "link": "https://news.google.com/rss/articles/CBMiuAFBVV95cUxPcl9iYU8yTXRseVotd0FMSmVURGpKMFFBc1JmYnBLWHhCRmtrOWFKdmhJVndpbUQtNFp6MndrZDRrbzVCemZvbkZ2SEZnMDBTVS1vUG01Wm9ldWQzajBJUTY5VmQ2MTBVWnJ0WldjR2h4YTVRZ1JuODdLdWQyVE83a3JuUUJBbTVYMDh3T1FHU2VKSEJlX242UjQ1dlBUd1N0eHc1NkZVU24ya01BZWNJQ2xhal9yNnNy?oc=5",
-      "isNew": true
+      "isNew": false
     },
     {
       "id": "aa842d8b4f06",
@@ -492,16 +502,6 @@
       "source": "Royal Gazette | Bermuda",
       "link": "https://news.google.com/rss/articles/CBMi0wFBVV95cUxQZzN4MGNhR3RfS2ZQY0FKRWlQN0xuT2tFbjVPa2JKOWo0X0J3RVJRdVNsNzhZZm5OTzBKYk55NmNNeHdaemhNaC0wVVZMZi1jX3JPZXhCMzdZZW8wdW5QZDE5SGtXVVlHZlhIUGxLRDhPSjFQdU9FY2k5TUFWY2VlSUJlb2Jqbmx3UGxUZHZRdHhzbGYxMk5la1o5Z0NNU2xVQTI5QXkyUjZoRnNVcGQxclQyLVV4VS1ybk82VThGLUc0ODEwdW1oRjNmS05fR2U5X0VF?oc=5",
       "isNew": false
-    },
-    {
-      "id": "ca1082c39c30",
-      "title": "Stronger rules help to fuel life sector\u2019s growth, says Biltir CEO",
-      "date": "2026-04-06",
-      "cat": "General",
-      "summary": "",
-      "source": "Royal Gazette | Bermuda",
-      "link": "https://news.google.com/rss/articles/CBMiywFBVV95cUxQR2tvMkpTdURYcVlNUWd6NWRVLTBsTFJtMFc1T2NPQ3QyODZULV9INUpuaEhrQXFMT2F3aEhQVUVCVTdQLWpyOVZoM0dlb1J2SDdZalgyamhuNENUNGpfR0luM2wyX2JFbXpONjVmVzQ2Q2NpNWNyS3dQWlRaSWprcnFGelN1Z1F5SWhiT2lGenBTVWtvdzNRMklwOUcta19ucGZYWWQtRlFTWmNDTzhFbVpXWkRKX18zUXRJdDc4NTdjaUE2bVNRekhmVQ?oc=5",
-      "isNew": false
     }
   ],
   "cayman": [
@@ -553,7 +553,7 @@
       "summary": "",
       "source": "africabusinessplus.com",
       "link": "https://news.google.com/rss/articles/CBMiqAFBVV95cUxNRDJ1ekQ1a0h5cDRzOVF3TkNjeFNRNzFnaFp2ODdvVjljZHV4V3EwSzVPdl9qOVhlbEdxd24xdVNVOGN6WHBUQy1raHVYNDdPNk8tZF8ycVhENHduQW5rdk9DandDZEpDdzc1WGpZbFlKLW1yeVBnbWdPV29zUzRMRXZrNk96SmpNWTJhcFVGMFd5T0UxSkZzbEVWaWdoRGkzaVl2QnZ0OS0?oc=5",
-      "isNew": true
+      "isNew": false
     },
     {
       "id": "f7ddcee848ac",
