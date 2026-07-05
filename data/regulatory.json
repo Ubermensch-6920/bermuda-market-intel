@@ -1,5 +1,5 @@
 {
-  "updated": "2026-07-05T16:22:34Z",
+  "updated": "2026-07-05T19:45:55Z",
   "naic": [
     {
       "id": "e501ab483761",
@@ -294,6 +294,16 @@
       "isNew": true
     },
     {
+      "id": "3c386112a75d",
+      "title": "Bermuda regulator expands conduct rules and tightens investment principles in consultation package",
+      "date": "2026-06-12",
+      "cat": "Investment",
+      "summary": "",
+      "source": "Captive Insurance Times",
+      "link": "https://news.google.com/rss/articles/CBMi8AFBVV95cUxQbVcxdHhuSTZsN0tEem1qdFZfbjl6SGpJQ1ZzWlJqdURDYVZvNE5TaU5nRkpFMUdmaVVuUGRremw0U2VEa283eGNKOF9TTlpqRlJod2pUUzQtejdTVU5LTk5KWFpvTkE3TDZMNThWdmlWZ01nWWl3TVNtT0EtS0J2RUlVemdrb2N6bURsV2NOV0tRZXlJMWZsY3JWeGNsOFZBVTBfUjJNVjhHN0ZETlluakJCcnpOc1hiUDk4TjRERVpoNnhwZ2J6SEpSSDdNWXh2UnVuUlUyVDlMbzA1ZS1Fcmo0ZWpESG1aNVhUQ3RzdnQ?oc=5",
+      "isNew": true
+    },
+    {
       "id": "286b674b1558",
       "title": "Walkers report says crypto narrative has shifted",
       "date": "2026-06-09",
@@ -491,16 +501,6 @@
       "summary": "",
       "source": "Captive International",
       "link": "https://news.google.com/rss/articles/CBMilgFBVV95cUxOY2N6d0RKVWUwdzRJaG1naDl2aVViaWtZSVNkNmIxYVpOUmV2aFNrLXg5V0dPZ2dQWUNSUm9CYkdWdzA1SHdRODdzODRLVEhnd1pYaXlWTFpMOGRFNzFFclQ3NjZYZ0dqdklhcVNVS0UxRlVKeXJuekFqUm1KNXNYSWVtMF9yQzQ0X25RXy1qYi03UWhfdUE?oc=5",
-      "isNew": false
-    },
-    {
-      "id": "f251c6a382b2",
-      "title": "BMA sets \u2018substance over form\u2019 approach for tokenised assets",
-      "date": "2026-04-10",
-      "cat": "Investment",
-      "summary": "",
-      "source": "Royal Gazette | Bermuda",
-      "link": "https://news.google.com/rss/articles/CBMi0wFBVV95cUxQZzN4MGNhR3RfS2ZQY0FKRWlQN0xuT2tFbjVPa2JKOWo0X0J3RVJRdVNsNzhZZm5OTzBKYk55NmNNeHdaemhNaC0wVVZMZi1jX3JPZXhCMzdZZW8wdW5QZDE5SGtXVVlHZlhIUGxLRDhPSjFQdU9FY2k5TUFWY2VlSUJlb2Jqbmx3UGxUZHZRdHhzbGYxMk5la1o5Z0NNU2xVQTI5QXkyUjZoRnNVcGQxclQyLVV4VS1ybk82VThGLUc0ODEwdW1oRjNmS05fR2U5X0VF?oc=5",
       "isNew": false
     }
   ],
