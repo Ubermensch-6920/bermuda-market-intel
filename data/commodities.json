@@ -6,8 +6,8 @@
     "spot_date": "",
     "spot_source": "TradingEconomics",
     "unit": "USD/troy oz",
-    "prior_1d": 4187.3,
-    "prior_1d_date": "2026-07-03",
+    "prior_1d": 4193.7,
+    "prior_1d_date": "2026-07-05",
     "prior_1m": 4337.1,
     "prior_1m_date": "2026-06-05",
     "prior_3m": 4656.8,
@@ -16,7 +16,7 @@
     "prior_1y_date": "2025-07-07",
     "futures": {
       "3M": {
-        "price": 4216.7,
+        "price": 4222.3,
         "expiry": "Oct 2026",
         "contract": "GCV26",
         "prior_1m": 4396.1,
@@ -76,7 +76,7 @@
     "prior_1y_date": "2025-07-07",
     "futures": {
       "3M": {
-        "price": 68.58,
+        "price": 68.39,
         "expiry": "Oct 2026",
         "contract": "CLV26",
         "prior_1m": 85.33,
@@ -242,5 +242,5 @@
     }
   },
   "note": "Spot history comes from daily FRED series. Futures history is roll-aware by target date. USD/INR uses FRED DEXINUS with Investing scrape fallback for latest spot.",
-  "_fetched": "2026-07-05T19:45:14.847256Z"
+  "_fetched": "2026-07-05T22:16:35.383720Z"
 }
