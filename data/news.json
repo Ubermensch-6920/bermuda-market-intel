@@ -1,11 +1,21 @@
 {
-  "updated": "2026-07-06T11:07:06Z",
+  "updated": "2026-07-06T15:58:49Z",
   "topics": [
     "Insurance AM",
     "Private Credit",
     "Rates & Macro"
   ],
   "items": [
+    {
+      "id": "8b1e43fb22d1",
+      "title": "Mubadala opens $25bn private credit portfolio to outside investors",
+      "source": "Alternative Credit Investor",
+      "date": "2026-07-06T11:54:30Z",
+      "topic": "Private Credit",
+      "summary": "",
+      "link": "https://news.google.com/rss/articles/CBMitgFBVV95cUxNN0ZtTXFZWTN3bVdPM0M4VGZZc25IZllaTlhvcHlQbUR3M1ZSWFlBNDAwN3VvUUdKQk1rYVJsNlZTWmI5cGhPa25SbUk5Q3oxSno0OURrclRub2J6NVB5S2V0MkpsYnd3Y214blRKbUxXZFA5ZVQ5WnpQNS1zNmZmeUpPR2ladllmU3hEZEtESnFIN3hBNk1GV3M4X2Z0dWxMa09nTE5TcEtVQ3ptNUJrdkJQSFRPQQ?oc=5",
+      "isNew": false
+    },
     {
       "id": "35150f02b6bf",
       "title": "Kevin Warsh faces rate hike pressure at first FOMC meeting",
@@ -147,6 +157,16 @@
       "isNew": false
     },
     {
+      "id": "579e38565b47",
+      "title": "Bank of Japan\u2019s monetary monster is finally turning on its maker",
+      "source": "Asia Times",
+      "date": "2026-07-01T09:58:18Z",
+      "topic": "Rates & Macro",
+      "summary": "",
+      "link": "https://news.google.com/rss/articles/CBMimgFBVV95cUxNTGxZWnp2QlpwOVNYQ09oNDlBQWd1V2cyZDJqbkZ5UnI2X1lWY0RmeWc4U1NBSjUtdWV2Q29mdXN1X1JyVzRCSHp5MktleFJ6Y2RDYXVUVzdvRXprUVRTWlkzalNPaHctVVNiVllNejdTUl9pWGJuMHdsWUZNTG1DZEN2bWFaS2R0QWZwYnA4XzFsX0tlT3hYZHNR?oc=5",
+      "isNew": false
+    },
+    {
       "id": "702ef618115a",
       "title": "Middle East shifts don\u2019t derail the case for bonds",
       "source": "UBS",
@@ -284,26 +304,6 @@
       "topic": "Insurance AM",
       "summary": "",
       "link": "https://news.google.com/rss/articles/CBMiqgFBVV95cUxNUVRpWnpzel9vdWlfUTRyMGZwLVhXN2dmVDBNclBHRzhhNWx4MnVDSFBZNl8wZmxuZzlpZjZPTC0zMTZMRU9Udl9zWTB1X0FFR2ZBMGFQaWgydTVSY21qTzBkUWoyaTlGUHFJeVZybVZnb3d3YWoyRkZHeDVyLWszMmFPLUNZUmh0WUh3UG9ZejBFanRudmt5VV9YNmVSa1hmeWp2TE1CUWgtdw?oc=5",
-      "isNew": false
-    },
-    {
-      "id": "c71803efcb2c",
-      "title": "European Bonds Outlook for Q3: What Investors Need to Know",
-      "source": "Morningstar",
-      "date": "2026-06-29T06:04:27Z",
-      "topic": "Rates & Macro",
-      "summary": "",
-      "link": "https://news.google.com/rss/articles/CBMimAFBVV95cUxOMEc2bWJORnA0UVVUYkd2dzBoNnQtM1lrd0tDSGc1ZS1YNjUwZGpYZGMtQVBMcVJSNXVWUlZKZnpCeGozaW5lU2Q3ZEJsZXZOLWdseFRKZ24wTHZyXzhURHB1X21mTmZiRzZHaFd2YWF1RUVPTUo2SlpIU0NkVFlBejdNRGxteDIxTmhhanZFc2FYQ2xXeF82dQ?oc=5",
-      "isNew": false
-    },
-    {
-      "id": "dd63e93c721b",
-      "title": "Bangladesh: Insurance industry needs stronger regulation, wider penetration and comprehensive reforms",
-      "source": "Asia Insurance Review",
-      "date": "2026-06-29T00:01:42Z",
-      "topic": "Insurance AM",
-      "summary": "",
-      "link": "https://news.google.com/rss/articles/CBMikAJBVV95cUxOdnBjWlRTTUJvcGcyeEVkWHcyRW5NWkxNR1paZEw1VTFkaFpoYVZLTmg4MTN2R1dEc19VVWVqMUxvbmlSX2JYVTAwUXVzN1NwblhhWlVaNjJZeUhibmRTQkhUTUJLbG1URWxnSWNrSUtWSnZvNzZrME93a3hYMVBPV0FKMjBva3F6T29vUG1qSVIxeloyaDZ0NnUwWG1MZGVGV2FLekZoczc2UzdPVGdIeXBGejlDYjVrTnFqa3hqQWJRWnk2Q0xFQUtkbWVNMnVpblVwX1l5d2NxTmtFVWhWM1JrazFfUkprR2FSZlIwUkZQZGJLSHdyWVk1QzVJMlloUVo0dWRWZXl1N3VGS1ZPYg?oc=5",
       "isNew": false
     }
   ]

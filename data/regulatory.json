@@ -1,5 +1,5 @@
 {
-  "updated": "2026-07-06T11:07:06Z",
+  "updated": "2026-07-06T15:58:49Z",
   "naic": [
     {
       "id": "e501ab483761",
@@ -42,16 +42,6 @@
       "isNew": true
     },
     {
-      "id": "b9cddd9e1cd9",
-      "title": "3.1TB of NAIC data dumped on to the dark web",
-      "date": "2026-06-29",
-      "cat": "General",
-      "summary": "",
-      "source": "Insurance Business",
-      "link": "https://news.google.com/rss/articles/CBMiqwFBVV95cUxPVktuTEo4bWJnVXNZbTZ6cGczUTBMRnhJZ2tQamJBWVlMSWRXTDVmLW1IajBSX1BFQWVMbktkSDBsbFEwWmlJUFBaRlJGTS1UYlJPNWtYOW5TVkdYZmRhT0k4eHRiU0RTd05YNzZHa3RHOV83aHUzOVMtT19NOHp6MXQxb2tmNWozTldYd0NlX3Q3Y1FXTUxodllRYk9fTDdzbEYzXzFkNGxhSUE?oc=5",
-      "isNew": true
-    },
-    {
       "id": "7c9f5aba40c5",
       "title": "Terabytes of data dumped on the dark web after US insurance regulator hacked",
       "date": "2026-06-28",
@@ -69,6 +59,16 @@
       "summary": "",
       "source": "Insurance Business",
       "link": "https://news.google.com/rss/articles/CBMi1gFBVV95cUxNckhtTHo3eGt5VGo0R1dsSDhES0FEZVBWWG9CVDVoNHo3NUxkMFVlSm45TUk1YU9WMjJ2MndKUFEzaDkyZC10SEhxa0Z3RE9ERFRsS01LWGY0Q3lFWXFWWURkWWN5RzRWZFdzNXZGS1FTclFzOEgwM19qY0ZrSDZlejdZa0RLc0NNLTd3WlNqazZIY2MxQ2Rkby00UjNBaXZFYTkwdFRzdlpzZWRTa0l5dVZFckd0eGJIRDVqWUp3Tk0wazZMZlc1NGRKbG1tcEpLV0h2MFhR?oc=5",
+      "isNew": true
+    },
+    {
+      "id": "b9cddd9e1cd9",
+      "title": "3.1TB of NAIC data dumped on to the dark web",
+      "date": "2026-06-28",
+      "cat": "General",
+      "summary": "",
+      "source": "Insurance Business",
+      "link": "https://news.google.com/rss/articles/CBMiqwFBVV95cUxPVktuTEo4bWJnVXNZbTZ6cGczUTBMRnhJZ2tQamJBWVlMSWRXTDVmLW1IajBSX1BFQWVMbktkSDBsbFEwWmlJUFBaRlJGTS1UYlJPNWtYOW5TVkdYZmRhT0k4eHRiU0RTd05YNzZHa3RHOV83aHUzOVMtT19NOHp6MXQxb2tmNWozTldYd0NlX3Q3Y1FXTUxodllRYk9fTDdzbEYzXzFkNGxhSUE?oc=5",
       "isNew": true
     },
     {
