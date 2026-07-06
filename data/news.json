@@ -1,11 +1,21 @@
 {
-  "updated": "2026-07-06T15:58:49Z",
+  "updated": "2026-07-06T20:17:58Z",
   "topics": [
     "Insurance AM",
     "Private Credit",
     "Rates & Macro"
   ],
   "items": [
+    {
+      "id": "51e07900c917",
+      "title": "Europe\u2019s central banks may come under political pressure, Panetta says",
+      "source": "WTVB",
+      "date": "2026-07-06T17:30:42Z",
+      "topic": "Rates & Macro",
+      "summary": "",
+      "link": "https://news.google.com/rss/articles/CBMioAFBVV95cUxPdFQtMkZUOEljSVFGYTVxbnJmS2RmRFVlTTZaNVRodUY5YWt3cUVUa0dEaGduYzdVNm0tWnF2eWpJQ28zTjFDMkNRUnh3ZkVwb3FFQ1FaekZKTEJnSnlzd0dqempwLTB5SG5PN2xNak1yQ2JoV1ZDU2E1M1pSc0NqMUIwR285LW1DZmVYanRYaE1ENmtzcGpIZXA3R3p3VWhv?oc=5",
+      "isNew": false
+    },
     {
       "id": "8b1e43fb22d1",
       "title": "Mubadala opens $25bn private credit portfolio to outside investors",
@@ -34,6 +44,16 @@
       "topic": "Private Credit",
       "summary": "",
       "link": "https://news.google.com/rss/articles/CBMivgFBVV95cUxNU0hYa2R0eGxQOTdpZndOYkc1Q2NWV3lXU3VwV2ttb2FhRTVmN2U1UkpCb1laZTdTWFYyNmJaVEJKeFpCQ3dYemtjMUF2WlJOamR2MEp0d3J2OUpwNkVmcjVhME50LWdSM3AxOUZpZ21iZGRrTmNKNkk0Q0hpamw0RGdlM3EtczBzR1pmclFRZHZNa0lFbGtsR2xFcHRILTZsZy1MczhCTFgwNFNocEtmNFoxS2NsckRKc0xXeXZB?oc=5",
+      "isNew": false
+    },
+    {
+      "id": "cc03249def14",
+      "title": "U.S. federal funds rate 2026",
+      "source": "Statista",
+      "date": "2026-07-03T07:00:00Z",
+      "topic": "Rates & Macro",
+      "summary": "",
+      "link": "https://news.google.com/rss/articles/CBMijwFBVV95cUxPV28taUdoN196T2U5SmpSbXhMUWxqYTJZMWtTakxxbDF0cFRkTldkMi1FTHZtdG1jZ0hVSXFKMnRHNHBxYThjS1VuNXVkcU5CUmhRbDFfcDBscU5VVHhDcE9aR0FXQlBDUUg1a0N0LV9ZeXU0VVBtNG5RUEE5Q1FFaVhIeTFxeXlRd2dJbkpOZw?oc=5",
       "isNew": false
     },
     {
@@ -284,26 +304,6 @@
       "topic": "Private Credit",
       "summary": "",
       "link": "https://news.google.com/rss/articles/CBMi6wFBVV95cUxPMGM3Rkk2dHAwYkdnM3ctSG9EZm9BRW0tNWZHU0Y5QU9JUUtMeU1naUcyLUYxeU1ybkV5T2pPRTNOXzVUdnNNeEhBQ0oxZHExZ0Vxd0JRSWR4eTRxQWlod2diNHJHWVlmZHllc094a3FmLWcyaFA3VXVGZ2dkRm80bUxJM2NiRDEwN3Q0TXA1ZXdNeWhSa1NpVW5qelZUWXo0amhpemZHMXJKMHc5RjFZQXREWFhFTXJ6SmFpLXpyY2JfdFdselpOOHRmbjJ2N2t3S1JIZFlRSWlxZkZZcjJrUERScFdTSksxOURn?oc=5",
-      "isNew": false
-    },
-    {
-      "id": "c533569c5f42",
-      "title": "The man who made 900% in 2008 is now shorting insurers",
-      "source": "Insurance Business",
-      "date": "2026-06-29T15:29:36Z",
-      "topic": "Private Credit",
-      "summary": "",
-      "link": "https://news.google.com/rss/articles/CBMiwwFBVV95cUxQa3JySndwazF2OFlYRGxwbUplSTY4YVNDMVNkRS1PX2txYTRrcmpTUXF5YlFLZDJjTDE0dVF6NTl3Y2JCVFJ5OUtRbzJWbnJhazNsbDAtZXhZMmhwSFhzdlpDb2xiWjVkNTRuVndpaFVSZElUYU5rQWxIdm9OSG1TeUlmRTlLUy1qeGltOW1SeV94cWxyU3dSd052TVpsM05SekV5d2xHNjdKVVdleTdyQzRDcFpEVmx3OWdfSUxGd0JqbWc?oc=5",
-      "isNew": false
-    },
-    {
-      "id": "e1155e2fa3a1",
-      "title": "Weekly market commentary",
-      "source": "blackrock.com",
-      "date": "2026-06-29T07:00:00Z",
-      "topic": "Insurance AM",
-      "summary": "",
-      "link": "https://news.google.com/rss/articles/CBMiqgFBVV95cUxNUVRpWnpzel9vdWlfUTRyMGZwLVhXN2dmVDBNclBHRzhhNWx4MnVDSFBZNl8wZmxuZzlpZjZPTC0zMTZMRU9Udl9zWTB1X0FFR2ZBMGFQaWgydTVSY21qTzBkUWoyaTlGUHFJeVZybVZnb3d3YWoyRkZHeDVyLWszMmFPLUNZUmh0WUh3UG9ZejBFanRudmt5VV9YNmVSa1hmeWp2TE1CUWgtdw?oc=5",
       "isNew": false
     }
   ]

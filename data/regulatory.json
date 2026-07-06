@@ -1,5 +1,5 @@
 {
-  "updated": "2026-07-06T15:58:49Z",
+  "updated": "2026-07-06T20:17:58Z",
   "naic": [
     {
       "id": "e501ab483761",
@@ -484,6 +484,16 @@
       "isNew": false
     },
     {
+      "id": "4807a559853a",
+      "title": "Top 10 AI Startups to Watch in Bermuda in 2026",
+      "date": "2026-04-10",
+      "cat": "Governance",
+      "summary": "",
+      "source": "nucamp.co",
+      "link": "https://news.google.com/rss/articles/CBMizAFBVV95cUxQcmRwcnhDNjZyWnhkbk5BQktiUWVwNk9qU1pncGpiR3JGOXpyajhqSHB4NmhQYnRQZzk1aFZzMjNVakN0WTlWZ3oxX05kWnhVQXlsMUZBS2U3YUxDOGhnVXU0NU94UXNFZDJtSDlDOGFWWTRlOXYwb3lKMWtfc1lHeFV1OUV5bmd6a3VGS2pCazNBZGw5SjdIMUgwUVdTSWsyQmFNM29Vb25rMHhraDlCeUNHblBoUjI1T2lLS1huUC1JSVRWalpfZ3RnWWE?oc=5",
+      "isNew": false
+    },
+    {
       "id": "8890f9eab908",
       "title": "Digital asset developments and Bermuda\u2019s regulatory readiness",
       "date": "2026-04-10",
@@ -491,16 +501,6 @@
       "summary": "",
       "source": "Royal Gazette | Bermuda",
       "link": "https://news.google.com/rss/articles/CBMiywFBVV95cUxOYjA2anRORW0tUS0zNnBSbzRJcjhncVl6cjBOOTdrNGJURGR1amZ0VzdzaHNicHBKaVZrdVFxLXY2cFJYN2pYRTBPZHpWV0dYWXlZZDZwQ1BJUlAzZHpsYkxRdDYyODhHR0JmMzdaY0EzSWtGTkVoQlR6ejZIN25aVzQ3NFFRVWFGejFob2JYbnliUUlseW8tQlFoX21WN1BiVFBWTDlGd3N1TmlzTlhkZWpUMDF5T2ZhRlZzN3dWZ2t2TFpNWVpiREZjYw?oc=5",
-      "isNew": false
-    },
-    {
-      "id": "248c91f12428",
-      "title": "Bermuda captives thrive on evolution, not just heritage",
-      "date": "2026-04-10",
-      "cat": "General",
-      "summary": "",
-      "source": "Captive International",
-      "link": "https://news.google.com/rss/articles/CBMilgFBVV95cUxOY2N6d0RKVWUwdzRJaG1naDl2aVViaWtZSVNkNmIxYVpOUmV2aFNrLXg5V0dPZ2dQWUNSUm9CYkdWdzA1SHdRODdzODRLVEhnd1pYaXlWTFpMOGRFNzFFclQ3NjZYZ0dqdklhcVNVS0UxRlVKeXJuekFqUm1KNXNYSWVtMF9yQzQ0X25RXy1qYi03UWhfdUE?oc=5",
       "isNew": false
     }
   ],
