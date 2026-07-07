@@ -1,11 +1,21 @@
 {
-  "updated": "2026-07-07T04:20:43Z",
+  "updated": "2026-07-07T10:05:11Z",
   "topics": [
     "Insurance AM",
     "Private Credit",
     "Rates & Macro"
   ],
   "items": [
+    {
+      "id": "6e7f68b211b8",
+      "title": "Big investors step up North American direct lending as retail money retreats",
+      "source": "AMWatch",
+      "date": "2026-07-07T05:59:37Z",
+      "topic": "Private Credit",
+      "summary": "",
+      "link": "https://news.google.com/rss/articles/CBMib0FVX3lxTE5uVGlPanlVWHhsRGx1Q2pVbi1OVE1hbWt4c3RKTUxjVHJ1Tm8tcjV2UUpnR2hQN21wQ1BpR2MySnJDQndRaHYwekpraDI0ZGp1ektHb1hibzA0X0tmTmRNcXBFZXVSWkJ6enNNMXNUMA?oc=5",
+      "isNew": false
+    },
     {
       "id": "51e07900c917",
       "title": "Europe\u2019s central banks may come under political pressure, Panetta says",
@@ -49,6 +59,16 @@
     {
       "id": "cc03249def14",
       "title": "U.S. federal funds rate 2026",
+      "source": "Statista",
+      "date": "2026-07-03T07:00:00Z",
+      "topic": "Rates & Macro",
+      "summary": "",
+      "link": "https://news.google.com/rss/articles/CBMijwFBVV95cUxPV28taUdoN196T2U5SmpSbXhMUWxqYTJZMWtTakxxbDF0cFRkTldkMi1FTHZtdG1jZ0hVSXFKMnRHNHBxYThjS1VuNXVkcU5CUmhRbDFfcDBscU5VVHhDcE9aR0FXQlBDUUg1a0N0LV9ZeXU0VVBtNG5RUEE5Q1FFaVhIeTFxeXlRd2dJbkpOZw?oc=5",
+      "isNew": false
+    },
+    {
+      "id": "6ead493d8f4e",
+      "title": "Monthly fed funds effective rate in the U.S. 1954-2026",
       "source": "Statista",
       "date": "2026-07-03T07:00:00Z",
       "topic": "Rates & Macro",
@@ -187,6 +207,16 @@
       "isNew": false
     },
     {
+      "id": "f6ec09fdb7e4",
+      "title": "Q3 2026 investment outlook: Solid growth endures as policy and geopolitics shift",
+      "source": "U.S. Bank",
+      "date": "2026-07-01T07:00:00Z",
+      "topic": "Rates & Macro",
+      "summary": "",
+      "link": "https://news.google.com/rss/articles/CBMijwFBVV95cUxOdHd4RWhId2p6U0diY2tMUDRWV0NOOTJsTGdudzI3UU1qLS1pbWhvTGVScW85aHNQc1JrTFZxUUU0d3hSWlQ0djRJQWFpT1MxWFhFcTc3RzVoUjhpS3ZfMDZ6STdia1NFZ21WdFlOX3JWQXZCUFNHdTdPVEs5YzdwX1hyalBNY3F0VHgwcDRzNA?oc=5",
+      "isNew": false
+    },
+    {
       "id": "702ef618115a",
       "title": "Middle East shifts don\u2019t derail the case for bonds",
       "source": "UBS",
@@ -274,36 +304,6 @@
       "topic": "Insurance AM",
       "summary": "",
       "link": "https://news.google.com/rss/articles/CBMi6AFBVV95cUxOZ09ZX0VUckliT0kyZHc5TzdZdkFNc0twcjBjZWpxVXR2MXdXUmNvaklmSUJOVTMwdVBnSExEbU52dmxYRkJacmpjMDdtbU1mS2ZpRUY3LWFFUC1hZTFocUF5bDlvdjlTV3otZ193QTI4OHFPTlJ5dUlYR0hfZ2RZRDc1cU1iWVlJaGREajkyaFJsLXZhVk91ZGdPd2JKLWp4QTI2QWVYc1RzZXdrcjZKdEFlZnlLZy16RTNDa2RHLWE3RlNOTGdVenMyV1dYLXo3S1FsbWhNUFk1SFlNOXFoMW4xOXZtel9D?oc=5",
-      "isNew": false
-    },
-    {
-      "id": "1a871025ca0c",
-      "title": "As the Playing Field Expands, Insurance Investors Must Stay Nimble",
-      "source": "AllianceBernstein",
-      "date": "2026-06-29T17:34:52Z",
-      "topic": "Private Credit",
-      "summary": "",
-      "link": "https://news.google.com/rss/articles/CBMi8AFBVV95cUxNOG9hd2gzNXJubU1YOTktR3plemk2TTJGYUFCX2xPYVJVYjRmQUVwWHpLRnFNTU9uWXktVTdQUERZUWhvUXQ3RlFKX0JxVHc1NElKRE5jcWNTWVp0LVhkVTRNdUxSOE0xMzlwY3VyQ0VSUkZfVjkzYnMyRjhkaC1hUWFlUWVPXzE5SjRnY0FXRE81alJFd1lYVndxMzB4dFRNcVZXaDBTMW9xZU5OdzlVZlRCRmtqUV8zYlFHWTNMaHBkSG12WFVZODhESXlrdVFxTVlfcnFXelVSdlNGdEZMenFxakpoWHNLZXp3RTh4Z3k?oc=5",
-      "isNew": false
-    },
-    {
-      "id": "7fc70800ec8f",
-      "title": "As the Playing Field Expands, Insurance Investors Must Stay Nimble",
-      "source": "AllianceBernstein",
-      "date": "2026-06-29T16:05:01Z",
-      "topic": "Insurance AM",
-      "summary": "",
-      "link": "https://news.google.com/rss/articles/CBMi4AFBVV95cUxPcWI0OTBFRUlZLW16OW5fREJHUm9PWFh3WkQzVGZPUTRFbnZOazREOVBJS3lpaDh4X3o0X3NxbGZJWU1RWkpEb0lFa0h5SGhjaEZtWm5DTUlqN2hGbW9WYm1LaHRwbl9wdnA1dXNzNG9KU25tUlhQUVQ0WHhwQWJ0LTY2Y0lmV3R0X1JWS3p6V0s2UkpTMTBFajZrVUh0STM2MHk2ZzEzaU5hNlBxUGY1Y2NvRWZpLWh2eHYxVzZvSkNZTjdJU2Uwb3pnQlVBa2lVTXFSeVNySUlLeXNpWjZueg?oc=5",
-      "isNew": false
-    },
-    {
-      "id": "803109ff9e48",
-      "title": "As the Playing Field Expands, Insurance Investors Must Stay Nimble",
-      "source": "AllianceBernstein",
-      "date": "2026-06-29T15:43:49Z",
-      "topic": "Private Credit",
-      "summary": "",
-      "link": "https://news.google.com/rss/articles/CBMi6wFBVV95cUxPMGM3Rkk2dHAwYkdnM3ctSG9EZm9BRW0tNWZHU0Y5QU9JUUtMeU1naUcyLUYxeU1ybkV5T2pPRTNOXzVUdnNNeEhBQ0oxZHExZ0Vxd0JRSWR4eTRxQWlod2diNHJHWVlmZHllc094a3FmLWcyaFA3VXVGZ2dkRm80bUxJM2NiRDEwN3Q0TXA1ZXdNeWhSa1NpVW5qelZUWXo0amhpemZHMXJKMHc5RjFZQXREWFhFTXJ6SmFpLXpyY2JfdFdselpOOHRmbjJ2N2t3S1JIZFlRSWlxZkZZcjJrUERScFdTSksxOURn?oc=5",
       "isNew": false
     }
   ]
