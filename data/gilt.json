@@ -1,5 +1,5 @@
 {
-  "date": "2026-07-06",
+  "date": "2026-07-07",
   "prior_date": "",
   "source": "Investing.com / TradingEconomics / FRED / cache",
   "url": "https://www.investing.com/rates-bonds/uk-government-bonds",
@@ -20,8 +20,8 @@
     4.21,
     4.32,
     4.51,
-    4.79,
-    5.125,
+    4.81,
+    5.135,
     5.46,
     5.54
   ],
@@ -37,15 +37,15 @@
     null
   ],
   "prior_1m_yields": [
-    4.233,
+    4.239,
     4.383,
-    4.44,
-    4.505,
-    4.68,
-    4.937,
+    4.439,
+    4.51,
+    4.682,
+    4.942,
     null,
-    5.572,
-    5.627
+    5.571,
+    5.628
   ],
   "prior_1m_date": "TE month delta reconstruction",
   "prior_3m_yields": [
@@ -61,17 +61,17 @@
   ],
   "prior_3m_date": "2026-04-09",
   "year_ago_yields": [
-    3.791,
+    3.798,
     3.867,
-    3.861,
-    4.016,
-    4.18,
-    4.587,
+    3.86,
+    4.021,
+    4.182,
+    4.591,
     null,
-    5.279,
-    5.386
+    5.278,
+    5.387
   ],
   "year_ago_date": "TE year delta reconstruction",
   "note": "Official BoE daily archive first; then market scrapes; then local history / cache.",
-  "_fetched": "2026-07-06T22:38:29.463303Z"
+  "_fetched": "2026-07-07T04:16:40.823291Z"
 }
