@@ -1,5 +1,5 @@
 {
-  "updated": "2026-07-07T15:19:04Z",
+  "updated": "2026-07-07T17:31:51Z",
   "topics": [
     "Insurance AM",
     "Private Credit",
@@ -17,6 +17,16 @@
       "isNew": false
     },
     {
+      "id": "3cf6285404d6",
+      "title": "Abacus Global Management to Tokenize Secondary Life Insurance Assets, Bringing On-Chain Infrastructure to Its Portfolio",
+      "source": "The Globe and Mail",
+      "date": "2026-07-07T12:00:00Z",
+      "topic": "Insurance AM",
+      "summary": "",
+      "link": "https://news.google.com/rss/articles/CBMirAJBVV95cUxNRUMzUFFHR1ItNndEV25Nbk5pWDd0QjNkbGIybVVZRTNBdmVSQkpDTXc3Ym5TMHhjY3pXbUI0bm9WZkJtakZfcUZuTnBqdnRybEhUQ2xIMGdLdERfRl9WUTN3YkZmeERkNkpvMGdSUDlKSVpSNkNnSzBlS3U5S0k0Ty01Nl9rb1F3YnlhNlNmYkpfNXJLa1A1U3RSRnF4QWpOMnY5Y3lCcV93TjY3cmxrdDZnVzdnNFVmOUJ2eV9McEhMVlpCRGFHeWFrMDhXRlowV0k1X21sd21DVjF6VkJBellCMlAxazRMem5FdVJ0UlBnYUNrWVpkMFhucTkwejhGa0JkWV9leFNpLWxwT09PUUNrVnlKUjFPbzdqQ1NmYmRrTzZvaFQxZUplOGc?oc=5",
+      "isNew": false
+    },
+    {
       "id": "6e7f68b211b8",
       "title": "Big investors step up North American direct lending as retail money retreats",
       "source": "AMWatch",
@@ -24,6 +34,16 @@
       "topic": "Private Credit",
       "summary": "",
       "link": "https://news.google.com/rss/articles/CBMib0FVX3lxTE5uVGlPanlVWHhsRGx1Q2pVbi1OVE1hbWt4c3RKTUxjVHJ1Tm8tcjV2UUpnR2hQN21wQ1BpR2MySnJDQndRaHYwekpraDI0ZGp1ektHb1hibzA0X0tmTmRNcXBFZXVSWkJ6enNNMXNUMA?oc=5",
+      "isNew": false
+    },
+    {
+      "id": "7adb1840820b",
+      "title": "Japan pushes back on views it is pressuring BOJ to keep rates low",
+      "source": "Reuters",
+      "date": "2026-07-07T04:45:00Z",
+      "topic": "Rates & Macro",
+      "summary": "",
+      "link": "https://news.google.com/rss/articles/CBMitAFBVV95cUxOQlFndGJYaUNpcWt2S3prUFZYcHhKaTA4QWxnY3BTblpZaWtwbHctc1E2NFBVTGRtWE9PcmlNS2hRamJCRk5jVzlYWTNrbzRPWG5WM2pTVjV2UllmbkZ6czktc0Q0NDFYc3pRdHJmVEMyb25GbzdTbjUzYzlxQkhCRDVfV2xmMHFhMmZVbWVsalJsbGctNGZTSTFmMmM5SThFSlJRVmR1enQ0OWt4dXJqR2VmOGc?oc=5",
       "isNew": false
     },
     {
@@ -284,26 +304,6 @@
       "topic": "Rates & Macro",
       "summary": "",
       "link": "https://news.google.com/rss/articles/CBMihwFBVV95cUxOLUhhNDJWSnh6MWtnVjJqNGNVSmZmNlVidzBJaTNLdkhzYUxMSDlfWGtYMkFBanVLV2N0OUxZODhmVVhBbGVIWE9DcFdtTHowOVpoZlpHZHNxNk9IeDVja2tOLXIzdmZpcmh6WmptU1U1bTJ0TDR3aU9HQWdadEgxRXJya3ZHQjA?oc=5",
-      "isNew": false
-    },
-    {
-      "id": "2162a29b2ae7",
-      "title": "Cheapest Car Insurance Options in California 2026",
-      "source": "WSJ",
-      "date": "2026-06-30T07:13:52Z",
-      "topic": "Private Credit",
-      "summary": "",
-      "link": "https://news.google.com/rss/articles/CBMilAFBVV95cUxPaG45T2hhbFpZNVFFSEtXRVU5anQ4MHo4clc0eWVQTTFUZ0x2NVViY1AxZ3FYdlJOMjBVbW1kX3FvZFFCdVlZSlUyckxnM0FYck9KRTNqUDJDaVoxVkFjbEJRT2tncUY1Z2h5TjZxazRXVTYzZXYzODNCcWlVSmZxZHZsNDk2WnVNOV9MdGMyRnNYM0w1?oc=5",
-      "isNew": false
-    },
-    {
-      "id": "ed4cb102f41d",
-      "title": "What\u2019s happening this week in economics?",
-      "source": "Deloitte",
-      "date": "2026-06-30T07:00:00Z",
-      "topic": "Rates & Macro",
-      "summary": "",
-      "link": "https://news.google.com/rss/articles/CBMingFBVV95cUxNcV9VYnV0R0RPcWN0d2g1SHJIVlNmaVA1TV9nXzRKdVlFcWtSMjQ1T1B0djE4dDNRanZvSVFGX0ZBNUd6cnZkVnAtenFuMnFzdU9zYzg5cFdkTVRxU1F5YVVXVFhVWGdhd2RsTDBkNS1Xcm9ub1FnMFp5NnB3WVBYa3JJa1FVbG5IT0ZRRHphTUhtNThkenVJS1ZrdWNDdw?oc=5",
       "isNew": false
     }
   ]
