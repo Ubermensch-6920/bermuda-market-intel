@@ -2,7 +2,7 @@
   "date": "2026-07-08",
   "source": "FRED / TradingEconomics / Investing / Yahoo Finance",
   "gold": {
-    "spot": 4067.1,
+    "spot": 4051.94,
     "spot_date": "",
     "spot_source": "TradingEconomics",
     "unit": "USD/troy oz",
@@ -16,7 +16,7 @@
     "prior_1y_date": "2025-07-08",
     "futures": {
       "3M": {
-        "price": 4113.2,
+        "price": 4088.7,
         "expiry": "Oct 2026",
         "contract": "GCV26",
         "prior_1m": 4394.3,
@@ -27,7 +27,7 @@
         "prior_3m_contract": "GCQ26"
       },
       "6M": {
-        "price": 4181.8,
+        "price": 4154.1,
         "expiry": "Feb 2027",
         "contract": "GCG27",
         "prior_1m": 4427.3,
@@ -76,7 +76,7 @@
     "prior_1y_date": "2025-07-08",
     "futures": {
       "3M": {
-        "price": 73.43,
+        "price": 73.11,
         "expiry": "Oct 2026",
         "contract": "CLV26",
         "prior_1m": 86.99,
@@ -87,7 +87,7 @@
         "prior_3m_contract": "CLN26"
       },
       "6M": {
-        "price": 71.6,
+        "price": 71.24,
         "expiry": "Jan 2027",
         "contract": "CLF27",
         "prior_1m": 81.45,
@@ -98,7 +98,7 @@
         "prior_3m_contract": "CLV26"
       },
       "12M": {
-        "price": 69.09,
+        "price": 69.41,
         "expiry": "Jul 2027",
         "contract": "CLN27",
         "prior_1m": 76.47,
@@ -136,7 +136,7 @@
     "prior_1y_date": "2025-07-08",
     "futures": {
       "3M": {
-        "price": 77.77,
+        "price": 77.64,
         "expiry": "Oct 2026",
         "contract": "BZV26",
         "prior_1m": 92.25,
@@ -147,7 +147,7 @@
         "prior_3m_contract": "BZN26"
       },
       "6M": {
-        "price": 76.05,
+        "price": 75.9,
         "expiry": "Jan 2027",
         "contract": "BZF27",
         "prior_1m": 87.17,
@@ -242,5 +242,5 @@
     }
   },
   "note": "Spot history comes from daily FRED series. Futures history is roll-aware by target date. USD/INR uses FRED DEXINUS with Investing scrape fallback for latest spot.",
-  "_fetched": "2026-07-08T08:47:07.811768Z"
+  "_fetched": "2026-07-08T11:21:11.135823Z"
 }
