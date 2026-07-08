@@ -1,5 +1,5 @@
 {
-  "updated": "2026-07-08T14:45:02Z",
+  "updated": "2026-07-08T16:53:57Z",
   "topics": [
     "Insurance AM",
     "Private Credit",
@@ -197,6 +197,16 @@
       "isNew": false
     },
     {
+      "id": "d5491b7562b0",
+      "title": "Q2 Canadian Markets Wrap: Banks Lift Stocks, While Canadian Dollar Follows Bond Yields Lower",
+      "source": "Morningstar",
+      "date": "2026-07-02T15:44:40Z",
+      "topic": "Rates & Macro",
+      "summary": "",
+      "link": "https://news.google.com/rss/articles/CBMi0AFBVV95cUxNX0c3OHk5LTQ3bnViVG1JaHdrMVdGRVAtelplSGpLdFNFY0VxeHowWTlEeXNBSk44OHZmWkVIa2NURHBQcG83NU4ya3lIVEUtQjJ3ektQUVZFUnNTRmRMc1RLcWlFODZvdVZQWEh0X2VRLWo0eVBRSnZia0psUk0wTnY2eGktY1BQNlZiR0dsbWk4ek1meVVqQ0l1LU12SE9LS1EydU9JWjhkRFhUUE1PSG1vLTlmSDRpY3lNMDYwSnpmSTE2MlVTQkVyVjY2ckY0?oc=5",
+      "isNew": false
+    },
+    {
       "id": "0241ccec0dab",
       "title": "Macquarie Asset Management Surpasses $1.6 Billion in CLO Pricing",
       "source": "Macquarie",
@@ -294,16 +304,6 @@
       "topic": "Rates & Macro",
       "summary": "",
       "link": "https://news.google.com/rss/articles/CBMijwFBVV95cUxOdHd4RWhId2p6U0diY2tMUDRWV0NOOTJsTGdudzI3UU1qLS1pbWhvTGVScW85aHNQc1JrTFZxUUU0d3hSWlQ0djRJQWFpT1MxWFhFcTc3RzVoUjhpS3ZfMDZ6STdia1NFZ21WdFlOX3JWQXZCUFNHdTdPVEs5YzdwX1hyalBNY3F0VHgwcDRzNA?oc=5",
-      "isNew": false
-    },
-    {
-      "id": "702ef618115a",
-      "title": "Middle East shifts don\u2019t derail the case for bonds",
-      "source": "UBS",
-      "date": "2026-07-01T07:00:00Z",
-      "topic": "Rates & Macro",
-      "summary": "",
-      "link": "https://news.google.com/rss/articles/CBMikAFBVV95cUxOeWVnVEhQcHBGaVlacWtKWmR1ZzQ3UTdKUXk5dldFLU9DOWNXSmtIclVNVVRfZDJZQlQ0bUljcGd5U3c2Y2VxektJUW12V0hQZTN6WUR4TWx6bXBmYlRGQlh6eVU5VTA4dm0zeVF3UTdfQy1fbGl1Z1YtcEZ4LUlwQVZULUFzU2lGeG1rWFJpbEE?oc=5",
       "isNew": false
     }
   ]
