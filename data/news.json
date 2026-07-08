@@ -1,11 +1,21 @@
 {
-  "updated": "2026-07-08T03:48:25Z",
+  "updated": "2026-07-08T08:47:45Z",
   "topics": [
     "Insurance AM",
     "Private Credit",
     "Rates & Macro"
   ],
   "items": [
+    {
+      "id": "f84554ca2526",
+      "title": "New Zealand Raises Key Rate to Head Off Inflation Pressures",
+      "source": "Bloomberg.com",
+      "date": "2026-07-08T05:06:00Z",
+      "topic": "Rates & Macro",
+      "summary": "",
+      "link": "https://news.google.com/rss/articles/CBMirwFBVV95cUxObmtkSVVqZUdYTGQzWjM0TmUtRVAwTjdSRUs2NDdCblBsUXB4NV9rcXctUmFQZFAxVzVqbENsNXliNG9veVZwQlhnQkdnaWJTUmdvdXYtbWlwN3VPTE1vaHpjaFk4QW5lSXFVaERLNDQ2TUZtSjRmbkIxZmljTUhKRXpIdERYNzBqNG90S0NtYzVJLTh5LTY4TFVxSXlFQ3c3RjAwcGE3UW45WTYyZ3l3?oc=5",
+      "isNew": false
+    },
     {
       "id": "93cf82e567d8",
       "title": "Private Credit Market Size, Forecasts Report 2026-2035",
@@ -287,23 +297,13 @@
       "isNew": false
     },
     {
-      "id": "73a9f57fbf39",
-      "title": "Macquarie Asset Management: A golden age for infrastructure debt?",
-      "source": "Infrastructure Investor",
-      "date": "2026-07-01T01:20:48Z",
+      "id": "2671ac60025f",
+      "title": "10 of the Best Financial Advisor Companies: Well-Known Fiduciary Investment Firms to Consider",
+      "source": "WSJ",
+      "date": "2026-07-01T07:00:00Z",
       "topic": "Insurance AM",
       "summary": "",
-      "link": "https://news.google.com/rss/articles/CBMipgFBVV95cUxPSjhGREJfaG1ldUpIejVIVWkyS095TFlVLU9Lc0hQSGQ1ajJhbHFfU193MFhpZFZMSDZDc09jT2tDRG8wcGlnWnVvcEdFMktHWXUtQ3JERmE0U3hLd1M1RUVMaDZobWlRTGF3aElOU2VyQmx2dE53TDQ2ellXV0JMT1djWWVmbHBRbDZKSC1LdGJscnhSRk9XZ2Q5Uy1MdkR6R3hYek1n?oc=5",
-      "isNew": false
-    },
-    {
-      "id": "391a6aca7a80",
-      "title": "Reading the Rate Map",
-      "source": "CommercialSearch",
-      "date": "2026-06-30T19:43:41Z",
-      "topic": "Rates & Macro",
-      "summary": "",
-      "link": "https://news.google.com/rss/articles/CBMia0FVX3lxTE1JSzhWSzc1MHhOWVJMVTlVMzVCXzRlLTR1NkpoMTF6Y1FUeU1VazBxbE5fZFNHamswRnZubC1nMGVjODNuNnV4TWxJTzl3OEtaOE5MaENVVS1ibVZySXpfOU1BSWNuVU5JWnRj?oc=5",
+      "link": "https://news.google.com/rss/articles/CBMikAFBVV95cUxObnlXbUpEREtzM0x1dmJqQnRKN18yUEpYaEFxMnNSbU52ZGkyMmRycWNuWnFvaC1VcHExVWdmTzg5WUNLaWM0X0tYV0podV9pU19KWUtBbEltZ2RxcGlYekhtZkpvVVhjaERNQ1h0SWVpNEN4RHQtblRGa1k5TFdIaWo4dUhMWGttUHJZWldsNDU?oc=5",
       "isNew": false
     }
   ]
