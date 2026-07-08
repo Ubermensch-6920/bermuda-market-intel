@@ -1,11 +1,31 @@
 {
-  "updated": "2026-07-07T22:35:06Z",
+  "updated": "2026-07-08T03:48:25Z",
   "topics": [
     "Insurance AM",
     "Private Credit",
     "Rates & Macro"
   ],
   "items": [
+    {
+      "id": "93cf82e567d8",
+      "title": "Private Credit Market Size, Forecasts Report 2026-2035",
+      "source": "Global Market Insights Inc.",
+      "date": "2026-07-07T15:33:10Z",
+      "topic": "Private Credit",
+      "summary": "",
+      "link": "https://news.google.com/rss/articles/CBMidEFVX3lxTE1McVZhN1U1WGNGakJwdFZCYnEycWxnMklCRjFfd09ReXlYZ2gtWUQzamlwVk9RclhjSTh0MEVtNnBlZW5PRE4yU1pZcHVhSVdUMFBKQ2FkT0JaVzNLS1Y5cnQyT0stREpDTE1sR1JkejBqMEdf?oc=5",
+      "isNew": false
+    },
+    {
+      "id": "494e24e7607f",
+      "title": "TD Asset Management Inc. and iCapital Network Canada Ltd. Collaborate to Bring a Global Real Estate Strategy to Eligible Canadian Accredited Investors",
+      "source": "TradingView",
+      "date": "2026-07-07T13:00:00Z",
+      "topic": "Insurance AM",
+      "summary": "",
+      "link": "https://news.google.com/rss/articles/CBMiswJBVV95cUxNMFhQWGRNVXd0cm5rRVpJMWRwRmJPbE44N3NoYkZpUmhpNUlnckRLdy13WElkX0NBUWxRSkxzQzNaa3VNTFBuSW1VdTdhMnhzSlhqR25LNWYySWJVRDlFcjExUUQ1NGtyNVdSSE9LMHJXOUdZYi1Nc0o0dlhFYUhxWUZUbWxNNjVwZ0RfbDJrSW9MOUUyNWNTbXpMWkNvZHp2RHJENUlvU2JEcDZoRHJBS2VEOE55U284UTNuRkp5V0cxdkZxbEZEVTBZemZDYTgtWkFWaDJrVXNyc2F4eDhFNThwa0J3cTl0QnZzaTlVbEVLVlhNRmx0bm5LQ1BEZ1gyNXB4LWZFUXVPcUtHYnUtM0Rqci1JQ2Z3dnhfaU03dHdYSW5xZEFZNEtIOGluTzRsRVpR?oc=5",
+      "isNew": false
+    },
     {
       "id": "3cf6285404d6",
       "title": "Abacus Global Management to Tokenize Secondary Life Insurance Assets, Bringing On-Chain Infrastructure to Its Portfolio",
@@ -57,13 +77,13 @@
       "isNew": false
     },
     {
-      "id": "93cf82e567d8",
-      "title": "Private Credit Market Size, Forecasts Report 2026-2035",
-      "source": "Global Market Insights Inc.",
+      "id": "8530a5a14a32",
+      "title": "Europe\u2019s central banks may come under political pressure, Panetta says",
+      "source": "whbl.com",
       "date": "2026-07-06T07:00:00Z",
-      "topic": "Private Credit",
+      "topic": "Rates & Macro",
       "summary": "",
-      "link": "https://news.google.com/rss/articles/CBMidEFVX3lxTE1McVZhN1U1WGNGakJwdFZCYnEycWxnMklCRjFfd09ReXlYZ2gtWUQzamlwVk9RclhjSTh0MEVtNnBlZW5PRE4yU1pZcHVhSVdUMFBKQ2FkT0JaVzNLS1Y5cnQyT0stREpDTE1sR1JkejBqMEdf?oc=5",
+      "link": "https://news.google.com/rss/articles/CBMingFBVV95cUxQUE5pWUh6N0JyQ2NCZVNHR1EtdGdUXzNXX2VPVkJJNzJtRXJNaWlubHJkQ2JiTGlEUjl1T3Vocm1MeDJPUXhEQzBzUl9xRUR5OTJCR09aTWtMWWtQYVZ3T1pWQTZLZngyeElJOTROblI2dmRPZ0JTUzQtQUxSVms0ZWg1RjBGbHFHOEdZWkZYNE1Wajg4ay1JX05xRlQ5QQ?oc=5",
       "isNew": false
     },
     {
@@ -284,26 +304,6 @@
       "topic": "Rates & Macro",
       "summary": "",
       "link": "https://news.google.com/rss/articles/CBMia0FVX3lxTE1JSzhWSzc1MHhOWVJMVTlVMzVCXzRlLTR1NkpoMTF6Y1FUeU1VazBxbE5fZFNHamswRnZubC1nMGVjODNuNnV4TWxJTzl3OEtaOE5MaENVVS1ibVZySXpfOU1BSWNuVU5JWnRj?oc=5",
-      "isNew": false
-    },
-    {
-      "id": "93c06510e48f",
-      "title": "Centrifuge and New York Life Investment Management Partner to Tokenize U.S. High Yield Corporate Bond Strategy",
-      "source": "Business Wire",
-      "date": "2026-06-30T13:00:00Z",
-      "topic": "Insurance AM",
-      "summary": "",
-      "link": "https://news.google.com/rss/articles/CBMi-wFBVV95cUxNYlBrb1NlUHo4Mm56Y3gwckVyanAtcUVpT2kwUG9RTTE3dGxXYW1weDk2a005dDZ6aTRVT2t2alF6djZuMFJCamNSX1hsLTVVTVMtRk55elV1NDg3alIwWHQxaFk4RmxVUWtNZEdPNzk0LVpWdF9icEVwOGRzbGUtWHlwRHlsQmpKclBkQ2lYR1RPaG0tUFFmeENIbkc1QnBrZXdrMkQ4NW81eDh6Rk5rdXpJOEc1MDFsanFDd202QUtrZy1lSU44dzFveXlSaXlVNlV2VUpfT0E1NTlkSzhzY3VNa3NULXdlQjEyNHA4SjE0akVZMUZrOG5uMA?oc=5",
-      "isNew": false
-    },
-    {
-      "id": "bdc6802f7efd",
-      "title": "Eurozone short-term bond yields ease as markets await Sintra policy signals",
-      "source": "Yahoo Finance UK",
-      "date": "2026-06-30T09:30:13Z",
-      "topic": "Rates & Macro",
-      "summary": "",
-      "link": "https://news.google.com/rss/articles/CBMihwFBVV95cUxOLUhhNDJWSnh6MWtnVjJqNGNVSmZmNlVidzBJaTNLdkhzYUxMSDlfWGtYMkFBanVLV2N0OUxZODhmVVhBbGVIWE9DcFdtTHowOVpoZlpHZHNxNk9IeDVja2tOLXIzdmZpcmh6WmptU1U1bTJ0TDR3aU9HQWdadEgxRXJya3ZHQjA?oc=5",
       "isNew": false
     }
   ]
