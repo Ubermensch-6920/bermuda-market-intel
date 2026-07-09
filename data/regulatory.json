@@ -1,5 +1,5 @@
 {
-  "updated": "2026-07-09T04:17:52Z",
+  "updated": "2026-07-09T10:07:26Z",
   "naic": [
     {
       "id": "e501ab483761",
@@ -49,6 +49,16 @@
       "summary": "",
       "source": "Law360",
       "link": "https://news.google.com/rss/articles/CBMiugFBVV95cUxObUtzYjluTzFuODVSNWIwbUFscHh2clFzTXBNN2k3WEhEdGt4d3VFOXc5S3lLYUpaaTNxblEwZmFuRkFPYkIzSXJESXFtSFB2T1pTTVZFX2lzbWRzdXB1djBVRVBTeDVwMEhVY2FOYWZpOTJlQVJoMS1QR1VsVHBGdFU4OGg3VElBZURJSUM4TWp4RVNFUnBTcXR1R3NhS3BIUnpFc1VpT1ptUzZISmJVRmR5SzFKa3FBZFHSAXBBVV95cUxPUjJOcTVicHB0VUpUalF1eFkzY0RfSTQxSE9FUEpmMmZYRUVSNWF6d1liVHZZZVlIX3FCNW43MHRMeG1DQ1lhMW1XN2J1NldfLW96Qzg3R0h5M0NIeDVtNERCckRfVTJjNEpDOFZMQWV0?oc=5",
+      "isNew": true
+    },
+    {
+      "id": "f3c2802c481c",
+      "title": "ShinyHunters Likely Hacked NAIC's Credit Agency Data",
+      "date": "2026-06-29",
+      "cat": "Investment",
+      "summary": "",
+      "source": "Law360",
+      "link": "https://news.google.com/rss/articles/CBMisgFBVV95cUxQUlFaRFQtZDlwM3d1cXdrVDVJNFdKaU4xem9JYml0clE5NWw2ajlHSzMxUnJNVGJlQ2VRZE1mV2wxXzRvSmdkQ2piNlVzUHdQdy1VZlNnWkxXMXE4Rlc3d3k4WjMwcXJlYm42TFQ1UkhTZ0lUMlQySTNUUVRVWGRabDh5NW9uYlFyRkpjaHBQbUpaWXdhSnd1d2d5dmpvUktHYWZCd252ZWpqT09FekNWN3ZB0gFwQVVfeXFMT1IyTnE1YnBwdFVKVGpRdXhZM2NEX0k0MUhPRVBKZjJmWEVFUjVhendZYlR2WWVZSF9xQjVuNzB0THhtQ0NZYTFtVzdidTZXXy1vekM4N0dIeTNDSHg1bTREQnJEX1UyYzRKQzhWTEFldA?oc=5",
       "isNew": true
     },
     {
@@ -234,16 +244,6 @@
     {
       "id": "fd9fc11891e8",
       "title": "AI Governance Expectations on the Rise for Insurers Amid New Regulatory Activity: NYDFS Highlights Frontier Risks, Colorado Redefines its AI Law, and NAIC Prepares Regulators with New Tools | Hinshaw & Culbertson - Privacy, Cyber & AI Decoded",
-      "date": "2026-06-05",
-      "cat": "Governance",
-      "summary": "",
-      "source": "JD Supra",
-      "link": "https://news.google.com/rss/articles/CBMiiAFBVV95cUxQbERvSzg1aGpESjZZYUR5MVhSdVpFYnNLNjVQYzdMUVJMZm5FVHN3RW5OWmhTZm02SG90U18tNUlnLTRiMnlWVXBNRnM5bktiVjJLSTJIUEFYZnp1TEo5THdRd25fcVk1Q2hET0VtOEpQU3ZuU3ljalAtbUQyX0JsbjZGZ2kxZVpE?oc=5",
-      "isNew": false
-    },
-    {
-      "id": "484bbb4f34f1",
-      "title": "AI Governance Expectations on the Rise for Insurers Amid New Regulatory Activity: NYDFS Highlights Frontier Risks, Colorado Redefines its AI Law, and NAIC Prepares Regulators with New Tools",
       "date": "2026-06-05",
       "cat": "Governance",
       "summary": "",
@@ -464,6 +464,16 @@
       "isNew": false
     },
     {
+      "id": "25c68562b0d2",
+      "title": "Bermuda tightens grip on global ILS market",
+      "date": "2026-04-17",
+      "cat": "General",
+      "summary": "",
+      "source": "Royal Gazette | Bermuda",
+      "link": "https://news.google.com/rss/articles/CBMirwFBVV95cUxPZXl6TVdyZlRfQlRaSEJxbUVRUnc3UDh6X1dVUjAxTFZyOGp3dDU2aUZGb1NWcXZDLVhIcDZZLUxyemFqVEF6WVFJSDJxUkYtSnhvYzVKY1l5ang0QkttR1dycU5Fbml6X2FMQTdOdzFWNXpUbjVNQmNRU0Q4aFR0a0JvclpCeFVRTm5nRXNpQU1HUm4ya3FaYk9fS3N2bnFXRG9WZlRURFExVWFVYXYw?oc=5",
+      "isNew": false
+    },
+    {
       "id": "3b600e25dc87",
       "title": "Re Bittrex \u2013 asset recovery and insolvency lessons for crypto exchanges",
       "date": "2026-04-16",
@@ -491,16 +501,6 @@
       "summary": "",
       "source": "nucamp.co",
       "link": "https://news.google.com/rss/articles/CBMizAFBVV95cUxQcmRwcnhDNjZyWnhkbk5BQktiUWVwNk9qU1pncGpiR3JGOXpyajhqSHB4NmhQYnRQZzk1aFZzMjNVakN0WTlWZ3oxX05kWnhVQXlsMUZBS2U3YUxDOGhnVXU0NU94UXNFZDJtSDlDOGFWWTRlOXYwb3lKMWtfc1lHeFV1OUV5bmd6a3VGS2pCazNBZGw5SjdIMUgwUVdTSWsyQmFNM29Vb25rMHhraDlCeUNHblBoUjI1T2lLS1huUC1JSVRWalpfZ3RnWWE?oc=5",
-      "isNew": false
-    },
-    {
-      "id": "8890f9eab908",
-      "title": "Digital asset developments and Bermuda\u2019s regulatory readiness",
-      "date": "2026-04-10",
-      "cat": "Investment",
-      "summary": "",
-      "source": "Royal Gazette | Bermuda",
-      "link": "https://news.google.com/rss/articles/CBMiywFBVV95cUxOYjA2anRORW0tUS0zNnBSbzRJcjhncVl6cjBOOTdrNGJURGR1amZ0VzdzaHNicHBKaVZrdVFxLXY2cFJYN2pYRTBPZHpWV0dYWXlZZDZwQ1BJUlAzZHpsYkxRdDYyODhHR0JmMzdaY0EzSWtGTkVoQlR6ejZIN25aVzQ3NFFRVWFGejFob2JYbnliUUlseW8tQlFoX21WN1BiVFBWTDlGd3N1TmlzTlhkZWpUMDF5T2ZhRlZzN3dWZ2t2TFpNWVpiREZjYw?oc=5",
       "isNew": false
     }
   ],
