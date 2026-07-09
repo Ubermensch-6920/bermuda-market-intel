@@ -1,11 +1,41 @@
 {
-  "updated": "2026-07-09T10:07:26Z",
+  "updated": "2026-07-09T15:37:49Z",
   "topics": [
     "Insurance AM",
     "Private Credit",
     "Rates & Macro"
   ],
   "items": [
+    {
+      "id": "712305c57cac",
+      "title": "ALIRT Insurance Research: Recent Trends Involving Privately-Owned Insurers in the U.S. Life Insurance Industry",
+      "source": "Yahoo Finance",
+      "date": "2026-07-09T13:17:00Z",
+      "topic": "Private Credit",
+      "summary": "",
+      "link": "https://news.google.com/rss/articles/CBMioAFBVV95cUxQcjd3MUpuNHY0eS1sY1k4OHRYamx6Sk5mTlRKa2ZqbkVKWHREQVg3T3BFZ1FndHNlZVp2MFZsX2hfTXNiQkdBVUV2d3k5cGxER2R1cmNhcXpPYk5WNEN1SVFTLTZiSkxqSWFPN3RMTFlSQ3FfVi03MUJfLTRfWGI0d3k3MUl6ZHV5LXhFOVgxdTFPUktkZkNjUl9TTC1rTVZX?oc=5",
+      "isNew": false
+    },
+    {
+      "id": "f5ffd6c5cc2e",
+      "title": "RSM\u2019s global central banking outlook",
+      "source": "The Real Economy Blog",
+      "date": "2026-07-09T09:50:42Z",
+      "topic": "Rates & Macro",
+      "summary": "",
+      "link": "https://news.google.com/rss/articles/CBMidEFVX3lxTFAxWW9NNlFCanZiWHQzS1JNbklTME14XzIyS2JTMTF2Vmx5U0szRFZTTVc0YmMtT1JWSHRyQ1NiTXJpQ0VDeWdJZ1ZicmIxMzlta0Z6c2g2UEJzLXp6REtsMnRSRnczN2RlMWV6MXAyaHVBdzVH?oc=5",
+      "isNew": false
+    },
+    {
+      "id": "949eabcf27c0",
+      "title": "Japan benchmark bond yield extends rise after hitting 30-year high",
+      "source": "The Mighty 790 KFGO",
+      "date": "2026-07-09T01:41:01Z",
+      "topic": "Rates & Macro",
+      "summary": "",
+      "link": "https://news.google.com/rss/articles/CBMirgFBVV95cUxNMmo4MXNreWNQa1lFYVBnZU1vWWdZdGVKTnNDUmZPTlA3UWY3WklCcWNBTVB1cjNwRHppcmV4OThtdzY5ZTdwR3NfZkMwd2dWWldhdWJzc3BYOEtQazJ0dlhqdjdaNzItNGZvZW9rMDRwVXl5UUpBa3I3YURxNFJjeWZvSWFJTUhZM3JKRXJuSWlseDhrZVZJZzYyUTJRRHpnNnA0NFdVZWZCaW9xNkE?oc=5",
+      "isNew": false
+    },
     {
       "id": "f84554ca2526",
       "title": "New Zealand Raises Key Rate to Head Off Inflation Pressures",
@@ -274,36 +304,6 @@
       "topic": "Insurance AM",
       "summary": "",
       "link": "https://news.google.com/rss/articles/CBMiogFBVV95cUxPSjhSRzB4YmE3eXFvT0JQY3ZVRU1sSml5VTlFNko5bUpSSUhzTFlvejU3bFNSQnBHVmVuQVJQWVFMZHpNZXVHRFZidmNSd1pCZ0U0ZGdPeGUwV1hFYjJkYW1ydmthT3FWZFJoeDF6LTVuUjRTNlZ6Ni1SSE01b24yVUVyZUtxbzJ5UUxidWZxZVZCM0ZtNmcwUl9EWFFIUEIyR1E?oc=5",
-      "isNew": false
-    },
-    {
-      "id": "604b088ac617",
-      "title": "What does a rise in interest rates mean, and what are its implications?",
-      "source": "Eunews",
-      "date": "2026-07-01T14:40:41Z",
-      "topic": "Rates & Macro",
-      "summary": "",
-      "link": "https://news.google.com/rss/articles/CBMiqgFBVV95cUxPTjN1bFZZWWk1bk9yMWp0SEVxWGJjWjVOZ1VodzRvZlViWkI2dEtMQ3dtTmszSlpnZGJHN1laNlZaQS1CV2dTMkRFck04c0Z2ZXYyaHl3aDJYNEdTbzhzX2xIdDJkbjJBTnNERmdWQWJVMGtIQnV1X1Q0OU14cmFEQUtBeXUydVJsTmxDQUN5SnZTdjZDQ19fQnJnNTItLVhkTURMSzA2dl8tdw?oc=5",
-      "isNew": false
-    },
-    {
-      "id": "579e38565b47",
-      "title": "Bank of Japan\u2019s monetary monster is finally turning on its maker",
-      "source": "Asia Times",
-      "date": "2026-07-01T09:58:18Z",
-      "topic": "Rates & Macro",
-      "summary": "",
-      "link": "https://news.google.com/rss/articles/CBMimgFBVV95cUxNTGxZWnp2QlpwOVNYQ09oNDlBQWd1V2cyZDJqbkZ5UnI2X1lWY0RmeWc4U1NBSjUtdWV2Q29mdXN1X1JyVzRCSHp5MktleFJ6Y2RDYXVUVzdvRXprUVRTWlkzalNPaHctVVNiVllNejdTUl9pWGJuMHdsWUZNTG1DZEN2bWFaS2R0QWZwYnA4XzFsX0tlT3hYZHNR?oc=5",
-      "isNew": false
-    },
-    {
-      "id": "0a575ed180c6",
-      "title": "Top Infrastructure Debt Fund Managers | Infrastructure Debt 30",
-      "source": "Infrastructure Investor",
-      "date": "2026-07-01T07:00:00Z",
-      "topic": "Insurance AM",
-      "summary": "",
-      "link": "https://news.google.com/rss/articles/CBMigwFBVV95cUxOYm1oYWtRazV1ellKVGtWQ3lfTmRJenk3WTlkY1prNXNtT0x0ZHpPbDdXV2NEOWlqbHQ1TUxMUlFvUUNpamlWSWExWGZqdHppWVBKQlJFalJfM1JsZnNJYjlDMlRmd3NlcHNlMWFYOC1OZjBadlY3M0JYU0xKWnBCeXVvMA?oc=5",
       "isNew": false
     }
   ]
