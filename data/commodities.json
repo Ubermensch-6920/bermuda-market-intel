@@ -2,11 +2,11 @@
   "date": "2026-07-10",
   "source": "FRED / TradingEconomics / Investing / Yahoo Finance",
   "gold": {
-    "spot": 4105.05,
+    "spot": 4102.28,
     "spot_date": "",
     "spot_source": "TradingEconomics",
     "unit": "USD/troy oz",
-    "prior_1d": 4113.8,
+    "prior_1d": 4111.0,
     "prior_1d_date": "2026-07-10",
     "prior_1m": 4090.3,
     "prior_1m_date": "2026-06-11",
@@ -16,7 +16,7 @@
     "prior_1y_date": "2025-07-11",
     "futures": {
       "3M": {
-        "price": 4144.2,
+        "price": 4140.2,
         "expiry": "Oct 2026",
         "contract": "GCV26",
         "prior_1m": 4142.7,
@@ -27,7 +27,7 @@
         "prior_3m_contract": "GCQ26"
       },
       "6M": {
-        "price": 4206.3,
+        "price": 4201.5,
         "expiry": "Feb 2027",
         "contract": "GCG27",
         "prior_1m": 4174.0,
@@ -76,7 +76,7 @@
     "prior_1y_date": "2025-07-10",
     "futures": {
       "3M": {
-        "price": 70.78,
+        "price": 71.33,
         "expiry": "Oct 2026",
         "contract": "CLV26",
         "prior_1m": 84.54,
@@ -87,7 +87,7 @@
         "prior_3m_contract": "CLN26"
       },
       "6M": {
-        "price": 69.96,
+        "price": 70.39,
         "expiry": "Jan 2027",
         "contract": "CLF27",
         "prior_1m": 80.31,
@@ -98,7 +98,7 @@
         "prior_3m_contract": "CLV26"
       },
       "12M": {
-        "price": 68.71,
+        "price": 68.74,
         "expiry": "Jul 2027",
         "contract": "CLN27",
         "prior_1m": 76.02,
@@ -136,7 +136,7 @@
     "prior_1y_date": "2025-07-10",
     "futures": {
       "3M": {
-        "price": 75.64,
+        "price": 76.16,
         "expiry": "Oct 2026",
         "contract": "BZV26",
         "prior_1m": 89.11,
@@ -242,5 +242,5 @@
     }
   },
   "note": "Spot history comes from daily FRED series. Futures history is roll-aware by target date. USD/INR uses FRED DEXINUS with Investing scrape fallback for latest spot.",
-  "_fetched": "2026-07-10T17:11:18.145891Z"
+  "_fetched": "2026-07-10T19:55:37.708230Z"
 }
