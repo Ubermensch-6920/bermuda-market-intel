@@ -1,11 +1,21 @@
 {
-  "updated": "2026-07-10T09:56:48Z",
+  "updated": "2026-07-10T15:05:33Z",
   "topics": [
     "Insurance AM",
     "Private Credit",
     "Rates & Macro"
   ],
   "items": [
+    {
+      "id": "e25c787ffe40",
+      "title": "Europe's financial stability watchdog examining private credit risks, adviser says",
+      "source": "Reuters",
+      "date": "2026-07-09T15:16:51Z",
+      "topic": "Private Credit",
+      "summary": "",
+      "link": "https://news.google.com/rss/articles/CBMizgFBVV95cUxNN3BtMmd3YXlqaF9ieDhCZXgzU0tDWlVjZVJDcEt0eHVQVlIwekhURGJyakxSRlMtbV9iUU1ueENaYWo5c1VyU2I5SGlaZndQTWJWb3RhMExHWGVrYVJmS09aMld1d2FxWWpJbENUcEx5aGlhSjNaODRqN2piZTB0YzYya3pqQXpPQ0IzQTduMlcxaXNINlhGVWJwU2FKWHJPblFodG9FOUg1YXRBbTRYVE1BZkxwaGVNYk1teFdQbUowV2RoOE9qeFo4S0pFZw?oc=5",
+      "isNew": false
+    },
     {
       "id": "712305c57cac",
       "title": "ALIRT Insurance Research: Recent Trends Involving Privately-Owned Insurers in the U.S. Life Insurance Industry",
@@ -207,6 +217,16 @@
       "isNew": false
     },
     {
+      "id": "ef4410962ae2",
+      "title": "Hayfin raises \u20ac15bn for fifth direct lending fund",
+      "source": "Private Debt Investor",
+      "date": "2026-07-03T12:03:05Z",
+      "topic": "Private Credit",
+      "summary": "",
+      "link": "https://news.google.com/rss/articles/CBMijwFBVV95cUxPcjdFaDNBRDNWdTBDQXNRVXBWWG14empLMmxVZk5WLV9ZOUFSVlJCTGtYNzNfejJXRm1keTdoaElrNVYxalUyTldKUVFkUkRVb2U5emRxS2RINHlnS2xaYklqRnFTU3pndzZvUUxGQnJadjRSR3Fkc0g5LW5QN2ZGbi1KdENvbGlZRi0zWTNGRQ?oc=5",
+      "isNew": false
+    },
+    {
       "id": "cc03249def14",
       "title": "U.S. federal funds rate 2026",
       "source": "Statista",
@@ -284,26 +304,6 @@
       "topic": "Rates & Macro",
       "summary": "",
       "link": "https://news.google.com/rss/articles/CBMi0AFBVV95cUxNX0c3OHk5LTQ3bnViVG1JaHdrMVdGRVAtelplSGpLdFNFY0VxeHowWTlEeXNBSk44OHZmWkVIa2NURHBQcG83NU4ya3lIVEUtQjJ3ektQUVZFUnNTRmRMc1RLcWlFODZvdVZQWEh0X2VRLWo0eVBRSnZia0psUk0wTnY2eGktY1BQNlZiR0dsbWk4ek1meVVqQ0l1LU12SE9LS1EydU9JWjhkRFhUUE1PSG1vLTlmSDRpY3lNMDYwSnpmSTE2MlVTQkVyVjY2ckY0?oc=5",
-      "isNew": false
-    },
-    {
-      "id": "0241ccec0dab",
-      "title": "Macquarie Asset Management Surpasses $1.6 Billion in CLO Pricing",
-      "source": "Macquarie",
-      "date": "2026-07-02T14:26:57Z",
-      "topic": "Insurance AM",
-      "summary": "",
-      "link": "https://news.google.com/rss/articles/CBMirwFBVV95cUxPZFNVY2RqQVpBbGNhV3FNcEhqNmM3ZVhrZktFQkJxQ1BsLVR0TUxhN2EwbkZXRmNaTWQ0Rk1LeEltZGs3SDJmTHhTN0FiLVJuYVhxaTBjbU9KeEtqcUhhYWJsX3EtbkJFQThrY09tMTVubVBiUTRfYWhOWXJMZ2lZT1o4blFIcm1uM1ExTGhyOFhPYUJuUGl6R29ad2ZPbzM4Skcyak9Yd0JGMXBDRmVz?oc=5",
-      "isNew": false
-    },
-    {
-      "id": "4c89116a1a72",
-      "title": "BrokerTec EU repo jumps 19% YoY for June",
-      "source": "Securities Finance Times",
-      "date": "2026-07-02T13:52:04Z",
-      "topic": "Rates & Macro",
-      "summary": "",
-      "link": "https://news.google.com/rss/articles/CBMimgFBVV95cUxNRVhscjJuV2docWstNldCallzc0xzN0FKTnIxa1Y3UnJiX2h6R0lIVDJDX1NEaEgtdUxzTTNkYW8yaWJ2OTYyRnU0V2lFbDFpRjBDVm1oZmNzSEx0WHhKRzRDRUVOaGU3UWJVa2I0cHZmdXIzRU42V0xnVzdLZjE5ZDBnZmxHelFfSy13YThPNzdWc19GNE5JX0Jn?oc=5",
       "isNew": false
     }
   ]

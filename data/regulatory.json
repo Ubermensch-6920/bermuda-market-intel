@@ -1,5 +1,5 @@
 {
-  "updated": "2026-07-10T09:56:48Z",
+  "updated": "2026-07-10T15:05:33Z",
   "naic": [
     {
       "id": "e501ab483761",
@@ -39,6 +39,16 @@
       "summary": "",
       "source": "repairerdrivennews.com",
       "link": "https://news.google.com/rss/articles/CBMilwFBVV95cUxORUZCS2FIcU9mMmFMRFRBSGh0UDIwLUFmX3ZzNVQtbVlSUjl4VUpJc21nVXZWY2pLZHlYNmZFajBaN2dtV1dYWnhoR18wQUJFS01jZTQ4d0NsaGM4cnBveFJhUDBpYlNoeE5lNUpJaU9GU2tHU2htLTZSTWxLcVlJc0U0UkxobVd3VEJKSTJLZVNEcllXcGE0?oc=5",
+      "isNew": true
+    },
+    {
+      "id": "07ff10084172",
+      "title": "US Federal Insurance Regulator Confirms Data Breach Via Oracle Flaw",
+      "date": "2026-06-29",
+      "cat": "General",
+      "summary": "",
+      "source": "Infosecurity Magazine",
+      "link": "https://news.google.com/rss/articles/CBMigAFBVV95cUxQc1NXbGt0NV9LU3IwanI1UVk5TnVVX19rWFJWcXMwVkNFVTRwaFh0SG1nbWROcG1BeEdacGhFbU41cU9XRm10MFFyaElhSllwWGxVa19FTUFrWE42UU02emlxVmdUdG1USUNzYjdyaXBVTkl2SVVETkJXRnJfQTVCTA?oc=5",
       "isNew": true
     },
     {
@@ -109,6 +119,16 @@
       "summary": "",
       "source": "Insurance Journal",
       "link": "https://news.google.com/rss/articles/CBMid0FVX3lxTE10VzhJcktwSkVNZTJ2MzBraDZkZUpQMzV5R3p5OHFNUE8zYkF4NnpmZWZ1SGtuRTFjOXYyT1kwSFlTUjBzbG9vWnk2MDJnM3BaUFNOX011aTRremw2TFdEaGZqekJ3YVZadHg1Ym5EWHFHT0VSRXhF?oc=5",
+      "isNew": true
+    },
+    {
+      "id": "fbe06f62e966",
+      "title": "Exclusive | Life Insurers Aren\u2019t Just Investors in Private Credit. They\u2019re Major Lenders, Too.",
+      "date": "2026-06-24",
+      "cat": "Investment",
+      "summary": "",
+      "source": "WSJ",
+      "link": "https://news.google.com/rss/articles/CBMiwgFBVV95cUxOQWNFaHIwa1pRV051V1VaNkVISWloR1pqZ2t6OU1wcVU3NVlkRFhnNDRMTWtfZnljR2pfUWpNQ0hodlVQUnJ1VnFRekF1NXhFSS1VVmFBeUxmaU4tcGZGejFMZkJlcTFRSzVjWTJIU2xkRnR1RlJ5MXp3WTZFTURod19aRjZLbERRZXlCMk94WkYwRE1wVXFDSDBHNWdTLTdvRzJfMUtGNVFiX3czSWo0QTZITmFrckdkOVZ2R3dxWGZrUQ?oc=5",
       "isNew": true
     },
     {
@@ -230,29 +250,19 @@
       "source": "Insurance Business",
       "link": "https://news.google.com/rss/articles/CBMi-wFBVV95cUxPN2s3cXF1STQwc2tfNW9lTHhZaXZzQmJsS0UtZG14N1ZhcnZfWkZlRDF0LV9UNFhXQW1WVkxMQWxYd0ZvTWx1N2JoLTFzNDViTHQyNzN1V1ctSEp5dE9kLVI5TndLUktXNXVGUHRMQ05pZjBMZnBUR29SN3FnTk55TnVVdk9ndzVuaTJBY2drR3ZRNDBYcFl6N09jWF9jR0FRemJ4N205VVVzUTg2MURhb1NBLUFORnRzWWQ4R1dmYS1TdG9IbXdhUVdLUUp3WHBpVjUzUkpBUVFMZHNDOXRlSXBKY3ZxalFTWTFuVFgtLTlxY201V0F3SFdRNA?oc=5",
       "isNew": false
-    },
-    {
-      "id": "f55d45a5820e",
-      "title": "May 2026 NAIC-Related Activity",
-      "date": "2026-06-05",
-      "cat": "General",
-      "summary": "",
-      "source": "Forvis Mazars US",
-      "link": "https://news.google.com/rss/articles/CBMiggFBVV95cUxNM2ZDVXBzVWM3SHJGNHdiaGFENGQyeWRpUVZndURVTHZVeUstT2tuVktOQjJJWmlpN2VZdzlyT0FGNHJJaWNaSzNHcEwzc1U4X0pXajhCaURIbklka2ttemczSVRPRnozTFNqSGxaazB3OTVnTEJkUjVSZzMzRnhOY1Nn?oc=5",
-      "isNew": false
-    },
-    {
-      "id": "fd9fc11891e8",
-      "title": "AI Governance Expectations on the Rise for Insurers Amid New Regulatory Activity: NYDFS Highlights Frontier Risks, Colorado Redefines its AI Law, and NAIC Prepares Regulators with New Tools | Hinshaw & Culbertson - Privacy, Cyber & AI Decoded",
-      "date": "2026-06-05",
-      "cat": "Governance",
-      "summary": "",
-      "source": "JD Supra",
-      "link": "https://news.google.com/rss/articles/CBMiiAFBVV95cUxQbERvSzg1aGpESjZZYUR5MVhSdVpFYnNLNjVQYzdMUVJMZm5FVHN3RW5OWmhTZm02SG90U18tNUlnLTRiMnlWVXBNRnM5bktiVjJLSTJIUEFYZnp1TEo5THdRd25fcVk1Q2hET0VtOEpQU3ZuU3ljalAtbUQyX0JsbjZGZ2kxZVpE?oc=5",
-      "isNew": false
     }
   ],
   "bma": [
+    {
+      "id": "0c5087e8a94e",
+      "title": "Privately-owned insurers now hold nearly 20% of US life industry assets \u2013 ALIRT",
+      "date": "2026-07-10",
+      "cat": "Investment",
+      "summary": "",
+      "source": "Insurance Business",
+      "link": "https://news.google.com/rss/articles/CBMi4gFBVV95cUxOVGhqVXFiVGQ0alBiSU9WcWxzaUlmSktjLXI3RWpmYUt0NG1PajR3TVB0ZWg4VTNBLXhINDJyTUdFWXNFS1dNUmZCQjV4TmYxc09qWWhVS0thY0c3MkR6Y0czd1RIenotZlRLSjljMUtqaExCQ3gyNmFyV09YbVBtLW10MGR6M0N4NVR0UzVRV2dpdkNlRi1OOEdUQkpHamJ5Sy1vTXVwT19lQS1OdklieHBRNGRPOXp4WG5hMVlwZXVEbEt5QnkyRkxJaV9FU2hfNUNRTThIdU9CdmE0LXlvblhB?oc=5",
+      "isNew": true
+    },
     {
       "id": "fbf27abd4f84",
       "title": "BMA Releases 2025 Annual Report",
@@ -492,16 +502,6 @@
       "source": "Bernews",
       "link": "https://news.google.com/rss/articles/CBMiekFVX3lxTFBXZkpwUUpxblFrMkhiWTBwUkl1V19fTEluWlhGWDF2QVR2QWd1QUFYLXNiZ2xLU1BGaEltRkNZQ055Q0Q1X2FMdFE5YzB0RGxaUUxMOWJtMkVmNEhqUEdVeTljdTRXX3VpZU5GOUdaT0d6dkhqQWVOS2V3?oc=5",
       "isNew": false
-    },
-    {
-      "id": "4807a559853a",
-      "title": "Top 10 AI Startups to Watch in Bermuda in 2026",
-      "date": "2026-04-10",
-      "cat": "Governance",
-      "summary": "",
-      "source": "nucamp.co",
-      "link": "https://news.google.com/rss/articles/CBMizAFBVV95cUxQcmRwcnhDNjZyWnhkbk5BQktiUWVwNk9qU1pncGpiR3JGOXpyajhqSHB4NmhQYnRQZzk1aFZzMjNVakN0WTlWZ3oxX05kWnhVQXlsMUZBS2U3YUxDOGhnVXU0NU94UXNFZDJtSDlDOGFWWTRlOXYwb3lKMWtfc1lHeFV1OUV5bmd6a3VGS2pCazNBZGw5SjdIMUgwUVdTSWsyQmFNM29Vb25rMHhraDlCeUNHblBoUjI1T2lLS1huUC1JSVRWalpfZ3RnWWE?oc=5",
-      "isNew": false
     }
   ],
   "cayman": [
@@ -513,6 +513,16 @@
       "summary": "",
       "source": "Cayman Compass",
       "link": "https://news.google.com/rss/articles/CBMirgFBVV95cUxOVWdmX3c0N2F6UHZTRld2S1Z1dHVibHF6NV9VbkMtVWx2ZWVrb0ZabVpLcjRGemFmOWZxSTNWY2hNVjRvcXJjTG9CUW9jNGIydDlQTG1EeDZkaUVCY1I5S3pmazNQWi04MVdYR29OQ0trajcySWxSaUR5NEFLR1ducVJvUGNOQmNZUkE2NHdIUjFqZUhRZzQ1blcybzlieEw2YS15R0VCWTVrd0h4NUE?oc=5",
+      "isNew": true
+    },
+    {
+      "id": "94eb94b54617",
+      "title": "CIMA zone: with 311 billion CFA francs, Senegal becomes the second-largest insurance market",
+      "date": "2026-06-29",
+      "cat": "General",
+      "summary": "",
+      "source": "Capmad",
+      "link": "https://news.google.com/rss/articles/CBMiswFBVV95cUxPZXNXLVk0dzd2eE5nVDd5OFhfVTV1OEo0S3lJbEFwSFYtNmZacW1MRnBtQnExUkZXXzdJMDhQQTlpejdPZE1NeG5uUkNnVWVVVTE3SExRdnF3Zk9QQTllWlBDT2JCc1BKR192MXk1RzNMVnZILW95SHgyTkxKamNiV2RqVWFxMWRhcVlNMGNtTXpQOGJISzBkdWhJbm9KdkdGV2gxRTRQbVloaXVMakxIS3pMbw?oc=5",
       "isNew": true
     },
     {
