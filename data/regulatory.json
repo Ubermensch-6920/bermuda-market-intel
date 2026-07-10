@@ -1,5 +1,5 @@
 {
-  "updated": "2026-07-10T15:05:33Z",
+  "updated": "2026-07-10T17:11:57Z",
   "naic": [
     {
       "id": "e501ab483761",
@@ -264,6 +264,16 @@
       "isNew": true
     },
     {
+      "id": "db4f540dde11",
+      "title": "It\u2019s healthy to sometimes disagree with regulators",
+      "date": "2026-07-10",
+      "cat": "General",
+      "summary": "",
+      "source": "Royal Gazette | Bermuda",
+      "link": "https://news.google.com/rss/articles/CBMiywFBVV95cUxNaTJ1ZlhIX1lqVFhhRlFUU1NIdVhBTjJNSU9SYW1rLUZDaE1LSnpVczZrWGtLQnVuNnIyaUZ5YXVydHItZDJBV2hkRHBaNV9kTFRSOFpzcVdZaEhodE1RbEN2SVEySUdORlNQYXBDWXlBUkZ4OFp6N19yTmFHNUs1U0w4Z21kMGt2TEhXd3lNR2s1WXB4WUdpa2c0bFhsN2xjcHFlR1FoUVZNZzNFZFNfR2hQVFFEN09YVTNSdHl5aFpGd2VaX1NMQ1dfVQ?oc=5",
+      "isNew": true
+    },
+    {
       "id": "fbf27abd4f84",
       "title": "BMA Releases 2025 Annual Report",
       "date": "2026-07-03",
@@ -491,16 +501,6 @@
       "summary": "",
       "source": "Macfarlanes",
       "link": "https://news.google.com/rss/articles/CBMitAFBVV95cUxPN19rRzZFSzkzUVpYSjFrVGlsaWFJUGY0ZExaSk9LWW1PYV9nemhvazA0WVplMi16UmpCWlFLLTJEc05qZmRKVXFGVDIxaVVXZkpMOVVuWVdvbXltRnhMbXkyWVdVYWt4dVdnMmFYb0Y3bE4wZXp6Z0xCcEl6Z1JpRDJRRmNvTzRzUExlTHkzVlZVWWcwZkE5cXMwY1JHRnEwYkprSG1xc1RfOVdXX1Y1OURrWFQ?oc=5",
-      "isNew": false
-    },
-    {
-      "id": "c31fc47c76a8",
-      "title": "Official Govt & Legal Notices For April 15 2026",
-      "date": "2026-04-15",
-      "cat": "General",
-      "summary": "",
-      "source": "Bernews",
-      "link": "https://news.google.com/rss/articles/CBMiekFVX3lxTFBXZkpwUUpxblFrMkhiWTBwUkl1V19fTEluWlhGWDF2QVR2QWd1QUFYLXNiZ2xLU1BGaEltRkNZQ055Q0Q1X2FMdFE5YzB0RGxaUUxMOWJtMkVmNEhqUEdVeTljdTRXX3VpZU5GOUdaT0d6dkhqQWVOS2V3?oc=5",
       "isNew": false
     }
   ],

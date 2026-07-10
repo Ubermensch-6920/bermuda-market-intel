@@ -1,11 +1,32 @@
 {
-  "updated": "2026-07-10T15:05:33Z",
+  "updated": "2026-07-10T17:11:57Z",
   "topics": [
     "Insurance AM",
     "Private Credit",
-    "Rates & Macro"
+    "Rates & Macro",
+    "Structured Credit"
   ],
   "items": [
+    {
+      "id": "0ee697de2575",
+      "title": "Job swaps weekly: Alvarez & Marsal raid KPMG talent, Man Group shake-up",
+      "source": "Structured Credit Investor",
+      "date": "2026-07-10T15:42:00Z",
+      "topic": "Structured Credit",
+      "summary": "",
+      "link": "https://news.google.com/rss/articles/CBMi0AFBVV95cUxNSjN0S0ZNNXNzbkNvbUtKcVZfMnVpQWxlZEVyODd0bjFxVF9RZkxCc0piTU9NZlU1Um52ZlljWEE4aWZ5dm81bGRLSHh0eW9OaVBDSFprVXRodzJJUGVnUnhhcW1fcXB4RTc0Uk9QcjY5LUR5UnJPZy1hQ0E4N3Qtd1pyZi1PZHctSEtoMDNwYlZiV1NVa2xIcldQa05oLXo2UnB6NVpvaE0wWlVybkhaWkt3dzREbkx6ZllPUWdReXZleEgyWENXSWFFbVY0ZTIt?oc=5",
+      "isNew": false
+    },
+    {
+      "id": "921b24e92fc9",
+      "title": "Tradeweb Government Bond Update \u2013 June 2026",
+      "source": "Tradeweb",
+      "date": "2026-07-10T12:38:13Z",
+      "topic": "Rates & Macro",
+      "summary": "",
+      "link": "https://news.google.com/rss/articles/CBMipwFBVV95cUxQakc2Rmg2TGlGNnNrRzY4MWI1cG5Ya0c0bUU5ZVo4SlVDeGY3UTZISG1WVXdmWTdxT3Jsb0RSVENjbGxwRlpiZjFsV0ttQUlqZmxzN01BSTZtUWlOa08tR3RCNlRQVFkyM0tROUQzY1cyZFk0a2JhdjlsdGNibnEtRlluTWlIR2JBcFB3a0dzQkpELUE0enpveXFaT0c3NVdaVlBQNDE3UQ?oc=5",
+      "isNew": false
+    },
     {
       "id": "e25c787ffe40",
       "title": "Europe's financial stability watchdog examining private credit risks, adviser says",
@@ -284,26 +305,6 @@
       "topic": "Insurance AM",
       "summary": "",
       "link": "https://news.google.com/rss/articles/CBMirAFBVV95cUxPTjVTLUExY1l2TFowdl9lN0xfUzRxZ0lpdTZMX3FvMnpKVkRCdktPMzh6UlI2NW50ZTZISUd5cDEwS3Z2WnVSRW9OWDlXV0ppTFE3SmRCZ0lsM1ItNHNrdG1saDZubDJKM0RsU1hxV1VnaktTMGlYNzVyeGM1WkVuM1gtODN0VDFsVGE5R3VwWF9NOHRSVG50RFg2ZGFkX2l3aG5mQkxQNDF4RjR4?oc=5",
-      "isNew": false
-    },
-    {
-      "id": "f2576bdd0140",
-      "title": "When will mortgage rates go down again? The bond market may hold a signal.",
-      "source": "Yahoo Finance",
-      "date": "2026-07-02T17:47:23Z",
-      "topic": "Rates & Macro",
-      "summary": "",
-      "link": "https://news.google.com/rss/articles/CBMi3gFBVV95cUxOdTgwanU2My14YW92NzF1cnViRC1KeTVIVGRTZlpJQnJrc3N4V2N4N2FOdUVVMWs1dkJFbkhUQk1RUTgzeW5LQndoUVloOUpld2VYVFVxODE1VF8tcmsweEV3Y3BETGVya0dETG9Dd0xNWkdLM1hpdHc0RU9WSGJWSE1TdkZFNkFIMjJUVzNzVEo0M0xtM3k3RGVrUkRCSHZpZE5IT1NScmpQZkQzM256OXptbkpVSlRBQzV5cy1GRDVSM2RiNGN1QnVOdUI3aUZObXFfQVNnTUpIR3RpZGc?oc=5",
-      "isNew": false
-    },
-    {
-      "id": "d5491b7562b0",
-      "title": "Q2 Canadian Markets Wrap: Banks Lift Stocks, While Canadian Dollar Follows Bond Yields Lower",
-      "source": "Morningstar",
-      "date": "2026-07-02T15:44:40Z",
-      "topic": "Rates & Macro",
-      "summary": "",
-      "link": "https://news.google.com/rss/articles/CBMi0AFBVV95cUxNX0c3OHk5LTQ3bnViVG1JaHdrMVdGRVAtelplSGpLdFNFY0VxeHowWTlEeXNBSk44OHZmWkVIa2NURHBQcG83NU4ya3lIVEUtQjJ3ektQUVZFUnNTRmRMc1RLcWlFODZvdVZQWEh0X2VRLWo0eVBRSnZia0psUk0wTnY2eGktY1BQNlZiR0dsbWk4ek1meVVqQ0l1LU12SE9LS1EydU9JWjhkRFhUUE1PSG1vLTlmSDRpY3lNMDYwSnpmSTE2MlVTQkVyVjY2ckY0?oc=5",
       "isNew": false
     }
   ]
