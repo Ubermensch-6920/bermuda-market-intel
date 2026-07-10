@@ -2,7 +2,7 @@
   "date": "2026-07-10",
   "source": "FRED / TradingEconomics / Investing / Yahoo Finance",
   "gold": {
-    "spot": 4120.45,
+    "spot": 4102.86,
     "spot_date": "",
     "spot_source": "TradingEconomics",
     "unit": "USD/troy oz",
@@ -16,7 +16,7 @@
     "prior_1y_date": "2025-07-10",
     "futures": {
       "3M": {
-        "price": 4157.4,
+        "price": 4141.1,
         "expiry": "Oct 2026",
         "contract": "GCV26",
         "prior_1m": 4162.7,
@@ -27,7 +27,7 @@
         "prior_3m_contract": "GCQ26"
       },
       "6M": {
-        "price": 4234.0,
+        "price": 4205.1,
         "expiry": "Feb 2027",
         "contract": "GCG27",
         "prior_1m": 4194.5,
@@ -76,7 +76,7 @@
     "prior_1y_date": "2025-07-10",
     "futures": {
       "3M": {
-        "price": 71.83,
+        "price": 71.36,
         "expiry": "Oct 2026",
         "contract": "CLV26",
         "prior_1m": 86.51,
@@ -87,7 +87,7 @@
         "prior_3m_contract": "CLN26"
       },
       "6M": {
-        "price": 70.65,
+        "price": 70.38,
         "expiry": "Jan 2027",
         "contract": "CLF27",
         "prior_1m": 81.52,
@@ -136,7 +136,7 @@
     "prior_1y_date": "2025-07-10",
     "futures": {
       "3M": {
-        "price": 76.53,
+        "price": 76.01,
         "expiry": "Oct 2026",
         "contract": "BZV26",
         "prior_1m": 91.47,
@@ -147,7 +147,7 @@
         "prior_3m_contract": "BZN26"
       },
       "6M": {
-        "price": 75.22,
+        "price": 74.77,
         "expiry": "Jan 2027",
         "contract": "BZF27",
         "prior_1m": 87.04,
@@ -242,5 +242,5 @@
     }
   },
   "note": "Spot history comes from daily FRED series. Futures history is roll-aware by target date. USD/INR uses FRED DEXINUS with Investing scrape fallback for latest spot.",
-  "_fetched": "2026-07-10T04:18:19.343437Z"
+  "_fetched": "2026-07-10T09:56:09.619934Z"
 }
