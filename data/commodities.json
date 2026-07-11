@@ -242,5 +242,5 @@
     }
   },
   "note": "Spot history comes from daily FRED series. Futures history is roll-aware by target date. USD/INR uses FRED DEXINUS with Investing scrape fallback for latest spot.",
-  "_fetched": "2026-07-11T19:35:12.278120Z"
+  "_fetched": "2026-07-11T22:11:32.229923Z"
 }
