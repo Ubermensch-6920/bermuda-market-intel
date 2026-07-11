@@ -1,6 +1,16 @@
 {
-  "updated": "2026-07-11T16:14:22Z",
+  "updated": "2026-07-11T19:35:50Z",
   "naic": [
+    {
+      "id": "0c5087e8a94e",
+      "title": "Privately-owned insurers now hold nearly 20% of US life industry assets \u2013 ALIRT",
+      "date": "2026-07-10",
+      "cat": "Investment",
+      "summary": "",
+      "source": "Insurance Business",
+      "link": "https://news.google.com/rss/articles/CBMi4gFBVV95cUxOVGhqVXFiVGQ0alBiSU9WcWxzaUlmSktjLXI3RWpmYUt0NG1PajR3TVB0ZWg4VTNBLXhINDJyTUdFWXNFS1dNUmZCQjV4TmYxc09qWWhVS0thY0c3MkR6Y0czd1RIenotZlRLSjljMUtqaExCQ3gyNmFyV09YbVBtLW10MGR6M0N4NVR0UzVRV2dpdkNlRi1OOEdUQkpHamJ5Sy1vTXVwT19lQS1OdklieHBRNGRPOXp4WG5hMVlwZXVEbEt5QnkyRkxJaV9FU2hfNUNRTThIdU9CdmE0LXlvblhB?oc=5",
+      "isNew": true
+    },
     {
       "id": "e501ab483761",
       "title": "NAIC vote pulls private credit CLOs into new risk-based capital regime",
@@ -239,16 +249,6 @@
       "summary": "",
       "source": "streamlinefeed.co.ke",
       "link": "https://news.google.com/rss/articles/CBMipAFBVV95cUxNWGhlR01WQmZTN3lRSzVSNHZTUVFqRFFmR2dxQUlzbDNTcEQzUVhkX1pPLTEtbmZhbEJKN1M0MXRTU2k5bzNuTUFPbWIzeTA2M0E0N1JYUDF6dHNuNVpyZXRwS0hNc0VyR3k5ZElPY05TSzRPM3JRSjROaXZ6bE5NRmx3c3o2czNqeFloWmJGYWJjYmxldkFnS1lXNklxdFBkMjZpYQ?oc=5",
-      "isNew": false
-    },
-    {
-      "id": "3ddf0d1bb02e",
-      "title": "Insurance portfolios and private credit: How rising allocations widen credit quality gaps",
-      "date": "2026-06-09",
-      "cat": "Investment",
-      "summary": "",
-      "source": "Pensions & Investments",
-      "link": "https://news.google.com/rss/articles/CBMipgFBVV95cUxPNFpRWWlzdV91S3BOcWgyZHRmUHFXZk00TW1WWEpOLTNGSkRLaUpmd29HeDJyZVRhbVpuaDhFUElfNm0xVkZ4dzJscUZycU43bEdwd3lxRE9pdzBiSHcyVXkzdGVBZjBNcDJpblkySmp5c3hpUlYzTkx0ZE5fZXh2dUI3X2trdnNBY1JiVGY5Y0lTMGlPLU1zckQ5MTZZSnYtdGRBSkFn?oc=5",
       "isNew": false
     }
   ],
