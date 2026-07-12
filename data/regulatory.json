@@ -1,5 +1,5 @@
 {
-  "updated": "2026-07-12T10:46:32Z",
+  "updated": "2026-07-12T14:00:21Z",
   "naic": [
     {
       "id": "0c5087e8a94e",
@@ -142,6 +142,16 @@
       "isNew": true
     },
     {
+      "id": "6a78a1a34fd3",
+      "title": "The NAIC RBC Investment Risk and Analysis (E) Working Group Has Made Its Decision on New Life RBC Factors for CLOs",
+      "date": "2026-06-25",
+      "cat": "Investment",
+      "summary": "",
+      "source": "Mayer Brown",
+      "link": "https://news.google.com/rss/articles/CBMiggJBVV95cUxNSXV1SHVVX2FXQXczSVFjZlUza3FRRWNGVGE4aDUyN291VmVleHJ6azlqa1FOWWNCdE0tVzBvU2NQSFZqTzVsRVZkYUNQeG1DWDFHb0xLUDBBdGVzNHRwYy1MeU92clhoWGpZNnMwRkdnSWRvcHExcTdITHRsWTBucDg0NldpU0xjV2ZCb3ZHbHI3aTNuaWZFVDJabHdUUmxxWHJfOUl6SG1CZ0Z2UXZvcFd4QkNtSGhrY0QwVkJuUzB1TXYwVWVCT3ZETzVDUVNjTm1iLVM4Z1ltY1J1M1BQTzhKTGU4MElKVHNyQzhEcTY5MnNfOF84R3ZYMFpNLVlENWc?oc=5",
+      "isNew": true
+    },
+    {
       "id": "28861d5852c4",
       "title": "NAIC Victim of Cyber Incident Via PeopleSoft System",
       "date": "2026-06-24",
@@ -239,16 +249,6 @@
       "summary": "",
       "source": "The MSU Exponent",
       "link": "https://news.google.com/rss/articles/CBMi4gFBVV95cUxOLTdTdlJrMXhaYXEyWTM2TkN3ZUhrNzFIUWR3YnU4c0c3REhWbmxuYlpfUDhIZEViZ3FFekhqN0hTTFBtU2FZR191WlJjTTRiN05VbDJsS2txLXprSXM5NlVmekxWNXUtd0pVQnhnVG5yaHAwQkNpeVFuSEJKZmRGSmdIVDJiMXlBT2FPOFM1VjkyZ3JSMXlFTzBKaEJqaE9VX3ZaTFF0NmRYV1l4UU5DMXRKaWh3TlBuZjRlMXdrWDJBWmlpQTlENDdUWEJJZHhQN25HQ1NlSmZlbkdyS1paRkpR?oc=5",
-      "isNew": false
-    },
-    {
-      "id": "329988367e0e",
-      "title": "US insurance rulemaker probes credit risks tied to data centres",
-      "date": "2026-06-11",
-      "cat": "Investment",
-      "summary": "",
-      "source": "Financial Times",
-      "link": "https://news.google.com/rss/articles/CBMihAFBVV95cUxQNmNqS1JUTy1ZeWlNSFFoRVY2ZEJ0Z2lLZ2w5dm9Pb2hMazNRdXpuR3NlbFR4bWlwYjVJVHY0bWdhdWNTOU1OLXB5cXQ0dVVjbThMNEdjVG5IcHZKdVZveGp2MXBSTGh5YWNlZXc5ZWRJQjJXekRibGMtZEpWWHZFU3NQSXg?oc=5",
       "isNew": false
     }
   ],
