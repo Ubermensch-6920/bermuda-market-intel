@@ -1,12 +1,12 @@
 {
-  "date": "2026-07-12",
+  "date": "2026-07-13",
   "source": "FRED / TradingEconomics / Investing / Yahoo Finance",
   "gold": {
-    "spot": 4121.05,
+    "spot": 4060.07,
     "spot_date": "",
     "spot_source": "TradingEconomics",
     "unit": "USD/troy oz",
-    "prior_1d": 4113.7,
+    "prior_1d": 4104.1,
     "prior_1d_date": "2026-07-10",
     "prior_1m": 4215.0,
     "prior_1m_date": "2026-06-12",
@@ -66,14 +66,14 @@
     "spot_date": "2026-07-06",
     "spot_source": "FRED",
     "unit": "USD/barrel",
-    "prior_1d": 69.6,
-    "prior_1d_date": "2026-07-06",
+    "prior_1d": 71.41,
+    "prior_1d_date": "2026-07-10",
     "prior_1m": 88.62,
     "prior_1m_date": "2026-06-12",
     "prior_3m": 100.72,
     "prior_3m_date": "2026-04-13",
-    "prior_1y": 69.63,
-    "prior_1y_date": "2025-07-11",
+    "prior_1y": 68.19,
+    "prior_1y_date": "2025-07-14",
     "futures": {
       "3M": {
         "price": 71.15,
@@ -126,14 +126,14 @@
     "spot_date": "2026-07-06",
     "spot_source": "FRED",
     "unit": "USD/barrel",
-    "prior_1d": 69.56,
-    "prior_1d_date": "2026-07-06",
+    "prior_1d": 76.01,
+    "prior_1d_date": "2026-07-10",
     "prior_1m": 88.64,
     "prior_1m_date": "2026-06-12",
     "prior_3m": 123.28,
     "prior_3m_date": "2026-04-13",
-    "prior_1y": 72.06,
-    "prior_1y_date": "2025-07-11",
+    "prior_1y": 70.96,
+    "prior_1y_date": "2025-07-14",
     "futures": {
       "3M": {
         "price": 76.03,
@@ -188,10 +188,10 @@
     "unit": "INR per USD",
     "prior_1d": null,
     "prior_1d_date": null,
-    "prior_1m": 95.11,
-    "prior_1m_date": "2026-06-12",
-    "prior_3m": 93.39,
-    "prior_3m_date": "2026-04-13",
+    "prior_1m": 94.71,
+    "prior_1m_date": "2026-06-15",
+    "prior_3m": 93.37,
+    "prior_3m_date": "2026-04-14",
     "prior_1y": 85.99,
     "prior_1y_date": "2025-07-14",
     "futures": {
@@ -242,5 +242,5 @@
     }
   },
   "note": "Spot history comes from daily FRED series. Futures history is roll-aware by target date. USD/INR uses FRED DEXINUS with Investing scrape fallback for latest spot.",
-  "_fetched": "2026-07-12T22:10:53.612429Z"
+  "_fetched": "2026-07-13T04:04:16.388422Z"
 }
