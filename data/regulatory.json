@@ -1,5 +1,5 @@
 {
-  "updated": "2026-07-13T09:51:33Z",
+  "updated": "2026-07-13T15:15:23Z",
   "naic": [
     {
       "id": "0c5087e8a94e",
@@ -19,6 +19,16 @@
       "summary": "",
       "source": "Mayer Brown",
       "link": "https://news.google.com/rss/articles/CBMiuAFBVV95cUxQWDNhWmRJSi1MaVVEczk1dUszMlV5TlZKbFYyaXRPUkJ0SldiZXQ3WUViU2JNWWp6VVBKMV9vTlJYdDVjRDVSSlVsMFFLdTl0UHNqamZWSDBCN0VNeWFSeTFWR19EOE5rMlpJbzNWeUtHMk51SUU0ZXdGMWN6SGlvdjRmalRsT09lbURmNzRqZkFBSzI3OUZvekYzVG9UbGJ2amprX2hTWElLZm9BNDhzUW8yN216VnFk?oc=5",
+      "isNew": true
+    },
+    {
+      "id": "5b966227f205",
+      "title": "NAIC Financial Condition (E) Committee Approves RBC Changes",
+      "date": "2026-07-10",
+      "cat": "General",
+      "summary": "",
+      "source": "Mayer Brown",
+      "link": "https://news.google.com/rss/articles/CBMitAFBVV95cUxQNFRMbTVPY3JpSHB1NEZxUEVIVVpaRllYR281dTVJM2NZWTMtdWNnakl6cG82Z3Nqd2h1TVViWHcwaDRDRkVqaHZGT3BaT3RpdDJmMzFkV3M5X01IMDBKdUhKMVBoa0VkOUlCRW9qNVlRblFNcVQ5c3VPeWZJT3JnOVhWVTMwdEUxWkdKcDNtRUZFWUJzZThTYi00X0dVVDBZX3VvWl9xOWdZMVRoQkxJRldKWVU?oc=5",
       "isNew": true
     },
     {
@@ -192,6 +202,16 @@
       "isNew": true
     },
     {
+      "id": "b7c1c66d96e4",
+      "title": "Regulators Probe The AI Debt Sitting Inside Your Annuity",
+      "date": "2026-06-18",
+      "cat": "Governance",
+      "summary": "",
+      "source": "Forbes",
+      "link": "https://news.google.com/rss/articles/CBMirwFBVV95cUxQbHRqdTd6c3NPU3NLbmpYOW1mV1BHZ1k0alZZQTZVMXhQOTl4ZUhsTk02c0FQWVo3YV8wdThpRVBBY0pkUjdVR1hhcmotenFPM3QxUjNKMktVTzNBeXRyZkp1TmNmVHZidDh3U1BPT0x5REctckhVa2stU3pINFlTa2xsZGk5cmZGNGpkSFhpVGFOemFSaXpyWU9Hdy1RR2JBN1ZhNU9zRko3d0FBeWFr?oc=5",
+      "isNew": true
+    },
+    {
       "id": "8fc23b3e0271",
       "title": "Industry experts warn NAIC: Fix flawed IUL illustrations now",
       "date": "2026-06-18",
@@ -229,26 +249,6 @@
       "summary": "",
       "source": "Mayer Brown",
       "link": "https://news.google.com/rss/articles/CBMi4AFBVV95cUxPM091c0NPa2VtelpGdGZHY2ViaFdWSjRXUDJtcUlMaE0wYk5ENDRLVVdNMjZpbWtfUEhHV2s0VmVVV04tOW15SlNlbmRZTy1QdS11TkhKME1GYjJVMjR5X0ZrYnpfcFhRR19wa0tOcEJxaHR1Yi1Vck5jSTFBS0lGb3VjSDNXeFZIcDUtaE5pQVVidG9CMlczVFljTVhNWFZ1ejBFWTM0eE1UaFJtR281ekdwNENteTd1V0VzaC16RE1CTjlPYllhem1iYmV6ZlJzdkZjLVJKVE1FcmlweUNkTQ?oc=5",
-      "isNew": false
-    },
-    {
-      "id": "8d1222246edf",
-      "title": "Insurers are funding AI infrastructure \u2013 NAIC wants to know if the ratings hold up",
-      "date": "2026-06-12",
-      "cat": "Governance",
-      "summary": "",
-      "source": "Insurance Business",
-      "link": "https://news.google.com/rss/articles/CBMi4wFBVV95cUxQUGZvVkhzQXAwR3ZRVkU1QW1TSC1GcjhrS0FTdTJyTFMxUGp2R1pxNDJwdHV4LXUyTDQzVzZlX1l6dVJBSkhTQlBQM2NaQ2EzM0FHOTNpOUJydlJkblB5WDhiWF80RWxYR1hWb09kdERHNUFPN2p2Z1l4V0FaTVpXclI0YUZwLTBPNExYMi1pSzR0bTR2R0pLaUtDYTBVU1hIaVFpZjB6bWZyR0c5aUJzNFhwRm12c3JJUDBpXzRSWXUyM0czM3BpbXJ5ckVfd05DckhFT2lERkptZmUwSWg0WHlyNA?oc=5",
-      "isNew": false
-    },
-    {
-      "id": "dfba21cc81c4",
-      "title": "Insurance AI Under Fire for Alleged Racial Bias | Insurify",
-      "date": "2026-06-12",
-      "cat": "Governance",
-      "summary": "",
-      "source": "The MSU Exponent",
-      "link": "https://news.google.com/rss/articles/CBMi4gFBVV95cUxOLTdTdlJrMXhaYXEyWTM2TkN3ZUhrNzFIUWR3YnU4c0c3REhWbmxuYlpfUDhIZEViZ3FFekhqN0hTTFBtU2FZR191WlJjTTRiN05VbDJsS2txLXprSXM5NlVmekxWNXUtd0pVQnhnVG5yaHAwQkNpeVFuSEJKZmRGSmdIVDJiMXlBT2FPOFM1VjkyZ3JSMXlFTzBKaEJqaE9VX3ZaTFF0NmRYV1l4UU5DMXRKaWh3TlBuZjRlMXdrWDJBWmlpQTlENDdUWEJJZHhQN25HQ1NlSmZlbkdyS1paRkpR?oc=5",
       "isNew": false
     }
   ],
