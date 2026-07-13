@@ -1,5 +1,5 @@
 {
-  "updated": "2026-07-13T04:04:55Z",
+  "updated": "2026-07-13T09:51:33Z",
   "topics": [
     "Insurance AM",
     "Private Credit",
@@ -7,6 +7,16 @@
     "Structured Credit"
   ],
   "items": [
+    {
+      "id": "4df79986b9d1",
+      "title": "AIA Investments wins four accolades at Insurance Asia Awards 2026",
+      "source": "Insurance Asia",
+      "date": "2026-07-13T02:26:32Z",
+      "topic": "Insurance AM",
+      "summary": "",
+      "link": "https://news.google.com/rss/articles/CBMiugFBVV95cUxOVjBicFQ2d2lnRlFmbTBtZm43emVSOWJZMENmeDlEMmhENkpQTzZCWVpFSlo2dXgxUVdWYmFsQXpUSmtUSzV1REphZDYzZXpibjdsdFJKcFM1enA4ZkNtVnpFX2NnVXZ3VC1BSVJTMGRkOE01YnRMdlYtS3FuV01XYWYtbGJJQ2xLRVhCaTVWbVJ2aWJ5Qi1XRHJBV1FwNGNkVjZzTXhUVXhiX2lEaEpseU9TdnUyT1lOWEE?oc=5",
+      "isNew": false
+    },
     {
       "id": "0ee697de2575",
       "title": "Job swaps weekly: Alvarez & Marsal raid KPMG talent, Man Group shake-up",
@@ -25,6 +35,16 @@
       "topic": "Rates & Macro",
       "summary": "",
       "link": "https://news.google.com/rss/articles/CBMipwFBVV95cUxQakc2Rmg2TGlGNnNrRzY4MWI1cG5Ya0c0bUU5ZVo4SlVDeGY3UTZISG1WVXdmWTdxT3Jsb0RSVENjbGxwRlpiZjFsV0ttQUlqZmxzN01BSTZtUWlOa08tR3RCNlRQVFkyM0tROUQzY1cyZFk0a2JhdjlsdGNibnEtRlluTWlIR2JBcFB3a0dzQkpELUE0enpveXFaT0c3NVdaVlBQNDE3UQ?oc=5",
+      "isNew": false
+    },
+    {
+      "id": "2c55535003b2",
+      "title": "The Rise and Rise of Private Debt for Insurance Investors",
+      "source": "AllianceBernstein",
+      "date": "2026-07-10T07:00:00Z",
+      "topic": "Private Credit",
+      "summary": "",
+      "link": "https://news.google.com/rss/articles/CBMi3gFBVV95cUxQR0EyOE9lUkF2aWVPWjZ6QS1TYU9PdDBzNThyX2RlU1lYZGppZWZNcE9NLWJ0YlFzSjFHa0RYd29Ed2xZb1kzYjJfa1F2bWx3VWE5Mk9DazFmUzlYMGxxbHlsOHVaVkNpVU9pdTFtbV92eC1Dc0t0TzIxbF8yUnhfTGp4SkF4RmdPN1NuMGxGTU5GYUJ6bVltVUhJMnZVVUJWLUdPdm54R2lVbHk2ZnBNMXpHRjZWNW9hcVdNNmNHQWxTOFJfc0RmZW9nUkl5OWtBU0JRY3JEQ1c3cmpmcEE?oc=5",
       "isNew": false
     },
     {
@@ -285,26 +305,6 @@
       "topic": "Private Credit",
       "summary": "",
       "link": "https://news.google.com/rss/articles/CBMivgFBVV95cUxNU0hYa2R0eGxQOTdpZndOYkc1Q2NWV3lXU3VwV2ttb2FhRTVmN2U1UkpCb1laZTdTWFYyNmJaVEJKeFpCQ3dYemtjMUF2WlJOamR2MEp0d3J2OUpwNkVmcjVhME50LWdSM3AxOUZpZ21iZGRrTmNKNkk0Q0hpamw0RGdlM3EtczBzR1pmclFRZHZNa0lFbGtsR2xFcHRILTZsZy1MczhCTFgwNFNocEtmNFoxS2NsckRKc0xXeXZB?oc=5",
-      "isNew": false
-    },
-    {
-      "id": "ef4410962ae2",
-      "title": "Hayfin raises \u20ac15bn for fifth direct lending fund",
-      "source": "Private Debt Investor",
-      "date": "2026-07-03T12:03:05Z",
-      "topic": "Private Credit",
-      "summary": "",
-      "link": "https://news.google.com/rss/articles/CBMijwFBVV95cUxPcjdFaDNBRDNWdTBDQXNRVXBWWG14empLMmxVZk5WLV9ZOUFSVlJCTGtYNzNfejJXRm1keTdoaElrNVYxalUyTldKUVFkUkRVb2U5emRxS2RINHlnS2xaYklqRnFTU3pndzZvUUxGQnJadjRSR3Fkc0g5LW5QN2ZGbi1KdENvbGlZRi0zWTNGRQ?oc=5",
-      "isNew": false
-    },
-    {
-      "id": "cc03249def14",
-      "title": "U.S. federal funds rate 2026",
-      "source": "Statista",
-      "date": "2026-07-03T07:00:00Z",
-      "topic": "Rates & Macro",
-      "summary": "",
-      "link": "https://news.google.com/rss/articles/CBMijwFBVV95cUxPV28taUdoN196T2U5SmpSbXhMUWxqYTJZMWtTakxxbDF0cFRkTldkMi1FTHZtdG1jZ0hVSXFKMnRHNHBxYThjS1VuNXVkcU5CUmhRbDFfcDBscU5VVHhDcE9aR0FXQlBDUUg1a0N0LV9ZeXU0VVBtNG5RUEE5Q1FFaVhIeTFxeXlRd2dJbkpOZw?oc=5",
       "isNew": false
     }
   ]
