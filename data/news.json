@@ -1,5 +1,5 @@
 {
-  "updated": "2026-07-13T15:15:23Z",
+  "updated": "2026-07-13T17:27:12Z",
   "topics": [
     "Insurance AM",
     "Private Credit",
@@ -7,6 +7,16 @@
     "Structured Credit"
   ],
   "items": [
+    {
+      "id": "b782a41b1c3b",
+      "title": "Shares skid, bond yields rise as Gulf conflict sends oil surging",
+      "source": "WTVB",
+      "date": "2026-07-13T04:29:49Z",
+      "topic": "Rates & Macro",
+      "summary": "",
+      "link": "https://news.google.com/rss/articles/CBMihgFBVV95cUxOMXR1QUhDM1NDcEIzc2RaN1Z1S2xaV2puYWNXZkFLa1diNlBVZ2dha0VvNXRuNDJETUxibF81ZjR1VVZVU0xMcWkzaEZVTTZWZ0RhQXBjRzYzT0UxUVl5RGQyY2o2cE1HeTQxaFFkRDlCT1BERjZPakZyNUcxQWFvcFUwaHJEZw?oc=5",
+      "isNew": false
+    },
     {
       "id": "4df79986b9d1",
       "title": "AIA Investments wins four accolades at Insurance Asia Awards 2026",
@@ -295,16 +305,6 @@
       "topic": "Rates & Macro",
       "summary": "",
       "link": "https://news.google.com/rss/articles/CBMingFBVV95cUxQUE5pWUh6N0JyQ2NCZVNHR1EtdGdUXzNXX2VPVkJJNzJtRXJNaWlubHJkQ2JiTGlEUjl1T3Vocm1MeDJPUXhEQzBzUl9xRUR5OTJCR09aTWtMWWtQYVZ3T1pWQTZLZngyeElJOTROblI2dmRPZ0JTUzQtQUxSVms0ZWg1RjBGbHFHOEdZWkZYNE1Wajg4ay1JX05xRlQ5QQ?oc=5",
-      "isNew": false
-    },
-    {
-      "id": "35150f02b6bf",
-      "title": "Kevin Warsh faces rate hike pressure at first FOMC meeting",
-      "source": "qz.com",
-      "date": "2026-07-04T06:34:24Z",
-      "topic": "Rates & Macro",
-      "summary": "",
-      "link": "https://news.google.com/rss/articles/CBMigwFBVV95cUxPRFprLUVobTN4emtDZ1pwQ05NUjB2R0tfcHpXUXpBNFNVQVZBcWpnLW9ySGtURDZuTC1MSDBpa0dlaVZDa2V5bU9ySzN0NmxjeDRJY1lZUkhEZHRFSUVCM2s2aUdpc1QtdC1fN1RRZkM4dnhMUWk1RHkxeXJaYndyVGFDOA?oc=5",
       "isNew": false
     }
   ]
