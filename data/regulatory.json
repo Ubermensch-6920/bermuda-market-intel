@@ -1,5 +1,5 @@
 {
-  "updated": "2026-07-13T19:53:34Z",
+  "updated": "2026-07-13T22:14:19Z",
   "naic": [
     {
       "id": "0c5087e8a94e",
@@ -222,6 +222,16 @@
       "isNew": true
     },
     {
+      "id": "5ac9179065f8",
+      "title": "Advocates: Life insurers potentially missing millions of deaths annually - Insurance News",
+      "date": "2026-06-17",
+      "cat": "General",
+      "summary": "",
+      "source": "InsuranceNewsNet",
+      "link": "https://news.google.com/rss/articles/CBMisAFBVV95cUxNZWIycDBuTnFjWjBXc1BGd0hTNzV3QmdTcnlkS2txTDkyLTN4Ri1SVGY2eENsODMycGNfZjJ3THdkTWZ6VDh1NW9CbC1kVkRkMmNFS3d0STY0dWpHMmp2N1o2OHBDS1o1RE5yQjIzaGhtLWlNQjFRY3dTZFhweVJlWVVYb2stYi13WmI0eEp2MExxTG1GZzRCZ21TWmM4Vk0wb1ZtM0JhNW45ZDZQTzVaTw?oc=5",
+      "isNew": true
+    },
+    {
       "id": "950a25571377",
       "title": "Advocates: Life insurers potentially missing millions of deaths annually",
       "date": "2026-06-17",
@@ -239,16 +249,6 @@
       "summary": "",
       "source": "Intelligent Insurer",
       "link": "https://news.google.com/rss/articles/CBMimAFBVV95cUxQbWdfWTdEWURjcGYyaE1aZGNlekxJRHNQQ1FseDByU3FEYUh5MDZVbFhHaXlmMENaMmJfRThjbGtmWXl4UzNSX0ZWTzBfNTN4cEJwMldaTEl0ZDdjZkZKNzZGT1VCLTk3cUNQSjVjVUlnaG9sWmhkUmpGUzJaZ2ZsMFVsN2JaXzNEU1FrcFRZcE1qX2RKdS1BZw?oc=5",
-      "isNew": false
-    },
-    {
-      "id": "efab1c1dc9a5",
-      "title": "US NAIC Spring 2026 National Meeting Highlights: Investment-Related Highlights",
-      "date": "2026-06-12",
-      "cat": "Investment",
-      "summary": "",
-      "source": "Mayer Brown",
-      "link": "https://news.google.com/rss/articles/CBMi4AFBVV95cUxPM091c0NPa2VtelpGdGZHY2ViaFdWSjRXUDJtcUlMaE0wYk5ENDRLVVdNMjZpbWtfUEhHV2s0VmVVV04tOW15SlNlbmRZTy1QdS11TkhKME1GYjJVMjR5X0ZrYnpfcFhRR19wa0tOcEJxaHR1Yi1Vck5jSTFBS0lGb3VjSDNXeFZIcDUtaE5pQVVidG9CMlczVFljTVhNWFZ1ejBFWTM0eE1UaFJtR281ekdwNENteTd1V0VzaC16RE1CTjlPYllhem1iYmV6ZlJzdkZjLVJKVE1FcmlweUNkTQ?oc=5",
       "isNew": false
     }
   ],
