@@ -1,5 +1,5 @@
 {
-  "updated": "2026-07-14T08:31:47Z",
+  "updated": "2026-07-14T10:59:58Z",
   "naic": [
     {
       "id": "75c5006115ac",
@@ -254,6 +254,16 @@
   ],
   "bma": [
     {
+      "id": "d8241116bfa2",
+      "title": "Duncan Card: How the BMA could leverage AI",
+      "date": "2026-07-14",
+      "cat": "Governance",
+      "summary": "",
+      "source": "Royal Gazette | Bermuda",
+      "link": "https://news.google.com/rss/articles/CBMiqAFBVV95cUxPcXNDMmwwaG9ia1JVRkNVOHdQNjJiQnlON3IzaWk1Q3VQVFFSTGhzbGRhUmxkNnRqT0FwWWpOOF9ZYTQ3alF0cmh4dXFaYnVwOXYxTDZibGU4UG9sWWdpLXF2WHY1TWhoOVdoSHB5RXFYcjVBVlZFUVMzNHp3eHRMdUkzMDZ2TDR1NV85aTVOMXYxejFjMTI0UHM0eHZzNmFhc0NWdmpMNDE?oc=5",
+      "isNew": true
+    },
+    {
       "id": "0c5087e8a94e",
       "title": "Privately-owned insurers now hold nearly 20% of US life industry assets \u2013 ALIRT",
       "date": "2026-07-10",
@@ -491,16 +501,6 @@
       "summary": "",
       "source": "Royal Gazette | Bermuda",
       "link": "https://news.google.com/rss/articles/CBMirwFBVV95cUxPZXl6TVdyZlRfQlRaSEJxbUVRUnc3UDh6X1dVUjAxTFZyOGp3dDU2aUZGb1NWcXZDLVhIcDZZLUxyemFqVEF6WVFJSDJxUkYtSnhvYzVKY1l5ang0QkttR1dycU5Fbml6X2FMQTdOdzFWNXpUbjVNQmNRU0Q4aFR0a0JvclpCeFVRTm5nRXNpQU1HUm4ya3FaYk9fS3N2bnFXRG9WZlRURFExVWFVYXYw?oc=5",
-      "isNew": false
-    },
-    {
-      "id": "3b600e25dc87",
-      "title": "Re Bittrex \u2013 asset recovery and insolvency lessons for crypto exchanges",
-      "date": "2026-04-16",
-      "cat": "Capital/Solvency",
-      "summary": "",
-      "source": "Macfarlanes",
-      "link": "https://news.google.com/rss/articles/CBMitAFBVV95cUxPN19rRzZFSzkzUVpYSjFrVGlsaWFJUGY0ZExaSk9LWW1PYV9nemhvazA0WVplMi16UmpCWlFLLTJEc05qZmRKVXFGVDIxaVVXZkpMOVVuWVdvbXltRnhMbXkyWVdVYWt4dVdnMmFYb0Y3bE4wZXp6Z0xCcEl6Z1JpRDJRRmNvTzRzUExlTHkzVlZVWWcwZkE5cXMwY1JHRnEwYkprSG1xc1RfOVdXX1Y1OURrWFQ?oc=5",
       "isNew": false
     }
   ],

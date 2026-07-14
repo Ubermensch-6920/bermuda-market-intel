@@ -1,5 +1,5 @@
 {
-  "updated": "2026-07-14T08:31:47Z",
+  "updated": "2026-07-14T10:59:58Z",
   "topics": [
     "Insurance AM",
     "Private Credit",
@@ -7,6 +7,26 @@
     "Structured Credit"
   ],
   "items": [
+    {
+      "id": "21b2cfccbd4b",
+      "title": "Aegon AM deepens Lakemore partnership to support US CLO issuance as demand shifts to senior debt",
+      "source": "Structured Credit Investor",
+      "date": "2026-07-14T09:37:01Z",
+      "topic": "Structured Credit",
+      "summary": "",
+      "link": "https://news.google.com/rss/articles/CBMi6AFBVV95cUxOQmRsQl9nbEoyVGl4bFNud1VvSjJoTm9xbUp2d29ZbTU3VWlGNjRycTRpdTdvX1pCa3B3R3JscXpyWFEyMGR6YnVYZVdwbTk4bjkyZGc2bHNGR0ZnMVlpcWlNZkV6ZGdEZWtNZXhIUUt3UlVYeU9MQVdpd2djTXR4SzRfRjlQQzY3c09nZGlxNWFSOENvbFZicmc3Qmh2RXNzWG1HTXE5cUcxSWx5dGhEWVJVa2xmVXFKM1RIMElKSGdCY1VDSkVMXzVjbTlFanFsMldUeGlfdHlGVXdlbXBaR2loZzYxWnp4?oc=5",
+      "isNew": false
+    },
+    {
+      "id": "9d839ae41618",
+      "title": "Where Next for Bank of England Interest Rates?",
+      "source": "Morningstar",
+      "date": "2026-07-14T05:06:30Z",
+      "topic": "Rates & Macro",
+      "summary": "",
+      "link": "https://news.google.com/rss/articles/CBMiiwFBVV95cUxNSUFMR0pBWkYwOVVNTWNRWGVoTEJLUnhYa1R4WjNzTDdMWElPcXR4eGxrV2NMejVSZWhRYWVlRERzTzB4YjRqWE10SGFGMjRQMHZtYXdwU3Q4S3JYYTFjM0RlQzVNZGxiY1dfQ3RiejQ5Y2t2MWNWT19ORGQxdDViX1R2MDJEc0ZoWlU0?oc=5",
+      "isNew": false
+    },
     {
       "id": "b782a41b1c3b",
       "title": "Shares skid, bond yields rise as Gulf conflict sends oil surging",
@@ -285,26 +305,6 @@
       "topic": "Private Credit",
       "summary": "",
       "link": "https://news.google.com/rss/articles/CBMib0FVX3lxTE5uVGlPanlVWHhsRGx1Q2pVbi1OVE1hbWt4c3RKTUxjVHJ1Tm8tcjV2UUpnR2hQN21wQ1BpR2MySnJDQndRaHYwekpraDI0ZGp1ektHb1hibzA0X0tmTmRNcXBFZXVSWkJ6enNNMXNUMA?oc=5",
-      "isNew": false
-    },
-    {
-      "id": "7adb1840820b",
-      "title": "Japan pushes back on views it is pressuring BOJ to keep rates low",
-      "source": "Reuters",
-      "date": "2026-07-07T04:45:00Z",
-      "topic": "Rates & Macro",
-      "summary": "",
-      "link": "https://news.google.com/rss/articles/CBMitAFBVV95cUxOQlFndGJYaUNpcWt2S3prUFZYcHhKaTA4QWxnY3BTblpZaWtwbHctc1E2NFBVTGRtWE9PcmlNS2hRamJCRk5jVzlYWTNrbzRPWG5WM2pTVjV2UllmbkZ6czktc0Q0NDFYc3pRdHJmVEMyb25GbzdTbjUzYzlxQkhCRDVfV2xmMHFhMmZVbWVsalJsbGctNGZTSTFmMmM5SThFSlJRVmR1enQ0OWt4dXJqR2VmOGc?oc=5",
-      "isNew": false
-    },
-    {
-      "id": "51e07900c917",
-      "title": "Europe\u2019s central banks may come under political pressure, Panetta says",
-      "source": "WTVB",
-      "date": "2026-07-06T17:30:42Z",
-      "topic": "Rates & Macro",
-      "summary": "",
-      "link": "https://news.google.com/rss/articles/CBMioAFBVV95cUxPdFQtMkZUOEljSVFGYTVxbnJmS2RmRFVlTTZaNVRodUY5YWt3cUVUa0dEaGduYzdVNm0tWnF2eWpJQ28zTjFDMkNRUnh3ZkVwb3FFQ1FaekZKTEJnSnlzd0dqempwLTB5SG5PN2xNak1yQ2JoV1ZDU2E1M1pSc0NqMUIwR285LW1DZmVYanRYaE1ENmtzcGpIZXA3R3p3VWhv?oc=5",
       "isNew": false
     }
   ]
