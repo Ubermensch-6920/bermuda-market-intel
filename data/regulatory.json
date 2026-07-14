@@ -1,6 +1,16 @@
 {
-  "updated": "2026-07-13T22:14:19Z",
+  "updated": "2026-07-14T03:38:05Z",
   "naic": [
+    {
+      "id": "75c5006115ac",
+      "title": "AI agents are easy to deploy. That\u2019s the problem.",
+      "date": "2026-07-13",
+      "cat": "Governance",
+      "summary": "",
+      "source": "Crain's Cleveland",
+      "link": "https://news.google.com/rss/articles/CBMirgFBVV95cUxOTlNuM201UTg5U1BfVzg5VncyOWtlbEVYRWs0dVRDcEYyREdVRmphZld1RUdsVlJVWjViRFBSYUhLVDlSU0oxZ0ZvUWZPWXk2cFRUNzdiUi13Z2lMa05kQi1BVjZIb3N0NTdEM3BJMGtUWk1wdGZubE5XbXdPaWk5S1FYYjF0b3VnSC1VNURwV2wyUkJRRllmbkIxQ0dTcWFrQlVqRW4zbWdmS3piU2c?oc=5",
+      "isNew": true
+    },
     {
       "id": "0c5087e8a94e",
       "title": "Privately-owned insurers now hold nearly 20% of US life industry assets \u2013 ALIRT",
@@ -240,16 +250,6 @@
       "source": "InsuranceNewsNet",
       "link": "https://news.google.com/rss/articles/CBMisAFBVV95cUxNZWIycDBuTnFjWjBXc1BGd0hTNzV3QmdTcnlkS2txTDkyLTN4Ri1SVGY2eENsODMycGNfZjJ3THdkTWZ6VDh1NW9CbC1kVkRkMmNFS3d0STY0dWpHMmp2N1o2OHBDS1o1RE5yQjIzaGhtLWlNQjFRY3dTZFhweVJlWVVYb2stYi13WmI0eEp2MExxTG1GZzRCZ21TWmM4Vk0wb1ZtM0JhNW45ZDZQTzVaTw?oc=5",
       "isNew": true
-    },
-    {
-      "id": "d7862c1a9ef0",
-      "title": "US insurance regulator probes carrier data centre exposure",
-      "date": "2026-06-12",
-      "cat": "General",
-      "summary": "",
-      "source": "Intelligent Insurer",
-      "link": "https://news.google.com/rss/articles/CBMimAFBVV95cUxQbWdfWTdEWURjcGYyaE1aZGNlekxJRHNQQ1FseDByU3FEYUh5MDZVbFhHaXlmMENaMmJfRThjbGtmWXl4UzNSX0ZWTzBfNTN4cEJwMldaTEl0ZDdjZkZKNzZGT1VCLTk3cUNQSjVjVUlnaG9sWmhkUmpGUzJaZ2ZsMFVsN2JaXzNEU1FrcFRZcE1qX2RKdS1BZw?oc=5",
-      "isNew": false
     }
   ],
   "bma": [
