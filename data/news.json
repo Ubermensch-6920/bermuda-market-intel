@@ -1,5 +1,5 @@
 {
-  "updated": "2026-07-14T14:18:31Z",
+  "updated": "2026-07-14T16:42:41Z",
   "topics": [
     "Insurance AM",
     "Private Credit",
@@ -7,6 +7,16 @@
     "Structured Credit"
   ],
   "items": [
+    {
+      "id": "078e3a74c238",
+      "title": "Three award wins in Asia",
+      "source": "UBS",
+      "date": "2026-07-14T14:46:56Z",
+      "topic": "Insurance AM",
+      "summary": "",
+      "link": "https://news.google.com/rss/articles/CBMirAFBVV95cUxOYjE4eGswVVpMeFRyLWZBdDI5d2MyYlFKLVVpLUt2eFRNYXR0c2FUUFBzNU9rN2FlQUlsdTZYc04zMTNfVUxuUkh4OWRMRzlTb0NrQXMxNDZpWTN6OHJRd0VXRTRRc1pWclVsQTZrRDBIdUtnemFlMXFqQ2lqSTRuM0xHVTZneGc1dTF0LVJvVGktR2dTT1Jzc3BWQWNrRndHRThwMnZRR2NERUlQ?oc=5",
+      "isNew": false
+    },
     {
       "id": "c031b945bbdb",
       "title": "Three award wins in Asia",
@@ -295,16 +305,6 @@
       "topic": "Insurance AM",
       "summary": "",
       "link": "https://news.google.com/rss/articles/CBMi4gFBVV95cUxNclh1a1NuTFdWaTJZcGhxNE4wTzBVOV9XcFprLUJjUGtxelhTeEdudUs4Szh1Y0hBRkgtN1ZKN1JRTE9KLV9HRXhtQzI1SElsb01tVXFzajR1VWtQMllwN0o2RDVHSGFMMUFyUFBXNHBhTk9sMDFPZUdaRU5XWjJwR2NkTnZMXzFfZnVZbENab1lPTXVxTkpLM21BQklMUmdhT3B5c0VBWjdNOGVRT2taWGtPTFdPM3lrYWpZVWRNemUweGxtYWhLX3FLZU9mdDFQNGM3VmJYWFhveXhVVVUxbzFn?oc=5",
-      "isNew": false
-    },
-    {
-      "id": "aab1072b4543",
-      "title": "Fed Holds Rates and Leans Toward Fighting Inflation With Future Increases",
-      "source": "The New York Times",
-      "date": "2026-07-07T07:00:00Z",
-      "topic": "Rates & Macro",
-      "summary": "",
-      "link": "https://news.google.com/rss/articles/CBMiiAFBVV95cUxOWlo2eWRfMHQzRGk2MTdTdkR4R3FLWHlxWjdRekZCOWRhWk42ajJxamdDcmZlbER4TzVxZlFMa0F5d0wycHVMejh1Qk1vTGtWQW1qV05HdXp6ZFFOd3FEOXdaRmw5ZC1HdDd6WGl1Q3NnOS0xc3Y0YUdyQ3htLUlzTVJqRG9oalZM?oc=5",
       "isNew": false
     }
   ]
