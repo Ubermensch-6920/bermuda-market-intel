@@ -1,5 +1,5 @@
 {
-  "updated": "2026-07-14T10:59:58Z",
+  "updated": "2026-07-14T14:18:31Z",
   "topics": [
     "Insurance AM",
     "Private Credit",
@@ -7,6 +7,16 @@
     "Structured Credit"
   ],
   "items": [
+    {
+      "id": "c031b945bbdb",
+      "title": "Three award wins in Asia",
+      "source": "UBS",
+      "date": "2026-07-14T12:09:05Z",
+      "topic": "Insurance AM",
+      "summary": "",
+      "link": "https://news.google.com/rss/articles/CBMirAFBVV95cUxQN1d2d1kxZVpjWWd3emQzcW1kcDgwMTFJWXhROWg1TDdGYXBydmxlMU9nR3pLMVZjbXFad3NnemY0NHh6R25VdEcwWFpVYmhUWmFibUxLZFN6V1paTnExYkEyNm1PMXdKSlNET3c4LUl4bDFYRE0yME1MQ2lWQVpCYjVNR1p1OVc3eEk1TDNrY3hwV0g4eFQ4QV96NmZOMnppb3NSUUJOMzJBWFdt?oc=5",
+      "isNew": false
+    },
     {
       "id": "21b2cfccbd4b",
       "title": "Aegon AM deepens Lakemore partnership to support US CLO issuance as demand shifts to senior debt",
@@ -295,16 +305,6 @@
       "topic": "Rates & Macro",
       "summary": "",
       "link": "https://news.google.com/rss/articles/CBMiiAFBVV95cUxOWlo2eWRfMHQzRGk2MTdTdkR4R3FLWHlxWjdRekZCOWRhWk42ajJxamdDcmZlbER4TzVxZlFMa0F5d0wycHVMejh1Qk1vTGtWQW1qV05HdXp6ZFFOd3FEOXdaRmw5ZC1HdDd6WGl1Q3NnOS0xc3Y0YUdyQ3htLUlzTVJqRG9oalZM?oc=5",
-      "isNew": false
-    },
-    {
-      "id": "6e7f68b211b8",
-      "title": "Big investors step up North American direct lending as retail money retreats",
-      "source": "AMWatch",
-      "date": "2026-07-07T05:59:37Z",
-      "topic": "Private Credit",
-      "summary": "",
-      "link": "https://news.google.com/rss/articles/CBMib0FVX3lxTE5uVGlPanlVWHhsRGx1Q2pVbi1OVE1hbWt4c3RKTUxjVHJ1Tm8tcjV2UUpnR2hQN21wQ1BpR2MySnJDQndRaHYwekpraDI0ZGp1ektHb1hibzA0X0tmTmRNcXBFZXVSWkJ6enNNMXNUMA?oc=5",
       "isNew": false
     }
   ]
