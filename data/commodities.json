@@ -1,12 +1,12 @@
 {
-  "date": "2026-07-14",
+  "date": "2026-07-15",
   "source": "FRED / TradingEconomics / Investing / Yahoo Finance",
   "gold": {
-    "spot": 4054.3,
+    "spot": 4032.47,
     "spot_date": "",
     "spot_source": "TradingEconomics",
     "unit": "USD/troy oz",
-    "prior_1d": 4058.6,
+    "prior_1d": 4061.1,
     "prior_1d_date": "2026-07-14",
     "prior_1m": 4328.0,
     "prior_1m_date": "2026-06-15",
@@ -16,7 +16,7 @@
     "prior_1y_date": "2025-07-15",
     "futures": {
       "3M": {
-        "price": 4087.5,
+        "price": 4064.0,
         "expiry": "Oct 2026",
         "contract": "GCV26",
         "prior_1m": 4381.7,
@@ -27,7 +27,7 @@
         "prior_3m_contract": "GCQ26"
       },
       "6M": {
-        "price": 4148.1,
+        "price": 4131.6,
         "expiry": "Feb 2027",
         "contract": "GCG27",
         "prior_1m": 4414.3,
@@ -38,7 +38,7 @@
         "prior_3m_contract": "GCV26"
       },
       "12M": {
-        "price": 4190.4,
+        "price": 4255.8,
         "expiry": "Aug 2027",
         "contract": "GCQ27",
         "prior_1m": 4514.0,
@@ -49,7 +49,7 @@
         "prior_3m_contract": "GCJ27"
       },
       "24M": {
-        "price": 4383.1,
+        "price": 4448.5,
         "expiry": "Aug 2028",
         "contract": "GCQ28",
         "prior_1m": 4712.9,
@@ -66,17 +66,17 @@
     "spot_date": "2026-07-06",
     "spot_source": "FRED",
     "unit": "USD/barrel",
-    "prior_1d": 79.94,
+    "prior_1d": 79.34,
     "prior_1d_date": "2026-07-14",
     "prior_1m": 84.65,
     "prior_1m_date": "2026-06-15",
-    "prior_3m": 93.07,
-    "prior_3m_date": "2026-04-14",
-    "prior_1y": 68.19,
-    "prior_1y_date": "2025-07-14",
+    "prior_3m": 93.04,
+    "prior_3m_date": "2026-04-15",
+    "prior_1y": 67.76,
+    "prior_1y_date": "2025-07-15",
     "futures": {
       "3M": {
-        "price": 78.02,
+        "price": 78.15,
         "expiry": "Oct 2026",
         "contract": "CLV26",
         "prior_1m": 78.17,
@@ -87,7 +87,7 @@
         "prior_3m_contract": "CLN26"
       },
       "6M": {
-        "price": 74.78,
+        "price": 75.02,
         "expiry": "Jan 2027",
         "contract": "CLF27",
         "prior_1m": 74.72,
@@ -98,7 +98,7 @@
         "prior_3m_contract": "CLV26"
       },
       "12M": {
-        "price": 71.29,
+        "price": 71.51,
         "expiry": "Jul 2027",
         "contract": "CLN27",
         "prior_1m": 71.77,
@@ -109,7 +109,7 @@
         "prior_3m_contract": "CLJ27"
       },
       "24M": {
-        "price": 68.38,
+        "price": 68.02,
         "expiry": "Jul 2028",
         "contract": "CLN28",
         "prior_1m": 69.29,
@@ -126,17 +126,17 @@
     "spot_date": "2026-07-06",
     "spot_source": "FRED",
     "unit": "USD/barrel",
-    "prior_1d": 85.44,
+    "prior_1d": 84.73,
     "prior_1d_date": "2026-07-14",
     "prior_1m": 84.36,
     "prior_1m_date": "2026-06-15",
-    "prior_3m": 118.69,
-    "prior_3m_date": "2026-04-14",
-    "prior_1y": 70.96,
-    "prior_1y_date": "2025-07-14",
+    "prior_3m": 114.93,
+    "prior_3m_date": "2026-04-15",
+    "prior_1y": 70.27,
+    "prior_1y_date": "2025-07-15",
     "futures": {
       "3M": {
-        "price": 83.91,
+        "price": 84.19,
         "expiry": "Oct 2026",
         "contract": "BZV26",
         "prior_1m": 82.24,
@@ -188,12 +188,12 @@
     "unit": "INR per USD",
     "prior_1d": 95.33,
     "prior_1d_date": "2026-07-10",
-    "prior_1m": 94.71,
-    "prior_1m_date": "2026-06-15",
-    "prior_3m": 93.37,
-    "prior_3m_date": "2026-04-15",
-    "prior_1y": 85.82,
-    "prior_1y_date": "2025-07-15",
+    "prior_1m": 94.62,
+    "prior_1m_date": "2026-06-16",
+    "prior_3m": 93.2,
+    "prior_3m_date": "2026-04-16",
+    "prior_1y": 85.96,
+    "prior_1y_date": "2025-07-16",
     "futures": {
       "3M": {
         "price": null,
@@ -242,5 +242,5 @@
     }
   },
   "note": "Spot history comes from daily FRED series. Futures history is roll-aware by target date. USD/INR uses FRED DEXINUS with Investing scrape fallback for latest spot.",
-  "_fetched": "2026-07-14T22:15:46.358907Z"
+  "_fetched": "2026-07-15T03:38:07.959219Z"
 }

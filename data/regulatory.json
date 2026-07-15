@@ -1,5 +1,5 @@
 {
-  "updated": "2026-07-14T22:16:24Z",
+  "updated": "2026-07-15T03:38:45Z",
   "naic": [
     {
       "id": "75c5006115ac",
@@ -505,6 +505,16 @@
     }
   ],
   "cayman": [
+    {
+      "id": "4d062861f6db",
+      "title": "CIRCA rejects Apollo claims over Cayman's reinsurance standards",
+      "date": "2026-07-14",
+      "cat": "General",
+      "summary": "",
+      "source": "Insurance Business",
+      "link": "https://news.google.com/rss/articles/CBMi2gFBVV95cUxOWEI0T3hNdnh5M0U2ekhDYWJRRnplN3g1ZDVheG9NRUZwR2lxUjJaVDhLSkFGdjRWWENGRkJVVjJwQ0FMY05KenJha1JHZkd3em0wczVrOXFYbks4UGxfQUg0NDJQUVlQQ0hVOFNGWmsyMXM5NFlTV3F2YmlxbWQ3alZDcHQ1ajktRUhnTkdNX3Bia1dON3RVSGdqa1I1ZzNlWnNCX0Y5VU5SR2lpanlhSjRvc1pWUFlHN3FxbkZtM0NUVXc5NlRlWHAtTUoxX3lTTEdiYUpDTnZTUQ?oc=5",
+      "isNew": true
+    },
     {
       "id": "d50a6675fe0c",
       "title": "Regulator\u2019s reinsurance review finds corporate governance weaknesses",
