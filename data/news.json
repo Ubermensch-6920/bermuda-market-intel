@@ -1,5 +1,5 @@
 {
-  "updated": "2026-07-15T14:15:00Z",
+  "updated": "2026-07-15T16:49:10Z",
   "topics": [
     "Insurance AM",
     "Private Credit",
@@ -7,6 +7,16 @@
     "Structured Credit"
   ],
   "items": [
+    {
+      "id": "bf44afe6a9c5",
+      "title": "Europe's banks deploy SRT scalpel across private credit exposures",
+      "source": "Yahoo! Finance Canada",
+      "date": "2026-07-15T14:34:15Z",
+      "topic": "Private Credit",
+      "summary": "",
+      "link": "https://news.google.com/rss/articles/CBMiiAFBVV95cUxNTEYxTXVyMzFRa1QtbzFLZ191QUQ5Um5WQXF2UVV2dkw3TTRnTlNITUxrMFZBeGxteXdpNUYyYjJHZXBWUE0yaUdJZk51R1ZpNENDcWl0TEZlU01wc1hCYXZoZmc2OGNta3RiQVBjQkx4S0lDNE1SeDl2TU9YQ2JoX2dpZC04TDhG?oc=5",
+      "isNew": false
+    },
     {
       "id": "d7be6d56f051",
       "title": "Three award wins in Asia",
@@ -295,16 +305,6 @@
       "topic": "Rates & Macro",
       "summary": "",
       "link": "https://news.google.com/rss/articles/CBMirwFBVV95cUxObmtkSVVqZUdYTGQzWjM0TmUtRVAwTjdSRUs2NDdCblBsUXB4NV9rcXctUmFQZFAxVzVqbENsNXliNG9veVZwQlhnQkdnaWJTUmdvdXYtbWlwN3VPTE1vaHpjaFk4QW5lSXFVaERLNDQ2TUZtSjRmbkIxZmljTUhKRXpIdERYNzBqNG90S0NtYzVJLTh5LTY4TFVxSXlFQ3c3RjAwcGE3UW45WTYyZ3l3?oc=5",
-      "isNew": false
-    },
-    {
-      "id": "162686529479",
-      "title": "Japan considers policy wording change as BOJ independence fears roil bonds",
-      "source": "WTVB",
-      "date": "2026-07-08T04:36:07Z",
-      "topic": "Rates & Macro",
-      "summary": "",
-      "link": "https://news.google.com/rss/articles/CBMinwFBVV95cUxQWklHNG9mWVR4VTB0aFlRRUpQOU5vQkEzQnlzY1oyTDNWdVctdzY5cUItMDAxUjVYTU5xQVZxMzZJd3RucDRFMnBVbGpwNDAwODZka3ZldWMyeW9SUFo0SHk2SjJ1VkJGQnhFOXRpdlBUNVNBSmxmVjJUa2dUUk40YlBaUW03d3ZubWxuMTdXSDVHMU1MbVRkZmxiMEdBNXc?oc=5",
       "isNew": false
     }
   ]
