@@ -1,5 +1,5 @@
 {
-  "updated": "2026-07-15T19:40:50Z",
+  "updated": "2026-07-15T22:20:33Z",
   "topics": [
     "Insurance AM",
     "Private Credit",
@@ -7,6 +7,16 @@
     "Structured Credit"
   ],
   "items": [
+    {
+      "id": "8024bd5eb29c",
+      "title": "Europe\u2019s banks deploy SRT scalpel across private credit exposures",
+      "source": "PitchBook",
+      "date": "2026-07-15T14:34:15Z",
+      "topic": "Private Credit",
+      "summary": "",
+      "link": "https://news.google.com/rss/articles/CBMiogFBVV95cUxNbm5aVW9GWmljMVFXTzliR2ZvLWRVMExObDNCYnFVT1Bva2hSRW15STZWSmQ1MmVvTm9KRW5CQWJIdHdMbVo3TEdKZFZYNHBMeUcxZkNMbnRITUhQbXJtOTVYcURtUU8wdmpHSmJJUVRJakV6Z2pKaTFXLUIzUGRpYWtuMDVTbGhHYjF3Ny1PaUpabTlKLXpZNUtleXlaR2Jyd1E?oc=5",
+      "isNew": false
+    },
     {
       "id": "bf44afe6a9c5",
       "title": "Europe's banks deploy SRT scalpel across private credit exposures",
@@ -35,6 +45,16 @@
       "topic": "Insurance AM",
       "summary": "",
       "link": "https://news.google.com/rss/articles/CBMirAFBVV95cUxNakM0eFhaZmZNX2Z5VEVIbEs3cTZ0VVdpQy1nRjFDX1psZGF6ZUVzaDlCWjkzT0tCNFJBb05EV0haSWhiZDc4dFlIRnBVSnFwUERiZFUyeV9Tbkw5VTRkOHNpeGVrRHNzZm9wYWdLR1VoZUhOTHNzcVoxdlIzRWZ5U0pHYnNyZnZJT2xFSXpMSVJjOXJYdDZjdER3NTJaS3ZuRHJhYmNtY0ozeUZO?oc=5",
+      "isNew": false
+    },
+    {
+      "id": "2e3d7748392c",
+      "title": "Three award wins in Asia",
+      "source": "UBS",
+      "date": "2026-07-14T15:36:59Z",
+      "topic": "Insurance AM",
+      "summary": "",
+      "link": "https://news.google.com/rss/articles/CBMirAFBVV95cUxOWVgwUmEtMExsNXNBcWRnME50VExHeGdNNVBJY1I4YVZXdTNpb0Zsc0JBcko5OGJNNWRfeXFHVm9BMGFVc3FDXzBHdzBsT1gtMDRsVVdXS1lFa01JcFp1Q0stMHFPOGN3Qk1LOUtoX0xaWDZRb2FJbXUybDRqNDhpLVJUYmdERU9uTzMyZnNoa013OThUSWYtOTZ2X3V5WkhVR0hoa1N6WUlTSnlZ?oc=5",
       "isNew": false
     },
     {
@@ -285,26 +305,6 @@
       "topic": "Rates & Macro",
       "summary": "",
       "link": "https://news.google.com/rss/articles/CBMirgFBVV95cUxNMmo4MXNreWNQa1lFYVBnZU1vWWdZdGVKTnNDUmZPTlA3UWY3WklCcWNBTVB1cjNwRHppcmV4OThtdzY5ZTdwR3NfZkMwd2dWWldhdWJzc3BYOEtQazJ0dlhqdjdaNzItNGZvZW9rMDRwVXl5UUpBa3I3YURxNFJjeWZvSWFJTUhZM3JKRXJuSWlseDhrZVZJZzYyUTJRRHpnNnA0NFdVZWZCaW9xNkE?oc=5",
-      "isNew": false
-    },
-    {
-      "id": "d458fb980216",
-      "title": "State Insurance Policymakers Talk About Private Credit Fears",
-      "source": "ThinkAdvisor",
-      "date": "2026-07-08T21:18:15Z",
-      "topic": "Private Credit",
-      "summary": "",
-      "link": "https://news.google.com/rss/articles/CBMiowFBVV95cUxNeEhSM3Mweko2bW9qZjh6X2ZoekdobUNOZXlnbDdHWHZnYWkwWk1jVDlITG1lN29Zam5iTUxrbTlmekhSbTduV1pINmlfSkFYeUNWdlk2RjBlWm1KcHlaVGlORWtudlk0dXYtNVdibHpnR0tLdW0yUzlzVHUtUjAxQ1Jfanc3cVlac2NOUkVUR2M1MExhaEFZOTZ5SnVPZEw1X3dv?oc=5",
-      "isNew": false
-    },
-    {
-      "id": "14192366d718",
-      "title": "10-year Treasury yield climbs to 4.57% as jumping oil prices reignite inflation fears",
-      "source": "CNBC",
-      "date": "2026-07-08T09:27:06Z",
-      "topic": "Rates & Macro",
-      "summary": "",
-      "link": "https://news.google.com/rss/articles/CBMifkFVX3lxTFA0Tm5NTUFvejNSZDBqOU1CRnROdzVtYzk0WjhmajNIemRkVEphR1pPYzhDYUlGUlFvREtob040b3RJNTZyVWhUa0pyUW5FeWlxY2JuOWZLZGJSU2EzSlk2UDFBaTIyQVFVLU40Z1pkbkVtbHlEbXlWcFFoS25hQdIBgwFBVV95cUxOVEtHNVUza19uejNTbFE2R0szX0dGVTFSd2lGLU5sS21nNHpjbGZvTlNLZVg3X0pQbXdQODNjeUJsSGdweEUzZnpVNkZpQzVBb2JLUjBkMTYxczEwZVptNTlERGF2LTJCcWtCYzdFczRRZnBHcUxiWENrOTNfeGVaV2diSQ?oc=5",
       "isNew": false
     }
   ]

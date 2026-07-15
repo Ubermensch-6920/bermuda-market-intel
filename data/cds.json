@@ -16,7 +16,7 @@
       "name": "AAA Corp",
       "spread": 42,
       "prior": 41,
-      "series_id": "",
+      "series_id": "BAMLC0A1CAAA",
       "date": "2026-07-14",
       "source": "credit.json"
     },
@@ -32,7 +32,7 @@
       "name": "A Corp",
       "spread": 67,
       "prior": 65,
-      "series_id": "",
+      "series_id": "BAMLC0A3CA",
       "date": "2026-07-14",
       "source": "credit.json"
     },
@@ -40,7 +40,7 @@
       "name": "BBB Corp",
       "spread": 97,
       "prior": 96,
-      "series_id": "",
+      "series_id": "BAMLC0A4CBBB",
       "date": "2026-07-14",
       "source": "credit.json"
     },
@@ -48,7 +48,7 @@
       "name": "BB Corp",
       "spread": 161,
       "prior": 158,
-      "series_id": "",
+      "series_id": "BAMLH0A1HYBB",
       "date": "2026-07-14",
       "source": "credit.json"
     },
@@ -103,5 +103,5 @@
       "source": "cache"
     }
   },
-  "_fetched": "2026-07-15T19:37:38.929565Z"
+  "_fetched": "2026-07-15T22:15:36.751282Z"
 }
