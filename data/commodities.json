@@ -2,7 +2,7 @@
   "date": "2026-07-15",
   "source": "FRED / TradingEconomics / Investing / Yahoo Finance",
   "gold": {
-    "spot": 4027.74,
+    "spot": 4062.72,
     "spot_date": "",
     "spot_source": "TradingEconomics",
     "unit": "USD/troy oz",
@@ -16,7 +16,7 @@
     "prior_1y_date": "2025-07-15",
     "futures": {
       "3M": {
-        "price": 4061.7,
+        "price": 4099.0,
         "expiry": "Oct 2026",
         "contract": "GCV26",
         "prior_1m": 4381.7,
@@ -27,7 +27,7 @@
         "prior_3m_contract": "GCQ26"
       },
       "6M": {
-        "price": 4129.2,
+        "price": 4153.1,
         "expiry": "Feb 2027",
         "contract": "GCG27",
         "prior_1m": 4414.3,
@@ -76,7 +76,7 @@
     "prior_1y_date": "2025-07-15",
     "futures": {
       "3M": {
-        "price": 78.17,
+        "price": 78.15,
         "expiry": "Oct 2026",
         "contract": "CLV26",
         "prior_1m": 78.17,
@@ -87,7 +87,7 @@
         "prior_3m_contract": "CLN26"
       },
       "6M": {
-        "price": 75.24,
+        "price": 75.29,
         "expiry": "Jan 2027",
         "contract": "CLF27",
         "prior_1m": 74.72,
@@ -98,7 +98,7 @@
         "prior_3m_contract": "CLV26"
       },
       "12M": {
-        "price": 71.84,
+        "price": 71.9,
         "expiry": "Jul 2027",
         "contract": "CLN27",
         "prior_1m": 71.77,
@@ -128,7 +128,7 @@
     "unit": "USD/barrel",
     "prior_1d": 84.73,
     "prior_1d_date": "2026-07-14",
-    "prior_1m": 84.36,
+    "prior_1m": 83.17,
     "prior_1m_date": "2026-06-15",
     "prior_3m": 114.93,
     "prior_3m_date": "2026-04-15",
@@ -136,7 +136,7 @@
     "prior_1y_date": "2025-07-15",
     "futures": {
       "3M": {
-        "price": 83.95,
+        "price": 83.43,
         "expiry": "Oct 2026",
         "contract": "BZV26",
         "prior_1m": 82.24,
@@ -242,5 +242,5 @@
     }
   },
   "note": "Spot history comes from daily FRED series. Futures history is roll-aware by target date. USD/INR uses FRED DEXINUS with Investing scrape fallback for latest spot.",
-  "_fetched": "2026-07-15T11:05:19.021276Z"
+  "_fetched": "2026-07-15T14:14:19.860048Z"
 }
