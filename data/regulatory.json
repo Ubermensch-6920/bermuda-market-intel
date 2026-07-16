@@ -1,6 +1,16 @@
 {
-  "updated": "2026-07-16T16:46:05Z",
+  "updated": "2026-07-16T19:37:51Z",
   "naic": [
+    {
+      "id": "bb18628b78fa",
+      "title": "When even the safest insurance companies aren\u2019t safe - MassMutual",
+      "date": "2026-07-16",
+      "cat": "General",
+      "summary": "",
+      "source": "roddubitsky.substack.com",
+      "link": "https://news.google.com/rss/articles/CBMigAFBVV95cUxPQkdyXy05aEVxb00zbjM2RjB4UXJuVFk1SjlRQW8xNl9NX084NU1Hc1A3WmhFWWtfOU1MT3RkemMzWllKa3I0QmhCYlloRGladHVCUVQ1YVY4bmdZRXJPV2ExTDlIQ3lhREpVR2h2MU40RmY1VkJzUENUa1U5dnBkUg?oc=5",
+      "isNew": true
+    },
     {
       "id": "58b23b0469ce",
       "title": "AI\u2019s dual reality: Efficiency for insurers, disruption for agents",
@@ -239,16 +249,6 @@
       "summary": "",
       "source": "Forbes",
       "link": "https://news.google.com/rss/articles/CBMirwFBVV95cUxQbHRqdTd6c3NPU3NLbmpYOW1mV1BHZ1k0alZZQTZVMXhQOTl4ZUhsTk02c0FQWVo3YV8wdThpRVBBY0pkUjdVR1hhcmotenFPM3QxUjNKMktVTzNBeXRyZkp1TmNmVHZidDh3U1BPT0x5REctckhVa2stU3pINFlTa2xsZGk5cmZGNGpkSFhpVGFOemFSaXpyWU9Hdy1RR2JBN1ZhNU9zRko3d0FBeWFr?oc=5",
-      "isNew": true
-    },
-    {
-      "id": "8fc23b3e0271",
-      "title": "Industry experts warn NAIC: Fix flawed IUL illustrations now",
-      "date": "2026-06-18",
-      "cat": "General",
-      "summary": "",
-      "source": "InsuranceNewsNet",
-      "link": "https://news.google.com/rss/articles/CBMioAFBVV95cUxNbmlUandUMTdtaVhyVHFkc0xiS2ZlOVJjV0VGS0RyVUlHRUFoQmp2MEJJMW9vc3hydzhZRnhDdlV4VktqZjAxOW9BX0tZb2ZvNjNaVUFqMUctQjBHNWJPT2VaRm9BS2FwTC1KNXpRQ3F5MEg3OE56WFByWnlYLTM1aDhvODZjNEFkQk41TlVveXFFN0g2NTFPdkZsWlNEUVJp?oc=5",
       "isNew": true
     }
   ],
