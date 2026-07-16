@@ -1,5 +1,5 @@
 {
-  "updated": "2026-07-16T03:41:36Z",
+  "updated": "2026-07-16T08:38:35Z",
   "topics": [
     "Insurance AM",
     "Private Credit",
@@ -7,6 +7,26 @@
     "Structured Credit"
   ],
   "items": [
+    {
+      "id": "c2c80b8fd748",
+      "title": "The rating reforms needed to tackle private credit\u2019s vulnerabilities",
+      "source": "Financial Times",
+      "date": "2026-07-16T04:00:21Z",
+      "topic": "Private Credit",
+      "summary": "",
+      "link": "https://news.google.com/rss/articles/CBMicEFVX3lxTFBTYzRYNVZzQ3pVaWJhR25TUXVEVEpDYWdYcVplQVpxWGNxeS1ZTEVVb2o1TXloZEt4VEUyQXZsZ0VNcFRCeGhVa3VScnhUYTJxbkF3M3VhQXkwSmFBNy1Ya0p2b05xdUc2YnRkclhsa04?oc=5",
+      "isNew": false
+    },
+    {
+      "id": "ae7018db24f5",
+      "title": "PRU Outperforms Industry, Trades at a Discount: Time to Exit or Hold?",
+      "source": "TradingView",
+      "date": "2026-07-15T16:36:00Z",
+      "topic": "Insurance AM",
+      "summary": "",
+      "link": "https://news.google.com/rss/articles/CBMivwFBVV95cUxNUDdjNHpiVnRZZ0FDR0djSVRneG56eldYcjVLLWg3QXQxcnBSQ3E2M2Jkcnd0Z2xRTHVaMTZwU1pyWS1lWk9SLVFNeGoyY18xckIzOEZldVlJTVl0SEFldnRhZTN2S2VQVHBmYVp5ZThNY3Etd1B4Wmp4cDBtcVBqRFU3c2drdTBLN3lxME9nUzI4ejh1ckdUNVZYR2t4bUhBMjVrUE15aVRaaFc5UEtjNFM5TDZjeVNBRVJ0S0t0OA?oc=5",
+      "isNew": false
+    },
     {
       "id": "8024bd5eb29c",
       "title": "Europe\u2019s banks deploy SRT scalpel across private credit exposures",
@@ -285,26 +305,6 @@
       "topic": "Structured Credit",
       "summary": "",
       "link": "https://news.google.com/rss/articles/CBMiuwFBVV95cUxPOG4yaEplcUt6S1dVV2Z2T1pWNUxiNVctazFUdnVSVFJjM2pyd3pjSFd0dHNaSmxpcXY0Q1BPRlRqNGZ3OU84b09fdGEwMWFsby1IRnBsUlNfUVRGSHZKeGJoVDFpR1JxbmRvRk9pMDhjMmNaOGJ5aWlHbGszaUtmQ0h0b2RKNDJ0bVpoSHZzbFA2RVFENm8zcmMxSHRfa1pwN0VYYU5uLUc3Z0E1WHZ1ZkgyVE9NVHZLb25V?oc=5",
-      "isNew": false
-    },
-    {
-      "id": "434292cc734f",
-      "title": "Japan benchmark bond yield extends rise after hitting 30-year high",
-      "source": "WTVB",
-      "date": "2026-07-09T01:41:07Z",
-      "topic": "Rates & Macro",
-      "summary": "",
-      "link": "https://news.google.com/rss/articles/CBMisAFBVV95cUxPZUhncFpTc21aU0JFSFZIX2dtb3FSTEg0X2piejUxZWtsWWJHRERqRGoxSklBcVY4YzJya0ItY0xtVmJFMHFzS241ZnBPSm8tSXdDbGhxajZjWmtBZ3FjV01RR3h0VFk5MTh0bWVhNGtCS1gzTzB5WjNYVmdPMTdORmdDdnprQnBwcER2cms5amY4S0ZmWlRTa2ZqWGtwcHgyYUQwd2QyRlljaUdjTkV2eA?oc=5",
-      "isNew": false
-    },
-    {
-      "id": "949eabcf27c0",
-      "title": "Japan benchmark bond yield extends rise after hitting 30-year high",
-      "source": "The Mighty 790 KFGO",
-      "date": "2026-07-09T01:41:01Z",
-      "topic": "Rates & Macro",
-      "summary": "",
-      "link": "https://news.google.com/rss/articles/CBMirgFBVV95cUxNMmo4MXNreWNQa1lFYVBnZU1vWWdZdGVKTnNDUmZPTlA3UWY3WklCcWNBTVB1cjNwRHppcmV4OThtdzY5ZTdwR3NfZkMwd2dWWldhdWJzc3BYOEtQazJ0dlhqdjdaNzItNGZvZW9rMDRwVXl5UUpBa3I3YURxNFJjeWZvSWFJTUhZM3JKRXJuSWlseDhrZVZJZzYyUTJRRHpnNnA0NFdVZWZCaW9xNkE?oc=5",
       "isNew": false
     }
   ]
