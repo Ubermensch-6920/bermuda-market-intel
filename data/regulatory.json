@@ -1,5 +1,5 @@
 {
-  "updated": "2026-07-16T11:16:32Z",
+  "updated": "2026-07-16T14:27:12Z",
   "naic": [
     {
       "id": "58b23b0469ce",
@@ -344,6 +344,16 @@
       "isNew": false
     },
     {
+      "id": "24ce71d91640",
+      "title": "BMA adds three new insurers in May",
+      "date": "2026-06-10",
+      "cat": "General",
+      "summary": "",
+      "source": "Royal Gazette | Bermuda",
+      "link": "https://news.google.com/rss/articles/CBMipAFBVV95cUxQNWdPM1BQUmZXNDNOR1NIbWNQVjJZdzBic2hqMU9ZVzdUa3pMaXktNnlFUWxmR0tvMk5rZnVpbHM3NnRJR0dxVTBuY2NOdWVjWm02Q0dPQzhHVDdOdWg5c1NIU2NlREp5V1RLaVBoV014MjFkOUY2bjdDQ3V5TEJCTDlmbW1JLXAyV2JPR0kxZFNfLTFJWnMtWVBtS3Vtb2lLUUdzdA?oc=5",
+      "isNew": false
+    },
+    {
       "id": "286b674b1558",
       "title": "Walkers report says crypto narrative has shifted",
       "date": "2026-06-09",
@@ -491,16 +501,6 @@
       "summary": "",
       "source": "Bernews",
       "link": "https://news.google.com/rss/articles/CBMie0FVX3lxTE9DWmZBVmtadkZRTDNPb2ZNTkhQa2xjZ096RUJlZG91OE5wVFIxNTZBYUl3ZlVsbWtKX1U3S19CdEM3MW95Ukc2TzZiTl9pcERqSW0wOUQ3MXI2YzJnRksxX2xQMmNwcWF1N0RfOWdUOHpJZlg3dUktRXI0WQ?oc=5",
-      "isNew": false
-    },
-    {
-      "id": "66a81440b392",
-      "title": "Premier discusses insurance and digital assets with US politicians",
-      "date": "2026-04-20",
-      "cat": "Investment",
-      "summary": "",
-      "source": "Royal Gazette | Bermuda",
-      "link": "https://news.google.com/rss/articles/CBMi3gFBVV95cUxOSmtJV1RWRXFzNjdhSFJkVzZLd2hIUWZzcGFnSUpxaUMwbUhnTlVaNjJ5MGRQTjVUU3ctY0Q1aGlUUHBJLUxrX1VVUGxzMEhOcEpobDBlRWF5djkwd2QtRmZYa2FSOXNqWHlibTFVaWx5ZDFHSnhKUUI4UEdtekpPcnAxaklYMTZZRDhJUjJYUXBwbmtORUtZX3VDM1E1WjlMWEI0dWZONEl4OU51alBDWHRTdFlobWlVZTNXVDU1cEZ5OE1yUGVvSXNPb0xad3hfS1IxWkdJWmVITm5JNUE?oc=5",
       "isNew": false
     }
   ],

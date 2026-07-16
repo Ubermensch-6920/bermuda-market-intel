@@ -1,5 +1,5 @@
 {
-  "updated": "2026-07-16T11:16:32Z",
+  "updated": "2026-07-16T14:27:12Z",
   "topics": [
     "Insurance AM",
     "Private Credit",
@@ -8,13 +8,43 @@
   ],
   "items": [
     {
+      "id": "9e64dfa04206",
+      "title": "The Rise And Rise Of Private Debt For Insurance Investors",
+      "source": "Seeking Alpha",
+      "date": "2026-07-16T14:07:00Z",
+      "topic": "Private Credit",
+      "summary": "",
+      "link": "https://news.google.com/rss/articles/CBMihAFBVV95cUxNVldkNHZtZjJGUW5PZFlzOVh3QmFyVXlWbThEcTRjYXFtMXJtbDJjQXdyUTJNa1pZMXA0NktIMlRnTDdvMi1ZTlpKTzdNNjlyZWJTSkIwbFVKSE1ocWJwaGVKZExSVHM0RWVGSnFkaG9qVnFfSGN6N0hCRk5kclNCbkxrSDE?oc=5",
+      "isNew": false
+    },
+    {
+      "id": "405433a3ef5c",
+      "title": "Navigating the Fed\u2019s new playbook: How CFOs can manage unpredictable interest rates",
+      "source": "The CFO",
+      "date": "2026-07-16T11:39:18Z",
+      "topic": "Rates & Macro",
+      "summary": "",
+      "link": "https://news.google.com/rss/articles/CBMisgFBVV95cUxPeW1DN1Z2dmNld29WaElTU2cxU002cUw0bDBFZGdnanc2ZkZtX19OWUhZNEhQM090X09NUFVXLW9XckRJdlJxU0o0RzRZSm9nazlVR3VHdHFUOTZpOEJiVEVsU1ZYU0FXM3JUVzJzWmRTUjI2aXBxbzBRWTIwQkxKRnFLRXRLYjQwTWI1d21zUVliV1E0TFVWMEw3ZDhvUXBPZXNZSFQ1U29nME9DRm9ESHJB?oc=5",
+      "isNew": false
+    },
+    {
       "id": "c2c80b8fd748",
       "title": "The rating reforms needed to tackle private credit\u2019s vulnerabilities",
       "source": "Financial Times",
-      "date": "2026-07-16T04:00:21Z",
+      "date": "2026-07-16T04:01:39Z",
       "topic": "Private Credit",
       "summary": "",
       "link": "https://news.google.com/rss/articles/CBMicEFVX3lxTFBTYzRYNVZzQ3pVaWJhR25TUXVEVEpDYWdYcVplQVpxWGNxeS1ZTEVVb2o1TXloZEt4VEUyQXZsZ0VNcFRCeGhVa3VScnhUYTJxbkF3M3VhQXkwSmFBNy1Ya0p2b05xdUc2YnRkclhsa04?oc=5",
+      "isNew": false
+    },
+    {
+      "id": "33e5ad431097",
+      "title": "BOJ may face pressure to ramp up bond-buying if yields spike, ex-central bank policymaker says",
+      "source": "Reuters",
+      "date": "2026-07-16T01:57:44Z",
+      "topic": "Rates & Macro",
+      "summary": "",
+      "link": "https://news.google.com/rss/articles/CBMixwFBVV95cUxPOG0xd2F5WkRoZ0NtYlBoWnJmUDhXNmVSTUVFdEtKYUhZa1hLQVNaaFh2UXFsRVV2dWV1UHFsLXdUUjlFQ3JuWXY4RUZReDRUZDhGX01keFgyT2JZUzhvV0ZyRkdJUldpTElkN2lkMmlSbWVLYlhXSkdmMHd2ZzZJQXlHemRTYm5YWnJ2STh4SWNkeGN6LUJkNWdIcEFERUlzbXA4MVFNVERkODJobF9KVW50WGk4ZXI1b05MYmMzVENLai05eHhR?oc=5",
       "isNew": false
     },
     {
@@ -275,36 +305,6 @@
       "topic": "Private Credit",
       "summary": "",
       "link": "https://news.google.com/rss/articles/CBMizgFBVV95cUxNN3BtMmd3YXlqaF9ieDhCZXgzU0tDWlVjZVJDcEt0eHVQVlIwekhURGJyakxSRlMtbV9iUU1ueENaYWo5c1VyU2I5SGlaZndQTWJWb3RhMExHWGVrYVJmS09aMld1d2FxWWpJbENUcEx5aGlhSjNaODRqN2piZTB0YzYya3pqQXpPQ0IzQTduMlcxaXNINlhGVWJwU2FKWHJPblFodG9FOUg1YXRBbTRYVE1BZkxwaGVNYk1teFdQbUowV2RoOE9qeFo4S0pFZw?oc=5",
-      "isNew": false
-    },
-    {
-      "id": "712305c57cac",
-      "title": "ALIRT Insurance Research: Recent Trends Involving Privately-Owned Insurers in the U.S. Life Insurance Industry",
-      "source": "Yahoo Finance",
-      "date": "2026-07-09T13:17:00Z",
-      "topic": "Private Credit",
-      "summary": "",
-      "link": "https://news.google.com/rss/articles/CBMioAFBVV95cUxQcjd3MUpuNHY0eS1sY1k4OHRYamx6Sk5mTlRKa2ZqbkVKWHREQVg3T3BFZ1FndHNlZVp2MFZsX2hfTXNiQkdBVUV2d3k5cGxER2R1cmNhcXpPYk5WNEN1SVFTLTZiSkxqSWFPN3RMTFlSQ3FfVi03MUJfLTRfWGI0d3k3MUl6ZHV5LXhFOVgxdTFPUktkZkNjUl9TTC1rTVZX?oc=5",
-      "isNew": false
-    },
-    {
-      "id": "f5ffd6c5cc2e",
-      "title": "RSM\u2019s global central banking outlook",
-      "source": "The Real Economy Blog",
-      "date": "2026-07-09T09:50:42Z",
-      "topic": "Rates & Macro",
-      "summary": "",
-      "link": "https://news.google.com/rss/articles/CBMidEFVX3lxTFAxWW9NNlFCanZiWHQzS1JNbklTME14XzIyS2JTMTF2Vmx5U0szRFZTTVc0YmMtT1JWSHRyQ1NiTXJpQ0VDeWdJZ1ZicmIxMzlta0Z6c2g2UEJzLXp6REtsMnRSRnczN2RlMWV6MXAyaHVBdzVH?oc=5",
-      "isNew": false
-    },
-    {
-      "id": "5abbfced6d70",
-      "title": "Insurance investors interest in investment grade credit has grown recently",
-      "source": "invesco.com",
-      "date": "2026-07-09T07:00:00Z",
-      "topic": "Structured Credit",
-      "summary": "",
-      "link": "https://news.google.com/rss/articles/CBMiuwFBVV95cUxPOG4yaEplcUt6S1dVV2Z2T1pWNUxiNVctazFUdnVSVFJjM2pyd3pjSFd0dHNaSmxpcXY0Q1BPRlRqNGZ3OU84b09fdGEwMWFsby1IRnBsUlNfUVRGSHZKeGJoVDFpR1JxbmRvRk9pMDhjMmNaOGJ5aWlHbGszaUtmQ0h0b2RKNDJ0bVpoSHZzbFA2RVFENm8zcmMxSHRfa1pwN0VYYU5uLUc3Z0E1WHZ1ZkgyVE9NVHZLb25V?oc=5",
       "isNew": false
     }
   ]
