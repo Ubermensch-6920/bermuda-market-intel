@@ -1,5 +1,5 @@
 {
-  "updated": "2026-07-17T14:07:49Z",
+  "updated": "2026-07-17T16:38:55Z",
   "topics": [
     "Insurance AM",
     "Private Credit",
@@ -7,6 +7,16 @@
     "Structured Credit"
   ],
   "items": [
+    {
+      "id": "41e34e3e298e",
+      "title": "Private credit roundup - Discounts show the cost of getting out",
+      "source": "Reuters",
+      "date": "2026-07-17T15:30:13Z",
+      "topic": "Private Credit",
+      "summary": "",
+      "link": "https://news.google.com/rss/articles/CBMirwFBVV95cUxPaFgyZ19venZaeERUdkh3T0F1SFpUdU5VLVg1Y1NjMkZCZXgyMTJnc2xJV2NXVHZKUXdzTTVyZThCNmNSUHpKQjVzYjU0VGZLemZONnNZMG5LUGFITHN5bDdiQ1pBZVpramZFUndHa2RNVWtwakVMV3pNeU9HUklIOWNUZk1UeThYbV9fQkotYjI3VHpTTW1MaGFVamIycllIWGNBWGVwbi1pNWlWWHNV?oc=5",
+      "isNew": false
+    },
     {
       "id": "d04288fcbdf5",
       "title": "Apollo\u2019s Insurance Riches Boost Mission to Redefine Mega-Deal Financing",
@@ -35,6 +45,16 @@
       "topic": "Private Credit",
       "summary": "",
       "link": "https://news.google.com/rss/articles/CBMitwFBVV95cUxPSmlqZjhzWXF3Ym05WnU3LWkxN1N1VTMxQlJEcncxeE1FV2lVUUZDU2dia1hJYTQ3RzE0dEt3bWM3Z3BsSjd1Q2x4TW9rVzJUenVkTlRLNm11Sno2bHdDNlBhdkpFLXJGTXFjSlI4X0ZFVy1EX2psWDRodWFQTTgwaU03eFV0dzlrem1yUDc4ckZ1ekdYWlVNMExucENzQi1TZTZGRVM0QnJxVEs3cE9oYXJDVXVsMkU?oc=5",
+      "isNew": false
+    },
+    {
+      "id": "6f2106a72213",
+      "title": "Brookfield Wealth Solutions Wins Shareholder Approval for Brookfield Corp. Tie-Up",
+      "source": "TradingView",
+      "date": "2026-07-17T03:02:00Z",
+      "topic": "Insurance AM",
+      "summary": "",
+      "link": "https://news.google.com/rss/articles/CBMi2AFBVV95cUxQUmFDRnBTRnpqaDN4bkQ2bVlLQ0pMV0EtcmhqOVFCLXVDLTNnb2NhX0RWY1NsdGRZbkt5UWpQbFRNSmZMZ1VTZkdhS3NrX2hFa3RORlFMRHZBMDFQWXZVdktGSGNQMGNxU1l6ZU5vT0FQYVNaeGRVbTRDZzE3VjdWWmdDYTZOaW1XbVZXcEVGT1VNQ2xvTV9oOWY0dEdGbU5LTFhqVzk5azNVTW1taC13OEVKY2I5VE13Ulgxa250Yms0MDV4cHQ2MzdNM21fWG9DTUpfYlBwRXY?oc=5",
       "isNew": false
     },
     {
@@ -285,26 +305,6 @@
       "topic": "Rates & Macro",
       "summary": "",
       "link": "https://news.google.com/rss/articles/CBMiiwFBVV95cUxNSUFMR0pBWkYwOVVNTWNRWGVoTEJLUnhYa1R4WjNzTDdMWElPcXR4eGxrV2NMejVSZWhRYWVlRERzTzB4YjRqWE10SGFGMjRQMHZtYXdwU3Q4S3JYYTFjM0RlQzVNZGxiY1dfQ3RiejQ5Y2t2MWNWT19ORGQxdDViX1R2MDJEc0ZoWlU0?oc=5",
-      "isNew": false
-    },
-    {
-      "id": "a0d770818b8d",
-      "title": "Contradictory Signals From BOJ and Takaichi Government Rattle Bond, Currency Markets",
-      "source": "JAPAN Forward",
-      "date": "2026-07-13T23:15:38Z",
-      "topic": "Rates & Macro",
-      "summary": "",
-      "link": "https://news.google.com/rss/articles/CBMiiwFBVV95cUxPWEtJOUtHenFDTFgycnpfQm0xcERselhzNmVDQTI2ZGNzNmk2bi1IcGZoVDR5bFFYMmgzWEpRYWlqNFh1d1dZY0JCU2JHd1N5UXR1elVSeWR6ZlNCVFJYRlpfd2lkOV9FVzUxMG5rbWRYd2hDRVZtS1U0N3BkZjIwT01xTUhsVnh1ZGNv?oc=5",
-      "isNew": false
-    },
-    {
-      "id": "fb529d31e668",
-      "title": "Brazil markets rally as inflation strengthens rate-cut outlook",
-      "source": "Valor International",
-      "date": "2026-07-13T11:39:55Z",
-      "topic": "Rates & Macro",
-      "summary": "",
-      "link": "https://news.google.com/rss/articles/CBMiyAFBVV95cUxOX2N1ZHVDaFY5aWYyYVdhQ2FwY1k4ODB0dHIwLVdENFNXYzRfR0E1d2otbkJGaDlCVGxFNV9nQ0lsa283LThaTklIWFBwV2hFN2h4ZlRXRDVEczh4bmR1cHJQbk04ZG9pU2tDdnc3VkR0UWpFOURPS0NVYk5jMTZ3M183VHAwbzdEa2Fod1NTemlIOUtsOXBRNjN2SDVXMF9jM1M1TUJLNjhYNDRDdExNdWxIeGdVcUFhTktvYl80dkhoajhNa3ExatIB1wFBVV95cUxQMFRUeWxhbENlTmlZYlNMNU9QY2s4Q21qWG8xX01YTkJVZWZ1ZXFocnN1ZHQ2ZFlFdW9peFl0aDYxaGZuZEhaUURuakNYMURNVDJsYTRRU0YwLUp6X04tZF9pY1NlN295N2stYUV3eW11R3V1WHRwQzU1U1U1dk9LalJUMHZHRXlGb3l0Z0dUMUlVdGtOOXRyME44Rjg1WlB5cmdkY1ZMLTl0QWxEdjUwVmpPSnNoMldDaGxuWlJWYnJMeWYtMGZqT3B6cG5Ud2ppTGZrUVU4dw?oc=5",
       "isNew": false
     }
   ]
