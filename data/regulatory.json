@@ -1,5 +1,5 @@
 {
-  "updated": "2026-07-16T22:18:59Z",
+  "updated": "2026-07-17T03:41:56Z",
   "naic": [
     {
       "id": "bb18628b78fa",
@@ -232,6 +232,16 @@
       "isNew": true
     },
     {
+      "id": "94a8d3b9cb8f",
+      "title": "Threat actor group ShinyHunters claims to have obtained NAIC data",
+      "date": "2026-06-22",
+      "cat": "General",
+      "summary": "",
+      "source": "theinsurer.com",
+      "link": "https://news.google.com/rss/articles/CBMivAFBVV95cUxNcklYM3hHSGI4NGM0dzYwTlBZdldmdTJIUlFOcEJ5R0t1UmotZ25JYVVFMi1BdUhENVFNTktjRXhJMjEwT1JscnJMaUdZeDgwcHowcWdmc0JjWUtlYlJ2ZFpydFlzeDZRcHNvUWdoNmNaZHJST3BoNVE0bEczMUN2d2ZhUnBlYTJjSHprczdQaUR5VWhOcHo2MUlOUXJCSUZnZm1SYzcwdllPWjJJLW1jZVpScUlPR3V5LXdIUQ?oc=5",
+      "isNew": true
+    },
+    {
       "id": "108cd074c4e9",
       "title": "Is private credit a $2 trillion-dollar insurance timebomb?",
       "date": "2026-06-22",
@@ -239,16 +249,6 @@
       "summary": "",
       "source": "American Banker",
       "link": "https://news.google.com/rss/articles/CBMilwFBVV95cUxQOGZZb1hxVGRLTGg1RGZqc2RRMEd2QVJ5OG9yQklWS29fa1lDTER4WUdyV2pxVEg3dEVmVl9KbUw2UTQ4Rm9IZ2l2RTM4TElmQ09KRXBJNFZzcmRZV1pxejB5Qmp3ZHl2dU8yb1BYSFNQWUN0STVpVU5ZWjZtb01qbHdDZG5pcTRQNVQzN1BWc2x1V0dLOGhJ?oc=5",
-      "isNew": true
-    },
-    {
-      "id": "b7c1c66d96e4",
-      "title": "Regulators Probe The AI Debt Sitting Inside Your Annuity",
-      "date": "2026-06-18",
-      "cat": "Governance",
-      "summary": "",
-      "source": "Forbes",
-      "link": "https://news.google.com/rss/articles/CBMirwFBVV95cUxQbHRqdTd6c3NPU3NLbmpYOW1mV1BHZ1k0alZZQTZVMXhQOTl4ZUhsTk02c0FQWVo3YV8wdThpRVBBY0pkUjdVR1hhcmotenFPM3QxUjNKMktVTzNBeXRyZkp1TmNmVHZidDh3U1BPT0x5REctckhVa2stU3pINFlTa2xsZGk5cmZGNGpkSFhpVGFOemFSaXpyWU9Hdy1RR2JBN1ZhNU9zRko3d0FBeWFr?oc=5",
       "isNew": true
     }
   ],
@@ -505,6 +505,16 @@
     }
   ],
   "cayman": [
+    {
+      "id": "d1ae3ed202cb",
+      "title": "CIMA Markets: Saliou Bakayoko advocates for trust insurance, driven by quick compensation",
+      "date": "2026-07-16",
+      "cat": "General",
+      "summary": "",
+      "source": "Financial Afrik",
+      "link": "https://news.google.com/rss/articles/CBMizgFBVV95cUxOVTRlSmxPcEllUGxLUndNbkRyN19qN2d3YWF4MGxFZlNjMVY2eVE3TlVGWF9lMlVNU0lKMVI3dHZ6dXBfbWRlMlQ2RjNjb0ZSXzU4SDZLV3lqU29sQk4xdDdYcE92VVpOY0pzaTJMZ21tMDV3a1FyWDRCeDBlZXJwc21RYVVXdWlXVk9PVkdNYWZqOV9UZERvdUF1TENQd2tYOVdQaGxyS2pVXy0xbVNYTEhGaDJVZHY2cDYzNTBjZG1PVFBUUUlnV0s0QXBLQQ?oc=5",
+      "isNew": true
+    },
     {
       "id": "fffa4930bfb6",
       "title": "CIMA region still apart in Africa\u2019s booming Islamic insurance market",
