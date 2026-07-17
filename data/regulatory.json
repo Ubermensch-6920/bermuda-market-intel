@@ -1,5 +1,5 @@
 {
-  "updated": "2026-07-17T11:02:53Z",
+  "updated": "2026-07-17T14:07:49Z",
   "naic": [
     {
       "id": "bb18628b78fa",
@@ -182,6 +182,16 @@
       "isNew": true
     },
     {
+      "id": "c65cab41b3f0",
+      "title": "Terabytes of data dumped on the dark web after US insurance regulator hacked",
+      "date": "2026-06-28",
+      "cat": "General",
+      "summary": "",
+      "source": "Insurance Business",
+      "link": "https://news.google.com/rss/articles/CBMi1gFBVV95cUxObUVVQ2JhWDJRUlZQWGkybHRiS0V6WDFmdWlBS2VYRU40cVd1NG1YYkVJeFdPQXdWWnFaMndfMklqN0pmbVBkelRyNHBKbU43TzlveUNyUnZkNnQtckRmZlh3a0ZicG9EbjZKd010TTc5YlNxR0JJMEU3eEZFZVV5TXRIeTl4bXJwZ2dET2ZYTUVKbU9hQ1ZabkNqTVdGS184Tm5iRUpFYXFsZW85b0JhYUhTZVQtNXozT2JiTjFheGlCWDh4Mkt6OVROYXFhSXZDOUFrMHhn?oc=5",
+      "isNew": true
+    },
+    {
       "id": "b9cddd9e1cd9",
       "title": "3.1TB of NAIC data dumped on to the dark web",
       "date": "2026-06-28",
@@ -239,16 +249,6 @@
       "summary": "",
       "source": "theinsurer.com",
       "link": "https://news.google.com/rss/articles/CBMivAFBVV95cUxNcklYM3hHSGI4NGM0dzYwTlBZdldmdTJIUlFOcEJ5R0t1UmotZ25JYVVFMi1BdUhENVFNTktjRXhJMjEwT1JscnJMaUdZeDgwcHowcWdmc0JjWUtlYlJ2ZFpydFlzeDZRcHNvUWdoNmNaZHJST3BoNVE0bEczMUN2d2ZhUnBlYTJjSHprczdQaUR5VWhOcHo2MUlOUXJCSUZnZm1SYzcwdllPWjJJLW1jZVpScUlPR3V5LXdIUQ?oc=5",
-      "isNew": true
-    },
-    {
-      "id": "108cd074c4e9",
-      "title": "Is private credit a $2 trillion-dollar insurance timebomb?",
-      "date": "2026-06-22",
-      "cat": "Investment",
-      "summary": "",
-      "source": "American Banker",
-      "link": "https://news.google.com/rss/articles/CBMilwFBVV95cUxQOGZZb1hxVGRLTGg1RGZqc2RRMEd2QVJ5OG9yQklWS29fa1lDTER4WUdyV2pxVEg3dEVmVl9KbUw2UTQ4Rm9IZ2l2RTM4TElmQ09KRXBJNFZzcmRZV1pxejB5Qmp3ZHl2dU8yb1BYSFNQWUN0STVpVU5ZWjZtb01qbHdDZG5pcTRQNVQzN1BWc2x1V0dLOGhJ?oc=5",
       "isNew": true
     }
   ],
