@@ -79,5 +79,5 @@
     "year_ago": "TE year delta reconstruction"
   },
   "note": "FBIL latest first, then Investing/TE/FRED, then local history / cache. India 3M curve is exact once local history accumulates.",
-  "_fetched": "2026-07-17T20:31:49.416863Z"
+  "_fetched": "2026-07-17T22:06:41.174502Z"
 }
