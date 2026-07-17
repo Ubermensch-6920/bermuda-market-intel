@@ -1,5 +1,5 @@
 {
-  "updated": "2026-07-17T08:32:30Z",
+  "updated": "2026-07-17T11:02:53Z",
   "topics": [
     "Insurance AM",
     "Private Credit",
@@ -7,6 +7,16 @@
     "Structured Credit"
   ],
   "items": [
+    {
+      "id": "140c6eaf4b12",
+      "title": "Marsh survey finds insurers remain keen on private credit despite growing caution over risks",
+      "source": "Reinsurance News",
+      "date": "2026-07-17T11:01:48Z",
+      "topic": "Private Credit",
+      "summary": "",
+      "link": "https://news.google.com/rss/articles/CBMivwFBVV95cUxQcjBKMzBSdzdSMnN1N0lMTm9lN09reDFaLV9xR3NPYVhlTGZnTURWWGNlWHI4aThvU1B4Zl9tTlRZNzVWOXEybEU0ejYzeTRUQnc5VWVLLWd5OGZCSmFUbGp4R1hDWHJtc0xUS0E4TjBqbjJYek83eFF2MVFNUVFpYm11QTJqeW1IMDV5aWlTcnh6ZTlIbEFsUFhtckp6QWthYmYwUXJhOElPMWRRUUctcmd1TEwxaWJYVTZRSUNrcw?oc=5",
+      "isNew": false
+    },
     {
       "id": "bb18628b78fa",
       "title": "When even the safest insurance companies aren\u2019t safe - MassMutual",
@@ -295,16 +305,6 @@
       "topic": "Insurance AM",
       "summary": "",
       "link": "https://news.google.com/rss/articles/CBMiugFBVV95cUxOVjBicFQ2d2lnRlFmbTBtZm43emVSOWJZMENmeDlEMmhENkpQTzZCWVpFSlo2dXgxUVdWYmFsQXpUSmtUSzV1REphZDYzZXpibjdsdFJKcFM1enA4ZkNtVnpFX2NnVXZ3VC1BSVJTMGRkOE01YnRMdlYtS3FuV01XYWYtbGJJQ2xLRVhCaTVWbVJ2aWJ5Qi1XRHJBV1FwNGNkVjZzTXhUVXhiX2lEaEpseU9TdnUyT1lOWEE?oc=5",
-      "isNew": false
-    },
-    {
-      "id": "6960f8d9f464",
-      "title": "Federal Funds Rate History 1990 to 2026",
-      "source": "Forbes",
-      "date": "2026-07-10T19:10:00Z",
-      "topic": "Rates & Macro",
-      "summary": "",
-      "link": "https://news.google.com/rss/articles/CBMidEFVX3lxTFBsNEtLYjBNb05hZjBmRkV5NDctYTNrTTF1a0FwQzlpdG42Y3ROZmNVdmROTHRMbTBobHFhTnBzUVVDZEwxdGk5cm9HRWlWMTBCYk5EM0doODFNNnFPb0JfRDR1VVFwSzlsYnV0MUVfeldlTGpw?oc=5",
       "isNew": false
     }
   ]
