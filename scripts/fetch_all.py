@@ -2286,17 +2286,9 @@ def fetch_commodities():
         def run(task):
             lbl, months, sym, exp, kind, target_dt = task
             if kind == "now":
-                px = yahoo_price(sym)
-                used_sym = sym
-                if px is None and label_prefix == "USDINR":
-                    px = yahoo_price("INR=F")
-                    used_sym = "INR=F"
-                return lbl, kind, px, "", used_sym, exp
+                return lbl, kind, yahoo_price(sym), "", sym, exp
             hist_sym, hist_exp = sym_fn(months, base_dt=target_dt)
             v, d = yahoo_price_near_date(hist_sym, target_dt)
-            if v is None and label_prefix == "USDINR":
-                v, d = yahoo_price_near_date("INR=F", target_dt)
-                hist_sym = "INR=F"
             return lbl, kind, v, d, hist_sym, hist_exp
 
         with ThreadPoolExecutor(max_workers=12) as ex:
@@ -2382,7 +2374,8 @@ def fetch_commodities():
         usdinr_1d = usdinr_1d_d = usdinr_1m = usdinr_1m_d = None
         usdinr_3m = usdinr_3m_d = usdinr_1y = usdinr_1y_d = None
 
-    # If FRED spot is stale (>2 days old) or missing, use manual scrape for latest spot.
+    # If FRED spot is stale (>2 days old) or missing, refresh from live sources.
+    # DEXINUS publishes with up to a week's lag, so this triggers on most runs.
     try:
         spot_dt = datetime.strptime(usdinr_spot_date, "%Y-%m-%d") if usdinr_spot_date else None
         spot_age_days = (datetime.utcnow() - spot_dt).days if spot_dt else 999
@@ -2391,28 +2384,44 @@ def fetch_commodities():
     # Also trigger when FRED was unavailable and we fell through to cache — a cache
     # value can be arbitrarily old even if its date looks recent.
     if usdinr_spot is None or spot_age_days > 2 or usdinr_spot_source == "cache":
-        scraped_usdinr = scrape_fx_spot("/currencies/usd-inr")
-        if scraped_usdinr is not None:
-            usdinr_spot = scraped_usdinr
+        # Yahoo INR=X is USD/INR spot and works from CI runners (same host that
+        # serves the gold/oil futures above); Investing is blocked from CI but
+        # kept as a local-run fallback.
+        live_spot = yahoo_price("INR=X")
+        if live_spot is not None and 50 <= live_spot <= 150:
+            usdinr_spot = round(live_spot, 4)
             usdinr_spot_date = datetime.utcnow().strftime("%Y-%m-%d")
-            usdinr_spot_source = "Investing scrape"
-
-    # Third spot fallback: exchangerate.host free API (stdlib urllib, no new deps).
-    if usdinr_spot is None:
-        try:
-            import urllib.request as _ur
-            _resp = _ur.urlopen(
-                "https://api.exchangerate.host/latest?base=USD&symbols=INR",
-                timeout=10,
-            )
-            _d = json.loads(_resp.read())
-            _v = float(_d["rates"]["INR"])
-            if 50 <= _v <= 120:
-                usdinr_spot = round(_v, 4)
+            usdinr_spot_source = "Yahoo INR=X"
+        else:
+            scraped_usdinr = scrape_fx_spot("/currencies/usd-inr")
+            if scraped_usdinr is not None:
+                usdinr_spot = scraped_usdinr
                 usdinr_spot_date = datetime.utcnow().strftime("%Y-%m-%d")
-                usdinr_spot_source = "exchangerate.host"
-        except Exception:
-            pass
+                usdinr_spot_source = "Investing scrape"
+
+    # Last spot fallbacks: keyless JSON rate APIs. (exchangerate.host used to fill
+    # this slot but now requires an API key and always fails.)
+    if usdinr_spot is None:
+        for api_url, tag in (
+            ("https://open.er-api.com/v6/latest/USD", "open.er-api.com"),
+            ("https://api.frankfurter.app/latest?from=USD&to=INR", "frankfurter.app (ECB ref)"),
+        ):
+            try:
+                _v = float(json.loads(get(api_url, timeout=10))["rates"]["INR"])
+                if 50 <= _v <= 150:
+                    usdinr_spot = round(_v, 4)
+                    usdinr_spot_date = datetime.utcnow().strftime("%Y-%m-%d")
+                    usdinr_spot_source = tag
+                    break
+            except Exception:
+                pass
+
+    # FRED's publication lag means prior_1d is usually unavailable from DEXINUS;
+    # backfill it from Yahoo INR=X daily history so day-over-day change renders.
+    if usdinr_spot is not None and usdinr_1d is None:
+        _v, _d = yahoo_price_near_date("INR=X", datetime.utcnow() - timedelta(days=1), max_diff_days=5)
+        if _v is not None and 50 <= _v <= 150 and usdinr_spot_date and _d < usdinr_spot_date:
+            usdinr_1d, usdinr_1d_d = _v, _d
 
     usdinr_futures = fetch_all_futures(_usdinr_symbol, "USDINR")
     for source_name, fwds in [
@@ -2440,6 +2449,37 @@ def fetch_commodities():
             px = (usdinr_futures.get(t) or {}).get("price")
             if px is not None and px < usdinr_spot - 3.0:
                 usdinr_futures[t]["price"] = None
+
+    # Derived fallback: CME INR contracts are dead on Yahoo and NSE/Investing block
+    # CI runners, so live forwards rarely land. Fill remaining tenors via covered
+    # interest parity from the sovereign curves fetched earlier in this run:
+    # F = S * (1 + r_INR*t) / (1 + r_USD*t). India's curve starts at 1Y, so the
+    # 3M/6M points borrow the 1Y INR rate — an approximation, labeled as derived.
+    def _curve_yield(fname, tenor):
+        try:
+            d = json.loads((DATA / fname).read_text())
+            v = d["yields"][d["tenors"].index(tenor)]
+            return float(v) if v is not None else None
+        except Exception:
+            return None
+
+    if usdinr_spot is not None:
+        cip_specs = [("3M", "1Y", "3M", 0.25), ("6M", "1Y", "6M", 0.5),
+                     ("12M", "1Y", "1Y", 1.0), ("24M", "2Y", "2Y", 2.0)]
+        cip_filled = []
+        for t, inr_ten, ust_ten, yrs in cip_specs:
+            if (usdinr_futures.get(t) or {}).get("price") is not None:
+                continue
+            r_inr = _curve_yield("india.json", inr_ten)
+            r_usd = _curve_yield("ust.json", ust_ten)
+            if r_inr is None or r_usd is None:
+                continue
+            fwd = usdinr_spot * (1 + r_inr / 100 * yrs) / (1 + r_usd / 100 * yrs)
+            usdinr_futures.setdefault(t, {})
+            usdinr_futures[t].update({"price": round(fwd, 2), "contract": "CIP derived", "expiry": t})
+            cip_filled.append(t)
+        if cip_filled:
+            log.info(f"  USD/INR forwards CIP-derived for {cip_filled}")
 
     # Last-resort cache fallback: use the previous run's forward price for any tenor still
     # missing a live price, provided the cached value is coherent with the current spot.
@@ -2503,7 +2543,7 @@ def fetch_commodities():
             "prior_1y": usdinr_1y, "prior_1y_date": usdinr_1y_d,
             "futures": usdinr_futures,
         },
-        "note": "Spot history comes from daily FRED series. Futures history is roll-aware by target date. USD/INR uses FRED DEXINUS with Investing scrape fallback for latest spot."
+        "note": "Spot history comes from daily FRED series. Futures history is roll-aware by target date. USD/INR latest spot: FRED DEXINUS, then Yahoo INR=X / keyless FX APIs when FRED lags; forwards fall back to CIP derivation from India/UST curves when market quotes are unavailable."
     })
     log.info("  COMMODITIES OK")
 

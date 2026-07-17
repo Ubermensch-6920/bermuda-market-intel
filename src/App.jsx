@@ -1070,9 +1070,14 @@ const newsItems = data => (data?.items?.length ? data.items : NEWS);
 const regItems = (data, key) => (data?.[key]?.length ? data[key] : (REG_FALLBACK[key] || []));
 
 // Title that links to the publication/presentation when a URL is present.
-const ItemTitle = ({ title, link }) => link
-  ? <a href={link} target="_blank" rel="noopener noreferrer" style={{ color: "#f1f5f9", textDecoration: "none", display: "inline-flex", alignItems: "baseline", gap: 5 }} onMouseEnter={e => e.currentTarget.style.color = "#60a5fa"} onMouseLeave={e => e.currentTarget.style.color = "#f1f5f9"}>{title}<ExternalLink size={12} style={{ flexShrink: 0, opacity: 0.7 }} /></a>
-  : <span style={{ color: "#f1f5f9" }}>{title}</span>;
+// Pass paywall={true} for news articles to route via archive.ph.
+const paywallUrl = url => `https://archive.ph/${url}`;
+const ItemTitle = ({ title, link, paywall }) => {
+  const href = link ? (paywall ? paywallUrl(link) : link) : null;
+  return href
+    ? <a href={href} target="_blank" rel="noopener noreferrer" style={{ color: "#f1f5f9", textDecoration: "none", display: "inline-flex", alignItems: "baseline", gap: 5 }} onMouseEnter={e => e.currentTarget.style.color = "#60a5fa"} onMouseLeave={e => e.currentTarget.style.color = "#f1f5f9"}>{title}<ExternalLink size={12} style={{ flexShrink: 0, opacity: 0.7 }} /></a>
+    : <span style={{ color: "#f1f5f9" }}>{title}</span>;
+};
 
 const NewsSection = ({ data, loading, error }) => {
   const items = newsItems(data);
@@ -1090,7 +1095,7 @@ const NewsSection = ({ data, loading, error }) => {
       {error && !live && <div style={{ padding: "10px 22px", fontSize: 12, color: "#f87171" }}><AlertTriangle size={13} style={{ verticalAlign: "middle", marginRight: 4 }} />{error}</div>}
       {filtered.map(item => (<div key={item.id} style={{ padding: "14px 22px", borderBottom: "1px solid #151820" }} onMouseEnter={e => e.currentTarget.style.background = "#12141a"} onMouseLeave={e => e.currentTarget.style.background = "transparent"}>
         <div style={{ display: "flex", gap: 8, alignItems: "center", marginBottom: 5 }}><Badge color={TC[item.topic] || "#60a5fa"}>{item.topic}</Badge><span style={{ fontSize: 12, color: "#64748b" }}>{[item.source, item.date ? timeAgo(item.date) : null].filter(Boolean).join(" • ")}</span></div>
-        <h4 style={{ margin: "0 0 4px", fontSize: 14, fontWeight: 600, lineHeight: 1.4 }}><ItemTitle title={item.title} link={item.link} /></h4>
+        <h4 style={{ margin: "0 0 4px", fontSize: 14, fontWeight: 600, lineHeight: 1.4 }}><ItemTitle title={item.title} link={item.link} paywall /></h4>
         {item.summary && <p style={{ margin: 0, fontSize: 13, color: "#94a3b8", lineHeight: 1.5 }}>{item.summary}</p>}
       </div>))}
     </div>
@@ -1536,7 +1541,7 @@ export default function App() {
         <div style={{ display: "grid", gridTemplateColumns: "1fr 1fr", gap: 14 }}>
           <div style={{ background: "#0d0f14", border: "1px solid #1e2028", borderRadius: 10, overflow: "hidden" }}>
             <div style={{ padding: "14px 22px", borderBottom: "1px solid #1e2028", display: "flex", justifyContent: "space-between", alignItems: "center" }}><h3 style={{ margin: 0, fontSize: 14, fontWeight: 700, color: "#f1f5f9" }}><Newspaper size={15} style={{ verticalAlign: "middle", marginRight: 6 }} /> News</h3><button onClick={() => setPage("news")} style={{ background: "transparent", border: "none", color: "#60a5fa", fontSize: 12, cursor: "pointer", fontWeight: 600 }}>All <ChevronRight size={13} style={{ verticalAlign: "middle" }} /></button></div>
-            {newsItems(data.news).slice(0, 4).map(item => <div key={item.id} style={{ padding: "10px 22px", borderBottom: "1px solid #151820" }}><div style={{ display: "flex", gap: 6, alignItems: "center", marginBottom: 3 }}><Badge color={TC[item.topic] || "#60a5fa"}>{item.topic}</Badge><span style={{ fontSize: 11, color: "#64748b" }}>{[item.source, item.date ? timeAgo(item.date) : null].filter(Boolean).join(" • ")}</span></div><div style={{ fontSize: 13, fontWeight: 600, color: "#f1f5f9", lineHeight: 1.4 }}><ItemTitle title={item.title} link={item.link} /></div></div>)}
+            {newsItems(data.news).slice(0, 4).map(item => <div key={item.id} style={{ padding: "10px 22px", borderBottom: "1px solid #151820" }}><div style={{ display: "flex", gap: 6, alignItems: "center", marginBottom: 3 }}><Badge color={TC[item.topic] || "#60a5fa"}>{item.topic}</Badge><span style={{ fontSize: 11, color: "#64748b" }}>{[item.source, item.date ? timeAgo(item.date) : null].filter(Boolean).join(" • ")}</span></div><div style={{ fontSize: 13, fontWeight: 600, color: "#f1f5f9", lineHeight: 1.4 }}><ItemTitle title={item.title} link={item.link} paywall /></div></div>)}
           </div>
           <div style={{ background: "#0d0f14", border: "1px solid #1e2028", borderRadius: 10, overflow: "hidden" }}>
             <div style={{ padding: "14px 22px", borderBottom: "1px solid #1e2028", display: "flex", justifyContent: "space-between", alignItems: "center" }}><h3 style={{ margin: 0, fontSize: 14, fontWeight: 700, color: "#f1f5f9" }}><Shield size={15} style={{ verticalAlign: "middle", marginRight: 6 }} /> Regulatory</h3><button onClick={() => setPage("bma")} style={{ background: "transparent", border: "none", color: "#60a5fa", fontSize: 12, cursor: "pointer", fontWeight: 600 }}>All <ChevronRight size={13} style={{ verticalAlign: "middle" }} /></button></div>
