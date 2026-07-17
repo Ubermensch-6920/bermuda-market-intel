@@ -2,11 +2,11 @@
   "date": "2026-07-17",
   "source": "FRED / TradingEconomics / Investing / Yahoo Finance",
   "gold": {
-    "spot": 4005.1,
+    "spot": 4009.04,
     "spot_date": "",
     "spot_source": "TradingEconomics",
     "unit": "USD/troy oz",
-    "prior_1d": 4007.5,
+    "prior_1d": 4015.1,
     "prior_1d_date": "2026-07-17",
     "prior_1m": 4224.1,
     "prior_1m_date": "2026-06-18",
@@ -16,7 +16,7 @@
     "prior_1y_date": "2025-07-18",
     "futures": {
       "3M": {
-        "price": 4035.2,
+        "price": 4044.5,
         "expiry": "Oct 2026",
         "contract": "GCV26",
         "prior_1m": 4275.9,
@@ -76,7 +76,7 @@
     "prior_1y_date": "2025-07-17",
     "futures": {
       "3M": {
-        "price": 80.0,
+        "price": 80.2,
         "expiry": "Oct 2026",
         "contract": "CLV26",
         "prior_1m": 75.11,
@@ -87,7 +87,7 @@
         "prior_3m_contract": "CLN26"
       },
       "6M": {
-        "price": 76.32,
+        "price": 76.41,
         "expiry": "Jan 2027",
         "contract": "CLF27",
         "prior_1m": 72.49,
@@ -136,7 +136,7 @@
     "prior_1y_date": "2025-07-17",
     "futures": {
       "3M": {
-        "price": 86.0,
+        "price": 86.17,
         "expiry": "Oct 2026",
         "contract": "BZV26",
         "prior_1m": 79.51,
@@ -182,12 +182,12 @@
     }
   },
   "usdinr": {
-    "spot": 95.33,
-    "spot_date": "2026-07-10",
-    "spot_source": "FRED DEXINUS",
+    "spot": 96.27,
+    "spot_date": "2026-07-17",
+    "spot_source": "Yahoo INR=X",
     "unit": "INR per USD",
-    "prior_1d": null,
-    "prior_1d_date": null,
+    "prior_1d": 96.65,
+    "prior_1d_date": "2026-07-16",
     "prior_1m": 94.33,
     "prior_1m_date": "2026-06-18",
     "prior_3m": 92.9,
@@ -196,51 +196,51 @@
     "prior_1y_date": "2025-07-18",
     "futures": {
       "3M": {
-        "price": null,
-        "expiry": "Oct 2026",
-        "contract": "INR=F",
+        "price": 96.73,
+        "expiry": "3M",
+        "contract": "CIP derived",
         "prior_1m": null,
         "prior_1m_date": "",
-        "prior_1m_contract": "INR=F",
+        "prior_1m_contract": "INRU26",
         "prior_3m": null,
         "prior_3m_date": "",
-        "prior_3m_contract": "INR=F"
+        "prior_3m_contract": "INRN26"
       },
       "6M": {
-        "price": null,
-        "expiry": "Jan 2027",
-        "contract": "INR=F",
+        "price": 97.13,
+        "expiry": "6M",
+        "contract": "CIP derived",
         "prior_1m": null,
         "prior_1m_date": "",
-        "prior_1m_contract": "INR=F",
+        "prior_1m_contract": "INRZ26",
         "prior_3m": null,
         "prior_3m_date": "",
-        "prior_3m_contract": "INR=F"
+        "prior_3m_contract": "INRV26"
       },
       "12M": {
-        "price": null,
-        "expiry": "Jul 2027",
-        "contract": "INR=F",
+        "price": 97.91,
+        "expiry": "12M",
+        "contract": "CIP derived",
         "prior_1m": null,
         "prior_1m_date": "",
-        "prior_1m_contract": "INR=F",
+        "prior_1m_contract": "INRM27",
         "prior_3m": null,
         "prior_3m_date": "",
-        "prior_3m_contract": "INR=F"
+        "prior_3m_contract": "INRJ27"
       },
       "24M": {
-        "price": null,
-        "expiry": "Jul 2028",
-        "contract": "INR=F",
+        "price": 99.49,
+        "expiry": "24M",
+        "contract": "CIP derived",
         "prior_1m": null,
         "prior_1m_date": "",
-        "prior_1m_contract": "INR=F",
+        "prior_1m_contract": "INRM28",
         "prior_3m": null,
         "prior_3m_date": "",
-        "prior_3m_contract": "INR=F"
+        "prior_3m_contract": "INRJ28"
       }
     }
   },
-  "note": "Spot history comes from daily FRED series. Futures history is roll-aware by target date. USD/INR uses FRED DEXINUS with Investing scrape fallback for latest spot.",
-  "_fetched": "2026-07-17T19:36:13.816680Z"
+  "note": "Spot history comes from daily FRED series. Futures history is roll-aware by target date. USD/INR latest spot: FRED DEXINUS, then Yahoo INR=X / keyless FX APIs when FRED lags; forwards fall back to CIP derivation from India/UST curves when market quotes are unavailable.",
+  "_fetched": "2026-07-17T20:35:07.138077Z"
 }
