@@ -1,6 +1,16 @@
 {
-  "updated": "2026-07-18T16:14:57Z",
+  "updated": "2026-07-18T19:35:52Z",
   "naic": [
+    {
+      "id": "a0baad77c2fd",
+      "title": "NAIC MD Yazid, agriculture, finance ministries strengthen insurance for farmers",
+      "date": "2026-07-18",
+      "cat": "General",
+      "summary": "",
+      "source": "Vanguard News",
+      "link": "https://news.google.com/rss/articles/CBMiugFBVV95cUxOMzVWSjRzU0FWREtUVEk0MW1KY0ZkNDlOTjNMa2RqUTVlcWFBT0RtQS03d3hINWtEVWFYQ0FsOWNEY1BHU0pWOGdMQUZ4ellTMXNxLVZiR2xnVTlGOTdBNzRPTXlNYUx6S09uSDFGRzVWZVlqVUZuc3VFQkE4c0hnbGZvQWo5cmxRaURubTZLNE1wSVN6bUxYUU56RFpvZHBHZS1KRUlGTTlON1dEOGlJY0hacWtPdURCOUHSAboBQVVfeXFMTjM1Vko0c1NBVkRLVFRJNDFtSmNGZDQ5Tk4zTGtkalE1ZXFhQU9EbUEtN3d4SDVrRFVhWENBbDljRGNQR1NKVjhnTEFGeHpZUzFzcS1WYkdsZ1U5Rjk3QTc0T015TWFMektPbkgxRkc1VmVZalVGbnN1RUJBOHNIZ2xmb0FqOXJsUWlEbm02SzRNcElTem1MWFFOekRab2RwR2UtSkVJRk05TjdXRDhpSWNIWnFrT3VEQjlB?oc=5",
+      "isNew": true
+    },
     {
       "id": "bb18628b78fa",
       "title": "When even the safest insurance companies aren\u2019t safe - MassMutual",
@@ -9,6 +19,16 @@
       "summary": "",
       "source": "roddubitsky.substack.com",
       "link": "https://news.google.com/rss/articles/CBMigAFBVV95cUxPQkdyXy05aEVxb00zbjM2RjB4UXJuVFk1SjlRQW8xNl9NX084NU1Hc1A3WmhFWWtfOU1MT3RkemMzWllKa3I0QmhCYlloRGladHVCUVQ1YVY4bmdZRXJPV2ExTDlIQ3lhREpVR2h2MU40RmY1VkJzUENUa1U5dnBkUg?oc=5",
+      "isNew": true
+    },
+    {
+      "id": "4d062861f6db",
+      "title": "CIRCA rejects Apollo claims over Cayman's reinsurance standards",
+      "date": "2026-07-14",
+      "cat": "General",
+      "summary": "",
+      "source": "Insurance Business",
+      "link": "https://news.google.com/rss/articles/CBMi2gFBVV95cUxOWEI0T3hNdnh5M0U2ekhDYWJRRnplN3g1ZDVheG9NRUZwR2lxUjJaVDhLSkFGdjRWWENGRkJVVjJwQ0FMY05KenJha1JHZkd3em0wczVrOXFYbks4UGxfQUg0NDJQUVlQQ0hVOFNGWmsyMXM5NFlTV3F2YmlxbWQ3alZDcHQ1ajktRUhnTkdNX3Bia1dON3RVSGdqa1I1ZzNlWnNCX0Y5VU5SR2lpanlhSjRvc1pWUFlHN3FxbkZtM0NUVXc5NlRlWHAtTUoxX3lTTEdiYUpDTnZTUQ?oc=5",
       "isNew": true
     },
     {
@@ -229,26 +249,6 @@
       "summary": "",
       "source": "WSJ",
       "link": "https://news.google.com/rss/articles/CBMiwgFBVV95cUxOQWNFaHIwa1pRV051V1VaNkVISWloR1pqZ2t6OU1wcVU3NVlkRFhnNDRMTWtfZnljR2pfUWpNQ0hodlVQUnJ1VnFRekF1NXhFSS1VVmFBeUxmaU4tcGZGejFMZkJlcTFRSzVjWTJIU2xkRnR1RlJ5MXp3WTZFTURod19aRjZLbERRZXlCMk94WkYwRE1wVXFDSDBHNWdTLTdvRzJfMUtGNVFiX3czSWo0QTZITmFrckdkOVZ2R3dxWGZrUQ?oc=5",
-      "isNew": true
-    },
-    {
-      "id": "3f176fbd97b1",
-      "title": "NAIC moves to adopt new RBC factors for CLO investments",
-      "date": "2026-06-23",
-      "cat": "Investment",
-      "summary": "",
-      "source": "DLA Piper",
-      "link": "https://news.google.com/rss/articles/CBMitwFBVV95cUxOU0VUdERvNzBoak1ZYTRNdFdxWFlYMGtSTXNEQVpiMnNnZVFtdEl5cDF2YVRyUlVNRG1Fc0cwMzcwREdkeGRpYVVSczlGNVk4bmNxQ1hMWFRkTjR3Y1cwekJzX3hmaG9LTF9NdFlqWTNjckFIWGlZLUxEWFczVGVCZzBzOUF0V1g1RkU0X2x0VzZTbmRVN2tsS0x2VnFPeGtrMm9JODlVNXpRMlF0NThmS0s5Z1BFYkU?oc=5",
-      "isNew": true
-    },
-    {
-      "id": "94a8d3b9cb8f",
-      "title": "Threat actor group ShinyHunters claims to have obtained NAIC data",
-      "date": "2026-06-22",
-      "cat": "General",
-      "summary": "",
-      "source": "theinsurer.com",
-      "link": "https://news.google.com/rss/articles/CBMivAFBVV95cUxNcklYM3hHSGI4NGM0dzYwTlBZdldmdTJIUlFOcEJ5R0t1UmotZ25JYVVFMi1BdUhENVFNTktjRXhJMjEwT1JscnJMaUdZeDgwcHowcWdmc0JjWUtlYlJ2ZFpydFlzeDZRcHNvUWdoNmNaZHJST3BoNVE0bEczMUN2d2ZhUnBlYTJjSHprczdQaUR5VWhOcHo2MUlOUXJCSUZnZm1SYzcwdllPWjJJLW1jZVpScUlPR3V5LXdIUQ?oc=5",
       "isNew": true
     }
   ],
