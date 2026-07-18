@@ -1,5 +1,5 @@
 {
-  "updated": "2026-07-18T08:12:52Z",
+  "updated": "2026-07-18T10:44:59Z",
   "naic": [
     {
       "id": "bb18628b78fa",
@@ -424,6 +424,16 @@
       "isNew": false
     },
     {
+      "id": "f88abacd2856",
+      "title": "Plume receives digital asset business licence from Bermuda Monetary Authority",
+      "date": "2026-05-27",
+      "cat": "Investment",
+      "summary": "",
+      "source": "Crypto Briefing",
+      "link": "https://news.google.com/rss/articles/CBMic0FVX3lxTE1pM2NTX1NXY0xkTE8xdkRnOXV1T1Fyb25xRTVSelZnSjU3U25ua1ZWZjhuODVfdngxRHFtTENIMUtTaHVuUTVLbXpvN3VIT1RtNi1hemxFb2xqWWJQMWoybU1BeFoyUGxUcFY1NmlfcGN5NXM?oc=5",
+      "isNew": false
+    },
+    {
       "id": "8f54587c933e",
       "title": "Bermuda, the tiny island nation with huge crypto ambitions",
       "date": "2026-05-26",
@@ -491,16 +501,6 @@
       "summary": "",
       "source": "Royal Gazette | Bermuda",
       "link": "https://news.google.com/rss/articles/CBMitAFBVV95cUxPR2t0cE5wTkNUSGE1dUxYZGFsZ0k3aXZhLVlzWU9obnN3RlByaDNSeVY3ZTM0cV9HSGx2VnZkeENIdDc1TzNwZ21nSWN2WEh5cElHVmZKbm9oWDZDQjhfUlNSSzlYVldCbXNRZmZ3YnNvVldhYkNtZXgzMUdNQ3ZfaGwxbnpfRGVTUnNCUmEwYlBQaVBUeEhSSEUzQ3E4ZVEzd0RKc183SGJkZTN6Qi1sdDJTUzI?oc=5",
-      "isNew": false
-    },
-    {
-      "id": "d9fda9d60127",
-      "title": "BMA Prohibition Order On Joakim Samuelsson",
-      "date": "2026-04-21",
-      "cat": "General",
-      "summary": "",
-      "source": "Bernews",
-      "link": "https://news.google.com/rss/articles/CBMie0FVX3lxTE9DWmZBVmtadkZRTDNPb2ZNTkhQa2xjZ096RUJlZG91OE5wVFIxNTZBYUl3ZlVsbWtKX1U3S19CdEM3MW95Ukc2TzZiTl9pcERqSW0wOUQ3MXI2YzJnRksxX2xQMmNwcWF1N0RfOWdUOHpJZlg3dUktRXI0WQ?oc=5",
       "isNew": false
     }
   ],
