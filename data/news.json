@@ -1,10 +1,9 @@
 {
-  "updated": "2026-07-18T03:36:25Z",
+  "updated": "2026-07-18T08:12:52Z",
   "topics": [
     "Insurance AM",
     "Private Credit",
-    "Rates & Macro",
-    "Structured Credit"
+    "Rates & Macro"
   ],
   "items": [
     {
@@ -58,6 +57,16 @@
       "isNew": false
     },
     {
+      "id": "47b0ce7cba59",
+      "title": "When will mortgage rates go down again? A two-month stall continues.",
+      "source": "Yahoo Finance",
+      "date": "2026-07-16T21:03:31Z",
+      "topic": "Rates & Macro",
+      "summary": "",
+      "link": "https://news.google.com/rss/articles/CBMi2gFBVV95cUxOc1RfMHVnQkFBVkFvNWVCcjFSaHIxdTRnSmNRcVZ5cnIyVE1UbHNIWDY1Slg3MERCVGVsU3IzMG1DdlM1eHdEUTQxSU15TkE0SmNfaWRGY3Nicmtienp4NUFQZG52T0FTbWZnc0NVSWVETGJGelgwTmVCS0xJQUVxX0lOWlV5aFItQ1k2Vm5fY2FRVmxObVhhRnI4X1BGRTlGNjZyaEFEUHBBd0VhVElvWjROaUhGYV9aMkZIV29WZzF3c2NlSHYteTdEUzAtZ0xHSk9QMFRENFJCQQ?oc=5",
+      "isNew": false
+    },
+    {
       "id": "bb18628b78fa",
       "title": "When even the safest insurance companies aren\u2019t safe - MassMutual",
       "source": "roddubitsky.substack.com",
@@ -75,6 +84,16 @@
       "topic": "Rates & Macro",
       "summary": "",
       "link": "https://news.google.com/rss/articles/CBMi4AFBVV95cUxQYk1rMGFQeV9mdWY2dFpZTTFVQXZMeWt1UzcxeWN2aTN5bFBUMXdYb011V181cUItbzVhcDVKbXJHd185dVppM0ZuVkdXOEc1RnJHaWhMbDRTVmdEdmR5YVBaWHZGRjlFcmsyWVV4RzY2Y0RQUGttQndjc2FnQW9KYlo4cGpyQnNvVUthdTFFMjZ2VWczYjZZZm9aOUxLMGNYUE1JOUdacVl2VnBkQXFEczBCMkxLSkpaaEtIc0dFRVpESGJQdjFnYlplTG1iNGpEOFpFaG1vZGVTYzVfZzJVbg?oc=5",
+      "isNew": false
+    },
+    {
+      "id": "934eefeab9d3",
+      "title": "Marsh Survey Reveals That Insurers' Private Credit Appetite Continues to Grow, but Discipline Remains Paramount",
+      "source": "Finviz",
+      "date": "2026-07-16T15:55:00Z",
+      "topic": "Insurance AM",
+      "summary": "",
+      "link": "https://news.google.com/rss/articles/CBMi1wFBVV95cUxQUEJmWmNhamdja21vWWxFQXg1dVYwb1FKb2NPZ2pFaGpqVDhNYklRMm16M2lGSGxHUUxrLVZnQnJIRURXOXQySFVTQThRa2o5V1ZFSjMtb1ZoWVdscFVHeEE5ZEtWWmpSNjVsTlB0NU9rMV81VVdKcENYazFDTTFDd2tROTFpOUp2elFtdS1GS2RlQWF5OEtJRzJVTEZnX0ttVHhOalc0NC01aEpQa2h3U2xYdVlxNHN1YmpwVF9MaFNTMmhXN1hrN2htMExCNjYyZ3lwUWNfNA?oc=5",
       "isNew": false
     },
     {
@@ -285,26 +304,6 @@
       "topic": "Rates & Macro",
       "summary": "",
       "link": "https://news.google.com/rss/articles/CBMikgFBVV95cUxQUTZzNGJjZ0xabmZyUWl0d2tBNUtVS3RsemVnTjcyaHdPeEUzeDVydTVEX3JTZXFfZWw1SHZOUGJHcGkzYVJxM3hZRzZleXcxWTZiSW5nZ2tkVEpSRVpqNFNsYUlLd0VRdS15YnBLX0ZZSXkxNVVwY0p5M19uN1BVSTZEcjJScWNKSFRsM1VzUUpmZw?oc=5",
-      "isNew": false
-    },
-    {
-      "id": "21b2cfccbd4b",
-      "title": "Aegon AM deepens Lakemore partnership to support US CLO issuance as demand shifts to senior debt",
-      "source": "Structured Credit Investor",
-      "date": "2026-07-14T09:37:01Z",
-      "topic": "Structured Credit",
-      "summary": "",
-      "link": "https://news.google.com/rss/articles/CBMi6AFBVV95cUxOQmRsQl9nbEoyVGl4bFNud1VvSjJoTm9xbUp2d29ZbTU3VWlGNjRycTRpdTdvX1pCa3B3R3JscXpyWFEyMGR6YnVYZVdwbTk4bjkyZGc2bHNGR0ZnMVlpcWlNZkV6ZGdEZWtNZXhIUUt3UlVYeU9MQVdpd2djTXR4SzRfRjlQQzY3c09nZGlxNWFSOENvbFZicmc3Qmh2RXNzWG1HTXE5cUcxSWx5dGhEWVJVa2xmVXFKM1RIMElKSGdCY1VDSkVMXzVjbTlFanFsMldUeGlfdHlGVXdlbXBaR2loZzYxWnp4?oc=5",
-      "isNew": false
-    },
-    {
-      "id": "73aedde57e6a",
-      "title": "Private Lenders Charge 329 BPS More Than Banks And Sponsors Still Pay It",
-      "source": "Globest",
-      "date": "2026-07-14T07:51:16Z",
-      "topic": "Private Credit",
-      "summary": "",
-      "link": "https://news.google.com/rss/articles/CBMirAFBVV95cUxNdElhNmxXdXR4NzFMOXZQa2pOM3dCUFEwMXNxa1ZEMlRQdHhyUXFmNHhoLU83YlFrOTVHVi1jdUc3ZTJUNkpTMHdwWU5Sd1pCckNwSDVCWWdnd3NzZjNRWUZZUnpweHVleGdJTk9ESkZrbmp5OTdNRlVESlZ0bUhtRmdhZk9SdkpfeTB2UzR2UXRQa2NRRlctNFRaV0JPR1Z4VWt1S2xFU0pGb3A1?oc=5",
       "isNew": false
     }
   ]
