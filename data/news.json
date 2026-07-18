@@ -1,5 +1,5 @@
 {
-  "updated": "2026-07-18T13:54:01Z",
+  "updated": "2026-07-18T16:14:57Z",
   "topics": [
     "Insurance AM",
     "Private Credit",
@@ -167,6 +167,16 @@
       "isNew": false
     },
     {
+      "id": "63815f9bdebd",
+      "title": "Bank of Korea Raises Rate for First Time Since 2023",
+      "source": "WSJ",
+      "date": "2026-07-16T06:28:00Z",
+      "topic": "Rates & Macro",
+      "summary": "",
+      "link": "https://news.google.com/rss/articles/CBMipwFBVV95cUxNNl9yMHZsVWxtMXplZjMzbktzY2tXZFBxN0pKU2dTRXdkajBKX2JKUXVrbnVqS3oydVlfcUlFY2RTdkYzdDJ6X3BIZWlwUUJyVE9jcE9nTjVUNjFvQ25ZUWtFZGlWQ2ZneENlaVZsVWdTTFhZWlJ3amFwdG9lZHUxNEdxQlVWeEZUOTAwVENRd1JZdTdnY2VYUXNlUUFkRlA2U3hUUXEtYw?oc=5",
+      "isNew": false
+    },
+    {
       "id": "c2c80b8fd748",
       "title": "The rating reforms needed to tackle private credit\u2019s vulnerabilities",
       "source": "Financial Times",
@@ -294,16 +304,6 @@
       "topic": "Insurance AM",
       "summary": "",
       "link": "https://news.google.com/rss/articles/CBMirAFBVV95cUxQN1d2d1kxZVpjWWd3emQzcW1kcDgwMTFJWXhROWg1TDdGYXBydmxlMU9nR3pLMVZjbXFad3NnemY0NHh6R25VdEcwWFpVYmhUWmFibUxLZFN6V1paTnExYkEyNm1PMXdKSlNET3c4LUl4bDFYRE0yME1MQ2lWQVpCYjVNR1p1OVc3eEk1TDNrY3hwV0g4eFQ4QV96NmZOMnppb3NSUUJOMzJBWFdt?oc=5",
-      "isNew": false
-    },
-    {
-      "id": "219051af317d",
-      "title": "Inflation, Warsh, and War Stoke Treasury Yields, Putting Bond Markets On Edge",
-      "source": "Barron's",
-      "date": "2026-07-14T11:37:00Z",
-      "topic": "Rates & Macro",
-      "summary": "",
-      "link": "https://news.google.com/rss/articles/CBMikgFBVV95cUxQUTZzNGJjZ0xabmZyUWl0d2tBNUtVS3RsemVnTjcyaHdPeEUzeDVydTVEX3JTZXFfZWw1SHZOUGJHcGkzYVJxM3hZRzZleXcxWTZiSW5nZ2tkVEpSRVpqNFNsYUlLd0VRdS15YnBLX0ZZSXkxNVVwY0p5M19uN1BVSTZEcjJScWNKSFRsM1VzUUpmZw?oc=5",
       "isNew": false
     }
   ]
