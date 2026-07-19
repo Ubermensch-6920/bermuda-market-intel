@@ -1,11 +1,21 @@
 {
-  "updated": "2026-07-19T16:14:37Z",
+  "updated": "2026-07-19T19:36:39Z",
   "topics": [
     "Insurance AM",
     "Private Credit",
     "Rates & Macro"
   ],
   "items": [
+    {
+      "id": "de50479c4e03",
+      "title": "Private credit vs. public bonds: What are insurers seeing that\u2019s prompting a portfolio pivot?",
+      "source": "InvestmentNews",
+      "date": "2026-07-19T19:27:37Z",
+      "topic": "Private Credit",
+      "summary": "",
+      "link": "https://news.google.com/rss/articles/CBMi1wFBVV95cUxQM1FiaUVvdmlSNWUySnVmd2M3T0RSSWFqREpXa0Rra2hud21LS2RMSEJMak1FVFNYdDBPUWgxMzlkTXVwUk43dlJsV0l3QXR3NExqbExadS1nbmJBWURJUVdSZDMwVGNlRDUwUDA3bGhZa1BqRndmbVFqNWl0ZHpBTTBodFhqaXNVNllGeENNZDlVdXpBRFVVYjR1dGNGcmR4VWRWTXpmXy1iUGRyR2ZXYmt5N3BHcjNhTkhiWkpmZU5raUw4TUVFY3pEb2NYQVBVd3hlN3JpNA?oc=5",
+      "isNew": false
+    },
     {
       "id": "41e34e3e298e",
       "title": "Private credit roundup - Discounts show the cost of getting out",
@@ -294,16 +304,6 @@
       "topic": "Insurance AM",
       "summary": "",
       "link": "https://news.google.com/rss/articles/CBMirAFBVV95cUxOWVgwUmEtMExsNXNBcWRnME50VExHeGdNNVBJY1I4YVZXdTNpb0Zsc0JBcko5OGJNNWRfeXFHVm9BMGFVc3FDXzBHdzBsT1gtMDRsVVdXS1lFa01JcFp1Q0stMHFPOGN3Qk1LOUtoX0xaWDZRb2FJbXUybDRqNDhpLVJUYmdERU9uTzMyZnNoa013OThUSWYtOTZ2X3V5WkhVR0hoa1N6WUlTSnlZ?oc=5",
-      "isNew": false
-    },
-    {
-      "id": "078e3a74c238",
-      "title": "Three award wins in Asia",
-      "source": "UBS",
-      "date": "2026-07-14T14:46:56Z",
-      "topic": "Insurance AM",
-      "summary": "",
-      "link": "https://news.google.com/rss/articles/CBMirAFBVV95cUxOYjE4eGswVVpMeFRyLWZBdDI5d2MyYlFKLVVpLUt2eFRNYXR0c2FUUFBzNU9rN2FlQUlsdTZYc04zMTNfVUxuUkh4OWRMRzlTb0NrQXMxNDZpWTN6OHJRd0VXRTRRc1pWclVsQTZrRDBIdUtnemFlMXFqQ2lqSTRuM0xHVTZneGc1dTF0LVJvVGktR2dTT1Jzc3BWQWNrRndHRThwMnZRR2NERUlQ?oc=5",
       "isNew": false
     }
   ]
