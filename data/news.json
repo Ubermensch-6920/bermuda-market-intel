@@ -1,5 +1,5 @@
 {
-  "updated": "2026-07-20T09:37:33Z",
+  "updated": "2026-07-20T14:37:31Z",
   "topics": [
     "Insurance AM",
     "Private Credit",
@@ -7,13 +7,33 @@
   ],
   "items": [
     {
+      "id": "3487cf13fe62",
+      "title": "Private credit vs. public bonds: What are insurers seeing that\u2019s prompting a portfolio pivot?",
+      "source": "Wealth Professional",
+      "date": "2026-07-20T10:57:58Z",
+      "topic": "Private Credit",
+      "summary": "",
+      "link": "https://news.google.com/rss/articles/CBMi-gFBVV95cUxON1pUMjhOSGVGUGV4Nkh3VjRDZEZ6UUpQTEhxVmE5alVucm5ZcjZjTFBNLW5KdHAtSEdWTFhENmpfa19SZWM0TnFoMDZNM2MtM1FmOUN5MXdTNDR3cVB0OVNzT1hFU0JrdXBiY2lnUkhrWnFONWZHa3A0ckowZWlwZ2Uyd3VzNUU4M1hBenlGM2p5a1JYekUtei1OcEtFeFlCdDBCSVZ1d19OR3VmbmlvTEFob0VQWnpwREhiNi1Pb3AzdkN6ODY3RGpQcjdzQmpMQ3YyNU5XamtXNFFEZ05TZk9jQ3BUcldybks3azNmbVRLY1NNMllHbkFB?oc=5",
+      "isNew": false
+    },
+    {
       "id": "edca4297b11b",
       "title": "UK pension insurers raise exposure to opaque private credit",
       "source": "Financial Times",
-      "date": "2026-07-20T04:01:49Z",
+      "date": "2026-07-20T04:00:28Z",
       "topic": "Private Credit",
       "summary": "",
       "link": "https://news.google.com/rss/articles/CBMihAFBVV95cUxOM29zajh4R2pLRUh5TXFPVlpOc0JjYmFjaFhGTGFlY1VIbE5ndTdXRFc0T1M2RmtiYmc5QmlJcmJDbF9tLXdHQzJPQmdQNUQ4UHE2NGNwUGJhVWw4RVlVZVpyT2Y0ODFyWHJaWGpHNHZMUTRfck43dmFMejR2LVFhRUEyNXg?oc=5",
+      "isNew": false
+    },
+    {
+      "id": "341773777abc",
+      "title": "The new Fed boss is tight-lipped. That might upset the markets",
+      "source": "Financial Times",
+      "date": "2026-07-20T04:00:19Z",
+      "topic": "Rates & Macro",
+      "summary": "",
+      "link": "https://news.google.com/rss/articles/CBMihAFBVV95cUxQaHBjZGNTSkh3eUU5eHlSZ1hKZnRPSzJ3cU9YZnItZHNkUGwybU5Vc2taNVBYY0JkTUxUcHZRMldybXZWc3U1VXlXWTB6d1hHOUhtUmp3RXpJYWM5cU5tdEI4amQ1SFVjS1JOUGVaTlJOdHB0RjMxRHhqZl9oemZBNmFkY3g?oc=5",
       "isNew": false
     },
     {
@@ -24,6 +44,16 @@
       "topic": "Private Credit",
       "summary": "",
       "link": "https://news.google.com/rss/articles/CBMi1wFBVV95cUxQM1FiaUVvdmlSNWUySnVmd2M3T0RSSWFqREpXa0Rra2hud21LS2RMSEJMak1FVFNYdDBPUWgxMzlkTXVwUk43dlJsV0l3QXR3NExqbExadS1nbmJBWURJUVdSZDMwVGNlRDUwUDA3bGhZa1BqRndmbVFqNWl0ZHpBTTBodFhqaXNVNllGeENNZDlVdXpBRFVVYjR1dGNGcmR4VWRWTXpmXy1iUGRyR2ZXYmt5N3BHcjNhTkhiWkpmZU5raUw4TUVFY3pEb2NYQVBVd3hlN3JpNA?oc=5",
+      "isNew": false
+    },
+    {
+      "id": "40fb5df2acaa",
+      "title": "Week Ahead for FX, Bonds: U.S., European PMI Data, ECB Decision in Focus",
+      "source": "WSJ",
+      "date": "2026-07-17T15:53:00Z",
+      "topic": "Rates & Macro",
+      "summary": "",
+      "link": "https://news.google.com/rss/articles/CBMivAFBVV95cUxPalhpRkNXbVA3MFRUYTZ3NE5lOVA0UGZNNWlBaTJjMU9KOWthVXNfVU9ZSlpmMndCTlFJMnBOMW56Z1FXa05TVGNIVXhkQm9wUGhiNmxaOVJtXzE4eDNVZzdPU0lvVWw3M2R2SXJxUnFJMmJHbjBzZkVud1UwbFlOUlI2MmVOWktUT3BQRk01NmU1V0lLYnlaYXczdmxPNW1QbzRqbEJUVEZhRF9tcmYyWXE0N2pibzNwTElZMw?oc=5",
       "isNew": false
     },
     {
@@ -274,36 +304,6 @@
       "topic": "Private Credit",
       "summary": "",
       "link": "https://news.google.com/rss/articles/CBMiiAFBVV95cUxNTEYxTXVyMzFRa1QtbzFLZ191QUQ5Um5WQXF2UVV2dkw3TTRnTlNITUxrMFZBeGxteXdpNUYyYjJHZXBWUE0yaUdJZk51R1ZpNENDcWl0TEZlU01wc1hCYXZoZmc2OGNta3RiQVBjQkx4S0lDNE1SeDl2TU9YQ2JoX2dpZC04TDhG?oc=5",
-      "isNew": false
-    },
-    {
-      "id": "a4cfbc3ef0cd",
-      "title": "Can Rising Oil Prices Push Euro Zone Bond Yields Even Higher?",
-      "source": "Modern Diplomacy",
-      "date": "2026-07-15T07:07:19Z",
-      "topic": "Rates & Macro",
-      "summary": "",
-      "link": "https://news.google.com/rss/articles/CBMioAFBVV95cUxObTBobFoyTlZocDRqZmc1OTdSSFpWSUhhVE5hU1RJWXBuQ0Q3Z2t1cUZzZV9TRnppcW5WSmJ1RUp3QUNILTB1RzlPODBmaGVwdnVTazd0aDFZdmFVTmNCSUNTLS1UVzJXQm5QTXM3NC1heE9tUndFeTNGbDlPZFZuZGZuOG1aUTRWX0l5NlhjM1o2NDJ3aGxvNk40QU1FUjBM?oc=5",
-      "isNew": false
-    },
-    {
-      "id": "96c72f25e56f",
-      "title": "Product roundup: J.P. Morgan Asset Management eyes private markets",
-      "source": "Investment Executive",
-      "date": "2026-07-15T07:00:00Z",
-      "topic": "Insurance AM",
-      "summary": "",
-      "link": "https://news.google.com/rss/articles/CBMitAFBVV95cUxOZlBjLXJYOThpSVpPUFhmZ215UDRnWFZKMTl0eUlYRHhFUXlUQ2xYM1U3aE84d1djcDVlMDkzUFE3am45cDU0M1BEQXRNYUcyVWl6bzhDMHpNYlNVRWFXcm8zRWI2aXN2OVJsM3AwSHZrZ1FsS0gtcHI3TlBuRUF3ZzdzV2VWRnZKaDJWaUFTdFc3NkhVYW5XaFFmeWlsV1ZSWjVIS0J3a19Wb2h6OHBFRFFWWTU?oc=5",
-      "isNew": false
-    },
-    {
-      "id": "ae189f158a95",
-      "title": "How to Track Life Insurers' 'Payment in Kind' Exposure",
-      "source": "ThinkAdvisor",
-      "date": "2026-07-15T05:46:49Z",
-      "topic": "Private Credit",
-      "summary": "",
-      "link": "https://news.google.com/rss/articles/CBMilwFBVV95cUxNN0NWMkx6b3dEUHJ1ZzkxeE4tcmdUUHZ4SVJXQmE5RzFZUHdYenQ0eHN5N2hIZ0hEUmtNNmlkbTZlWmk4X3pVNTNCZkZPNXcwelF4R2FCOFRRS21YUTdUUk1NU0pQTThfbXdBQ0xHX3hHNk5zcGdUY0F1U1U1ejNXTktqVHVseElWaGFPWEJlRmRkR19haEY4?oc=5",
       "isNew": false
     }
   ]
