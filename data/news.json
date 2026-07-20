@@ -1,11 +1,21 @@
 {
-  "updated": "2026-07-20T16:48:09Z",
+  "updated": "2026-07-20T20:02:29Z",
   "topics": [
     "Insurance AM",
     "Private Credit",
     "Rates & Macro"
   ],
   "items": [
+    {
+      "id": "2295e5827a7f",
+      "title": "US probes insurers owned by billionaire Mark Walter over asset disclosures",
+      "source": "Financial Times",
+      "date": "2026-07-20T17:04:50Z",
+      "topic": "Insurance AM",
+      "summary": "",
+      "link": "https://news.google.com/rss/articles/CBMihAFBVV95cUxNTk45YWU2RWk3WnFBM1ZXVVhLQmltMm1NV3EyS1dZZUVnVDA2ZkpIREZzall2SFdpTjAzYlJjM0prX0ZnUUlERnRGcFFEWld5cWJQbGxaZ1pya29MX1FiUWQ1UzhqbVFBcDBkaWNsYzVXTldWalB2Tmk4dkliVC1PV05FR04?oc=5",
+      "isNew": false
+    },
     {
       "id": "3487cf13fe62",
       "title": "Private credit vs. public bonds: What are insurers seeing that\u2019s prompting a portfolio pivot?",
@@ -20,7 +30,7 @@
       "id": "edca4297b11b",
       "title": "UK pension insurers raise exposure to opaque private credit",
       "source": "Financial Times",
-      "date": "2026-07-20T04:02:10Z",
+      "date": "2026-07-20T04:00:28Z",
       "topic": "Private Credit",
       "summary": "",
       "link": "https://news.google.com/rss/articles/CBMihAFBVV95cUxOM29zajh4R2pLRUh5TXFPVlpOc0JjYmFjaFhGTGFlY1VIbE5ndTdXRFc0T1M2RmtiYmc5QmlJcmJDbF9tLXdHQzJPQmdQNUQ4UHE2NGNwUGJhVWw4RVlVZVpyT2Y0ODFyWHJaWGpHNHZMUTRfck43dmFMejR2LVFhRUEyNXg?oc=5",
@@ -294,16 +304,6 @@
       "topic": "Insurance AM",
       "summary": "",
       "link": "https://news.google.com/rss/articles/CBMivwFBVV95cUxNUDdjNHpiVnRZZ0FDR0djSVRneG56eldYcjVLLWg3QXQxcnBSQ3E2M2Jkcnd0Z2xRTHVaMTZwU1pyWS1lWk9SLVFNeGoyY18xckIzOEZldVlJTVl0SEFldnRhZTN2S2VQVHBmYVp5ZThNY3Etd1B4Wmp4cDBtcVBqRFU3c2drdTBLN3lxME9nUzI4ejh1ckdUNVZYR2t4bUhBMjVrUE15aVRaaFc5UEtjNFM5TDZjeVNBRVJ0S0t0OA?oc=5",
-      "isNew": false
-    },
-    {
-      "id": "8024bd5eb29c",
-      "title": "Europe\u2019s banks deploy SRT scalpel across private credit exposures",
-      "source": "PitchBook",
-      "date": "2026-07-15T14:34:15Z",
-      "topic": "Private Credit",
-      "summary": "",
-      "link": "https://news.google.com/rss/articles/CBMiogFBVV95cUxNbm5aVW9GWmljMVFXTzliR2ZvLWRVMExObDNCYnFVT1Bva2hSRW15STZWSmQ1MmVvTm9KRW5CQWJIdHdMbVo3TEdKZFZYNHBMeUcxZkNMbnRITUhQbXJtOTVYcURtUU8wdmpHSmJJUVRJakV6Z2pKaTFXLUIzUGRpYWtuMDVTbGhHYjF3Ny1PaUpabTlKLXpZNUtleXlaR2Jyd1E?oc=5",
       "isNew": false
     }
   ]
