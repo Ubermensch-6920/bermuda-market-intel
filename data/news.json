@@ -1,11 +1,21 @@
 {
-  "updated": "2026-07-19T22:13:24Z",
+  "updated": "2026-07-20T04:09:03Z",
   "topics": [
     "Insurance AM",
     "Private Credit",
     "Rates & Macro"
   ],
   "items": [
+    {
+      "id": "edca4297b11b",
+      "title": "UK pension insurers raise exposure to opaque private credit",
+      "source": "Financial Times",
+      "date": "2026-07-20T04:00:28Z",
+      "topic": "Private Credit",
+      "summary": "",
+      "link": "https://news.google.com/rss/articles/CBMihAFBVV95cUxOM29zajh4R2pLRUh5TXFPVlpOc0JjYmFjaFhGTGFlY1VIbE5ndTdXRFc0T1M2RmtiYmc5QmlJcmJDbF9tLXdHQzJPQmdQNUQ4UHE2NGNwUGJhVWw4RVlVZVpyT2Y0ODFyWHJaWGpHNHZMUTRfck43dmFMejR2LVFhRUEyNXg?oc=5",
+      "isNew": false
+    },
     {
       "id": "de50479c4e03",
       "title": "Private credit vs. public bonds: What are insurers seeing that\u2019s prompting a portfolio pivot?",
@@ -217,10 +227,20 @@
       "isNew": false
     },
     {
+      "id": "565bad0c6447",
+      "title": "South Korea\u2019s central bank hikes rate for 1st time since 2023 to curb inflation, debt",
+      "source": "AP News",
+      "date": "2026-07-16T03:15:00Z",
+      "topic": "Rates & Macro",
+      "summary": "",
+      "link": "https://news.google.com/rss/articles/CBMiqAFBVV95cUxPeHRGYW4zUTZwXzA2V3h2RWc0ckFDSVF2dVoyNWUyZzVPdkZzZmIwbmVCdndFOUg1ZU1hWnJLMFlmdDV1WTFTN2ZTR3NTc1BiUTZkZE5nVFhsV2J6eXctT21FLTJUN3R5QXE1a0F3OWlEV2RiNnluMVFMM3ZISHZoYzhVaTdSUmxNOGhfUE9jSEJ1bEpjRlRnUGNoazlSSG5sZFhjbDlRZWk?oc=5",
+      "isNew": false
+    },
+    {
       "id": "33e5ad431097",
       "title": "BOJ may face pressure to ramp up bond-buying if yields spike, ex-central bank policymaker says",
       "source": "Reuters",
-      "date": "2026-07-16T01:57:44Z",
+      "date": "2026-07-16T01:56:00Z",
       "topic": "Rates & Macro",
       "summary": "",
       "link": "https://news.google.com/rss/articles/CBMixwFBVV95cUxPOG0xd2F5WkRoZ0NtYlBoWnJmUDhXNmVSTUVFdEtKYUhZa1hLQVNaaFh2UXFsRVV2dWV1UHFsLXdUUjlFQ3JuWXY4RUZReDRUZDhGX01keFgyT2JZUzhvV0ZyRkdJUldpTElkN2lkMmlSbWVLYlhXSkdmMHd2ZzZJQXlHemRTYm5YWnJ2STh4SWNkeGN6LUJkNWdIcEFERUlzbXA4MVFNVERkODJobF9KVW50WGk4ZXI1b05MYmMzVENLai05eHhR?oc=5",
@@ -284,26 +304,6 @@
       "topic": "Private Credit",
       "summary": "",
       "link": "https://news.google.com/rss/articles/CBMilwFBVV95cUxNN0NWMkx6b3dEUHJ1ZzkxeE4tcmdUUHZ4SVJXQmE5RzFZUHdYenQ0eHN5N2hIZ0hEUmtNNmlkbTZlWmk4X3pVNTNCZkZPNXcwelF4R2FCOFRRS21YUTdUUk1NU0pQTThfbXdBQ0xHX3hHNk5zcGdUY0F1U1U1ejNXTktqVHVseElWaGFPWEJlRmRkR19haEY4?oc=5",
-      "isNew": false
-    },
-    {
-      "id": "d7be6d56f051",
-      "title": "Three award wins in Asia",
-      "source": "UBS",
-      "date": "2026-07-14T16:04:08Z",
-      "topic": "Insurance AM",
-      "summary": "",
-      "link": "https://news.google.com/rss/articles/CBMirAFBVV95cUxNakM0eFhaZmZNX2Z5VEVIbEs3cTZ0VVdpQy1nRjFDX1psZGF6ZUVzaDlCWjkzT0tCNFJBb05EV0haSWhiZDc4dFlIRnBVSnFwUERiZFUyeV9Tbkw5VTRkOHNpeGVrRHNzZm9wYWdLR1VoZUhOTHNzcVoxdlIzRWZ5U0pHYnNyZnZJT2xFSXpMSVJjOXJYdDZjdER3NTJaS3ZuRHJhYmNtY0ozeUZO?oc=5",
-      "isNew": false
-    },
-    {
-      "id": "2e3d7748392c",
-      "title": "Three award wins in Asia",
-      "source": "UBS",
-      "date": "2026-07-14T15:36:59Z",
-      "topic": "Insurance AM",
-      "summary": "",
-      "link": "https://news.google.com/rss/articles/CBMirAFBVV95cUxOWVgwUmEtMExsNXNBcWRnME50VExHeGdNNVBJY1I4YVZXdTNpb0Zsc0JBcko5OGJNNWRfeXFHVm9BMGFVc3FDXzBHdzBsT1gtMDRsVVdXS1lFa01JcFp1Q0stMHFPOGN3Qk1LOUtoX0xaWDZRb2FJbXUybDRqNDhpLVJUYmdERU9uTzMyZnNoa013OThUSWYtOTZ2X3V5WkhVR0hoa1N6WUlTSnlZ?oc=5",
       "isNew": false
     }
   ]
