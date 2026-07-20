@@ -1,5 +1,5 @@
 {
-  "updated": "2026-07-20T14:37:31Z",
+  "updated": "2026-07-20T16:48:09Z",
   "topics": [
     "Insurance AM",
     "Private Credit",
@@ -20,7 +20,7 @@
       "id": "edca4297b11b",
       "title": "UK pension insurers raise exposure to opaque private credit",
       "source": "Financial Times",
-      "date": "2026-07-20T04:00:28Z",
+      "date": "2026-07-20T04:02:10Z",
       "topic": "Private Credit",
       "summary": "",
       "link": "https://news.google.com/rss/articles/CBMihAFBVV95cUxOM29zajh4R2pLRUh5TXFPVlpOc0JjYmFjaFhGTGFlY1VIbE5ndTdXRFc0T1M2RmtiYmc5QmlJcmJDbF9tLXdHQzJPQmdQNUQ4UHE2NGNwUGJhVWw4RVlVZVpyT2Y0ODFyWHJaWGpHNHZMUTRfck43dmFMejR2LVFhRUEyNXg?oc=5",
@@ -34,6 +34,16 @@
       "topic": "Rates & Macro",
       "summary": "",
       "link": "https://news.google.com/rss/articles/CBMihAFBVV95cUxQaHBjZGNTSkh3eUU5eHlSZ1hKZnRPSzJ3cU9YZnItZHNkUGwybU5Vc2taNVBYY0JkTUxUcHZRMldybXZWc3U1VXlXWTB6d1hHOUhtUmp3RXpJYWM5cU5tdEI4amQ1SFVjS1JOUGVaTlJOdHB0RjMxRHhqZl9oemZBNmFkY3g?oc=5",
+      "isNew": false
+    },
+    {
+      "id": "f75b6a77765a",
+      "title": "Scenario and Sensitivity Analysis: U.K. Bulk Annuity Insurers' Private Credit Exposure Set To Remain Manageable",
+      "source": "S&P Global",
+      "date": "2026-07-20T03:58:00Z",
+      "topic": "Private Credit",
+      "summary": "",
+      "link": "https://news.google.com/rss/articles/CBMigwJBVV95cUxPRnVOMUthUHNpdzJsMC0yTmdBS1RydERGZl9ycEJOd3dTSEUzd3lIYmJoR2E5UmM3eTI4WU5KRFpoOFAzOGFKS1dCWkpiTE5tcU9DMDVIM1pRN2tUbkNPTmZEZlZTSVdSaUpoNkhfREN2WXlOUjFYQzExS0lRNy1hVWlPZjM1cV83MU90OFhZUTBLN2JjYjB0VTRjcVRQSGlNc2c4aEFrT1pnNUxaLTRHVWljbTFlc2dtQ1YxU0YxYll4YXN4STY1LTJJVGVQc3FESDZGU2IxVTRDUVRGdm5GUlBabVFsQ1d6dFlVelpwSkpaczBiZGIwYkpsN3R1bjU1b2g0?oc=5",
       "isNew": false
     },
     {
@@ -294,16 +304,6 @@
       "topic": "Private Credit",
       "summary": "",
       "link": "https://news.google.com/rss/articles/CBMiogFBVV95cUxNbm5aVW9GWmljMVFXTzliR2ZvLWRVMExObDNCYnFVT1Bva2hSRW15STZWSmQ1MmVvTm9KRW5CQWJIdHdMbVo3TEdKZFZYNHBMeUcxZkNMbnRITUhQbXJtOTVYcURtUU8wdmpHSmJJUVRJakV6Z2pKaTFXLUIzUGRpYWtuMDVTbGhHYjF3Ny1PaUpabTlKLXpZNUtleXlaR2Jyd1E?oc=5",
-      "isNew": false
-    },
-    {
-      "id": "bf44afe6a9c5",
-      "title": "Europe's banks deploy SRT scalpel across private credit exposures",
-      "source": "Yahoo! Finance Canada",
-      "date": "2026-07-15T14:34:15Z",
-      "topic": "Private Credit",
-      "summary": "",
-      "link": "https://news.google.com/rss/articles/CBMiiAFBVV95cUxNTEYxTXVyMzFRa1QtbzFLZ191QUQ5Um5WQXF2UVV2dkw3TTRnTlNITUxrMFZBeGxteXdpNUYyYjJHZXBWUE0yaUdJZk51R1ZpNENDcWl0TEZlU01wc1hCYXZoZmc2OGNta3RiQVBjQkx4S0lDNE1SeDl2TU9YQ2JoX2dpZC04TDhG?oc=5",
       "isNew": false
     }
   ]
