@@ -1,5 +1,5 @@
 {
-  "updated": "2026-07-21T11:22:46Z",
+  "updated": "2026-07-21T14:26:36Z",
   "topics": [
     "Insurance AM",
     "Private Credit",
@@ -7,6 +7,16 @@
     "Structured Credit"
   ],
   "items": [
+    {
+      "id": "e1de05d0c955",
+      "title": "Harel Insurance Investments and Financial Services to report second quarter 2026 financial results on August 26, 2026",
+      "source": "TradingView",
+      "date": "2026-07-21T14:07:00Z",
+      "topic": "Insurance AM",
+      "summary": "",
+      "link": "https://news.google.com/rss/articles/CBMiiAJBVV95cUxNb1RFTnZkSmQ3YzloUmFwTkhNYkc1bEhhS1ktZjZsUmdvak9yVU5jLUkyRXNnYWdJZ0dtQ05MWlg5bWZoZEtxLXYwN1pzaFk1eTRxTWZ6T2pjRmxqakdJVWtGU1lwUEpyWFp6VW5kbGpWY3cxa2d2eXE5Z0I3MWt0RkV4QnlVR1otODYxMXdySEdmcTY4QVZYNWc4Ui1xeXZFTHd6Q1Z4cm9vRlp5bEZVM2kzMUxDUjBSdGZ6bEQ2X0ViOXluNjFYZWoza0NBdW90TWFDcWs0X1hvNGhId3VsUk0wU3pHQlJlMU13SnI2WVJUb0UyekdlelZPRGhIQ3lRR1otUTBtbVY?oc=5",
+      "isNew": false
+    },
     {
       "id": "9f305bcb5d24",
       "title": "Japan's Interest Rate Disaster",
@@ -295,16 +305,6 @@
       "topic": "Rates & Macro",
       "summary": "",
       "link": "https://news.google.com/rss/articles/CBMipwFBVV95cUxNNl9yMHZsVWxtMXplZjMzbktzY2tXZFBxN0pKU2dTRXdkajBKX2JKUXVrbnVqS3oydVlfcUlFY2RTdkYzdDJ6X3BIZWlwUUJyVE9jcE9nTjVUNjFvQ25ZUWtFZGlWQ2ZneENlaVZsVWdTTFhZWlJ3amFwdG9lZHUxNEdxQlVWeEZUOTAwVENRd1JZdTdnY2VYUXNlUUFkRlA2U3hUUXEtYw?oc=5",
-      "isNew": false
-    },
-    {
-      "id": "c2c80b8fd748",
-      "title": "The rating reforms needed to tackle private credit\u2019s vulnerabilities",
-      "source": "Financial Times",
-      "date": "2026-07-16T04:01:39Z",
-      "topic": "Private Credit",
-      "summary": "",
-      "link": "https://news.google.com/rss/articles/CBMicEFVX3lxTFBTYzRYNVZzQ3pVaWJhR25TUXVEVEpDYWdYcVplQVpxWGNxeS1ZTEVVb2o1TXloZEt4VEUyQXZsZ0VNcFRCeGhVa3VScnhUYTJxbkF3M3VhQXkwSmFBNy1Ya0p2b05xdUc2YnRkclhsa04?oc=5",
       "isNew": false
     }
   ]
