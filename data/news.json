@@ -1,11 +1,22 @@
 {
-  "updated": "2026-07-20T22:17:33Z",
+  "updated": "2026-07-21T03:49:33Z",
   "topics": [
     "Insurance AM",
     "Private Credit",
-    "Rates & Macro"
+    "Rates & Macro",
+    "Structured Credit"
   ],
   "items": [
+    {
+      "id": "3c80dcd844ec",
+      "title": "Insurers Find Workarounds on Risky Debt as Regulators Play Whac-A-Mole",
+      "source": "WSJ",
+      "date": "2026-07-21T00:00:00Z",
+      "topic": "Structured Credit",
+      "summary": "",
+      "link": "https://news.google.com/rss/articles/CBMiugFBVV95cUxOYjBSbXdRMkVjVXJBVFdVVjZ1WUtKX0Q1U0xWbHdOUC1meWN5LWdSUExKRzNjMlQ3LTkwSUY5dVZ2UW9iR1VSS2VGTmlnY0pnZnYwei1WczJzR1E2RVlYQkhmd0pWSWRwdFlkM0M4SXlqU3FuMUxublp3VHB5VUktb3JWVjFpU0RiZXdzeEppeDFFRF9XRUR3QXZWM2U2UGNnM1NmOVJGbTBnUEJZdlhGeFE4YWU2M3IyNHc?oc=5",
+      "isNew": false
+    },
     {
       "id": "2295e5827a7f",
       "title": "US probes insurers owned by billionaire Mark Walter over asset disclosures",
@@ -294,16 +305,6 @@
       "topic": "Rates & Macro",
       "summary": "",
       "link": "https://news.google.com/rss/articles/CBMixwFBVV95cUxPOG0xd2F5WkRoZ0NtYlBoWnJmUDhXNmVSTUVFdEtKYUhZa1hLQVNaaFh2UXFsRVV2dWV1UHFsLXdUUjlFQ3JuWXY4RUZReDRUZDhGX01keFgyT2JZUzhvV0ZyRkdJUldpTElkN2lkMmlSbWVLYlhXSkdmMHd2ZzZJQXlHemRTYm5YWnJ2STh4SWNkeGN6LUJkNWdIcEFERUlzbXA4MVFNVERkODJobF9KVW50WGk4ZXI1b05MYmMzVENLai05eHhR?oc=5",
-      "isNew": false
-    },
-    {
-      "id": "ae7018db24f5",
-      "title": "PRU Outperforms Industry, Trades at a Discount: Time to Exit or Hold?",
-      "source": "TradingView",
-      "date": "2026-07-15T16:36:00Z",
-      "topic": "Insurance AM",
-      "summary": "",
-      "link": "https://news.google.com/rss/articles/CBMivwFBVV95cUxNUDdjNHpiVnRZZ0FDR0djSVRneG56eldYcjVLLWg3QXQxcnBSQ3E2M2Jkcnd0Z2xRTHVaMTZwU1pyWS1lWk9SLVFNeGoyY18xckIzOEZldVlJTVl0SEFldnRhZTN2S2VQVHBmYVp5ZThNY3Etd1B4Wmp4cDBtcVBqRFU3c2drdTBLN3lxME9nUzI4ejh1ckdUNVZYR2t4bUhBMjVrUE15aVRaaFc5UEtjNFM5TDZjeVNBRVJ0S0t0OA?oc=5",
       "isNew": false
     }
   ]
