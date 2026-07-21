@@ -1,5 +1,5 @@
 {
-  "updated": "2026-07-21T03:49:33Z",
+  "updated": "2026-07-21T08:49:01Z",
   "naic": [
     {
       "id": "356815bead00",
@@ -254,6 +254,16 @@
   ],
   "bma": [
     {
+      "id": "9031dc5d5857",
+      "title": "BMA launches consultation on use of stablecoins",
+      "date": "2026-07-21",
+      "cat": "General",
+      "summary": "",
+      "source": "Royal Gazette | Bermuda",
+      "link": "https://news.google.com/rss/articles/CBMitgFBVV95cUxNdHZNOGJEMWdLZTRNYjl3V1RYTmotWmdRVHV5aHpiOWxHNXdMZkEyOGRHb1RNUVB4T1pES2ZoSmczUGtHM2dwQ3hqVnV4LUw2T0pLR3NZOGtVSVNqdDdIWlNCeUhXQTVtOFF2VTdVVjlyMlk4VGZMR0JCOHlnNWJGQzR4S1pTWGJTYmhZWktVYnRKbkZBdDd4SEFKWWF5bUVQd3p2S0xFTXFMTkJXRENOZWFDMlVjUQ?oc=5",
+      "isNew": true
+    },
+    {
       "id": "3881d750a67a",
       "title": "How the BMA could leverage AI",
       "date": "2026-07-14",
@@ -491,16 +501,6 @@
       "summary": "",
       "source": "Bernews",
       "link": "https://news.google.com/rss/articles/CBMiekFVX3lxTFBDb1MzMnlMeEhweWViTzA5U2locF9JdkNEQ0RncUV4R0xaNkhJaFpuSmpJMnl5cEJmVm5jS0ZnaG1tSFNnb01MaDlOUEtYdTVMWUNrUzk5ZXRRU0E4cjdybkh6Y0pEY2VVY1ZSNUFCSDhJei1lMndGc3Fn?oc=5",
-      "isNew": false
-    },
-    {
-      "id": "eb4286c48b1a",
-      "title": "\u2018Digital assets can give us better financial system\u2019",
-      "date": "2026-04-21",
-      "cat": "Investment",
-      "summary": "",
-      "source": "Royal Gazette | Bermuda",
-      "link": "https://news.google.com/rss/articles/CBMitAFBVV95cUxPR2t0cE5wTkNUSGE1dUxYZGFsZ0k3aXZhLVlzWU9obnN3RlByaDNSeVY3ZTM0cV9HSGx2VnZkeENIdDc1TzNwZ21nSWN2WEh5cElHVmZKbm9oWDZDQjhfUlNSSzlYVldCbXNRZmZ3YnNvVldhYkNtZXgzMUdNQ3ZfaGwxbnpfRGVTUnNCUmEwYlBQaVBUeEhSSEUzQ3E4ZVEzd0RKc183SGJkZTN6Qi1sdDJTUzI?oc=5",
       "isNew": false
     }
   ],
