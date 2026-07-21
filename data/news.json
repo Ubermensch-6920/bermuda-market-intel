@@ -1,5 +1,5 @@
 {
-  "updated": "2026-07-21T16:45:55Z",
+  "updated": "2026-07-21T19:55:05Z",
   "topics": [
     "Insurance AM",
     "Private Credit",
@@ -7,6 +7,16 @@
     "Structured Credit"
   ],
   "items": [
+    {
+      "id": "6c8c78e7ba35",
+      "title": "The debate rages over insurance risk in private credit",
+      "source": "Private Debt Investor",
+      "date": "2026-07-21T16:23:38Z",
+      "topic": "Private Credit",
+      "summary": "",
+      "link": "https://news.google.com/rss/articles/CBMilgFBVV95cUxPamNBbXc2cU9pNHltLVcwZmkxbFZXVmpEaGMtaVVJVWM5QmZveDFXRTU2Nl80OGpoR1JVLXJFZjZmWE9CWW5odEdSNTRMUGdoMl9MVWJQSldiMkVDc1ViTmc2NUwzOFhROWJ2YnJ0M1B5LTFpR0hTUWR6RmlaMlFqaEJIN2pRX3A2emVMcmZGaXFBLVF1dlE?oc=5",
+      "isNew": false
+    },
     {
       "id": "93e332d99555",
       "title": "Valuation Resets, New Entry Points: The Case for CRE Debt",
@@ -35,6 +45,16 @@
       "topic": "Rates & Macro",
       "summary": "",
       "link": "https://news.google.com/rss/articles/CBMic0FVX3lxTE9tOTU5bW1fNVFKMk1OMlFUdWVXVXBybThuMm9nZ2pxQmRabjN5RWUxT1BhS0ZEcVpNOHg5T1k1TzRuYU5PSnBiRm5seU9hcWFFZ2ltaElTQXBXY0FFeWNfTmVKeUpKQ3JJOVZ3S3pnTVZNMkU?oc=5",
+      "isNew": false
+    },
+    {
+      "id": "7c25c8e34c19",
+      "title": "NY Life investment arm steps up Japan private-asset push",
+      "source": "Nikkei Asia",
+      "date": "2026-07-21T06:59:00Z",
+      "topic": "Insurance AM",
+      "summary": "",
+      "link": "https://news.google.com/rss/articles/CBMingFBVV95cUxQM010aUtzM212M3RhTzNvVHljb1p1Y3ZvMHBJRmFLSWUxUkZ0NzJjQzlwbkV6NkNhcWxmcVlXSnFhYnZ3blJaRVVDMVlQSlV3VE5uelFhWktIWDdncGpKR1c2d3BBX08yeS1qR0k3YWpiZVdYNlFJWmtMSUpQNFpFQXZkV21XY00wVUdPbll1MTVIZ0tkdC1ORWVXWmh5QQ?oc=5",
       "isNew": false
     },
     {
@@ -285,26 +305,6 @@
       "topic": "Private Credit",
       "summary": "",
       "link": "https://news.google.com/rss/articles/CBMihAFBVV95cUxNVldkNHZtZjJGUW5PZFlzOVh3QmFyVXlWbThEcTRjYXFtMXJtbDJjQXdyUTJNa1pZMXA0NktIMlRnTDdvMi1ZTlpKTzdNNjlyZWJTSkIwbFVKSE1ocWJwaGVKZExSVHM0RWVGSnFkaG9qVnFfSGN6N0hCRk5kclNCbkxrSDE?oc=5",
-      "isNew": false
-    },
-    {
-      "id": "e937830eb102",
-      "title": "Warsh's Fed plan means it's time to read the bond market backward, says Morgan Stanley chief",
-      "source": "Fortune",
-      "date": "2026-07-16T13:18:00Z",
-      "topic": "Rates & Macro",
-      "summary": "",
-      "link": "https://news.google.com/rss/articles/CBMijgFBVV95cUxQZElZMXZOWnRIelVJN0w0VWxYd2JuQnBJcDUtM3dDUl9kZHBJZWwyN2N2clBmOHZwQzhoR09RY01GajNBUWlaZDlMemUxMEM2cHNRM3lOVV9VNnZTMDFwMzdzcUNTeXI1MGFubU41THhabGlnZEc3SzZval9VVUEwWUhPTnlrc2kwdzZKOWdB?oc=5",
-      "isNew": false
-    },
-    {
-      "id": "405433a3ef5c",
-      "title": "Navigating the Fed\u2019s new playbook: How CFOs can manage unpredictable interest rates",
-      "source": "The CFO",
-      "date": "2026-07-16T11:39:18Z",
-      "topic": "Rates & Macro",
-      "summary": "",
-      "link": "https://news.google.com/rss/articles/CBMisgFBVV95cUxPeW1DN1Z2dmNld29WaElTU2cxU002cUw0bDBFZGdnanc2ZkZtX19OWUhZNEhQM090X09NUFVXLW9XckRJdlJxU0o0RzRZSm9nazlVR3VHdHFUOTZpOEJiVEVsU1ZYU0FXM3JUVzJzWmRTUjI2aXBxbzBRWTIwQkxKRnFLRXRLYjQwTWI1d21zUVliV1E0TFVWMEw3ZDhvUXBPZXNZSFQ1U29nME9DRm9ESHJB?oc=5",
       "isNew": false
     }
   ]
