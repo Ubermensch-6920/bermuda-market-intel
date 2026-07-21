@@ -1,5 +1,5 @@
 {
-  "updated": "2026-07-21T14:26:36Z",
+  "updated": "2026-07-21T16:45:55Z",
   "topics": [
     "Insurance AM",
     "Private Credit",
@@ -7,6 +7,16 @@
     "Structured Credit"
   ],
   "items": [
+    {
+      "id": "93e332d99555",
+      "title": "Valuation Resets, New Entry Points: The Case for CRE Debt",
+      "source": "KKR: A Leading Global Investment Firm",
+      "date": "2026-07-21T14:28:19Z",
+      "topic": "Private Credit",
+      "summary": "",
+      "link": "https://news.google.com/rss/articles/CBMiWkFVX3lxTFBNU2h4ZjN4R2pKUFhuNkh1bV8xNlh4ZU8tMndLdk1fTmU1OVZUU3FyVm1RZmFaNlhXY3hIckNOSDAtOHVKWHotdDZkcGdIRk9KMVp2ZzlENWp4Zw?oc=5",
+      "isNew": false
+    },
     {
       "id": "e1de05d0c955",
       "title": "Harel Insurance Investments and Financial Services to report second quarter 2026 financial results on August 26, 2026",
@@ -95,6 +105,16 @@
       "topic": "Private Credit",
       "summary": "",
       "link": "https://news.google.com/rss/articles/CBMimwFBVV95cUxQdEhidEx6NXVwVnQ1Wkpyak5OT2ZOQjBhMS05eUI5S3VLMFpoX1VDbUdhZzFZSThHYVBkNy1FbmdnUWZ2ZmpyLU9JTTV0ZVpJajB5dHFmUjhqYV8yUGQybEZTWnRYQktWTlYtWU9WemJvaHpnalVjRkFhZnI5c29qb3lRX0hRdXNjX3RHa0JWcmlKN1ZLQTZhNU56SQ?oc=5",
+      "isNew": false
+    },
+    {
+      "id": "006e2409d416",
+      "title": "Wall Street's new private credit play draws investor demand, regulatory scrutiny (ARCC:NASDAQ)",
+      "source": "Seeking Alpha",
+      "date": "2026-07-19T21:08:07Z",
+      "topic": "Private Credit",
+      "summary": "",
+      "link": "https://news.google.com/rss/articles/CBMitwFBVV95cUxOdE5YZlZHN1RjVFYxWHBoc1V3cGhtUjduczAzWVM5NDdlTGVlaFQ2cE8ydVlZY2RId3B2dnpnYlJBU3dyb2M3SHY0VDduUFpLTGZucTU4X0NHbTlnemNtUjRoWC15WGpTTkZvVmEzTjRuVDVYMDBObmJHbW50c25EVlVudUlqcHFKSlhTdDNUWUUyN2RYSDlZdFpzbWdLcDBrSGc1NEdjNldYR2lZOEp0bHZyX0RtQlk?oc=5",
       "isNew": false
     },
     {
@@ -285,26 +305,6 @@
       "topic": "Rates & Macro",
       "summary": "",
       "link": "https://news.google.com/rss/articles/CBMisgFBVV95cUxPeW1DN1Z2dmNld29WaElTU2cxU002cUw0bDBFZGdnanc2ZkZtX19OWUhZNEhQM090X09NUFVXLW9XckRJdlJxU0o0RzRZSm9nazlVR3VHdHFUOTZpOEJiVEVsU1ZYU0FXM3JUVzJzWmRTUjI2aXBxbzBRWTIwQkxKRnFLRXRLYjQwTWI1d21zUVliV1E0TFVWMEw3ZDhvUXBPZXNZSFQ1U29nME9DRm9ESHJB?oc=5",
-      "isNew": false
-    },
-    {
-      "id": "9f480a8a42fa",
-      "title": "South Korea's central bank hikes rate for 1st time since 2023 to curb inflation, debt",
-      "source": "ABC News - Breaking News, Latest News and Videos",
-      "date": "2026-07-16T08:18:26Z",
-      "topic": "Rates & Macro",
-      "summary": "",
-      "link": "https://news.google.com/rss/articles/CBMioAFBVV95cUxQYnJnQjB3cVJTcHJIVlI1dU1fSDJPZU1BMy1zRjUweHQ0UDFaZmlJT3FMRV82NE96djZaNEd5UzVQMjBRTHk2bkhqbGViUHk4VHRiR0xDYVlEeF94ZGowZ3FCSFo4NTctcWdXT3RCbWQ1bWJyRGdRT2hhMnctaVRtUlF0aEpWb21tbzg2WE5VOERmd056d3BIeGNuQllWM0p60gGmAUFVX3lxTE9YZk1fY21JRzZuTWpDZlRVUGdBZ3ZMbFJJeU4wMjMyRWNBLURHVkhpSzk4WUhYSHhqemUzRGR0VmFLakFyd2ViSWUxeW1LSnM2MGZkUnZ3MW5WTEtIY1hhTzgxU2NqYmstbFpsVHlUTnFyWHYtTWR2RzJuNlZVelpwc04yTFgyQk5JV2JuRTI2ZWJHY2l0VGdsSW9MNm9fOHc4UjRZRnc?oc=5",
-      "isNew": false
-    },
-    {
-      "id": "63815f9bdebd",
-      "title": "Bank of Korea Raises Rate for First Time Since 2023",
-      "source": "WSJ",
-      "date": "2026-07-16T06:28:00Z",
-      "topic": "Rates & Macro",
-      "summary": "",
-      "link": "https://news.google.com/rss/articles/CBMipwFBVV95cUxNNl9yMHZsVWxtMXplZjMzbktzY2tXZFBxN0pKU2dTRXdkajBKX2JKUXVrbnVqS3oydVlfcUlFY2RTdkYzdDJ6X3BIZWlwUUJyVE9jcE9nTjVUNjFvQ25ZUWtFZGlWQ2ZneENlaVZsVWdTTFhZWlJ3amFwdG9lZHUxNEdxQlVWeEZUOTAwVENRd1JZdTdnY2VYUXNlUUFkRlA2U3hUUXEtYw?oc=5",
       "isNew": false
     }
   ]
