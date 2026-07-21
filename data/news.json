@@ -1,5 +1,5 @@
 {
-  "updated": "2026-07-21T08:49:01Z",
+  "updated": "2026-07-21T11:22:46Z",
   "topics": [
     "Insurance AM",
     "Private Credit",
@@ -7,6 +7,16 @@
     "Structured Credit"
   ],
   "items": [
+    {
+      "id": "9f305bcb5d24",
+      "title": "Japan's Interest Rate Disaster",
+      "source": "Robin J Brooks | Substack",
+      "date": "2026-07-21T09:01:31Z",
+      "topic": "Rates & Macro",
+      "summary": "",
+      "link": "https://news.google.com/rss/articles/CBMic0FVX3lxTE9tOTU5bW1fNVFKMk1OMlFUdWVXVXBybThuMm9nZ2pxQmRabjN5RWUxT1BhS0ZEcVpNOHg5T1k1TzRuYU5PSnBiRm5seU9hcWFFZ2ltaElTQXBXY0FFeWNfTmVKeUpKQ3JJOVZ3S3pnTVZNMkU?oc=5",
+      "isNew": false
+    },
     {
       "id": "3c80dcd844ec",
       "title": "Insurers Find Workarounds on Risky Debt as Regulators Play Whac-A-Mole",
@@ -295,16 +305,6 @@
       "topic": "Private Credit",
       "summary": "",
       "link": "https://news.google.com/rss/articles/CBMicEFVX3lxTFBTYzRYNVZzQ3pVaWJhR25TUXVEVEpDYWdYcVplQVpxWGNxeS1ZTEVVb2o1TXloZEt4VEUyQXZsZ0VNcFRCeGhVa3VScnhUYTJxbkF3M3VhQXkwSmFBNy1Ya0p2b05xdUc2YnRkclhsa04?oc=5",
-      "isNew": false
-    },
-    {
-      "id": "565bad0c6447",
-      "title": "South Korea\u2019s central bank hikes rate for 1st time since 2023 to curb inflation, debt",
-      "source": "AP News",
-      "date": "2026-07-16T03:15:00Z",
-      "topic": "Rates & Macro",
-      "summary": "",
-      "link": "https://news.google.com/rss/articles/CBMiqAFBVV95cUxPeHRGYW4zUTZwXzA2V3h2RWc0ckFDSVF2dVoyNWUyZzVPdkZzZmIwbmVCdndFOUg1ZU1hWnJLMFlmdDV1WTFTN2ZTR3NTc1BiUTZkZE5nVFhsV2J6eXctT21FLTJUN3R5QXE1a0F3OWlEV2RiNnluMVFMM3ZISHZoYzhVaTdSUmxNOGhfUE9jSEJ1bEpjRlRnUGNoazlSSG5sZFhjbDlRZWk?oc=5",
       "isNew": false
     }
   ]
