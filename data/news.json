@@ -1,5 +1,5 @@
 {
-  "updated": "2026-07-22T11:23:56Z",
+  "updated": "2026-07-22T14:27:34Z",
   "topics": [
     "Insurance AM",
     "Private Credit",
@@ -7,6 +7,16 @@
     "Structured Credit"
   ],
   "items": [
+    {
+      "id": "f7f4ad11e026",
+      "title": "KKR Appoints Former Manulife CEO Roy Gori as Senior Advisor",
+      "source": "citybiz",
+      "date": "2026-07-22T12:33:15Z",
+      "topic": "Insurance AM",
+      "summary": "",
+      "link": "https://news.google.com/rss/articles/CBMinwFBVV95cUxOcHY3VzNhbW83T3VQVzRfdjRidnFfZEpIdnNYbDhTenZudk9FVWFRWUZudklfUTVrUThQVnJibG1sX1Nta28weDlXS2otZkZNUWE5NEJwTFFuZ0NfVWtVb2F1LWRucW9lU2NfNi1wZW5qbndPR2luejdYWWxTUU9LQ0ozeFY5WEx2QUhGLWp1b1V4b1F2d0Q0cDBpRTRra2c?oc=5",
+      "isNew": false
+    },
     {
       "id": "7d4aea7ea698",
       "title": "How to Get Access to Insurance Capital Funds: Key Challenges & Practical Insights",
@@ -295,16 +305,6 @@
       "topic": "Private Credit",
       "summary": "",
       "link": "https://news.google.com/rss/articles/CBMivwFBVV95cUxQUGE4aXd6WGNpVWdxcWVPOWZRZ1ZmQWl6VjhZSTgtY193Qkh2REhOUGRBdks3WThzWEV2VWJWSVh5YlF1ZG8tQnYzZHBEclZqTExpZ2xRN2tGOGJ4LXlBNkpuWldFaGRSZDlHRTJGRmJkQV92bVdvX2xxSTdHdm9sS0xxRVRPeDQtVVIzWERXVWhaMHJZbEhGbTNSZjVjQkgxSXIzVjdSeWhRR0lqZjhsM0syU2ZBOHFXY3NCTUVUMA?oc=5",
-      "isNew": false
-    },
-    {
-      "id": "3dae66b0cf20",
-      "title": "Marsh Survey Reveals That Insurers\u2019 Private Credit Appetite Continues to Grow, but Discipline Remains Paramount",
-      "source": "Yahoo! Finance Canada",
-      "date": "2026-07-16T15:00:00Z",
-      "topic": "Private Credit",
-      "summary": "",
-      "link": "https://news.google.com/rss/articles/CBMijwFBVV95cUxQVjVaakVaT08ycHAyOFpsR2dvZ243S2d5S1c2b09SRHFQdm40WXkzc3piZmlEdFZpczZ3X2R5RlFxeEl0T2JaUzJvZlc3Nk5aQlVZVzJoems0R3FTUkdZOHl3MUNteENyb3RQblVKNU1vTVBMNjVQbnlmWkM5RW05TlZJZ0NfcUhPc2JfRUhTUQ?oc=5",
       "isNew": false
     }
   ]

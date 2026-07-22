@@ -1,5 +1,5 @@
 {
-  "updated": "2026-07-22T11:23:56Z",
+  "updated": "2026-07-22T14:27:34Z",
   "naic": [
     {
       "id": "248d58583747",
@@ -39,6 +39,16 @@
       "summary": "",
       "source": "LEADERSHIP Newspapers",
       "link": "https://news.google.com/rss/articles/CBMilgFBVV95cUxPRVpORVFmbTVMbEc0aG5VWVJMTXpkY0xscWJfQks3WUx6WnJoQ1p6YUtZRXlWaWpJWkxVLVFqS1RxbVdLeVZUOEh6ZlBia3NQeHFIaGxSMEpjam1NZ2RCb1MyVm53T1JfODVaTG9CZURMT2l3NndLZTd2R0NUbno0WGRMckhTa01HSDFhT1VSVEZLYUVGT1E?oc=5",
+      "isNew": true
+    },
+    {
+      "id": "1a18dda17a9f",
+      "title": "NAIC, Agriculture, Finance Ministries deepen collaboration on farmers\u2019 insurance",
+      "date": "2026-07-18",
+      "cat": "General",
+      "summary": "",
+      "source": "Daily Trust",
+      "link": "https://news.google.com/rss/articles/CBMiowFBVV95cUxNR3BCcU1aX1dDb0FEZEtRUHJ3d1pLcTFZOTBfRmxFOHJUTml4WGxWR2R4M3dsWmFSUm5UUmk5cGF5QWJZeDBJMnFHR2N3a01XT0sxNnNlOWpxc205MWdtWVFtWkVhTkZ2LXFsUTVsRjJVLV9GLVAxTERzdEJicmRjaGpLT1E0NXkyY2FXeHBFSlNkSnVHLVdRV1ZLa1pHaWw2aGQ0?oc=5",
       "isNew": true
     },
     {
@@ -240,19 +250,19 @@
       "source": "Law360",
       "link": "https://news.google.com/rss/articles/CBMisgFBVV95cUxQUlFaRFQtZDlwM3d1cXdrVDVJNFdKaU4xem9JYml0clE5NWw2ajlHSzMxUnJNVGJlQ2VRZE1mV2wxXzRvSmdkQ2piNlVzUHdQdy1VZlNnWkxXMXE4Rlc3d3k4WjMwcXJlYm42TFQ1UkhTZ0lUMlQySTNUUVRVWGRabDh5NW9uYlFyRkpjaHBQbUpaWXdhSnd1d2d5dmpvUktHYWZCd252ZWpqT09FekNWN3ZB0gFwQVVfeXFMT1IyTnE1YnBwdFVKVGpRdXhZM2NEX0k0MUhPRVBKZjJmWEVFUjVhendZYlR2WWVZSF9xQjVuNzB0THhtQ0NZYTFtVzdidTZXXy1vekM4N0dIeTNDSHg1bTREQnJEX1UyYzRKQzhWTEFldA?oc=5",
       "isNew": true
-    },
-    {
-      "id": "31325876a67a",
-      "title": "Insurance Regulators Group NAIC Hit in Oracle PeopleSoft Hack",
-      "date": "2026-06-29",
-      "cat": "General",
-      "summary": "",
-      "source": "SecurityWeek",
-      "link": "https://news.google.com/rss/articles/CBMilgFBVV95cUxNVVlsWm5ZRUVoUDhjTzVrTFRtZ3ZUc0pjZmZOWmtBVFRjTFRBNWlaYjZfemlncTdveVRXeHU1LTlvQmw3RHd3NmliQ1F1NFNGcTZocDJDTUxzSjJSRlVTeWxsUFdQOEZzd0Q2NmlhVi1Mak5oMVJEQ2trWnk5RHhyUG90TXhCbmdJd3hDX1EyTGhVeUVBbHfSAZsBQVVfeXFMTnFhXy1QWTkzLUJYSUVoN20zeEh0WFhvNTItb0JRR2t3SkhBY2w0cTVSUnk2Nk92a29WdXYzN09CdjdNZWZreUFJWE9lakxxTEF4NkVWRTVkaWt0T1R5d1BmajlaRW5VMjg3UDZ4M0Mtbzdkdmxxc1dPZFpOOHJIcktNM1h4N1Y4V1lCcDR4V1pYb3BjUWRuNTN5a28?oc=5",
-      "isNew": true
     }
   ],
   "bma": [
+    {
+      "id": "0800f02fee4a",
+      "title": "Bermuda\u2019s ILS sector well-placed to benefit from stablecoin development: BMA",
+      "date": "2026-07-22",
+      "cat": "General",
+      "summary": "",
+      "source": "Artemis.bm",
+      "link": "https://news.google.com/rss/articles/CBMipAFBVV95cUxOM1B5X2ZUMThlOWl6Z2kyUWQ2cWpPLUM4a1ZiSXBaR2VPVmRLRjBzbWoyX2lxNkp6RElEUllTWDNibE5hYTFsV293RGJOcGdnT0R6SldVLWRMX2JFa3I0ZW1FUjlLTFJFVW9ReXlTN3ZqTVBiVHpoRVdzZENGYzFNdlBrQjY3MEJmUjZIQ2gtSDJXR0t1WlJ5VUsxaVNFMDdHeXduSQ?oc=5",
+      "isNew": true
+    },
     {
       "id": "9031dc5d5857",
       "title": "BMA launches consultation on use of stablecoins",
@@ -491,16 +501,6 @@
       "summary": "",
       "source": "Bernews",
       "link": "https://news.google.com/rss/articles/CBMid0FVX3lxTE5WZ0dlSldsRm54ZnBTWDlNYUw0aFZCSldmSElHRmttVWZZeGlJb2FfLWZhRkJxVU5PQnA3d2c0b0N0Ymk3Yk9wTzhYbUJTYVNObkRUS3RRQkpMZlhNckZiY1pVN1Jyd2c0S1lScGgxd21Ob3NwUmxZ?oc=5",
-      "isNew": false
-    },
-    {
-      "id": "d71087151097",
-      "title": "UK regulator moves to curb flow of Bermuda life sector deals",
-      "date": "2026-05-01",
-      "cat": "General",
-      "summary": "",
-      "source": "Royal Gazette | Bermuda",
-      "link": "https://news.google.com/rss/articles/CBMixwFBVV95cUxNbU9WWFowZ1VSSUVVRkJhS1VKZm5SQTZuT2FPUUhYdElybWdIQkRfTVlEWlB5aVpZVEVHTWNVOFZKbUpORnBTNHlvdkN6bFVXbFZVTEdYSy1RXzJBSm1CUVZDUGpsakFwVTlscXFQTHF4ckVCUGVuUFoyb3Q5R1FtSWt2UUxCM0tub1BoV000NDJZTm54Z2w0RndYQUJMekFaV0RZQ1BmazZmVm00Z2RwMjdIZDdiUG9wQmpTVWhPNWpnRHlCUnZV?oc=5",
       "isNew": false
     }
   ],
