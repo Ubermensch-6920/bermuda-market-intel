@@ -1,5 +1,5 @@
 {
-  "updated": "2026-07-22T19:47:52Z",
+  "updated": "2026-07-22T22:19:53Z",
   "naic": [
     {
       "id": "248d58583747",
@@ -264,6 +264,16 @@
       "isNew": true
     },
     {
+      "id": "80d7c58ffdd4",
+      "title": "BMA warns of payment scam",
+      "date": "2026-07-22",
+      "cat": "General",
+      "summary": "",
+      "source": "Royal Gazette | Bermuda",
+      "link": "https://news.google.com/rss/articles/CBMinAFBVV95cUxQU1lGemdXaEtnZnJpNXNMeHR1dU41NWhTUlZOOTJFaFlmYWFQTXp6Zm1Yd1JIZF83NjB2NWVFT0MzZ0F4djdXelcyOHVjTVNaRXhpVFowZzlUdzQ0dENnNkJHeFVSdnJZazdsMFlWUUZJSVN4dWdlZHVTOFA4R0JDSWlHVnRYdmVXNWNadU14M2g5eGpLYkxMNFZocUI?oc=5",
+      "isNew": true
+    },
+    {
       "id": "66ff73270577",
       "title": "BMA issues stablecoin consultation paper",
       "date": "2026-07-22",
@@ -491,16 +501,6 @@
       "summary": "",
       "source": "CoinDesk",
       "link": "https://news.google.com/rss/articles/CBMipgFBVV95cUxNdnpLNXBtQkgwMHRuZ1luLU1rbHlJZWRYSlNWdEpvYW1yTktOLWhTNW1RVXFFOFhwM2dWUXhZUUJ5QzY4NlpMZFJyOTRUQ1YtdWpfVUtmOVczd20zQktXV3pYYW9XRG4zS3RDWVREQXV1NFJSMWtGd1RUSVd6OUhKWkV0S283aFpxVndRMUd6NFFCOE14OXVjYnpEcFFFVFlfU0lHUXNB?oc=5",
-      "isNew": false
-    },
-    {
-      "id": "98436dd12dc7",
-      "title": "Walkers Publishes Fintech White Paper",
-      "date": "2026-05-21",
-      "cat": "General",
-      "summary": "",
-      "source": "Bernews",
-      "link": "https://news.google.com/rss/articles/CBMidEFVX3lxTE55ZFFrU1VwWk11d0o1elZSaDg4cEJUWENyclFLbGhUSG9PNk5yTlZqUE5OT09CVVYwWDJWeHdkN21JV2xTNWl2M2VnV000aU5wMTJtcExKUTJSdGlnZERscUpkU2tob1dGbHBuZVpuSmN2WEZs?oc=5",
       "isNew": false
     }
   ],
