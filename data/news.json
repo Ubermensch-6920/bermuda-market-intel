@@ -1,5 +1,5 @@
 {
-  "updated": "2026-07-22T16:50:22Z",
+  "updated": "2026-07-22T19:47:52Z",
   "topics": [
     "Insurance AM",
     "Private Credit",
@@ -7,6 +7,16 @@
     "Structured Credit"
   ],
   "items": [
+    {
+      "id": "e308d8e794ad",
+      "title": "Venerable And Guardian Agree To Transition $4.5 Billion In Assets To Venerable Platform",
+      "source": "Pulse 2.0",
+      "date": "2026-07-22T16:47:57Z",
+      "topic": "Insurance AM",
+      "summary": "",
+      "link": "https://news.google.com/rss/articles/CBMiqgFBVV95cUxQLWN2cFVmSWtmTHdlRjVNeXFSa1hmOWpOaFg5Mlh4d0k4MjVYbE1nVHhqOUhVZlFseVdqeGk5cXg0ZklsZVpCZTQ1RVJVQjhEbFNGY0xTVm16dzBBUWctNFZpMzQ2eG9FU19RZU54WlRnX1ZiM1lIeUQxcGZGTXBEaE5CTU0tdmdFZ3BZeFZzZ2dhMmdESF9iRDFBMFpHanJSYnlNSjRvQ043UdIBrwFBVV95cUxOUmdVYUlrQi1Nb0thYTBranlGM3ItY2xBTzNON3VpdHp4bXlwVlZ1ekZ0Z2t2elVqWW90MW02ZFFiWGVHZDI3c2d5VEd6RWtQY2JxSjU3bHdpVGhrRVhZQ0NUOVYwU2pLSUJiUklWUDFGdzdkXzJHWUhsWHN5ZHNBRC1UMHJCaE8tdV9Qcl93dFVJcmxaNUFVemZKV3BCOEdHd19Mc2FYa0toMVA2Z0xz?oc=5",
+      "isNew": false
+    },
     {
       "id": "f7f4ad11e026",
       "title": "KKR Appoints Former Manulife CEO Roy Gori as Senior Advisor",
@@ -295,16 +305,6 @@
       "topic": "Insurance AM",
       "summary": "",
       "link": "https://news.google.com/rss/articles/CBMi1wFBVV95cUxQUEJmWmNhamdja21vWWxFQXg1dVYwb1FKb2NPZ2pFaGpqVDhNYklRMm16M2lGSGxHUUxrLVZnQnJIRURXOXQySFVTQThRa2o5V1ZFSjMtb1ZoWVdscFVHeEE5ZEtWWmpSNjVsTlB0NU9rMV81VVdKcENYazFDTTFDd2tROTFpOUp2elFtdS1GS2RlQWF5OEtJRzJVTEZnX0ttVHhOalc0NC01aEpQa2h3U2xYdVlxNHN1YmpwVF9MaFNTMmhXN1hrN2htMExCNjYyZ3lwUWNfNA?oc=5",
-      "isNew": false
-    },
-    {
-      "id": "1987c423e362",
-      "title": "Private Credit \u2018Tradable\u2019 Platform Shows Direct Loans Are Moving",
-      "source": "Bloomberg.com",
-      "date": "2026-07-16T15:15:05Z",
-      "topic": "Private Credit",
-      "summary": "",
-      "link": "https://news.google.com/rss/articles/CBMiswFBVV95cUxQZDJBRnE0X1Q4dlVabEo5SmV5d3RybjlTaHBJM2dBMFRVdlQwcUhkQkxBOFM2b0ZXRWt1Yk9XRlh0OVg2Ql9VVHZScXRjR21tZVJDTzYzY0RQdzVGQ0JSWU8tTTZnU3NRQVRDMnRCSG00UUFraUliRmRXbmFzVmZyY0YwckVkYm1PZl9NM2lGU3NtbXU0UXZzMjNnWUtobWlZUnkyMjZOeld3ZXN1WUhqOU1TYw?oc=5",
       "isNew": false
     }
   ]
