@@ -1,5 +1,5 @@
 {
-  "updated": "2026-07-22T03:50:52Z",
+  "updated": "2026-07-22T08:48:34Z",
   "topics": [
     "Insurance AM",
     "Private Credit",
@@ -7,6 +7,16 @@
     "Structured Credit"
   ],
   "items": [
+    {
+      "id": "027ccf271983",
+      "title": "Are insurers making too many risky investment bets?",
+      "source": "Insurance Business",
+      "date": "2026-07-22T08:38:18Z",
+      "topic": "Structured Credit",
+      "summary": "",
+      "link": "https://news.google.com/rss/articles/CBMivgFBVV95cUxOa2dJQ1pWVVRBQ3hoOHVTV0lWWTZPOFY3OG1IeHRpbHllVmFpSTJNbWpKYl9yUnA0Y2x4RWFtM0s2ZHJEaTRaSk9RQnV2eXhEYjdNRFNNdmxPSmRZajhGeUdKV1hfeUwxOEViVkJGaGZZWnREWkpoR1RNZDFsOVVKR3czSm9pU2NnU3o4T0IzN1VSeU9feGx3SzVVQ1dTTjZxdWE3WDdnLXNqT1JORTVFOFgxNktoVjVWeXdMZHp3?oc=5",
+      "isNew": false
+    },
     {
       "id": "6c8c78e7ba35",
       "title": "The debate rages over insurance risk in private credit",
@@ -295,16 +305,6 @@
       "topic": "Private Credit",
       "summary": "",
       "link": "https://news.google.com/rss/articles/CBMipAFBVV95cUxOcnpyd1pmdTdMbHdGMXhLUnNLLW84UlF3aDFnOVhWX1VCVjJMQU9lREdINEVpVjRCQ3JhSmFGTUhEWHZGOVRsWUJXbEhsQ3U0bE5rLWp5WF8tNmZicUFlaVhJSnNtV053YUZ5MGtMZENncW1XX0s2NnNGZ3VoRjhBWmlmVktfTDZ0NEo3R1ljd01iTlZJNDQ2V05Hdm1sRVdFVm5vbg?oc=5",
-      "isNew": false
-    },
-    {
-      "id": "9e64dfa04206",
-      "title": "The Rise And Rise Of Private Debt For Insurance Investors",
-      "source": "Seeking Alpha",
-      "date": "2026-07-16T14:07:00Z",
-      "topic": "Private Credit",
-      "summary": "",
-      "link": "https://news.google.com/rss/articles/CBMihAFBVV95cUxNVldkNHZtZjJGUW5PZFlzOVh3QmFyVXlWbThEcTRjYXFtMXJtbDJjQXdyUTJNa1pZMXA0NktIMlRnTDdvMi1ZTlpKTzdNNjlyZWJTSkIwbFVKSE1ocWJwaGVKZExSVHM0RWVGSnFkaG9qVnFfSGN6N0hCRk5kclNCbkxrSDE?oc=5",
       "isNew": false
     }
   ]
