@@ -1,5 +1,5 @@
 {
-  "updated": "2026-07-22T14:27:34Z",
+  "updated": "2026-07-22T16:50:22Z",
   "naic": [
     {
       "id": "248d58583747",
@@ -264,6 +264,16 @@
       "isNew": true
     },
     {
+      "id": "66ff73270577",
+      "title": "BMA issues stablecoin consultation paper",
+      "date": "2026-07-22",
+      "cat": "General",
+      "summary": "",
+      "source": "Captive International",
+      "link": "https://news.google.com/rss/articles/CBMigwFBVV95cUxNbENnbmtsM0pnWjdtZWFkeXNXVUVTQ2x4N1Z0SlI4YmJhRTFtdUpRWDBEWTBkcnp5WEJGejBLdkZJWmxYQk9oTWMxM09FblYzQXo5eG1BNWg4V2hNdk5SaXd5MUxHVWF3b1pwQnBBWDN1c1BPa3VVeXN5eW5mUkRqdTJoMA?oc=5",
+      "isNew": true
+    },
+    {
       "id": "9031dc5d5857",
       "title": "BMA launches consultation on use of stablecoins",
       "date": "2026-07-21",
@@ -491,16 +501,6 @@
       "summary": "",
       "source": "Bernews",
       "link": "https://news.google.com/rss/articles/CBMidEFVX3lxTE55ZFFrU1VwWk11d0o1elZSaDg4cEJUWENyclFLbGhUSG9PNk5yTlZqUE5OT09CVVYwWDJWeHdkN21JV2xTNWl2M2VnV000aU5wMTJtcExKUTJSdGlnZERscUpkU2tob1dGbHBuZVpuSmN2WEZs?oc=5",
-      "isNew": false
-    },
-    {
-      "id": "5c8fd3de3a31",
-      "title": "Official Govt & Legal Notices For May 13 2026",
-      "date": "2026-05-13",
-      "cat": "General",
-      "summary": "",
-      "source": "Bernews",
-      "link": "https://news.google.com/rss/articles/CBMid0FVX3lxTE5WZ0dlSldsRm54ZnBTWDlNYUw0aFZCSldmSElHRmttVWZZeGlJb2FfLWZhRkJxVU5PQnA3d2c0b0N0Ymk3Yk9wTzhYbUJTYVNObkRUS3RRQkpMZlhNckZiY1pVN1Jyd2c0S1lScGgxd21Ob3NwUmxZ?oc=5",
       "isNew": false
     }
   ],

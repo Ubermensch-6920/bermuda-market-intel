@@ -3,7 +3,7 @@
     "ust": "ok",
     "jgb": "ok",
     "gilt": "ok",
-    "eur": "",
+    "eur": "ok",
     "india": "ok",
     "credit": "ok",
     "cds": "ok",
@@ -12,6 +12,6 @@
     "commodities": "ok",
     "inflation": "ok"
   },
-  "run": "2026-07-22T14:26:57.588456Z",
-  "_fetched": "2026-07-22T14:27:06.421566Z"
+  "run": "2026-07-22T16:49:47.987266Z",
+  "_fetched": "2026-07-22T16:49:54.550229Z"
 }
