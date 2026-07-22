@@ -1070,10 +1070,14 @@ const newsItems = data => (data?.items?.length ? data.items : NEWS);
 const regItems = (data, key) => (data?.[key]?.length ? data[key] : (REG_FALLBACK[key] || []));
 
 // Title that links to the publication/presentation when a URL is present.
-// Pass paywall={true} for news articles to route via archive.ph.
+// Pass paywall={true} for news articles to route via archive.ph. The pipeline
+// resolves Google News RSS redirect links to the real publisher URL before
+// this ever sees them; an unresolved news.google.com link is left unwrapped
+// since archiving Google's redirect page isn't useful.
 const paywallUrl = url => `https://archive.ph/${url}`;
 const ItemTitle = ({ title, link, paywall }) => {
-  const href = link ? (paywall ? paywallUrl(link) : link) : null;
+  const wrap = paywall && link && !link.includes("news.google.com");
+  const href = link ? (wrap ? paywallUrl(link) : link) : null;
   return href
     ? <a href={href} target="_blank" rel="noopener noreferrer" style={{ color: "#f1f5f9", textDecoration: "none", display: "inline-flex", alignItems: "baseline", gap: 5 }} onMouseEnter={e => e.currentTarget.style.color = "#60a5fa"} onMouseLeave={e => e.currentTarget.style.color = "#f1f5f9"}>{title}<ExternalLink size={12} style={{ flexShrink: 0, opacity: 0.7 }} /></a>
     : <span style={{ color: "#f1f5f9" }}>{title}</span>;
