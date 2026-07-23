@@ -1,5 +1,5 @@
 {
-  "updated": "2026-07-23T08:48:16Z",
+  "updated": "2026-07-23T11:24:00Z",
   "topics": [
     "Insurance AM",
     "Private Credit",
@@ -7,6 +7,26 @@
     "Structured Credit"
   ],
   "items": [
+    {
+      "id": "294f5c3806a5",
+      "title": "Global Bond Yields Jump as Oil Prices Surge, Inflation Fears Mount",
+      "source": "WSJ",
+      "date": "2026-07-23T09:46:00Z",
+      "topic": "Rates & Macro",
+      "summary": "",
+      "link": "https://news.google.com/rss/articles/CBMiugFBVV95cUxPNUlCR0k3M3VWNXJzY3BCTTBGTk9YZm5OLURyLVM0ZUVWLU9tTU5HNmR1NmVBdlF6aDYtOVFHUENFcTJQdFpFRDRuam9qY0VQTmtwem5ZTzA4UmlXb0hUN280V2V5ZnNLLVdENUZRUmZ6dU41YjItbGNWVlRaRm50LWo0dEtOSldqWVZZVVBTaFlPa1JzYk1QU2o4ZnlIX1RPd3JPdzlYNlJUQVo4M2hqNHJCZzI0Yk5iMEE?oc=5",
+      "isNew": false
+    },
+    {
+      "id": "23a656e4b0fe",
+      "title": "Oil price surge drives global bond sell-off",
+      "source": "Financial Times",
+      "date": "2026-07-23T08:22:50Z",
+      "topic": "Rates & Macro",
+      "summary": "",
+      "link": "https://news.google.com/rss/articles/CBMihAFBVV95cUxOclF2RTc2cFc2ajlnUjN2blRGYS1vbTNGeTRnNkFKNGduZGpSS05BMnVkY21vcFRkR3BvMDhGZkFuTzFvaUxtc1NDVEJyb180TGcyUkROc2QwYkJRaEJ5eTlOTEdNbVdMbGNhdC1ETnYyUno1dldEeU1Yb3JpVEkxZml4dEM?oc=5",
+      "isNew": false
+    },
     {
       "id": "e308d8e794ad",
       "title": "Venerable And Guardian Agree To Transition $4.5 Billion In Assets To Venerable Platform",
@@ -30,7 +50,7 @@
     {
       "id": "7d4aea7ea698",
       "title": "How to Get Access to Insurance Capital Funds: Key Challenges & Practical Insights",
-      "source": "36Kr",
+      "source": "36 Kr",
       "date": "2026-07-22T09:43:23Z",
       "topic": "Insurance AM",
       "summary": "",
@@ -285,26 +305,6 @@
       "topic": "Insurance AM",
       "summary": "",
       "link": "https://news.google.com/rss/articles/CBMigAFBVV95cUxPQkdyXy05aEVxb00zbjM2RjB4UXJuVFk1SjlRQW8xNl9NX084NU1Hc1A3WmhFWWtfOU1MT3RkemMzWllKa3I0QmhCYlloRGladHVCUVQ1YVY4bmdZRXJPV2ExTDlIQ3lhREpVR2h2MU40RmY1VkJzUENUa1U5dnBkUg?oc=5",
-      "isNew": false
-    },
-    {
-      "id": "2fedf585ecae",
-      "title": "Average 30-year US mortgage rate climbs to 6.55%, highest level in nearly a year",
-      "source": "Chattanooga Times Free Press",
-      "date": "2026-07-16T18:30:00Z",
-      "topic": "Rates & Macro",
-      "summary": "",
-      "link": "https://news.google.com/rss/articles/CBMimwFBVV95cUxPUnRQcjVjLVctZmEyRGpOQzFhNU41QXBUUzRkV3RWa2hEQzVZSDZCWmxXTDlfLVI4ZGpvUlRpRWpTZ3hFYlFEdXNrZDhqWFRwbFpRMlRFaEIwZXdaZ2lfNUpjN24xd1JWTFZQRHJON2l3Rno1UjBzTkJwMEJvdlBOLTJUd2ZYTkZtLURNUHE4c2xWVTgzRWFVUy1nVQ?oc=5",
-      "isNew": false
-    },
-    {
-      "id": "934eefeab9d3",
-      "title": "Marsh Survey Reveals That Insurers' Private Credit Appetite Continues to Grow, but Discipline Remains Paramount",
-      "source": "Finviz",
-      "date": "2026-07-16T15:55:00Z",
-      "topic": "Insurance AM",
-      "summary": "",
-      "link": "https://news.google.com/rss/articles/CBMi1wFBVV95cUxQUEJmWmNhamdja21vWWxFQXg1dVYwb1FKb2NPZ2pFaGpqVDhNYklRMm16M2lGSGxHUUxrLVZnQnJIRURXOXQySFVTQThRa2o5V1ZFSjMtb1ZoWVdscFVHeEE5ZEtWWmpSNjVsTlB0NU9rMV81VVdKcENYazFDTTFDd2tROTFpOUp2elFtdS1GS2RlQWF5OEtJRzJVTEZnX0ttVHhOalc0NC01aEpQa2h3U2xYdVlxNHN1YmpwVF9MaFNTMmhXN1hrN2htMExCNjYyZ3lwUWNfNA?oc=5",
       "isNew": false
     }
   ]
