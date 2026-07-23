@@ -1,5 +1,5 @@
 {
-  "updated": "2026-07-23T11:24:00Z",
+  "updated": "2026-07-23T14:36:15Z",
   "naic": [
     {
       "id": "248d58583747",
@@ -254,6 +254,16 @@
   ],
   "bma": [
     {
+      "id": "0539553f2ffd",
+      "title": "Exclusive: Bermuda stakes its claim in potential use of institutional stablecoins",
+      "date": "2026-07-23",
+      "cat": "General",
+      "summary": "",
+      "source": "Intelligent Insurer",
+      "link": "https://news.google.com/rss/articles/CBMiqAFBVV95cUxPOXB1QTRBMWJFMnlNc21aVTJ6VXVHNEVNUU5ZbjVUdTVCdDc3LXBmNHROUVlNQTJkTVZLTElUTmtYdjV2S2tQTEY1VnJWNUJ2Yk12QllaNTRQa2hPakRBVE9nbWpsMnBCaW5QRm1NdWlRTi1tME5kaU1oR1RsZHJGaVhOTTdxa01MNzJoemc2VG90WWQzNHdicU9TWk4tV01lWmc1NXZGYzU?oc=5",
+      "isNew": true
+    },
+    {
       "id": "0800f02fee4a",
       "title": "Bermuda\u2019s ILS sector well-placed to benefit from stablecoin development: BMA",
       "date": "2026-07-22",
@@ -486,16 +496,6 @@
     {
       "id": "8f54587c933e",
       "title": "Bermuda, the tiny island nation with huge crypto ambitions",
-      "date": "2026-05-26",
-      "cat": "General",
-      "summary": "",
-      "source": "CoinDesk",
-      "link": "https://news.google.com/rss/articles/CBMipgFBVV95cUxNdnpLNXBtQkgwMHRuZ1luLU1rbHlJZWRYSlNWdEpvYW1yTktOLWhTNW1RVXFFOFhwM2dWUXhZUUJ5QzY4NlpMZFJyOTRUQ1YtdWpfVUtmOVczd20zQktXV3pYYW9XRG4zS3RDWVREQXV1NFJSMWtGd1RUSVd6OUhKWkV0S283aFpxVndRMUd6NFFCOE14OXVjYnpEcFFFVFlfU0lHUXNB?oc=5",
-      "isNew": false
-    },
-    {
-      "id": "00f51bacdc49",
-      "title": "Bermuda, the small island nation with huge crypto ambitions",
       "date": "2026-05-26",
       "cat": "General",
       "summary": "",
