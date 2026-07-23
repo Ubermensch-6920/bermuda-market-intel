@@ -1,5 +1,5 @@
 {
-  "updated": "2026-07-23T16:50:19Z",
+  "updated": "2026-07-23T19:49:44Z",
   "topics": [
     "Insurance AM",
     "Private Credit",
@@ -7,6 +7,16 @@
     "Structured Credit"
   ],
   "items": [
+    {
+      "id": "bcaa396c0a74",
+      "title": "Average 30-year US mortgage rate climbs to 6.58%, highest level in nearly a year",
+      "source": "The Washington Post",
+      "date": "2026-07-23T17:03:18Z",
+      "topic": "Rates & Macro",
+      "summary": "",
+      "link": "https://news.google.com/rss/articles/CBMi4AFBVV95cUxOVjlhVHBvaFBqMWVQamdrMkhScFZ4dkZFVWdpU3VRcWFrVUVVSnh0ZDM4aFByamJDMFAzMFRjZmxDWGVzSWdkNDdDNGNELVBNU3pXMFBZTlpZNjZRc1pJSEVfMG5FRjhDZmZwZVNSTEVWdWVXdTRuUXpKQXhlRWVpUEx4UmZwcWFnbEg3RVE1SnNJVEhGQkQzT2F2NDVNVE5uaTZ2OXpKUVRVRDBkOUxscHRENHdUZTA5dkhMX0FyTl9DaDZiY2JPTUdVenBaX0xha2NkTndGbVB3QVluVFZvNw?oc=5",
+      "isNew": false
+    },
     {
       "id": "3d034c05f5a4",
       "title": "Reigniting Inflation Heaps Pressure on European Central Bank",
@@ -38,6 +48,26 @@
       "isNew": false
     },
     {
+      "id": "db2be41ed030",
+      "title": "Gold slips 2% as oil rally brings Fed rate hikes into focus",
+      "source": "CNBC",
+      "date": "2026-07-23T04:24:09Z",
+      "topic": "Rates & Macro",
+      "summary": "",
+      "link": "https://news.google.com/rss/articles/CBMinAFBVV95cUxNclNiNkJ5eXdWMGFHWVNjY0h3LU9hMVdFV1UzOXQ0ZmVURWkwWFYzQkVhN0tkUXpMWmdyTkFfZ1FnZzBXeUR4bmVwWVVsNkdTMDdIbS0xLXdmWjBuODFJZHBOdTBKNHJZbEYyWE9PQ29tX2JteE9fbktPSWNsUE5NTXYydjNxLTA0cURDaWxNcnRubjNOcUR0ZFpwSTHSAaIBQVVfeXFMUFFhSE9fYmN0Vl9ZR0ZlVFRRSzJjb1Vkb2VWam9ObFZYNWs5Zk1ldzVQRFh5eHNsNmVsS1ZwbVFtZUpnS2RrQUUzeFRFQy1nSkRpZEpHMGVYanRXN2ROQmlsb2hvanUxUExVQ25fQ041Q2J3OEI2VVNmOXpHaUVlZERnYzBUZzdRY0ZNajByOEJzMVJ1UDUxNTRQdUQzMXdOc19R?oc=5",
+      "isNew": false
+    },
+    {
+      "id": "e950846fce39",
+      "title": "BOJ to raise rates again by December as weak yen revives inflation risks: Reuters poll",
+      "source": "Reuters",
+      "date": "2026-07-23T04:08:00Z",
+      "topic": "Rates & Macro",
+      "summary": "",
+      "link": "https://news.google.com/rss/articles/CBMivgFBVV95cUxOaXFqWG9lTERfem5sTXV3V3BMMnZMb2ZheHJEU1JGdjMxYndhZzJpUmE5VmtDVm9aM0t1MWpCYnJRcE9hMl91WjhpNDlySGJWbERZYVg0M3hlbm53R1lQYjVWczRZWURJUWhzSWhPZUJqZk04SmRENDRYdnFiZ00tX1hiRjFabHB0MHFPR0VfUk1SdGlDcEU3bG5lWXZVM3VLc3J2anhSNEVvS3NaTmhjOGlzU21LeV9DVGdUblFB?oc=5",
+      "isNew": false
+    },
+    {
       "id": "e308d8e794ad",
       "title": "Venerable And Guardian Agree To Transition $4.5 Billion In Assets To Venerable Platform",
       "source": "Pulse 2.0",
@@ -55,6 +85,16 @@
       "topic": "Insurance AM",
       "summary": "",
       "link": "https://news.google.com/rss/articles/CBMinwFBVV95cUxOcHY3VzNhbW83T3VQVzRfdjRidnFfZEpIdnNYbDhTenZudk9FVWFRWUZudklfUTVrUThQVnJibG1sX1Nta28weDlXS2otZkZNUWE5NEJwTFFuZ0NfVWtVb2F1LWRucW9lU2NfNi1wZW5qbndPR2luejdYWWxTUU9LQ0ozeFY5WEx2QUhGLWp1b1V4b1F2d0Q0cDBpRTRra2c?oc=5",
+      "isNew": false
+    },
+    {
+      "id": "e8b5ee9b3ff8",
+      "title": "China Life Insurance reduces its stake in GigaDevice by approximately RMB 682 million, stating it is a routine investment activity.",
+      "source": "KuCoin",
+      "date": "2026-07-22T11:54:14Z",
+      "topic": "Insurance AM",
+      "summary": "",
+      "link": "https://news.google.com/rss/articles/CBMi9wFBVV95cUxQdjU0cS1FZnJiZ0xuRFNpMUVFdVhmOHh4M1ptSXdaX21LY1ZTc0FUR2hPV3JKSzBuTnQ2UzJ5cFl5Q2d0V1lSRmJ6eHdrM1RTMExMVy1GQko3ZExuY3dmRGhQcWdob3JFUXpvWkZPOXYyVjNSbG9WSjdjdHBJV1JuTWdXRVdhV2l1M3J2cTRkSG9wcHU0QUR2MHpRMFFvWFFUNVhLb2JuY0hrelc2MDNDZWFocUNfYUVXQjlPSm1UYUZkbm5mZVRHMjJWbTlpZmh5WTVtODRSWExqQjJUZVo2THd3emoyeWxldkN1YmRYZXVHbFVHcV9N?oc=5",
       "isNew": false
     },
     {
@@ -265,46 +305,6 @@
       "topic": "Private Credit",
       "summary": "",
       "link": "https://news.google.com/rss/articles/CBMivwFBVV95cUxQcjBKMzBSdzdSMnN1N0lMTm9lN09reDFaLV9xR3NPYVhlTGZnTURWWGNlWHI4aThvU1B4Zl9tTlRZNzVWOXEybEU0ejYzeTRUQnc5VWVLLWd5OGZCSmFUbGp4R1hDWHJtc0xUS0E4TjBqbjJYek83eFF2MVFNUVFpYm11QTJqeW1IMDV5aWlTcnh6ZTlIbEFsUFhtckp6QWthYmYwUXJhOElPMWRRUUctcmd1TEwxaWJYVTZRSUNrcw?oc=5",
-      "isNew": false
-    },
-    {
-      "id": "298b6f7e77a9",
-      "title": "More than half of insurers set to increase private credit exposure",
-      "source": "Alternative Credit Investor",
-      "date": "2026-07-17T08:59:11Z",
-      "topic": "Private Credit",
-      "summary": "",
-      "link": "https://news.google.com/rss/articles/CBMitwFBVV95cUxPSmlqZjhzWXF3Ym05WnU3LWkxN1N1VTMxQlJEcncxeE1FV2lVUUZDU2dia1hJYTQ3RzE0dEt3bWM3Z3BsSjd1Q2x4TW9rVzJUenVkTlRLNm11Sno2bHdDNlBhdkpFLXJGTXFjSlI4X0ZFVy1EX2psWDRodWFQTTgwaU03eFV0dzlrem1yUDc4ckZ1ekdYWlVNMExucENzQi1TZTZGRVM0QnJxVEs3cE9oYXJDVXVsMkU?oc=5",
-      "isNew": false
-    },
-    {
-      "id": "6f2106a72213",
-      "title": "Brookfield Wealth Solutions Wins Shareholder Approval for Brookfield Corp. Tie-Up",
-      "source": "TradingView",
-      "date": "2026-07-17T03:02:00Z",
-      "topic": "Insurance AM",
-      "summary": "",
-      "link": "https://news.google.com/rss/articles/CBMi2AFBVV95cUxQUmFDRnBTRnpqaDN4bkQ2bVlLQ0pMV0EtcmhqOVFCLXVDLTNnb2NhX0RWY1NsdGRZbkt5UWpQbFRNSmZMZ1VTZkdhS3NrX2hFa3RORlFMRHZBMDFQWXZVdktGSGNQMGNxU1l6ZU5vT0FQYVNaeGRVbTRDZzE3VjdWWmdDYTZOaW1XbVZXcEVGT1VNQ2xvTV9oOWY0dEdGbU5LTFhqVzk5azNVTW1taC13OEVKY2I5VE13Ulgxa250Yms0MDV4cHQ2MzdNM21fWG9DTUpfYlBwRXY?oc=5",
-      "isNew": false
-    },
-    {
-      "id": "3e0559865951",
-      "title": "Average 30-year US mortgage rate climbs to 6.55%, highest level in nearly a year",
-      "source": "The Washington Post",
-      "date": "2026-07-17T00:50:21Z",
-      "topic": "Rates & Macro",
-      "summary": "",
-      "link": "https://news.google.com/rss/articles/CBMi4AFBVV95cUxQYk1rMGFQeV9mdWY2dFpZTTFVQXZMeWt1UzcxeWN2aTN5bFBUMXdYb011V181cUItbzVhcDVKbXJHd185dVppM0ZuVkdXOEc1RnJHaWhMbDRTVmdEdmR5YVBaWHZGRjlFcmsyWVV4RzY2Y0RQUGttQndjc2FnQW9KYlo4cGpyQnNvVUthdTFFMjZ2VWczYjZZZm9aOUxLMGNYUE1JOUdacVl2VnBkQXFEczBCMkxLSkpaaEtIc0dFRVpESGJQdjFnYlplTG1iNGpEOFpFaG1vZGVTYzVfZzJVbg?oc=5",
-      "isNew": false
-    },
-    {
-      "id": "47b0ce7cba59",
-      "title": "When will mortgage rates go down again? A two-month stall continues.",
-      "source": "Yahoo Finance",
-      "date": "2026-07-16T21:03:31Z",
-      "topic": "Rates & Macro",
-      "summary": "",
-      "link": "https://news.google.com/rss/articles/CBMi2gFBVV95cUxOc1RfMHVnQkFBVkFvNWVCcjFSaHIxdTRnSmNRcVZ5cnIyVE1UbHNIWDY1Slg3MERCVGVsU3IzMG1DdlM1eHdEUTQxSU15TkE0SmNfaWRGY3Nicmtienp4NUFQZG52T0FTbWZnc0NVSWVETGJGelgwTmVCS0xJQUVxX0lOWlV5aFItQ1k2Vm5fY2FRVmxObVhhRnI4X1BGRTlGNjZyaEFEUHBBd0VhVElvWjROaUhGYV9aMkZIV29WZzF3c2NlSHYteTdEUzAtZ0xHSk9QMFRENFJCQQ?oc=5",
       "isNew": false
     }
   ]
