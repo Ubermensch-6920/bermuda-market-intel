@@ -1,5 +1,5 @@
 {
-  "updated": "2026-07-23T14:36:15Z",
+  "updated": "2026-07-23T16:50:19Z",
   "topics": [
     "Insurance AM",
     "Private Credit",
@@ -7,6 +7,16 @@
     "Structured Credit"
   ],
   "items": [
+    {
+      "id": "3d034c05f5a4",
+      "title": "Reigniting Inflation Heaps Pressure on European Central Bank",
+      "source": "WSJ",
+      "date": "2026-07-23T15:45:00Z",
+      "topic": "Rates & Macro",
+      "summary": "",
+      "link": "https://news.google.com/rss/articles/CBMiswFBVV95cUxQektURDJGN0pNbzluZjRlTnR1Vy1GZFJiWUhlUzRtUUxsNFB3Qjk2YmZ1c290V0M3QlZCNERHUHdnaXBobFhyb20zeVBTblBEcHRyOWlLXzZCczRGYU5UYjY3VTF3ejlvWk1TSGpOUTQ1RW44Rm01Xy1nR2YxbnNoZzFyZWQyS1hfZWJVQUVkNjh6THJtZTdReXJfUUk1WDgtQjlUNWxzbnZvREo1S3RTYzRHUQ?oc=5",
+      "isNew": false
+    },
     {
       "id": "294f5c3806a5",
       "title": "Global Bond Yields Jump as Oil Prices Surge, Inflation Fears Mount",
@@ -295,16 +305,6 @@
       "topic": "Rates & Macro",
       "summary": "",
       "link": "https://news.google.com/rss/articles/CBMi2gFBVV95cUxOc1RfMHVnQkFBVkFvNWVCcjFSaHIxdTRnSmNRcVZ5cnIyVE1UbHNIWDY1Slg3MERCVGVsU3IzMG1DdlM1eHdEUTQxSU15TkE0SmNfaWRGY3Nicmtienp4NUFQZG52T0FTbWZnc0NVSWVETGJGelgwTmVCS0xJQUVxX0lOWlV5aFItQ1k2Vm5fY2FRVmxObVhhRnI4X1BGRTlGNjZyaEFEUHBBd0VhVElvWjROaUhGYV9aMkZIV29WZzF3c2NlSHYteTdEUzAtZ0xHSk9QMFRENFJCQQ?oc=5",
-      "isNew": false
-    },
-    {
-      "id": "bb18628b78fa",
-      "title": "When even the safest insurance companies aren\u2019t safe - MassMutual",
-      "source": "roddubitsky.substack.com",
-      "date": "2026-07-16T19:18:22Z",
-      "topic": "Insurance AM",
-      "summary": "",
-      "link": "https://news.google.com/rss/articles/CBMigAFBVV95cUxPQkdyXy05aEVxb00zbjM2RjB4UXJuVFk1SjlRQW8xNl9NX084NU1Hc1A3WmhFWWtfOU1MT3RkemMzWllKa3I0QmhCYlloRGladHVCUVQ1YVY4bmdZRXJPV2ExTDlIQ3lhREpVR2h2MU40RmY1VkJzUENUa1U5dnBkUg?oc=5",
       "isNew": false
     }
   ]
