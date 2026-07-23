@@ -2280,15 +2280,21 @@ def fetch_commodities():
             tasks.append((lbl, months, cur_sym, cur_exp, "now", now_dt))
             tasks.append((lbl, months, None, None, "1m", now_dt - timedelta(days=30)))
             tasks.append((lbl, months, None, None, "3m", now_dt - timedelta(days=91)))
+            tasks.append((lbl, months, None, None, "1y", now_dt - timedelta(days=365)))
+            tasks.append((lbl, months, None, None, "2y", now_dt - timedelta(days=730)))
 
         raw = {}
+        # Further back in history the roll-aware contract is less certain to have
+        # traded within a tight window of the target date, so widen the match
+        # tolerance for the 1y/2y lookups (1m/3m keep the tighter default).
+        MAX_DIFF_BY_KIND = {"1y": 7, "2y": 10}
 
         def run(task):
             lbl, months, sym, exp, kind, target_dt = task
             if kind == "now":
                 return lbl, kind, yahoo_price(sym), "", sym, exp
             hist_sym, hist_exp = sym_fn(months, base_dt=target_dt)
-            v, d = yahoo_price_near_date(hist_sym, target_dt)
+            v, d = yahoo_price_near_date(hist_sym, target_dt, max_diff_days=MAX_DIFF_BY_KIND.get(kind, 5))
             return lbl, kind, v, d, hist_sym, hist_exp
 
         with ThreadPoolExecutor(max_workers=12) as ex:
@@ -2307,6 +2313,8 @@ def fetch_commodities():
             cur = r.get("now", {})
             p1m = r.get("1m", {})
             p3m = r.get("3m", {})
+            p1y = r.get("1y", {})
+            p2y = r.get("2y", {})
             result[lbl] = {
                 "price": cur.get("price"),
                 "expiry": cur.get("expiry"),
@@ -2317,6 +2325,12 @@ def fetch_commodities():
                 "prior_3m": p3m.get("price"),
                 "prior_3m_date": p3m.get("date"),
                 "prior_3m_contract": (p3m.get("symbol") or "").split(".")[0],
+                "prior_1y": p1y.get("price"),
+                "prior_1y_date": p1y.get("date"),
+                "prior_1y_contract": (p1y.get("symbol") or "").split(".")[0],
+                "prior_2y": p2y.get("price"),
+                "prior_2y_date": p2y.get("date"),
+                "prior_2y_contract": (p2y.get("symbol") or "").split(".")[0],
             }
         return {lbl: result[lbl] for lbl in TENOR_ORDER if lbl in result}
 
@@ -2325,6 +2339,7 @@ def fetch_commodities():
     gold_1m, gold_1m_d = get_prior_spot("GOLDAMGBD228NLBM", "GC=F",  30)
     gold_3m, gold_3m_d = get_prior_spot("GOLDAMGBD228NLBM", "GC=F",  91)
     gold_1y, gold_1y_d = get_prior_spot("GOLDAMGBD228NLBM", "GC=F", 365)
+    gold_2y, gold_2y_d = get_prior_spot("GOLDAMGBD228NLBM", "GC=F", 730, max_diff_days=21)
     gold_futures = fetch_all_futures(_gold_symbol, "Gold")
 
     wti_spot, wti_spot_date, wti_spot_source = get_spot("DCOILWTICO", "/commodities/crude-oil", "CL=F", "https://tradingeconomics.com/commodity/crude-oil")
@@ -2332,6 +2347,7 @@ def fetch_commodities():
     wti_1m, wti_1m_d   = get_prior_spot("DCOILWTICO",   "CL=F",  30)
     wti_3m, wti_3m_d   = get_prior_spot("DCOILWTICO",   "CL=F",  91)
     wti_1y, wti_1y_d   = get_prior_spot("DCOILWTICO",   "CL=F", 365)
+    wti_2y, wti_2y_d   = get_prior_spot("DCOILWTICO",   "CL=F", 730, max_diff_days=21)
     wti_futures = fetch_all_futures(_wti_symbol, "WTI")
 
     brent_spot, brent_spot_date, brent_spot_source = get_spot("DCOILBRENTEU", "/commodities/brent-oil", "BZ=F", "https://tradingeconomics.com/commodity/brent-crude-oil")
@@ -2339,6 +2355,7 @@ def fetch_commodities():
     brent_1m, brent_1m_d = get_prior_spot("DCOILBRENTEU", "BZ=F",  30)
     brent_3m, brent_3m_d = get_prior_spot("DCOILBRENTEU", "BZ=F",  91)
     brent_1y, brent_1y_d = get_prior_spot("DCOILBRENTEU", "BZ=F", 365)
+    brent_2y, brent_2y_d = get_prior_spot("DCOILBRENTEU", "BZ=F", 730, max_diff_days=21)
     brent_futures = fetch_all_futures(_brent_symbol, "Brent")
 
     if last:
@@ -2367,12 +2384,14 @@ def fetch_commodities():
         usdinr_1m, usdinr_1m_d = _usdinr_prior(30)
         usdinr_3m, usdinr_3m_d = _usdinr_prior(91)
         usdinr_1y, usdinr_1y_d = _usdinr_prior(365)
+        usdinr_2y, usdinr_2y_d = _usdinr_prior(730, max_diff=21)
     else:
         usdinr_spot = last.get("usdinr", {}).get("spot") if last else None
         usdinr_spot_date = last.get("usdinr", {}).get("spot_date", "") if last else ""
         usdinr_spot_source = "cache"
         usdinr_1d = usdinr_1d_d = usdinr_1m = usdinr_1m_d = None
         usdinr_3m = usdinr_3m_d = usdinr_1y = usdinr_1y_d = None
+        usdinr_2y = usdinr_2y_d = None
 
     # If FRED spot is stale (>2 days old) or missing, refresh from live sources.
     # DEXINUS publishes with up to a week's lag, so this triggers on most runs.
@@ -2508,6 +2527,7 @@ def fetch_commodities():
             "prior_1m": gold_1m, "prior_1m_date": gold_1m_d,
             "prior_3m": gold_3m, "prior_3m_date": gold_3m_d,
             "prior_1y": gold_1y, "prior_1y_date": gold_1y_d,
+            "prior_2y": gold_2y, "prior_2y_date": gold_2y_d,
             "futures": gold_futures
         },
         "wti": {
@@ -2519,6 +2539,7 @@ def fetch_commodities():
             "prior_1m": wti_1m,   "prior_1m_date": wti_1m_d,
             "prior_3m": wti_3m,   "prior_3m_date": wti_3m_d,
             "prior_1y": wti_1y,   "prior_1y_date": wti_1y_d,
+            "prior_2y": wti_2y,   "prior_2y_date": wti_2y_d,
             "futures": wti_futures
         },
         "brent": {
@@ -2530,6 +2551,7 @@ def fetch_commodities():
             "prior_1m": brent_1m, "prior_1m_date": brent_1m_d,
             "prior_3m": brent_3m, "prior_3m_date": brent_3m_d,
             "prior_1y": brent_1y, "prior_1y_date": brent_1y_d,
+            "prior_2y": brent_2y, "prior_2y_date": brent_2y_d,
             "futures": brent_futures
         },
         "usdinr": {
@@ -2541,6 +2563,7 @@ def fetch_commodities():
             "prior_1m": usdinr_1m, "prior_1m_date": usdinr_1m_d,
             "prior_3m": usdinr_3m, "prior_3m_date": usdinr_3m_d,
             "prior_1y": usdinr_1y, "prior_1y_date": usdinr_1y_d,
+            "prior_2y": usdinr_2y, "prior_2y_date": usdinr_2y_d,
             "futures": usdinr_futures,
         },
         "note": "Spot history comes from daily FRED series. Futures history is roll-aware by target date. USD/INR latest spot: FRED DEXINUS, then Yahoo INR=X / keyless FX APIs when FRED lags; forwards fall back to CIP derivation from India/UST curves when market quotes are unavailable."
