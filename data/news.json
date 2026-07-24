@@ -1,5 +1,5 @@
 {
-  "updated": "2026-07-24T11:16:22Z",
+  "updated": "2026-07-24T14:16:41Z",
   "topics": [
     "Insurance AM",
     "Private Credit",
@@ -7,6 +7,26 @@
     "Structured Credit"
   ],
   "items": [
+    {
+      "id": "cfabd33866f7",
+      "title": "Sun Life\u2019s Asia asset management chief exits",
+      "source": "Private Debt Investor",
+      "date": "2026-07-24T10:02:13Z",
+      "topic": "Insurance AM",
+      "summary": "",
+      "link": "https://news.google.com/rss/articles/CBMihwFBVV95cUxNTk1NbTVZN3Bfb3dxUloxYTBiRExTUVI1YjYtVENZRGFTV0lfMnIzQVo3SlZHWVNCVFNtNVNSX2JZTm43T3ZTWENGMFFDU2FjcDRvcS1ydjF4OVpSRV96MTd5WWlWa1E1WXd4SE1QMzZtMXVCRTNrbERSMXBNMTBSS3dtTlJURFk?oc=5",
+      "isNew": false
+    },
+    {
+      "id": "9918c16148c0",
+      "title": "Are there still bottlenecks in insurance funds increasing their equity positions? Accelerated equity allocation is pressuring solvency ratios, prompting industry calls for further optimization of risk factors.",
+      "source": "\u5bcc\u9014\u725b\u725b",
+      "date": "2026-07-24T08:38:34Z",
+      "topic": "Insurance AM",
+      "summary": "",
+      "link": "https://news.google.com/rss/articles/CBMisAFBVV95cUxOVlc1dFVFNHU1VGhCZXJJbHNncTd0NFRrekpZUTByYzdpNWpvVVJaYmRHUFhmWG9MQllUWEFrVTNNMzQ2d19qNncxUGxic3hrQUNPanpybkdZTzFPWFg2TU1KcUVoSTBzV1hrRUkyRWNCZlRsTjhaaWV6TFpMTjN0a1hrVk5aOG9ucDQ2bXZjZmt3c2FfbXpuNWxmQWNDS3FzUVFrOXpsWFozeVhJRi1FeA?oc=5",
+      "isNew": false
+    },
     {
       "id": "bcaa396c0a74",
       "title": "Average 30-year US mortgage rate climbs to 6.58%, highest level in nearly a year",
@@ -21,7 +41,7 @@
       "id": "379f3ed8d5fb",
       "title": "Investors want a bigger reward for lending money",
       "source": "Axios",
-      "date": "2026-07-23T15:59:39Z",
+      "date": "2026-07-23T16:01:35Z",
       "topic": "Rates & Macro",
       "summary": "",
       "link": "https://news.google.com/rss/articles/CBMickFVX3lxTE85ZG84U2hsM0ozMFFVRGVtWldJM0dQeFUtQ3N1RFZuampzdDR4RkdZM2FmWUNWVXBGQndBcmgwV3F0ZjJHc29MSlFxZjRHb09FR1V4c2hmZDRpRmhFTzViTEdBemEwOFN5ZzEyMFQ3dXpudw?oc=5",
@@ -285,26 +305,6 @@
       "topic": "Private Credit",
       "summary": "",
       "link": "https://news.google.com/rss/articles/CBMitwFBVV95cUxOdE5YZlZHN1RjVFYxWHBoc1V3cGhtUjduczAzWVM5NDdlTGVlaFQ2cE8ydVlZY2RId3B2dnpnYlJBU3dyb2M3SHY0VDduUFpLTGZucTU4X0NHbTlnemNtUjRoWC15WGpTTkZvVmEzTjRuVDVYMDBObmJHbW50c25EVlVudUlqcHFKSlhTdDNUWUUyN2RYSDlZdFpzbWdLcDBrSGc1NEdjNldYR2lZOEp0bHZyX0RtQlk?oc=5",
-      "isNew": false
-    },
-    {
-      "id": "de50479c4e03",
-      "title": "Private credit vs. public bonds: What are insurers seeing that\u2019s prompting a portfolio pivot?",
-      "source": "InvestmentNews",
-      "date": "2026-07-19T19:27:37Z",
-      "topic": "Private Credit",
-      "summary": "",
-      "link": "https://news.google.com/rss/articles/CBMi1wFBVV95cUxQM1FiaUVvdmlSNWUySnVmd2M3T0RSSWFqREpXa0Rra2hud21LS2RMSEJMak1FVFNYdDBPUWgxMzlkTXVwUk43dlJsV0l3QXR3NExqbExadS1nbmJBWURJUVdSZDMwVGNlRDUwUDA3bGhZa1BqRndmbVFqNWl0ZHpBTTBodFhqaXNVNllGeENNZDlVdXpBRFVVYjR1dGNGcmR4VWRWTXpmXy1iUGRyR2ZXYmt5N3BHcjNhTkhiWkpmZU5raUw4TUVFY3pEb2NYQVBVd3hlN3JpNA?oc=5",
-      "isNew": false
-    },
-    {
-      "id": "40fb5df2acaa",
-      "title": "Week Ahead for FX, Bonds: U.S., European PMI Data, ECB Decision in Focus",
-      "source": "WSJ",
-      "date": "2026-07-17T15:53:00Z",
-      "topic": "Rates & Macro",
-      "summary": "",
-      "link": "https://news.google.com/rss/articles/CBMivAFBVV95cUxPalhpRkNXbVA3MFRUYTZ3NE5lOVA0UGZNNWlBaTJjMU9KOWthVXNfVU9ZSlpmMndCTlFJMnBOMW56Z1FXa05TVGNIVXhkQm9wUGhiNmxaOVJtXzE4eDNVZzdPU0lvVWw3M2R2SXJxUnFJMmJHbjBzZkVud1UwbFlOUlI2MmVOWktUT3BQRk01NmU1V0lLYnlaYXczdmxPNW1QbzRqbEJUVEZhRF9tcmYyWXE0N2pibzNwTElZMw?oc=5",
       "isNew": false
     }
   ]

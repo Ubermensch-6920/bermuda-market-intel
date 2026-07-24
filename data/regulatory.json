@@ -1,5 +1,5 @@
 {
-  "updated": "2026-07-24T11:16:22Z",
+  "updated": "2026-07-24T14:16:41Z",
   "naic": [
     {
       "id": "248d58583747",
@@ -324,6 +324,16 @@
       "isNew": true
     },
     {
+      "id": "8a4a3aa0975e",
+      "title": "BMA consults on stablecoin guidance for Bermuda captive insurers",
+      "date": "2026-07-21",
+      "cat": "General",
+      "summary": "",
+      "source": "Captive Insurance Times",
+      "link": "https://news.google.com/rss/articles/CBMi5wFBVV95cUxPdC1DdnlFaGk2c1ZrMURsbHU2NW5XZzl3Q0NWV0d5cEh6SmhCMmxqVmdJYVZYV2NBVEZLUHpWc2t2OEdxeF9zU1AyRlpKYXVMWmNPVjZESVY2a3VqaXJQQ0JDbWgydlIzMm0zVGNfb2dLdklnOFg0NnhVZ1ZNclJsLXNhNEVjcGZpWnRKZ2tIb01ORGp3RE9vejU5THRId1VTREJaZEJRblVIcHBiVG15c1VvT0l5NFlIeG5EWENTendhWFAxSWF2d2pOMjJmNmFSVXFEYmFBb0lGZEI1RWpOTHMtNjM0aDQ?oc=5",
+      "isNew": true
+    },
+    {
       "id": "3881d750a67a",
       "title": "How the BMA could leverage AI",
       "date": "2026-07-14",
@@ -491,16 +501,6 @@
       "summary": "",
       "source": "Cayman Finance",
       "link": "https://news.google.com/rss/articles/CBMiwAFBVV95cUxNUDVEaDZOamVPSVhzODViU083Vk5zNkRpd0tTWFAxNHJJZHpJSXRvbU5fRm04ZTJfRHYyMXlQWHpOLUhHS0llcTZFWl92Y3FmWW1XTjM0c3pXTDBPc1RjM0VCNV9IMUk3ZkNuYm9UamcyV3BzaEVMdm82VmFLcUw0Q3ZUVVJpUE5ubjJLdWJNbHl5Wkg4aGEzSjZRSWs0VV9wM2NYU0cwU3Vnc0huUkhYSmxTNGhTMjFhTWFSNFlzenk?oc=5",
-      "isNew": false
-    },
-    {
-      "id": "f88abacd2856",
-      "title": "Plume receives digital asset business licence from Bermuda Monetary Authority",
-      "date": "2026-05-27",
-      "cat": "Investment",
-      "summary": "",
-      "source": "Crypto Briefing",
-      "link": "https://news.google.com/rss/articles/CBMic0FVX3lxTE1pM2NTX1NXY0xkTE8xdkRnOXV1T1Fyb25xRTVSelZnSjU3U25ua1ZWZjhuODVfdngxRHFtTENIMUtTaHVuUTVLbXpvN3VIT1RtNi1hemxFb2xqWWJQMWoybU1BeFoyUGxUcFY1NmlfcGN5NXM?oc=5",
       "isNew": false
     }
   ],
