@@ -1,5 +1,5 @@
 {
-  "updated": "2026-07-24T19:51:20Z",
+  "updated": "2026-07-24T22:22:31Z",
   "topics": [
     "Insurance AM",
     "Private Credit",
@@ -38,11 +38,31 @@
       "isNew": false
     },
     {
+      "id": "f6d0fca15b39",
+      "title": "Private credit roundup: Insurers step up as liquidity pressures build",
+      "source": "Reuters",
+      "date": "2026-07-24T17:55:28Z",
+      "topic": "Private Credit",
+      "summary": "",
+      "link": "https://news.google.com/rss/articles/CBMivgFBVV95cUxONEFTNDZnVlFpUjVFSC1LU0ZmWU1MaEFaN21kb2RQWThjc096NFFqa1d3YnVodkwycWVkQkt1VWZ3Smk5dlk2TXhoNUl5MHZHX0hMS1FNUUplc1B1TEJQbW0tTmpMMVRMNl9aUjI4NVhWVjFKTlZYdjNQX3ZZYXpLc0ZxTXh5MDNfUmhZWDFMOUFlQ3pYOUc4OUUwS2ladC1rRk9IZnNvRzFyOTB0ZUtvU2lhX0ZWNndZRUNMaUxn?oc=5",
+      "isNew": false
+    },
+    {
       "id": "51d5245718d5",
       "title": "SCI in Focus: CLOs' role in Standard Life's structured credit build-out",
       "source": "Structured Credit Investor",
       "date": "2026-07-24T16:32:44Z",
       "topic": "Structured Credit",
+      "summary": "",
+      "link": "https://news.google.com/rss/articles/CBMixwFBVV95cUxPdFpGaENSalRKc0ZpZVQ1VGxYdDQzUUxQZW0yZGVnWW1WUTJrbnFib2FxU0dXWHRWdHdMNGt4OFlyOHo1elhNWi1WVlpDVERlZnZtd0h6MkZ2em1PWUp2dnpmTGROODJqNkwzR2RXeVJyOWtkMjliZHU2MkJuMXNnQ185blYyZ05leXExZzFjMjEtRW1kZXhwYWpWMmxZclN0bTUtNUdRRFdlZmh3ZEdFeG5YYm1wUkx2RmZsRFpVOTUwLTlDRzJj?oc=5",
+      "isNew": false
+    },
+    {
+      "id": "55f75cab1f4d",
+      "title": "SCI in Focus: CLOs' role in Standard Life's structured credit build-out",
+      "source": "Structured Credit Investor",
+      "date": "2026-07-24T16:32:44Z",
+      "topic": "Private Credit",
       "summary": "",
       "link": "https://news.google.com/rss/articles/CBMixwFBVV95cUxPdFpGaENSalRKc0ZpZVQ1VGxYdDQzUUxQZW0yZGVnWW1WUTJrbnFib2FxU0dXWHRWdHdMNGt4OFlyOHo1elhNWi1WVlpDVERlZnZtd0h6MkZ2em1PWUp2dnpmTGROODJqNkwzR2RXeVJyOWtkMjliZHU2MkJuMXNnQ185blYyZ05leXExZzFjMjEtRW1kZXhwYWpWMmxZclN0bTUtNUdRRFdlZmh3ZEdFeG5YYm1wUkx2RmZsRFpVOTUwLTlDRzJj?oc=5",
       "isNew": false
@@ -55,6 +75,26 @@
       "topic": "Structured Credit",
       "summary": "",
       "link": "https://news.google.com/rss/articles/CBMixgFBVV95cUxNVEI4T2JFaEF1QTZpR2U5cVZZSFN6VXR4NkhDWVNsS0pKaVRzSVVBbE42M2hPSVlWa1BtenRzTjNEVXpoNEI2ZnZicjVPVE1ITGdCc2lrcHlzT2NncEN1NVpONVhISkkyY3FHSi1xTGlBNmFFNFF1NjlOeHZreW1PMDFKLXJVUldidzlmbk9YUnU0WXRfX3NhSGcxUWlaZ2VoVXJZR2t0QkEtaXNEa0hBWGwtMXdkOThZZk5XNm5LcWVLbHlMVVE?oc=5",
+      "isNew": false
+    },
+    {
+      "id": "0b2f1ad801cd",
+      "title": "EU and US insurers diverge on sustainable investing",
+      "source": "Insurance Day",
+      "date": "2026-07-24T12:54:38Z",
+      "topic": "Insurance AM",
+      "summary": "",
+      "link": "https://news.google.com/rss/articles/CBMilAFBVV95cUxPcjAyQ1lyNlpqLTNUamJSV0ZYMzA3LUhhYVhxN2NmbXZ0QmtTOWVPZk5meC1NRjItMWMtMThxOHlMUTQ1WGFIMHNrc3lvWUNvMDc1OFNQMUd2eTF3R24zeENyZDNzOFpnRmM0ZTY1NGdBWWtKczRjYm13YjJvcjhYczZFZ3NMT1RFUzlJbHdxYUZFcGJO?oc=5",
+      "isNew": false
+    },
+    {
+      "id": "ba0c00389f04",
+      "title": "Investors want a bigger reward for lending money",
+      "source": "Axios",
+      "date": "2026-07-24T12:02:20Z",
+      "topic": "Rates & Macro",
+      "summary": "",
+      "link": "https://news.google.com/rss/articles/CBMickFVX3lxTE85ZG84U2hsM0ozMFFVRGVtWldJM0dQeFUtQ3N1RFZuampzdDR4RkdZM2FmWUNWVXBGQndBcmgwV3F0ZjJHc29MSlFxZjRHb09FR1V4c2hmZDRpRmhFTzViTEdBemEwOFN5ZzEyMFQ3dXpudw?oc=5",
       "isNew": false
     },
     {
@@ -75,16 +115,6 @@
       "topic": "Insurance AM",
       "summary": "",
       "link": "https://news.google.com/rss/articles/CBMihwFBVV95cUxNTk1NbTVZN3Bfb3dxUloxYTBiRExTUVI1YjYtVENZRGFTV0lfMnIzQVo3SlZHWVNCVFNtNVNSX2JZTm43T3ZTWENGMFFDU2FjcDRvcS1ydjF4OVpSRV96MTd5WWlWa1E1WXd4SE1QMzZtMXVCRTNrbERSMXBNMTBSS3dtTlJURFk?oc=5",
-      "isNew": false
-    },
-    {
-      "id": "ba0c00389f04",
-      "title": "Investors want a bigger reward for lending money",
-      "source": "Axios",
-      "date": "2026-07-24T09:55:46Z",
-      "topic": "Rates & Macro",
-      "summary": "",
-      "link": "https://news.google.com/rss/articles/CBMickFVX3lxTE85ZG84U2hsM0ozMFFVRGVtWldJM0dQeFUtQ3N1RFZuampzdDR4RkdZM2FmWUNWVXBGQndBcmgwV3F0ZjJHc29MSlFxZjRHb09FR1V4c2hmZDRpRmhFTzViTEdBemEwOFN5ZzEyMFQ3dXpudw?oc=5",
       "isNew": false
     },
     {
@@ -275,36 +305,6 @@
       "topic": "Insurance AM",
       "summary": "",
       "link": "https://news.google.com/rss/articles/CBMiqgFBVV95cUxQLWN2cFVmSWtmTHdlRjVNeXFSa1hmOWpOaFg5Mlh4d0k4MjVYbE1nVHhqOUhVZlFseVdqeGk5cXg0ZklsZVpCZTQ1RVJVQjhEbFNGY0xTVm16dzBBUWctNFZpMzQ2eG9FU19RZU54WlRnX1ZiM1lIeUQxcGZGTXBEaE5CTU0tdmdFZ3BZeFZzZ2dhMmdESF9iRDFBMFpHanJSYnlNSjRvQ043UdIBrwFBVV95cUxOUmdVYUlrQi1Nb0thYTBranlGM3ItY2xBTzNON3VpdHp4bXlwVlZ1ekZ0Z2t2elVqWW90MW02ZFFiWGVHZDI3c2d5VEd6RWtQY2JxSjU3bHdpVGhrRVhZQ0NUOVYwU2pLSUJiUklWUDFGdzdkXzJHWUhsWHN5ZHNBRC1UMHJCaE8tdV9Qcl93dFVJcmxaNUFVemZKV3BCOEdHd19Mc2FYa0toMVA2Z0xz?oc=5",
-      "isNew": false
-    },
-    {
-      "id": "f7f4ad11e026",
-      "title": "KKR Appoints Former Manulife CEO Roy Gori as Senior Advisor",
-      "source": "citybiz",
-      "date": "2026-07-22T12:33:15Z",
-      "topic": "Insurance AM",
-      "summary": "",
-      "link": "https://news.google.com/rss/articles/CBMinwFBVV95cUxOcHY3VzNhbW83T3VQVzRfdjRidnFfZEpIdnNYbDhTenZudk9FVWFRWUZudklfUTVrUThQVnJibG1sX1Nta28weDlXS2otZkZNUWE5NEJwTFFuZ0NfVWtVb2F1LWRucW9lU2NfNi1wZW5qbndPR2luejdYWWxTUU9LQ0ozeFY5WEx2QUhGLWp1b1V4b1F2d0Q0cDBpRTRra2c?oc=5",
-      "isNew": false
-    },
-    {
-      "id": "e8b5ee9b3ff8",
-      "title": "China Life Insurance reduces its stake in GigaDevice by approximately RMB 682 million, stating it is a routine investment activity.",
-      "source": "KuCoin",
-      "date": "2026-07-22T11:54:14Z",
-      "topic": "Insurance AM",
-      "summary": "",
-      "link": "https://news.google.com/rss/articles/CBMi9wFBVV95cUxQdjU0cS1FZnJiZ0xuRFNpMUVFdVhmOHh4M1ptSXdaX21LY1ZTc0FUR2hPV3JKSzBuTnQ2UzJ5cFl5Q2d0V1lSRmJ6eHdrM1RTMExMVy1GQko3ZExuY3dmRGhQcWdob3JFUXpvWkZPOXYyVjNSbG9WSjdjdHBJV1JuTWdXRVdhV2l1M3J2cTRkSG9wcHU0QUR2MHpRMFFvWFFUNVhLb2JuY0hrelc2MDNDZWFocUNfYUVXQjlPSm1UYUZkbm5mZVRHMjJWbTlpZmh5WTVtODRSWExqQjJUZVo2THd3emoyeWxldkN1YmRYZXVHbFVHcV9N?oc=5",
-      "isNew": false
-    },
-    {
-      "id": "7d4aea7ea698",
-      "title": "How to Get Access to Insurance Capital Funds: Key Challenges & Practical Insights",
-      "source": "36 Kr",
-      "date": "2026-07-22T09:43:23Z",
-      "topic": "Insurance AM",
-      "summary": "",
-      "link": "https://news.google.com/rss/articles/CBMiU0FVX3lxTE1iaDhQOTg3TENVNUtncXo1U0tjdGRVTm5WeklVazVzci1QLURvd0lzZTRBbmZFeTZlSFBueGZ0SG5WYkdzTUppYUlUSWVKMG0ySzk4?oc=5",
       "isNew": false
     }
   ]
