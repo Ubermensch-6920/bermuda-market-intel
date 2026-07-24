@@ -1,11 +1,42 @@
 {
-  "updated": "2026-07-24T17:02:28Z",
+  "updated": "2026-07-24T19:51:20Z",
   "topics": [
     "Insurance AM",
+    "Private Credit",
     "Rates & Macro",
     "Structured Credit"
   ],
   "items": [
+    {
+      "id": "2d9555d14bd4",
+      "title": "Insurers boost private credit allocations despite liquidity and regulatory concerns",
+      "source": "\u041c\u0435\u0436\u0430. \u041d\u043e\u0432\u0438\u043d\u0438 \u0423\u043a\u0440\u0430\u0457\u043d\u0438.",
+      "date": "2026-07-24T19:26:58Z",
+      "topic": "Private Credit",
+      "summary": "",
+      "link": "https://news.google.com/rss/articles/CBMibEFVX3lxTE1pTmVlaUJQT2tKWUFVbU10YmRSVnBzTkJ5a3BJVFY0Y2pDZXd2ajFFMVpnOEFPbWN1Vll5d2Q0VlFlY25zTE1HektHcjZMdDl1SFNTa050M1VKaGRrVGZEb2VCTndzdFplbU5ISg?oc=5",
+      "isNew": false
+    },
+    {
+      "id": "659fdf3e5f78",
+      "title": "Why bond investors are pushing up some of your interest rates",
+      "source": "CNBC",
+      "date": "2026-07-24T18:29:56Z",
+      "topic": "Rates & Macro",
+      "summary": "",
+      "link": "https://news.google.com/rss/articles/CBMie0FVX3lxTFBMekM1bEg2SXUxVERwR1ExWjdScnFWNVJBREpiRmRsRWFZSFhjSjhuNGNxTy1nTmJHYkZKX1BoY3YtN3FtaG5hcWNLbDFPQi1pd1luM2lUQ1JKSVRKVnRuYmVXUkpwck85ZVRIZHhSSU1uY3Jvb3hNZFBhb9IBgAFBVV95cUxPdEh6THVNRjdOUG5SVmVBU1VIT29pUGdsSlZNeGJZU0ktWTRzUXRkRjd5bk44bUxmNFIwQzY2U1lHdnhfUE1xUklPSjItTnZGazQteE12ZUpQTHJjRy0zQTltbWNaNmpHVmExWXNINWtMQXVSa2dibHNtTUFOZ0xzag?oc=5",
+      "isNew": false
+    },
+    {
+      "id": "f688b5aaa067",
+      "title": "Private credit roundup: Insurers step up as liquidity pressures build By Reuters",
+      "source": "Investing.com",
+      "date": "2026-07-24T18:05:07Z",
+      "topic": "Private Credit",
+      "summary": "",
+      "link": "https://news.google.com/rss/articles/CBMiwwFBVV95cUxPVTdqbWRnZkxfWkNKdDMyYWpOR3FtQU1UTnAxOUlTVWtIaDJZVTJuemRZMG5mdjU3dHd3aDFqVnBnYmVmM2hjWU9TaWU0MFlqYU5fZEhmNExmeGV0QnhyLTNDczBONW9RNkZfaTJOU3g3YjdxQnpkaERCSWg0azlDRWt3cDFhTWxZMjh3bGd6SGkyRTZzb2gxT2l2dTV5V0FISHBhVHhmQnJLYUR0ZWJsMkhSZXQtblY3MGZqMjRLSW9JY28?oc=5",
+      "isNew": false
+    },
     {
       "id": "51d5245718d5",
       "title": "SCI in Focus: CLOs' role in Standard Life's structured credit build-out",
@@ -27,6 +58,16 @@
       "isNew": false
     },
     {
+      "id": "f8368f0629b5",
+      "title": "Sun Life\u2019s Asia asset management chief exits",
+      "source": "Private Debt Investor",
+      "date": "2026-07-24T10:54:39Z",
+      "topic": "Insurance AM",
+      "summary": "",
+      "link": "https://news.google.com/rss/articles/CBMihwFBVV95cUxNTk1NbTVZN3Bfb3dxUloxYTBiRExTUVI1YjYtVENZRGFTV0lfMnIzQVo3SlZHWVNCVFNtNVNSX2JZTm43T3ZTWENGMFFDU2FjcDRvcS1ydjF4OVpSRV96MTd5WWlWa1E1WXd4SE1QMzZtMXVCRTNrbERSMXBNMTBSS3dtTlJURFk?oc=5",
+      "isNew": false
+    },
+    {
       "id": "cfabd33866f7",
       "title": "Sun Life\u2019s Asia asset management chief exits",
       "source": "Private Debt Investor",
@@ -37,13 +78,13 @@
       "isNew": false
     },
     {
-      "id": "f8368f0629b5",
-      "title": "Sun Life\u2019s Asia asset management chief exits",
-      "source": "Private Debt Investor",
-      "date": "2026-07-24T10:02:13Z",
-      "topic": "Insurance AM",
+      "id": "ba0c00389f04",
+      "title": "Investors want a bigger reward for lending money",
+      "source": "Axios",
+      "date": "2026-07-24T09:55:46Z",
+      "topic": "Rates & Macro",
       "summary": "",
-      "link": "https://news.google.com/rss/articles/CBMihwFBVV95cUxNTk1NbTVZN3Bfb3dxUloxYTBiRExTUVI1YjYtVENZRGFTV0lfMnIzQVo3SlZHWVNCVFNtNVNSX2JZTm43T3ZTWENGMFFDU2FjcDRvcS1ydjF4OVpSRV96MTd5WWlWa1E1WXd4SE1QMzZtMXVCRTNrbERSMXBNMTBSS3dtTlJURFk?oc=5",
+      "link": "https://news.google.com/rss/articles/CBMickFVX3lxTE85ZG84U2hsM0ozMFFVRGVtWldJM0dQeFUtQ3N1RFZuampzdDR4RkdZM2FmWUNWVXBGQndBcmgwV3F0ZjJHc29MSlFxZjRHb09FR1V4c2hmZDRpRmhFTzViTEdBemEwOFN5ZzEyMFQ3dXpudw?oc=5",
       "isNew": false
     },
     {
@@ -64,16 +105,6 @@
       "topic": "Insurance AM",
       "summary": "",
       "link": "https://news.google.com/rss/articles/CBMisAFBVV95cUxOVlc1dFVFNHU1VGhCZXJJbHNncTd0NFRrekpZUTByYzdpNWpvVVJaYmRHUFhmWG9MQllUWEFrVTNNMzQ2d19qNncxUGxic3hrQUNPanpybkdZTzFPWFg2TU1KcUVoSTBzV1hrRUkyRWNCZlRsTjhaaWV6TFpMTjN0a1hrVk5aOG9ucDQ2bXZjZmt3c2FfbXpuNWxmQWNDS3FzUVFrOXpsWFozeVhJRi1FeA?oc=5",
-      "isNew": false
-    },
-    {
-      "id": "ba0c00389f04",
-      "title": "Investors want a bigger reward for lending money",
-      "source": "Axios",
-      "date": "2026-07-24T06:01:35Z",
-      "topic": "Rates & Macro",
-      "summary": "",
-      "link": "https://news.google.com/rss/articles/CBMickFVX3lxTE85ZG84U2hsM0ozMFFVRGVtWldJM0dQeFUtQ3N1RFZuampzdDR4RkdZM2FmWUNWVXBGQndBcmgwV3F0ZjJHc29MSlFxZjRHb09FR1V4c2hmZDRpRmhFTzViTEdBemEwOFN5ZzEyMFQ3dXpudw?oc=5",
       "isNew": false
     },
     {
@@ -274,36 +305,6 @@
       "topic": "Insurance AM",
       "summary": "",
       "link": "https://news.google.com/rss/articles/CBMiU0FVX3lxTE1iaDhQOTg3TENVNUtncXo1U0tjdGRVTm5WeklVazVzci1QLURvd0lzZTRBbmZFeTZlSFBueGZ0SG5WYkdzTUppYUlUSWVKMG0ySzk4?oc=5",
-      "isNew": false
-    },
-    {
-      "id": "0624d9f21678",
-      "title": "How to Get Access to Insurance Capital Funds: Key Challenges & Practical Insights",
-      "source": "36 Kr",
-      "date": "2026-07-22T09:43:23Z",
-      "topic": "Insurance AM",
-      "summary": "",
-      "link": "https://news.google.com/rss/articles/CBMiU0FVX3lxTE1iaDhQOTg3TENVNUtncXo1U0tjdGRVTm5WeklVazVzci1QLURvd0lzZTRBbmZFeTZlSFBueGZ0SG5WYkdzTUppYUlUSWVKMG0ySzk4?oc=5",
-      "isNew": false
-    },
-    {
-      "id": "d167975d7e2c",
-      "title": "Are insurers making too many risky investment bets?",
-      "source": "Insurance Business",
-      "date": "2026-07-22T08:38:21Z",
-      "topic": "Structured Credit",
-      "summary": "",
-      "link": "https://news.google.com/rss/articles/CBMivgFBVV95cUxPTGxUdW5KbS03R0hkUFVWNHVweUZZVDgtOS0tWURGd2Q3bWJkZW4yMFFCYnR3bWJJZ0E4cDFEak1oUDRHNzRkcHZtRkdOalgtemF0TEc1Zk1TZkZzZWRsSWRyZVRkSzhQN0NKd2lXV29ydzhqWExGMmJkbjQ0MXNEMk5DZ3B2SkRmU3RJeWxkOW9fMUdSM2VZQ1lNUjFKRjFaUHJQdkZRaTRwRWlxalRacEtsMVlsMUVqc1RDd3lB?oc=5",
-      "isNew": false
-    },
-    {
-      "id": "c08e992abe24",
-      "title": "Are insurers making too many risky investment bets?",
-      "source": "Insurance Business",
-      "date": "2026-07-22T08:38:21Z",
-      "topic": "Structured Credit",
-      "summary": "",
-      "link": "https://news.google.com/rss/articles/CBMivgFBVV95cUxPTGxUdW5KbS03R0hkUFVWNHVweUZZVDgtOS0tWURGd2Q3bWJkZW4yMFFCYnR3bWJJZ0E4cDFEak1oUDRHNzRkcHZtRkdOalgtemF0TEc1Zk1TZkZzZWRsSWRyZVRkSzhQN0NKd2lXV29ydzhqWExGMmJkbjQ0MXNEMk5DZ3B2SkRmU3RJeWxkOW9fMUdSM2VZQ1lNUjFKRjFaUHJQdkZRaTRwRWlxalRacEtsMVlsMUVqc1RDd3lB?oc=5",
       "isNew": false
     }
   ]
