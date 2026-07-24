@@ -15,6 +15,7 @@ to show and simply refreshes whenever the feeds are reachable again.
 
 Run:  python scripts/fetch_news.py
 """
+import base64
 import hashlib
 import html
 import json
@@ -23,6 +24,7 @@ import re
 import sys
 import urllib.parse
 import urllib.request
+from concurrent.futures import ThreadPoolExecutor, as_completed
 from datetime import datetime, timedelta, timezone
 from email.utils import parsedate_to_datetime
 from pathlib import Path
@@ -221,6 +223,71 @@ def fetch_rss(query):
     return items
 
 
+def _decode_google_news_link(link):
+    """Best-effort offline decode of a Google News RSS redirect URL.
+
+    Google embeds the real article URL as a base64 blob in the path
+    (news.google.com/rss/articles/<blob>); the encoding is undocumented and
+    has changed over time, so this is opportunistic only -- callers fall
+    back to _resolve_article_link's HTTP redirect chain when it misses.
+    """
+    try:
+        parsed = urllib.parse.urlparse(link)
+        if "news.google.com" not in parsed.netloc or "/articles/" not in parsed.path:
+            return None
+        blob = parsed.path.rsplit("/articles/", 1)[-1]
+        blob += "=" * (-len(blob) % 4)
+        decoded = base64.urlsafe_b64decode(blob).decode("latin1", errors="ignore")
+        m = re.search(r"https?://[A-Za-z0-9\-._~:/?#\[\]@!$&'()*+,;=%]+", decoded)
+        if m and "google.com" not in urllib.parse.urlparse(m.group(0)).netloc:
+            return m.group(0)
+    except Exception:
+        pass
+    return None
+
+
+def _resolve_article_link(link, timeout=6):
+    """Resolve a Google News RSS link to the real publisher URL.
+
+    Tries the cheap offline decode first, then falls back to following the
+    HTTP redirect chain. Returns the original Google link, unchanged, if
+    both fail -- callers/UI treat an unresolved news.google.com link as
+    "don't paywall-wrap this" rather than sending Google's redirect page
+    through a paywall remover.
+    """
+    if "news.google.com" not in link:
+        return link
+    decoded = _decode_google_news_link(link)
+    if decoded:
+        return decoded
+    try:
+        req = urllib.request.Request(link, headers=HDR)
+        with urllib.request.urlopen(req, timeout=timeout) as r:
+            final = r.geturl()
+            if "news.google.com" not in final:
+                return final
+    except Exception:
+        pass
+    return link
+
+
+def _resolve_many(links, timeout=6, workers=10):
+    """Resolve a batch of Google News links concurrently (bounded, short
+    per-request timeout so a run of dead links can't blow the CI budget).
+    Returns {original_link: resolved_link_or_original}."""
+    uniq = list(dict.fromkeys(links))
+    out = {}
+    with ThreadPoolExecutor(max_workers=workers) as ex:
+        fmap = {ex.submit(_resolve_article_link, l, timeout): l for l in uniq}
+        for fut in as_completed(fmap):
+            link = fmap[fut]
+            try:
+                out[link] = fut.result()
+            except Exception:
+                out[link] = link
+    return out
+
+
 def _categorize(text):
     low = (text or "").lower()
     for cat, kws in CAT_RULES:
@@ -272,15 +339,21 @@ def build_news():
         try:
             raw = fetch_rss(query)
             ok_topics += 1
-            for r in raw[:12]:
+            kept = raw[:12]
+            resolved = _resolve_many([r["link"] for r in kept])
+            for r in kept:
                 fetched.append({
-                    "id": _item_id(r["link"], r["title"]),
+                    # id keyed on title, not link: the same article's link can
+                    # move from an unresolved Google redirect to the real
+                    # publisher URL between runs, and that shouldn't mint a
+                    # new id / duplicate entry.
+                    "id": _item_id(r["title"], topic),
                     "title": r["title"],
                     "source": r["source"] or "News",
                     "date": _iso(r["date"]) if r["date"] else "",
                     "topic": topic,
                     "summary": r["summary"],
-                    "link": r["link"],
+                    "link": resolved.get(r["link"], r["link"]),
                 })
             log.info(f"  {topic}: {len(raw)} items")
         except Exception as e:
@@ -322,15 +395,20 @@ def build_regulatory():
             raw = fetch_rss(cfg["query"])
             ok = True
             any_ok = True
-            for r in raw[:MAX_REG]:
+            kept = raw[:MAX_REG]
+            resolved = _resolve_many([r["link"] for r in kept])
+            for r in kept:
                 fetched.append({
-                    "id": _item_id(r["link"], r["title"]),
+                    # See build_news(): id is keyed on title, not link, since
+                    # the link can move from a Google redirect to the real
+                    # URL between runs.
+                    "id": _item_id(r["title"], key),
                     "title": r["title"],
                     "date": _iso(r["date"])[:10] if r["date"] else "",
                     "cat": _categorize(r["title"] + " " + r["summary"]),
                     "summary": r["summary"],
                     "source": r["source"] or cfg["label"],
-                    "link": r["link"],
+                    "link": resolved.get(r["link"], r["link"]),
                 })
             log.info(f"  {cfg['label']}: {len(raw)} items")
         except Exception as e:

@@ -1070,10 +1070,14 @@ const newsItems = data => (data?.items?.length ? data.items : NEWS);
 const regItems = (data, key) => (data?.[key]?.length ? data[key] : (REG_FALLBACK[key] || []));
 
 // Title that links to the publication/presentation when a URL is present.
-// Pass paywall={true} for news articles to route via archive.ph.
+// Pass paywall={true} for news articles to route via archive.ph. The pipeline
+// resolves Google News RSS redirect links to the real publisher URL before
+// this ever sees them; an unresolved news.google.com link is left unwrapped
+// since archiving Google's redirect page isn't useful.
 const paywallUrl = url => `https://archive.ph/${url}`;
 const ItemTitle = ({ title, link, paywall }) => {
-  const href = link ? (paywall ? paywallUrl(link) : link) : null;
+  const wrap = paywall && link && !link.includes("news.google.com");
+  const href = link ? (wrap ? paywallUrl(link) : link) : null;
   return href
     ? <a href={href} target="_blank" rel="noopener noreferrer" style={{ color: "#f1f5f9", textDecoration: "none", display: "inline-flex", alignItems: "baseline", gap: 5 }} onMouseEnter={e => e.currentTarget.style.color = "#60a5fa"} onMouseLeave={e => e.currentTarget.style.color = "#f1f5f9"}>{title}<ExternalLink size={12} style={{ flexShrink: 0, opacity: 0.7 }} /></a>
     : <span style={{ color: "#f1f5f9" }}>{title}</span>;
@@ -1172,7 +1176,7 @@ const CommoditiesSection = ({ data, loading, error }) => {
 
   const cfg = COMMODITY_CONFIGS[sel];
   const cd = data[sel] || {};
-  const { spot, spot_date, unit, prior_1d, prior_1d_date, prior_1m, prior_1m_date, prior_3m, prior_3m_date, prior_1y, prior_1y_date, futures } = cd;
+  const { spot, spot_date, unit, prior_1d, prior_1d_date, prior_1m, prior_1m_date, prior_3m, prior_3m_date, prior_1y, prior_1y_date, prior_2y, prior_2y_date, futures } = cd;
 
   // FX rates (USD/INR) use 4dp number formatting; commodities use USD currency formatting
   const fmtSpotVal = v => cfg.isFX ? (v != null ? v.toFixed(4) : "—") : fmtUSD(v);
@@ -1186,10 +1190,12 @@ const CommoditiesSection = ({ data, loading, error }) => {
   const chg1m = chgUSD(spot, prior_1m);
   const chg3m = chgUSD(spot, prior_3m);
   const chg1y = chgUSD(spot, prior_1y);
+  const chg2y = chgUSD(spot, prior_2y);
   const pct1d  = chgPctComm(spot, prior_1d);
   const pct1m = chgPctComm(spot, prior_1m);
   const pct3m = chgPctComm(spot, prior_3m);
   const pct1y = chgPctComm(spot, prior_1y);
+  const pct2y = chgPctComm(spot, prior_2y);
 
   // Fixed-order futures rows with prior prices
   const futureRows = COMM_TENOR_ORDER
@@ -1205,10 +1211,16 @@ const CommoditiesSection = ({ data, loading, error }) => {
         prior_1m_date: f.prior_1m_date,
         prior_3m: f.prior_3m,
         prior_3m_date: f.prior_3m_date,
+        prior_1y: f.prior_1y,
+        prior_1y_date: f.prior_1y_date,
+        prior_2y: f.prior_2y,
+        prior_2y_date: f.prior_2y_date,
         vsSpot: spot != null && f.price != null ? round2(f.price - spot) : null,
         vsSpotPct: spot != null && f.price != null ? round2(((f.price - spot) / spot) * 100) : null,
         chg1m: chgUSD(f.price, f.prior_1m),
         chg3m: chgUSD(f.price, f.prior_3m),
+        chg1y: chgUSD(f.price, f.prior_1y),
+        chg2y: chgUSD(f.price, f.prior_2y),
       };
     });
 
@@ -1233,6 +1245,8 @@ const CommoditiesSection = ({ data, loading, error }) => {
   const hasPremChart = hasCurrPrem || has1mPrem || has3mPrem;
   const has1mFut = futureRows.some(r => r.prior_1m != null);
   const has3mFut = futureRows.some(r => r.prior_3m != null);
+  const has1yFut = futureRows.some(r => r.prior_1y != null);
+  const has2yFut = futureRows.some(r => r.prior_2y != null);
 
   return (
     <div style={{ display: "flex", flexDirection: "column", gap: 16 }}>
@@ -1266,6 +1280,7 @@ const CommoditiesSection = ({ data, loading, error }) => {
               { label: "vs 1M ago", chg: chg1m, pct: pct1m, date: prior_1m_date },
               { label: "vs 3M ago", chg: chg3m, pct: pct3m, date: prior_3m_date },
               { label: "vs 1Y ago", chg: chg1y, pct: pct1y, date: prior_1y_date },
+              { label: "vs 2Y ago", chg: chg2y, pct: pct2y, date: prior_2y_date },
             ].map(({ label, chg, pct, date }) => (
               <div key={label} style={{ textAlign: "center", minWidth: 90 }}>
                 <div style={{ fontSize: 11, color: "#64748b", marginBottom: 4, fontWeight: 600 }}>{label}</div>
@@ -1326,11 +1341,15 @@ const CommoditiesSection = ({ data, loading, error }) => {
                 {has1mFut && <th style={{ padding: "10px 14px", textAlign: "right", color: "#818cf8", fontWeight: 700, fontSize: 12 }}>1M Chg</th>}
                 {has3mFut && <th style={{ padding: "10px 14px", textAlign: "right", color: "#34d399", fontWeight: 700, fontSize: 12 }}>Prior 3M</th>}
                 {has3mFut && <th style={{ padding: "10px 14px", textAlign: "right", color: "#34d399", fontWeight: 700, fontSize: 12 }}>3M Chg</th>}
+                {has1yFut && <th style={{ padding: "10px 14px", textAlign: "right", color: "#f59e0b", fontWeight: 700, fontSize: 12 }}>Prior 12M</th>}
+                {has1yFut && <th style={{ padding: "10px 14px", textAlign: "right", color: "#f59e0b", fontWeight: 700, fontSize: 12 }}>12M Chg</th>}
+                {has2yFut && <th style={{ padding: "10px 14px", textAlign: "right", color: "#f472b6", fontWeight: 700, fontSize: 12 }}>Prior 24M</th>}
+                {has2yFut && <th style={{ padding: "10px 14px", textAlign: "right", color: "#f472b6", fontWeight: 700, fontSize: 12 }}>24M Chg</th>}
               </tr>
             </thead>
             <tbody>
               {futureRows.length === 0 ? (
-                <tr><td colSpan={9} style={{ padding: "20px 14px", textAlign: "center", color: "#64748b" }}>No futures data available</td></tr>
+                <tr><td colSpan={13} style={{ padding: "20px 14px", textAlign: "center", color: "#64748b" }}>No futures data available</td></tr>
               ) : futureRows.map((row, i) => (
                 <tr key={row.tenor} style={{ borderBottom: "1px solid #151820", background: i % 2 === 0 ? "transparent" : "#0a0c10" }}>
                   <td style={{ padding: "9px 14px", fontWeight: 700, color: cfg.color, fontFamily: "monospace" }}>{row.tenor}</td>
@@ -1348,13 +1367,21 @@ const CommoditiesSection = ({ data, loading, error }) => {
                   {has3mFut && <td style={{ padding: "9px 14px", textAlign: "right", fontFamily: "monospace", color: commChgCol(row.chg3m) }}>
                     {fmtFutChgVal(row.chg3m)}
                   </td>}
+                  {has1yFut && <td style={{ padding: "9px 14px", textAlign: "right", fontFamily: "monospace", color: "#94a3b8" }}>{fmtFutVal(row.prior_1y)}</td>}
+                  {has1yFut && <td style={{ padding: "9px 14px", textAlign: "right", fontFamily: "monospace", color: commChgCol(row.chg1y) }}>
+                    {fmtFutChgVal(row.chg1y)}
+                  </td>}
+                  {has2yFut && <td style={{ padding: "9px 14px", textAlign: "right", fontFamily: "monospace", color: "#94a3b8" }}>{fmtFutVal(row.prior_2y)}</td>}
+                  {has2yFut && <td style={{ padding: "9px 14px", textAlign: "right", fontFamily: "monospace", color: commChgCol(row.chg2y) }}>
+                    {fmtFutChgVal(row.chg2y)}
+                  </td>}
                 </tr>
               ))}
             </tbody>
           </table>
         </div>
         <div style={{ padding: "10px 20px", fontSize: 11, color: "#475569", borderTop: "1px solid #151820" }}>
-          FRED (spot) / Yahoo Finance (futures) • Contango = futures &gt; spot (red) • Backwardation = futures &lt; spot (green) • 1M/3M prior = same contract price at that date
+          FRED (spot) / Yahoo Finance (futures) • Contango = futures &gt; spot (red) • Backwardation = futures &lt; spot (green) • 1M/3M/12M/24M prior = same tenor's roll-aware contract price at that date
         </div>
       </div>
 
