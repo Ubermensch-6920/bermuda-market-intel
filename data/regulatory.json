@@ -1,8 +1,18 @@
 {
-  "updated": "2026-07-24T14:16:41Z",
+  "updated": "2026-07-24T14:36:34Z",
   "naic": [
     {
       "id": "248d58583747",
+      "title": "NAIC: Update on proposed template for convicted felon insurance business applicants, survey of states",
+      "date": "2026-07-21",
+      "cat": "General",
+      "summary": "",
+      "source": "repairerdrivennews.com",
+      "link": "https://news.google.com/rss/articles/CBMi3wFBVV95cUxQQjhrQlpxd2RFV3k1Wkt1RzhTYmNyZmxVTy1CUWdkMzI4czNtb1B6UUN4RGROdnY5MDJEam5Ha2JiVGhveTVZRVhrc3pMd2dVTXJQd1d1eHEtc0FjWENiQ3ppZFpvZ1dxZG5WWTJYWmhHRHUtTzVWWG5jQ1dXajNpLVNZT3JKekl1eF9LV0UyNE9UVENKX2txTjVRSjRPSl8zeFkxaEljaU5mZVI4dFptU3NoQjNrNGNHUDFrUlBuZjAwS0hTNUhWbGxsR3lRX0JtaG9ray1aa3lBSWZuLTM4?oc=5",
+      "isNew": true
+    },
+    {
+      "id": "aa4a556b4837",
       "title": "NAIC: Update on proposed template for convicted felon insurance business applicants, survey of states",
       "date": "2026-07-21",
       "cat": "General",
@@ -152,7 +162,27 @@
       "isNew": true
     },
     {
+      "id": "b3ffc14e395a",
+      "title": "NAIC Financial Condition (E) Committee Approves RBC Changes",
+      "date": "2026-07-10",
+      "cat": "General",
+      "summary": "",
+      "source": "Mayer Brown",
+      "link": "https://news.google.com/rss/articles/CBMitAFBVV95cUxQNFRMbTVPY3JpSHB1NEZxUEVIVVpaRllYR281dTVJM2NZWTMtdWNnakl6cG82Z3Nqd2h1TVViWHcwaDRDRkVqaHZGT3BaT3RpdDJmMzFkV3M5X01IMDBKdUhKMVBoa0VkOUlCRW9qNVlRblFNcVQ5c3VPeWZJT3JnOVhWVTMwdEUxWkdKcDNtRUZFWUJzZThTYi00X0dVVDBZX3VvWl9xOWdZMVRoQkxJRldKWVU?oc=5",
+      "isNew": true
+    },
+    {
       "id": "0c5087e8a94e",
+      "title": "Privately-owned insurers now hold nearly 20% of US life industry assets \u2013 ALIRT",
+      "date": "2026-07-09",
+      "cat": "Investment",
+      "summary": "",
+      "source": "Insurance Business",
+      "link": "https://news.google.com/rss/articles/CBMi4gFBVV95cUxOVGhqVXFiVGQ0alBiSU9WcWxzaUlmSktjLXI3RWpmYUt0NG1PajR3TVB0ZWg4VTNBLXhINDJyTUdFWXNFS1dNUmZCQjV4TmYxc09qWWhVS0thY0c3MkR6Y0czd1RIenotZlRLSjljMUtqaExCQ3gyNmFyV09YbVBtLW10MGR6M0N4NVR0UzVRV2dpdkNlRi1OOEdUQkpHamJ5Sy1vTXVwT19lQS1OdklieHBRNGRPOXp4WG5hMVlwZXVEbEt5QnkyRkxJaV9FU2hfNUNRTThIdU9CdmE0LXlvblhB?oc=5",
+      "isNew": true
+    },
+    {
+      "id": "2b99e4f26647",
       "title": "Privately-owned insurers now hold nearly 20% of US life industry assets \u2013 ALIRT",
       "date": "2026-07-09",
       "cat": "Investment",
@@ -220,39 +250,19 @@
       "source": "Security Boulevard",
       "link": "https://news.google.com/rss/articles/CBMiogFBVV95cUxOWEpCVmx6T2JJM0t1Ty1PTDlFRTBCMERNTGdTMUpuREo2MzBCaWhDTGNRZ1AyWTJiZzc3TnBWVjJPNkRjZXQyRlJDVUVncFZqT2tGRGRnOEJrcV9DRTVyZDBGZTFaTkxkVlZWNnZUMjNtdXBWaEZKdy1TT00ycHVUT3BtRnBFYWp0ZEQ1V19Qbm5BQkVnYUNodHM0YVFNS3JObXc?oc=5",
       "isNew": true
-    },
-    {
-      "id": "07ff10084172",
-      "title": "US Federal Insurance Regulator Confirms Data Breach Via Oracle Flaw",
-      "date": "2026-06-29",
-      "cat": "General",
-      "summary": "",
-      "source": "Infosecurity Magazine",
-      "link": "https://news.google.com/rss/articles/CBMigAFBVV95cUxQc1NXbGt0NV9LU3IwanI1UVk5TnVVX19rWFJWcXMwVkNFVTRwaFh0SG1nbWROcG1BeEdacGhFbU41cU9XRm10MFFyaElhSllwWGxVa19FTUFrWE42UU02emlxVmdUdG1USUNzYjdyaXBVTkl2SVVETkJXRnJfQTVCTA?oc=5",
-      "isNew": true
-    },
-    {
-      "id": "58e5e1d531a7",
-      "title": "ShinyHunters Likely Hacked NAIC's Credit Agency Data",
-      "date": "2026-06-29",
-      "cat": "Investment",
-      "summary": "",
-      "source": "Law360",
-      "link": "https://news.google.com/rss/articles/CBMiugFBVV95cUxObUtzYjluTzFuODVSNWIwbUFscHh2clFzTXBNN2k3WEhEdGt4d3VFOXc5S3lLYUpaaTNxblEwZmFuRkFPYkIzSXJESXFtSFB2T1pTTVZFX2lzbWRzdXB1djBVRVBTeDVwMEhVY2FOYWZpOTJlQVJoMS1QR1VsVHBGdFU4OGg3VElBZURJSUM4TWp4RVNFUnBTcXR1R3NhS3BIUnpFc1VpT1ptUzZISmJVRmR5SzFKa3FBZFHSAXBBVV95cUxPUjJOcTVicHB0VUpUalF1eFkzY0RfSTQxSE9FUEpmMmZYRUVSNWF6d1liVHZZZVlIX3FCNW43MHRMeG1DQ1lhMW1XN2J1NldfLW96Qzg3R0h5M0NIeDVtNERCckRfVTJjNEpDOFZMQWV0?oc=5",
-      "isNew": true
-    },
-    {
-      "id": "f3c2802c481c",
-      "title": "ShinyHunters Likely Hacked NAIC's Credit Agency Data",
-      "date": "2026-06-29",
-      "cat": "Investment",
-      "summary": "",
-      "source": "Law360",
-      "link": "https://news.google.com/rss/articles/CBMisgFBVV95cUxQUlFaRFQtZDlwM3d1cXdrVDVJNFdKaU4xem9JYml0clE5NWw2ajlHSzMxUnJNVGJlQ2VRZE1mV2wxXzRvSmdkQ2piNlVzUHdQdy1VZlNnWkxXMXE4Rlc3d3k4WjMwcXJlYm42TFQ1UkhTZ0lUMlQySTNUUVRVWGRabDh5NW9uYlFyRkpjaHBQbUpaWXdhSnd1d2d5dmpvUktHYWZCd252ZWpqT09FekNWN3ZB0gFwQVVfeXFMT1IyTnE1YnBwdFVKVGpRdXhZM2NEX0k0MUhPRVBKZjJmWEVFUjVhendZYlR2WWVZSF9xQjVuNzB0THhtQ0NZYTFtVzdidTZXXy1vekM4N0dIeTNDSHg1bTREQnJEX1UyYzRKQzhWTEFldA?oc=5",
-      "isNew": true
     }
   ],
   "bma": [
+    {
+      "id": "dcfab414fd57",
+      "title": "BMA publishes Q2 2026 regulatory update",
+      "date": "2026-07-24",
+      "cat": "General",
+      "summary": "",
+      "source": "Captive Insurance Times",
+      "link": "https://news.google.com/rss/articles/CBMi4AFBVV95cUxNbWRYU3dscEY3a0JiNWF4bHhMR0tJQzY2VHZlM3F3dm1KbnRTR01jaFIzVmk4MncxT25saDZtZFRBY2FjUFR0VzFZcHgwQWtFb05tYTBrc2NZV1dOUmhCRmlXUWo0a3NBVm5yZTdVRGcxZEptQjVHa0duYkJqT05fVXA3VHdTam15WW84RmZpa1ZOYklPUTd6Ul92V3lhODM4RDVodmh0QmlhSHlsanhvbDJOUVZjcDl2RExUMllGZmdQU3VvSjdraUg4TExHYWFEb1hnSFF3RmRWNmVvd0tjZQ?oc=5",
+      "isNew": true
+    },
     {
       "id": "0539553f2ffd",
       "title": "Exclusive: Bermuda stakes its claim in potential use of institutional stablecoins",
@@ -264,7 +274,27 @@
       "isNew": true
     },
     {
+      "id": "1748f565765f",
+      "title": "Exclusive: Bermuda stakes its claim in potential use of institutional stablecoins",
+      "date": "2026-07-23",
+      "cat": "General",
+      "summary": "",
+      "source": "Intelligent Insurer",
+      "link": "https://news.google.com/rss/articles/CBMiqAFBVV95cUxPOXB1QTRBMWJFMnlNc21aVTJ6VXVHNEVNUU5ZbjVUdTVCdDc3LXBmNHROUVlNQTJkTVZLTElUTmtYdjV2S2tQTEY1VnJWNUJ2Yk12QllaNTRQa2hPakRBVE9nbWpsMnBCaW5QRm1NdWlRTi1tME5kaU1oR1RsZHJGaVhOTTdxa01MNzJoemc2VG90WWQzNHdicU9TWk4tV01lWmc1NXZGYzU?oc=5",
+      "isNew": true
+    },
+    {
       "id": "0800f02fee4a",
+      "title": "Bermuda\u2019s ILS sector well-placed to benefit from stablecoin development: BMA",
+      "date": "2026-07-22",
+      "cat": "General",
+      "summary": "",
+      "source": "Artemis.bm",
+      "link": "https://news.google.com/rss/articles/CBMipAFBVV95cUxOM1B5X2ZUMThlOWl6Z2kyUWQ2cWpPLUM4a1ZiSXBaR2VPVmRLRjBzbWoyX2lxNkp6RElEUllTWDNibE5hYTFsV293RGJOcGdnT0R6SldVLWRMX2JFa3I0ZW1FUjlLTFJFVW9ReXlTN3ZqTVBiVHpoRVdzZENGYzFNdlBrQjY3MEJmUjZIQ2gtSDJXR0t1WlJ5VUsxaVNFMDdHeXduSQ?oc=5",
+      "isNew": true
+    },
+    {
+      "id": "66e0bc12fcea",
       "title": "Bermuda\u2019s ILS sector well-placed to benefit from stablecoin development: BMA",
       "date": "2026-07-22",
       "cat": "General",
@@ -294,7 +324,27 @@
       "isNew": true
     },
     {
+      "id": "5f3d0a0ec783",
+      "title": "BMA issues stablecoin consultation paper",
+      "date": "2026-07-22",
+      "cat": "General",
+      "summary": "",
+      "source": "Captive International",
+      "link": "https://news.google.com/rss/articles/CBMigwFBVV95cUxNbENnbmtsM0pnWjdtZWFkeXNXVUVTQ2x4N1Z0SlI4YmJhRTFtdUpRWDBEWTBkcnp5WEJGejBLdkZJWmxYQk9oTWMxM09FblYzQXo5eG1BNWg4V2hNdk5SaXd5MUxHVWF3b1pwQnBBWDN1c1BPa3VVeXN5eW5mUkRqdTJoMA?oc=5",
+      "isNew": true
+    },
+    {
       "id": "9031dc5d5857",
+      "title": "BMA launches consultation on use of stablecoins",
+      "date": "2026-07-21",
+      "cat": "General",
+      "summary": "",
+      "source": "Royal Gazette | Bermuda",
+      "link": "https://news.google.com/rss/articles/CBMitgFBVV95cUxNdHZNOGJEMWdLZTRNYjl3V1RYTmotWmdRVHV5aHpiOWxHNXdMZkEyOGRHb1RNUVB4T1pES2ZoSmczUGtHM2dwQ3hqVnV4LUw2T0pLR3NZOGtVSVNqdDdIWlNCeUhXQTVtOFF2VTdVVjlyMlk4VGZMR0JCOHlnNWJGQzR4S1pTWGJTYmhZWktVYnRKbkZBdDd4SEFKWWF5bUVQd3p2S0xFTXFMTkJXRENOZWFDMlVjUQ?oc=5",
+      "isNew": true
+    },
+    {
+      "id": "0d992566e74b",
       "title": "BMA launches consultation on use of stablecoins",
       "date": "2026-07-21",
       "cat": "General",
@@ -334,7 +384,27 @@
       "isNew": true
     },
     {
+      "id": "c44e49b08b1a",
+      "title": "BMA consults on stablecoin guidance for Bermuda captive insurers",
+      "date": "2026-07-21",
+      "cat": "General",
+      "summary": "",
+      "source": "Captive Insurance Times",
+      "link": "https://news.google.com/rss/articles/CBMi5gFBVV95cUxQMWp5NXdFel9yRkpmS2hURGlMS0ljdV9lRFJjbWZkTUdSZW4xQmNLa1VWSVV1a012clYteFZtWGRKTXNvNmNSUVdaUFYxT0tpZ0lxQlFhNWxkOWZmRDl3RXlhZmFnR0pSWXdUSkd4dmVQb3I2VmdfMWZqa1ZFZGY0dTRkTFpIUHBnSmpOanVFZ1I1cjlSYVM4bEJvWW5Ib1JVbEJ2VmNNQkdyRHQyeVZUa3cyNlA4bG10bTNFR05sLV9DdFl6blZyZlhLLXNkQTBEV29HQy0yRExLN0YxRmxEdlg2Snl5Zw?oc=5",
+      "isNew": true
+    },
+    {
       "id": "3881d750a67a",
+      "title": "How the BMA could leverage AI",
+      "date": "2026-07-14",
+      "cat": "Governance",
+      "summary": "",
+      "source": "Royal Gazette | Bermuda",
+      "link": "https://news.google.com/rss/articles/CBMiqAFBVV95cUxPcXNDMmwwaG9ia1JVRkNVOHdQNjJiQnlON3IzaWk1Q3VQVFFSTGhzbGRhUmxkNnRqT0FwWWpOOF9ZYTQ3alF0cmh4dXFaYnVwOXYxTDZibGU4UG9sWWdpLXF2WHY1TWhoOVdoSHB5RXFYcjVBVlZFUVMzNHp3eHRMdUkzMDZ2TDR1NV85aTVOMXYxejFjMTI0UHM0eHZzNmFhc0NWdmpMNDE?oc=5",
+      "isNew": true
+    },
+    {
+      "id": "bb738c880046",
       "title": "How the BMA could leverage AI",
       "date": "2026-07-14",
       "cat": "Governance",
@@ -404,6 +474,16 @@
       "isNew": false
     },
     {
+      "id": "42339fdf3aa4",
+      "title": "HCI joins tokenized catastrophe risk market",
+      "date": "2026-06-19",
+      "cat": "General",
+      "summary": "",
+      "source": "Insurance Business",
+      "link": "https://news.google.com/rss/articles/CBMiwAFBVV95cUxQdUdlYmx3eFkyMjR0RjZyZ1NyelVTd2tHWS03UktvMW92ZWhybEhUcFpHZEthNXhLVVFERFVjdE1DRnZpbmtEbGQ1RTFCUDg1YkRJTzF2NmVHbXYwaXR5aEI5WWhfNDBQcWsteTZNVk4tMEszbXdOTzNsUUFRSG0zLWhtQ0d2SVVRZlViQlhkYzVIYW5WSGpudVptZGFfUUVMR3IxU055X0o1dzV6ekxzY0VxLWJkT281dHdRNUVrZTQ?oc=5",
+      "isNew": false
+    },
+    {
       "id": "acf626ac360d",
       "title": "Bermuda regulator expands conduct rules and tightens investment principles in consultation package",
       "date": "2026-06-12",
@@ -422,91 +502,21 @@
       "source": "Captive Insurance Times",
       "link": "https://news.google.com/rss/articles/CBMi8AFBVV95cUxQbVcxdHhuSTZsN0tEem1qdFZfbjl6SGpJQ1ZzWlJqdURDYVZvNE5TaU5nRkpFMUdmaVVuUGRremw0U2VEa283eGNKOF9TTlpqRlJod2pUUzQtejdTVU5LTk5KWFpvTkE3TDZMNThWdmlWZ01nWWl3TVNtT0EtS0J2RUlVemdrb2N6bURsV2NOV0tRZXlJMWZsY3JWeGNsOFZBVTBfUjJNVjhHN0ZETlluakJCcnpOc1hiUDk4TjRERVpoNnhwZ2J6SEpSSDdNWXh2UnVuUlUyVDlMbzA1ZS1Fcmo0ZWpESG1aNVhUQ3RzdnQ?oc=5",
       "isNew": false
-    },
-    {
-      "id": "24ce71d91640",
-      "title": "BMA adds three new insurers in May",
-      "date": "2026-06-10",
-      "cat": "General",
-      "summary": "",
-      "source": "Royal Gazette | Bermuda",
-      "link": "https://news.google.com/rss/articles/CBMipAFBVV95cUxQNWdPM1BQUmZXNDNOR1NIbWNQVjJZdzBic2hqMU9ZVzdUa3pMaXktNnlFUWxmR0tvMk5rZnVpbHM3NnRJR0dxVTBuY2NOdWVjWm02Q0dPQzhHVDdOdWg5c1NIU2NlREp5V1RLaVBoV014MjFkOUY2bjdDQ3V5TEJCTDlmbW1JLXAyV2JPR0kxZFNfLTFJWnMtWVBtS3Vtb2lLUUdzdA?oc=5",
-      "isNew": false
-    },
-    {
-      "id": "286b674b1558",
-      "title": "Walkers report says crypto narrative has shifted",
-      "date": "2026-06-09",
-      "cat": "General",
-      "summary": "",
-      "source": "Royal Gazette | Bermuda",
-      "link": "https://news.google.com/rss/articles/CBMiuwFBVV95cUxNbEpKZ19lNjZkZ0prak1zOE5pZW9aX0dXQkhENjI1YmxjaHgtRUw5YlBOS2JVc24zLWUwZE50OGRNTmNyVVVvNWN6cGhUOHdIcmNNb200bzFyaGp3X1hkOXlXSzNKdDl1YlViU1AxamRiVzBXZTJCV0YyTE8yV2VYdnBQWF84TTlIVmZCYlNCTU96ZnJQLW90MGctb0pYUXRBTUluUzV3OFZKbEw5MUhWa3FoY0kxZUtIS0JF?oc=5",
-      "isNew": false
-    },
-    {
-      "id": "baacb35b6e7c",
-      "title": "\u2018Potential Banking Models For Bermuda\u2019",
-      "date": "2026-06-04",
-      "cat": "General",
-      "summary": "",
-      "source": "Bernews",
-      "link": "https://news.google.com/rss/articles/CBMic0FVX3lxTE52dEloN1pmUUE3RWtyaEUzVFAzYS02NnlILWxYNW5hRmNsUTdTN2R2R2I0WEdqZUZoZkZOU3luRV9ORHMtSEdxLVJtYk4xZ2FWcVhWMVk1NmVkUk44a0JrRm1oTXJhVVJ0Y0JCREQ3dFNBYUk?oc=5",
-      "isNew": false
-    },
-    {
-      "id": "dfd86ef5618e",
-      "title": "Late filings could cost banks $10m under BMA proposals",
-      "date": "2026-06-04",
-      "cat": "Reporting",
-      "summary": "",
-      "source": "Royal Gazette | Bermuda",
-      "link": "https://news.google.com/rss/articles/CBMiuAFBVV95cUxPcl9iYU8yTXRseVotd0FMSmVURGpKMFFBc1JmYnBLWHhCRmtrOWFKdmhJVndpbUQtNFp6MndrZDRrbzVCemZvbkZ2SEZnMDBTVS1vUG01Wm9ldWQzajBJUTY5VmQ2MTBVWnJ0WldjR2h4YTVRZ1JuODdLdWQyVE83a3JuUUJBbTVYMDh3T1FHU2VKSEJlX242UjQ1dlBUd1N0eHc1NkZVU24ya01BZWNJQ2xhal9yNnNy?oc=5",
-      "isNew": false
-    },
-    {
-      "id": "aa842d8b4f06",
-      "title": "BMA explores opening door to foreign banks",
-      "date": "2026-06-03",
-      "cat": "General",
-      "summary": "",
-      "source": "Royal Gazette | Bermuda",
-      "link": "https://news.google.com/rss/articles/CBMiqgFBVV95cUxQT0Q4Y1BleU1nMjdXTlpTS3VFZVJoekhkOUhxb1VwaTdwbXFVQkx6STZuRktnV2hqRHJ3c3F2TFJlRnhDaFFXMURBLXhoVUxPdkpTS0JKQlVhNXpNOUk3bng1MFlJMkxoU01EU2ZEdTZuR2RGZWJFRjdRMkJTVGJ3UVBZSUlQSjZtV2ZFMTRFODIzdlNZczhqZ0w2NmZybURxUE5ZT1ZHV2x0QQ?oc=5",
-      "isNew": false
-    },
-    {
-      "id": "220edb10c2ca",
-      "title": "BMA seeks to wind up investment fund",
-      "date": "2026-05-28",
-      "cat": "Investment",
-      "summary": "",
-      "source": "Royal Gazette | Bermuda",
-      "link": "https://news.google.com/rss/articles/CBMitgFBVV95cUxPOEVzR2pieUhJSjJmeGFHV3EwXzJOQzJYVDZRX1RwOE9SYk5LenYzRURTWVI4amlmcy1LTGo4WkNMRUZxOE05R1NCTjl1dEFORWVwYlBQdzJUcTBkV3FyaDZSd0JTRWFwTl8waXN3VWlLUXVGMmVRMi1zNFFjSXhDcU9MMU9hSV9pUVZ5TFNiRkN4WE9fTUJTR2twcVM3bEFTeU15Y0VibTd2OTJZTmVZbDQ4WHRoUQ?oc=5",
-      "isNew": false
-    },
-    {
-      "id": "b3f60971f2ab",
-      "title": "BMA CEO: onchain economy may require law changes",
-      "date": "2026-05-28",
-      "cat": "General",
-      "summary": "",
-      "source": "Royal Gazette | Bermuda",
-      "link": "https://news.google.com/rss/articles/CBMixAFBVV95cUxQMlN0azZCbVBNS043TElPb2tOcHdDc3RNUEtsZmxwVWFLN2pvcjR4R20xR1lyaHNmb2xfbXR4ZzVXdVphUHJqZGZBb29hTDh1MlZ1dHdKYk9MZDFYSlZKM1JBZzRMRVpoaEYwb0Y0SDZGQXpLbEd4emZ2NnJBZ09GZWc0YVUtaGRwZnlWNm5iS3Z1Z2YtbGZDMDY5T2FzaTZkR1IweTVnZ2MyRVdzQXFrX0w1QUp2V1hydWVpNk5aUWdOandN?oc=5",
-      "isNew": false
-    },
-    {
-      "id": "db81ed09ab9f",
-      "title": "The use and regulation of artificial intelligence offshore: An emerging legal landscape",
-      "date": "2026-05-27",
-      "cat": "General",
-      "summary": "",
-      "source": "Cayman Finance",
-      "link": "https://news.google.com/rss/articles/CBMiwAFBVV95cUxNUDVEaDZOamVPSVhzODViU083Vk5zNkRpd0tTWFAxNHJJZHpJSXRvbU5fRm04ZTJfRHYyMXlQWHpOLUhHS0llcTZFWl92Y3FmWW1XTjM0c3pXTDBPc1RjM0VCNV9IMUk3ZkNuYm9UamcyV3BzaEVMdm82VmFLcUw0Q3ZUVVJpUE5ubjJLdWJNbHl5Wkg4aGEzSjZRSWs0VV9wM2NYU0cwU3Vnc0huUkhYSmxTNGhTMjFhTWFSNFlzenk?oc=5",
-      "isNew": false
     }
   ],
   "cayman": [
     {
       "id": "d1ae3ed202cb",
+      "title": "CIMA Markets: Saliou Bakayoko advocates for trust insurance, driven by quick compensation",
+      "date": "2026-07-16",
+      "cat": "General",
+      "summary": "",
+      "source": "Financial Afrik",
+      "link": "https://news.google.com/rss/articles/CBMizgFBVV95cUxOVTRlSmxPcEllUGxLUndNbkRyN19qN2d3YWF4MGxFZlNjMVY2eVE3TlVGWF9lMlVNU0lKMVI3dHZ6dXBfbWRlMlQ2RjNjb0ZSXzU4SDZLV3lqU29sQk4xdDdYcE92VVpOY0pzaTJMZ21tMDV3a1FyWDRCeDBlZXJwc21RYVVXdWlXVk9PVkdNYWZqOV9UZERvdUF1TENQd2tYOVdQaGxyS2pVXy0xbVNYTEhGaDJVZHY2cDYzNTBjZG1PVFBUUUlnV0s0QXBLQQ?oc=5",
+      "isNew": true
+    },
+    {
+      "id": "6196687114c9",
       "title": "CIMA Markets: Saliou Bakayoko advocates for trust insurance, driven by quick compensation",
       "date": "2026-07-16",
       "cat": "General",
@@ -526,6 +536,16 @@
       "isNew": true
     },
     {
+      "id": "a31e67575215",
+      "title": "CIMA region still apart in Africa\u2019s booming Islamic insurance market",
+      "date": "2026-07-15",
+      "cat": "General",
+      "summary": "",
+      "source": "africabusinessplus.com",
+      "link": "https://news.google.com/rss/articles/CBMirwFBVV95cUxPTU9objdtZTdndzZGYUtiVWNTMjJLY3IzZ193WkpnQWdiSnNBUHBPSUR0WDJ3ZDNTQ1FFbVB6cGlrRERzSE5QN0VXMEJaY3JvTlBKNTFqNEJwV3FjcS1rZGpSZHpwZExuNnQ0ZXc2YWdkQ1FNTVZ0M2pRWHYyQlJ0RW91UHNXQmlFNzNELU0yTmFlZWxtZXN1NS05eW9jWk5hQmpUOWt6Y19aVEFIU3dr?oc=5",
+      "isNew": true
+    },
+    {
       "id": "4d062861f6db",
       "title": "CIRCA rejects Apollo claims over Cayman's reinsurance standards",
       "date": "2026-07-14",
@@ -536,7 +556,27 @@
       "isNew": true
     },
     {
+      "id": "2d47ab25fe62",
+      "title": "CIRCA rejects Apollo claims over Cayman's reinsurance standards",
+      "date": "2026-07-14",
+      "cat": "General",
+      "summary": "",
+      "source": "Insurance Business",
+      "link": "https://news.google.com/rss/articles/CBMi2gFBVV95cUxOWEI0T3hNdnh5M0U2ekhDYWJRRnplN3g1ZDVheG9NRUZwR2lxUjJaVDhLSkFGdjRWWENGRkJVVjJwQ0FMY05KenJha1JHZkd3em0wczVrOXFYbks4UGxfQUg0NDJQUVlQQ0hVOFNGWmsyMXM5NFlTV3F2YmlxbWQ3alZDcHQ1ajktRUhnTkdNX3Bia1dON3RVSGdqa1I1ZzNlWnNCX0Y5VU5SR2lpanlhSjRvc1pWUFlHN3FxbkZtM0NUVXc5NlRlWHAtTUoxX3lTTEdiYUpDTnZTUQ?oc=5",
+      "isNew": true
+    },
+    {
       "id": "d50a6675fe0c",
+      "title": "Regulator\u2019s reinsurance review finds corporate governance weaknesses",
+      "date": "2026-07-01",
+      "cat": "Governance",
+      "summary": "",
+      "source": "Cayman Compass",
+      "link": "https://news.google.com/rss/articles/CBMirgFBVV95cUxOVWdmX3c0N2F6UHZTRld2S1Z1dHVibHF6NV9VbkMtVWx2ZWVrb0ZabVpLcjRGemFmOWZxSTNWY2hNVjRvcXJjTG9CUW9jNGIydDlQTG1EeDZkaUVCY1I5S3pmazNQWi04MVdYR29OQ0trajcySWxSaUR5NEFLR1ducVJvUGNOQmNZUkE2NHdIUjFqZUhRZzQ1blcybzlieEw2YS15R0VCWTVrd0h4NUE?oc=5",
+      "isNew": true
+    },
+    {
+      "id": "b7f1c5613139",
       "title": "Regulator\u2019s reinsurance review finds corporate governance weaknesses",
       "date": "2026-07-01",
       "cat": "Governance",
@@ -566,6 +606,16 @@
       "isNew": true
     },
     {
+      "id": "c5329ca9c0a3",
+      "title": "What CIMA\u2019s 2026 Thematic Review means for Cayman reinsurers",
+      "date": "2026-06-26",
+      "cat": "General",
+      "summary": "",
+      "source": "JD Supra",
+      "link": "https://news.google.com/rss/articles/CBMiiAFBVV95cUxNcklMVDg1a1NLMjBGNy1fRHlST3Bra0JqYXhTR2VPdWpkdXdOa0IzVmNrbnlxdWE2eDRaNWVISmhwNUx5SS1WbWMwYUNSeEMweFdfOFFCWi0tdldldE9kZFpMSUNNT05TNzhhNFZYTjlMMXVUYXRmS1JwUVZaTDcyUWF6OVdIczUw?oc=5",
+      "isNew": true
+    },
+    {
       "id": "a91ab91f1446",
       "title": "CIMA Publishes Thematic Review of Reinsurance Companies",
       "date": "2026-06-23",
@@ -586,6 +636,16 @@
       "isNew": false
     },
     {
+      "id": "b178a1be19d6",
+      "title": "CIMA cancels registrations",
+      "date": "2026-06-11",
+      "cat": "Licensing",
+      "summary": "",
+      "source": "Cayman Compass",
+      "link": "https://news.google.com/rss/articles/CBMid0FVX3lxTE5HS2pISXFHV2hHSG15NDJxbjRTSnNjMjVFelN6dDVTOERreERUUENJbUdpNG9BTy1zWXFiTnNKQ3pfZU80RERuVWVVN0diajRNVEtCbi1aMTZrZHhOQVdxRUxFVjRBU2UxN3A4bWd5MnBRUGc5dHNv?oc=5",
+      "isNew": false
+    },
+    {
       "id": "b3b98c17621c",
       "title": "Cyberattacks in Africa: insurers are starting to take action",
       "date": "2026-06-04",
@@ -597,6 +657,16 @@
     },
     {
       "id": "f7ddcee848ac",
+      "title": "The International Insurance Institute opens entrance exam for fourth insurance master\u2019s cohort",
+      "date": "2026-04-29",
+      "cat": "General",
+      "summary": "",
+      "source": "Togo First",
+      "link": "https://news.google.com/rss/articles/CBMi2gFBVV95cUxNTUZqaGFhOFpaNzFYZzZFSVJiSm8yY3dEekpmUXo5ME1rS25NazBmWjVXTVlNWk9EUzNFZGxTcVBTLUh6aU9kNF8xVTBhbkVpT0Zac1FKVnptY3VWaG9rRXp2YmdjT1M4a2J3bGpsTExIMGNmaDdlVFE4VE5qTFdiTmxYaGItcFBZZUpZaGJRdHRhVXZEX25wVEJ6OUQtZTV0cTYtVklhd29LbkUxRUNwU1J5SUJTSnY1MlFhbHZ2Rl9ySHRBenFuZmRaNldjNnRJNXJlSzUtdzZzQQ?oc=5",
+      "isNew": false
+    },
+    {
+      "id": "e9cc3fb3d9b3",
       "title": "The International Insurance Institute opens entrance exam for fourth insurance master\u2019s cohort",
       "date": "2026-04-29",
       "cat": "General",

@@ -1,14 +1,33 @@
 {
-  "updated": "2026-07-24T14:16:41Z",
+  "updated": "2026-07-24T14:36:34Z",
   "topics": [
     "Insurance AM",
-    "Private Credit",
     "Rates & Macro",
     "Structured Credit"
   ],
   "items": [
     {
+      "id": "39e5d73c1754",
+      "title": "SCI in Focus: CLOs role in Standard Life's structured credit build-out",
+      "source": "Structured Credit Investor",
+      "date": "2026-07-24T14:32:30Z",
+      "topic": "Structured Credit",
+      "summary": "",
+      "link": "https://news.google.com/rss/articles/CBMixgFBVV95cUxNVEI4T2JFaEF1QTZpR2U5cVZZSFN6VXR4NkhDWVNsS0pKaVRzSVVBbE42M2hPSVlWa1BtenRzTjNEVXpoNEI2ZnZicjVPVE1ITGdCc2lrcHlzT2NncEN1NVpONVhISkkyY3FHSi1xTGlBNmFFNFF1NjlOeHZreW1PMDFKLXJVUldidzlmbk9YUnU0WXRfX3NhSGcxUWlaZ2VoVXJZR2t0QkEtaXNEa0hBWGwtMXdkOThZZk5XNm5LcWVLbHlMVVE?oc=5",
+      "isNew": false
+    },
+    {
       "id": "cfabd33866f7",
+      "title": "Sun Life\u2019s Asia asset management chief exits",
+      "source": "Private Debt Investor",
+      "date": "2026-07-24T10:02:13Z",
+      "topic": "Insurance AM",
+      "summary": "",
+      "link": "https://news.google.com/rss/articles/CBMihwFBVV95cUxNTk1NbTVZN3Bfb3dxUloxYTBiRExTUVI1YjYtVENZRGFTV0lfMnIzQVo3SlZHWVNCVFNtNVNSX2JZTm43T3ZTWENGMFFDU2FjcDRvcS1ydjF4OVpSRV96MTd5WWlWa1E1WXd4SE1QMzZtMXVCRTNrbERSMXBNMTBSS3dtTlJURFk?oc=5",
+      "isNew": false
+    },
+    {
+      "id": "f8368f0629b5",
       "title": "Sun Life\u2019s Asia asset management chief exits",
       "source": "Private Debt Investor",
       "date": "2026-07-24T10:02:13Z",
@@ -25,6 +44,26 @@
       "topic": "Insurance AM",
       "summary": "",
       "link": "https://news.google.com/rss/articles/CBMisAFBVV95cUxOVlc1dFVFNHU1VGhCZXJJbHNncTd0NFRrekpZUTByYzdpNWpvVVJaYmRHUFhmWG9MQllUWEFrVTNNMzQ2d19qNncxUGxic3hrQUNPanpybkdZTzFPWFg2TU1KcUVoSTBzV1hrRUkyRWNCZlRsTjhaaWV6TFpMTjN0a1hrVk5aOG9ucDQ2bXZjZmt3c2FfbXpuNWxmQWNDS3FzUVFrOXpsWFozeVhJRi1FeA?oc=5",
+      "isNew": false
+    },
+    {
+      "id": "650a4add9937",
+      "title": "Are there still bottlenecks in insurance funds increasing their equity positions? Accelerated equity allocation is pressuring solvency ratios, prompting industry calls for further optimization of risk factors.",
+      "source": "\u5bcc\u9014\u725b\u725b",
+      "date": "2026-07-24T08:38:34Z",
+      "topic": "Insurance AM",
+      "summary": "",
+      "link": "https://news.google.com/rss/articles/CBMisAFBVV95cUxOVlc1dFVFNHU1VGhCZXJJbHNncTd0NFRrekpZUTByYzdpNWpvVVJaYmRHUFhmWG9MQllUWEFrVTNNMzQ2d19qNncxUGxic3hrQUNPanpybkdZTzFPWFg2TU1KcUVoSTBzV1hrRUkyRWNCZlRsTjhaaWV6TFpMTjN0a1hrVk5aOG9ucDQ2bXZjZmt3c2FfbXpuNWxmQWNDS3FzUVFrOXpsWFozeVhJRi1FeA?oc=5",
+      "isNew": false
+    },
+    {
+      "id": "ba0c00389f04",
+      "title": "Investors want a bigger reward for lending money",
+      "source": "Axios",
+      "date": "2026-07-24T06:01:35Z",
+      "topic": "Rates & Macro",
+      "summary": "",
+      "link": "https://news.google.com/rss/articles/CBMickFVX3lxTE85ZG84U2hsM0ozMFFVRGVtWldJM0dQeFUtQ3N1RFZuampzdDR4RkdZM2FmWUNWVXBGQndBcmgwV3F0ZjJHc29MSlFxZjRHb09FR1V4c2hmZDRpRmhFTzViTEdBemEwOFN5ZzEyMFQ3dXpudw?oc=5",
       "isNew": false
     },
     {
@@ -58,7 +97,27 @@
       "isNew": false
     },
     {
+      "id": "e31d193d09d7",
+      "title": "Reigniting Inflation Heaps Pressure on European Central Bank",
+      "source": "WSJ",
+      "date": "2026-07-23T15:45:00Z",
+      "topic": "Rates & Macro",
+      "summary": "",
+      "link": "https://news.google.com/rss/articles/CBMiswFBVV95cUxQektURDJGN0pNbzluZjRlTnR1Vy1GZFJiWUhlUzRtUUxsNFB3Qjk2YmZ1c290V0M3QlZCNERHUHdnaXBobFhyb20zeVBTblBEcHRyOWlLXzZCczRGYU5UYjY3VTF3ejlvWk1TSGpOUTQ1RW44Rm01Xy1nR2YxbnNoZzFyZWQyS1hfZWJVQUVkNjh6THJtZTdReXJfUUk1WDgtQjlUNWxzbnZvREo1S3RTYzRHUQ?oc=5",
+      "isNew": false
+    },
+    {
       "id": "44d5f0090f00",
+      "title": "The world\u2019s most important market is flashing red about the Iran war",
+      "source": "CNN",
+      "date": "2026-07-23T13:30:46Z",
+      "topic": "Rates & Macro",
+      "summary": "",
+      "link": "https://news.google.com/rss/articles/CBMic0FVX3lxTE01M0tDOWxlS2Y5ZkRyWTBBblZqMjR1S1JMQS16TWZfTTBlaXhXdWM4NnlSbFNIaEZrNnhFLW5wWG5iOXhYcEdFOXVZZTBhRjlScXZTMGp2aXJCYnBqVHhreUloYU1CUmY5aTFRMlNOUXpOSU0?oc=5",
+      "isNew": false
+    },
+    {
+      "id": "74c8eb2ca05e",
       "title": "The world\u2019s most important market is flashing red about the Iran war",
       "source": "CNN",
       "date": "2026-07-23T13:30:46Z",
@@ -78,7 +137,27 @@
       "isNew": false
     },
     {
+      "id": "09d3d7b735bc",
+      "title": "Global Bond Yields Jump as Oil Prices Surge, Inflation Fears Mount",
+      "source": "WSJ",
+      "date": "2026-07-23T09:46:00Z",
+      "topic": "Rates & Macro",
+      "summary": "",
+      "link": "https://news.google.com/rss/articles/CBMiugFBVV95cUxPNUlCR0k3M3VWNXJzY3BCTTBGTk9YZm5OLURyLVM0ZUVWLU9tTU5HNmR1NmVBdlF6aDYtOVFHUENFcTJQdFpFRDRuam9qY0VQTmtwem5ZTzA4UmlXb0hUN280V2V5ZnNLLVdENUZRUmZ6dU41YjItbGNWVlRaRm50LWo0dEtOSldqWVZZVVBTaFlPa1JzYk1QU2o4ZnlIX1RPd3JPdzlYNlJUQVo4M2hqNHJCZzI0Yk5iMEE?oc=5",
+      "isNew": false
+    },
+    {
       "id": "23a656e4b0fe",
+      "title": "Oil price surge drives global bond sell-off",
+      "source": "Financial Times",
+      "date": "2026-07-23T08:22:50Z",
+      "topic": "Rates & Macro",
+      "summary": "",
+      "link": "https://news.google.com/rss/articles/CBMihAFBVV95cUxOclF2RTc2cFc2ajlnUjN2blRGYS1vbTNGeTRnNkFKNGduZGpSS05BMnVkY21vcFRkR3BvMDhGZkFuTzFvaUxtc1NDVEJyb180TGcyUkROc2QwYkJRaEJ5eTlOTEdNbVdMbGNhdC1ETnYyUno1dldEeU1Yb3JpVEkxZml4dEM?oc=5",
+      "isNew": false
+    },
+    {
+      "id": "524198f77905",
       "title": "Oil price surge drives global bond sell-off",
       "source": "Financial Times",
       "date": "2026-07-23T08:22:50Z",
@@ -108,6 +187,16 @@
       "isNew": false
     },
     {
+      "id": "e01f3d0ed7ae",
+      "title": "Gold falls 2% as Middle East tensions fuel inflation fears, rate-hike bets",
+      "source": "CNBC",
+      "date": "2026-07-23T04:24:09Z",
+      "topic": "Rates & Macro",
+      "summary": "",
+      "link": "https://news.google.com/rss/articles/CBMinAFBVV95cUxNclNiNkJ5eXdWMGFHWVNjY0h3LU9hMVdFV1UzOXQ0ZmVURWkwWFYzQkVhN0tkUXpMWmdyTkFfZ1FnZzBXeUR4bmVwWVVsNkdTMDdIbS0xLXdmWjBuODFJZHBOdTBKNHJZbEYyWE9PQ29tX2JteE9fbktPSWNsUE5NTXYydjNxLTA0cURDaWxNcnRubjNOcUR0ZFpwSTHSAaIBQVVfeXFMUFFhSE9fYmN0Vl9ZR0ZlVFRRSzJjb1Vkb2VWam9ObFZYNWs5Zk1ldzVQRFh5eHNsNmVsS1ZwbVFtZUpnS2RrQUUzeFRFQy1nSkRpZEpHMGVYanRXN2ROQmlsb2hvanUxUExVQ25fQ041Q2J3OEI2VVNmOXpHaUVlZERnYzBUZzdRY0ZNajByOEJzMVJ1UDUxNTRQdUQzMXdOc19R?oc=5",
+      "isNew": false
+    },
+    {
       "id": "e950846fce39",
       "title": "BOJ to raise rates again by December as weak yen revives inflation risks: Reuters poll",
       "source": "Reuters",
@@ -118,7 +207,27 @@
       "isNew": false
     },
     {
+      "id": "f8dd6e345fd3",
+      "title": "BOJ to raise rates again by December as weak yen revives inflation risks: Reuters poll",
+      "source": "Reuters",
+      "date": "2026-07-23T04:08:00Z",
+      "topic": "Rates & Macro",
+      "summary": "",
+      "link": "https://news.google.com/rss/articles/CBMivgFBVV95cUxOaXFqWG9lTERfem5sTXV3V3BMMnZMb2ZheHJEU1JGdjMxYndhZzJpUmE5VmtDVm9aM0t1MWpCYnJRcE9hMl91WjhpNDlySGJWbERZYVg0M3hlbm53R1lQYjVWczRZWURJUWhzSWhPZUJqZk04SmRENDRYdnFiZ00tX1hiRjFabHB0MHFPR0VfUk1SdGlDcEU3bG5lWXZVM3VLc3J2anhSNEVvS3NaTmhjOGlzU21LeV9DVGdUblFB?oc=5",
+      "isNew": false
+    },
+    {
       "id": "e308d8e794ad",
+      "title": "Venerable And Guardian Agree To Transition $4.5 Billion In Assets To Venerable Platform",
+      "source": "Pulse 2.0",
+      "date": "2026-07-22T16:47:57Z",
+      "topic": "Insurance AM",
+      "summary": "",
+      "link": "https://news.google.com/rss/articles/CBMiqgFBVV95cUxQLWN2cFVmSWtmTHdlRjVNeXFSa1hmOWpOaFg5Mlh4d0k4MjVYbE1nVHhqOUhVZlFseVdqeGk5cXg0ZklsZVpCZTQ1RVJVQjhEbFNGY0xTVm16dzBBUWctNFZpMzQ2eG9FU19RZU54WlRnX1ZiM1lIeUQxcGZGTXBEaE5CTU0tdmdFZ3BZeFZzZ2dhMmdESF9iRDFBMFpHanJSYnlNSjRvQ043UdIBrwFBVV95cUxOUmdVYUlrQi1Nb0thYTBranlGM3ItY2xBTzNON3VpdHp4bXlwVlZ1ekZ0Z2t2elVqWW90MW02ZFFiWGVHZDI3c2d5VEd6RWtQY2JxSjU3bHdpVGhrRVhZQ0NUOVYwU2pLSUJiUklWUDFGdzdkXzJHWUhsWHN5ZHNBRC1UMHJCaE8tdV9Qcl93dFVJcmxaNUFVemZKV3BCOEdHd19Mc2FYa0toMVA2Z0xz?oc=5",
+      "isNew": false
+    },
+    {
+      "id": "2dce12637251",
       "title": "Venerable And Guardian Agree To Transition $4.5 Billion In Assets To Venerable Platform",
       "source": "Pulse 2.0",
       "date": "2026-07-22T16:47:57Z",
@@ -158,7 +267,27 @@
       "isNew": false
     },
     {
+      "id": "0624d9f21678",
+      "title": "How to Get Access to Insurance Capital Funds: Key Challenges & Practical Insights",
+      "source": "36 Kr",
+      "date": "2026-07-22T09:43:23Z",
+      "topic": "Insurance AM",
+      "summary": "",
+      "link": "https://news.google.com/rss/articles/CBMiU0FVX3lxTE1iaDhQOTg3TENVNUtncXo1U0tjdGRVTm5WeklVazVzci1QLURvd0lzZTRBbmZFeTZlSFBueGZ0SG5WYkdzTUppYUlUSWVKMG0ySzk4?oc=5",
+      "isNew": false
+    },
+    {
       "id": "d167975d7e2c",
+      "title": "Are insurers making too many risky investment bets?",
+      "source": "Insurance Business",
+      "date": "2026-07-22T08:38:21Z",
+      "topic": "Structured Credit",
+      "summary": "",
+      "link": "https://news.google.com/rss/articles/CBMivgFBVV95cUxPTGxUdW5KbS03R0hkUFVWNHVweUZZVDgtOS0tWURGd2Q3bWJkZW4yMFFCYnR3bWJJZ0E4cDFEak1oUDRHNzRkcHZtRkdOalgtemF0TEc1Zk1TZkZzZWRsSWRyZVRkSzhQN0NKd2lXV29ydzhqWExGMmJkbjQ0MXNEMk5DZ3B2SkRmU3RJeWxkOW9fMUdSM2VZQ1lNUjFKRjFaUHJQdkZRaTRwRWlxalRacEtsMVlsMUVqc1RDd3lB?oc=5",
+      "isNew": false
+    },
+    {
+      "id": "c08e992abe24",
       "title": "Are insurers making too many risky investment bets?",
       "source": "Insurance Business",
       "date": "2026-07-22T08:38:21Z",
@@ -175,136 +304,6 @@
       "topic": "Structured Credit",
       "summary": "",
       "link": "https://news.google.com/rss/articles/CBMivgFBVV95cUxOa2dJQ1pWVVRBQ3hoOHVTV0lWWTZPOFY3OG1IeHRpbHllVmFpSTJNbWpKYl9yUnA0Y2x4RWFtM0s2ZHJEaTRaSk9RQnV2eXhEYjdNRFNNdmxPSmRZajhGeUdKV1hfeUwxOEViVkJGaGZZWnREWkpoR1RNZDFsOVVKR3czSm9pU2NnU3o4T0IzN1VSeU9feGx3SzVVQ1dTTjZxdWE3WDdnLXNqT1JORTVFOFgxNktoVjVWeXdMZHp3?oc=5",
-      "isNew": false
-    },
-    {
-      "id": "6c8c78e7ba35",
-      "title": "The debate rages over insurance risk in private credit",
-      "source": "Private Debt Investor",
-      "date": "2026-07-21T17:21:14Z",
-      "topic": "Private Credit",
-      "summary": "",
-      "link": "https://news.google.com/rss/articles/CBMilgFBVV95cUxPamNBbXc2cU9pNHltLVcwZmkxbFZXVmpEaGMtaVVJVWM5QmZveDFXRTU2Nl80OGpoR1JVLXJFZjZmWE9CWW5odEdSNTRMUGdoMl9MVWJQSldiMkVDc1ViTmc2NUwzOFhROWJ2YnJ0M1B5LTFpR0hTUWR6RmlaMlFqaEJIN2pRX3A2emVMcmZGaXFBLVF1dlE?oc=5",
-      "isNew": false
-    },
-    {
-      "id": "93e332d99555",
-      "title": "Valuation Resets, New Entry Points: The Case for CRE Debt",
-      "source": "KKR: A Leading Global Investment Firm",
-      "date": "2026-07-21T14:28:19Z",
-      "topic": "Private Credit",
-      "summary": "",
-      "link": "https://news.google.com/rss/articles/CBMiWkFVX3lxTFBNU2h4ZjN4R2pKUFhuNkh1bV8xNlh4ZU8tMndLdk1fTmU1OVZUU3FyVm1RZmFaNlhXY3hIckNOSDAtOHVKWHotdDZkcGdIRk9KMVp2ZzlENWp4Zw?oc=5",
-      "isNew": false
-    },
-    {
-      "id": "e1de05d0c955",
-      "title": "Harel Insurance Investments and Financial Services to report second quarter 2026 financial results on August 26, 2026",
-      "source": "TradingView",
-      "date": "2026-07-21T14:07:00Z",
-      "topic": "Insurance AM",
-      "summary": "",
-      "link": "https://news.google.com/rss/articles/CBMiiAJBVV95cUxNb1RFTnZkSmQ3YzloUmFwTkhNYkc1bEhhS1ktZjZsUmdvak9yVU5jLUkyRXNnYWdJZ0dtQ05MWlg5bWZoZEtxLXYwN1pzaFk1eTRxTWZ6T2pjRmxqakdJVWtGU1lwUEpyWFp6VW5kbGpWY3cxa2d2eXE5Z0I3MWt0RkV4QnlVR1otODYxMXdySEdmcTY4QVZYNWc4Ui1xeXZFTHd6Q1Z4cm9vRlp5bEZVM2kzMUxDUjBSdGZ6bEQ2X0ViOXluNjFYZWoza0NBdW90TWFDcWs0X1hvNGhId3VsUk0wU3pHQlJlMU13SnI2WVJUb0UyekdlelZPRGhIQ3lRR1otUTBtbVY?oc=5",
-      "isNew": false
-    },
-    {
-      "id": "9f305bcb5d24",
-      "title": "Japan's Interest Rate Disaster",
-      "source": "Robin J Brooks | Substack",
-      "date": "2026-07-21T09:01:31Z",
-      "topic": "Rates & Macro",
-      "summary": "",
-      "link": "https://news.google.com/rss/articles/CBMic0FVX3lxTE9tOTU5bW1fNVFKMk1OMlFUdWVXVXBybThuMm9nZ2pxQmRabjN5RWUxT1BhS0ZEcVpNOHg5T1k1TzRuYU5PSnBiRm5seU9hcWFFZ2ltaElTQXBXY0FFeWNfTmVKeUpKQ3JJOVZ3S3pnTVZNMkU?oc=5",
-      "isNew": false
-    },
-    {
-      "id": "7c25c8e34c19",
-      "title": "NY Life investment arm steps up Japan private-asset push",
-      "source": "Nikkei Asia",
-      "date": "2026-07-21T06:59:00Z",
-      "topic": "Insurance AM",
-      "summary": "",
-      "link": "https://news.google.com/rss/articles/CBMingFBVV95cUxQM010aUtzM212M3RhTzNvVHljb1p1Y3ZvMHBJRmFLSWUxUkZ0NzJjQzlwbkV6NkNhcWxmcVlXSnFhYnZ3blJaRVVDMVlQSlV3VE5uelFhWktIWDdncGpKR1c2d3BBX08yeS1qR0k3YWpiZVdYNlFJWmtMSUpQNFpFQXZkV21XY00wVUdPbll1MTVIZ0tkdC1ORWVXWmh5QQ?oc=5",
-      "isNew": false
-    },
-    {
-      "id": "3c80dcd844ec",
-      "title": "Insurers Find Workarounds on Risky Debt as Regulators Play Whac-A-Mole",
-      "source": "WSJ",
-      "date": "2026-07-21T00:00:00Z",
-      "topic": "Structured Credit",
-      "summary": "",
-      "link": "https://news.google.com/rss/articles/CBMiugFBVV95cUxOYjBSbXdRMkVjVXJBVFdVVjZ1WUtKX0Q1U0xWbHdOUC1meWN5LWdSUExKRzNjMlQ3LTkwSUY5dVZ2UW9iR1VSS2VGTmlnY0pnZnYwei1WczJzR1E2RVlYQkhmd0pWSWRwdFlkM0M4SXlqU3FuMUxublp3VHB5VUktb3JWVjFpU0RiZXdzeEppeDFFRF9XRUR3QXZWM2U2UGNnM1NmOVJGbTBnUEJZdlhGeFE4YWU2M3IyNHc?oc=5",
-      "isNew": false
-    },
-    {
-      "id": "2295e5827a7f",
-      "title": "US probes insurers owned by billionaire Mark Walter over asset disclosures",
-      "source": "Financial Times",
-      "date": "2026-07-20T17:04:50Z",
-      "topic": "Insurance AM",
-      "summary": "",
-      "link": "https://news.google.com/rss/articles/CBMihAFBVV95cUxNTk45YWU2RWk3WnFBM1ZXVVhLQmltMm1NV3EyS1dZZUVnVDA2ZkpIREZzall2SFdpTjAzYlJjM0prX0ZnUUlERnRGcFFEWld5cWJQbGxaZ1pya29MX1FiUWQ1UzhqbVFBcDBkaWNsYzVXTldWalB2Tmk4dkliVC1PV05FR04?oc=5",
-      "isNew": false
-    },
-    {
-      "id": "3487cf13fe62",
-      "title": "Private credit vs. public bonds: What are insurers seeing that\u2019s prompting a portfolio pivot?",
-      "source": "Wealth Professional",
-      "date": "2026-07-20T10:57:58Z",
-      "topic": "Private Credit",
-      "summary": "",
-      "link": "https://news.google.com/rss/articles/CBMi-gFBVV95cUxON1pUMjhOSGVGUGV4Nkh3VjRDZEZ6UUpQTEhxVmE5alVucm5ZcjZjTFBNLW5KdHAtSEdWTFhENmpfa19SZWM0TnFoMDZNM2MtM1FmOUN5MXdTNDR3cVB0OVNzT1hFU0JrdXBiY2lnUkhrWnFONWZHa3A0ckowZWlwZ2Uyd3VzNUU4M1hBenlGM2p5a1JYekUtei1OcEtFeFlCdDBCSVZ1d19OR3VmbmlvTEFob0VQWnpwREhiNi1Pb3AzdkN6ODY3RGpQcjdzQmpMQ3YyNU5XamtXNFFEZ05TZk9jQ3BUcldybks3azNmbVRLY1NNMllHbkFB?oc=5",
-      "isNew": false
-    },
-    {
-      "id": "edca4297b11b",
-      "title": "UK pension insurers raise exposure to opaque private credit",
-      "source": "Financial Times",
-      "date": "2026-07-20T04:02:10Z",
-      "topic": "Private Credit",
-      "summary": "",
-      "link": "https://news.google.com/rss/articles/CBMihAFBVV95cUxOM29zajh4R2pLRUh5TXFPVlpOc0JjYmFjaFhGTGFlY1VIbE5ndTdXRFc0T1M2RmtiYmc5QmlJcmJDbF9tLXdHQzJPQmdQNUQ4UHE2NGNwUGJhVWw4RVlVZVpyT2Y0ODFyWHJaWGpHNHZMUTRfck43dmFMejR2LVFhRUEyNXg?oc=5",
-      "isNew": false
-    },
-    {
-      "id": "341773777abc",
-      "title": "The new Fed boss is tight-lipped. That might upset the markets",
-      "source": "Financial Times",
-      "date": "2026-07-20T04:01:57Z",
-      "topic": "Rates & Macro",
-      "summary": "",
-      "link": "https://news.google.com/rss/articles/CBMihAFBVV95cUxQaHBjZGNTSkh3eUU5eHlSZ1hKZnRPSzJ3cU9YZnItZHNkUGwybU5Vc2taNVBYY0JkTUxUcHZRMldybXZWc3U1VXlXWTB6d1hHOUhtUmp3RXpJYWM5cU5tdEI4amQ1SFVjS1JOUGVaTlJOdHB0RjMxRHhqZl9oemZBNmFkY3g?oc=5",
-      "isNew": false
-    },
-    {
-      "id": "f75b6a77765a",
-      "title": "Scenario and Sensitivity Analysis: U.K. Bulk Annuity Insurers' Private Credit Exposure Set To Remain Manageable",
-      "source": "S&P Global",
-      "date": "2026-07-20T03:58:00Z",
-      "topic": "Private Credit",
-      "summary": "",
-      "link": "https://news.google.com/rss/articles/CBMigwJBVV95cUxPRnVOMUthUHNpdzJsMC0yTmdBS1RydERGZl9ycEJOd3dTSEUzd3lIYmJoR2E5UmM3eTI4WU5KRFpoOFAzOGFKS1dCWkpiTE5tcU9DMDVIM1pRN2tUbkNPTmZEZlZTSVdSaUpoNkhfREN2WXlOUjFYQzExS0lRNy1hVWlPZjM1cV83MU90OFhZUTBLN2JjYjB0VTRjcVRQSGlNc2c4aEFrT1pnNUxaLTRHVWljbTFlc2dtQ1YxU0YxYll4YXN4STY1LTJJVGVQc3FESDZGU2IxVTRDUVRGdm5GUlBabVFsQ1d6dFlVelpwSkpaczBiZGIwYkpsN3R1bjU1b2g0?oc=5",
-      "isNew": false
-    },
-    {
-      "id": "0229792875d1",
-      "title": "Asia plays part in $129t global credit market pool",
-      "source": "Asian Banking & Finance",
-      "date": "2026-07-20T01:00:00Z",
-      "topic": "Private Credit",
-      "summary": "",
-      "link": "https://news.google.com/rss/articles/CBMimwFBVV95cUxQdEhidEx6NXVwVnQ1Wkpyak5OT2ZOQjBhMS05eUI5S3VLMFpoX1VDbUdhZzFZSThHYVBkNy1FbmdnUWZ2ZmpyLU9JTTV0ZVpJajB5dHFmUjhqYV8yUGQybEZTWnRYQktWTlYtWU9WemJvaHpnalVjRkFhZnI5c29qb3lRX0hRdXNjX3RHa0JWcmlKN1ZLQTZhNU56SQ?oc=5",
-      "isNew": false
-    },
-    {
-      "id": "006e2409d416",
-      "title": "Wall Street's new private credit play draws investor demand, regulatory scrutiny (ARCC:NASDAQ)",
-      "source": "Seeking Alpha",
-      "date": "2026-07-19T21:08:07Z",
-      "topic": "Private Credit",
-      "summary": "",
-      "link": "https://news.google.com/rss/articles/CBMitwFBVV95cUxOdE5YZlZHN1RjVFYxWHBoc1V3cGhtUjduczAzWVM5NDdlTGVlaFQ2cE8ydVlZY2RId3B2dnpnYlJBU3dyb2M3SHY0VDduUFpLTGZucTU4X0NHbTlnemNtUjRoWC15WGpTTkZvVmEzTjRuVDVYMDBObmJHbW50c25EVlVudUlqcHFKSlhTdDNUWUUyN2RYSDlZdFpzbWdLcDBrSGc1NEdjNldYR2lZOEp0bHZyX0RtQlk?oc=5",
       "isNew": false
     }
   ]
