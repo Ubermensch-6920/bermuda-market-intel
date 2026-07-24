@@ -1,5 +1,5 @@
 {
-  "updated": "2026-07-24T14:36:34Z",
+  "updated": "2026-07-24T17:02:28Z",
   "naic": [
     {
       "id": "248d58583747",
@@ -113,6 +113,16 @@
     },
     {
       "id": "4d062861f6db",
+      "title": "CIRCA rejects Apollo claims over Cayman's reinsurance standards",
+      "date": "2026-07-14",
+      "cat": "General",
+      "summary": "",
+      "source": "Insurance Business",
+      "link": "https://news.google.com/rss/articles/CBMi2gFBVV95cUxOWEI0T3hNdnh5M0U2ekhDYWJRRnplN3g1ZDVheG9NRUZwR2lxUjJaVDhLSkFGdjRWWENGRkJVVjJwQ0FMY05KenJha1JHZkd3em0wczVrOXFYbks4UGxfQUg0NDJQUVlQQ0hVOFNGWmsyMXM5NFlTV3F2YmlxbWQ3alZDcHQ1ajktRUhnTkdNX3Bia1dON3RVSGdqa1I1ZzNlWnNCX0Y5VU5SR2lpanlhSjRvc1pWUFlHN3FxbkZtM0NUVXc5NlRlWHAtTUoxX3lTTEdiYUpDTnZTUQ?oc=5",
+      "isNew": true
+    },
+    {
+      "id": "3d636c9868a5",
       "title": "CIRCA rejects Apollo claims over Cayman's reinsurance standards",
       "date": "2026-07-14",
       "cat": "General",
@@ -240,16 +250,6 @@
       "source": "repairerdrivennews.com",
       "link": "https://news.google.com/rss/articles/CBMilwFBVV95cUxORUZCS2FIcU9mMmFMRFRBSGh0UDIwLUFmX3ZzNVQtbVlSUjl4VUpJc21nVXZWY2pLZHlYNmZFajBaN2dtV1dYWnhoR18wQUJFS01jZTQ4d0NsaGM4cnBveFJhUDBpYlNoeE5lNUpJaU9GU2tHU2htLTZSTWxLcVlJc0U0UkxobVd3VEJKSTJLZVNEcllXcGE0?oc=5",
       "isNew": true
-    },
-    {
-      "id": "6dc0ada062ce",
-      "title": "Insurance Regulators Group NAIC Hit in Oracle PeopleSoft Hack",
-      "date": "2026-06-30",
-      "cat": "General",
-      "summary": "",
-      "source": "Security Boulevard",
-      "link": "https://news.google.com/rss/articles/CBMiogFBVV95cUxOWEpCVmx6T2JJM0t1Ty1PTDlFRTBCMERNTGdTMUpuREo2MzBCaWhDTGNRZ1AyWTJiZzc3TnBWVjJPNkRjZXQyRlJDVUVncFZqT2tGRGRnOEJrcV9DRTVyZDBGZTFaTkxkVlZWNnZUMjNtdXBWaEZKdy1TT00ycHVUT3BtRnBFYWp0ZEQ1V19Qbm5BQkVnYUNodHM0YVFNS3JObXc?oc=5",
-      "isNew": true
     }
   ],
   "bma": [
@@ -305,6 +305,16 @@
     },
     {
       "id": "80d7c58ffdd4",
+      "title": "BMA warns of payment scam",
+      "date": "2026-07-22",
+      "cat": "General",
+      "summary": "",
+      "source": "Royal Gazette | Bermuda",
+      "link": "https://news.google.com/rss/articles/CBMinAFBVV95cUxQU1lGemdXaEtnZnJpNXNMeHR1dU41NWhTUlZOOTJFaFlmYWFQTXp6Zm1Yd1JIZF83NjB2NWVFT0MzZ0F4djdXelcyOHVjTVNaRXhpVFowZzlUdzQ0dENnNkJHeFVSdnJZazdsMFlWUUZJSVN4dWdlZHVTOFA4R0JDSWlHVnRYdmVXNWNadU14M2g5eGpLYkxMNFZocUI?oc=5",
+      "isNew": true
+    },
+    {
+      "id": "b543b79b2e95",
       "title": "BMA warns of payment scam",
       "date": "2026-07-22",
       "cat": "General",
@@ -390,7 +400,7 @@
       "cat": "General",
       "summary": "",
       "source": "Captive Insurance Times",
-      "link": "https://news.google.com/rss/articles/CBMi5gFBVV95cUxQMWp5NXdFel9yRkpmS2hURGlMS0ljdV9lRFJjbWZkTUdSZW4xQmNLa1VWSVV1a012clYteFZtWGRKTXNvNmNSUVdaUFYxT0tpZ0lxQlFhNWxkOWZmRDl3RXlhZmFnR0pSWXdUSkd4dmVQb3I2VmdfMWZqa1ZFZGY0dTRkTFpIUHBnSmpOanVFZ1I1cjlSYVM4bEJvWW5Ib1JVbEJ2VmNNQkdyRHQyeVZUa3cyNlA4bG10bTNFR05sLV9DdFl6blZyZlhLLXNkQTBEV29HQy0yRExLN0YxRmxEdlg2Snl5Zw?oc=5",
+      "link": "https://news.google.com/rss/articles/CBMi5wFBVV95cUxPdC1DdnlFaGk2c1ZrMURsbHU2NW5XZzl3Q0NWV0d5cEh6SmhCMmxqVmdJYVZYV2NBVEZLUHpWc2t2OEdxeF9zU1AyRlpKYXVMWmNPVjZESVY2a3VqaXJQQ0JDbWgydlIzMm0zVGNfb2dLdklnOFg0NnhVZ1ZNclJsLXNhNEVjcGZpWnRKZ2tIb01ORGp3RE9vejU5THRId1VTREJaZEJRblVIcHBiVG15c1VvT0l5NFlIeG5EWENTendhWFAxSWF2d2pOMjJmNmFSVXFEYmFBb0lGZEI1RWpOTHMtNjM0aDQ?oc=5",
       "isNew": true
     },
     {
@@ -491,16 +501,6 @@
       "summary": "",
       "source": "Captive Insurance Times",
       "link": "https://news.google.com/rss/articles/CBMi6wFBVV95cUxQWDdqUWsyTHdMNFk3LXNJVHhDS3Q1MXI4SnRKVV9fT1pPT0c4dXNKYzJ3MXByS0ZVUU5hTUthOE9iUGpCMlh0dUdVZXRBMTZiX2R5UU9ZU2M4MXZRVnVEY1ByTDNVMWQ0cjE0S1p3cGlZOXdaLUEwVzB2eGFLZFZWN044aldBQXM0MFRQUUpKT2g1UGdKd2l0azZZaFpfWS1uSXJqbkpmSzVQYWFtZGtYSUhJSF8wMUtnSzYzcl9vSmJ6VlA3OXBQTjdPOXI3ZnZTUlV6ZDdwWXhzaVFsaWVaajh0MTJpWk42eDNR?oc=5",
-      "isNew": false
-    },
-    {
-      "id": "3c386112a75d",
-      "title": "Bermuda regulator expands conduct rules and tightens investment principles in consultation package",
-      "date": "2026-06-12",
-      "cat": "Investment",
-      "summary": "",
-      "source": "Captive Insurance Times",
-      "link": "https://news.google.com/rss/articles/CBMi8AFBVV95cUxQbVcxdHhuSTZsN0tEem1qdFZfbjl6SGpJQ1ZzWlJqdURDYVZvNE5TaU5nRkpFMUdmaVVuUGRremw0U2VEa283eGNKOF9TTlpqRlJod2pUUzQtejdTVU5LTk5KWFpvTkE3TDZMNThWdmlWZ01nWWl3TVNtT0EtS0J2RUlVemdrb2N6bURsV2NOV0tRZXlJMWZsY3JWeGNsOFZBVTBfUjJNVjhHN0ZETlluakJCcnpOc1hiUDk4TjRERVpoNnhwZ2J6SEpSSDdNWXh2UnVuUlUyVDlMbzA1ZS1Fcmo0ZWpESG1aNVhUQ3RzdnQ?oc=5",
       "isNew": false
     }
   ],
