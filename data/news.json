@@ -1,5 +1,5 @@
 {
-  "updated": "2026-07-24T22:22:31Z",
+  "updated": "2026-07-25T03:42:10Z",
   "topics": [
     "Insurance AM",
     "Private Credit",
@@ -88,16 +88,6 @@
       "isNew": false
     },
     {
-      "id": "ba0c00389f04",
-      "title": "Investors want a bigger reward for lending money",
-      "source": "Axios",
-      "date": "2026-07-24T12:02:20Z",
-      "topic": "Rates & Macro",
-      "summary": "",
-      "link": "https://news.google.com/rss/articles/CBMickFVX3lxTE85ZG84U2hsM0ozMFFVRGVtWldJM0dQeFUtQ3N1RFZuampzdDR4RkdZM2FmWUNWVXBGQndBcmgwV3F0ZjJHc29MSlFxZjRHb09FR1V4c2hmZDRpRmhFTzViTEdBemEwOFN5ZzEyMFQ3dXpudw?oc=5",
-      "isNew": false
-    },
-    {
       "id": "f8368f0629b5",
       "title": "Sun Life\u2019s Asia asset management chief exits",
       "source": "Private Debt Investor",
@@ -145,6 +135,16 @@
       "topic": "Rates & Macro",
       "summary": "",
       "link": "https://news.google.com/rss/articles/CBMi4AFBVV95cUxOVjlhVHBvaFBqMWVQamdrMkhScFZ4dkZFVWdpU3VRcWFrVUVVSnh0ZDM4aFByamJDMFAzMFRjZmxDWGVzSWdkNDdDNGNELVBNU3pXMFBZTlpZNjZRc1pJSEVfMG5FRjhDZmZwZVNSTEVWdWVXdTRuUXpKQXhlRWVpUEx4UmZwcWFnbEg3RVE1SnNJVEhGQkQzT2F2NDVNVE5uaTZ2OXpKUVRVRDBkOUxscHRENHdUZTA5dkhMX0FyTl9DaDZiY2JPTUdVenBaX0xha2NkTndGbVB3QVluVFZvNw?oc=5",
+      "isNew": false
+    },
+    {
+      "id": "ba0c00389f04",
+      "title": "Investors want a bigger reward for lending money",
+      "source": "Axios",
+      "date": "2026-07-23T16:18:02Z",
+      "topic": "Rates & Macro",
+      "summary": "",
+      "link": "https://news.google.com/rss/articles/CBMickFVX3lxTE85ZG84U2hsM0ozMFFVRGVtWldJM0dQeFUtQ3N1RFZuampzdDR4RkdZM2FmWUNWVXBGQndBcmgwV3F0ZjJHc29MSlFxZjRHb09FR1V4c2hmZDRpRmhFTzViTEdBemEwOFN5ZzEyMFQ3dXpudw?oc=5",
       "isNew": false
     },
     {

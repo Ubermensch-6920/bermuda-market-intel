@@ -1,5 +1,5 @@
 {
-  "updated": "2026-07-24T22:22:31Z",
+  "updated": "2026-07-25T03:42:10Z",
   "naic": [
     {
       "id": "c7857b7ecda4",
@@ -464,6 +464,16 @@
       "isNew": true
     },
     {
+      "id": "9caf89750515",
+      "title": "BMA Releases 2025 Annual Report",
+      "date": "2026-07-03",
+      "cat": "General",
+      "summary": "",
+      "source": "Bernews",
+      "link": "https://news.google.com/rss/articles/CBMibEFVX3lxTE1ndUMwb19HYU9HOFA4emVfelZra0FLbmZabXVwaHRtZ211SFJ2M3J0WnpDWi1Wb1dlTU1sdHNaR3M3aTJlMC1VUDJPNkthX0x4WmpQcUQwRi1EemsxVjM5UEJvTzByUDJ3cTdTdw?oc=5",
+      "isNew": true
+    },
+    {
       "id": "eb30e015210a",
       "title": "Investment fund wound up for repeated rule breaches",
       "date": "2026-06-30",
@@ -491,16 +501,6 @@
       "summary": "",
       "source": "Insurance Business",
       "link": "https://news.google.com/rss/articles/CBMiwAFBVV95cUxQdUdlYmx3eFkyMjR0RjZyZ1NyelVTd2tHWS03UktvMW92ZWhybEhUcFpHZEthNXhLVVFERFVjdE1DRnZpbmtEbGQ1RTFCUDg1YkRJTzF2NmVHbXYwaXR5aEI5WWhfNDBQcWsteTZNVk4tMEszbXdOTzNsUUFRSG0zLWhtQ0d2SVVRZlViQlhkYzVIYW5WSGpudVptZGFfUUVMR3IxU055X0o1dzV6ekxzY0VxLWJkT281dHdRNUVrZTQ?oc=5",
-      "isNew": false
-    },
-    {
-      "id": "acf626ac360d",
-      "title": "Bermuda regulator expands conduct rules and tightens investment principles in consultation package",
-      "date": "2026-06-12",
-      "cat": "Investment",
-      "summary": "",
-      "source": "Captive Insurance Times",
-      "link": "https://news.google.com/rss/articles/CBMi6wFBVV95cUxQWDdqUWsyTHdMNFk3LXNJVHhDS3Q1MXI4SnRKVV9fT1pPT0c4dXNKYzJ3MXByS0ZVUU5hTUthOE9iUGpCMlh0dUdVZXRBMTZiX2R5UU9ZU2M4MXZRVnVEY1ByTDNVMWQ0cjE0S1p3cGlZOXdaLUEwVzB2eGFLZFZWN044aldBQXM0MFRQUUpKT2g1UGdKd2l0azZZaFpfWS1uSXJqbkpmSzVQYWFtZGtYSUhJSF8wMUtnSzYzcl9vSmJ6VlA3OXBQTjdPOXI3ZnZTUlV6ZDdwWXhzaVFsaWVaajh0MTJpWk42eDNR?oc=5",
       "isNew": false
     }
   ],
