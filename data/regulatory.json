@@ -1,5 +1,5 @@
 {
-  "updated": "2026-07-25T08:27:57Z",
+  "updated": "2026-07-25T10:48:11Z",
   "naic": [
     {
       "id": "c7857b7ecda4",
@@ -132,6 +132,16 @@
       "isNew": true
     },
     {
+      "id": "7221ee7f0ce8",
+      "title": "When even the safest insurance companies aren\u2019t safe - MassMutual",
+      "date": "2026-07-16",
+      "cat": "General",
+      "summary": "",
+      "source": "roddubitsky.substack.com",
+      "link": "https://news.google.com/rss/articles/CBMigAFBVV95cUxPQkdyXy05aEVxb00zbjM2RjB4UXJuVFk1SjlRQW8xNl9NX084NU1Hc1A3WmhFWWtfOU1MT3RkemMzWllKa3I0QmhCYlloRGladHVCUVQ1YVY4bmdZRXJPV2ExTDlIQ3lhREpVR2h2MU40RmY1VkJzUENUa1U5dnBkUg?oc=5",
+      "isNew": true
+    },
+    {
       "id": "4d062861f6db",
       "title": "CIRCA rejects Apollo claims over Cayman's reinsurance standards",
       "date": "2026-07-14",
@@ -239,16 +249,6 @@
       "summary": "",
       "source": "Mayer Brown",
       "link": "https://news.google.com/rss/articles/CBMi9AFBVV95cUxPN2g4aUN3WjdFYWtBWF9MU29ncHRjc2l0QVhhc3JFN3A3R3FINENEZFFlSnEyaEVCM3ZiRHVyWFRnR3M4QUdLc0RydkhPQnZyakV0NXZXZWhqbHRJWmtxbTFvcEdaeFlmbkpQeV9VV0YxUzFKVEhlRzRvZmpJQzNkV0g1dFEySHJhTUVPOTZ4LXJxTnBGb05LOVpZSlh1Z21oaW5wM2pRa1A3aU9fTDRkRmlvZGFJMWJkZlQ4N2dpZW9FeHFqZTYzWVQ1WlZOMXFsT3czdHJvZ2s3eHBIcEwwcHByR0wwRGZ5ZkhNbFVIWVlBVXZN?oc=5",
-      "isNew": true
-    },
-    {
-      "id": "c9196bead841",
-      "title": "Life Insurance Statistics, Data and Industry Trends",
-      "date": "2026-07-01",
-      "cat": "General",
-      "summary": "",
-      "source": "Forbes",
-      "link": "https://news.google.com/rss/articles/CBMihgFBVV95cUxPLTNaZ0FrbFNWSURWRnJ3QmZ6Wm1BNC1ZUy1ZVzRrUDFVWlgzNGdHZzJpbTREX05YYUNuTmN5YlJPd3NvTDFSaUt1LWFjZVVjUlM1TExCaUhPdzc5M3VsMzA5VVdubkh3SWMxbkNieWp0MDNSMGI4T2JXY3V6OXB0MnJBQlI3QQ?oc=5",
       "isNew": true
     }
   ],
@@ -484,17 +484,17 @@
       "isNew": true
     },
     {
-      "id": "4231bbf6ed1d",
-      "title": "HCI joins tokenized catastrophe risk market",
-      "date": "2026-06-19",
-      "cat": "General",
+      "id": "c03bdb1ab8ab",
+      "title": "Investment fund wound up for repeated rule breaches",
+      "date": "2026-06-30",
+      "cat": "Investment",
       "summary": "",
-      "source": "Insurance Business",
-      "link": "https://news.google.com/rss/articles/CBMiwAFBVV95cUxQdUdlYmx3eFkyMjR0RjZyZ1NyelVTd2tHWS03UktvMW92ZWhybEhUcFpHZEthNXhLVVFERFVjdE1DRnZpbmtEbGQ1RTFCUDg1YkRJTzF2NmVHbXYwaXR5aEI5WWhfNDBQcWsteTZNVk4tMEszbXdOTzNsUUFRSG0zLWhtQ0d2SVVRZlViQlhkYzVIYW5WSGpudVptZGFfUUVMR3IxU055X0o1dzV6ekxzY0VxLWJkT281dHdRNUVrZTQ?oc=5",
-      "isNew": false
+      "source": "Royal Gazette | Bermuda",
+      "link": "https://news.google.com/rss/articles/CBMiygFBVV95cUxNZ3BKTUhMdEtodG1Ob3habzVsSi12NXZFRUh3SmZnd0pYUHJiU1JfWkozU2tOdFpXUmFtbWxpdUZPS0UzdUNqQmlFWmFFMERpWEpFVUNWVS11dERBRDY4aGtLQjNXWnI4ajAxQm1MdVpzZC10b2lXYl9QN0tVUy1LaUJaRnprYTNkdzRUcFBQOENxdWNZRm5kc0E2N1pKUklDOFh2dHRsUlVmX3YxZ3B3aGxLUWE2Z2V0Z3loYzdFSnNXU3g0RjdaMlV3?oc=5",
+      "isNew": true
     },
     {
-      "id": "42339fdf3aa4",
+      "id": "4231bbf6ed1d",
       "title": "HCI joins tokenized catastrophe risk market",
       "date": "2026-06-19",
       "cat": "General",
