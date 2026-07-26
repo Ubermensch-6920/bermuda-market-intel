@@ -6,7 +6,7 @@
     "spot_date": "",
     "spot_source": "TradingEconomics",
     "unit": "USD/troy oz",
-    "prior_1d": 4067.6,
+    "prior_1d": 4070.8,
     "prior_1d_date": "2026-07-24",
     "prior_1m": 4078.7,
     "prior_1m_date": "2026-06-26",
@@ -346,5 +346,5 @@
     }
   },
   "note": "Spot history comes from daily FRED series. Futures history is roll-aware by target date. USD/INR latest spot: FRED DEXINUS, then Yahoo INR=X / keyless FX APIs when FRED lags; forwards fall back to CIP derivation from India/UST curves when market quotes are unavailable.",
-  "_fetched": "2026-07-26T03:59:19.163844Z"
+  "_fetched": "2026-07-26T08:42:35.708961Z"
 }
