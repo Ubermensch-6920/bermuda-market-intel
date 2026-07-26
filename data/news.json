@@ -1,5 +1,5 @@
 {
-  "updated": "2026-07-26T16:18:22Z",
+  "updated": "2026-07-26T19:38:59Z",
   "topics": [
     "Insurance AM",
     "Private Credit",
@@ -7,16 +7,6 @@
     "Structured Credit"
   ],
   "items": [
-    {
-      "id": "f6d0fca15b39",
-      "title": "Private credit roundup: Insurers step up as liquidity pressures build",
-      "source": "whbl.com",
-      "date": "2026-07-25T10:18:52Z",
-      "topic": "Private Credit",
-      "summary": "",
-      "link": "https://news.google.com/rss/articles/CBMingFBVV95cUxNY0hlTWNNeUFvcG1BdXRybHEycmFSbUxQZDFPaFdpNEYwM09DNWdtVGRyRS1ETlFmTDNzZVBYMk9xM2pPTmJOYmdrY0RxWExOclg3c1VlWVJKV05fRHJEREctSHUzZm1ydXZGb2ttWmVGRDJWMkw3eG1hb0gxeW9EMEQxa3lEWlhxWmpvTi0zcTk3ck9LMEVZSm5XV0g4dw?oc=5",
-      "isNew": false
-    },
     {
       "id": "2d9555d14bd4",
       "title": "Insurers boost private credit allocations despite liquidity and regulatory concerns",
@@ -45,6 +35,16 @@
       "topic": "Private Credit",
       "summary": "",
       "link": "https://news.google.com/rss/articles/CBMiwwFBVV95cUxPVTdqbWRnZkxfWkNKdDMyYWpOR3FtQU1UTnAxOUlTVWtIaDJZVTJuemRZMG5mdjU3dHd3aDFqVnBnYmVmM2hjWU9TaWU0MFlqYU5fZEhmNExmeGV0QnhyLTNDczBONW9RNkZfaTJOU3g3YjdxQnpkaERCSWg0azlDRWt3cDFhTWxZMjh3bGd6SGkyRTZzb2gxT2l2dTV5V0FISHBhVHhmQnJLYUR0ZWJsMkhSZXQtblY3MGZqMjRLSW9JY28?oc=5",
+      "isNew": false
+    },
+    {
+      "id": "f6d0fca15b39",
+      "title": "Private credit roundup: Insurers step up as liquidity pressures build",
+      "source": "Reuters",
+      "date": "2026-07-24T17:55:28Z",
+      "topic": "Private Credit",
+      "summary": "",
+      "link": "https://news.google.com/rss/articles/CBMivgFBVV95cUxONEFTNDZnVlFpUjVFSC1LU0ZmWU1MaEFaN21kb2RQWThjc096NFFqa1d3YnVodkwycWVkQkt1VWZ3Smk5dlk2TXhoNUl5MHZHX0hMS1FNUUplc1B1TEJQbW0tTmpMMVRMNl9aUjI4NVhWVjFKTlZYdjNQX3ZZYXpLc0ZxTXh5MDNfUmhZWDFMOUFlQ3pYOUc4OUUwS2ladC1rRk9IZnNvRzFyOTB0ZUtvU2lhX0ZWNndZRUNMaUxn?oc=5",
       "isNew": false
     },
     {
@@ -125,6 +125,16 @@
       "topic": "Insurance AM",
       "summary": "",
       "link": "https://news.google.com/rss/articles/CBMisAFBVV95cUxOVlc1dFVFNHU1VGhCZXJJbHNncTd0NFRrekpZUTByYzdpNWpvVVJaYmRHUFhmWG9MQllUWEFrVTNNMzQ2d19qNncxUGxic3hrQUNPanpybkdZTzFPWFg2TU1KcUVoSTBzV1hrRUkyRWNCZlRsTjhaaWV6TFpMTjN0a1hrVk5aOG9ucDQ2bXZjZmt3c2FfbXpuNWxmQWNDS3FzUVFrOXpsWFozeVhJRi1FeA?oc=5",
+      "isNew": false
+    },
+    {
+      "id": "e2f04b249b85",
+      "title": "Samsung Life Insurance will re-embrace its New York and London subsidiaries, which it handed over to..",
+      "source": "\ub9e4\uc77c\uacbd\uc81c",
+      "date": "2026-07-24T07:42:24Z",
+      "topic": "Insurance AM",
+      "summary": "",
+      "link": "https://news.google.com/rss/articles/CBMiUkFVX3lxTE9jcXVJblNNTW1rQjY3ZmZna2lGbHhIa3ozN05WdlB3OU1MMkJ4cG56RGh5dlBjd003aVZqdDU1UGpLTWh5NjBKbDhZU2JBYkxiWEE?oc=5",
       "isNew": false
     },
     {
@@ -289,16 +299,6 @@
     },
     {
       "id": "daafe7e890e8",
-      "title": "Gold falls 2% as Middle East tensions fuel inflation fears, rate-hike bets",
-      "source": "CNBC",
-      "date": "2026-07-23T04:24:09Z",
-      "topic": "Rates & Macro",
-      "summary": "",
-      "link": "https://news.google.com/rss/articles/CBMinAFBVV95cUxNclNiNkJ5eXdWMGFHWVNjY0h3LU9hMVdFV1UzOXQ0ZmVURWkwWFYzQkVhN0tkUXpMWmdyTkFfZ1FnZzBXeUR4bmVwWVVsNkdTMDdIbS0xLXdmWjBuODFJZHBOdTBKNHJZbEYyWE9PQ29tX2JteE9fbktPSWNsUE5NTXYydjNxLTA0cURDaWxNcnRubjNOcUR0ZFpwSTHSAaIBQVVfeXFMUFFhSE9fYmN0Vl9ZR0ZlVFRRSzJjb1Vkb2VWam9ObFZYNWs5Zk1ldzVQRFh5eHNsNmVsS1ZwbVFtZUpnS2RrQUUzeFRFQy1nSkRpZEpHMGVYanRXN2ROQmlsb2hvanUxUExVQ25fQ041Q2J3OEI2VVNmOXpHaUVlZERnYzBUZzdRY0ZNajByOEJzMVJ1UDUxNTRQdUQzMXdOc19R?oc=5",
-      "isNew": false
-    },
-    {
-      "id": "e01f3d0ed7ae",
       "title": "Gold falls 2% as Middle East tensions fuel inflation fears, rate-hike bets",
       "source": "CNBC",
       "date": "2026-07-23T04:24:09Z",
