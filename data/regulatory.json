@@ -1,5 +1,5 @@
 {
-  "updated": "2026-07-25T22:14:40Z",
+  "updated": "2026-07-26T03:59:57Z",
   "naic": [
     {
       "id": "c7857b7ecda4",
@@ -242,13 +242,13 @@
       "isNew": true
     },
     {
-      "id": "d9d94e46d8f4",
-      "title": "NAIC Capital Adequacy (E) Task Force Adopts Changes to Life Risk-Based Capital Factors for 2026 and 2027",
+      "id": "e3c68a5aa80c",
+      "title": "NAIC vote pulls private credit CLOs into new risk-based capital regime",
       "date": "2026-07-02",
       "cat": "Capital/Solvency",
       "summary": "",
-      "source": "Mayer Brown",
-      "link": "https://news.google.com/rss/articles/CBMi9AFBVV95cUxPN2g4aUN3WjdFYWtBWF9MU29ncHRjc2l0QVhhc3JFN3A3R3FINENEZFFlSnEyaEVCM3ZiRHVyWFRnR3M4QUdLc0RydkhPQnZyakV0NXZXZWhqbHRJWmtxbTFvcEdaeFlmbkpQeV9VV0YxUzFKVEhlRzRvZmpJQzNkV0g1dFEySHJhTUVPOTZ4LXJxTnBGb05LOVpZSlh1Z21oaW5wM2pRa1A3aU9fTDRkRmlvZGFJMWJkZlQ4N2dpZW9FeHFqZTYzWVQ1WlZOMXFsT3czdHJvZ2s3eHBIcEwwcHByR0wwRGZ5ZkhNbFVIWVlBVXZN?oc=5",
+      "source": "Structured Credit Investor",
+      "link": "https://news.google.com/rss/articles/CBMixgFBVV95cUxOMDZQUk5UR2J1MzVPYjJtOEtFa1RkVFA1eGVXN1VlOTJBSFVnd1JlQUFDZ1FrRmFKbjJmY0FFUUlOYWY2eU5pVURBM0ZXMGozWGNKS1U3YjdGQmhiRTVIMThJdldGTDd2UnBPYmcyWjl2el9EWDdKaHA2WXBodTQzSmUwUUxHeVB5MVhQZlpvMXdiYzNRcnlqc2NaVW53WkJLV0toTm81eHdYa0hVYzdZNzJuQ295ZUY0RUhUOW1hUEVvMTdmNUE?oc=5",
       "isNew": true
     }
   ],
@@ -603,7 +603,7 @@
       "summary": "",
       "source": "JD Supra",
       "link": "https://news.google.com/rss/articles/CBMiiAFBVV95cUxNcklMVDg1a1NLMjBGNy1fRHlST3Bra0JqYXhTR2VPdWpkdXdOa0IzVmNrbnlxdWE2eDRaNWVISmhwNUx5SS1WbWMwYUNSeEMweFdfOFFCWi0tdldldE9kZFpMSUNNT05TNzhhNFZYTjlMMXVUYXRmS1JwUVZaTDcyUWF6OVdIczUw?oc=5",
-      "isNew": true
+      "isNew": false
     },
     {
       "id": "c5329ca9c0a3",
@@ -613,7 +613,7 @@
       "summary": "",
       "source": "JD Supra",
       "link": "https://news.google.com/rss/articles/CBMiiAFBVV95cUxNcklMVDg1a1NLMjBGNy1fRHlST3Bra0JqYXhTR2VPdWpkdXdOa0IzVmNrbnlxdWE2eDRaNWVISmhwNUx5SS1WbWMwYUNSeEMweFdfOFFCWi0tdldldE9kZFpMSUNNT05TNzhhNFZYTjlMMXVUYXRmS1JwUVZaTDcyUWF6OVdIczUw?oc=5",
-      "isNew": true
+      "isNew": false
     },
     {
       "id": "a91ab91f1446",
