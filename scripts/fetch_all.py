@@ -2618,6 +2618,16 @@ def fetch_inflation():
     log.info(f"  inflation.json written ({len([c for c in countries.values() if c['yoy'] is not None])}/5 with YoY)")
 
 
+def _fetch_myga():
+    """MYGA new-money spreads by AM Best bucket (scripts/fetch_myga.py).
+
+    Imported lazily so a syntax or import error in the newest, least-proven
+    fetcher cannot take down the whole pipeline at module load.
+    """
+    from fetch_myga import fetch_myga
+    fetch_myga()
+
+
 def main():
     log.info("=" * 50)
     results = {}
@@ -2633,6 +2643,7 @@ def main():
         ("bma_rates", fetch_bma_rates),
         ("commodities", fetch_commodities),
         ("inflation", fetch_inflation),
+        ("myga", _fetch_myga),
     ]:
         try:
             fn()

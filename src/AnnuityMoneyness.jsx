@@ -13,6 +13,7 @@ import {
   benchmarkRate, analyseMoneyness, dynamicLapse, moneynessGrid,
   interpolateCurve, parseSchedule, scheduleAt, exitYearAnalysis,
   surrenderPeriodYears, SC_SCHEDULE_PRESETS, DEFAULT_VESTING,
+  RATING_BUCKETS, SPREAD_STATS, observedSpreadBp, observedSampleSize,
 } from "./annuityMoneyness.js";
 
 /* ═══════════════════════════════════════════════════════════════════
@@ -254,7 +255,7 @@ const DEFAULTS = {
   bench: "myga_arated",
 };
 
-export default function AnnuityMoneynessSection({ ust, credit, loading, error }) {
+export default function AnnuityMoneynessSection({ ust, credit, myga, loading, error }) {
   // ── Contract ──
   const [av, setAv] = useState(DEFAULTS.av);
   const [basis, setBasis] = useState(DEFAULTS.basis);
@@ -280,6 +281,8 @@ export default function AnnuityMoneynessSection({ ust, credit, loading, error })
   // ── Benchmark ──
   const [benchKey, setBenchKey] = useState(DEFAULTS.bench);
   const [spreadOverride, setSpreadOverride] = useState(null);
+  const [mygaBucket, setMygaBucket] = useState("aplus");
+  const [mygaStat, setMygaStat] = useState("median_bp");
 
   // ── Dynamic lapse ──
   const [dl, setDl] = useState(DYNAMIC_LAPSE_DEFAULTS);
@@ -317,8 +320,8 @@ export default function AnnuityMoneynessSection({ ust, credit, loading, error })
   );
 
   const { rate: marketRate, detail: rateDetail } = useMemo(
-    () => benchmarkRate(benchKey, n || 1, { ustTenors, ustYields, igOasBp, spreadOverrideBp: spreadOverride }),
-    [benchKey, n, ustTenors, ustYields, igOasBp, spreadOverride]
+    () => benchmarkRate(benchKey, n || 1, { ustTenors, ustYields, igOasBp, spreadOverrideBp: spreadOverride, mygaSpreads: myga, mygaBucket, mygaStat }),
+    [benchKey, n, ustTenors, ustYields, igOasBp, spreadOverride, myga, mygaBucket, mygaStat]
   );
 
   // Minimum guaranteed surrender value: 87.5% of premium accumulated at the
@@ -375,21 +378,22 @@ export default function AnnuityMoneynessSection({ ust, credit, loading, error })
       mvaEnabled: mvaOn, mvaIndexAtIssue: mvaIssue, mvaMarginBp: mvaMargin, mgsv,
       taxMode, taxRate, currentAge: age,
       bonusPct, vestingSchedule: vesting,
-      rateAtTerm: m => benchmarkRate(benchKey, m, { ustTenors, ustYields, igOasBp, spreadOverrideBp: spreadOverride }).rate,
+      rateAtTerm: m => benchmarkRate(benchKey, m, { ustTenors, ustYields, igOasBp, spreadOverrideBp: spreadOverride, mygaSpreads: myga, mygaBucket, mygaStat }).rate,
       ustAtTerm: m => interpolateCurve(ustTenors, ustYields, m),
     });
-  }, [ustTenors, ustYields, av, basis, g, n, schedule, free, freeOnFull, mvaOn, mvaIssue, mvaMargin, mgsv, taxMode, taxRate, age, bonusPct, vesting, benchKey, igOasBp, spreadOverride]);
+  }, [ustTenors, ustYields, av, basis, g, n, schedule, free, freeOnFull, mvaOn, mvaIssue, mvaMargin, mgsv, taxMode, taxRate, age, bonusPct, vesting, benchKey, igOasBp, spreadOverride, myga, mygaBucket, mygaStat]);
 
   const grid = useMemo(() => {
     if (!ustTenors || !ustYields) return null;
     return moneynessGrid({
       guaranteedRates: GRID_RATES, terms: GRID_TERMS, benchKey,
       ustTenors, ustYields, igOasBp, spreadOverrideBp: spreadOverride,
+      mygaSpreads: myga, mygaBucket, mygaStat,
       accountValue: av, basis, freeWithdrawalPct: free,
       freeAppliesOnFullSurrender: freeOnFull, mvaEnabled: gridMva,
       mvaMarginBp: mvaMargin, taxMode, taxRate, currentAge: age,
     });
-  }, [ustTenors, ustYields, benchKey, igOasBp, spreadOverride, av, basis, free, freeOnFull, gridMva, mvaMargin, taxMode, taxRate, age]);
+  }, [ustTenors, ustYields, benchKey, igOasBp, spreadOverride, av, basis, free, freeOnFull, gridMva, mvaMargin, taxMode, taxRate, age, myga, mygaBucket, mygaStat]);
 
   // Dynamic lapse response curve, evaluated across the plausible gap range.
   const lapseCurve = useMemo(() => {
@@ -464,6 +468,102 @@ export default function AnnuityMoneynessSection({ ust, credit, loading, error })
               );
             })}
           </div>
+          {/* Observed-quote controls — only meaningful for the live benchmark */}
+          {bench?.kind === "observed" && (
+            <div style={{ marginTop: 12, padding: "12px 14px", background: "#0a0c12", border: "1px solid #2a2d35", borderRadius: 8 }}>
+              {myga?.status === "ok" ? (
+                <>
+                  <div style={{ display: "flex", gap: 18, flexWrap: "wrap", alignItems: "flex-start" }}>
+                    <div>
+                      <div style={{ fontSize: 11, color: "#94a3b8", fontWeight: 700, marginBottom: 7, letterSpacing: "0.03em" }}>
+                        AM Best rating you will accept
+                      </div>
+                      <div style={{ display: "flex", gap: 5, flexWrap: "wrap" }}>
+                        {RATING_BUCKETS.map(rb => {
+                          const nQ = observedSampleSize(myga, rb.key);
+                          const on = mygaBucket === rb.key;
+                          return (
+                            <button key={rb.key} disabled={!nQ} onClick={() => setMygaBucket(rb.key)}
+                              title={nQ ? `${nQ} quotes observed` : "no quotes observed in this bucket"}
+                              style={{
+                                background: on ? "#22d3ee1f" : "transparent",
+                                border: `1px solid ${on ? "#22d3ee" : "#2a2d35"}`, borderRadius: 6,
+                                padding: "5px 12px", fontSize: 12, fontWeight: 700,
+                                color: !nQ ? "#334155" : on ? "#22d3ee" : "#94a3b8",
+                                cursor: nQ ? "pointer" : "not-allowed",
+                              }}>
+                              {rb.label}<span style={{ fontSize: 10, opacity: 0.7, marginLeft: 5 }}>{nQ || "—"}</span>
+                            </button>
+                          );
+                        })}
+                      </div>
+                    </div>
+                    <div>
+                      <div style={{ fontSize: 11, color: "#94a3b8", fontWeight: 700, marginBottom: 7, letterSpacing: "0.03em" }}>
+                        Where in the bucket
+                      </div>
+                      <div style={{ display: "flex", gap: 5 }}>
+                        {SPREAD_STATS.map(st => {
+                          const on = mygaStat === st.key;
+                          return (
+                            <button key={st.key} onClick={() => setMygaStat(st.key)} title={st.desc}
+                              style={{
+                                background: on ? "#1e2028" : "transparent",
+                                border: `1px solid ${on ? "#475569" : "#2a2d35"}`, borderRadius: 6,
+                                padding: "5px 12px", fontSize: 12, fontWeight: 600,
+                                color: on ? "#f1f5f9" : "#64748b", cursor: "pointer",
+                              }}>{st.label}</button>
+                          );
+                        })}
+                      </div>
+                    </div>
+                  </div>
+
+                  {/* The ratings ladder, priced. This is what the calculator could
+                      previously only warn about in prose. */}
+                  <div style={{ marginTop: 12, display: "flex", gap: 14, flexWrap: "wrap", alignItems: "baseline", fontSize: 11.5, color: "#64748b" }}>
+                    <span style={{ fontWeight: 700, color: "#94a3b8" }}>Spread at {n || 0}y:</span>
+                    {RATING_BUCKETS.map(rb => {
+                      const sp = observedSpreadBp(myga, rb.key, n || 1, mygaStat);
+                      if (sp == null) return null;
+                      const on = mygaBucket === rb.key;
+                      return (
+                        <span key={rb.key} style={{ color: on ? ITM_INK : "#64748b", fontWeight: on ? 700 : 500, fontFamily: "monospace" }}>
+                          {rb.label} {sp.toFixed(0)}bp
+                        </span>
+                      );
+                    })}
+                    {(() => {
+                      const top = observedSpreadBp(myga, "aplus", n || 1, mygaStat);
+                      const low = observedSpreadBp(myga, "aminus", n || 1, mygaStat);
+                      return top != null && low != null ? (
+                        <span style={{ color: "#475569" }}>
+                          · dropping A++/A+ → A- pays {(low - top).toFixed(0)}bp
+                        </span>
+                      ) : null;
+                    })()}
+                  </div>
+
+                  <div style={{ marginTop: 9, fontSize: 11, color: "#475569", lineHeight: 1.5 }}>
+                    {myga.quote_count} quotes · state {myga.state} · {myga.date}
+                    {" · "}<a href={myga.url} target="_blank" rel="noopener noreferrer" style={{ color: "#60a5fa", textDecoration: "none" }}>
+                      {myga.source} <ExternalLink size={10} style={{ verticalAlign: "middle" }} />
+                    </a>
+                    <div style={{ marginTop: 3 }}>
+                      Derived spreads only — carrier names and individual quotes are never stored or published.
+                    </div>
+                  </div>
+                </>
+              ) : (
+                <div style={{ fontSize: 12, color: "#94a3b8", lineHeight: 1.6 }}>
+                  <AlertTriangle size={13} style={{ verticalAlign: "middle", marginRight: 6, color: "#f59e0b" }} />
+                  No observed quotes yet{myga?.note ? ` — ${myga.note}` : " — the quote-board fetcher has not returned data"}.
+                  Use one of the calibrated benchmarks below in the meantime; their spreads are editable.
+                </div>
+              )}
+            </div>
+          )}
+
           <div style={{ display: "flex", gap: 20, alignItems: "flex-end", flexWrap: "wrap", marginTop: 12 }}>
             <div style={{ fontSize: 12, color: "#64748b", lineHeight: 1.6, flex: "1 1 380px", minWidth: 260 }}>
               {bench?.desc}
@@ -927,9 +1027,10 @@ export default function AnnuityMoneynessSection({ ust, credit, loading, error })
             expressing a rate view.
           </p>
           <p style={{ margin: "0 0 12px" }}>
-            <strong style={{ color: "#cbd5e1" }}>What this does not model.</strong> Carrier credit quality and state guaranty
-            association limits (typically $250k–$300k per contract) — a rate pickup earned by moving down the ratings scale is not
-            free. Also excluded: GLWB/GMWB rider benefit bases, which have their own moneyness and can dominate the account-value
+            <strong style={{ color: "#cbd5e1" }}>What this does not model.</strong> State guaranty association limits (typically
+            $250k–$300k per contract). Carrier credit quality is now partly priced rather than merely flagged: the observed benchmark
+            reports spreads by AM Best bucket, so the cost of moving down the ratings scale is visible — but the spread tells you what
+            the market charges for that risk, not whether you should bear it. Also excluded: GLWB/GMWB rider benefit bases, which have their own moneyness and can dominate the account-value
             comparison entirely; renewal-rate behaviour after the guarantee period, where a carrier&rsquo;s
             renewal rate rather than a new-money rate is the relevant comparison; nursing-home and terminal-illness waivers, which
             void the charge entirely; and any advice dimension beyond the arithmetic.

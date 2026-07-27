@@ -114,6 +114,14 @@ export const BENCHMARKS = {
     kind: "ust_plus_oas",
     creditRisk: "market",
   },
+  myga_live: {
+    key: "myga_live",
+    label: "Observed MYGA",
+    short: "MYGA (observed)",
+    desc: "Live quote-board spreads over Treasuries, bucketed by AM Best rating. Lets the rating you are willing to accept price itself instead of being a calibration guess.",
+    kind: "observed",
+    creditRisk: "carrier",
+  },
   treasury: {
     key: "treasury",
     label: "US Treasury",
@@ -125,15 +133,75 @@ export const BENCHMARKS = {
   },
 };
 
-export const BENCHMARK_ORDER = ["myga_arated", "myga_best", "competitor", "ig_corp", "treasury"];
+export const BENCHMARK_ORDER = ["myga_live", "myga_arated", "myga_best", "competitor", "ig_corp", "treasury"];
+
+/* Rating buckets, richest covenant first. Mirrors the buckets written by
+   scripts/fetch_myga.py — the two lists have to agree or the lookup misses. */
+export const RATING_BUCKETS = [
+  { key: "aplus", label: "A++ / A+" },
+  { key: "a", label: "A" },
+  { key: "aminus", label: "A-" },
+  { key: "bplus", label: "B++ / B+" },
+];
+export const SPREAD_STATS = [
+  { key: "median_bp", label: "Median", desc: "The typical carrier in the bucket — the honest default." },
+  { key: "top_quartile_bp", label: "Top quartile", desc: "What an engaged shopper realistically reaches." },
+  { key: "best_bp", label: "Best", desc: "The single best quote on the board. Optimistic: it may not be available in every state or at every premium size." },
+];
+
+/**
+ * Observed spread (bp) for a rating bucket at an arbitrary term, interpolated
+ * across whatever terms the quote board returned. Returns null rather than a
+ * guess when the bucket is empty — an absent observation must not silently
+ * fall back to a calibration constant, or the UI would claim to be showing
+ * live data while showing an assumption.
+ */
+export function observedSpreadBp(data, bucketKey, years, stat = "median_bp") {
+  const terms = bucketKey === "__all__"
+    ? data?.overall
+    : data?.buckets?.[bucketKey]?.terms;
+  if (!terms) return null;
+  const pts = Object.entries(terms)
+    .map(([t, v]) => [parseFloat(t), v?.[stat], v?.n])
+    .filter(([t, v]) => isFinite(t) && v != null && isFinite(v))
+    .sort((a, b) => a[0] - b[0]);
+  if (!pts.length) return null;
+  if (pts.length === 1 || years <= pts[0][0]) return pts[0][1];
+  if (years >= pts[pts.length - 1][0]) return pts[pts.length - 1][1];
+  for (let i = 1; i < pts.length; i++) {
+    const [x0, y0] = pts[i - 1], [x1, y1] = pts[i];
+    if (years <= x1) return y0 + ((y1 - y0) * (years - x0)) / (x1 - x0);
+  }
+  return pts[pts.length - 1][1];
+}
+
+/** Total quotes behind a bucket, for showing sample size next to the rate. */
+export function observedSampleSize(data, bucketKey) {
+  const terms = bucketKey === "__all__" ? data?.overall : data?.buckets?.[bucketKey]?.terms;
+  if (!terms) return 0;
+  return Object.values(terms).reduce((a, v) => a + (v?.n || 0), 0);
+}
 
 /**
  * Resolve a benchmark to a reinvestment rate (in %) for a given horizon.
  * Returns { rate, detail } or { rate: null } when the curve is unavailable.
  */
-export function benchmarkRate(benchKey, years, { ustTenors, ustYields, igOasBp, spreadOverrideBp } = {}) {
+export function benchmarkRate(benchKey, years, { ustTenors, ustYields, igOasBp, spreadOverrideBp, mygaSpreads, mygaBucket = "aplus", mygaStat = "median_bp" } = {}) {
   const b = BENCHMARKS[benchKey];
   if (!b) return { rate: null, detail: "unknown benchmark" };
+
+  if (b.kind === "observed") {
+    const base = interpolateCurve(ustTenors, ustYields, years);
+    if (base == null) return { rate: null, detail: "UST curve unavailable" };
+    const sp = observedSpreadBp(mygaSpreads, mygaBucket, years, mygaStat);
+    if (sp == null) {
+      return { rate: null, detail: "no observed quotes for this rating and term yet" };
+    }
+    return {
+      rate: base + sp / 100,
+      detail: `${years.toFixed(1)}Y UST ${base.toFixed(2)}% + ${sp.toFixed(0)}bp observed`,
+    };
+  }
 
   if (b.kind === "ust_blend") {
     const u5 = interpolateCurve(ustTenors, ustYields, 5);

@@ -5,7 +5,7 @@ import {
   interpolateCurve, tenorToYears, mvaFactor, cashSurrenderValue,
   analyseMoneyness, dynamicLapse, benchmarkRate, verdictFor,
   parseSchedule, scheduleAt, bonusRecapturedFraction, exitYearAnalysis, surrenderPeriodYears,
-  SC_SCHEDULE_PRESETS, DEFAULT_VESTING,
+  SC_SCHEDULE_PRESETS, DEFAULT_VESTING, observedSpreadBp, observedSampleSize,
 } from "../src/annuityMoneyness.js";
 
 let pass = 0, fail = 0;
@@ -196,6 +196,33 @@ console.log("\nguards");
 {
   check("zero remaining term ⇒ null", analyseMoneyness({ guaranteedRate: 3, reinvestRate: 4, yearsRemaining: 0 }) === null, "—", null);
   check("missing rate ⇒ null", analyseMoneyness({ guaranteedRate: null, reinvestRate: 4, yearsRemaining: 5 }) === null, "—", null);
+}
+
+console.log("\nobserved MYGA spreads");
+{
+  const obs = {
+    buckets: {
+      aplus: { label: "A++ / A+", terms: { "3": { median_bp: 80, top_quartile_bp: 100, best_bp: 120, n: 6 }, "7": { median_bp: 120, top_quartile_bp: 150, best_bp: 170, n: 8 } } },
+      aminus: { label: "A-", terms: { "5": { median_bp: 170, top_quartile_bp: 200, best_bp: 230, n: 4 } } },
+    },
+    overall: { "5": { median_bp: 130, top_quartile_bp: 165, best_bp: 230, n: 18 } },
+  };
+  check("interpolates between observed terms", near(observedSpreadBp(obs, "aplus", 5), 100), observedSpreadBp(obs, "aplus", 5), 100);
+  check("exact term node", near(observedSpreadBp(obs, "aplus", 7), 120), observedSpreadBp(obs, "aplus", 7), 120);
+  check("flat below the shortest term", near(observedSpreadBp(obs, "aplus", 1), 80), observedSpreadBp(obs, "aplus", 1), 80);
+  check("flat above the longest term", near(observedSpreadBp(obs, "aplus", 30), 120), observedSpreadBp(obs, "aplus", 30), 120);
+  check("statistic selector honoured", near(observedSpreadBp(obs, "aplus", 7, "best_bp"), 170), observedSpreadBp(obs, "aplus", 7, "best_bp"), 170);
+  check("single observation is held flat", near(observedSpreadBp(obs, "aminus", 9), 170), observedSpreadBp(obs, "aminus", 9), 170);
+  check("weaker rating pays more", observedSpreadBp(obs, "aminus", 5) > observedSpreadBp(obs, "aplus", 5), null, "A- > A+");
+  check("empty bucket ⇒ null, never a fallback guess", observedSpreadBp(obs, "bplus", 5) === null, observedSpreadBp(obs, "bplus", 5), null);
+  check("no data ⇒ null", observedSpreadBp(null, "aplus", 5) === null, observedSpreadBp(null, "aplus", 5), null);
+  check("pooled overall bucket", near(observedSpreadBp(obs, "__all__", 5), 130), observedSpreadBp(obs, "__all__", 5), 130);
+  check("sample size summed", observedSampleSize(obs, "aplus") === 14, observedSampleSize(obs, "aplus"), 14);
+
+  const br = benchmarkRate("myga_live", 5, { ustTenors: UST_T, ustYields: UST_Y, mygaSpreads: obs, mygaBucket: "aplus" });
+  check("observed benchmark = UST + observed spread", near(br.rate, 4.43 + 1.00, 1e-9), br.rate, 5.43);
+  const miss = benchmarkRate("myga_live", 5, { ustTenors: UST_T, ustYields: UST_Y, mygaSpreads: obs, mygaBucket: "bplus" });
+  check("missing bucket ⇒ null rate, not a silent default", miss.rate === null, miss.rate, null);
 }
 
 console.log("\nsurrender charge schedules");
