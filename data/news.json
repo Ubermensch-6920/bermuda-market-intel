@@ -1,5 +1,5 @@
 {
-  "updated": "2026-07-27T10:13:25Z",
+  "updated": "2026-07-27T13:46:02Z",
   "topics": [
     "Insurance AM",
     "Private Credit",
@@ -7,6 +7,26 @@
     "Structured Credit"
   ],
   "items": [
+    {
+      "id": "cc9e1985e02f",
+      "title": "Bermuda life reinsurers face scrutiny as US insurers pivot to new structured products",
+      "source": "Insurance Business",
+      "date": "2026-07-27T11:52:21Z",
+      "topic": "Structured Credit",
+      "summary": "",
+      "link": "https://news.google.com/rss/articles/CBMi-AFBVV95cUxQUTZ0LVBOSzViSVpiWEtkZE5IRUFPNmlsZUU4cXNybVNUMUJkeWRtV25KaTFIN3cyS0djNmpsWjNyS2lnd3N2eTJTSmNlRE9KRlNXX2duX2RLMWtxTmtfa25qQWVYdldRRzdYM0tmcnFnc0ttSDRJT21rajR0NUNCODZBM2IwZkRNVjFTX3FsRHE1aXVTbFNMMjB0Y0pvQ3ZkWWVrbHRUVjBUNUpkR1d2M3kydGlFUkp2X19SSTF5ck9wX2p6QnJGMkJCeGNCQjltWnJfQkN0aUNaRVU1QVpIQy1DQXlCc3ZHWG5hMjd4YnNRYUdNQUdhMQ?oc=5",
+      "isNew": false
+    },
+    {
+      "id": "e62c9fa1b083",
+      "title": "How Deep Does the Mac and Cheese Go?",
+      "source": "Substack",
+      "date": "2026-07-27T11:18:45Z",
+      "topic": "Insurance AM",
+      "summary": "",
+      "link": "https://news.google.com/rss/articles/CBMifEFVX3lxTFBLaGUxQmZxVE9LeS01YjBIZjRWdFRqR1lQaVhCQVVtVU1pd2NSZm1mV3Zmbk5fMU1sSGZiYUpZVXpuUVotd0JKb0FIN0JvWk8zMnlRT1lhNTFvWlBNVk10cE9ZNHVTZTJnNjRIMVJwTVpiT0ZpdG50Z05sOW4?oc=5",
+      "isNew": false
+    },
     {
       "id": "165f5351debe",
       "title": "Fed expected to hold rates steady \u2014 but an interest rate hike isn't off the table",
@@ -178,6 +198,16 @@
       "isNew": false
     },
     {
+      "id": "0b80cdfe89db",
+      "title": "Blackstone says BCRED redemption requests have fallen",
+      "source": "Alternative Credit Investor",
+      "date": "2026-07-23T20:57:13Z",
+      "topic": "Private Credit",
+      "summary": "",
+      "link": "https://news.google.com/rss/articles/CBMisAFBVV95cUxOTk9iLXNtbEJXazFnazA0TFFGLVpGMGFHdk8zYlJUeFlqWXB3c2RuMjV1Y241RFA2Mm1GTGVuUWxGcGtHODhpcnBmZ25rLWFCZmRIc25OWDZ3WnhuYi02S0dESEItaVhkSGRTa0U5M2ZhVHJOZEFNRERldWlGalE3SDZISmQ1V0dqZFB6c2MyVUF1cUg5eHJndXMzWmwwR1JWQlBjLVJpRjhpeHZmd0Zkdw?oc=5",
+      "isNew": false
+    },
+    {
       "id": "bcaa396c0a74",
       "title": "Average 30-year US mortgage rate climbs to 6.58%, highest level in nearly a year",
       "source": "The Washington Post",
@@ -275,36 +305,6 @@
       "topic": "Rates & Macro",
       "summary": "",
       "link": "https://news.google.com/rss/articles/CBMic0FVX3lxTE01M0tDOWxlS2Y5ZkRyWTBBblZqMjR1S1JMQS16TWZfTTBlaXhXdWM4NnlSbFNIaEZrNnhFLW5wWG5iOXhYcEdFOXVZZTBhRjlScXZTMGp2aXJCYnBqVHhreUloYU1CUmY5aTFRMlNOUXpOSU0?oc=5",
-      "isNew": false
-    },
-    {
-      "id": "e54706f63247",
-      "title": "ECB Holds Rates Steady as September Hike Moves Into Focus",
-      "source": "Morningstar",
-      "date": "2026-07-23T12:39:14Z",
-      "topic": "Rates & Macro",
-      "summary": "",
-      "link": "https://news.google.com/rss/articles/CBMioAFBVV95cUxNZkNjNExjWUlmV1FHNnJ2QXRFMDlGNzJudHRvUEtPcVk5VC0tQWRXVDkxcWhjeUtPV0U5ZE5fYXZaZVQ2TWVrU1QwMnl3WDhzTTRKamVMXzlYRzc1WXFYejJDWTN0QzgtQ1VMUmNqei1sTXliZTd4Qm92U01PZ05ueEdDN1RTMTZmMzBtSjk4QjJRc245N1NNcHhDOEVEb1NZ?oc=5",
-      "isNew": false
-    },
-    {
-      "id": "294f5c3806a5",
-      "title": "Global Bond Yields Jump as Oil Prices Surge, Inflation Fears Mount",
-      "source": "WSJ",
-      "date": "2026-07-23T09:46:00Z",
-      "topic": "Rates & Macro",
-      "summary": "",
-      "link": "https://news.google.com/rss/articles/CBMiugFBVV95cUxPNUlCR0k3M3VWNXJzY3BCTTBGTk9YZm5OLURyLVM0ZUVWLU9tTU5HNmR1NmVBdlF6aDYtOVFHUENFcTJQdFpFRDRuam9qY0VQTmtwem5ZTzA4UmlXb0hUN280V2V5ZnNLLVdENUZRUmZ6dU41YjItbGNWVlRaRm50LWo0dEtOSldqWVZZVVBTaFlPa1JzYk1QU2o4ZnlIX1RPd3JPdzlYNlJUQVo4M2hqNHJCZzI0Yk5iMEE?oc=5",
-      "isNew": false
-    },
-    {
-      "id": "09d3d7b735bc",
-      "title": "Global Bond Yields Jump as Oil Prices Surge, Inflation Fears Mount",
-      "source": "WSJ",
-      "date": "2026-07-23T09:46:00Z",
-      "topic": "Rates & Macro",
-      "summary": "",
-      "link": "https://news.google.com/rss/articles/CBMiugFBVV95cUxPNUlCR0k3M3VWNXJzY3BCTTBGTk9YZm5OLURyLVM0ZUVWLU9tTU5HNmR1NmVBdlF6aDYtOVFHUENFcTJQdFpFRDRuam9qY0VQTmtwem5ZTzA4UmlXb0hUN280V2V5ZnNLLVdENUZRUmZ6dU41YjItbGNWVlRaRm50LWo0dEtOSldqWVZZVVBTaFlPa1JzYk1QU2o4ZnlIX1RPd3JPdzlYNlJUQVo4M2hqNHJCZzI0Yk5iMEE?oc=5",
       "isNew": false
     }
   ]
