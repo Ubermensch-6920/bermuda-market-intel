@@ -10,8 +10,9 @@
     "sofr": "ok",
     "bma_rates": "ok",
     "commodities": "ok",
-    "inflation": "ok"
+    "inflation": "ok",
+    "myga": "ok"
   },
-  "run": "2026-07-27T13:45:26.089325Z",
-  "_fetched": "2026-07-27T13:45:34.116385Z"
+  "run": "2026-07-27T15:06:27.148682Z",
+  "_fetched": "2026-07-27T15:06:33.775558Z"
 }
