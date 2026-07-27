@@ -2,6 +2,7 @@ import { useState, useMemo } from "react";
 import {
   LineChart, Line, XAxis, YAxis, CartesianGrid, Tooltip,
   ResponsiveContainer, Legend, ReferenceLine, ReferenceDot,
+  BarChart, Bar, Cell,
 } from "recharts";
 import {
   Gauge, AlertTriangle, Loader, ExternalLink, Clock, Info,
@@ -10,7 +11,8 @@ import {
 import {
   BENCHMARKS, BENCHMARK_ORDER, TAX_MODES, DYNAMIC_LAPSE_DEFAULTS,
   benchmarkRate, analyseMoneyness, dynamicLapse, moneynessGrid,
-  interpolateCurve,
+  interpolateCurve, parseSchedule, scheduleAt, exitYearAnalysis,
+  surrenderPeriodYears, SC_SCHEDULE_PRESETS, DEFAULT_VESTING,
 } from "./annuityMoneyness.js";
 
 /* ═══════════════════════════════════════════════════════════════════
@@ -241,7 +243,13 @@ const GRID_TERMS = [1, 2, 3, 4, 5, 6, 7, 8, 9, 10];
    reads as the same policy. A mid-schedule MYGA: written when money was
    cheaper, four years still to run. */
 const DEFAULTS = {
-  av: 100000, basis: 80000, g: 3.25, n: 4, sc: 5, free: 10,
+  av: 100000, basis: 80000, g: 3.25, n: 4, free: 10,
+  // Surrender charges are held as a SCHEDULE indexed from today, not a single
+  // current-year rate: schedule[0] applies to an exit now, schedule[k] to an
+  // exit in k years. That is what makes optimal exit timing computable.
+  // Default is a mid-schedule MYGA with four years left to run.
+  schedText: "5,4,3,2,0",
+  bonusPct: 0, vestText: DEFAULT_VESTING.join(","),
   mvaIssue: 2.5, mvaMargin: 10, taxMode: "nq_1035", taxRate: 24, age: 65,
   bench: "myga_arated",
 };
@@ -252,8 +260,10 @@ export default function AnnuityMoneynessSection({ ust, credit, loading, error })
   const [basis, setBasis] = useState(DEFAULTS.basis);
   const [g, setG] = useState(DEFAULTS.g);
   const [n, setN] = useState(DEFAULTS.n);
-  const [sc, setSc] = useState(DEFAULTS.sc);
   const [free, setFree] = useState(DEFAULTS.free);
+  const [schedText, setSchedText] = useState(DEFAULTS.schedText);
+  const [bonusPct, setBonusPct] = useState(DEFAULTS.bonusPct);
+  const [vestText, setVestText] = useState(DEFAULTS.vestText);
   const [freeOnFull, setFreeOnFull] = useState(true);
 
   // ── MVA ──
@@ -284,6 +294,15 @@ export default function AnnuityMoneynessSection({ ust, credit, loading, error })
   const ustYields = ust?.yields;
   const igOasBp = credit?.spreads?.ig?.spread ?? null;
 
+  const schedule = useMemo(() => parseSchedule(schedText), [schedText]);
+  const vesting = useMemo(() => parseSchedule(vestText), [vestText]);
+  // The charge that applies to an exit TODAY — everything downstream that used
+  // to take a scalar surrender charge now reads position 0 of the schedule.
+  const sc = scheduleAt(schedule, 0);
+  // Where the charge — and with it the MVA — actually expires. Not necessarily
+  // the guarantee date.
+  const scPeriod = surrenderPeriodYears(schedule);
+
   const bench = BENCHMARKS[benchKey];
   const effSpread = spreadOverride != null ? spreadOverride : bench?.spreadBp;
 
@@ -293,8 +312,8 @@ export default function AnnuityMoneynessSection({ ust, credit, loading, error })
   // same basis. Using a MYGA or IG rate here would book that instrument's
   // credit spread as rate movement and overstate the MVA charge by it.
   const mvaIndexNow = useMemo(
-    () => interpolateCurve(ustTenors, ustYields, n || 1),
-    [ustTenors, ustYields, n]
+    () => interpolateCurve(ustTenors, ustYields, Math.max(0.25, Math.min(scPeriod || n || 1, n || 1))),
+    [ustTenors, ustYields, n, scPeriod]
   );
 
   const { rate: marketRate, detail: rateDetail } = useMemo(
@@ -325,7 +344,8 @@ export default function AnnuityMoneynessSection({ ust, credit, loading, error })
     yearsRemaining: n,
     surrenderChargePct: sc,
     mvaIndexNow,
-  }), [contract, g, marketRate, n, sc, mvaIndexNow]);
+    mvaYearsOverride: scPeriod,
+  }), [contract, g, marketRate, n, sc, mvaIndexNow, scPeriod]);
 
   // Wealth paths — the crossover is the whole story, so plot it rather than
   // asking the reader to trust a single break-even number.
@@ -339,11 +359,26 @@ export default function AnnuityMoneynessSection({ ust, credit, loading, error })
       // one (T→0 rather than a hardcoded pre-tax account value), otherwise the
       // series opens with a phantom step down where the tax charge first lands.
       const T = Math.max(1e-3, (horizon * i) / steps);
-      const r = analyseMoneyness({ ...contract, guaranteedRate: g, reinvestRate: marketRate, yearsRemaining: T, surrenderChargePct: sc, mvaIndexNow });
+      const r = analyseMoneyness({ ...contract, guaranteedRate: g, reinvestRate: marketRate, yearsRemaining: T, surrenderChargePct: sc, mvaIndexNow, mvaYearsOverride: scPeriod });
       if (r) out.push({ t: T, hold: r.hold.net, sw: r.sw.net });
     }
     return out;
-  }, [contract, g, marketRate, n, sc, av, result, mvaIndexNow]);
+  }, [contract, g, marketRate, n, sc, av, result, mvaIndexNow, scPeriod]);
+
+  // Terminal wealth for an exit taken at each whole year from today. Holds
+  // today's curve constant — a "rates unchanged" scenario, stated in the panel.
+  const exitAnalysis = useMemo(() => {
+    if (!ustTenors || !ustYields || !n) return null;
+    return exitYearAnalysis({
+      accountValue: av, basis, guaranteedRate: g, yearsRemaining: n,
+      schedule, freeWithdrawalPct: free, freeAppliesOnFullSurrender: freeOnFull,
+      mvaEnabled: mvaOn, mvaIndexAtIssue: mvaIssue, mvaMarginBp: mvaMargin, mgsv,
+      taxMode, taxRate, currentAge: age,
+      bonusPct, vestingSchedule: vesting,
+      rateAtTerm: m => benchmarkRate(benchKey, m, { ustTenors, ustYields, igOasBp, spreadOverrideBp: spreadOverride }).rate,
+      ustAtTerm: m => interpolateCurve(ustTenors, ustYields, m),
+    });
+  }, [ustTenors, ustYields, av, basis, g, n, schedule, free, freeOnFull, mvaOn, mvaIssue, mvaMargin, mgsv, taxMode, taxRate, age, bonusPct, vesting, benchKey, igOasBp, spreadOverride]);
 
   const grid = useMemo(() => {
     if (!ustTenors || !ustYields) return null;
@@ -464,8 +499,16 @@ export default function AnnuityMoneynessSection({ ust, credit, loading, error })
           <Field label="Years remaining" hint="Remaining guarantee period. Also the horizon both paths are measured to.">
             <Num value={n} onChange={setN} step={1} min={0.25} suffix="y" />
           </Field>
-          <Field label="Surrender charge" hint="Current-year charge. A 9%-declining 7-year schedule sits at roughly the number of years still to run.">
-            <Num value={sc} onChange={setSc} step={0.5} min={0} suffix="%" />
+          <Field label="Surrender charge preset" hint="Public product documentation: charges open at 7-10% and decline about 1pp a year, over 3-7 years for MYGAs and 7-10 for index products.">
+            <Select value="" onChange={k => {
+              const preset = SC_SCHEDULE_PRESETS[k];
+              if (!preset) return;
+              setSchedText(preset.schedule.join(","));
+              setN(Math.max(0.25, preset.schedule.length - 1));
+            }} options={[{ value: "", label: "Load a preset..." }, ...Object.values(SC_SCHEDULE_PRESETS).map(o => ({ value: o.key, label: o.label }))]} />
+          </Field>
+          <Field label="Surrender charge schedule" hint="Charges from TODAY forward: the first number applies to an exit now, the next to an exit in a year, and so on. Editable - paste the remaining schedule off the contract.">
+            <input value={schedText} onChange={e => setSchedText(e.target.value)} style={inputStyle} spellCheck={false} />
           </Field>
           <Field label="Free withdrawal" hint="Annual penalty-free corridor, commonly 10% of account value.">
             <Num value={free} onChange={setFree} step={1} min={0} max={100} suffix="%" />
@@ -498,6 +541,22 @@ export default function AnnuityMoneynessSection({ ust, credit, loading, error })
           <Field label="Current age" hint="Under 59½ a cash-out adds the 10% penalty under IRC §72(q)/(t).">
             <Num value={age} onChange={setAge} step={1} min={0} max={110} />
           </Field>
+          <Field label="Premium bonus" hint="Bonus products claw back the unvested bonus on exit. Set 0 if the contract carries no bonus.">
+            <Num value={bonusPct} onChange={setBonusPct} step={1} min={0} suffix="%" />
+          </Field>
+          {bonusPct > 0 && (
+            <Field label="Bonus vesting schedule" hint="Percent vested at each year from today. Public disclosures commonly show ~10pp a year from year two to 100% by year ten - often running LONGER than the surrender period.">
+              <input value={vestText} onChange={e => setVestText(e.target.value)} style={inputStyle} spellCheck={false} />
+            </Field>
+          )}
+        </div>
+        <div style={{ padding: "0 20px 14px", fontSize: 11.5, color: "#64748b", lineHeight: 1.6 }}>
+          Charge on an exit today: <strong style={{ color: "#f1f5f9", fontFamily: "monospace" }}>{pct(sc)}</strong>
+          {schedule.length > 1 && <> · then {schedule.slice(1).map(v => v + "%").join(" → ")}</>}
+          {" · "}charge and MVA expire in <strong style={{ color: "#f1f5f9", fontFamily: "monospace" }}>{scPeriod}y</strong>
+          {scPeriod < Math.round(n) && (
+            <span style={{ color: "#f59e0b" }}> — {(n - scPeriod).toFixed(1)}y of guarantee still runs after that, so an interior exit may beat both holding and leaving today</span>
+          )}
         </div>
         <div style={{ padding: "0 20px 16px", fontSize: 11.5, color: "#64748b", lineHeight: 1.6 }}>
           {TAX_MODES[taxMode]?.desc}
@@ -574,7 +633,7 @@ export default function AnnuityMoneynessSection({ ust, credit, loading, error })
                 <Line type="monotone" dataKey="hold" stroke={ITM_INK} strokeWidth={2} name="Hold the annuity" dot={false} />
                 <Line type="monotone" dataKey="sw" stroke={OTM_INK} strokeWidth={2} name="Surrender & reinvest" dot={false} />
                 <ReferenceLine x={n} stroke="#94a3b8" strokeDasharray="4 3" strokeWidth={1.5}
-                  label={{ value: "guarantee ends", position: "insideTopLeft", fill: "#94a3b8", fontSize: 10, fontWeight: 700 }} />
+                  label={{ value: "guarantee ends", position: "insideTopRight", fill: "#94a3b8", fontSize: 10, fontWeight: 700 }} />
                 {result?.breakEvenYears != null && (
                   <ReferenceLine x={result.breakEvenYears} stroke="#f8fafc" strokeDasharray="2 3" strokeWidth={1.5}
                     label={{ value: `break-even ${yrs(result.breakEvenYears)}`, position: "insideTopRight", fill: "#f8fafc", fontSize: 10, fontWeight: 700 }} />
@@ -584,6 +643,116 @@ export default function AnnuityMoneynessSection({ ust, credit, loading, error })
           </div>
         </Panel>
       )}
+
+      {/* ── Optimal exit timing ── */}
+      {exitAnalysis && exitAnalysis.rows.length > 1 && (() => {
+        const { rows, best, surrenderNow, holdToMaturity, interiorOptimum, gainOverBestEndpoint } = exitAnalysis;
+        const data = rows.map(r => ({
+          ...r,
+          label: r.year === 0 ? "now" : `${r.year}y`,
+          vsHold: r.terminal - holdToMaturity.terminal,
+        }));
+        const bestInk = interiorOptimum ? "#f8fafc" : best.year === 0 ? OTM_INK : ITM_INK;
+        return (
+          <Panel title="Optimal exit timing" icon={Calculator}
+            note={<>Terminal wealth at the guarantee date for an exit taken at each year from today, net of the surrender charge on that year&rsquo;s step{bonusPct > 0 ? ", the unvested premium bonus" : ""}, the MVA and tax. Surrendering today and holding to maturity are just the two ends of this curve.
+              <div style={{ marginTop: 7, color: "#475569" }}>
+                Holds today&rsquo;s curve constant — reinvestment and MVA at a future exit are read off the current curve at the term then remaining. A &ldquo;rates unchanged&rdquo; scenario, not a forward-implied or stochastic one.
+              </div>
+            </>}>
+            <div style={{ padding: "16px 20px 0", display: "grid", gridTemplateColumns: "repeat(auto-fill, minmax(200px, 1fr))", gap: 12 }}>
+              <Stat label="Best exit year" big
+                value={best.year === 0 ? "Now" : best.year === holdToMaturity.year ? "Hold to maturity" : `Year ${best.year}`}
+                ink={bestInk}
+                hint="The exit year with the highest after-tax terminal wealth."
+                sub={best.year > 0 && best.year < holdToMaturity.year
+                  ? `charge steps to ${pct(best.scPct)} that year`
+                  : best.year === 0 ? `pay the ${pct(surrenderNow.scPct)} charge and redeploy` : "ride the guarantee out"} />
+              <Stat label="Surrender today" value={usd(surrenderNow.terminal)}
+                ink={best.year === 0 ? ITM_INK : "#94a3b8"}
+                sub={`${pct(surrenderNow.scPct)} charge${surrenderNow.recapturePct > 0 ? ` + ${pct(surrenderNow.recapturePct)} bonus recapture` : ""} · CSV ${usd(surrenderNow.csv)}`} />
+              <Stat label="Hold to maturity" value={usd(holdToMaturity.terminal)}
+                ink={best.year === holdToMaturity.year ? ITM_INK : "#94a3b8"}
+                sub={`${yrs(holdToMaturity.year)} at ${pct(g)} guaranteed`} />
+              <Stat label="Value of timing it" value={usd(gainOverBestEndpoint)}
+                ink={interiorOptimum ? "#f8fafc" : "#64748b"}
+                hint="What waiting for the right year is worth over the better of the two obvious choices."
+                sub={interiorOptimum ? "an interior exit beats both endpoints" : "an endpoint is already optimal here"} />
+            </div>
+
+            {interiorOptimum && (
+              <div style={{ margin: "14px 20px 0", padding: "11px 15px", background: "#101a1d", border: "1px solid #22d3ee44", borderRadius: 8, fontSize: 12, color: "#cbd5e1", lineHeight: 1.6 }}>
+                <AlertTriangle size={13} style={{ verticalAlign: "middle", marginRight: 6, color: ITM_INK }} />
+                Waiting until <strong style={{ color: "#f1f5f9" }}>year {best.year}</strong> beats both surrendering today and holding to the guarantee date, by {usd(gainOverBestEndpoint)}.
+                A hold-or-lapse comparison alone would miss this — it only ever looks at the two ends.
+              </div>
+            )}
+
+            <div style={{ padding: "10px 8px 6px" }}>
+              <ResponsiveContainer width="100%" height={250}>
+                <BarChart data={data} margin={{ top: 10, right: 18, left: 4, bottom: 4 }}>
+                  <CartesianGrid strokeDasharray="3 3" stroke="#1e2028" vertical={false} />
+                  <XAxis dataKey="label" tick={{ fill: "#94a3b8", fontSize: 11 }} axisLine={{ stroke: "#1e2028" }} tickLine={false}
+                    label={{ value: "Exit year — bars are relative to holding to maturity", position: "insideBottom", offset: -2, fill: "#475569", fontSize: 11 }} />
+                  <YAxis tick={{ fill: "#94a3b8", fontSize: 11 }} axisLine={{ stroke: "#1e2028" }} tickLine={false}
+                    width={82} tickFormatter={v => (v > 0 ? "+" : v < 0 ? "−" : "") + "$" + Math.abs(Math.round(v / 1000)) + "k"} />
+                  <Tooltip cursor={{ fill: "#ffffff08" }}
+                    contentStyle={{ background: "#1e2028", border: "1px solid #334155", borderRadius: 6, fontSize: 12 }}
+                    labelStyle={{ color: "#f1f5f9", fontWeight: 700 }}
+                    labelFormatter={v => v === "now" ? "Exit today" : `Exit in ${v}`}
+                    formatter={(v, _n, item) => {
+                      const r = item?.payload || {};
+                      return [`${v >= 0 ? "+" : "−"}${usd(Math.abs(v))} vs holding  ·  ${usd(r.terminal)} terminal  ·  charge ${pct(r.scPct)}${r.recapturePct > 0 ? `, recapture ${pct(r.recapturePct)}` : ""}${r.reinvestRate != null ? `, reinvest ${pct(r.reinvestRate)}` : ""}`, "Exit"];
+                    }} />
+                  <ReferenceLine y={0} stroke="#64748b" strokeWidth={1.5} />
+                  <Bar dataKey="vsHold" radius={[4, 4, 0, 0]} name="vs holding to maturity">
+                    {data.map(d => (
+                      <Cell key={d.year} fill={d.year === best.year ? ITM_INK : d.vsHold < 0 ? "#4a3a1c" : "#334155"} />
+                    ))}
+                  </Bar>
+                </BarChart>
+              </ResponsiveContainer>
+              <div style={{ padding: "2px 14px 10px", fontSize: 11, color: "#64748b", display: "flex", alignItems: "center", gap: 7 }}>
+                <span style={{ width: 12, height: 12, background: ITM_INK, borderRadius: 3, display: "inline-block" }} />
+                Best exit year
+                <span style={{ width: 12, height: 12, background: "#334155", borderRadius: 3, display: "inline-block", marginLeft: 10 }} />
+                Other exit years
+                <span style={{ marginLeft: 12, color: "#475569" }}>Bars show terminal wealth relative to holding to maturity, so the zero line is &ldquo;hold&rdquo;. Absolute figures in the table below.</span>
+              </div>
+            </div>
+
+            <div style={{ padding: "0 20px 18px", overflowX: "auto" }}>
+              <table style={{ width: "100%", borderCollapse: "collapse", fontSize: 12.5 }}>
+                <thead>
+                  <tr style={{ borderBottom: "2px solid #1e2028" }}>
+                    {["Exit", "Charge", ...(bonusPct > 0 ? ["Recapture"] : []), "MVA", "Cash surrender", "Reinvest at", "Terminal"].map(h => (
+                      <th key={h} style={{ textAlign: h === "Exit" ? "left" : "right", padding: "8px 12px", color: "#94a3b8", fontWeight: 700, fontSize: 11.5 }}>{h}</th>
+                    ))}
+                  </tr>
+                </thead>
+                <tbody>
+                  {rows.map(r => {
+                    const isBest = r.year === best.year;
+                    return (
+                      <tr key={r.year} style={{ borderBottom: "1px solid #151820", background: isBest ? "#22d3ee14" : "transparent" }}>
+                        <td style={{ padding: "7px 12px", color: isBest ? ITM_INK : "#f1f5f9", fontWeight: 700, fontFamily: "monospace" }}>
+                          {r.year === 0 ? "now" : `${r.year}y`}{isBest && <span style={{ marginLeft: 7, fontSize: 10 }}>◄ best</span>}
+                        </td>
+                        <td style={{ padding: "7px 12px", textAlign: "right", fontFamily: "monospace", color: "#94a3b8" }}>{pct(r.scPct)}</td>
+                        {bonusPct > 0 && <td style={{ padding: "7px 12px", textAlign: "right", fontFamily: "monospace", color: r.recapturePct > 0 ? OTM_INK : "#475569" }}>{pct(r.recapturePct)}</td>}
+                        <td style={{ padding: "7px 12px", textAlign: "right", fontFamily: "monospace", color: r.mvaPct < 0 ? OTM_INK : r.mvaPct > 0 ? ITM_INK : "#475569" }}>{r.mvaPct ? pct(r.mvaPct) : "—"}</td>
+                        <td style={{ padding: "7px 12px", textAlign: "right", fontFamily: "monospace", color: "#cbd5e1" }}>{usd(r.csv)}</td>
+                        <td style={{ padding: "7px 12px", textAlign: "right", fontFamily: "monospace", color: "#94a3b8" }}>{r.reinvestRate != null ? pct(r.reinvestRate) : "—"}</td>
+                        <td style={{ padding: "7px 12px", textAlign: "right", fontFamily: "monospace", color: isBest ? ITM_INK : "#f1f5f9", fontWeight: isBest ? 700 : 600, fontSize: 13.5 }}>{usd(r.terminal)}</td>
+                      </tr>
+                    );
+                  })}
+                </tbody>
+              </table>
+            </div>
+          </Panel>
+        );
+      })()}
 
       {/* ── Block moneyness surface ── */}
       {grid && (
@@ -731,7 +900,10 @@ export default function AnnuityMoneynessSection({ ust, credit, loading, error })
           <p style={{ margin: "0 0 12px" }}>
             <strong style={{ color: "#cbd5e1" }}>Market value adjustment.</strong> MVA = [(1 + i₀) / (1 + i₁ + k)]<sup>m</sup> − 1,
             where i₀ is the reference index at issue, i₁ the current index, k the carrier margin and m the years remaining. Carriers
-            use proprietary variants, but this is the common shape. Note the direction: rates up ⇒ MVA negative ⇒ exit value cut. The
+            use proprietary variants, but this is the common shape. The MVA runs with the surrender-charge period and expires with it —
+            keyed off the first zero in the schedule, since schedules are commonly zero-padded out to the guarantee date. Letting it run
+            to the guarantee date instead keeps a large negative adjustment alive long after the contract would have dropped it, and
+            silently suppresses any interior exit optimum. Note the direction: rates up ⇒ MVA negative ⇒ exit value cut. The
             MVA is the carrier&rsquo;s disintermediation defence and it bites hardest in exactly the scenario that makes leaving look
             attractive — which is the single most under-appreciated part of this decision.
           </p>
@@ -744,11 +916,23 @@ export default function AnnuityMoneynessSection({ ust, credit, loading, error })
             guarantee period does not force a distribution, and no one liquidates into a penalty they can avoid by waiting.
           </p>
           <p style={{ margin: "0 0 12px" }}>
+            <strong style={{ color: "#cbd5e1" }}>Surrender charges and exit timing.</strong> Charges are carried as a schedule indexed
+            from today, not a single current-year rate, because the decision is not binary. Terminal wealth for an exit in year k is
+            <em> const + k·[ln(1+g) − ln(1+r)] + ln(1 − SC(k))</em> — linear-decreasing plus convex-increasing — so with the surrender
+            period equal to the guarantee period and a roughly linear decline the objective is convex in k and an endpoint always wins;
+            comparing only &ldquo;today&rdquo; against &ldquo;maturity&rdquo; is then provably sufficient. That breaks when the schedules
+            stop lining up: a surrender period shorter than the guarantee, or a premium bonus vesting over a longer horizon than the
+            charge. In those structures an interior exit year strictly beats both endpoints, which is why the schedule is carried
+            explicitly. The exit-timing panel holds today&rsquo;s curve constant, so it isolates the schedule&rsquo;s effect rather than
+            expressing a rate view.
+          </p>
+          <p style={{ margin: "0 0 12px" }}>
             <strong style={{ color: "#cbd5e1" }}>What this does not model.</strong> Carrier credit quality and state guaranty
             association limits (typically $250k–$300k per contract) — a rate pickup earned by moving down the ratings scale is not
             free. Also excluded: GLWB/GMWB rider benefit bases, which have their own moneyness and can dominate the account-value
-            comparison entirely; bonus recapture on exit; renewal-rate behaviour after the guarantee period, where a carrier&rsquo;s
-            renewal rate rather than a new-money rate is the relevant comparison; and any advice dimension beyond the arithmetic.
+            comparison entirely; renewal-rate behaviour after the guarantee period, where a carrier&rsquo;s
+            renewal rate rather than a new-money rate is the relevant comparison; nursing-home and terminal-illness waivers, which
+            void the charge entirely; and any advice dimension beyond the arithmetic.
             Payout annuities are irrevocable and out of scope by construction.
           </p>
           <p style={{ margin: "0 0 12px", color: "#64748b" }}>
@@ -760,6 +944,14 @@ export default function AnnuityMoneynessSection({ ust, credit, loading, error })
             <a href="https://myannuitystore.com/annuities/myga/" target="_blank" rel="noopener noreferrer" style={{ color: "#60a5fa" }}>My Annuity Store MYGA rates</a>,{" "}
             <a href="https://www.milliman.com/en/insight/fixed-indexed-annuity-multi-year-guaranteed-annuity-lapse-experience-study" target="_blank" rel="noopener noreferrer" style={{ color: "#60a5fa" }}>Milliman FIA/MYGA lapse study</a>,{" "}
             <a href="https://www.actuary.org/sites/default/files/2023-12/life-paper-dynamic-lapses.pdf" target="_blank" rel="noopener noreferrer" style={{ color: "#60a5fa" }}>Academy of Actuaries, dynamic lapses</a>.
+            {" "}Surrender-charge schedules, periods and bonus vesting follow public product documentation — charges opening at 7–10%
+            and declining about 1pp a year over 6–10 years, and bonuses vesting roughly 10pp a year to 100% by year ten, on a schedule
+            that may outrun the surrender period:{" "}
+            <a href="https://myannuitystore.com/annuities/surrender-charges/" target="_blank" rel="noopener noreferrer" style={{ color: "#60a5fa" }}>My Annuity Store</a>,{" "}
+            <a href="https://annuityjournal.org/annuities/annuity-surrender-charges-explained/" target="_blank" rel="noopener noreferrer" style={{ color: "#60a5fa" }}>Annuity Journal</a>,{" "}
+            <a href="https://myannuitystore.com/annuities/fixed-index-annuity-rates/bonus-annuities/" target="_blank" rel="noopener noreferrer" style={{ color: "#60a5fa" }}>bonus annuity vesting</a>,{" "}
+            <a href="https://www.insurancecompact.org/standards/record-adopted-standards/standards-individual-deferred-non-variable-annuity-contracts" target="_blank" rel="noopener noreferrer" style={{ color: "#60a5fa" }}>IIPRC uniform standards</a> (the separate 7%/7-year cap for non-MYGA MVA products was removed, leaving roughly 10% grading over 10 years),{" "}
+            <a href="https://content.naic.org/sites/default/files/model-law-805.pdf" target="_blank" rel="noopener noreferrer" style={{ color: "#60a5fa" }}>NAIC Model 805</a> for the nonforfeiture minimum.
           </p>
           <div style={{ background: "#12141a", border: "1px solid #2a2d35", borderRadius: 8, padding: "12px 15px", fontSize: 11.5, color: "#94a3b8", lineHeight: 1.65 }}>
             <AlertTriangle size={13} style={{ verticalAlign: "middle", marginRight: 6, color: "#f59e0b" }} />

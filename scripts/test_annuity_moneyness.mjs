@@ -4,6 +4,8 @@
 import {
   interpolateCurve, tenorToYears, mvaFactor, cashSurrenderValue,
   analyseMoneyness, dynamicLapse, benchmarkRate, verdictFor,
+  parseSchedule, scheduleAt, bonusRecapturedFraction, exitYearAnalysis, surrenderPeriodYears,
+  SC_SCHEDULE_PRESETS, DEFAULT_VESTING,
 } from "../src/annuityMoneyness.js";
 
 let pass = 0, fail = 0;
@@ -194,6 +196,97 @@ console.log("\nguards");
 {
   check("zero remaining term ⇒ null", analyseMoneyness({ guaranteedRate: 3, reinvestRate: 4, yearsRemaining: 0 }) === null, "—", null);
   check("missing rate ⇒ null", analyseMoneyness({ guaranteedRate: null, reinvestRate: 4, yearsRemaining: 5 }) === null, "—", null);
+}
+
+console.log("\nsurrender charge schedules");
+{
+  check("parses a comma list", JSON.stringify(parseSchedule("8,7,6,5,4,3,2,0")) === JSON.stringify([8,7,6,5,4,3,2,0]), parseSchedule("8,7,6,5,4,3,2,0"), "[8..0]");
+  check("tolerates spaces and junk", JSON.stringify(parseSchedule(" 9 , 8, x ,7 ")) === JSON.stringify([9,8,7]), parseSchedule(" 9 , 8, x ,7 "), "[9,8,7]");
+  check("array passes through", JSON.stringify(parseSchedule([5,4,0])) === JSON.stringify([5,4,0]), parseSchedule([5,4,0]), "[5,4,0]");
+  const sch = SC_SCHEDULE_PRESETS.myga7.schedule;
+  check("7-year preset has 8 entries ending at zero", sch.length === 8 && sch[7] === 0, `len ${sch.length}, last ${sch[7]}`, "8, 0");
+  check("charge steps by contract year, not continuously", scheduleAt(sch, 2.9) === 6, scheduleAt(sch, 2.9), 6);
+  check("past the schedule the charge is zero", scheduleAt(sch, 99) === 0, scheduleAt(sch, 99), 0);
+  check("empty schedule ⇒ no charge", scheduleAt([], 3) === 0, scheduleAt([], 3), 0);
+}
+
+console.log("\nbonus vesting");
+{
+  check("fully recaptured in year 0", near(bonusRecapturedFraction(DEFAULT_VESTING, 0), 1), bonusRecapturedFraction(DEFAULT_VESTING, 0), 1);
+  check("half recaptured at year 6", near(bonusRecapturedFraction(DEFAULT_VESTING, 6), 0.5), bonusRecapturedFraction(DEFAULT_VESTING, 6), 0.5);
+  check("fully vested at year 10", near(bonusRecapturedFraction(DEFAULT_VESTING, 10), 0), bonusRecapturedFraction(DEFAULT_VESTING, 10), 0);
+  check("beyond the schedule stays vested", near(bonusRecapturedFraction(DEFAULT_VESTING, 20), 0), bonusRecapturedFraction(DEFAULT_VESTING, 20), 0);
+  check("no schedule ⇒ nothing recaptured", bonusRecapturedFraction(null, 3) === 0, bonusRecapturedFraction(null, 3), 0);
+}
+
+console.log("\noptimal exit year");
+{
+  const flat = r => 5.30, ust = () => 4.40;
+  const base = {
+    accountValue: 100000, basis: 100000, freeWithdrawalPct: 0,
+    mvaEnabled: false, taxMode: "qualified", taxRate: 24, currentAge: 65,
+    rateAtTerm: flat, ustAtTerm: ust,
+  };
+
+  // Vanilla MYGA: surrender period == guarantee period, linear decline.
+  // The objective is convex in exit year, so an endpoint must win.
+  const vanilla = exitYearAnalysis({ ...base, guaranteedRate: 4.5, yearsRemaining: 7, schedule: SC_SCHEDULE_PRESETS.myga7.schedule });
+  check("vanilla MYGA: one row per exit year", vanilla.rows.length === 8, vanilla.rows.length, 8);
+  check("vanilla MYGA: no interior optimum", !vanilla.interiorOptimum, vanilla.best.year, "0 or 7");
+  check("last row is hold-to-maturity with no charge left", vanilla.holdToMaturity.scPct === 0 && vanilla.holdToMaturity.yearsToRun === 0, `sc ${vanilla.holdToMaturity.scPct}`, "0");
+
+  // Hold-to-maturity row must agree with analyseMoneyness's hold path.
+  const am = analyseMoneyness({ ...base, guaranteedRate: 4.5, reinvestRate: 5.30, yearsRemaining: 7, surrenderChargePct: scheduleAt(SC_SCHEDULE_PRESETS.myga7.schedule, 0) });
+  check("hold row reconciles with analyseMoneyness", near(vanilla.holdToMaturity.terminal, am.hold.net, 1e-6), vanilla.holdToMaturity.terminal, am.hold.net);
+  check("surrender-now row reconciles with analyseMoneyness", near(vanilla.surrenderNow.terminal, am.sw.net, 1e-6), vanilla.surrenderNow.terminal, am.sw.net);
+
+  // Surrender period SHORTER than the guarantee period: the charge hits zero
+  // while a below-market rate still has years to run.
+  const short = exitYearAnalysis({ ...base, guaranteedRate: 4.5, yearsRemaining: 10, schedule: [7,6,5,4,3,2,1,0,0,0,0] });
+  check("short surrender period ⇒ interior optimum", short.interiorOptimum, short.best.year, "interior");
+  check("optimum lands where the charge expires", short.best.year === 7, short.best.year, 7);
+  check("interior strictly beats both endpoints", short.gainOverBestEndpoint > 0, short.gainOverBestEndpoint.toFixed(2), "> 0");
+
+  // Bonus vesting running longer than the surrender period does the same.
+  const bonus = exitYearAnalysis({
+    ...base, guaranteedRate: 4.5, yearsRemaining: 10,
+    schedule: SC_SCHEDULE_PRESETS.fia10.schedule,
+    bonusPct: 10, vestingSchedule: DEFAULT_VESTING,
+  });
+  check("bonus fully recaptured on an exit today", near(bonus.rows[0].recapturePct, 10), bonus.rows[0].recapturePct, 10);
+  check("nothing recaptured at full vesting", near(bonus.rows[10].recapturePct, 0), bonus.rows[10].recapturePct, 0);
+  check("recapture cuts the exit value today", bonus.rows[0].csv < vanilla.rows[0].csv, bonus.rows[0].csv, "< " + vanilla.rows[0].csv);
+
+  // A guarantee well above market: never leave.
+  const rich = exitYearAnalysis({ ...base, guaranteedRate: 7.0, yearsRemaining: 7, schedule: SC_SCHEDULE_PRESETS.myga7.schedule });
+  check("deep ITM ⇒ hold to maturity", rich.best.year === 7, rich.best.year, 7);
+
+  // A guarantee far below market with no charge: leave immediately.
+  const poor = exitYearAnalysis({ ...base, guaranteedRate: 1.0, yearsRemaining: 7, schedule: [0] });
+  check("deep OTM with no charge ⇒ exit today", poor.best.year === 0, poor.best.year, 0);
+
+  // The MVA must die with the surrender-charge period, not run to the
+  // guarantee date — otherwise it masks any interior optimum.
+  const withMva = exitYearAnalysis({
+    ...base, mvaEnabled: true, mvaIndexAtIssue: 2.5, guaranteedRate: 4.5,
+    yearsRemaining: 10, schedule: [7,6,5,4,3,2,1,0,0,0,0],
+  });
+  check("MVA expires with the charge period", withMva.rows[7].mvaPct === 0, withMva.rows[7].mvaPct, 0);
+  check("MVA still live inside the period", withMva.rows[0].mvaPct < 0, withMva.rows[0].mvaPct, "< 0");
+  check("MVA period shrinks year by year", withMva.rows[3].mvaYears === 4, withMva.rows[3].mvaYears, 4);
+  check("charge expiry read from the first zero, not the array length", surrenderPeriodYears([7,6,5,4,3,2,1,0,0,0,0]) === 7, surrenderPeriodYears([7,6,5,4,3,2,1,0,0,0,0]), 7);
+  check("unpadded schedule too", surrenderPeriodYears([8,7,6,5,4,3,2,0]) === 7, surrenderPeriodYears([8,7,6,5,4,3,2,0]), 7);
+  check("no charge ⇒ no MVA period", surrenderPeriodYears([0]) === 0, surrenderPeriodYears([0]), 0);
+  check("interior optimum survives once the MVA expires correctly", withMva.interiorOptimum, withMva.best.year, "interior");
+
+  const longMva = exitYearAnalysis({
+    ...base, mvaEnabled: true, mvaIndexAtIssue: 2.5, guaranteedRate: 4.5,
+    yearsRemaining: 10, schedule: [7,6,5,4,3,2,1,0,0,0,0], mvaPeriodYears: 10,
+  });
+  check("explicit longer MVA period is honoured", longMva.rows[7].mvaPct < 0, longMva.rows[7].mvaPct, "< 0");
+
+  check("zero remaining term ⇒ null", exitYearAnalysis({ ...base, guaranteedRate: 4, yearsRemaining: 0, schedule: [0] }) === null, "—", null);
+  check("missing rate function ⇒ null", exitYearAnalysis({ accountValue: 1, guaranteedRate: 4, yearsRemaining: 5, schedule: [0] }) === null, "—", null);
 }
 
 console.log(`\n${pass} passed, ${fail} failed\n`);

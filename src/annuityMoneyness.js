@@ -323,18 +323,25 @@ export function analyseMoneyness(input) {
     taxMode = "nq_1035",
     taxRate = 24,
     currentAge = 65,
+    // The MVA runs over the remaining MVA period, which is NOT always the
+    // remaining guarantee period — a contract can reach the end of its
+    // surrender/MVA period with years of guarantee still to run. Defaults to
+    // the guarantee horizon, which is right for the vanilla MYGA where they
+    // coincide.
+    mvaYearsOverride = null,
   } = input || {};
 
   if (guaranteedRate == null || reinvestRate == null || yearsRemaining == null || yearsRemaining <= 0) {
     return null;
   }
 
+  const mvaYears = mvaYearsOverride != null ? Math.min(mvaYearsOverride, yearsRemaining) : yearsRemaining;
   const mvaPct = mvaEnabled
     ? mvaFactor({
         indexAtIssue: mvaIndexAtIssue,
         indexNow: mvaIndexNow,
         marginBp: mvaMarginBp,
-        yearsRemaining,
+        yearsRemaining: mvaYears,
       }) * 100
     : 0;
 
@@ -457,6 +464,215 @@ export const VERDICT_BANDS = [
 export function verdictFor(netAdvantageBp) {
   if (netAdvantageBp == null || !isFinite(netAdvantageBp)) return null;
   return VERDICT_BANDS.find(b => netAdvantageBp >= b.min) || VERDICT_BANDS[VERDICT_BANDS.length - 1];
+}
+
+// ── Surrender charge schedules & optimal exit timing ──────────────
+/*
+   Everything above answers "hold to the guarantee date, or surrender today?".
+   That is only two of the available exit dates, and it is provably enough ONLY
+   for the vanilla case. With the surrender period equal to the guarantee period
+   and a roughly linear decline, terminal wealth in exit year k is
+
+       const + k·[ln(1+g) − ln(1+r)] + ln(1 − SC(k))
+
+   — linear-decreasing plus convex-increasing, so the objective is convex in k
+   and its maximum always sits at an endpoint.
+
+   It stops being enough as soon as the schedules stop lining up:
+     · surrender period SHORTER than the guarantee period (charge hits zero
+       while the below-market rate still has years to run), or
+     · a premium bonus whose vesting runs LONGER than the surrender period,
+       which public product disclosures show is common.
+
+   In those structures an interior exit year strictly beats BOTH endpoints, so
+   the schedule has to be carried explicitly rather than collapsed to a single
+   current-year rate.
+
+   Preset schedules below are calibrated to public product documentation:
+   surrender charges typically open at 7–10% and decline about 1pp a year over
+   6–10 years; MYGAs commonly run 3–7 years and index products 7–10. Under the
+   Interstate Insurance Compact's amended uniform standards the separate
+   7%/7-year limit for non-MYGA MVA products was removed, leaving roughly 10%
+   grading down over 10 years as the effective ceiling.
+
+   schedule[k] = surrender charge % applying to an exit at year k, so a 7-year
+   contract carries 8 entries and the last one is 0.
+*/
+export const SC_SCHEDULE_PRESETS = {
+  myga3: { key: "myga3", label: "MYGA 3-year", schedule: [8, 7, 6, 0] },
+  myga5: { key: "myga5", label: "MYGA 5-year", schedule: [8, 7, 6, 5, 4, 0] },
+  myga7: { key: "myga7", label: "MYGA 7-year", schedule: [8, 7, 6, 5, 4, 3, 2, 0] },
+  myga10: { key: "myga10", label: "MYGA 10-year", schedule: [10, 9, 8, 7, 6, 5, 4, 3, 2, 1, 0] },
+  fia10: { key: "fia10", label: "FIA 10-year", schedule: [10, 10, 9, 8, 7, 6, 5, 4, 3, 2, 0] },
+  none: { key: "none", label: "No surrender charge", schedule: [0] },
+};
+
+/** "8,7,6,5,4,3,2,0" → [8,7,6,5,4,3,2,0]. Junk entries are dropped. */
+export function parseSchedule(str) {
+  if (Array.isArray(str)) return str.filter(v => v != null && isFinite(v));
+  if (typeof str !== "string") return [];
+  return str.split(/[,\s]+/).map(s => parseFloat(s)).filter(v => isFinite(v));
+}
+
+/**
+ * Charge applying to an exit at `year`. Surrender charges step by contract
+ * year rather than accruing continuously, so a part-year exit carries the
+ * charge for the year it falls in — hence the floor rather than interpolation.
+ * Past the end of the schedule the charge is zero, not the last entry.
+ */
+export function scheduleAt(schedule, year) {
+  if (!schedule?.length) return 0;
+  const k = Math.floor(Math.max(0, year));
+  return k >= schedule.length ? 0 : schedule[k];
+}
+
+/**
+ * The year the surrender charge actually expires — the first zero entry, not
+ * the array length, since schedules are commonly zero-padded out to the
+ * guarantee date. This is also the natural MVA period: the adjustment runs
+ * with the charge and dies with it.
+ */
+export function surrenderPeriodYears(schedule) {
+  if (!schedule?.length) return 0;
+  const i = schedule.findIndex(v => !v);
+  return i === -1 ? schedule.length : i;
+}
+
+/**
+ * Premium-bonus vesting. Public disclosures describe bonuses vesting on their
+ * own schedule — commonly ~10% a year from year two to 100% by year ten — and
+ * that schedule may run LONGER than the surrender period, so the unvested
+ * portion is clawed back on exit independently of the surrender charge.
+ * Returns the fraction of the bonus RECAPTURED (1 = fully forfeited).
+ */
+export function bonusRecapturedFraction(vestingSchedule, year) {
+  if (!vestingSchedule?.length) return 0;
+  const k = Math.floor(Math.max(0, year));
+  const vested = k >= vestingSchedule.length ? 100 : vestingSchedule[k];
+  return Math.max(0, Math.min(1, 1 - vested / 100));
+}
+
+/** Standard 10-year bonus vesting: nothing until year 2, then 10pp a year. */
+export const DEFAULT_VESTING = [0, 0, 10, 20, 30, 40, 50, 60, 70, 80, 100];
+
+/**
+ * After-tax terminal wealth at the guarantee date, for an exit taken at each
+ * whole year from today through the guarantee date.
+ *
+ * IMPORTANT — this holds TODAY'S curve constant. Reinvestment and MVA at a
+ * future exit are read off the current curve at the term then remaining, i.e.
+ * a "rates unchanged" scenario, not a forward-implied or stochastic one. That
+ * is the right default for a decision-support view (it isolates the effect of
+ * the charge schedule from a rate view), but it is an assumption, and a real
+ * rate path would move the answer.
+ */
+export function exitYearAnalysis({
+  accountValue = 100000,
+  basis = 100000,
+  guaranteedRate,
+  yearsRemaining,
+  schedule = [],
+  freeWithdrawalPct = 10,
+  freeAppliesOnFullSurrender = true,
+  mvaEnabled = true,
+  mvaIndexAtIssue = null,
+  mvaMarginBp = 10,
+  mgsv = null,
+  taxMode = "nq_1035",
+  taxRate = 24,
+  currentAge = 65,
+  bonusPct = 0,
+  vestingSchedule = null,
+  // Length of the MVA period, in years from today. In real contracts the MVA
+  // runs with the surrender-charge period and dies with it — once the charge
+  // expires there is nothing left to adjust — so it defaults to the schedule's
+  // length rather than to the remaining guarantee. Getting this wrong keeps a
+  // large negative MVA alive to the guarantee date and silently suppresses any
+  // interior exit optimum.
+  mvaPeriodYears = null,
+  rateAtTerm,
+  ustAtTerm,
+}) {
+  if (guaranteedRate == null || yearsRemaining == null || yearsRemaining <= 0) return null;
+  if (typeof rateAtTerm !== "function") return null;
+
+  const t = taxRate / 100;
+  const rows = [];
+  const lastK = Math.floor(yearsRemaining + 1e-9);
+  const mvaPeriod = mvaPeriodYears != null ? mvaPeriodYears : surrenderPeriodYears(schedule);
+
+  for (let k = 0; k <= lastK; k++) {
+    const m = yearsRemaining - k;            // years still to run after exiting
+    if (m < -1e-9) break;
+
+    const avK = accountValue * Math.pow(1 + guaranteedRate / 100, k);
+    const scPct = scheduleAt(schedule, k);
+
+    // Unvested premium bonus is clawed back on exit, on its own schedule.
+    const recapFrac = bonusPct > 0 ? bonusRecapturedFraction(vestingSchedule, k) : 0;
+    const recaptureAmt = avK * (bonusPct / 100) * recapFrac;
+
+    // The MVA bites over whatever is left of the MVA period, capped by the
+    // time still to run — never beyond the point the adjustment expires.
+    const mvaYears = Math.max(0, Math.min(m, mvaPeriod - k));
+    const idxNow = typeof ustAtTerm === "function" ? ustAtTerm(Math.max(0.25, mvaYears || m)) : null;
+    const mvaPct = mvaEnabled && mvaYears > 0
+      ? mvaFactor({ indexAtIssue: mvaIndexAtIssue, indexNow: idxNow, marginBp: mvaMarginBp, yearsRemaining: mvaYears }) * 100
+      : 0;
+
+    const exit = cashSurrenderValue({
+      accountValue: avK - recaptureAmt,
+      surrenderChargePct: scPct,
+      freeWithdrawalPct,
+      freeAppliesOnFullSurrender,
+      mvaPct,
+      mgsv,
+    });
+
+    const r = m > 0 ? rateAtTerm(m) : 0;
+    let pre, net, taxNow = 0;
+
+    if (m <= 0) {
+      // Reached the guarantee date: nothing left to reinvest. This row IS the
+      // hold-to-maturity path, so the two comparisons share one code path.
+      pre = exit.csv;
+      net = taxMode === "qualified" ? pre * (1 - t) : pre - Math.max(0, pre - basis) * t;
+    } else if (taxMode === "qualified") {
+      pre = exit.csv * Math.pow(1 + r / 100, m);
+      net = pre * (1 - t);
+    } else if (taxMode === "nq_1035") {
+      pre = exit.csv * Math.pow(1 + r / 100, m);
+      net = pre - Math.max(0, pre - basis) * t;
+    } else {
+      const pen = currentAge != null && currentAge + k < PENALTY_AGE ? PENALTY_RATE : 0;
+      taxNow = Math.max(0, exit.csv - basis) * (t + pen);
+      pre = (exit.csv - taxNow) * Math.pow(1 + (r / 100) * (1 - t), m);
+      net = pre;
+    }
+
+    rows.push({
+      year: k, yearsToRun: m, avAtExit: avK, scPct, mvaYears,
+      recapturePct: bonusPct * recapFrac, recaptureAmt,
+      mvaPct, csv: exit.csv, reinvestRate: m > 0 ? r : null,
+      taxNow, terminal: net,
+    });
+  }
+
+  if (!rows.length) return null;
+  const best = rows.reduce((a, b) => (b.terminal > a.terminal ? b : a));
+  const now = rows[0], hold = rows[rows.length - 1];
+  const interior = best.year > now.year && best.year < hold.year;
+
+  return {
+    rows,
+    best,
+    surrenderNow: now,
+    holdToMaturity: hold,
+    // The finding that motivates carrying the schedule at all: waiting beats
+    // both acting today and holding to the guarantee date.
+    interiorOptimum: interior,
+    gainOverBestEndpoint: best.terminal - Math.max(now.terminal, hold.terminal),
+  };
 }
 
 // ── Dynamic lapse ─────────────────────────────────────────────────
