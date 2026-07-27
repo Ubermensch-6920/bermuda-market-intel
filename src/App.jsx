@@ -1409,7 +1409,7 @@ const PAGES = [
   { id: "news", label: "News", icon: Newspaper }, { id: "bma", label: "Regulatory", icon: Shield },
   { id: "structures", label: "RI Structures", icon: Layers },
 ];
-const FILES = { ust: "ust.json", jgb: "jgb.json", gilt: "gilt.json", eiopa: "eur.json", india: "india.json", credit: "credit.json", cds: "cds.json", sofr: "sofr.json", bma_rates: "bma_rates.json", commodities: "commodities.json", debt_maturity: "debt_maturity.json", news: "news.json", regulatory: "regulatory.json", inflation: "inflation.json" };
+const FILES = { ust: "ust.json", jgb: "jgb.json", gilt: "gilt.json", eiopa: "eur.json", india: "india.json", credit: "credit.json", cds: "cds.json", sofr: "sofr.json", bma_rates: "bma_rates.json", commodities: "commodities.json", debt_maturity: "debt_maturity.json", news: "news.json", regulatory: "regulatory.json", inflation: "inflation.json", myga: "myga_spreads.json" };
 
 // ── Source health (data/source_health.json written by the pipeline) ──
 const HEALTH_COLORS = { active: "#4ade80", fallback: "#fbbf24", stagnant: "#f87171" };
@@ -1503,7 +1503,7 @@ export default function App() {
       case "eiopa": return <SovSection data={data.eiopa} title="EUR Govt Yield Curve (EIOPA proxy)" accentColor="#f59e0b" loading={ls.eiopa} error={errs.eiopa} wamData={data.debt_maturity?.countries?.eur} inflationData={data.inflation?.countries?.eur} />;
       case "india": return <SovSection data={data.india} title="India Government Bond Yields" accentColor="#ec4899" loading={ls.india} error={errs.india} wamData={data.debt_maturity?.countries?.india} inflationData={data.inflation?.countries?.in} />;
       case "bma_rates": return <BmaRatesSection data={data.bma_rates} loading={ls.bma_rates} error={errs.bma_rates} />;
-      case "annuity": return <AnnuityMoneynessSection ust={data.ust} credit={data.credit} loading={ls.ust} error={errs.ust} />;
+      case "annuity": return <AnnuityMoneynessSection ust={data.ust} credit={data.credit} myga={data.myga} loading={ls.ust} error={errs.ust} />;
       case "commodities": return <CommoditiesSection data={data.commodities} loading={ls.commodities} error={errs.commodities} />;
       case "sofr": return <SofrSection data={data.sofr} loading={ls.sofr} error={errs.sofr} />;
       case "credit": return <CreditSection data={data.credit} loading={ls.credit} error={errs.credit} />;
