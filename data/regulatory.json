@@ -1,6 +1,16 @@
 {
-  "updated": "2026-07-27T15:17:52Z",
+  "updated": "2026-07-27T17:16:12Z",
   "naic": [
+    {
+      "id": "69063c6c1338",
+      "title": "The NAIC Is Building an AI Evaluation Playbook. Claims Leaders Should Know What It Will Ask.",
+      "date": "2026-07-27",
+      "cat": "Governance",
+      "summary": "",
+      "source": "Coverager",
+      "link": "https://news.google.com/rss/articles/CBMiswFBVV95cUxOa0VCWHRfRVoxbTA4R3ZqUXNDcXhWSU12ZkcyeWNwdVZCVDFRV1pYREYtaXc1dGU1MURhU2UwZ3EyZWFWRzRQU1BQdDZNZ2s4QWo2Y0ZYczdaWk0zUUVoWVlTYVhUSC1JbV9yd2pscFo4NUF2a0ZkN3pWeno5ZnhRUDdabHlKU0haOFRiLVJ5NWg0MV9iLWdLcHVJNDZHN2lvV0VRdUR1RkNmWlljRnhYZHZYNA?oc=5",
+      "isNew": true
+    },
     {
       "id": "c7857b7ecda4",
       "title": "NAIC Reciprocal Exchanges (E) Working Group Advances Proposed Amendments to Model 440 and Model 450",
@@ -233,16 +243,6 @@
     },
     {
       "id": "e501ab483761",
-      "title": "NAIC vote pulls private credit CLOs into new risk-based capital regime",
-      "date": "2026-07-02",
-      "cat": "Capital/Solvency",
-      "summary": "",
-      "source": "Structured Credit Investor",
-      "link": "https://news.google.com/rss/articles/CBMixgFBVV95cUxOMDZQUk5UR2J1MzVPYjJtOEtFa1RkVFA1eGVXN1VlOTJBSFVnd1JlQUFDZ1FrRmFKbjJmY0FFUUlOYWY2eU5pVURBM0ZXMGozWGNKS1U3YjdGQmhiRTVIMThJdldGTDd2UnBPYmcyWjl2el9EWDdKaHA2WXBodTQzSmUwUUxHeVB5MVhQZlpvMXdiYzNRcnlqc2NaVW53WkJLV0toTm81eHdYa0hVYzdZNzJuQ295ZUY0RUhUOW1hUEVvMTdmNUE?oc=5",
-      "isNew": true
-    },
-    {
-      "id": "e3c68a5aa80c",
       "title": "NAIC vote pulls private credit CLOs into new risk-based capital regime",
       "date": "2026-07-02",
       "cat": "Capital/Solvency",
