@@ -1,5 +1,5 @@
 {
-  "updated": "2026-07-27T17:16:12Z",
+  "updated": "2026-07-27T19:59:06Z",
   "topics": [
     "Insurance AM",
     "Private Credit",
@@ -7,6 +7,16 @@
     "Structured Credit"
   ],
   "items": [
+    {
+      "id": "8ad14ec5adcc",
+      "title": "European insurers\u2019 private credit exposure not risky, largely mortgage-related: S&P",
+      "source": "Intelligent Insurer",
+      "date": "2026-07-27T13:48:36Z",
+      "topic": "Private Credit",
+      "summary": "",
+      "link": "https://news.google.com/rss/articles/CBMiuAFBVV95cUxNTHZqRmwyTTdoUzNpdlV6Y2tUakdJYjVMX1Zvblg4UWFld2lGRDRZdGpTcW16VG83ckpERWRsQ3plOUp6eDlqckptdFlLUS1SaUJrOXg4Zzk5emprNHhhNlNuRVVRcmt2ZEFpZkJvczBSWFhnTjJBTXQ1QTZHUUFHTktJdUl6bEF2UnlzYkY2NGhZT0c3cmpGb002ZDlsT1JOR0RCSkJKTF8yWVl4SzljbnlaTmpIN2Fq?oc=5",
+      "isNew": false
+    },
     {
       "id": "cc9e1985e02f",
       "title": "Bermuda life reinsurers face scrutiny as US insurers pivot to new structured products",
@@ -289,16 +299,6 @@
     },
     {
       "id": "44d5f0090f00",
-      "title": "The world\u2019s most important market is flashing red about the Iran war",
-      "source": "CNN",
-      "date": "2026-07-23T13:30:46Z",
-      "topic": "Rates & Macro",
-      "summary": "",
-      "link": "https://news.google.com/rss/articles/CBMic0FVX3lxTE01M0tDOWxlS2Y5ZkRyWTBBblZqMjR1S1JMQS16TWZfTTBlaXhXdWM4NnlSbFNIaEZrNnhFLW5wWG5iOXhYcEdFOXVZZTBhRjlScXZTMGp2aXJCYnBqVHhreUloYU1CUmY5aTFRMlNOUXpOSU0?oc=5",
-      "isNew": false
-    },
-    {
-      "id": "74c8eb2ca05e",
       "title": "The world\u2019s most important market is flashing red about the Iran war",
       "source": "CNN",
       "date": "2026-07-23T13:30:46Z",
