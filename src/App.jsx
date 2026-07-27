@@ -7,9 +7,10 @@ import {
   Shield, Newspaper, BarChart3, ChevronRight, ExternalLink,
   Clock, RefreshCw, Activity, DollarSign, Percent, ArrowUpRight,
   ArrowDownRight, Minus, AlertTriangle, Loader, Landmark, TrendingUp, Gem,
-  Copy, Check, Layers
+  Copy, Check, Layers, Gauge
 } from "lucide-react";
 import structuresHtml from "./reinsurance_structures.html?raw";
+import AnnuityMoneynessSection, { AnnuityMoneynessTile } from "./AnnuityMoneyness.jsx";
 
 const PLATFORM_NAME = "GENESIS";
 const TOOL_NAME = "GENESIS // CORE";
@@ -1400,6 +1401,7 @@ const PAGES = [
   { id: "jgb", label: "Japan JGB", icon: CurrencySymbolIcon("¥") }, { id: "gilt", label: "UK Gilts", icon: CurrencySymbolIcon("£") },
   { id: "eiopa", label: "EIOPA EUR", icon: CurrencySymbolIcon("€") }, { id: "india", label: "India Govt", icon: CurrencySymbolIcon("₹") },
   { id: "bma_rates", label: "BMA Rates", icon: Landmark },
+  { id: "annuity", label: "Annuity ITM", icon: Gauge },
   { id: "commodities", label: "Commodities", icon: Gem },
   { id: "sofr", label: "SOFR", icon: TrendingUp },
   { id: "credit", label: "Credit Spreads", icon: Percent },
@@ -1501,6 +1503,7 @@ export default function App() {
       case "eiopa": return <SovSection data={data.eiopa} title="EUR Govt Yield Curve (EIOPA proxy)" accentColor="#f59e0b" loading={ls.eiopa} error={errs.eiopa} wamData={data.debt_maturity?.countries?.eur} inflationData={data.inflation?.countries?.eur} />;
       case "india": return <SovSection data={data.india} title="India Government Bond Yields" accentColor="#ec4899" loading={ls.india} error={errs.india} wamData={data.debt_maturity?.countries?.india} inflationData={data.inflation?.countries?.in} />;
       case "bma_rates": return <BmaRatesSection data={data.bma_rates} loading={ls.bma_rates} error={errs.bma_rates} />;
+      case "annuity": return <AnnuityMoneynessSection ust={data.ust} credit={data.credit} loading={ls.ust} error={errs.ust} />;
       case "commodities": return <CommoditiesSection data={data.commodities} loading={ls.commodities} error={errs.commodities} />;
       case "sofr": return <SofrSection data={data.sofr} loading={ls.sofr} error={errs.sofr} />;
       case "credit": return <CreditSection data={data.credit} loading={ls.credit} error={errs.credit} />;
@@ -1537,6 +1540,9 @@ export default function App() {
             <MetricCard label="USD/INR (spot)" value={data.commodities?.usdinr?.spot != null ? data.commodities.usdinr.spot.toFixed(4) : "—"} change={data.commodities?.usdinr?.spot != null && data.commodities?.usdinr?.prior_1m != null ? (chgUSD(data.commodities.usdinr.spot, data.commodities.usdinr.prior_1m) >= 0 ? "+" : "") + chgUSD(data.commodities.usdinr.spot, data.commodities.usdinr.prior_1m).toFixed(4) + " 1M" : null} loading={ls.commodities} />
           </div>
         </div>
+
+        {/* Annuity moneyness — headline read on a representative legacy contract */}
+        <AnnuityMoneynessTile ust={data.ust} credit={data.credit} onOpen={() => setPage("annuity")} />
 
         {/* Global Curve */}
         {hasCurve && <div style={{ background: "#0d0f14", border: "1px solid #1e2028", borderRadius: 10, padding: "16px 16px 8px" }}>
