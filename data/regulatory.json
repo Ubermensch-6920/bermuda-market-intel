@@ -1,5 +1,5 @@
 {
-  "updated": "2026-07-27T15:07:01Z",
+  "updated": "2026-07-27T15:17:52Z",
   "naic": [
     {
       "id": "c7857b7ecda4",
@@ -254,6 +254,16 @@
   ],
   "bma": [
     {
+      "id": "65bc1b54bb8d",
+      "title": "Bermuda - Lending & Secured Finance Laws and Regulations 2026",
+      "date": "2026-07-24",
+      "cat": "General",
+      "summary": "",
+      "source": "ICLG",
+      "link": "https://news.google.com/rss/articles/CBMikwFBVV95cUxOeU9lWEthLWh1aG1Dd0FEdHczYU84d19KWTNUbU1MM0haQUpqcFJzN2xTZ0FxUTlWX3U4UFhrV0pmR2E3SlhYOGQxWVlncXRuMFMwUXFnQjVjUFFiQ0NiZTFzYUpnYk5aVldqMy1YSnpNNFBNY0tqTnEyT1F2anNFQUtVV1h3anYxWk12Z0lGcGU4MzA?oc=5",
+      "isNew": true
+    },
+    {
       "id": "dcfab414fd57",
       "title": "BMA publishes Q2 2026 regulatory update",
       "date": "2026-07-24",
@@ -492,16 +502,6 @@
       "source": "Royal Gazette | Bermuda",
       "link": "https://news.google.com/rss/articles/CBMiygFBVV95cUxNZ3BKTUhMdEtodG1Ob3habzVsSi12NXZFRUh3SmZnd0pYUHJiU1JfWkozU2tOdFpXUmFtbWxpdUZPS0UzdUNqQmlFWmFFMERpWEpFVUNWVS11dERBRDY4aGtLQjNXWnI4ajAxQm1MdVpzZC10b2lXYl9QN0tVUy1LaUJaRnprYTNkdzRUcFBQOENxdWNZRm5kc0E2N1pKUklDOFh2dHRsUlVmX3YxZ3B3aGxLUWE2Z2V0Z3loYzdFSnNXU3g0RjdaMlV3?oc=5",
       "isNew": true
-    },
-    {
-      "id": "4231bbf6ed1d",
-      "title": "HCI joins tokenized catastrophe risk market",
-      "date": "2026-06-19",
-      "cat": "General",
-      "summary": "",
-      "source": "Insurance Business",
-      "link": "https://news.google.com/rss/articles/CBMiwAFBVV95cUxQdUdlYmx3eFkyMjR0RjZyZ1NyelVTd2tHWS03UktvMW92ZWhybEhUcFpHZEthNXhLVVFERFVjdE1DRnZpbmtEbGQ1RTFCUDg1YkRJTzF2NmVHbXYwaXR5aEI5WWhfNDBQcWsteTZNVk4tMEszbXdOTzNsUUFRSG0zLWhtQ0d2SVVRZlViQlhkYzVIYW5WSGpudVptZGFfUUVMR3IxU055X0o1dzV6ekxzY0VxLWJkT281dHdRNUVrZTQ?oc=5",
-      "isNew": false
     }
   ],
   "cayman": [
