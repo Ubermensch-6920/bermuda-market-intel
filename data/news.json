@@ -1,5 +1,5 @@
 {
-  "updated": "2026-07-28T09:09:20Z",
+  "updated": "2026-07-28T11:32:09Z",
   "topics": [
     "Insurance AM",
     "Private Credit",
@@ -7,6 +7,26 @@
     "Structured Credit"
   ],
   "items": [
+    {
+      "id": "36dc9b14e43e",
+      "title": "Ortec Finance wins Ostrum AM mandate for ALM platform",
+      "source": "FinTech Global",
+      "date": "2026-07-28T10:06:44Z",
+      "topic": "Insurance AM",
+      "summary": "",
+      "link": "https://news.google.com/rss/articles/CBMikgFBVV95cUxQQXJfMVJTNzlRNEx2dTRlQ3ZaZFRTWnpIQ1pFOGJvZnpoY1V4cnZiUFhXZFE2Z0NDS3JuQktad0VEZkgtbldaQXZBalZPZm41cnhOcmFkaFlOSE1IWVV2YzNXNHRyZUlKN2UzVTRYS0lDTG9Fd2JtSkFObk1jTmZQY0pCNTVJSDRHQ3k1S3k2bndYZw?oc=5",
+      "isNew": false
+    },
+    {
+      "id": "721e4f3e053f",
+      "title": "Former CIO of HSBC Insurance joins Morgan Stanley Investment Management as Insurance Solutions Strategist",
+      "source": "Moomoo",
+      "date": "2026-07-28T06:57:10Z",
+      "topic": "Insurance AM",
+      "summary": "",
+      "link": "https://news.google.com/rss/articles/CBMiswFBVV95cUxPSk1YX3RmLTM2WUpRd2pYZ3hQWmotOXA4M3VLYWtuMXJxQ0xGSEdrMWh4dml6MnVlQ2tOakpJaUVTSFFhTjNRRjcwSmJEVWp6T29hVU1pT1hvMVg3YXF5YTB4aENiTHhkMjU0dXhnc2R6R1FPQWRpV1lvb0IwWTRWRUtET2d6ckViVF9YQ0lHSVJyR01oVDIwZHZsbTVldGMwMy02YUNNRjRYbzdhc1VwNUdCQQ?oc=5",
+      "isNew": false
+    },
     {
       "id": "095265f3c55a",
       "title": "Affinity Partners Brings Leading Global Investors into Phoenix, Remains Largest Shareholder with a Significant Long-Term Ownership Position",
@@ -55,6 +75,16 @@
       "topic": "Insurance AM",
       "summary": "",
       "link": "https://news.google.com/rss/articles/CBMifEFVX3lxTFBLaGUxQmZxVE9LeS01YjBIZjRWdFRqR1lQaVhCQVVtVU1pd2NSZm1mV3Zmbk5fMU1sSGZiYUpZVXpuUVotd0JKb0FIN0JvWk8zMnlRT1lhNTFvWlBNVk10cE9ZNHVTZTJnNjRIMVJwTVpiT0ZpdG50Z05sOW4?oc=5",
+      "isNew": false
+    },
+    {
+      "id": "d64780b571b4",
+      "title": "The Westaim Corporation Announces Leadership Transition at Arena Investors Group Holdings, LLC",
+      "source": "Business Wire",
+      "date": "2026-07-27T10:00:00Z",
+      "topic": "Insurance AM",
+      "summary": "",
+      "link": "https://news.google.com/rss/articles/CBMi5AFBVV95cUxNY0NMeVpJR3oxcE5Cd1ZlTkEyQm0taE91dkJMMmtqSEdrdnZuaG9rXzBKZF9DdFRMY09Mcms2bTI1VVh3RG1jamlQWHNZaFc0STVJMGRtRnJXLU1ubzNZTWNLTUE2NEFmdER5LXpuclh2MmxZNERHTHEwNDZVdlhaR0NydHE3Wl9oLTU1bWcxUzRyOWNYMXUzb2Ewdm9nRUpTYWtrbzJDSE0zVWtWZjU2Y3pqUV9DUkc1bmZhUVB5eWc4YXdKQTA4QU93bDdJWHlFX0lqYkxndUxUYm9WWkNKdFM5R0M?oc=5",
       "isNew": false
     },
     {
@@ -141,7 +171,7 @@
       "id": "51d5245718d5",
       "title": "SCI in Focus: CLOs' role in Standard Life's structured credit build-out",
       "source": "Structured Credit Investor",
-      "date": "2026-07-24T16:32:44Z",
+      "date": "2026-07-24T16:32:11Z",
       "topic": "Structured Credit",
       "summary": "",
       "link": "https://news.google.com/rss/articles/CBMixwFBVV95cUxPdFpGaENSalRKc0ZpZVQ1VGxYdDQzUUxQZW0yZGVnWW1WUTJrbnFib2FxU0dXWHRWdHdMNGt4OFlyOHo1elhNWi1WVlpDVERlZnZtd0h6MkZ2em1PWUp2dnpmTGROODJqNkwzR2RXeVJyOWtkMjliZHU2MkJuMXNnQ185blYyZ05leXExZzFjMjEtRW1kZXhwYWpWMmxZclN0bTUtNUdRRFdlZmh3ZEdFeG5YYm1wUkx2RmZsRFpVOTUwLTlDRzJj?oc=5",
@@ -151,7 +181,7 @@
       "id": "55f75cab1f4d",
       "title": "SCI in Focus: CLOs' role in Standard Life's structured credit build-out",
       "source": "Structured Credit Investor",
-      "date": "2026-07-24T16:32:44Z",
+      "date": "2026-07-24T16:32:11Z",
       "topic": "Private Credit",
       "summary": "",
       "link": "https://news.google.com/rss/articles/CBMixwFBVV95cUxPdFpGaENSalRKc0ZpZVQ1VGxYdDQzUUxQZW0yZGVnWW1WUTJrbnFib2FxU0dXWHRWdHdMNGt4OFlyOHo1elhNWi1WVlpDVERlZnZtd0h6MkZ2em1PWUp2dnpmTGROODJqNkwzR2RXeVJyOWtkMjliZHU2MkJuMXNnQ185blYyZ05leXExZzFjMjEtRW1kZXhwYWpWMmxZclN0bTUtNUdRRFdlZmh3ZEdFeG5YYm1wUkx2RmZsRFpVOTUwLTlDRzJj?oc=5",
@@ -275,36 +305,6 @@
       "topic": "Rates & Macro",
       "summary": "",
       "link": "https://news.google.com/rss/articles/CBMickFVX3lxTE85ZG84U2hsM0ozMFFVRGVtWldJM0dQeFUtQ3N1RFZuampzdDR4RkdZM2FmWUNWVXBGQndBcmgwV3F0ZjJHc29MSlFxZjRHb09FR1V4c2hmZDRpRmhFTzViTEdBemEwOFN5ZzEyMFQ3dXpudw?oc=5",
-      "isNew": false
-    },
-    {
-      "id": "5156ef160a1a",
-      "title": "South Africa central bank surprises with rate hold, says policy tight enough",
-      "source": "Reuters",
-      "date": "2026-07-23T15:45:33Z",
-      "topic": "Rates & Macro",
-      "summary": "",
-      "link": "https://news.google.com/rss/articles/CBMirwFBVV95cUxOZEx2M2d4Z0hkcldNWUJwU082T1ZUSFZJZ01MdmxQNnZLQ3lOYlpDUnRGTUZjSWc0MTZUQjBza2dFaWlYamJaTkthdm9DeEp2ekprMHIzY1JTMFNXZWVIU2hRYWtCNGlWN2ViZEZnRlpCdExtYXBSbWxvdFU0b2U2M2pvU0VkWW10VldaVHNqaU9aTHhNTmdFZVBQUkRZRnVIel9tUWgxTk80Mms0MGFv?oc=5",
-      "isNew": false
-    },
-    {
-      "id": "3d034c05f5a4",
-      "title": "Reigniting Inflation Heaps Pressure on European Central Bank",
-      "source": "WSJ",
-      "date": "2026-07-23T15:45:00Z",
-      "topic": "Rates & Macro",
-      "summary": "",
-      "link": "https://news.google.com/rss/articles/CBMiswFBVV95cUxQektURDJGN0pNbzluZjRlTnR1Vy1GZFJiWUhlUzRtUUxsNFB3Qjk2YmZ1c290V0M3QlZCNERHUHdnaXBobFhyb20zeVBTblBEcHRyOWlLXzZCczRGYU5UYjY3VTF3ejlvWk1TSGpOUTQ1RW44Rm01Xy1nR2YxbnNoZzFyZWQyS1hfZWJVQUVkNjh6THJtZTdReXJfUUk1WDgtQjlUNWxzbnZvREo1S3RTYzRHUQ?oc=5",
-      "isNew": false
-    },
-    {
-      "id": "e31d193d09d7",
-      "title": "Reigniting Inflation Heaps Pressure on European Central Bank",
-      "source": "WSJ",
-      "date": "2026-07-23T15:45:00Z",
-      "topic": "Rates & Macro",
-      "summary": "",
-      "link": "https://news.google.com/rss/articles/CBMiswFBVV95cUxQektURDJGN0pNbzluZjRlTnR1Vy1GZFJiWUhlUzRtUUxsNFB3Qjk2YmZ1c290V0M3QlZCNERHUHdnaXBobFhyb20zeVBTblBEcHRyOWlLXzZCczRGYU5UYjY3VTF3ejlvWk1TSGpOUTQ1RW44Rm01Xy1nR2YxbnNoZzFyZWQyS1hfZWJVQUVkNjh6THJtZTdReXJfUUk1WDgtQjlUNWxzbnZvREo1S3RTYzRHUQ?oc=5",
       "isNew": false
     }
   ]
