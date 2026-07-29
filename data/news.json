@@ -1,5 +1,5 @@
 {
-  "updated": "2026-07-29T16:42:58Z",
+  "updated": "2026-07-29T19:48:17Z",
   "topics": [
     "Insurance AM",
     "Private Credit",
@@ -7,6 +7,16 @@
     "Structured Credit"
   ],
   "items": [
+    {
+      "id": "f3fa76a22fb6",
+      "title": "How Better Property Data Can Improve Commercial Real Estate Insurance",
+      "source": "urbanland.uli.org",
+      "date": "2026-07-29T17:52:20Z",
+      "topic": "Insurance AM",
+      "summary": "",
+      "link": "https://news.google.com/rss/articles/CBMiwwFBVV95cUxOTkdtSU1NXzNxSXN0Wkg2eEl0YlpUU2Zzb1FudHhIQTRXXzZMRlljOHVMZTVXcFpnSmpxZ0lGT1MwZHk0aXhVZ2ZIMGJXNDg0ZG9OSmotZi1LQWRZbmVlcklqa2VzU3N0TEl5NUdENDRIcUN4SmlpSUZOaUVhMVBJaTN1Rndab2tkYzg0LWZVTFcwNFNzaU4yQ3VtS0k4M1BPazlLUDR1MHZJWFR5c2Zoc1RHSmY1MFpUMGszai13VjZNcE0?oc=5",
+      "isNew": false
+    },
     {
       "id": "5af8a734dd64",
       "title": "Private Credit Profits Go to PE Funds, But Taxpayers Foot the Bill in Bankruptcy",
@@ -228,6 +238,26 @@
       "isNew": false
     },
     {
+      "id": "0704cd552f41",
+      "title": "Exclusive | Federal Probe Into Dodgers Owner\u2019s Financial Empire Was Sparked by Whistleblower",
+      "source": "WSJ",
+      "date": "2026-07-26T23:24:00Z",
+      "topic": "Private Credit",
+      "summary": "",
+      "link": "https://news.google.com/rss/articles/CBMixgFBVV95cUxObE1wSExzcVlHQzE4ZUJuNlpSdE5vYmlQYTN1ZTdERFRpUXhnczZDaTlfUTVsT3NqYUxEWXY0SFd4a3M5QzBiZXFWSUhuOGJCTlV0YldwZnltLUxISjNpVHFwM2tnZ3A3bXdtNjM4SU16c3RhaTdOdXF6TmtOM2NjM1JXNm4xTXhtZURIaER2OGZCZ09fS0tqbXdROVMwdHhnenlpUlNPcnBpcnFKU25CbXBiRFRza1B4cTlpTXdOb3c0cTVuaUE?oc=5",
+      "isNew": false
+    },
+    {
+      "id": "e7463be78916",
+      "title": "Who is funding America\u2019s widening debt with the rest of the world?",
+      "source": "Reuters",
+      "date": "2026-07-25T07:00:00Z",
+      "topic": "Rates & Macro",
+      "summary": "",
+      "link": "https://news.google.com/rss/articles/CBMivwFBVV95cUxPZGZfSHBsbUZHYWRxR3JCaV9Gbzk4cC1pNHpOVzJSNTlFb2VDeWx2TlhNV0dlZ3VPc1hWTU5JamQzMFMyQWFiYkQwQ00tU2ZKMVBGY0tVQXhoeDJiRkxJMVhybU9HZjd3OUJwS05fUi1iWWpLRS10LVZha1BoM1VDdzNvb2ljREsxUTN4LUJCdlBzdFNmTlE3d1EyLVNDNklsNEJJd0cwYWhEM2s0Q09YMVdac3hSMWlGNFdoODNPWQ?oc=5",
+      "isNew": false
+    },
+    {
       "id": "2d9555d14bd4",
       "title": "Insurers boost private credit allocations despite liquidity and regulatory concerns",
       "source": "\u041c\u0435\u0436\u0430. \u041d\u043e\u0432\u0438\u043d\u0438 \u0423\u043a\u0440\u0430\u0457\u043d\u0438.",
@@ -275,36 +305,6 @@
       "topic": "Structured Credit",
       "summary": "",
       "link": "https://news.google.com/rss/articles/CBMixwFBVV95cUxPdFpGaENSalRKc0ZpZVQ1VGxYdDQzUUxQZW0yZGVnWW1WUTJrbnFib2FxU0dXWHRWdHdMNGt4OFlyOHo1elhNWi1WVlpDVERlZnZtd0h6MkZ2em1PWUp2dnpmTGROODJqNkwzR2RXeVJyOWtkMjliZHU2MkJuMXNnQ185blYyZ05leXExZzFjMjEtRW1kZXhwYWpWMmxZclN0bTUtNUdRRFdlZmh3ZEdFeG5YYm1wUkx2RmZsRFpVOTUwLTlDRzJj?oc=5",
-      "isNew": false
-    },
-    {
-      "id": "55f75cab1f4d",
-      "title": "SCI in Focus: CLOs' role in Standard Life's structured credit build-out",
-      "source": "Structured Credit Investor",
-      "date": "2026-07-24T16:32:11Z",
-      "topic": "Private Credit",
-      "summary": "",
-      "link": "https://news.google.com/rss/articles/CBMixwFBVV95cUxPdFpGaENSalRKc0ZpZVQ1VGxYdDQzUUxQZW0yZGVnWW1WUTJrbnFib2FxU0dXWHRWdHdMNGt4OFlyOHo1elhNWi1WVlpDVERlZnZtd0h6MkZ2em1PWUp2dnpmTGROODJqNkwzR2RXeVJyOWtkMjliZHU2MkJuMXNnQ185blYyZ05leXExZzFjMjEtRW1kZXhwYWpWMmxZclN0bTUtNUdRRFdlZmh3ZEdFeG5YYm1wUkx2RmZsRFpVOTUwLTlDRzJj?oc=5",
-      "isNew": false
-    },
-    {
-      "id": "921bc96f9cbb",
-      "title": "The Hartford Insurance Group Q2 Earnings Call Highlights",
-      "source": "TradingView",
-      "date": "2026-07-24T15:03:57Z",
-      "topic": "Insurance AM",
-      "summary": "",
-      "link": "https://news.google.com/rss/articles/CBMitwFBVV95cUxNcFdoNnppXzBzNVlLU3lURnRLLUFPSURyVUVTMnU0emUwdFJaNUJaMGpndkNmcXJDekpDN1FMejl1RzU4UmlhOXdwR21NcW5aX2lnNl9WOUtRa0o2eGZybUh1QnB5bGRJa0l1emFqbkNqSGg5QUM5cW02UlVERjN0bjZNZi1GYXl3dE04M1QxWUdicTRrNHNKamRnTnRYenlTdGxiY2NqWVphazFlaUJKVGdDQk9XbUE?oc=5",
-      "isNew": false
-    },
-    {
-      "id": "39e5d73c1754",
-      "title": "SCI in Focus: CLOs role in Standard Life's structured credit build-out",
-      "source": "Structured Credit Investor",
-      "date": "2026-07-24T14:32:30Z",
-      "topic": "Structured Credit",
-      "summary": "",
-      "link": "https://news.google.com/rss/articles/CBMixgFBVV95cUxNVEI4T2JFaEF1QTZpR2U5cVZZSFN6VXR4NkhDWVNsS0pKaVRzSVVBbE42M2hPSVlWa1BtenRzTjNEVXpoNEI2ZnZicjVPVE1ITGdCc2lrcHlzT2NncEN1NVpONVhISkkyY3FHSi1xTGlBNmFFNFF1NjlOeHZreW1PMDFKLXJVUldidzlmbk9YUnU0WXRfX3NhSGcxUWlaZ2VoVXJZR2t0QkEtaXNEa0hBWGwtMXdkOThZZk5XNm5LcWVLbHlMVVE?oc=5",
       "isNew": false
     }
   ]
