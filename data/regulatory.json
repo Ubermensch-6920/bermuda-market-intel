@@ -1,5 +1,5 @@
 {
-  "updated": "2026-07-29T03:45:17Z",
+  "updated": "2026-07-29T09:12:45Z",
   "naic": [
     {
       "id": "69063c6c1338",
@@ -506,6 +506,16 @@
   ],
   "cayman": [
     {
+      "id": "18c5e2dacc5a",
+      "title": "Cayman maintains strong captive insurance licensing growth",
+      "date": "2026-07-29",
+      "cat": "Licensing",
+      "summary": "",
+      "source": "Cayman Finance",
+      "link": "https://news.google.com/rss/articles/CBMimwFBVV95cUxPbjctUnRXSmlFbHZINHdNSHFEQ19OTzVXeXMtVnJuejBDbHBMZEY1ZjNTWW1FLUVwVm5BdXdWbDFBTWhXQzNobWt6eWZlRmpWVUY5TGNncjJQQTFKczl0RWNnSnRNaG5tdnJGOTRFanBaYl9vWnNrR3RoaDFTZzRBT2VwUkRSQ3NpTEJkakcwV0I1YmtSY25qYVFlMA?oc=5",
+      "isNew": true
+    },
+    {
       "id": "d1ae3ed202cb",
       "title": "CIMA Markets: Saliou Bakayoko advocates for trust insurance, driven by quick compensation",
       "date": "2026-07-16",
@@ -742,15 +752,6 @@
       "summary": "Revised expectations for collateral and risk transfer in reinsurance.",
       "link": "https://www.cima.ky/",
       "id": "8cd85f826449",
-      "isNew": false
-    },
-    {
-      "title": "CIMA \u2013 Statement of Guidance on Investment Activities",
-      "date": "2026-01-20",
-      "cat": "Investment",
-      "summary": "Guidance on prudent investment management for licensed insurers.",
-      "link": "https://www.cima.ky/",
-      "id": "bd11f6b6cad0",
       "isNew": false
     }
   ]
