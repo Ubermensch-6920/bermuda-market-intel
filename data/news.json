@@ -1,5 +1,5 @@
 {
-  "updated": "2026-07-28T22:21:03Z",
+  "updated": "2026-07-29T03:45:17Z",
   "topics": [
     "Insurance AM",
     "Private Credit",
@@ -7,6 +7,26 @@
     "Structured Credit"
   ],
   "items": [
+    {
+      "id": "6a944b6d4920",
+      "title": "Building the Bench: How the University of Iowa Is Training the Next Generation of Insurance Investment Talent",
+      "source": "Institutional Investor",
+      "date": "2026-07-28T22:59:02Z",
+      "topic": "Private Credit",
+      "summary": "",
+      "link": "https://news.google.com/rss/articles/CBMi0AFBVV95cUxNX21VQXg2c24tZDVZaF9QRWNiUHVTSzhZSWl0X2E0MDU0Zk9LQVBlVTFYdWpmVllMclhWcDhmNWJLV3lGV0htdjkyOUVsY3R5d3g1WWFFZVY0TjNsbDhURWJpSUxNRTh4ejZfckN3WmVGQWpyWW5iMUpjZDctMHZqNHZteFdycHlEUUwtRFJqTGlzRmlDcDNJNEVPSndXQ0t5cTMyQ3V1bWRMejFWVDhiTVZ3Ql9DWGJOVFlwbDBPc3hyZWNQc1kzVTluRXpZd3By?oc=5",
+      "isNew": false
+    },
+    {
+      "id": "5697fbf857f1",
+      "title": "Building the Bench: How the University of Iowa Is Training the Next Generation of Insurance Investment Talent",
+      "source": "Institutional Investor",
+      "date": "2026-07-28T22:59:02Z",
+      "topic": "Insurance AM",
+      "summary": "",
+      "link": "https://news.google.com/rss/articles/CBMi0AFBVV95cUxNX21VQXg2c24tZDVZaF9QRWNiUHVTSzhZSWl0X2E0MDU0Zk9LQVBlVTFYdWpmVllMclhWcDhmNWJLV3lGV0htdjkyOUVsY3R5d3g1WWFFZVY0TjNsbDhURWJpSUxNRTh4ejZfckN3WmVGQWpyWW5iMUpjZDctMHZqNHZteFdycHlEUUwtRFJqTGlzRmlDcDNJNEVPSndXQ0t5cTMyQ3V1bWRMejFWVDhiTVZ3Ql9DWGJOVFlwbDBPc3hyZWNQc1kzVTluRXpZd3By?oc=5",
+      "isNew": false
+    },
     {
       "id": "5dde1702dc53",
       "title": "Beyond Default Risk: What an Insurance Mindset Can Teach Institutional Investors About Private Credit",
@@ -71,7 +91,7 @@
       "id": "3eab836b3897",
       "title": "What would a rate hike signal about the new Fed chief's MO?",
       "source": "Axios",
-      "date": "2026-07-27T17:25:16Z",
+      "date": "2026-07-27T16:00:41Z",
       "topic": "Rates & Macro",
       "summary": "",
       "link": "https://news.google.com/rss/articles/CBMibkFVX3lxTE5peUZ0QVc0N2xYNlZ6SkJJVTE1R1ZjN202LXgyS2E2SUVLZm1VOGlhZkluZG1FeVdmTUdnU2QtRVdHWjAzUVhUWFZDV0pMWkxtSkZ0VnVfN1NCUVVNOHVYNlM1bHZHQmJrcV9TOWxn?oc=5",
@@ -285,26 +305,6 @@
       "topic": "Insurance AM",
       "summary": "",
       "link": "https://news.google.com/rss/articles/CBMihwFBVV95cUxNTk1NbTVZN3Bfb3dxUloxYTBiRExTUVI1YjYtVENZRGFTV0lfMnIzQVo3SlZHWVNCVFNtNVNSX2JZTm43T3ZTWENGMFFDU2FjcDRvcS1ydjF4OVpSRV96MTd5WWlWa1E1WXd4SE1QMzZtMXVCRTNrbERSMXBNMTBSS3dtTlJURFk?oc=5",
-      "isNew": false
-    },
-    {
-      "id": "cfabd33866f7",
-      "title": "Sun Life\u2019s Asia asset management chief exits",
-      "source": "Private Debt Investor",
-      "date": "2026-07-24T10:02:13Z",
-      "topic": "Insurance AM",
-      "summary": "",
-      "link": "https://news.google.com/rss/articles/CBMihwFBVV95cUxNTk1NbTVZN3Bfb3dxUloxYTBiRExTUVI1YjYtVENZRGFTV0lfMnIzQVo3SlZHWVNCVFNtNVNSX2JZTm43T3ZTWENGMFFDU2FjcDRvcS1ydjF4OVpSRV96MTd5WWlWa1E1WXd4SE1QMzZtMXVCRTNrbERSMXBNMTBSS3dtTlJURFk?oc=5",
-      "isNew": false
-    },
-    {
-      "id": "9918c16148c0",
-      "title": "Are there still bottlenecks in insurance funds increasing their equity positions? Accelerated equity allocation is pressuring solvency ratios, prompting industry calls for further optimization of risk factors.",
-      "source": "\u5bcc\u9014\u725b\u725b",
-      "date": "2026-07-24T08:38:34Z",
-      "topic": "Insurance AM",
-      "summary": "",
-      "link": "https://news.google.com/rss/articles/CBMisAFBVV95cUxOVlc1dFVFNHU1VGhCZXJJbHNncTd0NFRrekpZUTByYzdpNWpvVVJaYmRHUFhmWG9MQllUWEFrVTNNMzQ2d19qNncxUGxic3hrQUNPanpybkdZTzFPWFg2TU1KcUVoSTBzV1hrRUkyRWNCZlRsTjhaaWV6TFpMTjN0a1hrVk5aOG9ucDQ2bXZjZmt3c2FfbXpuNWxmQWNDS3FzUVFrOXpsWFozeVhJRi1FeA?oc=5",
       "isNew": false
     }
   ]
