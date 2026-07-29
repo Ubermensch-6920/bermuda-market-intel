@@ -46,10 +46,10 @@
     },
     "bb": {
       "name": "BB Corp",
-      "spread": 170,
-      "prior": 168,
-      "series_id": "BAMLH0A1HYBB",
-      "date": "2026-07-27",
+      "spread": 173,
+      "prior": 170,
+      "series_id": "",
+      "date": "2026-07-28",
       "source": "credit.json"
     },
     "b": {
@@ -103,5 +103,5 @@
       "source": "cache"
     }
   },
-  "_fetched": "2026-07-29T14:33:14.620395Z"
+  "_fetched": "2026-07-29T16:39:40.383519Z"
 }
