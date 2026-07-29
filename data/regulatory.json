@@ -1,5 +1,5 @@
 {
-  "updated": "2026-07-29T09:12:45Z",
+  "updated": "2026-07-29T11:38:08Z",
   "naic": [
     {
       "id": "69063c6c1338",
@@ -506,6 +506,16 @@
   ],
   "cayman": [
     {
+      "id": "49edf0d3b54b",
+      "title": "In Libreville, CIMA, COSUMAF and AMF\u2011UMOA sign a convention to align their financial regulations",
+      "date": "2026-07-29",
+      "cat": "General",
+      "summary": "",
+      "source": "Capmad",
+      "link": "https://news.google.com/rss/articles/CBMivgFBVV95cUxQLWZNN0FoMUFjS0d0N0h3Zjlqd0VibHB3TkVIM2RSVzdtVVdnZms1QmNDbXk1UmhycV9rME5ENVJBcnJFaEZlRzdLTV9temJ0cnplbHc4MmcybW5tVFkybWc0WVZZOF84N3N2OTI0LXpfMklEVkNxQWRITFh1MDBUbXdXRElTTVo4VHotX1dCZnNuQjR3RzFjNDd3SHpISnZkaU9wel82SXo5NHpGZXlmMTRSSXFNYTJ0dHdEN2hn?oc=5",
+      "isNew": true
+    },
+    {
       "id": "18c5e2dacc5a",
       "title": "Cayman maintains strong captive insurance licensing growth",
       "date": "2026-07-29",
@@ -513,6 +523,16 @@
       "summary": "",
       "source": "Cayman Finance",
       "link": "https://news.google.com/rss/articles/CBMimwFBVV95cUxPbjctUnRXSmlFbHZINHdNSHFEQ19OTzVXeXMtVnJuejBDbHBMZEY1ZjNTWW1FLUVwVm5BdXdWbDFBTWhXQzNobWt6eWZlRmpWVUY5TGNncjJQQTFKczl0RWNnSnRNaG5tdnJGOTRFanBaYl9vWnNrR3RoaDFTZzRBT2VwUkRSQ3NpTEJkakcwV0I1YmtSY25qYVFlMA?oc=5",
+      "isNew": true
+    },
+    {
+      "id": "18983b42581c",
+      "title": "Cayman issues 20 licences in H1 as QJS bid advances",
+      "date": "2026-07-29",
+      "cat": "General",
+      "summary": "",
+      "source": "Insurance Business",
+      "link": "https://news.google.com/rss/articles/CBMiywFBVV95cUxPS2lqcVB0NzVrNldvOTNtUTVjNnZTOWdUdjVtMmhvX0ZRUlA2UEt1SFF0QVlJd3dybmE3U1JiNF80TVloYmhjLXNlQWlSMHItZW1CdDlsdklOZ0lhc3E2V0RIeTlVejZxcEdCN2ZiU21Sa016QlQxMGJ6MG5OZ1dnUXQyT21QVjNTaWVWRmFGUm5kSktsanFtQnd6OEo4MFk2bnZHOVBKS2ZBaU5CNjRiWmMxd1Q1YmlKRW1LWDMyZ05RaWVnQWlVZHpqTQ?oc=5",
       "isNew": true
     },
     {
@@ -733,25 +753,6 @@
       "summary": "",
       "source": "Cayman Finance",
       "link": "https://news.google.com/rss/articles/CBMimAFBVV95cUxNa1pxUVNjVy03ZXo3cTRaOWtQd1I0RWhmOGgyS05OSTdxZ3lwNmVrZDh5cWMzZ0plR19wNGFVLU5Rb2Jmc24yakpncGhiaVoxeHhCelRGMndBZ01pS0pXYkZncFVROXJYR3BWTVlMLTVTQnI5ZWtUdklWTWhxOWR6bkdBR1BRc0xtdzZtQVNGZ1RaSXI5czdGVw?oc=5",
-      "isNew": false
-    },
-    {
-      "id": "be43f7563849",
-      "title": "New Society of Actuaries report highlights the Cayman Islands\u2019 growing role in international reinsurance",
-      "date": "2026-04-01",
-      "cat": "General",
-      "summary": "",
-      "source": "Cayman Compass",
-      "link": "https://news.google.com/rss/articles/CBMi3gFBVV95cUxQN2VPUUh0eGcyV2VzRmdrd3diaXVVcENhQW9rOFM1X0xxczZCcVZlUkc2cmZ5SmhTN2VjNGc4amQwU2RwSUJPdVVfNTBMMGV2emhxQVhVZHI5QzBWS2txMWFhZlFpSE42cUhrSlZ2SS1BTFcxakxVVE45MWh0MzFycnRxYzFaRjdVdVU3dXMtMFNiSGkyZkk5SE9oVFB0WkVnRUl4MEsxWDc4MGZhc1c0Uzl1SkxmcjZUSk1ORElQNmM0Sngxc2FWekhTYmdDYWJBb3M2NklEYlVQT2J6cFE?oc=5",
-      "isNew": false
-    },
-    {
-      "title": "CIMA \u2013 Updated Rule on Reinsurance Arrangements",
-      "date": "2026-02-25",
-      "cat": "Capital/Solvency",
-      "summary": "Revised expectations for collateral and risk transfer in reinsurance.",
-      "link": "https://www.cima.ky/",
-      "id": "8cd85f826449",
       "isNew": false
     }
   ]

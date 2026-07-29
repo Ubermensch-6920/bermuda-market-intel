@@ -1,5 +1,5 @@
 {
-  "updated": "2026-07-29T09:12:45Z",
+  "updated": "2026-07-29T11:38:08Z",
   "topics": [
     "Insurance AM",
     "Private Credit",
@@ -7,6 +7,16 @@
     "Structured Credit"
   ],
   "items": [
+    {
+      "id": "5af8a734dd64",
+      "title": "Private Credit Profits Go to PE Funds, But Taxpayers Foot the Bill in Bankruptcy",
+      "source": "Seoul Economic Daily",
+      "date": "2026-07-29T09:04:04Z",
+      "topic": "Structured Credit",
+      "summary": "",
+      "link": "https://news.google.com/rss/articles/CBMipwFBVV95cUxPbG1DQnNISjNOVjJ3NVhGOUtkZzAtQVhIX2tVMVdCZVE1cHczaDFmSy00RHYtZk5NcUVSbDA2Rml2d0dyRk9wNmdpSFpENTdwa2ItNk83T2hGOERlSVJFdEhLdm1LV01WaGUzendVMXh1TVltMmxnYzlJNHZ0Z214cktSWGNXamllSEotZExLdUlpa0sxdUtLQ0s3MmtacEhidGc3RWI0bw?oc=5",
+      "isNew": false
+    },
     {
       "id": "6a944b6d4920",
       "title": "Building the Bench: How the University of Iowa Is Training the Next Generation of Insurance Investment Talent",
@@ -295,16 +305,6 @@
       "topic": "Insurance AM",
       "summary": "",
       "link": "https://news.google.com/rss/articles/CBMilAFBVV95cUxPcjAyQ1lyNlpqLTNUamJSV0ZYMzA3LUhhYVhxN2NmbXZ0QmtTOWVPZk5meC1NRjItMWMtMThxOHlMUTQ1WGFIMHNrc3lvWUNvMDc1OFNQMUd2eTF3R24zeENyZDNzOFpnRmM0ZTY1NGdBWWtKczRjYm13YjJvcjhYczZFZ3NMT1RFUzlJbHdxYUZFcGJO?oc=5",
-      "isNew": false
-    },
-    {
-      "id": "f8368f0629b5",
-      "title": "Sun Life\u2019s Asia asset management chief exits",
-      "source": "Private Debt Investor",
-      "date": "2026-07-24T10:54:39Z",
-      "topic": "Insurance AM",
-      "summary": "",
-      "link": "https://news.google.com/rss/articles/CBMihwFBVV95cUxNTk1NbTVZN3Bfb3dxUloxYTBiRExTUVI1YjYtVENZRGFTV0lfMnIzQVo3SlZHWVNCVFNtNVNSX2JZTm43T3ZTWENGMFFDU2FjcDRvcS1ydjF4OVpSRV96MTd5WWlWa1E1WXd4SE1QMzZtMXVCRTNrbERSMXBNMTBSS3dtTlJURFk?oc=5",
       "isNew": false
     }
   ]
