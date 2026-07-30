@@ -1,5 +1,5 @@
 {
-  "updated": "2026-07-30T19:56:38Z",
+  "updated": "2026-07-30T22:23:25Z",
   "topics": [
     "Insurance AM",
     "Private Credit",
@@ -38,16 +38,6 @@
       "isNew": false
     },
     {
-      "id": "69b1a13475ea",
-      "title": "Why the bond market is doubting Fed chairman Kevin Warsh",
-      "source": "Axios",
-      "date": "2026-07-30T16:41:07Z",
-      "topic": "Rates & Macro",
-      "summary": "",
-      "link": "https://news.google.com/rss/articles/CBMiakFVX3lxTFA0NEdxQVJPR0RWdkJrb21mTU9qN2o2TmJfaVBhaTJXYTJyQlpzd1dPWG5UamgzU01xU2llbEdPQm55MUJDMjE5eHM3U3pQUTJsbUdTVWVGWlk3Q3VMcXplaEd0aHAtQnFQT2c?oc=5",
-      "isNew": false
-    },
-    {
       "id": "3504acd80371",
       "title": "Duration Is Not a Defense - I",
       "source": "Substack",
@@ -65,6 +55,16 @@
       "topic": "Structured Credit",
       "summary": "",
       "link": "https://news.google.com/rss/articles/CBMidkFVX3lxTE5PVkxpZ0p0NDZ1UFJtazZ5Q0dzTk1mNE1yVU9zcjdubV9PVm03VUhaQUVhd3ZSM1MzYWVpY25oUG9yVzNPQkhxSjJ0QUxTVFMydnNwV3lJOFlnVkFxZzhTZjVpS0hoY3RzbzNpdnhXWW90TFhoTVE?oc=5",
+      "isNew": false
+    },
+    {
+      "id": "69b1a13475ea",
+      "title": "Why the bond market is doubting Fed chairman Kevin Warsh",
+      "source": "axios.com",
+      "date": "2026-07-30T15:59:21Z",
+      "topic": "Rates & Macro",
+      "summary": "",
+      "link": "https://news.google.com/rss/articles/CBMiakFVX3lxTFA0NEdxQVJPR0RWdkJrb21mTU9qN2o2TmJfaVBhaTJXYTJyQlpzd1dPWG5UamgzU01xU2llbEdPQm55MUJDMjE5eHM3U3pQUTJsbUdTVWVGWlk3Q3VMcXplaEd0aHAtQnFQT2c?oc=5",
       "isNew": false
     },
     {
@@ -130,7 +130,7 @@
     {
       "id": "5a1383e590b3",
       "title": "Insurance Midyear Outlook: Finding Value in Tight Markets",
-      "source": "AllianceBernstein",
+      "source": "alliancebernstein.com",
       "date": "2026-07-30T02:34:04Z",
       "topic": "Insurance AM",
       "summary": "",
@@ -140,7 +140,7 @@
     {
       "id": "0e14302f6545",
       "title": "Insurance Midyear Outlook: Finding Value in Tight Markets",
-      "source": "AllianceBernstein",
+      "source": "alliancebernstein.com",
       "date": "2026-07-29T22:45:21Z",
       "topic": "Private Credit",
       "summary": "",
@@ -260,7 +260,7 @@
     {
       "id": "6a944b6d4920",
       "title": "Building the Bench: How the University of Iowa Is Training the Next Generation of Insurance Investment Talent",
-      "source": "institutionalinvestor.com",
+      "source": "Institutional Investor",
       "date": "2026-07-28T22:59:02Z",
       "topic": "Private Credit",
       "summary": "",
@@ -270,7 +270,7 @@
     {
       "id": "5697fbf857f1",
       "title": "Building the Bench: How the University of Iowa Is Training the Next Generation of Insurance Investment Talent",
-      "source": "institutionalinvestor.com",
+      "source": "Institutional Investor",
       "date": "2026-07-28T22:59:02Z",
       "topic": "Insurance AM",
       "summary": "",
