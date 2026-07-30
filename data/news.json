@@ -1,5 +1,5 @@
 {
-  "updated": "2026-07-30T11:25:37Z",
+  "updated": "2026-07-30T14:37:19Z",
   "topics": [
     "Insurance AM",
     "Private Credit",
@@ -7,6 +7,16 @@
     "Structured Credit"
   ],
   "items": [
+    {
+      "id": "38b8497c6959",
+      "title": "Major central banks steer a cautious hiking path",
+      "source": "Reuters",
+      "date": "2026-07-30T12:46:12Z",
+      "topic": "Rates & Macro",
+      "summary": "",
+      "link": "https://news.google.com/rss/articles/CBMikwFBVV95cUxQdDlXeVJqcjR0Y2xJaWNmX1FOUmhhRXl0czFMNzMtendhekdfcm1JWVpra0pqQmVfWlFRZzFNNTBpQVFtaDVDN09odFc1T01ZNUdvTzZMNFdIbXlQR1I2WTFZdVczVmRFcXJZWDE4VUE2RGQ1YWt3Nl9Fa1l2ZlI3aVA4TkE2ZU16cEpzTk11QndOODA?oc=5",
+      "isNew": false
+    },
     {
       "id": "489e2e5871d5",
       "title": "KKR Profit, Revenue Up on Asset Management, Insurance Growth",
@@ -30,7 +40,7 @@
     {
       "id": "3608b69d1a9e",
       "title": "A divided Fed holds interest rates steady despite stubborn inflation",
-      "source": "washingtonpost.com",
+      "source": "The Washington Post",
       "date": "2026-07-30T04:59:01Z",
       "topic": "Rates & Macro",
       "summary": "",
@@ -168,6 +178,26 @@
       "isNew": false
     },
     {
+      "id": "6a944b6d4920",
+      "title": "Building the Bench: How the University of Iowa Is Training the Next Generation of Insurance Investment Talent",
+      "source": "Institutional Investor",
+      "date": "2026-07-28T22:59:02Z",
+      "topic": "Private Credit",
+      "summary": "",
+      "link": "https://news.google.com/rss/articles/CBMi0AFBVV95cUxNX21VQXg2c24tZDVZaF9QRWNiUHVTSzhZSWl0X2E0MDU0Zk9LQVBlVTFYdWpmVllMclhWcDhmNWJLV3lGV0htdjkyOUVsY3R5d3g1WWFFZVY0TjNsbDhURWJpSUxNRTh4ejZfckN3WmVGQWpyWW5iMUpjZDctMHZqNHZteFdycHlEUUwtRFJqTGlzRmlDcDNJNEVPSndXQ0t5cTMyQ3V1bWRMejFWVDhiTVZ3Ql9DWGJOVFlwbDBPc3hyZWNQc1kzVTluRXpZd3By?oc=5",
+      "isNew": false
+    },
+    {
+      "id": "5697fbf857f1",
+      "title": "Building the Bench: How the University of Iowa Is Training the Next Generation of Insurance Investment Talent",
+      "source": "Institutional Investor",
+      "date": "2026-07-28T22:59:02Z",
+      "topic": "Insurance AM",
+      "summary": "",
+      "link": "https://news.google.com/rss/articles/CBMi0AFBVV95cUxNX21VQXg2c24tZDVZaF9QRWNiUHVTSzhZSWl0X2E0MDU0Zk9LQVBlVTFYdWpmVllMclhWcDhmNWJLV3lGV0htdjkyOUVsY3R5d3g1WWFFZVY0TjNsbDhURWJpSUxNRTh4ejZfckN3WmVGQWpyWW5iMUpjZDctMHZqNHZteFdycHlEUUwtRFJqTGlzRmlDcDNJNEVPSndXQ0t5cTMyQ3V1bWRMejFWVDhiTVZ3Ql9DWGJOVFlwbDBPc3hyZWNQc1kzVTluRXpZd3By?oc=5",
+      "isNew": false
+    },
+    {
       "id": "5dde1702dc53",
       "title": "Beyond Default Risk: What an Insurance Mindset Can Teach Institutional Investors About Private Credit",
       "source": "ai-cio.com",
@@ -185,26 +215,6 @@
       "topic": "Private Credit",
       "summary": "",
       "link": "https://news.google.com/rss/articles/CBMi4gFBVV95cUxPMnl1WkJOMGRhVU8yX3pCQzQ0dXQ4UDFJTWFyNmtSNEN1bjZiMFR4cjZTb2JKVERtVnZTc3M2NWlaazNMbXFiWnpCdHRFbG9OZ2hhNVdfVGhoUWVvRXJXR2NCc2ViWm1xMWpXRW16SXlNa3lSTUNsUUREeEFPbURQS0lTOEpxV05QTW1iX0RLMFRIamZxMjRDUV83M2NfMHVKZXA5TzZRNEoxdnp0RGlkNzdGMjVDTjF5VGI3OHdYMElwVnUzZlh1T1dNZ19zZXFSYmdQT3VFTUpRWVl4Y1k0Vm13?oc=5",
-      "isNew": false
-    },
-    {
-      "id": "6a944b6d4920",
-      "title": "Building the Bench: How the University of Iowa Is Training the Next Generation of Insurance Investment Talent",
-      "source": "Institutional Investor",
-      "date": "2026-07-28T10:38:29Z",
-      "topic": "Private Credit",
-      "summary": "",
-      "link": "https://news.google.com/rss/articles/CBMi0AFBVV95cUxNX21VQXg2c24tZDVZaF9QRWNiUHVTSzhZSWl0X2E0MDU0Zk9LQVBlVTFYdWpmVllMclhWcDhmNWJLV3lGV0htdjkyOUVsY3R5d3g1WWFFZVY0TjNsbDhURWJpSUxNRTh4ejZfckN3WmVGQWpyWW5iMUpjZDctMHZqNHZteFdycHlEUUwtRFJqTGlzRmlDcDNJNEVPSndXQ0t5cTMyQ3V1bWRMejFWVDhiTVZ3Ql9DWGJOVFlwbDBPc3hyZWNQc1kzVTluRXpZd3By?oc=5",
-      "isNew": false
-    },
-    {
-      "id": "5697fbf857f1",
-      "title": "Building the Bench: How the University of Iowa Is Training the Next Generation of Insurance Investment Talent",
-      "source": "Institutional Investor",
-      "date": "2026-07-28T10:38:29Z",
-      "topic": "Insurance AM",
-      "summary": "",
-      "link": "https://news.google.com/rss/articles/CBMi0AFBVV95cUxNX21VQXg2c24tZDVZaF9QRWNiUHVTSzhZSWl0X2E0MDU0Zk9LQVBlVTFYdWpmVllMclhWcDhmNWJLV3lGV0htdjkyOUVsY3R5d3g1WWFFZVY0TjNsbDhURWJpSUxNRTh4ejZfckN3WmVGQWpyWW5iMUpjZDctMHZqNHZteFdycHlEUUwtRFJqTGlzRmlDcDNJNEVPSndXQ0t5cTMyQ3V1bWRMejFWVDhiTVZ3Ql9DWGJOVFlwbDBPc3hyZWNQc1kzVTluRXpZd3By?oc=5",
       "isNew": false
     },
     {
@@ -295,16 +305,6 @@
       "topic": "Insurance AM",
       "summary": "",
       "link": "https://news.google.com/rss/articles/CBMifEFVX3lxTFBLaGUxQmZxVE9LeS01YjBIZjRWdFRqR1lQaVhCQVVtVU1pd2NSZm1mV3Zmbk5fMU1sSGZiYUpZVXpuUVotd0JKb0FIN0JvWk8zMnlRT1lhNTFvWlBNVk10cE9ZNHVTZTJnNjRIMVJwTVpiT0ZpdG50Z05sOW4?oc=5",
-      "isNew": false
-    },
-    {
-      "id": "d64780b571b4",
-      "title": "The Westaim Corporation Announces Leadership Transition at Arena Investors Group Holdings, LLC",
-      "source": "Business Wire",
-      "date": "2026-07-27T10:00:00Z",
-      "topic": "Insurance AM",
-      "summary": "",
-      "link": "https://news.google.com/rss/articles/CBMi5AFBVV95cUxNY0NMeVpJR3oxcE5Cd1ZlTkEyQm0taE91dkJMMmtqSEdrdnZuaG9rXzBKZF9DdFRMY09Mcms2bTI1VVh3RG1jamlQWHNZaFc0STVJMGRtRnJXLU1ubzNZTWNLTUE2NEFmdER5LXpuclh2MmxZNERHTHEwNDZVdlhaR0NydHE3Wl9oLTU1bWcxUzRyOWNYMXUzb2Ewdm9nRUpTYWtrbzJDSE0zVWtWZjU2Y3pqUV9DUkc1bmZhUVB5eWc4YXdKQTA4QU93bDdJWHlFX0lqYkxndUxUYm9WWkNKdFM5R0M?oc=5",
       "isNew": false
     }
   ]
