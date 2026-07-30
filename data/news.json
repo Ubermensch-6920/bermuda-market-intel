@@ -1,5 +1,5 @@
 {
-  "updated": "2026-07-30T08:54:13Z",
+  "updated": "2026-07-30T11:25:37Z",
   "topics": [
     "Insurance AM",
     "Private Credit",
@@ -8,13 +8,43 @@
   ],
   "items": [
     {
+      "id": "489e2e5871d5",
+      "title": "KKR Profit, Revenue Up on Asset Management, Insurance Growth",
+      "source": "WSJ",
+      "date": "2026-07-30T10:57:00Z",
+      "topic": "Insurance AM",
+      "summary": "",
+      "link": "https://news.google.com/rss/articles/CBMiqAFBVV95cUxQdnBwaEFSQXhGTURjVmt0WmdrS3VlVGRPclpETGhobU9Vbnd3MWItZlFIdGk5TWRSSGpmZkhrRS1BYjBuam5uWGlXSlhDYVotd2NPbU1LN2ZjU1pOaGwxNVZiRFVfbkVRNXl6eWk5SUJmN05scWJGYkZfQ1JlaUpjZnFScXFuLS1Kc0VNd1NzX0hFOWZxalV3VDFlQjg5cGxjektWenBvbS0?oc=5",
+      "isNew": false
+    },
+    {
+      "id": "9aef4c4cfbf5",
+      "title": "US borrowing costs hit 19-year high as Fed holds interest rates",
+      "source": "The Guardian",
+      "date": "2026-07-30T09:36:00Z",
+      "topic": "Rates & Macro",
+      "summary": "",
+      "link": "https://news.google.com/rss/articles/CBMiqAFBVV95cUxNTllPdnJlUkhYSWRnVEhmNV8zYTFHWHdSOGdMbVlCWmJuQTZRZTUzM1JoODg1VTJUYnhEbndKOGhVWE02cjFoRGRCRW1IOWY3Z1p3WEljN0lvVGlJNmJlVnJhSURJYnVvYVZOZ09qaXNUaDh1aUhwUWxrYk9hb3lNU2R1WDlxWmJMcFFJUmEwbjRQMDJ1YjRudVdhTmZWTTRybFQzTUdOem4?oc=5",
+      "isNew": false
+    },
+    {
       "id": "3608b69d1a9e",
       "title": "A divided Fed holds interest rates steady despite stubborn inflation",
-      "source": "The Washington Post",
+      "source": "washingtonpost.com",
       "date": "2026-07-30T04:59:01Z",
       "topic": "Rates & Macro",
       "summary": "",
       "link": "https://news.google.com/rss/articles/CBMipwFBVV95cUxQRGc4clFvdXhTQk1TMW1fdzBfc2hSYU5GWlNRTXg2N3ZjdC1BdDM5azhUTV92elNvdU9xLUptemxYbVpEMjJONTFZdFJ4eUJxcVpqd3cxR0poeFo5YWhOUzNEeHNQU1pQVEtOVGhvblJlLVlhTHJuUlZGMkdRNlREXzVQWTZQX0FGNEl1cy1WNE02a2FOUGRjVDV4Q3RFVUwzSnFxLVNPTQ?oc=5",
+      "isNew": false
+    },
+    {
+      "id": "caca275cfe03",
+      "title": "Morning Bid: Bond markets doing the Fed's work",
+      "source": "Reuters",
+      "date": "2026-07-30T04:50:00Z",
+      "topic": "Rates & Macro",
+      "summary": "",
+      "link": "https://news.google.com/rss/articles/CBMif0FVX3lxTE1MSnR0SXh5RHBnNUFreDNWclVETTZ4aDE5ZEo5S3V6WnJ4ODk0NE9LYUMyRVhhTUFLSEVtNEhNQ0FQUVF0Z1ozUUNtMGMtdkR2SDNDaVlxWHoyUFlVcTU2OHc1b0l1dmY1VXhOemdWb2tCR0g1X0JQMXBEeF94Smc?oc=5",
       "isNew": false
     },
     {
@@ -45,6 +75,16 @@
       "topic": "Rates & Macro",
       "summary": "",
       "link": "https://news.google.com/rss/articles/CBMiqgFBVV95cUxNS1NXX3hoSncwTlZxblhWRlFJcWJScDZGUWJvSHZpa21MWmtfV2ZOQll3R05QM09GLXpOTnlCSmtZZmlpTGR6R2Q0RHQ4bWRFYk9FX0s4ZFhTdzFWOTlSejVNQnhoMlZJQ1hsaFE4cEVHcWNTcHdpYzlReTlhcmRSZ3VWRHRId0JSVUtacm5iX1ROWWxvYWFKSldpTWlzY3pJUUhRbXhHU2RsUQ?oc=5",
+      "isNew": false
+    },
+    {
+      "id": "79c2149aeb32",
+      "title": "US borrowing costs hit 19-year high as Federal Reserve defies inflation fears",
+      "source": "Financial Times",
+      "date": "2026-07-29T21:01:56Z",
+      "topic": "Rates & Macro",
+      "summary": "",
+      "link": "https://news.google.com/rss/articles/CBMihAFBVV95cUxQNWlwWE1SVGJMZDJtQ2d4emRtWmtPdExyZnRtWGI5cWdfT2d2NXFmenRpWGFEdE9UTTVTVGRfMmFnX044YTk0Uk5oMlloV3NVUGljd0tueHVFbkhoMVhXT3p0dHFlZkk4VXREaHVnSm5IbDJNcTZYb0hGQ09JZXRBTEdWWDI?oc=5",
       "isNew": false
     },
     {
@@ -128,26 +168,6 @@
       "isNew": false
     },
     {
-      "id": "6a944b6d4920",
-      "title": "Building the Bench: How the University of Iowa Is Training the Next Generation of Insurance Investment Talent",
-      "source": "Institutional Investor",
-      "date": "2026-07-28T22:59:02Z",
-      "topic": "Private Credit",
-      "summary": "",
-      "link": "https://news.google.com/rss/articles/CBMi0AFBVV95cUxNX21VQXg2c24tZDVZaF9QRWNiUHVTSzhZSWl0X2E0MDU0Zk9LQVBlVTFYdWpmVllMclhWcDhmNWJLV3lGV0htdjkyOUVsY3R5d3g1WWFFZVY0TjNsbDhURWJpSUxNRTh4ejZfckN3WmVGQWpyWW5iMUpjZDctMHZqNHZteFdycHlEUUwtRFJqTGlzRmlDcDNJNEVPSndXQ0t5cTMyQ3V1bWRMejFWVDhiTVZ3Ql9DWGJOVFlwbDBPc3hyZWNQc1kzVTluRXpZd3By?oc=5",
-      "isNew": false
-    },
-    {
-      "id": "5697fbf857f1",
-      "title": "Building the Bench: How the University of Iowa Is Training the Next Generation of Insurance Investment Talent",
-      "source": "Institutional Investor",
-      "date": "2026-07-28T22:59:02Z",
-      "topic": "Insurance AM",
-      "summary": "",
-      "link": "https://news.google.com/rss/articles/CBMi0AFBVV95cUxNX21VQXg2c24tZDVZaF9QRWNiUHVTSzhZSWl0X2E0MDU0Zk9LQVBlVTFYdWpmVllMclhWcDhmNWJLV3lGV0htdjkyOUVsY3R5d3g1WWFFZVY0TjNsbDhURWJpSUxNRTh4ejZfckN3WmVGQWpyWW5iMUpjZDctMHZqNHZteFdycHlEUUwtRFJqTGlzRmlDcDNJNEVPSndXQ0t5cTMyQ3V1bWRMejFWVDhiTVZ3Ql9DWGJOVFlwbDBPc3hyZWNQc1kzVTluRXpZd3By?oc=5",
-      "isNew": false
-    },
-    {
       "id": "5dde1702dc53",
       "title": "Beyond Default Risk: What an Insurance Mindset Can Teach Institutional Investors About Private Credit",
       "source": "ai-cio.com",
@@ -165,6 +185,26 @@
       "topic": "Private Credit",
       "summary": "",
       "link": "https://news.google.com/rss/articles/CBMi4gFBVV95cUxPMnl1WkJOMGRhVU8yX3pCQzQ0dXQ4UDFJTWFyNmtSNEN1bjZiMFR4cjZTb2JKVERtVnZTc3M2NWlaazNMbXFiWnpCdHRFbG9OZ2hhNVdfVGhoUWVvRXJXR2NCc2ViWm1xMWpXRW16SXlNa3lSTUNsUUREeEFPbURQS0lTOEpxV05QTW1iX0RLMFRIamZxMjRDUV83M2NfMHVKZXA5TzZRNEoxdnp0RGlkNzdGMjVDTjF5VGI3OHdYMElwVnUzZlh1T1dNZ19zZXFSYmdQT3VFTUpRWVl4Y1k0Vm13?oc=5",
+      "isNew": false
+    },
+    {
+      "id": "6a944b6d4920",
+      "title": "Building the Bench: How the University of Iowa Is Training the Next Generation of Insurance Investment Talent",
+      "source": "Institutional Investor",
+      "date": "2026-07-28T10:38:29Z",
+      "topic": "Private Credit",
+      "summary": "",
+      "link": "https://news.google.com/rss/articles/CBMi0AFBVV95cUxNX21VQXg2c24tZDVZaF9QRWNiUHVTSzhZSWl0X2E0MDU0Zk9LQVBlVTFYdWpmVllMclhWcDhmNWJLV3lGV0htdjkyOUVsY3R5d3g1WWFFZVY0TjNsbDhURWJpSUxNRTh4ejZfckN3WmVGQWpyWW5iMUpjZDctMHZqNHZteFdycHlEUUwtRFJqTGlzRmlDcDNJNEVPSndXQ0t5cTMyQ3V1bWRMejFWVDhiTVZ3Ql9DWGJOVFlwbDBPc3hyZWNQc1kzVTluRXpZd3By?oc=5",
+      "isNew": false
+    },
+    {
+      "id": "5697fbf857f1",
+      "title": "Building the Bench: How the University of Iowa Is Training the Next Generation of Insurance Investment Talent",
+      "source": "Institutional Investor",
+      "date": "2026-07-28T10:38:29Z",
+      "topic": "Insurance AM",
+      "summary": "",
+      "link": "https://news.google.com/rss/articles/CBMi0AFBVV95cUxNX21VQXg2c24tZDVZaF9QRWNiUHVTSzhZSWl0X2E0MDU0Zk9LQVBlVTFYdWpmVllMclhWcDhmNWJLV3lGV0htdjkyOUVsY3R5d3g1WWFFZVY0TjNsbDhURWJpSUxNRTh4ejZfckN3WmVGQWpyWW5iMUpjZDctMHZqNHZteFdycHlEUUwtRFJqTGlzRmlDcDNJNEVPSndXQ0t5cTMyQ3V1bWRMejFWVDhiTVZ3Ql9DWGJOVFlwbDBPc3hyZWNQc1kzVTluRXpZd3By?oc=5",
       "isNew": false
     },
     {
@@ -210,7 +250,7 @@
     {
       "id": "3eab836b3897",
       "title": "What would a rate hike signal about the new Fed chief's MO?",
-      "source": "axios.com",
+      "source": "Axios",
       "date": "2026-07-27T16:00:41Z",
       "topic": "Rates & Macro",
       "summary": "",
@@ -265,46 +305,6 @@
       "topic": "Insurance AM",
       "summary": "",
       "link": "https://news.google.com/rss/articles/CBMi5AFBVV95cUxNY0NMeVpJR3oxcE5Cd1ZlTkEyQm0taE91dkJMMmtqSEdrdnZuaG9rXzBKZF9DdFRMY09Mcms2bTI1VVh3RG1jamlQWHNZaFc0STVJMGRtRnJXLU1ubzNZTWNLTUE2NEFmdER5LXpuclh2MmxZNERHTHEwNDZVdlhaR0NydHE3Wl9oLTU1bWcxUzRyOWNYMXUzb2Ewdm9nRUpTYWtrbzJDSE0zVWtWZjU2Y3pqUV9DUkc1bmZhUVB5eWc4YXdKQTA4QU93bDdJWHlFX0lqYkxndUxUYm9WWkNKdFM5R0M?oc=5",
-      "isNew": false
-    },
-    {
-      "id": "165f5351debe",
-      "title": "Fed expected to hold rates steady \u2014 but an interest rate hike isn't off the table",
-      "source": "Yahoo Finance",
-      "date": "2026-07-27T09:00:00Z",
-      "topic": "Rates & Macro",
-      "summary": "",
-      "link": "https://news.google.com/rss/articles/CBMi0gFBVV95cUxPUGVzbnB6d2w5TWxXelk4TkU0WXdYWGxFaGRSM3lGZy1KRFFKcDlSX0JldHBrWTA0c2xJQnVNX3Bpa0x1N0RpOUxNX3JpZWY5Z0w0Q0kzQWVlTlRqeXU4Um1BZ0NoUExWTFU4djF0OXhCNjNUOWRCRlNSRHg4SktzUGN5TU1BNUoycHVvY2NfanhoM3llSVVIUEUxaFRxOTRMcDFRT0N2VHR2dXotTkY1SDJ3WWpOcmg5NDBGSHRtVUt4cHJzYk5WSXhvZjFMMTBCWlE?oc=5",
-      "isNew": false
-    },
-    {
-      "id": "c47b05e42656",
-      "title": "Valuation Resets, New Entry Points: The Case for CRE Debt",
-      "source": "KKR: A Leading Global Investment Firm",
-      "date": "2026-07-27T07:13:23Z",
-      "topic": "Private Credit",
-      "summary": "",
-      "link": "https://news.google.com/rss/articles/CBMiWkFVX3lxTFBNU2h4ZjN4R2pKUFhuNkh1bV8xNlh4ZU8tMndLdk1fTmU1OVZUU3FyVm1RZmFaNlhXY3hIckNOSDAtOHVKWHotdDZkcGdIRk9KMVp2ZzlENWp4Zw?oc=5",
-      "isNew": false
-    },
-    {
-      "id": "b4607c32496f",
-      "title": "Bonds Deliver Verdict Before Warsh Can",
-      "source": "Palisadian-Post",
-      "date": "2026-07-27T07:03:00Z",
-      "topic": "Rates & Macro",
-      "summary": "",
-      "link": "https://news.google.com/rss/articles/CBMibEFVX3lxTFBNY0o0OWh3b0d4Z05xLTBjcXJLVWd1Z1M3NTRrUHo3YnExSFhSOUlxaVJoSWQ5NWNuYjBPR1VER1RJZVEteF9NZE9IY21rWU5QXzhsdF9HVDc0RU5XUHd2UlJRM3hvQnVoX3Fjbw?oc=5",
-      "isNew": false
-    },
-    {
-      "id": "33828c95ecfb",
-      "title": "European Insurance 2026 Mid-Year Outlook: Profitability To Hold Up",
-      "source": "S&P Global",
-      "date": "2026-07-27T06:21:00Z",
-      "topic": "Private Credit",
-      "summary": "",
-      "link": "https://news.google.com/rss/articles/CBMiywFBVV95cUxOTXZtU3dzckw3Slp5RnlkMWZTNGFRR2JHZ1diTU8yQ21SaEVYR0hBS0poOHQ0Ylg2Zm9QR19pWGhYLWhSYUY1MVlYZndQMlNzU19sYng1WEpBTE5jRzZJNllwd0hHUVVrSHdLOVRvbmdxMm1RU19xSWNLTDl5MW51STJhZld3NmtJb3lZLXJoTVVlQXhPSzl5WXo3OVJLSGZzS3M1akdZLXhfWlN4cE00azI0VXdTZ0NNYnVtSjJVZHhUTHRtekpOSzVqMA?oc=5",
       "isNew": false
     }
   ]
