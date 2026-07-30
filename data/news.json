@@ -1,5 +1,5 @@
 {
-  "updated": "2026-07-30T14:37:19Z",
+  "updated": "2026-07-30T16:54:17Z",
   "topics": [
     "Insurance AM",
     "Private Credit",
@@ -7,6 +7,46 @@
     "Structured Credit"
   ],
   "items": [
+    {
+      "id": "69b1a13475ea",
+      "title": "Why the bond market is doubting Fed chairman Kevin Warsh",
+      "source": "Axios",
+      "date": "2026-07-30T16:28:28Z",
+      "topic": "Rates & Macro",
+      "summary": "",
+      "link": "https://news.google.com/rss/articles/CBMiakFVX3lxTFA0NEdxQVJPR0RWdkJrb21mTU9qN2o2TmJfaVBhaTJXYTJyQlpzd1dPWG5UamgzU01xU2llbEdPQm55MUJDMjE5eHM3U3pQUTJsbUdTVWVGWlk3Q3VMcXplaEd0aHAtQnFQT2c?oc=5",
+      "isNew": false
+    },
+    {
+      "id": "3504acd80371",
+      "title": "Duration Is Not a Defense - I",
+      "source": "Substack",
+      "date": "2026-07-30T16:10:46Z",
+      "topic": "Private Credit",
+      "summary": "",
+      "link": "https://news.google.com/rss/articles/CBMidkFVX3lxTE5PVkxpZ0p0NDZ1UFJtazZ5Q0dzTk1mNE1yVU9zcjdubV9PVm03VUhaQUVhd3ZSM1MzYWVpY25oUG9yVzNPQkhxSjJ0QUxTVFMydnNwV3lJOFlnVkFxZzhTZjVpS0hoY3RzbzNpdnhXWW90TFhoTVE?oc=5",
+      "isNew": false
+    },
+    {
+      "id": "0fefaaf95f52",
+      "title": "Duration Is Not a Defense - I",
+      "source": "Substack",
+      "date": "2026-07-30T16:10:46Z",
+      "topic": "Structured Credit",
+      "summary": "",
+      "link": "https://news.google.com/rss/articles/CBMidkFVX3lxTE5PVkxpZ0p0NDZ1UFJtazZ5Q0dzTk1mNE1yVU9zcjdubV9PVm03VUhaQUVhd3ZSM1MzYWVpY25oUG9yVzNPQkhxSjJ0QUxTVFMydnNwV3lJOFlnVkFxZzhTZjVpS0hoY3RzbzNpdnhXWW90TFhoTVE?oc=5",
+      "isNew": false
+    },
+    {
+      "id": "89e0c8559616",
+      "title": "Breakingviews - Creating bond chaos is a bad way to hike rates",
+      "source": "Reuters",
+      "date": "2026-07-30T14:49:58Z",
+      "topic": "Rates & Macro",
+      "summary": "",
+      "link": "https://news.google.com/rss/articles/CBMipAFBVV95cUxQSkpCSzJXNXBiV0pScmlfbkRYd3hMZmxmQ0RLVGg3eDdXQVA5M0JpVWdNWllNYVpQUW5LY2RfcG0zenFRQnpmWUNFZXF3TEYzQzllaWl1ci1OcmxHTW1hbV91X1VSSnl1ZjVHZ21vZGc4OGRCQmFZdXF5bWVrVlBBUXlVaF84UU8yRExZWGV5WTluQS16MXRxYW1yM3huT1p0a3A4SA?oc=5",
+      "isNew": false
+    },
     {
       "id": "38b8497c6959",
       "title": "Major central banks steer a cautious hiking path",
@@ -28,6 +68,16 @@
       "isNew": false
     },
     {
+      "id": "3c9e21f82a6c",
+      "title": "U.S. Treasury Yields Soar as Market Struggles to Interpret Fed",
+      "source": "WSJ",
+      "date": "2026-07-30T09:44:00Z",
+      "topic": "Rates & Macro",
+      "summary": "",
+      "link": "https://news.google.com/rss/articles/CBMitAFBVV95cUxQcFNlWTYtaGVZZ0xPcnRHU29aSGlVYW1GY1lfa0dXcE81bFVzZkI0N3pZTHJZU2pSTE5Zb3RsbkVSd2tOTWJOYkdOd19pLUVhZy1vZkVjVWViRmdKdmozeVdiNTFCZ3ctMUFwSDllRlhGLUI4a1h2VHpFMHBSRlpYVjRMbmhwZ2tvdWNLMmdhYl9rSC1UM2lJaUF0TmZsTGZndEZSZHJsYUQ3TFlXbk9UaHk4aFM?oc=5",
+      "isNew": false
+    },
+    {
       "id": "9aef4c4cfbf5",
       "title": "US borrowing costs hit 19-year high as Fed holds interest rates",
       "source": "The Guardian",
@@ -40,7 +90,7 @@
     {
       "id": "3608b69d1a9e",
       "title": "A divided Fed holds interest rates steady despite stubborn inflation",
-      "source": "The Washington Post",
+      "source": "washingtonpost.com",
       "date": "2026-07-30T04:59:01Z",
       "topic": "Rates & Macro",
       "summary": "",
@@ -255,56 +305,6 @@
       "topic": "Insurance AM",
       "summary": "",
       "link": "https://news.google.com/rss/articles/CBMipgJBVV95cUxOd3hXNUFOYWFLSW1QWlBucEIzb3RhdjlQSmkxdVhlXzJfMzlyaEJxZDlBQXNOT1NkQk1FUjY2TTZfOWc5SHdsMHJLQmhLV3NaUXhHYXc4N3pEX2J5X1I3TldLdlJaX0xtS2pQbHN3cnZORDlnSmx3Y2pTZ0JkckM3NnpoSmhsdDNvQVRLWWZRS2I0SzNCWDM2Qy1Uc0lERFJ4bzJpWnpoaGNXM0ljbnQwZXA3WU9YT3c4SFU0ak84MWltOEU3WE1INm9PbE1XYVZBVUJ0ZnFGbmMtaWpfX0hEVHN5VEc2MlRXM1hab0MyS0RlR2EyamdRRThZUUluNlExOVhPX01GWFNNN1ZQZlM3TXdfQmVTelVnNV96SnU3c1BHQklkQlE?oc=5",
-      "isNew": false
-    },
-    {
-      "id": "3eab836b3897",
-      "title": "What would a rate hike signal about the new Fed chief's MO?",
-      "source": "Axios",
-      "date": "2026-07-27T16:00:41Z",
-      "topic": "Rates & Macro",
-      "summary": "",
-      "link": "https://news.google.com/rss/articles/CBMibkFVX3lxTE5peUZ0QVc0N2xYNlZ6SkJJVTE1R1ZjN202LXgyS2E2SUVLZm1VOGlhZkluZG1FeVdmTUdnU2QtRVdHWjAzUVhUWFZDV0pMWkxtSkZ0VnVfN1NCUVVNOHVYNlM1bHZHQmJrcV9TOWxn?oc=5",
-      "isNew": false
-    },
-    {
-      "id": "8ad14ec5adcc",
-      "title": "European insurers\u2019 private credit exposure not risky, largely mortgage-related: S&P",
-      "source": "Intelligent Insurer",
-      "date": "2026-07-27T13:48:36Z",
-      "topic": "Private Credit",
-      "summary": "",
-      "link": "https://news.google.com/rss/articles/CBMiuAFBVV95cUxNTHZqRmwyTTdoUzNpdlV6Y2tUakdJYjVMX1Zvblg4UWFld2lGRDRZdGpTcW16VG83ckpERWRsQ3plOUp6eDlqckptdFlLUS1SaUJrOXg4Zzk5emprNHhhNlNuRVVRcmt2ZEFpZkJvczBSWFhnTjJBTXQ1QTZHUUFHTktJdUl6bEF2UnlzYkY2NGhZT0c3cmpGb002ZDlsT1JOR0RCSkJKTF8yWVl4SzljbnlaTmpIN2Fq?oc=5",
-      "isNew": false
-    },
-    {
-      "id": "cc9e1985e02f",
-      "title": "Bermuda life reinsurers face scrutiny as US insurers pivot to new structured products",
-      "source": "Insurance Business",
-      "date": "2026-07-27T11:52:21Z",
-      "topic": "Structured Credit",
-      "summary": "",
-      "link": "https://news.google.com/rss/articles/CBMi-AFBVV95cUxQUTZ0LVBOSzViSVpiWEtkZE5IRUFPNmlsZUU4cXNybVNUMUJkeWRtV25KaTFIN3cyS0djNmpsWjNyS2lnd3N2eTJTSmNlRE9KRlNXX2duX2RLMWtxTmtfa25qQWVYdldRRzdYM0tmcnFnc0ttSDRJT21rajR0NUNCODZBM2IwZkRNVjFTX3FsRHE1aXVTbFNMMjB0Y0pvQ3ZkWWVrbHRUVjBUNUpkR1d2M3kydGlFUkp2X19SSTF5ck9wX2p6QnJGMkJCeGNCQjltWnJfQkN0aUNaRVU1QVpIQy1DQXlCc3ZHWG5hMjd4YnNRYUdNQUdhMQ?oc=5",
-      "isNew": false
-    },
-    {
-      "id": "a19fcd4564a3",
-      "title": "Morgan Stanley IM appoints Asia insurance solutions lead",
-      "source": "Private Equity International | PEI",
-      "date": "2026-07-27T11:48:27Z",
-      "topic": "Insurance AM",
-      "summary": "",
-      "link": "https://news.google.com/rss/articles/CBMiogFBVV95cUxPRG5WM0M0Z05IVU9kcWRwaVlPVk55cVFrVERaU2swaW1FdzZXX3NWU09tYXU0VmNKRUpuVkNGc2JLVUZvN2lCVTFwY3JrY2EzQTNZNkUyZnZnYnBKeWVSMllkMkZBdjNDU0wwRkcyWjFyZ0NRS2xGampPWXU3dFd3OEg5UmxYZ2JHYVVXeGhvVVZqZWZHR3g2ajNSWHNMZXBxZVE?oc=5",
-      "isNew": false
-    },
-    {
-      "id": "e62c9fa1b083",
-      "title": "How Deep Does the Mac and Cheese Go?",
-      "source": "Substack",
-      "date": "2026-07-27T11:18:45Z",
-      "topic": "Insurance AM",
-      "summary": "",
-      "link": "https://news.google.com/rss/articles/CBMifEFVX3lxTFBLaGUxQmZxVE9LeS01YjBIZjRWdFRqR1lQaVhCQVVtVU1pd2NSZm1mV3Zmbk5fMU1sSGZiYUpZVXpuUVotd0JKb0FIN0JvWk8zMnlRT1lhNTFvWlBNVk10cE9ZNHVTZTJnNjRIMVJwTVpiT0ZpdG50Z05sOW4?oc=5",
       "isNew": false
     }
   ]
