@@ -1,5 +1,5 @@
 {
-  "updated": "2026-07-29T22:17:36Z",
+  "updated": "2026-07-30T03:33:35Z",
   "topics": [
     "Insurance AM",
     "Private Credit",
@@ -7,6 +7,56 @@
     "Structured Credit"
   ],
   "items": [
+    {
+      "id": "3608b69d1a9e",
+      "title": "A divided Fed holds interest rates steady despite stubborn inflation",
+      "source": "The Washington Post",
+      "date": "2026-07-30T03:19:26Z",
+      "topic": "Rates & Macro",
+      "summary": "",
+      "link": "https://news.google.com/rss/articles/CBMipwFBVV95cUxQRGc4clFvdXhTQk1TMW1fdzBfc2hSYU5GWlNRTXg2N3ZjdC1BdDM5azhUTV92elNvdU9xLUptemxYbVpEMjJONTFZdFJ4eUJxcVpqd3cxR0poeFo5YWhOUzNEeHNQU1pQVEtOVGhvblJlLVlhTHJuUlZGMkdRNlREXzVQWTZQX0FGNEl1cy1WNE02a2FOUGRjVDV4Q3RFVUwzSnFxLVNPTQ?oc=5",
+      "isNew": false
+    },
+    {
+      "id": "4dae5073433e",
+      "title": "Warsh-led Fed leaves rates on hold and a bond market scratching its head",
+      "source": "Reuters",
+      "date": "2026-07-29T23:18:30Z",
+      "topic": "Rates & Macro",
+      "summary": "",
+      "link": "https://news.google.com/rss/articles/CBMiugFBVV95cUxPMWE0UWlwemdYNE5CaEZPSVBqZVNuSmlVSmIxWHV6R1hXa3lua1RReGpYaTEtZGttNzZoTU1XT3VGbjZWUmxFSWxnN21mMGlHVW1fazREOXdRZVk1ek9ya1JVMVNWM0NoVEVzRHY2bWJSYy1JRUtrNElLb3BPSjJzNm9wWmpmYTU3OXRIQ0E1dG82TkU2emF4QVoxTEJJU01ydzF5cHZHRVlnbGp6T3JESUtzV0ZZYjZUc2c?oc=5",
+      "isNew": false
+    },
+    {
+      "id": "0e14302f6545",
+      "title": "Insurance Midyear Outlook: Finding Value in Tight Markets",
+      "source": "AllianceBernstein",
+      "date": "2026-07-29T22:45:21Z",
+      "topic": "Private Credit",
+      "summary": "",
+      "link": "https://news.google.com/rss/articles/CBMi1AFBVV95cUxNakNQUEVaSGRfaDlNRUQ3aVV0LVkyVElTODlOZFRVSi16d3piT0Y0NFIyMjFOWVFPTURmcExaMnBTRUMxU1l6RGtldmlWWHo3UUgyT0NkUmNINFJwczJxc0hia1NFVE1TRlp5dlRJMDREMXpUbG1MYUt3S1FNRGs2Y0tBVWV1NDlOTllmdTRHc29tcVNudnEtZ2prVFRqMFd5Vm1ZaWxVazR6LUhaajlUa3NPSDBZRm1XVGZteWRQNks5M2R1WmFzbDBXZXozRWQtSG5Lag?oc=5",
+      "isNew": false
+    },
+    {
+      "id": "5a1383e590b3",
+      "title": "Insurance Midyear Outlook: Finding Value in Tight Markets",
+      "source": "AllianceBernstein",
+      "date": "2026-07-29T22:45:21Z",
+      "topic": "Insurance AM",
+      "summary": "",
+      "link": "https://news.google.com/rss/articles/CBMi1AFBVV95cUxNakNQUEVaSGRfaDlNRUQ3aVV0LVkyVElTODlOZFRVSi16d3piT0Y0NFIyMjFOWVFPTURmcExaMnBTRUMxU1l6RGtldmlWWHo3UUgyT0NkUmNINFJwczJxc0hia1NFVE1TRlp5dlRJMDREMXpUbG1MYUt3S1FNRGs2Y0tBVWV1NDlOTllmdTRHc29tcVNudnEtZ2prVFRqMFd5Vm1ZaWxVazR6LUhaajlUa3NPSDBZRm1XVGZteWRQNks5M2R1WmFzbDBXZXozRWQtSG5Lag?oc=5",
+      "isNew": false
+    },
+    {
+      "id": "37d68032c3cc",
+      "title": "Warsh\u2019s Posture on Interest Rates Sparks Market Inflation Fears",
+      "source": "WSJ",
+      "date": "2026-07-29T21:15:00Z",
+      "topic": "Rates & Macro",
+      "summary": "",
+      "link": "https://news.google.com/rss/articles/CBMiqgFBVV95cUxNS1NXX3hoSncwTlZxblhWRlFJcWJScDZGUWJvSHZpa21MWmtfV2ZOQll3R05QM09GLXpOTnlCSmtZZmlpTGR6R2Q0RHQ4bWRFYk9FX0s4ZFhTdzFWOTlSejVNQnhoMlZJQ1hsaFE4cEVHcWNTcHdpYzlReTlhcmRSZ3VWRHRId0JSVUtacm5iX1ROWWxvYWFKSldpTWlzY3pJUUhRbXhHU2RsUQ?oc=5",
+      "isNew": false
+    },
     {
       "id": "adc89b6c4734",
       "title": "Warsh vows not to 'waver' on inflation as divided Fed leaves rates unchanged",
@@ -45,6 +95,16 @@
       "topic": "Insurance AM",
       "summary": "",
       "link": "https://news.google.com/rss/articles/CBMiwwFBVV95cUxOTkdtSU1NXzNxSXN0Wkg2eEl0YlpUU2Zzb1FudHhIQTRXXzZMRlljOHVMZTVXcFpnSmpxZ0lGT1MwZHk0aXhVZ2ZIMGJXNDg0ZG9OSmotZi1LQWRZbmVlcklqa2VzU3N0TEl5NUdENDRIcUN4SmlpSUZOaUVhMVBJaTN1Rndab2tkYzg0LWZVTFcwNFNzaU4yQ3VtS0k4M1BPazlLUDR1MHZJWFR5c2Zoc1RHSmY1MFpUMGszai13VjZNcE0?oc=5",
+      "isNew": false
+    },
+    {
+      "id": "23440e1462b0",
+      "title": "Warsh vows not to \u2018waver\u2019 on inflation as divided Fed leaves rates unchanged",
+      "source": "whbl.com",
+      "date": "2026-07-29T11:07:46Z",
+      "topic": "Rates & Macro",
+      "summary": "",
+      "link": "https://news.google.com/rss/articles/CBMipgFBVV95cUxQekloVy00QXc5UFFCTUczb0NlMFVhLXZ3aWdqT0RMUWgyZG9HVmU3OG5DLU1wOW5adGVHMlVxWFZJMF9OVmM4TW5CbUtPamdkZWpPcEFIcWVybVdlQTFFdmFtRExIb3FVZEk5REpLbTdMWlJPcUczRVhZWmIzbDAwYlJoeWZsdmNXZmxfWGo3NG5sY2c1RE5STG1UckVwTnZORGRBY3BR?oc=5",
       "isNew": false
     },
     {
@@ -170,7 +230,7 @@
     {
       "id": "cc9e1985e02f",
       "title": "Bermuda life reinsurers face scrutiny as US insurers pivot to new structured products",
-      "source": "insurancebusinessmag.com",
+      "source": "Insurance Business",
       "date": "2026-07-27T11:52:21Z",
       "topic": "Structured Credit",
       "summary": "",
@@ -245,66 +305,6 @@
       "topic": "Private Credit",
       "summary": "",
       "link": "https://news.google.com/rss/articles/CBMiywFBVV95cUxOTXZtU3dzckw3Slp5RnlkMWZTNGFRR2JHZ1diTU8yQ21SaEVYR0hBS0poOHQ0Ylg2Zm9QR19pWGhYLWhSYUY1MVlYZndQMlNzU19sYng1WEpBTE5jRzZJNllwd0hHUVVrSHdLOVRvbmdxMm1RU19xSWNLTDl5MW51STJhZld3NmtJb3lZLXJoTVVlQXhPSzl5WXo3OVJLSGZzS3M1akdZLXhfWlN4cE00azI0VXdTZ0NNYnVtSjJVZHhUTHRtekpOSzVqMA?oc=5",
-      "isNew": false
-    },
-    {
-      "id": "32bc926d9b43",
-      "title": "European Insurance 2026 Mid-Year Outlook: Profitability To Hold Up",
-      "source": "S&P Global",
-      "date": "2026-07-27T06:21:00Z",
-      "topic": "Insurance AM",
-      "summary": "",
-      "link": "https://news.google.com/rss/articles/CBMiywFBVV95cUxOTXZtU3dzckw3Slp5RnlkMWZTNGFRR2JHZ1diTU8yQ21SaEVYR0hBS0poOHQ0Ylg2Zm9QR19pWGhYLWhSYUY1MVlYZndQMlNzU19sYng1WEpBTE5jRzZJNllwd0hHUVVrSHdLOVRvbmdxMm1RU19xSWNLTDl5MW51STJhZld3NmtJb3lZLXJoTVVlQXhPSzl5WXo3OVJLSGZzS3M1akdZLXhfWlN4cE00azI0VXdTZ0NNYnVtSjJVZHhUTHRtekpOSzVqMA?oc=5",
-      "isNew": false
-    },
-    {
-      "id": "5325c06227ad",
-      "title": "Mirae Asset Life debuts variable savings plan blending investment and inheritance - CHOSUNBIZ",
-      "source": "Chosunbiz",
-      "date": "2026-07-27T05:01:00Z",
-      "topic": "Insurance AM",
-      "summary": "",
-      "link": "https://news.google.com/rss/articles/CBMilAFBVV95cUxPQktyTHNuaDUxMUc1T3NwaEFQcmZLd0FfVTN3cVpuek1ZTmNjM0pJWjBwRjRTS0tZQUs4YWp5NnRXZG1OdVFnQ2ZITkt5TGJkRkNhOWJZY05XOWhGVGF5eVdEQTlEUUFyZnZzblFBWERCR1lpb1RTNzdLWGFwYW1FMDB4dGZ2TXJkZ2NuUjdNcmdQckl60gGUAUFVX3lxTE9CS3JMc25oNTExRzVPc3BoQVByZkt3QV9VM3dxWm56TVlOY2MzSklaMHBGNFNLS1lBSzhhank2dFdkbU51UWdDZkhOS3lMYmRGQ2E5YlljTlc5aEZUYXl5V0RBOURRQXJmdnNuUUFYREJHWWlvVFM3N0tYYXBhbUUwMHh0ZnZNcmRnY25SN01yZ1BySXo?oc=5",
-      "isNew": false
-    },
-    {
-      "id": "0704cd552f41",
-      "title": "Exclusive | Federal Probe Into Dodgers Owner\u2019s Financial Empire Was Sparked by Whistleblower",
-      "source": "WSJ",
-      "date": "2026-07-26T23:24:00Z",
-      "topic": "Private Credit",
-      "summary": "",
-      "link": "https://news.google.com/rss/articles/CBMixgFBVV95cUxObE1wSExzcVlHQzE4ZUJuNlpSdE5vYmlQYTN1ZTdERFRpUXhnczZDaTlfUTVsT3NqYUxEWXY0SFd4a3M5QzBiZXFWSUhuOGJCTlV0YldwZnltLUxISjNpVHFwM2tnZ3A3bXdtNjM4SU16c3RhaTdOdXF6TmtOM2NjM1JXNm4xTXhtZURIaER2OGZCZ09fS0tqbXdROVMwdHhnenlpUlNPcnBpcnFKU25CbXBiRFRza1B4cTlpTXdOb3c0cTVuaUE?oc=5",
-      "isNew": false
-    },
-    {
-      "id": "e7463be78916",
-      "title": "Who is funding America\u2019s widening debt with the rest of the world?",
-      "source": "reuters.com",
-      "date": "2026-07-25T07:00:00Z",
-      "topic": "Rates & Macro",
-      "summary": "",
-      "link": "https://news.google.com/rss/articles/CBMivwFBVV95cUxPZGZfSHBsbUZHYWRxR3JCaV9Gbzk4cC1pNHpOVzJSNTlFb2VDeWx2TlhNV0dlZ3VPc1hWTU5JamQzMFMyQWFiYkQwQ00tU2ZKMVBGY0tVQXhoeDJiRkxJMVhybU9HZjd3OUJwS05fUi1iWWpLRS10LVZha1BoM1VDdzNvb2ljREsxUTN4LUJCdlBzdFNmTlE3d1EyLVNDNklsNEJJd0cwYWhEM2s0Q09YMVdac3hSMWlGNFdoODNPWQ?oc=5",
-      "isNew": false
-    },
-    {
-      "id": "2d9555d14bd4",
-      "title": "Insurers boost private credit allocations despite liquidity and regulatory concerns",
-      "source": "\u041c\u0435\u0436\u0430. \u041d\u043e\u0432\u0438\u043d\u0438 \u0423\u043a\u0440\u0430\u0457\u043d\u0438.",
-      "date": "2026-07-24T19:26:58Z",
-      "topic": "Private Credit",
-      "summary": "",
-      "link": "https://news.google.com/rss/articles/CBMibEFVX3lxTE1pTmVlaUJQT2tKWUFVbU10YmRSVnBzTkJ5a3BJVFY0Y2pDZXd2ajFFMVpnOEFPbWN1Vll5d2Q0VlFlY25zTE1HektHcjZMdDl1SFNTa050M1VKaGRrVGZEb2VCTndzdFplbU5ISg?oc=5",
-      "isNew": false
-    },
-    {
-      "id": "659fdf3e5f78",
-      "title": "Why bond investors are pushing up some of your interest rates",
-      "source": "CNBC",
-      "date": "2026-07-24T18:29:56Z",
-      "topic": "Rates & Macro",
-      "summary": "",
-      "link": "https://news.google.com/rss/articles/CBMie0FVX3lxTFBMekM1bEg2SXUxVERwR1ExWjdScnFWNVJBREpiRmRsRWFZSFhjSjhuNGNxTy1nTmJHYkZKX1BoY3YtN3FtaG5hcWNLbDFPQi1pd1luM2lUQ1JKSVRKVnRuYmVXUkpwck85ZVRIZHhSSU1uY3Jvb3hNZFBhb9IBgAFBVV95cUxPdEh6THVNRjdOUG5SVmVBU1VIT29pUGdsSlZNeGJZU0ktWTRzUXRkRjd5bk44bUxmNFIwQzY2U1lHdnhfUE1xUklPSjItTnZGazQteE12ZUpQTHJjRy0zQTltbWNaNmpHVmExWXNINWtMQXVSa2dibHNtTUFOZ0xzag?oc=5",
       "isNew": false
     }
   ]

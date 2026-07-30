@@ -1,5 +1,5 @@
 {
-  "updated": "2026-07-29T22:17:36Z",
+  "updated": "2026-07-30T03:33:35Z",
   "naic": [
     {
       "id": "69063c6c1338",
@@ -329,7 +329,7 @@
       "date": "2026-07-22",
       "cat": "General",
       "summary": "",
-      "source": "Royal Gazette | Bermuda",
+      "source": "royalgazette.com",
       "link": "https://news.google.com/rss/articles/CBMinAFBVV95cUxQU1lGemdXaEtnZnJpNXNMeHR1dU41NWhTUlZOOTJFaFlmYWFQTXp6Zm1Yd1JIZF83NjB2NWVFT0MzZ0F4djdXelcyOHVjTVNaRXhpVFowZzlUdzQ0dENnNkJHeFVSdnJZazdsMFlWUUZJSVN4dWdlZHVTOFA4R0JDSWlHVnRYdmVXNWNadU14M2g5eGpLYkxMNFZocUI?oc=5",
       "isNew": true
     },
@@ -369,7 +369,7 @@
       "date": "2026-07-21",
       "cat": "General",
       "summary": "",
-      "source": "Royal Gazette | Bermuda",
+      "source": "royalgazette.com",
       "link": "https://news.google.com/rss/articles/CBMitgFBVV95cUxNdHZNOGJEMWdLZTRNYjl3V1RYTmotWmdRVHV5aHpiOWxHNXdMZkEyOGRHb1RNUVB4T1pES2ZoSmczUGtHM2dwQ3hqVnV4LUw2T0pLR3NZOGtVSVNqdDdIWlNCeUhXQTVtOFF2VTdVVjlyMlk4VGZMR0JCOHlnNWJGQzR4S1pTWGJTYmhZWktVYnRKbkZBdDd4SEFKWWF5bUVQd3p2S0xFTXFMTkJXRENOZWFDMlVjUQ?oc=5",
       "isNew": true
     },
@@ -429,7 +429,7 @@
       "date": "2026-07-14",
       "cat": "Governance",
       "summary": "",
-      "source": "Royal Gazette | Bermuda",
+      "source": "royalgazette.com",
       "link": "https://news.google.com/rss/articles/CBMiqAFBVV95cUxPcXNDMmwwaG9ia1JVRkNVOHdQNjJiQnlON3IzaWk1Q3VQVFFSTGhzbGRhUmxkNnRqT0FwWWpOOF9ZYTQ3alF0cmh4dXFaYnVwOXYxTDZibGU4UG9sWWdpLXF2WHY1TWhoOVdoSHB5RXFYcjVBVlZFUVMzNHp3eHRMdUkzMDZ2TDR1NV85aTVOMXYxejFjMTI0UHM0eHZzNmFhc0NWdmpMNDE?oc=5",
       "isNew": true
     },
@@ -459,7 +459,7 @@
       "date": "2026-07-10",
       "cat": "General",
       "summary": "",
-      "source": "Royal Gazette | Bermuda",
+      "source": "royalgazette.com",
       "link": "https://news.google.com/rss/articles/CBMiywFBVV95cUxNaTJ1ZlhIX1lqVFhhRlFUU1NIdVhBTjJNSU9SYW1rLUZDaE1LSnpVczZrWGtLQnVuNnIyaUZ5YXVydHItZDJBV2hkRHBaNV9kTFRSOFpzcVdZaEhodE1RbEN2SVEySUdORlNQYXBDWXlBUkZ4OFp6N19yTmFHNUs1U0w4Z21kMGt2TEhXd3lNR2s1WXB4WUdpa2c0bFhsN2xjcHFlR1FoUVZNZzNFZFNfR2hQVFFEN09YVTNSdHl5aFpGd2VaX1NMQ1dfVQ?oc=5",
       "isNew": true
     },
@@ -501,7 +501,7 @@
       "summary": "",
       "source": "Royal Gazette | Bermuda",
       "link": "https://news.google.com/rss/articles/CBMiygFBVV95cUxNZ3BKTUhMdEtodG1Ob3habzVsSi12NXZFRUh3SmZnd0pYUHJiU1JfWkozU2tOdFpXUmFtbWxpdUZPS0UzdUNqQmlFWmFFMERpWEpFVUNWVS11dERBRDY4aGtLQjNXWnI4ajAxQm1MdVpzZC10b2lXYl9QN0tVUy1LaUJaRnprYTNkdzRUcFBQOENxdWNZRm5kc0E2N1pKUklDOFh2dHRsUlVmX3YxZ3B3aGxLUWE2Z2V0Z3loYzdFSnNXU3g0RjdaMlV3?oc=5",
-      "isNew": true
+      "isNew": false
     }
   ],
   "cayman": [
@@ -531,7 +531,7 @@
       "date": "2026-07-29",
       "cat": "General",
       "summary": "",
-      "source": "insurancebusinessmag.com",
+      "source": "Insurance Business",
       "link": "https://news.google.com/rss/articles/CBMiywFBVV95cUxPS2lqcVB0NzVrNldvOTNtUTVjNnZTOWdUdjVtMmhvX0ZRUlA2UEt1SFF0QVlJd3dybmE3U1JiNF80TVloYmhjLXNlQWlSMHItZW1CdDlsdklOZ0lhc3E2V0RIeTlVejZxcEdCN2ZiU21Sa016QlQxMGJ6MG5OZ1dnUXQyT21QVjNTaWVWRmFGUm5kSktsanFtQnd6OEo4MFk2bnZHOVBKS2ZBaU5CNjRiWmMxd1Q1YmlKRW1LWDMyZ05RaWVnQWlVZHpqTQ?oc=5",
       "isNew": true
     },
@@ -601,7 +601,7 @@
       "date": "2026-07-14",
       "cat": "General",
       "summary": "",
-      "source": "insurancebusinessmag.com",
+      "source": "Insurance Business",
       "link": "https://news.google.com/rss/articles/CBMi2gFBVV95cUxOWEI0T3hNdnh5M0U2ekhDYWJRRnplN3g1ZDVheG9NRUZwR2lxUjJaVDhLSkFGdjRWWENGRkJVVjJwQ0FMY05KenJha1JHZkd3em0wczVrOXFYbks4UGxfQUg0NDJQUVlQQ0hVOFNGWmsyMXM5NFlTV3F2YmlxbWQ3alZDcHQ1ajktRUhnTkdNX3Bia1dON3RVSGdqa1I1ZzNlWnNCX0Y5VU5SR2lpanlhSjRvc1pWUFlHN3FxbkZtM0NUVXc5NlRlWHAtTUoxX3lTTEdiYUpDTnZTUQ?oc=5",
       "isNew": true
     },
@@ -621,7 +621,7 @@
       "date": "2026-07-01",
       "cat": "Governance",
       "summary": "",
-      "source": "caymancompass.com",
+      "source": "Cayman Compass",
       "link": "https://news.google.com/rss/articles/CBMirgFBVV95cUxOVWdmX3c0N2F6UHZTRld2S1Z1dHVibHF6NV9VbkMtVWx2ZWVrb0ZabVpLcjRGemFmOWZxSTNWY2hNVjRvcXJjTG9CUW9jNGIydDlQTG1EeDZkaUVCY1I5S3pmazNQWi04MVdYR29OQ0trajcySWxSaUR5NEFLR1ducVJvUGNOQmNZUkE2NHdIUjFqZUhRZzQ1blcybzlieEw2YS15R0VCWTVrd0h4NUE?oc=5",
       "isNew": true
     },
@@ -681,7 +681,7 @@
       "date": "2026-06-11",
       "cat": "Licensing",
       "summary": "",
-      "source": "caymancompass.com",
+      "source": "Cayman Compass",
       "link": "https://news.google.com/rss/articles/CBMid0FVX3lxTE5HS2pISXFHV2hHSG15NDJxbjRTSnNjMjVFelN6dDVTOERreERUUENJbUdpNG9BTy1zWXFiTnNKQ3pfZU80RERuVWVVN0diajRNVEtCbi1aMTZrZHhOQVdxRUxFVjRBU2UxN3A4bWd5MnBRUGc5dHNv?oc=5",
       "isNew": false
     },
