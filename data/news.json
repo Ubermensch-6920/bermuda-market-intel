@@ -1,5 +1,5 @@
 {
-  "updated": "2026-07-31T09:21:03Z",
+  "updated": "2026-07-31T14:39:49Z",
   "topics": [
     "Insurance AM",
     "Private Credit",
@@ -8,6 +8,46 @@
   ],
   "items": [
     {
+      "id": "1f0fb0b59cab",
+      "title": "The Quiet Taxpayer Backstop Behind Private Credit",
+      "source": "nai500.com",
+      "date": "2026-07-31T10:24:50Z",
+      "topic": "Structured Credit",
+      "summary": "",
+      "link": "https://news.google.com/rss/articles/CBMiigFBVV95cUxPOHRsclpKVWQ3SGlXY25tWkxPNDdqeEVlaXB3dWtEMGtUWi02UjluckhzUjlOOVJyTTUxRTBjNzNEa0tQc0drcjFDX1dINHB2emhFTERkQ2dZbTZPcEJtaUkzVkRPRnZrUUk0UE9KbHFZVmxPRnpMbUJxeXgxSUdGQjcyd0FaSkdOSnc?oc=5",
+      "isNew": false
+    },
+    {
+      "id": "189b035d882d",
+      "title": "Treasury yields follow oil prices higher as Fed officials say rate hikes are needed",
+      "source": "CNBC",
+      "date": "2026-07-31T07:05:51Z",
+      "topic": "Rates & Macro",
+      "summary": "",
+      "link": "https://news.google.com/rss/articles/CBMimAFBVV95cUxNdzh5ZnRHOU1ZSmQ4eTBRRGZLOTJUTDAtWFF5WS10aGVXdW5pd2NUWTF1ZmF1WWxCb3h5eFVPTk9IT2QtelROckF6bVJzOXV3QkptRTR1WXZQOXlXUGhRaG0tRXppMFg5emRvektyUXdxWDR1T09zQmo3ZmJDeVBRMDdoMGVtQVJ4aXhfQl9IRVljVXJ3SEV0eNIBngFBVV95cUxQWHdZa2ZtVmVFblFQdFQtejBkY0N1X1F1OG5hNUxldWk3SE5jbHJoM3VaZkJleldka3ZXeXFMbUZ3QWZZR0pjU01JeWpSeEtfOFcxcm5YcU9iTHd5MGhLZ1I3TklNQVFxT3RSa05PazZ2V05VaUdGcWxoMDd6UlBpMEpwOVAwYUpBOHdIYVY5anptb01mdGoyMTFyXzFPQQ?oc=5",
+      "isNew": false
+    },
+    {
+      "id": "69b1a13475ea",
+      "title": "Why the bond market is doubting Fed chairman Kevin Warsh",
+      "source": "Axios",
+      "date": "2026-07-31T05:47:10Z",
+      "topic": "Rates & Macro",
+      "summary": "",
+      "link": "https://news.google.com/rss/articles/CBMiakFVX3lxTFA0NEdxQVJPR0RWdkJrb21mTU9qN2o2TmJfaVBhaTJXYTJyQlpzd1dPWG5UamgzU01xU2llbEdPQm55MUJDMjE5eHM3U3pQUTJsbUdTVWVGWlk3Q3VMcXplaEd0aHAtQnFQT2c?oc=5",
+      "isNew": false
+    },
+    {
+      "id": "03f58be01de2",
+      "title": "US regulators cite \u2018circular\u2019 risk in investments used by KKR and Apollo",
+      "source": "Financial Times",
+      "date": "2026-07-31T04:01:32Z",
+      "topic": "Insurance AM",
+      "summary": "",
+      "link": "https://news.google.com/rss/articles/CBMihAFBVV95cUxOVHhvNnFjS3NNQUR1TlgwZ3k0YUV1SzZWdE14ZHBLYk9ucmFGQ1A2TjFSWW5LcUtmd3c4andwdWFQQy02ZXBzdUROSGVBeEhKcU9VZno2dkdXVkxuNFU0ckVqTjBZS25nZFQ1d3hwVHpRMW5kQ1dxQ21TVzd4WEN1QWtEazA?oc=5",
+      "isNew": false
+    },
+    {
       "id": "9aef4c4cfbf5",
       "title": "US borrowing costs hit 19-year high as Fed holds interest rates",
       "source": "The Guardian",
@@ -15,16 +55,6 @@
       "topic": "Rates & Macro",
       "summary": "",
       "link": "https://news.google.com/rss/articles/CBMiqAFBVV95cUxNTllPdnJlUkhYSWRnVEhmNV8zYTFHWHdSOGdMbVlCWmJuQTZRZTUzM1JoODg1VTJUYnhEbndKOGhVWE02cjFoRGRCRW1IOWY3Z1p3WEljN0lvVGlJNmJlVnJhSURJYnVvYVZOZ09qaXNUaDh1aUhwUWxrYk9hb3lNU2R1WDlxWmJMcFFJUmEwbjRQMDJ1YjRudVdhTmZWTTRybFQzTUdOem4?oc=5",
-      "isNew": false
-    },
-    {
-      "id": "69b1a13475ea",
-      "title": "Why the bond market is doubting Fed chairman Kevin Warsh",
-      "source": "Axios",
-      "date": "2026-07-30T23:45:51Z",
-      "topic": "Rates & Macro",
-      "summary": "",
-      "link": "https://news.google.com/rss/articles/CBMiakFVX3lxTFA0NEdxQVJPR0RWdkJrb21mTU9qN2o2TmJfaVBhaTJXYTJyQlpzd1dPWG5UamgzU01xU2llbEdPQm55MUJDMjE5eHM3U3pQUTJsbUdTVWVGWlk3Q3VMcXplaEd0aHAtQnFQT2c?oc=5",
       "isNew": false
     },
     {
@@ -130,7 +160,7 @@
     {
       "id": "5a1383e590b3",
       "title": "Insurance Midyear Outlook: Finding Value in Tight Markets",
-      "source": "AllianceBernstein",
+      "source": "alliancebernstein.com",
       "date": "2026-07-30T02:34:04Z",
       "topic": "Insurance AM",
       "summary": "",
@@ -140,7 +170,7 @@
     {
       "id": "0e14302f6545",
       "title": "Insurance Midyear Outlook: Finding Value in Tight Markets",
-      "source": "AllianceBernstein",
+      "source": "alliancebernstein.com",
       "date": "2026-07-29T22:45:21Z",
       "topic": "Private Credit",
       "summary": "",
@@ -275,36 +305,6 @@
       "topic": "Insurance AM",
       "summary": "",
       "link": "https://news.google.com/rss/articles/CBMi0AFBVV95cUxNX21VQXg2c24tZDVZaF9QRWNiUHVTSzhZSWl0X2E0MDU0Zk9LQVBlVTFYdWpmVllMclhWcDhmNWJLV3lGV0htdjkyOUVsY3R5d3g1WWFFZVY0TjNsbDhURWJpSUxNRTh4ejZfckN3WmVGQWpyWW5iMUpjZDctMHZqNHZteFdycHlEUUwtRFJqTGlzRmlDcDNJNEVPSndXQ0t5cTMyQ3V1bWRMejFWVDhiTVZ3Ql9DWGJOVFlwbDBPc3hyZWNQc1kzVTluRXpZd3By?oc=5",
-      "isNew": false
-    },
-    {
-      "id": "5dde1702dc53",
-      "title": "Beyond Default Risk: What an Insurance Mindset Can Teach Institutional Investors About Private Credit",
-      "source": "ai-cio.com",
-      "date": "2026-07-28T18:04:27Z",
-      "topic": "Insurance AM",
-      "summary": "",
-      "link": "https://news.google.com/rss/articles/CBMiyAFBVV95cUxORVViMVpmTzQ3WXFWbkR5VDU0N1dsLWRUc04wMkJEczIteU5FSHE4bTlwdTJGTTR5VGhnaGFqampXdExXUThOZVprQXREU04tal9hSkNkeHZqUlBKMXRHdFdUY2ZXV0FOa0t5UEVaWXMtVUlmNEREaFAtdTRERGp5bEY3MVItUTJUR0FIZXVoTWNVb1BGTlpGVWY3UzBOd0I4SExUZjlNM0FsRTN4Z0ZEZV8yT0JQSG9Rd05fb0lNTGhpQld6YjJUNQ?oc=5",
-      "isNew": false
-    },
-    {
-      "id": "03c5a0156132",
-      "title": "Geneva Life snaps up Barbados life insurer for private wealth platform",
-      "source": "Insurance Business",
-      "date": "2026-07-28T15:55:21Z",
-      "topic": "Private Credit",
-      "summary": "",
-      "link": "https://news.google.com/rss/articles/CBMi4gFBVV95cUxPMnl1WkJOMGRhVU8yX3pCQzQ0dXQ4UDFJTWFyNmtSNEN1bjZiMFR4cjZTb2JKVERtVnZTc3M2NWlaazNMbXFiWnpCdHRFbG9OZ2hhNVdfVGhoUWVvRXJXR2NCc2ViWm1xMWpXRW16SXlNa3lSTUNsUUREeEFPbURQS0lTOEpxV05QTW1iX0RLMFRIamZxMjRDUV83M2NfMHVKZXA5TzZRNEoxdnp0RGlkNzdGMjVDTjF5VGI3OHdYMElwVnUzZlh1T1dNZ19zZXFSYmdQT3VFTUpRWVl4Y1k0Vm13?oc=5",
-      "isNew": false
-    },
-    {
-      "id": "36dc9b14e43e",
-      "title": "Ortec Finance wins Ostrum AM mandate for ALM platform",
-      "source": "FinTech Global",
-      "date": "2026-07-28T10:06:44Z",
-      "topic": "Insurance AM",
-      "summary": "",
-      "link": "https://news.google.com/rss/articles/CBMikgFBVV95cUxQQXJfMVJTNzlRNEx2dTRlQ3ZaZFRTWnpIQ1pFOGJvZnpoY1V4cnZiUFhXZFE2Z0NDS3JuQktad0VEZkgtbldaQXZBalZPZm41cnhOcmFkaFlOSE1IWVV2YzNXNHRyZUlKN2UzVTRYS0lDTG9Fd2JtSkFObk1jTmZQY0pCNTVJSDRHQ3k1S3k2bndYZw?oc=5",
       "isNew": false
     }
   ]
