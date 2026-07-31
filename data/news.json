@@ -1,5 +1,5 @@
 {
-  "updated": "2026-07-31T14:39:49Z",
+  "updated": "2026-07-31T17:02:44Z",
   "topics": [
     "Insurance AM",
     "Private Credit",
@@ -10,7 +10,7 @@
     {
       "id": "1f0fb0b59cab",
       "title": "The Quiet Taxpayer Backstop Behind Private Credit",
-      "source": "nai500.com",
+      "source": "NAI500",
       "date": "2026-07-31T10:24:50Z",
       "topic": "Structured Credit",
       "summary": "",
@@ -28,20 +28,10 @@
       "isNew": false
     },
     {
-      "id": "69b1a13475ea",
-      "title": "Why the bond market is doubting Fed chairman Kevin Warsh",
-      "source": "Axios",
-      "date": "2026-07-31T05:47:10Z",
-      "topic": "Rates & Macro",
-      "summary": "",
-      "link": "https://news.google.com/rss/articles/CBMiakFVX3lxTFA0NEdxQVJPR0RWdkJrb21mTU9qN2o2TmJfaVBhaTJXYTJyQlpzd1dPWG5UamgzU01xU2llbEdPQm55MUJDMjE5eHM3U3pQUTJsbUdTVWVGWlk3Q3VMcXplaEd0aHAtQnFQT2c?oc=5",
-      "isNew": false
-    },
-    {
       "id": "03f58be01de2",
       "title": "US regulators cite \u2018circular\u2019 risk in investments used by KKR and Apollo",
       "source": "Financial Times",
-      "date": "2026-07-31T04:01:32Z",
+      "date": "2026-07-31T04:00:17Z",
       "topic": "Insurance AM",
       "summary": "",
       "link": "https://news.google.com/rss/articles/CBMihAFBVV95cUxOVHhvNnFjS3NNQUR1TlgwZ3k0YUV1SzZWdE14ZHBLYk9ucmFGQ1A2TjFSWW5LcUtmd3c4andwdWFQQy02ZXBzdUROSGVBeEhKcU9VZno2dkdXVkxuNFU0ckVqTjBZS25nZFQ1d3hwVHpRMW5kQ1dxQ21TVzd4WEN1QWtEazA?oc=5",
@@ -95,6 +85,26 @@
       "topic": "Structured Credit",
       "summary": "",
       "link": "https://news.google.com/rss/articles/CBMidkFVX3lxTE5PVkxpZ0p0NDZ1UFJtazZ5Q0dzTk1mNE1yVU9zcjdubV9PVm03VUhaQUVhd3ZSM1MzYWVpY25oUG9yVzNPQkhxSjJ0QUxTVFMydnNwV3lJOFlnVkFxZzhTZjVpS0hoY3RzbzNpdnhXWW90TFhoTVE?oc=5",
+      "isNew": false
+    },
+    {
+      "id": "69b1a13475ea",
+      "title": "Why the bond market is doubting Fed chairman Kevin Warsh",
+      "source": "Axios",
+      "date": "2026-07-30T15:59:21Z",
+      "topic": "Rates & Macro",
+      "summary": "",
+      "link": "https://news.google.com/rss/articles/CBMiakFVX3lxTFA0NEdxQVJPR0RWdkJrb21mTU9qN2o2TmJfaVBhaTJXYTJyQlpzd1dPWG5UamgzU01xU2llbEdPQm55MUJDMjE5eHM3U3pQUTJsbUdTVWVGWlk3Q3VMcXplaEd0aHAtQnFQT2c?oc=5",
+      "isNew": false
+    },
+    {
+      "id": "1a792c82cf71",
+      "title": "Bank of England policymakers keep rates on hold but more back hike",
+      "source": "Reuters",
+      "date": "2026-07-30T15:19:43Z",
+      "topic": "Rates & Macro",
+      "summary": "",
+      "link": "https://news.google.com/rss/articles/CBMiqAFBVV95cUxON24tWUZsQXpzcU1NZmF6MXNMODZpeGVsb0hDdjJyWk9OWVMxVkVzMC15Yzd1clE5d3J0MGU0M0hEUG9RWEhsRXhCZ0Y5clhBM19mb3FreTR0NXJwajJjMEVoeDRydXRiYmtJS2o3ZVpPZkIyX1UwRTFUa1pyQkpjUjZ4bUJTOG9McUVWeGhoMlpDQ2ctQXh2UmhrN0xJUEtEeFN4SnVvR0U?oc=5",
       "isNew": false
     },
     {
@@ -160,7 +170,7 @@
     {
       "id": "5a1383e590b3",
       "title": "Insurance Midyear Outlook: Finding Value in Tight Markets",
-      "source": "alliancebernstein.com",
+      "source": "AllianceBernstein",
       "date": "2026-07-30T02:34:04Z",
       "topic": "Insurance AM",
       "summary": "",
@@ -170,7 +180,7 @@
     {
       "id": "0e14302f6545",
       "title": "Insurance Midyear Outlook: Finding Value in Tight Markets",
-      "source": "alliancebernstein.com",
+      "source": "AllianceBernstein",
       "date": "2026-07-29T22:45:21Z",
       "topic": "Private Credit",
       "summary": "",
@@ -293,16 +303,6 @@
       "source": "Institutional Investor",
       "date": "2026-07-28T22:59:02Z",
       "topic": "Private Credit",
-      "summary": "",
-      "link": "https://news.google.com/rss/articles/CBMi0AFBVV95cUxNX21VQXg2c24tZDVZaF9QRWNiUHVTSzhZSWl0X2E0MDU0Zk9LQVBlVTFYdWpmVllMclhWcDhmNWJLV3lGV0htdjkyOUVsY3R5d3g1WWFFZVY0TjNsbDhURWJpSUxNRTh4ejZfckN3WmVGQWpyWW5iMUpjZDctMHZqNHZteFdycHlEUUwtRFJqTGlzRmlDcDNJNEVPSndXQ0t5cTMyQ3V1bWRMejFWVDhiTVZ3Ql9DWGJOVFlwbDBPc3hyZWNQc1kzVTluRXpZd3By?oc=5",
-      "isNew": false
-    },
-    {
-      "id": "5697fbf857f1",
-      "title": "Building the Bench: How the University of Iowa Is Training the Next Generation of Insurance Investment Talent",
-      "source": "Institutional Investor",
-      "date": "2026-07-28T22:59:02Z",
-      "topic": "Insurance AM",
       "summary": "",
       "link": "https://news.google.com/rss/articles/CBMi0AFBVV95cUxNX21VQXg2c24tZDVZaF9QRWNiUHVTSzhZSWl0X2E0MDU0Zk9LQVBlVTFYdWpmVllMclhWcDhmNWJLV3lGV0htdjkyOUVsY3R5d3g1WWFFZVY0TjNsbDhURWJpSUxNRTh4ejZfckN3WmVGQWpyWW5iMUpjZDctMHZqNHZteFdycHlEUUwtRFJqTGlzRmlDcDNJNEVPSndXQ0t5cTMyQ3V1bWRMejFWVDhiTVZ3Ql9DWGJOVFlwbDBPc3hyZWNQc1kzVTluRXpZd3By?oc=5",
       "isNew": false
