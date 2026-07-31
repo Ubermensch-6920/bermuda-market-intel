@@ -1,5 +1,5 @@
 {
-  "updated": "2026-07-31T03:55:17Z",
+  "updated": "2026-07-31T09:21:03Z",
   "naic": [
     {
       "id": "69063c6c1338",
@@ -309,7 +309,7 @@
       "date": "2026-07-22",
       "cat": "General",
       "summary": "",
-      "source": "Artemis.bm",
+      "source": "artemis.bm",
       "link": "https://news.google.com/rss/articles/CBMipAFBVV95cUxOM1B5X2ZUMThlOWl6Z2kyUWQ2cWpPLUM4a1ZiSXBaR2VPVmRLRjBzbWoyX2lxNkp6RElEUllTWDNibE5hYTFsV293RGJOcGdnT0R6SldVLWRMX2JFa3I0ZW1FUjlLTFJFVW9ReXlTN3ZqTVBiVHpoRVdzZENGYzFNdlBrQjY3MEJmUjZIQ2gtSDJXR0t1WlJ5VUsxaVNFMDdHeXduSQ?oc=5",
       "isNew": true
     },
@@ -511,7 +511,7 @@
       "date": "2026-07-29",
       "cat": "General",
       "summary": "",
-      "source": "capmad.com",
+      "source": "Capmad",
       "link": "https://news.google.com/rss/articles/CBMivgFBVV95cUxQLWZNN0FoMUFjS0d0N0h3Zjlqd0VibHB3TkVIM2RSVzdtVVdnZms1QmNDbXk1UmhycV9rME5ENVJBcnJFaEZlRzdLTV9temJ0cnplbHc4MmcybW5tVFkybWc0WVZZOF84N3N2OTI0LXpfMklEVkNxQWRITFh1MDBUbXdXRElTTVo4VHotX1dCZnNuQjR3RzFjNDd3SHpISnZkaU9wel82SXo5NHpGZXlmMTRSSXFNYTJ0dHdEN2hn?oc=5",
       "isNew": true
     },
@@ -551,7 +551,7 @@
       "date": "2026-07-16",
       "cat": "General",
       "summary": "",
-      "source": "Financial Afrik",
+      "source": "financialafrik.com",
       "link": "https://news.google.com/rss/articles/CBMizgFBVV95cUxOVTRlSmxPcEllUGxLUndNbkRyN19qN2d3YWF4MGxFZlNjMVY2eVE3TlVGWF9lMlVNU0lKMVI3dHZ6dXBfbWRlMlQ2RjNjb0ZSXzU4SDZLV3lqU29sQk4xdDdYcE92VVpOY0pzaTJMZ21tMDV3a1FyWDRCeDBlZXJwc21RYVVXdWlXVk9PVkdNYWZqOV9UZERvdUF1TENQd2tYOVdQaGxyS2pVXy0xbVNYTEhGaDJVZHY2cDYzNTBjZG1PVFBUUUlnV0s0QXBLQQ?oc=5",
       "isNew": true
     },
@@ -621,7 +621,7 @@
       "date": "2026-07-01",
       "cat": "Governance",
       "summary": "",
-      "source": "Cayman Compass",
+      "source": "caymancompass.com",
       "link": "https://news.google.com/rss/articles/CBMirgFBVV95cUxOVWdmX3c0N2F6UHZTRld2S1Z1dHVibHF6NV9VbkMtVWx2ZWVrb0ZabVpLcjRGemFmOWZxSTNWY2hNVjRvcXJjTG9CUW9jNGIydDlQTG1EeDZkaUVCY1I5S3pmazNQWi04MVdYR29OQ0trajcySWxSaUR5NEFLR1ducVJvUGNOQmNZUkE2NHdIUjFqZUhRZzQ1blcybzlieEw2YS15R0VCWTVrd0h4NUE?oc=5",
       "isNew": false
     },
@@ -681,7 +681,7 @@
       "date": "2026-06-11",
       "cat": "Licensing",
       "summary": "",
-      "source": "Cayman Compass",
+      "source": "caymancompass.com",
       "link": "https://news.google.com/rss/articles/CBMid0FVX3lxTE5HS2pISXFHV2hHSG15NDJxbjRTSnNjMjVFelN6dDVTOERreERUUENJbUdpNG9BTy1zWXFiTnNKQ3pfZU80RERuVWVVN0diajRNVEtCbi1aMTZrZHhOQVdxRUxFVjRBU2UxN3A4bWd5MnBRUGc5dHNv?oc=5",
       "isNew": false
     },

@@ -1,5 +1,5 @@
 {
-  "updated": "2026-07-31T03:55:17Z",
+  "updated": "2026-07-31T09:21:03Z",
   "topics": [
     "Insurance AM",
     "Private Credit",
@@ -15,6 +15,16 @@
       "topic": "Rates & Macro",
       "summary": "",
       "link": "https://news.google.com/rss/articles/CBMiqAFBVV95cUxNTllPdnJlUkhYSWRnVEhmNV8zYTFHWHdSOGdMbVlCWmJuQTZRZTUzM1JoODg1VTJUYnhEbndKOGhVWE02cjFoRGRCRW1IOWY3Z1p3WEljN0lvVGlJNmJlVnJhSURJYnVvYVZOZ09qaXNUaDh1aUhwUWxrYk9hb3lNU2R1WDlxWmJMcFFJUmEwbjRQMDJ1YjRudVdhTmZWTTRybFQzTUdOem4?oc=5",
+      "isNew": false
+    },
+    {
+      "id": "69b1a13475ea",
+      "title": "Why the bond market is doubting Fed chairman Kevin Warsh",
+      "source": "Axios",
+      "date": "2026-07-30T23:45:51Z",
+      "topic": "Rates & Macro",
+      "summary": "",
+      "link": "https://news.google.com/rss/articles/CBMiakFVX3lxTFA0NEdxQVJPR0RWdkJrb21mTU9qN2o2TmJfaVBhaTJXYTJyQlpzd1dPWG5UamgzU01xU2llbEdPQm55MUJDMjE5eHM3U3pQUTJsbUdTVWVGWlk3Q3VMcXplaEd0aHAtQnFQT2c?oc=5",
       "isNew": false
     },
     {
@@ -35,16 +45,6 @@
       "topic": "Insurance AM",
       "summary": "",
       "link": "https://news.google.com/rss/articles/CBMiqAFBVV95cUxQdnBwaEFSQXhGTURjVmt0WmdrS3VlVGRPclpETGhobU9Vbnd3MWItZlFIdGk5TWRSSGpmZkhrRS1BYjBuam5uWGlXSlhDYVotd2NPbU1LN2ZjU1pOaGwxNVZiRFVfbkVRNXl6eWk5SUJmN05scWJGYkZfQ1JlaUpjZnFScXFuLS1Kc0VNd1NzX0hFOWZxalV3VDFlQjg5cGxjektWenBvbS0?oc=5",
-      "isNew": false
-    },
-    {
-      "id": "69b1a13475ea",
-      "title": "Why the bond market is doubting Fed chairman Kevin Warsh",
-      "source": "Axios",
-      "date": "2026-07-30T16:43:45Z",
-      "topic": "Rates & Macro",
-      "summary": "",
-      "link": "https://news.google.com/rss/articles/CBMiakFVX3lxTFA0NEdxQVJPR0RWdkJrb21mTU9qN2o2TmJfaVBhaTJXYTJyQlpzd1dPWG5UamgzU01xU2llbEdPQm55MUJDMjE5eHM3U3pQUTJsbUdTVWVGWlk3Q3VMcXplaEd0aHAtQnFQT2c?oc=5",
       "isNew": false
     },
     {
@@ -210,7 +210,7 @@
     {
       "id": "f3fa76a22fb6",
       "title": "How Better Property Data Can Improve Commercial Real Estate Insurance",
-      "source": "urbanland.uli.org",
+      "source": "Urban Land Magazine",
       "date": "2026-07-29T17:52:20Z",
       "topic": "Insurance AM",
       "summary": "",
