@@ -1,5 +1,5 @@
 {
-  "updated": "2026-07-31T19:57:11Z",
+  "updated": "2026-07-31T22:20:12Z",
   "topics": [
     "Insurance AM",
     "Private Credit",
@@ -7,6 +7,16 @@
     "Structured Credit"
   ],
   "items": [
+    {
+      "id": "f0ed10818097",
+      "title": "A Credibility Gap at the Fed: Why Bond Yields Are Surging",
+      "source": "Barron's",
+      "date": "2026-07-31T20:37:00Z",
+      "topic": "Rates & Macro",
+      "summary": "",
+      "link": "https://news.google.com/rss/articles/CBMid0FVX3lxTE5veU1tYmtqWnlTU2xtS0lwRFN3MDVMNjFTRHVUSHdTYzlBLTVJUGdnWmN3enpUX25KbHVNU1dXXzBweW9aZ1ZLTEpaYjltdTJiQ3U3SnFTUy15RmFrc0xvRnlUNnRMTzhOU1MzM1FRUU42dnhvQVVr?oc=5",
+      "isNew": false
+    },
     {
       "id": "1f0fb0b59cab",
       "title": "The Quiet Taxpayer Backstop Behind Private Credit",
@@ -40,7 +50,7 @@
     {
       "id": "9aef4c4cfbf5",
       "title": "US borrowing costs hit 19-year high as Fed holds interest rates",
-      "source": "The Guardian",
+      "source": "theguardian.com",
       "date": "2026-07-31T01:30:00Z",
       "topic": "Rates & Macro",
       "summary": "",
@@ -100,7 +110,7 @@
     {
       "id": "3504acd80371",
       "title": "Duration Is Not a Defense - I",
-      "source": "Substack",
+      "source": "contrarianunicus.substack.com",
       "date": "2026-07-30T16:10:46Z",
       "topic": "Private Credit",
       "summary": "",
@@ -110,7 +120,7 @@
     {
       "id": "0fefaaf95f52",
       "title": "Duration Is Not a Defense - I",
-      "source": "Substack",
+      "source": "contrarianunicus.substack.com",
       "date": "2026-07-30T16:10:46Z",
       "topic": "Structured Credit",
       "summary": "",
@@ -160,11 +170,11 @@
     {
       "id": "489e2e5871d5",
       "title": "KKR Profit, Revenue Up on Asset Management, Insurance Growth",
-      "source": "WSJ",
-      "date": "2026-07-30T10:57:00Z",
+      "source": "Moomoo",
+      "date": "2026-07-30T11:39:33Z",
       "topic": "Insurance AM",
       "summary": "",
-      "link": "https://news.google.com/rss/articles/CBMiqAFBVV95cUxQdnBwaEFSQXhGTURjVmt0WmdrS3VlVGRPclpETGhobU9Vbnd3MWItZlFIdGk5TWRSSGpmZkhrRS1BYjBuam5uWGlXSlhDYVotd2NPbU1LN2ZjU1pOaGwxNVZiRFVfbkVRNXl6eWk5SUJmN05scWJGYkZfQ1JlaUpjZnFScXFuLS1Kc0VNd1NzX0hFOWZxalV3VDFlQjg5cGxjektWenBvbS0?oc=5",
+      "link": "https://news.google.com/rss/articles/CBMiogFBVV95cUxNOGtTV1ozQ0JUODByY3Q2QzJLN2tUTnRoQ0xlTEhOLTBraGNkRWhrWHMyOU91Y2d1VTdJZWhPVUo0SVdvbEJ2YkI5MzRjLUpYOEpqMW9lWFhDUzl2RDlrOFFuSE5YZjJvZk1kNmd3cGl6Q3czVkhGRlVzbFB0NWtaSjVCRWdmRVlNaDltT1djeExSeHpFTXJ0SGx6TndiSlFWd3c?oc=5",
       "isNew": false
     },
     {
@@ -200,17 +210,17 @@
     {
       "id": "5a1383e590b3",
       "title": "Insurance Midyear Outlook: Finding Value in Tight Markets",
-      "source": "alliancebernstein.com",
-      "date": "2026-07-30T02:34:04Z",
+      "source": "AllianceBernstein",
+      "date": "2026-07-29T22:45:21Z",
       "topic": "Insurance AM",
       "summary": "",
-      "link": "https://news.google.com/rss/articles/CBMi4AFBVV95cUxQejJIeHRIZGtweWRFTXdES2VMSlAwQ1JUVnFaOHFhUWNHMXAwT1c0QlotNTQyYi04QkR4QUMyVkFqQTh2LTh3azd6akxxZE1sZWRmeUJ1UHJaUlBqUTZyd2p4QmNENHhrdE5IcEZZOUVLMW01TVA4ZGZtTk80elk1SW8yVkVNbHZ3VXhfZnN6U0V1bUxqU3M2Y3FhLWR3Wkh1X0VmTVRUYWVyZER4TUk1dms2TUlhcUNBblJkZkw4dUtmdk9MN0tWNGtKQWlRblFMdU9HSm94X3N4Mktiamg3eA?oc=5",
+      "link": "https://news.google.com/rss/articles/CBMi1AFBVV95cUxNakNQUEVaSGRfaDlNRUQ3aVV0LVkyVElTODlOZFRVSi16d3piT0Y0NFIyMjFOWVFPTURmcExaMnBTRUMxU1l6RGtldmlWWHo3UUgyT0NkUmNINFJwczJxc0hia1NFVE1TRlp5dlRJMDREMXpUbG1MYUt3S1FNRGs2Y0tBVWV1NDlOTllmdTRHc29tcVNudnEtZ2prVFRqMFd5Vm1ZaWxVazR6LUhaajlUa3NPSDBZRm1XVGZteWRQNks5M2R1WmFzbDBXZXozRWQtSG5Lag?oc=5",
       "isNew": false
     },
     {
       "id": "0e14302f6545",
       "title": "Insurance Midyear Outlook: Finding Value in Tight Markets",
-      "source": "alliancebernstein.com",
+      "source": "AllianceBernstein",
       "date": "2026-07-29T22:45:21Z",
       "topic": "Private Credit",
       "summary": "",
@@ -295,16 +305,6 @@
       "topic": "Rates & Macro",
       "summary": "",
       "link": "https://news.google.com/rss/articles/CBMipgFBVV95cUxQekloVy00QXc5UFFCTUczb0NlMFVhLXZ3aWdqT0RMUWgyZG9HVmU3OG5DLU1wOW5adGVHMlVxWFZJMF9OVmM4TW5CbUtPamdkZWpPcEFIcWVybVdlQTFFdmFtRExIb3FVZEk5REpLbTdMWlJPcUczRVhZWmIzbDAwYlJoeWZsdmNXZmxfWGo3NG5sY2c1RE5STG1UckVwTnZORGRBY3BR?oc=5",
-      "isNew": false
-    },
-    {
-      "id": "4dae5073433e",
-      "title": "Warsh-led Fed leaves rates on hold and a bond market scratching its head",
-      "source": "Reuters",
-      "date": "2026-07-29T10:04:00Z",
-      "topic": "Rates & Macro",
-      "summary": "",
-      "link": "https://news.google.com/rss/articles/CBMiugFBVV95cUxPMWE0UWlwemdYNE5CaEZPSVBqZVNuSmlVSmIxWHV6R1hXa3lua1RReGpYaTEtZGttNzZoTU1XT3VGbjZWUmxFSWxnN21mMGlHVW1fazREOXdRZVk1ek9ya1JVMVNWM0NoVEVzRHY2bWJSYy1JRUtrNElLb3BPSjJzNm9wWmpmYTU3OXRIQ0E1dG82TkU2emF4QVoxTEJJU01ydzF5cHZHRVlnbGp6T3JESUtzV0ZZYjZUc2c?oc=5",
       "isNew": false
     }
   ]
