@@ -1,5 +1,5 @@
 {
-  "updated": "2026-08-01T08:38:06Z",
+  "updated": "2026-08-01T10:53:04Z",
   "topics": [
     "Insurance AM",
     "Private Credit",
@@ -40,7 +40,7 @@
     {
       "id": "03f58be01de2",
       "title": "US regulators cite \u2018circular\u2019 risk in investments used by KKR and Apollo",
-      "source": "ft.com",
+      "source": "Financial Times",
       "date": "2026-07-31T04:01:37Z",
       "topic": "Insurance AM",
       "summary": "",
@@ -70,7 +70,7 @@
     {
       "id": "c378a98d9411",
       "title": "Mortgage rates hit highest level in a year amid persistent inflation fears",
-      "source": "CBS News",
+      "source": "cbsnews.com",
       "date": "2026-07-30T19:18:16Z",
       "topic": "Rates & Macro",
       "summary": "",
@@ -300,7 +300,7 @@
     {
       "id": "f3fa76a22fb6",
       "title": "How Better Property Data Can Improve Commercial Real Estate Insurance",
-      "source": "Urban Land Magazine",
+      "source": "urbanland.uli.org",
       "date": "2026-07-29T17:52:20Z",
       "topic": "Insurance AM",
       "summary": "",
