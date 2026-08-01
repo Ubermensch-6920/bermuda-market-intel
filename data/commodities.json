@@ -98,7 +98,7 @@
     "prior_1m_date": "2026-07-02",
     "prior_3m": 105.38,
     "prior_3m_date": "2026-05-01",
-    "prior_1y": 68.39,
+    "prior_1y": 67.33,
     "prior_1y_date": "2025-08-01",
     "prior_2y": 77.74,
     "prior_2y_date": "2024-08-01",
@@ -174,9 +174,9 @@
     }
   },
   "brent": {
-    "spot": 91.82,
-    "spot_date": "2026-07-27",
-    "spot_source": "FRED",
+    "spot": 90.24,
+    "spot_date": "",
+    "spot_source": "TradingEconomics",
     "unit": "USD/barrel",
     "prior_1d": 91.82,
     "prior_1d_date": "2026-07-27",
@@ -264,8 +264,8 @@
     "spot_date": "2026-08-01",
     "spot_source": "Yahoo INR=X",
     "unit": "INR per USD",
-    "prior_1d": 95.68,
-    "prior_1d_date": "2026-07-30",
+    "prior_1d": null,
+    "prior_1d_date": null,
     "prior_1m": 95.39,
     "prior_1m_date": "2026-07-02",
     "prior_3m": 95.09,
@@ -346,5 +346,5 @@
     }
   },
   "note": "Spot history comes from daily FRED series. Futures history is roll-aware by target date. USD/INR latest spot: FRED DEXINUS, then Yahoo INR=X / keyless FX APIs when FRED lags; forwards fall back to CIP derivation from India/UST curves when market quotes are unavailable.",
-  "_fetched": "2026-08-01T10:52:16.023331Z"
+  "_fetched": "2026-08-01T14:02:00.159930Z"
 }
