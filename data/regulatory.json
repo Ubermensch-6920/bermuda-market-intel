@@ -1,13 +1,23 @@
 {
-  "updated": "2026-08-01T22:15:49Z",
+  "updated": "2026-08-02T03:57:58Z",
   "naic": [
+    {
+      "id": "9e60d097efaf",
+      "title": "Aliyu Bello Leads NAIC Management Team to Minister, Reaffirms Commitment to Tinubu\u2019s Food Security Agenda",
+      "date": "2026-07-30",
+      "cat": "General",
+      "summary": "",
+      "source": "nasarawaeye.com",
+      "link": "https://news.google.com/rss/articles/CBMi1gFBVV95cUxNVFFWV1M2eVd2azcyZjJiTlpFQzJkMDBwLUxMbFVWWVB5SzZGb3Z0VXpxM1JZUE1tV1hBZWlpYzJfX21DdGw2eXZYYnA5TFpkb1p3bGoydnBNbU1iNlYwdVFnbUxlamNiMExNMWF5WDkzZGJvZmJyYWNGS2RvVDZnNEs0YWRIU0lYMVRieDdwb3JmbUlZVTQ0b29Sa3pVYUNHajRJZUM5TXJXS2VTRldiTjBtT2dHdnc0M3V0R1ZNTHZMTkFFUy1iOVZlOFNUbDFhaWhnWmxB?oc=5",
+      "isNew": true
+    },
     {
       "id": "69063c6c1338",
       "title": "The NAIC Is Building an AI Evaluation Playbook. Claims Leaders Should Know What It Will Ask.",
       "date": "2026-07-27",
       "cat": "Governance",
       "summary": "",
-      "source": "Coverager",
+      "source": "coverager.com",
       "link": "https://news.google.com/rss/articles/CBMiswFBVV95cUxOa0VCWHRfRVoxbTA4R3ZqUXNDcXhWSU12ZkcyeWNwdVZCVDFRV1pYREYtaXc1dGU1MURhU2UwZ3EyZWFWRzRQU1BQdDZNZ2s4QWo2Y0ZYczdaWk0zUUVoWVlTYVhUSC1JbV9yd2pscFo4NUF2a0ZkN3pWeno5ZnhRUDdabHlKU0haOFRiLVJ5NWg0MV9iLWdLcHVJNDZHN2lvV0VRdUR1RkNmWlljRnhYZHZYNA?oc=5",
       "isNew": true
     },
@@ -240,16 +250,6 @@
       "source": "Insurance Business",
       "link": "https://news.google.com/rss/articles/CBMi4gFBVV95cUxOVGhqVXFiVGQ0alBiSU9WcWxzaUlmSktjLXI3RWpmYUt0NG1PajR3TVB0ZWg4VTNBLXhINDJyTUdFWXNFS1dNUmZCQjV4TmYxc09qWWhVS0thY0c3MkR6Y0czd1RIenotZlRLSjljMUtqaExCQ3gyNmFyV09YbVBtLW10MGR6M0N4NVR0UzVRV2dpdkNlRi1OOEdUQkpHamJ5Sy1vTXVwT19lQS1OdklieHBRNGRPOXp4WG5hMVlwZXVEbEt5QnkyRkxJaV9FU2hfNUNRTThIdU9CdmE0LXlvblhB?oc=5",
       "isNew": true
-    },
-    {
-      "id": "2b99e4f26647",
-      "title": "Privately-owned insurers now hold nearly 20% of US life industry assets \u2013 ALIRT",
-      "date": "2026-07-09",
-      "cat": "Investment",
-      "summary": "",
-      "source": "Insurance Business",
-      "link": "https://news.google.com/rss/articles/CBMi4gFBVV95cUxOVGhqVXFiVGQ0alBiSU9WcWxzaUlmSktjLXI3RWpmYUt0NG1PajR3TVB0ZWg4VTNBLXhINDJyTUdFWXNFS1dNUmZCQjV4TmYxc09qWWhVS0thY0c3MkR6Y0czd1RIenotZlRLSjljMUtqaExCQ3gyNmFyV09YbVBtLW10MGR6M0N4NVR0UzVRV2dpdkNlRi1OOEdUQkpHamJ5Sy1vTXVwT19lQS1OdklieHBRNGRPOXp4WG5hMVlwZXVEbEt5QnkyRkxJaV9FU2hfNUNRTThIdU9CdmE0LXlvblhB?oc=5",
-      "isNew": true
     }
   ],
   "bma": [
@@ -309,7 +309,7 @@
       "date": "2026-07-22",
       "cat": "General",
       "summary": "",
-      "source": "artemis.bm",
+      "source": "Artemis.bm",
       "link": "https://news.google.com/rss/articles/CBMipAFBVV95cUxOM1B5X2ZUMThlOWl6Z2kyUWQ2cWpPLUM4a1ZiSXBaR2VPVmRLRjBzbWoyX2lxNkp6RElEUllTWDNibE5hYTFsV293RGJOcGdnT0R6SldVLWRMX2JFa3I0ZW1FUjlLTFJFVW9ReXlTN3ZqTVBiVHpoRVdzZENGYzFNdlBrQjY3MEJmUjZIQ2gtSDJXR0t1WlJ5VUsxaVNFMDdHeXduSQ?oc=5",
       "isNew": true
     },
@@ -481,7 +481,7 @@
       "summary": "",
       "source": "Bernews",
       "link": "https://news.google.com/rss/articles/CBMibEFVX3lxTE1ndUMwb19HYU9HOFA4emVfelZra0FLbmZabXVwaHRtZ211SFJ2M3J0WnpDWi1Wb1dlTU1sdHNaR3M3aTJlMC1VUDJPNkthX0x4WmpQcUQwRi1EemsxVjM5UEJvTzByUDJ3cTdTdw?oc=5",
-      "isNew": true
+      "isNew": false
     },
     {
       "id": "9caf89750515",
@@ -491,7 +491,7 @@
       "summary": "",
       "source": "Bernews",
       "link": "https://news.google.com/rss/articles/CBMibEFVX3lxTE1ndUMwb19HYU9HOFA4emVfelZra0FLbmZabXVwaHRtZ211SFJ2M3J0WnpDWi1Wb1dlTU1sdHNaR3M3aTJlMC1VUDJPNkthX0x4WmpQcUQwRi1EemsxVjM5UEJvTzByUDJ3cTdTdw?oc=5",
-      "isNew": true
+      "isNew": false
     },
     {
       "id": "eb30e015210a",
@@ -521,7 +521,7 @@
       "date": "2026-07-29",
       "cat": "Licensing",
       "summary": "",
-      "source": "caymanfinance.ky",
+      "source": "Cayman Finance",
       "link": "https://news.google.com/rss/articles/CBMimwFBVV95cUxPbjctUnRXSmlFbHZINHdNSHFEQ19OTzVXeXMtVnJuejBDbHBMZEY1ZjNTWW1FLUVwVm5BdXdWbDFBTWhXQzNobWt6eWZlRmpWVUY5TGNncjJQQTFKczl0RWNnSnRNaG5tdnJGOTRFanBaYl9vWnNrR3RoaDFTZzRBT2VwUkRSQ3NpTEJkakcwV0I1YmtSY25qYVFlMA?oc=5",
       "isNew": true
     },
@@ -551,7 +551,7 @@
       "date": "2026-07-16",
       "cat": "General",
       "summary": "",
-      "source": "Financial Afrik",
+      "source": "financialafrik.com",
       "link": "https://news.google.com/rss/articles/CBMizgFBVV95cUxOVTRlSmxPcEllUGxLUndNbkRyN19qN2d3YWF4MGxFZlNjMVY2eVE3TlVGWF9lMlVNU0lKMVI3dHZ6dXBfbWRlMlQ2RjNjb0ZSXzU4SDZLV3lqU29sQk4xdDdYcE92VVpOY0pzaTJMZ21tMDV3a1FyWDRCeDBlZXJwc21RYVVXdWlXVk9PVkdNYWZqOV9UZERvdUF1TENQd2tYOVdQaGxyS2pVXy0xbVNYTEhGaDJVZHY2cDYzNTBjZG1PVFBUUUlnV0s0QXBLQQ?oc=5",
       "isNew": true
     },
@@ -651,7 +651,7 @@
       "date": "2026-06-26",
       "cat": "General",
       "summary": "",
-      "source": "jdsupra.com",
+      "source": "JD Supra",
       "link": "https://news.google.com/rss/articles/CBMiiAFBVV95cUxNcklMVDg1a1NLMjBGNy1fRHlST3Bra0JqYXhTR2VPdWpkdXdOa0IzVmNrbnlxdWE2eDRaNWVISmhwNUx5SS1WbWMwYUNSeEMweFdfOFFCWi0tdldldE9kZFpMSUNNT05TNzhhNFZYTjlMMXVUYXRmS1JwUVZaTDcyUWF6OVdIczUw?oc=5",
       "isNew": false
     },

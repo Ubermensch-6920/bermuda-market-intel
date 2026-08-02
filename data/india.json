@@ -1,5 +1,5 @@
 {
-  "date": "2026-08-01",
+  "date": "2026-08-02",
   "source": "Investing.com / TradingEconomics / FRED / cache",
   "url": "https://www.investing.com/rates-bonds/india-government-bonds",
   "tenors": [
@@ -25,17 +25,17 @@
     7.47
   ],
   "prior_yields": [
-    5.77,
-    6.05,
-    6.16,
+    5.76,
+    6.02,
+    6.4,
     6.43,
-    6.64,
+    6.63,
     6.81,
-    6.9725,
-    7.135,
-    7.46
+    6.975,
+    7.14,
+    7.47
   ],
-  "prior_date": "2026-07-31",
+  "prior_date": "2026-08-01",
   "prior_1m_yields": [
     5.756,
     5.966,
@@ -43,8 +43,8 @@
     6.42,
     6.629,
     6.748,
-    6.966,
-    7.0737,
+    6.943,
+    7.0627,
     7.315
   ],
   "prior_1m_date": "",
@@ -55,11 +55,11 @@
     6.78,
     7.05,
     7.06,
-    7.1883,
-    7.3165,
-    7.573
+    7.318,
+    7.402,
+    7.57
   ],
-  "prior_3m_date": "2026-05-02",
+  "prior_3m_date": "2026-05-03",
   "year_ago_yields": [
     5.58,
     5.761,
@@ -79,5 +79,5 @@
     "year_ago": "TE year delta reconstruction"
   },
   "note": "FBIL latest first, then Investing/TE/FRED, then local history / cache. India 3M curve is exact once local history accumulates.",
-  "_fetched": "2026-08-01T22:11:37.972981Z"
+  "_fetched": "2026-08-02T03:53:45.888163Z"
 }
