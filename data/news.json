@@ -1,5 +1,5 @@
 {
-  "updated": "2026-08-02T10:54:30Z",
+  "updated": "2026-08-02T13:59:36Z",
   "topics": [
     "Insurance AM",
     "Private Credit",
@@ -40,7 +40,7 @@
     {
       "id": "03f58be01de2",
       "title": "US regulators cite \u2018circular\u2019 risk in investments used by KKR and Apollo",
-      "source": "Financial Times",
+      "source": "ft.com",
       "date": "2026-07-31T04:01:37Z",
       "topic": "Insurance AM",
       "summary": "",
@@ -100,7 +100,7 @@
     {
       "id": "26ede566aff0",
       "title": "KKR\u2019s Asset Sales Defy Private-Equity Exit Slowdown",
-      "source": "wsj.com",
+      "source": "WSJ",
       "date": "2026-07-30T18:20:00Z",
       "topic": "Insurance AM",
       "summary": "",
@@ -180,7 +180,7 @@
     {
       "id": "489e2e5871d5",
       "title": "KKR Profit, Revenue Up on Asset Management, Insurance Growth",
-      "source": "Moomoo",
+      "source": "moomoo.com",
       "date": "2026-07-30T10:58:24Z",
       "topic": "Insurance AM",
       "summary": "",
@@ -190,7 +190,7 @@
     {
       "id": "3c9e21f82a6c",
       "title": "U.S. Treasury Yields Soar as Market Struggles to Interpret Fed",
-      "source": "wsj.com",
+      "source": "WSJ",
       "date": "2026-07-30T09:44:00Z",
       "topic": "Rates & Macro",
       "summary": "",
@@ -200,7 +200,7 @@
     {
       "id": "3608b69d1a9e",
       "title": "A divided Fed holds interest rates steady despite stubborn inflation",
-      "source": "The Washington Post",
+      "source": "washingtonpost.com",
       "date": "2026-07-30T04:59:01Z",
       "topic": "Rates & Macro",
       "summary": "",
@@ -250,7 +250,7 @@
     {
       "id": "37d68032c3cc",
       "title": "Warsh\u2019s Posture on Interest Rates Sparks Market Inflation Fears",
-      "source": "wsj.com",
+      "source": "WSJ",
       "date": "2026-07-29T21:15:00Z",
       "topic": "Rates & Macro",
       "summary": "",
