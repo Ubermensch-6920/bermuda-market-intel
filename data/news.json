@@ -1,5 +1,5 @@
 {
-  "updated": "2026-08-02T13:59:36Z",
+  "updated": "2026-08-02T16:17:03Z",
   "topics": [
     "Insurance AM",
     "Private Credit",
@@ -20,7 +20,7 @@
     {
       "id": "1f0fb0b59cab",
       "title": "The Quiet Taxpayer Backstop Behind Private Credit",
-      "source": "NAI500",
+      "source": "nai500.com",
       "date": "2026-07-31T10:24:50Z",
       "topic": "Structured Credit",
       "summary": "",
@@ -40,7 +40,7 @@
     {
       "id": "03f58be01de2",
       "title": "US regulators cite \u2018circular\u2019 risk in investments used by KKR and Apollo",
-      "source": "ft.com",
+      "source": "Financial Times",
       "date": "2026-07-31T04:01:37Z",
       "topic": "Insurance AM",
       "summary": "",
@@ -160,7 +160,7 @@
     {
       "id": "89e0c8559616",
       "title": "Breakingviews - Creating bond chaos is a bad way to hike rates",
-      "source": "Reuters",
+      "source": "reuters.com",
       "date": "2026-07-30T14:49:58Z",
       "topic": "Rates & Macro",
       "summary": "",
@@ -180,7 +180,7 @@
     {
       "id": "489e2e5871d5",
       "title": "KKR Profit, Revenue Up on Asset Management, Insurance Growth",
-      "source": "moomoo.com",
+      "source": "Moomoo",
       "date": "2026-07-30T10:58:24Z",
       "topic": "Insurance AM",
       "summary": "",
@@ -200,7 +200,7 @@
     {
       "id": "3608b69d1a9e",
       "title": "A divided Fed holds interest rates steady despite stubborn inflation",
-      "source": "washingtonpost.com",
+      "source": "The Washington Post",
       "date": "2026-07-30T04:59:01Z",
       "topic": "Rates & Macro",
       "summary": "",
