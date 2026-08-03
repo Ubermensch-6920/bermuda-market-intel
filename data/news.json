@@ -1,5 +1,5 @@
 {
-  "updated": "2026-08-03T15:20:48Z",
+  "updated": "2026-08-03T20:04:18Z",
   "topics": [
     "Insurance AM",
     "Private Credit",
@@ -10,6 +10,16 @@
     {
       "id": "0840f0f6f554",
       "title": "Private credit has dodged public scrutiny for too long \u2014 and regulators need to step in",
+      "source": "MarketWatch",
+      "date": "2026-08-03T11:00:00Z",
+      "topic": "Private Credit",
+      "summary": "",
+      "link": "https://news.google.com/rss/articles/CBMixwFBVV95cUxPTlFlOFk2RFpMekZVbDJxckk5cWVXbjVHM18xV1g1c0hJR0RkdzBqREJqcXVzeDFOcXRLNVZsVV9kekp5aTc5RDdhTk10NFRBUzhXQlQ3SjQ5UFZMRnQtNzlBa1RUUWdfc0c0cGZ3SW9Tc1ZfYm5iSm9BdERSaERuWllsNFJTOTZWd1N0cUdSaXhHMHFvUDZOU09jOWY4b0tVeWh2bzRNU1VCYWhvclliWVoxeXhFNkRhWEtXbkt0b1A5VjZUWGpj?oc=5",
+      "isNew": false
+    },
+    {
+      "id": "1611755c0c68",
+      "title": "Opinion: Private credit has a ratings problem and regulators need to step in",
       "source": "MarketWatch",
       "date": "2026-08-03T11:00:00Z",
       "topic": "Private Credit",
@@ -40,7 +50,7 @@
     {
       "id": "189b035d882d",
       "title": "Treasury yields follow oil prices higher as Fed officials say rate hikes are needed",
-      "source": "cnbc.com",
+      "source": "CNBC",
       "date": "2026-07-31T07:05:51Z",
       "topic": "Rates & Macro",
       "summary": "",
@@ -100,7 +110,7 @@
     {
       "id": "21a580a2081c",
       "title": "Average 30-year U.S. mortgage rate rises to highest level in a year",
-      "source": "PBS",
+      "source": "pbs.org",
       "date": "2026-07-30T18:44:26Z",
       "topic": "Rates & Macro",
       "summary": "",
@@ -110,7 +120,7 @@
     {
       "id": "26ede566aff0",
       "title": "KKR\u2019s Asset Sales Defy Private-Equity Exit Slowdown",
-      "source": "WSJ",
+      "source": "wsj.com",
       "date": "2026-07-30T18:20:00Z",
       "topic": "Insurance AM",
       "summary": "",
@@ -200,7 +210,7 @@
     {
       "id": "3c9e21f82a6c",
       "title": "U.S. Treasury Yields Soar as Market Struggles to Interpret Fed",
-      "source": "WSJ",
+      "source": "wsj.com",
       "date": "2026-07-30T09:44:00Z",
       "topic": "Rates & Macro",
       "summary": "",
@@ -248,6 +258,16 @@
       "isNew": false
     },
     {
+      "id": "8563b91d6715",
+      "title": "The bond market to Kevin Warsh: What are you doing about inflation?",
+      "source": "CNN",
+      "date": "2026-07-29T22:40:04Z",
+      "topic": "Rates & Macro",
+      "summary": "",
+      "link": "https://news.google.com/rss/articles/CBMibkFVX3lxTE5mVUU0YUZra21FMy1kVjNTLVZMSTF5Z2dHclBhQm9NYUZqUGF2NDl1bDhoMjlpRjdoRVZieHJFZGsxX0NjLXJ4Njh6YzRWaklBamk4cXI1NFlqWENEZlhQM0VSckFmdkI1bzJRdkJB?oc=5",
+      "isNew": false
+    },
+    {
       "id": "ea4901ff82e1",
       "title": "Government Borrowing Cost Hits Two-Decade High After Fed Rate Decision",
       "source": "The New York Times",
@@ -260,7 +280,7 @@
     {
       "id": "37d68032c3cc",
       "title": "Warsh\u2019s Posture on Interest Rates Sparks Market Inflation Fears",
-      "source": "WSJ",
+      "source": "wsj.com",
       "date": "2026-07-29T21:15:00Z",
       "topic": "Rates & Macro",
       "summary": "",
@@ -285,26 +305,6 @@
       "topic": "Rates & Macro",
       "summary": "",
       "link": "https://news.google.com/rss/articles/CBMiugFBVV95cUxPMWE0UWlwemdYNE5CaEZPSVBqZVNuSmlVSmIxWHV6R1hXa3lua1RReGpYaTEtZGttNzZoTU1XT3VGbjZWUmxFSWxnN21mMGlHVW1fazREOXdRZVk1ek9ya1JVMVNWM0NoVEVzRHY2bWJSYy1JRUtrNElLb3BPSjJzNm9wWmpmYTU3OXRIQ0E1dG82TkU2emF4QVoxTEJJU01ydzF5cHZHRVlnbGp6T3JESUtzV0ZZYjZUc2c?oc=5",
-      "isNew": false
-    },
-    {
-      "id": "471ef848799b",
-      "title": "Fed Holds Rates Steady but Three Officials Vote for Increase",
-      "source": "WSJ",
-      "date": "2026-07-29T20:57:00Z",
-      "topic": "Rates & Macro",
-      "summary": "",
-      "link": "https://news.google.com/rss/articles/CBMitAFBVV95cUxPbWprLW5qMWxhbDFjaU9XY183blpJX09mY0hSOXg3dTVxZ250OFp3cFNPekxFdFkxX09jTzNNNWlFNGtjQnduS2JYX3FPdTZSUVZiMDJZYlRyeXlIX19XaGprcFp5dnhjSWxiOUNZeG16WkJqZXF2dGRIbTI3YzFGR3ZOVXkwbzBpVTFSclNWRmx3OTRPdmg1RTNvQXYzb3p2aGcyMjB2NW9Hc24tYkdsMVgyb3Q?oc=5",
-      "isNew": false
-    },
-    {
-      "id": "3faf6ea20324",
-      "title": "US Blocks Listings, China Opens Its Own Markets",
-      "source": "Seoul Economic Daily",
-      "date": "2026-07-29T20:30:05Z",
-      "topic": "Structured Credit",
-      "summary": "",
-      "link": "https://news.google.com/rss/articles/CBMimgFBVV95cUxOWjBwSTFrRGZYcjlpRnF3N2hpYmxURmJuc1FhbGpVbTV5X0IxbHFWQzVUQzFjalB3YU9MbHl3aXFJTzJnaWt4OGtfVGk1UnptYVZ4MDJIYXUwNTUySENON21lLUFNZDNaRDVucmdaZHFESHRRMTh0TWxmUl9uVlBQVU40d0xrS2Y4enVxUDlpVG1VaDB2RmxTMnZR?oc=5",
       "isNew": false
     }
   ]

@@ -1,5 +1,5 @@
 {
-  "updated": "2026-08-03T15:20:48Z",
+  "updated": "2026-08-03T20:04:18Z",
   "naic": [
     {
       "id": "3d37e3589ba5",
@@ -87,7 +87,7 @@
       "date": "2026-07-21",
       "cat": "Licensing",
       "summary": "",
-      "source": "beinsure.com",
+      "source": "Beinsure",
       "link": "https://news.google.com/rss/articles/CBMijAFBVV95cUxQdjhJRnVxc3VlVUd4RktSRmpXRFN5RXZwYjN6VDRsQTQ5NXdQR3dsTkRBREFSM1VZemswckhUSlYzdFpZdjdBU1UyZHBkRU1LNTFqcUk1TUJXODhLWERGUERNcWFtX0REMWhvUU04czNtZzNXSVpTR2ZsZ1ZNdVVybUtod00xM3J0Nld6SA?oc=5",
       "isNew": true
     },
@@ -162,6 +162,16 @@
       "isNew": true
     },
     {
+      "id": "7af509046d35",
+      "title": "Food security: NAIC MD Yazid, Agric, Finance Ministries strengthen insurance for farmers",
+      "date": "2026-07-18",
+      "cat": "General",
+      "summary": "",
+      "source": "The Sun Nigeria",
+      "link": "https://news.google.com/rss/articles/CBMipwFBVV95cUxObTJvZjdjZ2g4eTJqWC1nM3RuaS1aeWlvRTg2QVVQRHo5aVhwTFBxNEI4aEJIQXY1dWc1OGhEVWRUT3V2Q0E1UjhoY091YXpQdTVGM1NHb1ExZ2FQWHFWZTdtekhxaTdGTnl3akFjR0ZldXJuYmJlZmtxSmhWSHk3Z3ZBd0xWYXI3ZVBqcFFQYkZ4T2NwV3d1elJ6VEJVQUVQVVlBVVhSQdIBrAFBVV95cUxNMDIxSDR3VHRfU3lzb0d1YVFJc1hLaXNlX2V1bHZaMDk5VEFMa200SjF0MnVNTlN3cGFrSWxlejhTb3NmbHJnc3AzYkxYOVNVd3MyTThTTE9US3JxUW55MmtwUlVBUGtuMTBDaGxlTm9wWDU2ckRGMUtUY1I0VFhZQkNkcnVNQjFFazZxSlBkVnJWeVRYQTBRdUV2MllNUkpBNXNTdXNQVnRzMXd3?oc=5",
+      "isNew": true
+    },
+    {
       "id": "b3687f6996ba",
       "title": "NAIC, NAICOM unite to boost Tinubu\u2019s agricultural agenda, food security",
       "date": "2026-07-17",
@@ -217,7 +227,7 @@
       "date": "2026-07-14",
       "cat": "General",
       "summary": "",
-      "source": "Insurance Business",
+      "source": "insurancebusinessmag.com",
       "link": "https://news.google.com/rss/articles/CBMi2gFBVV95cUxOWEI0T3hNdnh5M0U2ekhDYWJRRnplN3g1ZDVheG9NRUZwR2lxUjJaVDhLSkFGdjRWWENGRkJVVjJwQ0FMY05KenJha1JHZkd3em0wczVrOXFYbks4UGxfQUg0NDJQUVlQQ0hVOFNGWmsyMXM5NFlTV3F2YmlxbWQ3alZDcHQ1ajktRUhnTkdNX3Bia1dON3RVSGdqa1I1ZzNlWnNCX0Y5VU5SR2lpanlhSjRvc1pWUFlHN3FxbkZtM0NUVXc5NlRlWHAtTUoxX3lTTEdiYUpDTnZTUQ?oc=5",
       "isNew": true
     },
@@ -240,16 +250,6 @@
       "source": "Crain's Cleveland",
       "link": "https://news.google.com/rss/articles/CBMirgFBVV95cUxOTlNuM201UTg5U1BfVzg5VncyOWtlbEVYRWs0dVRDcEYyREdVRmphZld1RUdsVlJVWjViRFBSYUhLVDlSU0oxZ0ZvUWZPWXk2cFRUNzdiUi13Z2lMa05kQi1BVjZIb3N0NTdEM3BJMGtUWk1wdGZubE5XbXdPaWk5S1FYYjF0b3VnSC1VNURwV2wyUkJRRllmbkIxQ0dTcWFrQlVqRW4zbWdmS3piU2c?oc=5",
       "isNew": true
-    },
-    {
-      "id": "40a98384d3a4",
-      "title": "NAIC Financial Condition (E) Committee Approves RBC Changes",
-      "date": "2026-07-10",
-      "cat": "General",
-      "summary": "",
-      "source": "Mayer Brown",
-      "link": "https://news.google.com/rss/articles/CBMiuAFBVV95cUxQWDNhWmRJSi1MaVVEczk1dUszMlV5TlZKbFYyaXRPUkJ0SldiZXQ3WUViU2JNWWp6VVBKMV9vTlJYdDVjRDVSSlVsMFFLdTl0UHNqamZWSDBCN0VNeWFSeTFWR19EOE5rMlpJbzNWeUtHMk51SUU0ZXdGMWN6SGlvdjRmalRsT09lbURmNzRqZkFBSzI3OUZvekYzVG9UbGJ2amprX2hTWElLZm9BNDhzUW8yN216VnFk?oc=5",
-      "isNew": true
     }
   ],
   "bma": [
@@ -259,7 +259,7 @@
       "date": "2026-07-30",
       "cat": "General",
       "summary": "",
-      "source": "buttondown.com",
+      "source": "Buttondown",
       "link": "https://news.google.com/rss/articles/CBMikgFBVV95cUxQdEFELVpBT0hCcTI2V1lwM1JwVUIza0c4OEtUWmFkVW1nZVRZQzBsaFQyVDJ6ZDU1VGdvUTdWZXNFbUpFRjZYc2N4WFA0ZE1VZlZTQ0ZwXzlTWm9PemxWWFItdm16a3dPZ0FkTXBvYmNqRVg0OWd0RS1hWjNmaFNodDN3cnFnck9rQlgtQU9OM2ljQQ?oc=5",
       "isNew": true
     },
@@ -511,7 +511,7 @@
       "date": "2026-07-29",
       "cat": "General",
       "summary": "",
-      "source": "capmad.com",
+      "source": "Capmad",
       "link": "https://news.google.com/rss/articles/CBMivgFBVV95cUxQLWZNN0FoMUFjS0d0N0h3Zjlqd0VibHB3TkVIM2RSVzdtVVdnZms1QmNDbXk1UmhycV9rME5ENVJBcnJFaEZlRzdLTV9temJ0cnplbHc4MmcybW5tVFkybWc0WVZZOF84N3N2OTI0LXpfMklEVkNxQWRITFh1MDBUbXdXRElTTVo4VHotX1dCZnNuQjR3RzFjNDd3SHpISnZkaU9wel82SXo5NHpGZXlmMTRSSXFNYTJ0dHdEN2hn?oc=5",
       "isNew": true
     },
@@ -531,7 +531,7 @@
       "date": "2026-07-29",
       "cat": "General",
       "summary": "",
-      "source": "Insurance Business",
+      "source": "insurancebusinessmag.com",
       "link": "https://news.google.com/rss/articles/CBMiywFBVV95cUxPS2lqcVB0NzVrNldvOTNtUTVjNnZTOWdUdjVtMmhvX0ZRUlA2UEt1SFF0QVlJd3dybmE3U1JiNF80TVloYmhjLXNlQWlSMHItZW1CdDlsdklOZ0lhc3E2V0RIeTlVejZxcEdCN2ZiU21Sa016QlQxMGJ6MG5OZ1dnUXQyT21QVjNTaWVWRmFGUm5kSktsanFtQnd6OEo4MFk2bnZHOVBKS2ZBaU5CNjRiWmMxd1Q1YmlKRW1LWDMyZ05RaWVnQWlVZHpqTQ?oc=5",
       "isNew": true
     },
@@ -551,7 +551,7 @@
       "date": "2026-07-16",
       "cat": "General",
       "summary": "",
-      "source": "financialafrik.com",
+      "source": "Financial Afrik",
       "link": "https://news.google.com/rss/articles/CBMizgFBVV95cUxOVTRlSmxPcEllUGxLUndNbkRyN19qN2d3YWF4MGxFZlNjMVY2eVE3TlVGWF9lMlVNU0lKMVI3dHZ6dXBfbWRlMlQ2RjNjb0ZSXzU4SDZLV3lqU29sQk4xdDdYcE92VVpOY0pzaTJMZ21tMDV3a1FyWDRCeDBlZXJwc21RYVVXdWlXVk9PVkdNYWZqOV9UZERvdUF1TENQd2tYOVdQaGxyS2pVXy0xbVNYTEhGaDJVZHY2cDYzNTBjZG1PVFBUUUlnV0s0QXBLQQ?oc=5",
       "isNew": true
     },
@@ -601,7 +601,7 @@
       "date": "2026-07-14",
       "cat": "General",
       "summary": "",
-      "source": "Insurance Business",
+      "source": "insurancebusinessmag.com",
       "link": "https://news.google.com/rss/articles/CBMi2gFBVV95cUxOWEI0T3hNdnh5M0U2ekhDYWJRRnplN3g1ZDVheG9NRUZwR2lxUjJaVDhLSkFGdjRWWENGRkJVVjJwQ0FMY05KenJha1JHZkd3em0wczVrOXFYbks4UGxfQUg0NDJQUVlQQ0hVOFNGWmsyMXM5NFlTV3F2YmlxbWQ3alZDcHQ1ajktRUhnTkdNX3Bia1dON3RVSGdqa1I1ZzNlWnNCX0Y5VU5SR2lpanlhSjRvc1pWUFlHN3FxbkZtM0NUVXc5NlRlWHAtTUoxX3lTTEdiYUpDTnZTUQ?oc=5",
       "isNew": true
     },
