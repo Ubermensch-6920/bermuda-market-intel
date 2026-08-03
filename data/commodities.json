@@ -1,13 +1,13 @@
 {
-  "date": "2026-08-02",
+  "date": "2026-08-03",
   "source": "FRED / TradingEconomics / Investing / Yahoo Finance",
   "gold": {
-    "spot": 4042.97,
+    "spot": 4060.75,
     "spot_date": "",
     "spot_source": "TradingEconomics",
     "unit": "USD/troy oz",
-    "prior_1d": 4107.0,
-    "prior_1d_date": "2026-08-02",
+    "prior_1d": 4115.8,
+    "prior_1d_date": "2026-08-03",
     "prior_1m": 4112.7,
     "prior_1m_date": "2026-07-02",
     "prior_3m": 4519.5,
@@ -18,7 +18,7 @@
     "prior_2y_date": "2024-08-02",
     "futures": {
       "3M": {
-        "price": 4107.0,
+        "price": 4116.7,
         "expiry": "Dec 2026",
         "contract": "GCZ26",
         "prior_1m": 4154.9,
@@ -35,7 +35,7 @@
         "prior_2y_contract": "GCZ24"
       },
       "6M": {
-        "price": 4139.7,
+        "price": 4148.5,
         "expiry": "Feb 2027",
         "contract": "GCG27",
         "prior_1m": 4219.3,
@@ -92,26 +92,26 @@
     "spot_date": "2026-07-27",
     "spot_source": "FRED",
     "unit": "USD/barrel",
-    "prior_1d": 84.25,
-    "prior_1d_date": "2026-07-27",
-    "prior_1m": 69.73,
-    "prior_1m_date": "2026-07-02",
+    "prior_1d": 80.05,
+    "prior_1d_date": "2026-08-03",
+    "prior_1m": 69.6,
+    "prior_1m_date": "2026-07-06",
     "prior_3m": 109.76,
     "prior_3m_date": "2026-05-04",
-    "prior_1y": 68.39,
-    "prior_1y_date": "2025-08-01",
+    "prior_1y": 67.33,
+    "prior_1y_date": "2025-08-04",
     "prior_2y": 74.99,
     "prior_2y_date": "2024-08-02",
     "futures": {
       "3M": {
-        "price": 78.65,
+        "price": 75.84,
         "expiry": "Nov 2026",
         "contract": "CLX26",
         "prior_1m": 68.56,
         "prior_1m_date": "2026-07-02",
         "prior_1m_contract": "CLV26",
-        "prior_3m": null,
-        "prior_3m_date": "",
+        "prior_3m": 96.52,
+        "prior_3m_date": "2026-05-04",
         "prior_3m_contract": "CLQ26",
         "prior_1y": null,
         "prior_1y_date": "",
@@ -121,7 +121,7 @@
         "prior_2y_contract": "CLX24"
       },
       "6M": {
-        "price": 73.74,
+        "price": 71.94,
         "expiry": "Feb 2027",
         "contract": "CLG27",
         "prior_1m": 68.19,
@@ -147,8 +147,8 @@
         "prior_3m": 77.32,
         "prior_3m_date": "2026-05-04",
         "prior_3m_contract": "CLK27",
-        "prior_1y": null,
-        "prior_1y_date": "",
+        "prior_1y": 62.62,
+        "prior_1y_date": "2025-08-04",
         "prior_1y_contract": "CLQ26",
         "prior_2y": null,
         "prior_2y_date": "",
@@ -167,8 +167,8 @@
         "prior_1y": 62.15,
         "prior_1y_date": "2025-08-04",
         "prior_1y_contract": "CLQ27",
-        "prior_2y": null,
-        "prior_2y_date": "",
+        "prior_2y": 66.38,
+        "prior_2y_date": "2024-08-02",
         "prior_2y_contract": "CLQ26"
       }
     }
@@ -178,19 +178,19 @@
     "spot_date": "2026-07-27",
     "spot_source": "FRED",
     "unit": "USD/barrel",
-    "prior_1d": 91.82,
-    "prior_1d_date": "2026-07-27",
+    "prior_1d": 90.12,
+    "prior_1d_date": "2026-07-31",
     "prior_1m": 68.68,
     "prior_1m_date": "2026-07-03",
     "prior_3m": 114.51,
     "prior_3m_date": "2026-05-05",
-    "prior_1y": 70.55,
-    "prior_1y_date": "2025-08-01",
+    "prior_1y": 69.56,
+    "prior_1y_date": "2025-08-04",
     "prior_2y": 78.35,
     "prior_2y_date": "2024-08-02",
     "futures": {
       "3M": {
-        "price": 84.58,
+        "price": 81.25,
         "expiry": "Nov 2026",
         "contract": "BZX26",
         "prior_1m": 72.17,
@@ -207,7 +207,7 @@
         "prior_2y_contract": "BZX24"
       },
       "6M": {
-        "price": 79.35,
+        "price": 77.4,
         "expiry": "Feb 2027",
         "contract": "BZG27",
         "prior_1m": 72.3,
@@ -260,23 +260,23 @@
     }
   },
   "usdinr": {
-    "spot": 95.39,
-    "spot_date": "2026-08-02",
+    "spot": 95.18,
+    "spot_date": "2026-08-03",
     "spot_source": "Yahoo INR=X",
     "unit": "INR per USD",
     "prior_1d": null,
     "prior_1d_date": null,
     "prior_1m": 95.4,
     "prior_1m_date": "2026-07-06",
-    "prior_3m": 95.09,
-    "prior_3m_date": "2026-05-04",
+    "prior_3m": 95.32,
+    "prior_3m_date": "2026-05-05",
     "prior_1y": 87.63,
     "prior_1y_date": "2025-08-04",
-    "prior_2y": 83.79,
-    "prior_2y_date": "2024-08-02",
+    "prior_2y": 83.83,
+    "prior_2y_date": "2024-08-05",
     "futures": {
       "3M": {
-        "price": 95.85,
+        "price": 95.63,
         "expiry": "3M",
         "contract": "CIP derived",
         "prior_1m": null,
@@ -293,7 +293,7 @@
         "prior_2y_contract": "INRX24"
       },
       "6M": {
-        "price": 96.22,
+        "price": 96.01,
         "expiry": "6M",
         "contract": "CIP derived",
         "prior_1m": null,
@@ -310,7 +310,7 @@
         "prior_2y_contract": "INRG25"
       },
       "12M": {
-        "price": 96.93,
+        "price": 96.72,
         "expiry": "12M",
         "contract": "CIP derived",
         "prior_1m": null,
@@ -327,7 +327,7 @@
         "prior_2y_contract": "INRQ25"
       },
       "24M": {
-        "price": 98.45,
+        "price": 98.23,
         "expiry": "24M",
         "contract": "CIP derived",
         "prior_1m": null,
@@ -346,5 +346,5 @@
     }
   },
   "note": "Spot history comes from daily FRED series. Futures history is roll-aware by target date. USD/INR latest spot: FRED DEXINUS, then Yahoo INR=X / keyless FX APIs when FRED lags; forwards fall back to CIP derivation from India/UST curves when market quotes are unavailable.",
-  "_fetched": "2026-08-02T22:13:51.988290Z"
+  "_fetched": "2026-08-03T03:58:38.958786Z"
 }
