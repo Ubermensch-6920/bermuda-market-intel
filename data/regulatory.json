@@ -1,6 +1,26 @@
 {
-  "updated": "2026-08-03T10:10:14Z",
+  "updated": "2026-08-03T15:20:48Z",
   "naic": [
+    {
+      "id": "3d37e3589ba5",
+      "title": "NAIC regulators begin consensus phase on annuity illustration overhaul",
+      "date": "2026-08-03",
+      "cat": "General",
+      "summary": "",
+      "source": "InsuranceNewsNet",
+      "link": "https://news.google.com/rss/articles/CBMirwFBVV95cUxOQkxaUFNUR1VaUlJCa1phRkMzektNeVA4c3dQUTNEY2J0d2hhRGpVYXJZcUhhcmNuMnpjLUE5STE0eUtKVVRFNExZYlZkYS1WZXZrbm00cjA4NDNzRGRHM3Z3RW1wU1Q0RUdyTWRhT1EyOUp0VGxDSDNLdURhd1FkWTkwVGNVUTMwTXhnaDRKX2hDeHEwdzdtX3R0dm1tLUVVYXZid0FvSHAzU2l3Mkpr?oc=5",
+      "isNew": true
+    },
+    {
+      "id": "64bfab29090a",
+      "title": "US regulators cite \u2018circular\u2019 risk in investments used by KKR and Apollo",
+      "date": "2026-07-31",
+      "cat": "Investment",
+      "summary": "",
+      "source": "Financial Times",
+      "link": "https://news.google.com/rss/articles/CBMihAFBVV95cUxOVHhvNnFjS3NNQUR1TlgwZ3k0YUV1SzZWdE14ZHBLYk9ucmFGQ1A2TjFSWW5LcUtmd3c4andwdWFQQy02ZXBzdUROSGVBeEhKcU9VZno2dkdXVkxuNFU0ckVqTjBZS25nZFQ1d3hwVHpRMW5kQ1dxQ21TVzd4WEN1QWtEazA?oc=5",
+      "isNew": true
+    },
     {
       "id": "9e60d097efaf",
       "title": "Aliyu Bello Leads NAIC Management Team to Minister, Reaffirms Commitment to Tinubu\u2019s Food Security Agenda",
@@ -230,29 +250,19 @@
       "source": "Mayer Brown",
       "link": "https://news.google.com/rss/articles/CBMiuAFBVV95cUxQWDNhWmRJSi1MaVVEczk1dUszMlV5TlZKbFYyaXRPUkJ0SldiZXQ3WUViU2JNWWp6VVBKMV9vTlJYdDVjRDVSSlVsMFFLdTl0UHNqamZWSDBCN0VNeWFSeTFWR19EOE5rMlpJbzNWeUtHMk51SUU0ZXdGMWN6SGlvdjRmalRsT09lbURmNzRqZkFBSzI3OUZvekYzVG9UbGJ2amprX2hTWElLZm9BNDhzUW8yN216VnFk?oc=5",
       "isNew": true
-    },
-    {
-      "id": "5b966227f205",
-      "title": "NAIC Financial Condition (E) Committee Approves RBC Changes",
-      "date": "2026-07-10",
-      "cat": "General",
-      "summary": "",
-      "source": "Mayer Brown",
-      "link": "https://news.google.com/rss/articles/CBMitAFBVV95cUxQNFRMbTVPY3JpSHB1NEZxUEVIVVpaRllYR281dTVJM2NZWTMtdWNnakl6cG82Z3Nqd2h1TVViWHcwaDRDRkVqaHZGT3BaT3RpdDJmMzFkV3M5X01IMDBKdUhKMVBoa0VkOUlCRW9qNVlRblFNcVQ5c3VPeWZJT3JnOVhWVTMwdEUxWkdKcDNtRUZFWUJzZThTYi00X0dVVDBZX3VvWl9xOWdZMVRoQkxJRldKWVU?oc=5",
-      "isNew": true
-    },
-    {
-      "id": "b3ffc14e395a",
-      "title": "NAIC Financial Condition (E) Committee Approves RBC Changes",
-      "date": "2026-07-10",
-      "cat": "General",
-      "summary": "",
-      "source": "Mayer Brown",
-      "link": "https://news.google.com/rss/articles/CBMitAFBVV95cUxQNFRMbTVPY3JpSHB1NEZxUEVIVVpaRllYR281dTVJM2NZWTMtdWNnakl6cG82Z3Nqd2h1TVViWHcwaDRDRkVqaHZGT3BaT3RpdDJmMzFkV3M5X01IMDBKdUhKMVBoa0VkOUlCRW9qNVlRblFNcVQ5c3VPeWZJT3JnOVhWVTMwdEUxWkdKcDNtRUZFWUJzZThTYi00X0dVVDBZX3VvWl9xOWdZMVRoQkxJRldKWVU?oc=5",
-      "isNew": true
     }
   ],
   "bma": [
+    {
+      "id": "4c597685d5b5",
+      "title": "#43: Agentic advice is arriving before the advice rulebook.",
+      "date": "2026-07-30",
+      "cat": "General",
+      "summary": "",
+      "source": "buttondown.com",
+      "link": "https://news.google.com/rss/articles/CBMikgFBVV95cUxQdEFELVpBT0hCcTI2V1lwM1JwVUIza0c4OEtUWmFkVW1nZVRZQzBsaFQyVDJ6ZDU1VGdvUTdWZXNFbUpFRjZYc2N4WFA0ZE1VZlZTQ0ZwXzlTWm9PemxWWFItdm16a3dPZ0FkTXBvYmNqRVg0OWd0RS1hWjNmaFNodDN3cnFnck9rQlgtQU9OM2ljQQ?oc=5",
+      "isNew": true
+    },
     {
       "id": "65bc1b54bb8d",
       "title": "Bermuda - Lending & Secured Finance Laws and Regulations 2026",
@@ -289,7 +299,7 @@
       "date": "2026-07-23",
       "cat": "General",
       "summary": "",
-      "source": "intelligentinsurer.com",
+      "source": "Intelligent Insurer",
       "link": "https://news.google.com/rss/articles/CBMiqAFBVV95cUxPOXB1QTRBMWJFMnlNc21aVTJ6VXVHNEVNUU5ZbjVUdTVCdDc3LXBmNHROUVlNQTJkTVZLTElUTmtYdjV2S2tQTEY1VnJWNUJ2Yk12QllaNTRQa2hPakRBVE9nbWpsMnBCaW5QRm1NdWlRTi1tME5kaU1oR1RsZHJGaVhOTTdxa01MNzJoemc2VG90WWQzNHdicU9TWk4tV01lWmc1NXZGYzU?oc=5",
       "isNew": true
     },
@@ -309,7 +319,7 @@
       "date": "2026-07-22",
       "cat": "General",
       "summary": "",
-      "source": "artemis.bm",
+      "source": "Artemis.bm",
       "link": "https://news.google.com/rss/articles/CBMipAFBVV95cUxOM1B5X2ZUMThlOWl6Z2kyUWQ2cWpPLUM4a1ZiSXBaR2VPVmRLRjBzbWoyX2lxNkp6RElEUllTWDNibE5hYTFsV293RGJOcGdnT0R6SldVLWRMX2JFa3I0ZW1FUjlLTFJFVW9ReXlTN3ZqTVBiVHpoRVdzZENGYzFNdlBrQjY3MEJmUjZIQ2gtSDJXR0t1WlJ5VUsxaVNFMDdHeXduSQ?oc=5",
       "isNew": true
     },
@@ -492,16 +502,6 @@
       "source": "Bernews",
       "link": "https://news.google.com/rss/articles/CBMibEFVX3lxTE1ndUMwb19HYU9HOFA4emVfelZra0FLbmZabXVwaHRtZ211SFJ2M3J0WnpDWi1Wb1dlTU1sdHNaR3M3aTJlMC1VUDJPNkthX0x4WmpQcUQwRi1EemsxVjM5UEJvTzByUDJ3cTdTdw?oc=5",
       "isNew": false
-    },
-    {
-      "id": "ea371e98c5fc",
-      "title": "Senate: Audio & Order Of Business",
-      "date": "2026-07-01",
-      "cat": "General",
-      "summary": "",
-      "source": "Bernews",
-      "link": "https://news.google.com/rss/articles/CBMia0FVX3lxTE55a1dTdFZBQ3VaYWJPeThlWWJkQWtiYWVhT09ZVEQ5RXlyU1FvaW5TcElFUnI0SGVmSHVEMkE5b0VkWGNNRWZxb19ITE9CSFBySzQ0N2FXZEJkYkVQclMtYmhZQXhNd1BBQk1J?oc=5",
-      "isNew": false
     }
   ],
   "cayman": [
@@ -511,7 +511,7 @@
       "date": "2026-07-29",
       "cat": "General",
       "summary": "",
-      "source": "Capmad",
+      "source": "capmad.com",
       "link": "https://news.google.com/rss/articles/CBMivgFBVV95cUxQLWZNN0FoMUFjS0d0N0h3Zjlqd0VibHB3TkVIM2RSVzdtVVdnZms1QmNDbXk1UmhycV9rME5ENVJBcnJFaEZlRzdLTV9temJ0cnplbHc4MmcybW5tVFkybWc0WVZZOF84N3N2OTI0LXpfMklEVkNxQWRITFh1MDBUbXdXRElTTVo4VHotX1dCZnNuQjR3RzFjNDd3SHpISnZkaU9wel82SXo5NHpGZXlmMTRSSXFNYTJ0dHdEN2hn?oc=5",
       "isNew": true
     },
@@ -551,7 +551,7 @@
       "date": "2026-07-16",
       "cat": "General",
       "summary": "",
-      "source": "Financial Afrik",
+      "source": "financialafrik.com",
       "link": "https://news.google.com/rss/articles/CBMizgFBVV95cUxOVTRlSmxPcEllUGxLUndNbkRyN19qN2d3YWF4MGxFZlNjMVY2eVE3TlVGWF9lMlVNU0lKMVI3dHZ6dXBfbWRlMlQ2RjNjb0ZSXzU4SDZLV3lqU29sQk4xdDdYcE92VVpOY0pzaTJMZ21tMDV3a1FyWDRCeDBlZXJwc21RYVVXdWlXVk9PVkdNYWZqOV9UZERvdUF1TENQd2tYOVdQaGxyS2pVXy0xbVNYTEhGaDJVZHY2cDYzNTBjZG1PVFBUUUlnV0s0QXBLQQ?oc=5",
       "isNew": true
     },

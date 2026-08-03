@@ -1,5 +1,5 @@
 {
-  "updated": "2026-08-03T10:10:14Z",
+  "updated": "2026-08-03T15:20:48Z",
   "topics": [
     "Insurance AM",
     "Private Credit",
@@ -7,6 +7,16 @@
     "Structured Credit"
   ],
   "items": [
+    {
+      "id": "0840f0f6f554",
+      "title": "Private credit has dodged public scrutiny for too long \u2014 and regulators need to step in",
+      "source": "MarketWatch",
+      "date": "2026-08-03T11:00:00Z",
+      "topic": "Private Credit",
+      "summary": "",
+      "link": "https://news.google.com/rss/articles/CBMixwFBVV95cUxPTlFlOFk2RFpMekZVbDJxckk5cWVXbjVHM18xV1g1c0hJR0RkdzBqREJqcXVzeDFOcXRLNVZsVV9kekp5aTc5RDdhTk10NFRBUzhXQlQ3SjQ5UFZMRnQtNzlBa1RUUWdfc0c0cGZ3SW9Tc1ZfYm5iSm9BdERSaERuWllsNFJTOTZWd1N0cUdSaXhHMHFvUDZOU09jOWY4b0tVeWh2bzRNU1VCYWhvclliWVoxeXhFNkRhWEtXbkt0b1A5VjZUWGpj?oc=5",
+      "isNew": false
+    },
     {
       "id": "f0ed10818097",
       "title": "A Credibility Gap at the Fed: Why Bond Yields Are Surging",
@@ -30,7 +40,7 @@
     {
       "id": "189b035d882d",
       "title": "Treasury yields follow oil prices higher as Fed officials say rate hikes are needed",
-      "source": "CNBC",
+      "source": "cnbc.com",
       "date": "2026-07-31T07:05:51Z",
       "topic": "Rates & Macro",
       "summary": "",
@@ -120,7 +130,7 @@
     {
       "id": "3504acd80371",
       "title": "Duration Is Not a Defense - I",
-      "source": "contrarianunicus.substack.com",
+      "source": "Substack",
       "date": "2026-07-30T16:10:46Z",
       "topic": "Private Credit",
       "summary": "",
@@ -130,7 +140,7 @@
     {
       "id": "0fefaaf95f52",
       "title": "Duration Is Not a Defense - I",
-      "source": "contrarianunicus.substack.com",
+      "source": "Substack",
       "date": "2026-07-30T16:10:46Z",
       "topic": "Structured Credit",
       "summary": "",
@@ -140,7 +150,7 @@
     {
       "id": "69b1a13475ea",
       "title": "Why the bond market is doubting Fed chairman Kevin Warsh",
-      "source": "axios.com",
+      "source": "Axios",
       "date": "2026-07-30T15:59:21Z",
       "topic": "Rates & Macro",
       "summary": "",
@@ -295,16 +305,6 @@
       "topic": "Structured Credit",
       "summary": "",
       "link": "https://news.google.com/rss/articles/CBMimgFBVV95cUxOWjBwSTFrRGZYcjlpRnF3N2hpYmxURmJuc1FhbGpVbTV5X0IxbHFWQzVUQzFjalB3YU9MbHl3aXFJTzJnaWt4OGtfVGk1UnptYVZ4MDJIYXUwNTUySENON21lLUFNZDNaRDVucmdaZHFESHRRMTh0TWxmUl9uVlBQVU40d0xrS2Y4enVxUDlpVG1VaDB2RmxTMnZR?oc=5",
-      "isNew": false
-    },
-    {
-      "id": "f3fa76a22fb6",
-      "title": "How Better Property Data Can Improve Commercial Real Estate Insurance",
-      "source": "Urban Land Magazine",
-      "date": "2026-07-29T17:52:20Z",
-      "topic": "Insurance AM",
-      "summary": "",
-      "link": "https://news.google.com/rss/articles/CBMiwwFBVV95cUxOTkdtSU1NXzNxSXN0Wkg2eEl0YlpUU2Zzb1FudHhIQTRXXzZMRlljOHVMZTVXcFpnSmpxZ0lGT1MwZHk0aXhVZ2ZIMGJXNDg0ZG9OSmotZi1LQWRZbmVlcklqa2VzU3N0TEl5NUdENDRIcUN4SmlpSUZOaUVhMVBJaTN1Rndab2tkYzg0LWZVTFcwNFNzaU4yQ3VtS0k4M1BPazlLUDR1MHZJWFR5c2Zoc1RHSmY1MFpUMGszai13VjZNcE0?oc=5",
       "isNew": false
     }
   ]
