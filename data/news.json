@@ -1,5 +1,5 @@
 {
-  "updated": "2026-08-04T11:38:08Z",
+  "updated": "2026-08-04T14:44:08Z",
   "topics": [
     "Insurance AM",
     "Private Credit",
@@ -7,6 +7,26 @@
     "Structured Credit"
   ],
   "items": [
+    {
+      "id": "ce7974788508",
+      "title": "Apollo debt deal fees and insurance earnings rise, asset sales drag",
+      "source": "Reuters",
+      "date": "2026-08-04T12:26:38Z",
+      "topic": "Insurance AM",
+      "summary": "",
+      "link": "https://news.google.com/rss/articles/CBMiwAFBVV95cUxQYy1Qek1seUVyQlVFZ2RkNEtUTnc2YWk5NV9GRGtQdGJOLU81M2lDSlg3VUlRTE5lbHdtT2NIZFVFd3JhMVBvVEJFWEsxYm9LMkRmUnl3N05uTjcxR05DWTBrSXdQUC1acGhCT253cjh1Y1NsakY2VnUtdnRVdWZrcWtkbnJpU3ZzdDlYc2MtR0RpVHotY3dmaVNIS2h6U1o0S3AtY1hhVzFIcDVjZWlIdkZ2VXRkdDl4UzZRaEdrMWc?oc=5",
+      "isNew": false
+    },
+    {
+      "id": "ebf2a8caf749",
+      "title": "Central Banks Hold Rates, Sparking Wealth Manager Reactions",
+      "source": "Family Wealth Report",
+      "date": "2026-08-04T11:53:34Z",
+      "topic": "Rates & Macro",
+      "summary": "",
+      "link": "https://news.google.com/rss/articles/CBMirAFBVV95cUxONzdfdnFVTWd3Qm5GS2l1MDVrUHpMaTJRQVVOSkZ4ZXJ6VVUxY3RMTmVLc2xfb3cxZl9sVlBrR0tTTXRLQlFEcWEtVlNrdXI2cE05QWtxQUhXZFh0NWtmUUpiUzdhc3JNQ3IwUl9BM0p3c1VINUdvZC12RGpxWlpjSFIydVZnMGVKamlMcS0tT0NRU2J4aUIwU25yUVYyc0xyY2FYNVVla0VHUklz?oc=5",
+      "isNew": false
+    },
     {
       "id": "b5df47f7754f",
       "title": "European insurers prioritising infrastructure debt and structured credit amid Solvency II changes: Novantigo",
@@ -58,6 +78,16 @@
       "isNew": false
     },
     {
+      "id": "107b985c83e4",
+      "title": "The AI Bailout Could Be Baked Into the AI Bubble",
+      "source": "The American Prospect",
+      "date": "2026-08-03T09:15:00Z",
+      "topic": "Private Credit",
+      "summary": "",
+      "link": "https://news.google.com/rss/articles/CBMiqAFBVV95cUxNTDEwdjhrcXNucm5ZQm9XcG9FdkVqWXRfMTVxbTdpOG1lZTV3LVh3bHlLTUkxaFN0NUxPbndSWE1sM0JmV2s2UElTY2RzVlBwektqSE5keWNvNEIxZEFNQUlaSnhQdDYwdkJmLWdrY1QxZEVmQ3RFQjlpc1dlXzZuYnlfb2N0UmZSclpCeXRoaUc0cGVFanM2TWhtXzl3aUdVcEJoZk5FZ08?oc=5",
+      "isNew": false
+    },
+    {
       "id": "f0ed10818097",
       "title": "A Credibility Gap at the Fed: Why Bond Yields Are Surging",
       "source": "Barron's",
@@ -100,7 +130,7 @@
     {
       "id": "9aef4c4cfbf5",
       "title": "US borrowing costs hit 19-year high as Fed holds interest rates",
-      "source": "The Guardian",
+      "source": "theguardian.com",
       "date": "2026-07-31T01:30:00Z",
       "topic": "Rates & Macro",
       "summary": "",
@@ -275,36 +305,6 @@
       "topic": "Insurance AM",
       "summary": "",
       "link": "https://news.google.com/rss/articles/CBMi1AFBVV95cUxNakNQUEVaSGRfaDlNRUQ3aVV0LVkyVElTODlOZFRVSi16d3piT0Y0NFIyMjFOWVFPTURmcExaMnBTRUMxU1l6RGtldmlWWHo3UUgyT0NkUmNINFJwczJxc0hia1NFVE1TRlp5dlRJMDREMXpUbG1MYUt3S1FNRGs2Y0tBVWV1NDlOTllmdTRHc29tcVNudnEtZ2prVFRqMFd5Vm1ZaWxVazR6LUhaajlUa3NPSDBZRm1XVGZteWRQNks5M2R1WmFzbDBXZXozRWQtSG5Lag?oc=5",
-      "isNew": false
-    },
-    {
-      "id": "0e14302f6545",
-      "title": "Insurance Midyear Outlook: Finding Value in Tight Markets",
-      "source": "AllianceBernstein",
-      "date": "2026-07-29T22:45:21Z",
-      "topic": "Private Credit",
-      "summary": "",
-      "link": "https://news.google.com/rss/articles/CBMi1AFBVV95cUxNakNQUEVaSGRfaDlNRUQ3aVV0LVkyVElTODlOZFRVSi16d3piT0Y0NFIyMjFOWVFPTURmcExaMnBTRUMxU1l6RGtldmlWWHo3UUgyT0NkUmNINFJwczJxc0hia1NFVE1TRlp5dlRJMDREMXpUbG1MYUt3S1FNRGs2Y0tBVWV1NDlOTllmdTRHc29tcVNudnEtZ2prVFRqMFd5Vm1ZaWxVazR6LUhaajlUa3NPSDBZRm1XVGZteWRQNks5M2R1WmFzbDBXZXozRWQtSG5Lag?oc=5",
-      "isNew": false
-    },
-    {
-      "id": "8563b91d6715",
-      "title": "The bond market to Kevin Warsh: What are you doing about inflation?",
-      "source": "CNN",
-      "date": "2026-07-29T22:40:04Z",
-      "topic": "Rates & Macro",
-      "summary": "",
-      "link": "https://news.google.com/rss/articles/CBMibkFVX3lxTE5mVUU0YUZra21FMy1kVjNTLVZMSTF5Z2dHclBhQm9NYUZqUGF2NDl1bDhoMjlpRjdoRVZieHJFZGsxX0NjLXJ4Njh6YzRWaklBamk4cXI1NFlqWENEZlhQM0VSckFmdkI1bzJRdkJB?oc=5",
-      "isNew": false
-    },
-    {
-      "id": "ea4901ff82e1",
-      "title": "Government Borrowing Cost Hits Two-Decade High After Fed Rate Decision",
-      "source": "The New York Times",
-      "date": "2026-07-29T21:33:46Z",
-      "topic": "Rates & Macro",
-      "summary": "",
-      "link": "https://news.google.com/rss/articles/CBMijwFBVV95cUxPdGw2SU1ueUE5d1daQzNURXp3QVk3UlQ5Z095NEh1Sl9MNnptZmx4MmZ3c3FkaENaLXM0SU9KeXRUOVBuLWtzTzlmM2J6Q2todjlNaUtjQ0stbUI2bm9aUnVqVjRNWng4RVp2SkFablBEY2plNTk4b1BvTWJncF93UGQtaFVSSy1GOW1uMkJwOA?oc=5",
       "isNew": false
     }
   ]
