@@ -1,5 +1,5 @@
 {
-  "updated": "2026-08-04T09:12:27Z",
+  "updated": "2026-08-04T11:38:08Z",
   "topics": [
     "Insurance AM",
     "Private Credit",
@@ -8,9 +8,19 @@
   ],
   "items": [
     {
+      "id": "b5df47f7754f",
+      "title": "European insurers prioritising infrastructure debt and structured credit amid Solvency II changes: Novantigo",
+      "source": "Reinsurance News",
+      "date": "2026-08-04T10:33:27Z",
+      "topic": "Structured Credit",
+      "summary": "",
+      "link": "https://news.google.com/rss/articles/CBMi0wFBVV95cUxQRmNuMWhpTzZlVG9VTEd1TExSM2JMb1QzS0NFeTJWdnlwdW05Zm9DcDNIYlBOcnkxSGtPZlNFTGgwSWFIVlAyQWQ4V3hIc0c5UWZnY09sM21mXzFvUEs3dy1CS0prLWRsMk9iMnBEVGZJWXVsRTJ0RG9Xc0IyN3RzS1VaUVZQUllWQUZZZ294ZUkwNkt1WkZBVG5iWTdteUpCZzVoMHNSS2h5UHFBemY5U241NUVMX3l0NmtqTWxRWUJfWDJueVhWVTVqOGJZSlF5WG5j?oc=5",
+      "isNew": false
+    },
+    {
       "id": "19bb1913dbcc",
       "title": "Research Exchange: July 2026",
-      "source": "bpi.com",
+      "source": "Bank Policy Institute",
       "date": "2026-08-03T20:46:05Z",
       "topic": "Private Credit",
       "summary": "",
@@ -90,7 +100,7 @@
     {
       "id": "9aef4c4cfbf5",
       "title": "US borrowing costs hit 19-year high as Fed holds interest rates",
-      "source": "theguardian.com",
+      "source": "The Guardian",
       "date": "2026-07-31T01:30:00Z",
       "topic": "Rates & Macro",
       "summary": "",
@@ -295,16 +305,6 @@
       "topic": "Rates & Macro",
       "summary": "",
       "link": "https://news.google.com/rss/articles/CBMijwFBVV95cUxPdGw2SU1ueUE5d1daQzNURXp3QVk3UlQ5Z095NEh1Sl9MNnptZmx4MmZ3c3FkaENaLXM0SU9KeXRUOVBuLWtzTzlmM2J6Q2todjlNaUtjQ0stbUI2bm9aUnVqVjRNWng4RVp2SkFablBEY2plNTk4b1BvTWJncF93UGQtaFVSSy1GOW1uMkJwOA?oc=5",
-      "isNew": false
-    },
-    {
-      "id": "37d68032c3cc",
-      "title": "Warsh\u2019s Posture on Interest Rates Sparks Market Inflation Fears",
-      "source": "WSJ",
-      "date": "2026-07-29T21:16:47Z",
-      "topic": "Rates & Macro",
-      "summary": "",
-      "link": "https://news.google.com/rss/articles/CBMiqgFBVV95cUxNS1NXX3hoSncwTlZxblhWRlFJcWJScDZGUWJvSHZpa21MWmtfV2ZOQll3R05QM09GLXpOTnlCSmtZZmlpTGR6R2Q0RHQ4bWRFYk9FX0s4ZFhTdzFWOTlSejVNQnhoMlZJQ1hsaFE4cEVHcWNTcHdpYzlReTlhcmRSZ3VWRHRId0JSVUtacm5iX1ROWWxvYWFKSldpTWlzY3pJUUhRbXhHU2RsUQ?oc=5",
       "isNew": false
     }
   ]

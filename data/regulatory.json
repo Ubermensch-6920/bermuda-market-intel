@@ -1,5 +1,5 @@
 {
-  "updated": "2026-08-04T09:12:27Z",
+  "updated": "2026-08-04T11:38:08Z",
   "naic": [
     {
       "id": "e1919ca40a74",
@@ -7,7 +7,7 @@
       "date": "2026-08-04",
       "cat": "General",
       "summary": "",
-      "source": "dailyadvocate.com",
+      "source": "Daily Advocate",
       "link": "https://news.google.com/rss/articles/CBMijAFBVV95cUxNTkt3NXhMNEdSOTNYTWNLTFB4emI4b0ZabENtZ1V3VUNZcUVPTlh3LV84ckRDbTRyOTZ5QVByYXBNemNQTkt4V0NyWG42Q25xVmVwbDFuWjhSZUNIZHRubklLWjk1XzFSQWdwRlBYeE1MMlp5ZzEtQmpaZ0d3dklKaU9DOVhMWUFLWEd3eQ?oc=5",
       "isNew": true
     },
@@ -39,6 +39,16 @@
       "summary": "",
       "source": "InsuranceNewsNet",
       "link": "https://news.google.com/rss/articles/CBMirwFBVV95cUxOQkxaUFNUR1VaUlJCa1phRkMzektNeVA4c3dQUTNEY2J0d2hhRGpVYXJZcUhhcmNuMnpjLUE5STE0eUtKVVRFNExZYlZkYS1WZXZrbm00cjA4NDNzRGRHM3Z3RW1wU1Q0RUdyTWRhT1EyOUp0VGxDSDNLdURhd1FkWTkwVGNVUTMwTXhnaDRKX2hDeHEwdzdtX3R0dm1tLUVVYXZid0FvSHAzU2l3Mkpr?oc=5",
+      "isNew": true
+    },
+    {
+      "id": "f217299237f3",
+      "title": "NAIC, Transport Unions Plan Passenger Accident Insurance Scheme",
+      "date": "2026-08-01",
+      "cat": "General",
+      "summary": "",
+      "source": "dailytrust.com",
+      "link": "https://news.google.com/rss/articles/CBMijgFBVV95cUxQNTdLZ0wyRy1uV0xRMU0wZmNKTnlVZWppYjJ1Wk4wdk5JMGFuRjhFZTZvWU5yTDQwVDJUekxQNV9KOThWb1dFdTlieU5ZOW9WUGgyb0FON2MweXFrWGpsUk02cEpxM2FEQno5RjNjVlozN2RzR3E3QmswcVRGblBlT3o4ellfUGdJWDcxUmp3?oc=5",
       "isNew": true
     },
     {
@@ -239,16 +249,6 @@
       "summary": "",
       "source": "Vanguard News",
       "link": "https://news.google.com/rss/articles/CBMivwFBVV95cUxNLVVUcWpadkJpZUZtVWNQYUtMSVRvdF9CZnNBbXFjSVVOejFEWlg1bXdXOEZ2alJJYXVldkZlY0xRVUZjV2JiWmxsb2ZTQkR3bmdJdV9NUnRQeWxxeEptUXJFUXpNSElMdktYV0ZsWHJMQ1p2V3A1c1BEVnlhSHF1OGJmbkZFam9VRTJSX3dmZEROaFh2NzRfS0pCS1NYSElFbUJkMkVmUXZ0YnVuYlpHY0NxVVI1OTVBXzZYbmtKSdIBvwFBVV95cUxNLVVUcWpadkJpZUZtVWNQYUtMSVRvdF9CZnNBbXFjSVVOejFEWlg1bXdXOEZ2alJJYXVldkZlY0xRVUZjV2JiWmxsb2ZTQkR3bmdJdV9NUnRQeWxxeEptUXJFUXpNSElMdktYV0ZsWHJMQ1p2V3A1c1BEVnlhSHF1OGJmbkZFam9VRTJSX3dmZEROaFh2NzRfS0pCS1NYSElFbUJkMkVmUXZ0YnVuYlpHY0NxVVI1OTVBXzZYbmtKSQ?oc=5",
-      "isNew": true
-    },
-    {
-      "id": "bb18628b78fa",
-      "title": "When even the safest insurance companies aren\u2019t safe - MassMutual",
-      "date": "2026-07-16",
-      "cat": "General",
-      "summary": "",
-      "source": "roddubitsky.substack.com",
-      "link": "https://news.google.com/rss/articles/CBMigAFBVV95cUxPQkdyXy05aEVxb00zbjM2RjB4UXJuVFk1SjlRQW8xNl9NX084NU1Hc1A3WmhFWWtfOU1MT3RkemMzWllKa3I0QmhCYlloRGladHVCUVQ1YVY4bmdZRXJPV2ExTDlIQ3lhREpVR2h2MU40RmY1VkJzUENUa1U5dnBkUg?oc=5",
       "isNew": true
     }
   ],
