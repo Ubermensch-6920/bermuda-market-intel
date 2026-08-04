@@ -1,5 +1,5 @@
 {
-  "updated": "2026-08-04T14:44:08Z",
+  "updated": "2026-08-04T17:07:55Z",
   "naic": [
     {
       "id": "e1919ca40a74",
@@ -27,7 +27,7 @@
       "date": "2026-08-04",
       "cat": "General",
       "summary": "",
-      "source": "businesswire.com",
+      "source": "Business Wire",
       "link": "https://news.google.com/rss/articles/CBMirAFBVV95cUxQUmp4dXpMSFNhdGt4WUxEWEZuajRDMXdRLXIySFlmQXkyczZqbS0yVGpBWUc0VGpja1FabWoyQlczUko1SXJ6YjB1RzFKOUdmTVgzV1hZVDVRQXlIcWNJc0g2QzZjVE96cEgwc1lLNEV1WVB6ZExJMFc1QmdyZF9Kdk1xeTQwampVU3ZkMUVzOU5oODZhWXREVGJKTHVncWg5NHRITHo0UlR2eWJf?oc=5",
       "isNew": true
     },
@@ -47,7 +47,7 @@
       "date": "2026-08-03",
       "cat": "General",
       "summary": "",
-      "source": "InsuranceNewsNet",
+      "source": "insurancenewsnet.com",
       "link": "https://news.google.com/rss/articles/CBMirwFBVV95cUxOQkxaUFNUR1VaUlJCa1phRkMzektNeVA4c3dQUTNEY2J0d2hhRGpVYXJZcUhhcmNuMnpjLUE5STE0eUtKVVRFNExZYlZkYS1WZXZrbm00cjA4NDNzRGRHM3Z3RW1wU1Q0RUdyTWRhT1EyOUp0VGxDSDNLdURhd1FkWTkwVGNVUTMwTXhnaDRKX2hDeHEwdzdtX3R0dm1tLUVVYXZid0FvSHAzU2l3Mkpr?oc=5",
       "isNew": true
     },
@@ -259,7 +259,7 @@
       "date": "2026-07-30",
       "cat": "General",
       "summary": "",
-      "source": "buttondown.com",
+      "source": "Buttondown",
       "link": "https://news.google.com/rss/articles/CBMikgFBVV95cUxQdEFELVpBT0hCcTI2V1lwM1JwVUIza0c4OEtUWmFkVW1nZVRZQzBsaFQyVDJ6ZDU1VGdvUTdWZXNFbUpFRjZYc2N4WFA0ZE1VZlZTQ0ZwXzlTWm9PemxWWFItdm16a3dPZ0FkTXBvYmNqRVg0OWd0RS1hWjNmaFNodDN3cnFnck9rQlgtQU9OM2ljQQ?oc=5",
       "isNew": true
     },
@@ -506,6 +506,16 @@
   ],
   "cayman": [
     {
+      "id": "1b6e78109297",
+      "title": "HK\u2019s Tournament nets record-breaking $190,560 benefiting heart care at Lake Regional Health System",
+      "date": "2026-08-04",
+      "cat": "General",
+      "summary": "",
+      "source": "The Lake Sun",
+      "link": "https://news.google.com/rss/articles/CBMizgFBVV95cUxQVVplZmx6eW41SmJMSUMxc2twMzZORXhfdDhXYXc0Z0tsSXotaEFmTkZWaWJtNTFXVmFoZUxpZk5od2x2bTBaNVpjajIyeWJROUN2OEJzbThkWVlITklMVGFSLWRQSlViUENUTmEwTFA0TnZ4YmZ0eWpjdTdJYk5aWC1Na0l6d1J2Ym4zYmxGRnBQajU3Q3lYeXRKTGlORlNOYngtaVlqRzVFTEh4VXIzSzR4VzE3ZEU4anI3TnpTWjRqWG93ekFLakJTaGszdw?oc=5",
+      "isNew": true
+    },
+    {
       "id": "49edf0d3b54b",
       "title": "In Libreville, CIMA, COSUMAF and AMF\u2011UMOA sign a convention to align their financial regulations",
       "date": "2026-07-29",
@@ -743,16 +753,6 @@
       "summary": "",
       "source": "Reinsurance News",
       "link": "https://news.google.com/rss/articles/CBMiqAFBVV95cUxPTW4zV0tmdURhaEtBcE94djBmQUJWbWVSbXNzZnJOc29HWlhmRUZ5RG5xelZIZDNKQWdNTzIyT2wzbjIyZnd5QWR3Rjd0bXFHTWxDVlBybXUyZElBZjU5c0hiV2FYQ0x4bUxDUVdQWGpxUkUzN3EtUUh2WHIyMWszZ3REdFNld3hBajRROTFvRGp3LXRNblNqa2ROLXp3ZkxXN3VHc0FDSWo?oc=5",
-      "isNew": false
-    },
-    {
-      "id": "d7ac65566691",
-      "title": "CIMA announces senior leadership promotions and new hire",
-      "date": "2026-04-08",
-      "cat": "General",
-      "summary": "",
-      "source": "Cayman Finance",
-      "link": "https://news.google.com/rss/articles/CBMimAFBVV95cUxNa1pxUVNjVy03ZXo3cTRaOWtQd1I0RWhmOGgyS05OSTdxZ3lwNmVrZDh5cWMzZ0plR19wNGFVLU5Rb2Jmc24yakpncGhiaVoxeHhCelRGMndBZ01pS0pXYkZncFVROXJYR3BWTVlMLTVTQnI5ZWtUdklWTWhxOWR6bkdBR1BRc0xtdzZtQVNGZ1RaSXI5czdGVw?oc=5",
       "isNew": false
     }
   ]
