@@ -1,6 +1,16 @@
 {
-  "updated": "2026-08-03T22:22:06Z",
+  "updated": "2026-08-04T03:41:37Z",
   "naic": [
+    {
+      "id": "9601660da9f0",
+      "title": "NAIC, transport unions unveil Passenger Accident Insurance Initiative",
+      "date": "2026-08-03",
+      "cat": "General",
+      "summary": "",
+      "source": "Vanguard News",
+      "link": "https://news.google.com/rss/articles/CBMirgFBVV95cUxOaVNzX0MxQi15dlNMUE5EU25wTUlFVUdIY0NkRDllZk4wX2h4TnBkdHM1Qlh3Z3BNdHA2NTBuaEVxNWl2VFgyTTZpb3gyeGdJZlFJUWt3cVItMVNXZV85N1RxaWZLa3RnR3JZdnpObGZRUXE2Ti0yc2dfQThRcGlLcDdsd3FISVVZSlY1aTJoWUtJRzdrM1lIS2ZsYWdhUDY2Y042NXhXNVlNeE9kN1HSAa4BQVVfeXFMTmlTc19DMUIteXZTTFBORFNucE1JRVVHSGNDZEQ5ZWZOMF9oeE5wZHRzNUJYd2dwTXRwNjUwbmhFcTVpdlRYMk02aW94MnhnSWZRSVFrd3FSLTFTV2VfOTdUcWlmS2t0Z0dyWXZ6TmxmUVFxNk4tMnNnX0E4UXBpS3A3bHdxSElVWUpWNWkyaFlLSUc3azNZSEtmbGFnYVA2NmNONjV4VzVZTXhPZDdR?oc=5",
+      "isNew": true
+    },
     {
       "id": "3d37e3589ba5",
       "title": "NAIC regulators begin consensus phase on annuity illustration overhaul",
@@ -240,16 +250,6 @@
       "source": "InsuranceNewsNet",
       "link": "https://news.google.com/rss/articles/CBMipAFBVV95cUxQRDg4VTMtX2dXaTlabTJSVGN1eHFpdVdHQThGdEQ0emdzdC1mbXVHN2NIWF9IZ1hyaHc1a3BrbC1BRUJ5MVp2V1IyX09peWFtQU0tS3owWUdNcUwxYTdMYzgwODMtTnRWWld0eTlYRFNBQ2ExZFZnLUREUi1ndHRzR0NucXk4MVlvd1lqU2dwNlhRTzdDa0xkajJhejFiNkFhWkcxQQ?oc=5",
       "isNew": true
-    },
-    {
-      "id": "75c5006115ac",
-      "title": "AI agents are easy to deploy. That\u2019s the problem.",
-      "date": "2026-07-13",
-      "cat": "Governance",
-      "summary": "",
-      "source": "Crain's Cleveland",
-      "link": "https://news.google.com/rss/articles/CBMirgFBVV95cUxOTlNuM201UTg5U1BfVzg5VncyOWtlbEVYRWs0dVRDcEYyREdVRmphZld1RUdsVlJVWjViRFBSYUhLVDlSU0oxZ0ZvUWZPWXk2cFRUNzdiUi13Z2lMa05kQi1BVjZIb3N0NTdEM3BJMGtUWk1wdGZubE5XbXdPaWk5S1FYYjF0b3VnSC1VNURwV2wyUkJRRllmbkIxQ0dTcWFrQlVqRW4zbWdmS3piU2c?oc=5",
-      "isNew": true
     }
   ],
   "bma": [
@@ -269,7 +269,7 @@
       "date": "2026-07-24",
       "cat": "General",
       "summary": "",
-      "source": "iclg.com",
+      "source": "ICLG",
       "link": "https://news.google.com/rss/articles/CBMikwFBVV95cUxOeU9lWEthLWh1aG1Dd0FEdHczYU84d19KWTNUbU1MM0haQUpqcFJzN2xTZ0FxUTlWX3U4UFhrV0pmR2E3SlhYOGQxWVlncXRuMFMwUXFnQjVjUFFiQ0NiZTFzYUpnYk5aVldqMy1YSnpNNFBNY0tqTnEyT1F2anNFQUtVV1h3anYxWk12Z0lGcGU4MzA?oc=5",
       "isNew": true
     },
@@ -621,7 +621,7 @@
       "date": "2026-07-01",
       "cat": "Governance",
       "summary": "",
-      "source": "Cayman Compass",
+      "source": "caymancompass.com",
       "link": "https://news.google.com/rss/articles/CBMirgFBVV95cUxOVWdmX3c0N2F6UHZTRld2S1Z1dHVibHF6NV9VbkMtVWx2ZWVrb0ZabVpLcjRGemFmOWZxSTNWY2hNVjRvcXJjTG9CUW9jNGIydDlQTG1EeDZkaUVCY1I5S3pmazNQWi04MVdYR29OQ0trajcySWxSaUR5NEFLR1ducVJvUGNOQmNZUkE2NHdIUjFqZUhRZzQ1blcybzlieEw2YS15R0VCWTVrd0h4NUE?oc=5",
       "isNew": false
     },
@@ -681,7 +681,7 @@
       "date": "2026-06-11",
       "cat": "Licensing",
       "summary": "",
-      "source": "Cayman Compass",
+      "source": "caymancompass.com",
       "link": "https://news.google.com/rss/articles/CBMid0FVX3lxTE5HS2pISXFHV2hHSG15NDJxbjRTSnNjMjVFelN6dDVTOERreERUUENJbUdpNG9BTy1zWXFiTnNKQ3pfZU80RERuVWVVN0diajRNVEtCbi1aMTZrZHhOQVdxRUxFVjRBU2UxN3A4bWd5MnBRUGc5dHNv?oc=5",
       "isNew": false
     },
