@@ -1,5 +1,5 @@
 {
-  "updated": "2026-08-04T03:41:37Z",
+  "updated": "2026-08-04T09:12:27Z",
   "topics": [
     "Insurance AM",
     "Private Credit",
@@ -7,6 +7,26 @@
     "Structured Credit"
   ],
   "items": [
+    {
+      "id": "19bb1913dbcc",
+      "title": "Research Exchange: July 2026",
+      "source": "bpi.com",
+      "date": "2026-08-03T20:46:05Z",
+      "topic": "Private Credit",
+      "summary": "",
+      "link": "https://news.google.com/rss/articles/CBMiV0FVX3lxTE5TcTNUaTg3UDZuYk9KM0NkVnFvM0FUMXhvSlBxaEl1NllfS0ZHd2RJZU9LS3d1dGFwZ1Rockk0UFhBMGo3Yk9hMXd1R3MzSFlTX2poZkNzUQ?oc=5",
+      "isNew": false
+    },
+    {
+      "id": "6cf8d290c512",
+      "title": "Loan Note: Goldman Sachs\u2019 key Asia move; Neuberger aerospace initiative",
+      "source": "Private Debt Investor",
+      "date": "2026-08-03T12:40:39Z",
+      "topic": "Private Credit",
+      "summary": "",
+      "link": "https://news.google.com/rss/articles/CBMiqAFBVV95cUxOQU5yRGcwR3FlTS1NZXp1eHVQVlRIbHQxUThRNXZwZ1dHVGgzZjFWR24wYTZqT0tpTEdXRmoxLWdZQUxqcjVEM3RjMmttRXFySlJlWUpJUXBLZEdOLWxyVHdubXdfdWlWemdXSzl1cGpNdXlkQVB3cXg1czJpLUFoYldTVVp0THRES2NMU2NocFNscFVrelhkRXRNc0Q4TjNvYzQ3a1BLbFM?oc=5",
+      "isNew": false
+    },
     {
       "id": "0840f0f6f554",
       "title": "Private credit has dodged public scrutiny for too long \u2014 and regulators need to step in",
@@ -70,7 +90,7 @@
     {
       "id": "9aef4c4cfbf5",
       "title": "US borrowing costs hit 19-year high as Fed holds interest rates",
-      "source": "The Guardian",
+      "source": "theguardian.com",
       "date": "2026-07-31T01:30:00Z",
       "topic": "Rates & Macro",
       "summary": "",
@@ -140,7 +160,7 @@
     {
       "id": "3504acd80371",
       "title": "Duration Is Not a Defense - I",
-      "source": "contrarianunicus.substack.com",
+      "source": "Substack",
       "date": "2026-07-30T16:10:46Z",
       "topic": "Private Credit",
       "summary": "",
@@ -150,7 +170,7 @@
     {
       "id": "0fefaaf95f52",
       "title": "Duration Is Not a Defense - I",
-      "source": "contrarianunicus.substack.com",
+      "source": "Substack",
       "date": "2026-07-30T16:10:46Z",
       "topic": "Structured Credit",
       "summary": "",
@@ -260,7 +280,7 @@
     {
       "id": "8563b91d6715",
       "title": "The bond market to Kevin Warsh: What are you doing about inflation?",
-      "source": "cnn.com",
+      "source": "CNN",
       "date": "2026-07-29T22:40:04Z",
       "topic": "Rates & Macro",
       "summary": "",
@@ -285,26 +305,6 @@
       "topic": "Rates & Macro",
       "summary": "",
       "link": "https://news.google.com/rss/articles/CBMiqgFBVV95cUxNS1NXX3hoSncwTlZxblhWRlFJcWJScDZGUWJvSHZpa21MWmtfV2ZOQll3R05QM09GLXpOTnlCSmtZZmlpTGR6R2Q0RHQ4bWRFYk9FX0s4ZFhTdzFWOTlSejVNQnhoMlZJQ1hsaFE4cEVHcWNTcHdpYzlReTlhcmRSZ3VWRHRId0JSVUtacm5iX1ROWWxvYWFKSldpTWlzY3pJUUhRbXhHU2RsUQ?oc=5",
-      "isNew": false
-    },
-    {
-      "id": "79c2149aeb32",
-      "title": "US borrowing costs hit 19-year high as Federal Reserve defies inflation fears",
-      "source": "Financial Times",
-      "date": "2026-07-29T21:01:56Z",
-      "topic": "Rates & Macro",
-      "summary": "",
-      "link": "https://news.google.com/rss/articles/CBMihAFBVV95cUxQNWlwWE1SVGJMZDJtQ2d4emRtWmtPdExyZnRtWGI5cWdfT2d2NXFmenRpWGFEdE9UTTVTVGRfMmFnX044YTk0Uk5oMlloV3NVUGljd0tueHVFbkhoMVhXT3p0dHFlZkk4VXREaHVnSm5IbDJNcTZYb0hGQ09JZXRBTEdWWDI?oc=5",
-      "isNew": false
-    },
-    {
-      "id": "adc89b6c4734",
-      "title": "Warsh vows not to 'waver' on inflation as divided Fed leaves rates unchanged",
-      "source": "reuters.com",
-      "date": "2026-07-29T21:00:56Z",
-      "topic": "Rates & Macro",
-      "summary": "",
-      "link": "https://news.google.com/rss/articles/CBMiugFBVV95cUxPMWE0UWlwemdYNE5CaEZPSVBqZVNuSmlVSmIxWHV6R1hXa3lua1RReGpYaTEtZGttNzZoTU1XT3VGbjZWUmxFSWxnN21mMGlHVW1fazREOXdRZVk1ek9ya1JVMVNWM0NoVEVzRHY2bWJSYy1JRUtrNElLb3BPSjJzNm9wWmpmYTU3OXRIQ0E1dG82TkU2emF4QVoxTEJJU01ydzF5cHZHRVlnbGp6T3JESUtzV0ZZYjZUc2c?oc=5",
       "isNew": false
     }
   ]

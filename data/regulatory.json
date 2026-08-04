@@ -1,6 +1,26 @@
 {
-  "updated": "2026-08-04T03:41:37Z",
+  "updated": "2026-08-04T09:12:27Z",
   "naic": [
+    {
+      "id": "e1919ca40a74",
+      "title": "Proud to host NAIC Summer National Meeting",
+      "date": "2026-08-04",
+      "cat": "General",
+      "summary": "",
+      "source": "dailyadvocate.com",
+      "link": "https://news.google.com/rss/articles/CBMijAFBVV95cUxNTkt3NXhMNEdSOTNYTWNLTFB4emI4b0ZabENtZ1V3VUNZcUVPTlh3LV84ckRDbTRyOTZ5QVByYXBNemNQTkt4V0NyWG42Q25xVmVwbDFuWjhSZUNIZHRubklLWjk1XzFSQWdwRlBYeE1MMlp5ZzEtQmpaZ0d3dklKaU9DOVhMWUFLWEd3eQ?oc=5",
+      "isNew": true
+    },
+    {
+      "id": "8a063d100b76",
+      "title": "NAIC, transport unions launch Passenger Accident Insurance Initiative",
+      "date": "2026-08-04",
+      "cat": "General",
+      "summary": "",
+      "source": "The Sun Nigeria",
+      "link": "https://news.google.com/rss/articles/CBMilgFBVV95cUxNUnE0VURVVE9PbEt6RXBBRnlxa0thRXc2ZjJseWd2clU5MjZhUlVJOHlxaThKNU9ONFFqQkY1dG1HM0c1VFZmbmtiRkhCLUZ3eGwwekJ2STAwTEhUUnRPWnNlVGdVblREMlhOaVYtQk5hTE9LX3dQY1BwTkZTWmptN0FhZWZoYnhaWThtS2c4SnJubVpKUHfSAZYBQVVfeXFMTVJxNFVEVVRPT2xLekVwQUZ5cWtLYUV3NmYybHlndnJVOTI2YVJVSTh5cWk4SjVPTjRRakJGNXRtRzNHNVRWZm5rYkZIQi1Gd3hsMHpCdkkwMExIVFJ0T1pzZVRnVW5URDJYTmlWLUJOYUxPS193UGNQcE5GU1pqbTdBYWVmaGJ4Wlk4bUtnOEpybm1aSlB3?oc=5",
+      "isNew": true
+    },
     {
       "id": "9601660da9f0",
       "title": "NAIC, transport unions unveil Passenger Accident Insurance Initiative",
@@ -29,6 +49,16 @@
       "summary": "",
       "source": "Financial Times",
       "link": "https://news.google.com/rss/articles/CBMihAFBVV95cUxOVHhvNnFjS3NNQUR1TlgwZ3k0YUV1SzZWdE14ZHBLYk9ucmFGQ1A2TjFSWW5LcUtmd3c4andwdWFQQy02ZXBzdUROSGVBeEhKcU9VZno2dkdXVkxuNFU0ckVqTjBZS25nZFQ1d3hwVHpRMW5kQ1dxQ21TVzd4WEN1QWtEazA?oc=5",
+      "isNew": true
+    },
+    {
+      "id": "f22fc3aea19b",
+      "title": "NAIC, Transport Unions Plan Passenger Accident Insurance Scheme for Nigerian Commuters",
+      "date": "2026-07-30",
+      "cat": "General",
+      "summary": "",
+      "source": "Legit.ng",
+      "link": "https://news.google.com/rss/articles/CBMiwAFBVV95cUxQeHViZlNjQm9jcmVuRGJmSlI0S0hmYmRvLWtZSjhhcEM4WVlCSmdMSFREVVRmYTFuakFDXzNuMEVfVS1xT09YR2ZnVjhjVV83bkFiaHZnQzdmcTk2WC1rTldDQ0hyTHdaTm5LZ2NDVXNJWGhvX25ZQ1EtXzdWc0xpanBzRHJtN0dyRHZqQmJ6NFZQcWM5OWF1VGRjaV9wTGFZSmFfeUwzd2F0XzFwVlV2dkFtb3BZUVhYWG03X0FhZUE?oc=5",
       "isNew": true
     },
     {
@@ -192,6 +222,16 @@
       "isNew": true
     },
     {
+      "id": "f97f1cce6083",
+      "title": "NAIC, NAICOM unite to boost Tinubu\u2019s agricultural agenda, food security",
+      "date": "2026-07-17",
+      "cat": "General",
+      "summary": "",
+      "source": "Blueprint Newspapers",
+      "link": "https://news.google.com/rss/articles/CBMilAFBVV95cUxNT3Q2UDlacmFvbHlkQ09EUXFicFZDVHV6MzdKdEtsc0h5b0dyY25kM21LVzJmcld0QmJITTF4bDU3bFB2Z0FVcHAxbTBmLS1ncmNUODFFSzFMOHRUU05jMEtKemsxMGFKTE5RcTAwVWMydXpvSkVoZlZqelNlU2VGSEVqMDZWNUx2cm9FbmtaUGN2aFY4?oc=5",
+      "isNew": true
+    },
+    {
       "id": "5563a5c172ef",
       "title": "NAIC, NAICOM to boost Tinubu\u2019s agricultural agenda, farmers\u2019 confidence, food security",
       "date": "2026-07-17",
@@ -209,46 +249,6 @@
       "summary": "",
       "source": "roddubitsky.substack.com",
       "link": "https://news.google.com/rss/articles/CBMigAFBVV95cUxPQkdyXy05aEVxb00zbjM2RjB4UXJuVFk1SjlRQW8xNl9NX084NU1Hc1A3WmhFWWtfOU1MT3RkemMzWllKa3I0QmhCYlloRGladHVCUVQ1YVY4bmdZRXJPV2ExTDlIQ3lhREpVR2h2MU40RmY1VkJzUENUa1U5dnBkUg?oc=5",
-      "isNew": true
-    },
-    {
-      "id": "7221ee7f0ce8",
-      "title": "When even the safest insurance companies aren\u2019t safe - MassMutual",
-      "date": "2026-07-16",
-      "cat": "General",
-      "summary": "",
-      "source": "roddubitsky.substack.com",
-      "link": "https://news.google.com/rss/articles/CBMigAFBVV95cUxPQkdyXy05aEVxb00zbjM2RjB4UXJuVFk1SjlRQW8xNl9NX084NU1Hc1A3WmhFWWtfOU1MT3RkemMzWllKa3I0QmhCYlloRGladHVCUVQ1YVY4bmdZRXJPV2ExTDlIQ3lhREpVR2h2MU40RmY1VkJzUENUa1U5dnBkUg?oc=5",
-      "isNew": true
-    },
-    {
-      "id": "4d062861f6db",
-      "title": "CIRCA rejects Apollo claims over Cayman's reinsurance standards",
-      "date": "2026-07-14",
-      "cat": "General",
-      "summary": "",
-      "source": "Insurance Business",
-      "link": "https://news.google.com/rss/articles/CBMi2gFBVV95cUxOWEI0T3hNdnh5M0U2ekhDYWJRRnplN3g1ZDVheG9NRUZwR2lxUjJaVDhLSkFGdjRWWENGRkJVVjJwQ0FMY05KenJha1JHZkd3em0wczVrOXFYbks4UGxfQUg0NDJQUVlQQ0hVOFNGWmsyMXM5NFlTV3F2YmlxbWQ3alZDcHQ1ajktRUhnTkdNX3Bia1dON3RVSGdqa1I1ZzNlWnNCX0Y5VU5SR2lpanlhSjRvc1pWUFlHN3FxbkZtM0NUVXc5NlRlWHAtTUoxX3lTTEdiYUpDTnZTUQ?oc=5",
-      "isNew": true
-    },
-    {
-      "id": "3d636c9868a5",
-      "title": "CIRCA rejects Apollo claims over Cayman's reinsurance standards",
-      "date": "2026-07-14",
-      "cat": "General",
-      "summary": "",
-      "source": "Insurance Business",
-      "link": "https://news.google.com/rss/articles/CBMi2gFBVV95cUxOWEI0T3hNdnh5M0U2ekhDYWJRRnplN3g1ZDVheG9NRUZwR2lxUjJaVDhLSkFGdjRWWENGRkJVVjJwQ0FMY05KenJha1JHZkd3em0wczVrOXFYbks4UGxfQUg0NDJQUVlQQ0hVOFNGWmsyMXM5NFlTV3F2YmlxbWQ3alZDcHQ1ajktRUhnTkdNX3Bia1dON3RVSGdqa1I1ZzNlWnNCX0Y5VU5SR2lpanlhSjRvc1pWUFlHN3FxbkZtM0NUVXc5NlRlWHAtTUoxX3lTTEdiYUpDTnZTUQ?oc=5",
-      "isNew": true
-    },
-    {
-      "id": "58b23b0469ce",
-      "title": "AI\u2019s dual reality: Efficiency for insurers, disruption for agents",
-      "date": "2026-07-13",
-      "cat": "General",
-      "summary": "",
-      "source": "InsuranceNewsNet",
-      "link": "https://news.google.com/rss/articles/CBMipAFBVV95cUxQRDg4VTMtX2dXaTlabTJSVGN1eHFpdVdHQThGdEQ0emdzdC1mbXVHN2NIWF9IZ1hyaHc1a3BrbC1BRUJ5MVp2V1IyX09peWFtQU0tS3owWUdNcUwxYTdMYzgwODMtTnRWWld0eTlYRFNBQ2ExZFZnLUREUi1ndHRzR0NucXk4MVlvd1lqU2dwNlhRTzdDa0xkajJhejFiNkFhWkcxQQ?oc=5",
       "isNew": true
     }
   ],
@@ -299,7 +299,7 @@
       "date": "2026-07-23",
       "cat": "General",
       "summary": "",
-      "source": "Intelligent Insurer",
+      "source": "intelligentinsurer.com",
       "link": "https://news.google.com/rss/articles/CBMiqAFBVV95cUxPOXB1QTRBMWJFMnlNc21aVTJ6VXVHNEVNUU5ZbjVUdTVCdDc3LXBmNHROUVlNQTJkTVZLTElUTmtYdjV2S2tQTEY1VnJWNUJ2Yk12QllaNTRQa2hPakRBVE9nbWpsMnBCaW5QRm1NdWlRTi1tME5kaU1oR1RsZHJGaVhOTTdxa01MNzJoemc2VG90WWQzNHdicU9TWk4tV01lWmc1NXZGYzU?oc=5",
       "isNew": true
     },
@@ -621,7 +621,7 @@
       "date": "2026-07-01",
       "cat": "Governance",
       "summary": "",
-      "source": "caymancompass.com",
+      "source": "Cayman Compass",
       "link": "https://news.google.com/rss/articles/CBMirgFBVV95cUxOVWdmX3c0N2F6UHZTRld2S1Z1dHVibHF6NV9VbkMtVWx2ZWVrb0ZabVpLcjRGemFmOWZxSTNWY2hNVjRvcXJjTG9CUW9jNGIydDlQTG1EeDZkaUVCY1I5S3pmazNQWi04MVdYR29OQ0trajcySWxSaUR5NEFLR1ducVJvUGNOQmNZUkE2NHdIUjFqZUhRZzQ1blcybzlieEw2YS15R0VCWTVrd0h4NUE?oc=5",
       "isNew": false
     },
@@ -681,7 +681,7 @@
       "date": "2026-06-11",
       "cat": "Licensing",
       "summary": "",
-      "source": "caymancompass.com",
+      "source": "Cayman Compass",
       "link": "https://news.google.com/rss/articles/CBMid0FVX3lxTE5HS2pISXFHV2hHSG15NDJxbjRTSnNjMjVFelN6dDVTOERreERUUENJbUdpNG9BTy1zWXFiTnNKQ3pfZU80RERuVWVVN0diajRNVEtCbi1aMTZrZHhOQVdxRUxFVjRBU2UxN3A4bWd5MnBRUGc5dHNv?oc=5",
       "isNew": false
     },
