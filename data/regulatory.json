@@ -1,5 +1,5 @@
 {
-  "updated": "2026-08-04T22:34:51Z",
+  "updated": "2026-08-05T03:37:20Z",
   "naic": [
     {
       "id": "e1919ca40a74",
@@ -58,7 +58,7 @@
       "cat": "General",
       "summary": "",
       "source": "Daily Trust",
-      "link": "https://news.google.com/rss/articles/CBMijgFBVV95cUxQNTdLZ0wyRy1uV0xRMU0wZmNKTnlVZWppYjJ1Wk4wdk5JMGFuRjhFZTZvWU5yTDQwVDJUekxQNV9KOThWb1dFdTlieU5ZOW9WUGgyb0FON2MweXFrWGpsUk02cEpxM2FEQno5RjNjVlozN2RzR3E3QmswcVRGblBlT3o4ellfUGdJWDcxUmp3?oc=5",
+      "link": "https://news.google.com/rss/articles/CBMijwFBVV95cUxNbUhRV3JrMFdNTlVDamNQYlRlS0xGc0dBdzZqVGJuX3hyZkhueTNWR0dpYzFvTGl6NndPdHUtUVZEZ3VEMmxqWHpvY0UzT2xFWWtyUmM2X3FobWlHQkxUeVRwMlhBMTFoRDE3Z2VTQ3MtcWwzRlZBTHRNUGU5Y085WjZyYm5XLUtNS2U5d3FtWQ?oc=5",
       "isNew": true
     },
     {
@@ -77,7 +77,7 @@
       "date": "2026-07-30",
       "cat": "General",
       "summary": "",
-      "source": "legit.ng",
+      "source": "Legit.ng",
       "link": "https://news.google.com/rss/articles/CBMiwAFBVV95cUxQeHViZlNjQm9jcmVuRGJmSlI0S0hmYmRvLWtZSjhhcEM4WVlCSmdMSFREVVRmYTFuakFDXzNuMEVfVS1xT09YR2ZnVjhjVV83bkFiaHZnQzdmcTk2WC1rTldDQ0hyTHdaTm5LZ2NDVXNJWGhvX25ZQ1EtXzdWc0xpanBzRHJtN0dyRHZqQmJ6NFZQcWM5OWF1VGRjaV9wTGFZSmFfeUwzd2F0XzFwVlV2dkFtb3BZUVhYWG03X0FhZUE?oc=5",
       "isNew": true
     },
@@ -261,16 +261,6 @@
       "summary": "",
       "source": "Buttondown",
       "link": "https://news.google.com/rss/articles/CBMikgFBVV95cUxQdEFELVpBT0hCcTI2V1lwM1JwVUIza0c4OEtUWmFkVW1nZVRZQzBsaFQyVDJ6ZDU1VGdvUTdWZXNFbUpFRjZYc2N4WFA0ZE1VZlZTQ0ZwXzlTWm9PemxWWFItdm16a3dPZ0FkTXBvYmNqRVg0OWd0RS1hWjNmaFNodDN3cnFnck9rQlgtQU9OM2ljQQ?oc=5",
-      "isNew": true
-    },
-    {
-      "id": "65bc1b54bb8d",
-      "title": "Bermuda - Lending & Secured Finance Laws and Regulations 2026",
-      "date": "2026-07-24",
-      "cat": "General",
-      "summary": "",
-      "source": "ICLG",
-      "link": "https://news.google.com/rss/articles/CBMikwFBVV95cUxOeU9lWEthLWh1aG1Dd0FEdHczYU84d19KWTNUbU1MM0haQUpqcFJzN2xTZ0FxUTlWX3U4UFhrV0pmR2E3SlhYOGQxWVlncXRuMFMwUXFnQjVjUFFiQ0NiZTFzYUpnYk5aVldqMy1YSnpNNFBNY0tqTnEyT1F2anNFQUtVV1h3anYxWk12Z0lGcGU4MzA?oc=5",
       "isNew": true
     },
     {
@@ -502,6 +492,16 @@
       "source": "Bernews",
       "link": "https://news.google.com/rss/articles/CBMibEFVX3lxTE1ndUMwb19HYU9HOFA4emVfelZra0FLbmZabXVwaHRtZ211SFJ2M3J0WnpDWi1Wb1dlTU1sdHNaR3M3aTJlMC1VUDJPNkthX0x4WmpQcUQwRi1EemsxVjM5UEJvTzByUDJ3cTdTdw?oc=5",
       "isNew": false
+    },
+    {
+      "id": "65bc1b54bb8d",
+      "title": "Bermuda - Lending & Secured Finance Laws and Regulations 2026",
+      "date": "2026-07-01",
+      "cat": "General",
+      "summary": "",
+      "source": "ICLG",
+      "link": "https://news.google.com/rss/articles/CBMikwFBVV95cUxOeU9lWEthLWh1aG1Dd0FEdHczYU84d19KWTNUbU1MM0haQUpqcFJzN2xTZ0FxUTlWX3U4UFhrV0pmR2E3SlhYOGQxWVlncXRuMFMwUXFnQjVjUFFiQ0NiZTFzYUpnYk5aVldqMy1YSnpNNFBNY0tqTnEyT1F2anNFQUtVV1h3anYxWk12Z0lGcGU4MzA?oc=5",
+      "isNew": false
     }
   ],
   "cayman": [
@@ -561,7 +561,7 @@
       "date": "2026-07-16",
       "cat": "General",
       "summary": "",
-      "source": "Financial Afrik",
+      "source": "financialafrik.com",
       "link": "https://news.google.com/rss/articles/CBMizgFBVV95cUxOVTRlSmxPcEllUGxLUndNbkRyN19qN2d3YWF4MGxFZlNjMVY2eVE3TlVGWF9lMlVNU0lKMVI3dHZ6dXBfbWRlMlQ2RjNjb0ZSXzU4SDZLV3lqU29sQk4xdDdYcE92VVpOY0pzaTJMZ21tMDV3a1FyWDRCeDBlZXJwc21RYVVXdWlXVk9PVkdNYWZqOV9UZERvdUF1TENQd2tYOVdQaGxyS2pVXy0xbVNYTEhGaDJVZHY2cDYzNTBjZG1PVFBUUUlnV0s0QXBLQQ?oc=5",
       "isNew": true
     },
@@ -631,7 +631,7 @@
       "date": "2026-07-01",
       "cat": "Governance",
       "summary": "",
-      "source": "Cayman Compass",
+      "source": "caymancompass.com",
       "link": "https://news.google.com/rss/articles/CBMirgFBVV95cUxOVWdmX3c0N2F6UHZTRld2S1Z1dHVibHF6NV9VbkMtVWx2ZWVrb0ZabVpLcjRGemFmOWZxSTNWY2hNVjRvcXJjTG9CUW9jNGIydDlQTG1EeDZkaUVCY1I5S3pmazNQWi04MVdYR29OQ0trajcySWxSaUR5NEFLR1ducVJvUGNOQmNZUkE2NHdIUjFqZUhRZzQ1blcybzlieEw2YS15R0VCWTVrd0h4NUE?oc=5",
       "isNew": false
     },
@@ -691,7 +691,7 @@
       "date": "2026-06-11",
       "cat": "Licensing",
       "summary": "",
-      "source": "Cayman Compass",
+      "source": "caymancompass.com",
       "link": "https://news.google.com/rss/articles/CBMid0FVX3lxTE5HS2pISXFHV2hHSG15NDJxbjRTSnNjMjVFelN6dDVTOERreERUUENJbUdpNG9BTy1zWXFiTnNKQ3pfZU80RERuVWVVN0diajRNVEtCbi1aMTZrZHhOQVdxRUxFVjRBU2UxN3A4bWd5MnBRUGc5dHNv?oc=5",
       "isNew": false
     },
