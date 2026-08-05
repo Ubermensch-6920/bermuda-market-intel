@@ -1,5 +1,5 @@
 {
-  "updated": "2026-08-05T09:09:56Z",
+  "updated": "2026-08-05T11:34:03Z",
   "topics": [
     "Insurance AM",
     "Private Credit",
@@ -7,6 +7,16 @@
     "Structured Credit"
   ],
   "items": [
+    {
+      "id": "16824d59a45f",
+      "title": "Allianz to Buy UOB Asset Management Unit as CEO Targets Asia",
+      "source": "Insurance Journal",
+      "date": "2026-08-05T09:06:04Z",
+      "topic": "Insurance AM",
+      "summary": "",
+      "link": "https://news.google.com/rss/articles/CBMifkFVX3lxTFB0Q3VZYVd2QXBVeG0zWXZCZWVvN0VHN0Y2S1dLZ1lhaUNTV1VyMXU3UnUzNlpDajRTSHpCbG84VzJNOHhWZGNNc3ZkRGc1eWRTbkttMFo1dWpzb1o5MVAxV2JocTZIb3pLVEl6MWdtNDlaaUNPU2UyMEFWT1dwUQ?oc=5",
+      "isNew": false
+    },
     {
       "id": "ce7974788508",
       "title": "Apollo debt deal fees and insurance earnings rise, asset sales drag",
@@ -80,7 +90,7 @@
     {
       "id": "1611755c0c68",
       "title": "Opinion: Private credit has a ratings problem and regulators need to step in",
-      "source": "MarketWatch",
+      "source": "marketwatch.com",
       "date": "2026-08-03T11:00:00Z",
       "topic": "Private Credit",
       "summary": "",
@@ -180,7 +190,7 @@
     {
       "id": "21a580a2081c",
       "title": "Average 30-year U.S. mortgage rate rises to highest level in a year",
-      "source": "pbs.org",
+      "source": "PBS",
       "date": "2026-07-30T18:44:26Z",
       "topic": "Rates & Macro",
       "summary": "",
@@ -290,21 +300,11 @@
     {
       "id": "3608b69d1a9e",
       "title": "A divided Fed holds interest rates steady despite stubborn inflation",
-      "source": "washingtonpost.com",
+      "source": "The Washington Post",
       "date": "2026-07-30T04:59:01Z",
       "topic": "Rates & Macro",
       "summary": "",
       "link": "https://news.google.com/rss/articles/CBMipwFBVV95cUxQRGc4clFvdXhTQk1TMW1fdzBfc2hSYU5GWlNRTXg2N3ZjdC1BdDM5azhUTV92elNvdU9xLUptemxYbVpEMjJONTFZdFJ4eUJxcVpqd3cxR0poeFo5YWhOUzNEeHNQU1pQVEtOVGhvblJlLVlhTHJuUlZGMkdRNlREXzVQWTZQX0FGNEl1cy1WNE02a2FOUGRjVDV4Q3RFVUwzSnFxLVNPTQ?oc=5",
-      "isNew": false
-    },
-    {
-      "id": "caca275cfe03",
-      "title": "Morning Bid: Bond markets doing the Fed's work",
-      "source": "Reuters",
-      "date": "2026-07-30T04:50:00Z",
-      "topic": "Rates & Macro",
-      "summary": "",
-      "link": "https://news.google.com/rss/articles/CBMif0FVX3lxTE1MSnR0SXh5RHBnNUFreDNWclVETTZ4aDE5ZEo5S3V6WnJ4ODk0NE9LYUMyRVhhTUFLSEVtNEhNQ0FQUVF0Z1ozUUNtMGMtdkR2SDNDaVlxWHoyUFlVcTU2OHc1b0l1dmY1VXhOemdWb2tCR0g1X0JQMXBEeF94Smc?oc=5",
       "isNew": false
     }
   ]
