@@ -1,5 +1,5 @@
 {
-  "updated": "2026-08-05T16:57:26Z",
+  "updated": "2026-08-05T19:59:33Z",
   "topics": [
     "Insurance AM",
     "Private Credit",
@@ -30,7 +30,7 @@
     {
       "id": "ebf2a8caf749",
       "title": "Central Banks Hold Rates, Sparking Wealth Manager Reactions",
-      "source": "Family Wealth Report",
+      "source": "familywealthreport.com",
       "date": "2026-08-04T11:53:34Z",
       "topic": "Rates & Macro",
       "summary": "",
@@ -40,7 +40,7 @@
     {
       "id": "b5df47f7754f",
       "title": "European insurers prioritising infrastructure debt and structured credit amid Solvency II changes: Novantigo",
-      "source": "reinsurancene.ws",
+      "source": "Reinsurance News",
       "date": "2026-08-04T10:33:27Z",
       "topic": "Structured Credit",
       "summary": "",
@@ -70,7 +70,7 @@
     {
       "id": "6cf8d290c512",
       "title": "Loan Note: Goldman Sachs\u2019 key Asia move; Neuberger aerospace initiative",
-      "source": "Private Debt Investor",
+      "source": "privatedebtinvestor.com",
       "date": "2026-08-03T12:40:39Z",
       "topic": "Private Credit",
       "summary": "",
@@ -130,7 +130,7 @@
     {
       "id": "189b035d882d",
       "title": "Treasury yields follow oil prices higher as Fed officials say rate hikes are needed",
-      "source": "CNBC",
+      "source": "cnbc.com",
       "date": "2026-07-31T07:05:51Z",
       "topic": "Rates & Macro",
       "summary": "",
@@ -150,7 +150,7 @@
     {
       "id": "9aef4c4cfbf5",
       "title": "US borrowing costs hit 19-year high as Fed holds interest rates",
-      "source": "theguardian.com",
+      "source": "The Guardian",
       "date": "2026-07-31T01:30:00Z",
       "topic": "Rates & Macro",
       "summary": "",
