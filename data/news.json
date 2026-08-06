@@ -1,5 +1,5 @@
 {
-  "updated": "2026-08-06T09:10:32Z",
+  "updated": "2026-08-06T11:37:32Z",
   "topics": [
     "Insurance AM",
     "Private Credit",
@@ -7,6 +7,16 @@
     "Structured Credit"
   ],
   "items": [
+    {
+      "id": "48810963de45",
+      "title": "Delay, Deny, Defend, and Private Credit- II",
+      "source": "Substack",
+      "date": "2026-08-06T10:21:56Z",
+      "topic": "Structured Credit",
+      "summary": "",
+      "link": "https://news.google.com/rss/articles/CBMiggFBVV95cUxQWEpkV0M5emZ3R0E3Nm9GUDBidng4YTNycE9hemY4MHpuc0l6ZmdRQU5tX0pmUkhkLUt0RjI1US1sY1JtMnFHa2kyaElFekxMMXItR25tcGZSYWJpOTZZSVZleVFldUFOV0lqTG5MMmlWSGIyTXlfYnkyMnJ5MXR6UlZ3?oc=5",
+      "isNew": false
+    },
     {
       "id": "89884fbe90f5",
       "title": "Correlations turn positive, equity & bonds, risk assets & government bond",
@@ -50,7 +60,7 @@
     {
       "id": "b5df47f7754f",
       "title": "European insurers prioritising infrastructure debt and structured credit amid Solvency II changes: Novantigo",
-      "source": "reinsurancene.ws",
+      "source": "Reinsurance News",
       "date": "2026-08-04T10:33:27Z",
       "topic": "Structured Credit",
       "summary": "",
@@ -110,7 +120,7 @@
     {
       "id": "107b985c83e4",
       "title": "The AI Bailout Could Be Baked Into the AI Bubble",
-      "source": "The American Prospect",
+      "source": "prospect.org",
       "date": "2026-08-03T09:15:00Z",
       "topic": "Private Credit",
       "summary": "",
@@ -240,7 +250,7 @@
     {
       "id": "3504acd80371",
       "title": "Duration Is Not a Defense - I",
-      "source": "contrarianunicus.substack.com",
+      "source": "Substack",
       "date": "2026-07-30T16:10:46Z",
       "topic": "Private Credit",
       "summary": "",
@@ -250,7 +260,7 @@
     {
       "id": "0fefaaf95f52",
       "title": "Duration Is Not a Defense - I",
-      "source": "contrarianunicus.substack.com",
+      "source": "Substack",
       "date": "2026-07-30T16:10:46Z",
       "topic": "Structured Credit",
       "summary": "",
@@ -280,7 +290,7 @@
     {
       "id": "89e0c8559616",
       "title": "Breakingviews - Creating bond chaos is a bad way to hike rates",
-      "source": "Reuters",
+      "source": "reuters.com",
       "date": "2026-07-30T14:49:58Z",
       "topic": "Rates & Macro",
       "summary": "",
@@ -295,16 +305,6 @@
       "topic": "Rates & Macro",
       "summary": "",
       "link": "https://news.google.com/rss/articles/CBMikwFBVV95cUxQdDlXeVJqcjR0Y2xJaWNmX1FOUmhhRXl0czFMNzMtendhekdfcm1JWVpra0pqQmVfWlFRZzFNNTBpQVFtaDVDN09odFc1T01ZNUdvTzZMNFdIbXlQR1I2WTFZdVczVmRFcXJZWDE4VUE2RGQ1YWt3Nl9Fa1l2ZlI3aVA4TkE2ZU16cEpzTk11QndOODA?oc=5",
-      "isNew": false
-    },
-    {
-      "id": "10455d6d7a75",
-      "title": "Is a \u2018Credibility Shock\u2019 the Fed\u2019s Next Challenge?",
-      "source": "The New York Times",
-      "date": "2026-07-30T11:49:42Z",
-      "topic": "Rates & Macro",
-      "summary": "",
-      "link": "https://news.google.com/rss/articles/CBMijgFBVV95cUxPWG1TUXJsRG1pLU5kWi1IbF9nZU1YYlVuSXZVd3BLdHFLOXJfMGVQV0JXUHNnR29RN3dJMFZhamZrbGZNbFRhcjY4UkVSUGg5WnB2dlh2Z3B4a1FqMVMydnpnUzg0dFRTRUxzRnRRVGw0RS1WSVhQcU1qcEpQajhQSkM3VUEyam9fWmhBTGtR?oc=5",
       "isNew": false
     }
   ]
