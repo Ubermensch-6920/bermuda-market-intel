@@ -2307,5 +2307,5 @@
   "note": "Latest available BMA discount-rate workbook plus prior three quarter-end workbooks. Current top-level currencies are the latest quarter. For each currency, 'rates' aliases standard_spot_rates for backward compatibility. STALE: the 2026-06-30 workbook should be published by now but was not found \u2014 bma.bm blocks automated clients. Paste its URL into data/bma_rates_manual.json under known_files.",
   "expected_as_of": "2026-06-30",
   "stale": true,
-  "_fetched": "2026-08-05T22:23:01.775016Z"
+  "_fetched": "2026-08-06T03:39:43.860059Z"
 }

@@ -1,5 +1,5 @@
 {
-  "updated": "2026-08-05T22:25:33Z",
+  "updated": "2026-08-06T03:42:13Z",
   "topics": [
     "Insurance AM",
     "Private Credit",
@@ -8,10 +8,20 @@
   ],
   "items": [
     {
+      "id": "89884fbe90f5",
+      "title": "Correlations turn positive, equity & bonds, risk assets & government bond",
+      "source": "BNY",
+      "date": "2026-08-05T19:39:52Z",
+      "topic": "Rates & Macro",
+      "summary": "",
+      "link": "https://news.google.com/rss/articles/CBMitAFBVV95cUxPV0x2cTVSVHJyeXVqNy1obC1sd1FsclN0M2FzVHlITGZPSEZkVlgwZXJ3bHU4ZmhMalNNcEpZRmFhbGpBX1pMbjRGZGVPZ2JNZ1NEb3FhVVdUT3MtX0NrTDQydmlLclJXWXZrQWRCRk5xT0NvYm55X21EYWR2LThGeFMyVUdWUWRrMmd4aXkwd1liOTU0LXlHQjVLdjhHVWx2RnF4Y1lZM2VCZjlWc2Ria0tDV2c?oc=5",
+      "isNew": false
+    },
+    {
       "id": "16824d59a45f",
       "title": "Allianz to Buy UOB Asset Management Unit as CEO Targets Asia",
       "source": "Insurance Journal",
-      "date": "2026-08-05T09:06:04Z",
+      "date": "2026-08-05T14:22:44Z",
       "topic": "Insurance AM",
       "summary": "",
       "link": "https://news.google.com/rss/articles/CBMifkFVX3lxTFB0Q3VZYVd2QXBVeG0zWXZCZWVvN0VHN0Y2S1dLZ1lhaUNTV1VyMXU3UnUzNlpDajRTSHpCbG84VzJNOHhWZGNNc3ZkRGc1eWRTbkttMFo1dWpzb1o5MVAxV2JocTZIb3pLVEl6MWdtNDlaaUNPU2UyMEFWT1dwUQ?oc=5",
@@ -150,7 +160,7 @@
     {
       "id": "9aef4c4cfbf5",
       "title": "US borrowing costs hit 19-year high as Fed holds interest rates",
-      "source": "The Guardian",
+      "source": "theguardian.com",
       "date": "2026-07-31T01:30:00Z",
       "topic": "Rates & Macro",
       "summary": "",
@@ -190,7 +200,7 @@
     {
       "id": "21a580a2081c",
       "title": "Average 30-year U.S. mortgage rate rises to highest level in a year",
-      "source": "PBS",
+      "source": "pbs.org",
       "date": "2026-07-30T18:44:26Z",
       "topic": "Rates & Macro",
       "summary": "",
@@ -240,7 +250,7 @@
     {
       "id": "69b1a13475ea",
       "title": "Why the bond market is doubting Fed chairman Kevin Warsh",
-      "source": "Axios",
+      "source": "axios.com",
       "date": "2026-07-30T15:59:21Z",
       "topic": "Rates & Macro",
       "summary": "",
@@ -278,6 +288,16 @@
       "isNew": false
     },
     {
+      "id": "10455d6d7a75",
+      "title": "Is a \u2018Credibility Shock\u2019 the Fed\u2019s Next Challenge?",
+      "source": "The New York Times",
+      "date": "2026-07-30T11:49:42Z",
+      "topic": "Rates & Macro",
+      "summary": "",
+      "link": "https://news.google.com/rss/articles/CBMijgFBVV95cUxPWG1TUXJsRG1pLU5kWi1IbF9nZU1YYlVuSXZVd3BLdHFLOXJfMGVQV0JXUHNnR29RN3dJMFZhamZrbGZNbFRhcjY4UkVSUGg5WnB2dlh2Z3B4a1FqMVMydnpnUzg0dFRTRUxzRnRRVGw0RS1WSVhQcU1qcEpQajhQSkM3VUEyam9fWmhBTGtR?oc=5",
+      "isNew": false
+    },
+    {
       "id": "489e2e5871d5",
       "title": "KKR Profit, Revenue Up on Asset Management, Insurance Growth",
       "source": "Moomoo",
@@ -285,26 +305,6 @@
       "topic": "Insurance AM",
       "summary": "",
       "link": "https://news.google.com/rss/articles/CBMiogFBVV95cUxNOGtTV1ozQ0JUODByY3Q2QzJLN2tUTnRoQ0xlTEhOLTBraGNkRWhrWHMyOU91Y2d1VTdJZWhPVUo0SVdvbEJ2YkI5MzRjLUpYOEpqMW9lWFhDUzl2RDlrOFFuSE5YZjJvZk1kNmd3cGl6Q3czVkhGRlVzbFB0NWtaSjVCRWdmRVlNaDltT1djeExSeHpFTXJ0SGx6TndiSlFWd3c?oc=5",
-      "isNew": false
-    },
-    {
-      "id": "3c9e21f82a6c",
-      "title": "U.S. Treasury Yields Soar as Market Struggles to Interpret Fed",
-      "source": "WSJ",
-      "date": "2026-07-30T09:44:00Z",
-      "topic": "Rates & Macro",
-      "summary": "",
-      "link": "https://news.google.com/rss/articles/CBMitAFBVV95cUxQcFNlWTYtaGVZZ0xPcnRHU29aSGlVYW1GY1lfa0dXcE81bFVzZkI0N3pZTHJZU2pSTE5Zb3RsbkVSd2tOTWJOYkdOd19pLUVhZy1vZkVjVWViRmdKdmozeVdiNTFCZ3ctMUFwSDllRlhGLUI4a1h2VHpFMHBSRlpYVjRMbmhwZ2tvdWNLMmdhYl9rSC1UM2lJaUF0TmZsTGZndEZSZHJsYUQ3TFlXbk9UaHk4aFM?oc=5",
-      "isNew": false
-    },
-    {
-      "id": "3608b69d1a9e",
-      "title": "A divided Fed holds interest rates steady despite stubborn inflation",
-      "source": "The Washington Post",
-      "date": "2026-07-30T04:59:01Z",
-      "topic": "Rates & Macro",
-      "summary": "",
-      "link": "https://news.google.com/rss/articles/CBMipwFBVV95cUxQRGc4clFvdXhTQk1TMW1fdzBfc2hSYU5GWlNRTXg2N3ZjdC1BdDM5azhUTV92elNvdU9xLUptemxYbVpEMjJONTFZdFJ4eUJxcVpqd3cxR0poeFo5YWhOUzNEeHNQU1pQVEtOVGhvblJlLVlhTHJuUlZGMkdRNlREXzVQWTZQX0FGNEl1cy1WNE02a2FOUGRjVDV4Q3RFVUwzSnFxLVNPTQ?oc=5",
       "isNew": false
     }
   ]
