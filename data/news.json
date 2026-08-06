@@ -1,5 +1,5 @@
 {
-  "updated": "2026-08-06T03:42:13Z",
+  "updated": "2026-08-06T09:10:32Z",
   "topics": [
     "Insurance AM",
     "Private Credit",
@@ -50,7 +50,7 @@
     {
       "id": "b5df47f7754f",
       "title": "European insurers prioritising infrastructure debt and structured credit amid Solvency II changes: Novantigo",
-      "source": "Reinsurance News",
+      "source": "reinsurancene.ws",
       "date": "2026-08-04T10:33:27Z",
       "topic": "Structured Credit",
       "summary": "",
@@ -80,7 +80,7 @@
     {
       "id": "6cf8d290c512",
       "title": "Loan Note: Goldman Sachs\u2019 key Asia move; Neuberger aerospace initiative",
-      "source": "privatedebtinvestor.com",
+      "source": "Private Debt Investor",
       "date": "2026-08-03T12:40:39Z",
       "topic": "Private Credit",
       "summary": "",
@@ -115,6 +115,16 @@
       "topic": "Private Credit",
       "summary": "",
       "link": "https://news.google.com/rss/articles/CBMiqAFBVV95cUxNTDEwdjhrcXNucm5ZQm9XcG9FdkVqWXRfMTVxbTdpOG1lZTV3LVh3bHlLTUkxaFN0NUxPbndSWE1sM0JmV2s2UElTY2RzVlBwektqSE5keWNvNEIxZEFNQUlaSnhQdDYwdkJmLWdrY1QxZEVmQ3RFQjlpc1dlXzZuYnlfb2N0UmZSclpCeXRoaUc0cGVFanM2TWhtXzl3aUdVcEJoZk5FZ08?oc=5",
+      "isNew": false
+    },
+    {
+      "id": "1db6c6ab9070",
+      "title": "What is private credit?",
+      "source": "BlackRock",
+      "date": "2026-08-03T08:30:33Z",
+      "topic": "Private Credit",
+      "summary": "",
+      "link": "https://news.google.com/rss/articles/CBMilAFBVV95cUxNQWE1eUpyTWxmNXZZV1YweDNWMmJsN2Vsd2JBNGg0Y19pU2ZEUmRpX0tReE55eHFkOWFtenE5dWs0SVJnRVgwUkdtczEtM3otY3ctX1VSdGlsYmtjREZLeXFhNndrWTJpNjJjU09wUExnWUQ3MUZNNVFnbTJ0V25Ea21NOWk4YXdhMVJFQWhNMWxra3lC?oc=5",
       "isNew": false
     },
     {
@@ -160,7 +170,7 @@
     {
       "id": "9aef4c4cfbf5",
       "title": "US borrowing costs hit 19-year high as Fed holds interest rates",
-      "source": "theguardian.com",
+      "source": "The Guardian",
       "date": "2026-07-31T01:30:00Z",
       "topic": "Rates & Macro",
       "summary": "",
@@ -230,7 +240,7 @@
     {
       "id": "3504acd80371",
       "title": "Duration Is Not a Defense - I",
-      "source": "Substack",
+      "source": "contrarianunicus.substack.com",
       "date": "2026-07-30T16:10:46Z",
       "topic": "Private Credit",
       "summary": "",
@@ -240,7 +250,7 @@
     {
       "id": "0fefaaf95f52",
       "title": "Duration Is Not a Defense - I",
-      "source": "Substack",
+      "source": "contrarianunicus.substack.com",
       "date": "2026-07-30T16:10:46Z",
       "topic": "Structured Credit",
       "summary": "",
@@ -250,7 +260,7 @@
     {
       "id": "69b1a13475ea",
       "title": "Why the bond market is doubting Fed chairman Kevin Warsh",
-      "source": "axios.com",
+      "source": "Axios",
       "date": "2026-07-30T15:59:21Z",
       "topic": "Rates & Macro",
       "summary": "",
@@ -295,16 +305,6 @@
       "topic": "Rates & Macro",
       "summary": "",
       "link": "https://news.google.com/rss/articles/CBMijgFBVV95cUxPWG1TUXJsRG1pLU5kWi1IbF9nZU1YYlVuSXZVd3BLdHFLOXJfMGVQV0JXUHNnR29RN3dJMFZhamZrbGZNbFRhcjY4UkVSUGg5WnB2dlh2Z3B4a1FqMVMydnpnUzg0dFRTRUxzRnRRVGw0RS1WSVhQcU1qcEpQajhQSkM3VUEyam9fWmhBTGtR?oc=5",
-      "isNew": false
-    },
-    {
-      "id": "489e2e5871d5",
-      "title": "KKR Profit, Revenue Up on Asset Management, Insurance Growth",
-      "source": "Moomoo",
-      "date": "2026-07-30T11:39:33Z",
-      "topic": "Insurance AM",
-      "summary": "",
-      "link": "https://news.google.com/rss/articles/CBMiogFBVV95cUxNOGtTV1ozQ0JUODByY3Q2QzJLN2tUTnRoQ0xlTEhOLTBraGNkRWhrWHMyOU91Y2d1VTdJZWhPVUo0SVdvbEJ2YkI5MzRjLUpYOEpqMW9lWFhDUzl2RDlrOFFuSE5YZjJvZk1kNmd3cGl6Q3czVkhGRlVzbFB0NWtaSjVCRWdmRVlNaDltT1djeExSeHpFTXJ0SGx6TndiSlFWd3c?oc=5",
       "isNew": false
     }
   ]
