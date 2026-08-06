@@ -1,5 +1,5 @@
 {
-  "updated": "2026-08-06T11:37:32Z",
+  "updated": "2026-08-06T14:39:26Z",
   "topics": [
     "Insurance AM",
     "Private Credit",
@@ -8,11 +8,31 @@
   ],
   "items": [
     {
+      "id": "85a7f930b4a6",
+      "title": "Loan Note: Private credit\u2019s biggest institutional supporters; experience our new platform",
+      "source": "Private Debt Investor",
+      "date": "2026-08-06T12:45:47Z",
+      "topic": "Private Credit",
+      "summary": "",
+      "link": "https://news.google.com/rss/articles/CBMiwAFBVV95cUxQTUJZMFZ4ZW9GOGZjMlNyWXpaUGw1WjFHRFNMcVdEcTNXUk1ndk4tWjd0dHdnSnZOLWtCcEhKWlVCNUUwNGJZZDY3ZlVleXo1aTVzYXB1NTNrYno1bTJzZjA5ekpOQjhXNFZZdFVfR3FGTEY5dXg2bWZqZ1VneHhnazJ3MDhZcHZMUVZOMXpVbzVTWUVWaFdrb1BDUjdaS3NOVFFtZV9uZG9QRkZNaHAwQm9oUEVyUlM4ZTBTdGlaS1U?oc=5",
+      "isNew": false
+    },
+    {
       "id": "48810963de45",
       "title": "Delay, Deny, Defend, and Private Credit- II",
       "source": "Substack",
       "date": "2026-08-06T10:21:56Z",
       "topic": "Structured Credit",
+      "summary": "",
+      "link": "https://news.google.com/rss/articles/CBMiggFBVV95cUxQWEpkV0M5emZ3R0E3Nm9GUDBidng4YTNycE9hemY4MHpuc0l6ZmdRQU5tX0pmUkhkLUt0RjI1US1sY1JtMnFHa2kyaElFekxMMXItR25tcGZSYWJpOTZZSVZleVFldUFOV0lqTG5MMmlWSGIyTXlfYnkyMnJ5MXR6UlZ3?oc=5",
+      "isNew": false
+    },
+    {
+      "id": "47b2b365a884",
+      "title": "Delay, Deny, Defend, and Private Credit- II",
+      "source": "Substack",
+      "date": "2026-08-06T10:21:56Z",
+      "topic": "Private Credit",
       "summary": "",
       "link": "https://news.google.com/rss/articles/CBMiggFBVV95cUxQWEpkV0M5emZ3R0E3Nm9GUDBidng4YTNycE9hemY4MHpuc0l6ZmdRQU5tX0pmUkhkLUt0RjI1US1sY1JtMnFHa2kyaElFekxMMXItR25tcGZSYWJpOTZZSVZleVFldUFOV0lqTG5MMmlWSGIyTXlfYnkyMnJ5MXR6UlZ3?oc=5",
       "isNew": false
@@ -120,7 +140,7 @@
     {
       "id": "107b985c83e4",
       "title": "The AI Bailout Could Be Baked Into the AI Bubble",
-      "source": "prospect.org",
+      "source": "The American Prospect",
       "date": "2026-08-03T09:15:00Z",
       "topic": "Private Credit",
       "summary": "",
@@ -285,26 +305,6 @@
       "topic": "Rates & Macro",
       "summary": "",
       "link": "https://news.google.com/rss/articles/CBMiqAFBVV95cUxON24tWUZsQXpzcU1NZmF6MXNMODZpeGVsb0hDdjJyWk9OWVMxVkVzMC15Yzd1clE5d3J0MGU0M0hEUG9RWEhsRXhCZ0Y5clhBM19mb3FreTR0NXJwajJjMEVoeDRydXRiYmtJS2o3ZVpPZkIyX1UwRTFUa1pyQkpjUjZ4bUJTOG9McUVWeGhoMlpDQ2ctQXh2UmhrN0xJUEtEeFN4SnVvR0U?oc=5",
-      "isNew": false
-    },
-    {
-      "id": "89e0c8559616",
-      "title": "Breakingviews - Creating bond chaos is a bad way to hike rates",
-      "source": "reuters.com",
-      "date": "2026-07-30T14:49:58Z",
-      "topic": "Rates & Macro",
-      "summary": "",
-      "link": "https://news.google.com/rss/articles/CBMipAFBVV95cUxQSkpCSzJXNXBiV0pScmlfbkRYd3hMZmxmQ0RLVGg3eDdXQVA5M0JpVWdNWllNYVpQUW5LY2RfcG0zenFRQnpmWUNFZXF3TEYzQzllaWl1ci1OcmxHTW1hbV91X1VSSnl1ZjVHZ21vZGc4OGRCQmFZdXF5bWVrVlBBUXlVaF84UU8yRExZWGV5WTluQS16MXRxYW1yM3huT1p0a3A4SA?oc=5",
-      "isNew": false
-    },
-    {
-      "id": "38b8497c6959",
-      "title": "Major central banks steer a cautious hiking path",
-      "source": "Reuters",
-      "date": "2026-07-30T12:46:12Z",
-      "topic": "Rates & Macro",
-      "summary": "",
-      "link": "https://news.google.com/rss/articles/CBMikwFBVV95cUxQdDlXeVJqcjR0Y2xJaWNmX1FOUmhhRXl0czFMNzMtendhekdfcm1JWVpra0pqQmVfWlFRZzFNNTBpQVFtaDVDN09odFc1T01ZNUdvTzZMNFdIbXlQR1I2WTFZdVczVmRFcXJZWDE4VUE2RGQ1YWt3Nl9Fa1l2ZlI3aVA4TkE2ZU16cEpzTk11QndOODA?oc=5",
       "isNew": false
     }
   ]

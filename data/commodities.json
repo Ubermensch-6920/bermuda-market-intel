@@ -2,7 +2,7 @@
   "date": "2026-08-06",
   "source": "FRED / TradingEconomics / Investing / Yahoo Finance",
   "gold": {
-    "spot": 4264.27,
+    "spot": 4265.22,
     "spot_date": "",
     "spot_source": "TradingEconomics",
     "unit": "USD/troy oz",
@@ -18,7 +18,7 @@
     "prior_2y_date": "2024-08-06",
     "futures": {
       "3M": {
-        "price": 4321.5,
+        "price": 4324.0,
         "expiry": "Dec 2026",
         "contract": "GCZ26",
         "prior_1m": 4186.6,
@@ -35,7 +35,7 @@
         "prior_2y_contract": "GCZ24"
       },
       "6M": {
-        "price": 4355.0,
+        "price": 4359.0,
         "expiry": "Feb 2027",
         "contract": "GCG27",
         "prior_1m": 4251.0,
@@ -104,7 +104,7 @@
     "prior_2y_date": "2024-08-06",
     "futures": {
       "3M": {
-        "price": 73.57,
+        "price": 74.01,
         "expiry": "Nov 2026",
         "contract": "CLX26",
         "prior_1m": 70.13,
@@ -121,7 +121,7 @@
         "prior_2y_contract": "CLX24"
       },
       "6M": {
-        "price": 70.71,
+        "price": 71.05,
         "expiry": "Feb 2027",
         "contract": "CLG27",
         "prior_1m": 69.53,
@@ -190,7 +190,7 @@
     "prior_2y_date": "2024-08-06",
     "futures": {
       "3M": {
-        "price": 78.62,
+        "price": 79.27,
         "expiry": "Nov 2026",
         "contract": "BZX26",
         "prior_1m": 74.12,
@@ -260,7 +260,7 @@
     }
   },
   "usdinr": {
-    "spot": 95.2,
+    "spot": 95.21,
     "spot_date": "2026-08-06",
     "spot_source": "Yahoo INR=X",
     "unit": "INR per USD",
@@ -276,7 +276,7 @@
     "prior_2y_date": "2024-08-07",
     "futures": {
       "3M": {
-        "price": 95.63,
+        "price": 95.64,
         "expiry": "3M",
         "contract": "CIP derived",
         "prior_1m": null,
@@ -293,7 +293,7 @@
         "prior_2y_contract": "INRX24"
       },
       "6M": {
-        "price": 96.01,
+        "price": 96.02,
         "expiry": "6M",
         "contract": "CIP derived",
         "prior_1m": null,
@@ -310,7 +310,7 @@
         "prior_2y_contract": "INRG25"
       },
       "12M": {
-        "price": 96.75,
+        "price": 96.76,
         "expiry": "12M",
         "contract": "CIP derived",
         "prior_1m": null,
@@ -327,7 +327,7 @@
         "prior_2y_contract": "INRQ25"
       },
       "24M": {
-        "price": 98.4,
+        "price": 98.39,
         "expiry": "24M",
         "contract": "CIP derived",
         "prior_1m": null,
@@ -346,5 +346,5 @@
     }
   },
   "note": "Spot history comes from daily FRED series. Futures history is roll-aware by target date. USD/INR latest spot: FRED DEXINUS, then Yahoo INR=X / keyless FX APIs when FRED lags; forwards fall back to CIP derivation from India/UST curves when market quotes are unavailable.",
-  "_fetched": "2026-08-06T11:36:43.160286Z"
+  "_fetched": "2026-08-06T14:38:36.878450Z"
 }

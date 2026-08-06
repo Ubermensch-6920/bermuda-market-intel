@@ -1,26 +1,20 @@
 {
-  "date": "2026-08-04",
+  "date": "2026-08-05",
   "source": "NY Fed / FRED",
   "url": "https://www.newyorkfed.org/markets/reference-rates/sofr",
   "rates": {
     "SOFR": {
       "name": "SOFR (Daily)",
       "desc": "Secured Overnight Financing Rate",
-      "rate": 3.66,
-      "prior": 3.65,
-      "date": "2026-08-04",
-      "volume": 3036,
-      "percentile_25": 3.64,
-      "percentile_75": 3.71
+      "rate": 3.64,
+      "prior": 3.66,
+      "date": "2026-08-05",
+      "volume": 2989,
+      "percentile_25": 3.63,
+      "percentile_75": 3.7
     }
   },
   "history": [
-    {
-      "date": "2025-07-07",
-      "rate": 4.33,
-      "ust_3m": null,
-      "ust_1y": null
-    },
     {
       "date": "2025-07-08",
       "rate": 4.34,
@@ -1634,6 +1628,12 @@
       "rate": 3.66,
       "ust_3m": 3.89,
       "ust_1y": 4.04
+    },
+    {
+      "date": "2026-08-05",
+      "rate": 3.64,
+      "ust_3m": null,
+      "ust_1y": null
     }
   ],
   "year_ago": {
@@ -1643,23 +1643,23 @@
   "term_rates": {
     "1M": {
       "name": "SOFR 30D Avg",
-      "rate": 3.6221,
-      "prior": 3.6215,
-      "date": "2026-08-05"
+      "rate": 3.6225,
+      "prior": 3.6221,
+      "date": "2026-08-06"
     },
     "3M": {
       "name": "SOFR 90D Avg",
-      "rate": 3.6271,
-      "prior": 3.6265,
-      "date": "2026-08-05"
+      "rate": 3.6275,
+      "prior": 3.6271,
+      "date": "2026-08-06"
     },
     "6M": {
       "name": "SOFR 180D Avg",
       "rate": 3.6629,
       "prior": 3.6629,
-      "date": "2026-08-05"
+      "date": "2026-08-06"
     }
   },
   "note": "Published daily by NY Fed at ~8:00 AM ET. Averages are backward-looking compounded (30/90/180-day) via FRED.",
-  "_fetched": "2026-08-06T11:34:22.824580Z"
+  "_fetched": "2026-08-06T14:36:17.556096Z"
 }
