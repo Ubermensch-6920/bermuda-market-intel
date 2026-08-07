@@ -2,11 +2,11 @@
   "date": "2026-08-07",
   "source": "FRED / TradingEconomics / Investing / Yahoo Finance",
   "gold": {
-    "spot": 4333.33,
+    "spot": 4343.43,
     "spot_date": "",
     "spot_source": "TradingEconomics",
     "unit": "USD/troy oz",
-    "prior_1d": 4401.6,
+    "prior_1d": 4401.3,
     "prior_1d_date": "2026-08-07",
     "prior_1m": 4130.6,
     "prior_1m_date": "2026-07-09",
@@ -18,7 +18,7 @@
     "prior_2y_date": "2024-08-08",
     "futures": {
       "3M": {
-        "price": 4402.9,
+        "price": 4401.3,
         "expiry": "Dec 2026",
         "contract": "GCZ26",
         "prior_1m": 4169.7,
@@ -35,7 +35,7 @@
         "prior_2y_contract": "GCZ24"
       },
       "6M": {
-        "price": 4435.5,
+        "price": 4436.7,
         "expiry": "Feb 2027",
         "contract": "GCG27",
         "prior_1m": 4234.0,
@@ -104,14 +104,14 @@
     "prior_2y_date": "2024-08-07",
     "futures": {
       "3M": {
-        "price": 75.31,
+        "price": 75.0,
         "expiry": "Nov 2026",
         "contract": "CLX26",
         "prior_1m": 71.56,
         "prior_1m_date": "2026-07-09",
         "prior_1m_contract": "CLV26",
-        "prior_3m": null,
-        "prior_3m_date": "",
+        "prior_3m": 88.15,
+        "prior_3m_date": "2026-05-08",
         "prior_3m_contract": "CLQ26",
         "prior_1y": null,
         "prior_1y_date": "",
@@ -121,7 +121,7 @@
         "prior_2y_contract": "CLX24"
       },
       "6M": {
-        "price": 72.07,
+        "price": 71.77,
         "expiry": "Feb 2027",
         "contract": "CLG27",
         "prior_1m": 70.45,
@@ -147,8 +147,8 @@
         "prior_3m": 74.77,
         "prior_3m_date": "2026-05-08",
         "prior_3m_contract": "CLK27",
-        "prior_1y": null,
-        "prior_1y_date": "",
+        "prior_1y": 61.25,
+        "prior_1y_date": "2025-08-08",
         "prior_1y_contract": "CLQ26",
         "prior_2y": null,
         "prior_2y_date": "",
@@ -167,8 +167,8 @@
         "prior_1y": 61.19,
         "prior_1y_date": "2025-08-08",
         "prior_1y_contract": "CLQ27",
-        "prior_2y": null,
-        "prior_2y_date": "",
+        "prior_2y": 67.79,
+        "prior_2y_date": "2024-08-08",
         "prior_2y_contract": "CLQ26"
       }
     }
@@ -190,7 +190,7 @@
     "prior_2y_date": "2024-08-07",
     "futures": {
       "3M": {
-        "price": 80.93,
+        "price": 80.41,
         "expiry": "Nov 2026",
         "contract": "BZX26",
         "prior_1m": 76.2,
@@ -264,8 +264,8 @@
     "spot_date": "2026-08-07",
     "spot_source": "Yahoo INR=X",
     "unit": "INR per USD",
-    "prior_1d": 95.08,
-    "prior_1d_date": "2026-08-05",
+    "prior_1d": 95.31,
+    "prior_1d_date": "2026-08-06",
     "prior_1m": 95.39,
     "prior_1m_date": "2026-07-09",
     "prior_3m": 94.49,
@@ -276,7 +276,7 @@
     "prior_2y_date": "2024-08-08",
     "futures": {
       "3M": {
-        "price": 95.63,
+        "price": 95.64,
         "expiry": "3M",
         "contract": "CIP derived",
         "prior_1m": null,
@@ -293,7 +293,7 @@
         "prior_2y_contract": "INRX24"
       },
       "6M": {
-        "price": 96.02,
+        "price": 96.03,
         "expiry": "6M",
         "contract": "CIP derived",
         "prior_1m": null,
@@ -310,7 +310,7 @@
         "prior_2y_contract": "INRG25"
       },
       "12M": {
-        "price": 96.74,
+        "price": 96.78,
         "expiry": "12M",
         "contract": "CIP derived",
         "prior_1m": null,
@@ -327,7 +327,7 @@
         "prior_2y_contract": "INRQ25"
       },
       "24M": {
-        "price": 98.31,
+        "price": 98.41,
         "expiry": "24M",
         "contract": "CIP derived",
         "prior_1m": null,
@@ -346,5 +346,5 @@
     }
   },
   "note": "Spot history comes from daily FRED series. Futures history is roll-aware by target date. USD/INR latest spot: FRED DEXINUS, then Yahoo INR=X / keyless FX APIs when FRED lags; forwards fall back to CIP derivation from India/UST curves when market quotes are unavailable.",
-  "_fetched": "2026-08-07T19:18:55.262908Z"
+  "_fetched": "2026-08-07T21:59:21.585795Z"
 }
