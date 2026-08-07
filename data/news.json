@@ -1,5 +1,5 @@
 {
-  "updated": "2026-08-07T05:07:04Z",
+  "updated": "2026-08-07T07:46:19Z",
   "topics": [
     "Insurance AM",
     "Private Credit",
@@ -100,7 +100,7 @@
     {
       "id": "19bb1913dbcc",
       "title": "Research Exchange: July 2026",
-      "source": "bpi.com",
+      "source": "Bank Policy Institute",
       "date": "2026-08-03T20:46:05Z",
       "topic": "Private Credit",
       "summary": "",
@@ -170,7 +170,7 @@
     {
       "id": "1f0fb0b59cab",
       "title": "The Quiet Taxpayer Backstop Behind Private Credit",
-      "source": "nai500.com",
+      "source": "NAI500",
       "date": "2026-07-31T10:24:50Z",
       "topic": "Structured Credit",
       "summary": "",
@@ -200,7 +200,7 @@
     {
       "id": "9aef4c4cfbf5",
       "title": "US borrowing costs hit 19-year high as Fed holds interest rates",
-      "source": "theguardian.com",
+      "source": "The Guardian",
       "date": "2026-07-31T01:30:00Z",
       "topic": "Rates & Macro",
       "summary": "",
