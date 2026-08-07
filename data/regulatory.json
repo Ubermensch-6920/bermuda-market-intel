@@ -1,5 +1,5 @@
 {
-  "updated": "2026-08-06T14:39:26Z",
+  "updated": "2026-08-07T00:20:12Z",
   "naic": [
     {
       "id": "34c29ea2029f",
@@ -9,6 +9,16 @@
       "summary": "",
       "source": "Mondaq",
       "link": "https://news.google.com/rss/articles/CBMivAFBVV95cUxOQmZzalZNTTEtS2VBUGdETE53MWtYVk44bmJnQVhLMUVNUUF6NGtYU0NGUFhSdlhWUEs2TS01UUs2bEI1U0FPVDRib3BsMm5TaGdmUTJ2VVR4aGpYcV9EejRtRWdDNG9jVnFwQzZMMURyTTNHbENrQlJFUnN3dV91dk9Haks4bWoyMFgwZjRRWFFWaWxXOTBCbWhPYU1KcXZhUkxwWlMwbFhqVEdVTmRpd3V1RC1VOE14NElDdA?oc=5",
+      "isNew": true
+    },
+    {
+      "id": "31828387e5df",
+      "title": "Best\u2019s Special Report: Higher Exposure to Level 3 Bonds Brings Valuation Risk for US Life/Annuity Segment",
+      "date": "2026-08-05",
+      "cat": "General",
+      "summary": "",
+      "source": "Business Wire",
+      "link": "https://news.google.com/rss/articles/CBMi8AFBVV95cUxNQzFqMUJBUGxpOXpQTnZnUEx0d3pieENZQS1hOG5xb1hNT3R1cUgzcjItckU0N3UwZFpFR2lVQmNSV2NGWE83VDVWSTVqSTRGWVB1NG5DRnZxTGRCV2pGejNSWGFXd01HRUpDZEVfVE5QMnBTT3R3X0NicW53cVk5MFpNOFd2TkQ4VjV2NHJEa2RpMVZSa01VekIzOEJvS0Z5N1R5dVdnQXNRd0xNOE5NMHlKdGUybkhvUGE4Vk5wWGhKcjZnNlBjc0drYzdGRXg3OWZkODdCUW1yMHRWUl9TWXR4WFlTZlRDYkVZa0hRQmc?oc=5",
       "isNew": true
     },
     {
@@ -240,16 +250,6 @@
       "source": "Vanguard News",
       "link": "https://news.google.com/rss/articles/CBMitAFBVV95cUxNTUdMc2JCdVFOS1FfWW4yOEtpNlBtWHNMbWM0ODI4eWFHcjlqTWJrazZ6bDBTd0tLRnVwUFo0ejNGWGh1Uk5HSUVzNnVGZGd1Yzhlc1Yzempuc0Rsam5rd3pfbEtjQ25NM2U3ekUwSkpEb0ZhOFpoeWNpMEVyclNzNjVkWWdzMVQ3blA2MHZtU2Z2d0g0YVVyTFZIOHZvZ3lsT2Vjc2lxYjFRZEJ4RTgtcUdmV3jSAboBQVVfeXFMTjM1Vko0c1NBVkRLVFRJNDFtSmNGZDQ5Tk4zTGtkalE1ZXFhQU9EbUEtN3d4SDVrRFVhWENBbDljRGNQR1NKVjhnTEFGeHpZUzFzcS1WYkdsZ1U5Rjk3QTc0T015TWFMektPbkgxRkc1VmVZalVGbnN1RUJBOHNIZ2xmb0FqOXJsUWlEbm02SzRNcElTem1MWFFOekRab2RwR2UtSkVJRk05TjdXRDhpSWNIWnFrT3VEQjlB?oc=5",
       "isNew": true
-    },
-    {
-      "id": "0637c8509f3a",
-      "title": "Food security: NAIC MD Yazid, agriculture, finance ministries partner to strengthen insurance for farmers",
-      "date": "2026-07-18",
-      "cat": "General",
-      "summary": "",
-      "source": "Blueprint Newspapers",
-      "link": "https://news.google.com/rss/articles/CBMiwgFBVV95cUxPSHNRZkd3UW9XTFVteVcwa3NBcWZhY0R6RzhJYlRQdVpaM1Z6bzBfQzlWZlZiNldRZkVwRGdQTTYzMlpoVE1TRFhPWl9ub2pQdGEzUkYwMTRNVENkeUJpcFRpOXpIOU5WQnc3T1Faa2VjUDIyRDBDOG9UcDV3cmRkY1h5YzdPNFAtMjkxX1FWZktzR1p6eGxKOUVXak9ib3NrNllZXzRRU0dobXBqeUh2bGNCWUJ3ZzdSTTF5OUpQNEsxZw?oc=5",
-      "isNew": true
     }
   ],
   "bma": [
@@ -474,6 +474,16 @@
       "isNew": true
     },
     {
+      "id": "11527e5f1593",
+      "title": "Official Govt & Legal Notices For July 7 2026",
+      "date": "2026-07-07",
+      "cat": "General",
+      "summary": "",
+      "source": "Bernews",
+      "link": "https://news.google.com/rss/articles/CBMid0FVX3lxTE5TU3VWVnNEOVdKbG1DeVc1V3BaOGo2UkZFeE5tbVB4bDNuX21QamExZGwwUTJ1ZGJaQVl1c25WVHBLTmNlOHFxNER5cThybmhnb194NVJLR1JTUEMxMUhESEhjeXh5OExVZjhEMkpPQ1NRVW9jaWRv?oc=5",
+      "isNew": false
+    },
+    {
       "id": "fbf27abd4f84",
       "title": "BMA Releases 2025 Annual Report",
       "date": "2026-07-03",
@@ -491,16 +501,6 @@
       "summary": "",
       "source": "Bernews",
       "link": "https://news.google.com/rss/articles/CBMibEFVX3lxTE1ndUMwb19HYU9HOFA4emVfelZra0FLbmZabXVwaHRtZ211SFJ2M3J0WnpDWi1Wb1dlTU1sdHNaR3M3aTJlMC1VUDJPNkthX0x4WmpQcUQwRi1EemsxVjM5UEJvTzByUDJ3cTdTdw?oc=5",
-      "isNew": false
-    },
-    {
-      "id": "65bc1b54bb8d",
-      "title": "Bermuda - Lending & Secured Finance Laws and Regulations 2026",
-      "date": "2026-07-01",
-      "cat": "General",
-      "summary": "",
-      "source": "iclg.com",
-      "link": "https://news.google.com/rss/articles/CBMikwFBVV95cUxOeU9lWEthLWh1aG1Dd0FEdHczYU84d19KWTNUbU1MM0haQUpqcFJzN2xTZ0FxUTlWX3U4UFhrV0pmR2E3SlhYOGQxWVlncXRuMFMwUXFnQjVjUFFiQ0NiZTFzYUpnYk5aVldqMy1YSnpNNFBNY0tqTnEyT1F2anNFQUtVV1h3anYxWk12Z0lGcGU4MzA?oc=5",
       "isNew": false
     }
   ],
@@ -541,7 +541,7 @@
       "date": "2026-07-29",
       "cat": "General",
       "summary": "",
-      "source": "insurancebusinessmag.com",
+      "source": "Insurance Business",
       "link": "https://news.google.com/rss/articles/CBMiywFBVV95cUxPS2lqcVB0NzVrNldvOTNtUTVjNnZTOWdUdjVtMmhvX0ZRUlA2UEt1SFF0QVlJd3dybmE3U1JiNF80TVloYmhjLXNlQWlSMHItZW1CdDlsdklOZ0lhc3E2V0RIeTlVejZxcEdCN2ZiU21Sa016QlQxMGJ6MG5OZ1dnUXQyT21QVjNTaWVWRmFGUm5kSktsanFtQnd6OEo4MFk2bnZHOVBKS2ZBaU5CNjRiWmMxd1Q1YmlKRW1LWDMyZ05RaWVnQWlVZHpqTQ?oc=5",
       "isNew": true
     },
@@ -611,7 +611,7 @@
       "date": "2026-07-14",
       "cat": "General",
       "summary": "",
-      "source": "insurancebusinessmag.com",
+      "source": "Insurance Business",
       "link": "https://news.google.com/rss/articles/CBMi2gFBVV95cUxOWEI0T3hNdnh5M0U2ekhDYWJRRnplN3g1ZDVheG9NRUZwR2lxUjJaVDhLSkFGdjRWWENGRkJVVjJwQ0FMY05KenJha1JHZkd3em0wczVrOXFYbks4UGxfQUg0NDJQUVlQQ0hVOFNGWmsyMXM5NFlTV3F2YmlxbWQ3alZDcHQ1ajktRUhnTkdNX3Bia1dON3RVSGdqa1I1ZzNlWnNCX0Y5VU5SR2lpanlhSjRvc1pWUFlHN3FxbkZtM0NUVXc5NlRlWHAtTUoxX3lTTEdiYUpDTnZTUQ?oc=5",
       "isNew": true
     },
