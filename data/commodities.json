@@ -264,8 +264,8 @@
     "spot_date": "2026-08-08",
     "spot_source": "Yahoo INR=X",
     "unit": "INR per USD",
-    "prior_1d": 95.31,
-    "prior_1d_date": "2026-08-06",
+    "prior_1d": null,
+    "prior_1d_date": null,
     "prior_1m": 95.33,
     "prior_1m_date": "2026-07-10",
     "prior_3m": 95.31,
@@ -346,5 +346,5 @@
     }
   },
   "note": "Spot history comes from daily FRED series. Futures history is roll-aware by target date. USD/INR latest spot: FRED DEXINUS, then Yahoo INR=X / keyless FX APIs when FRED lags; forwards fall back to CIP derivation from India/UST curves when market quotes are unavailable.",
-  "_fetched": "2026-08-08T09:57:55.670774Z"
+  "_fetched": "2026-08-08T13:16:04.126600Z"
 }
