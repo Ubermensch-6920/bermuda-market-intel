@@ -1,5 +1,5 @@
 {
-  "updated": "2026-08-07T22:00:13Z",
+  "updated": "2026-08-08T02:26:09Z",
   "topics": [
     "Insurance AM",
     "Private Credit",
@@ -20,7 +20,7 @@
     {
       "id": "48810963de45",
       "title": "Delay, Deny, Defend, and Private Credit- II",
-      "source": "Substack",
+      "source": "contrarianunicus.substack.com",
       "date": "2026-08-06T10:21:56Z",
       "topic": "Structured Credit",
       "summary": "",
@@ -60,7 +60,7 @@
     {
       "id": "ce7974788508",
       "title": "Apollo debt deal fees and insurance earnings rise, asset sales drag",
-      "source": "Reuters",
+      "source": "reuters.com",
       "date": "2026-08-04T17:31:27Z",
       "topic": "Insurance AM",
       "summary": "",
@@ -100,7 +100,7 @@
     {
       "id": "19bb1913dbcc",
       "title": "Research Exchange: July 2026",
-      "source": "Bank Policy Institute",
+      "source": "bpi.com",
       "date": "2026-08-03T20:46:05Z",
       "topic": "Private Credit",
       "summary": "",
@@ -168,6 +168,16 @@
       "isNew": false
     },
     {
+      "id": "639efc914247",
+      "title": "Bond sell-off sent warning on Federal Reserve\u2019s credibility, says top central bank official",
+      "source": "Financial Times",
+      "date": "2026-07-31T23:10:23Z",
+      "topic": "Rates & Macro",
+      "summary": "",
+      "link": "https://news.google.com/rss/articles/CBMihAFBVV95cUxOUlJuWU9UQlBuWUdqeXowNUhVdnpTTVMtb0hqRVB0X2dDNUNLbDBfd1k4eVB3T0VfR25sUjNDcjhZcVZwZXpOVnJCNkRieGE0MFBVMjBKc0xSZ251WDhnU2ZCczFBZlpXU09LQWZKenpPbFFCSGRuVUJldjZhWUZkUDhGZFk?oc=5",
+      "isNew": false
+    },
+    {
       "id": "f0ed10818097",
       "title": "A Credibility Gap at the Fed: Why Bond Yields Are Surging",
       "source": "Barron's",
@@ -230,7 +240,7 @@
     {
       "id": "3504acd80371",
       "title": "Duration Is Not a Defense - I",
-      "source": "Substack",
+      "source": "contrarianunicus.substack.com",
       "date": "2026-07-30T16:10:46Z",
       "topic": "Private Credit",
       "summary": "",
@@ -240,7 +250,7 @@
     {
       "id": "0fefaaf95f52",
       "title": "Duration Is Not a Defense - I",
-      "source": "Substack",
+      "source": "contrarianunicus.substack.com",
       "date": "2026-07-30T16:10:46Z",
       "topic": "Structured Credit",
       "summary": "",
@@ -270,7 +280,7 @@
     {
       "id": "03f58be01de2",
       "title": "US regulators cite \u2018circular\u2019 risk in investments used by KKR and Apollo",
-      "source": "ft.com",
+      "source": "Financial Times",
       "date": "2026-07-30T07:00:00Z",
       "topic": "Insurance AM",
       "summary": "",
@@ -295,16 +305,6 @@
       "topic": "Rates & Macro",
       "summary": "",
       "link": "https://news.google.com/rss/articles/CBMitAFBVV95cUxQcFNlWTYtaGVZZ0xPcnRHU29aSGlVYW1GY1lfa0dXcE81bFVzZkI0N3pZTHJZU2pSTE5Zb3RsbkVSd2tOTWJOYkdOd19pLUVhZy1vZkVjVWViRmdKdmozeVdiNTFCZ3ctMUFwSDllRlhGLUI4a1h2VHpFMHBSRlpYVjRMbmhwZ2tvdWNLMmdhYl9rSC1UM2lJaUF0TmZsTGZndEZSZHJsYUQ3TFlXbk9UaHk4aFM?oc=5",
-      "isNew": false
-    },
-    {
-      "id": "26ede566aff0",
-      "title": "KKR\u2019s Asset Sales Defy Private-Equity Exit Slowdown",
-      "source": "WSJ",
-      "date": "2026-07-30T07:00:00Z",
-      "topic": "Insurance AM",
-      "summary": "",
-      "link": "https://news.google.com/rss/articles/CBMiqAFBVV95cUxQdnBwaEFSQXhGTURjVmt0WmdrS3VlVGRPclpETGhobU9Vbnd3MWItZlFIdGk5TWRSSGpmZkhrRS1BYjBuam5uWGlXSlhDYVotd2NPbU1LN2ZjU1pOaGwxNVZiRFVfbkVRNXl6eWk5SUJmN05scWJGYkZfQ1JlaUpjZnFScXFuLS1Kc0VNd1NzX0hFOWZxalV3VDFlQjg5cGxjektWenBvbS0?oc=5",
       "isNew": false
     }
   ]

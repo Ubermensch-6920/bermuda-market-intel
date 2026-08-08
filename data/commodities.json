@@ -1,5 +1,5 @@
 {
-  "date": "2026-08-07",
+  "date": "2026-08-08",
   "source": "FRED / TradingEconomics / Investing / Yahoo Finance",
   "gold": {
     "spot": 4343.43,
@@ -94,14 +94,14 @@
     "unit": "USD/barrel",
     "prior_1d": 81.96,
     "prior_1d_date": "2026-08-03",
-    "prior_1m": 74.56,
-    "prior_1m_date": "2026-07-08",
+    "prior_1m": 73.15,
+    "prior_1m_date": "2026-07-09",
     "prior_3m": 98.87,
     "prior_3m_date": "2026-05-08",
-    "prior_1y": 64.9,
-    "prior_1y_date": "2025-08-07",
-    "prior_2y": 76.68,
-    "prior_2y_date": "2024-08-07",
+    "prior_1y": 64.94,
+    "prior_1y_date": "2025-08-08",
+    "prior_2y": 77.64,
+    "prior_2y_date": "2024-08-08",
     "futures": {
       "3M": {
         "price": 75.0,
@@ -180,14 +180,14 @@
     "unit": "USD/barrel",
     "prior_1d": 88.9,
     "prior_1d_date": "2026-08-03",
-    "prior_1m": 76.5,
-    "prior_1m_date": "2026-07-08",
+    "prior_1m": 74.46,
+    "prior_1m_date": "2026-07-09",
     "prior_3m": 103.48,
     "prior_3m_date": "2026-05-08",
-    "prior_1y": 66.99,
-    "prior_1y_date": "2025-08-07",
-    "prior_2y": 78.26,
-    "prior_2y_date": "2024-08-07",
+    "prior_1y": 67.17,
+    "prior_1y_date": "2025-08-08",
+    "prior_2y": 80.76,
+    "prior_2y_date": "2024-08-08",
     "futures": {
       "3M": {
         "price": 80.41,
@@ -261,19 +261,19 @@
   },
   "usdinr": {
     "spot": 95.2,
-    "spot_date": "2026-08-07",
+    "spot_date": "2026-08-08",
     "spot_source": "Yahoo INR=X",
     "unit": "INR per USD",
     "prior_1d": 95.31,
     "prior_1d_date": "2026-08-06",
-    "prior_1m": 95.39,
-    "prior_1m_date": "2026-07-09",
-    "prior_3m": 94.49,
-    "prior_3m_date": "2026-05-08",
+    "prior_1m": 95.33,
+    "prior_1m_date": "2026-07-10",
+    "prior_3m": 95.31,
+    "prior_3m_date": "2026-05-11",
     "prior_1y": 87.67,
     "prior_1y_date": "2025-08-08",
-    "prior_2y": 83.95,
-    "prior_2y_date": "2024-08-08",
+    "prior_2y": 83.92,
+    "prior_2y_date": "2024-08-09",
     "futures": {
       "3M": {
         "price": 95.64,
@@ -346,5 +346,5 @@
     }
   },
   "note": "Spot history comes from daily FRED series. Futures history is roll-aware by target date. USD/INR latest spot: FRED DEXINUS, then Yahoo INR=X / keyless FX APIs when FRED lags; forwards fall back to CIP derivation from India/UST curves when market quotes are unavailable.",
-  "_fetched": "2026-08-07T21:59:21.585795Z"
+  "_fetched": "2026-08-08T02:25:15.356137Z"
 }
