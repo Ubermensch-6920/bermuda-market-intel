@@ -1,5 +1,5 @@
 {
-  "updated": "2026-08-08T13:16:52Z",
+  "updated": "2026-08-08T15:50:26Z",
   "topics": [
     "Insurance AM",
     "Private Credit",
@@ -60,7 +60,7 @@
     {
       "id": "ce7974788508",
       "title": "Apollo debt deal fees and insurance earnings rise, asset sales drag",
-      "source": "Reuters",
+      "source": "reuters.com",
       "date": "2026-08-04T17:31:27Z",
       "topic": "Insurance AM",
       "summary": "",
@@ -80,7 +80,7 @@
     {
       "id": "b5df47f7754f",
       "title": "European insurers prioritising infrastructure debt and structured credit amid Solvency II changes: Novantigo",
-      "source": "Reinsurance News",
+      "source": "reinsurancene.ws",
       "date": "2026-08-04T10:33:27Z",
       "topic": "Structured Credit",
       "summary": "",
@@ -100,7 +100,7 @@
     {
       "id": "19bb1913dbcc",
       "title": "Research Exchange: July 2026",
-      "source": "bpi.com",
+      "source": "Bank Policy Institute",
       "date": "2026-08-03T20:46:05Z",
       "topic": "Private Credit",
       "summary": "",
@@ -110,7 +110,7 @@
     {
       "id": "5a71e7f9ea91",
       "title": "Manulife | Comvest Credit Partners raises $5.4bn for largest direct lending fund",
-      "source": "alternativecreditinvestor.com",
+      "source": "Alternative Credit Investor",
       "date": "2026-08-03T15:36:48Z",
       "topic": "Structured Credit",
       "summary": "",
@@ -160,7 +160,7 @@
     {
       "id": "1db6c6ab9070",
       "title": "What is private credit?",
-      "source": "blackrock.com",
+      "source": "BlackRock",
       "date": "2026-08-03T08:30:33Z",
       "topic": "Private Credit",
       "summary": "",
@@ -290,7 +290,7 @@
     {
       "id": "9aef4c4cfbf5",
       "title": "US borrowing costs hit 19-year high as Fed holds interest rates",
-      "source": "theguardian.com",
+      "source": "The Guardian",
       "date": "2026-07-30T07:00:00Z",
       "topic": "Rates & Macro",
       "summary": "",

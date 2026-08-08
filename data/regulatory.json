@@ -1,5 +1,5 @@
 {
-  "updated": "2026-08-08T13:16:52Z",
+  "updated": "2026-08-08T15:50:26Z",
   "naic": [
     {
       "id": "af0f22da8be9",
@@ -17,7 +17,7 @@
       "date": "2026-08-05",
       "cat": "General",
       "summary": "",
-      "source": "mondaq.com",
+      "source": "Mondaq",
       "link": "https://news.google.com/rss/articles/CBMivAFBVV95cUxOQmZzalZNTTEtS2VBUGdETE53MWtYVk44bmJnQVhLMUVNUUF6NGtYU0NGUFhSdlhWUEs2TS01UUs2bEI1U0FPVDRib3BsMm5TaGdmUTJ2VVR4aGpYcV9EejRtRWdDNG9jVnFwQzZMMURyTTNHbENrQlJFUnN3dV91dk9Haks4bWoyMFgwZjRRWFFWaWxXOTBCbWhPYU1KcXZhUkxwWlMwbFhqVEdVTmRpd3V1RC1VOE14NElDdA?oc=5",
       "isNew": true
     },
@@ -259,7 +259,7 @@
       "date": "2026-07-30",
       "cat": "General",
       "summary": "",
-      "source": "Buttondown",
+      "source": "buttondown.com",
       "link": "https://news.google.com/rss/articles/CBMikgFBVV95cUxQdEFELVpBT0hCcTI2V1lwM1JwVUIza0c4OEtUWmFkVW1nZVRZQzBsaFQyVDJ6ZDU1VGdvUTdWZXNFbUpFRjZYc2N4WFA0ZE1VZlZTQ0ZwXzlTWm9PemxWWFItdm16a3dPZ0FkTXBvYmNqRVg0OWd0RS1hWjNmaFNodDN3cnFnck9rQlgtQU9OM2ljQQ?oc=5",
       "isNew": true
     },
@@ -676,6 +676,16 @@
       "isNew": false
     },
     {
+      "id": "935b601ee6af",
+      "title": "Cayman builds on funds strength with push into tokenisation and other new investor segments",
+      "date": "2026-06-18",
+      "cat": "Investment",
+      "summary": "",
+      "source": "Cayman Finance",
+      "link": "https://news.google.com/rss/articles/CBMixwFBVV95cUxNLUdzZVdseERCdUhTNENKR21HT3d5QnFHVjRNN3ZZRE1YMG1LRGJTTlBDTjBZSHdVZkNTc2hMZVJpRDRJelFXbGxyUzV4RTZBT0xqNV9acWh3N3NuMkk1Um14ZC1YamxGYVEyTW1kLTZ2ZzA1SzJVVnA3dU9Ncjlqel9rdFhmOEFkSjZqTC1zTzRBU1pCek9MSWlZQ2dPbllNaUN0TVE4SzlBLWlKbjlOaU1veThSNVBJNkx4dTVyOW05U0JJOWN3?oc=5",
+      "isNew": false
+    },
+    {
       "id": "9a86e4a05258",
       "title": "CIMA cancels registrations",
       "date": "2026-06-11",
@@ -743,16 +753,6 @@
       "summary": "",
       "source": "Captive International",
       "link": "https://news.google.com/rss/articles/CBMiiwFBVV95cUxNX0FYQWxDb18zWldBYkliSmJtS3BhT0xleExUUGRKSHczM3lOcUU3OFNmLVpFdnZpbXRBSXNrSkxrM1R0a21tVFdHeFJxX0FsYWUtRmVmdXl0bHhVN1RPdm0walFtR3E0dHM2bjZ5ZmszM25kMFpmSkRTb01DR29MLWNxUjhrTURBNFVV?oc=5",
-      "isNew": false
-    },
-    {
-      "id": "1a9744395f6d",
-      "title": "PwC highlights growing role of asset-intensive reinsurance in Cayman market",
-      "date": "2026-04-14",
-      "cat": "Investment",
-      "summary": "",
-      "source": "Reinsurance News",
-      "link": "https://news.google.com/rss/articles/CBMiqAFBVV95cUxPTW4zV0tmdURhaEtBcE94djBmQUJWbWVSbXNzZnJOc29HWlhmRUZ5RG5xelZIZDNKQWdNTzIyT2wzbjIyZnd5QWR3Rjd0bXFHTWxDVlBybXUyZElBZjU5c0hiV2FYQ0x4bUxDUVdQWGpxUkUzN3EtUUh2WHIyMWszZ3REdFNld3hBajRROTFvRGp3LXRNblNqa2ROLXp3ZkxXN3VHc0FDSWo?oc=5",
       "isNew": false
     }
   ]
