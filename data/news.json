@@ -1,5 +1,5 @@
 {
-  "updated": "2026-08-08T19:03:32Z",
+  "updated": "2026-08-08T21:50:02Z",
   "topics": [
     "Insurance AM",
     "Private Credit",
@@ -50,7 +50,7 @@
     {
       "id": "16824d59a45f",
       "title": "Allianz to Buy UOB Asset Management Unit as CEO Targets Asia",
-      "source": "Insurance Journal",
+      "source": "insurancejournal.com",
       "date": "2026-08-05T14:22:44Z",
       "topic": "Insurance AM",
       "summary": "",
@@ -60,7 +60,7 @@
     {
       "id": "ce7974788508",
       "title": "Apollo debt deal fees and insurance earnings rise, asset sales drag",
-      "source": "reuters.com",
+      "source": "Reuters",
       "date": "2026-08-04T17:31:27Z",
       "topic": "Insurance AM",
       "summary": "",
@@ -80,7 +80,7 @@
     {
       "id": "b5df47f7754f",
       "title": "European insurers prioritising infrastructure debt and structured credit amid Solvency II changes: Novantigo",
-      "source": "reinsurancene.ws",
+      "source": "Reinsurance News",
       "date": "2026-08-04T10:33:27Z",
       "topic": "Structured Credit",
       "summary": "",
@@ -168,6 +168,16 @@
       "isNew": false
     },
     {
+      "id": "77d45ceabf40",
+      "title": "How do changing interest rates affect the stock market in 2026",
+      "source": "U.S. Bank",
+      "date": "2026-08-03T07:00:00Z",
+      "topic": "Insurance AM",
+      "summary": "",
+      "link": "https://news.google.com/rss/articles/CBMiwwFBVV95cUxQVVJpa2pCR3B0TmxRZGlpSmRZaFctZ21ybGtrVUVBMFozZ0xiSGFRY0ZZdGNWaV80dnhHUTR2TTVoSnZEU190aGtMamY2MDAxT0hYYzRXcUl5OUEyOGRGYWlBbm54T3ppaEZWRWtyV01EOEJGcVRaM2xROWlCX2FxSFYxX1NXeUQwZmJLS3pqcGhCWjR5RVJrNlhmbUtRcy1EUGJLaFI4UTNkUHg4emNPUE95cTc0bnlDcklaaG5EcWhBeVU?oc=5",
+      "isNew": false
+    },
+    {
       "id": "639efc914247",
       "title": "Bond sell-off sent warning on Federal Reserve\u2019s credibility, says top central bank official",
       "source": "Financial Times",
@@ -178,19 +188,9 @@
       "isNew": false
     },
     {
-      "id": "f0ed10818097",
-      "title": "A Credibility Gap at the Fed: Why Bond Yields Are Surging",
-      "source": "Barron's",
-      "date": "2026-07-31T22:20:00Z",
-      "topic": "Rates & Macro",
-      "summary": "",
-      "link": "https://news.google.com/rss/articles/CBMid0FVX3lxTE5veU1tYmtqWnlTU2xtS0lwRFN3MDVMNjFTRHVUSHdTYzlBLTVJUGdnWmN3enpUX25KbHVNU1dXXzBweW9aZ1ZLTEpaYjltdTJiQ3U3SnFTUy15RmFrc0xvRnlUNnRMTzhOU1MzM1FRUU42dnhvQVVr?oc=5",
-      "isNew": false
-    },
-    {
       "id": "1f0fb0b59cab",
       "title": "The Quiet Taxpayer Backstop Behind Private Credit",
-      "source": "NAI500",
+      "source": "nai500.com",
       "date": "2026-07-31T10:24:50Z",
       "topic": "Structured Credit",
       "summary": "",
@@ -201,10 +201,20 @@
       "id": "189b035d882d",
       "title": "Treasury yields follow oil prices higher as Fed officials say rate hikes are needed",
       "source": "CNBC",
-      "date": "2026-07-31T07:05:51Z",
+      "date": "2026-07-31T07:00:00Z",
       "topic": "Rates & Macro",
       "summary": "",
       "link": "https://news.google.com/rss/articles/CBMimAFBVV95cUxNdzh5ZnRHOU1ZSmQ4eTBRRGZLOTJUTDAtWFF5WS10aGVXdW5pd2NUWTF1ZmF1WWxCb3h5eFVPTk9IT2QtelROckF6bVJzOXV3QkptRTR1WXZQOXlXUGhRaG0tRXppMFg5emRvektyUXdxWDR1T09zQmo3ZmJDeVBRMDdoMGVtQVJ4aXhfQl9IRVljVXJ3SEV0eNIBngFBVV95cUxQWHdZa2ZtVmVFblFQdFQtejBkY0N1X1F1OG5hNUxldWk3SE5jbHJoM3VaZkJleldka3ZXeXFMbUZ3QWZZR0pjU01JeWpSeEtfOFcxcm5YcU9iTHd5MGhLZ1I3TklNQVFxT3RSa05PazZ2V05VaUdGcWxoMDd6UlBpMEpwOVAwYUpBOHdIYVY5anptb01mdGoyMTFyXzFPQQ?oc=5",
+      "isNew": false
+    },
+    {
+      "id": "f0ed10818097",
+      "title": "A Credibility Gap at the Fed: Why Bond Yields Are Surging",
+      "source": "barrons.com",
+      "date": "2026-07-31T07:00:00Z",
+      "topic": "Rates & Macro",
+      "summary": "",
+      "link": "https://news.google.com/rss/articles/CBMid0FVX3lxTE5veU1tYmtqWnlTU2xtS0lwRFN3MDVMNjFTRHVUSHdTYzlBLTVJUGdnWmN3enpUX25KbHVNU1dXXzBweW9aZ1ZLTEpaYjltdTJiQ3U3SnFTUy15RmFrc0xvRnlUNnRMTzhOU1MzM1FRUU42dnhvQVVr?oc=5",
       "isNew": false
     },
     {
@@ -290,21 +300,11 @@
     {
       "id": "9aef4c4cfbf5",
       "title": "US borrowing costs hit 19-year high as Fed holds interest rates",
-      "source": "The Guardian",
+      "source": "theguardian.com",
       "date": "2026-07-30T07:00:00Z",
       "topic": "Rates & Macro",
       "summary": "",
       "link": "https://news.google.com/rss/articles/CBMiqAFBVV95cUxNTllPdnJlUkhYSWRnVEhmNV8zYTFHWHdSOGdMbVlCWmJuQTZRZTUzM1JoODg1VTJUYnhEbndKOGhVWE02cjFoRGRCRW1IOWY3Z1p3WEljN0lvVGlJNmJlVnJhSURJYnVvYVZOZ09qaXNUaDh1aUhwUWxrYk9hb3lNU2R1WDlxWmJMcFFJUmEwbjRQMDJ1YjRudVdhTmZWTTRybFQzTUdOem4?oc=5",
-      "isNew": false
-    },
-    {
-      "id": "3c9e21f82a6c",
-      "title": "U.S. Treasury Yields Soar as Market Struggles to Interpret Fed",
-      "source": "WSJ",
-      "date": "2026-07-30T07:00:00Z",
-      "topic": "Rates & Macro",
-      "summary": "",
-      "link": "https://news.google.com/rss/articles/CBMitAFBVV95cUxQcFNlWTYtaGVZZ0xPcnRHU29aSGlVYW1GY1lfa0dXcE81bFVzZkI0N3pZTHJZU2pSTE5Zb3RsbkVSd2tOTWJOYkdOd19pLUVhZy1vZkVjVWViRmdKdmozeVdiNTFCZ3ctMUFwSDllRlhGLUI4a1h2VHpFMHBSRlpYVjRMbmhwZ2tvdWNLMmdhYl9rSC1UM2lJaUF0TmZsTGZndEZSZHJsYUQ3TFlXbk9UaHk4aFM?oc=5",
       "isNew": false
     }
   ]
