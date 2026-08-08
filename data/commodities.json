@@ -110,8 +110,8 @@
         "prior_1m": 71.56,
         "prior_1m_date": "2026-07-09",
         "prior_1m_contract": "CLV26",
-        "prior_3m": 88.15,
-        "prior_3m_date": "2026-05-08",
+        "prior_3m": null,
+        "prior_3m_date": "",
         "prior_3m_contract": "CLQ26",
         "prior_1y": null,
         "prior_1y_date": "",
@@ -147,8 +147,8 @@
         "prior_3m": 74.77,
         "prior_3m_date": "2026-05-08",
         "prior_3m_contract": "CLK27",
-        "prior_1y": 61.25,
-        "prior_1y_date": "2025-08-08",
+        "prior_1y": null,
+        "prior_1y_date": "",
         "prior_1y_contract": "CLQ26",
         "prior_2y": null,
         "prior_2y_date": "",
@@ -167,8 +167,8 @@
         "prior_1y": 61.19,
         "prior_1y_date": "2025-08-08",
         "prior_1y_contract": "CLQ27",
-        "prior_2y": 67.79,
-        "prior_2y_date": "2024-08-08",
+        "prior_2y": null,
+        "prior_2y_date": "",
         "prior_2y_contract": "CLQ26"
       }
     }
@@ -190,7 +190,7 @@
     "prior_2y_date": "2024-08-08",
     "futures": {
       "3M": {
-        "price": 80.46,
+        "price": 81.65,
         "expiry": "Nov 2026",
         "contract": "BZX26",
         "prior_1m": 76.2,
@@ -207,7 +207,7 @@
         "prior_2y_contract": "BZX24"
       },
       "6M": {
-        "price": 76.62,
+        "price": 77.65,
         "expiry": "Feb 2027",
         "contract": "BZG27",
         "prior_1m": 75.22,
@@ -224,7 +224,7 @@
         "prior_2y_contract": "BZG25"
       },
       "12M": {
-        "price": 73.52,
+        "price": 74.24,
         "expiry": "Aug 2027",
         "contract": "BZQ27",
         "prior_1m": 73.3,
@@ -346,5 +346,5 @@
     }
   },
   "note": "Spot history comes from daily FRED series. Futures history is roll-aware by target date. USD/INR latest spot: FRED DEXINUS, then Yahoo INR=X / keyless FX APIs when FRED lags; forwards fall back to CIP derivation from India/UST curves when market quotes are unavailable.",
-  "_fetched": "2026-08-08T04:32:05.881700Z"
+  "_fetched": "2026-08-08T07:18:49.762432Z"
 }
