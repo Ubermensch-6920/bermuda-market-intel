@@ -1,5 +1,5 @@
 {
-  "updated": "2026-08-09T04:41:11Z",
+  "updated": "2026-08-09T07:20:43Z",
   "topics": [
     "Insurance AM",
     "Private Credit",
@@ -7,6 +7,16 @@
     "Structured Credit"
   ],
   "items": [
+    {
+      "id": "97e113c48c91",
+      "title": "Exclusive | Ratings Firm Accused of Grade Inflation Vouched for $40 Billion of Insurer Debt",
+      "source": "WSJ",
+      "date": "2026-08-09T02:12:45Z",
+      "topic": "Private Credit",
+      "summary": "",
+      "link": "https://news.google.com/rss/articles/CBMitgFBVV95cUxPMVRzejBxX28tZjNTWWwtRzBuenFCTGgycXBhTWxVamhOZ0pyVmt6NmpEM1NLT3RiY3BYUkp6NlhEeno5VHJNTVZuaWlBQ3RrMXhpd1VuSXJoM3NqT2NNSmUybkV2UFFjRkNOaHRUOENPc1JURFdhSHJRUDZjaVN2c1h2Q3ExY0NOclU4VnBjOFUwS2k5WXB4MmdwUVVSdnVCSFhuMmJxQXZlc3hFdm9ld2p2Mm01UQ?oc=5",
+      "isNew": false
+    },
     {
       "id": "cab235bbbe5d",
       "title": "AGO Q2 Deep Dive: New Business Growth and Investment Volatility Shape Results",
@@ -120,7 +130,7 @@
     {
       "id": "5a71e7f9ea91",
       "title": "Manulife | Comvest Credit Partners raises $5.4bn for largest direct lending fund",
-      "source": "alternativecreditinvestor.com",
+      "source": "Alternative Credit Investor",
       "date": "2026-08-03T15:36:48Z",
       "topic": "Structured Credit",
       "summary": "",
@@ -150,7 +160,7 @@
     {
       "id": "1611755c0c68",
       "title": "Opinion: Private credit has a ratings problem and regulators need to step in",
-      "source": "MarketWatch",
+      "source": "marketwatch.com",
       "date": "2026-08-03T11:00:00Z",
       "topic": "Private Credit",
       "summary": "",
@@ -290,21 +300,11 @@
     {
       "id": "69b1a13475ea",
       "title": "Why the bond market is doubting Fed chairman Kevin Warsh",
-      "source": "axios.com",
+      "source": "Axios",
       "date": "2026-07-30T07:00:00Z",
       "topic": "Rates & Macro",
       "summary": "",
       "link": "https://news.google.com/rss/articles/CBMiakFVX3lxTFA0NEdxQVJPR0RWdkJrb21mTU9qN2o2TmJfaVBhaTJXYTJyQlpzd1dPWG5UamgzU01xU2llbEdPQm55MUJDMjE5eHM3U3pQUTJsbUdTVWVGWlk3Q3VMcXplaEd0aHAtQnFQT2c?oc=5",
-      "isNew": false
-    },
-    {
-      "id": "03f58be01de2",
-      "title": "US regulators cite \u2018circular\u2019 risk in investments used by KKR and Apollo",
-      "source": "Financial Times",
-      "date": "2026-07-30T07:00:00Z",
-      "topic": "Insurance AM",
-      "summary": "",
-      "link": "https://news.google.com/rss/articles/CBMihAFBVV95cUxOVHhvNnFjS3NNQUR1TlgwZ3k0YUV1SzZWdE14ZHBLYk9ucmFGQ1A2TjFSWW5LcUtmd3c4andwdWFQQy02ZXBzdUROSGVBeEhKcU9VZno2dkdXVkxuNFU0ckVqTjBZS25nZFQ1d3hwVHpRMW5kQ1dxQ21TVzd4WEN1QWtEazA?oc=5",
       "isNew": false
     }
   ]
