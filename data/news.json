@@ -1,5 +1,5 @@
 {
-  "updated": "2026-08-09T13:19:40Z",
+  "updated": "2026-08-09T15:51:09Z",
   "topics": [
     "Insurance AM",
     "Private Credit",
@@ -8,23 +8,23 @@
   ],
   "items": [
     {
-      "id": "97e113c48c91",
-      "title": "Exclusive | Ratings Firm Accused of Grade Inflation Vouched for $40 Billion of Insurer Debt",
-      "source": "WSJ",
-      "date": "2026-08-09T02:12:45Z",
-      "topic": "Private Credit",
-      "summary": "",
-      "link": "https://news.google.com/rss/articles/CBMitgFBVV95cUxPMVRzejBxX28tZjNTWWwtRzBuenFCTGgycXBhTWxVamhOZ0pyVmt6NmpEM1NLT3RiY3BYUkp6NlhEeno5VHJNTVZuaWlBQ3RrMXhpd1VuSXJoM3NqT2NNSmUybkV2UFFjRkNOaHRUOENPc1JURFdhSHJRUDZjaVN2c1h2Q3ExY0NOclU4VnBjOFUwS2k5WXB4MmdwUVVSdnVCSFhuMmJxQXZlc3hFdm9ld2p2Mm01UQ?oc=5",
-      "isNew": false
-    },
-    {
       "id": "cab235bbbe5d",
       "title": "AGO Q2 Deep Dive: New Business Growth and Investment Volatility Shape Results",
-      "source": "tradingview.com",
+      "source": "TradingView",
       "date": "2026-08-07T16:20:49Z",
       "topic": "Structured Credit",
       "summary": "",
       "link": "https://news.google.com/rss/articles/CBMi0wFBVV95cUxQakNURUt5RDRfelhteWhNdTdzTWZFUmVCQnlKR1IwMGhSd2hSQzVSVUloeTl3eDVOVVhGY0RlSHFtNlNWa1RhR3BIcEVybWV4Q3pnSkhUNFVzd2loZDI0dlFXX1dyU18tNGRFN2tkZDZsSF8zdFcxSndRTERqYUNkT0lMdUx2bUN2Mm51U3RoclZpVkFEVEdNcms4c0hiejdvR2dHZmtMem11a3BNRkhEbFoweENtTkRzcFZ3bDRvUlMxcDZRakw2bXg0bWNJdG9Bdkpr?oc=5",
+      "isNew": false
+    },
+    {
+      "id": "97e113c48c91",
+      "title": "Exclusive | Ratings Firm Accused of Grade Inflation Vouched for $40 Billion of Insurer Debt",
+      "source": "wsj.com",
+      "date": "2026-08-07T02:02:00Z",
+      "topic": "Private Credit",
+      "summary": "",
+      "link": "https://news.google.com/rss/articles/CBMitgFBVV95cUxPMVRzejBxX28tZjNTWWwtRzBuenFCTGgycXBhTWxVamhOZ0pyVmt6NmpEM1NLT3RiY3BYUkp6NlhEeno5VHJNTVZuaWlBQ3RrMXhpd1VuSXJoM3NqT2NNSmUybkV2UFFjRkNOaHRUOENPc1JURFdhSHJRUDZjaVN2c1h2Q3ExY0NOclU4VnBjOFUwS2k5WXB4MmdwUVVSdnVCSFhuMmJxQXZlc3hFdm9ld2p2Mm01UQ?oc=5",
       "isNew": false
     },
     {
@@ -40,7 +40,7 @@
     {
       "id": "48810963de45",
       "title": "Delay, Deny, Defend, and Private Credit- II",
-      "source": "Substack",
+      "source": "contrarianunicus.substack.com",
       "date": "2026-08-06T10:21:56Z",
       "topic": "Structured Credit",
       "summary": "",
@@ -70,7 +70,7 @@
     {
       "id": "16824d59a45f",
       "title": "Allianz to Buy UOB Asset Management Unit as CEO Targets Asia",
-      "source": "insurancejournal.com",
+      "source": "Insurance Journal",
       "date": "2026-08-05T14:22:44Z",
       "topic": "Insurance AM",
       "summary": "",
@@ -110,7 +110,7 @@
     {
       "id": "73ef9bd2b4f6",
       "title": "Star Mountain closes first US direct lending CFO",
-      "source": "Alternative Credit Investor",
+      "source": "alternativecreditinvestor.com",
       "date": "2026-08-04T10:00:40Z",
       "topic": "Private Credit",
       "summary": "",
@@ -130,7 +130,7 @@
     {
       "id": "5a71e7f9ea91",
       "title": "Manulife | Comvest Credit Partners raises $5.4bn for largest direct lending fund",
-      "source": "Alternative Credit Investor",
+      "source": "alternativecreditinvestor.com",
       "date": "2026-08-03T15:36:48Z",
       "topic": "Structured Credit",
       "summary": "",
@@ -270,7 +270,7 @@
     {
       "id": "3504acd80371",
       "title": "Duration Is Not a Defense - I",
-      "source": "Substack",
+      "source": "contrarianunicus.substack.com",
       "date": "2026-07-30T16:10:46Z",
       "topic": "Private Credit",
       "summary": "",
@@ -280,7 +280,7 @@
     {
       "id": "0fefaaf95f52",
       "title": "Duration Is Not a Defense - I",
-      "source": "Substack",
+      "source": "contrarianunicus.substack.com",
       "date": "2026-07-30T16:10:46Z",
       "topic": "Structured Credit",
       "summary": "",
@@ -300,7 +300,7 @@
     {
       "id": "69b1a13475ea",
       "title": "Why the bond market is doubting Fed chairman Kevin Warsh",
-      "source": "Axios",
+      "source": "axios.com",
       "date": "2026-07-30T07:00:00Z",
       "topic": "Rates & Macro",
       "summary": "",
