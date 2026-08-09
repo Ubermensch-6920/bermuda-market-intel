@@ -1,5 +1,5 @@
 {
-  "updated": "2026-08-08T21:50:02Z",
+  "updated": "2026-08-09T02:33:12Z",
   "topics": [
     "Insurance AM",
     "Private Credit",
@@ -7,6 +7,16 @@
     "Structured Credit"
   ],
   "items": [
+    {
+      "id": "cab235bbbe5d",
+      "title": "AGO Q2 Deep Dive: New Business Growth and Investment Volatility Shape Results",
+      "source": "TradingView",
+      "date": "2026-08-07T16:20:49Z",
+      "topic": "Structured Credit",
+      "summary": "",
+      "link": "https://news.google.com/rss/articles/CBMi0wFBVV95cUxQakNURUt5RDRfelhteWhNdTdzTWZFUmVCQnlKR1IwMGhSd2hSQzVSVUloeTl3eDVOVVhGY0RlSHFtNlNWa1RhR3BIcEVybWV4Q3pnSkhUNFVzd2loZDI0dlFXX1dyU18tNGRFN2tkZDZsSF8zdFcxSndRTERqYUNkT0lMdUx2bUN2Mm51U3RoclZpVkFEVEdNcms4c0hiejdvR2dHZmtMem11a3BNRkhEbFoweENtTkRzcFZ3bDRvUlMxcDZRakw2bXg0bWNJdG9Bdkpr?oc=5",
+      "isNew": false
+    },
     {
       "id": "85a7f930b4a6",
       "title": "Loan Note: Private credit\u2019s biggest institutional supporters; experience our new platform",
@@ -50,7 +60,7 @@
     {
       "id": "16824d59a45f",
       "title": "Allianz to Buy UOB Asset Management Unit as CEO Targets Asia",
-      "source": "insurancejournal.com",
+      "source": "Insurance Journal",
       "date": "2026-08-05T14:22:44Z",
       "topic": "Insurance AM",
       "summary": "",
@@ -160,7 +170,7 @@
     {
       "id": "1db6c6ab9070",
       "title": "What is private credit?",
-      "source": "BlackRock",
+      "source": "blackrock.com",
       "date": "2026-08-03T08:30:33Z",
       "topic": "Private Credit",
       "summary": "",
@@ -190,7 +200,7 @@
     {
       "id": "1f0fb0b59cab",
       "title": "The Quiet Taxpayer Backstop Behind Private Credit",
-      "source": "nai500.com",
+      "source": "NAI500",
       "date": "2026-07-31T10:24:50Z",
       "topic": "Structured Credit",
       "summary": "",
@@ -210,7 +220,7 @@
     {
       "id": "f0ed10818097",
       "title": "A Credibility Gap at the Fed: Why Bond Yields Are Surging",
-      "source": "barrons.com",
+      "source": "Barron's",
       "date": "2026-07-31T07:00:00Z",
       "topic": "Rates & Macro",
       "summary": "",
@@ -295,16 +305,6 @@
       "topic": "Insurance AM",
       "summary": "",
       "link": "https://news.google.com/rss/articles/CBMihAFBVV95cUxOVHhvNnFjS3NNQUR1TlgwZ3k0YUV1SzZWdE14ZHBLYk9ucmFGQ1A2TjFSWW5LcUtmd3c4andwdWFQQy02ZXBzdUROSGVBeEhKcU9VZno2dkdXVkxuNFU0ckVqTjBZS25nZFQ1d3hwVHpRMW5kQ1dxQ21TVzd4WEN1QWtEazA?oc=5",
-      "isNew": false
-    },
-    {
-      "id": "9aef4c4cfbf5",
-      "title": "US borrowing costs hit 19-year high as Fed holds interest rates",
-      "source": "theguardian.com",
-      "date": "2026-07-30T07:00:00Z",
-      "topic": "Rates & Macro",
-      "summary": "",
-      "link": "https://news.google.com/rss/articles/CBMiqAFBVV95cUxNTllPdnJlUkhYSWRnVEhmNV8zYTFHWHdSOGdMbVlCWmJuQTZRZTUzM1JoODg1VTJUYnhEbndKOGhVWE02cjFoRGRCRW1IOWY3Z1p3WEljN0lvVGlJNmJlVnJhSURJYnVvYVZOZ09qaXNUaDh1aUhwUWxrYk9hb3lNU2R1WDlxWmJMcFFJUmEwbjRQMDJ1YjRudVdhTmZWTTRybFQzTUdOem4?oc=5",
       "isNew": false
     }
   ]

@@ -1,5 +1,5 @@
 {
-  "updated": "2026-08-08T21:50:02Z",
+  "updated": "2026-08-09T02:33:12Z",
   "naic": [
     {
       "id": "af0f22da8be9",
@@ -17,7 +17,7 @@
       "date": "2026-08-05",
       "cat": "General",
       "summary": "",
-      "source": "mondaq.com",
+      "source": "Mondaq",
       "link": "https://news.google.com/rss/articles/CBMivAFBVV95cUxOQmZzalZNTTEtS2VBUGdETE53MWtYVk44bmJnQVhLMUVNUUF6NGtYU0NGUFhSdlhWUEs2TS01UUs2bEI1U0FPVDRib3BsMm5TaGdmUTJ2VVR4aGpYcV9EejRtRWdDNG9jVnFwQzZMMURyTTNHbENrQlJFUnN3dV91dk9Haks4bWoyMFgwZjRRWFFWaWxXOTBCbWhPYU1KcXZhUkxwWlMwbFhqVEdVTmRpd3V1RC1VOE14NElDdA?oc=5",
       "isNew": true
     },
@@ -451,7 +451,7 @@
       "summary": "",
       "source": "Royal Gazette | Bermuda",
       "link": "https://news.google.com/rss/articles/CBMiywFBVV95cUxNaTJ1ZlhIX1lqVFhhRlFUU1NIdVhBTjJNSU9SYW1rLUZDaE1LSnpVczZrWGtLQnVuNnIyaUZ5YXVydHItZDJBV2hkRHBaNV9kTFRSOFpzcVdZaEhodE1RbEN2SVEySUdORlNQYXBDWXlBUkZ4OFp6N19yTmFHNUs1U0w4Z21kMGt2TEhXd3lNR2s1WXB4WUdpa2c0bFhsN2xjcHFlR1FoUVZNZzNFZFNfR2hQVFFEN09YVTNSdHl5aFpGd2VaX1NMQ1dfVQ?oc=5",
-      "isNew": true
+      "isNew": false
     },
     {
       "id": "52447a15c3ed",
@@ -461,7 +461,7 @@
       "summary": "",
       "source": "Royal Gazette | Bermuda",
       "link": "https://news.google.com/rss/articles/CBMiywFBVV95cUxNaTJ1ZlhIX1lqVFhhRlFUU1NIdVhBTjJNSU9SYW1rLUZDaE1LSnpVczZrWGtLQnVuNnIyaUZ5YXVydHItZDJBV2hkRHBaNV9kTFRSOFpzcVdZaEhodE1RbEN2SVEySUdORlNQYXBDWXlBUkZ4OFp6N19yTmFHNUs1U0w4Z21kMGt2TEhXd3lNR2s1WXB4WUdpa2c0bFhsN2xjcHFlR1FoUVZNZzNFZFNfR2hQVFFEN09YVTNSdHl5aFpGd2VaX1NMQ1dfVQ?oc=5",
-      "isNew": true
+      "isNew": false
     },
     {
       "id": "0c5087e8a94e",
@@ -511,7 +511,7 @@
       "date": "2026-08-04",
       "cat": "General",
       "summary": "",
-      "source": "The Lake Sun",
+      "source": "lakenewsonline.com",
       "link": "https://news.google.com/rss/articles/CBMiygFBVV95cUxPMmg5eV93enktSGpTazdmWDk2Q1pQWTBDcXgyYjZMTklkaWNwT21hUTZYTmVpSWVUSWpsQ3JxMzFZWG1EaVVBYUxxSnZBZ1RVYWNHLUJKMGwtZkowdXpYaTIwalFRUU1wWWhZRHFYeXNSSzJaa2ZOTzRLNGo2YkUxUXFqNlRicEVMdVhKZW1KMEoyYnNpS0Vqa3g0cUdTSXhIUFVTVVE4Q3Jyejd2YUxoWllIVUlUTjg1a0tmLWJpWlNtSWM5b3BzbUNn?oc=5",
       "isNew": true
     },
@@ -541,7 +541,7 @@
       "date": "2026-07-29",
       "cat": "General",
       "summary": "",
-      "source": "Insurance Business",
+      "source": "insurancebusinessmag.com",
       "link": "https://news.google.com/rss/articles/CBMiywFBVV95cUxPS2lqcVB0NzVrNldvOTNtUTVjNnZTOWdUdjVtMmhvX0ZRUlA2UEt1SFF0QVlJd3dybmE3U1JiNF80TVloYmhjLXNlQWlSMHItZW1CdDlsdklOZ0lhc3E2V0RIeTlVejZxcEdCN2ZiU21Sa016QlQxMGJ6MG5OZ1dnUXQyT21QVjNTaWVWRmFGUm5kSktsanFtQnd6OEo4MFk2bnZHOVBKS2ZBaU5CNjRiWmMxd1Q1YmlKRW1LWDMyZ05RaWVnQWlVZHpqTQ?oc=5",
       "isNew": true
     },
@@ -611,7 +611,7 @@
       "date": "2026-07-14",
       "cat": "General",
       "summary": "",
-      "source": "Insurance Business",
+      "source": "insurancebusinessmag.com",
       "link": "https://news.google.com/rss/articles/CBMi2gFBVV95cUxOWEI0T3hNdnh5M0U2ekhDYWJRRnplN3g1ZDVheG9NRUZwR2lxUjJaVDhLSkFGdjRWWENGRkJVVjJwQ0FMY05KenJha1JHZkd3em0wczVrOXFYbks4UGxfQUg0NDJQUVlQQ0hVOFNGWmsyMXM5NFlTV3F2YmlxbWQ3alZDcHQ1ajktRUhnTkdNX3Bia1dON3RVSGdqa1I1ZzNlWnNCX0Y5VU5SR2lpanlhSjRvc1pWUFlHN3FxbkZtM0NUVXc5NlRlWHAtTUoxX3lTTEdiYUpDTnZTUQ?oc=5",
       "isNew": true
     },
