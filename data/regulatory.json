@@ -1,5 +1,5 @@
 {
-  "updated": "2026-08-10T16:13:26Z",
+  "updated": "2026-08-10T19:21:37Z",
   "naic": [
     {
       "id": "d950717522c9",
@@ -107,7 +107,7 @@
       "date": "2026-08-03",
       "cat": "General",
       "summary": "",
-      "source": "InsuranceNewsNet",
+      "source": "insurancenewsnet.com",
       "link": "https://news.google.com/rss/articles/CBMirwFBVV95cUxOQkxaUFNUR1VaUlJCa1phRkMzektNeVA4c3dQUTNEY2J0d2hhRGpVYXJZcUhhcmNuMnpjLUE5STE0eUtKVVRFNExZYlZkYS1WZXZrbm00cjA4NDNzRGRHM3Z3RW1wU1Q0RUdyTWRhT1EyOUp0VGxDSDNLdURhd1FkWTkwVGNVUTMwTXhnaDRKX2hDeHEwdzdtX3R0dm1tLUVVYXZid0FvSHAzU2l3Mkpr?oc=5",
       "isNew": true
     },
@@ -117,7 +117,7 @@
       "date": "2026-08-01",
       "cat": "General",
       "summary": "",
-      "source": "Daily Trust",
+      "source": "dailytrust.com",
       "link": "https://news.google.com/rss/articles/CBMijwFBVV95cUxNbUhRV3JrMFdNTlVDamNQYlRlS0xGc0dBdzZqVGJuX3hyZkhueTNWR0dpYzFvTGl6NndPdHUtUVZEZ3VEMmxqWHpvY0UzT2xFWWtyUmM2X3FobWlHQkxUeVRwMlhBMTFoRDE3Z2VTQ3MtcWwzRlZBTHRNUGU5Y085WjZyYm5XLUtNS2U5d3FtWQ?oc=5",
       "isNew": true
     },
@@ -329,7 +329,7 @@
       "date": "2026-07-22",
       "cat": "General",
       "summary": "",
-      "source": "Artemis.bm",
+      "source": "artemis.bm",
       "link": "https://news.google.com/rss/articles/CBMipAFBVV95cUxOM1B5X2ZUMThlOWl6Z2kyUWQ2cWpPLUM4a1ZiSXBaR2VPVmRLRjBzbWoyX2lxNkp6RElEUllTWDNibE5hYTFsV293RGJOcGdnT0R6SldVLWRMX2JFa3I0ZW1FUjlLTFJFVW9ReXlTN3ZqTVBiVHpoRVdzZENGYzFNdlBrQjY3MEJmUjZIQ2gtSDJXR0t1WlJ5VUsxaVNFMDdHeXduSQ?oc=5",
       "isNew": true
     },
@@ -505,6 +505,16 @@
     }
   ],
   "cayman": [
+    {
+      "id": "f2653fba4be5",
+      "title": "Chanas Assurances Plans to Double Capital, With CFA3.33 Billion in New Cash",
+      "date": "2026-08-10",
+      "cat": "Capital/Solvency",
+      "summary": "",
+      "source": "businessincameroon.com",
+      "link": "https://news.google.com/rss/articles/CBMiygFBVV95cUxPNHFnd25oZlJXbWpqRU13ZFM5eVZZZHdNMS1SU0s0WF95QWJwZ0dEMGNHaFl4Sl9ZcWdVaExoNXBSaUZxS3VSSElGZGc4YWowVG1WSDcyM1VWZ1h3OW5aWmNWbkhUUFN6Z3Qwc21kaE1VR0VxNG84eGRHZmtLZl9Bc2lwVHk5X1NtTHQtS2JyMlFEN0dlT0tyMDBybENFZTdpSWRTa3RCdzQ3aXFNRmdCNUFYQlh4dEdhNlhPdlNOSmhOdXdiWEQzUFB3?oc=5",
+      "isNew": true
+    },
     {
       "id": "1b6e78109297",
       "title": "HK\u2019s Tournament nets record-breaking $190,560 benefiting heart care at Lake Regional Health System",
@@ -743,16 +753,6 @@
       "summary": "",
       "source": "Captive Insurance Times",
       "link": "https://news.google.com/rss/articles/CBMi3wFBVV95cUxQdXVXdmg0N0xOakJ4ZGhNQkhjU0R1RGdzY0hMWFN4Zmt6bUQtMElYczY4a0l4aXV1RnRpY0h0dldSaWxPSHF3T1doNm03OUFOMzlmdldNeTJxc29xRHEwa3lGSnJsQnpxUUV6REFqVUxJanFKNWY3WmVqanpCd1dMclFEUl9DZWJTUTlyakJDN0hSbEZ6VU54Y2hhUVh0RE1jYWpMclQ2UW1VaDJYQlluWk4tb05ScWdCMUQ2eUJINExxbjFTZzJCX093dXNibUFoc2FjbkpOZFdUbWlONnlv?oc=5",
-      "isNew": false
-    },
-    {
-      "id": "4a2115337b69",
-      "title": "Cayman Reinsurance: setting the record straight",
-      "date": "2026-04-15",
-      "cat": "General",
-      "summary": "",
-      "source": "Captive International",
-      "link": "https://news.google.com/rss/articles/CBMiiwFBVV95cUxNX0FYQWxDb18zWldBYkliSmJtS3BhT0xleExUUGRKSHczM3lOcUU3OFNmLVpFdnZpbXRBSXNrSkxrM1R0a21tVFdHeFJxX0FsYWUtRmVmdXl0bHhVN1RPdm0walFtR3E0dHM2bjZ5ZmszM25kMFpmSkRTb01DR29MLWNxUjhrTURBNFVV?oc=5",
       "isNew": false
     }
   ]
