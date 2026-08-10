@@ -1,5 +1,5 @@
 {
-  "updated": "2026-08-10T04:58:14Z",
+  "updated": "2026-08-10T08:08:15Z",
   "topics": [
     "Insurance AM",
     "Private Credit",
@@ -7,6 +7,16 @@
     "Structured Credit"
   ],
   "items": [
+    {
+      "id": "017d334e74bc",
+      "title": "Hamilton Insurance Group Q2 Earnings Call Highlights",
+      "source": "es.tradingview.com",
+      "date": "2026-08-08T12:03:56Z",
+      "topic": "Insurance AM",
+      "summary": "",
+      "link": "https://news.google.com/rss/articles/CBMisgFBVV95cUxQc05iQWJ1UktrSW5WNFZQakNzRHBqZnJuR2hfSmNJVmZhd0lkaExISFNkc0xzT2I0M3kwWDY3OVBhdWhhNlJTMUkwbjBNZHRTNjFpb2dFeWhGN1V0N1BpVTB4WmtJSHU5UmdiSFY1cFN3ektEUHBjNWp5WDUxY01uQjNySUo3RW5mOC1hZmZjTndUWkVkaTg5aFhCVkR3UmJWVmRHNjRtQXo5NW0zcDBaRnVR?oc=5",
+      "isNew": false
+    },
     {
       "id": "cab235bbbe5d",
       "title": "AGO Q2 Deep Dive: New Business Growth and Investment Volatility Shape Results",
@@ -60,7 +70,7 @@
     {
       "id": "89884fbe90f5",
       "title": "Correlations turn positive, equity & bonds, risk assets & government bond",
-      "source": "BNY",
+      "source": "bny.com",
       "date": "2026-08-05T19:39:52Z",
       "topic": "Rates & Macro",
       "summary": "",
@@ -75,6 +85,16 @@
       "topic": "Insurance AM",
       "summary": "",
       "link": "https://news.google.com/rss/articles/CBMifkFVX3lxTFB0Q3VZYVd2QXBVeG0zWXZCZWVvN0VHN0Y2S1dLZ1lhaUNTV1VyMXU3UnUzNlpDajRTSHpCbG84VzJNOHhWZGNNc3ZkRGc1eWRTbkttMFo1dWpzb1o5MVAxV2JocTZIb3pLVEl6MWdtNDlaaUNPU2UyMEFWT1dwUQ?oc=5",
+      "isNew": false
+    },
+    {
+      "id": "c3f2acb866e3",
+      "title": "Treasury yields are steady as Kashkari says time to raise rates, ADP jobs data is weak",
+      "source": "CNBC",
+      "date": "2026-08-05T08:54:44Z",
+      "topic": "Rates & Macro",
+      "summary": "",
+      "link": "https://news.google.com/rss/articles/CBMieEFVX3lxTFBqeUZYeWVxdV82bE53TFRVazUtcTYyZ3ZKRnBGS1IzUkVybHBaemNuYXEya1JQU3hkNE9COFF6Rzk0OFd2X2JOQnloWklFU1RCdHlfSEdrLVFYY21kbFBjWmN4NXNHanZ0R0hwbFdMQkdVN2llamd2S9IBfkFVX3lxTFBxaDZxUHR3aDJBREVlN1VETGJ2aTdtaFltX2JLRXdTY2pUQW4wbVJCVGI2bUZKWExFdmlPTVBKOWFyRDdSMWU3cUlQaEdLaEdva21PNVN4M2dWQ3F3RzB2amZIQy1jZFdkUUxUb2w3emxKMm5ZQkVXbmVMUHR3dw?oc=5",
       "isNew": false
     },
     {
@@ -115,6 +135,16 @@
       "topic": "Private Credit",
       "summary": "",
       "link": "https://news.google.com/rss/articles/CBMinwFBVV95cUxNSHhZbjl6VkJQZ1JIOHVveWJUS2RhQVNxOHoyYlA2cG9acHYzc09IVnYwdlpuc3hsMXpKX3lsMV9fYWJwMkNadDQyaURFclBDQnpCYWluOXJVbG9rRlJwMWZMbFE3LTBFbWZRYUpYTlB0ZlRsRVFnWW92WmNIMk92UnR4bExnRTBnRXJCNmxwZkdGOGY4QW5xU29KUkpQVDA?oc=5",
+      "isNew": false
+    },
+    {
+      "id": "fb05340dc21f",
+      "title": "Apollo fees and insurance earnings rise, asset sales slow in second quarter",
+      "source": "The Mighty 790 KFGO",
+      "date": "2026-08-04T07:00:00Z",
+      "topic": "Insurance AM",
+      "summary": "",
+      "link": "https://news.google.com/rss/articles/CBMipgFBVV95cUxNS3ptd0JobVBod1l3Q2tvb0lJLVF4UXpQVW9mTzgxWWtjS2tmUlFhM1l3OFhZMVA4T1k4SDFuckNDNFNQdkFfOHhtaUVweWhLYXFKclNMcnMzRTloanNvLUJCSFNyajY1ejI0VklGUVZ2eW1yQ0daS0FwbUNJZE12TTNKR3JyOGhFVE9tWWdMa2o0Z1pZX0pXUldyTTQ2ZW85ZWVoTGRn?oc=5",
       "isNew": false
     },
     {
@@ -160,7 +190,7 @@
     {
       "id": "1611755c0c68",
       "title": "Opinion: Private credit has a ratings problem and regulators need to step in",
-      "source": "marketwatch.com",
+      "source": "MarketWatch",
       "date": "2026-08-03T11:00:00Z",
       "topic": "Private Credit",
       "summary": "",
@@ -275,36 +305,6 @@
       "topic": "Private Credit",
       "summary": "",
       "link": "https://news.google.com/rss/articles/CBMidkFVX3lxTE5PVkxpZ0p0NDZ1UFJtazZ5Q0dzTk1mNE1yVU9zcjdubV9PVm03VUhaQUVhd3ZSM1MzYWVpY25oUG9yVzNPQkhxSjJ0QUxTVFMydnNwV3lJOFlnVkFxZzhTZjVpS0hoY3RzbzNpdnhXWW90TFhoTVE?oc=5",
-      "isNew": false
-    },
-    {
-      "id": "0fefaaf95f52",
-      "title": "Duration Is Not a Defense - I",
-      "source": "Substack",
-      "date": "2026-07-30T16:10:46Z",
-      "topic": "Structured Credit",
-      "summary": "",
-      "link": "https://news.google.com/rss/articles/CBMidkFVX3lxTE5PVkxpZ0p0NDZ1UFJtazZ5Q0dzTk1mNE1yVU9zcjdubV9PVm03VUhaQUVhd3ZSM1MzYWVpY25oUG9yVzNPQkhxSjJ0QUxTVFMydnNwV3lJOFlnVkFxZzhTZjVpS0hoY3RzbzNpdnhXWW90TFhoTVE?oc=5",
-      "isNew": false
-    },
-    {
-      "id": "1a792c82cf71",
-      "title": "Bank of England policymakers keep rates on hold but more back hike",
-      "source": "Reuters",
-      "date": "2026-07-30T15:19:43Z",
-      "topic": "Rates & Macro",
-      "summary": "",
-      "link": "https://news.google.com/rss/articles/CBMiqAFBVV95cUxON24tWUZsQXpzcU1NZmF6MXNMODZpeGVsb0hDdjJyWk9OWVMxVkVzMC15Yzd1clE5d3J0MGU0M0hEUG9RWEhsRXhCZ0Y5clhBM19mb3FreTR0NXJwajJjMEVoeDRydXRiYmtJS2o3ZVpPZkIyX1UwRTFUa1pyQkpjUjZ4bUJTOG9McUVWeGhoMlpDQ2ctQXh2UmhrN0xJUEtEeFN4SnVvR0U?oc=5",
-      "isNew": false
-    },
-    {
-      "id": "69b1a13475ea",
-      "title": "Why the bond market is doubting Fed chairman Kevin Warsh",
-      "source": "Axios",
-      "date": "2026-07-30T07:00:00Z",
-      "topic": "Rates & Macro",
-      "summary": "",
-      "link": "https://news.google.com/rss/articles/CBMiakFVX3lxTFA0NEdxQVJPR0RWdkJrb21mTU9qN2o2TmJfaVBhaTJXYTJyQlpzd1dPWG5UamgzU01xU2llbEdPQm55MUJDMjE5eHM3U3pQUTJsbUdTVWVGWlk3Q3VMcXplaEd0aHAtQnFQT2c?oc=5",
       "isNew": false
     }
   ]
