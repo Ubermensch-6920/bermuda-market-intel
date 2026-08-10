@@ -1,5 +1,5 @@
 {
-  "updated": "2026-08-09T21:52:41Z",
+  "updated": "2026-08-10T02:38:55Z",
   "topics": [
     "Insurance AM",
     "Private Credit",
@@ -40,7 +40,7 @@
     {
       "id": "48810963de45",
       "title": "Delay, Deny, Defend, and Private Credit- II",
-      "source": "Substack",
+      "source": "contrarianunicus.substack.com",
       "date": "2026-08-06T10:21:56Z",
       "topic": "Structured Credit",
       "summary": "",
@@ -70,7 +70,7 @@
     {
       "id": "16824d59a45f",
       "title": "Allianz to Buy UOB Asset Management Unit as CEO Targets Asia",
-      "source": "Insurance Journal",
+      "source": "insurancejournal.com",
       "date": "2026-08-05T14:22:44Z",
       "topic": "Insurance AM",
       "summary": "",
@@ -170,7 +170,7 @@
     {
       "id": "107b985c83e4",
       "title": "The AI Bailout Could Be Baked Into the AI Bubble",
-      "source": "prospect.org",
+      "source": "The American Prospect",
       "date": "2026-08-03T09:15:00Z",
       "topic": "Private Credit",
       "summary": "",
@@ -198,19 +198,9 @@
       "isNew": false
     },
     {
-      "id": "639efc914247",
-      "title": "Bond sell-off sent warning on Federal Reserve\u2019s credibility, says top central bank official",
-      "source": "Financial Times",
-      "date": "2026-07-31T23:10:23Z",
-      "topic": "Rates & Macro",
-      "summary": "",
-      "link": "https://news.google.com/rss/articles/CBMihAFBVV95cUxOUlJuWU9UQlBuWUdqeXowNUhVdnpTTVMtb0hqRVB0X2dDNUNLbDBfd1k4eVB3T0VfR25sUjNDcjhZcVZwZXpOVnJCNkRieGE0MFBVMjBKc0xSZ251WDhnU2ZCczFBZlpXU09LQWZKenpPbFFCSGRuVUJldjZhWUZkUDhGZFk?oc=5",
-      "isNew": false
-    },
-    {
       "id": "1f0fb0b59cab",
       "title": "The Quiet Taxpayer Backstop Behind Private Credit",
-      "source": "nai500.com",
+      "source": "NAI500",
       "date": "2026-07-31T10:24:50Z",
       "topic": "Structured Credit",
       "summary": "",
@@ -228,9 +218,19 @@
       "isNew": false
     },
     {
+      "id": "639efc914247",
+      "title": "Bond sell-off sent warning on Federal Reserve\u2019s credibility, says top central bank official",
+      "source": "Financial Times",
+      "date": "2026-07-31T07:00:00Z",
+      "topic": "Rates & Macro",
+      "summary": "",
+      "link": "https://news.google.com/rss/articles/CBMihAFBVV95cUxOUlJuWU9UQlBuWUdqeXowNUhVdnpTTVMtb0hqRVB0X2dDNUNLbDBfd1k4eVB3T0VfR25sUjNDcjhZcVZwZXpOVnJCNkRieGE0MFBVMjBKc0xSZ251WDhnU2ZCczFBZlpXU09LQWZKenpPbFFCSGRuVUJldjZhWUZkUDhGZFk?oc=5",
+      "isNew": false
+    },
+    {
       "id": "f0ed10818097",
       "title": "A Credibility Gap at the Fed: Why Bond Yields Are Surging",
-      "source": "Barron's",
+      "source": "barrons.com",
       "date": "2026-07-31T07:00:00Z",
       "topic": "Rates & Macro",
       "summary": "",
@@ -270,7 +270,7 @@
     {
       "id": "3504acd80371",
       "title": "Duration Is Not a Defense - I",
-      "source": "Substack",
+      "source": "contrarianunicus.substack.com",
       "date": "2026-07-30T16:10:46Z",
       "topic": "Private Credit",
       "summary": "",
@@ -280,7 +280,7 @@
     {
       "id": "0fefaaf95f52",
       "title": "Duration Is Not a Defense - I",
-      "source": "Substack",
+      "source": "contrarianunicus.substack.com",
       "date": "2026-07-30T16:10:46Z",
       "topic": "Structured Credit",
       "summary": "",
