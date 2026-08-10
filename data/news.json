@@ -1,5 +1,5 @@
 {
-  "updated": "2026-08-10T10:40:25Z",
+  "updated": "2026-08-10T13:49:20Z",
   "topics": [
     "Insurance AM",
     "Private Credit",
@@ -8,9 +8,29 @@
   ],
   "items": [
     {
+      "id": "f874c4bade7e",
+      "title": "Private Credit Faces Its First True Stress Test",
+      "source": "Global Banking & Finance Review",
+      "date": "2026-08-10T11:39:14Z",
+      "topic": "Private Credit",
+      "summary": "",
+      "link": "https://news.google.com/rss/articles/CBMikgFBVV95cUxQeUlneW1xT1pnbWZCN3F5T0hOb1VYaGpIMTk0djRPM1IxT1k3aEx6WU04dkhoNzVuLTBLZEdsTURfcUdxLTBjQnZxaDdOSWpBZFFUM0JUN0FvRS1XeG85NDZZeEQ2SDdEUDRic1VieTlpUE9ZWWl3TUVuZHZCbnlCdVB5V25UdHVkcnplcXlfeHV0QQ?oc=5",
+      "isNew": false
+    },
+    {
+      "id": "d3757cb0eab2",
+      "title": "BOJ's rate-hike path runs into Takaichi's bond market problems",
+      "source": "Reuters",
+      "date": "2026-08-10T08:29:18Z",
+      "topic": "Rates & Macro",
+      "summary": "",
+      "link": "https://news.google.com/rss/articles/CBMitgFBVV95cUxQMVU4YTMyZzBlVkRSS1puYTluVjgycklHS2dRbnVCSkxVMWdjcEUtdlZ0NVpIakhpckplY0dGSGQyOFkxQmhpTnMzT0dRNWlfRHg5R2MzQ3BUcV90cTFjMlF5elB3SUVlMWloQnpleUowUHNHSFJKeW1iV2lkNnhtdGtWUURyQi1DcURaaG1SR18xa3lmd2MtaEsyb2E1Q082c25nX2E3UEYzV0JJcUQxOGNfMFZrdw?oc=5",
+      "isNew": false
+    },
+    {
       "id": "017d334e74bc",
       "title": "Hamilton Insurance Group Q2 Earnings Call Highlights",
-      "source": "es.tradingview.com",
+      "source": "TradingView",
       "date": "2026-08-08T12:03:56Z",
       "topic": "Insurance AM",
       "summary": "",
@@ -285,26 +305,6 @@
       "topic": "Rates & Macro",
       "summary": "",
       "link": "https://news.google.com/rss/articles/CBMie0FVX3lxTFA5M2JUZmtLaG40NWNPMk9GWVctX3dLUTNSRFl2WHdQSU9BQ1FsY01DUUtIcTdRRUNKZXcyb0tuREhlZEdGSDR6T2Z5REpqbmZsUnZwZkVUZU0xUi1qZWxHN2dia2dIWmtPLThPRmJBQmcyb2VQY3ZwdndLUQ?oc=5",
-      "isNew": false
-    },
-    {
-      "id": "1f25a4879c7d",
-      "title": "Average 30-year US mortgage rate rises to highest level in a year at 6.66%",
-      "source": "ABC7 New York",
-      "date": "2026-07-30T18:53:22Z",
-      "topic": "Rates & Macro",
-      "summary": "",
-      "link": "https://news.google.com/rss/articles/CBMilAFBVV95cUxOYW9IeUxhOHp1N2VqblVEblFsRzZvazV1d1V2Qjc5NmdIeUFuUmFHVzJoRHVEQkhBbEZJSXdYaGNaeUEwWDhXYi1qWVlfSlRLQW0xY1JpLVBNbDRvaVROZkk2SUF1X2pLZVNjWUtfNDRBa0Qxa1JWc0tqQzQwdm4xNFZreDVnX3J6Y3VYWUs1T1lEODNX0gGaAUFVX3lxTE1kbnVFM3pkZkRWZDdVOXEtLVp2TGt2dUFfTlMyQjJTMGw1emEzOGR1ZjJHSW1JZEdoYkZnS19KQ2s0OElIYlltMHJ6RTlTVDIzREV0LTZ6Q3lFd0k4WHBqNlFJdlBQOUlrMVJpTm1sdnhwZ2ZjQXNxMWp4YlN1SHpfdEtJaXNmcGlBMVp5Um1aeDhBYWtpdklYenc?oc=5",
-      "isNew": false
-    },
-    {
-      "id": "3504acd80371",
-      "title": "Duration Is Not a Defense - I",
-      "source": "Substack",
-      "date": "2026-07-30T16:10:46Z",
-      "topic": "Private Credit",
-      "summary": "",
-      "link": "https://news.google.com/rss/articles/CBMidkFVX3lxTE5PVkxpZ0p0NDZ1UFJtazZ5Q0dzTk1mNE1yVU9zcjdubV9PVm03VUhaQUVhd3ZSM1MzYWVpY25oUG9yVzNPQkhxSjJ0QUxTVFMydnNwV3lJOFlnVkFxZzhTZjVpS0hoY3RzbzNpdnhXWW90TFhoTVE?oc=5",
       "isNew": false
     }
   ]
