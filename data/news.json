@@ -1,5 +1,5 @@
 {
-  "updated": "2026-08-11T04:44:39Z",
+  "updated": "2026-08-11T07:41:50Z",
   "topics": [
     "Insurance AM",
     "Private Credit",
@@ -10,7 +10,7 @@
     {
       "id": "d3757cb0eab2",
       "title": "BOJ's rate-hike path runs into Takaichi's bond market problems",
-      "source": "reuters.com",
+      "source": "Reuters",
       "date": "2026-08-10T23:08:35Z",
       "topic": "Rates & Macro",
       "summary": "",
@@ -70,7 +70,7 @@
     {
       "id": "85a7f930b4a6",
       "title": "Loan Note: Private credit\u2019s biggest institutional supporters; experience our new platform",
-      "source": "privatedebtinvestor.com",
+      "source": "Private Debt Investor",
       "date": "2026-08-06T13:38:53Z",
       "topic": "Private Credit",
       "summary": "",
@@ -163,6 +163,16 @@
       "source": "Reinsurance News",
       "date": "2026-08-04T10:33:27Z",
       "topic": "Structured Credit",
+      "summary": "",
+      "link": "https://news.google.com/rss/articles/CBMi0wFBVV95cUxQRmNuMWhpTzZlVG9VTEd1TExSM2JMb1QzS0NFeTJWdnlwdW05Zm9DcDNIYlBOcnkxSGtPZlNFTGgwSWFIVlAyQWQ4V3hIc0c5UWZnY09sM21mXzFvUEs3dy1CS0prLWRsMk9iMnBEVGZJWXVsRTJ0RG9Xc0IyN3RzS1VaUVZQUllWQUZZZ294ZUkwNkt1WkZBVG5iWTdteUpCZzVoMHNSS2h5UHFBemY5U241NUVMX3l0NmtqTWxRWUJfWDJueVhWVTVqOGJZSlF5WG5j?oc=5",
+      "isNew": false
+    },
+    {
+      "id": "2d5186e7c2a3",
+      "title": "European insurers prioritising infrastructure debt and structured credit amid Solvency II changes: Novantigo",
+      "source": "Reinsurance News",
+      "date": "2026-08-04T10:33:27Z",
+      "topic": "Private Credit",
       "summary": "",
       "link": "https://news.google.com/rss/articles/CBMi0wFBVV95cUxQRmNuMWhpTzZlVG9VTEd1TExSM2JMb1QzS0NFeTJWdnlwdW05Zm9DcDNIYlBOcnkxSGtPZlNFTGgwSWFIVlAyQWQ4V3hIc0c5UWZnY09sM21mXzFvUEs3dy1CS0prLWRsMk9iMnBEVGZJWXVsRTJ0RG9Xc0IyN3RzS1VaUVZQUllWQUZZZ294ZUkwNkt1WkZBVG5iWTdteUpCZzVoMHNSS2h5UHFBemY5U241NUVMX3l0NmtqTWxRWUJfWDJueVhWVTVqOGJZSlF5WG5j?oc=5",
       "isNew": false
@@ -270,7 +280,7 @@
     {
       "id": "1f0fb0b59cab",
       "title": "The Quiet Taxpayer Backstop Behind Private Credit",
-      "source": "NAI500",
+      "source": "nai500.com",
       "date": "2026-07-31T10:24:50Z",
       "topic": "Structured Credit",
       "summary": "",
@@ -295,16 +305,6 @@
       "topic": "Rates & Macro",
       "summary": "",
       "link": "https://news.google.com/rss/articles/CBMihAFBVV95cUxOUlJuWU9UQlBuWUdqeXowNUhVdnpTTVMtb0hqRVB0X2dDNUNLbDBfd1k4eVB3T0VfR25sUjNDcjhZcVZwZXpOVnJCNkRieGE0MFBVMjBKc0xSZ251WDhnU2ZCczFBZlpXU09LQWZKenpPbFFCSGRuVUJldjZhWUZkUDhGZFk?oc=5",
-      "isNew": false
-    },
-    {
-      "id": "f0ed10818097",
-      "title": "A Credibility Gap at the Fed: Why Bond Yields Are Surging",
-      "source": "Barron's",
-      "date": "2026-07-31T07:00:00Z",
-      "topic": "Rates & Macro",
-      "summary": "",
-      "link": "https://news.google.com/rss/articles/CBMid0FVX3lxTE5veU1tYmtqWnlTU2xtS0lwRFN3MDVMNjFTRHVUSHdTYzlBLTVJUGdnWmN3enpUX25KbHVNU1dXXzBweW9aZ1ZLTEpaYjltdTJiQ3U3SnFTUy15RmFrc0xvRnlUNnRMTzhOU1MzM1FRUU42dnhvQVVr?oc=5",
       "isNew": false
     }
   ]
