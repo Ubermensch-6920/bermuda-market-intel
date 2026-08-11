@@ -1,5 +1,5 @@
 {
-  "updated": "2026-08-11T19:24:38Z",
+  "updated": "2026-08-11T22:09:29Z",
   "topics": [
     "Insurance AM",
     "Private Credit",
@@ -8,9 +8,19 @@
   ],
   "items": [
     {
+      "id": "6c2b46916215",
+      "title": "When The AI Bubble Bursts, Who Will Be Left Holding The Bag? \u2013 OpEd",
+      "source": "Eurasia Review",
+      "date": "2026-08-11T21:59:57Z",
+      "topic": "Private Credit",
+      "summary": "",
+      "link": "https://news.google.com/rss/articles/CBMipgFBVV95cUxQQTlUdFlUUjBSRms1TEd2Sm52Y2FiSUxrRUc5UGNBeTBlYUsyVXdONHByRmViNzBfcTFobi03TldEenpWaEZXaUFNTlctb1cwZGE4djF2SnVvWjByekc1TGVJVnFTbUJfNWRmSDEyeHNaZ20tZ0hLSE0wRHlfOG92OTJJdUN5YzFrY2lpczJyV0o1UldMTFNYSi1qSldwUnJiclVpZjRn?oc=5",
+      "isNew": false
+    },
+    {
       "id": "97e113c48c91",
       "title": "Exclusive | Ratings Firm Accused of Grade Inflation Vouched for $40 Billion of Insurer Debt",
-      "source": "wsj.com",
+      "source": "WSJ",
       "date": "2026-08-11T13:11:51Z",
       "topic": "Private Credit",
       "summary": "",
@@ -30,7 +40,7 @@
     {
       "id": "d3757cb0eab2",
       "title": "BOJ's rate-hike path runs into Takaichi's bond market problems",
-      "source": "reuters.com",
+      "source": "Reuters",
       "date": "2026-08-10T23:08:35Z",
       "topic": "Rates & Macro",
       "summary": "",
@@ -178,6 +188,16 @@
       "isNew": false
     },
     {
+      "id": "87ea1ee973fd",
+      "title": "Talcott Financial Group Launches West Grove Re in Partnership with Goldman Sachs",
+      "source": "Business Wire",
+      "date": "2026-08-04T12:00:00Z",
+      "topic": "Insurance AM",
+      "summary": "",
+      "link": "https://news.google.com/rss/articles/CBMi0wFBVV95cUxQOEp2aHI4UmVyNmpVTV83Um5HZjltOEhQdk55cklhLWxiR25LazNXczJTVldLTEZuZ2ltR3JXU0h2Z1JKdW8tUkFlT3FfV0l4b1NNakVKWkx3MTdwMFRVN3hDOGwzT0pzTk9peFZiaFA0bWtWY1c5Q0V4NGpRc19HWURNajkyU0VVUWY1OUxMNkgtQ2s1V3NmRWNDZW1pZ1ZTTXRHQXdKRVZoMmlpRzNGQnpKV2JGdGIwVnFvSnlaU1dsLUlzR2djdGpwVkZRNk9IaEJB?oc=5",
+      "isNew": false
+    },
+    {
       "id": "ebf2a8caf749",
       "title": "Central Banks Hold Rates, Sparking Wealth Manager Reactions",
       "source": "Family Wealth Report",
@@ -260,7 +280,7 @@
     {
       "id": "6cf8d290c512",
       "title": "Loan Note: Goldman Sachs\u2019 key Asia move; Neuberger aerospace initiative",
-      "source": "privatedebtinvestor.com",
+      "source": "Private Debt Investor",
       "date": "2026-08-03T12:40:39Z",
       "topic": "Private Credit",
       "summary": "",
@@ -278,16 +298,6 @@
       "isNew": false
     },
     {
-      "id": "107b985c83e4",
-      "title": "The AI Bailout Could Be Baked Into the AI Bubble",
-      "source": "The American Prospect",
-      "date": "2026-08-03T09:15:00Z",
-      "topic": "Private Credit",
-      "summary": "",
-      "link": "https://news.google.com/rss/articles/CBMiqAFBVV95cUxNTDEwdjhrcXNucm5ZQm9XcG9FdkVqWXRfMTVxbTdpOG1lZTV3LVh3bHlLTUkxaFN0NUxPbndSWE1sM0JmV2s2UElTY2RzVlBwektqSE5keWNvNEIxZEFNQUlaSnhQdDYwdkJmLWdrY1QxZEVmQ3RFQjlpc1dlXzZuYnlfb2N0UmZSclpCeXRoaUc0cGVFanM2TWhtXzl3aUdVcEJoZk5FZ08?oc=5",
-      "isNew": false
-    },
-    {
       "id": "1db6c6ab9070",
       "title": "What is private credit?",
       "source": "BlackRock",
@@ -295,16 +305,6 @@
       "topic": "Private Credit",
       "summary": "",
       "link": "https://news.google.com/rss/articles/CBMilAFBVV95cUxNQWE1eUpyTWxmNXZZV1YweDNWMmJsN2Vsd2JBNGg0Y19pU2ZEUmRpX0tReE55eHFkOWFtenE5dWs0SVJnRVgwUkdtczEtM3otY3ctX1VSdGlsYmtjREZLeXFhNndrWTJpNjJjU09wUExnWUQ3MUZNNVFnbTJ0V25Ea21NOWk4YXdhMVJFQWhNMWxra3lC?oc=5",
-      "isNew": false
-    },
-    {
-      "id": "1611755c0c68",
-      "title": "Opinion: Private credit has a ratings problem and regulators need to step in",
-      "source": "MarketWatch",
-      "date": "2026-08-03T07:00:00Z",
-      "topic": "Private Credit",
-      "summary": "",
-      "link": "https://news.google.com/rss/articles/CBMixwFBVV95cUxPTlFlOFk2RFpMekZVbDJxckk5cWVXbjVHM18xV1g1c0hJR0RkdzBqREJqcXVzeDFOcXRLNVZsVV9kekp5aTc5RDdhTk10NFRBUzhXQlQ3SjQ5UFZMRnQtNzlBa1RUUWdfc0c0cGZ3SW9Tc1ZfYm5iSm9BdERSaERuWllsNFJTOTZWd1N0cUdSaXhHMHFvUDZOU09jOWY4b0tVeWh2bzRNU1VCYWhvclliWVoxeXhFNkRhWEtXbkt0b1A5VjZUWGpj?oc=5",
       "isNew": false
     }
   ]

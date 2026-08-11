@@ -1,14 +1,24 @@
 {
-  "updated": "2026-08-11T19:24:38Z",
+  "updated": "2026-08-11T22:09:29Z",
   "naic": [
+    {
+      "id": "67c78935d55b",
+      "title": "Ebanks flies the flag for Cayman at NAIC meeting",
+      "date": "2026-08-11",
+      "cat": "General",
+      "summary": "",
+      "source": "Captive International",
+      "link": "https://news.google.com/rss/articles/CBMijgFBVV95cUxNSV9JcW9mY2JyWnZlX1lVVGpiU2pCanZTQzF5Ynp3RHFnRzRvdEh5b1VTd0ZOYVlXODVQTURzOW9RSWJ3dGRTNlVuSTF5dEl3YnhQSHJObGRSdUplY2M0TkFONElUZHo1UUY3a1B6TEVWOXFyRmhrSnk2cWVJVFJUUnVzUWhOeFQxVTI0RkFB?oc=5",
+      "isNew": true
+    },
     {
       "id": "72d16d01e2a6",
       "title": "Cayman bids to become first new NAIC qualified jurisdiction since 2015",
       "date": "2026-08-11",
       "cat": "General",
       "summary": "",
-      "source": "Captive Insurance Times",
-      "link": "https://news.google.com/rss/articles/CBMigwJBVV95cUxQS3B6VzE1X0tWZElLT2xjaXhVM3k4a3d5Z3I1eWhJNDZhX3FnbjlUR05PS1lfY1oxZERmSmNEU0xEdEhkVERkTi1Eb0wwd3BOMU04N2FfOHB0MmRrS25vT21PR0NBMXRWUE1kQk9oZUl2MlpuUUVSMGJra2ROcERONlhSaVE2YUZhVXFvQ3FMVlI0TTJuUEhnUEswbHNUOGRnRmFvTlQ5Y21HOEQ0OU9nUWgtMHhaVG5yUlpWWmd1NjBKZWNRRTVDd0dVaEVvaVRiRmZ4WHp1eXJSTk1BN2ZqSW5Kb1BEQ3UxbXFvNGhTWURPalpuUDlmSDdCZlNSN290Q2J3?oc=5",
+      "source": "captiveinsurancetimes.com",
+      "link": "https://news.google.com/rss/articles/CBMi4AFBVV95cUxQRVQ1eE1ZNl9yOTlnQzI0bkVqLW5FcV9GNEJ6UHVuem51TWZpN19wQVlwOGtJekppeXhXOVVGZHVhVmN3V1F5NklsSzVnN3NXd3J1SElFc21zUFpWdWxfTnlHeWc3b3dVcHdwM1FvaElfN2hneFNJY09qWUZTYXI0VUF3b3doWjdkc2ZkbVh5NGJsQ3RVVWwwNnlCbEdVcWpHSktrU3VvVTB5bEFVbEZPeWJQV1BBSlpUY3BWT0x0a0Z4ZGlBY1JUOTdaTUZ4YnE4MkF2dktLU0N3R3AxbmU0bg?oc=5",
       "isNew": true
     },
     {
@@ -239,16 +249,6 @@
       "summary": "",
       "source": "beinsure.com",
       "link": "https://news.google.com/rss/articles/CBMijAFBVV95cUxQdjhJRnVxc3VlVUd4RktSRmpXRFN5RXZwYjN6VDRsQTQ5NXdQR3dsTkRBREFSM1VZemswckhUSlYzdFpZdjdBU1UyZHBkRU1LNTFqcUk1TUJXODhLWERGUERNcWFtX0REMWhvUU04czNtZzNXSVpTR2ZsZ1ZNdVVybUtod00xM3J0Nld6SA?oc=5",
-      "isNew": true
-    },
-    {
-      "id": "356815bead00",
-      "title": "Nigeria Strengthens Agricultural Insurance Collaboration to Boost Food Security",
-      "date": "2026-07-20",
-      "cat": "General",
-      "summary": "",
-      "source": "Head Topics",
-      "link": "https://news.google.com/rss/articles/CBMioAFBVV95cUxQOHVGTmg5dGo1SFd5b3A5VzlCdFE5WUhSdHFuMThrRlc4cm02NzgzOW55TDBJT1pWdEh5VzZlNHhmWl8yMThHTkhHOTJWa1lVaTBoU2xCWExWZEZMN2M3aDBqVE0xcEZ4by1tSmRNX243aTdpTlpUYnQwSFBMRFB0cHBmNmFRNERzOEpxWXVXUDFiU2tmX3R0ZXBZb085M3o0?oc=5",
       "isNew": true
     }
   ],
