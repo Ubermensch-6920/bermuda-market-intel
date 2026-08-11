@@ -1,5 +1,5 @@
 {
-  "updated": "2026-08-11T10:15:13Z",
+  "updated": "2026-08-11T13:47:40Z",
   "topics": [
     "Insurance AM",
     "Private Credit",
@@ -60,7 +60,7 @@
     {
       "id": "97e113c48c91",
       "title": "Exclusive | Ratings Firm Accused of Grade Inflation Vouched for $40 Billion of Insurer Debt",
-      "source": "wsj.com",
+      "source": "WSJ",
       "date": "2026-08-07T02:02:00Z",
       "topic": "Private Credit",
       "summary": "",
@@ -120,11 +120,21 @@
     {
       "id": "16824d59a45f",
       "title": "Allianz to Buy UOB Asset Management Unit as CEO Targets Asia",
-      "source": "Insurance Journal",
+      "source": "insurancejournal.com",
       "date": "2026-08-05T14:22:44Z",
       "topic": "Insurance AM",
       "summary": "",
       "link": "https://news.google.com/rss/articles/CBMifkFVX3lxTFB0Q3VZYVd2QXBVeG0zWXZCZWVvN0VHN0Y2S1dLZ1lhaUNTV1VyMXU3UnUzNlpDajRTSHpCbG84VzJNOHhWZGNNc3ZkRGc1eWRTbkttMFo1dWpzb1o5MVAxV2JocTZIb3pLVEl6MWdtNDlaaUNPU2UyMEFWT1dwUQ?oc=5",
+      "isNew": false
+    },
+    {
+      "id": "843108742354",
+      "title": "Rated Note Fund Market Update 2026: \"Not Throwing Away Their Shot\" - Fund Finance - United States",
+      "source": "Mondaq",
+      "date": "2026-08-05T11:24:10Z",
+      "topic": "Private Credit",
+      "summary": "",
+      "link": "https://news.google.com/rss/articles/CBMivAFBVV95cUxOQmZzalZNTTEtS2VBUGdETE53MWtYVk44bmJnQVhLMUVNUUF6NGtYU0NGUFhSdlhWUEs2TS01UUs2bEI1U0FPVDRib3BsMm5TaGdmUTJ2VVR4aGpYcV9EejRtRWdDNG9jVnFwQzZMMURyTTNHbENrQlJFUnN3dV91dk9Haks4bWoyMFgwZjRRWFFWaWxXOTBCbWhPYU1KcXZhUkxwWlMwbFhqVEdVTmRpd3V1RC1VOE14NElDdA?oc=5",
       "isNew": false
     },
     {
@@ -150,7 +160,7 @@
     {
       "id": "ebf2a8caf749",
       "title": "Central Banks Hold Rates, Sparking Wealth Manager Reactions",
-      "source": "familywealthreport.com",
+      "source": "Family Wealth Report",
       "date": "2026-08-04T11:53:34Z",
       "topic": "Rates & Macro",
       "summary": "",
@@ -238,16 +248,6 @@
       "isNew": false
     },
     {
-      "id": "1611755c0c68",
-      "title": "Opinion: Private credit has a ratings problem and regulators need to step in",
-      "source": "MarketWatch",
-      "date": "2026-08-03T11:00:00Z",
-      "topic": "Private Credit",
-      "summary": "",
-      "link": "https://news.google.com/rss/articles/CBMixwFBVV95cUxPTlFlOFk2RFpMekZVbDJxckk5cWVXbjVHM18xV1g1c0hJR0RkdzBqREJqcXVzeDFOcXRLNVZsVV9kekp5aTc5RDdhTk10NFRBUzhXQlQ3SjQ5UFZMRnQtNzlBa1RUUWdfc0c0cGZ3SW9Tc1ZfYm5iSm9BdERSaERuWllsNFJTOTZWd1N0cUdSaXhHMHFvUDZOU09jOWY4b0tVeWh2bzRNU1VCYWhvclliWVoxeXhFNkRhWEtXbkt0b1A5VjZUWGpj?oc=5",
-      "isNew": false
-    },
-    {
       "id": "107b985c83e4",
       "title": "The AI Bailout Could Be Baked Into the AI Bubble",
       "source": "The American Prospect",
@@ -265,6 +265,16 @@
       "topic": "Private Credit",
       "summary": "",
       "link": "https://news.google.com/rss/articles/CBMilAFBVV95cUxNQWE1eUpyTWxmNXZZV1YweDNWMmJsN2Vsd2JBNGg0Y19pU2ZEUmRpX0tReE55eHFkOWFtenE5dWs0SVJnRVgwUkdtczEtM3otY3ctX1VSdGlsYmtjREZLeXFhNndrWTJpNjJjU09wUExnWUQ3MUZNNVFnbTJ0V25Ea21NOWk4YXdhMVJFQWhNMWxra3lC?oc=5",
+      "isNew": false
+    },
+    {
+      "id": "1611755c0c68",
+      "title": "Opinion: Private credit has a ratings problem and regulators need to step in",
+      "source": "MarketWatch",
+      "date": "2026-08-03T07:00:00Z",
+      "topic": "Private Credit",
+      "summary": "",
+      "link": "https://news.google.com/rss/articles/CBMixwFBVV95cUxPTlFlOFk2RFpMekZVbDJxckk5cWVXbjVHM18xV1g1c0hJR0RkdzBqREJqcXVzeDFOcXRLNVZsVV9kekp5aTc5RDdhTk10NFRBUzhXQlQ3SjQ5UFZMRnQtNzlBa1RUUWdfc0c0cGZ3SW9Tc1ZfYm5iSm9BdERSaERuWllsNFJTOTZWd1N0cUdSaXhHMHFvUDZOU09jOWY4b0tVeWh2bzRNU1VCYWhvclliWVoxeXhFNkRhWEtXbkt0b1A5VjZUWGpj?oc=5",
       "isNew": false
     },
     {
@@ -295,16 +305,6 @@
       "topic": "Rates & Macro",
       "summary": "",
       "link": "https://news.google.com/rss/articles/CBMimAFBVV95cUxNdzh5ZnRHOU1ZSmQ4eTBRRGZLOTJUTDAtWFF5WS10aGVXdW5pd2NUWTF1ZmF1WWxCb3h5eFVPTk9IT2QtelROckF6bVJzOXV3QkptRTR1WXZQOXlXUGhRaG0tRXppMFg5emRvektyUXdxWDR1T09zQmo3ZmJDeVBRMDdoMGVtQVJ4aXhfQl9IRVljVXJ3SEV0eNIBngFBVV95cUxQWHdZa2ZtVmVFblFQdFQtejBkY0N1X1F1OG5hNUxldWk3SE5jbHJoM3VaZkJleldka3ZXeXFMbUZ3QWZZR0pjU01JeWpSeEtfOFcxcm5YcU9iTHd5MGhLZ1I3TklNQVFxT3RSa05PazZ2V05VaUdGcWxoMDd6UlBpMEpwOVAwYUpBOHdIYVY5anptb01mdGoyMTFyXzFPQQ?oc=5",
-      "isNew": false
-    },
-    {
-      "id": "639efc914247",
-      "title": "Bond sell-off sent warning on Federal Reserve\u2019s credibility, says top central bank official",
-      "source": "Financial Times",
-      "date": "2026-07-31T07:00:00Z",
-      "topic": "Rates & Macro",
-      "summary": "",
-      "link": "https://news.google.com/rss/articles/CBMihAFBVV95cUxOUlJuWU9UQlBuWUdqeXowNUhVdnpTTVMtb0hqRVB0X2dDNUNLbDBfd1k4eVB3T0VfR25sUjNDcjhZcVZwZXpOVnJCNkRieGE0MFBVMjBKc0xSZ251WDhnU2ZCczFBZlpXU09LQWZKenpPbFFCSGRuVUJldjZhWUZkUDhGZFk?oc=5",
       "isNew": false
     }
   ]

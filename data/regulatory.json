@@ -1,6 +1,16 @@
 {
-  "updated": "2026-08-11T10:15:13Z",
+  "updated": "2026-08-11T13:47:40Z",
   "naic": [
+    {
+      "id": "72d16d01e2a6",
+      "title": "Cayman bids to become first new NAIC qualified jurisdiction since 2015",
+      "date": "2026-08-11",
+      "cat": "General",
+      "summary": "",
+      "source": "Captive Insurance Times",
+      "link": "https://news.google.com/rss/articles/CBMi4AFBVV95cUxQRVQ1eE1ZNl9yOTlnQzI0bkVqLW5FcV9GNEJ6UHVuem51TWZpN19wQVlwOGtJekppeXhXOVVGZHVhVmN3V1F5NklsSzVnN3NXd3J1SElFc21zUFpWdWxfTnlHeWc3b3dVcHdwM1FvaElfN2hneFNJY09qWUZTYXI0VUF3b3doWjdkc2ZkbVh5NGJsQ3RVVWwwNnlCbEdVcWpHSktrU3VvVTB5bEFVbEZPeWJQV1BBSlpUY3BWT0x0a0Z4ZGlBY1JUOTdaTUZ4YnE4MkF2dktLU0N3R3AxbmU0bg?oc=5",
+      "isNew": true
+    },
     {
       "id": "d950717522c9",
       "title": "Why an obscure Kansas City nonprofit organization is jacking up your insurance bills",
@@ -67,7 +77,7 @@
       "date": "2026-08-04",
       "cat": "General",
       "summary": "",
-      "source": "Daily Advocate",
+      "source": "dailyadvocate.com",
       "link": "https://news.google.com/rss/articles/CBMijAFBVV95cUxNTkt3NXhMNEdSOTNYTWNLTFB4emI4b0ZabENtZ1V3VUNZcUVPTlh3LV84ckRDbTRyOTZ5QVByYXBNemNQTkt4V0NyWG42Q25xVmVwbDFuWjhSZUNIZHRubklLWjk1XzFSQWdwRlBYeE1MMlp5ZzEtQmpaZ0d3dklKaU9DOVhMWUFLWEd3eQ?oc=5",
       "isNew": true
     },
@@ -87,7 +97,7 @@
       "date": "2026-08-04",
       "cat": "General",
       "summary": "",
-      "source": "businesswire.com",
+      "source": "Business Wire",
       "link": "https://news.google.com/rss/articles/CBMirAFBVV95cUxQUmp4dXpMSFNhdGt4WUxEWEZuajRDMXdRLXIySFlmQXkyczZqbS0yVGpBWUc0VGpja1FabWoyQlczUko1SXJ6YjB1RzFKOUdmTVgzV1hZVDVRQXlIcWNJc0g2QzZjVE96cEgwc1lLNEV1WVB6ZExJMFc1QmdyZF9Kdk1xeTQwampVU3ZkMUVzOU5oODZhWXREVGJKTHVncWg5NHRITHo0UlR2eWJf?oc=5",
       "isNew": true
     },
@@ -233,16 +243,6 @@
     },
     {
       "id": "ce6aeab45ae9",
-      "title": "Insurance Regulators Unite To Boost Farmers\u2019 Confidence, Food Security",
-      "date": "2026-07-20",
-      "cat": "General",
-      "summary": "",
-      "source": "LEADERSHIP Newspapers",
-      "link": "https://news.google.com/rss/articles/CBMilgFBVV95cUxPRVpORVFmbTVMbEc0aG5VWVJMTXpkY0xscWJfQks3WUx6WnJoQ1p6YUtZRXlWaWpJWkxVLVFqS1RxbVdLeVZUOEh6ZlBia3NQeHFIaGxSMEpjam1NZ2RCb1MyVm53T1JfODVaTG9CZURMT2l3NndLZTd2R0NUbno0WGRMckhTa01HSDFhT1VSVEZLYUVGT1E?oc=5",
-      "isNew": true
-    },
-    {
-      "id": "0707100bacd8",
       "title": "Insurance Regulators Unite To Boost Farmers\u2019 Confidence, Food Security",
       "date": "2026-07-20",
       "cat": "General",
@@ -511,7 +511,7 @@
       "date": "2026-08-10",
       "cat": "Capital/Solvency",
       "summary": "",
-      "source": "Business in Cameroon",
+      "source": "businessincameroon.com",
       "link": "https://news.google.com/rss/articles/CBMiygFBVV95cUxPNHFnd25oZlJXbWpqRU13ZFM5eVZZZHdNMS1SU0s0WF95QWJwZ0dEMGNHaFl4Sl9ZcWdVaExoNXBSaUZxS3VSSElGZGc4YWowVG1WSDcyM1VWZ1h3OW5aWmNWbkhUUFN6Z3Qwc21kaE1VR0VxNG84eGRHZmtLZl9Bc2lwVHk5X1NtTHQtS2JyMlFEN0dlT0tyMDBybENFZTdpSWRTa3RCdzQ3aXFNRmdCNUFYQlh4dEdhNlhPdlNOSmhOdXdiWEQzUFB3?oc=5",
       "isNew": true
     },
@@ -541,7 +541,7 @@
       "date": "2026-07-29",
       "cat": "Licensing",
       "summary": "",
-      "source": "Cayman Finance",
+      "source": "caymanfinance.ky",
       "link": "https://news.google.com/rss/articles/CBMimwFBVV95cUxPbjctUnRXSmlFbHZINHdNSHFEQ19OTzVXeXMtVnJuejBDbHBMZEY1ZjNTWW1FLUVwVm5BdXdWbDFBTWhXQzNobWt6eWZlRmpWVUY5TGNncjJQQTFKczl0RWNnSnRNaG5tdnJGOTRFanBaYl9vWnNrR3RoaDFTZzRBT2VwUkRSQ3NpTEJkakcwV0I1YmtSY25qYVFlMA?oc=5",
       "isNew": true
     },
@@ -691,7 +691,7 @@
       "date": "2026-06-18",
       "cat": "Investment",
       "summary": "",
-      "source": "Cayman Finance",
+      "source": "caymanfinance.ky",
       "link": "https://news.google.com/rss/articles/CBMixwFBVV95cUxNLUdzZVdseERCdUhTNENKR21HT3d5QnFHVjRNN3ZZRE1YMG1LRGJTTlBDTjBZSHdVZkNTc2hMZVJpRDRJelFXbGxyUzV4RTZBT0xqNV9acWh3N3NuMkk1Um14ZC1YamxGYVEyTW1kLTZ2ZzA1SzJVVnA3dU9Ncjlqel9rdFhmOEFkSjZqTC1zTzRBU1pCek9MSWlZQ2dPbllNaUN0TVE4SzlBLWlKbjlOaU1veThSNVBJNkx4dTVyOW05U0JJOWN3?oc=5",
       "isNew": false
     },
