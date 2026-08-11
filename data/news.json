@@ -1,5 +1,5 @@
 {
-  "updated": "2026-08-11T16:14:45Z",
+  "updated": "2026-08-11T19:24:38Z",
   "topics": [
     "Insurance AM",
     "Private Credit",
@@ -7,6 +7,16 @@
     "Structured Credit"
   ],
   "items": [
+    {
+      "id": "97e113c48c91",
+      "title": "Exclusive | Ratings Firm Accused of Grade Inflation Vouched for $40 Billion of Insurer Debt",
+      "source": "wsj.com",
+      "date": "2026-08-11T13:11:51Z",
+      "topic": "Private Credit",
+      "summary": "",
+      "link": "https://news.google.com/rss/articles/CBMitgFBVV95cUxPMVRzejBxX28tZjNTWWwtRzBuenFCTGgycXBhTWxVamhOZ0pyVmt6NmpEM1NLT3RiY3BYUkp6NlhEeno5VHJNTVZuaWlBQ3RrMXhpd1VuSXJoM3NqT2NNSmUybkV2UFFjRkNOaHRUOENPc1JURFdhSHJRUDZjaVN2c1h2Q3ExY0NOclU4VnBjOFUwS2k5WXB4MmdwUVVSdnVCSFhuMmJxQXZlc3hFdm9ld2p2Mm01UQ?oc=5",
+      "isNew": false
+    },
     {
       "id": "6058c271c1b7",
       "title": "Australia Holds Key Rate to Counter Elevated Inflation Pressures",
@@ -65,16 +75,6 @@
       "topic": "Insurance AM",
       "summary": "",
       "link": "https://news.google.com/rss/articles/CBMi2wFBVV95cUxQQ1lWbi14WG9vYTY3QmNTeEtTMUJDdTF2blY5dW5ySEhLZVlTUnB2RHZwcm52M2h1R1VpaGVQZzFVbHRFUldmQXI1cVRPSFZaRXBjZ3ZmZi1vQ0lsOG04R3poeFA3WFpmUGJpX3NPR3JCd1cxSjIteVJ1bF9wMXUtNm9mSHNLQXJwUEJhbE82MW9ZR0M3TWMyazcxS0ZlU1laaTBTOHBXTkNieHUzWF8tbmN4b1JOR1poYzN4Ym9fcThSRWd3WkI4dTd1T0ZJZzkzcGtrM1hrWGlOdzg?oc=5",
-      "isNew": false
-    },
-    {
-      "id": "97e113c48c91",
-      "title": "Exclusive | Ratings Firm Accused of Grade Inflation Vouched for $40 Billion of Insurer Debt",
-      "source": "WSJ",
-      "date": "2026-08-07T02:02:00Z",
-      "topic": "Private Credit",
-      "summary": "",
-      "link": "https://news.google.com/rss/articles/CBMitgFBVV95cUxPMVRzejBxX28tZjNTWWwtRzBuenFCTGgycXBhTWxVamhOZ0pyVmt6NmpEM1NLT3RiY3BYUkp6NlhEeno5VHJNTVZuaWlBQ3RrMXhpd1VuSXJoM3NqT2NNSmUybkV2UFFjRkNOaHRUOENPc1JURFdhSHJRUDZjaVN2c1h2Q3ExY0NOclU4VnBjOFUwS2k5WXB4MmdwUVVSdnVCSFhuMmJxQXZlc3hFdm9ld2p2Mm01UQ?oc=5",
       "isNew": false
     },
     {
@@ -188,6 +188,16 @@
       "isNew": false
     },
     {
+      "id": "998ed0394b04",
+      "title": "Bridgepoint Closes Fourth Direct Lending Fund Above Target At \u20ac5.1 Billion",
+      "source": "Pulse 2.0",
+      "date": "2026-08-04T11:39:27Z",
+      "topic": "Private Credit",
+      "summary": "",
+      "link": "https://news.google.com/rss/articles/CBMimgFBVV95cUxNVzd6Nlk0YXhjcnJvWXo0TXA3YUp5VUxmbFVoQ2ZYaWdxamZMUmlKYkNFWG8tTUpRbmdMbEJHMTFfbkFjaG80d3M1eUFxQ29FVzZKMWg4V1cyMUNFY2oySWRtYkhqQndMX1VISDdPWC1TaGFkbHlFSjNSOFhacENVWFZtczdCWHljdWNFNWNIMGNrNTNEY2tXSXpB0gGfAUFVX3lxTFBPbHhuVXJsdVJULUI4TjZzZlcyYzJYR0lGRXFGcHlkdk8wWG9xakR5WlN2TG1xUFF3aW9aSzY0QlZMektJMXkzVENmXzdVRU13Z3RGRjFiZXFXZ0p3V1Z1SnhSNmJ6TzJHMVNURC1ld29TRFFCWjlHWWp5elhadVBlWG45bTRCQ25iMHllQVBEajdaZzRNdkdzemxJNWM4VQ?oc=5",
+      "isNew": false
+    },
+    {
       "id": "b5df47f7754f",
       "title": "European insurers prioritising infrastructure debt and structured credit amid Solvency II changes: Novantigo",
       "source": "Reinsurance News",
@@ -220,7 +230,7 @@
     {
       "id": "fb05340dc21f",
       "title": "Apollo fees and insurance earnings rise, asset sales slow in second quarter",
-      "source": "The Mighty 790 KFGO",
+      "source": "kfgo.com",
       "date": "2026-08-04T07:00:00Z",
       "topic": "Insurance AM",
       "summary": "",
@@ -250,7 +260,7 @@
     {
       "id": "6cf8d290c512",
       "title": "Loan Note: Goldman Sachs\u2019 key Asia move; Neuberger aerospace initiative",
-      "source": "Private Debt Investor",
+      "source": "privatedebtinvestor.com",
       "date": "2026-08-03T12:40:39Z",
       "topic": "Private Credit",
       "summary": "",
@@ -295,16 +305,6 @@
       "topic": "Private Credit",
       "summary": "",
       "link": "https://news.google.com/rss/articles/CBMixwFBVV95cUxPTlFlOFk2RFpMekZVbDJxckk5cWVXbjVHM18xV1g1c0hJR0RkdzBqREJqcXVzeDFOcXRLNVZsVV9kekp5aTc5RDdhTk10NFRBUzhXQlQ3SjQ5UFZMRnQtNzlBa1RUUWdfc0c0cGZ3SW9Tc1ZfYm5iSm9BdERSaERuWllsNFJTOTZWd1N0cUdSaXhHMHFvUDZOU09jOWY4b0tVeWh2bzRNU1VCYWhvclliWVoxeXhFNkRhWEtXbkt0b1A5VjZUWGpj?oc=5",
-      "isNew": false
-    },
-    {
-      "id": "77d45ceabf40",
-      "title": "How do changing interest rates affect the stock market in 2026",
-      "source": "U.S. Bank",
-      "date": "2026-08-03T07:00:00Z",
-      "topic": "Insurance AM",
-      "summary": "",
-      "link": "https://news.google.com/rss/articles/CBMiwwFBVV95cUxQVVJpa2pCR3B0TmxRZGlpSmRZaFctZ21ybGtrVUVBMFozZ0xiSGFRY0ZZdGNWaV80dnhHUTR2TTVoSnZEU190aGtMamY2MDAxT0hYYzRXcUl5OUEyOGRGYWlBbm54T3ppaEZWRWtyV01EOEJGcVRaM2xROWlCX2FxSFYxX1NXeUQwZmJLS3pqcGhCWjR5RVJrNlhmbUtRcy1EUGJLaFI4UTNkUHg4emNPUE95cTc0bnlDcklaaG5EcWhBeVU?oc=5",
       "isNew": false
     }
   ]
