@@ -1,5 +1,5 @@
 {
-  "updated": "2026-08-11T13:47:40Z",
+  "updated": "2026-08-11T16:14:45Z",
   "topics": [
     "Insurance AM",
     "Private Credit",
@@ -8,9 +8,19 @@
   ],
   "items": [
     {
+      "id": "6058c271c1b7",
+      "title": "Australia Holds Key Rate to Counter Elevated Inflation Pressures",
+      "source": "bloomberg.com",
+      "date": "2026-08-11T07:40:40Z",
+      "topic": "Rates & Macro",
+      "summary": "",
+      "link": "https://news.google.com/rss/articles/CBMitgFBVV95cUxOUUktaGNnRkJPQnZJQ2JCVzFNNHVfb05kbFRGY2VhWmdYMlR2NTdES2NialBGc1NWaXRiTXlLQ0h4VUt0TDFJVVJrOHgzRGo5QzdieGFIb3ltOUZkWGlNNk5CdU44SUpaX0F3N2hGU2pfOGdUZXd0czlRcXY2cHlLbko4bktETHI3OXZReVl2MWg5U3VJOTB0OFVzUktKYnptdHk4V2dfUzhpak9BYjRyLUhsa25OUQ?oc=5",
+      "isNew": false
+    },
+    {
       "id": "d3757cb0eab2",
       "title": "BOJ's rate-hike path runs into Takaichi's bond market problems",
-      "source": "Reuters",
+      "source": "reuters.com",
       "date": "2026-08-10T23:08:35Z",
       "topic": "Rates & Macro",
       "summary": "",
@@ -120,7 +130,7 @@
     {
       "id": "16824d59a45f",
       "title": "Allianz to Buy UOB Asset Management Unit as CEO Targets Asia",
-      "source": "insurancejournal.com",
+      "source": "Insurance Journal",
       "date": "2026-08-05T14:22:44Z",
       "topic": "Insurance AM",
       "summary": "",
@@ -145,6 +155,16 @@
       "topic": "Rates & Macro",
       "summary": "",
       "link": "https://news.google.com/rss/articles/CBMieEFVX3lxTFBqeUZYeWVxdV82bE53TFRVazUtcTYyZ3ZKRnBGS1IzUkVybHBaemNuYXEya1JQU3hkNE9COFF6Rzk0OFd2X2JOQnloWklFU1RCdHlfSEdrLVFYY21kbFBjWmN4NXNHanZ0R0hwbFdMQkdVN2llamd2S9IBfkFVX3lxTFBxaDZxUHR3aDJBREVlN1VETGJ2aTdtaFltX2JLRXdTY2pUQW4wbVJCVGI2bUZKWExFdmlPTVBKOWFyRDdSMWU3cUlQaEdLaEdva21PNVN4M2dWQ3F3RzB2amZIQy1jZFdkUUxUb2w3emxKMm5ZQkVXbmVMUHR3dw?oc=5",
+      "isNew": false
+    },
+    {
+      "id": "a0561a2ec240",
+      "title": "International Wealth Insurance Sales Hit \u00a353bn",
+      "source": "RankiaPro",
+      "date": "2026-08-04T18:41:58Z",
+      "topic": "Insurance AM",
+      "summary": "",
+      "link": "https://news.google.com/rss/articles/CBMitwFBVV95cUxOZzNuSnNJMW5WeUNCejNOZ1kya2lnWEJpMjNBUWk3N3dQbnhWZWI4Q0IzMzlJeVNjR3ZhSjdoajJaTzUzWjFxM3lSM2hZdHVmQzAwek9wTWs4TjZLU1FQM2JveGh5R1l5Z1FGSzZlSjlDdjE5eFdXWk5ZVlBxVU1ETkNmLWdvQTQzTFB4My1kS005cGNhZmI4aGpVQmJRSWQycDROS3FWMXNGSmpJWXJsWDlNSTkxT0U?oc=5",
       "isNew": false
     },
     {
@@ -285,26 +305,6 @@
       "topic": "Insurance AM",
       "summary": "",
       "link": "https://news.google.com/rss/articles/CBMiwwFBVV95cUxQVVJpa2pCR3B0TmxRZGlpSmRZaFctZ21ybGtrVUVBMFozZ0xiSGFRY0ZZdGNWaV80dnhHUTR2TTVoSnZEU190aGtMamY2MDAxT0hYYzRXcUl5OUEyOGRGYWlBbm54T3ppaEZWRWtyV01EOEJGcVRaM2xROWlCX2FxSFYxX1NXeUQwZmJLS3pqcGhCWjR5RVJrNlhmbUtRcy1EUGJLaFI4UTNkUHg4emNPUE95cTc0bnlDcklaaG5EcWhBeVU?oc=5",
-      "isNew": false
-    },
-    {
-      "id": "1f0fb0b59cab",
-      "title": "The Quiet Taxpayer Backstop Behind Private Credit",
-      "source": "NAI500",
-      "date": "2026-07-31T10:24:50Z",
-      "topic": "Structured Credit",
-      "summary": "",
-      "link": "https://news.google.com/rss/articles/CBMiigFBVV95cUxPOHRsclpKVWQ3SGlXY25tWkxPNDdqeEVlaXB3dWtEMGtUWi02UjluckhzUjlOOVJyTTUxRTBjNzNEa0tQc0drcjFDX1dINHB2emhFTERkQ2dZbTZPcEJtaUkzVkRPRnZrUUk0UE9KbHFZVmxPRnpMbUJxeXgxSUdGQjcyd0FaSkdOSnc?oc=5",
-      "isNew": false
-    },
-    {
-      "id": "189b035d882d",
-      "title": "Treasury yields follow oil prices higher as Fed officials say rate hikes are needed",
-      "source": "CNBC",
-      "date": "2026-07-31T07:00:00Z",
-      "topic": "Rates & Macro",
-      "summary": "",
-      "link": "https://news.google.com/rss/articles/CBMimAFBVV95cUxNdzh5ZnRHOU1ZSmQ4eTBRRGZLOTJUTDAtWFF5WS10aGVXdW5pd2NUWTF1ZmF1WWxCb3h5eFVPTk9IT2QtelROckF6bVJzOXV3QkptRTR1WXZQOXlXUGhRaG0tRXppMFg5emRvektyUXdxWDR1T09zQmo3ZmJDeVBRMDdoMGVtQVJ4aXhfQl9IRVljVXJ3SEV0eNIBngFBVV95cUxQWHdZa2ZtVmVFblFQdFQtejBkY0N1X1F1OG5hNUxldWk3SE5jbHJoM3VaZkJleldka3ZXeXFMbUZ3QWZZR0pjU01JeWpSeEtfOFcxcm5YcU9iTHd5MGhLZ1I3TklNQVFxT3RSa05PazZ2V05VaUdGcWxoMDd6UlBpMEpwOVAwYUpBOHdIYVY5anptb01mdGoyMTFyXzFPQQ?oc=5",
       "isNew": false
     }
   ]
