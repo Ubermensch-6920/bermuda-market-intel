@@ -1,5 +1,5 @@
 {
-  "updated": "2026-08-12T07:56:59Z",
+  "updated": "2026-08-12T10:23:58Z",
   "topics": [
     "Insurance AM",
     "Private Credit",
@@ -7,6 +7,16 @@
     "Structured Credit"
   ],
   "items": [
+    {
+      "id": "9c4e0d4830ab",
+      "title": "Eurozone Government Bond Yields Rise Ahead of U.S. CPI Data",
+      "source": "WSJ",
+      "date": "2026-08-12T07:02:00Z",
+      "topic": "Rates & Macro",
+      "summary": "",
+      "link": "https://news.google.com/rss/articles/CBMirwFBVV95cUxOM0dla0xNdkZKN3VCX0lLOHlnUDFacHBfX21sUlVGVk5kYUZKb0RZMWtuOHZXYnRLZDNQN1pfTXpxQ2dJRUNXMnk2d1I1MlhSWXJsNXdFMmRSR3ZxVnNZYlVuWTA3N1gyRGI3MFJjUXlPRUVSNzUzaWNnR0ItbkpGeUgxdVZJWWgzdEhHVzJMbks1aDM1aVIzVHRIY0pXd1Y4MVlPdmZBM0kzMjZ0Y0lz?oc=5",
+      "isNew": false
+    },
     {
       "id": "6c2b46916215",
       "title": "When The AI Bubble Bursts, Who Will Be Left Holding The Bag? \u2013 OpEd",
@@ -150,7 +160,7 @@
     {
       "id": "48810963de45",
       "title": "Delay, Deny, Defend, and Private Credit- II",
-      "source": "contrarianunicus.substack.com",
+      "source": "Substack",
       "date": "2026-08-06T10:21:56Z",
       "topic": "Structured Credit",
       "summary": "",
@@ -160,7 +170,7 @@
     {
       "id": "47b2b365a884",
       "title": "Delay, Deny, Defend, and Private Credit- II",
-      "source": "contrarianunicus.substack.com",
+      "source": "Substack",
       "date": "2026-08-06T10:21:56Z",
       "topic": "Private Credit",
       "summary": "",
@@ -295,16 +305,6 @@
       "topic": "Insurance AM",
       "summary": "",
       "link": "https://news.google.com/rss/articles/CBMipgFBVV95cUxNS3ptd0JobVBod1l3Q2tvb0lJLVF4UXpQVW9mTzgxWWtjS2tmUlFhM1l3OFhZMVA4T1k4SDFuckNDNFNQdkFfOHhtaUVweWhLYXFKclNMcnMzRTloanNvLUJCSFNyajY1ejI0VklGUVZ2eW1yQ0daS0FwbUNJZE12TTNKR3JyOGhFVE9tWWdMa2o0Z1pZX0pXUldyTTQ2ZW85ZWVoTGRn?oc=5",
-      "isNew": false
-    },
-    {
-      "id": "19bb1913dbcc",
-      "title": "Research Exchange: July 2026",
-      "source": "Bank Policy Institute",
-      "date": "2026-08-03T20:46:05Z",
-      "topic": "Private Credit",
-      "summary": "",
-      "link": "https://news.google.com/rss/articles/CBMiV0FVX3lxTE5TcTNUaTg3UDZuYk9KM0NkVnFvM0FUMXhvSlBxaEl1NllfS0ZHd2RJZU9LS3d1dGFwZ1Rockk0UFhBMGo3Yk9hMXd1R3MzSFlTX2poZkNzUQ?oc=5",
       "isNew": false
     }
   ]

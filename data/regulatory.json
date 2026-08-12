@@ -1,5 +1,5 @@
 {
-  "updated": "2026-08-12T07:56:59Z",
+  "updated": "2026-08-12T10:23:58Z",
   "naic": [
     {
       "id": "67c78935d55b",
@@ -12,13 +12,23 @@
       "isNew": true
     },
     {
+      "id": "b801b78df378",
+      "title": "Cayman applies for NAIC recognition",
+      "date": "2026-08-12",
+      "cat": "General",
+      "summary": "",
+      "source": "Royal Gazette | Bermuda",
+      "link": "https://news.google.com/rss/articles/CBMipgFBVV95cUxPdmwzZENOZGZwUUo0QnRVaTlsbUwtVGk4Y1ZpN285dU1jYmI3ZUNVWGsyRFF2WHJCZDBUeHVNekFkc2dMa0FDdkV3WlBDZ3A2T1lpMnYzcG56ZGlQQTN2TWlZanBQUmdGNjBIY01aUHg5UmttbjhPQ1RQVEhVZ2laNFlPWTVmRGhsMmE1MEVMNFgweU1DT2tsNEFJaGVRTmtOQmlISFN3?oc=5",
+      "isNew": true
+    },
+    {
       "id": "72d16d01e2a6",
       "title": "Cayman bids to become first new NAIC qualified jurisdiction since 2015",
       "date": "2026-08-11",
       "cat": "General",
       "summary": "",
       "source": "Captive Insurance Times",
-      "link": "https://news.google.com/rss/articles/CBMi4AFBVV95cUxQRVQ1eE1ZNl9yOTlnQzI0bkVqLW5FcV9GNEJ6UHVuem51TWZpN19wQVlwOGtJekppeXhXOVVGZHVhVmN3V1F5NklsSzVnN3NXd3J1SElFc21zUFpWdWxfTnlHeWc3b3dVcHdwM1FvaElfN2hneFNJY09qWUZTYXI0VUF3b3doWjdkc2ZkbVh5NGJsQ3RVVWwwNnlCbEdVcWpHSktrU3VvVTB5bEFVbEZPeWJQV1BBSlpUY3BWT0x0a0Z4ZGlBY1JUOTdaTUZ4YnE4MkF2dktLU0N3R3AxbmU0bg?oc=5",
+      "link": "https://news.google.com/rss/articles/CBMi3wFBVV95cUxNcWlNTEprLU1IS2RuNXA0VEd1Q2dSM0pXLURYVGFPZk9nWlhLcE91dU1nV3ZKNnNKWlBJUmhMVlFhS3N6ZEhIbHpIUEZVUjZfdFZRa2FPRm1mRWZ0bGNFMkFILVVoRFpqdDg1TE02ajhEUFYzb0g1bVpFX0xBQ2tCQ1ctZmJPZi1heHhyMEVGaWtHNm1iNDJtcTRUaUcyUC1jbU5VX2tGYWJweTV1SVFheWN3UWpIcWFKNW9GVENtTTdZVVZVSFZUY1ItX2lCeExfS3FCQ20wV1dLQnI5OFZr?oc=5",
       "isNew": true
     },
     {
@@ -137,7 +147,7 @@
       "date": "2026-08-03",
       "cat": "General",
       "summary": "",
-      "source": "insurancenewsnet.com",
+      "source": "InsuranceNewsNet",
       "link": "https://news.google.com/rss/articles/CBMirwFBVV95cUxOQkxaUFNUR1VaUlJCa1phRkMzektNeVA4c3dQUTNEY2J0d2hhRGpVYXJZcUhhcmNuMnpjLUE5STE0eUtKVVRFNExZYlZkYS1WZXZrbm00cjA4NDNzRGRHM3Z3RW1wU1Q0RUdyTWRhT1EyOUp0VGxDSDNLdURhd1FkWTkwVGNVUTMwTXhnaDRKX2hDeHEwdzdtX3R0dm1tLUVVYXZid0FvSHAzU2l3Mkpr?oc=5",
       "isNew": true
     },
@@ -240,16 +250,6 @@
       "source": "Beinsure",
       "link": "https://news.google.com/rss/articles/CBMijAFBVV95cUxQdjhJRnVxc3VlVUd4RktSRmpXRFN5RXZwYjN6VDRsQTQ5NXdQR3dsTkRBREFSM1VZemswckhUSlYzdFpZdjdBU1UyZHBkRU1LNTFqcUk1TUJXODhLWERGUERNcWFtX0REMWhvUU04czNtZzNXSVpTR2ZsZ1ZNdVVybUtod00xM3J0Nld6SA?oc=5",
       "isNew": true
-    },
-    {
-      "id": "c3efdcef46bc",
-      "title": "NAIC weighs template for felon insurance license requests",
-      "date": "2026-07-21",
-      "cat": "Licensing",
-      "summary": "",
-      "source": "beinsure.com",
-      "link": "https://news.google.com/rss/articles/CBMijAFBVV95cUxQdjhJRnVxc3VlVUd4RktSRmpXRFN5RXZwYjN6VDRsQTQ5NXdQR3dsTkRBREFSM1VZemswckhUSlYzdFpZdjdBU1UyZHBkRU1LNTFqcUk1TUJXODhLWERGUERNcWFtX0REMWhvUU04czNtZzNXSVpTR2ZsZ1ZNdVVybUtod00xM3J0Nld6SA?oc=5",
-      "isNew": true
     }
   ],
   "bma": [
@@ -259,7 +259,7 @@
       "date": "2026-08-10",
       "cat": "General",
       "summary": "",
-      "source": "royalgazette.com",
+      "source": "Royal Gazette | Bermuda",
       "link": "https://news.google.com/rss/articles/CBMipAFBVV95cUxNT1JWUHJKaGpHbDRkRXpSWFdXbE1mOFlwVEpNeHdsUFpEc3piS0JhV0lZcHFXR3JhVW9HS2hMQTdVcHVlT1hTWGZqRVljZGx0SUpJUDJaNWpJLUtJSFZTRzZRa3JfcEJOdDBLcFVINVk2ekJHMnNZeGpNSC1LTllmT2xDWFpDYzRjNGZhLUJNUVh4Y1RocjZ1RjhxTHFqdmpPZUlHUQ?oc=5",
       "isNew": true
     },
@@ -389,7 +389,7 @@
       "date": "2026-07-21",
       "cat": "General",
       "summary": "",
-      "source": "royalgazette.com",
+      "source": "Royal Gazette | Bermuda",
       "link": "https://news.google.com/rss/articles/CBMitgFBVV95cUxNdHZNOGJEMWdLZTRNYjl3V1RYTmotWmdRVHV5aHpiOWxHNXdMZkEyOGRHb1RNUVB4T1pES2ZoSmczUGtHM2dwQ3hqVnV4LUw2T0pLR3NZOGtVSVNqdDdIWlNCeUhXQTVtOFF2VTdVVjlyMlk4VGZMR0JCOHlnNWJGQzR4S1pTWGJTYmhZWktVYnRKbkZBdDd4SEFKWWF5bUVQd3p2S0xFTXFMTkJXRENOZWFDMlVjUQ?oc=5",
       "isNew": true
     },
@@ -449,7 +449,7 @@
       "date": "2026-07-14",
       "cat": "Governance",
       "summary": "",
-      "source": "royalgazette.com",
+      "source": "Royal Gazette | Bermuda",
       "link": "https://news.google.com/rss/articles/CBMiqAFBVV95cUxPcXNDMmwwaG9ia1JVRkNVOHdQNjJiQnlON3IzaWk1Q3VQVFFSTGhzbGRhUmxkNnRqT0FwWWpOOF9ZYTQ3alF0cmh4dXFaYnVwOXYxTDZibGU4UG9sWWdpLXF2WHY1TWhoOVdoSHB5RXFYcjVBVlZFUVMzNHp3eHRMdUkzMDZ2TDR1NV85aTVOMXYxejFjMTI0UHM0eHZzNmFhc0NWdmpMNDE?oc=5",
       "isNew": true
     },
