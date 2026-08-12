@@ -42,7 +42,7 @@
     4.426,
     4.52,
     4.699,
-    5.006,
+    4.989,
     null,
     5.599,
     5.686
@@ -66,12 +66,12 @@
     3.884,
     4.042,
     4.21,
-    4.644,
+    4.626,
     null,
     5.33,
     5.463
   ],
   "year_ago_date": "TE year delta reconstruction",
   "note": "Official BoE daily archive first; then market scrapes; then local history / cache.",
-  "_fetched": "2026-08-12T02:44:48.654070Z"
+  "_fetched": "2026-08-12T05:02:46.985503Z"
 }
