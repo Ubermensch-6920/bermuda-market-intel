@@ -1,5 +1,5 @@
 {
-  "updated": "2026-08-13T13:53:10Z",
+  "updated": "2026-08-13T16:13:39Z",
   "topics": [
     "Insurance AM",
     "Private Credit",
@@ -7,6 +7,16 @@
     "Structured Credit"
   ],
   "items": [
+    {
+      "id": "c4697db1ff6e",
+      "title": "US state regulators quiz insurers on growing private credit exposure",
+      "source": "Private Equity Wire",
+      "date": "2026-08-13T08:17:08Z",
+      "topic": "Private Credit",
+      "summary": "",
+      "link": "https://news.google.com/rss/articles/CBMiqAFBVV95cUxQbi15U1VDM2tzN2s1ZVZnb2VzVkRWZGpyNGFLWDUzZG84SWk2ZHdaVjh6d0pEOER2aGM5Y01XdDhTZEJIMml0OV9XNzhqMi10MHRRZERnZGM1Y2NnWFRpWFlpcld0czhXR1c3bUkyc0tscmg2QS16QjZidGhhVVF5QnJLN2dPTWJSTC1wUE9qMEVuTmhvTF8wcHRCRmlzc2c5Skx5RE9zSFk?oc=5",
+      "isNew": false
+    },
     {
       "id": "9c4e0d4830ab",
       "title": "Eurozone Government Bond Yields Rise Ahead of U.S. CPI Data",
@@ -30,7 +40,7 @@
     {
       "id": "16b1a0f52067",
       "title": "Mount Logan Capital Reports Q2 2026 Results; Segment Income Rises on Strong Insurance Solutions Performance and Yieldstreet Transaction Advances",
-      "source": "Quiver Quantitative",
+      "source": "quiverquant.com",
       "date": "2026-08-11T21:10:00Z",
       "topic": "Insurance AM",
       "summary": "",
@@ -50,7 +60,7 @@
     {
       "id": "6058c271c1b7",
       "title": "Australia Holds Key Rate to Counter Elevated Inflation Pressures",
-      "source": "bloomberg.com",
+      "source": "Bloomberg.com",
       "date": "2026-08-11T07:40:40Z",
       "topic": "Rates & Macro",
       "summary": "",
@@ -120,7 +130,7 @@
     {
       "id": "1431261a9933",
       "title": "Fixed Income Explained: Investment Types and Strategies",
-      "source": "Investopedia",
+      "source": "investopedia.com",
       "date": "2026-08-10T07:00:00Z",
       "topic": "Insurance AM",
       "summary": "",
@@ -295,16 +305,6 @@
       "topic": "Insurance AM",
       "summary": "",
       "link": "https://news.google.com/rss/articles/CBMiwAFBVV95cUxQYy1Qek1seUVyQlVFZ2RkNEtUTnc2YWk5NV9GRGtQdGJOLU81M2lDSlg3VUlRTE5lbHdtT2NIZFVFd3JhMVBvVEJFWEsxYm9LMkRmUnl3N05uTjcxR05DWTBrSXdQUC1acGhCT253cjh1Y1NsakY2VnUtdnRVdWZrcWtkbnJpU3ZzdDlYc2MtR0RpVHotY3dmaVNIS2h6U1o0S3AtY1hhVzFIcDVjZWlIdkZ2VXRkdDl4UzZRaEdrMWc?oc=5",
-      "isNew": false
-    },
-    {
-      "id": "e850e14334f5",
-      "title": "What is Driving 10-Year Sovereign Yields Higher?",
-      "source": "FocusEconomics",
-      "date": "2026-08-04T12:08:02Z",
-      "topic": "Rates & Macro",
-      "summary": "",
-      "link": "https://news.google.com/rss/articles/CBMijgFBVV95cUxNS2F2LS1iVDg0TjBUNlRmYmloVDBucGtoSndYNXMzWTBscGZGdWxOaGxzeXQwNDctZUxjU2FpV05FRkUybGVtN2pIcnI4VkpXT3Vqa3JFLU5PYTNsbE0tVGpMRzdjTWhKRzBkZVZrWlplZDIxV2QyT2JQZU5kN2xWNlZKcWtyek0wcjZXZzlR?oc=5",
       "isNew": false
     }
   ]
