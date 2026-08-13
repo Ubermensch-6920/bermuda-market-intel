@@ -1,6 +1,16 @@
 {
-  "updated": "2026-08-13T16:13:39Z",
+  "updated": "2026-08-13T19:25:27Z",
   "naic": [
+    {
+      "id": "a390163cd5f3",
+      "title": "Insurers, rating firms push back on NAIC credit rating oversight plan",
+      "date": "2026-08-13",
+      "cat": "Investment",
+      "summary": "",
+      "source": "InsuranceNewsNet",
+      "link": "https://news.google.com/rss/articles/CBMirAFBVV95cUxOdnhObUlwMDB6V05sS1REYWRGb1dSOS14U0VwM1I0UHoyc1kyVnZ3cXdfQmZISFlMVGI4UzkyOTluZ2p6RWFmUi13ejZobmdad0tkVWQ2MVRuRDdQa0NJbkJtNmNqckZnZlE1U1oxQjhOY0paZWQwM3ZUMFFQUlltcHY0ZWdNZjk3Sm9lQkVrWERJcUJHMFJjdzB0TDdBLWh6WDMzWnNLVkwtSjhH?oc=5",
+      "isNew": true
+    },
     {
       "id": "117dd1b439c4",
       "title": "Premier seeks insurance sector support from US",
@@ -67,7 +77,7 @@
       "date": "2026-08-10",
       "cat": "General",
       "summary": "",
-      "source": "washingtonexaminer.com",
+      "source": "Washington Examiner",
       "link": "https://news.google.com/rss/articles/CBMijgFBVV95cUxQbEVJTVItZDZUb2ZUbUtwSEpxTE53eTZHZmN1MVZPdG4xTDdvZWNRdmhiWEVsNzkxOGlLNVBqY1VMLUFlaDJoX0kxRXUtQ3hvWVAyVGJsQXBwSEtlai1oYmhWNW1ZRW9nekZ2TEFWOG1BdEI2STNReWt3Qm5IYjBENmRNQ1BRcFdrM0lyWUtn?oc=5",
       "isNew": true
     },
@@ -99,6 +109,16 @@
       "summary": "",
       "source": "BenefitsPRO",
       "link": "https://news.google.com/rss/articles/CBMiowFBVV95cUxOcUhTcXBrVEEwZEExUG94VzVubW9QSzNOMGRFWkdxNHNTY2ZSdTRFVTlhLU8zOHVBcmY2Szd3RE9aMDRfTkU0dUVfREU4ZnUtaHVndDBqSTN5R1RXdGl4cm5ZVEhldlQ3Q1NGVHVEVDlvVGYwcHBqNHNXb0FmNm9lc1E4elAtcHdlME5vcjZhSG1yWmVFMnE0bFpSWHJJWTlENnM4?oc=5",
+      "isNew": true
+    },
+    {
+      "id": "63c7bd5b47cd",
+      "title": "Homeowners are paying much more for insurance \u2014 and keeping coverage is getting harder",
+      "date": "2026-08-06",
+      "cat": "General",
+      "summary": "",
+      "source": "CNBC",
+      "link": "https://news.google.com/rss/articles/CBMihwFBVV95cUxNWWpVSEJNdDZoeGpuV3dPdU5FQlJtWDdmTmhoeUFBMElFNElVOXRGSGFhS1lfZ2RSd0lPM2ptUkJmWUpyWHliUnBCbU9ldGh4Vm9OMDZneHdudnZvdjFULWItQk0zRTRDVVczT0R1VUJXZmp5dEdMdFRyWmh2bkNNZDJKbkJ6NnfSAYwBQVVfeXFMTS10MXBwUW5GZnhoeVFXYmkxQmRHNXJEUVljb0NvN1lRa0xEWDdFWGFldEhUemYzdlJBMGlwUEFMU3RBazJfRmRyWmRUTFYtemJyWjJ3N1BRYUNOVlZmOHlQdTJjM1RqSVlYMHhfcWJuOGxFamh4ZFhXM1Z0ZzlWZFk1TnRYSjVVb1JBNzY?oc=5",
       "isNew": true
     },
     {
@@ -229,26 +249,6 @@
       "summary": "",
       "source": "Coverager",
       "link": "https://news.google.com/rss/articles/CBMiswFBVV95cUxOa0VCWHRfRVoxbTA4R3ZqUXNDcXhWSU12ZkcyeWNwdVZCVDFRV1pYREYtaXc1dGU1MURhU2UwZ3EyZWFWRzRQU1BQdDZNZ2s4QWo2Y0ZYczdaWk0zUUVoWVlTYVhUSC1JbV9yd2pscFo4NUF2a0ZkN3pWeno5ZnhRUDdabHlKU0haOFRiLVJ5NWg0MV9iLWdLcHVJNDZHN2lvV0VRdUR1RkNmWlljRnhYZHZYNA?oc=5",
-      "isNew": true
-    },
-    {
-      "id": "7472b16262e5",
-      "title": "Most Popular Best's Review Articles Include Rankings of Top US Insurers and Global Brokers",
-      "date": "2026-07-27",
-      "cat": "General",
-      "summary": "",
-      "source": "Business Wire",
-      "link": "https://news.google.com/rss/articles/CBMi3wFBVV95cUxQS09wMEtaN1doMDlST2pETExISTJsSl9xeHdyZlZjYU9weVkwRlRPbzEwODZkMEJfV19JWnZkTGhqV2p4a2s4VHRwWW5ua0pITGMzQzdBdDVybkpKbExzaFM0dTZaVjIxR3RacWtJbllFTFhsd25OUUd3TWFkRWlOOEZJWVBZOU5hQ1E1T1N2Yk4zLXdnbGlqTkpxOWExd051dTBtcXRGUmlVYzdNSld3VzNuSFhDZHNqdnBZd2JzMzRUTHhFWmRhZzVIeXZkSnRqZE5YM3l4amx0ZHhxck5F?oc=5",
-      "isNew": true
-    },
-    {
-      "id": "c7857b7ecda4",
-      "title": "NAIC Reciprocal Exchanges (E) Working Group Advances Proposed Amendments to Model 440 and Model 450",
-      "date": "2026-07-24",
-      "cat": "General",
-      "summary": "",
-      "source": "JD Supra",
-      "link": "https://news.google.com/rss/articles/CBMihAFBVV95cUxOYzctaGt3aC12NXFVQTV0MmgwZFBudUthRVNZZk1tOF9pZk9McXVza0pBWFd3VFFmRmY5TFo4UkxhTVdYaGR4dE0zUlNCU2VDOWR0U3FhRGhIdjk4NFhqam1MX2FiU0NJWnFndXB1cEkzVC1MMjZYeVRnZU51TFRQMzlxNy0?oc=5",
       "isNew": true
     }
   ],
@@ -521,7 +521,7 @@
       "date": "2026-08-04",
       "cat": "General",
       "summary": "",
-      "source": "The Lake Sun",
+      "source": "lakenewsonline.com",
       "link": "https://news.google.com/rss/articles/CBMiygFBVV95cUxPMmg5eV93enktSGpTazdmWDk2Q1pQWTBDcXgyYjZMTklkaWNwT21hUTZYTmVpSWVUSWpsQ3JxMzFZWG1EaVVBYUxxSnZBZ1RVYWNHLUJKMGwtZkowdXpYaTIwalFRUU1wWWhZRHFYeXNSSzJaa2ZOTzRLNGo2YkUxUXFqNlRicEVMdVhKZW1KMEoyYnNpS0Vqa3g0cUdTSXhIUFVTVVE4Q3Jyejd2YUxoWllIVUlUTjg1a0tmLWJpWlNtSWM5b3BzbUNn?oc=5",
       "isNew": true
     },
@@ -671,7 +671,7 @@
       "date": "2026-06-26",
       "cat": "General",
       "summary": "",
-      "source": "JD Supra",
+      "source": "jdsupra.com",
       "link": "https://news.google.com/rss/articles/CBMiiAFBVV95cUxNcklMVDg1a1NLMjBGNy1fRHlST3Bra0JqYXhTR2VPdWpkdXdOa0IzVmNrbnlxdWE2eDRaNWVISmhwNUx5SS1WbWMwYUNSeEMweFdfOFFCWi0tdldldE9kZFpMSUNNT05TNzhhNFZYTjlMMXVUYXRmS1JwUVZaTDcyUWF6OVdIczUw?oc=5",
       "isNew": false
     },

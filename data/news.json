@@ -1,5 +1,5 @@
 {
-  "updated": "2026-08-13T16:13:39Z",
+  "updated": "2026-08-13T19:25:27Z",
   "topics": [
     "Insurance AM",
     "Private Credit",
@@ -7,6 +7,16 @@
     "Structured Credit"
   ],
   "items": [
+    {
+      "id": "5b8887a74aa2",
+      "title": "Private Credit Growth is Largely Driven by Life Insurers; Demotech-Rated Companies Have Limited Exposure",
+      "source": "PR Newswire",
+      "date": "2026-08-13T18:59:00Z",
+      "topic": "Private Credit",
+      "summary": "",
+      "link": "https://news.google.com/rss/articles/CBMi8AFBVV95cUxPdnRfUUhZXzlaM01MeUU1SGN1aDNTUERKc2FNbFItMmtRQ0JqWHBvRVpEb0pTcnBRenlENTl5Y3NDa3RFUlhPSTBwM1hqZzZWeTgzUW1fWnFEM1VpckQySWdGcE13aDJFRE5vR2lnTW9uUF95NTJsT1BoUlFRdWI4cnBYS01NR2diYUhsd0dsRHItcDhXTkpoeWc3MDZxbkdaUmx3VS1VbEJ5aERFYTNWRmZ6UHlNWGVVSDNwV0kwTFlYZXMtXzNjQ01SM0QtaTYxYUxLMmFZSDVreHRSQ0ptc1p4NTVTdmFQMHd5QXpIcm4?oc=5",
+      "isNew": false
+    },
     {
       "id": "c4697db1ff6e",
       "title": "US state regulators quiz insurers on growing private credit exposure",
@@ -40,7 +50,7 @@
     {
       "id": "16b1a0f52067",
       "title": "Mount Logan Capital Reports Q2 2026 Results; Segment Income Rises on Strong Insurance Solutions Performance and Yieldstreet Transaction Advances",
-      "source": "quiverquant.com",
+      "source": "Quiver Quantitative",
       "date": "2026-08-11T21:10:00Z",
       "topic": "Insurance AM",
       "summary": "",
@@ -60,11 +70,21 @@
     {
       "id": "6058c271c1b7",
       "title": "Australia Holds Key Rate to Counter Elevated Inflation Pressures",
-      "source": "Bloomberg.com",
+      "source": "bloomberg.com",
       "date": "2026-08-11T07:40:40Z",
       "topic": "Rates & Macro",
       "summary": "",
       "link": "https://news.google.com/rss/articles/CBMitgFBVV95cUxOUUktaGNnRkJPQnZJQ2JCVzFNNHVfb05kbFRGY2VhWmdYMlR2NTdES2NialBGc1NWaXRiTXlLQ0h4VUt0TDFJVVJrOHgzRGo5QzdieGFIb3ltOUZkWGlNNk5CdU44SUpaX0F3N2hGU2pfOGdUZXd0czlRcXY2cHlLbko4bktETHI3OXZReVl2MWg5U3VJOTB0OFVzUktKYnptdHk4V2dfUzhpak9BYjRyLUhsa25OUQ?oc=5",
+      "isNew": false
+    },
+    {
+      "id": "1f2199e2abd6",
+      "title": "Stock Market Under the Trump Administration: What is Driving Markets in 2026?",
+      "source": "U.S. Bank",
+      "date": "2026-08-11T07:00:00Z",
+      "topic": "Insurance AM",
+      "summary": "",
+      "link": "https://news.google.com/rss/articles/CBMingFBVV95cUxPcUowVHR1VXAzd0Zfamw1MkVSejFsRGo1bkdGdHhjNVBZVFdwU3VpcE5neGJOeWl6RmdQVkFsYlcxNEVTRGg3WHNYSGR1d1BpTjV4T2NqdWdER3ZtQ0RVbU40WTcyRXRaTEM5bFZteVlYNE5EYkM1M1BaR0lYTGlUeFlTeDhVMzRaWFFqZEZhcGc3RFJoZy1qZy1mTGViQQ?oc=5",
       "isNew": false
     },
     {
@@ -150,7 +170,7 @@
     {
       "id": "cab235bbbe5d",
       "title": "AGO Q2 Deep Dive: New Business Growth and Investment Volatility Shape Results",
-      "source": "TradingView",
+      "source": "tradingview.com",
       "date": "2026-08-07T16:20:49Z",
       "topic": "Structured Credit",
       "summary": "",
@@ -230,7 +250,7 @@
     {
       "id": "48810963de45",
       "title": "Delay, Deny, Defend, and Private Credit- II",
-      "source": "Substack",
+      "source": "contrarianunicus.substack.com",
       "date": "2026-08-06T10:21:56Z",
       "topic": "Structured Credit",
       "summary": "",
@@ -240,7 +260,7 @@
     {
       "id": "47b2b365a884",
       "title": "Delay, Deny, Defend, and Private Credit- II",
-      "source": "Substack",
+      "source": "contrarianunicus.substack.com",
       "date": "2026-08-06T10:21:56Z",
       "topic": "Private Credit",
       "summary": "",
@@ -251,10 +271,10 @@
       "id": "89884fbe90f5",
       "title": "Correlations turn positive, equity & bonds, risk assets & government bond",
       "source": "BNY",
-      "date": "2026-08-05T19:39:52Z",
+      "date": "2026-08-06T03:04:01Z",
       "topic": "Rates & Macro",
       "summary": "",
-      "link": "https://news.google.com/rss/articles/CBMitAFBVV95cUxPV0x2cTVSVHJyeXVqNy1obC1sd1FsclN0M2FzVHlITGZPSEZkVlgwZXJ3bHU4ZmhMalNNcEpZRmFhbGpBX1pMbjRGZGVPZ2JNZ1NEb3FhVVdUT3MtX0NrTDQydmlLclJXWXZrQWRCRk5xT0NvYm55X21EYWR2LThGeFMyVUdWUWRrMmd4aXkwd1liOTU0LXlHQjVLdjhHVWx2RnF4Y1lZM2VCZjlWc2Ria0tDV2c?oc=5",
+      "link": "https://news.google.com/rss/articles/CBMiuwFBVV95cUxNc2tSWUxxX01td3hLUHBzb21mQU5YZlR4eUhjUDNoalNxSXBqVFdvS0R5SzBlSm4zcUR5cFdSVlE1MGU3SE9ydDhfcUNGY0RkMnVqY1M2RXRQVWRaMXRZRFE5bTJlNkk1emVRbGpWVFdyb1lrTXp4TTZVeXpxbDlXV2FsdkVlTGZEYXdzMHVwMHFqVVY2WU9mVEdIanpIV1BEOXk3OWh2LUFTaF9hN09RZjF2bW1VY0pOYTNz?oc=5",
       "isNew": false
     },
     {
@@ -285,26 +305,6 @@
       "topic": "Rates & Macro",
       "summary": "",
       "link": "https://news.google.com/rss/articles/CBMieEFVX3lxTFBqeUZYeWVxdV82bE53TFRVazUtcTYyZ3ZKRnBGS1IzUkVybHBaemNuYXEya1JQU3hkNE9COFF6Rzk0OFd2X2JOQnloWklFU1RCdHlfSEdrLVFYY21kbFBjWmN4NXNHanZ0R0hwbFdMQkdVN2llamd2S9IBfkFVX3lxTFBxaDZxUHR3aDJBREVlN1VETGJ2aTdtaFltX2JLRXdTY2pUQW4wbVJCVGI2bUZKWExFdmlPTVBKOWFyRDdSMWU3cUlQaEdLaEdva21PNVN4M2dWQ3F3RzB2amZIQy1jZFdkUUxUb2w3emxKMm5ZQkVXbmVMUHR3dw?oc=5",
-      "isNew": false
-    },
-    {
-      "id": "a0561a2ec240",
-      "title": "International Wealth Insurance Sales Hit \u00a353bn",
-      "source": "RankiaPro",
-      "date": "2026-08-04T18:41:58Z",
-      "topic": "Insurance AM",
-      "summary": "",
-      "link": "https://news.google.com/rss/articles/CBMitwFBVV95cUxOZzNuSnNJMW5WeUNCejNOZ1kya2lnWEJpMjNBUWk3N3dQbnhWZWI4Q0IzMzlJeVNjR3ZhSjdoajJaTzUzWjFxM3lSM2hZdHVmQzAwek9wTWs4TjZLU1FQM2JveGh5R1l5Z1FGSzZlSjlDdjE5eFdXWk5ZVlBxVU1ETkNmLWdvQTQzTFB4My1kS005cGNhZmI4aGpVQmJRSWQycDROS3FWMXNGSmpJWXJsWDlNSTkxT0U?oc=5",
-      "isNew": false
-    },
-    {
-      "id": "ce7974788508",
-      "title": "Apollo debt deal fees and insurance earnings rise, asset sales drag",
-      "source": "Reuters",
-      "date": "2026-08-04T17:31:27Z",
-      "topic": "Insurance AM",
-      "summary": "",
-      "link": "https://news.google.com/rss/articles/CBMiwAFBVV95cUxQYy1Qek1seUVyQlVFZ2RkNEtUTnc2YWk5NV9GRGtQdGJOLU81M2lDSlg3VUlRTE5lbHdtT2NIZFVFd3JhMVBvVEJFWEsxYm9LMkRmUnl3N05uTjcxR05DWTBrSXdQUC1acGhCT253cjh1Y1NsakY2VnUtdnRVdWZrcWtkbnJpU3ZzdDlYc2MtR0RpVHotY3dmaVNIS2h6U1o0S3AtY1hhVzFIcDVjZWlIdkZ2VXRkdDl4UzZRaEdrMWc?oc=5",
       "isNew": false
     }
   ]
