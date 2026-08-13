@@ -1,5 +1,5 @@
 {
-  "updated": "2026-08-13T05:09:32Z",
+  "updated": "2026-08-13T07:57:32Z",
   "topics": [
     "Insurance AM",
     "Private Credit",
@@ -50,11 +50,21 @@
     {
       "id": "6058c271c1b7",
       "title": "Australia Holds Key Rate to Counter Elevated Inflation Pressures",
-      "source": "bloomberg.com",
+      "source": "Bloomberg.com",
       "date": "2026-08-11T07:40:40Z",
       "topic": "Rates & Macro",
       "summary": "",
       "link": "https://news.google.com/rss/articles/CBMitgFBVV95cUxOUUktaGNnRkJPQnZJQ2JCVzFNNHVfb05kbFRGY2VhWmdYMlR2NTdES2NialBGc1NWaXRiTXlLQ0h4VUt0TDFJVVJrOHgzRGo5QzdieGFIb3ltOUZkWGlNNk5CdU44SUpaX0F3N2hGU2pfOGdUZXd0czlRcXY2cHlLbko4bktETHI3OXZReVl2MWg5U3VJOTB0OFVzUktKYnptdHk4V2dfUzhpak9BYjRyLUhsa25OUQ?oc=5",
+      "isNew": false
+    },
+    {
+      "id": "87af59f3f78c",
+      "title": "Trump reopens Fed battle at critical time for bond markets",
+      "source": "Reuters",
+      "date": "2026-08-11T06:00:00Z",
+      "topic": "Rates & Macro",
+      "summary": "",
+      "link": "https://news.google.com/rss/articles/CBMivAFBVV95cUxOTnZ5dmxPWUFBMkpfUEoydUthWTYtV055RWZKTC1UUnp4aHFabmNWMC1GaDZfWGpRWFFabmxTZFNPWmJ1c1BKRHpTNmpoR2Zad19XSGgxanptOE0wVnJHcnEwN3c0bkY0azdxUFZYUDUtLU44Y0dTUkc3Z1I0OWdWalZFMHNpbDl1a3hYWm9kS08yVjgwWkI5Q2NjVEJvOVE5SmVqa21pMXA1eGxLSjFXVGZpZF9MaEFnOFpXMw?oc=5",
       "isNew": false
     },
     {
@@ -188,9 +198,19 @@
       "isNew": false
     },
     {
+      "id": "9dac3572cd97",
+      "title": "Vanguard\u2019s Gemmell: How Bond Investors Can Navigate a Volatile Rate Environment",
+      "source": "Morningstar",
+      "date": "2026-08-06T11:00:22Z",
+      "topic": "Rates & Macro",
+      "summary": "",
+      "link": "https://news.google.com/rss/articles/CBMisgFBVV95cUxNZ3VVdjgwRUZjNjhncEJ4VVMwc2ZkRnFjYVpHbmxpeGoybWVoRTV1VEFMNjQ0ODAwYk4wTDM1enNVd2NTUm9OYTNpaFpoS2xvVjhSOERUaDF1WS1fbFg1enhPTVBERVZqQkFHdlhwQlI3QzI0aDF6UU9vaWV6YUFDczJZd2FYelFGWm5wRi0zQUdISktLeWtQQXlDd0pzYllKc3hyb0lHOW5wVE1Dd2tWVDBn?oc=5",
+      "isNew": false
+    },
+    {
       "id": "48810963de45",
       "title": "Delay, Deny, Defend, and Private Credit- II",
-      "source": "Substack",
+      "source": "contrarianunicus.substack.com",
       "date": "2026-08-06T10:21:56Z",
       "topic": "Structured Credit",
       "summary": "",
@@ -200,7 +220,7 @@
     {
       "id": "47b2b365a884",
       "title": "Delay, Deny, Defend, and Private Credit- II",
-      "source": "Substack",
+      "source": "contrarianunicus.substack.com",
       "date": "2026-08-06T10:21:56Z",
       "topic": "Private Credit",
       "summary": "",
@@ -268,43 +288,23 @@
       "isNew": false
     },
     {
+      "id": "e850e14334f5",
+      "title": "What is Driving 10-Year Sovereign Yields Higher?",
+      "source": "FocusEconomics",
+      "date": "2026-08-04T12:08:02Z",
+      "topic": "Rates & Macro",
+      "summary": "",
+      "link": "https://news.google.com/rss/articles/CBMijgFBVV95cUxNS2F2LS1iVDg0TjBUNlRmYmloVDBucGtoSndYNXMzWTBscGZGdWxOaGxzeXQwNDctZUxjU2FpV05FRkUybGVtN2pIcnI4VkpXT3Vqa3JFLU5PYTNsbE0tVGpMRzdjTWhKRzBkZVZrWlplZDIxV2QyT2JQZU5kN2xWNlZKcWtyek0wcjZXZzlR?oc=5",
+      "isNew": false
+    },
+    {
       "id": "ebf2a8caf749",
       "title": "Central Banks Hold Rates, Sparking Wealth Manager Reactions",
-      "source": "familywealthreport.com",
+      "source": "Family Wealth Report",
       "date": "2026-08-04T11:53:34Z",
       "topic": "Rates & Macro",
       "summary": "",
       "link": "https://news.google.com/rss/articles/CBMirAFBVV95cUxONzdfdnFVTWd3Qm5GS2l1MDVrUHpMaTJRQVVOSkZ4ZXJ6VVUxY3RMTmVLc2xfb3cxZl9sVlBrR0tTTXRLQlFEcWEtVlNrdXI2cE05QWtxQUhXZFh0NWtmUUpiUzdhc3JNQ3IwUl9BM0p3c1VINUdvZC12RGpxWlpjSFIydVZnMGVKamlMcS0tT0NRU2J4aUIwU25yUVYyc0xyY2FYNVVla0VHUklz?oc=5",
-      "isNew": false
-    },
-    {
-      "id": "998ed0394b04",
-      "title": "Bridgepoint Closes Fourth Direct Lending Fund Above Target At \u20ac5.1 Billion",
-      "source": "Pulse 2.0",
-      "date": "2026-08-04T11:39:27Z",
-      "topic": "Private Credit",
-      "summary": "",
-      "link": "https://news.google.com/rss/articles/CBMimgFBVV95cUxNVzd6Nlk0YXhjcnJvWXo0TXA3YUp5VUxmbFVoQ2ZYaWdxamZMUmlKYkNFWG8tTUpRbmdMbEJHMTFfbkFjaG80d3M1eUFxQ29FVzZKMWg4V1cyMUNFY2oySWRtYkhqQndMX1VISDdPWC1TaGFkbHlFSjNSOFhacENVWFZtczdCWHljdWNFNWNIMGNrNTNEY2tXSXpB0gGfAUFVX3lxTFBPbHhuVXJsdVJULUI4TjZzZlcyYzJYR0lGRXFGcHlkdk8wWG9xakR5WlN2TG1xUFF3aW9aSzY0QlZMektJMXkzVENmXzdVRU13Z3RGRjFiZXFXZ0p3V1Z1SnhSNmJ6TzJHMVNURC1ld29TRFFCWjlHWWp5elhadVBlWG45bTRCQ25iMHllQVBEajdaZzRNdkdzemxJNWM4VQ?oc=5",
-      "isNew": false
-    },
-    {
-      "id": "b5df47f7754f",
-      "title": "European insurers prioritising infrastructure debt and structured credit amid Solvency II changes: Novantigo",
-      "source": "Reinsurance News",
-      "date": "2026-08-04T10:33:27Z",
-      "topic": "Structured Credit",
-      "summary": "",
-      "link": "https://news.google.com/rss/articles/CBMi0wFBVV95cUxQRmNuMWhpTzZlVG9VTEd1TExSM2JMb1QzS0NFeTJWdnlwdW05Zm9DcDNIYlBOcnkxSGtPZlNFTGgwSWFIVlAyQWQ4V3hIc0c5UWZnY09sM21mXzFvUEs3dy1CS0prLWRsMk9iMnBEVGZJWXVsRTJ0RG9Xc0IyN3RzS1VaUVZQUllWQUZZZ294ZUkwNkt1WkZBVG5iWTdteUpCZzVoMHNSS2h5UHFBemY5U241NUVMX3l0NmtqTWxRWUJfWDJueVhWVTVqOGJZSlF5WG5j?oc=5",
-      "isNew": false
-    },
-    {
-      "id": "2d5186e7c2a3",
-      "title": "European insurers prioritising infrastructure debt and structured credit amid Solvency II changes: Novantigo",
-      "source": "Reinsurance News",
-      "date": "2026-08-04T10:33:27Z",
-      "topic": "Private Credit",
-      "summary": "",
-      "link": "https://news.google.com/rss/articles/CBMi0wFBVV95cUxQRmNuMWhpTzZlVG9VTEd1TExSM2JMb1QzS0NFeTJWdnlwdW05Zm9DcDNIYlBOcnkxSGtPZlNFTGgwSWFIVlAyQWQ4V3hIc0c5UWZnY09sM21mXzFvUEs3dy1CS0prLWRsMk9iMnBEVGZJWXVsRTJ0RG9Xc0IyN3RzS1VaUVZQUllWQUZZZ294ZUkwNkt1WkZBVG5iWTdteUpCZzVoMHNSS2h5UHFBemY5U241NUVMX3l0NmtqTWxRWUJfWDJueVhWVTVqOGJZSlF5WG5j?oc=5",
       "isNew": false
     }
   ]
