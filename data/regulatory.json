@@ -1,5 +1,5 @@
 {
-  "updated": "2026-08-12T22:08:43Z",
+  "updated": "2026-08-13T02:51:55Z",
   "naic": [
     {
       "id": "117dd1b439c4",
@@ -9,6 +9,16 @@
       "summary": "",
       "source": "Cayman News Service",
       "link": "https://news.google.com/rss/articles/CBMijgFBVV95cUxQT1hWUzJCUVdPYXhjNXBfRnlyTWxXWkJGb3ZmOWZURkVEMGNVWWNlZk9MQmhobGVOaUpWbmZvTEZjYUZKcXhJZDUyQ0RMenlqWTE4RmRZM2NnV2plOHVSSnFBcnZoc1oyM3ozTTlYbzA1MlRQb0Rsc2ROS2RSUmU1c0o0WERUREpad2xKTHh3?oc=5",
+      "isNew": true
+    },
+    {
+      "id": "e1c6a0a47559",
+      "title": "Life Insurance Needs New Market Conduct Standards, Consumer Rep Says",
+      "date": "2026-08-12",
+      "cat": "Governance",
+      "summary": "",
+      "source": "ThinkAdvisor",
+      "link": "https://news.google.com/rss/articles/CBMirAFBVV95cUxQdWdERmNYbUY3Q0Z2YTZoeUw5bnJickhYQ091b3Q2cExnY3ltZkQyRzczdlp4N2gyUmJfTHpiM0F2b2pNNWJsZURtQy0yZmdJa1FhckJMYklIWWo1RFA2OW9kUy1BY2JIbmdsTW1JSjZLNUs0LTcxMFIydkVqY1ZFdDNmVERoZDB0M3VyQ3ZIXy1OOHpPbVBjNkFZNm9oY0d2TF8zVkE0Y0k2VHNG?oc=5",
       "isNew": true
     },
     {
@@ -47,7 +57,7 @@
       "date": "2026-08-11",
       "cat": "General",
       "summary": "",
-      "source": "intelligentinsurer.com",
+      "source": "Intelligent Insurer",
       "link": "https://news.google.com/rss/articles/CBMisAFBVV95cUxPNXhCbWNpS0Fvdkp5TWd5N2RvQmtTNW1tY2p0QjlTRjlleTB0N0tMWGZnSGdnek1BRW12TExsMFg2eHFWaHlqMFhKbl9xZW95eVlndi13QlBLYkoySkRtSmdsYWdtMnpTbWFZQkFVZnJrSEFfckd5b2R4ai1uSmxlczhMak9CQllBMDBKSzdnSFVIUGJmWl9DOElqSnRESDUxTk9kb0dWdkd6RXQ0QzBOQg?oc=5",
       "isNew": true
     },
@@ -240,16 +250,6 @@
       "source": "repairerdrivennews.com",
       "link": "https://news.google.com/rss/articles/CBMi3wFBVV95cUxQQjhrQlpxd2RFV3k1Wkt1RzhTYmNyZmxVTy1CUWdkMzI4czNtb1B6UUN4RGROdnY5MDJEam5Ha2JiVGhveTVZRVhrc3pMd2dVTXJQd1d1eHEtc0FjWENiQ3ppZFpvZ1dxZG5WWTJYWmhHRHUtTzVWWG5jQ1dXajNpLVNZT3JKekl1eF9LV0UyNE9UVENKX2txTjVRSjRPSl8zeFkxaEljaU5mZVI4dFptU3NoQjNrNGNHUDFrUlBuZjAwS0hTNUhWbGxsR3lRX0JtaG9ray1aa3lBSWZuLTM4?oc=5",
       "isNew": true
-    },
-    {
-      "id": "aa4a556b4837",
-      "title": "NAIC: Update on proposed template for convicted felon insurance business applicants, survey of states",
-      "date": "2026-07-21",
-      "cat": "General",
-      "summary": "",
-      "source": "repairerdrivennews.com",
-      "link": "https://news.google.com/rss/articles/CBMi3wFBVV95cUxQQjhrQlpxd2RFV3k1Wkt1RzhTYmNyZmxVTy1CUWdkMzI4czNtb1B6UUN4RGROdnY5MDJEam5Ha2JiVGhveTVZRVhrc3pMd2dVTXJQd1d1eHEtc0FjWENiQ3ppZFpvZ1dxZG5WWTJYWmhHRHUtTzVWWG5jQ1dXajNpLVNZT3JKekl1eF9LV0UyNE9UVENKX2txTjVRSjRPSl8zeFkxaEljaU5mZVI4dFptU3NoQjNrNGNHUDFrUlBuZjAwS0hTNUhWbGxsR3lRX0JtaG9ray1aa3lBSWZuLTM4?oc=5",
-      "isNew": true
     }
   ],
   "bma": [
@@ -309,7 +309,7 @@
       "date": "2026-07-23",
       "cat": "General",
       "summary": "",
-      "source": "intelligentinsurer.com",
+      "source": "Intelligent Insurer",
       "link": "https://news.google.com/rss/articles/CBMiqAFBVV95cUxPOXB1QTRBMWJFMnlNc21aVTJ6VXVHNEVNUU5ZbjVUdTVCdDc3LXBmNHROUVlNQTJkTVZLTElUTmtYdjV2S2tQTEY1VnJWNUJ2Yk12QllaNTRQa2hPakRBVE9nbWpsMnBCaW5QRm1NdWlRTi1tME5kaU1oR1RsZHJGaVhOTTdxa01MNzJoemc2VG90WWQzNHdicU9TWk4tV01lWmc1NXZGYzU?oc=5",
       "isNew": true
     },
@@ -441,7 +441,7 @@
       "summary": "",
       "source": "Royal Gazette | Bermuda",
       "link": "https://news.google.com/rss/articles/CBMiqAFBVV95cUxPcXNDMmwwaG9ia1JVRkNVOHdQNjJiQnlON3IzaWk1Q3VQVFFSTGhzbGRhUmxkNnRqT0FwWWpOOF9ZYTQ3alF0cmh4dXFaYnVwOXYxTDZibGU4UG9sWWdpLXF2WHY1TWhoOVdoSHB5RXFYcjVBVlZFUVMzNHp3eHRMdUkzMDZ2TDR1NV85aTVOMXYxejFjMTI0UHM0eHZzNmFhc0NWdmpMNDE?oc=5",
-      "isNew": true
+      "isNew": false
     },
     {
       "id": "bb738c880046",
@@ -449,9 +449,9 @@
       "date": "2026-07-14",
       "cat": "Governance",
       "summary": "",
-      "source": "royalgazette.com",
+      "source": "Royal Gazette | Bermuda",
       "link": "https://news.google.com/rss/articles/CBMiqAFBVV95cUxPcXNDMmwwaG9ia1JVRkNVOHdQNjJiQnlON3IzaWk1Q3VQVFFSTGhzbGRhUmxkNnRqT0FwWWpOOF9ZYTQ3alF0cmh4dXFaYnVwOXYxTDZibGU4UG9sWWdpLXF2WHY1TWhoOVdoSHB5RXFYcjVBVlZFUVMzNHp3eHRMdUkzMDZ2TDR1NV85aTVOMXYxejFjMTI0UHM0eHZzNmFhc0NWdmpMNDE?oc=5",
-      "isNew": true
+      "isNew": false
     },
     {
       "id": "d8241116bfa2",
@@ -461,7 +461,7 @@
       "summary": "",
       "source": "Royal Gazette | Bermuda",
       "link": "https://news.google.com/rss/articles/CBMiqAFBVV95cUxPcXNDMmwwaG9ia1JVRkNVOHdQNjJiQnlON3IzaWk1Q3VQVFFSTGhzbGRhUmxkNnRqT0FwWWpOOF9ZYTQ3alF0cmh4dXFaYnVwOXYxTDZibGU4UG9sWWdpLXF2WHY1TWhoOVdoSHB5RXFYcjVBVlZFUVMzNHp3eHRMdUkzMDZ2TDR1NV85aTVOMXYxejFjMTI0UHM0eHZzNmFhc0NWdmpMNDE?oc=5",
-      "isNew": true
+      "isNew": false
     },
     {
       "id": "db4f540dde11",
@@ -613,7 +613,7 @@
       "summary": "",
       "source": "Insurance Business",
       "link": "https://news.google.com/rss/articles/CBMi2gFBVV95cUxOWEI0T3hNdnh5M0U2ekhDYWJRRnplN3g1ZDVheG9NRUZwR2lxUjJaVDhLSkFGdjRWWENGRkJVVjJwQ0FMY05KenJha1JHZkd3em0wczVrOXFYbks4UGxfQUg0NDJQUVlQQ0hVOFNGWmsyMXM5NFlTV3F2YmlxbWQ3alZDcHQ1ajktRUhnTkdNX3Bia1dON3RVSGdqa1I1ZzNlWnNCX0Y5VU5SR2lpanlhSjRvc1pWUFlHN3FxbkZtM0NUVXc5NlRlWHAtTUoxX3lTTEdiYUpDTnZTUQ?oc=5",
-      "isNew": true
+      "isNew": false
     },
     {
       "id": "2d47ab25fe62",
@@ -623,7 +623,7 @@
       "summary": "",
       "source": "Insurance Business",
       "link": "https://news.google.com/rss/articles/CBMi2gFBVV95cUxOWEI0T3hNdnh5M0U2ekhDYWJRRnplN3g1ZDVheG9NRUZwR2lxUjJaVDhLSkFGdjRWWENGRkJVVjJwQ0FMY05KenJha1JHZkd3em0wczVrOXFYbks4UGxfQUg0NDJQUVlQQ0hVOFNGWmsyMXM5NFlTV3F2YmlxbWQ3alZDcHQ1ajktRUhnTkdNX3Bia1dON3RVSGdqa1I1ZzNlWnNCX0Y5VU5SR2lpanlhSjRvc1pWUFlHN3FxbkZtM0NUVXc5NlRlWHAtTUoxX3lTTEdiYUpDTnZTUQ?oc=5",
-      "isNew": true
+      "isNew": false
     },
     {
       "id": "d50a6675fe0c",
@@ -671,7 +671,7 @@
       "date": "2026-06-26",
       "cat": "General",
       "summary": "",
-      "source": "JD Supra",
+      "source": "jdsupra.com",
       "link": "https://news.google.com/rss/articles/CBMiiAFBVV95cUxNcklMVDg1a1NLMjBGNy1fRHlST3Bra0JqYXhTR2VPdWpkdXdOa0IzVmNrbnlxdWE2eDRaNWVISmhwNUx5SS1WbWMwYUNSeEMweFdfOFFCWi0tdldldE9kZFpMSUNNT05TNzhhNFZYTjlMMXVUYXRmS1JwUVZaTDcyUWF6OVdIczUw?oc=5",
       "isNew": false
     },
