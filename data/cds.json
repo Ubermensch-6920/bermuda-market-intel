@@ -56,7 +56,7 @@
       "name": "B Corp",
       "spread": 288,
       "prior": 290,
-      "series_id": "",
+      "series_id": "BAMLH0A2HYB",
       "date": "2026-08-12",
       "source": "credit.json"
     },
@@ -103,5 +103,5 @@
       "source": "cache"
     }
   },
-  "_fetched": "2026-08-13T19:22:15.842459Z"
+  "_fetched": "2026-08-13T22:06:34.584785Z"
 }
