@@ -1,5 +1,5 @@
 {
-  "updated": "2026-08-13T22:09:59Z",
+  "updated": "2026-08-14T02:50:28Z",
   "topics": [
     "Insurance AM",
     "Private Credit",
@@ -80,7 +80,7 @@
     {
       "id": "6058c271c1b7",
       "title": "Australia Holds Key Rate to Counter Elevated Inflation Pressures",
-      "source": "Bloomberg.com",
+      "source": "Bloomberg",
       "date": "2026-08-11T07:40:40Z",
       "topic": "Rates & Macro",
       "summary": "",
@@ -90,7 +90,7 @@
     {
       "id": "1f2199e2abd6",
       "title": "Stock Market Under the Trump Administration: What is Driving Markets in 2026?",
-      "source": "usbank.com",
+      "source": "U.S. Bank",
       "date": "2026-08-11T07:00:00Z",
       "topic": "Insurance AM",
       "summary": "",
@@ -120,7 +120,7 @@
     {
       "id": "d3757cb0eab2",
       "title": "BOJ's rate-hike path runs into Takaichi's bond market problems",
-      "source": "reuters.com",
+      "source": "Reuters",
       "date": "2026-08-10T23:08:35Z",
       "topic": "Rates & Macro",
       "summary": "",
@@ -140,7 +140,7 @@
     {
       "id": "e12439817893",
       "title": "Interest rates may stay higher for longer. What that means for consumers",
-      "source": "cnbc.com",
+      "source": "CNBC",
       "date": "2026-08-10T12:41:26Z",
       "topic": "Rates & Macro",
       "summary": "",
