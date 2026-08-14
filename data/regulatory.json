@@ -1,5 +1,5 @@
 {
-  "updated": "2026-08-14T05:07:08Z",
+  "updated": "2026-08-14T07:55:02Z",
   "naic": [
     {
       "id": "a390163cd5f3",
@@ -329,7 +329,7 @@
       "date": "2026-07-22",
       "cat": "General",
       "summary": "",
-      "source": "artemis.bm",
+      "source": "Artemis.bm",
       "link": "https://news.google.com/rss/articles/CBMipAFBVV95cUxOM1B5X2ZUMThlOWl6Z2kyUWQ2cWpPLUM4a1ZiSXBaR2VPVmRLRjBzbWoyX2lxNkp6RElEUllTWDNibE5hYTFsV293RGJOcGdnT0R6SldVLWRMX2JFa3I0ZW1FUjlLTFJFVW9ReXlTN3ZqTVBiVHpoRVdzZENGYzFNdlBrQjY3MEJmUjZIQ2gtSDJXR0t1WlJ5VUsxaVNFMDdHeXduSQ?oc=5",
       "isNew": true
     },
@@ -656,6 +656,16 @@
       "isNew": false
     },
     {
+      "id": "d2d2c8d52833",
+      "title": "What CIMA\u2019s 2026 Thematic Review means for Cayman reinsurers | Walkers",
+      "date": "2026-06-26",
+      "cat": "General",
+      "summary": "",
+      "source": "JD Supra",
+      "link": "https://news.google.com/rss/articles/CBMiiAFBVV95cUxNcklMVDg1a1NLMjBGNy1fRHlST3Bra0JqYXhTR2VPdWpkdXdOa0IzVmNrbnlxdWE2eDRaNWVISmhwNUx5SS1WbWMwYUNSeEMweFdfOFFCWi0tdldldE9kZFpMSUNNT05TNzhhNFZYTjlMMXVUYXRmS1JwUVZaTDcyUWF6OVdIczUw?oc=5",
+      "isNew": false
+    },
+    {
       "id": "a0edf2367151",
       "title": "What CIMA\u2019s 2026 Thematic Review means for Cayman reinsurers",
       "date": "2026-06-26",
@@ -743,16 +753,6 @@
       "summary": "",
       "source": "Togo First",
       "link": "https://news.google.com/rss/articles/CBMi2gFBVV95cUxNTUZqaGFhOFpaNzFYZzZFSVJiSm8yY3dEekpmUXo5ME1rS25NazBmWjVXTVlNWk9EUzNFZGxTcVBTLUh6aU9kNF8xVTBhbkVpT0Zac1FKVnptY3VWaG9rRXp2YmdjT1M4a2J3bGpsTExIMGNmaDdlVFE4VE5qTFdiTmxYaGItcFBZZUpZaGJRdHRhVXZEX25wVEJ6OUQtZTV0cTYtVklhd29LbkUxRUNwU1J5SUJTSnY1MlFhbHZ2Rl9ySHRBenFuZmRaNldjNnRJNXJlSzUtdzZzQQ?oc=5",
-      "isNew": false
-    },
-    {
-      "id": "69b422a690bf",
-      "title": "Cayman to apply for NAIC qualified jurisdiction status by Q2 2026",
-      "date": "2026-04-22",
-      "cat": "General",
-      "summary": "",
-      "source": "Captive Insurance Times",
-      "link": "https://news.google.com/rss/articles/CBMi3wFBVV95cUxQdXVXdmg0N0xOakJ4ZGhNQkhjU0R1RGdzY0hMWFN4Zmt6bUQtMElYczY4a0l4aXV1RnRpY0h0dldSaWxPSHF3T1doNm03OUFOMzlmdldNeTJxc29xRHEwa3lGSnJsQnpxUUV6REFqVUxJanFKNWY3WmVqanpCd1dMclFEUl9DZWJTUTlyakJDN0hSbEZ6VU54Y2hhUVh0RE1jYWpMclQ2UW1VaDJYQlluWk4tb05ScWdCMUQ2eUJINExxbjFTZzJCX093dXNibUFoc2FjbkpOZFdUbWlONnlv?oc=5",
       "isNew": false
     }
   ]
