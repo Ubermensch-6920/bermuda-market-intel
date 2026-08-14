@@ -1,5 +1,5 @@
 {
-  "updated": "2026-08-14T07:55:02Z",
+  "updated": "2026-08-14T10:21:01Z",
   "naic": [
     {
       "id": "a390163cd5f3",
@@ -254,6 +254,16 @@
   ],
   "bma": [
     {
+      "id": "b6e174b0844c",
+      "title": "BMA tightens rules around \u2018key persons\u2019",
+      "date": "2026-08-13",
+      "cat": "General",
+      "summary": "",
+      "source": "Royal Gazette | Bermuda",
+      "link": "https://news.google.com/rss/articles/CBMiqAFBVV95cUxPN3czb3ZwTzU1RXByMVdGdV9OQVczMzY5S0hrSXdXY1piTUZfMUlOeXJ0QkxKa3loLTQ0OWhSV25hOVh1b2JKOExuNXppZzR4WE1xT2lfbmFiY0ExMV81OTIyUVNlRUtWTXlFaEp0aURKMTc5OFFBQ00tam81VVBTZmJ0ampzb0NjZWZGUUpPN09JbHljLWJUcWtkbU0tcnN3NWZDZ2puSEM?oc=5",
+      "isNew": true
+    },
+    {
       "id": "9591e9d1ab34",
       "title": "Ministry wants more bank fee oversight",
       "date": "2026-08-10",
@@ -491,16 +501,6 @@
       "summary": "",
       "source": "Insurance Business",
       "link": "https://news.google.com/rss/articles/CBMi4gFBVV95cUxOVGhqVXFiVGQ0alBiSU9WcWxzaUlmSktjLXI3RWpmYUt0NG1PajR3TVB0ZWg4VTNBLXhINDJyTUdFWXNFS1dNUmZCQjV4TmYxc09qWWhVS0thY0c3MkR6Y0czd1RIenotZlRLSjljMUtqaExCQ3gyNmFyV09YbVBtLW10MGR6M0N4NVR0UzVRV2dpdkNlRi1OOEdUQkpHamJ5Sy1vTXVwT19lQS1OdklieHBRNGRPOXp4WG5hMVlwZXVEbEt5QnkyRkxJaV9FU2hfNUNRTThIdU9CdmE0LXlvblhB?oc=5",
-      "isNew": false
-    },
-    {
-      "id": "11527e5f1593",
-      "title": "Official Govt & Legal Notices For July 7 2026",
-      "date": "2026-07-07",
-      "cat": "General",
-      "summary": "",
-      "source": "Bernews",
-      "link": "https://news.google.com/rss/articles/CBMid0FVX3lxTE5TU3VWVnNEOVdKbG1DeVc1V3BaOGo2UkZFeE5tbVB4bDNuX21QamExZGwwUTJ1ZGJaQVl1c25WVHBLTmNlOHFxNER5cThybmhnb194NVJLR1JTUEMxMUhESEhjeXh5OExVZjhEMkpPQ1NRVW9jaWRv?oc=5",
       "isNew": false
     }
   ],
