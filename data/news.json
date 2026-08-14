@@ -1,5 +1,5 @@
 {
-  "updated": "2026-08-14T16:10:32Z",
+  "updated": "2026-08-14T19:18:48Z",
   "topics": [
     "Insurance AM",
     "Private Credit",
@@ -30,7 +30,7 @@
     {
       "id": "f94b53251616",
       "title": "When the AI Bubble Bursts, Who Will Be Left Holding the Bag?",
-      "source": "counterpunch.org",
+      "source": "Counterpunch",
       "date": "2026-08-14T05:57:14Z",
       "topic": "Private Credit",
       "summary": "",
@@ -108,6 +108,16 @@
       "isNew": false
     },
     {
+      "id": "87af59f3f78c",
+      "title": "Trump reopens Fed battle at critical time for bond markets",
+      "source": "Reuters",
+      "date": "2026-08-12T07:00:00Z",
+      "topic": "Rates & Macro",
+      "summary": "",
+      "link": "https://news.google.com/rss/articles/CBMivAFBVV95cUxOTnZ5dmxPWUFBMkpfUEoydUthWTYtV055RWZKTC1UUnp4aHFabmNWMC1GaDZfWGpRWFFabmxTZFNPWmJ1c1BKRHpTNmpoR2Zad19XSGgxanptOE0wVnJHcnEwN3c0bkY0azdxUFZYUDUtLU44Y0dTUkc3Z1I0OWdWalZFMHNpbDl1a3hYWm9kS08yVjgwWkI5Q2NjVEJvOVE5SmVqa21pMXA1eGxLSjFXVGZpZF9MaEFnOFpXMw?oc=5",
+      "isNew": false
+    },
+    {
       "id": "6c2b46916215",
       "title": "When The AI Bubble Bursts, Who Will Be Left Holding The Bag? \u2013 OpEd",
       "source": "Eurasia Review",
@@ -145,16 +155,6 @@
       "topic": "Insurance AM",
       "summary": "",
       "link": "https://news.google.com/rss/articles/CBMingFBVV95cUxPcUowVHR1VXAzd0Zfamw1MkVSejFsRGo1bkdGdHhjNVBZVFdwU3VpcE5neGJOeWl6RmdQVkFsYlcxNEVTRGg3WHNYSGR1d1BpTjV4T2NqdWdER3ZtQ0RVbU40WTcyRXRaTEM5bFZteVlYNE5EYkM1M1BaR0lYTGlUeFlTeDhVMzRaWFFqZEZhcGc3RFJoZy1qZy1mTGViQQ?oc=5",
-      "isNew": false
-    },
-    {
-      "id": "87af59f3f78c",
-      "title": "Trump reopens Fed battle at critical time for bond markets",
-      "source": "Reuters",
-      "date": "2026-08-11T06:00:00Z",
-      "topic": "Rates & Macro",
-      "summary": "",
-      "link": "https://news.google.com/rss/articles/CBMivAFBVV95cUxOTnZ5dmxPWUFBMkpfUEoydUthWTYtV055RWZKTC1UUnp4aHFabmNWMC1GaDZfWGpRWFFabmxTZFNPWmJ1c1BKRHpTNmpoR2Zad19XSGgxanptOE0wVnJHcnEwN3c0bkY0azdxUFZYUDUtLU44Y0dTUkc3Z1I0OWdWalZFMHNpbDl1a3hYWm9kS08yVjgwWkI5Q2NjVEJvOVE5SmVqa21pMXA1eGxLSjFXVGZpZF9MaEFnOFpXMw?oc=5",
       "isNew": false
     },
     {
@@ -230,7 +230,7 @@
     {
       "id": "1431261a9933",
       "title": "Fixed Income Explained: Investment Types and Strategies",
-      "source": "investopedia.com",
+      "source": "Investopedia",
       "date": "2026-08-10T07:00:00Z",
       "topic": "Insurance AM",
       "summary": "",
@@ -250,7 +250,7 @@
     {
       "id": "cab235bbbe5d",
       "title": "AGO Q2 Deep Dive: New Business Growth and Investment Volatility Shape Results",
-      "source": "tradingview.com",
+      "source": "TradingView",
       "date": "2026-08-07T16:20:49Z",
       "topic": "Structured Credit",
       "summary": "",
