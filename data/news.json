@@ -1,5 +1,5 @@
 {
-  "updated": "2026-08-14T13:47:37Z",
+  "updated": "2026-08-14T16:10:32Z",
   "topics": [
     "Insurance AM",
     "Private Credit",
@@ -8,9 +8,29 @@
   ],
   "items": [
     {
+      "id": "d15e25b7c234",
+      "title": "The Mark Walter Investigation Just Got Much Worse",
+      "source": "Huddle Up | Joe Pompliano",
+      "date": "2026-08-14T15:51:50Z",
+      "topic": "Insurance AM",
+      "summary": "",
+      "link": "https://news.google.com/rss/articles/CBMidEFVX3lxTE1DS2hrZXdzSW9VYmtDZGZtbVd0N2xTWTdPZHBqYTRHUTh5a0c2RjRxYjdHSlhVY3ZPMlRiQkkyWWhSMElYVkNXZFNtTWNwdF9ZTF9XYmZPNm1TU2o0LU9PbXREandGZHl0TXZVUF9qUGNyVmhV?oc=5",
+      "isNew": false
+    },
+    {
+      "id": "bd05f9fec33c",
+      "title": "EMEA Insight: Rated feeders offer a road into European direct lending with lighter capital burden",
+      "source": "CreditSights",
+      "date": "2026-08-14T14:12:50Z",
+      "topic": "Private Credit",
+      "summary": "",
+      "link": "https://news.google.com/rss/articles/CBMi0gFBVV95cUxPMnh0MnRUeGlidnNZZ1dXMkdxTVMyVTliRExDU3h3bmZiS0lVNncweXltTEdTYzB0QVM0dFF5WkUtY0VVZ2JYeEhtSXphTzk5RWtPZjVGY1lSMG9yZFVPZTBhMGVMTDBTTEZVeDE0UW9OV1JPWGpOczZpN3JSeXZPSW5hZE1UMFR0SFpINi1fUDNtdHAwQ1N4RHBzUW5YbUoybTgtZndzTHVmZ2lUTFFCVllya2FQcnA4elVZVEpXb2lkSVQ4ZmtZM0xYamRRRFRMTXc?oc=5",
+      "isNew": false
+    },
+    {
       "id": "f94b53251616",
       "title": "When the AI Bubble Bursts, Who Will Be Left Holding the Bag?",
-      "source": "Counterpunch",
+      "source": "counterpunch.org",
       "date": "2026-08-14T05:57:14Z",
       "topic": "Private Credit",
       "summary": "",
@@ -178,6 +198,16 @@
       "isNew": false
     },
     {
+      "id": "fa0482d9aa07",
+      "title": "The Private Credit Stress Test: What Happens When the Economic Cycle Finally Turns?",
+      "source": "Global Banking & Finance Review",
+      "date": "2026-08-10T11:39:54Z",
+      "topic": "Private Credit",
+      "summary": "",
+      "link": "https://news.google.com/rss/articles/CBMiwAFBVV95cUxQLVVHUXJINEZjdW9uSDc0bHRvWGJ2X0hyV00tX0FVTlpubkVoUHM3RDctMzVfU3llQklkZmczcDFuRTRUN096WjZVeDJ4Q3pIdEJnaGIwSlpmNkpHbVR2Y19HNVNCNVNZX3M0Z0NFd0F0OXJ5VjJwQ2RyT1hCYWt0UzdGREdSZHEydG5iUjd3SU81VGQ4Zl9nZzJtSXJGczNOelVxNS01Z1dZZU1PNVp4NmtsblRnRFVMMGkzS2t2YUw?oc=5",
+      "isNew": false
+    },
+    {
       "id": "f874c4bade7e",
       "title": "Private Credit Faces Its First True Stress Test",
       "source": "Global Banking & Finance Review",
@@ -191,7 +221,7 @@
       "id": "6f8dd20949d9",
       "title": "Growing expectations for faster BOJ rate hikes push up bond yields",
       "source": "Nikkei Asia",
-      "date": "2026-08-10T07:01:00Z",
+      "date": "2026-08-10T08:49:00Z",
       "topic": "Rates & Macro",
       "summary": "",
       "link": "https://news.google.com/rss/articles/CBMiqwFBVV95cUxNWEZTNXozeTBBR2xIMFBTaTFDZDBIVzN4MTNqRzBEQjVxaVk3eU9OZ1pMQTU2S1RpeGVEUTl3RFlQMlc5U1dKQi1ndGcwQ25KR1Jvcks2YkNnMjN1QWtxTmRBTUxma010YjNxOVpmWHNpOXREQnBMdXBXQ2JabEtRM1JtVDFGdnRlVE5hNGxISXBuZ3k4bFhYNXI5cDIycjJ4Qy1VVlYwZUFrVW8?oc=5",
@@ -200,7 +230,7 @@
     {
       "id": "1431261a9933",
       "title": "Fixed Income Explained: Investment Types and Strategies",
-      "source": "Investopedia",
+      "source": "investopedia.com",
       "date": "2026-08-10T07:00:00Z",
       "topic": "Insurance AM",
       "summary": "",
@@ -220,7 +250,7 @@
     {
       "id": "cab235bbbe5d",
       "title": "AGO Q2 Deep Dive: New Business Growth and Investment Volatility Shape Results",
-      "source": "TradingView",
+      "source": "tradingview.com",
       "date": "2026-08-07T16:20:49Z",
       "topic": "Structured Credit",
       "summary": "",
@@ -258,6 +288,16 @@
       "isNew": false
     },
     {
+      "id": "7b043032e1c2",
+      "title": "Allianz delivers record result and is well on track to achieve its targets",
+      "source": "Allianz.com",
+      "date": "2026-08-07T05:06:11Z",
+      "topic": "Insurance AM",
+      "summary": "",
+      "link": "https://news.google.com/rss/articles/CBMiqgFBVV95cUxPZDR6NS1tZlZKMmx5aWFaS1h0NzFSZzN6NHZ3X2dNYjVISlZ1YTQ4Sk1ZS0NVUU5QYUJpbjNteXJtaGpLbkZJOEZRZV9ZSTFwWlFYd05paVhOXzRPSXR4OVFwWUpSTE8tUnNHSjhVNnkzclJUTHJCZmluWHhIaDlKRTVFNWpTUEVYVTBwd3FRWFFySHRxazJxcS1IQVhmN3FvT1BueElNcVNmZw?oc=5",
+      "isNew": false
+    },
+    {
       "id": "97e113c48c91",
       "title": "Exclusive | Ratings Firm Accused of Grade Inflation Vouched for $40 Billion of Insurer Debt",
       "source": "WSJ",
@@ -265,46 +305,6 @@
       "topic": "Private Credit",
       "summary": "",
       "link": "https://news.google.com/rss/articles/CBMitgFBVV95cUxPMVRzejBxX28tZjNTWWwtRzBuenFCTGgycXBhTWxVamhOZ0pyVmt6NmpEM1NLT3RiY3BYUkp6NlhEeno5VHJNTVZuaWlBQ3RrMXhpd1VuSXJoM3NqT2NNSmUybkV2UFFjRkNOaHRUOENPc1JURFdhSHJRUDZjaVN2c1h2Q3ExY0NOclU4VnBjOFUwS2k5WXB4MmdwUVVSdnVCSFhuMmJxQXZlc3hFdm9ld2p2Mm01UQ?oc=5",
-      "isNew": false
-    },
-    {
-      "id": "fe83136898a7",
-      "title": "Finance in Motion opens impact assets to investors",
-      "source": "Alternative Credit Investor",
-      "date": "2026-08-06T13:48:48Z",
-      "topic": "Insurance AM",
-      "summary": "",
-      "link": "https://news.google.com/rss/articles/CBMiogFBVV95cUxNYUZQZlpmYkFKbkVHR2xuQ092eXlJaWEyMDRqWFJaNVZPTkF4S1VkcHpyRmZEX2VKZzA4TmRKR3V5Qm8xX1IzdkVYYUtUYW1KdFhsblNybEJTZ1pMMVN1QmVFb0hsTU1BV0RIOXdWQUVFd1dQZXl6VmE1MC1Sbl9KeFZfMVE2SEhGOG9iRUQyQmNGbG5XQWNFYVVnTHdjRE44OHc?oc=5",
-      "isNew": false
-    },
-    {
-      "id": "85a7f930b4a6",
-      "title": "Loan Note: Private credit\u2019s biggest institutional supporters; experience our new platform",
-      "source": "Private Debt Investor",
-      "date": "2026-08-06T13:38:53Z",
-      "topic": "Private Credit",
-      "summary": "",
-      "link": "https://news.google.com/rss/articles/CBMiwAFBVV95cUxQTUJZMFZ4ZW9GOGZjMlNyWXpaUGw1WjFHRFNMcVdEcTNXUk1ndk4tWjd0dHdnSnZOLWtCcEhKWlVCNUUwNGJZZDY3ZlVleXo1aTVzYXB1NTNrYno1bTJzZjA5ekpOQjhXNFZZdFVfR3FGTEY5dXg2bWZqZ1VneHhnazJ3MDhZcHZMUVZOMXpVbzVTWUVWaFdrb1BDUjdaS3NOVFFtZV9uZG9QRkZNaHAwQm9oUEVyUlM4ZTBTdGlaS1U?oc=5",
-      "isNew": false
-    },
-    {
-      "id": "87a572860df7",
-      "title": "How Bond Investors Should Navigate a Volatile Interest Rate Environment",
-      "source": "Morningstar",
-      "date": "2026-08-06T11:03:27Z",
-      "topic": "Rates & Macro",
-      "summary": "",
-      "link": "https://news.google.com/rss/articles/CBMisgFBVV95cUxQYnFZZHZNYk82VzBSbm1rT25RSHExaGxLN1FvY0lNdkZlRXNHR3lCOEpVbVhtLXRqdnNQeHdySFJZSnlVYVpBaGotVWNNUlp4TDk5aV9tS0x6Qi1kb0lCWFRTOExseXF2alBrUXNCbi1sRGhKbUQ2d29PX3lzV2R3S0NzUkJjcXNyZHN0eUdIMUU3dUU1T1NaYTRHMXJTMkdWWG1UbTdDN3VHSjJMd0pMbGtB?oc=5",
-      "isNew": false
-    },
-    {
-      "id": "9dac3572cd97",
-      "title": "Vanguard\u2019s Gemmell: How Bond Investors Can Navigate a Volatile Rate Environment",
-      "source": "Morningstar",
-      "date": "2026-08-06T11:00:22Z",
-      "topic": "Rates & Macro",
-      "summary": "",
-      "link": "https://news.google.com/rss/articles/CBMisgFBVV95cUxNZ3VVdjgwRUZjNjhncEJ4VVMwc2ZkRnFjYVpHbmxpeGoybWVoRTV1VEFMNjQ0ODAwYk4wTDM1enNVd2NTUm9OYTNpaFpoS2xvVjhSOERUaDF1WS1fbFg1enhPTVBERVZqQkFHdlhwQlI3QzI0aDF6UU9vaWV6YUFDczJZd2FYelFGWm5wRi0zQUdISktLeWtQQXlDd0pzYllKc3hyb0lHOW5wVE1Dd2tWVDBn?oc=5",
       "isNew": false
     }
   ]
