@@ -1,6 +1,16 @@
 {
-  "updated": "2026-08-15T15:38:59Z",
+  "updated": "2026-08-15T18:51:42Z",
   "naic": [
+    {
+      "id": "23b926b4f375",
+      "title": "Michigan insurance regulator reaccredited after financial review",
+      "date": "2026-08-15",
+      "cat": "Investment",
+      "summary": "",
+      "source": "Sault Michigan News",
+      "link": "https://news.google.com/rss/articles/CBMirwFBVV95cUxQb1ZEYTBVSm4tWjhJN2NOMVQySkpuZGcwUXRUOEdYNHRXYjhCVGV3M3g4RVg0WVczUWtwa2VJS1FENDVwR1VKUVlLcVZXQTRyRTg2aEE0TGlsLUFRNFNQbTEzWVBfYURKV1JUclEwMjNvWUttbjZiYkl6aTVndERTMFAtVnZQSkktNGdwQV9YWUlwLTFNZkpCV01HTHNFenZkcmxUemkwamgwTlJnT0pj?oc=5",
+      "isNew": true
+    },
     {
       "id": "f9105fac2e4d",
       "title": "State Regulators Move Toward Annuity Disclosure Model Overhaul",
@@ -19,6 +29,16 @@
       "summary": "",
       "source": "InsuranceNewsNet",
       "link": "https://news.google.com/rss/articles/CBMirAFBVV95cUxOdnhObUlwMDB6V05sS1REYWRGb1dSOS14U0VwM1I0UHoyc1kyVnZ3cXdfQmZISFlMVGI4UzkyOTluZ2p6RWFmUi13ejZobmdad0tkVWQ2MVRuRDdQa0NJbkJtNmNqckZnZlE1U1oxQjhOY0paZWQwM3ZUMFFQUlltcHY0ZWdNZjk3Sm9lQkVrWERJcUJHMFJjdzB0TDdBLWh6WDMzWnNLVkwtSjhH?oc=5",
+      "isNew": true
+    },
+    {
+      "id": "1bc6532c1422",
+      "title": "7 Takeaways from the Big Data and Artificial Intelligence Working Group at the NAIC 2026 Summer National Meeting",
+      "date": "2026-08-13",
+      "cat": "General",
+      "summary": "",
+      "source": "Coverager",
+      "link": "https://news.google.com/rss/articles/CBMi0AFBVV95cUxNQXlHNFp2QjJodWk5aEY5U19pdjFBbEkzU2ptUjdvNlNIYTVzOGd4MG40MkYxMXFyb0E0dHBWR25DQ2ljQjhzVnBBRGNoc0lfbEdfRWxvVnVPUUx1a19oNG1WZlNrcElYdFVxdjY3ZjVNYzZRbHdtRExCUjZFMkFqSjFkS3otU0tBNF9lcHlfSE5pcDB3XzFYTlRyM3BPa2tfUmZCWGpGSG9uRzB6ck0yTzdORnVfYWpTa0oxd0pvZm1oRWFBUE5DaFZkTHR0LThE?oc=5",
       "isNew": true
     },
     {
@@ -67,7 +87,7 @@
       "date": "2026-08-11",
       "cat": "General",
       "summary": "",
-      "source": "captiveinsurancetimes.com",
+      "source": "Captive Insurance Times",
       "link": "https://news.google.com/rss/articles/CBMi3wFBVV95cUxNcWlNTEprLU1IS2RuNXA0VEd1Q2dSM0pXLURYVGFPZk9nWlhLcE91dU1nV3ZKNnNKWlBJUmhMVlFhS3N6ZEhIbHpIUEZVUjZfdFZRa2FPRm1mRWZ0bGNFMkFILVVoRFpqdDg1TE02ajhEUFYzb0g1bVpFX0xBQ2tCQ1ctZmJPZi1heHhyMEVGaWtHNm1iNDJtcTRUaUcyUC1jbU5VX2tGYWJweTV1SVFheWN3UWpIcWFKNW9GVENtTTdZVVZVSFZUY1ItX2lCeExfS3FCQ20wV1dLQnI5OFZr?oc=5",
       "isNew": true
     },
@@ -97,7 +117,7 @@
       "date": "2026-08-10",
       "cat": "Investment",
       "summary": "",
-      "source": "insurancebusinessmag.com",
+      "source": "Insurance Business",
       "link": "https://news.google.com/rss/articles/CBMi4wFBVV95cUxPeFhrMUhVOHRGVXF4WUNSdVUyRXBHXzFzcG1BWXhYblhIUzBqMkZvM0NGVXh2M2E4Z1R3Q2VKWlZBbklNb05Ta1ROMF9ydlpaUTVKZjB1UTJZRnVQWkFlRGNhSXdJbDlvMzJRU0E5SVFqVzhWY1EySjFlRUk1d29ueFdqNzJXNGtGLW9JNzRiT2hHOUxTLVFYd0l0MU1zTWRObjJCaVI5MWJpbXhMejJQUWtQUzE0NWl5Z21IeUJQTzlyVnBnd09FM0dnZ1ZRMlMyOGplRktNdkZIS0hJLTBfWkpiaw?oc=5",
       "isNew": true
     },
@@ -229,26 +249,6 @@
       "summary": "",
       "source": "Financial Times",
       "link": "https://news.google.com/rss/articles/CBMihAFBVV95cUxOVHhvNnFjS3NNQUR1TlgwZ3k0YUV1SzZWdE14ZHBLYk9ucmFGQ1A2TjFSWW5LcUtmd3c4andwdWFQQy02ZXBzdUROSGVBeEhKcU9VZno2dkdXVkxuNFU0ckVqTjBZS25nZFQ1d3hwVHpRMW5kQ1dxQ21TVzd4WEN1QWtEazA?oc=5",
-      "isNew": true
-    },
-    {
-      "id": "f22fc3aea19b",
-      "title": "NAIC, Transport Unions Plan Passenger Accident Insurance Scheme for Nigerian Commuters",
-      "date": "2026-07-30",
-      "cat": "General",
-      "summary": "",
-      "source": "Legit.ng",
-      "link": "https://news.google.com/rss/articles/CBMiwAFBVV95cUxQeHViZlNjQm9jcmVuRGJmSlI0S0hmYmRvLWtZSjhhcEM4WVlCSmdMSFREVVRmYTFuakFDXzNuMEVfVS1xT09YR2ZnVjhjVV83bkFiaHZnQzdmcTk2WC1rTldDQ0hyTHdaTm5LZ2NDVXNJWGhvX25ZQ1EtXzdWc0xpanBzRHJtN0dyRHZqQmJ6NFZQcWM5OWF1VGRjaV9wTGFZSmFfeUwzd2F0XzFwVlV2dkFtb3BZUVhYWG03X0FhZUE?oc=5",
-      "isNew": true
-    },
-    {
-      "id": "9e60d097efaf",
-      "title": "Aliyu Bello Leads NAIC Management Team to Minister, Reaffirms Commitment to Tinubu\u2019s Food Security Agenda",
-      "date": "2026-07-30",
-      "cat": "General",
-      "summary": "",
-      "source": "nasarawaeye.com",
-      "link": "https://news.google.com/rss/articles/CBMi1gFBVV95cUxNVFFWV1M2eVd2azcyZjJiTlpFQzJkMDBwLUxMbFVWWVB5SzZGb3Z0VXpxM1JZUE1tV1hBZWlpYzJfX21DdGw2eXZYYnA5TFpkb1p3bGoydnBNbU1iNlYwdVFnbUxlamNiMExNMWF5WDkzZGJvZmJyYWNGS2RvVDZnNEs0YWRIU0lYMVRieDdwb3JmbUlZVTQ0b29Sa3pVYUNHajRJZUM5TXJXS2VTRldiTjBtT2dHdnc0M3V0R1ZNTHZMTkFFUy1iOVZlOFNUbDFhaWhnWmxB?oc=5",
       "isNew": true
     }
   ],
@@ -521,7 +521,7 @@
       "date": "2026-08-04",
       "cat": "General",
       "summary": "",
-      "source": "The Lake Sun",
+      "source": "lakenewsonline.com",
       "link": "https://news.google.com/rss/articles/CBMiygFBVV95cUxPMmg5eV93enktSGpTazdmWDk2Q1pQWTBDcXgyYjZMTklkaWNwT21hUTZYTmVpSWVUSWpsQ3JxMzFZWG1EaVVBYUxxSnZBZ1RVYWNHLUJKMGwtZkowdXpYaTIwalFRUU1wWWhZRHFYeXNSSzJaa2ZOTzRLNGo2YkUxUXFqNlRicEVMdVhKZW1KMEoyYnNpS0Vqa3g0cUdTSXhIUFVTVVE4Q3Jyejd2YUxoWllIVUlUTjg1a0tmLWJpWlNtSWM5b3BzbUNn?oc=5",
       "isNew": true
     },
