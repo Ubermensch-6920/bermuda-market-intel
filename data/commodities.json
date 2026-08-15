@@ -104,7 +104,7 @@
     "prior_2y_date": "2024-08-15",
     "futures": {
       "3M": {
-        "price": 79.07,
+        "price": 80.1,
         "expiry": "Nov 2026",
         "contract": "CLX26",
         "prior_1m": 77.34,
@@ -121,7 +121,7 @@
         "prior_2y_contract": "CLX24"
       },
       "6M": {
-        "price": 75.15,
+        "price": 75.82,
         "expiry": "Feb 2027",
         "contract": "CLG27",
         "prior_1m": 74.64,
@@ -346,5 +346,5 @@
     }
   },
   "note": "Spot history comes from daily FRED series. Futures history is roll-aware by target date. USD/INR latest spot: FRED DEXINUS, then Yahoo INR=X / keyless FX APIs when FRED lags; forwards fall back to CIP derivation from India/UST curves when market quotes are unavailable.",
-  "_fetched": "2026-08-15T09:44:36.881831Z"
+  "_fetched": "2026-08-15T13:03:18.492999Z"
 }
