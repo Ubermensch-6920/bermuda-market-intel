@@ -1,5 +1,5 @@
 {
-  "updated": "2026-08-15T07:02:40Z",
+  "updated": "2026-08-15T09:45:28Z",
   "topics": [
     "Insurance AM",
     "Private Credit",
@@ -98,6 +98,16 @@
       "isNew": false
     },
     {
+      "id": "b024d7ae7cbc",
+      "title": "TAALA: Strong insurance and investment returns offset fair value declines; strategic growth investments continue",
+      "source": "TradingView",
+      "date": "2026-08-12T09:35:54Z",
+      "topic": "Insurance AM",
+      "summary": "",
+      "link": "https://news.google.com/rss/articles/CBMiowJBVV95cUxNdEo1cmtJaE1MYjRYS2NZd0hiUE44MTdsd3YtbjQtWTljSHcwZ29TSjFxU2pTa0pacWtISVVsU0tOLVdKd2Y2NXpnSkV4Yjk2dFZUU1VMUVhpY1doUHJCWG9haTNQY3BZRjN1clFXcHQxaEw4YTNSbFpfaU9mMjFia1pIVUxXNkFzRTBTcWNMVXhRN2Y3LWx6VjNfdExWY0R5QjZuQ3NKOEJRR0txVUVXbFVnWnRrdjJvT3ZCUGRYT0dpLTFtTHhZbjhpbFdhd2RXZmZuWHAzSjcxejh6UmhieUtsREpYbl8xREJxMXU1RHVxMXBDa0RoQzhLcVpyQmMyT2JlNmw4djVIVlFMZVNpX1JHWFJEOV96bGRvdnJRM2xONk0?oc=5",
+      "isNew": false
+    },
+    {
       "id": "9c4e0d4830ab",
       "title": "Eurozone Government Bond Yields Rise Ahead of U.S. CPI Data",
       "source": "WSJ",
@@ -130,7 +140,7 @@
     {
       "id": "16b1a0f52067",
       "title": "Mount Logan Capital Reports Q2 2026 Results; Segment Income Rises on Strong Insurance Solutions Performance and Yieldstreet Transaction Advances",
-      "source": "Quiver Quantitative",
+      "source": "quiverquant.com",
       "date": "2026-08-11T21:10:00Z",
       "topic": "Insurance AM",
       "summary": "",
@@ -140,7 +150,7 @@
     {
       "id": "6058c271c1b7",
       "title": "Australia Holds Key Rate to Counter Elevated Inflation Pressures",
-      "source": "Bloomberg.com",
+      "source": "Bloomberg",
       "date": "2026-08-11T07:40:40Z",
       "topic": "Rates & Macro",
       "summary": "",
@@ -170,7 +180,7 @@
     {
       "id": "edb7479fd5d1",
       "title": "World Insurance Associates exploring sale of $73bn wealth and retirement biz: Sources",
-      "source": "citywire.com",
+      "source": "Citywire",
       "date": "2026-08-11T00:40:46Z",
       "topic": "Insurance AM",
       "summary": "",
@@ -295,16 +305,6 @@
       "topic": "Rates & Macro",
       "summary": "",
       "link": "https://news.google.com/rss/articles/CBMikAFBVV95cUxQV2pZWXJ4SjNmc2dkeUF4Q0FmczNRdldzZmRTVW5UN2xlYjRXMDRERGtwWkdCMTBWVzJEXy1oZkNKRXFlQThBNWdFd0dOcmlFOUVIUUZ2c0tuMm9TN2VyU1NabVhzWFdJc01FcEtrNkFYR05oUG45dG9aTjd3OWp3WHRJbHBlZHFkOGlZNlFaM0I?oc=5",
-      "isNew": false
-    },
-    {
-      "id": "d15c6d51c1a4",
-      "title": "Munich Re generates record half-year profit of almost \u20ac4bn",
-      "source": "Munich Re",
-      "date": "2026-08-07T05:33:22Z",
-      "topic": "Insurance AM",
-      "summary": "",
-      "link": "https://news.google.com/rss/articles/CBMi2wFBVV95cUxQQ1lWbi14WG9vYTY3QmNTeEtTMUJDdTF2blY5dW5ySEhLZVlTUnB2RHZwcm52M2h1R1VpaGVQZzFVbHRFUldmQXI1cVRPSFZaRXBjZ3ZmZi1vQ0lsOG04R3poeFA3WFpmUGJpX3NPR3JCd1cxSjIteVJ1bF9wMXUtNm9mSHNLQXJwUEJhbE82MW9ZR0M3TWMyazcxS0ZlU1laaTBTOHBXTkNieHUzWF8tbmN4b1JOR1poYzN4Ym9fcThSRWd3WkI4dTd1T0ZJZzkzcGtrM1hrWGlOdzg?oc=5",
       "isNew": false
     }
   ]
