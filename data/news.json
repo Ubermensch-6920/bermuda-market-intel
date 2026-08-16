@@ -1,5 +1,5 @@
 {
-  "updated": "2026-08-16T02:02:10Z",
+  "updated": "2026-08-16T04:04:20Z",
   "topics": [
     "Insurance AM",
     "Private Credit",
@@ -20,7 +20,7 @@
     {
       "id": "bd05f9fec33c",
       "title": "EMEA Insight: Rated feeders offer a road into European direct lending with lighter capital burden",
-      "source": "CreditSights",
+      "source": "know.creditsights.com",
       "date": "2026-08-14T14:12:50Z",
       "topic": "Private Credit",
       "summary": "",
@@ -78,16 +78,6 @@
       "isNew": false
     },
     {
-      "id": "ba6a1be93119",
-      "title": "How to protect your savings from rising government spending and inflation",
-      "source": "21shares.com",
-      "date": "2026-08-12T20:51:23Z",
-      "topic": "Rates & Macro",
-      "summary": "",
-      "link": "https://news.google.com/rss/articles/CBMimgFBVV95cUxPUWNwZnJZWUk1MlZJU1l2SjlxSERGMFBpQkVUZUVEbzNMMjZsVC1XMUJtcWQ0dEZuclRuUjVxbE9VOWM0RWZOZ09aWFF6SWI3SkxRcE1jRFVOeEx5ZHZKRF9rWlE1NnYtdXVpVlJFY0J2RUxMRXliVHB4aFBxLVZpTVY0b0JlY3NUWkw1ZUFpbFRQS0NBbzVWckNR?oc=5",
-      "isNew": false
-    },
-    {
       "id": "cd6f27590f37",
       "title": "The Debt Danger World Leaders Are Ignoring",
       "source": "American Enterprise Institute - AEI",
@@ -95,6 +85,16 @@
       "topic": "Rates & Macro",
       "summary": "",
       "link": "https://news.google.com/rss/articles/CBMif0FVX3lxTFAydGJZTDltbFluUWFVSmN3SThlNkM4LVdSeDdUMzJjb1pDQmotX0V2NG56V21CQWd6LU9PUDQ5SnhNVE0tMUtDRjVqWUdrd3I4TTlCWGNuT0hDWndUYjZNUXFEaHVYdW96akVmUHRyVDJzdVhQc183SlE5S2N1SFU?oc=5",
+      "isNew": false
+    },
+    {
+      "id": "ba6a1be93119",
+      "title": "How to protect your savings from rising government spending and inflation",
+      "source": "21Shares",
+      "date": "2026-08-12T15:17:57Z",
+      "topic": "Rates & Macro",
+      "summary": "",
+      "link": "https://news.google.com/rss/articles/CBMimgFBVV95cUxPYkFxcC1pZHlXUEV2ZWR0bVg0ODJEc3gwT05mcnVhT3oxWmhtSjNVNzV4QmF5S21iNF9xVzY1b0F1MzQwX2s1TlVyTVpfNGxjX3IzNlZLcGs2dzNoYlh1YzVHOXgyUFFHd1Q5Ulc3elFNc1pCbm1NS0VURnNtQTFMakZBRE9Pa0hKeEphd2I1dFIza0JXYWlpQTln?oc=5",
       "isNew": false
     },
     {
@@ -260,7 +260,7 @@
     {
       "id": "017d334e74bc",
       "title": "Hamilton Insurance Group Q2 Earnings Call Highlights",
-      "source": "TradingView",
+      "source": "es.tradingview.com",
       "date": "2026-08-08T12:03:56Z",
       "topic": "Insurance AM",
       "summary": "",
