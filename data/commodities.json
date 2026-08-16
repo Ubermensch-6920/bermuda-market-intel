@@ -260,7 +260,7 @@
     }
   },
   "usdinr": {
-    "spot": 95.43,
+    "spot": 95.42,
     "spot_date": "2026-08-16",
     "spot_source": "Yahoo INR=X",
     "unit": "INR per USD",
@@ -276,7 +276,7 @@
     "prior_2y_date": "2024-08-16",
     "futures": {
       "3M": {
-        "price": 95.88,
+        "price": 95.87,
         "expiry": "3M",
         "contract": "CIP derived",
         "prior_1m": null,
@@ -293,7 +293,7 @@
         "prior_2y_contract": "INRX24"
       },
       "6M": {
-        "price": 96.27,
+        "price": 96.26,
         "expiry": "6M",
         "contract": "CIP derived",
         "prior_1m": null,
@@ -310,7 +310,7 @@
         "prior_2y_contract": "INRG25"
       },
       "12M": {
-        "price": 97.05,
+        "price": 97.04,
         "expiry": "12M",
         "contract": "CIP derived",
         "prior_1m": null,
@@ -327,7 +327,7 @@
         "prior_2y_contract": "INRQ25"
       },
       "24M": {
-        "price": 98.55,
+        "price": 98.54,
         "expiry": "24M",
         "contract": "CIP derived",
         "prior_1m": null,
@@ -346,5 +346,5 @@
     }
   },
   "note": "Spot history comes from daily FRED series. Futures history is roll-aware by target date. USD/INR latest spot: FRED DEXINUS, then Yahoo INR=X / keyless FX APIs when FRED lags; forwards fall back to CIP derivation from India/UST curves when market quotes are unavailable.",
-  "_fetched": "2026-08-16T13:05:26.265963Z"
+  "_fetched": "2026-08-16T15:38:57.281586Z"
 }

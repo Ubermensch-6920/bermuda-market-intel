@@ -1,12 +1,21 @@
 {
-  "updated": "2026-08-16T13:06:15Z",
+  "updated": "2026-08-16T15:39:49Z",
   "topics": [
     "Insurance AM",
     "Private Credit",
-    "Rates & Macro",
-    "Structured Credit"
+    "Rates & Macro"
   ],
   "items": [
+    {
+      "id": "7bddc24f0208",
+      "title": "Interest rate dilemma for central banks as inflation rises but growth slows",
+      "source": "The Guardian",
+      "date": "2026-08-16T14:00:00Z",
+      "topic": "Rates & Macro",
+      "summary": "",
+      "link": "https://news.google.com/rss/articles/CBMiwgFBVV95cUxPZS1MeWowSjFWYXhRUjUzejA5N2JPWWVBU0Y2UEszUFNzVnM0b0xKZDZSbnlKTHNEYnZlUTRETDlUSnYzeWpVc3lhM19qN0Zzd2NwTmpIZjZlYUFUVkdicW01WF9rZjZ0eEVvTElYa2l4c0V1aHlxRG9uUkM4RElua2FURDRWTmVXcWVWeXZGTlZsVjF1OEEwRUVOVWtxU1Vuak1pa2VfWWJDMG9Mcm0zTGJjYWM3UHlEVHpCTzl0Vi1hZw?oc=5",
+      "isNew": false
+    },
     {
       "id": "d15e25b7c234",
       "title": "The Mark Walter Investigation Just Got Much Worse",
@@ -70,7 +79,7 @@
     {
       "id": "6991013552c8",
       "title": "Star Mountain Capital Closes Star Mountain CFO I, a Collateralized Fund Obligation Providing Rated Access to U.S. Lower Middle-Market Private Credit",
-      "source": "businesswire.com",
+      "source": "Business Wire",
       "date": "2026-08-13T14:47:00Z",
       "topic": "Private Credit",
       "summary": "",
@@ -95,6 +104,16 @@
       "topic": "Private Credit",
       "summary": "",
       "link": "https://news.google.com/rss/articles/CBMiqAFBVV95cUxQbi15U1VDM2tzN2s1ZVZnb2VzVkRWZGpyNGFLWDUzZG84SWk2ZHdaVjh6d0pEOER2aGM5Y01XdDhTZEJIMml0OV9XNzhqMi10MHRRZERnZGM1Y2NnWFRpWFlpcld0czhXR1c3bUkyc0tscmg2QS16QjZidGhhVVF5QnJLN2dPTWJSTC1wUE9qMEVuTmhvTF8wcHRCRmlzc2c5Skx5RE9zSFk?oc=5",
+      "isNew": false
+    },
+    {
+      "id": "53319c6d5380",
+      "title": "Direct Lending: Benefits, Risks, Portfolio Role",
+      "source": "BlackRock",
+      "date": "2026-08-13T03:05:25Z",
+      "topic": "Private Credit",
+      "summary": "",
+      "link": "https://news.google.com/rss/articles/CBMixAFBVV95cUxPUGdfQWc4TWJRcGxQV1UtZE54ZlBXdzVEZzVwa1luekhaeDFvQUJ4NlVqVm9tT2VBZEZvMmZ1QXF1QVFjU1RZM3JpekU0NXZjcEtwUGxtS20yZjNUTUtpa2tNX2RzcU9leEFkSnRWY3A2a0F4R3RTSXM2YzAtSHlhcFVsd3lxUDlMQWZ3UXotZWlGQW03VHJ3TW81SnpNZS1yWnUwU0lnZlRrZlhOWUpzRDlicDdUWDJFTnRvVWNaN3JSSDdD?oc=5",
       "isNew": false
     },
     {
@@ -200,7 +219,7 @@
     {
       "id": "edb7479fd5d1",
       "title": "World Insurance Associates exploring sale of $73bn wealth and retirement biz: Sources",
-      "source": "Citywire",
+      "source": "citywire.com",
       "date": "2026-08-11T00:40:46Z",
       "topic": "Insurance AM",
       "summary": "",
@@ -235,6 +254,16 @@
       "topic": "Rates & Macro",
       "summary": "",
       "link": "https://news.google.com/rss/articles/CBMiigFBVV95cUxQTkNHSTlBS0JYay1IMFVsaG5RY0QyVFhWQUdLZERmTVp4UTd6bmRlcGxCN1MzaVEzelFObVNFUFpBR244clJFLWQ4NW12MFpCM1B1MFVsRnZGbFJGNkVLaGhvU0t5N2JJS2l3YTVlU25DWEFSeHNrVE1qUVl5RzJQR3Y1Z0lJelllTGfSAY8BQVVfeXFMTVVRdURXbFB5WmhYLUxkazFEaF81VkpaWkg2M09TcHhZd0FzNnhWODBmTDVhV2JvTS1VejV4WXJkWUlvSVJaVml6UEJoVVUwQlV1aWlMMUxwVk5Ra0FPMC1jaGliNXppY2VRRDRFTEF5N21qVWZMVGFYSzdVMXo0WFROT0RBTGp5SHV0V1lTSmc?oc=5",
+      "isNew": false
+    },
+    {
+      "id": "e8653d52754f",
+      "title": "Investor Intentions: Korea's Employment Insurance Fund seeks blind-pool PE/VC funds for 2026",
+      "source": "privateequityinternational.com",
+      "date": "2026-08-10T11:52:15Z",
+      "topic": "Insurance AM",
+      "summary": "",
+      "link": "https://news.google.com/rss/articles/CBMizwFBVV95cUxPb3VrQkREcFpxcVM2N0ZVOFlaQ0NKd2l2UDdJendCaFlFRzFwTXV4UWVwWlFfcWI4Z083SE9URzVadmUyZEFrdGRVd3Q1QUlLODZTZWdMalItazYyTktDRTRLaVRzSFVHb0xPczU5eXg2ODZOWVFYY2hvOHF2Qmg3UklSdGMzM2lFV3J6SmVlS3ZJOGdyajE2S2plRE1PMkozai1nanFRWGpPRm1OX1hRVkk4a2F1aTdFSG9OeEVaTE5qMVdRaTRhc0dQdU9yRGM?oc=5",
       "isNew": false
     },
     {
@@ -275,36 +304,6 @@
       "topic": "Rates & Macro",
       "summary": "",
       "link": "https://news.google.com/rss/articles/CBMiqwFBVV95cUxNWEZTNXozeTBBR2xIMFBTaTFDZDBIVzN4MTNqRzBEQjVxaVk3eU9OZ1pMQTU2S1RpeGVEUTl3RFlQMlc5U1dKQi1ndGcwQ25KR1Jvcks2YkNnMjN1QWtxTmRBTUxma010YjNxOVpmWHNpOXREQnBMdXBXQ2JabEtRM1JtVDFGdnRlVE5hNGxISXBuZ3k4bFhYNXI5cDIycjJ4Qy1VVlYwZUFrVW8?oc=5",
-      "isNew": false
-    },
-    {
-      "id": "1431261a9933",
-      "title": "Fixed Income Explained: Investment Types and Strategies",
-      "source": "Investopedia",
-      "date": "2026-08-10T07:00:00Z",
-      "topic": "Insurance AM",
-      "summary": "",
-      "link": "https://news.google.com/rss/articles/CBMiYkFVX3lxTE5WV0lIVm4tR1Nzd3o1eHlGQlE0N2JXallETlI2RnJSNE1mLVFwVkhyY1h0a1EzTm1YUkMwUGFwb05WNU1pVjE2WnhHMTFIQkx2TmJMajhGeWQtQndHT0lSbk5B?oc=5",
-      "isNew": false
-    },
-    {
-      "id": "017d334e74bc",
-      "title": "Hamilton Insurance Group Q2 Earnings Call Highlights",
-      "source": "TradingView",
-      "date": "2026-08-08T12:03:56Z",
-      "topic": "Insurance AM",
-      "summary": "",
-      "link": "https://news.google.com/rss/articles/CBMisgFBVV95cUxQc05iQWJ1UktrSW5WNFZQakNzRHBqZnJuR2hfSmNJVmZhd0lkaExISFNkc0xzT2I0M3kwWDY3OVBhdWhhNlJTMUkwbjBNZHRTNjFpb2dFeWhGN1V0N1BpVTB4WmtJSHU5UmdiSFY1cFN3ektEUHBjNWp5WDUxY01uQjNySUo3RW5mOC1hZmZjTndUWkVkaTg5aFhCVkR3UmJWVmRHNjRtQXo5NW0zcDBaRnVR?oc=5",
-      "isNew": false
-    },
-    {
-      "id": "cab235bbbe5d",
-      "title": "AGO Q2 Deep Dive: New Business Growth and Investment Volatility Shape Results",
-      "source": "TradingView",
-      "date": "2026-08-07T16:20:49Z",
-      "topic": "Structured Credit",
-      "summary": "",
-      "link": "https://news.google.com/rss/articles/CBMi0wFBVV95cUxQakNURUt5RDRfelhteWhNdTdzTWZFUmVCQnlKR1IwMGhSd2hSQzVSVUloeTl3eDVOVVhGY0RlSHFtNlNWa1RhR3BIcEVybWV4Q3pnSkhUNFVzd2loZDI0dlFXX1dyU18tNGRFN2tkZDZsSF8zdFcxSndRTERqYUNkT0lMdUx2bUN2Mm51U3RoclZpVkFEVEdNcms4c0hiejdvR2dHZmtMem11a3BNRkhEbFoweENtTkRzcFZ3bDRvUlMxcDZRakw2bXg0bWNJdG9Bdkpr?oc=5",
       "isNew": false
     }
   ]
