@@ -1,5 +1,5 @@
 {
-  "updated": "2026-08-16T09:47:00Z",
+  "updated": "2026-08-16T13:06:15Z",
   "topics": [
     "Insurance AM",
     "Private Credit",
@@ -30,7 +30,7 @@
     {
       "id": "f94b53251616",
       "title": "When the AI Bubble Bursts, Who Will Be Left Holding the Bag?",
-      "source": "counterpunch.org",
+      "source": "Counterpunch",
       "date": "2026-08-14T05:57:14Z",
       "topic": "Private Credit",
       "summary": "",
@@ -58,9 +58,19 @@
       "isNew": false
     },
     {
+      "id": "05431fba6e03",
+      "title": "The Bond\u2013FX Connection: Why Yield Spreads Matter More Than Rates for OANDA:XAUUSD by Kelly_Carter12",
+      "source": "TradingView",
+      "date": "2026-08-13T18:11:07Z",
+      "topic": "Rates & Macro",
+      "summary": "",
+      "link": "https://news.google.com/rss/articles/CBMitAFBVV95cUxNTmJOX0NwVDl3bGFuZ1NuNWpXZ1J6aFozckdGU1YtODFWQmVGYUI1ZkpKeDg3M2pKZ3E4RE5aeHladFJiZkszVl93Ulg1d3JMb2lUX1lLV09XRThlcmZQanJYRFVmNC0xMXNyZWhObENzclp5SzFuNHBHYUJqN1VORXFKbFB0MkttWkNlNGJ0ZXZsT3ZtdEhiUjlUUHJMck9iVnVwUXVlcGxBd210N2lhSHhhNHQ?oc=5",
+      "isNew": false
+    },
+    {
       "id": "6991013552c8",
       "title": "Star Mountain Capital Closes Star Mountain CFO I, a Collateralized Fund Obligation Providing Rated Access to U.S. Lower Middle-Market Private Credit",
-      "source": "Business Wire",
+      "source": "businesswire.com",
       "date": "2026-08-13T14:47:00Z",
       "topic": "Private Credit",
       "summary": "",
@@ -248,6 +258,16 @@
       "isNew": false
     },
     {
+      "id": "23e60ab23b30",
+      "title": "Japan\u2019s Central Bank Faces Pressure as Bond Yields Approach 3%",
+      "source": "\u041c\u0435\u0436\u0430. \u041d\u043e\u0432\u0438\u043d\u0438 \u0423\u043a\u0440\u0430\u0457\u043d\u0438.",
+      "date": "2026-08-10T09:09:40Z",
+      "topic": "Rates & Macro",
+      "summary": "",
+      "link": "https://news.google.com/rss/articles/CBMiakFVX3lxTE9Jbkc0cXo3dW5NMkp3T2FUYzNBalZZRTRnZ1daTU9DREdBZXkyOUhyb2lwSzE3cFpDU3RYZFI0T2x6c1ZldUVoemxDeUNiZ2NNRWtTMFdaeE1veFJWZjhGYzJnamJoVjlXQUE?oc=5",
+      "isNew": false
+    },
+    {
       "id": "6f8dd20949d9",
       "title": "Growing expectations for faster BOJ rate hikes push up bond yields",
       "source": "Nikkei Asia",
@@ -285,26 +305,6 @@
       "topic": "Structured Credit",
       "summary": "",
       "link": "https://news.google.com/rss/articles/CBMi0wFBVV95cUxQakNURUt5RDRfelhteWhNdTdzTWZFUmVCQnlKR1IwMGhSd2hSQzVSVUloeTl3eDVOVVhGY0RlSHFtNlNWa1RhR3BIcEVybWV4Q3pnSkhUNFVzd2loZDI0dlFXX1dyU18tNGRFN2tkZDZsSF8zdFcxSndRTERqYUNkT0lMdUx2bUN2Mm51U3RoclZpVkFEVEdNcms4c0hiejdvR2dHZmtMem11a3BNRkhEbFoweENtTkRzcFZ3bDRvUlMxcDZRakw2bXg0bWNJdG9Bdkpr?oc=5",
-      "isNew": false
-    },
-    {
-      "id": "252a99d97c68",
-      "title": "What Could Goldman Sachs Group (GS) Gain From Its $1 Billion Reinsurance Sidecar?",
-      "source": "simplywall.st",
-      "date": "2026-08-07T15:45:39Z",
-      "topic": "Insurance AM",
-      "summary": "",
-      "link": "https://news.google.com/rss/articles/CBMi4gFBVV95cUxOM0hhQm4xTkUyUWtJQWZJWHZoMXA0ZDNGTm9jZTFCQmJQWHJJaXlJRHNRYzRZSV8zNWVwdGF0NVNSRWZFR2tNOUtCZThKRVE5NDZoOS16cWw4TXRvV2dzUjhWcXpaM3V4T2hacUo0Zi1iMDAzNzdCLXdNYW9tczYwT3p0Vl8xUW5wcDdqeUZsZUY0WkF4cVBicTZFcE85RUFQSkhFVmRsX0ptOHd4M0F6Z1lFYm9PWV9jYzJDVDR3TkstTFVjbzBsbUs5SmNCNXgyN2t2ejVXdzFsLXN3c1lvOUFn0gHnAUFVX3lxTE9VbjZjTjd6U3VOazhLVEhsR1BiZVF4T3NUcGdOR2FuQlN6WjJ2MVRLV3lwX1JxT0xZRTlRMElMMlFFV19qb3dwTDJOZEpodVhSX09iMkJGajBmRnBReGthcVlSZXpWMUNUSjk0UncwbXJBQU9fQ2I5clV3eHFSNGVSUDNxV3AxQWZHazVjSlRWdjU0UklFb2gzMm1GdzBXbHV6UnpxQXAtN1NFT3EzcTU1NmdxUElSeXNxcFBraEo5QlRYRldJUGdvRWctMkNFem1VbTVyUHhxLW9ucnpuWkE4cWRVUVJsNA?oc=5",
-      "isNew": false
-    },
-    {
-      "id": "43c212a18660",
-      "title": "Analysis: Finance minister blames rates for debt increase, but data show otherwise",
-      "source": "Valor International",
-      "date": "2026-08-07T12:35:31Z",
-      "topic": "Rates & Macro",
-      "summary": "",
-      "link": "https://news.google.com/rss/articles/CBMi4AFBVV95cUxQOTRMLTRoM3JXaTFUU05uM3dXU0tEejZMT0lST1ZodzdjNGxEb3ktUzY0NXpEa1NJaWRWTEdGdWFvV0haNEF6bUlQYUlIbmpiVzJSRWxJM2Q1Xy1HcXhiX251ZnNTSTg4YjB2bjg2TEU2cHZkVkZTNF9odUJ4VTF1UEdKeThlcG9sSzFMdGd5VkVGbTl6UTdSMUgtTlpqV2ctX3JST01IbHhaa1dSaHhMYndYZFEyclFlMlJlX2I2dTVTTkFZUk9ZczBkVE8zUUN0Q2pqQ0RjeGhTc01LckNtU9IB7wFBVV95cUxQWjc4X0UwMndiZExCaDhuaEpZSTd1dk9falRYM0VhekZ2ZTI1UG01bDdoeG91U29YcjlKRFFXa1JUVExSbF9nSWk2VjhLYWdrVnB1ajZsYkdpTmZETERpNWVvNnFtNU5LcEZVVS14N0FmN3Y5bkFreEhQaE9TU3p3QnFnRG1SX25YRlYwRVhWMThiQ05NWEV1VDk3Wlp0eGpKWkoyUGxzRHdHRUtPUnR0OENvWW12M2N0dFdJY3lHQjJtOU5xT2N0NWk3YmYwaTYzTDlKVExYbkt4cEZUMWRZZ2xZUWJvaXd5WGExblNfZw?oc=5",
       "isNew": false
     }
   ]
