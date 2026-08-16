@@ -167,8 +167,8 @@
         "prior_1y": 61.3,
         "prior_1y_date": "2025-08-15",
         "prior_1y_contract": "CLQ27",
-        "prior_2y": null,
-        "prior_2y_date": "",
+        "prior_2y": 68.12,
+        "prior_2y_date": "2024-08-16",
         "prior_2y_contract": "CLQ26"
       }
     }
@@ -346,5 +346,5 @@
     }
   },
   "note": "Spot history comes from daily FRED series. Futures history is roll-aware by target date. USD/INR latest spot: FRED DEXINUS, then Yahoo INR=X / keyless FX APIs when FRED lags; forwards fall back to CIP derivation from India/UST curves when market quotes are unavailable.",
-  "_fetched": "2026-08-16T07:03:14.461069Z"
+  "_fetched": "2026-08-16T09:46:11.940421Z"
 }
