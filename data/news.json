@@ -1,11 +1,31 @@
 {
-  "updated": "2026-08-17T13:10:23Z",
+  "updated": "2026-08-17T15:46:13Z",
   "topics": [
     "Insurance AM",
     "Private Credit",
     "Rates & Macro"
   ],
   "items": [
+    {
+      "id": "9db7a7ba0e47",
+      "title": "Can Life Insurance Companies Use Genetic-Testing Results?",
+      "source": "WSJ",
+      "date": "2026-08-17T13:24:00Z",
+      "topic": "Private Credit",
+      "summary": "",
+      "link": "https://news.google.com/rss/articles/CBMimAFBVV95cUxNdzRla0tsUFpFQlZndzFNWndQakxnZUZDNTJRZ0lXSGhWbnNDTXZKaEFIMklUTHY3d1B1OWRvMEdQUXhmVTVoX3BBak1IUC1sRmtrdndTcExBMVMzUGhrSmJLNGVtMktVVHYwQzYtSUFjejAzLTUwWGhXM1U3Qk0xZ0g0dExjZnp4VjlMdU5KbHVsM3YwdDN1bg?oc=5",
+      "isNew": false
+    },
+    {
+      "id": "0efb7dbcef05",
+      "title": "Repositioning of Insurance Capital in Equity Investments: Record-High Exposure, More Rational Allocation, and a Shift Toward Core Sectors",
+      "source": "Moomoo",
+      "date": "2026-08-17T11:16:15Z",
+      "topic": "Insurance AM",
+      "summary": "",
+      "link": "https://news.google.com/rss/articles/CBMiuwFBVV95cUxOSW9ibkVRSXFUbGhfc0tnX2Fland2X0NRczdXaXo2YWVMeFN6NWZzU1dkQmNHTmo3aWZEQ213RGVLckJFTjN4dGxvSk1aQ2RSTE9JUXB3S2VfRzdjNnk5RVo4ZFlaR181WS04Wi1IVmx0V2VnZEwxS1M2a2lRd2JEOWZ6QUQ0OEFXbm1WRzg0QTM4TTU0aTNSYjRsQUJBdXI0UUZ0aHZxMVk0ZXo0d2lqYkN3SFRLLWk0Yl80?oc=5",
+      "isNew": false
+    },
     {
       "id": "bbc00ea7fae2",
       "title": "Credit In The Straight World",
@@ -17,23 +37,23 @@
       "isNew": false
     },
     {
-      "id": "0582338c9416",
-      "title": "Private credit under strain as troubled loans swell",
-      "source": "Financial Times",
-      "date": "2026-08-17T06:30:10Z",
-      "topic": "Private Credit",
-      "summary": "",
-      "link": "https://news.google.com/rss/articles/CBMihAFBVV95cUxNOWs5aFdYT3UtRjA3aTVEaGhjTWJ0M2lzaEstMkRRSHVzN3h5NDBfdFpwWmVhNEtuS1Q1OUZsZVM5bVVGM0hhRlRWcEg0eGNnb09SWHp6WkNNakl6ZG9KRWxodDlDQkUzWE5rSDJrbGYzWDhDUDl3RGEzZXNPZDR4ZGRWSGg?oc=5",
-      "isNew": false
-    },
-    {
       "id": "e7b48bc46396",
       "title": "Japan\u2019s 10-year bond yield hits three-decade high",
       "source": "Financial Times",
-      "date": "2026-08-17T04:36:31Z",
+      "date": "2026-08-17T04:35:50Z",
       "topic": "Rates & Macro",
       "summary": "",
       "link": "https://news.google.com/rss/articles/CBMihAFBVV95cUxORkVsZHl0R3NfS0xrMDh4YTRBZG14bWc2Rm1qVXd3WEx5UHZtRlpFQmlTOTkyMjlnYjI5U3dnUktvUHMwUHBqRUpaVzlwWDd6bTJDRktucklNUkRfOGs3dUdZUWVmM3M2YmNDY19EVVJqVXpuV0xXRjFXNnpacEdCVXM4RXY?oc=5",
+      "isNew": false
+    },
+    {
+      "id": "0582338c9416",
+      "title": "Private credit under strain as troubled loans swell",
+      "source": "Financial Times",
+      "date": "2026-08-17T04:01:23Z",
+      "topic": "Private Credit",
+      "summary": "",
+      "link": "https://news.google.com/rss/articles/CBMihAFBVV95cUxNOWs5aFdYT3UtRjA3aTVEaGhjTWJ0M2lzaEstMkRRSHVzN3h5NDBfdFpwWmVhNEtuS1Q1OUZsZVM5bVVGM0hhRlRWcEg0eGNnb09SWHp6WkNNakl6ZG9KRWxodDlDQkUzWE5rSDJrbGYzWDhDUDl3RGEzZXNPZDR4ZGRWSGg?oc=5",
       "isNew": false
     },
     {
@@ -69,7 +89,7 @@
     {
       "id": "f94b53251616",
       "title": "When the AI Bubble Bursts, Who Will Be Left Holding the Bag?",
-      "source": "Counterpunch",
+      "source": "counterpunch.org",
       "date": "2026-08-14T05:57:14Z",
       "topic": "Private Credit",
       "summary": "",
@@ -219,7 +239,7 @@
     {
       "id": "c1a4fa2a93dd",
       "title": "NextRock unveils plans to establish life insurance and reinsurance platform",
-      "source": "Reinsurance News",
+      "source": "reinsurancene.ws",
       "date": "2026-08-11T13:33:50Z",
       "topic": "Insurance AM",
       "summary": "",
@@ -269,7 +289,7 @@
     {
       "id": "d3757cb0eab2",
       "title": "BOJ's rate-hike path runs into Takaichi's bond market problems",
-      "source": "reuters.com",
+      "source": "Reuters",
       "date": "2026-08-10T23:08:35Z",
       "topic": "Rates & Macro",
       "summary": "",
@@ -284,26 +304,6 @@
       "topic": "Insurance AM",
       "summary": "",
       "link": "https://news.google.com/rss/articles/CBMiywJBVV95cUxNUGxLczhkY1phSHVqWkVkVWFNZUtzVjVXSmxlUzZBd1hjc1huVnpiMXZ1VWI1VE8zR09yR0ZQOURYM1F6Yl9mYlVtYmMyeDV1RHRSdVRvT0hfT0tzSklWb1plUHdpSXRjazVSVDIzMmFJekd2M1NXV2F2OW5UZ2dDS2F6LXBya2FpODJySFNVdjBFdFQyVkxCQ2F0ZVdCYkVxOEM5c3NZZ1VGTWhvS2V2V205dVVQRFJGRGx4N2xoRXBZQmpodzhxeHU3VGstV21KUEhfeGgwd1FYRVlXRGQ4WVJPUXpFM0dqS2lPaDZiV1VfOXdERVFGZVlHVHZaY3o0a0xTME9JMFJxaklvV1NNNEJabWdCNlhFT29sVE9UQ0FNX3o5ekY4YmtCLTlOTnZiZnUxSThVRVRwOHFhUldVSVIxU0FuWVpQSEpn?oc=5",
-      "isNew": false
-    },
-    {
-      "id": "e12439817893",
-      "title": "Interest rates may stay higher for longer. What that means for consumers",
-      "source": "CNBC",
-      "date": "2026-08-10T12:41:26Z",
-      "topic": "Rates & Macro",
-      "summary": "",
-      "link": "https://news.google.com/rss/articles/CBMiigFBVV95cUxQTkNHSTlBS0JYay1IMFVsaG5RY0QyVFhWQUdLZERmTVp4UTd6bmRlcGxCN1MzaVEzelFObVNFUFpBR244clJFLWQ4NW12MFpCM1B1MFVsRnZGbFJGNkVLaGhvU0t5N2JJS2l3YTVlU25DWEFSeHNrVE1qUVl5RzJQR3Y1Z0lJelllTGfSAY8BQVVfeXFMTVVRdURXbFB5WmhYLUxkazFEaF81VkpaWkg2M09TcHhZd0FzNnhWODBmTDVhV2JvTS1VejV4WXJkWUlvSVJaVml6UEJoVVUwQlV1aWlMMUxwVk5Ra0FPMC1jaGliNXppY2VRRDRFTEF5N21qVWZMVGFYSzdVMXo0WFROT0RBTGp5SHV0V1lTSmc?oc=5",
-      "isNew": false
-    },
-    {
-      "id": "e8653d52754f",
-      "title": "Investor Intentions: Korea's Employment Insurance Fund seeks blind-pool PE/VC funds for 2026",
-      "source": "Private Equity International",
-      "date": "2026-08-10T11:52:15Z",
-      "topic": "Insurance AM",
-      "summary": "",
-      "link": "https://news.google.com/rss/articles/CBMizwFBVV95cUxPb3VrQkREcFpxcVM2N0ZVOFlaQ0NKd2l2UDdJendCaFlFRzFwTXV4UWVwWlFfcWI4Z083SE9URzVadmUyZEFrdGRVd3Q1QUlLODZTZWdMalItazYyTktDRTRLaVRzSFVHb0xPczU5eXg2ODZOWVFYY2hvOHF2Qmg3UklSdGMzM2lFV3J6SmVlS3ZJOGdyajE2S2plRE1PMkozai1nanFRWGpPRm1OX1hRVkk4a2F1aTdFSG9OeEVaTE5qMVdRaTRhc0dQdU9yRGM?oc=5",
       "isNew": false
     }
   ]
