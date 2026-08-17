@@ -1,13 +1,23 @@
 {
-  "updated": "2026-08-17T15:46:13Z",
+  "updated": "2026-08-17T19:03:31Z",
   "naic": [
+    {
+      "id": "86488a973dd7",
+      "title": "Demotech, Inc. Reflects on Recent NAIC 2026 Summer Meeting in Columbus, OH",
+      "date": "2026-08-17",
+      "cat": "General",
+      "summary": "",
+      "source": "PR Newswire",
+      "link": "https://news.google.com/rss/articles/CBMixgFBVV95cUxQZFFubFVnTDBpWm1EM0pZNkRqLXEtcXlLamJRX3hSU256aUVYSFRsOTRUM1JpR2haWTJMRVNUQXV2MFNvSkhmSUJzX1hnbC1XNUJxaldlUi1ETldnN3kyZ2pOd3ZPcGFESWdjc2dxajRQdTZfMmN5QVZJWlpQQ3lwZ1ZTLWhYVktscklTV2doY2w3ZFpxUS1MTk5rbUhKMWN6ZlRqZURCVm1aSWdIbHlFS2dXVnZ1V0F1MmNwUXpWZTBnVGU5UUE?oc=5",
+      "isNew": true
+    },
     {
       "id": "20f57427644c",
       "title": "Cayman delegation headed to Ohio for talks with US insurance regulators",
       "date": "2026-08-17",
       "cat": "General",
       "summary": "",
-      "source": "caymanfinance.ky",
+      "source": "Cayman Finance",
       "link": "https://news.google.com/rss/articles/CBMirAFBVV95cUxNSW9LZjByRnludkxqU0c2XzlPaGZYWk5CWnNXZUhDc0N3NUxBSlJzVGtmUnppMXRHeTQ5MTFZSm43d1Fsd21mem1OMmZIWUJNWDJsV1pOdUkwQlJzREcwRzI3MWEwMUJMVDVkX3BQTEVOT0dDX09tTHBjUEhsWDV4WmhwY1VYUl8xTWg1UmhleEsyOFRLQU53bDZBWDk1TTZQYVdmb2lWcWNkc1Bw?oc=5",
       "isNew": true
     },
@@ -187,7 +197,7 @@
       "date": "2026-08-04",
       "cat": "General",
       "summary": "",
-      "source": "dailyadvocate.com",
+      "source": "The Daily Advocate",
       "link": "https://news.google.com/rss/articles/CBMijAFBVV95cUxNTkt3NXhMNEdSOTNYTWNLTFB4emI4b0ZabENtZ1V3VUNZcUVPTlh3LV84ckRDbTRyOTZ5QVByYXBNemNQTkt4V0NyWG42Q25xVmVwbDFuWjhSZUNIZHRubklLWjk1XzFSQWdwRlBYeE1MMlp5ZzEtQmpaZ0d3dklKaU9DOVhMWUFLWEd3eQ?oc=5",
       "isNew": true
     },
@@ -240,19 +250,19 @@
       "source": "InsuranceNewsNet",
       "link": "https://news.google.com/rss/articles/CBMirwFBVV95cUxOQkxaUFNUR1VaUlJCa1phRkMzektNeVA4c3dQUTNEY2J0d2hhRGpVYXJZcUhhcmNuMnpjLUE5STE0eUtKVVRFNExZYlZkYS1WZXZrbm00cjA4NDNzRGRHM3Z3RW1wU1Q0RUdyTWRhT1EyOUp0VGxDSDNLdURhd1FkWTkwVGNVUTMwTXhnaDRKX2hDeHEwdzdtX3R0dm1tLUVVYXZid0FvSHAzU2l3Mkpr?oc=5",
       "isNew": true
-    },
-    {
-      "id": "f217299237f3",
-      "title": "NAIC, Transport Unions Plan Passenger Accident Insurance Scheme",
-      "date": "2026-08-01",
-      "cat": "General",
-      "summary": "",
-      "source": "Daily Trust",
-      "link": "https://news.google.com/rss/articles/CBMijwFBVV95cUxNbUhRV3JrMFdNTlVDamNQYlRlS0xGc0dBdzZqVGJuX3hyZkhueTNWR0dpYzFvTGl6NndPdHUtUVZEZ3VEMmxqWHpvY0UzT2xFWWtyUmM2X3FobWlHQkxUeVRwMlhBMTFoRDE3Z2VTQ3MtcWwzRlZBTHRNUGU5Y085WjZyYm5XLUtNS2U5d3FtWQ?oc=5",
-      "isNew": true
     }
   ],
   "bma": [
+    {
+      "id": "08adc0750aa8",
+      "title": "BMA proposes AI safeguards",
+      "date": "2026-08-17",
+      "cat": "Governance",
+      "summary": "",
+      "source": "Royal Gazette | Bermuda",
+      "link": "https://news.google.com/rss/articles/CBMingFBVV95cUxQX1NuNGNLalFSVkVtdkk4Q1Z1YkJpRGxoY2FkU1dnamVRdmlEbG1Vbmp4UkxHTk0wTm9CX2xJdFJRd3Y5M1Y5OFhYNHZzQ0sxaDBSMVRuakhyeEVfaklGWk5MOVhBSDd3VkcwLW13SktSTHd0cl8zSTZrcDJHTEJqZFlKN1Y2eFo4di1LbGNZczluSHBmMU42VmFqU2Y1QQ?oc=5",
+      "isNew": true
+    },
     {
       "id": "b6e174b0844c",
       "title": "BMA tightens rules around \u2018key persons\u2019",
@@ -492,16 +502,6 @@
       "source": "Royal Gazette | Bermuda",
       "link": "https://news.google.com/rss/articles/CBMiywFBVV95cUxNaTJ1ZlhIX1lqVFhhRlFUU1NIdVhBTjJNSU9SYW1rLUZDaE1LSnpVczZrWGtLQnVuNnIyaUZ5YXVydHItZDJBV2hkRHBaNV9kTFRSOFpzcVdZaEhodE1RbEN2SVEySUdORlNQYXBDWXlBUkZ4OFp6N19yTmFHNUs1U0w4Z21kMGt2TEhXd3lNR2s1WXB4WUdpa2c0bFhsN2xjcHFlR1FoUVZNZzNFZFNfR2hQVFFEN09YVTNSdHl5aFpGd2VaX1NMQ1dfVQ?oc=5",
       "isNew": false
-    },
-    {
-      "id": "0c5087e8a94e",
-      "title": "Privately-owned insurers now hold nearly 20% of US life industry assets \u2013 ALIRT",
-      "date": "2026-07-09",
-      "cat": "Investment",
-      "summary": "",
-      "source": "Insurance Business",
-      "link": "https://news.google.com/rss/articles/CBMi4gFBVV95cUxOVGhqVXFiVGQ0alBiSU9WcWxzaUlmSktjLXI3RWpmYUt0NG1PajR3TVB0ZWg4VTNBLXhINDJyTUdFWXNFS1dNUmZCQjV4TmYxc09qWWhVS0thY0c3MkR6Y0czd1RIenotZlRLSjljMUtqaExCQ3gyNmFyV09YbVBtLW10MGR6M0N4NVR0UzVRV2dpdkNlRi1OOEdUQkpHamJ5Sy1vTXVwT19lQS1OdklieHBRNGRPOXp4WG5hMVlwZXVEbEt5QnkyRkxJaV9FU2hfNUNRTThIdU9CdmE0LXlvblhB?oc=5",
-      "isNew": false
     }
   ],
   "cayman": [
@@ -541,7 +541,7 @@
       "date": "2026-07-29",
       "cat": "Licensing",
       "summary": "",
-      "source": "caymanfinance.ky",
+      "source": "Cayman Finance",
       "link": "https://news.google.com/rss/articles/CBMimwFBVV95cUxPbjctUnRXSmlFbHZINHdNSHFEQ19OTzVXeXMtVnJuejBDbHBMZEY1ZjNTWW1FLUVwVm5BdXdWbDFBTWhXQzNobWt6eWZlRmpWVUY5TGNncjJQQTFKczl0RWNnSnRNaG5tdnJGOTRFanBaYl9vWnNrR3RoaDFTZzRBT2VwUkRSQ3NpTEJkakcwV0I1YmtSY25qYVFlMA?oc=5",
       "isNew": true
     },
@@ -701,7 +701,7 @@
       "date": "2026-06-18",
       "cat": "Investment",
       "summary": "",
-      "source": "caymanfinance.ky",
+      "source": "Cayman Finance",
       "link": "https://news.google.com/rss/articles/CBMixwFBVV95cUxNLUdzZVdseERCdUhTNENKR21HT3d5QnFHVjRNN3ZZRE1YMG1LRGJTTlBDTjBZSHdVZkNTc2hMZVJpRDRJelFXbGxyUzV4RTZBT0xqNV9acWh3N3NuMkk1Um14ZC1YamxGYVEyTW1kLTZ2ZzA1SzJVVnA3dU9Ncjlqel9rdFhmOEFkSjZqTC1zTzRBU1pCek9MSWlZQ2dPbllNaUN0TVE4SzlBLWlKbjlOaU1veThSNVBJNkx4dTVyOW05U0JJOWN3?oc=5",
       "isNew": false
     },

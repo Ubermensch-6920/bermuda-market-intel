@@ -1,9 +1,10 @@
 {
-  "updated": "2026-08-17T15:46:13Z",
+  "updated": "2026-08-17T19:03:31Z",
   "topics": [
     "Insurance AM",
     "Private Credit",
-    "Rates & Macro"
+    "Rates & Macro",
+    "Structured Credit"
   ],
   "items": [
     {
@@ -17,9 +18,19 @@
       "isNew": false
     },
     {
+      "id": "878f17890e14",
+      "title": "The Analysis Series: Related parties: Inside the Walter probe and what it means for Chelsea\u2019s ownership",
+      "source": "theesk.org",
+      "date": "2026-08-17T12:20:23Z",
+      "topic": "Structured Credit",
+      "summary": "",
+      "link": "https://news.google.com/rss/articles/CBMiywFBVV95cUxNQjlVd3N6R3dpUzNSYS1qb3B5TXFfR2ViSWZSX3N1N016Y3M2akZ5MHR0RmkyX1VhNjd5UUxfWW5uNWxORmdoNUIxRXozcV9iSkJTTlMwUmRfcXJ1WGt6ZEJuVlZ6SlNJS1ZZVFMwNHEtRy1jNXc1ZFZOdkIySU5xa1F6dTNWaTM2Z0xBWDRTaUYzVE5DUm4tUEkybDNKc0t4TEJqZUlMOVk3OVl0azZxaEZfZXEwME91NTR6NEZGU2ZzamZjUHRZQ3BWNNIB0AFBVV95cUxPbWZwY2pkejR6amFaWHFEbV84cGVSOWhKTEtucjBNZzdIR05TMTBoWFRtM04zOTVxREpwMmFBOFNXd3BaSDBDSm84VUNQMXVFUWpjakNLZUhWTUJwQ3F4X1BMUm4zdVljcGExbkNwQm5aMmg2dDFCY0MyZ2Nvb0ZuZWtweHdpOUNDMXV5Y0F1Z1NuVi1SaEpLOTJheWduUEE3WkcyZ2QtLVJIdm10bmlGRnFDcEhZeThaVW9NaHRTUndrdGN6TXNBczhtQ242YlVi?oc=5",
+      "isNew": false
+    },
+    {
       "id": "0efb7dbcef05",
       "title": "Repositioning of Insurance Capital in Equity Investments: Record-High Exposure, More Rational Allocation, and a Shift Toward Core Sectors",
-      "source": "Moomoo",
+      "source": "moomoo.com",
       "date": "2026-08-17T11:16:15Z",
       "topic": "Insurance AM",
       "summary": "",
@@ -239,7 +250,7 @@
     {
       "id": "c1a4fa2a93dd",
       "title": "NextRock unveils plans to establish life insurance and reinsurance platform",
-      "source": "reinsurancene.ws",
+      "source": "Reinsurance News",
       "date": "2026-08-11T13:33:50Z",
       "topic": "Insurance AM",
       "summary": "",
@@ -294,16 +305,6 @@
       "topic": "Rates & Macro",
       "summary": "",
       "link": "https://news.google.com/rss/articles/CBMitgFBVV95cUxQMVU4YTMyZzBlVkRSS1puYTluVjgycklHS2dRbnVCSkxVMWdjcEUtdlZ0NVpIakhpckplY0dGSGQyOFkxQmhpTnMzT0dRNWlfRHg5R2MzQ3BUcV90cTFjMlF5elB3SUVlMWloQnpleUowUHNHSFJKeW1iV2lkNnhtdGtWUURyQi1DcURaaG1SR18xa3lmd2MtaEsyb2E1Q082c25nX2E3UEYzV0JJcUQxOGNfMFZrdw?oc=5",
-      "isNew": false
-    },
-    {
-      "id": "021281db6e62",
-      "title": "NVIDIA Partners With Apollo, BlackRock, Blackstone, Brookfield, Goldman Sachs and KKR to Establish AI Compute Infrastructure Financing Platforms to Mobilize Over $500 Billion of Third-Party Capital",
-      "source": "NVIDIA Newsroom",
-      "date": "2026-08-10T20:09:50Z",
-      "topic": "Insurance AM",
-      "summary": "",
-      "link": "https://news.google.com/rss/articles/CBMiywJBVV95cUxNUGxLczhkY1phSHVqWkVkVWFNZUtzVjVXSmxlUzZBd1hjc1huVnpiMXZ1VWI1VE8zR09yR0ZQOURYM1F6Yl9mYlVtYmMyeDV1RHRSdVRvT0hfT0tzSklWb1plUHdpSXRjazVSVDIzMmFJekd2M1NXV2F2OW5UZ2dDS2F6LXBya2FpODJySFNVdjBFdFQyVkxCQ2F0ZVdCYkVxOEM5c3NZZ1VGTWhvS2V2V205dVVQRFJGRGx4N2xoRXBZQmpodzhxeHU3VGstV21KUEhfeGgwd1FYRVlXRGQ4WVJPUXpFM0dqS2lPaDZiV1VfOXdERVFGZVlHVHZaY3o0a0xTME9JMFJxaklvV1NNNEJabWdCNlhFT29sVE9UQ0FNX3o5ekY4YmtCLTlOTnZiZnUxSThVRVRwOHFhUldVSVIxU0FuWVpQSEpn?oc=5",
       "isNew": false
     }
   ]
