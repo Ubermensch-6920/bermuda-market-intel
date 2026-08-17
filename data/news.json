@@ -1,11 +1,31 @@
 {
-  "updated": "2026-08-17T10:03:34Z",
+  "updated": "2026-08-17T13:10:23Z",
   "topics": [
     "Insurance AM",
     "Private Credit",
     "Rates & Macro"
   ],
   "items": [
+    {
+      "id": "bbc00ea7fae2",
+      "title": "Credit In The Straight World",
+      "source": "josimarfootball.com",
+      "date": "2026-08-17T10:34:28Z",
+      "topic": "Private Credit",
+      "summary": "",
+      "link": "https://news.google.com/rss/articles/CBMiekFVX3lxTE9oWVhvUmRSRWlGRFpsQ2dkNHoxa1o3Zmd6ZHE3N0plZmRYVllWWXdvQ21kVVFOSFFBcFNuVXp0cWYwbEJoNy1ObGdDTlU4cjM3XzNObzQzMlREOFM4dXVYajl1VXdiVDFHYTB0dkNPY3FVM1p5blZLbnRn?oc=5",
+      "isNew": false
+    },
+    {
+      "id": "0582338c9416",
+      "title": "Private credit under strain as troubled loans swell",
+      "source": "Financial Times",
+      "date": "2026-08-17T06:30:10Z",
+      "topic": "Private Credit",
+      "summary": "",
+      "link": "https://news.google.com/rss/articles/CBMihAFBVV95cUxNOWs5aFdYT3UtRjA3aTVEaGhjTWJ0M2lzaEstMkRRSHVzN3h5NDBfdFpwWmVhNEtuS1Q1OUZsZVM5bVVGM0hhRlRWcEg0eGNnb09SWHp6WkNNakl6ZG9KRWxodDlDQkUzWE5rSDJrbGYzWDhDUDl3RGEzZXNPZDR4ZGRWSGg?oc=5",
+      "isNew": false
+    },
     {
       "id": "e7b48bc46396",
       "title": "Japan\u2019s 10-year bond yield hits three-decade high",
@@ -14,16 +34,6 @@
       "topic": "Rates & Macro",
       "summary": "",
       "link": "https://news.google.com/rss/articles/CBMihAFBVV95cUxORkVsZHl0R3NfS0xrMDh4YTRBZG14bWc2Rm1qVXd3WEx5UHZtRlpFQmlTOTkyMjlnYjI5U3dnUktvUHMwUHBqRUpaVzlwWDd6bTJDRktucklNUkRfOGs3dUdZUWVmM3M2YmNDY19EVVJqVXpuV0xXRjFXNnpacEdCVXM4RXY?oc=5",
-      "isNew": false
-    },
-    {
-      "id": "0582338c9416",
-      "title": "Private credit under strain as troubled loans swell",
-      "source": "Financial Times",
-      "date": "2026-08-17T04:00:27Z",
-      "topic": "Private Credit",
-      "summary": "",
-      "link": "https://news.google.com/rss/articles/CBMihAFBVV95cUxNOWs5aFdYT3UtRjA3aTVEaGhjTWJ0M2lzaEstMkRRSHVzN3h5NDBfdFpwWmVhNEtuS1Q1OUZsZVM5bVVGM0hhRlRWcEg0eGNnb09SWHp6WkNNakl6ZG9KRWxodDlDQkUzWE5rSDJrbGYzWDhDUDl3RGEzZXNPZDR4ZGRWSGg?oc=5",
       "isNew": false
     },
     {
@@ -259,7 +269,7 @@
     {
       "id": "d3757cb0eab2",
       "title": "BOJ's rate-hike path runs into Takaichi's bond market problems",
-      "source": "Reuters",
+      "source": "reuters.com",
       "date": "2026-08-10T23:08:35Z",
       "topic": "Rates & Macro",
       "summary": "",
@@ -294,16 +304,6 @@
       "topic": "Insurance AM",
       "summary": "",
       "link": "https://news.google.com/rss/articles/CBMizwFBVV95cUxPb3VrQkREcFpxcVM2N0ZVOFlaQ0NKd2l2UDdJendCaFlFRzFwTXV4UWVwWlFfcWI4Z083SE9URzVadmUyZEFrdGRVd3Q1QUlLODZTZWdMalItazYyTktDRTRLaVRzSFVHb0xPczU5eXg2ODZOWVFYY2hvOHF2Qmg3UklSdGMzM2lFV3J6SmVlS3ZJOGdyajE2S2plRE1PMkozai1nanFRWGpPRm1OX1hRVkk4a2F1aTdFSG9OeEVaTE5qMVdRaTRhc0dQdU9yRGM?oc=5",
-      "isNew": false
-    },
-    {
-      "id": "fa0482d9aa07",
-      "title": "The Private Credit Stress Test: What Happens When the Economic Cycle Finally Turns?",
-      "source": "Global Banking & Finance Review",
-      "date": "2026-08-10T11:39:54Z",
-      "topic": "Private Credit",
-      "summary": "",
-      "link": "https://news.google.com/rss/articles/CBMiwAFBVV95cUxQLVVHUXJINEZjdW9uSDc0bHRvWGJ2X0hyV00tX0FVTlpubkVoUHM3RDctMzVfU3llQklkZmczcDFuRTRUN096WjZVeDJ4Q3pIdEJnaGIwSlpmNkpHbVR2Y19HNVNCNVNZX3M0Z0NFd0F0OXJ5VjJwQ2RyT1hCYWt0UzdGREdSZHEydG5iUjd3SU81VGQ4Zl9nZzJtSXJGczNOelVxNS01Z1dZZU1PNVp4NmtsblRnRFVMMGkzS2t2YUw?oc=5",
       "isNew": false
     }
   ]
