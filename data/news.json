@@ -1,5 +1,5 @@
 {
-  "updated": "2026-08-17T07:20:41Z",
+  "updated": "2026-08-17T10:03:34Z",
   "topics": [
     "Insurance AM",
     "Private Credit",
@@ -7,10 +7,20 @@
   ],
   "items": [
     {
+      "id": "e7b48bc46396",
+      "title": "Japan\u2019s 10-year bond yield hits three-decade high",
+      "source": "Financial Times",
+      "date": "2026-08-17T04:36:31Z",
+      "topic": "Rates & Macro",
+      "summary": "",
+      "link": "https://news.google.com/rss/articles/CBMihAFBVV95cUxORkVsZHl0R3NfS0xrMDh4YTRBZG14bWc2Rm1qVXd3WEx5UHZtRlpFQmlTOTkyMjlnYjI5U3dnUktvUHMwUHBqRUpaVzlwWDd6bTJDRktucklNUkRfOGs3dUdZUWVmM3M2YmNDY19EVVJqVXpuV0xXRjFXNnpacEdCVXM4RXY?oc=5",
+      "isNew": false
+    },
+    {
       "id": "0582338c9416",
       "title": "Private credit under strain as troubled loans swell",
       "source": "Financial Times",
-      "date": "2026-08-17T06:30:10Z",
+      "date": "2026-08-17T04:00:27Z",
       "topic": "Private Credit",
       "summary": "",
       "link": "https://news.google.com/rss/articles/CBMihAFBVV95cUxNOWs5aFdYT3UtRjA3aTVEaGhjTWJ0M2lzaEstMkRRSHVzN3h5NDBfdFpwWmVhNEtuS1Q1OUZsZVM5bVVGM0hhRlRWcEg0eGNnb09SWHp6WkNNakl6ZG9KRWxodDlDQkUzWE5rSDJrbGYzWDhDUDl3RGEzZXNPZDR4ZGRWSGg?oc=5",
@@ -139,7 +149,7 @@
     {
       "id": "ba6a1be93119",
       "title": "How to protect your savings from rising government spending and inflation",
-      "source": "21shares.com",
+      "source": "21Shares",
       "date": "2026-08-12T15:17:57Z",
       "topic": "Rates & Macro",
       "summary": "",
@@ -294,16 +304,6 @@
       "topic": "Private Credit",
       "summary": "",
       "link": "https://news.google.com/rss/articles/CBMiwAFBVV95cUxQLVVHUXJINEZjdW9uSDc0bHRvWGJ2X0hyV00tX0FVTlpubkVoUHM3RDctMzVfU3llQklkZmczcDFuRTRUN096WjZVeDJ4Q3pIdEJnaGIwSlpmNkpHbVR2Y19HNVNCNVNZX3M0Z0NFd0F0OXJ5VjJwQ2RyT1hCYWt0UzdGREdSZHEydG5iUjd3SU81VGQ4Zl9nZzJtSXJGczNOelVxNS01Z1dZZU1PNVp4NmtsblRnRFVMMGkzS2t2YUw?oc=5",
-      "isNew": false
-    },
-    {
-      "id": "f874c4bade7e",
-      "title": "Private Credit Faces Its First True Stress Test",
-      "source": "Global Banking & Finance Review",
-      "date": "2026-08-10T11:39:14Z",
-      "topic": "Private Credit",
-      "summary": "",
-      "link": "https://news.google.com/rss/articles/CBMikgFBVV95cUxQeUlneW1xT1pnbWZCN3F5T0hOb1VYaGpIMTk0djRPM1IxT1k3aEx6WU04dkhoNzVuLTBLZEdsTURfcUdxLTBjQnZxaDdOSWpBZFFUM0JUN0FvRS1XeG85NDZZeEQ2SDdEUDRic1VieTlpUE9ZWWl3TUVuZHZCbnlCdVB5V25UdHVkcnplcXlfeHV0QQ?oc=5",
       "isNew": false
     }
   ]
