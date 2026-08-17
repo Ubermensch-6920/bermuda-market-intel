@@ -1,11 +1,21 @@
 {
-  "updated": "2026-08-17T04:07:09Z",
+  "updated": "2026-08-17T07:20:41Z",
   "topics": [
     "Insurance AM",
     "Private Credit",
     "Rates & Macro"
   ],
   "items": [
+    {
+      "id": "0582338c9416",
+      "title": "Private credit under strain as troubled loans swell",
+      "source": "Financial Times",
+      "date": "2026-08-17T06:30:10Z",
+      "topic": "Private Credit",
+      "summary": "",
+      "link": "https://news.google.com/rss/articles/CBMihAFBVV95cUxNOWs5aFdYT3UtRjA3aTVEaGhjTWJ0M2lzaEstMkRRSHVzN3h5NDBfdFpwWmVhNEtuS1Q1OUZsZVM5bVVGM0hhRlRWcEg0eGNnb09SWHp6WkNNakl6ZG9KRWxodDlDQkUzWE5rSDJrbGYzWDhDUDl3RGEzZXNPZDR4ZGRWSGg?oc=5",
+      "isNew": false
+    },
     {
       "id": "7bddc24f0208",
       "title": "Interest rate dilemma for central banks as inflation rises but growth slows",
@@ -23,7 +33,7 @@
       "date": "2026-08-14T15:51:50Z",
       "topic": "Insurance AM",
       "summary": "",
-      "link": "https://news.google.com/rss/articles/CBMizwFBVV95cUxQUFdQalBIUGJqcno2VzFFUnJvTXN3OXVGY2NHRXpadXZ6MC11cHZDNFc0SGQ2S1VadGtBbUxZQjBUZ3lJQzd6dWVtQ0pDUjBnQ2FYdWd5OFlDd1lrUEVEYXQyUVlEdWFFQi1wRG4yR1EzRllnR1BZNkN1aXVUYU1wS3hXWlBPVFk4a0dyTllJSkZDUEFWcVpoelZJRDhJN1RxM1dIUWVMaFd1MUpPOURERzR6SFQ0am96UzFGTHEwNWU3Z1dlV2V3SXJVR0QxTk0?oc=5",
+      "link": "https://news.google.com/rss/articles/CBMidEFVX3lxTE1DS2hrZXdzSW9VYmtDZGZtbVd0N2xTWTdPZHBqYTRHUTh5a0c2RjRxYjdHSlhVY3ZPMlRiQkkyWWhSMElYVkNXZFNtTWNwdF9ZTF9XYmZPNm1TU2o0LU9PbXREandGZHl0TXZVUF9qUGNyVmhV?oc=5",
       "isNew": false
     },
     {
@@ -39,7 +49,7 @@
     {
       "id": "f94b53251616",
       "title": "When the AI Bubble Bursts, Who Will Be Left Holding the Bag?",
-      "source": "counterpunch.org",
+      "source": "Counterpunch",
       "date": "2026-08-14T05:57:14Z",
       "topic": "Private Credit",
       "summary": "",
@@ -129,7 +139,7 @@
     {
       "id": "ba6a1be93119",
       "title": "How to protect your savings from rising government spending and inflation",
-      "source": "21Shares",
+      "source": "21shares.com",
       "date": "2026-08-12T15:17:57Z",
       "topic": "Rates & Macro",
       "summary": "",
@@ -187,6 +197,16 @@
       "isNew": false
     },
     {
+      "id": "c1a4fa2a93dd",
+      "title": "NextRock unveils plans to establish life insurance and reinsurance platform",
+      "source": "Reinsurance News",
+      "date": "2026-08-11T13:33:50Z",
+      "topic": "Insurance AM",
+      "summary": "",
+      "link": "https://news.google.com/rss/articles/CBMiqAFBVV95cUxQYTVBRVV3S2FlYWI2STZUYmF6cVAxU1NBX1FmR2dnOUR0bFpTRkk4bWlsSjI1THZSUmMyRkFhVDBYc2ZQRFRKNFRkLVBaczdQRzVIREZVQXdjMVhGeGN0NUNBemVzNjZ0UFNsaHBZVkdfQ1psb241NUhRNjI5ZXEzVFpjTHRranpfU0drSl9Oa3ZqNVByblo3N0lTRmEzUGtoMGdsVnpXc0Q?oc=5",
+      "isNew": false
+    },
+    {
       "id": "6058c271c1b7",
       "title": "Australia Holds Key Rate to Counter Elevated Inflation Pressures",
       "source": "Bloomberg.com",
@@ -229,7 +249,7 @@
     {
       "id": "d3757cb0eab2",
       "title": "BOJ's rate-hike path runs into Takaichi's bond market problems",
-      "source": "reuters.com",
+      "source": "Reuters",
       "date": "2026-08-10T23:08:35Z",
       "topic": "Rates & Macro",
       "summary": "",
@@ -284,26 +304,6 @@
       "topic": "Private Credit",
       "summary": "",
       "link": "https://news.google.com/rss/articles/CBMikgFBVV95cUxQeUlneW1xT1pnbWZCN3F5T0hOb1VYaGpIMTk0djRPM1IxT1k3aEx6WU04dkhoNzVuLTBLZEdsTURfcUdxLTBjQnZxaDdOSWpBZFFUM0JUN0FvRS1XeG85NDZZeEQ2SDdEUDRic1VieTlpUE9ZWWl3TUVuZHZCbnlCdVB5V25UdHVkcnplcXlfeHV0QQ?oc=5",
-      "isNew": false
-    },
-    {
-      "id": "23e60ab23b30",
-      "title": "Japan\u2019s Central Bank Faces Pressure as Bond Yields Approach 3%",
-      "source": "\u041c\u0435\u0436\u0430. \u041d\u043e\u0432\u0438\u043d\u0438 \u0423\u043a\u0440\u0430\u0457\u043d\u0438.",
-      "date": "2026-08-10T09:09:40Z",
-      "topic": "Rates & Macro",
-      "summary": "",
-      "link": "https://news.google.com/rss/articles/CBMiakFVX3lxTE9Jbkc0cXo3dW5NMkp3T2FUYzNBalZZRTRnZ1daTU9DREdBZXkyOUhyb2lwSzE3cFpDU3RYZFI0T2x6c1ZldUVoemxDeUNiZ2NNRWtTMFdaeE1veFJWZjhGYzJnamJoVjlXQUE?oc=5",
-      "isNew": false
-    },
-    {
-      "id": "6f8dd20949d9",
-      "title": "Growing expectations for faster BOJ rate hikes push up bond yields",
-      "source": "Nikkei Asia",
-      "date": "2026-08-10T08:49:00Z",
-      "topic": "Rates & Macro",
-      "summary": "",
-      "link": "https://news.google.com/rss/articles/CBMiqwFBVV95cUxNWEZTNXozeTBBR2xIMFBTaTFDZDBIVzN4MTNqRzBEQjVxaVk3eU9OZ1pMQTU2S1RpeGVEUTl3RFlQMlc5U1dKQi1ndGcwQ25KR1Jvcks2YkNnMjN1QWtxTmRBTUxma010YjNxOVpmWHNpOXREQnBMdXBXQ2JabEtRM1JtVDFGdnRlVE5hNGxISXBuZ3k4bFhYNXI5cDIycjJ4Qy1VVlYwZUFrVW8?oc=5",
       "isNew": false
     }
   ]
