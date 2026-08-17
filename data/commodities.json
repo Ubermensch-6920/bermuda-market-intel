@@ -1,13 +1,13 @@
 {
-  "date": "2026-08-16",
+  "date": "2026-08-17",
   "source": "FRED / TradingEconomics / Investing / Yahoo Finance",
   "gold": {
-    "spot": 4375.5,
+    "spot": 4400.2,
     "spot_date": "",
     "spot_source": "TradingEconomics",
     "unit": "USD/troy oz",
-    "prior_1d": 4437.3,
-    "prior_1d_date": "2026-08-14",
+    "prior_1d": 4453.9,
+    "prior_1d_date": "2026-08-17",
     "prior_1m": 4012.7,
     "prior_1m_date": "2026-07-17",
     "prior_3m": 4552.5,
@@ -18,7 +18,7 @@
     "prior_2y_date": "2024-08-16",
     "futures": {
       "3M": {
-        "price": 4437.3,
+        "price": 4453.0,
         "expiry": "Dec 2026",
         "contract": "GCZ26",
         "prior_1m": 4046.0,
@@ -35,7 +35,7 @@
         "prior_2y_contract": "GCZ24"
       },
       "6M": {
-        "price": 4472.7,
+        "price": 4492.2,
         "expiry": "Feb 2027",
         "contract": "GCG27",
         "prior_1m": 4107.4,
@@ -98,20 +98,20 @@
     "prior_1m_date": "2026-07-17",
     "prior_3m": 112.25,
     "prior_3m_date": "2026-05-18",
-    "prior_1y": 63.78,
-    "prior_1y_date": "2025-08-15",
+    "prior_1y": 64.51,
+    "prior_1y_date": "2025-08-18",
     "prior_2y": 78.05,
     "prior_2y_date": "2024-08-16",
     "futures": {
       "3M": {
-        "price": 80.1,
+        "price": 80.43,
         "expiry": "Nov 2026",
         "contract": "CLX26",
         "prior_1m": 80.34,
         "prior_1m_date": "2026-07-17",
         "prior_1m_contract": "CLV26",
-        "prior_3m": 99.47,
-        "prior_3m_date": "2026-05-18",
+        "prior_3m": null,
+        "prior_3m_date": "",
         "prior_3m_contract": "CLQ26",
         "prior_1y": null,
         "prior_1y_date": "",
@@ -121,7 +121,7 @@
         "prior_2y_contract": "CLX24"
       },
       "6M": {
-        "price": 75.82,
+        "price": 76.16,
         "expiry": "Feb 2027",
         "contract": "CLG27",
         "prior_1m": 76.6,
@@ -138,7 +138,7 @@
         "prior_2y_contract": "CLG25"
       },
       "12M": {
-        "price": 71.84,
+        "price": 71.97,
         "expiry": "Aug 2027",
         "contract": "CLQ27",
         "prior_1m": 72.52,
@@ -147,8 +147,8 @@
         "prior_3m": 78.42,
         "prior_3m_date": "2026-05-18",
         "prior_3m_contract": "CLK27",
-        "prior_1y": 61.44,
-        "prior_1y_date": "2025-08-18",
+        "prior_1y": null,
+        "prior_1y_date": "",
         "prior_1y_contract": "CLQ26",
         "prior_2y": null,
         "prior_2y_date": "",
@@ -184,13 +184,13 @@
     "prior_1m_date": "2026-07-17",
     "prior_3m": 116.73,
     "prior_3m_date": "2026-05-18",
-    "prior_1y": 67.3,
-    "prior_1y_date": "2025-08-15",
+    "prior_1y": 68.18,
+    "prior_1y_date": "2025-08-18",
     "prior_2y": 81.56,
     "prior_2y_date": "2024-08-16",
     "futures": {
       "3M": {
-        "price": 86.57,
+        "price": 86.95,
         "expiry": "Nov 2026",
         "contract": "BZX26",
         "prior_1m": 86.32,
@@ -261,19 +261,19 @@
   },
   "usdinr": {
     "spot": 95.42,
-    "spot_date": "2026-08-16",
+    "spot_date": "2026-08-17",
     "spot_source": "Yahoo INR=X",
     "unit": "INR per USD",
     "prior_1d": null,
     "prior_1d_date": null,
-    "prior_1m": 96.28,
-    "prior_1m_date": "2026-07-17",
-    "prior_3m": 96.35,
-    "prior_3m_date": "2026-05-18",
+    "prior_1m": 96.45,
+    "prior_1m_date": "2026-07-20",
+    "prior_3m": 96.53,
+    "prior_3m_date": "2026-05-19",
     "prior_1y": 87.3,
     "prior_1y_date": "2025-08-18",
-    "prior_2y": 83.95,
-    "prior_2y_date": "2024-08-16",
+    "prior_2y": 83.82,
+    "prior_2y_date": "2024-08-19",
     "futures": {
       "3M": {
         "price": 95.87,
@@ -346,5 +346,5 @@
     }
   },
   "note": "Spot history comes from daily FRED series. Futures history is roll-aware by target date. USD/INR latest spot: FRED DEXINUS, then Yahoo INR=X / keyless FX APIs when FRED lags; forwards fall back to CIP derivation from India/UST curves when market quotes are unavailable.",
-  "_fetched": "2026-08-16T21:37:39.216654Z"
+  "_fetched": "2026-08-17T01:58:51.466044Z"
 }
