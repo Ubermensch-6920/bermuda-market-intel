@@ -1,5 +1,5 @@
 {
-  "updated": "2026-08-18T04:02:59Z",
+  "updated": "2026-08-18T07:08:37Z",
   "topics": [
     "Insurance AM",
     "Private Credit",
@@ -58,23 +58,23 @@
       "isNew": false
     },
     {
-      "id": "e7b48bc46396",
-      "title": "Japan\u2019s 10-year bond yield hits three-decade high",
-      "source": "Financial Times",
-      "date": "2026-08-17T04:35:50Z",
-      "topic": "Rates & Macro",
-      "summary": "",
-      "link": "https://news.google.com/rss/articles/CBMihAFBVV95cUxORkVsZHl0R3NfS0xrMDh4YTRBZG14bWc2Rm1qVXd3WEx5UHZtRlpFQmlTOTkyMjlnYjI5U3dnUktvUHMwUHBqRUpaVzlwWDd6bTJDRktucklNUkRfOGs3dUdZUWVmM3M2YmNDY19EVVJqVXpuV0xXRjFXNnpacEdCVXM4RXY?oc=5",
-      "isNew": false
-    },
-    {
       "id": "0582338c9416",
       "title": "Private credit under strain as troubled loans swell",
       "source": "Financial Times",
-      "date": "2026-08-17T04:00:27Z",
+      "date": "2026-08-17T06:30:10Z",
       "topic": "Private Credit",
       "summary": "",
       "link": "https://news.google.com/rss/articles/CBMihAFBVV95cUxNOWs5aFdYT3UtRjA3aTVEaGhjTWJ0M2lzaEstMkRRSHVzN3h5NDBfdFpwWmVhNEtuS1Q1OUZsZVM5bVVGM0hhRlRWcEg0eGNnb09SWHp6WkNNakl6ZG9KRWxodDlDQkUzWE5rSDJrbGYzWDhDUDl3RGEzZXNPZDR4ZGRWSGg?oc=5",
+      "isNew": false
+    },
+    {
+      "id": "e7b48bc46396",
+      "title": "Japan\u2019s 10-year bond yield hits three-decade high",
+      "source": "Financial Times",
+      "date": "2026-08-17T04:36:31Z",
+      "topic": "Rates & Macro",
+      "summary": "",
+      "link": "https://news.google.com/rss/articles/CBMihAFBVV95cUxORkVsZHl0R3NfS0xrMDh4YTRBZG14bWc2Rm1qVXd3WEx5UHZtRlpFQmlTOTkyMjlnYjI5U3dnUktvUHMwUHBqRUpaVzlwWDd6bTJDRktucklNUkRfOGs3dUdZUWVmM3M2YmNDY19EVVJqVXpuV0xXRjFXNnpacEdCVXM4RXY?oc=5",
       "isNew": false
     },
     {
@@ -95,6 +95,16 @@
       "topic": "Rates & Macro",
       "summary": "",
       "link": "https://news.google.com/rss/articles/CBMiwgFBVV95cUxPZS1MeWowSjFWYXhRUjUzejA5N2JPWWVBU0Y2UEszUFNzVnM0b0xKZDZSbnlKTHNEYnZlUTRETDlUSnYzeWpVc3lhM19qN0Zzd2NwTmpIZjZlYUFUVkdicW01WF9rZjZ0eEVvTElYa2l4c0V1aHlxRG9uUkM4RElua2FURDRWTmVXcWVWeXZGTlZsVjF1OEEwRUVOVWtxU1Vuak1pa2VfWWJDMG9Mcm0zTGJjYWM3UHlEVHpCTzl0Vi1hZw?oc=5",
+      "isNew": false
+    },
+    {
+      "id": "074b3d07ab58",
+      "title": "Bonds Face a Bigger Threat Than the Fed as Global Rates Climb",
+      "source": "Yahoo Finance",
+      "date": "2026-08-16T12:00:00Z",
+      "topic": "Rates & Macro",
+      "summary": "",
+      "link": "https://news.google.com/rss/articles/CBMimAFBVV95cUxOYy11bUZKc1dJbWoxd1JrZXBsNk9sNVJzcnpQX0VtWS1xbkZhcWl5YzZMQXVCTTJNem04SFhOcVdEZWEtM3VjQXVhYTlZQkJhNU43c1E4MzNJMTZuWlB0YU5LUzhCQ2FTOHFnMEVuRWN6N0NMeEMzVXVkTWxlLTRZR3oybS1Ua05qMWhjemFjRHVGcWRxQUoteQ?oc=5",
       "isNew": false
     },
     {
@@ -120,7 +130,7 @@
     {
       "id": "f94b53251616",
       "title": "When the AI Bubble Bursts, Who Will Be Left Holding the Bag?",
-      "source": "Counterpunch",
+      "source": "counterpunch.org",
       "date": "2026-08-14T05:57:14Z",
       "topic": "Private Credit",
       "summary": "",
@@ -280,7 +290,7 @@
     {
       "id": "6058c271c1b7",
       "title": "Australia Holds Key Rate to Counter Elevated Inflation Pressures",
-      "source": "Bloomberg.com",
+      "source": "bloomberg.com",
       "date": "2026-08-11T07:40:40Z",
       "topic": "Rates & Macro",
       "summary": "",
@@ -295,16 +305,6 @@
       "topic": "Insurance AM",
       "summary": "",
       "link": "https://news.google.com/rss/articles/CBMingFBVV95cUxPcUowVHR1VXAzd0Zfamw1MkVSejFsRGo1bkdGdHhjNVBZVFdwU3VpcE5neGJOeWl6RmdQVkFsYlcxNEVTRGg3WHNYSGR1d1BpTjV4T2NqdWdER3ZtQ0RVbU40WTcyRXRaTEM5bFZteVlYNE5EYkM1M1BaR0lYTGlUeFlTeDhVMzRaWFFqZEZhcGc3RFJoZy1qZy1mTGViQQ?oc=5",
-      "isNew": false
-    },
-    {
-      "id": "82f41d43cea6",
-      "title": "Australia's central bank warns further hike 'quite possible' after holding rates steady",
-      "source": "reuters.com",
-      "date": "2026-08-11T04:59:00Z",
-      "topic": "Rates & Macro",
-      "summary": "",
-      "link": "https://news.google.com/rss/articles/CBMiswFBVV95cUxPbV9rMjBHQ3l6X0c2RjR6Y1k4OXdWcmZiTzhlX2Z6TUxXOGN6dWIxZTZiUlZYRVlYYjB4WThwWTJ2UDRDNVowclA1NXRHYWRtVmYxVmRMWm82UEdaTk92YVdTZEo1dF9pdHhoWnV1emI4YThhR3ptMndIT0RWb1FySVpuQ0VwUlNaS2xDS3U0T21hSnh6TDYtU1ExTDdPYkp3Wm05UzJ0UnB4MjhWaTBQcWhLSQ?oc=5",
       "isNew": false
     }
   ]
