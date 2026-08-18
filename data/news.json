@@ -1,5 +1,5 @@
 {
-  "updated": "2026-08-18T19:04:05Z",
+  "updated": "2026-08-18T21:43:02Z",
   "topics": [
     "Insurance AM",
     "Private Credit",
@@ -8,6 +8,36 @@
   ],
   "items": [
     {
+      "id": "09447f122c78",
+      "title": "Canadian Pensions and Insurers Have $360 Billion in Private Credit \u2014 and Most of It Isn't in Canada",
+      "source": "Benzinga",
+      "date": "2026-08-18T19:15:50Z",
+      "topic": "Private Credit",
+      "summary": "",
+      "link": "https://news.google.com/rss/articles/CBMi8AFBVV95cUxPbklyalpVNFV4TUZTNTQ0bmxvcUd2TGh2MXc3QXh6YmtaQWgzNWFaWlNoZEd0dzF6Y3lKQi1yajB5aEpPMThRT0lGY1NKM3hPTUNENFc2anI4dzliNld2S210THlydnRWX1J1eFM3U3d4bG54NFhia1B4RU0xR0VSMWFkanNualRaNWs1RmJ4ZXlTR0hNdjNiMlY0OEY1aEpZWEVlV3VQM2NLenZUTEo0WWIyeV9MZWx5S1VsM1FkOUI4Tjd5WjYtZU9nOGRGMTRFWnJCOWd1ZVlack5xcDg0ZkxBUTFnZE12RHNBWWw4dWc?oc=5",
+      "isNew": false
+    },
+    {
+      "id": "4fa2fb4feac8",
+      "title": "Global bond markets put governments on notice over fiscal, inflation risks",
+      "source": "Reuters",
+      "date": "2026-08-18T19:01:49Z",
+      "topic": "Rates & Macro",
+      "summary": "",
+      "link": "https://news.google.com/rss/articles/CBMiugFBVV95cUxQeWxrV2hFeTRkQjZmS2pjcmpEM1VJd2tTc2lkT1NxVjJ3c0Jpa2ZNQzJ3eFlSa1BoV3pQN3VLNzZEUHM0SHZHMURHLUthd21TV0R6TkY5N0lfR1pKRnRGZGpFc1FzamJfT1l2Q1pYQXloZ25LYWdxOHhQcndkZ21xU1lXZFJwc0ZOcnVqWUkyejNUdVcyWWlORW9rdzZORlJCZjZHMWZNX0tKYU44bDJReUpMcVNlOFBNd0E?oc=5",
+      "isNew": false
+    },
+    {
+      "id": "5b45b5dc5f88",
+      "title": "Global borrowing costs hit fresh highs on oil, AI and inflation",
+      "source": "BBC",
+      "date": "2026-08-18T18:20:08Z",
+      "topic": "Rates & Macro",
+      "summary": "",
+      "link": "https://news.google.com/rss/articles/CBMiWkFVX3lxTFBYdjhGZENDa2kxWFV5bk1KX21zUnREWXJWLS1sRFEtMFowSXY1WFl3LVNfZDdrWXlNVENjNkFuNnVXTUhaZ29lQnk2WUhSZlJQUW5qeTRqS0RDZw?oc=5",
+      "isNew": false
+    },
+    {
       "id": "31845f10f525",
       "title": "Borrowing costs hit fresh highs on inflation fears",
       "source": "BBC",
@@ -15,16 +45,6 @@
       "topic": "Rates & Macro",
       "summary": "",
       "link": "https://news.google.com/rss/articles/CBMiWkFVX3lxTFBYdjhGZENDa2kxWFV5bk1KX21zUnREWXJWLS1sRFEtMFowSXY1WFl3LVNfZDdrWXlNVENjNkFuNnVXTUhaZ29lQnk2WUhSZlJQUW5qeTRqS0RDZw?oc=5",
-      "isNew": false
-    },
-    {
-      "id": "4fa2fb4feac8",
-      "title": "Global bond markets put governments on notice over fiscal, inflation risks",
-      "source": "Reuters",
-      "date": "2026-08-18T14:56:26Z",
-      "topic": "Rates & Macro",
-      "summary": "",
-      "link": "https://news.google.com/rss/articles/CBMiugFBVV95cUxQeWxrV2hFeTRkQjZmS2pjcmpEM1VJd2tTc2lkT1NxVjJ3c0Jpa2ZNQzJ3eFlSa1BoV3pQN3VLNzZEUHM0SHZHMURHLUthd21TV0R6TkY5N0lfR1pKRnRGZGpFc1FzamJfT1l2Q1pYQXloZ25LYWdxOHhQcndkZ21xU1lXZFJwc0ZOcnVqWUkyejNUdVcyWWlORW9rdzZORlJCZjZHMWZNX0tKYU44bDJReUpMcVNlOFBNd0E?oc=5",
       "isNew": false
     },
     {
@@ -80,7 +100,7 @@
     {
       "id": "7bddc24f0208",
       "title": "Interest rate dilemma for central banks as inflation rises but growth slows",
-      "source": "The Guardian",
+      "source": "theguardian.com",
       "date": "2026-08-17T17:24:00Z",
       "topic": "Rates & Macro",
       "summary": "",
@@ -285,26 +305,6 @@
       "topic": "Private Credit",
       "summary": "",
       "link": "https://news.google.com/rss/articles/CBMiqAFBVV95cUxQbi15U1VDM2tzN2s1ZVZnb2VzVkRWZGpyNGFLWDUzZG84SWk2ZHdaVjh6d0pEOER2aGM5Y01XdDhTZEJIMml0OV9XNzhqMi10MHRRZERnZGM1Y2NnWFRpWFlpcld0czhXR1c3bUkyc0tscmg2QS16QjZidGhhVVF5QnJLN2dPTWJSTC1wUE9qMEVuTmhvTF8wcHRCRmlzc2c5Skx5RE9zSFk?oc=5",
-      "isNew": false
-    },
-    {
-      "id": "53319c6d5380",
-      "title": "Direct Lending: Benefits, Risks, Portfolio Role",
-      "source": "BlackRock",
-      "date": "2026-08-13T03:05:25Z",
-      "topic": "Private Credit",
-      "summary": "",
-      "link": "https://news.google.com/rss/articles/CBMixAFBVV95cUxPUGdfQWc4TWJRcGxQV1UtZE54ZlBXdzVEZzVwa1luekhaeDFvQUJ4NlVqVm9tT2VBZEZvMmZ1QXF1QVFjU1RZM3JpekU0NXZjcEtwUGxtS20yZjNUTUtpa2tNX2RzcU9leEFkSnRWY3A2a0F4R3RTSXM2YzAtSHlhcFVsd3lxUDlMQWZ3UXotZWlGQW03VHJ3TW81SnpNZS1yWnUwU0lnZlRrZlhOWUpzRDlicDdUWDJFTnRvVWNaN3JSSDdD?oc=5",
-      "isNew": false
-    },
-    {
-      "id": "cd6f27590f37",
-      "title": "The Debt Danger World Leaders Are Ignoring",
-      "source": "American Enterprise Institute - AEI",
-      "date": "2026-08-12T19:18:57Z",
-      "topic": "Rates & Macro",
-      "summary": "",
-      "link": "https://news.google.com/rss/articles/CBMif0FVX3lxTFAydGJZTDltbFluUWFVSmN3SThlNkM4LVdSeDdUMzJjb1pDQmotX0V2NG56V21CQWd6LU9PUDQ5SnhNVE0tMUtDRjVqWUdrd3I4TTlCWGNuT0hDWndUYjZNUXFEaHVYdW96akVmUHRyVDJzdVhQc183SlE5S2N1SFU?oc=5",
       "isNew": false
     }
   ]
