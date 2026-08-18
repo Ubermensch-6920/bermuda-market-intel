@@ -1,5 +1,5 @@
 {
-  "updated": "2026-08-18T13:12:38Z",
+  "updated": "2026-08-18T15:51:06Z",
   "topics": [
     "Insurance AM",
     "Private Credit",
@@ -8,9 +8,19 @@
   ],
   "items": [
     {
+      "id": "c0955e8db608",
+      "title": "Central Bank Balance Sheet Runoff Hands Bond Yields to Private Buyers",
+      "source": "stonex.com",
+      "date": "2026-08-18T13:54:38Z",
+      "topic": "Rates & Macro",
+      "summary": "",
+      "link": "https://news.google.com/rss/articles/CBMiqAFBVV95cUxNSzZKRGJBcjB6SXNVcW1HRkM3SG1Bd045Qy1PYXNnam9FUEJ6eXhmdE9fTWdjSUV4T2RjaVpFRDBpdTRmbjJxZEhvZnZVcWlxTWo2dTF5d05XVXhPejYtb1oyNDQzYkVuYTRHVzVkb2tUTUlqWGhmRVdoLU9TYjV3aktia1RUVy1YbzhRNHVGSm12YXdxSEhXMlNLZjFuY3NhdWVicTN2eEM?oc=5",
+      "isNew": false
+    },
+    {
       "id": "8df9c2b3b83e",
       "title": "European borrowing costs hit record highs on Iran war inflation fears",
-      "source": "euronews.com",
+      "source": "Euronews.com",
       "date": "2026-08-18T10:47:38Z",
       "topic": "Rates & Macro",
       "summary": "",
@@ -50,7 +60,7 @@
     {
       "id": "c5e95e0c0978",
       "title": "Private credit consolidation gathers pace in 2026",
-      "source": "Alternative Credit Investor",
+      "source": "alternativecreditinvestor.com",
       "date": "2026-08-17T14:27:27Z",
       "topic": "Private Credit",
       "summary": "",
@@ -158,16 +168,6 @@
       "isNew": false
     },
     {
-      "id": "f94b53251616",
-      "title": "When the AI Bubble Bursts, Who Will Be Left Holding the Bag?",
-      "source": "Counterpunch",
-      "date": "2026-08-14T05:57:14Z",
-      "topic": "Private Credit",
-      "summary": "",
-      "link": "https://news.google.com/rss/articles/CBMioAFBVV95cUxPaGdkdTNuUmtYNGFUMTlhazdHcGxqNEowRWZ2Y0ZWbGQyMThkcW9fcmc2blcySHQyMTYzRVVBY3htVW5EbmRnMndwNVhfcUFhX0hrSnNjVi1zLTZ6QUY4TVcyTm82MHFlWmJ0SUgwTlJoZmw3ODJyb053dnB2b015bFB4NUJWQmI0dDkteGlwdnNHMlIzckV3LW9oajNuTXRV?oc=5",
-      "isNew": false
-    },
-    {
       "id": "8ae6da570f0c",
       "title": "Rate hike bets leave yen's post-intervention gains at BOJ's mercy",
       "source": "Reuters",
@@ -200,7 +200,7 @@
     {
       "id": "6991013552c8",
       "title": "Star Mountain Capital Closes Star Mountain CFO I, a Collateralized Fund Obligation Providing Rated Access to U.S. Lower Middle-Market Private Credit",
-      "source": "Business Wire",
+      "source": "businesswire.com",
       "date": "2026-08-13T14:47:00Z",
       "topic": "Private Credit",
       "summary": "",
