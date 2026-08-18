@@ -1,5 +1,5 @@
 {
-  "updated": "2026-08-18T09:52:57Z",
+  "updated": "2026-08-18T13:12:38Z",
   "topics": [
     "Insurance AM",
     "Private Credit",
@@ -8,6 +8,16 @@
   ],
   "items": [
     {
+      "id": "8df9c2b3b83e",
+      "title": "European borrowing costs hit record highs on Iran war inflation fears",
+      "source": "euronews.com",
+      "date": "2026-08-18T10:47:38Z",
+      "topic": "Rates & Macro",
+      "summary": "",
+      "link": "https://news.google.com/rss/articles/CBMitAFBVV95cUxPcWhKYWkxQ25wMUpaaWtZTk5iSnBVN2FKT2UyVkNtOFN1R1hoMkJ6U3RJREZRWEtvSlBhRS12Z0JiVFFMWHVnS2xHbS12N2NFVWRLS0l6M09yR3p1UTRZODIzRE9QMzFSX05seHFfeXdRc19STk9tcTZqVjNaNFRrdnBTVXBCLUx4MlNjVWoyRk9ORmZoQTJ4aGkyVktkT2w5YThqMUlIX3BMdmhYM3BZOE14NTA?oc=5",
+      "isNew": false
+    },
+    {
       "id": "6239b2116ace",
       "title": "Star Mountain Closes a Rated CFO to Open Lower-Middle-Market Credit to Insurers:",
       "source": "HedgeCo.Net",
@@ -15,6 +25,16 @@
       "topic": "Private Credit",
       "summary": "",
       "link": "https://news.google.com/rss/articles/CBMiuAFBVV95cUxQMmNGcV9PMGdlREZUOEtJWWZIVDI5VUI3TzRrOFhnbTlvdDhqVGM1dFVTTlVkNmxNX2taMTdoc1RORG9kT3A4dngzRmVCZkpuVTRobG1FZnQ4SlI5M3lHbk5KZ2s3bk80T1plVDdodXlLSGdWUlY5Nks5R3Y5ME80Ml9NcUNseU0yaGd3VHBqT0NESVVlMTIwb1ZkWks4WjFHTnp4QzhjX0VBb0paaVAtdWJGNW9jazFC?oc=5",
+      "isNew": false
+    },
+    {
+      "id": "41f29297f685",
+      "title": "BGO makes the case for real estate private credit in insurance company portfolios",
+      "source": "pei-privaterealestate.com",
+      "date": "2026-08-17T18:18:46Z",
+      "topic": "Private Credit",
+      "summary": "",
+      "link": "https://news.google.com/rss/articles/CBMixgFBVV95cUxQdTR6b0tPQ3hqVUdSbHhrTC1Nc3NHc0ZnT2N1a2RlVklHT1BiT3lRbzdhS2otbVo2TWdmbWNXRms2VnFzU3Vmb0VKSVlJWHE4c082MGFPSWVQRWFEZlFINDBwNG9VT0xPNFJVZ0hQanF0djR0cEJDdUVIemMwSFFnUWRUVU96UjZRaXY2WURPWkJuWkJyRmZzbldGQmR6VVNaalNtYTZSWWY1NndEZGRid2Q1WEQ0OTdnUnVvckV3Y01VYko3cEE?oc=5",
       "isNew": false
     },
     {
@@ -285,26 +305,6 @@
       "topic": "Insurance AM",
       "summary": "",
       "link": "https://news.google.com/rss/articles/CBMiiwJBVV95cUxOd1Q5Q1F1Wmt1dGx3Y0ZKeTcxSmRleXR1VjFhaEdnUTJHQmd1aFdiMTVCZnVRLTA4cHpUT0ludzBkNUZUMEJ6cGg1MVozYW9kQ3dXRnZ3bjdPWk9pcE05aTF1aG40VVA3SnVLWEJiSFF1N0FYRmNxNWZvSlNYbEJzRWlmODR1djZkZkNZRmM2YkJRTUI3WlZ1U3BwWjhablNYNVZObDFQTm9pd2FuMk9vNGRoSEdrT3JGb0tDMjRGRzZxZ2hKemtkYWxGM1F4X2JCdE13aXdDNndSVTJNQ2NSUEcyUnVpNVlhNzJZSW82ckJIajljSlN4RlVmb3VtZWVxdHUxS0tMRmFZN2M?oc=5",
-      "isNew": false
-    },
-    {
-      "id": "c1a4fa2a93dd",
-      "title": "NextRock unveils plans to establish life insurance and reinsurance platform",
-      "source": "Reinsurance News",
-      "date": "2026-08-11T13:33:50Z",
-      "topic": "Insurance AM",
-      "summary": "",
-      "link": "https://news.google.com/rss/articles/CBMiqAFBVV95cUxQYTVBRVV3S2FlYWI2STZUYmF6cVAxU1NBX1FmR2dnOUR0bFpTRkk4bWlsSjI1THZSUmMyRkFhVDBYc2ZQRFRKNFRkLVBaczdQRzVIREZVQXdjMVhGeGN0NUNBemVzNjZ0UFNsaHBZVkdfQ1psb241NUhRNjI5ZXEzVFpjTHRranpfU0drSl9Oa3ZqNVByblo3N0lTRmEzUGtoMGdsVnpXc0Q?oc=5",
-      "isNew": false
-    },
-    {
-      "id": "6058c271c1b7",
-      "title": "Australia Holds Key Rate to Counter Elevated Inflation Pressures",
-      "source": "Bloomberg.com",
-      "date": "2026-08-11T07:40:40Z",
-      "topic": "Rates & Macro",
-      "summary": "",
-      "link": "https://news.google.com/rss/articles/CBMitgFBVV95cUxOUUktaGNnRkJPQnZJQ2JCVzFNNHVfb05kbFRGY2VhWmdYMlR2NTdES2NialBGc1NWaXRiTXlLQ0h4VUt0TDFJVVJrOHgzRGo5QzdieGFIb3ltOUZkWGlNNk5CdU44SUpaX0F3N2hGU2pfOGdUZXd0czlRcXY2cHlLbko4bktETHI3OXZReVl2MWg5U3VJOTB0OFVzUktKYnptdHk4V2dfUzhpak9BYjRyLUhsa25OUQ?oc=5",
       "isNew": false
     }
   ]
