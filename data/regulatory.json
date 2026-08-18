@@ -1,5 +1,5 @@
 {
-  "updated": "2026-08-17T21:46:19Z",
+  "updated": "2026-08-18T01:55:07Z",
   "naic": [
     {
       "id": "560d79f11063",
@@ -9,6 +9,16 @@
       "summary": "",
       "source": "BenefitsPRO",
       "link": "https://news.google.com/rss/articles/CBMimgFBVV95cUxNVjRKQ2Z2dVpVMFFCOWpKdUVhUWZhWVA4dEFFam9BNHp4dUFKdlVxSEtzQTdWQlRJT083RWtwOTZ1Y1pLZDNheXdLZzdxTFJTM01mQWNlYW5pWlBHSnlvSExWWWREMDlGU3lLUG9GWnRxb04zZVMzV1V5N0todUtRLVVBN3duUDN0aC00QS1GaWh1UDQ0V1ZaTlZ3?oc=5",
+      "isNew": true
+    },
+    {
+      "id": "c4ae416751b4",
+      "title": "Regulators Save Annuity Buyer Access to Issuer Risk-Based Capital Scores",
+      "date": "2026-08-17",
+      "cat": "Capital/Solvency",
+      "summary": "",
+      "source": "ThinkAdvisor",
+      "link": "https://news.google.com/rss/articles/CBMiswFBVV95cUxPSDVzZUh0bWJRVDRiNm1rbG1xNW1yWWJyaFNNOFRrOE45LUxTUmpKVkZ6Z0c4NzV6aG5tZXlySGY5WWRUbE5XRkFIVVRISkg4eVNwaHFvR3lsQzJnOGUyVFV0OXBmNThhclJvektESDBPMkZTQkF1SXJYc29JaEdydlFBcEdNWmN4QTduX2hiWURFS25CcTNxTlBISHFUMXpLQkJBeURRRnV5TEQ5VmJMQjNWRQ?oc=5",
       "isNew": true
     },
     {
@@ -207,7 +217,7 @@
       "date": "2026-08-04",
       "cat": "General",
       "summary": "",
-      "source": "The Daily Advocate",
+      "source": "Daily Advocate",
       "link": "https://news.google.com/rss/articles/CBMijAFBVV95cUxNTkt3NXhMNEdSOTNYTWNLTFB4emI4b0ZabENtZ1V3VUNZcUVPTlh3LV84ckRDbTRyOTZ5QVByYXBNemNQTkt4V0NyWG42Q25xVmVwbDFuWjhSZUNIZHRubklLWjk1XzFSQWdwRlBYeE1MMlp5ZzEtQmpaZ0d3dklKaU9DOVhMWUFLWEd3eQ?oc=5",
       "isNew": true
     },
@@ -239,16 +249,6 @@
       "summary": "",
       "source": "Vanguard News",
       "link": "https://news.google.com/rss/articles/CBMirgFBVV95cUxOaVNzX0MxQi15dlNMUE5EU25wTUlFVUdIY0NkRDllZk4wX2h4TnBkdHM1Qlh3Z3BNdHA2NTBuaEVxNWl2VFgyTTZpb3gyeGdJZlFJUWt3cVItMVNXZV85N1RxaWZLa3RnR3JZdnpObGZRUXE2Ti0yc2dfQThRcGlLcDdsd3FISVVZSlY1aTJoWUtJRzdrM1lIS2ZsYWdhUDY2Y042NXhXNVlNeE9kN1HSAa4BQVVfeXFMTmlTc19DMUIteXZTTFBORFNucE1JRVVHSGNDZEQ5ZWZOMF9oeE5wZHRzNUJYd2dwTXRwNjUwbmhFcTVpdlRYMk02aW94MnhnSWZRSVFrd3FSLTFTV2VfOTdUcWlmS2t0Z0dyWXZ6TmxmUVFxNk4tMnNnX0E4UXBpS3A3bHdxSElVWUpWNWkyaFlLSUc3azNZSEtmbGFnYVA2NmNONjV4VzVZTXhPZDdR?oc=5",
-      "isNew": true
-    },
-    {
-      "id": "069829adcbaa",
-      "title": "NAIC, transport unions launch passenger accident insurance initiative",
-      "date": "2026-08-03",
-      "cat": "General",
-      "summary": "",
-      "source": "Blueprint Newspapers",
-      "link": "https://news.google.com/rss/articles/CBMilAFBVV95cUxQM1V3UlVHSE9vc1R0T00zZzJRZ3p6ZDBBa1A4QlVIM3ctNGlOYWd5UHQ1dTAtMG0zMGJ4NDJkQm5zMzVzVDYzdDFia0pOUjNEREtSaVgxazhremNCVl85U0ktSGliTmRXOTJQMzhTWERUSzA1a01IeDlQSVpOdHB2bzdDSUxMLVl6Z0hDVFIyQTZPVHVF?oc=5",
       "isNew": true
     }
   ],
@@ -641,7 +641,7 @@
       "date": "2026-07-01",
       "cat": "Governance",
       "summary": "",
-      "source": "caymancompass.com",
+      "source": "Cayman Compass",
       "link": "https://news.google.com/rss/articles/CBMirgFBVV95cUxOVWdmX3c0N2F6UHZTRld2S1Z1dHVibHF6NV9VbkMtVWx2ZWVrb0ZabVpLcjRGemFmOWZxSTNWY2hNVjRvcXJjTG9CUW9jNGIydDlQTG1EeDZkaUVCY1I5S3pmazNQWi04MVdYR29OQ0trajcySWxSaUR5NEFLR1ducVJvUGNOQmNZUkE2NHdIUjFqZUhRZzQ1blcybzlieEw2YS15R0VCWTVrd0h4NUE?oc=5",
       "isNew": false
     },
@@ -661,7 +661,7 @@
       "date": "2026-06-26",
       "cat": "General",
       "summary": "",
-      "source": "JD Supra",
+      "source": "jdsupra.com",
       "link": "https://news.google.com/rss/articles/CBMiiAFBVV95cUxNcklMVDg1a1NLMjBGNy1fRHlST3Bra0JqYXhTR2VPdWpkdXdOa0IzVmNrbnlxdWE2eDRaNWVISmhwNUx5SS1WbWMwYUNSeEMweFdfOFFCWi0tdldldE9kZFpMSUNNT05TNzhhNFZYTjlMMXVUYXRmS1JwUVZaTDcyUWF6OVdIczUw?oc=5",
       "isNew": false
     },
@@ -721,7 +721,7 @@
       "date": "2026-06-11",
       "cat": "Licensing",
       "summary": "",
-      "source": "caymancompass.com",
+      "source": "Cayman Compass",
       "link": "https://news.google.com/rss/articles/CBMid0FVX3lxTE5HS2pISXFHV2hHSG15NDJxbjRTSnNjMjVFelN6dDVTOERreERUUENJbUdpNG9BTy1zWXFiTnNKQ3pfZU80RERuVWVVN0diajRNVEtCbi1aMTZrZHhOQVdxRUxFVjRBU2UxN3A4bWd5MnBRUGc5dHNv?oc=5",
       "isNew": false
     },
