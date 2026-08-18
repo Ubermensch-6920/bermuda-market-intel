@@ -1,5 +1,5 @@
 {
-  "updated": "2026-08-18T15:51:06Z",
+  "updated": "2026-08-18T19:04:05Z",
   "topics": [
     "Insurance AM",
     "Private Credit",
@@ -7,6 +7,26 @@
     "Structured Credit"
   ],
   "items": [
+    {
+      "id": "31845f10f525",
+      "title": "Borrowing costs hit fresh highs on inflation fears",
+      "source": "BBC",
+      "date": "2026-08-18T16:09:45Z",
+      "topic": "Rates & Macro",
+      "summary": "",
+      "link": "https://news.google.com/rss/articles/CBMiWkFVX3lxTFBYdjhGZENDa2kxWFV5bk1KX21zUnREWXJWLS1sRFEtMFowSXY1WFl3LVNfZDdrWXlNVENjNkFuNnVXTUhaZ29lQnk2WUhSZlJQUW5qeTRqS0RDZw?oc=5",
+      "isNew": false
+    },
+    {
+      "id": "4fa2fb4feac8",
+      "title": "Global bond markets put governments on notice over fiscal, inflation risks",
+      "source": "Reuters",
+      "date": "2026-08-18T14:56:26Z",
+      "topic": "Rates & Macro",
+      "summary": "",
+      "link": "https://news.google.com/rss/articles/CBMiugFBVV95cUxQeWxrV2hFeTRkQjZmS2pjcmpEM1VJd2tTc2lkT1NxVjJ3c0Jpa2ZNQzJ3eFlSa1BoV3pQN3VLNzZEUHM0SHZHMURHLUthd21TV0R6TkY5N0lfR1pKRnRGZGpFc1FzamJfT1l2Q1pYQXloZ25LYWdxOHhQcndkZ21xU1lXZFJwc0ZOcnVqWUkyejNUdVcyWWlORW9rdzZORlJCZjZHMWZNX0tKYU44bDJReUpMcVNlOFBNd0E?oc=5",
+      "isNew": false
+    },
     {
       "id": "c0955e8db608",
       "title": "Central Bank Balance Sheet Runoff Hands Bond Yields to Private Buyers",
@@ -25,6 +45,16 @@
       "topic": "Rates & Macro",
       "summary": "",
       "link": "https://news.google.com/rss/articles/CBMitAFBVV95cUxPcWhKYWkxQ25wMUpaaWtZTk5iSnBVN2FKT2UyVkNtOFN1R1hoMkJ6U3RJREZRWEtvSlBhRS12Z0JiVFFMWHVnS2xHbS12N2NFVWRLS0l6M09yR3p1UTRZODIzRE9QMzFSX05seHFfeXdRc19STk9tcTZqVjNaNFRrdnBTVXBCLUx4MlNjVWoyRk9ORmZoQTJ4aGkyVktkT2w5YThqMUlIX3BMdmhYM3BZOE14NTA?oc=5",
+      "isNew": false
+    },
+    {
+      "id": "5f6d1fb583e6",
+      "title": "The 30-year Treasury yield just hit a 19-year high. Three things could drive it even higher",
+      "source": "CNBC",
+      "date": "2026-08-18T06:11:52Z",
+      "topic": "Rates & Macro",
+      "summary": "",
+      "link": "https://news.google.com/rss/articles/CBMipwFBVV95cUxQNTVLTjRSbWZxQXVscGJZR2VIV05PYkFFT1JQeGVWZ051SjVHaDdKZV90T3h3SU4zdWl6RzdIZDFaclJwNy0xY3RYWDM5OVlDUnlkMVotX3Y3elU4VzFkWkF6cmhBNnlnOERwb3JMN2RVWHVEVGN0ZUR0UHFKVUNLQXdWWEVLQmQ5S1FuRXhYbC1qQUR1blpFbGdCWXBJaFEwbE5GY2FPc9IBrAFBVV95cUxOeGhYY2hYNFlvV3dxY2U3N3Z4eWw0T2lRNW1XTjhuRFAzN3RYZktIVy1UdmJ2MEdwal9TNkppTTNmZDd4Zkt5ZHN6a0drTDdYUUtodFk4SVpsYUg3Z3QwNTNsbDlnY1g0eTRUQ2xaYWFOQ2szQzlVUWxKal9feElqa0JwUk5jZWpBY1lxZ2lNMDNGUGNlbWVKZXNOVy0wNnlVaWd3TlVGajlDVHRt?oc=5",
       "isNew": false
     },
     {
@@ -55,6 +85,16 @@
       "topic": "Rates & Macro",
       "summary": "",
       "link": "https://news.google.com/rss/articles/CBMiwgFBVV95cUxPZS1MeWowSjFWYXhRUjUzejA5N2JPWWVBU0Y2UEszUFNzVnM0b0xKZDZSbnlKTHNEYnZlUTRETDlUSnYzeWpVc3lhM19qN0Zzd2NwTmpIZjZlYUFUVkdicW01WF9rZjZ0eEVvTElYa2l4c0V1aHlxRG9uUkM4RElua2FURDRWTmVXcWVWeXZGTlZsVjF1OEEwRUVOVWtxU1Vuak1pa2VfWWJDMG9Mcm0zTGJjYWM3UHlEVHpCTzl0Vi1hZw?oc=5",
+      "isNew": false
+    },
+    {
+      "id": "46aaaf67ee46",
+      "title": "Leading economies\u2019 borrowing costs hit highest since 2008 crisis",
+      "source": "The Guardian",
+      "date": "2026-08-17T15:13:00Z",
+      "topic": "Rates & Macro",
+      "summary": "",
+      "link": "https://news.google.com/rss/articles/CBMiygFBVV95cUxPSlhtR25vZlJHYVNBa1Y1NzV2TW96dTcyd3k2TWZEYmwtMDdPZklfZWEzRVZ0WjV5bHp4aW1OTzZNMUtrdy1UaUpDUmlzN0ZJZ2NPbGlfd1JUSlp2aDZjZC14N1dyR1M0SlRuZkI5TnlQODVGLUpJcXJYTVhTNW1jQkZrMmVaYUpvdWFGMms3Z2JUNmF2QmxQLTFJYndJQjJlMDI1a2FFTTg0OUFkZnhhSmxpMjFhTkFvMXdSUE0zZ0NfQkxNbllsY1p3?oc=5",
       "isNew": false
     },
     {
@@ -95,6 +135,16 @@
       "topic": "Insurance AM",
       "summary": "",
       "link": "https://news.google.com/rss/articles/CBMiuwFBVV95cUxOSW9ibkVRSXFUbGhfc0tnX2Fland2X0NRczdXaXo2YWVMeFN6NWZzU1dkQmNHTmo3aWZEQ213RGVLckJFTjN4dGxvSk1aQ2RSTE9JUXB3S2VfRzdjNnk5RVo4ZFlaR181WS04Wi1IVmx0V2VnZEwxS1M2a2lRd2JEOWZ6QUQ0OEFXbm1WRzg0QTM4TTU0aTNSYjRsQUJBdXI0UUZ0aHZxMVk0ZXo0d2lqYkN3SFRLLWk0Yl80?oc=5",
+      "isNew": false
+    },
+    {
+      "id": "0a1538110f4f",
+      "title": "CVC agrees $3.5bn credit and secondaries partnership with AIG",
+      "source": "privatedebtinvestor.com",
+      "date": "2026-08-17T11:12:49Z",
+      "topic": "Private Credit",
+      "summary": "",
+      "link": "https://news.google.com/rss/articles/CBMinAFBVV95cUxQWTJPMG5ZMGppRWtNdUZrbTVfNVJUMUZaakpqb0ZpaUxOSElfMU1yaWNwZ1lHekJjcDVwZkRoQUtmNEVPcEFfUktFbWFFa3QtTk1ZbVBpSEVFLU5RUDJ0ZFZDQ2txYVhucUJ3Qk05U3V4RkY1TjBTWVhiNk1rSk9hRnNUckhoc1dwMlhzUE9pQ281SXVTbzVzeWx3UjI?oc=5",
       "isNew": false
     },
     {
@@ -153,6 +203,16 @@
       "source": "Huddle Up | Joe Pompliano",
       "date": "2026-08-14T15:51:50Z",
       "topic": "Insurance AM",
+      "summary": "",
+      "link": "https://news.google.com/rss/articles/CBMidEFVX3lxTE1DS2hrZXdzSW9VYmtDZGZtbVd0N2xTWTdPZHBqYTRHUTh5a0c2RjRxYjdHSlhVY3ZPMlRiQkkyWWhSMElYVkNXZFNtTWNwdF9ZTF9XYmZPNm1TU2o0LU9PbXREandGZHl0TXZVUF9qUGNyVmhV?oc=5",
+      "isNew": false
+    },
+    {
+      "id": "815aeb9e44ee",
+      "title": "The Mark Walter Investigation Just Got Much Worse",
+      "source": "Huddle Up | Joe Pompliano",
+      "date": "2026-08-14T15:51:50Z",
+      "topic": "Private Credit",
       "summary": "",
       "link": "https://news.google.com/rss/articles/CBMidEFVX3lxTE1DS2hrZXdzSW9VYmtDZGZtbVd0N2xTWTdPZHBqYTRHUTh5a0c2RjRxYjdHSlhVY3ZPMlRiQkkyWWhSMElYVkNXZFNtTWNwdF9ZTF9XYmZPNm1TU2o0LU9PbXREandGZHl0TXZVUF9qUGNyVmhV?oc=5",
       "isNew": false
@@ -245,66 +305,6 @@
       "topic": "Rates & Macro",
       "summary": "",
       "link": "https://news.google.com/rss/articles/CBMif0FVX3lxTFAydGJZTDltbFluUWFVSmN3SThlNkM4LVdSeDdUMzJjb1pDQmotX0V2NG56V21CQWd6LU9PUDQ5SnhNVE0tMUtDRjVqWUdrd3I4TTlCWGNuT0hDWndUYjZNUXFEaHVYdW96akVmUHRyVDJzdVhQc183SlE5S2N1SFU?oc=5",
-      "isNew": false
-    },
-    {
-      "id": "ba6a1be93119",
-      "title": "How to protect your savings from rising government spending and inflation",
-      "source": "21Shares",
-      "date": "2026-08-12T15:17:57Z",
-      "topic": "Rates & Macro",
-      "summary": "",
-      "link": "https://news.google.com/rss/articles/CBMimgFBVV95cUxPYkFxcC1pZHlXUEV2ZWR0bVg0ODJEc3gwT05mcnVhT3oxWmhtSjNVNzV4QmF5S21iNF9xVzY1b0F1MzQwX2s1TlVyTVpfNGxjX3IzNlZLcGs2dzNoYlh1YzVHOXgyUFFHd1Q5Ulc3elFNc1pCbm1NS0VURnNtQTFMakZBRE9Pa0hKeEphd2I1dFIza0JXYWlpQTln?oc=5",
-      "isNew": false
-    },
-    {
-      "id": "b024d7ae7cbc",
-      "title": "TAALA: Strong insurance and investment returns offset fair value declines; strategic growth investments continue",
-      "source": "TradingView",
-      "date": "2026-08-12T09:35:54Z",
-      "topic": "Insurance AM",
-      "summary": "",
-      "link": "https://news.google.com/rss/articles/CBMiowJBVV95cUxNdEo1cmtJaE1MYjRYS2NZd0hiUE44MTdsd3YtbjQtWTljSHcwZ29TSjFxU2pTa0pacWtISVVsU0tOLVdKd2Y2NXpnSkV4Yjk2dFZUU1VMUVhpY1doUHJCWG9haTNQY3BZRjN1clFXcHQxaEw4YTNSbFpfaU9mMjFia1pIVUxXNkFzRTBTcWNMVXhRN2Y3LWx6VjNfdExWY0R5QjZuQ3NKOEJRR0txVUVXbFVnWnRrdjJvT3ZCUGRYT0dpLTFtTHhZbjhpbFdhd2RXZmZuWHAzSjcxejh6UmhieUtsREpYbl8xREJxMXU1RHVxMXBDa0RoQzhLcVpyQmMyT2JlNmw4djVIVlFMZVNpX1JHWFJEOV96bGRvdnJRM2xONk0?oc=5",
-      "isNew": false
-    },
-    {
-      "id": "9c4e0d4830ab",
-      "title": "Eurozone Government Bond Yields Rise Ahead of U.S. CPI Data",
-      "source": "WSJ",
-      "date": "2026-08-12T07:02:00Z",
-      "topic": "Rates & Macro",
-      "summary": "",
-      "link": "https://news.google.com/rss/articles/CBMirwFBVV95cUxOM0dla0xNdkZKN3VCX0lLOHlnUDFacHBfX21sUlVGVk5kYUZKb0RZMWtuOHZXYnRLZDNQN1pfTXpxQ2dJRUNXMnk2d1I1MlhSWXJsNXdFMmRSR3ZxVnNZYlVuWTA3N1gyRGI3MFJjUXlPRUVSNzUzaWNnR0ItbkpGeUgxdVZJWWgzdEhHVzJMbks1aDM1aVIzVHRIY0pXd1Y4MVlPdmZBM0kzMjZ0Y0lz?oc=5",
-      "isNew": false
-    },
-    {
-      "id": "87af59f3f78c",
-      "title": "Trump reopens Fed battle at critical time for bond markets",
-      "source": "Reuters",
-      "date": "2026-08-12T07:00:00Z",
-      "topic": "Rates & Macro",
-      "summary": "",
-      "link": "https://news.google.com/rss/articles/CBMivAFBVV95cUxOTnZ5dmxPWUFBMkpfUEoydUthWTYtV055RWZKTC1UUnp4aHFabmNWMC1GaDZfWGpRWFFabmxTZFNPWmJ1c1BKRHpTNmpoR2Zad19XSGgxanptOE0wVnJHcnEwN3c0bkY0azdxUFZYUDUtLU44Y0dTUkc3Z1I0OWdWalZFMHNpbDl1a3hYWm9kS08yVjgwWkI5Q2NjVEJvOVE5SmVqa21pMXA1eGxLSjFXVGZpZF9MaEFnOFpXMw?oc=5",
-      "isNew": false
-    },
-    {
-      "id": "6c2b46916215",
-      "title": "When The AI Bubble Bursts, Who Will Be Left Holding The Bag? \u2013 OpEd",
-      "source": "Eurasia Review",
-      "date": "2026-08-11T21:59:57Z",
-      "topic": "Private Credit",
-      "summary": "",
-      "link": "https://news.google.com/rss/articles/CBMipgFBVV95cUxQQTlUdFlUUjBSRms1TEd2Sm52Y2FiSUxrRUc5UGNBeTBlYUsyVXdONHByRmViNzBfcTFobi03TldEenpWaEZXaUFNTlctb1cwZGE4djF2SnVvWjByekc1TGVJVnFTbUJfNWRmSDEyeHNaZ20tZ0hLSE0wRHlfOG92OTJJdUN5YzFrY2lpczJyV0o1UldMTFNYSi1qSldwUnJiclVpZjRn?oc=5",
-      "isNew": false
-    },
-    {
-      "id": "16b1a0f52067",
-      "title": "Mount Logan Capital Reports Q2 2026 Results; Segment Income Rises on Strong Insurance Solutions Performance and Yieldstreet Transaction Advances",
-      "source": "Quiver Quantitative",
-      "date": "2026-08-11T21:10:00Z",
-      "topic": "Insurance AM",
-      "summary": "",
-      "link": "https://news.google.com/rss/articles/CBMiiwJBVV95cUxOd1Q5Q1F1Wmt1dGx3Y0ZKeTcxSmRleXR1VjFhaEdnUTJHQmd1aFdiMTVCZnVRLTA4cHpUT0ludzBkNUZUMEJ6cGg1MVozYW9kQ3dXRnZ3bjdPWk9pcE05aTF1aG40VVA3SnVLWEJiSFF1N0FYRmNxNWZvSlNYbEJzRWlmODR1djZkZkNZRmM2YkJRTUI3WlZ1U3BwWjhablNYNVZObDFQTm9pd2FuMk9vNGRoSEdrT3JGb0tDMjRGRzZxZ2hKemtkYWxGM1F4X2JCdE13aXdDNndSVTJNQ2NSUEcyUnVpNVlhNzJZSW82ckJIajljSlN4RlVmb3VtZWVxdHUxS0tMRmFZN2M?oc=5",
       "isNew": false
     }
   ]
