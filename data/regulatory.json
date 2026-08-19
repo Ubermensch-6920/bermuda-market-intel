@@ -1,5 +1,5 @@
 {
-  "updated": "2026-08-19T15:52:24Z",
+  "updated": "2026-08-19T18:59:05Z",
   "naic": [
     {
       "id": "b20fb814eeae",
@@ -77,8 +77,18 @@
       "date": "2026-08-17",
       "cat": "General",
       "summary": "",
-      "source": "Cayman Finance",
+      "source": "caymanfinance.ky",
       "link": "https://news.google.com/rss/articles/CBMirAFBVV95cUxNSW9LZjByRnludkxqU0c2XzlPaGZYWk5CWnNXZUhDc0N3NUxBSlJzVGtmUnppMXRHeTQ5MTFZSm43d1Fsd21mem1OMmZIWUJNWDJsV1pOdUkwQlJzREcwRzI3MWEwMUJMVDVkX3BQTEVOT0dDX09tTHBjUEhsWDV4WmhwY1VYUl8xTWg1UmhleEsyOFRLQU53bDZBWDk1TTZQYVdmb2lWcWNkc1Bw?oc=5",
+      "isNew": true
+    },
+    {
+      "id": "4003d43f1211",
+      "title": "Cayman Islands applies for NAIC Qualified Jurisdiction Status (QJS)",
+      "date": "2026-08-17",
+      "cat": "General",
+      "summary": "",
+      "source": "Reinsurance News",
+      "link": "https://news.google.com/rss/articles/CBMimwFBVV95cUxOd1NrUUNVT2FwVmtQSUF6Qk9QVURpSTBENXlBaFJlU2FPVE9pVVdZdG1jOHc4clYtX0hJNTd1RlJPTWxQemI5ejh0c1JTRVVzaTI0LUZSSFlMNHM3STNkUTdEbkRDQW5mUGNNR3ZhR1FoSXNUY09DRnBmQzNmVTE0VWNyOGlQVlJZRGFST2hnMTQwY0x1eDJPYUxkaw?oc=5",
       "isNew": true
     },
     {
@@ -107,7 +117,7 @@
       "date": "2026-08-13",
       "cat": "Investment",
       "summary": "",
-      "source": "insurancenewsnet.com",
+      "source": "InsuranceNewsNet",
       "link": "https://news.google.com/rss/articles/CBMirAFBVV95cUxOdnhObUlwMDB6V05sS1REYWRGb1dSOS14U0VwM1I0UHoyc1kyVnZ3cXdfQmZISFlMVGI4UzkyOTluZ2p6RWFmUi13ejZobmdad0tkVWQ2MVRuRDdQa0NJbkJtNmNqckZnZlE1U1oxQjhOY0paZWQwM3ZUMFFQUlltcHY0ZWdNZjk3Sm9lQkVrWERJcUJHMFJjdzB0TDdBLWh6WDMzWnNLVkwtSjhH?oc=5",
       "isNew": true
     },
@@ -187,7 +197,7 @@
       "date": "2026-08-11",
       "cat": "General",
       "summary": "",
-      "source": "insurancenewsnet.com",
+      "source": "InsuranceNewsNet",
       "link": "https://news.google.com/rss/articles/CBMipAFBVV95cUxNbkdMNEV6SmlZWDJ2Um4wRGp6SkY2alMzcGhSV1ZNbUxJSWstZ09PdTRzalFSRWtNWkNqWGZ5eWpCaVRQUmlSS0RycUpDeDlHVGk5RXJDdl94YUJzSjFkLW1rNWFPLVZUQ0YzMXdieEhFMTV4T1FHVVFSanN1LURNOUpZLUJ1RjVsQk03dnRJdGtpVlJDUkRFN1VGdkhNRk5SU20tUQ?oc=5",
       "isNew": true
     },
@@ -240,16 +250,6 @@
       "source": "CNBC",
       "link": "https://news.google.com/rss/articles/CBMihwFBVV95cUxNWWpVSEJNdDZoeGpuV3dPdU5FQlJtWDdmTmhoeUFBMElFNElVOXRGSGFhS1lfZ2RSd0lPM2ptUkJmWUpyWHliUnBCbU9ldGh4Vm9OMDZneHdudnZvdjFULWItQk0zRTRDVVczT0R1VUJXZmp5dEdMdFRyWmh2bkNNZDJKbkJ6NnfSAYwBQVVfeXFMTS10MXBwUW5GZnhoeVFXYmkxQmRHNXJEUVljb0NvN1lRa0xEWDdFWGFldEhUemYzdlJBMGlwUEFMU3RBazJfRmRyWmRUTFYtemJyWjJ3N1BRYUNOVlZmOHlQdTJjM1RqSVlYMHhfcWJuOGxFamh4ZFhXM1Z0ZzlWZFk1TnRYSjVVb1JBNzY?oc=5",
       "isNew": true
-    },
-    {
-      "id": "34c29ea2029f",
-      "title": "Rated Note Fund Market Update 2026: \"Not Throwing Away Their Shot\" - Fund Finance - United States",
-      "date": "2026-08-05",
-      "cat": "General",
-      "summary": "",
-      "source": "Mondaq",
-      "link": "https://news.google.com/rss/articles/CBMivAFBVV95cUxOQmZzalZNTTEtS2VBUGdETE53MWtYVk44bmJnQVhLMUVNUUF6NGtYU0NGUFhSdlhWUEs2TS01UUs2bEI1U0FPVDRib3BsMm5TaGdmUTJ2VVR4aGpYcV9EejRtRWdDNG9jVnFwQzZMMURyTTNHbENrQlJFUnN3dV91dk9Haks4bWoyMFgwZjRRWFFWaWxXOTBCbWhPYU1KcXZhUkxwWlMwbFhqVEdVTmRpd3V1RC1VOE14NElDdA?oc=5",
-      "isNew": true
     }
   ],
   "bma": [
@@ -289,7 +289,7 @@
       "date": "2026-08-10",
       "cat": "General",
       "summary": "",
-      "source": "bernews.com",
+      "source": "Bernews",
       "link": "https://news.google.com/rss/articles/CBMiekFVX3lxTE1tTmdWVUZLZkUwcFpYY0RnbktoRlYzMS1Id1RDRTBNOEc0YUpNdWpNODhqWFN6VkNkc2dnV3ZnVHctTDFicmFEQnRGR3E3NnYwaGtKUkpvUDJPSW4tNHQzNW9jOHVMOXl4S1FadDc4VHR2WnZWRnE5dEN3?oc=5",
       "isNew": true
     },
@@ -521,7 +521,7 @@
       "date": "2026-08-04",
       "cat": "General",
       "summary": "",
-      "source": "lakenewsonline.com",
+      "source": "The Lake Sun",
       "link": "https://news.google.com/rss/articles/CBMiygFBVV95cUxPMmg5eV93enktSGpTazdmWDk2Q1pQWTBDcXgyYjZMTklkaWNwT21hUTZYTmVpSWVUSWpsQ3JxMzFZWG1EaVVBYUxxSnZBZ1RVYWNHLUJKMGwtZkowdXpYaTIwalFRUU1wWWhZRHFYeXNSSzJaa2ZOTzRLNGo2YkUxUXFqNlRicEVMdVhKZW1KMEoyYnNpS0Vqa3g0cUdTSXhIUFVTVVE4Q3Jyejd2YUxoWllIVUlUTjg1a0tmLWJpWlNtSWM5b3BzbUNn?oc=5",
       "isNew": true
     },
@@ -541,7 +541,7 @@
       "date": "2026-07-29",
       "cat": "Licensing",
       "summary": "",
-      "source": "Cayman Finance",
+      "source": "caymanfinance.ky",
       "link": "https://news.google.com/rss/articles/CBMimwFBVV95cUxPbjctUnRXSmlFbHZINHdNSHFEQ19OTzVXeXMtVnJuejBDbHBMZEY1ZjNTWW1FLUVwVm5BdXdWbDFBTWhXQzNobWt6eWZlRmpWVUY5TGNncjJQQTFKczl0RWNnSnRNaG5tdnJGOTRFanBaYl9vWnNrR3RoaDFTZzRBT2VwUkRSQ3NpTEJkakcwV0I1YmtSY25qYVFlMA?oc=5",
       "isNew": true
     },
@@ -701,7 +701,7 @@
       "date": "2026-06-18",
       "cat": "Investment",
       "summary": "",
-      "source": "Cayman Finance",
+      "source": "caymanfinance.ky",
       "link": "https://news.google.com/rss/articles/CBMixwFBVV95cUxNLUdzZVdseERCdUhTNENKR21HT3d5QnFHVjRNN3ZZRE1YMG1LRGJTTlBDTjBZSHdVZkNTc2hMZVJpRDRJelFXbGxyUzV4RTZBT0xqNV9acWh3N3NuMkk1Um14ZC1YamxGYVEyTW1kLTZ2ZzA1SzJVVnA3dU9Ncjlqel9rdFhmOEFkSjZqTC1zTzRBU1pCek9MSWlZQ2dPbllNaUN0TVE4SzlBLWlKbjlOaU1veThSNVBJNkx4dTVyOW05U0JJOWN3?oc=5",
       "isNew": false
     },

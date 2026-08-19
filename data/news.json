@@ -1,5 +1,5 @@
 {
-  "updated": "2026-08-19T15:52:24Z",
+  "updated": "2026-08-19T18:59:05Z",
   "topics": [
     "Insurance AM",
     "Private Credit",
@@ -7,6 +7,16 @@
     "Structured Credit"
   ],
   "items": [
+    {
+      "id": "70d77d165bc8",
+      "title": "Bond yields plunge after Treasury announces surprise move to ease rising rates",
+      "source": "NBC News",
+      "date": "2026-08-19T17:56:42Z",
+      "topic": "Rates & Macro",
+      "summary": "",
+      "link": "https://news.google.com/rss/articles/CBMilAFBVV95cUxPWERIM2I3T0tzZWlQc3dWSzVhX1Z4eGdwbDl3d1N4VUZrWXcwQnpGSVNKbC1aWTU1Z1g4anRBaG15Y3BIT3NhS0YzSGtxSWlnOGpNSlA0ODRZTnBmREwzTWZObHJ6VE1ra25qc2lSRDdGY0VBQWY5Q0RCWDFBNVNDRVRBRTJqMGJ2YWF5QmRQZHR0Y0Jo?oc=5",
+      "isNew": false
+    },
     {
       "id": "c3b7e366995b",
       "title": "Mitsubishi UFJ Asset Management Co. Ltd. Makes New Investment in The Hartford Insurance Group, Inc. $HIG",
@@ -40,7 +50,7 @@
     {
       "id": "599d9f20ff15",
       "title": "Global Government Bond Yields Stabilize Ahead of Fed Minutes",
-      "source": "wsj.com",
+      "source": "WSJ",
       "date": "2026-08-19T09:13:00Z",
       "topic": "Rates & Macro",
       "summary": "",
@@ -120,7 +130,7 @@
     {
       "id": "bc3417a1cb0b",
       "title": "Global bond markets are getting hammered. Here\u2019s why that could make your life more expensive",
-      "source": "cnn.com",
+      "source": "CNN",
       "date": "2026-08-18T14:10:37Z",
       "topic": "Rates & Macro",
       "summary": "",
@@ -295,16 +305,6 @@
       "topic": "Private Credit",
       "summary": "",
       "link": "https://news.google.com/rss/articles/CBMiqwFBVV95cUxQUEM1YXZNNmY5TFdUTm9xeUlKRHJhR1ZWNHJaYVlGR1BwUDVkVENhTENnY3YwbU1jNWNiZ05UQWQ3dTNKZlNKUGQxdjc3Q1RNYzJtSUcyNk5VMmM2VldYRzFYVlQ4eF9GQTdESVBHR0JtVkMxUnFMQTBNQlBpVWNUS1JGOFc3eGdoX2RZbFBIRDNINW8wemo2SjNiekFfeWtrQzFfRHAxa0VGUG8?oc=5",
-      "isNew": false
-    },
-    {
-      "id": "074b3d07ab58",
-      "title": "Bonds Face a Bigger Threat Than the Fed as Global Rates Climb",
-      "source": "Yahoo Finance",
-      "date": "2026-08-16T12:00:00Z",
-      "topic": "Rates & Macro",
-      "summary": "",
-      "link": "https://news.google.com/rss/articles/CBMimAFBVV95cUxOYy11bUZKc1dJbWoxd1JrZXBsNk9sNVJzcnpQX0VtWS1xbkZhcWl5YzZMQXVCTTJNem04SFhOcVdEZWEtM3VjQXVhYTlZQkJhNU43c1E4MzNJMTZuWlB0YU5LUzhCQ2FTOHFnMEVuRWN6N0NMeEMzVXVkTWxlLTRZR3oybS1Ua05qMWhjemFjRHVGcWRxQUoteQ?oc=5",
       "isNew": false
     }
   ]
