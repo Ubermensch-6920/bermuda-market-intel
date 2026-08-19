@@ -1,5 +1,5 @@
 {
-  "updated": "2026-08-19T07:09:43Z",
+  "updated": "2026-08-19T09:55:16Z",
   "topics": [
     "Insurance AM",
     "Private Credit",
@@ -7,6 +7,26 @@
     "Structured Credit"
   ],
   "items": [
+    {
+      "id": "eef00630e68c",
+      "title": "Canadian Firms Have $360 Billion of Private Credit Exposure, Mostly in US",
+      "source": "Insurance Journal",
+      "date": "2026-08-19T09:28:26Z",
+      "topic": "Private Credit",
+      "summary": "",
+      "link": "https://news.google.com/rss/articles/CBMifkFVX3lxTE9WOGdkY19qcVNPcE9FVXd1b2tBb1MxTFh5Rk8yajRDaHIycGp3TlpLUFdvaE9kNjVIQ1NWaUZXSVI0Y1JGN1U3TDJXNVJRU0xmbTFSbF96am8tb3lkMEhnX0dXeXAzY1BuVFRrakFVcTJDWHBaZC03dF9jNHhJZw?oc=5",
+      "isNew": false
+    },
+    {
+      "id": "599d9f20ff15",
+      "title": "Global Government Bond Yields Stabilize Ahead of Fed Minutes",
+      "source": "WSJ",
+      "date": "2026-08-19T09:13:00Z",
+      "topic": "Rates & Macro",
+      "summary": "",
+      "link": "https://news.google.com/rss/articles/CBMiswFBVV95cUxQcWZWaC1oVFRNRHpqUFJZM1BUNDlZdFBYTEstZ1FGUHgyZjFoS0gtRkJEMERIVkxUbS0xNkVoOE82T0djM181V1FBcWJuYnB3blhGUHdKdkk0N3ZLc3pGaU50VGRtZks1Yk1tOGNfUW9hdy1XTEpadTBpVnpwY2J3eVpYckNTOXBXRTFHVkgzajQ5N0ZJSWhvemY3MUhNYlNVU3JrSjZkWk12ZHdHeEFBZ3h5aw?oc=5",
+      "isNew": false
+    },
     {
       "id": "4fa2fb4feac8",
       "title": "Global bond markets put governments on notice over fiscal, inflation risks",
@@ -240,7 +260,7 @@
     {
       "id": "d15e25b7c234",
       "title": "The Mark Walter Investigation Just Got Much Worse",
-      "source": "huddleup.substack.com",
+      "source": "Huddle Up | Joe Pompliano",
       "date": "2026-08-14T15:51:50Z",
       "topic": "Insurance AM",
       "summary": "",
@@ -285,26 +305,6 @@
       "topic": "Private Credit",
       "summary": "",
       "link": "https://news.google.com/rss/articles/CBMi8AFBVV95cUxPdnRfUUhZXzlaM01MeUU1SGN1aDNTUERKc2FNbFItMmtRQ0JqWHBvRVpEb0pTcnBRenlENTl5Y3NDa3RFUlhPSTBwM1hqZzZWeTgzUW1fWnFEM1VpckQySWdGcE13aDJFRE5vR2lnTW9uUF95NTJsT1BoUlFRdWI4cnBYS01NR2diYUhsd0dsRHItcDhXTkpoeWc3MDZxbkdaUmx3VS1VbEJ5aERFYTNWRmZ6UHlNWGVVSDNwV0kwTFlYZXMtXzNjQ01SM0QtaTYxYUxLMmFZSDVreHRSQ0ptc1p4NTVTdmFQMHd5QXpIcm4?oc=5",
-      "isNew": false
-    },
-    {
-      "id": "05431fba6e03",
-      "title": "The Bond\u2013FX Connection: Why Yield Spreads Matter More Than Rates for OANDA:XAUUSD by Kelly_Carter12",
-      "source": "TradingView",
-      "date": "2026-08-13T18:11:07Z",
-      "topic": "Rates & Macro",
-      "summary": "",
-      "link": "https://news.google.com/rss/articles/CBMitAFBVV95cUxNTmJOX0NwVDl3bGFuZ1NuNWpXZ1J6aFozckdGU1YtODFWQmVGYUI1ZkpKeDg3M2pKZ3E4RE5aeHladFJiZkszVl93Ulg1d3JMb2lUX1lLV09XRThlcmZQanJYRFVmNC0xMXNyZWhObENzclp5SzFuNHBHYUJqN1VORXFKbFB0MkttWkNlNGJ0ZXZsT3ZtdEhiUjlUUHJMck9iVnVwUXVlcGxBd210N2lhSHhhNHQ?oc=5",
-      "isNew": false
-    },
-    {
-      "id": "6991013552c8",
-      "title": "Star Mountain Capital Closes Star Mountain CFO I, a Collateralized Fund Obligation Providing Rated Access to U.S. Lower Middle-Market Private Credit",
-      "source": "businesswire.com",
-      "date": "2026-08-13T14:47:00Z",
-      "topic": "Private Credit",
-      "summary": "",
-      "link": "https://news.google.com/rss/articles/CBMirAJBVV95cUxPdmNPN25UTDR0V2x6R1A0dFVUNkRPd2NYYlB6ZF9OYS1HVlBHX2RwZHRFMUgwcG4tV0ZYeXFKRV8taU5IbE9JcTY0eUN4bUdyZ3BveC1PNTZRTkh3QTExaU5XSFA0T3BCdlpESFpHeUx6Z3NPS2h4UmNmVnhBaGJ4bDFmeDk5ME5jaWFwakxrQWw4dEJUc2R2WnpvSERuSnc0a0MwS3hNT0FJeHJMWFR3dXNCbnF6X3A0SHlWc2piMkhWaEg4TGRsVkFXUS1nQWVGQmgyV2d5bXNCdkJqMWFaS1JXNmtXUmEzck91YXVrS29yN19TZzNwOElJR2RhVWI0dmlXMUk0N3FlSDRHT2hJcDZyRkNncFJGYURjMDhCNUNsWC1ubHlNMFBwUlk?oc=5",
       "isNew": false
     }
   ]

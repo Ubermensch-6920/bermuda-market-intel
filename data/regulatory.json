@@ -1,6 +1,16 @@
 {
-  "updated": "2026-08-19T07:09:43Z",
+  "updated": "2026-08-19T09:55:16Z",
   "naic": [
+    {
+      "id": "b20fb814eeae",
+      "title": "The Cayman Islands\u2019 path to Qualified Jurisdiction status: A pivotal moment for reinsurance",
+      "date": "2026-08-19",
+      "cat": "General",
+      "summary": "",
+      "source": "Cayman Finance",
+      "link": "https://news.google.com/rss/articles/CBMixAFBVV95cUxPVU9oN19GaWVwc3J6VWdyM29Cb0FndDdlenNiR0loWFVfNTliaHlrVUkta3VQZVNxa21DS01lU0hZRS10SktzUlM0eTBSdWpNZEJIdWRvU1A0bXgzeWZHMVpYQ2F5S3p6TWl1aUFCWE9mT05XR2VNVktMcUdDYmlCWmROc292RjNMb3hfVWM4X0xMaHZCOFF0VHd6Sl9YOGNsaFktbm01TUsyS0RtV1oxbXhfb1p0MG5fejR1cnEtS0pHd1NQ?oc=5",
+      "isNew": true
+    },
     {
       "id": "e853c5adb43e",
       "title": "Guernsey submits qualified jurisdiction application to NAIC",
@@ -127,7 +137,7 @@
       "date": "2026-08-12",
       "cat": "General",
       "summary": "",
-      "source": "royalgazette.com",
+      "source": "Royal Gazette | Bermuda",
       "link": "https://news.google.com/rss/articles/CBMipgFBVV95cUxPdmwzZENOZGZwUUo0QnRVaTlsbUwtVGk4Y1ZpN285dU1jYmI3ZUNVWGsyRFF2WHJCZDBUeHVNekFkc2dMa0FDdkV3WlBDZ3A2T1lpMnYzcG56ZGlQQTN2TWlZanBQUmdGNjBIY01aUHg5UmttbjhPQ1RQVEhVZ2laNFlPWTVmRGhsMmE1MEVMNFgweU1DT2tsNEFJaGVRTmtOQmlISFN3?oc=5",
       "isNew": true
     },
@@ -240,16 +250,6 @@
       "source": "Daily Advocate",
       "link": "https://news.google.com/rss/articles/CBMijAFBVV95cUxNTkt3NXhMNEdSOTNYTWNLTFB4emI4b0ZabENtZ1V3VUNZcUVPTlh3LV84ckRDbTRyOTZ5QVByYXBNemNQTkt4V0NyWG42Q25xVmVwbDFuWjhSZUNIZHRubklLWjk1XzFSQWdwRlBYeE1MMlp5ZzEtQmpaZ0d3dklKaU9DOVhMWUFLWEd3eQ?oc=5",
       "isNew": true
-    },
-    {
-      "id": "8a063d100b76",
-      "title": "NAIC, transport unions launch Passenger Accident Insurance Initiative",
-      "date": "2026-08-04",
-      "cat": "General",
-      "summary": "",
-      "source": "thesun.ng",
-      "link": "https://news.google.com/rss/articles/CBMikAFBVV95cUxNVk5KVjFCcFVCNkNkREpyb0xLeTM4TEFySTV0djlHaFRBY1B4c1ZZTXlMV2lMVTRGZGVhamRWeGN4RllZRWZEb1I3Yll5d3JORnlhcFluLURWSXJmMU1McXJoR0hKSTRmbGdZX1NZRGNZZGJCLUNlaGNXbW1ycDR1RG4xTnMtTkFxRndFOEd5cU7SAZYBQVVfeXFMTVJxNFVEVVRPT2xLekVwQUZ5cWtLYUV3NmYybHlndnJVOTI2YVJVSTh5cWk4SjVPTjRRakJGNXRtRzNHNVRWZm5rYkZIQi1Gd3hsMHpCdkkwMExIVFJ0T1pzZVRnVW5URDJYTmlWLUJOYUxPS193UGNQcE5GU1pqbTdBYWVmaGJ4Wlk4bUtnOEpybm1aSlB3?oc=5",
-      "isNew": true
     }
   ],
   "bma": [
@@ -259,7 +259,7 @@
       "date": "2026-08-17",
       "cat": "Governance",
       "summary": "",
-      "source": "royalgazette.com",
+      "source": "Royal Gazette | Bermuda",
       "link": "https://news.google.com/rss/articles/CBMingFBVV95cUxQX1NuNGNLalFSVkVtdkk4Q1Z1YkJpRGxoY2FkU1dnamVRdmlEbG1Vbmp4UkxHTk0wTm9CX2xJdFJRd3Y5M1Y5OFhYNHZzQ0sxaDBSMVRuakhyeEVfaklGWk5MOVhBSDd3VkcwLW13SktSTHd0cl8zSTZrcDJHTEJqZFlKN1Y2eFo4di1LbGNZczluSHBmMU42VmFqU2Y1QQ?oc=5",
       "isNew": true
     },
@@ -279,7 +279,7 @@
       "date": "2026-08-10",
       "cat": "General",
       "summary": "",
-      "source": "royalgazette.com",
+      "source": "Royal Gazette | Bermuda",
       "link": "https://news.google.com/rss/articles/CBMipAFBVV95cUxNT1JWUHJKaGpHbDRkRXpSWFdXbE1mOFlwVEpNeHdsUFpEc3piS0JhV0lZcHFXR3JhVW9HS2hMQTdVcHVlT1hTWGZqRVljZGx0SUpJUDJaNWpJLUtJSFZTRzZRa3JfcEJOdDBLcFVINVk2ekJHMnNZeGpNSC1LTllmT2xDWFpDYzRjNGZhLUJNUVh4Y1RocjZ1RjhxTHFqdmpPZUlHUQ?oc=5",
       "isNew": true
     },
@@ -409,7 +409,7 @@
       "date": "2026-07-21",
       "cat": "General",
       "summary": "",
-      "source": "royalgazette.com",
+      "source": "Royal Gazette | Bermuda",
       "link": "https://news.google.com/rss/articles/CBMitgFBVV95cUxNdHZNOGJEMWdLZTRNYjl3V1RYTmotWmdRVHV5aHpiOWxHNXdMZkEyOGRHb1RNUVB4T1pES2ZoSmczUGtHM2dwQ3hqVnV4LUw2T0pLR3NZOGtVSVNqdDdIWlNCeUhXQTVtOFF2VTdVVjlyMlk4VGZMR0JCOHlnNWJGQzR4S1pTWGJTYmhZWktVYnRKbkZBdDd4SEFKWWF5bUVQd3p2S0xFTXFMTkJXRENOZWFDMlVjUQ?oc=5",
       "isNew": true
     },
