@@ -1,5 +1,5 @@
 {
-  "updated": "2026-08-19T18:59:05Z",
+  "updated": "2026-08-19T21:47:17Z",
   "topics": [
     "Insurance AM",
     "Private Credit",
@@ -8,6 +8,26 @@
   ],
   "items": [
     {
+      "id": "161cae9ff333",
+      "title": "Bond yields fall after Treasury announces surprise move to ease rising rates",
+      "source": "NBC News",
+      "date": "2026-08-19T20:29:22Z",
+      "topic": "Rates & Macro",
+      "summary": "",
+      "link": "https://news.google.com/rss/articles/CBMilAFBVV95cUxPWERIM2I3T0tzZWlQc3dWSzVhX1Z4eGdwbDl3d1N4VUZrWXcwQnpGSVNKbC1aWTU1Z1g4anRBaG15Y3BIT3NhS0YzSGtxSWlnOGpNSlA0ODRZTnBmREwzTWZObHJ6VE1ra25qc2lSRDdGY0VBQWY5Q0RCWDFBNVNDRVRBRTJqMGJ2YWF5QmRQZHR0Y0Jo?oc=5",
+      "isNew": false
+    },
+    {
+      "id": "009e8dc8f4e2",
+      "title": "Fed Talked Rate Hike if Inflation Fails to Cool Further | National News | U.S. News",
+      "source": "U.S. News & World Report",
+      "date": "2026-08-19T19:07:00Z",
+      "topic": "Rates & Macro",
+      "summary": "",
+      "link": "https://news.google.com/rss/articles/CBMiuAFBVV95cUxPRVo5OU5OQlk3bHpRcUlzMVNsNDEtLTQ1a05Zb1NoUldHZUtvcWMybE9WT1lQZkJFYXlBSXFwNEg0cGY1SE0zMUR2N1NrQzBpMi04Y0ppeTlTbEtNdWhETFRYN3NZdmlzQ3ZKOERrZ3NYVTBLem51bEVSRG44ZU40TUZHWGNWVmpTYkxMa1ZvNE1oM3FDYkhRTWtpY2lBcklidV9EVk9JXzQ3eE0zNndtZ1REV2VLNHZ3?oc=5",
+      "isNew": false
+    },
+    {
       "id": "70d77d165bc8",
       "title": "Bond yields plunge after Treasury announces surprise move to ease rising rates",
       "source": "NBC News",
@@ -15,6 +35,16 @@
       "topic": "Rates & Macro",
       "summary": "",
       "link": "https://news.google.com/rss/articles/CBMilAFBVV95cUxPWERIM2I3T0tzZWlQc3dWSzVhX1Z4eGdwbDl3d1N4VUZrWXcwQnpGSVNKbC1aWTU1Z1g4anRBaG15Y3BIT3NhS0YzSGtxSWlnOGpNSlA0ODRZTnBmREwzTWZObHJ6VE1ra25qc2lSRDdGY0VBQWY5Q0RCWDFBNVNDRVRBRTJqMGJ2YWF5QmRQZHR0Y0Jo?oc=5",
+      "isNew": false
+    },
+    {
+      "id": "43ea7582844d",
+      "title": "Euro zone yields slip from multi-year highs after US Treasury announcement",
+      "source": "The Mighty 790 KFGO",
+      "date": "2026-08-19T12:28:09Z",
+      "topic": "Rates & Macro",
+      "summary": "",
+      "link": "https://news.google.com/rss/articles/CBMipAFBVV95cUxPc3BLNWxCUW9sTl9iMkhnaU1FQzB1WDl0d3dCRUhUVUhPdmFycnMwNDRiTTV0MnNNTmU3QXREUTFJeUdxYWl4NUtpUlVFMHdQT24xT3puajhveW9EZ0pVY2NUWEM2dWZ3S3h1cVdjOTg3eWg4cnpIbmhUZDVFWGZWVXU1N20tcE9DT0tRUDhZdm1yWU55N1gteTJ1LVVUQXB5dXVqbg?oc=5",
       "isNew": false
     },
     {
@@ -250,7 +280,7 @@
     {
       "id": "0a1538110f4f",
       "title": "CVC agrees $3.5bn credit and secondaries partnership with AIG",
-      "source": "pei-privatecredit.com",
+      "source": "privatedebtinvestor.com",
       "date": "2026-08-17T11:12:49Z",
       "topic": "Private Credit",
       "summary": "",
@@ -275,36 +305,6 @@
       "topic": "Private Credit",
       "summary": "",
       "link": "https://news.google.com/rss/articles/CBMihAFBVV95cUxNOWs5aFdYT3UtRjA3aTVEaGhjTWJ0M2lzaEstMkRRSHVzN3h5NDBfdFpwWmVhNEtuS1Q1OUZsZVM5bVVGM0hhRlRWcEg0eGNnb09SWHp6WkNNakl6ZG9KRWxodDlDQkUzWE5rSDJrbGYzWDhDUDl3RGEzZXNPZDR4ZGRWSGg?oc=5",
-      "isNew": false
-    },
-    {
-      "id": "e7b48bc46396",
-      "title": "Japan\u2019s 10-year bond yield hits three-decade high",
-      "source": "Financial Times",
-      "date": "2026-08-17T04:36:31Z",
-      "topic": "Rates & Macro",
-      "summary": "",
-      "link": "https://news.google.com/rss/articles/CBMihAFBVV95cUxORkVsZHl0R3NfS0xrMDh4YTRBZG14bWc2Rm1qVXd3WEx5UHZtRlpFQmlTOTkyMjlnYjI5U3dnUktvUHMwUHBqRUpaVzlwWDd6bTJDRktucklNUkRfOGs3dUdZUWVmM3M2YmNDY19EVVJqVXpuV0xXRjFXNnpacEdCVXM4RXY?oc=5",
-      "isNew": false
-    },
-    {
-      "id": "df1c30d6827f",
-      "title": "Guggenheim's Quiet Owner: $130B Insurance Giant Sammons",
-      "source": "hntrbrk.com",
-      "date": "2026-08-17T00:08:00Z",
-      "topic": "Insurance AM",
-      "summary": "",
-      "link": "https://news.google.com/rss/articles/CBMiVEFVX3lxTE45Q2pZOWcyTVhFOUlWS2JhMzd4Yy1nVndlV3RwQ3FfQnVoSUNaaW55V25iNVhMN0tSd3QyMm5GbUs5OUxsNEVrVFZianFzR1ozeVZfcQ?oc=5",
-      "isNew": false
-    },
-    {
-      "id": "963ad7a1a2e2",
-      "title": "Exclusive | Prosecutors Focus on Four Businesses Tied to Dodgers Owner Mark Walter",
-      "source": "wsj.com",
-      "date": "2026-08-16T21:01:00Z",
-      "topic": "Private Credit",
-      "summary": "",
-      "link": "https://news.google.com/rss/articles/CBMiqwFBVV95cUxQUEM1YXZNNmY5TFdUTm9xeUlKRHJhR1ZWNHJaYVlGR1BwUDVkVENhTENnY3YwbU1jNWNiZ05UQWQ3dTNKZlNKUGQxdjc3Q1RNYzJtSUcyNk5VMmM2VldYRzFYVlQ4eF9GQTdESVBHR0JtVkMxUnFMQTBNQlBpVWNUS1JGOFc3eGdoX2RZbFBIRDNINW8wemo2SjNiekFfeWtrQzFfRHAxa0VGUG8?oc=5",
       "isNew": false
     }
   ]
