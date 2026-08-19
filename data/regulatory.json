@@ -1,5 +1,5 @@
 {
-  "updated": "2026-08-19T13:19:21Z",
+  "updated": "2026-08-19T15:52:24Z",
   "naic": [
     {
       "id": "b20fb814eeae",
@@ -9,6 +9,16 @@
       "summary": "",
       "source": "Cayman Finance",
       "link": "https://news.google.com/rss/articles/CBMixAFBVV95cUxPVU9oN19GaWVwc3J6VWdyM29Cb0FndDdlenNiR0loWFVfNTliaHlrVUkta3VQZVNxa21DS01lU0hZRS10SktzUlM0eTBSdWpNZEJIdWRvU1A0bXgzeWZHMVpYQ2F5S3p6TWl1aUFCWE9mT05XR2VNVktMcUdDYmlCWmROc292RjNMb3hfVWM4X0xMaHZCOFF0VHd6Sl9YOGNsaFktbm01TUsyS0RtV1oxbXhfb1p0MG5fejR1cnEtS0pHd1NQ?oc=5",
+      "isNew": true
+    },
+    {
+      "id": "b95980b23fb3",
+      "title": "Cayman targets insurance growth with NAIC application, while protecting captive market",
+      "date": "2026-08-19",
+      "cat": "General",
+      "summary": "",
+      "source": "Captive International",
+      "link": "https://news.google.com/rss/articles/CBMivwFBVV95cUxPYlBqZFprRHQxUW41YlRGLVlDWXZrQmQtYkRVZ2l4ZF9CVlZNcU44U0xQelVoSWtuaFFIREdkQWJ2ZmtwS2duYzVOdUhvUHVMTHgxQmtkZHkyalo2RmlQeGx0bGM1UF9GVWxUUmp1akpQNEVGVmhBZGE0R2VjeUJhYTZBNWNld041V25kaG0tM1RqTmp3RjRZWjZhblRSWXJDaXc2c05uTGFnM2xYTW13QkRpanZsaWoxQmFYa0lmWQ?oc=5",
       "isNew": true
     },
     {
@@ -97,7 +107,7 @@
       "date": "2026-08-13",
       "cat": "Investment",
       "summary": "",
-      "source": "InsuranceNewsNet",
+      "source": "insurancenewsnet.com",
       "link": "https://news.google.com/rss/articles/CBMirAFBVV95cUxOdnhObUlwMDB6V05sS1REYWRGb1dSOS14U0VwM1I0UHoyc1kyVnZ3cXdfQmZISFlMVGI4UzkyOTluZ2p6RWFmUi13ejZobmdad0tkVWQ2MVRuRDdQa0NJbkJtNmNqckZnZlE1U1oxQjhOY0paZWQwM3ZUMFFQUlltcHY0ZWdNZjk3Sm9lQkVrWERJcUJHMFJjdzB0TDdBLWh6WDMzWnNLVkwtSjhH?oc=5",
       "isNew": true
     },
@@ -177,7 +187,7 @@
       "date": "2026-08-11",
       "cat": "General",
       "summary": "",
-      "source": "InsuranceNewsNet",
+      "source": "insurancenewsnet.com",
       "link": "https://news.google.com/rss/articles/CBMipAFBVV95cUxNbkdMNEV6SmlZWDJ2Um4wRGp6SkY2alMzcGhSV1ZNbUxJSWstZ09PdTRzalFSRWtNWkNqWGZ5eWpCaVRQUmlSS0RycUpDeDlHVGk5RXJDdl94YUJzSjFkLW1rNWFPLVZUQ0YzMXdieEhFMTV4T1FHVVFSanN1LURNOUpZLUJ1RjVsQk03dnRJdGtpVlJDUkRFN1VGdkhNRk5SU20tUQ?oc=5",
       "isNew": true
     },
@@ -240,16 +250,6 @@
       "source": "Mondaq",
       "link": "https://news.google.com/rss/articles/CBMivAFBVV95cUxOQmZzalZNTTEtS2VBUGdETE53MWtYVk44bmJnQVhLMUVNUUF6NGtYU0NGUFhSdlhWUEs2TS01UUs2bEI1U0FPVDRib3BsMm5TaGdmUTJ2VVR4aGpYcV9EejRtRWdDNG9jVnFwQzZMMURyTTNHbENrQlJFUnN3dV91dk9Haks4bWoyMFgwZjRRWFFWaWxXOTBCbWhPYU1KcXZhUkxwWlMwbFhqVEdVTmRpd3V1RC1VOE14NElDdA?oc=5",
       "isNew": true
-    },
-    {
-      "id": "31828387e5df",
-      "title": "Best\u2019s Special Report: Higher Exposure to Level 3 Bonds Brings Valuation Risk for US Life/Annuity Segment",
-      "date": "2026-08-05",
-      "cat": "General",
-      "summary": "",
-      "source": "Business Wire",
-      "link": "https://news.google.com/rss/articles/CBMi8AFBVV95cUxNQzFqMUJBUGxpOXpQTnZnUEx0d3pieENZQS1hOG5xb1hNT3R1cUgzcjItckU0N3UwZFpFR2lVQmNSV2NGWE83VDVWSTVqSTRGWVB1NG5DRnZxTGRCV2pGejNSWGFXd01HRUpDZEVfVE5QMnBTT3R3X0NicW53cVk5MFpNOFd2TkQ4VjV2NHJEa2RpMVZSa01VekIzOEJvS0Z5N1R5dVdnQXNRd0xNOE5NMHlKdGUybkhvUGE4Vk5wWGhKcjZnNlBjc0drYzdGRXg3OWZkODdCUW1yMHRWUl9TWXR4WFlTZlRDYkVZa0hRQmc?oc=5",
-      "isNew": true
     }
   ],
   "bma": [
@@ -289,7 +289,7 @@
       "date": "2026-08-10",
       "cat": "General",
       "summary": "",
-      "source": "Bernews",
+      "source": "bernews.com",
       "link": "https://news.google.com/rss/articles/CBMiekFVX3lxTE1tTmdWVUZLZkUwcFpYY0RnbktoRlYzMS1Id1RDRTBNOEc0YUpNdWpNODhqWFN6VkNkc2dnV3ZnVHctTDFicmFEQnRGR3E3NnYwaGtKUkpvUDJPSW4tNHQzNW9jOHVMOXl4S1FadDc4VHR2WnZWRnE5dEN3?oc=5",
       "isNew": true
     },
@@ -521,7 +521,7 @@
       "date": "2026-08-04",
       "cat": "General",
       "summary": "",
-      "source": "The Lake Sun",
+      "source": "lakenewsonline.com",
       "link": "https://news.google.com/rss/articles/CBMiygFBVV95cUxPMmg5eV93enktSGpTazdmWDk2Q1pQWTBDcXgyYjZMTklkaWNwT21hUTZYTmVpSWVUSWpsQ3JxMzFZWG1EaVVBYUxxSnZBZ1RVYWNHLUJKMGwtZkowdXpYaTIwalFRUU1wWWhZRHFYeXNSSzJaa2ZOTzRLNGo2YkUxUXFqNlRicEVMdVhKZW1KMEoyYnNpS0Vqa3g0cUdTSXhIUFVTVVE4Q3Jyejd2YUxoWllIVUlUTjg1a0tmLWJpWlNtSWM5b3BzbUNn?oc=5",
       "isNew": true
     },

@@ -1,5 +1,5 @@
 {
-  "updated": "2026-08-19T13:19:21Z",
+  "updated": "2026-08-19T15:52:24Z",
   "topics": [
     "Insurance AM",
     "Private Credit",
@@ -40,11 +40,31 @@
     {
       "id": "599d9f20ff15",
       "title": "Global Government Bond Yields Stabilize Ahead of Fed Minutes",
-      "source": "WSJ",
+      "source": "wsj.com",
       "date": "2026-08-19T09:13:00Z",
       "topic": "Rates & Macro",
       "summary": "",
       "link": "https://news.google.com/rss/articles/CBMiswFBVV95cUxQcWZWaC1oVFRNRHpqUFJZM1BUNDlZdFBYTEstZ1FGUHgyZjFoS0gtRkJEMERIVkxUbS0xNkVoOE82T0djM181V1FBcWJuYnB3blhGUHdKdkk0N3ZLc3pGaU50VGRtZks1Yk1tOGNfUW9hdy1XTEpadTBpVnpwY2J3eVpYckNTOXBXRTFHVkgzajQ5N0ZJSWhvemY3MUhNYlNVU3JrSjZkWk12ZHdHeEFBZ3h5aw?oc=5",
+      "isNew": false
+    },
+    {
+      "id": "8a59b55d3923",
+      "title": "Japan bond yields near 3% as inflation, fiscal worries mount",
+      "source": "Reuters",
+      "date": "2026-08-19T02:35:00Z",
+      "topic": "Rates & Macro",
+      "summary": "",
+      "link": "https://news.google.com/rss/articles/CBMirwFBVV95cUxNUVliSFc4NzVQTGlyM0ZZbzR6dWQyUWV2RWpfR3JCYmxzZDlnRW1zM2czNnZhd3RHVC1TdW9FQ25WZko0MlFpeExLMWZHYTdwcl96ZzFydlY3T3duWDNGZDhiR1VhRHExTndrYWlSNUVSX0xodjluUk1aOThRYmlBTkg5X0ZBcE13ckpxMWVDSkFsdWVvdEFiM3ZSSHpkbFduaXBheUx4SEtaNWl1Ujc4?oc=5",
+      "isNew": false
+    },
+    {
+      "id": "631e855f8f8a",
+      "title": "Bond yields fall after Trump administration says it will double size of debt repurchase",
+      "source": "ABC News - Breaking News, Latest News and Videos",
+      "date": "2026-08-19T01:33:08Z",
+      "topic": "Rates & Macro",
+      "summary": "",
+      "link": "https://news.google.com/rss/articles/CBMingFBVV95cUxPaFNpSV9fT29XeTFXMGdmMVFoRWRDWTFzNkFTQ2pNd3dCVmdjakVGVktaTXdsYkJ2dGRHai1MTTR1YWZxSTE0Sk9xT0F2ekl0LTdHYWctLWkzaFRUU25xa3lVZFdyckhGMmxNYUxYMG9qYXctejBaVHJpcU1OUnhhNjBJQVZXNVVVSFFrR0hiTFpETHVzdlQydjJoNUNKd9IBowFBVV95cUxORndjaXhPaFREVGJ2Z0JhWUU5azZidnYzYXR3Unp5b2UzMFdMeWNtX181OHNzbUZyTGJuSkt4eWxrUkJZeU0tRlRFakxWRnlMX0E2dVQ2b3pQRFp3bWxubFBDdlgtUzctVU9FYXhLNDgyMVVNLURiYVVnYjA5S1Z2OEJvZWhsNWsxazhmNC1JSHB6bFN0Rl9tUXQzckFBSzdjcjN3?oc=5",
       "isNew": false
     },
     {
@@ -100,7 +120,7 @@
     {
       "id": "bc3417a1cb0b",
       "title": "Global bond markets are getting hammered. Here\u2019s why that could make your life more expensive",
-      "source": "CNN",
+      "source": "cnn.com",
       "date": "2026-08-18T14:10:37Z",
       "topic": "Rates & Macro",
       "summary": "",
@@ -268,6 +288,16 @@
       "isNew": false
     },
     {
+      "id": "963ad7a1a2e2",
+      "title": "Exclusive | Prosecutors Focus on Four Businesses Tied to Dodgers Owner Mark Walter",
+      "source": "wsj.com",
+      "date": "2026-08-16T21:01:00Z",
+      "topic": "Private Credit",
+      "summary": "",
+      "link": "https://news.google.com/rss/articles/CBMiqwFBVV95cUxQUEM1YXZNNmY5TFdUTm9xeUlKRHJhR1ZWNHJaYVlGR1BwUDVkVENhTENnY3YwbU1jNWNiZ05UQWQ3dTNKZlNKUGQxdjc3Q1RNYzJtSUcyNk5VMmM2VldYRzFYVlQ4eF9GQTdESVBHR0JtVkMxUnFMQTBNQlBpVWNUS1JGOFc3eGdoX2RZbFBIRDNINW8wemo2SjNiekFfeWtrQzFfRHAxa0VGUG8?oc=5",
+      "isNew": false
+    },
+    {
       "id": "074b3d07ab58",
       "title": "Bonds Face a Bigger Threat Than the Fed as Global Rates Climb",
       "source": "Yahoo Finance",
@@ -275,36 +305,6 @@
       "topic": "Rates & Macro",
       "summary": "",
       "link": "https://news.google.com/rss/articles/CBMimAFBVV95cUxOYy11bUZKc1dJbWoxd1JrZXBsNk9sNVJzcnpQX0VtWS1xbkZhcWl5YzZMQXVCTTJNem04SFhOcVdEZWEtM3VjQXVhYTlZQkJhNU43c1E4MzNJMTZuWlB0YU5LUzhCQ2FTOHFnMEVuRWN6N0NMeEMzVXVkTWxlLTRZR3oybS1Ua05qMWhjemFjRHVGcWRxQUoteQ?oc=5",
-      "isNew": false
-    },
-    {
-      "id": "d15e25b7c234",
-      "title": "The Mark Walter Investigation Just Got Much Worse",
-      "source": "Huddle Up | Joe Pompliano",
-      "date": "2026-08-14T15:51:50Z",
-      "topic": "Insurance AM",
-      "summary": "",
-      "link": "https://news.google.com/rss/articles/CBMidEFVX3lxTE1DS2hrZXdzSW9VYmtDZGZtbVd0N2xTWTdPZHBqYTRHUTh5a0c2RjRxYjdHSlhVY3ZPMlRiQkkyWWhSMElYVkNXZFNtTWNwdF9ZTF9XYmZPNm1TU2o0LU9PbXREandGZHl0TXZVUF9qUGNyVmhV?oc=5",
-      "isNew": false
-    },
-    {
-      "id": "815aeb9e44ee",
-      "title": "The Mark Walter Investigation Just Got Much Worse",
-      "source": "Huddle Up | Joe Pompliano",
-      "date": "2026-08-14T15:51:50Z",
-      "topic": "Private Credit",
-      "summary": "",
-      "link": "https://news.google.com/rss/articles/CBMidEFVX3lxTE1DS2hrZXdzSW9VYmtDZGZtbVd0N2xTWTdPZHBqYTRHUTh5a0c2RjRxYjdHSlhVY3ZPMlRiQkkyWWhSMElYVkNXZFNtTWNwdF9ZTF9XYmZPNm1TU2o0LU9PbXREandGZHl0TXZVUF9qUGNyVmhV?oc=5",
-      "isNew": false
-    },
-    {
-      "id": "bd05f9fec33c",
-      "title": "EMEA Insight: Rated feeders offer a road into European direct lending with lighter capital burden",
-      "source": "know.creditsights.com",
-      "date": "2026-08-14T14:12:50Z",
-      "topic": "Private Credit",
-      "summary": "",
-      "link": "https://news.google.com/rss/articles/CBMi0gFBVV95cUxPMnh0MnRUeGlidnNZZ1dXMkdxTVMyVTliRExDU3h3bmZiS0lVNncweXltTEdTYzB0QVM0dFF5WkUtY0VVZ2JYeEhtSXphTzk5RWtPZjVGY1lSMG9yZFVPZTBhMGVMTDBTTEZVeDE0UW9OV1JPWGpOczZpN3JSeXZPSW5hZE1UMFR0SFpINi1fUDNtdHAwQ1N4RHBzUW5YbUoybTgtZndzTHVmZ2lUTFFCVllya2FQcnA4elVZVEpXb2lkSVQ4ZmtZM0xYamRRRFRMTXc?oc=5",
       "isNew": false
     }
   ]
