@@ -1,5 +1,5 @@
 {
-  "updated": "2026-08-19T09:54:31.578538Z",
+  "updated": "2026-08-19T13:17:58.747277Z",
   "countries": {
     "us": {
       "series": "CPIAUCSL",
@@ -28,10 +28,10 @@
     "eur": {
       "series": "CP0000EZ19M086NEST",
       "label": "Euro area HICP all items (ECB/FRED)",
-      "yoy": 2.73,
-      "mom": -0.1,
-      "trend": "down",
-      "date": "2026-06-01"
+      "yoy": 2.93,
+      "mom": 0.22,
+      "trend": "up",
+      "date": "2026-07-01"
     },
     "in": {
       "series": "INDCPIALLMINMEI",
@@ -42,5 +42,5 @@
       "date": null
     }
   },
-  "_fetched": "2026-08-19T09:54:31.578543Z"
+  "_fetched": "2026-08-19T13:17:58.747282Z"
 }

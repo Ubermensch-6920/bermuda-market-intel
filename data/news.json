@@ -1,5 +1,5 @@
 {
-  "updated": "2026-08-19T09:55:16Z",
+  "updated": "2026-08-19T13:19:21Z",
   "topics": [
     "Insurance AM",
     "Private Credit",
@@ -7,6 +7,26 @@
     "Structured Credit"
   ],
   "items": [
+    {
+      "id": "c3b7e366995b",
+      "title": "Mitsubishi UFJ Asset Management Co. Ltd. Makes New Investment in The Hartford Insurance Group, Inc. $HIG",
+      "source": "MarketBeat",
+      "date": "2026-08-19T10:28:09Z",
+      "topic": "Insurance AM",
+      "summary": "",
+      "link": "https://news.google.com/rss/articles/CBMi8gFBVV95cUxOWllDcDNsQUd2X2VyVFRRWjBySGROWHJVN1dFdW9HRHJKZ1Q1bFU4Vlhnb2VqaGd4OGpnYUVJS05lN1pWWllHaFhDOGxXOUpEVXFOcHZ0SzlOellWNjhtUlBaMVhRREplTVdweUY1ZVdITzVBa0dRSkY1LVRkN2dFd1RqZl9wTEQyUFdaMVAtQmxpcUY2R1dyR0Nqb3FKbXMtZ2VOZ0pucGxVMW9WclpqZmRaOG1QZGRGZ1JtcDVEMF83aW5WUldHT2t0cldhVHk0bjYwb1Z0SmpNaXFlb1R5aVdZZ05OR1ZQQ05qUWZzVkhlZw?oc=5",
+      "isNew": false
+    },
+    {
+      "id": "3d873f9791bb",
+      "title": "Market Minute: Global investors are sounding the alarm on debt",
+      "source": "The Real Economy Blog",
+      "date": "2026-08-19T10:00:25Z",
+      "topic": "Rates & Macro",
+      "summary": "",
+      "link": "https://news.google.com/rss/articles/CBMilwFBVV95cUxPRlJOMVlUamVsRVh3UlM4M0pQaU9VN3F5bWU5LU95SDM0NDFhemVMb25ESEdiSng3dnU3ZUxReGNzZEdSY2ZZQ2Y2bFlOSEdpUi1YSk01c2kzSm90ajJ4eXFHNnY5SngzQy1VZzM4Z0NsVWsxNUMtUzN5X3J3UlhwYnppZV9FXzlkOXlOd1h2cWxPM3A4UFRB?oc=5",
+      "isNew": false
+    },
     {
       "id": "eef00630e68c",
       "title": "Canadian Firms Have $360 Billion of Private Credit Exposure, Mostly in US",
@@ -240,7 +260,7 @@
     {
       "id": "df1c30d6827f",
       "title": "Guggenheim's Quiet Owner: $130B Insurance Giant Sammons",
-      "source": "Hunterbrook",
+      "source": "hntrbrk.com",
       "date": "2026-08-17T00:08:00Z",
       "topic": "Insurance AM",
       "summary": "",
@@ -285,26 +305,6 @@
       "topic": "Private Credit",
       "summary": "",
       "link": "https://news.google.com/rss/articles/CBMi0gFBVV95cUxPMnh0MnRUeGlidnNZZ1dXMkdxTVMyVTliRExDU3h3bmZiS0lVNncweXltTEdTYzB0QVM0dFF5WkUtY0VVZ2JYeEhtSXphTzk5RWtPZjVGY1lSMG9yZFVPZTBhMGVMTDBTTEZVeDE0UW9OV1JPWGpOczZpN3JSeXZPSW5hZE1UMFR0SFpINi1fUDNtdHAwQ1N4RHBzUW5YbUoybTgtZndzTHVmZ2lUTFFCVllya2FQcnA4elVZVEpXb2lkSVQ4ZmtZM0xYamRRRFRMTXc?oc=5",
-      "isNew": false
-    },
-    {
-      "id": "8ae6da570f0c",
-      "title": "Rate hike bets leave yen's post-intervention gains at BOJ's mercy",
-      "source": "Reuters",
-      "date": "2026-08-13T22:00:23Z",
-      "topic": "Rates & Macro",
-      "summary": "",
-      "link": "https://news.google.com/rss/articles/CBMitgFBVV95cUxPYjZNRUNjVFhMSjRuaXZCV2lWYTRuTUpKYWcxV2lvd1RSd2paanU4QjJxTHRpaGNGQUF5aU1MRzExdVFfTU1UMzFXYlNCT0d5aXdGMFhDUlM5a1ZnYWxLTXlLc0F1UkFjTE1vSk9xMUs1SE1HTnRMR3ZUNndBOVZoUTZBNmNKMWJnUXF0SW4xNHdXUWxDY19EX2hNblhhV21PY1ltdzFKV0FLQ3lLeGpqLTlEcHBpQQ?oc=5",
-      "isNew": false
-    },
-    {
-      "id": "5b8887a74aa2",
-      "title": "Private Credit Growth is Largely Driven by Life Insurers; Demotech-Rated Companies Have Limited Exposure",
-      "source": "PR Newswire",
-      "date": "2026-08-13T18:59:00Z",
-      "topic": "Private Credit",
-      "summary": "",
-      "link": "https://news.google.com/rss/articles/CBMi8AFBVV95cUxPdnRfUUhZXzlaM01MeUU1SGN1aDNTUERKc2FNbFItMmtRQ0JqWHBvRVpEb0pTcnBRenlENTl5Y3NDa3RFUlhPSTBwM1hqZzZWeTgzUW1fWnFEM1VpckQySWdGcE13aDJFRE5vR2lnTW9uUF95NTJsT1BoUlFRdWI4cnBYS01NR2diYUhsd0dsRHItcDhXTkpoeWc3MDZxbkdaUmx3VS1VbEJ5aERFYTNWRmZ6UHlNWGVVSDNwV0kwTFlYZXMtXzNjQ01SM0QtaTYxYUxLMmFZSDVreHRSQ0ptc1p4NTVTdmFQMHd5QXpIcm4?oc=5",
       "isNew": false
     }
   ]
