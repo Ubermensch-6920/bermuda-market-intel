@@ -1,5 +1,5 @@
 {
-  "updated": "2026-08-19T04:03:48Z",
+  "updated": "2026-08-19T07:09:43Z",
   "topics": [
     "Insurance AM",
     "Private Credit",
@@ -8,6 +8,16 @@
   ],
   "items": [
     {
+      "id": "4fa2fb4feac8",
+      "title": "Global bond markets put governments on notice over fiscal, inflation risks",
+      "source": "Reuters",
+      "date": "2026-08-18T21:51:20Z",
+      "topic": "Rates & Macro",
+      "summary": "",
+      "link": "https://news.google.com/rss/articles/CBMiugFBVV95cUxQeWxrV2hFeTRkQjZmS2pjcmpEM1VJd2tTc2lkT1NxVjJ3c0Jpa2ZNQzJ3eFlSa1BoV3pQN3VLNzZEUHM0SHZHMURHLUthd21TV0R6TkY5N0lfR1pKRnRGZGpFc1FzamJfT1l2Q1pYQXloZ25LYWdxOHhQcndkZ21xU1lXZFJwc0ZOcnVqWUkyejNUdVcyWWlORW9rdzZORlJCZjZHMWZNX0tKYU44bDJReUpMcVNlOFBNd0E?oc=5",
+      "isNew": false
+    },
+    {
       "id": "09447f122c78",
       "title": "Canadian Pensions and Insurers Have $360 Billion in Private Credit \u2014 and Most of It Isn't in Canada",
       "source": "Benzinga",
@@ -15,16 +25,6 @@
       "topic": "Private Credit",
       "summary": "",
       "link": "https://news.google.com/rss/articles/CBMi8AFBVV95cUxPbklyalpVNFV4TUZTNTQ0bmxvcUd2TGh2MXc3QXh6YmtaQWgzNWFaWlNoZEd0dzF6Y3lKQi1yajB5aEpPMThRT0lGY1NKM3hPTUNENFc2anI4dzliNld2S210THlydnRWX1J1eFM3U3d4bG54NFhia1B4RU0xR0VSMWFkanNualRaNWs1RmJ4ZXlTR0hNdjNiMlY0OEY1aEpZWEVlV3VQM2NLenZUTEo0WWIyeV9MZWx5S1VsM1FkOUI4Tjd5WjYtZU9nOGRGMTRFWnJCOWd1ZVlack5xcDg0ZkxBUTFnZE12RHNBWWw4dWc?oc=5",
-      "isNew": false
-    },
-    {
-      "id": "4fa2fb4feac8",
-      "title": "Global bond markets put governments on notice over fiscal, inflation risks",
-      "source": "Reuters",
-      "date": "2026-08-18T19:01:49Z",
-      "topic": "Rates & Macro",
-      "summary": "",
-      "link": "https://news.google.com/rss/articles/CBMiugFBVV95cUxQeWxrV2hFeTRkQjZmS2pjcmpEM1VJd2tTc2lkT1NxVjJ3c0Jpa2ZNQzJ3eFlSa1BoV3pQN3VLNzZEUHM0SHZHMURHLUthd21TV0R6TkY5N0lfR1pKRnRGZGpFc1FzamJfT1l2Q1pYQXloZ25LYWdxOHhQcndkZ21xU1lXZFJwc0ZOcnVqWUkyejNUdVcyWWlORW9rdzZORlJCZjZHMWZNX0tKYU44bDJReUpMcVNlOFBNd0E?oc=5",
       "isNew": false
     },
     {
@@ -240,7 +240,7 @@
     {
       "id": "d15e25b7c234",
       "title": "The Mark Walter Investigation Just Got Much Worse",
-      "source": "Huddle Up | Joe Pompliano",
+      "source": "huddleup.substack.com",
       "date": "2026-08-14T15:51:50Z",
       "topic": "Insurance AM",
       "summary": "",
