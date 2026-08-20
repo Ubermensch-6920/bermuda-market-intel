@@ -1,12 +1,31 @@
 {
-  "updated": "2026-08-20T13:17:31Z",
+  "updated": "2026-08-20T15:53:39Z",
   "topics": [
     "Insurance AM",
     "Private Credit",
-    "Rates & Macro",
-    "Structured Credit"
+    "Rates & Macro"
   ],
   "items": [
+    {
+      "id": "9a00e5c4f16f",
+      "title": "Insurers Boost Private Credit Exposure",
+      "source": "Funds Society",
+      "date": "2026-08-20T15:01:04Z",
+      "topic": "Private Credit",
+      "summary": "",
+      "link": "https://news.google.com/rss/articles/CBMipwFBVV95cUxPam5ob3pmVE1pX0NIUWVKZ0hJX0JXVjhqUnBxUmN2SU9PZlExVGNJYmlTMFZEZzZUallsQlpndTlNVk9LeFBhZjcwb0xhSmw3TFE2NDNnU181WjJESHBjWEdTeDdOY29DeXBZNW4zeWdfbG1fY2Jvc1p1eTI1Qy1LSEdaLXE0enh1YU5OQkIzeW5OVWZTaE5OaGo2bkZwSmFHZ2owWkNwdw?oc=5",
+      "isNew": false
+    },
+    {
+      "id": "799bb9c7b5d2",
+      "title": "Insurers Boost Private Credit Exposure",
+      "source": "Funds Society",
+      "date": "2026-08-20T15:01:04Z",
+      "topic": "Insurance AM",
+      "summary": "",
+      "link": "https://news.google.com/rss/articles/CBMipwFBVV95cUxPam5ob3pmVE1pX0NIUWVKZ0hJX0JXVjhqUnBxUmN2SU9PZlExVGNJYmlTMFZEZzZUallsQlpndTlNVk9LeFBhZjcwb0xhSmw3TFE2NDNnU181WjJESHBjWEdTeDdOY29DeXBZNW4zeWdfbG1fY2Jvc1p1eTI1Qy1LSEdaLXE0enh1YU5OQkIzeW5OVWZTaE5OaGo2bkZwSmFHZ2owWkNwdw?oc=5",
+      "isNew": false
+    },
     {
       "id": "43a619ecf48d",
       "title": "Ping An Insurance's first-half profit jumps 36% on asset management boost",
@@ -285,26 +304,6 @@
       "topic": "Private Credit",
       "summary": "",
       "link": "https://news.google.com/rss/articles/CBMimAFBVV95cUxNdzRla0tsUFpFQlZndzFNWndQakxnZUZDNTJRZ0lXSGhWbnNDTXZKaEFIMklUTHY3d1B1OWRvMEdQUXhmVTVoX3BBak1IUC1sRmtrdndTcExBMVMzUGhrSmJLNGVtMktVVHYwQzYtSUFjejAzLTUwWGhXM1U3Qk0xZ0g0dExjZnp4VjlMdU5KbHVsM3YwdDN1bg?oc=5",
-      "isNew": false
-    },
-    {
-      "id": "878f17890e14",
-      "title": "The Analysis Series: Related parties: Inside the Walter probe and what it means for Chelsea\u2019s ownership",
-      "source": "theesk.org",
-      "date": "2026-08-17T12:20:23Z",
-      "topic": "Structured Credit",
-      "summary": "",
-      "link": "https://news.google.com/rss/articles/CBMiywFBVV95cUxNQjlVd3N6R3dpUzNSYS1qb3B5TXFfR2ViSWZSX3N1N016Y3M2akZ5MHR0RmkyX1VhNjd5UUxfWW5uNWxORmdoNUIxRXozcV9iSkJTTlMwUmRfcXJ1WGt6ZEJuVlZ6SlNJS1ZZVFMwNHEtRy1jNXc1ZFZOdkIySU5xa1F6dTNWaTM2Z0xBWDRTaUYzVE5DUm4tUEkybDNKc0t4TEJqZUlMOVk3OVl0azZxaEZfZXEwME91NTR6NEZGU2ZzamZjUHRZQ3BWNNIB0AFBVV95cUxPbWZwY2pkejR6amFaWHFEbV84cGVSOWhKTEtucjBNZzdIR05TMTBoWFRtM04zOTVxREpwMmFBOFNXd3BaSDBDSm84VUNQMXVFUWpjakNLZUhWTUJwQ3F4X1BMUm4zdVljcGExbkNwQm5aMmg2dDFCY0MyZ2Nvb0ZuZWtweHdpOUNDMXV5Y0F1Z1NuVi1SaEpLOTJheWduUEE3WkcyZ2QtLVJIdm10bmlGRnFDcEhZeThaVW9NaHRTUndrdGN6TXNBczhtQ242YlVi?oc=5",
-      "isNew": false
-    },
-    {
-      "id": "0efb7dbcef05",
-      "title": "Repositioning of Insurance Capital in Equity Investments: Record-High Exposure, More Rational Allocation, and a Shift Toward Core Sectors",
-      "source": "Moomoo",
-      "date": "2026-08-17T11:16:15Z",
-      "topic": "Insurance AM",
-      "summary": "",
-      "link": "https://news.google.com/rss/articles/CBMiuwFBVV95cUxOSW9ibkVRSXFUbGhfc0tnX2Fland2X0NRczdXaXo2YWVMeFN6NWZzU1dkQmNHTmo3aWZEQ213RGVLckJFTjN4dGxvSk1aQ2RSTE9JUXB3S2VfRzdjNnk5RVo4ZFlaR181WS04Wi1IVmx0V2VnZEwxS1M2a2lRd2JEOWZ6QUQ0OEFXbm1WRzg0QTM4TTU0aTNSYjRsQUJBdXI0UUZ0aHZxMVk0ZXo0d2lqYkN3SFRLLWk0Yl80?oc=5",
       "isNew": false
     }
   ]
