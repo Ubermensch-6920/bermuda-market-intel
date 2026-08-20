@@ -1,5 +1,5 @@
 {
-  "updated": "2026-08-19T21:47:17Z",
+  "updated": "2026-08-20T01:57:41Z",
   "topics": [
     "Insurance AM",
     "Private Credit",
@@ -20,6 +20,16 @@
     {
       "id": "009e8dc8f4e2",
       "title": "Fed Talked Rate Hike if Inflation Fails to Cool Further | National News | U.S. News",
+      "source": "U.S. News & World Report",
+      "date": "2026-08-19T19:07:00Z",
+      "topic": "Rates & Macro",
+      "summary": "",
+      "link": "https://news.google.com/rss/articles/CBMiuAFBVV95cUxPRVo5OU5OQlk3bHpRcUlzMVNsNDEtLTQ1a05Zb1NoUldHZUtvcWMybE9WT1lQZkJFYXlBSXFwNEg0cGY1SE0zMUR2N1NrQzBpMi04Y0ppeTlTbEtNdWhETFRYN3NZdmlzQ3ZKOERrZ3NYVTBLem51bEVSRG44ZU40TUZHWGNWVmpTYkxMa1ZvNE1oM3FDYkhRTWtpY2lBcklidV9EVk9JXzQ3eE0zNndtZ1REV2VLNHZ3?oc=5",
+      "isNew": false
+    },
+    {
+      "id": "864cbef08882",
+      "title": "Fed Talked Rate Hike if Inflation Fails to Cool Further",
       "source": "U.S. News & World Report",
       "date": "2026-08-19T19:07:00Z",
       "topic": "Rates & Macro",
@@ -280,7 +290,7 @@
     {
       "id": "0a1538110f4f",
       "title": "CVC agrees $3.5bn credit and secondaries partnership with AIG",
-      "source": "privatedebtinvestor.com",
+      "source": "pei-privatecredit.com",
       "date": "2026-08-17T11:12:49Z",
       "topic": "Private Credit",
       "summary": "",
@@ -295,16 +305,6 @@
       "topic": "Private Credit",
       "summary": "",
       "link": "https://news.google.com/rss/articles/CBMiekFVX3lxTE9oWVhvUmRSRWlGRFpsQ2dkNHoxa1o3Zmd6ZHE3N0plZmRYVllWWXdvQ21kVVFOSFFBcFNuVXp0cWYwbEJoNy1ObGdDTlU4cjM3XzNObzQzMlREOFM4dXVYajl1VXdiVDFHYTB0dkNPY3FVM1p5blZLbnRn?oc=5",
-      "isNew": false
-    },
-    {
-      "id": "0582338c9416",
-      "title": "Private credit under strain as troubled loans swell",
-      "source": "Financial Times",
-      "date": "2026-08-17T06:30:10Z",
-      "topic": "Private Credit",
-      "summary": "",
-      "link": "https://news.google.com/rss/articles/CBMihAFBVV95cUxNOWs5aFdYT3UtRjA3aTVEaGhjTWJ0M2lzaEstMkRRSHVzN3h5NDBfdFpwWmVhNEtuS1Q1OUZsZVM5bVVGM0hhRlRWcEg0eGNnb09SWHp6WkNNakl6ZG9KRWxodDlDQkUzWE5rSDJrbGYzWDhDUDl3RGEzZXNPZDR4ZGRWSGg?oc=5",
       "isNew": false
     }
   ]

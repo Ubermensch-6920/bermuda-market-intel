@@ -78,8 +78,8 @@
     {
       "date": "2025-08-04",
       "rate": 4.33,
-      "ust_3m": 4.35,
-      "ust_1y": 3.82
+      "ust_3m": null,
+      "ust_1y": null
     },
     {
       "date": "2025-08-05",
@@ -1637,8 +1637,8 @@
     }
   ],
   "year_ago": {
-    "rate": 4.33,
-    "date": "2025-08-19"
+    "rate": 4.31,
+    "date": "2025-08-20"
   },
   "term_rates": {
     "1M": {
@@ -1661,5 +1661,5 @@
     }
   },
   "note": "Published daily by NY Fed at ~8:00 AM ET. Averages are backward-looking compounded (30/90/180-day) via FRED.",
-  "_fetched": "2026-08-19T21:42:30.932257Z"
+  "_fetched": "2026-08-20T01:52:38.924165Z"
 }
