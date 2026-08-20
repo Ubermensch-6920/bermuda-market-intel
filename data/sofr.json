@@ -1647,12 +1647,6 @@
       "prior": 3.6408,
       "date": "2026-08-20"
     },
-    "3M": {
-      "name": "SOFR 90D Avg",
-      "rate": 3.6383,
-      "prior": 3.6371,
-      "date": "2026-08-20"
-    },
     "6M": {
       "name": "SOFR 180D Avg",
       "rate": 3.6603,
@@ -1661,5 +1655,5 @@
     }
   },
   "note": "Published daily by NY Fed at ~8:00 AM ET. Averages are backward-looking compounded (30/90/180-day) via FRED.",
-  "_fetched": "2026-08-20T15:50:16.397370Z"
+  "_fetched": "2026-08-20T19:01:19.853856Z"
 }

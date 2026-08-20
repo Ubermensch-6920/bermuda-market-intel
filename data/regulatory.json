@@ -1,5 +1,5 @@
 {
-  "updated": "2026-08-20T15:53:39Z",
+  "updated": "2026-08-20T19:04:43Z",
   "naic": [
     {
       "id": "260f5794b3cb",
@@ -9,6 +9,16 @@
       "summary": "",
       "source": "repairerdrivennews.com",
       "link": "https://news.google.com/rss/articles/CBMixwFBVV95cUxOdnJHdmR6eVJyZGQzVTNGR25ycVV1VW1vaVNkU0lUYk5TNEQtSk8zdzdxbXVKOTZFQUx6amdhOWFVRFE1REhEVmNCNTRQTW5VNWtBQktxOThIemVHYXg1TGRpVXljUk0yV1BwNUd1bmdzS3FwRExxaXdyOTczanFVY3ZoaEVjTFJVbHI3UWl5VGFJZjBZUloyY3J4eHBEWmxZU2VfQjNZM05kU3RGZFFYUGJMZFZ3MVNwNEdOekhzM2oyUV8zSzA0?oc=5",
+      "isNew": true
+    },
+    {
+      "id": "0735ec93f760",
+      "title": "NAIC Committee proposes reinsurance RBC and reporting changes",
+      "date": "2026-08-20",
+      "cat": "Reporting",
+      "summary": "",
+      "source": "Norton Rose Fulbright",
+      "link": "https://news.google.com/rss/articles/CBMizAFBVV95cUxOTWJEMlo5UWlzZV84WURfLXdOakNqNnZnS3BqZURtLUFVV1pXeG83X1dPd0Y0WFJHTTNlc21Kam5QRmdOdnRuQjQ3MUpSdUhRc2xtb0VDVXU5Y0ZvUkp6SzNObklkTHN1a01IVFpBWXkta3FUd2pWdERSeWtFejFXNDBzOUhMSGNabThucHdwdW8yR2RLMHl6SGxGT2tHMVhEYlVkVS1rMVQ1eERwaWhuZWNmS3lwVEtkQWppd3Vxb1EyekdCUDc3c3MweXk?oc=5",
       "isNew": true
     },
     {
@@ -240,19 +250,19 @@
       "source": "Washington Examiner",
       "link": "https://news.google.com/rss/articles/CBMijgFBVV95cUxQbEVJTVItZDZUb2ZUbUtwSEpxTE53eTZHZmN1MVZPdG4xTDdvZWNRdmhiWEVsNzkxOGlLNVBqY1VMLUFlaDJoX0kxRXUtQ3hvWVAyVGJsQXBwSEtlai1oYmhWNW1ZRW9nekZ2TEFWOG1BdEI2STNReWt3Qm5IYjBENmRNQ1BRcFdrM0lyWUtn?oc=5",
       "isNew": true
-    },
-    {
-      "id": "1f3f2eda1317",
-      "title": "Private credit now dominates life insurer bonds as NAIC rewrites the rulebook",
-      "date": "2026-08-10",
-      "cat": "Investment",
-      "summary": "",
-      "source": "Insurance Business",
-      "link": "https://news.google.com/rss/articles/CBMi4wFBVV95cUxPeFhrMUhVOHRGVXF4WUNSdVUyRXBHXzFzcG1BWXhYblhIUzBqMkZvM0NGVXh2M2E4Z1R3Q2VKWlZBbklNb05Ta1ROMF9ydlpaUTVKZjB1UTJZRnVQWkFlRGNhSXdJbDlvMzJRU0E5SVFqVzhWY1EySjFlRUk1d29ueFdqNzJXNGtGLW9JNzRiT2hHOUxTLVFYd0l0MU1zTWRObjJCaVI5MWJpbXhMejJQUWtQUzE0NWl5Z21IeUJQTzlyVnBnd09FM0dnZ1ZRMlMyOGplRktNdkZIS0hJLTBfWkpiaw?oc=5",
-      "isNew": true
     }
   ],
   "bma": [
+    {
+      "id": "bdf53ddc1afa",
+      "title": "BMA Register Seven New Insurers In July",
+      "date": "2026-08-20",
+      "cat": "General",
+      "summary": "",
+      "source": "Bernews",
+      "link": "https://news.google.com/rss/articles/CBMic0FVX3lxTFBMaXl4eXRTMllDZEtiNkFXdVF3OEIzYXVJb3F2ME0yV0h0NHlERWZib3ItRGMwamphamI0d2tJcVlzVVdJeFhUUFlxajJEYVh5M2tIX01UeGl2eVlhbFo5Qlc4c1lCaFdCXzd5bmNDclVVRm8?oc=5",
+      "isNew": true
+    },
     {
       "id": "08adc0750aa8",
       "title": "BMA proposes AI safeguards",
@@ -485,16 +495,6 @@
     },
     {
       "id": "db4f540dde11",
-      "title": "It\u2019s healthy to sometimes disagree with regulators",
-      "date": "2026-07-10",
-      "cat": "General",
-      "summary": "",
-      "source": "Royal Gazette | Bermuda",
-      "link": "https://news.google.com/rss/articles/CBMiywFBVV95cUxNaTJ1ZlhIX1lqVFhhRlFUU1NIdVhBTjJNSU9SYW1rLUZDaE1LSnpVczZrWGtLQnVuNnIyaUZ5YXVydHItZDJBV2hkRHBaNV9kTFRSOFpzcVdZaEhodE1RbEN2SVEySUdORlNQYXBDWXlBUkZ4OFp6N19yTmFHNUs1U0w4Z21kMGt2TEhXd3lNR2s1WXB4WUdpa2c0bFhsN2xjcHFlR1FoUVZNZzNFZFNfR2hQVFFEN09YVTNSdHl5aFpGd2VaX1NMQ1dfVQ?oc=5",
-      "isNew": false
-    },
-    {
-      "id": "52447a15c3ed",
       "title": "It\u2019s healthy to sometimes disagree with regulators",
       "date": "2026-07-10",
       "cat": "General",
