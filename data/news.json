@@ -1,5 +1,5 @@
 {
-  "updated": "2026-08-20T09:55:54Z",
+  "updated": "2026-08-20T13:17:31Z",
   "topics": [
     "Insurance AM",
     "Private Credit",
@@ -7,6 +7,16 @@
     "Structured Credit"
   ],
   "items": [
+    {
+      "id": "43a619ecf48d",
+      "title": "Ping An Insurance's first-half profit jumps 36% on asset management boost",
+      "source": "Reuters",
+      "date": "2026-08-20T11:04:31Z",
+      "topic": "Insurance AM",
+      "summary": "",
+      "link": "https://news.google.com/rss/articles/CBMiowFBVV95cUxOSDctQVVsQWZiZVExdld2R1dGM0tYLXZiZTREQlBMTWdLT0xHRmgyTEpUSDJUSUtQaGxKMk1wX21wdEk5eVowRjktMWRTQVUtd0pUZHExbkZ4MUF6T1FUMW1sRml6MDNHWDIwNHlGSXhfUkFaNDk4TWhNbnk0bGF4eWxzT2tlV2Y0bENCUW0wMVpJcWpqQWNnX1VxZ21aNE5XYlNj?oc=5",
+      "isNew": false
+    },
     {
       "id": "161cae9ff333",
       "title": "Bond yields fall after Treasury announces surprise move to ease rising rates",
@@ -91,10 +101,10 @@
       "id": "599d9f20ff15",
       "title": "Global Government Bond Yields Stabilize Ahead of Fed Minutes",
       "source": "WSJ",
-      "date": "2026-08-19T09:12:00Z",
+      "date": "2026-08-19T09:13:00Z",
       "topic": "Rates & Macro",
       "summary": "",
-      "link": "https://news.google.com/rss/articles/CBMivgFBVV95cUxORVB5Q21FX2JBR2FpUWd2Vm9TS2lmeGdJNTNmN0kwcm11dzFUOFhUTHVJdXpyVkpBbXhXSXh3VUxKbG1nelJaWHZ3WXhuVUhlMUIySEFla1YzQXp1QXpQeFo1TzZiTmNZTk5VaVotaXI5MmtaQkFLck8xSWlzZkdjbUhxejlkdE9BdDh1bDFHbnZfaGVKUGJUczdGVmdYbUhFSEVNVUJYTXhoZjhKS1JqRjBXdjZkdHZlVXpRaHZR?oc=5",
+      "link": "https://news.google.com/rss/articles/CBMiswFBVV95cUxQcWZWaC1oVFRNRHpqUFJZM1BUNDlZdFBYTEstZ1FGUHgyZjFoS0gtRkJEMERIVkxUbS0xNkVoOE82T0djM181V1FBcWJuYnB3blhGUHdKdkk0N3ZLc3pGaU50VGRtZks1Yk1tOGNfUW9hdy1XTEpadTBpVnpwY2J3eVpYckNTOXBXRTFHVkgzajQ5N0ZJSWhvemY3MUhNYlNVU3JrSjZkWk12ZHdHeEFBZ3h5aw?oc=5",
       "isNew": false
     },
     {
@@ -155,6 +165,16 @@
       "topic": "Insurance AM",
       "summary": "",
       "link": "https://news.google.com/rss/articles/CBMi3AFBVV95cUxOMzg1d241Y1Y5dUN3LWxPdkNJSV9rVU4zeFVtcXlZNWtrc3N6dUNleXh4WDQ3Y1hpcV8yZHUwOEkyV0V2RVBMcElqdHg1UjdXcVdTYzJQN0VUNEJYbmxhOEFxN1hZLTJyRzNkUU5uSzlrOHhpSHZWWGZsbmFQbm5QamxGMXQzVXVOZEJ4S2RrX3lHVFNxWlF1Zkw2eHVOQTVBcWp6Vm5QcGg2NHNYQVdtdl85Tm85TlB5Y3lTaElxOTg2c0xYMEVIUW5OS0FVdkh0aHR3b2o1ZG9NamNT0gHiAUFVX3lxTE1MVFRnT182TFZYb2w1Zkhrb2lEY0JQZEJCZERTeG9ZdmU5aFRCcjlQR0EtbGxMVFo4NVliNFU3WGFQY3htOUdCVThOaVk3bWlSeWNsUzRzdTdaWFdJMFB2UE50T0hvRThfV3RRVHNTcmZSWHU3YWNDSDd2c1hHLU5xTlJkQ0RqblM1VHBzMVFveG4zMlZEZzVKTGRzU1M1SGQ2WFl1ak9iSVNlYVNKMXhseFY0cTdDZU1VSlFNSVc1QWpUcVBSM0lUalFaTElTd1lBNjNiM08wZE5CZ1RLOXRBYmc?oc=5",
+      "isNew": false
+    },
+    {
+      "id": "9eef69affff2",
+      "title": "U.S. government debt yields are surging at a bad time. Here's what's behind the move",
+      "source": "CNBC",
+      "date": "2026-08-18T17:25:20Z",
+      "topic": "Rates & Macro",
+      "summary": "",
+      "link": "https://news.google.com/rss/articles/CBMitwFBVV95cUxPWFJ4QWF6ZXRKT3NEQzd5U1J5bi1JVGQwZnotbWZGeVNzZEdhdGVGQy00RnJDSUtVZE1VYVR5bFYzcDBKZktkX2xXNVJubmUtZ1VlZDR3RXNHQXVkcVNNVExodkNwcHRQVEV0UzMyZEZjS2Z6bkFQZ3I3Nm9kTTkxOFNaalhnN2FzQTRkcWpVdWpYMVFfa0J0Zi1xRTZHdDhyNVV5V0FtZFlrb0dxUkJ0ZDBKdkJPbGfSAbwBQVVfeXFMTWVadE82UFBkbndVWks0UzdhajNTZlhaVDdnLVhnTlpOQUJqWHBPbFRxMFpZSi1fOXp6em5NalBzSnNfMzY4MW1YVWdMLWwyMUxpNnV4YVd0V09kN1pCWEtYREI0dHMwN2NaQ2NjTm5zWFhNQi12MlZTLXdaLUU3SnRQUmFhbk1KaXpPNHpzNjFiZGk3M0dVOXNUQW1laWRxRXczRFBidW94NGpRbC1ZM01nMGhNSkdyMl84MTk?oc=5",
       "isNew": false
     },
     {
@@ -285,26 +305,6 @@
       "topic": "Insurance AM",
       "summary": "",
       "link": "https://news.google.com/rss/articles/CBMiuwFBVV95cUxOSW9ibkVRSXFUbGhfc0tnX2Fland2X0NRczdXaXo2YWVMeFN6NWZzU1dkQmNHTmo3aWZEQ213RGVLckJFTjN4dGxvSk1aQ2RSTE9JUXB3S2VfRzdjNnk5RVo4ZFlaR181WS04Wi1IVmx0V2VnZEwxS1M2a2lRd2JEOWZ6QUQ0OEFXbm1WRzg0QTM4TTU0aTNSYjRsQUJBdXI0UUZ0aHZxMVk0ZXo0d2lqYkN3SFRLLWk0Yl80?oc=5",
-      "isNew": false
-    },
-    {
-      "id": "0a1538110f4f",
-      "title": "CVC agrees $3.5bn credit and secondaries partnership with AIG",
-      "source": "pei-privatecredit.com",
-      "date": "2026-08-17T11:12:49Z",
-      "topic": "Private Credit",
-      "summary": "",
-      "link": "https://news.google.com/rss/articles/CBMinAFBVV95cUxQWTJPMG5ZMGppRWtNdUZrbTVfNVJUMUZaakpqb0ZpaUxOSElfMU1yaWNwZ1lHekJjcDVwZkRoQUtmNEVPcEFfUktFbWFFa3QtTk1ZbVBpSEVFLU5RUDJ0ZFZDQ2txYVhucUJ3Qk05U3V4RkY1TjBTWVhiNk1rSk9hRnNUckhoc1dwMlhzUE9pQ281SXVTbzVzeWx3UjI?oc=5",
-      "isNew": false
-    },
-    {
-      "id": "bbc00ea7fae2",
-      "title": "Credit In The Straight World",
-      "source": "josimarfootball.com",
-      "date": "2026-08-17T10:34:28Z",
-      "topic": "Private Credit",
-      "summary": "",
-      "link": "https://news.google.com/rss/articles/CBMiekFVX3lxTE9oWVhvUmRSRWlGRFpsQ2dkNHoxa1o3Zmd6ZHE3N0plZmRYVllWWXdvQ21kVVFOSFFBcFNuVXp0cWYwbEJoNy1ObGdDTlU4cjM3XzNObzQzMlREOFM4dXVYajl1VXdiVDFHYTB0dkNPY3FVM1p5blZLbnRn?oc=5",
       "isNew": false
     }
   ]
