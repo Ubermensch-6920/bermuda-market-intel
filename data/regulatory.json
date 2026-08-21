@@ -1,6 +1,16 @@
 {
-  "updated": "2026-08-21T13:16:48Z",
+  "updated": "2026-08-21T15:53:30Z",
   "naic": [
+    {
+      "id": "cfcee51e4106",
+      "title": "Government steps up engagement with US insurance regulators",
+      "date": "2026-08-21",
+      "cat": "General",
+      "summary": "",
+      "source": "Cayman Finance",
+      "link": "https://news.google.com/rss/articles/CBMinAFBVV95cUxPeDdNT04xWERXZWJKU3R5dG9ZMDgyUlZwTE5WOENfT1JGUGpUS2JZS1dNajNBaWw4UFRvOXZPaWo1MENLYVNRaEdpLVd5MnVCUHdIZ1ozblE1MTg1eVhBNDFkSk9oNXp3d3lIaUVhNGZBOS14XzJGdFZSN2ttTDJyMnRYZ1pSTzRvY0tGV3hTU3FqWjU2dTFFRkhlNzM?oc=5",
+      "isNew": true
+    },
     {
       "id": "260f5794b3cb",
       "title": "NAIC Working Group adopts independent adjuster licensing guideline, seeks comments",
@@ -239,16 +249,6 @@
       "summary": "",
       "source": "Intelligent Insurer",
       "link": "https://news.google.com/rss/articles/CBMisAFBVV95cUxPNXhCbWNpS0Fvdkp5TWd5N2RvQmtTNW1tY2p0QjlTRjlleTB0N0tMWGZnSGdnek1BRW12TExsMFg2eHFWaHlqMFhKbl9xZW95eVlndi13QlBLYkoySkRtSmdsYWdtMnpTbWFZQkFVZnJrSEFfckd5b2R4ai1uSmxlczhMak9CQllBMDBKSzdnSFVIUGJmWl9DOElqSnRESDUxTk9kb0dWdkd6RXQ0QzBOQg?oc=5",
-      "isNew": true
-    },
-    {
-      "id": "ec144b552041",
-      "title": "Cayman Islands premier to meet with U.S. reinsurance regulators",
-      "date": "2026-08-11",
-      "cat": "General",
-      "summary": "",
-      "source": "InsuranceNewsNet",
-      "link": "https://news.google.com/rss/articles/CBMipAFBVV95cUxNbkdMNEV6SmlZWDJ2Um4wRGp6SkY2alMzcGhSV1ZNbUxJSWstZ09PdTRzalFSRWtNWkNqWGZ5eWpCaVRQUmlSS0RycUpDeDlHVGk5RXJDdl94YUJzSjFkLW1rNWFPLVZUQ0YzMXdieEhFMTV4T1FHVVFSanN1LURNOUpZLUJ1RjVsQk03dnRJdGtpVlJDUkRFN1VGdkhNRk5SU20tUQ?oc=5",
       "isNew": true
     }
   ],

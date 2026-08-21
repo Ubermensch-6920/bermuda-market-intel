@@ -2,7 +2,7 @@
   "date": "2026-08-21",
   "source": "FRED / TradingEconomics / Investing / Yahoo Finance",
   "gold": {
-    "spot": 4577.54,
+    "spot": 4610.08,
     "spot_date": "",
     "spot_source": "TradingEconomics",
     "unit": "USD/troy oz",
@@ -18,7 +18,7 @@
     "prior_2y_date": "2024-08-21",
     "futures": {
       "3M": {
-        "price": 4637.5,
+        "price": 4666.8,
         "expiry": "Dec 2026",
         "contract": "GCZ26",
         "prior_1m": 4179.4,
@@ -35,7 +35,7 @@
         "prior_2y_contract": "GCZ24"
       },
       "6M": {
-        "price": 4674.0,
+        "price": 4702.9,
         "expiry": "Feb 2027",
         "contract": "GCG27",
         "prior_1m": 4243.3,
@@ -104,7 +104,7 @@
     "prior_2y_date": "2024-08-21",
     "futures": {
       "3M": {
-        "price": 84.69,
+        "price": 85.13,
         "expiry": "Nov 2026",
         "contract": "CLX26",
         "prior_1m": 83.64,
@@ -121,7 +121,7 @@
         "prior_2y_contract": "CLX24"
       },
       "6M": {
-        "price": 79.1,
+        "price": 79.39,
         "expiry": "Feb 2027",
         "contract": "CLG27",
         "prior_1m": 77.04,
@@ -138,7 +138,7 @@
         "prior_2y_contract": "CLG25"
       },
       "12M": {
-        "price": 74.09,
+        "price": 74.0,
         "expiry": "Aug 2027",
         "contract": "CLQ27",
         "prior_1m": 72.28,
@@ -190,7 +190,7 @@
     "prior_2y_date": "2024-08-21",
     "futures": {
       "3M": {
-        "price": 92.11,
+        "price": 92.62,
         "expiry": "Nov 2026",
         "contract": "BZX26",
         "prior_1m": 90.18,
@@ -207,7 +207,7 @@
         "prior_2y_contract": "BZX24"
       },
       "6M": {
-        "price": 85.05,
+        "price": 85.47,
         "expiry": "Feb 2027",
         "contract": "BZG27",
         "prior_1m": 83.12,
@@ -346,5 +346,5 @@
     }
   },
   "note": "Spot history comes from daily FRED series. Futures history is roll-aware by target date. USD/INR latest spot: FRED DEXINUS, then Yahoo INR=X / keyless FX APIs when FRED lags; forwards fall back to CIP derivation from India/UST curves when market quotes are unavailable.",
-  "_fetched": "2026-08-21T13:15:55.490439Z"
+  "_fetched": "2026-08-21T15:52:37.821943Z"
 }
