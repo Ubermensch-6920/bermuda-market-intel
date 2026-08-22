@@ -1,11 +1,21 @@
 {
-  "updated": "2026-08-21T21:43:52Z",
+  "updated": "2026-08-22T01:54:48Z",
   "topics": [
     "Insurance AM",
     "Private Credit",
     "Rates & Macro"
   ],
   "items": [
+    {
+      "id": "4fd35f5354f1",
+      "title": "What\u2019s Driving Canadian Bond Yields Higher?",
+      "source": "Morningstar",
+      "date": "2026-08-21T19:32:10Z",
+      "topic": "Rates & Macro",
+      "summary": "",
+      "link": "https://news.google.com/rss/articles/CBMijAFBVV95cUxNWnZybTExWDU1cXh6dHp2TlZrRnhyVlpGWUdaenZoTV9OQVcwSUlyemdFcl8zNDVRdUVzM290VDFHOHRBb29WUzhJaTRxa3o1anJIVHQzZGhaU056WGU2eGZYbU5tR3A5eU43OFF6RHBza2d2NlNvV1hOREJoYlBZUVk0NWtVWGlud1FDVw?oc=5",
+      "isNew": false
+    },
     {
       "id": "3272ec8586fe",
       "title": "Brixton Capital Expands Residential Platform to Help Multifamily Owners Unlock Asset Value",
@@ -294,16 +304,6 @@
       "topic": "Rates & Macro",
       "summary": "",
       "link": "https://news.google.com/rss/articles/CBMipwFBVV95cUxQNTVLTjRSbWZxQXVscGJZR2VIV05PYkFFT1JQeGVWZ051SjVHaDdKZV90T3h3SU4zdWl6RzdIZDFaclJwNy0xY3RYWDM5OVlDUnlkMVotX3Y3elU4VzFkWkF6cmhBNnlnOERwb3JMN2RVWHVEVGN0ZUR0UHFKVUNLQXdWWEVLQmQ5S1FuRXhYbC1qQUR1blpFbGdCWXBJaFEwbE5GY2FPc9IBrAFBVV95cUxOeGhYY2hYNFlvV3dxY2U3N3Z4eWw0T2lRNW1XTjhuRFAzN3RYZktIVy1UdmJ2MEdwal9TNkppTTNmZDd4Zkt5ZHN6a0drTDdYUUtodFk4SVpsYUg3Z3QwNTNsbDlnY1g0eTRUQ2xaYWFOQ2szQzlVUWxKal9feElqa0JwUk5jZWpBY1lxZ2lNMDNGUGNlbWVKZXNOVy0wNnlVaWd3TlVGajlDVHRt?oc=5",
-      "isNew": false
-    },
-    {
-      "id": "6239b2116ace",
-      "title": "Star Mountain Closes a Rated CFO to Open Lower-Middle-Market Credit to Insurers:",
-      "source": "HedgeCo.Net",
-      "date": "2026-08-17T19:23:04Z",
-      "topic": "Private Credit",
-      "summary": "",
-      "link": "https://news.google.com/rss/articles/CBMiuAFBVV95cUxQMmNGcV9PMGdlREZUOEtJWWZIVDI5VUI3TzRrOFhnbTlvdDhqVGM1dFVTTlVkNmxNX2taMTdoc1RORG9kT3A4dngzRmVCZkpuVTRobG1FZnQ4SlI5M3lHbk5KZ2s3bk80T1plVDdodXlLSGdWUlY5Nks5R3Y5ME80Ml9NcUNseU0yaGd3VHBqT0NESVVlMTIwb1ZkWks4WjFHTnp4QzhjX0VBb0paaVAtdWJGNW9jazFC?oc=5",
       "isNew": false
     }
   ]
