@@ -1,11 +1,21 @@
 {
-  "updated": "2026-08-22T21:39:53Z",
+  "updated": "2026-08-23T02:05:16Z",
   "topics": [
     "Insurance AM",
     "Private Credit",
     "Rates & Macro"
   ],
   "items": [
+    {
+      "id": "2d0e78c6ce0b",
+      "title": "Mark Walter\u2019s unravelling empire tests the insurance trade behind private credit\u2019s rise",
+      "source": "Financial Times",
+      "date": "2026-08-22T04:00:38Z",
+      "topic": "Private Credit",
+      "summary": "",
+      "link": "https://news.google.com/rss/articles/CBMihAFBVV95cUxOUjFhbS01RDk0aEoyc2FnLWxlc0F5empPRGh0M0dCeEkyNjVucUVta2ZBR3JWVUVXejluVWw1NnNnNEZ4TFdmWmI4NE11TXhjZjNYc1Bub2FHakI5aG40aWFIMzE1Z3V1VnFsWWhMVkxuWlduOVdiQjlLazNnelZMaVNRYk8?oc=5",
+      "isNew": false
+    },
     {
       "id": "80f6aaa8c068",
       "title": "Transcript of Conference Call: \u201cPrivate Credit\u2019s State Backstop: How Private Equity Socializes Risk Through Insurers\u201d",
@@ -294,16 +304,6 @@
       "topic": "Rates & Macro",
       "summary": "",
       "link": "https://news.google.com/rss/articles/CBMitwFBVV95cUxPWFJ4QWF6ZXRKT3NEQzd5U1J5bi1JVGQwZnotbWZGeVNzZEdhdGVGQy00RnJDSUtVZE1VYVR5bFYzcDBKZktkX2xXNVJubmUtZ1VlZDR3RXNHQXVkcVNNVExodkNwcHRQVEV0UzMyZEZjS2Z6bkFQZ3I3Nm9kTTkxOFNaalhnN2FzQTRkcWpVdWpYMVFfa0J0Zi1xRTZHdDhyNVV5V0FtZFlrb0dxUkJ0ZDBKdkJPbGfSAbwBQVVfeXFMTWVadE82UFBkbndVWks0UzdhajNTZlhaVDdnLVhnTlpOQUJqWHBPbFRxMFpZSi1fOXp6em5NalBzSnNfMzY4MW1YVWdMLWwyMUxpNnV4YVd0V09kN1pCWEtYREI0dHMwN2NaQ2NjTm5zWFhNQi12MlZTLXdaLUU3SnRQUmFhbk1KaXpPNHpzNjFiZGk3M0dVOXNUQW1laWRxRXczRFBidW94NGpRbC1ZM01nMGhNSkdyMl84MTk?oc=5",
-      "isNew": false
-    },
-    {
-      "id": "31845f10f525",
-      "title": "Borrowing costs hit fresh highs on inflation fears",
-      "source": "BBC",
-      "date": "2026-08-18T16:09:45Z",
-      "topic": "Rates & Macro",
-      "summary": "",
-      "link": "https://news.google.com/rss/articles/CBMiWkFVX3lxTFBYdjhGZENDa2kxWFV5bk1KX21zUnREWXJWLS1sRFEtMFowSXY1WFl3LVNfZDdrWXlNVENjNkFuNnVXTUhaZ29lQnk2WUhSZlJQUW5qeTRqS0RDZw?oc=5",
       "isNew": false
     }
   ]
