@@ -2,11 +2,11 @@
   "date": "2026-08-24",
   "source": "FRED / TradingEconomics / Investing / Yahoo Finance",
   "gold": {
-    "spot": 4645.74,
+    "spot": 4662.5,
     "spot_date": "",
     "spot_source": "TradingEconomics",
     "unit": "USD/troy oz",
-    "prior_1d": 4701.7,
+    "prior_1d": 4729.0,
     "prior_1d_date": "2026-08-24",
     "prior_1m": 4067.6,
     "prior_1m_date": "2026-07-24",
@@ -18,7 +18,7 @@
     "prior_2y_date": "2024-08-23",
     "futures": {
       "3M": {
-        "price": 4701.6,
+        "price": 4730.6,
         "expiry": "Dec 2026",
         "contract": "GCZ26",
         "prior_1m": 4098.9,
@@ -35,7 +35,7 @@
         "prior_2y_contract": "GCZ24"
       },
       "6M": {
-        "price": 4737.8,
+        "price": 4765.0,
         "expiry": "Feb 2027",
         "contract": "GCG27",
         "prior_1m": 4162.3,
@@ -52,7 +52,7 @@
         "prior_2y_contract": "GCG25"
       },
       "12M": {
-        "price": 4847.8,
+        "price": 4867.5,
         "expiry": "Aug 2027",
         "contract": "GCQ27",
         "prior_1m": 4260.2,
@@ -104,7 +104,7 @@
     "prior_2y_date": "2024-08-23",
     "futures": {
       "3M": {
-        "price": 83.31,
+        "price": 83.83,
         "expiry": "Nov 2026",
         "contract": "CLX26",
         "prior_1m": 85.15,
@@ -121,7 +121,7 @@
         "prior_2y_contract": "CLX24"
       },
       "6M": {
-        "price": 77.84,
+        "price": 78.25,
         "expiry": "Feb 2027",
         "contract": "CLG27",
         "prior_1m": 77.67,
@@ -190,7 +190,7 @@
     "prior_2y_date": "2024-08-23",
     "futures": {
       "3M": {
-        "price": 91.0,
+        "price": 91.54,
         "expiry": "Nov 2026",
         "contract": "BZX26",
         "prior_1m": 91.68,
@@ -346,5 +346,5 @@
     }
   },
   "note": "Spot history comes from daily FRED series. Futures history is roll-aware by target date. USD/INR latest spot: FRED DEXINUS, then Yahoo INR=X / keyless FX APIs when FRED lags; forwards fall back to CIP derivation from India/UST curves when market quotes are unavailable.",
-  "_fetched": "2026-08-24T10:07:58.816253Z"
+  "_fetched": "2026-08-24T13:16:48.919624Z"
 }
