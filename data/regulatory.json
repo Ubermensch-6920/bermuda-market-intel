@@ -1,5 +1,5 @@
 {
-  "updated": "2026-08-24T13:17:39Z",
+  "updated": "2026-08-24T16:00:26Z",
   "naic": [
     {
       "id": "cfcee51e4106",
@@ -254,6 +254,16 @@
   ],
   "bma": [
     {
+      "id": "1e635a9c163e",
+      "title": "Consultation On Proposed Insurance Rules",
+      "date": "2026-08-24",
+      "cat": "General",
+      "summary": "",
+      "source": "Bernews",
+      "link": "https://news.google.com/rss/articles/CBMidkFVX3lxTFAtMk5oeGM2aThiN1Zud1A4NWtYdy1fTVBDc1pscG15QWFwcVlEU0RqQ3lCb1pJYzNWSV9QdXRYWEFWTFFGd05iY0dNT1VZMUxMRUwzbGtDS1lvUG1nYWxhN203RVluS21PM1haNDJyVC1xd2NuTXc?oc=5",
+      "isNew": true
+    },
+    {
       "id": "9a8c897c3aea",
       "title": "BMA seeks tougher oversight for global insurance groups",
       "date": "2026-08-24",
@@ -486,16 +496,6 @@
     {
       "id": "bb738c880046",
       "title": "How the BMA could leverage AI",
-      "date": "2026-07-14",
-      "cat": "Governance",
-      "summary": "",
-      "source": "Royal Gazette | Bermuda",
-      "link": "https://news.google.com/rss/articles/CBMiqAFBVV95cUxPcXNDMmwwaG9ia1JVRkNVOHdQNjJiQnlON3IzaWk1Q3VQVFFSTGhzbGRhUmxkNnRqT0FwWWpOOF9ZYTQ3alF0cmh4dXFaYnVwOXYxTDZibGU4UG9sWWdpLXF2WHY1TWhoOVdoSHB5RXFYcjVBVlZFUVMzNHp3eHRMdUkzMDZ2TDR1NV85aTVOMXYxejFjMTI0UHM0eHZzNmFhc0NWdmpMNDE?oc=5",
-      "isNew": false
-    },
-    {
-      "id": "d8241116bfa2",
-      "title": "Duncan Card: How the BMA could leverage AI",
       "date": "2026-07-14",
       "cat": "Governance",
       "summary": "",
