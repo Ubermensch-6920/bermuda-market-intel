@@ -1,5 +1,5 @@
 {
-  "updated": "2026-08-24T07:33:15Z",
+  "updated": "2026-08-24T10:08:48Z",
   "naic": [
     {
       "id": "cfcee51e4106",
@@ -254,6 +254,16 @@
   ],
   "bma": [
     {
+      "id": "9a8c897c3aea",
+      "title": "BMA seeks tougher oversight for global insurance groups",
+      "date": "2026-08-24",
+      "cat": "General",
+      "summary": "",
+      "source": "Royal Gazette | Bermuda",
+      "link": "https://news.google.com/rss/articles/CBMiwAFBVV95cUxPVEJSMnhBY2czSFNvUDJjRXNUTFB4ZHBrOXpISDRuTHNYVkFIRG5TaUlKNkdSRFFjeU9SNDl5dWJPN1V6a3lnX01PblM2U3NwWU1OZGJDdVRScDh6N2JCSXJ0WVJXSnRDdFNRQzhkeVZWVENId3Nlb2Faa0NYNS02TlNPZ3RGajdCa2ZkTmp6NmQxMUk5dGF5Z25UZzFwb254WUl3M1o0V2tJbk1kNlk2ODdtR0VuOTlleW5JVlZQNC0?oc=5",
+      "isNew": true
+    },
+    {
       "id": "bdf53ddc1afa",
       "title": "BMA Register Seven New Insurers In July",
       "date": "2026-08-20",
@@ -491,16 +501,6 @@
       "summary": "",
       "source": "Royal Gazette | Bermuda",
       "link": "https://news.google.com/rss/articles/CBMiqAFBVV95cUxPcXNDMmwwaG9ia1JVRkNVOHdQNjJiQnlON3IzaWk1Q3VQVFFSTGhzbGRhUmxkNnRqT0FwWWpOOF9ZYTQ3alF0cmh4dXFaYnVwOXYxTDZibGU4UG9sWWdpLXF2WHY1TWhoOVdoSHB5RXFYcjVBVlZFUVMzNHp3eHRMdUkzMDZ2TDR1NV85aTVOMXYxejFjMTI0UHM0eHZzNmFhc0NWdmpMNDE?oc=5",
-      "isNew": false
-    },
-    {
-      "id": "db4f540dde11",
-      "title": "It\u2019s healthy to sometimes disagree with regulators",
-      "date": "2026-07-10",
-      "cat": "General",
-      "summary": "",
-      "source": "Royal Gazette | Bermuda",
-      "link": "https://news.google.com/rss/articles/CBMiywFBVV95cUxNaTJ1ZlhIX1lqVFhhRlFUU1NIdVhBTjJNSU9SYW1rLUZDaE1LSnpVczZrWGtLQnVuNnIyaUZ5YXVydHItZDJBV2hkRHBaNV9kTFRSOFpzcVdZaEhodE1RbEN2SVEySUdORlNQYXBDWXlBUkZ4OFp6N19yTmFHNUs1U0w4Z21kMGt2TEhXd3lNR2s1WXB4WUdpa2c0bFhsN2xjcHFlR1FoUVZNZzNFZFNfR2hQVFFEN09YVTNSdHl5aFpGd2VaX1NMQ1dfVQ?oc=5",
       "isNew": false
     }
   ],
