@@ -1,5 +1,5 @@
 {
-  "updated": "2026-08-25T19:02:40Z",
+  "updated": "2026-08-25T21:48:43Z",
   "topics": [
     "Insurance AM",
     "Private Credit",
@@ -8,6 +8,26 @@
   ],
   "items": [
     {
+      "id": "c1ca21adaac2",
+      "title": "Guggenheim-linked insurers financed LeBron James with private bonds",
+      "source": "Sports Business Journal",
+      "date": "2026-08-25T19:13:27Z",
+      "topic": "Private Credit",
+      "summary": "",
+      "link": "https://news.google.com/rss/articles/CBMixAFBVV95cUxPdlRtTGR2RklZTkktcDI4WDhRUUhTV2tFZDJnVXc4a0p2SmpQY2RtM0htVTF3UHVKeVFoMUJGVEUtUjBQMnRRQ29zRUNrNU5wQ1FZaW9QOU1PckRORHFXNVJYYWJmV2VWMjZ5SlZyekJ3RDdlQURvOEwyT2w5QUh0OVV1UDZFbmhONTkxTldUUHB5ZGZva3JzTkJZUjh2NzJyZVRSTVlqNlFRMlU2NE0zRFdOemFqR1ZZSVNBdEZUWGZZUFVD?oc=5",
+      "isNew": false
+    },
+    {
+      "id": "457f07ccf927",
+      "title": "LeBron James borrowed $300 million from insurers arranged by Guggenheim",
+      "source": "Los Angeles Times",
+      "date": "2026-08-25T18:40:47Z",
+      "topic": "Private Credit",
+      "summary": "",
+      "link": "https://news.google.com/rss/articles/CBMivAFBVV95cUxNOS1aeG5sVE55SldhdkFoWlZrUWJDUTlqUk1DN3FUcE1GTHdtMDFNRUp6ZGt3bU1sTlZHcml6eHN4ME9RX1AyaXBTUUJ5TldKMnBaVHZwWVFIdFBHSjVXcmJFbF81TTJ2VkV5T0pEcmVfbXQ1Y0dDWFdnSkRYWUtKMFRVTERfZzVqM1ZCOVNmWGZzWDN0cWdzeXI4VTh2Ui1oSTZ4NjQ2alRRUEVoRTBNZ3BYQmNDTWtjTEM4dg?oc=5",
+      "isNew": false
+    },
+    {
       "id": "6084cc51f195",
       "title": "LeBron James Borrowed $300 Million From Insurers Arranged by Guggenheim",
       "source": "AdvisorHub",
@@ -15,16 +35,6 @@
       "topic": "Private Credit",
       "summary": "",
       "link": "https://news.google.com/rss/articles/CBMinwFBVV95cUxPcXh2QWYzblAwQ1daTk9MQ3RwWF8zOTdBekx6M0E4TGFYbDZWalFZV3VLamtkV2ZLcFBaTlJqNjJuWlZMZzFmWDZCZG9lVkwyNHJjQy1XQTRoUU9GUjZmY0l0MTJPNkhmR1h3OFJOVHBodm02QVJMQXB3NThfdG15cDlXemM1T3R3QmY4Y29kWENpRVhXU2pxcm5oR05Ebjg?oc=5",
-      "isNew": false
-    },
-    {
-      "id": "c1ca21adaac2",
-      "title": "Guggenheim-linked insurers financed LeBron James with private bonds",
-      "source": "Sports Business Journal",
-      "date": "2026-08-25T15:59:40Z",
-      "topic": "Private Credit",
-      "summary": "",
-      "link": "https://news.google.com/rss/articles/CBMixAFBVV95cUxPdlRtTGR2RklZTkktcDI4WDhRUUhTV2tFZDJnVXc4a0p2SmpQY2RtM0htVTF3UHVKeVFoMUJGVEUtUjBQMnRRQ29zRUNrNU5wQ1FZaW9QOU1PckRORHFXNVJYYWJmV2VWMjZ5SlZyekJ3RDdlQURvOEwyT2w5QUh0OVV1UDZFbmhONTkxTldUUHB5ZGZva3JzTkJZUjh2NzJyZVRSTVlqNlFRMlU2NE0zRFdOemFqR1ZZSVNBdEZUWGZZUFVD?oc=5",
       "isNew": false
     },
     {
@@ -51,7 +61,7 @@
       "id": "09ecde372de6",
       "title": "Sun Life and Wilton Re announce partnership",
       "source": "Coverager",
-      "date": "2026-08-25T13:22:35Z",
+      "date": "2026-08-25T13:24:45Z",
       "topic": "Insurance AM",
       "summary": "",
       "link": "https://news.google.com/rss/articles/CBMidEFVX3lxTE93REMwc2ZwaVp5NlNtQmZVWmFlZUtUeWMtdTFMTUtmLV9kZGRWTDhWY1ExMTlyUlp4NUtGeENzUlBmUHhEc2piX2xOTy1NaHZhTW9icml3U2tVekhFVVVLN1pyX0dRYjIwZFMwOWN2ck5PWG5D?oc=5",
@@ -158,6 +168,16 @@
       "isNew": false
     },
     {
+      "id": "43a619ecf48d",
+      "title": "Ping An Insurance's first-half profit jumps 36% on asset management boost",
+      "source": "Nikkei Asia",
+      "date": "2026-08-21T06:56:00Z",
+      "topic": "Insurance AM",
+      "summary": "",
+      "link": "https://news.google.com/rss/articles/CBMitgFBVV95cUxNWHpFa3dBMVF0em1qa2FLT1lLTWpvaUFHLTlYbkQtZUFMT2JJVE1VU2lxVGRmclc2dHZ4cG1fVFNzRU9XdURmdnUtWTl0d2VDb0xsR3luTk55Tjg2MkRjU21MVV9zN2tfRDBmclNab1dBU1lHRkxvQ3ZtdHN1QUtHLXhXYTZiaE1DUWtTbC1MTG80T3FDTmtaVXlvSXJKXzNVT3pucDZCaXR5aTBzM1N6dlMzaGJkdw?oc=5",
+      "isNew": false
+    },
+    {
       "id": "3272ec8586fe",
       "title": "Brixton Capital Expands Residential Platform to Help Multifamily Owners Unlock Asset Value",
       "source": "citybiz",
@@ -228,16 +248,6 @@
       "isNew": false
     },
     {
-      "id": "43a619ecf48d",
-      "title": "Ping An Insurance's first-half profit jumps 36% on asset management boost",
-      "source": "Reuters",
-      "date": "2026-08-20T09:58:00Z",
-      "topic": "Insurance AM",
-      "summary": "",
-      "link": "https://news.google.com/rss/articles/CBMiowFBVV95cUxOSDctQVVsQWZiZVExdld2R1dGM0tYLXZiZTREQlBMTWdLT0xHRmgyTEpUSDJUSUtQaGxKMk1wX21wdEk5eVowRjktMWRTQVUtd0pUZHExbkZ4MUF6T1FUMW1sRml6MDNHWDIwNHlGSXhfUkFaNDk4TWhNbnk0bGF4eWxzT2tlV2Y0bENCUW0wMVpJcWpqQWNnX1VxZ21aNE5XYlNj?oc=5",
-      "isNew": false
-    },
-    {
       "id": "210182ea1eed",
       "title": "NAIC proposes new restrictions on bond classification for ABS with significant ALM risk",
       "source": "DLA Piper",
@@ -295,16 +305,6 @@
       "topic": "Rates & Macro",
       "summary": "",
       "link": "https://news.google.com/rss/articles/CBMiuAFBVV95cUxPRVo5OU5OQlk3bHpRcUlzMVNsNDEtLTQ1a05Zb1NoUldHZUtvcWMybE9WT1lQZkJFYXlBSXFwNEg0cGY1SE0zMUR2N1NrQzBpMi04Y0ppeTlTbEtNdWhETFRYN3NZdmlzQ3ZKOERrZ3NYVTBLem51bEVSRG44ZU40TUZHWGNWVmpTYkxMa1ZvNE1oM3FDYkhRTWtpY2lBcklidV9EVk9JXzQ3eE0zNndtZ1REV2VLNHZ3?oc=5",
-      "isNew": false
-    },
-    {
-      "id": "70d77d165bc8",
-      "title": "Bond yields plunge after Treasury announces surprise move to ease rising rates",
-      "source": "NBC News",
-      "date": "2026-08-19T17:56:42Z",
-      "topic": "Rates & Macro",
-      "summary": "",
-      "link": "https://news.google.com/rss/articles/CBMilAFBVV95cUxPWERIM2I3T0tzZWlQc3dWSzVhX1Z4eGdwbDl3d1N4VUZrWXcwQnpGSVNKbC1aWTU1Z1g4anRBaG15Y3BIT3NhS0YzSGtxSWlnOGpNSlA0ODRZTnBmREwzTWZObHJ6VE1ra25qc2lSRDdGY0VBQWY5Q0RCWDFBNVNDRVRBRTJqMGJ2YWF5QmRQZHR0Y0Jo?oc=5",
       "isNew": false
     }
   ]
