@@ -1,5 +1,5 @@
 {
-  "updated": "2026-08-25T13:16:30Z",
+  "updated": "2026-08-25T16:06:13Z",
   "topics": [
     "Insurance AM",
     "Private Credit",
@@ -7,6 +7,26 @@
     "Structured Credit"
   ],
   "items": [
+    {
+      "id": "f65f9b59bde0",
+      "title": "Wilton Re and Sun Life partner on new life & annuity reinsurance vehicle",
+      "source": "Reinsurance News",
+      "date": "2026-08-25T13:33:24Z",
+      "topic": "Insurance AM",
+      "summary": "",
+      "link": "https://news.google.com/rss/articles/CBMiogFBVV95cUxOSnM5RmRoZUZqRkd0VzhzQ3VJLTFIT09BdlBBdEJKZWRwc01UV3JyNWdLYXRwc3cyaU1FSkRUaGNMM2Q3UmFHMzdmN0FxRXdLWkdQNnM2Ry1NUDBxWGx3dTkxSE9FNkJlV0VNeFdMb3VLSElOQnVBMnlwZnVyamJjeE1TU2RIbnU2ckVIWEtmZU9KcGMzMVBVSG5ldHZ6S2hFaFE?oc=5",
+      "isNew": false
+    },
+    {
+      "id": "09ecde372de6",
+      "title": "Sun Life and Wilton Re announce partnership",
+      "source": "Coverager",
+      "date": "2026-08-25T13:22:35Z",
+      "topic": "Insurance AM",
+      "summary": "",
+      "link": "https://news.google.com/rss/articles/CBMidEFVX3lxTE93REMwc2ZwaVp5NlNtQmZVWmFlZUtUeWMtdTFMTUtmLV9kZGRWTDhWY1ExMTlyUlp4NUtGeENzUlBmUHhEc2piX2xOTy1NaHZhTW9icml3U2tVekhFVVVLN1pyX0dRYjIwZFMwOWN2ck5PWG5D?oc=5",
+      "isNew": false
+    },
     {
       "id": "8c154fe0eec4",
       "title": "Sun Life and Wilton Re announce a strategic partnership, combining depth and breadth of capabilities across life and annuity reinsurance and asset management",
@@ -285,26 +305,6 @@
       "topic": "Insurance AM",
       "summary": "",
       "link": "https://news.google.com/rss/articles/CBMi8gFBVV95cUxOWllDcDNsQUd2X2VyVFRRWjBySGROWHJVN1dFdW9HRHJKZ1Q1bFU4Vlhnb2VqaGd4OGpnYUVJS05lN1pWWllHaFhDOGxXOUpEVXFOcHZ0SzlOellWNjhtUlBaMVhRREplTVdweUY1ZVdITzVBa0dRSkY1LVRkN2dFd1RqZl9wTEQyUFdaMVAtQmxpcUY2R1dyR0Nqb3FKbXMtZ2VOZ0pucGxVMW9WclpqZmRaOG1QZGRGZ1JtcDVEMF83aW5WUldHT2t0cldhVHk0bjYwb1Z0SmpNaXFlb1R5aVdZZ05OR1ZQQ05qUWZzVkhlZw?oc=5",
-      "isNew": false
-    },
-    {
-      "id": "3d873f9791bb",
-      "title": "Market Minute: Global investors are sounding the alarm on debt",
-      "source": "The Real Economy Blog",
-      "date": "2026-08-19T10:00:25Z",
-      "topic": "Rates & Macro",
-      "summary": "",
-      "link": "https://news.google.com/rss/articles/CBMilwFBVV95cUxPRlJOMVlUamVsRVh3UlM4M0pQaU9VN3F5bWU5LU95SDM0NDFhemVMb25ESEdiSng3dnU3ZUxReGNzZEdSY2ZZQ2Y2bFlOSEdpUi1YSk01c2kzSm90ajJ4eXFHNnY5SngzQy1VZzM4Z0NsVWsxNUMtUzN5X3J3UlhwYnppZV9FXzlkOXlOd1h2cWxPM3A4UFRB?oc=5",
-      "isNew": false
-    },
-    {
-      "id": "eef00630e68c",
-      "title": "Canadian Firms Have $360 Billion of Private Credit Exposure, Mostly in US",
-      "source": "Insurance Journal",
-      "date": "2026-08-19T09:28:26Z",
-      "topic": "Private Credit",
-      "summary": "",
-      "link": "https://news.google.com/rss/articles/CBMifkFVX3lxTE9WOGdkY19qcVNPcE9FVXd1b2tBb1MxTFh5Rk8yajRDaHIycGp3TlpLUFdvaE9kNjVIQ1NWaUZXSVI0Y1JGN1U3TDJXNVJRU0xmbTFSbF96am8tb3lkMEhnX0dXeXAzY1BuVFRrakFVcTJDWHBaZC03dF9jNHhJZw?oc=5",
       "isNew": false
     }
   ]
