@@ -14,18 +14,18 @@
   "corporate": {
     "aaa": {
       "name": "AAA Corp",
-      "spread": 43,
-      "prior": 42,
-      "series_id": "BAMLC0A1CAAA",
-      "date": "2026-08-21",
+      "spread": 42,
+      "prior": 43,
+      "series_id": "",
+      "date": "2026-08-24",
       "source": "credit.json"
     },
     "aa": {
       "name": "AA Corp",
-      "spread": 60,
-      "prior": 61,
-      "series_id": "BAMLC0A2CAA",
-      "date": "2026-08-21",
+      "spread": 61,
+      "prior": 60,
+      "series_id": "",
+      "date": "2026-08-24",
       "source": "credit.json"
     },
     "a": {
@@ -40,8 +40,8 @@
       "name": "BBB Corp",
       "spread": 100,
       "prior": 100,
-      "series_id": "BAMLC0A4CBBB",
-      "date": "2026-08-21",
+      "series_id": "",
+      "date": "2026-08-24",
       "source": "credit.json"
     },
     "bb": {
@@ -103,5 +103,5 @@
       "source": "cache"
     }
   },
-  "_fetched": "2026-08-25T16:02:43.964808Z"
+  "_fetched": "2026-08-25T18:58:09.530087Z"
 }
