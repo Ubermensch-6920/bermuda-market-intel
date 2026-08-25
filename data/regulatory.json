@@ -1,5 +1,5 @@
 {
-  "updated": "2026-08-25T01:57:06Z",
+  "updated": "2026-08-25T04:04:52Z",
   "naic": [
     {
       "id": "cfcee51e4106",
@@ -506,6 +506,16 @@
   ],
   "cayman": [
     {
+      "id": "94cbafdc6981",
+      "title": "Treasury insurance directorate reports CFAF 436 billion in premiums for Ivorian market at end-June 2026",
+      "date": "2026-08-23",
+      "cat": "General",
+      "summary": "",
+      "source": "Capmad",
+      "link": "https://news.google.com/rss/articles/CBMiywFBVV95cUxQRDRZcU5hX04wU3pxcks3MXc0QnJuc1FtakFIZUtnY3BuUktPVTR0Uldlbm1JOWFzdEF3Um1oMThUZmZVYjFZcHBaUWo3d25jTktHV2pGRXpOSEVrTzZRMlYyckpfTVlnRHdSU2FldnkxLWNNQWdjcnV3N2JIaDFPYzhmTGREQTBvb050NTJVdUY5UWVwODZDNElZa1cxY0FVOGNlZGtWVzNlT1NVSVdNdEhpQmZKRzlmTm1DVUU2a21rNFBiX2ltaGtrMA?oc=5",
+      "isNew": true
+    },
+    {
       "id": "f2653fba4be5",
       "title": "Chanas Assurances Plans to Double Capital, With CFA3.33 Billion in New Cash",
       "date": "2026-08-10",
@@ -737,16 +747,6 @@
     },
     {
       "id": "f7ddcee848ac",
-      "title": "The International Insurance Institute opens entrance exam for fourth insurance master\u2019s cohort",
-      "date": "2026-04-29",
-      "cat": "General",
-      "summary": "",
-      "source": "Togo First",
-      "link": "https://news.google.com/rss/articles/CBMi2gFBVV95cUxNTUZqaGFhOFpaNzFYZzZFSVJiSm8yY3dEekpmUXo5ME1rS25NazBmWjVXTVlNWk9EUzNFZGxTcVBTLUh6aU9kNF8xVTBhbkVpT0Zac1FKVnptY3VWaG9rRXp2YmdjT1M4a2J3bGpsTExIMGNmaDdlVFE4VE5qTFdiTmxYaGItcFBZZUpZaGJRdHRhVXZEX25wVEJ6OUQtZTV0cTYtVklhd29LbkUxRUNwU1J5SUJTSnY1MlFhbHZ2Rl9ySHRBenFuZmRaNldjNnRJNXJlSzUtdzZzQQ?oc=5",
-      "isNew": false
-    },
-    {
-      "id": "e9cc3fb3d9b3",
       "title": "The International Insurance Institute opens entrance exam for fourth insurance master\u2019s cohort",
       "date": "2026-04-29",
       "cat": "General",
