@@ -2,11 +2,11 @@
   "date": "2026-08-26",
   "source": "FRED / TradingEconomics / Investing / Yahoo Finance",
   "gold": {
-    "spot": 4595.07,
+    "spot": 4593.8,
     "spot_date": "",
     "spot_source": "TradingEconomics",
     "unit": "USD/troy oz",
-    "prior_1d": 4651.3,
+    "prior_1d": 4649.1,
     "prior_1d_date": "2026-08-26",
     "prior_1m": 4036.3,
     "prior_1m_date": "2026-07-28",
@@ -18,7 +18,7 @@
     "prior_2y_date": "2024-08-27",
     "futures": {
       "3M": {
-        "price": 4650.1,
+        "price": 4648.6,
         "expiry": "Dec 2026",
         "contract": "GCZ26",
         "prior_1m": 4067.4,
@@ -35,7 +35,7 @@
         "prior_2y_contract": "GCZ24"
       },
       "6M": {
-        "price": 4687.6,
+        "price": 4685.6,
         "expiry": "Feb 2027",
         "contract": "GCG27",
         "prior_1m": 4131.3,
@@ -52,7 +52,7 @@
         "prior_2y_contract": "GCG25"
       },
       "12M": {
-        "price": 4811.9,
+        "price": 4801.7,
         "expiry": "Aug 2027",
         "contract": "GCQ27",
         "prior_1m": 4228.7,
@@ -88,12 +88,12 @@
     }
   },
   "wti": {
-    "spot": 86.48,
-    "spot_date": "2026-08-18",
+    "spot": 83.9,
+    "spot_date": "2026-08-25",
     "spot_source": "FRED",
     "unit": "USD/barrel",
-    "prior_1d": 83.05,
-    "prior_1d_date": "2026-08-26",
+    "prior_1d": 83.9,
+    "prior_1d_date": "2026-08-25",
     "prior_1m": 84.25,
     "prior_1m_date": "2026-07-27",
     "prior_3m": 92.35,
@@ -104,7 +104,7 @@
     "prior_2y_date": "2024-08-26",
     "futures": {
       "3M": {
-        "price": 81.67,
+        "price": 80.57,
         "expiry": "Nov 2026",
         "contract": "CLX26",
         "prior_1m": 77.17,
@@ -121,7 +121,7 @@
         "prior_2y_contract": "CLX24"
       },
       "6M": {
-        "price": 77.09,
+        "price": 76.21,
         "expiry": "Feb 2027",
         "contract": "CLG27",
         "prior_1m": 72.74,
@@ -138,7 +138,7 @@
         "prior_2y_contract": "CLG25"
       },
       "12M": {
-        "price": 72.35,
+        "price": 71.87,
         "expiry": "Aug 2027",
         "contract": "CLQ27",
         "prior_1m": 69.28,
@@ -174,12 +174,12 @@
     }
   },
   "brent": {
-    "spot": 95.29,
-    "spot_date": "2026-08-18",
+    "spot": 88.24,
+    "spot_date": "2026-08-25",
     "spot_source": "FRED",
     "unit": "USD/barrel",
-    "prior_1d": 87.92,
-    "prior_1d_date": "2026-08-26",
+    "prior_1d": 88.24,
+    "prior_1d_date": "2026-08-25",
     "prior_1m": 91.82,
     "prior_1m_date": "2026-07-27",
     "prior_3m": 97.11,
@@ -190,7 +190,7 @@
     "prior_2y_date": "2024-08-27",
     "futures": {
       "3M": {
-        "price": 87.92,
+        "price": 86.58,
         "expiry": "Nov 2026",
         "contract": "BZX26",
         "prior_1m": 82.08,
@@ -207,7 +207,7 @@
         "prior_2y_contract": "BZX24"
       },
       "6M": {
-        "price": 82.21,
+        "price": 81.68,
         "expiry": "Feb 2027",
         "contract": "BZG27",
         "prior_1m": 77.68,
@@ -293,7 +293,7 @@
         "prior_2y_contract": "INRX24"
       },
       "6M": {
-        "price": 96.26,
+        "price": 96.27,
         "expiry": "6M",
         "contract": "CIP derived",
         "prior_1m": null,
@@ -310,7 +310,7 @@
         "prior_2y_contract": "INRG25"
       },
       "12M": {
-        "price": 97.03,
+        "price": 97.02,
         "expiry": "12M",
         "contract": "CIP derived",
         "prior_1m": null,
@@ -327,7 +327,7 @@
         "prior_2y_contract": "INRQ25"
       },
       "24M": {
-        "price": 98.8,
+        "price": 98.76,
         "expiry": "24M",
         "contract": "CIP derived",
         "prior_1m": null,
@@ -346,5 +346,5 @@
     }
   },
   "note": "Spot history comes from daily FRED series. Futures history is roll-aware by target date. USD/INR latest spot: FRED DEXINUS, then Yahoo INR=X / keyless FX APIs when FRED lags; forwards fall back to CIP derivation from India/UST curves when market quotes are unavailable.",
-  "_fetched": "2026-08-26T16:38:57.957580Z"
+  "_fetched": "2026-08-26T20:06:38.447869Z"
 }
