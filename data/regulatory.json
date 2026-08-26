@@ -1,5 +1,5 @@
 {
-  "updated": "2026-08-25T21:48:43Z",
+  "updated": "2026-08-26T02:03:14Z",
   "naic": [
     {
       "id": "931371550996",
@@ -9,6 +9,16 @@
       "summary": "",
       "source": "InsuranceNewsNet",
       "link": "https://news.google.com/rss/articles/CBMitgFBVV95cUxNcGdrZzZTTi1XNVJuOFFBS3VmOU5Nc1lGZ0ljcWg0djQ2cXZVTzRYZWU4VFF2RnRrS0VYVjBNOW1VeW84bnQ4WHNNWHQ4dGJINnppZUJCSXZMNmpJdktxXzNCOHRXWHRZdEJDMkU5RC0yQ2tGVUluMVdSLWNpcHpRbmNtZkJKazZEQ3pQQUlORi1mOEgyMmpad0pYWjdxdG5kNzlFTVVUMG0zQTY4STYzR2NPaUREdw?oc=5",
+      "isNew": true
+    },
+    {
+      "id": "2ea3f94986a3",
+      "title": "NAIC Launches Multi-State Pilot of AI Systems Evaluation Tool",
+      "date": "2026-08-24",
+      "cat": "Governance",
+      "summary": "",
+      "source": "JD Supra",
+      "link": "https://news.google.com/rss/articles/CBMihwFBVV95cUxQTFpNdEtZWmctV3psRWVXek9lVnRIb2FqX3Atb0NabUNnVVJ5N0xuWlFzQ3FlSGF3M1ZhcWlMNDh5OFVwYmtyTTNnaDlLUTZpN0x4WXpoOVl2a3VmbThZVURKQlpHMURfTXRkcXlSdlE0U1FZSXpTN2gyTExPUjZqNy1NQkZ4OUE?oc=5",
       "isNew": true
     },
     {
@@ -240,16 +250,6 @@
       "source": "Captive International",
       "link": "https://news.google.com/rss/articles/CBMijgFBVV95cUxNSV9JcW9mY2JyWnZlX1lVVGpiU2pCanZTQzF5Ynp3RHFnRzRvdEh5b1VTd0ZOYVlXODVQTURzOW9RSWJ3dGRTNlVuSTF5dEl3YnhQSHJObGRSdUplY2M0TkFONElUZHo1UUY3a1B6TEVWOXFyRmhrSnk2cWVJVFJUUnVzUWhOeFQxVTI0RkFB?oc=5",
       "isNew": true
-    },
-    {
-      "id": "b801b78df378",
-      "title": "Cayman applies for NAIC recognition",
-      "date": "2026-08-12",
-      "cat": "General",
-      "summary": "",
-      "source": "Royal Gazette | Bermuda",
-      "link": "https://news.google.com/rss/articles/CBMipgFBVV95cUxPdmwzZENOZGZwUUo0QnRVaTlsbUwtVGk4Y1ZpN285dU1jYmI3ZUNVWGsyRFF2WHJCZDBUeHVNekFkc2dMa0FDdkV3WlBDZ3A2T1lpMnYzcG56ZGlQQTN2TWlZanBQUmdGNjBIY01aUHg5UmttbjhPQ1RQVEhVZ2laNFlPWTVmRGhsMmE1MEVMNFgweU1DT2tsNEFJaGVRTmtOQmlISFN3?oc=5",
-      "isNew": true
     }
   ],
   "bma": [
@@ -374,6 +374,16 @@
       "isNew": false
     },
     {
+      "id": "333e7038f419",
+      "title": "BMA Warns About Investment Seminar",
+      "date": "2026-07-23",
+      "cat": "Investment",
+      "summary": "",
+      "source": "Bernews",
+      "link": "https://news.google.com/rss/articles/CBMiaEFVX3lxTFAtN1ViUDFtajhjdWkxaER1aVBHUXRYVmw5MGlROWF0c3lya2J3M0lEeDdNOU9jWGNEY1laelRkT3VsLTRJbFlrRmFYaUNwM0lHME5PeWI4Nzh5TEdNSEJlZVZ2MkhnM2dB?oc=5",
+      "isNew": false
+    },
+    {
       "id": "0800f02fee4a",
       "title": "Bermuda\u2019s ILS sector well-placed to benefit from stablecoin development: BMA",
       "date": "2026-07-22",
@@ -491,16 +501,6 @@
       "summary": "",
       "source": "Captive Insurance Times",
       "link": "https://news.google.com/rss/articles/CBMi6wFBVV95cUxNdHhqWnNrVldZaGRVMk5rdjZRTzFIMC1MR05KTmF3OXFkU1dWVUFlRldqXzQ1MzV4WGVFZnRPT0RxYjl0cmIwUzZ0TjNJOHFyNzZaeEtCNFBQNlVpV0MwVjVPQ3h3TzV5cnlKdDdzR0picWhESEtsbHZCWndZZ1BTT2JteVB3SjZhVXZKNm9fOWVPWE13bUJvQlJpcnNmS3Y3S0dIQjZzenRVRGJRZ24tNnFMZGhJU2ZYckJ1eWhhMlBKT0lBZjFfQXk0LVZzdG83NG9CbnhmdGJDd0hoaDRobklrT0k1UDdvSWdB?oc=5",
-      "isNew": false
-    },
-    {
-      "id": "3881d750a67a",
-      "title": "How the BMA could leverage AI",
-      "date": "2026-07-14",
-      "cat": "Governance",
-      "summary": "",
-      "source": "Royal Gazette | Bermuda",
-      "link": "https://news.google.com/rss/articles/CBMiqAFBVV95cUxPcXNDMmwwaG9ia1JVRkNVOHdQNjJiQnlON3IzaWk1Q3VQVFFSTGhzbGRhUmxkNnRqT0FwWWpOOF9ZYTQ3alF0cmh4dXFaYnVwOXYxTDZibGU4UG9sWWdpLXF2WHY1TWhoOVdoSHB5RXFYcjVBVlZFUVMzNHp3eHRMdUkzMDZ2TDR1NV85aTVOMXYxejFjMTI0UHM0eHZzNmFhc0NWdmpMNDE?oc=5",
       "isNew": false
     }
   ],

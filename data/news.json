@@ -1,5 +1,5 @@
 {
-  "updated": "2026-08-25T21:48:43Z",
+  "updated": "2026-08-26T02:03:14Z",
   "topics": [
     "Insurance AM",
     "Private Credit",
@@ -7,6 +7,16 @@
     "Structured Credit"
   ],
   "items": [
+    {
+      "id": "4576cfe90571",
+      "title": "Sun Life grows SLC Management\u2019s asset base with Wilton Re partnership",
+      "source": "Alternatives Watch",
+      "date": "2026-08-25T21:00:44Z",
+      "topic": "Insurance AM",
+      "summary": "",
+      "link": "https://news.google.com/rss/articles/CBMikgFBVV95cUxOMUVzWGpNSThWWm41WFZhYUpCT3d0UmpUNkpvR2h0NHhLV28wMy1JZi1Ha2NXalVGdjRiVXoySHBqM1lWVXA5NnlpYTkxLXVmWGZ4R0Jrc0JlWDN6OXk0VFJ6NHVkNWUyU0w4YmZSR0hFY2VLX1NXcnVOMHhVVWJRMVVBN3VCNnotWDIwcU1kaU5Kdw?oc=5",
+      "isNew": false
+    },
     {
       "id": "c1ca21adaac2",
       "title": "Guggenheim-linked insurers financed LeBron James with private bonds",
@@ -290,16 +300,6 @@
     {
       "id": "009e8dc8f4e2",
       "title": "Fed Talked Rate Hike if Inflation Fails to Cool Further | National News | U.S. News",
-      "source": "U.S. News & World Report",
-      "date": "2026-08-19T19:07:00Z",
-      "topic": "Rates & Macro",
-      "summary": "",
-      "link": "https://news.google.com/rss/articles/CBMiuAFBVV95cUxPRVo5OU5OQlk3bHpRcUlzMVNsNDEtLTQ1a05Zb1NoUldHZUtvcWMybE9WT1lQZkJFYXlBSXFwNEg0cGY1SE0zMUR2N1NrQzBpMi04Y0ppeTlTbEtNdWhETFRYN3NZdmlzQ3ZKOERrZ3NYVTBLem51bEVSRG44ZU40TUZHWGNWVmpTYkxMa1ZvNE1oM3FDYkhRTWtpY2lBcklidV9EVk9JXzQ3eE0zNndtZ1REV2VLNHZ3?oc=5",
-      "isNew": false
-    },
-    {
-      "id": "864cbef08882",
-      "title": "Fed Talked Rate Hike if Inflation Fails to Cool Further",
       "source": "U.S. News & World Report",
       "date": "2026-08-19T19:07:00Z",
       "topic": "Rates & Macro",
