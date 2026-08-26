@@ -1,5 +1,5 @@
 {
-  "updated": "2026-08-26T04:07:51Z",
+  "updated": "2026-08-26T07:13:33Z",
   "topics": [
     "Insurance AM",
     "Private Credit",
@@ -7,6 +7,16 @@
     "Structured Credit"
   ],
   "items": [
+    {
+      "id": "6b4c85b0b6bf",
+      "title": "Regulation key to next phase of SRT insurance growth",
+      "source": "Structured Credit Investor",
+      "date": "2026-08-26T07:10:14Z",
+      "topic": "Structured Credit",
+      "summary": "",
+      "link": "https://news.google.com/rss/articles/CBMi0AFBVV95cUxNOFp3MUY4NXNySUozQ2lOVnV4UjY2MHdqTEtxQ002elVob2dJYzRtYWFOMENYRjI5WC1NYnBGdmtGMmRfNWVxd0tyU3loMzFRbEZrT2R2MFpFazU5ZzVPOGdnbFoyR2hLck9qZlVHZ0p1LWJZWXVUNTZLc1dwcWJWX3p2MEZMMWg1MWZjQWVkZXJCMEJRSWx2VkswOUdZa01iUkl1ZEx2WHhTV0tPbHUyN3ljcWN0dGZNRmItUDNnU0hCS3doZ0t2LU5jRWRUZHhk?oc=5",
+      "isNew": false
+    },
     {
       "id": "4576cfe90571",
       "title": "Sun Life grows SLC Management\u2019s asset base with Wilton Re partnership",
@@ -48,6 +58,16 @@
       "isNew": false
     },
     {
+      "id": "a961c1ee8af4",
+      "title": "Sun Life and Wilton Re form reinsurer to scale block acquisitions",
+      "source": "Insurance Business",
+      "date": "2026-08-25T13:55:14Z",
+      "topic": "Insurance AM",
+      "summary": "",
+      "link": "https://news.google.com/rss/articles/CBMi0gFBVV95cUxNRkRqcWdZTTBHSzdiS0Z3dVVUczZ0bVhyTXRONmNuZFBlMXFfNlI1cHVWNUpYU0E1WkxROGQ4R1VTQm1PU29RTW9PNGpEMmdWSm1ieG9jX09uazVfM0pFT1BUZkJMeF9aUWRKa0o3VUFGa2ZIeFN4Uk1ZekgwdEdPUjBzMGs1LUN3SzItVFZuMFdYMkRjY0F0YlRhRjd5VERRc1NKSGlSZlBhTzdtMnZRQUJ0aFppblU3V1JGME1VU2lBajRDdTd4X2pnSGpPX3FJY3c?oc=5",
+      "isNew": false
+    },
+    {
       "id": "80b1239c899b",
       "title": "Trump administration faces a major financial battle in the bond market",
       "source": "EL PA\u00cdS English",
@@ -85,6 +105,16 @@
       "topic": "Insurance AM",
       "summary": "",
       "link": "https://news.google.com/rss/articles/CBMitwJBVV95cUxQVk9zZEVBNUlrTmUwUlF6dHgwam04R05UelJXR3lhNF81X0F0RmJhNlRXSVFWbDNneUs3N2ZtNlJiRzhpSnppMmZ2Wlo5NkhlN1djQ2lHQ2NmLWVjN3ZTdVU4LWV6Wmt6Z1ltRFVGdDV3cDdUdXN6dFVTRnkydEY0LXdlT2RmaEVCcG5wcDhtRzlodnd2RlNNakhqVXIyMEFCMGFsODNZN2dfUDN2alJlUEIxUEVWemdBNmN6X2N5QUpmaVBpRzJMWS1xVURoOG5iRnRzcXpiRlotVmV0anRqSlVPYnBCMTY2dXpFRGRsdFd1a2xyWXczWVBEWTJLMnVqZ1N1eDVwNDNqdGE3Y29UcnU3d2lMZl84V250ZExGNW1KX2hiUWtzZlVOel9GcXJlTFVfQ096dw?oc=5",
+      "isNew": false
+    },
+    {
+      "id": "a88c635b0cf5",
+      "title": "Blackstone multi-strat alternatives fund makes its second direct cat bond investment",
+      "source": "Artemis.bm",
+      "date": "2026-08-24T07:03:47Z",
+      "topic": "Insurance AM",
+      "summary": "",
+      "link": "https://news.google.com/rss/articles/CBMiswFBVV95cUxOcjRCTV9KZ3B5ZXZQb0Y3eU4tUlFUb1ZsYjlrN0JoZ0VjeHdNYVY5TTFfeFVUYjExNmtIa1FYVGRYVkR5U1ZrV0JqV3FUOEFZN1oyUEVoUU9pbTYyVk5KOFlJbmhJLWpwTzhIRzlWUzNqSUtLbWNYaVZTZnJna3l1cEF0WlBPTWJRRVFFbWhuaEVrdlNIVVlGYlZ2cXJkMUg2alh1aGZibXBCYU9hNDdBV2djdw?oc=5",
       "isNew": false
     },
     {
@@ -178,16 +208,6 @@
       "isNew": false
     },
     {
-      "id": "43a619ecf48d",
-      "title": "Ping An Insurance's first-half profit jumps 36% on asset management boost",
-      "source": "Nikkei Asia",
-      "date": "2026-08-21T06:56:00Z",
-      "topic": "Insurance AM",
-      "summary": "",
-      "link": "https://news.google.com/rss/articles/CBMitgFBVV95cUxNWHpFa3dBMVF0em1qa2FLT1lLTWpvaUFHLTlYbkQtZUFMT2JJVE1VU2lxVGRmclc2dHZ4cG1fVFNzRU9XdURmdnUtWTl0d2VDb0xsR3luTk55Tjg2MkRjU21MVV9zN2tfRDBmclNab1dBU1lHRkxvQ3ZtdHN1QUtHLXhXYTZiaE1DUWtTbC1MTG80T3FDTmtaVXlvSXJKXzNVT3pucDZCaXR5aTBzM1N6dlMzaGJkdw?oc=5",
-      "isNew": false
-    },
-    {
       "id": "3272ec8586fe",
       "title": "Brixton Capital Expands Residential Platform to Help Multifamily Owners Unlock Asset Value",
       "source": "citybiz",
@@ -258,10 +278,20 @@
       "isNew": false
     },
     {
+      "id": "43a619ecf48d",
+      "title": "Ping An Insurance's first-half profit jumps 36% on asset management boost",
+      "source": "Reuters",
+      "date": "2026-08-20T09:58:00Z",
+      "topic": "Insurance AM",
+      "summary": "",
+      "link": "https://news.google.com/rss/articles/CBMiowFBVV95cUxOSDctQVVsQWZiZVExdld2R1dGM0tYLXZiZTREQlBMTWdLT0xHRmgyTEpUSDJUSUtQaGxKMk1wX21wdEk5eVowRjktMWRTQVUtd0pUZHExbkZ4MUF6T1FUMW1sRml6MDNHWDIwNHlGSXhfUkFaNDk4TWhNbnk0bGF4eWxzT2tlV2Y0bENCUW0wMVpJcWpqQWNnX1VxZ21aNE5XYlNj?oc=5",
+      "isNew": false
+    },
+    {
       "id": "210182ea1eed",
       "title": "NAIC proposes new restrictions on bond classification for ABS with significant ALM risk",
       "source": "DLA Piper",
-      "date": "2026-08-20T01:41:15Z",
+      "date": "2026-08-20T01:46:16Z",
       "topic": "Structured Credit",
       "summary": "",
       "link": "https://news.google.com/rss/articles/CBMi3gFBVV95cUxOcGxBVmhyM1I4WTEwdHA2V0pqNlJnd1lnVXVWRk5TdEh0LWtVWmlNT3VlN0VMZ3dxZWxmRU9oQjBTNnZUV0pzX2luRzM2R2xnQzQ1UHZ3T3VfTTJzSk5xVGtuR2xjaDdMRXlFbzZJcVpiZVh2WEpqZWplVzFrTWEtR2xubzRtVjc3OFdNdjcyaUU1ZTQtR2FNd3VCd0xFZmtkckpEd3FtYVp0N2dlMU1DeE1LSDAySWJaaGRWTndlSEVvYzI2WGp5c0lRQkg2NGJvZ0NBajJ2WlpiWkNScUE?oc=5",
@@ -275,36 +305,6 @@
       "topic": "Rates & Macro",
       "summary": "",
       "link": "https://news.google.com/rss/articles/CBMiswFBVV95cUxQX0hhVDlqaTItMnN5c1RjYVJTYnJNUkNJVmNvUXRqYk95bUtsYVNNanFTVl9jbjNWYWtGRjFGM213RHpBVHE5SDNMdjhDTGNMRkx6Y1FWQ2JoRUxqZGFuQjRDRkNCbGk2a0QtSG81TlRHSHN6aV9SU0xtNkxuVURCcUtJajZQbnlOMlV2a2NRM1VwZ1pLYmpEckZaQS0wYjhGLURSeVVkM0lxU05GaFNqWUZDZ9IBuAFBVV95cUxOcFFEcWZYcVdLMDVPSUFQMFdfaEU4cHB4SnBOY01LQnRub1U2N19rWG1SVGljdTdudVlaRENrT3pEbjNES0F4QzVGa1ZxQWduUDJEckhoY245VVlQdmhhRW0zdWVVYmR1ZFZSQ0cxVl9OaUJlelZzQ2pleTRqRzBBSEhKVmlJTFR6dE1WeXpmZzBtcDUwWkhOVFpVS2htNXIweWVLd0ZBbzlMQ0NzNDc0SkFwOUJLTlY0?oc=5",
-      "isNew": false
-    },
-    {
-      "id": "161cae9ff333",
-      "title": "Bond yields fall after Treasury announces surprise move to ease rising rates",
-      "source": "NBC News",
-      "date": "2026-08-19T20:29:22Z",
-      "topic": "Rates & Macro",
-      "summary": "",
-      "link": "https://news.google.com/rss/articles/CBMilAFBVV95cUxPWERIM2I3T0tzZWlQc3dWSzVhX1Z4eGdwbDl3d1N4VUZrWXcwQnpGSVNKbC1aWTU1Z1g4anRBaG15Y3BIT3NhS0YzSGtxSWlnOGpNSlA0ODRZTnBmREwzTWZObHJ6VE1ra25qc2lSRDdGY0VBQWY5Q0RCWDFBNVNDRVRBRTJqMGJ2YWF5QmRQZHR0Y0Jo?oc=5",
-      "isNew": false
-    },
-    {
-      "id": "1218cb7400b6",
-      "title": "An alarmed bond market gets the Trump administration to act again",
-      "source": "PBS",
-      "date": "2026-08-19T20:22:01Z",
-      "topic": "Rates & Macro",
-      "summary": "",
-      "link": "https://news.google.com/rss/articles/CBMipAFBVV95cUxNbkdjRlNLRi13YW5NR2w5dmtidXU1X1VHbzV3NnU1T1hReVYxTHZwMWhBRmJnUHJWVmZSZjFRVWF2dEFzaWdxTlhWTDNsQ19DMWliS0pzN3VjeERRLTRRaEhLekx5SndKZ1djMmJuMEhRRDZaZG1wazhrcEJlSFo5MVRDazZnVS11SGt4anZNcDV5ZnU4NllUWE1raXdoY1RnaFktctIBqgFBVV95cUxQcmx0SDZHMWx3b2x1cm42NzRXRU53Yk1idmtPVGRTQS04cllBS3MyZ1Bsc3ZxLUUyeDlybFRiWU5HaWx0OWUxU1U5bFNXcXZhUU5HRTgyVjdzT1ZIdzlDZGhsR1Y1WjVNa0daUnJIX3VsdW05RU1Ta2xOMlZSa3JsaW1yS3BELUlNMTZ5QWNWNHhpMGkzUmVoaHJJcEl4VFZpa0dNUEljNXlEdw?oc=5",
-      "isNew": false
-    },
-    {
-      "id": "009e8dc8f4e2",
-      "title": "Fed Talked Rate Hike if Inflation Fails to Cool Further | National News | U.S. News",
-      "source": "U.S. News & World Report",
-      "date": "2026-08-19T19:07:00Z",
-      "topic": "Rates & Macro",
-      "summary": "",
-      "link": "https://news.google.com/rss/articles/CBMiuAFBVV95cUxPRVo5OU5OQlk3bHpRcUlzMVNsNDEtLTQ1a05Zb1NoUldHZUtvcWMybE9WT1lQZkJFYXlBSXFwNEg0cGY1SE0zMUR2N1NrQzBpMi04Y0ppeTlTbEtNdWhETFRYN3NZdmlzQ3ZKOERrZ3NYVTBLem51bEVSRG44ZU40TUZHWGNWVmpTYkxMa1ZvNE1oM3FDYkhRTWtpY2lBcklidV9EVk9JXzQ3eE0zNndtZ1REV2VLNHZ3?oc=5",
       "isNew": false
     }
   ]
