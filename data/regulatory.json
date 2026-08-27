@@ -1,5 +1,5 @@
 {
-  "updated": "2026-08-27T00:52:59Z",
+  "updated": "2026-08-27T14:18:10Z",
   "naic": [
     {
       "id": "d63426365aa7",
@@ -254,6 +254,16 @@
   ],
   "bma": [
     {
+      "id": "ab0e896b3799",
+      "title": "BMA takes first step towards bank-failure regime",
+      "date": "2026-08-27",
+      "cat": "General",
+      "summary": "",
+      "source": "Royal Gazette | Bermuda",
+      "link": "https://news.google.com/rss/articles/CBMiuwFBVV95cUxPVlNweFlyMy1yRV82Tk9BY1JKbW4xa2hpNU5JX2ZRTlkwczBRbnNHRTVkd3JwVk5LazU4ZHdjY1dqbG9iOXFZT2tuZ1c4V1V4TWhoY2dIcFU1OXJVYTh4dFlRNDB5c0F2UVVMNjBXbENKRGEyVEV2aVo1X0N4RGZySVBubTdsdFQwT09qSUN5VkVmZFFxbDVYbVBlRDhPXzNvbUI1WVQ4Z0dnV25DVjR2MkVXb0RiOFZFVWxr?oc=5",
+      "isNew": true
+    },
+    {
       "id": "b8f2c54b94e3",
       "title": "BMA moots new rules for international insurance groups",
       "date": "2026-08-25",
@@ -491,16 +501,6 @@
       "summary": "",
       "source": "Captive Insurance Times",
       "link": "https://news.google.com/rss/articles/CBMi5wFBVV95cUxPdC1DdnlFaGk2c1ZrMURsbHU2NW5XZzl3Q0NWV0d5cEh6SmhCMmxqVmdJYVZYV2NBVEZLUHpWc2t2OEdxeF9zU1AyRlpKYXVMWmNPVjZESVY2a3VqaXJQQ0JDbWgydlIzMm0zVGNfb2dLdklnOFg0NnhVZ1ZNclJsLXNhNEVjcGZpWnRKZ2tIb01ORGp3RE9vejU5THRId1VTREJaZEJRblVIcHBiVG15c1VvT0l5NFlIeG5EWENTendhWFAxSWF2d2pOMjJmNmFSVXFEYmFBb0lGZEI1RWpOTHMtNjM0aDQ?oc=5",
-      "isNew": false
-    },
-    {
-      "id": "c44e49b08b1a",
-      "title": "BMA consults on stablecoin guidance for Bermuda captive insurers",
-      "date": "2026-07-21",
-      "cat": "General",
-      "summary": "",
-      "source": "Captive Insurance Times",
-      "link": "https://news.google.com/rss/articles/CBMi6wFBVV95cUxNdHhqWnNrVldZaGRVMk5rdjZRTzFIMC1MR05KTmF3OXFkU1dWVUFlRldqXzQ1MzV4WGVFZnRPT0RxYjl0cmIwUzZ0TjNJOHFyNzZaeEtCNFBQNlVpV0MwVjVPQ3h3TzV5cnlKdDdzR0picWhESEtsbHZCWndZZ1BTT2JteVB3SjZhVXZKNm9fOWVPWE13bUJvQlJpcnNmS3Y3S0dIQjZzenRVRGJRZ24tNnFMZGhJU2ZYckJ1eWhhMlBKT0lBZjFfQXk0LVZzdG83NG9CbnhmdGJDd0hoaDRobklrT0k1UDdvSWdB?oc=5",
       "isNew": false
     }
   ],
