@@ -1,5 +1,5 @@
 {
-  "updated": "2026-08-29T01:50:30Z",
+  "updated": "2026-08-29T10:10:06Z",
   "naic": [
     {
       "id": "0b47b29fc9db",
@@ -506,6 +506,16 @@
   ],
   "cayman": [
     {
+      "id": "bf67e6b0ac27",
+      "title": "CIMA removes 120 struck or dissolved entities from register",
+      "date": "2026-08-29",
+      "cat": "General",
+      "summary": "",
+      "source": "Cayman Compass",
+      "link": "https://news.google.com/rss/articles/CBMiowFBVV95cUxQZVpJRDVRQ2VYX3dpZzNnczNwR0tib3Vqd2pqOXhZdUJpWl9ZZW5sdk15X3FqRGRxWmVMbURDNE5jUXlfMlFZNDV1X3VXYVBlX0ZkcjlGdVpKeVphM3FCSUs2TTJRZW9LZnl4MjJZNkJTdU05dFhDbkY4SDNfR18tRWpybUJneUhZSVh3clo3WW0tRWFkc29YbjhOZ0xsNHNXOVI0?oc=5",
+      "isNew": true
+    },
+    {
       "id": "94cbafdc6981",
       "title": "Treasury insurance directorate reports CFAF 436 billion in premiums for Ivorian market at end-June 2026",
       "date": "2026-08-23",
@@ -743,16 +753,6 @@
       "summary": "",
       "source": "Cayman Compass",
       "link": "https://news.google.com/rss/articles/CBMid0FVX3lxTE5HS2pISXFHV2hHSG15NDJxbjRTSnNjMjVFelN6dDVTOERreERUUENJbUdpNG9BTy1zWXFiTnNKQ3pfZU80RERuVWVVN0diajRNVEtCbi1aMTZrZHhOQVdxRUxFVjRBU2UxN3A4bWd5MnBRUGc5dHNv?oc=5",
-      "isNew": false
-    },
-    {
-      "id": "b3b98c17621c",
-      "title": "Cyberattacks in Africa: insurers are starting to take action",
-      "date": "2026-06-04",
-      "cat": "General",
-      "summary": "",
-      "source": "africabusinessplus.com",
-      "link": "https://news.google.com/rss/articles/CBMiqAFBVV95cUxNRDJ1ekQ1a0h5cDRzOVF3TkNjeFNRNzFnaFp2ODdvVjljZHV4V3EwSzVPdl9qOVhlbEdxd24xdVNVOGN6WHBUQy1raHVYNDdPNk8tZF8ycVhENHduQW5rdk9DandDZEpDdzc1WGpZbFlKLW1yeVBnbWdPV29zUzRMRXZrNk96SmpNWTJhcFVGMFd5T0UxSkZzbEVWaWdoRGkzaVl2QnZ0OS0?oc=5",
       "isNew": false
     }
   ]
