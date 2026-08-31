@@ -1,5 +1,5 @@
 {
-  "updated": "2026-08-31T05:41:08Z",
+  "updated": "2026-08-31T13:57:03Z",
   "topics": [
     "Insurance AM",
     "Private Credit",
@@ -7,6 +7,16 @@
     "Structured Credit"
   ],
   "items": [
+    {
+      "id": "35ce0e23b860",
+      "title": "Most Insurers Invest for the Long Term. Mark Walter\u2019s Did the Opposite.",
+      "source": "WSJ",
+      "date": "2026-08-30T00:00:00Z",
+      "topic": "Private Credit",
+      "summary": "",
+      "link": "https://news.google.com/rss/articles/CBMiekFVX3lxTE1oaXhYazRReDRHMVJ4b0dHUmNyYmF3OXQ4b19OMGhnOTJsaWt0ZG5URVJncll3NEZsWnZVcDhqeTdLTXMzRnE2bDB2MGZ3Q0FBQ3VZN3BYamJRLVBZXzVYUk9uNjFMazVFREs4MHlUdEZwejVrY2NVcTVR?oc=5",
+      "isNew": false
+    },
     {
       "id": "acc5f74938e0",
       "title": "Short-Term Treasury Yields Rise as Warsh Targets Inflation in Jackson Hole Speech",
@@ -45,6 +55,16 @@
       "topic": "Rates & Macro",
       "summary": "",
       "link": "https://news.google.com/rss/articles/CBMisgFBVV95cUxQR3Rkbk5XV2w2ZFFsUGY2WVRfTlJjYWJKVnI4TUJFRktBV1dOejd2UktQaXd3RUVUMWhYVTFDWFk2d2VxbXhERWpKM2EtRnp4X2Q2MHRoV0dnRzFiLUxOSVQ5LXoyRllBZ1VRMjViSzlqTHF5UTh1WVRPUldOMmxRbnBYU3VHOVNPUGFOd0pBUldMZDM2SXlTYWxqYkNBVDA2TmVqb3AtdW9aM1dJM2hndGhn?oc=5",
+      "isNew": false
+    },
+    {
+      "id": "5d16c37af62c",
+      "title": "Fed Chair Warsh signals rate hikes may be needed with US inflation stubbornly elevated",
+      "source": "AP News",
+      "date": "2026-08-28T18:27:00Z",
+      "topic": "Rates & Macro",
+      "summary": "",
+      "link": "https://news.google.com/rss/articles/CBMiqgFBVV95cUxNTUFJSHBlaThPY3QxNm1TZEpORnhMam5QQUZTc203emxiY0pKSWJLYWtvaFZNMUd0UGluNzJHVHNhcTZERkpOdmpQR2ZsWC10Q1IxMTFIaDVVRkQ3WjhFWFZsX254RVVJUG9QemZ6ZEtIbndJZk1iYUtuNDEzUGFmejVPZTZlQXl5SEx5WGZPSzh1WHlXalY1dldNR2l3a0RkT0t2M1RZTEdLZw?oc=5",
       "isNew": false
     },
     {
@@ -285,26 +305,6 @@
       "topic": "Insurance AM",
       "summary": "",
       "link": "https://news.google.com/rss/articles/CBMiswFBVV95cUxOeFZNNi1sNEZhREtPMndPZGdvY00wWEVTaU03dmRqUHFLb0h0cXd4ZllqZWthTXpZWDhYMTBHdmthdnZObWFWV2NscHlyQk0wTEdwc3lfUWhvUk8ycE1RTU1YOWI0MFFLLTh1cS1jVjQwTExPS2Vwck1QMHRROVVnUkdabEIyUjFfTklDUFJWem5JZ0E3bzZraXlISW14ZjBsbVlOREhQbFNLOHpRSF92ZDF6TQ?oc=5",
-      "isNew": false
-    },
-    {
-      "id": "a961c1ee8af4",
-      "title": "Sun Life and Wilton Re form reinsurer to scale block acquisitions",
-      "source": "Insurance Business",
-      "date": "2026-08-25T13:55:14Z",
-      "topic": "Insurance AM",
-      "summary": "",
-      "link": "https://news.google.com/rss/articles/CBMi0gFBVV95cUxNRkRqcWdZTTBHSzdiS0Z3dVVUczZ0bVhyTXRONmNuZFBlMXFfNlI1cHVWNUpYU0E1WkxROGQ4R1VTQm1PU29RTW9PNGpEMmdWSm1ieG9jX09uazVfM0pFT1BUZkJMeF9aUWRKa0o3VUFGa2ZIeFN4Uk1ZekgwdEdPUjBzMGs1LUN3SzItVFZuMFdYMkRjY0F0YlRhRjd5VERRc1NKSGlSZlBhTzdtMnZRQUJ0aFppblU3V1JGME1VU2lBajRDdTd4X2pnSGpPX3FJY3c?oc=5",
-      "isNew": false
-    },
-    {
-      "id": "80b1239c899b",
-      "title": "Trump administration faces a major financial battle in the bond market",
-      "source": "EL PA\u00cdS English",
-      "date": "2026-08-25T13:51:49Z",
-      "topic": "Rates & Macro",
-      "summary": "",
-      "link": "https://news.google.com/rss/articles/CBMizwFBVV95cUxPUkJHZlBXQm1Ydml0OEVfNXV5bTNfaEc0T203MkxINFoyTHpPajRxZHdoaDhIWWN0ZElIQ01zZ205R2dUNUtfcG1vR0ViMFVnUVZIejIyYzdtNDJQWFd2WXNoM0VvZHhoVGgzTUktbmd4ZEZlQzNadEF1RXVoMWFsY0hRYXlDTWJNdWlUdXVSd1pWT29qbDFORzFSWXIwNnl3V2x0eENIa09Oc0lnWWZCcFA4RVBxZ3kteWhMNFFBeUZhR3FqMVptclhDbEN5TnfSAeMBQVVfeXFMUDk3WWR6dl8tdG8tX1lCdkswVDVVNDRMVnhYcDZqNEVWcU1ia3hfYjBDNEdyYkZJOGZpNW4tUXpYTnNXSnM0U0hzMFg1WVpGbFJDT0s1b25WQ2xkS2RhckIweG9idWJ6V2MzRC1fWjNtMEl3dVo5Y1BDQ2VSU0tGcGU4cWV3NV9YazRYUEhiYTVUb1ZtSnRGOUJfR0dxMjlrWV9FWkVkRXFLbWk2emUxeDRwTXNwS19WLUtEVnFUZURwN3RlNUZucTI3SzRYMFBhXzRsV3Q4Z29tZ090TkFTR3hhbnM?oc=5",
       "isNew": false
     }
   ]
