@@ -1,5 +1,5 @@
 {
-  "updated": "2026-09-01T00:41:55Z",
+  "updated": "2026-09-01T08:44:32Z",
   "topics": [
     "Insurance AM",
     "Private Credit",
@@ -7,6 +7,16 @@
     "Structured Credit"
   ],
   "items": [
+    {
+      "id": "7a530468ea94",
+      "title": "Global bond sell-off deepens amid inflation fears",
+      "source": "Financial Times",
+      "date": "2026-09-01T08:11:17Z",
+      "topic": "Rates & Macro",
+      "summary": "",
+      "link": "https://news.google.com/rss/articles/CBMihAFBVV95cUxOWi12RXhUckg1T1JDbE5MR085RC0tT1BhMlFMWlRkWlNMNV9EaWNVTHZfS2FSTEpGQXFOdVBRRTVqSy1qVlN4TkZtb3NISWhOYnBKS3BSVUY5b1RjODRJT0JNeGY3NnBBRzN3R2dKNThHZHpGRDdzVElJTnQzQTY1ZVZ6ZHc?oc=5",
+      "isNew": false
+    },
     {
       "id": "35ce0e23b860",
       "title": "Most Insurers Invest for the Long Term. Mark Walter\u2019s Did the Opposite.",
@@ -81,7 +91,7 @@
       "id": "df34d86dd072",
       "title": "Insurance: It\u2019s About Disclosure, Not Investment Quality",
       "source": "FactSet Insight",
-      "date": "2026-08-28T15:29:36Z",
+      "date": "2026-08-28T15:33:45Z",
       "topic": "Insurance AM",
       "summary": "",
       "link": "https://news.google.com/rss/articles/CBMiiAFBVV95cUxQWmFEUkhEQmxwWkM1Y0h0RzJNcWVlVGNQZU1RamY3WXh0aVhWeWZWT0l5MFJNeWVyTTJnZ1NiY0RVNkZwczZ0TmRDN1lIOU82S3FlODQzRXVCeHZFLTVtR2xTazh3MEZaeDR4a19lRG0xOGtHdW1QdjFFenBrV1ZNV2FpTTNtNlpO0gGYAUFVX3lxTE1TNUExNkduT2tzRXlUcHowWnBSLXFraTRFMnBEVUkwZWp6MDh5NzlWNkNROFpNMVdrYzhucVdNcG96eXNrX3hfd21vWUo2ZC1ldUo4d0lJMWxFYkJkVUU3aU5IV3k2cXVIelIyblFQUGFFMHhPa2hsQWFkdjhMd3dKWnRUZHRhNFZlcmFZV0F0U3NZa3lMaERl?oc=5",
@@ -220,7 +230,7 @@
     {
       "id": "6b4c85b0b6bf",
       "title": "Regulation key to next phase of SRT insurance growth",
-      "source": "structuredcreditinvestor.com",
+      "source": "Structured Credit Investor",
       "date": "2026-08-26T07:10:14Z",
       "topic": "Structured Credit",
       "summary": "",
@@ -230,7 +240,7 @@
     {
       "id": "5b9c0d80779a",
       "title": "Private Credit Market Size, Forecasts Report 2026-2035",
-      "source": "gminsights.com",
+      "source": "Global Market Insights Inc.",
       "date": "2026-08-26T07:00:00Z",
       "topic": "Private Credit",
       "summary": "",
@@ -250,7 +260,7 @@
     {
       "id": "0ca3905fc957",
       "title": "Bond market anxiety raises stakes for Warsh's debut Jackson Hole speech",
-      "source": "Reuters",
+      "source": "reuters.com",
       "date": "2026-08-25T21:38:13Z",
       "topic": "Rates & Macro",
       "summary": "",
@@ -295,16 +305,6 @@
       "topic": "Private Credit",
       "summary": "",
       "link": "https://news.google.com/rss/articles/CBMinwFBVV95cUxPcXh2QWYzblAwQ1daTk9MQ3RwWF8zOTdBekx6M0E4TGFYbDZWalFZV3VLamtkV2ZLcFBaTlJqNjJuWlZMZzFmWDZCZG9lVkwyNHJjQy1XQTRoUU9GUjZmY0l0MTJPNkhmR1h3OFJOVHBodm02QVJMQXB3NThfdG15cDlXemM1T3R3QmY4Y29kWENpRVhXU2pxcm5oR05Ebjg?oc=5",
-      "isNew": false
-    },
-    {
-      "id": "de773146ceb6",
-      "title": "Sun Life and Wilton Re Form Strategic Reinsurance and Asset Management Partnership",
-      "source": "FF News",
-      "date": "2026-08-25T15:27:51Z",
-      "topic": "Insurance AM",
-      "summary": "",
-      "link": "https://news.google.com/rss/articles/CBMiswFBVV95cUxOeFZNNi1sNEZhREtPMndPZGdvY00wWEVTaU03dmRqUHFLb0h0cXd4ZllqZWthTXpZWDhYMTBHdmthdnZObWFWV2NscHlyQk0wTEdwc3lfUWhvUk8ycE1RTU1YOWI0MFFLLTh1cS1jVjQwTExPS2Vwck1QMHRROVVnUkdabEIyUjFfTklDUFJWem5JZ0E3bzZraXlISW14ZjBsbVlOREhQbFNLOHpRSF92ZDF6TQ?oc=5",
       "isNew": false
     }
   ]
