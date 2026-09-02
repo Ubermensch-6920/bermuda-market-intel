@@ -1,11 +1,51 @@
 {
-  "updated": "2026-09-02T16:39:43Z",
+  "updated": "2026-09-02T21:08:44Z",
   "topics": [
     "Insurance AM",
     "Private Credit",
     "Rates & Macro"
   ],
   "items": [
+    {
+      "id": "2acd58810597",
+      "title": "Central banking has a forbidding future",
+      "source": "economist.com",
+      "date": "2026-09-02T19:47:06Z",
+      "topic": "Rates & Macro",
+      "summary": "",
+      "link": "https://news.google.com/rss/articles/CBMinwFBVV95cUxNWExqbHlETVVIUFJfMTBFN1dDTEEtXzVGbXFGMkdxWVpnMmFjdnRrMU02aExZVlowT0hONnBHc0JoTGhndjZsMFlzOGRlTUlnX3QxSTVxbmlYbWZYdjVtaTgwOTk3N1pJakN2SGE1NG0tUTM2Ty1fS19hdnlQdGZKZVZBOEVleTJadjJ5R1lISnNjT0pQaGhzX3UwWmhTbjA?oc=5",
+      "isNew": false
+    },
+    {
+      "id": "d23843a4508a",
+      "title": "Why bond yields are rising and why everyone should care",
+      "source": "PBS",
+      "date": "2026-09-02T17:27:16Z",
+      "topic": "Rates & Macro",
+      "summary": "",
+      "link": "https://news.google.com/rss/articles/CBMilwFBVV95cUxOdFZ4T2tWendKU28yS0d2WkVEVFQwTUNCWnQ5RDJvckpMbDVsVlcyYk1aZW5JYzYxTVhDX25IRm9kMm5ydFo5OWdjZk1XS2Rpc05wR0dZdm5kYjdDcXJfa2pJVGJ4ODNrcjVRMzNoUXEyVVFqdzFQTWt4RzNNSGt1Q1l0TXdCTndfbDYxdnpObWxfeGJJaUkw0gGcAUFVX3lxTE05aXlnM2xsaF9hS0NjSmpYeVF1VEpIRFpiQnBlY2NZUEdjOFhyVlJ5RVpzLVlxeWJsTllPNjhwR19NOTNJQVEzbWU0bU15UDNMbFhLYVZ1MEljM0w3MUM0QnRUVXVHMmJ4U045QVpEUlVjTW5IQndPU2Ntc1d0NkVybFVSQzNTZTh4blRIODJXekpPUFJ5N2ZFdTEwTA?oc=5",
+      "isNew": false
+    },
+    {
+      "id": "c46998cd0888",
+      "title": "Bank of Canada holds interest rate again as volatility threatens growth",
+      "source": "The Real Economy Blog",
+      "date": "2026-09-02T15:19:26Z",
+      "topic": "Rates & Macro",
+      "summary": "",
+      "link": "https://news.google.com/rss/articles/CBMipAFBVV95cUxOZDRPTVRlZE9aOVVaTVB3dHNZbFJSMDQ2elNLUlE0MEhUUzNCNWNzT2ZfOHQ5SFR1X2JkWDBwSXZ1bWpVVS1WYmpmcnFOWHZmdlNUeG9SS0txUmx1eVRfaHRfZlJEdVhYUk0yaVlULUw4WjVsMFNXdmFtZnlXWXRDTEk1Xzkzc3NvRVlEaEhULURfbDJqRjdjRHFYZmdZNWh6SjlWRA?oc=5",
+      "isNew": false
+    },
+    {
+      "id": "8a70d584860b",
+      "title": "Bond market sell-off: How investors can move and protect their money as rates rise",
+      "source": "CNBC",
+      "date": "2026-09-02T11:00:29Z",
+      "topic": "Rates & Macro",
+      "summary": "",
+      "link": "https://news.google.com/rss/articles/CBMilgFBVV95cUxQeVZwUTRpcDRiQlc2Ui1LQ2U3NWd3dkhJa3ZWSENPQTM1SkNJcEJwU2pJRlhBbC1WbGcxRlNGMHhBWTc5VDEweFoyTHR6Y2VoSG5QZHJZTkpSWEF5UEVoUlpVa3hEZW9KM1ZLOHIyQlF4anJ0bUZ4VlZCb195TWJfa25Xakh5cDhaSklJSDlWY3QwZjk0MGfSAZsBQVVfeXFMT2x1YUFxcVVJOEp6MnIxQ3ZweWFEYnV3TWRNM1NLd2lpUWk3MEtYaDBNQmEtXzNHeXhxbDAwRmNMNGJBSXBQbTRXQXBQNVVhVENXWHZoVFZwVTBiYnRBSUppRTdWdFRST0d4T0I3eVZJUzJ5STFzSmpWWHlCR3JieE9WWEVNcEFTUUIyUjRhXzRXdVk5TDRnMEJ0Wm8?oc=5",
+      "isNew": false
+    },
     {
       "id": "190c7adc2c05",
       "title": "10-year U.S. Treasury yield hits highest level since November 2023",
@@ -47,26 +87,6 @@
       "isNew": false
     },
     {
-      "id": "299bac3d77d0",
-      "title": "Global Bond Selloff Extends as Rate Hike Expectations Grow",
-      "source": "Morningstar",
-      "date": "2026-09-01T22:28:00Z",
-      "topic": "Rates & Macro",
-      "summary": "",
-      "link": "https://news.google.com/rss/articles/CBMinwFBVV95cUxPM0dwSV9QZmR0dkhoTG9UbzlvNUdTbDlXU2JvcEtsQUJkcTNfZEdfWC1fdnVjeGdNcG83QWxTSlJpV0V1N3VLVzhIakhlV3BVX1ZETUFhTHpGdk9ibnl1ZDNsdk5xNGE5OE85MEFRczRnSG5nVDBCWG5yZ3dmWVFDVEp2dmRIRWNSUWJZODloODZlR2pvSVRqUWx1S1p3YWc?oc=5",
-      "isNew": false
-    },
-    {
-      "id": "d23843a4508a",
-      "title": "Why bond yields are rising and why everyone should care",
-      "source": "abcnews.com",
-      "date": "2026-09-01T22:04:49Z",
-      "topic": "Rates & Macro",
-      "summary": "",
-      "link": "https://news.google.com/rss/articles/CBMifEFVX3lxTE1pa1hzNHZIQlpYODhUSElPdHdnMTQyUkRzSnBJa2VyVFg2Z0NIaWRYRnJpVnZHbGplYzl0Nml2MlkyWE5HSEZ0eGpPd2FPWi1HM3Y4NS0yeHpoc0Vfd21IZWZiSnkxQXI3Z3pSWkRQNVJDRklpTFFoTE1wRkHSAYIBQVVfeXFMUEZHOVpKNm5zQjM5X2JOOHBaaEQ5ZzZraTFxTzRSTExfYTFIaERHYW5CaXNXUl9FOEpEdUpaYzcwVzFKNVAzazQyeVRpelBkQjhQLURBeHM1NUs3ZDVkR21sblE3OFhxaHB4NEZLRnhfM0dZSnpiY0R0LTdaS2FLUDRTZw?oc=5",
-      "isNew": false
-    },
-    {
       "id": "5c65083ba70a",
       "title": "CapVisor appoints Livingston to lead business development",
       "source": "Captive Insurance Times",
@@ -99,7 +119,7 @@
     {
       "id": "1de6a9d13932",
       "title": "Global bonds sell off as Middle East conflict escalates, further stoking inflation fears",
-      "source": "ca.finance.yahoo.com",
+      "source": "Yahoo! Finance Canada",
       "date": "2026-09-01T20:16:11Z",
       "topic": "Rates & Macro",
       "summary": "",
@@ -124,6 +144,16 @@
       "topic": "Rates & Macro",
       "summary": "",
       "link": "https://news.google.com/rss/articles/CBMirwFBVV95cUxQTkpJbXp0djFzYkFEeHBOTDlQZ0pJZzZlakNKb3pQNlFhTEFLSGQwbTUyRTVRVWlNSlBpbUdDbkpRU0dIU0ZQZlVmci10eXRCMzZFN0xLMVZnSGpGTzFfSlpOWk8zUXJ2eTZWWno5YnNDTkducUkwWDlMQWZKVFVRdEVjM3U3N0hEMFV0YnN3blA0MWVDNDFkSFRMV3BJMk5qTVR4aks0R1ZncEtGdHBJ?oc=5",
+      "isNew": false
+    },
+    {
+      "id": "299bac3d77d0",
+      "title": "Global Bond Selloff Extends as Rate Hike Expectations Grow",
+      "source": "Morningstar",
+      "date": "2026-09-01T16:34:07Z",
+      "topic": "Rates & Macro",
+      "summary": "",
+      "link": "https://news.google.com/rss/articles/CBMinwFBVV95cUxObndxamhXd2tXVnZsb3ZXNkFzanp3NzBMR24zR0ZNWFNYM2hockIzZXl4UHJldzhwM3Z6WTNaTjJaeFhIZFVtUDVaeTUwWUFIdmgyMmVIdG84S3dZcHViOWpLbWo3dkQwMGgtZHBmOXBhcG1WSDNIYjR1cTlrckhSVTZLS2lfRHQ3bGxocnlsaTEzZDl3dmhDQnVFcVppbUU?oc=5",
       "isNew": false
     },
     {
@@ -164,6 +194,16 @@
       "topic": "Rates & Macro",
       "summary": "",
       "link": "https://news.google.com/rss/articles/CBMihAFBVV95cUxOWi12RXhUckg1T1JDbE5MR085RC0tT1BhMlFMWlRkWlNMNV9EaWNVTHZfS2FSTEpGQXFOdVBRRTVqSy1qVlN4TkZtb3NISWhOYnBKS3BSVUY5b1RjODRJT0JNeGY3NnBBRzN3R2dKNThHZHpGRDdzVElJTnQzQTY1ZVZ6ZHc?oc=5",
+      "isNew": false
+    },
+    {
+      "id": "0c6a15b69b1b",
+      "title": "Government borrowing costs rise anew, adding to pressure on global policymakers",
+      "source": "Reuters",
+      "date": "2026-09-01T07:27:00Z",
+      "topic": "Rates & Macro",
+      "summary": "",
+      "link": "https://news.google.com/rss/articles/CBMirwFBVV95cUxOSl9GcExBdk5lb3U4c1NTalROY2NUNHE4SXdlbE5yemw4WkwteWNMdTZVTFdrcHhPUVF5Q181eTlxZ2xoUkV6Q3F4a19ldHJBdGFnaG9URjY3bXNTMDE0aV9mVDU1MUtxMTRXRl9pR2p2THVmc2JiWGlSb1prUElXTWtaNzBsb3Z5U2tCNXZlTlMtM3pHU3Y0dkVNWUhHWmVWUmJxbnZmVVFlNmVlMDR3?oc=5",
       "isNew": false
     },
     {
@@ -227,16 +267,6 @@
       "isNew": false
     },
     {
-      "id": "35ce0e23b860",
-      "title": "Most Insurers Invest for the Long Term. Mark Walter\u2019s Did the Opposite.",
-      "source": "WSJ",
-      "date": "2026-08-31T07:00:00Z",
-      "topic": "Private Credit",
-      "summary": "",
-      "link": "https://news.google.com/rss/articles/CBMiekFVX3lxTE1oaXhYazRReDRHMVJ4b0dHUmNyYmF3OXQ4b19OMGhnOTJsaWt0ZG5URVJncll3NEZsWnZVcDhqeTdLTXMzRnE2bDB2MGZ3Q0FBQ3VZN3BYamJRLVBZXzVYUk9uNjFMazVFREs4MHlUdEZwejVrY2NVcTVR?oc=5",
-      "isNew": false
-    },
-    {
       "id": "f263201ede2c",
       "title": "The next shadow-banking problem comes from insurance companies, where nobody was looking for a bank run",
       "source": "CryptoSlate",
@@ -244,6 +274,16 @@
       "topic": "Private Credit",
       "summary": "",
       "link": "https://news.google.com/rss/articles/CBMiygFBVV95cUxQU09IY3k2VjBxX2xsTU1RTmFZbmdIU2R3cWpjcjlqT2FpeHM0SU05X1JfazJlYnBpdXZ4Y001SlVqdXNJMjZkaUtQdTlMV3c1cTJ1WFdUV2JGdHJKQTIzQmZOUnpTSEszQTU5Q254cnpHTlA1aGNBQlVnMWFOSGU2S0Q1NU94Ylo4cTRCUk40NnNBMWhwTjdnbGxaMGdWZFladDE0MWhLT25HVnlobUd5Q2drRkE1Qm1oM1YwWk5NcENpMkZ5SEFsckRR?oc=5",
+      "isNew": false
+    },
+    {
+      "id": "35ce0e23b860",
+      "title": "Most Insurers Invest for the Long Term. Mark Walter\u2019s Did the Opposite.",
+      "source": "WSJ",
+      "date": "2026-08-30T00:00:00Z",
+      "topic": "Private Credit",
+      "summary": "",
+      "link": "https://news.google.com/rss/articles/CBMiekFVX3lxTE1oaXhYazRReDRHMVJ4b0dHUmNyYmF3OXQ4b19OMGhnOTJsaWt0ZG5URVJncll3NEZsWnZVcDhqeTdLTXMzRnE2bDB2MGZ3Q0FBQ3VZN3BYamJRLVBZXzVYUk9uNjFMazVFREs4MHlUdEZwejVrY2NVcTVR?oc=5",
       "isNew": false
     },
     {
@@ -264,46 +304,6 @@
       "topic": "Private Credit",
       "summary": "",
       "link": "https://news.google.com/rss/articles/CBMi5AFBVV95cUxQZTlVbTJsNS1vSzhkQnpsTC1zTnEycVlmUGF2clBLcF9OWDN5bXNrcEZkdldBV0dBZEJHNkRScVJteUJVMTZTZVQ3TTFxRHhheEdaaGlnNTdnNUt1MGlpTkdodW55TzJZNHJsMlhRVVg0U3lMN29vVmVERUNOYUpzc2s2OHdCV0c2VWtrRXhDbEJvbWF0b2t6NFpGeTV4ak82a19NMTliNXFWMlpkQUZUWS1UdmFFZ0lkbF9JLVBxQXVheHpSZWVtWDlFanh1Rlc5WEVDY0YwYWtiUHJITUtYalpXVU8?oc=5",
-      "isNew": false
-    },
-    {
-      "id": "efea29cd9fa1",
-      "title": "Where to next on interest rates? Warsh, Bessent point in opposite directions.",
-      "source": "The Christian Science Monitor",
-      "date": "2026-08-28T19:39:00Z",
-      "topic": "Rates & Macro",
-      "summary": "",
-      "link": "https://news.google.com/rss/articles/CBMiggFBVV95cUxNeTlNZnpfcUNIVS13WlpCMEVzTnZsMzFhajF4ZHlIMzVXTWVlQS1LcEExVGlPV05JQVNkVTNOc2pLb2FpNmcyeWt6RzVNcU9nZElBaG5GcVVFOVRGblZQV2NEZjlURXpoQTBqLThxaDFyMXlqdFh5ei1rdUh1alJYajlB0gGbAUFVX3lxTE9xcVlhV1A4NE9SLTdWR243S2pGUW1PbFJMOUNmS2RzLWhLOGJvdVZITFhkdVRrcEJqeHJlQmpVRTczRGlTNnM0ZU1BQ0tNcWNUZ1I0VnA4ZVdsc2NWeGJoQ3RfNVBSbVJRTFNVTzFMcEpKTkJSWHhLN0JuRzNpRWV5My1DVG5CWEtMa2N5Qnh3MmpDRnJTUlVVS3Yw?oc=5",
-      "isNew": false
-    },
-    {
-      "id": "f40963e30a1c",
-      "title": "Gold Is Forecast to Climb as Central Banks Buy the Precious Metal",
-      "source": "Goldman Sachs",
-      "date": "2026-08-28T19:01:19Z",
-      "topic": "Rates & Macro",
-      "summary": "",
-      "link": "https://news.google.com/rss/articles/CBMisgFBVV95cUxQR3Rkbk5XV2w2ZFFsUGY2WVRfTlJjYWJKVnI4TUJFRktBV1dOejd2UktQaXd3RUVUMWhYVTFDWFk2d2VxbXhERWpKM2EtRnp4X2Q2MHRoV0dnRzFiLUxOSVQ5LXoyRllBZ1VRMjViSzlqTHF5UTh1WVRPUldOMmxRbnBYU3VHOVNPUGFOd0pBUldMZDM2SXlTYWxqYkNBVDA2TmVqb3AtdW9aM1dJM2hndGhn?oc=5",
-      "isNew": false
-    },
-    {
-      "id": "5d16c37af62c",
-      "title": "Fed Chair Warsh signals rate hikes may be needed with US inflation stubbornly elevated",
-      "source": "AP News",
-      "date": "2026-08-28T18:27:00Z",
-      "topic": "Rates & Macro",
-      "summary": "",
-      "link": "https://news.google.com/rss/articles/CBMiqgFBVV95cUxNTUFJSHBlaThPY3QxNm1TZEpORnhMam5QQUZTc203emxiY0pKSWJLYWtvaFZNMUd0UGluNzJHVHNhcTZERkpOdmpQR2ZsWC10Q1IxMTFIaDVVRkQ3WjhFWFZsX254RVVJUG9QemZ6ZEtIbndJZk1iYUtuNDEzUGFmejVPZTZlQXl5SEx5WGZPSzh1WHlXalY1dldNR2l3a0RkT0t2M1RZTEdLZw?oc=5",
-      "isNew": false
-    },
-    {
-      "id": "e91108580655",
-      "title": "Fed chair says delivering \u2018stable prices\u2019 is central bank\u2019s job as inflation persists",
-      "source": "The Guardian",
-      "date": "2026-08-28T16:05:00Z",
-      "topic": "Rates & Macro",
-      "summary": "",
-      "link": "https://news.google.com/rss/articles/CBMijwFBVV95cUxPbTVsRjRjQVhQS1Itd0hhY2JtenNTLWRENkNOaF9DVDJobXFrRFVsS1RLREFzdk1lV3NZNjU0WDJoRzNiVG40ZnlpeGx3Zy1lZ3ZhM0RkZjItSzNiVzd2c0Zkd3NSUTFJd0hlY3ZlNXJZWXhLRmFfYnpuZ0U3WUctQldQOGRnWDExb245TTB1cw?oc=5",
       "isNew": false
     }
   ]
