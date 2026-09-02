@@ -1,11 +1,41 @@
 {
-  "updated": "2026-09-02T11:24:16Z",
+  "updated": "2026-09-02T16:39:43Z",
   "topics": [
     "Insurance AM",
     "Private Credit",
     "Rates & Macro"
   ],
   "items": [
+    {
+      "id": "190c7adc2c05",
+      "title": "10-year U.S. Treasury yield hits highest level since November 2023",
+      "source": "CNBC",
+      "date": "2026-09-02T09:14:56Z",
+      "topic": "Rates & Macro",
+      "summary": "",
+      "link": "https://news.google.com/rss/articles/CBMid0FVX3lxTE1kTzdvcFpPblpSZkZpcWRPSHhhU21LNEVydjZneUlLVl82dEgtc25DSHg3Uzg0QktBazF5a0RLbnhpN093VklqRWI5VERFWXhzcUk2clJaeURaakN2c2UtdUhSVFNTaDAtNW1XN1JONzVlZFdVWlI00gF8QVVfeXFMTkJLbUdLZ1lYM1l3S3pSUUZQZ2xRWDd6R2NhOVlsOXFZTGszZGhhZHJvSWRrNDd4Q2Y1dHd3Tm9paDRIdGYtUmZJNzUwSDFGRlRwRG5XNEhUUDZMS05qSlhFWjM4cEV4SklPOTAzU3NyNWM1SDE2MC0wdy1vcA?oc=5",
+      "isNew": false
+    },
+    {
+      "id": "ef11e9ae276b",
+      "title": "Global bond rout gathers pace as inflation fears mount",
+      "source": "CNBC",
+      "date": "2026-09-02T08:39:12Z",
+      "topic": "Rates & Macro",
+      "summary": "",
+      "link": "https://news.google.com/rss/articles/CBMie0FVX3lxTE82MEVxdnp0YXFBQS1mbDBLZUFfamxOOEFULVVTXzlvUHNxTlQyZVhkUk1GTEZoRU9BVl9ZM3BWeFdPaGxkUk04X1hCX3h5TXdrNFp2RVJYemVRcDJ5NnE2MG9kRFIwTlRlaW8xTVY5d1U0akZKTDAwTUZXUdIBgAFBVV95cUxNN1ZLX3pEOENvWTVGekV1Tjh3V2ZTZGk1OU5fVDJfTmNkZ0MzOXV3OFczdE00a01Qalh3eHVTLW5fRHNoRmV5bk9pZFh1Z2FYOTVSdjVheVVjZWxRSHduY1gwVlhWWlBvaUlHMlFYVExqOVZoTmswMktCbHkzWHhZaA?oc=5",
+      "isNew": false
+    },
+    {
+      "id": "33af94644126",
+      "title": "Bessent downplays bond market concerns amid global sell-off",
+      "source": "washingtonpost.com",
+      "date": "2026-09-02T04:08:16Z",
+      "topic": "Rates & Macro",
+      "summary": "",
+      "link": "https://news.google.com/rss/articles/CBMisAFBVV95cUxPSUpNQm9IRWNqckx0Y0VQd19vN3I2WUNUSDMxbnFSMUFSV3A0Y3FkZlpWSC1oYjV0eTdGTjg2UTE4NTdIb2tkOWpnaEozRjF6ckVBa3ZCMTZaQkVMb1pvS3VuZ1k1amhPbHFZNVAwQ1c5QlFyZXhfOUYwaC00V1pKWkloNkZEa0tycGJqTWFDbWd6MFczd1RVcEdoSGt0QVlweWtsbnBjVGt3R3VoTzlFNg?oc=5",
+      "isNew": false
+    },
     {
       "id": "69ed5deb8896",
       "title": "Bond Sell-Off Threatens to Squeeze Borrowers Around the World",
@@ -17,19 +47,19 @@
       "isNew": false
     },
     {
-      "id": "33af94644126",
-      "title": "Bessent downplays bond market concerns amid global sell-off",
-      "source": "The Washington Post",
-      "date": "2026-09-01T22:24:26Z",
+      "id": "299bac3d77d0",
+      "title": "Global Bond Selloff Extends as Rate Hike Expectations Grow",
+      "source": "Morningstar",
+      "date": "2026-09-01T22:28:00Z",
       "topic": "Rates & Macro",
       "summary": "",
-      "link": "https://news.google.com/rss/articles/CBMisAFBVV95cUxPSUpNQm9IRWNqckx0Y0VQd19vN3I2WUNUSDMxbnFSMUFSV3A0Y3FkZlpWSC1oYjV0eTdGTjg2UTE4NTdIb2tkOWpnaEozRjF6ckVBa3ZCMTZaQkVMb1pvS3VuZ1k1amhPbHFZNVAwQ1c5QlFyZXhfOUYwaC00V1pKWkloNkZEa0tycGJqTWFDbWd6MFczd1RVcEdoSGt0QVlweWtsbnBjVGt3R3VoTzlFNg?oc=5",
+      "link": "https://news.google.com/rss/articles/CBMinwFBVV95cUxPM0dwSV9QZmR0dkhoTG9UbzlvNUdTbDlXU2JvcEtsQUJkcTNfZEdfWC1fdnVjeGdNcG83QWxTSlJpV0V1N3VLVzhIakhlV3BVX1ZETUFhTHpGdk9ibnl1ZDNsdk5xNGE5OE85MEFRczRnSG5nVDBCWG5yZ3dmWVFDVEp2dmRIRWNSUWJZODloODZlR2pvSVRqUWx1S1p3YWc?oc=5",
       "isNew": false
     },
     {
       "id": "d23843a4508a",
       "title": "Why bond yields are rising and why everyone should care",
-      "source": "ABC News - Breaking News, Latest News and Videos",
+      "source": "abcnews.com",
       "date": "2026-09-01T22:04:49Z",
       "topic": "Rates & Macro",
       "summary": "",
@@ -64,6 +94,16 @@
       "topic": "Rates & Macro",
       "summary": "",
       "link": "https://news.google.com/rss/articles/CBMinwFBVV95cUxONS1ZNWxUemx1aHc1YURSVE90T0h2bDUyQ3BqcUZSMkpZdlFxT2ZZTGlmaC1pSk9ZRGV6eHpDX3dsLUstSGJMZDFaZ2FJU2JIVVBuMGlFc2lzaU1jcGVLNWhscWU0NUNiSEJYRlpXWUcza2ltNWhqMUozTE5EMUw0WmI4cEhZVmtvVFNjdzZYU2VOUHl0QzZrNU93alRQMFE?oc=5",
+      "isNew": false
+    },
+    {
+      "id": "1de6a9d13932",
+      "title": "Global bonds sell off as Middle East conflict escalates, further stoking inflation fears",
+      "source": "ca.finance.yahoo.com",
+      "date": "2026-09-01T20:16:11Z",
+      "topic": "Rates & Macro",
+      "summary": "",
+      "link": "https://news.google.com/rss/articles/CBMigwFBVV95cUxQbWZsUno1WG9ZZVFuM3llNDB5ZUFieHgxUkJCckx3dEtfaThfcmRnbkp1QU5yb0NxWkxFZkVkdlhsdS15WnZ0U2hYUkFHVzlXOUJndVNjTWs1ajlfdXY4RnZUT0YxNThsM2dFRDB2dW9EUW1JcWVzeVVxcHpiR2JzN3hSdw?oc=5",
       "isNew": false
     },
     {
@@ -117,16 +157,6 @@
       "isNew": false
     },
     {
-      "id": "1de6a9d13932",
-      "title": "Global bonds sell off as Middle East conflict escalates, further stoking inflation fears",
-      "source": "KDRV",
-      "date": "2026-09-01T13:05:00Z",
-      "topic": "Rates & Macro",
-      "summary": "",
-      "link": "https://news.google.com/rss/articles/CBMi_wFBVV95cUxNdV9EWVdEb0pobkFIQlhFemF4VWRPdzN3ZVNCQ0xIdzJGQ253ZkZkck5iaHYwSVc5eENfTm5lMXdxMjFUajV6ZHlNNXdwYU9KZ3pTeW9Cbk05WVRzQWNrWEk2TE5veDRVQ1N1MUtGemJ4TXR0Xzh5U3drZmxubmthYUtxZXFibUFNTkxyOEszSW1SdUplcTlmTlpSZm9Ldk9HVzZWMWtDRXIwTVFjZnRCWGt2SjhBR2xmOThIMGVyeWYyUGFsbGkyd3E2eUpEeHBQdGRjRFh5VkZpQnZkSzJBRFE2clRsN28xMDIxYTFJUWYtVTgyelBaZThMRWRDd1E?oc=5",
-      "isNew": false
-    },
-    {
       "id": "7a530468ea94",
       "title": "Global bond sell-off deepens amid inflation fears",
       "source": "Financial Times",
@@ -134,6 +164,16 @@
       "topic": "Rates & Macro",
       "summary": "",
       "link": "https://news.google.com/rss/articles/CBMihAFBVV95cUxOWi12RXhUckg1T1JDbE5MR085RC0tT1BhMlFMWlRkWlNMNV9EaWNVTHZfS2FSTEpGQXFOdVBRRTVqSy1qVlN4TkZtb3NISWhOYnBKS3BSVUY5b1RjODRJT0JNeGY3NnBBRzN3R2dKNThHZHpGRDdzVElJTnQzQTY1ZVZ6ZHc?oc=5",
+      "isNew": false
+    },
+    {
+      "id": "da32c9887bae",
+      "title": "Why Kevin Warsh\u2019s silence on the Fed\u2019s rate path may not rattle bond markets",
+      "source": "TheBanker.com",
+      "date": "2026-09-01T05:13:00Z",
+      "topic": "Rates & Macro",
+      "summary": "",
+      "link": "https://news.google.com/rss/articles/CBMiekFVX3lxTFB6ei1OX1ZRQnZlZWtCSnRSWEVQaUFSR2VkTURpVU1MSk0xSkVVX3MyYnZGWEJtalkwZUhHTHg5bkdnVXRCcVBqQVBDWFhYcDdXUUduZFZXS1ZYbjAya2xmNzIyb3FzLWZQQUNpR2FCWWZjTWFnTXdHZHF3?oc=5",
       "isNew": false
     },
     {
@@ -159,11 +199,21 @@
     {
       "id": "82ec7b84f58b",
       "title": "Private credit under scrutiny in 2026",
-      "source": "RankiaPro",
+      "source": "rankiapro.com",
       "date": "2026-08-31T10:56:03Z",
       "topic": "Private Credit",
       "summary": "",
       "link": "https://news.google.com/rss/articles/CBMitgFBVV95cUxNMWNjSjNSSmI4b2hoVG5OOUc2M3ZoMTVwTWtSbnczaHVNamcxSWRtbTdlSVpVNnFWdVpLX19wYlQwTnVQZjJva0hhUmtGX2l5WFk0Q19XeHFJN1c3Ym9YbW5rZzVSTXhLeGtOM1ZzOTRaUWRSeVFEc1B2WlptYmV5MW1RakZkbXlBMy00WWVuRkkyaFpjdGloV2hacEFNalk3MF9HWTJFeDR1MUJBYTRjRE5MWVZFUQ?oc=5",
+      "isNew": false
+    },
+    {
+      "id": "52eb2c062080",
+      "title": "KKR To Sell USI to Aon plc in $17 Billion Transaction",
+      "source": "Business Wire",
+      "date": "2026-08-31T10:30:00Z",
+      "topic": "Insurance AM",
+      "summary": "",
+      "link": "https://news.google.com/rss/articles/CBMisgFBVV95cUxOa3B1aFEzdldTaElLVDBUcEZBZ192dGZJQkI4NE1DMGpKTjg1akR6UWtHUkdUeGZVUEFFQTFpbEY3STFfb1RBZndMZ0tqTFJxNXhDbkV5cHdPNGdhbktIcUZyQjEtT3lGZmxCdS1kbzgyQmtjNGN6VUdLRklGQ1hTSldxYzVpV1pEaVM1VWNDYWZYYVJwSFBvVnFXNjdLcGxWTGNVRXg2ak5SbnlMeXlMbTR3?oc=5",
       "isNew": false
     },
     {
@@ -249,61 +299,11 @@
     {
       "id": "e91108580655",
       "title": "Fed chair says delivering \u2018stable prices\u2019 is central bank\u2019s job as inflation persists",
-      "source": "theguardian.com",
+      "source": "The Guardian",
       "date": "2026-08-28T16:05:00Z",
       "topic": "Rates & Macro",
       "summary": "",
       "link": "https://news.google.com/rss/articles/CBMijwFBVV95cUxPbTVsRjRjQVhQS1Itd0hhY2JtenNTLWRENkNOaF9DVDJobXFrRFVsS1RLREFzdk1lV3NZNjU0WDJoRzNiVG40ZnlpeGx3Zy1lZ3ZhM0RkZjItSzNiVzd2c0Zkd3NSUTFJd0hlY3ZlNXJZWXhLRmFfYnpuZ0U3WUctQldQOGRnWDExb245TTB1cw?oc=5",
-      "isNew": false
-    },
-    {
-      "id": "ca12f742179e",
-      "title": "Fed Chair Warsh signals rate hikes may be needed with inflation still elevated",
-      "source": "Oregon Public Broadcasting - OPB",
-      "date": "2026-08-28T15:33:54Z",
-      "topic": "Rates & Macro",
-      "summary": "",
-      "link": "https://news.google.com/rss/articles/CBMiugFBVV95cUxOdFhwdDJLTEx1X3BRTGp3M2ZGNXlVczV5T2I5VnBVTmFneVdFYnVKX0d1UmozNjhNZFdUR3V0emY1YXZUaU1POWxscTFZdXc1NG9WQk15d012N3dJTUdsNkpFUHRES1lyRHo4QUFTek5GbVg3ZExFRkNyYmI0SjhMTWlxSTZXQTE4bDB5VlFMMTZ6bko5NTdNbzdsUzdYMV9Md3BOYzJld2JITnpCaGJlZldVZFBJdm1zakE?oc=5",
-      "isNew": false
-    },
-    {
-      "id": "df34d86dd072",
-      "title": "Insurance: It\u2019s About Disclosure, Not Investment Quality",
-      "source": "FactSet Insight",
-      "date": "2026-08-28T15:33:45Z",
-      "topic": "Insurance AM",
-      "summary": "",
-      "link": "https://news.google.com/rss/articles/CBMiiAFBVV95cUxQWmFEUkhEQmxwWkM1Y0h0RzJNcWVlVGNQZU1RamY3WXh0aVhWeWZWT0l5MFJNeWVyTTJnZ1NiY0RVNkZwczZ0TmRDN1lIOU82S3FlODQzRXVCeHZFLTVtR2xTazh3MEZaeDR4a19lRG0xOGtHdW1QdjFFenBrV1ZNV2FpTTNtNlpO0gGYAUFVX3lxTE1TNUExNkduT2tzRXlUcHowWnBSLXFraTRFMnBEVUkwZWp6MDh5NzlWNkNROFpNMVdrYzhucVdNcG96eXNrX3hfd21vWUo2ZC1ldUo4d0lJMWxFYkJkVUU3aU5IV3k2cXVIelIyblFQUGFFMHhPa2hsQWFkdjhMd3dKWnRUZHRhNFZlcmFZV0F0U3NZa3lMaERl?oc=5",
-      "isNew": false
-    },
-    {
-      "id": "e14c7dd88c01",
-      "title": "Private credit roundup-Institutional investors step up allocations to Asia",
-      "source": "whbl.com",
-      "date": "2026-08-28T14:39:42Z",
-      "topic": "Private Credit",
-      "summary": "",
-      "link": "https://news.google.com/rss/articles/CBMipgFBVV95cUxObUJieFk0OWNodHVoM1IyUzR5VUxxYmxGRVlUUEZJSEhDSHpHOXJYRDJJenBuMGxWTW5YdHA4M1ZQeEM2TUVRVjRxWkd4aTBZcGI3Q2NydG1qOTZab1FDeXZKdUJsdHhjanRVYWUyN3Q1S1htMkJDZmFyb0llRTVzQWFBWk5QeGpyNzJZMmcyZDhYd3dMYjJNWk96bEFzVG1NMUd0T29n?oc=5",
-      "isNew": false
-    },
-    {
-      "id": "4a8871a1bd1a",
-      "title": "The Bond Market\u2019s Supply and Demand Problem",
-      "source": "Time Magazine",
-      "date": "2026-08-28T14:16:33Z",
-      "topic": "Rates & Macro",
-      "summary": "",
-      "link": "https://news.google.com/rss/articles/CBMihwFBVV95cUxQOXhxQU8zZmFKOUVQRTI3bktWMEF5R3dHTTctTThEc2xkb0JsXzlxV2hsTDhfSHVSS1JzODRHOFhuSjlSLTdicTRtTmxPSFBFUHJJM0VUb0pTdXk2dW9ibjVLcy02WE1qRUNvbUQ2NXM4X0pWVGRrQXNTZ1lDdU14LWc5dGNvOVE?oc=5",
-      "isNew": false
-    },
-    {
-      "id": "7be5b7f717fd",
-      "title": "Fed's Warsh: Interest rate increases in play if inflation doesn't fall",
-      "source": "Axios",
-      "date": "2026-08-28T14:02:11Z",
-      "topic": "Rates & Macro",
-      "summary": "",
-      "link": "https://news.google.com/rss/articles/CBMifkFVX3lxTE5fU2NrT2pZRFlPeVdhWDNtNHZDNHJCa3FaZ0xXQnE1anlRRFNvZFVlZWRYdEV4cFkxSlU5eUZpMkZodXRPTjNNOHRJd3N3YjBWdkdYbi1sNi13Yk9fcDZaX0hmTTBoRGZJdlVBU0VxOGp4aTFNa1M0QVAwNmJ1QQ?oc=5",
       "isNew": false
     }
   ]
