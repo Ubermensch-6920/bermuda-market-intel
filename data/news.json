@@ -1,11 +1,21 @@
 {
-  "updated": "2026-09-01T23:23:31Z",
+  "updated": "2026-09-02T04:39:49Z",
   "topics": [
     "Insurance AM",
     "Private Credit",
     "Rates & Macro"
   ],
   "items": [
+    {
+      "id": "69ed5deb8896",
+      "title": "Bond Sell-Off Threatens to Squeeze Borrowers Around the World",
+      "source": "The New York Times",
+      "date": "2026-09-02T00:25:48Z",
+      "topic": "Rates & Macro",
+      "summary": "",
+      "link": "https://news.google.com/rss/articles/CBMic0FVX3lxTE9GZlF0TVVUdVRWVDFlU1d3N29jRktkWFludDB3ZS1NM0ZuTVpFVl9laWg0blBLcjBaOXh0Rk5IdWsxckQ5Q295OVJYZWlhNHVkUG54WXFxNGkyMDJsOUZPUWVhMG9ZbXA5SnhHQmZKWWhNZmc?oc=5",
+      "isNew": false
+    },
     {
       "id": "33af94644126",
       "title": "Bessent downplays bond market concerns amid global sell-off",
@@ -44,6 +54,16 @@
       "topic": "Rates & Macro",
       "summary": "",
       "link": "https://news.google.com/rss/articles/CBMiuAFBVV95cUxOdlFFSy1ZcHdMM2g3V2hkSTh6WURRdTR1UDFZX1ZNLWRKWmd3b3BzYUlVSEpCRm4yUFh0VUhoZ0Fzd3k2Z05BRDdnQ0hYVXZSQjN3QmdDRzFXcFNIUjhCbEp4WU1ZeC1VMkU0ZnRYZnlDTTMtc2gyNUgzWDFQc3BPcTBDbFc0OTZoREl6akdOWkhuWkhEcWFQMW55OWgtUWYyZW9hUV8tYUZvMFRHRTNVUHM3eWxoX2Ux?oc=5",
+      "isNew": false
+    },
+    {
+      "id": "0e20b829dd7d",
+      "title": "Why the rise in government debt is freaking out the bond market",
+      "source": "The Conversation",
+      "date": "2026-09-01T20:17:07Z",
+      "topic": "Rates & Macro",
+      "summary": "",
+      "link": "https://news.google.com/rss/articles/CBMinwFBVV95cUxONS1ZNWxUemx1aHc1YURSVE90T0h2bDUyQ3BqcUZSMkpZdlFxT2ZZTGlmaC1pSk9ZRGV6eHpDX3dsLUstSGJMZDFaZ2FJU2JIVVBuMGlFc2lzaU1jcGVLNWhscWU0NUNiSEJYRlpXWUcza2ltNWhqMUozTE5EMUw0WmI4cEhZVmtvVFNjdzZYU2VOUHl0QzZrNU93alRQMFE?oc=5",
       "isNew": false
     },
     {
@@ -124,6 +144,16 @@
       "topic": "Rates & Macro",
       "summary": "",
       "link": "https://news.google.com/rss/articles/CBMiuwFBVV95cUxPUUxBVTlwa1QweUhQWHduWnBjSmJhMnpjQmN0NEptNFZMdnFKQVNNV3FWVWJhdldCX1JXU0g1bkw1eXBEemJwVXdNSUNGOTIxb0FVTXFDaEtXMU4weWVOVktfSm8yb0JQNjEyaVNPUnFJbExJdUNROU9QWVFQWHFTUkpiVUt3OWlNdm1GdXVXR0gyZU1QdlNmZkZMeXJGaVJ0OExheUxUUDRtMG5lSW1jcTFNOFdndk92bFlR?oc=5",
+      "isNew": false
+    },
+    {
+      "id": "4f6c339700d5",
+      "title": "The global bond selloff escalates",
+      "source": "morningbrew.com",
+      "date": "2026-08-31T07:00:00Z",
+      "topic": "Rates & Macro",
+      "summary": "",
+      "link": "https://news.google.com/rss/articles/CBMieEFVX3lxTE1LZlB4TnhCRW9PZjVhRmQyOWhubEk2T3ExVVhVYzlGRGROSG5OVlBPVGl4aDQ5ZUdxY2NnZTdMYlJNRXAzMVVJMl9TS0V5TmR4RlRDcWxkei04ckdLRVFYbGpySW1EdndiNjE1NGVFdzJVbFl4Xzk2MA?oc=5",
       "isNew": false
     },
     {
@@ -274,36 +304,6 @@
       "topic": "Rates & Macro",
       "summary": "",
       "link": "https://news.google.com/rss/articles/CBMijgFBVV95cUxPY2ZrOEtDM1NLVU5mYW5jTTA5eEJfYVFUclg4TnRGSDNaSGE5QkY1d21vT1N0TUN0WTJaT2hoMUc3VDJhcU5qa29NblJyQmtEdDdOUGtoMVRYSkVSdUJvT3k3LWdIcjg2a21sbkVjRWl3SjNzalVYY296VEtja1NSREpENUhtNU9waVBXTk9n?oc=5",
-      "isNew": false
-    },
-    {
-      "id": "cabae630fba4",
-      "title": "Warsh faces a high-stakes Jackson Hole debut as bond market pressures mount",
-      "source": "EL PA\u00cdS English",
-      "date": "2026-08-27T15:53:07Z",
-      "topic": "Rates & Macro",
-      "summary": "",
-      "link": "https://news.google.com/rss/articles/CBMi1gFBVV95cUxPWUUwYk96RTF3ZFI0WjJRYXZMMGp3cWdvNV9Ycm1saXZaU0pLcV9NbVhCMjVJUWdtUWM5a29VTF9IWGx6TUwyMnlPR2stSDIzbmt5X1NJRnUwWW4yNTBhVXJRYVJGMm1aNkIwLTZIV1ltR1g2RUY5bTk0NjFLd3hnWXZQZjVMQkFrSHZKOU1WWC1sVUkxdlZlck1zUXVJZ29ubndSdzc4UlZTWEExRFdfUlZYbk9WNHJqRktJb3RYejhzMG01Q3o1eS00T2NZQm1KLUVmUUF30gHqAUFVX3lxTFBZSEwtdzlHM3NNYkxPd1BzRm50RkdsdVR6Tm9tZkFmTEFhV2tvbTVrUndzQUU3VGhJSzBWZTVWNHZ4bS1fSEJ3bFRIbDQ3bGdnMmJLOXpTaGg2WXRxb2R2NHRVdC16NXotUHZydllzb0hMeTBMMlBpMUdxSlgwYkZXb0ZNS2hpX0ducUNGOW9ySllxdmhJZy1EZEZ3a3ludGtCaUdIMWdQNmdwNUVNRnRJblRUMkh6ZkI5UGlmcGs2c1FTSEtGSHJRZGdvdDVjZFhnZDB3dW5iTFdERTQzUGxYcUd5UzJkQVFQdw?oc=5",
-      "isNew": false
-    },
-    {
-      "id": "c872dbaed9af",
-      "title": "Los Angeles Dodgers Owner\u2019s Troubles Roil Insurance World",
-      "source": "The New York Times",
-      "date": "2026-08-27T07:00:00Z",
-      "topic": "Private Credit",
-      "summary": "",
-      "link": "https://news.google.com/rss/articles/CBMijgFBVV95cUxQem9JWHdxSnZMZnI3c1NxMThzYmk0T25mUXplajdJNk1zZjBQNFpQUnd4NUxrV3VuY3Rhazh4UlVOcFAxRDgxSzNweVFPYVRRNFRLWDl1QWlKUWRaVVRPRnBVUHF0ZUZpWUhuQ09rVUVOalRJY1VabkNHZ0kwaDZLanJuZ3lYbFRyY0tfN1Vn?oc=5",
-      "isNew": false
-    },
-    {
-      "id": "0193971f532a",
-      "title": "Sun Life, Wilton Re to form reinsurance, asset management partnership",
-      "source": "Benefits Canada.com",
-      "date": "2026-08-26T19:04:28Z",
-      "topic": "Insurance AM",
-      "summary": "",
-      "link": "https://news.google.com/rss/articles/CBMiywFBVV95cUxPYm0zWnZpQXNVZjJCSGs2YjQtSUtLbWVGVHlZS18wcUhfYWZyRkJOTnU3WlJtanRCbjZ2SjVqVVhPdVNzMktaZGhTNWJfeF9TTlJUXzh5eFE3Z0VkdzRpdjdkSUhFdmR1Sy1pRUNtUEliOUVyMmJFb2hiU3ZWT1FaQm9KUG9CdEY1Q2VBVG1vOGgzR2c0MGJqNDJDSUpiVUJ5eUFkcHFzNFVockowNE1mdHdMMGY0UXJJY1h5dEZ3R2JYRk9LdmFGZzR0SQ?oc=5",
       "isNew": false
     }
   ]
