@@ -1,5 +1,5 @@
 {
-  "updated": "2026-09-03T16:32:35Z",
+  "updated": "2026-09-03T21:07:32Z",
   "naic": [
     {
       "id": "e0596a092e18",
@@ -7,8 +7,18 @@
       "date": "2026-09-03",
       "cat": "General",
       "summary": "",
-      "source": "InsuranceNewsNet",
+      "source": "insurancenewsnet.com",
       "link": "https://news.google.com/rss/articles/CBMirwFBVV95cUxQQm1rbXZMUzBQV2ZFWkpFbGFEdmU0SS1oaWV2MTNmdkZ2aTJqWEVNR2k0QkJEbXlWUkZpLVc5ZE1PS0hZSTBjSU1TU1hTalhuX21EM3JkV1hPbGRmMFVhbWtvQ2ptV2J6QVpncm1Gbm10Vlp3RTNwWEdjdDlaSVZYM3M3R19DNElZVGllRFFiY0F2TDV3SFZ5OFBwVVJzWTk1dVh3SEJWdzkydzlFWTFv?oc=5",
+      "isNew": true
+    },
+    {
+      "id": "c8ede7636f68",
+      "title": "NAIC meeting a collaborative success",
+      "date": "2026-09-03",
+      "cat": "General",
+      "summary": "",
+      "source": "insurancenewsnet.com",
+      "link": "https://news.google.com/rss/articles/CBMioAFBVV95cUxPMFRrYU5rd09DREJzUU5yeWpGTUc1Rlo4aWFaai16LWV0dTdFdXR5cWhEQXZ5cW5UUW43Z1dhMHFRYnl1Wnp6QWNQUW54UGV4bGhwMU9tQ2l3cHJKVVg2dkgybS16dVN1clFMMHVWR3BERHMxM2FoMnBTTXNpd2hBYmRYYkxpb3BCdmZpVnFLY3pLT3VWSFQzdWRGZDFockRX?oc=5",
       "isNew": true
     },
     {
@@ -107,7 +117,7 @@
       "date": "2026-08-20",
       "cat": "Investment",
       "summary": "",
-      "source": "cryptobriefing.com",
+      "source": "Crypto Briefing",
       "link": "https://news.google.com/rss/articles/CBMib0FVX3lxTE9GUnc4RXVqcUx0dEE5RjlUUTVoeWlGaEMtRlVPVEFfWXFVOFc2NWxvT3lQcnlkOFJZVGF2aVZWUVowdGhSSWx6UDFFZWoxQTVfVEJob3d1MXpVU05YTmRYWHZQckg2SkFVMHpfRjRkbw?oc=5",
       "isNew": true
     },
@@ -240,16 +250,6 @@
       "source": "Sault Michigan News",
       "link": "https://news.google.com/rss/articles/CBMirwFBVV95cUxQb1ZEYTBVSm4tWjhJN2NOMVQySkpuZGcwUXRUOEdYNHRXYjhCVGV3M3g4RVg0WVczUWtwa2VJS1FENDVwR1VKUVlLcVZXQTRyRTg2aEE0TGlsLUFRNFNQbTEzWVBfYURKV1JUclEwMjNvWUttbjZiYkl6aTVndERTMFAtVnZQSkktNGdwQV9YWUlwLTFNZkpCV01HTHNFenZkcmxUemkwamgwTlJnT0pj?oc=5",
       "isNew": true
-    },
-    {
-      "id": "f9105fac2e4d",
-      "title": "State Regulators Move Toward Annuity Disclosure Model Overhaul",
-      "date": "2026-08-14",
-      "cat": "Reporting",
-      "summary": "",
-      "source": "ThinkAdvisor",
-      "link": "https://news.google.com/rss/articles/CBMipgFBVV95cUxOMlplRjg3YnFGMVNCSFZrUWVQX25aNEFjV2RDcFJIOUI2QkdjcW5Sa0lpWjVuQmlhSHM3X1FPWDFTOEpQQ0pGbWJtU1E2ZkZIV0VULVNodFdNTTRnUHFNREtNdXFlUE5GMUtCRmdDWC1JZlBnZDRyck0xNUJIaVNGZzRQOFJxN0tubVFKLXN4VHRiVWRrSlhlNE5rOTVQWW1tOHFKWUhB?oc=5",
-      "isNew": true
     }
   ],
   "bma": [
@@ -269,7 +269,7 @@
       "date": "2026-08-27",
       "cat": "General",
       "summary": "",
-      "source": "Royal Gazette | Bermuda",
+      "source": "royalgazette.com",
       "link": "https://news.google.com/rss/articles/CBMiuwFBVV95cUxPVlNweFlyMy1yRV82Tk9BY1JKbW4xa2hpNU5JX2ZRTlkwczBRbnNHRTVkd3JwVk5LazU4ZHdjY1dqbG9iOXFZT2tuZ1c4V1V4TWhoY2dIcFU1OXJVYTh4dFlRNDB5c0F2UVVMNjBXbENKRGEyVEV2aVo1X0N4RGZySVBubTdsdFQwT09qSUN5VkVmZFFxbDVYbVBlRDhPXzNvbUI1WVQ4Z0dnV25DVjR2MkVXb0RiOFZFVWxr?oc=5",
       "isNew": true
     },
@@ -339,7 +339,7 @@
       "date": "2026-08-10",
       "cat": "General",
       "summary": "",
-      "source": "Royal Gazette | Bermuda",
+      "source": "royalgazette.com",
       "link": "https://news.google.com/rss/articles/CBMipAFBVV95cUxNT1JWUHJKaGpHbDRkRXpSWFdXbE1mOFlwVEpNeHdsUFpEc3piS0JhV0lZcHFXR3JhVW9HS2hMQTdVcHVlT1hTWGZqRVljZGx0SUpJUDJaNWpJLUtJSFZTRzZRa3JfcEJOdDBLcFVINVk2ekJHMnNZeGpNSC1LTllmT2xDWFpDYzRjNGZhLUJNUVh4Y1RocjZ1RjhxTHFqdmpPZUlHUQ?oc=5",
       "isNew": true
     },
@@ -459,7 +459,7 @@
       "date": "2026-07-22",
       "cat": "General",
       "summary": "",
-      "source": "captiveinternational.com",
+      "source": "Captive International",
       "link": "https://news.google.com/rss/articles/CBMigwFBVV95cUxNbENnbmtsM0pnWjdtZWFkeXNXVUVTQ2x4N1Z0SlI4YmJhRTFtdUpRWDBEWTBkcnp5WEJGejBLdkZJWmxYQk9oTWMxM09FblYzQXo5eG1BNWg4V2hNdk5SaXd5MUxHVWF3b1pwQnBBWDN1c1BPa3VVeXN5eW5mUkRqdTJoMA?oc=5",
       "isNew": false
     },
@@ -479,7 +479,7 @@
       "date": "2026-07-21",
       "cat": "General",
       "summary": "",
-      "source": "Royal Gazette | Bermuda",
+      "source": "royalgazette.com",
       "link": "https://news.google.com/rss/articles/CBMitgFBVV95cUxNdHZNOGJEMWdLZTRNYjl3V1RYTmotWmdRVHV5aHpiOWxHNXdMZkEyOGRHb1RNUVB4T1pES2ZoSmczUGtHM2dwQ3hqVnV4LUw2T0pLR3NZOGtVSVNqdDdIWlNCeUhXQTVtOFF2VTdVVjlyMlk4VGZMR0JCOHlnNWJGQzR4S1pTWGJTYmhZWktVYnRKbkZBdDd4SEFKWWF5bUVQd3p2S0xFTXFMTkJXRENOZWFDMlVjUQ?oc=5",
       "isNew": false
     },

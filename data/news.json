@@ -1,5 +1,5 @@
 {
-  "updated": "2026-09-03T16:32:35Z",
+  "updated": "2026-09-03T21:07:32Z",
   "topics": [
     "Insurance AM",
     "Private Credit",
@@ -7,9 +7,19 @@
   ],
   "items": [
     {
+      "id": "59c3c705fc82",
+      "title": "Blackstone private credit fund maintains 5% cap as redemption requests remain elevated",
+      "source": "Reuters",
+      "date": "2026-09-03T15:33:57Z",
+      "topic": "Private Credit",
+      "summary": "",
+      "link": "https://news.google.com/rss/articles/CBMizwFBVV95cUxQSENVd0wwZHktbm9iTXpRNXJyVTNRNGRJeDAzeUx2d3E0cUlCY3pZWG5OVUFpbUluZkQ2XzJhc3RGclZBYUlvNmhuQkNYcVRubjAyaW5peXBVcWNiYUN5R25wTDFONTFVNFpHUzNjMHVFWHhkZVZPZzk3T21henJJRFBidXRMMjZHMkVEUENrQThvWV9EcGEwVVdNUFh4SVZsX01EMGRRQjNRT1VwQ2RyOTB2VWNWU3lMVHZ3NXBEU1hDaGVZa0pwd2NSYS1RNUU?oc=5",
+      "isNew": false
+    },
+    {
       "id": "6f4156c48d0f",
       "title": "Tradeweb Government Bond Update \u2013 August 2026",
-      "source": "Tradeweb",
+      "source": "tradeweb.com",
       "date": "2026-09-03T15:17:37Z",
       "topic": "Rates & Macro",
       "summary": "",
@@ -20,10 +30,30 @@
       "id": "d10c177aa6c6",
       "title": "SafePoint Insurance Makes Strategic Investment in Arrow Risk Management",
       "source": "Business Wire",
-      "date": "2026-09-03T14:37:00Z",
+      "date": "2026-09-03T14:37:35Z",
       "topic": "Insurance AM",
       "summary": "",
       "link": "https://news.google.com/rss/articles/CBMixwFBVV95cUxQYTI1RExZeTh2Tjd3bUhubklkNDBDckp2RXNWZnU3aHdJWFBwMklNZWJuYjdQajRjUThYNVZOSGVlMEpSYW9zd0FLeXhxcWZPZ0NnQXhzc3MzdWl0SWE5SzA2SlppWWpiUzByQzZ1cnd4Vk8ydkEyVUw4V1A3ZVlqRnpOdDJ6cGUzb3BnWHE5Vk1zOXNYMjVkdVEzelpoVEl5eHdKbTkzeXNPMWtQM3VZQUJJdWtPcWxZNl83SWt2NVQ3RGdjYWRj?oc=5",
+      "isNew": false
+    },
+    {
+      "id": "fc379c7b67a6",
+      "title": "Can Treasury Buyback Reverse Bearish Sentiment in Bonds?",
+      "source": "CME Group",
+      "date": "2026-09-03T12:33:45Z",
+      "topic": "Rates & Macro",
+      "summary": "",
+      "link": "https://news.google.com/rss/articles/CBMiuAFBVV95cUxNYmktOW9uZnk2dGNWN1dxMnd5N0ptQUtGSHA1SkxVNlZ3alJjZ2ltOEd0UjBsMDhGeWlEWjExMVFrTk5qQTZUNzZPWW02bEV4T1ltVDI0NHdpU1NVbjRiUkZScGg3NEFXSFAzaF90Zng0WUc0cVpxaHJXVHdnMVFMWFVxZHZaRl8xTUhpQWVWUS0tN0hLSFJTQ1c2U2hxay15bzN4cEJ0cE00R1ZZdW9rNjIta3ZWdmFQ?oc=5",
+      "isNew": false
+    },
+    {
+      "id": "d16d335f6bec",
+      "title": "Walter Global Asset Management invests in Equisoft",
+      "source": "Coverager",
+      "date": "2026-09-03T11:34:36Z",
+      "topic": "Insurance AM",
+      "summary": "",
+      "link": "https://news.google.com/rss/articles/CBMifkFVX3lxTE15elFRXy01bTQzN3BYbXZVbVl2QlY2Z3FzQUVQZDJLR3NYbU55a1pfVHdhUEowWUtxWXA5SHU2cFRZMDhSdnd6eU1jcmFHeXk4NVhvM09TTkVXRkk2Y2gySGY0bHRkWG1PTjFNUHlURHpUNjNYQzVFTzFYX2Rydw?oc=5",
       "isNew": false
     },
     {
@@ -47,13 +77,33 @@
       "isNew": false
     },
     {
-      "id": "fc379c7b67a6",
-      "title": "Can Treasury Buyback Reverse Bearish Sentiment in Bonds?",
-      "source": "CME Group",
-      "date": "2026-09-03T06:37:49Z",
+      "id": "0e20b829dd7d",
+      "title": "Why the rise in government debt is freaking out the bond market",
+      "source": "Kansas Reflector",
+      "date": "2026-09-03T08:35:32Z",
       "topic": "Rates & Macro",
       "summary": "",
-      "link": "https://news.google.com/rss/articles/CBMiuAFBVV95cUxNYmktOW9uZnk2dGNWN1dxMnd5N0ptQUtGSHA1SkxVNlZ3alJjZ2ltOEd0UjBsMDhGeWlEWjExMVFrTk5qQTZUNzZPWW02bEV4T1ltVDI0NHdpU1NVbjRiUkZScGg3NEFXSFAzaF90Zng0WUc0cVpxaHJXVHdnMVFMWFVxZHZaRl8xTUhpQWVWUS0tN0hLSFJTQ1c2U2hxay15bzN4cEJ0cE00R1ZZdW9rNjIta3ZWdmFQ?oc=5",
+      "link": "https://news.google.com/rss/articles/CBMipgFBVV95cUxNaUU2S0l0cGd6amVfTzVTV0tMcmpFYXhNYi16WHoya0YwdWVwLWYxOHZRR0NEdXk1MEJrLURkbHkwaHNoU2lxc3dQMy1odUoyUy1NY3BVYVp4M0RzenZJY2NSV1dDbm9TSFVoVXg3bF8yaFprNzdwbHJXYy1OOFV3Mko5T1IzOXFyVnNfQ20zWmw2NmdFXzN3TXhWWHJtU1l5R3o2Z1hn?oc=5",
+      "isNew": false
+    },
+    {
+      "id": "251cbd6bb623",
+      "title": "Michael Burry Warns of a Private Credit 'Shell Game' That Could Leave Taxpayers on the Hook: APO, KKR, OW",
+      "source": "Benzinga",
+      "date": "2026-09-03T07:47:43Z",
+      "topic": "Private Credit",
+      "summary": "",
+      "link": "https://news.google.com/rss/articles/CBMihAJBVV95cUxQbThESFlVTzhzaDE4YWQ0X3VORVZsWjJJUHBpTkp0eE1GNUY1dXh3M0dXaXFjcm41cnliRy1PcWktLVhtQU5rV3NQQ3haa01LNXVfX2d1RldadVNWRlBTazdOVWFhZmtGUWNxNGZwcDZNU2ptejhwZFdZLUI0SzVFOF9xMERvbHI3V2NiSkptNjJIUlNVWnBsUjh2bXAySHM2U0dXSWNtOFQ3UXZXbjlwVmJ0X3ROb2Jad0NYR280dC1zV0lVUFNjNXJmT2s0YzhhSjBkNDVNNktvOEtwMmlvc1FRT2ZjZ05rWmNnUWUxYnpEOHlRdHh2d0VTUWF2azIycDA2dQ?oc=5",
+      "isNew": false
+    },
+    {
+      "id": "b20b3013ef3b",
+      "title": "Bond yields ease, stocks rally following Fed governor Waller comments",
+      "source": "Reuters",
+      "date": "2026-09-03T02:02:00Z",
+      "topic": "Rates & Macro",
+      "summary": "",
+      "link": "https://news.google.com/rss/articles/CBMigwFBVV95cUxQZHUxMWV6alo1MWFYM191bnlDTlhjTlc0Y2t0UjE4TndrZW9PczcxTmg5a1M0ZWk5M2Fqb0RvVlNIQWFuNG1nb3BtbjhhM2NmbkhDVENZTF9qYU53UDBWR3ROTl9XSlFDVGNLUF9sN29rSlhZc0xfSGZKcWlFanB4b2R1bw?oc=5",
       "isNew": false
     },
     {
@@ -200,10 +250,10 @@
       "id": "5c65083ba70a",
       "title": "CapVisor appoints Livingston to lead business development",
       "source": "Captive Insurance Times",
-      "date": "2026-09-01T21:53:31Z",
+      "date": "2026-09-01T21:03:48Z",
       "topic": "Insurance AM",
       "summary": "",
-      "link": "https://news.google.com/rss/articles/CBMi5wFBVV95cUxOaXNoTFBxM2ZMTU9zQVh0TF9fQnVESHpUQUdSVTlVMnhfMjRuR29FSUo1NEtDVnlhaUMtN2V3NXZ4RUhmYWxWdmNDVEM1RDk4cFZaWHU0dFh5Q2ZVV1RvaEpEdE5xdjFjQ0t5dTBpeVJ6eWZ1Z0o5Q251cnZSZHNoTDNQVzhJajRPSTdwdGZQVHlXcUxwU1ZqU25ickx3bWcwVTA4ajJDOXBtcnk4NVcyMTVFUFQ1YVk3S0NzOWN5bzBrcFh3RzktU3dTV2pzemRNbm1EUXRMX2p2emx2aU1jRnVTVVQ5WjA?oc=5",
+      "link": "https://news.google.com/rss/articles/CBMi4AFBVV95cUxOUEVhd2JHTjM2dXFBRHF0dWd5RjF4dmx2MlZTYTA1dWxjRGJuV0xPUnRFN1BXLUpzZEExaS03QmVTRDdNRkt2d3ExMjd5bGhFcm04NDZoYVRwMzh6Vm1fTDNsVGZXTlN1ZXVCdGIxdzhYcjI0X2JKRWNXMFlpeHFjTlBQU1ZXYUNDQ0h0YjhmMU5VU3NiWGtkTGR3OGFadE5tWGpuSktVSTZiQ1Nxa3l0Z05BX2JXemFQZ3RNNzBZVmloVkNWbTVtNWZIemRBOXVlOTBNTUk0Tkw1VjBfXzdpRw?oc=5",
       "isNew": false
     },
     {
@@ -214,16 +264,6 @@
       "topic": "Rates & Macro",
       "summary": "",
       "link": "https://news.google.com/rss/articles/CBMiuAFBVV95cUxOdlFFSy1ZcHdMM2g3V2hkSTh6WURRdTR1UDFZX1ZNLWRKWmd3b3BzYUlVSEpCRm4yUFh0VUhoZ0Fzd3k2Z05BRDdnQ0hYVXZSQjN3QmdDRzFXcFNIUjhCbEp4WU1ZeC1VMkU0ZnRYZnlDTTMtc2gyNUgzWDFQc3BPcTBDbFc0OTZoREl6akdOWkhuWkhEcWFQMW55OWgtUWYyZW9hUV8tYUZvMFRHRTNVUHM3eWxoX2Ux?oc=5",
-      "isNew": false
-    },
-    {
-      "id": "0e20b829dd7d",
-      "title": "Why the rise in government debt is freaking out the bond market",
-      "source": "The Conversation",
-      "date": "2026-09-01T20:17:07Z",
-      "topic": "Rates & Macro",
-      "summary": "",
-      "link": "https://news.google.com/rss/articles/CBMinwFBVV95cUxONS1ZNWxUemx1aHc1YURSVE90T0h2bDUyQ3BqcUZSMkpZdlFxT2ZZTGlmaC1pSk9ZRGV6eHpDX3dsLUstSGJMZDFaZ2FJU2JIVVBuMGlFc2lzaU1jcGVLNWhscWU0NUNiSEJYRlpXWUcza2ltNWhqMUozTE5EMUw0WmI4cEhZVmtvVFNjdzZYU2VOUHl0QzZrNU93alRQMFE?oc=5",
       "isNew": false
     },
     {
@@ -247,16 +287,6 @@
       "isNew": false
     },
     {
-      "id": "20030cb6e0d4",
-      "title": "Japan's benchmark bond yield rises to 3% for first time in 30 years",
-      "source": "Reuters",
-      "date": "2026-09-01T17:53:29Z",
-      "topic": "Rates & Macro",
-      "summary": "",
-      "link": "https://news.google.com/rss/articles/CBMirwFBVV95cUxQTkpJbXp0djFzYkFEeHBOTDlQZ0pJZzZlakNKb3pQNlFhTEFLSGQwbTUyRTVRVWlNSlBpbUdDbkpRU0dIU0ZQZlVmci10eXRCMzZFN0xLMVZnSGpGTzFfSlpOWk8zUXJ2eTZWWno5YnNDTkducUkwWDlMQWZKVFVRdEVjM3U3N0hEMFV0YnN3blA0MWVDNDFkSFRMV3BJMk5qTVR4aks0R1ZncEtGdHBJ?oc=5",
-      "isNew": false
-    },
-    {
       "id": "7a530468ea94",
       "title": "Global bond sell-off deepens amid inflation fears",
       "source": "Financial Times",
@@ -274,36 +304,6 @@
       "topic": "Rates & Macro",
       "summary": "",
       "link": "https://news.google.com/rss/articles/CBMinwFBVV95cUxOeHR2X1BPMDJfbDdkNUt6V1podDlIcmFCazhQcVZaOVROSklmNl9sQ0RHNmU3T0lOb01PVnJxSXBYdTFrbjJlQkpMV1A1YVlfai1mT05VT1Zodlc1VDVKbTV5ZFI4QUswYXIwd2o0ZUp4dnJ1S0VwUkZVaHo0ZWNaRUh6Q0hyc3BEb3MtdV9qVUxJY2xQQ1pqWTNqRjN3MGc?oc=5",
-      "isNew": false
-    },
-    {
-      "id": "dbdd4b51a5ec",
-      "title": "Bank of Canada monitoring private credit industry as pensions, insurers dominate investments",
-      "source": "Benefits Canada.com",
-      "date": "2026-09-01T15:12:13Z",
-      "topic": "Private Credit",
-      "summary": "",
-      "link": "https://news.google.com/rss/articles/CBMi6wFBVV95cUxQVndPMkNZZHlWNXg0NUJ6TWUzQnBFS29CMEZxQzd1dlU4UncxWWZ1Sk41bU1ySW03OGJVcXp5UHZoNU5aVmp3NmR6ZVJoelBjaDlES2x5SnBYM1pDbjhSODFzQnJsOURpaDlOTGJsYXIzdlJoV3lRTmxyUmRXaFBlekNGcmJ6SklZSnI2R21QcGJXaXVxcWZLY3NxNkxmYk12aUh3ZFB6bVRITGVYSWVSajdGVDlYak5nY3RtNUlNZUNoVDBYVmxELWM1LWxNSzRMZGhzX19hWE9YcFVPeUlOTmZpLUNJVUtBNW1v?oc=5",
-      "isNew": false
-    },
-    {
-      "id": "f5e57b0fd7f2",
-      "title": "Bond yields surge and stocks tumble as inflation fears ripple through markets.",
-      "source": "NBC News",
-      "date": "2026-09-01T14:34:02Z",
-      "topic": "Rates & Macro",
-      "summary": "",
-      "link": "https://news.google.com/rss/articles/CBMingFBVV95cUxPX1k2M25nYzF5bW1Db3RnMldRZ19jWklIUWthSDVPNkhIRk5QQXZfd2dCMHdvNmdrbU1KMlVwYjJZaEtPZzhEa3R3bTBvTEl4MDJ6Q2dWby1NZlJsYi15TzdnWVZLcmg2TTBkVm1NNWhWYlgtM3VFa3RieUJMN2V6NTBSQTFvck1HVkU5NzQ0aHQ2eXJDNGZIVmVKZVNRZw?oc=5",
-      "isNew": false
-    },
-    {
-      "id": "cce11c8148b3",
-      "title": "Artemis London 2026",
-      "source": "Artemis.bm",
-      "date": "2026-09-01T13:15:21Z",
-      "topic": "Insurance AM",
-      "summary": "",
-      "link": "https://news.google.com/rss/articles/CBMiVkFVX3lxTE5ZVkJoaDVmeXpvOG1zNlJNQWVGVnhQNXRLQ1RHSkZQX3lYTnZORS1BN0xwcDhGYjZoanQxVzkzbk5VQUs4dzVhOEx5V2hCMXhsamlMQW1B?oc=5",
       "isNew": false
     }
   ]
