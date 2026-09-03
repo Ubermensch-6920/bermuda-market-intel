@@ -1,111 +1,111 @@
 {
-  "date": "2026-09-01",
+  "date": "2026-09-02",
   "source": "FRED / ICE BofA Indices",
   "url": "https://fred.stlouisfed.org/release?rid=209",
-  "status": "ok",
-  "fresh_count": 9,
+  "status": "partial",
+  "fresh_count": 8,
   "stale_count": 0,
-  "cache_count": 0,
+  "cache_count": 1,
   "max_fresh_age_days": 7,
   "spreads": {
     "ig": {
       "name": "US IG",
       "spread": 81,
-      "prior": 80,
+      "prior": 81,
       "bucket": "IG",
       "source": "fred",
       "series_id": "BAMLC0A0CM",
-      "date": "2026-09-01",
-      "prior_date": "2026-08-31",
-      "age_days": 2
+      "date": "2026-09-02",
+      "prior_date": "2026-09-01",
+      "age_days": 1
     },
     "aaa": {
       "name": "US AAA",
-      "spread": 42,
+      "spread": 43,
       "prior": 42,
       "bucket": "AAA",
       "source": "fred",
       "series_id": "BAMLC0A1CAAA",
-      "date": "2026-09-01",
-      "prior_date": "2026-08-31",
-      "age_days": 2
+      "date": "2026-09-02",
+      "prior_date": "2026-09-01",
+      "age_days": 1
     },
     "aa": {
       "name": "US AA",
-      "spread": 60,
-      "prior": 59,
+      "spread": 61,
+      "prior": 60,
       "bucket": "AA",
       "source": "fred",
       "series_id": "BAMLC0A2CAA",
-      "date": "2026-09-01",
-      "prior_date": "2026-08-31",
-      "age_days": 2
+      "date": "2026-09-02",
+      "prior_date": "2026-09-01",
+      "age_days": 1
     },
     "a": {
       "name": "US A",
-      "spread": 68,
-      "prior": 67,
+      "spread": 69,
+      "prior": 68,
       "bucket": "A",
       "source": "fred",
       "series_id": "BAMLC0A3CA",
-      "date": "2026-09-01",
-      "prior_date": "2026-08-31",
-      "age_days": 2
+      "date": "2026-09-02",
+      "prior_date": "2026-09-01",
+      "age_days": 1
     },
     "bbb": {
       "name": "US BBB",
       "spread": 99,
-      "prior": 98,
+      "prior": 99,
       "bucket": "BBB",
       "source": "fred",
       "series_id": "BAMLC0A4CBBB",
-      "date": "2026-09-01",
-      "prior_date": "2026-08-31",
-      "age_days": 2
+      "date": "2026-09-02",
+      "prior_date": "2026-09-01",
+      "age_days": 1
     },
     "hy": {
       "name": "US HY",
-      "spread": 265,
-      "prior": 263,
+      "spread": 266,
+      "prior": 265,
       "bucket": "HY",
       "source": "fred",
       "series_id": "BAMLH0A0HYM2",
-      "date": "2026-09-01",
-      "prior_date": "2026-08-31",
-      "age_days": 2
+      "date": "2026-09-02",
+      "prior_date": "2026-09-01",
+      "age_days": 1
     },
     "bb": {
       "name": "US BB",
-      "spread": 152,
+      "spread": 153,
       "prior": 152,
       "bucket": "BB",
       "source": "fred",
       "series_id": "BAMLH0A1HYBB",
-      "date": "2026-09-01",
-      "prior_date": "2026-08-31",
-      "age_days": 2
+      "date": "2026-09-02",
+      "prior_date": "2026-09-01",
+      "age_days": 1
     },
     "b": {
       "name": "US B",
-      "spread": 275,
-      "prior": 272,
+      "spread": 276,
+      "prior": 275,
       "bucket": "B",
       "source": "fred",
       "series_id": "BAMLH0A2HYB",
-      "date": "2026-09-01",
-      "prior_date": "2026-08-31",
-      "age_days": 2
+      "date": "2026-09-02",
+      "prior_date": "2026-09-01",
+      "age_days": 1
     },
     "ccc": {
       "name": "US CCC+",
-      "spread": 1049,
-      "prior": 1042,
+      "spread": 1053,
+      "prior": 1049,
       "bucket": "CCC",
-      "source": "fred",
+      "source": "cache",
       "series_id": "BAMLH0A3HYC",
-      "date": "2026-09-01",
-      "prior_date": "2026-08-31",
-      "age_days": 2
+      "date": "2026-09-02",
+      "prior_date": "",
+      "age_days": 1
     }
   },
   "quarter_history": [
@@ -174,6 +174,6 @@
       "source": "fred"
     }
   ],
-  "note": "ICE BofA option-adjusted spreads from FRED. Uses bounded CSV and graph API fallbacks over a recent window; cache is used only where FRED data is unavailable. Values are basis points.",
-  "_fetched": "2026-09-03T11:19:46.797156Z"
+  "note": "ICE BofA option-adjusted spreads from FRED. Uses bounded CSV and graph API fallbacks over a recent window; cache is used only where FRED data is unavailable. Values are basis points. Status=partial: fresh=8, stale=0, cached=1.",
+  "_fetched": "2026-09-03T16:32:07.728883Z"
 }

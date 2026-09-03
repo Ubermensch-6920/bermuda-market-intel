@@ -1,6 +1,16 @@
 {
-  "updated": "2026-09-03T11:20:15Z",
+  "updated": "2026-09-03T16:32:35Z",
   "naic": [
+    {
+      "id": "e0596a092e18",
+      "title": "NAIC working group pressed to accelerate annuity illustration overhaul",
+      "date": "2026-09-03",
+      "cat": "General",
+      "summary": "",
+      "source": "InsuranceNewsNet",
+      "link": "https://news.google.com/rss/articles/CBMirwFBVV95cUxQQm1rbXZMUzBQV2ZFWkpFbGFEdmU0SS1oaWV2MTNmdkZ2aTJqWEVNR2k0QkJEbXlWUkZpLVc5ZE1PS0hZSTBjSU1TU1hTalhuX21EM3JkV1hPbGRmMFVhbWtvQ2ptV2J6QVpncm1Gbm10Vlp3RTNwWEdjdDlaSVZYM3M3R19DNElZVGllRFFiY0F2TDV3SFZ5OFBwVVJzWTk1dVh3SEJWdzkydzlFWTFv?oc=5",
+      "isNew": true
+    },
     {
       "id": "1a18c1a97a4d",
       "title": "Demotech, Inc. Discusses Enhancement of Loss Costs at NAIC Northeast Zone Meeting",
@@ -240,16 +250,6 @@
       "source": "ThinkAdvisor",
       "link": "https://news.google.com/rss/articles/CBMipgFBVV95cUxOMlplRjg3YnFGMVNCSFZrUWVQX25aNEFjV2RDcFJIOUI2QkdjcW5Sa0lpWjVuQmlhSHM3X1FPWDFTOEpQQ0pGbWJtU1E2ZkZIV0VULVNodFdNTTRnUHFNREtNdXFlUE5GMUtCRmdDWC1JZlBnZDRyck0xNUJIaVNGZzRQOFJxN0tubVFKLXN4VHRiVWRrSlhlNE5rOTVQWW1tOHFKWUhB?oc=5",
       "isNew": true
-    },
-    {
-      "id": "0735ec93f760",
-      "title": "NAIC Committee proposes reinsurance RBC and reporting changes",
-      "date": "2026-08-14",
-      "cat": "Reporting",
-      "summary": "",
-      "source": "Norton Rose Fulbright",
-      "link": "https://news.google.com/rss/articles/CBMizAFBVV95cUxOTWJEMlo5UWlzZV84WURfLXdOakNqNnZnS3BqZURtLUFVV1pXeG83X1dPd0Y0WFJHTTNlc21Kam5QRmdOdnRuQjQ3MUpSdUhRc2xtb0VDVXU5Y0ZvUkp6SzNObklkTHN1a01IVFpBWXkta3FUd2pWdERSeWtFejFXNDBzOUhMSGNabThucHdwdW8yR2RLMHl6SGxGT2tHMVhEYlVkVS1rMVQ1eERwaWhuZWNmS3lwVEtkQWppd3Vxb1EyekdCUDc3c3MweXk?oc=5",
-      "isNew": true
     }
   ],
   "bma": [
@@ -459,7 +459,7 @@
       "date": "2026-07-22",
       "cat": "General",
       "summary": "",
-      "source": "Captive International",
+      "source": "captiveinternational.com",
       "link": "https://news.google.com/rss/articles/CBMigwFBVV95cUxNbENnbmtsM0pnWjdtZWFkeXNXVUVTQ2x4N1Z0SlI4YmJhRTFtdUpRWDBEWTBkcnp5WEJGejBLdkZJWmxYQk9oTWMxM09FblYzQXo5eG1BNWg4V2hNdk5SaXd5MUxHVWF3b1pwQnBBWDN1c1BPa3VVeXN5eW5mUkRqdTJoMA?oc=5",
       "isNew": false
     },
