@@ -1,11 +1,31 @@
 {
-  "updated": "2026-09-03T04:38:55Z",
+  "updated": "2026-09-03T11:20:15Z",
   "topics": [
     "Insurance AM",
     "Private Credit",
     "Rates & Macro"
   ],
   "items": [
+    {
+      "id": "da6aa875e6a3",
+      "title": "The best car insurance companies in Oklahoma",
+      "source": "CNBC",
+      "date": "2026-09-03T10:13:15Z",
+      "topic": "Private Credit",
+      "summary": "",
+      "link": "https://news.google.com/rss/articles/CBMia0FVX3lxTE1HbDZQX1ZIZUFLUzRhdmdKZ3h1T2ZMRUsxd0tqNnUwTldMcmdPRHp0cWFaVHJTMFpxb05JUzZudDZUOWQ1UDN3SU41N01RVTM1MkVrclBPMTBHNWJxY2N2ek5fYXc1VFJCbEZz0gFwQVVfeXFMTlhRN2Z6TjMzVEdkVXByeFRpS3VscEVqYnluY0FId3FNQ0JOLXNYTFFOWGltX1EwWkVHeEw3eURxbm96Zk5nTDFtUlQ5SkRLWUJIbUdLUHdkVGt2RFBzOHpkOEE5ZGl6aHZYSUJ0NEhtVw?oc=5",
+      "isNew": false
+    },
+    {
+      "id": "0e20b829dd7d",
+      "title": "Why the rise in government debt is freaking out the bond market",
+      "source": "Kansas Reflector",
+      "date": "2026-09-03T08:35:32Z",
+      "topic": "Rates & Macro",
+      "summary": "",
+      "link": "https://news.google.com/rss/articles/CBMipgFBVV95cUxNaUU2S0l0cGd6amVfTzVTV0tMcmpFYXhNYi16WHoya0YwdWVwLWYxOHZRR0NEdXk1MEJrLURkbHkwaHNoU2lxc3dQMy1odUoyUy1NY3BVYVp4M0RzenZJY2NSV1dDbm9TSFVoVXg3bF8yaFprNzdwbHJXYy1OOFV3Mko5T1IzOXFyVnNfQ20zWmw2NmdFXzN3TXhWWHJtU1l5R3o2Z1hn?oc=5",
+      "isNew": false
+    },
     {
       "id": "2acd58810597",
       "title": "Central banking has a forbidding future",
@@ -33,13 +53,13 @@
       "date": "2026-09-02T17:27:16Z",
       "topic": "Rates & Macro",
       "summary": "",
-      "link": "https://news.google.com/rss/articles/CBMinAFBVV95cUxNOWl5ZzNsbGhfYUtDY0pqWHlRdVRKSERaYkJwZWNjWVBHYzhYclZSeUVacy1ZcXlibE5ZTzY4cEdfTTkzSUFRM21lNG1NeVAzTGxYS2FWdTBJYzNMNzFDNEJ0VFV1RzJieFNOOUFaRFJVY01uSEJ3T1NjbXNXdDZFcmxVUkMzU2U4eG5USDgyV3pKT1BSeTdmRXUxMEzSAZwBQVVfeXFMTTlpeWczbGxoX2FLQ2NKalh5UXVUSkhEWmJCcGVjY1lQR2M4WHJWUnlFWnMtWXF5YmxOWU82OHBHX005M0lBUTNtZTRtTXlQM0xsWEthVnUwSWMzTDcxQzRCdFRVdUcyYnhTTjlBWkRSVWNNbkhCd09TY21zV3Q2RXJsVVJDM1NlOHhuVEg4Mld6Sk9QUnk3ZkV1MTBM?oc=5",
+      "link": "https://news.google.com/rss/articles/CBMilwFBVV95cUxOdFZ4T2tWendKU28yS0d2WkVEVFQwTUNCWnQ5RDJvckpMbDVsVlcyYk1aZW5JYzYxTVhDX25IRm9kMm5ydFo5OWdjZk1XS2Rpc05wR0dZdm5kYjdDcXJfa2pJVGJ4ODNrcjVRMzNoUXEyVVFqdzFQTWt4RzNNSGt1Q1l0TXdCTndfbDYxdnpObWxfeGJJaUkw0gGcAUFVX3lxTE05aXlnM2xsaF9hS0NjSmpYeVF1VEpIRFpiQnBlY2NZUEdjOFhyVlJ5RVpzLVlxeWJsTllPNjhwR19NOTNJQVEzbWU0bU15UDNMbFhLYVZ1MEljM0w3MUM0QnRUVXVHMmJ4U045QVpEUlVjTW5IQndPU2Ntc1d0NkVybFVSQzNTZTh4blRIODJXekpPUFJ5N2ZFdTEwTA?oc=5",
       "isNew": false
     },
     {
       "id": "c46998cd0888",
       "title": "Bank of Canada holds interest rate again as volatility threatens growth",
-      "source": "realeconomy.rsmus.com",
+      "source": "The Real Economy Blog",
       "date": "2026-09-02T15:19:26Z",
       "topic": "Rates & Macro",
       "summary": "",
@@ -107,16 +127,6 @@
       "isNew": false
     },
     {
-      "id": "4f6c339700d5",
-      "title": "The global bond selloff escalates",
-      "source": "Morning Brew",
-      "date": "2026-09-01T22:51:41Z",
-      "topic": "Rates & Macro",
-      "summary": "",
-      "link": "https://news.google.com/rss/articles/CBMieEFVX3lxTE1LZlB4TnhCRW9PZjVhRmQyOWhubEk2T3ExVVhVYzlGRGROSG5OVlBPVGl4aDQ5ZUdxY2NnZTdMYlJNRXAzMVVJMl9TS0V5TmR4RlRDcWxkei04ckdLRVFYbGpySW1EdndiNjE1NGVFdzJVbFl4Xzk2MA?oc=5",
-      "isNew": false
-    },
-    {
       "id": "5c65083ba70a",
       "title": "CapVisor appoints Livingston to lead business development",
       "source": "Captive Insurance Times",
@@ -127,13 +137,13 @@
       "isNew": false
     },
     {
-      "id": "0e20b829dd7d",
-      "title": "Why the rise in government debt is freaking out the bond market",
-      "source": "The Conversation",
-      "date": "2026-09-01T20:17:07Z",
+      "id": "334e2ace426f",
+      "title": "Bond Yields Around the World Soar in Challenge to Government Borrowing",
+      "source": "WSJ",
+      "date": "2026-09-01T20:39:00Z",
       "topic": "Rates & Macro",
       "summary": "",
-      "link": "https://news.google.com/rss/articles/CBMinwFBVV95cUxONS1ZNWxUemx1aHc1YURSVE90T0h2bDUyQ3BqcUZSMkpZdlFxT2ZZTGlmaC1pSk9ZRGV6eHpDX3dsLUstSGJMZDFaZ2FJU2JIVVBuMGlFc2lzaU1jcGVLNWhscWU0NUNiSEJYRlpXWUcza2ltNWhqMUozTE5EMUw0WmI4cEhZVmtvVFNjdzZYU2VOUHl0QzZrNU93alRQMFE?oc=5",
+      "link": "https://news.google.com/rss/articles/CBMiuAFBVV95cUxOdlFFSy1ZcHdMM2g3V2hkSTh6WURRdTR1UDFZX1ZNLWRKWmd3b3BzYUlVSEpCRm4yUFh0VUhoZ0Fzd3k2Z05BRDdnQ0hYVXZSQjN3QmdDRzFXcFNIUjhCbEp4WU1ZeC1VMkU0ZnRYZnlDTTMtc2gyNUgzWDFQc3BPcTBDbFc0OTZoREl6akdOWkhuWkhEcWFQMW55OWgtUWYyZW9hUV8tYUZvMFRHRTNVUHM3eWxoX2Ux?oc=5",
       "isNew": false
     },
     {
@@ -167,23 +177,23 @@
       "isNew": false
     },
     {
-      "id": "299bac3d77d0",
-      "title": "Global Bond Selloff Extends as Rate Hike Expectations Grow",
-      "source": "Morningstar",
-      "date": "2026-09-01T16:38:55Z",
+      "id": "7a530468ea94",
+      "title": "Global bond sell-off deepens amid inflation fears",
+      "source": "Financial Times",
+      "date": "2026-09-01T16:49:09Z",
       "topic": "Rates & Macro",
       "summary": "",
-      "link": "https://news.google.com/rss/articles/CBMinwFBVV95cUxOeHR2X1BPMDJfbDdkNUt6V1podDlIcmFCazhQcVZaOVROSklmNl9sQ0RHNmU3T0lOb01PVnJxSXBYdTFrbjJlQkpMV1A1YVlfai1mT05VT1Zodlc1VDVKbTV5ZFI4QUswYXIwd2o0ZUp4dnJ1S0VwUkZVaHo0ZWNaRUh6Q0hyc3BEb3MtdV9qVUxJY2xQQ1pqWTNqRjN3MGc?oc=5",
+      "link": "https://news.google.com/rss/articles/CBMihAFBVV95cUxOWi12RXhUckg1T1JDbE5MR085RC0tT1BhMlFMWlRkWlNMNV9EaWNVTHZfS2FSTEpGQXFOdVBRRTVqSy1qVlN4TkZtb3NISWhOYnBKS3BSVUY5b1RjODRJT0JNeGY3NnBBRzN3R2dKNThHZHpGRDdzVElJTnQzQTY1ZVZ6ZHc?oc=5",
       "isNew": false
     },
     {
-      "id": "334e2ace426f",
-      "title": "Bond Yields Around the World Soar in Challenge to Government Borrowing",
-      "source": "WSJ",
-      "date": "2026-09-01T15:46:11Z",
+      "id": "299bac3d77d0",
+      "title": "Global Bond Selloff Extends as Rate Hike Expectations Grow",
+      "source": "Morningstar",
+      "date": "2026-09-01T16:34:07Z",
       "topic": "Rates & Macro",
       "summary": "",
-      "link": "https://news.google.com/rss/articles/CBMiuAFBVV95cUxOdlFFSy1ZcHdMM2g3V2hkSTh6WURRdTR1UDFZX1ZNLWRKWmd3b3BzYUlVSEpCRm4yUFh0VUhoZ0Fzd3k2Z05BRDdnQ0hYVXZSQjN3QmdDRzFXcFNIUjhCbEp4WU1ZeC1VMkU0ZnRYZnlDTTMtc2gyNUgzWDFQc3BPcTBDbFc0OTZoREl6akdOWkhuWkhEcWFQMW55OWgtUWYyZW9hUV8tYUZvMFRHRTNVUHM3eWxoX2Ux?oc=5",
+      "link": "https://news.google.com/rss/articles/CBMinwFBVV95cUxObndxamhXd2tXVnZsb3ZXNkFzanp3NzBMR24zR0ZNWFNYM2hockIzZXl4UHJldzhwM3Z6WTNaTjJaeFhIZFVtUDVaeTUwWUFIdmgyMmVIdG84S3dZcHViOWpLbWo3dkQwMGgtZHBmOXBhcG1WSDNIYjR1cTlrckhSVTZLS2lfRHQ3bGxocnlsaTEzZDl3dmhDQnVFcVppbUU?oc=5",
       "isNew": false
     },
     {
@@ -217,13 +227,23 @@
       "isNew": false
     },
     {
+      "id": "cce11c8148b3",
+      "title": "Artemis London 2026",
+      "source": "Artemis.bm",
+      "date": "2026-09-01T13:15:21Z",
+      "topic": "Insurance AM",
+      "summary": "",
+      "link": "https://news.google.com/rss/articles/CBMiVkFVX3lxTE5ZVkJoaDVmeXpvOG1zNlJNQWVGVnhQNXRLQ1RHSkZQX3lYTnZORS1BN0xwcDhGYjZoanQxVzkzbk5VQUs4dzVhOEx5V2hCMXhsamlMQW1B?oc=5",
+      "isNew": false
+    },
+    {
       "id": "1de6a9d13932",
       "title": "Global bonds sell off as Middle East conflict escalates, further stoking inflation fears",
-      "source": "cnn.com",
+      "source": "news8000.com",
       "date": "2026-09-01T13:05:00Z",
       "topic": "Rates & Macro",
       "summary": "",
-      "link": "https://news.google.com/rss/articles/CBMia0FVX3lxTE5USXlYc1JQOEFTU0FBQ3dTSDVWYzBtNzBWLTJxeVlyQnBFcmY2dlRIeUFreGh2UlZLREY5TmV5cENUazNBSFNvV2NBVTh3REptZEdTMW9qd2d3QXBMQkRrRE05ZTA4SlhfUGlZ?oc=5",
+      "link": "https://news.google.com/rss/articles/CBMiigJBVV95cUxOQlNsdXRsUnhJTjdfdFNvclYxVU9RSy1XX2FuNkV3RldZQlZxZEUtdXBrZ2Zla3BsOUVJQXE3ZXoxSWVOQ09fbXYweFk4c2c5cjVMZ1JPRG1Xbld0cEd4T2c4TkR6MDNxaGo5TFJCNWN6dG9kNXZ0Zkh3TWtmX3pGcURxWGJ3QVVnYVJfbFE3VnVWRnhlNWdQZHczRkF3dF95TEFMZlJ5ZjJwb294dngxYm9nbVl0MlZiTHVtUUVrOTN0YnA1dEIxOC0yazhQaGo1VVZxeVRndWhqUUJKOE9aVlJ6bU55d0tId1QxSmlBbFdGOWRTT0NPZ3FoMXdLU21tWVdoY2dsQ2l6UQ?oc=5",
       "isNew": false
     },
     {
@@ -237,13 +257,13 @@
       "isNew": false
     },
     {
-      "id": "7a530468ea94",
-      "title": "Global bond sell-off deepens amid inflation fears",
-      "source": "Financial Times",
-      "date": "2026-09-01T08:11:17Z",
-      "topic": "Rates & Macro",
+      "id": "66a8c9bece11",
+      "title": "Swiss Life to Cut Around 600 Jobs by End of 2028 in Efficiency Drive",
+      "source": "Eurasia Business News",
+      "date": "2026-09-01T10:17:12Z",
+      "topic": "Insurance AM",
       "summary": "",
-      "link": "https://news.google.com/rss/articles/CBMihAFBVV95cUxOWi12RXhUckg1T1JDbE5MR085RC0tT1BhMlFMWlRkWlNMNV9EaWNVTHZfS2FSTEpGQXFOdVBRRTVqSy1qVlN4TkZtb3NISWhOYnBKS3BSVUY5b1RjODRJT0JNeGY3NnBBRzN3R2dKNThHZHpGRDdzVElJTnQzQTY1ZVZ6ZHc?oc=5",
+      "link": "https://news.google.com/rss/articles/CBMisgFBVV95cUxNaDVVNjlVVVdsd2YwZkxfSF9PcDY3VVZtTThtTkQzVmlHaDRfQ01EdTNaUGFmYjhVdjRxYUpwMGxHRWtCRC1sNXgtLUJKWVoxTUdPRl9sUEFqWDl2NkhROGVsdTU1SjRWUmQ2RnptSTNtMHg3anBZSGpJakdpZUNwUXdVZU9fMTg2VmY5TDJDZ2M0QzBHb0hJVndQYmx0NmhrSG5uUzBUVEQ4VWJ5cHJxSG1n?oc=5",
       "isNew": false
     },
     {
@@ -284,26 +304,6 @@
       "topic": "Rates & Macro",
       "summary": "",
       "link": "https://news.google.com/rss/articles/CBMixwFBVV95cUxOb2xvdFJkTVVyTXRJZjVpQzFEbTJRbEpfd0J0dnBGMHozb0lfTzY5Q1lTeWpfSzJYSldYbXJEQUQ5dWZCWlQ4VFhCLXhRaWFzMllkZzZrV1gtajg5RHR3aFNNX2VDUEFHd3pSVVNJek13OFJ1Q1lTNnRiYm4wS3c2QmtBOExnbnUtc216d1dWN09jQW9vSkZXckRfcjRWZU5tUG9jOURRV2lKbDlzMUNWamo0b0I5NHRJTjJrb2lkdDVNMWxGWWZr?oc=5",
-      "isNew": false
-    },
-    {
-      "id": "d741e8aef68c",
-      "title": "Long-Term Global Government Bond Yields Hit Fresh Highs",
-      "source": "WSJ",
-      "date": "2026-08-31T15:12:00Z",
-      "topic": "Rates & Macro",
-      "summary": "",
-      "link": "https://news.google.com/rss/articles/CBMiuwFBVV95cUxPUUxBVTlwa1QweUhQWHduWnBjSmJhMnpjQmN0NEptNFZMdnFKQVNNV3FWVWJhdldCX1JXU0g1bkw1eXBEemJwVXdNSUNGOTIxb0FVTXFDaEtXMU4weWVOVktfSm8yb0JQNjEyaVNPUnFJbExJdUNROU9QWVFQWHFTUkpiVUt3OWlNdm1GdXVXR0gyZU1QdlNmZkZMeXJGaVJ0OExheUxUUDRtMG5lSW1jcTFNOFdndk92bFlR?oc=5",
-      "isNew": false
-    },
-    {
-      "id": "82ec7b84f58b",
-      "title": "Private credit under scrutiny in 2026",
-      "source": "rankiapro.com",
-      "date": "2026-08-31T10:56:03Z",
-      "topic": "Private Credit",
-      "summary": "",
-      "link": "https://news.google.com/rss/articles/CBMitgFBVV95cUxNMWNjSjNSSmI4b2hoVG5OOUc2M3ZoMTVwTWtSbnczaHVNamcxSWRtbTdlSVpVNnFWdVpLX19wYlQwTnVQZjJva0hhUmtGX2l5WFk0Q19XeHFJN1c3Ym9YbW5rZzVSTXhLeGtOM1ZzOTRaUWRSeVFEc1B2WlptYmV5MW1RakZkbXlBMy00WWVuRkkyaFpjdGloV2hacEFNalk3MF9HWTJFeDR1MUJBYTRjRE5MWVZFUQ?oc=5",
       "isNew": false
     }
   ]
