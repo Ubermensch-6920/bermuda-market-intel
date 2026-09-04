@@ -1,5 +1,5 @@
 {
-  "updated": "2026-09-04T16:26:31Z",
+  "updated": "2026-09-04T20:50:46Z",
   "topics": [
     "Insurance AM",
     "Private Credit",
@@ -99,7 +99,7 @@
     {
       "id": "da6aa875e6a3",
       "title": "The best car insurance companies in Oklahoma",
-      "source": "cnbc.com",
+      "source": "CNBC",
       "date": "2026-09-03T10:13:15Z",
       "topic": "Private Credit",
       "summary": "",
@@ -157,6 +157,16 @@
       "isNew": false
     },
     {
+      "id": "0e14302f6545",
+      "title": "Insurance Midyear Outlook: Finding Value in Tight Markets",
+      "source": "AllianceBernstein",
+      "date": "2026-09-03T00:45:47Z",
+      "topic": "Private Credit",
+      "summary": "",
+      "link": "https://news.google.com/rss/articles/CBMi6wFBVV95cUxOZFVZc21JX1NaM0Z0dnlSLXB4cXliOHU2NlpkcnljcHRwekxGQTlYaFVEQk52dWo5czR2Tm5QaWZJaTQwRDJHeEhWRnZEX3RabEFYMVBISTdBanA0WGVMcXJFS0U2Vi05Tm4ybUgzdVpuZW5Qd2xfcVVZUDZBWkQ1Y0pCdmpUUlNzOGI0bW5FTVVoZ01MR0JCOEUxY1h3blF4M1gyYVlMdkhHQ0xZRXhfWjI0WnN3WGhhRGFSVWp1TnNJTlNhWkJOWUFVZ1d2eEVMc0RIWWZoQ1pKVG9UWkpCUm4ybHJRZnFFeHhB?oc=5",
+      "isNew": false
+    },
+    {
       "id": "2acd58810597",
       "title": "Central banking has a forbidding future",
       "source": "economist.com",
@@ -189,7 +199,7 @@
     {
       "id": "d23843a4508a",
       "title": "Why bond yields are rising and why everyone should care",
-      "source": "PBS",
+      "source": "pbs.org",
       "date": "2026-09-02T17:27:16Z",
       "topic": "Rates & Macro",
       "summary": "",
@@ -249,7 +259,7 @@
     {
       "id": "8a70d584860b",
       "title": "Bond market sell-off: How investors can move and protect their money as rates rise",
-      "source": "cnbc.com",
+      "source": "CNBC",
       "date": "2026-09-02T11:00:29Z",
       "topic": "Rates & Macro",
       "summary": "",
@@ -294,16 +304,6 @@
       "topic": "Rates & Macro",
       "summary": "",
       "link": "https://news.google.com/rss/articles/CBMisAFBVV95cUxPSUpNQm9IRWNqckx0Y0VQd19vN3I2WUNUSDMxbnFSMUFSV3A0Y3FkZlpWSC1oYjV0eTdGTjg2UTE4NTdIb2tkOWpnaEozRjF6ckVBa3ZCMTZaQkVMb1pvS3VuZ1k1amhPbHFZNVAwQ1c5QlFyZXhfOUYwaC00V1pKWkloNkZEa0tycGJqTWFDbWd6MFczd1RVcEdoSGt0QVlweWtsbnBjVGt3R3VoTzlFNg?oc=5",
-      "isNew": false
-    },
-    {
-      "id": "5c65083ba70a",
-      "title": "CapVisor appoints Livingston to lead business development",
-      "source": "captiveinsurancetimes.com",
-      "date": "2026-09-01T21:03:48Z",
-      "topic": "Insurance AM",
-      "summary": "",
-      "link": "https://news.google.com/rss/articles/CBMi4AFBVV95cUxOUEVhd2JHTjM2dXFBRHF0dWd5RjF4dmx2MlZTYTA1dWxjRGJuV0xPUnRFN1BXLUpzZEExaS03QmVTRDdNRkt2d3ExMjd5bGhFcm04NDZoYVRwMzh6Vm1fTDNsVGZXTlN1ZXVCdGIxdzhYcjI0X2JKRWNXMFlpeHFjTlBQU1ZXYUNDQ0h0YjhmMU5VU3NiWGtkTGR3OGFadE5tWGpuSktVSTZiQ1Nxa3l0Z05BX2JXemFQZ3RNNzBZVmloVkNWbTVtNWZIemRBOXVlOTBNTUk0Tkw1VjBfXzdpRw?oc=5",
       "isNew": false
     }
   ]
