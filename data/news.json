@@ -1,11 +1,21 @@
 {
-  "updated": "2026-09-04T04:39:22Z",
+  "updated": "2026-09-04T11:23:21Z",
   "topics": [
     "Insurance AM",
     "Private Credit",
     "Rates & Macro"
   ],
   "items": [
+    {
+      "id": "c4a1a0278a2c",
+      "title": "The Bond Markets Are Pushing Up Rates. Will Central Banks Follow?",
+      "source": "The New York Times",
+      "date": "2026-09-04T09:13:58Z",
+      "topic": "Rates & Macro",
+      "summary": "",
+      "link": "https://news.google.com/rss/articles/CBMihwFBVV95cUxQVVl1MHdpSGJrVmVLd1pJbkIyMmU4Uk5FcDlqZnF2d1lmMGpVbDBuLU5ROGZCeDM2d3hoXzg2cDZuVEk5N25qQnloeVVxYUpkNEhwYkViYTZCUS1FZW00dDhlNXRJQXlrcXFvdENWZElrZ290bzJQdmp4T1lkZktNMTZVLThNUlk?oc=5",
+      "isNew": false
+    },
     {
       "id": "5b912a3b9d1b",
       "title": "The $9.6 Trillion Insurance Portfolio Is Going Private",
@@ -49,7 +59,7 @@
     {
       "id": "d10c177aa6c6",
       "title": "SafePoint Insurance Makes Strategic Investment in Arrow Risk Management",
-      "source": "businesswire.com",
+      "source": "Business Wire",
       "date": "2026-09-03T14:37:00Z",
       "topic": "Insurance AM",
       "summary": "",
@@ -260,7 +270,7 @@
       "id": "e335a3401da1",
       "title": "COMMENTARY: The 'real' deal \u2014 world bonds grind towards higher neutral rates",
       "source": "Reuters",
-      "date": "2026-09-02T06:00:00Z",
+      "date": "2026-09-02T07:36:59Z",
       "topic": "Rates & Macro",
       "summary": "",
       "link": "https://news.google.com/rss/articles/CBMi0gFBVV95cUxObEk0Q09CTi14SmVKc3c5d3dSclpzM21pYkRoRXROd3g3MHgwWWxzaUFzV1VNTi10MG5xWXdycUJoTEdwTF81enZYZnl6azdoZHJVT3E1NEFXQ1NlUVBBOUVvRENSWGFOd05sYTdvZ3Q5eEU1emlaTWdlX1FXbXpSUE1Rdm9GVHJUS0ZJNjlTdEROMVpEV3lSdFdrc043S2xNX2hhXy12QUo0YU5GNUFBb1pBYkpkcTFEXzBNZmdZWEtqQVlWSTVHbXVtQzEwUDY0OEE?oc=5",
@@ -294,16 +304,6 @@
       "topic": "Rates & Macro",
       "summary": "",
       "link": "https://news.google.com/rss/articles/CBMiuAFBVV95cUxOdlFFSy1ZcHdMM2g3V2hkSTh6WURRdTR1UDFZX1ZNLWRKWmd3b3BzYUlVSEpCRm4yUFh0VUhoZ0Fzd3k2Z05BRDdnQ0hYVXZSQjN3QmdDRzFXcFNIUjhCbEp4WU1ZeC1VMkU0ZnRYZnlDTTMtc2gyNUgzWDFQc3BPcTBDbFc0OTZoREl6akdOWkhuWkhEcWFQMW55OWgtUWYyZW9hUV8tYUZvMFRHRTNVUHM3eWxoX2Ux?oc=5",
-      "isNew": false
-    },
-    {
-      "id": "a6232c468d1e",
-      "title": "Rising bond yields threaten to push up U.S. borrowing costs. Here's what to know.",
-      "source": "CBS News",
-      "date": "2026-09-01T19:12:00Z",
-      "topic": "Rates & Macro",
-      "summary": "",
-      "link": "https://news.google.com/rss/articles/CBMif0FVX3lxTE9YcW1kVl9LcmkxTmlPTGVIZWhBczI3SnpremJ2U3dJcXNISzdnUHBuRmRxVWNGdkFYLTJLWnFia2RIWmZ0NUFUR25telN3QzhHcnFQbHBJVjN3a1d1eEhrZ09veWd4ajVyN3ZFUFZWZmMtMGdWdkE0cy1uX1JLOGs?oc=5",
       "isNew": false
     }
   ]
