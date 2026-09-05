@@ -1,5 +1,5 @@
 {
-  "updated": "2026-09-04T23:07:44Z",
+  "updated": "2026-09-05T04:35:25Z",
   "topics": [
     "Insurance AM",
     "Private Credit",
@@ -29,7 +29,7 @@
     {
       "id": "d191afb6e2c0",
       "title": "Global Bond Markets Take a Breather",
-      "source": "WSJ",
+      "source": "wsj.com",
       "date": "2026-09-03T16:08:00Z",
       "topic": "Rates & Macro",
       "summary": "",
@@ -59,7 +59,7 @@
     {
       "id": "d10c177aa6c6",
       "title": "SafePoint Insurance Makes Strategic Investment in Arrow Risk Management",
-      "source": "businesswire.com",
+      "source": "Business Wire",
       "date": "2026-09-03T14:37:00Z",
       "topic": "Insurance AM",
       "summary": "",
@@ -159,9 +159,19 @@
     {
       "id": "0e14302f6545",
       "title": "Insurance Midyear Outlook: Finding Value in Tight Markets",
-      "source": "AllianceBernstein",
+      "source": "alliancebernstein.com",
       "date": "2026-09-03T00:45:47Z",
       "topic": "Private Credit",
+      "summary": "",
+      "link": "https://news.google.com/rss/articles/CBMi6wFBVV95cUxOZFVZc21JX1NaM0Z0dnlSLXB4cXliOHU2NlpkcnljcHRwekxGQTlYaFVEQk52dWo5czR2Tm5QaWZJaTQwRDJHeEhWRnZEX3RabEFYMVBISTdBanA0WGVMcXJFS0U2Vi05Tm4ybUgzdVpuZW5Qd2xfcVVZUDZBWkQ1Y0pCdmpUUlNzOGI0bW5FTVVoZ01MR0JCOEUxY1h3blF4M1gyYVlMdkhHQ0xZRXhfWjI0WnN3WGhhRGFSVWp1TnNJTlNhWkJOWUFVZ1d2eEVMc0RIWWZoQ1pKVG9UWkpCUm4ybHJRZnFFeHhB?oc=5",
+      "isNew": false
+    },
+    {
+      "id": "5a1383e590b3",
+      "title": "Insurance Midyear Outlook: Finding Value in Tight Markets",
+      "source": "alliancebernstein.com",
+      "date": "2026-09-03T00:45:47Z",
+      "topic": "Insurance AM",
       "summary": "",
       "link": "https://news.google.com/rss/articles/CBMi6wFBVV95cUxOZFVZc21JX1NaM0Z0dnlSLXB4cXliOHU2NlpkcnljcHRwekxGQTlYaFVEQk52dWo5czR2Tm5QaWZJaTQwRDJHeEhWRnZEX3RabEFYMVBISTdBanA0WGVMcXJFS0U2Vi05Tm4ybUgzdVpuZW5Qd2xfcVVZUDZBWkQ1Y0pCdmpUUlNzOGI0bW5FTVVoZ01MR0JCOEUxY1h3blF4M1gyYVlMdkhHQ0xZRXhfWjI0WnN3WGhhRGFSVWp1TnNJTlNhWkJOWUFVZ1d2eEVMc0RIWWZoQ1pKVG9UWkpCUm4ybHJRZnFFeHhB?oc=5",
       "isNew": false
@@ -199,7 +209,7 @@
     {
       "id": "d23843a4508a",
       "title": "Why bond yields are rising and why everyone should care",
-      "source": "pbs.org",
+      "source": "PBS",
       "date": "2026-09-02T17:27:16Z",
       "topic": "Rates & Macro",
       "summary": "",
@@ -294,16 +304,6 @@
       "topic": "Rates & Macro",
       "summary": "",
       "link": "https://news.google.com/rss/articles/CBMi0gFBVV95cUxObEk0Q09CTi14SmVKc3c5d3dSclpzM21pYkRoRXROd3g3MHgwWWxzaUFzV1VNTi10MG5xWXdycUJoTEdwTF81enZYZnl6azdoZHJVT3E1NEFXQ1NlUVBBOUVvRENSWGFOd05sYTdvZ3Q5eEU1emlaTWdlX1FXbXpSUE1Rdm9GVHJUS0ZJNjlTdEROMVpEV3lSdFdrc043S2xNX2hhXy12QUo0YU5GNUFBb1pBYkpkcTFEXzBNZmdZWEtqQVlWSTVHbXVtQzEwUDY0OEE?oc=5",
-      "isNew": false
-    },
-    {
-      "id": "33af94644126",
-      "title": "Bessent downplays bond market concerns amid global sell-off",
-      "source": "washingtonpost.com",
-      "date": "2026-09-02T04:08:16Z",
-      "topic": "Rates & Macro",
-      "summary": "",
-      "link": "https://news.google.com/rss/articles/CBMisAFBVV95cUxPSUpNQm9IRWNqckx0Y0VQd19vN3I2WUNUSDMxbnFSMUFSV3A0Y3FkZlpWSC1oYjV0eTdGTjg2UTE4NTdIb2tkOWpnaEozRjF6ckVBa3ZCMTZaQkVMb1pvS3VuZ1k1amhPbHFZNVAwQ1c5QlFyZXhfOUYwaC00V1pKWkloNkZEa0tycGJqTWFDbWd6MFczd1RVcEdoSGt0QVlweWtsbnBjVGt3R3VoTzlFNg?oc=5",
       "isNew": false
     }
   ]
