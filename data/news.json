@@ -1,5 +1,5 @@
 {
-  "updated": "2026-09-05T04:35:25Z",
+  "updated": "2026-09-05T10:41:01Z",
   "topics": [
     "Insurance AM",
     "Private Credit",
@@ -19,7 +19,7 @@
     {
       "id": "5b912a3b9d1b",
       "title": "The $9.6 Trillion Insurance Portfolio Is Going Private",
-      "source": "Forbes",
+      "source": "forbes.com",
       "date": "2026-09-03T22:22:26Z",
       "topic": "Private Credit",
       "summary": "",
@@ -29,7 +29,7 @@
     {
       "id": "d191afb6e2c0",
       "title": "Global Bond Markets Take a Breather",
-      "source": "wsj.com",
+      "source": "WSJ",
       "date": "2026-09-03T16:08:00Z",
       "topic": "Rates & Macro",
       "summary": "",
@@ -39,7 +39,7 @@
     {
       "id": "59c3c705fc82",
       "title": "Blackstone private credit fund maintains 5% cap as redemption requests remain elevated",
-      "source": "Reuters",
+      "source": "reuters.com",
       "date": "2026-09-03T15:33:57Z",
       "topic": "Private Credit",
       "summary": "",
@@ -139,7 +139,7 @@
     {
       "id": "24b590efa903",
       "title": "Bond yields fall, stocks rally as Fed's Waller comments curb rate hike bets",
-      "source": "Reuters",
+      "source": "reuters.com",
       "date": "2026-09-03T02:02:00Z",
       "topic": "Rates & Macro",
       "summary": "",
@@ -159,7 +159,7 @@
     {
       "id": "0e14302f6545",
       "title": "Insurance Midyear Outlook: Finding Value in Tight Markets",
-      "source": "alliancebernstein.com",
+      "source": "AllianceBernstein",
       "date": "2026-09-03T00:45:47Z",
       "topic": "Private Credit",
       "summary": "",
@@ -169,7 +169,7 @@
     {
       "id": "5a1383e590b3",
       "title": "Insurance Midyear Outlook: Finding Value in Tight Markets",
-      "source": "alliancebernstein.com",
+      "source": "AllianceBernstein",
       "date": "2026-09-03T00:45:47Z",
       "topic": "Insurance AM",
       "summary": "",
@@ -269,7 +269,7 @@
     {
       "id": "8a70d584860b",
       "title": "Bond market sell-off: How investors can move and protect their money as rates rise",
-      "source": "CNBC",
+      "source": "cnbc.com",
       "date": "2026-09-02T11:00:29Z",
       "topic": "Rates & Macro",
       "summary": "",

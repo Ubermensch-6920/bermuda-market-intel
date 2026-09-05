@@ -1,5 +1,5 @@
 {
-  "updated": "2026-09-05T04:35:25Z",
+  "updated": "2026-09-05T10:41:01Z",
   "naic": [
     {
       "id": "4b6fc7851ff7",
@@ -7,7 +7,7 @@
       "date": "2026-09-04",
       "cat": "General",
       "summary": "",
-      "source": "wsj.com",
+      "source": "WSJ",
       "link": "https://news.google.com/rss/articles/CBMihgFBVV95cUxNN0VvUUJZQnpDbXBhdTc5bnN5MFVpaWdnakNXc3dzS3FYbV8tRTNRNVd4cEdNU0pRclJyeE1ZN2luVER2T0F2RWhLckdoNXFBcHhWNnptMllPbjA5Sm1wZjZRRkFNNFA2RENfWlFFMmtBQ1VNQUVCbU9oVTIzQ0NXNl9xZWdjZw?oc=5",
       "isNew": true
     },
@@ -17,7 +17,7 @@
       "date": "2026-09-04",
       "cat": "General",
       "summary": "",
-      "source": "forvismazars.us",
+      "source": "Forvis Mazars US",
       "link": "https://news.google.com/rss/articles/CBMihgFBVV95cUxOc0xFLWxoTldIWWtjeEtVekpHSUpOQWZ0V0U0Snk4OHcxY1FtYzg3ZjgzOXJ5SnlTc1Bob0JXYVFDU1dabG9Mb0JHUTVRV2hyQ3hJQ1dTVW1FcXI1UVVfM3gzbS1Tc2VQbXBmdHVULWNkT1dVMDNrQjBnbTVxcmdxcHlEdW9vUQ?oc=5",
       "isNew": true
     },
@@ -27,7 +27,7 @@
       "date": "2026-09-03",
       "cat": "General",
       "summary": "",
-      "source": "BenefitsPRO",
+      "source": "benefitspro.com",
       "link": "https://news.google.com/rss/articles/CBMimgFBVV95cUxORkZvZl93NkFKcmYtUEhaamRSZVRLUVdfclNqbFVFVUhmaG9JNWVfRk1RQ2pxOElzR3ByWnNDV0hwVWNMdXB4OHh2QXVSSWZlYkJ2Mno3dWFwUWVZaHlhRG4wa2xQcnBBYUxjNDJJRldiRkpsNEZsd1R2SEsydzJNSEJNYXpXRkNsY2JXaXM0TlIwLUE3UGx2N05B?oc=5",
       "isNew": true
     },
@@ -127,7 +127,7 @@
       "date": "2026-08-24",
       "cat": "Governance",
       "summary": "",
-      "source": "jdsupra.com",
+      "source": "JD Supra",
       "link": "https://news.google.com/rss/articles/CBMihwFBVV95cUxQTFpNdEtZWmctV3psRWVXek9lVnRIb2FqX3Atb0NabUNnVVJ5N0xuWlFzQ3FlSGF3M1ZhcWlMNDh5OFVwYmtyTTNnaDlLUTZpN0x4WXpoOVl2a3VmbThZVURKQlpHMURfTXRkcXlSdlE0U1FZSXpTN2gyTExPUjZqNy1NQkZ4OUE?oc=5",
       "isNew": true
     },
@@ -289,7 +289,7 @@
       "date": "2026-08-24",
       "cat": "General",
       "summary": "",
-      "source": "bernews.com",
+      "source": "Bernews",
       "link": "https://news.google.com/rss/articles/CBMidkFVX3lxTFAtMk5oeGM2aThiN1Zud1A4NWtYdy1fTVBDc1pscG15QWFwcVlEU0RqQ3lCb1pJYzNWSV9QdXRYWEFWTFFGd05iY0dNT1VZMUxMRUwzbGtDS1lvUG1nYWxhN203RVluS21PM1haNDJyVC1xd2NuTXc?oc=5",
       "isNew": true
     },
@@ -309,7 +309,7 @@
       "date": "2026-08-20",
       "cat": "General",
       "summary": "",
-      "source": "bernews.com",
+      "source": "Bernews",
       "link": "https://news.google.com/rss/articles/CBMic0FVX3lxTFBMaXl4eXRTMllDZEtiNkFXdVF3OEIzYXVJb3F2ME0yV0h0NHlERWZib3ItRGMwamphamI0d2tJcVlzVVdJeFhUUFlxajJEYVh5M2tIX01UeGl2eVlhbFo5Qlc4c1lCaFdCXzd5bmNDclVVRm8?oc=5",
       "isNew": true
     },
@@ -349,7 +349,7 @@
       "date": "2026-08-10",
       "cat": "General",
       "summary": "",
-      "source": "bernews.com",
+      "source": "Bernews",
       "link": "https://news.google.com/rss/articles/CBMiekFVX3lxTE1tTmdWVUZLZkUwcFpYY0RnbktoRlYzMS1Id1RDRTBNOEc0YUpNdWpNODhqWFN6VkNkc2dnV3ZnVHctTDFicmFEQnRGR3E3NnYwaGtKUkpvUDJPSW4tNHQzNW9jOHVMOXl4S1FadDc4VHR2WnZWRnE5dEN3?oc=5",
       "isNew": true
     },
@@ -399,7 +399,7 @@
       "date": "2026-07-23",
       "cat": "Investment",
       "summary": "",
-      "source": "bernews.com",
+      "source": "Bernews",
       "link": "https://news.google.com/rss/articles/CBMiaEFVX3lxTFAtN1ViUDFtajhjdWkxaER1aVBHUXRYVmw5MGlROWF0c3lya2J3M0lEeDdNOU9jWGNEY1laelRkT3VsLTRJbFlrRmFYaUNwM0lHME5PeWI4Nzh5TEdNSEJlZVZ2MkhnM2dB?oc=5",
       "isNew": false
     },
