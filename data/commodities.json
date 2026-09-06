@@ -2,12 +2,12 @@
   "date": "2026-09-06",
   "source": "FRED / TradingEconomics / Investing / Yahoo Finance",
   "gold": {
-    "spot": 4432.56,
+    "spot": 4429.26,
     "spot_date": "",
     "spot_source": "TradingEconomics",
     "unit": "USD/troy oz",
     "prior_1d": 4476.6,
-    "prior_1d_date": "2026-09-04",
+    "prior_1d_date": "2026-09-06",
     "prior_1m": 4340.7,
     "prior_1m_date": "2026-08-07",
     "prior_3m": 4335.9,
@@ -346,5 +346,5 @@
     }
   },
   "note": "Spot history comes from daily FRED series. Futures history is roll-aware by target date. USD/INR latest spot: FRED DEXINUS, then Yahoo INR=X / keyless FX APIs when FRED lags; forwards fall back to CIP derivation from India/UST curves when market quotes are unavailable.",
-  "_fetched": "2026-09-06T20:28:36.034901Z"
+  "_fetched": "2026-09-06T22:57:27.754107Z"
 }
