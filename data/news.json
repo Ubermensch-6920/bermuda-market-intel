@@ -1,9 +1,10 @@
 {
-  "updated": "2026-09-06T15:33:13Z",
+  "updated": "2026-09-06T20:29:25Z",
   "topics": [
     "Insurance AM",
     "Private Credit",
-    "Rates & Macro"
+    "Rates & Macro",
+    "Structured Credit"
   ],
   "items": [
     {
@@ -19,7 +20,7 @@
     {
       "id": "5b912a3b9d1b",
       "title": "The $9.6 Trillion Insurance Portfolio Is Going Private",
-      "source": "Forbes",
+      "source": "forbes.com",
       "date": "2026-09-03T22:22:26Z",
       "topic": "Private Credit",
       "summary": "",
@@ -237,6 +238,16 @@
       "isNew": false
     },
     {
+      "id": "7c7f6739f714",
+      "title": "EU insurer regs unlikely to prompt boom in fund ABS",
+      "source": "Private Funds CFO",
+      "date": "2026-09-02T16:52:25Z",
+      "topic": "Structured Credit",
+      "summary": "",
+      "link": "https://news.google.com/rss/articles/CBMijAFBVV95cUxOYThXa0owSkNRblVNbFJNSXRsbmNGZHd4Y2pYT3hwWDM3eEh4aGlwTmF4dUZ4MlFQTllOei1BS2JDSDhJVmFyYzJkVWl2X1RDM0IwS0pFVkxuSThPUnc3bm9PNVNsQU9YVzlrWUt0S21xWS1hTzM3MF9hOUtweEEwVmFNZDZsdkFRdDVLMg?oc=5",
+      "isNew": false
+    },
+    {
       "id": "c46998cd0888",
       "title": "Bank of Canada holds interest rate again as volatility threatens growth",
       "source": "The Real Economy Blog",
@@ -294,16 +305,6 @@
       "topic": "Rates & Macro",
       "summary": "",
       "link": "https://news.google.com/rss/articles/CBMilgFBVV95cUxQeVZwUTRpcDRiQlc2Ui1LQ2U3NWd3dkhJa3ZWSENPQTM1SkNJcEJwU2pJRlhBbC1WbGcxRlNGMHhBWTc5VDEweFoyTHR6Y2VoSG5QZHJZTkpSWEF5UEVoUlpVa3hEZW9KM1ZLOHIyQlF4anJ0bUZ4VlZCb195TWJfa25Xakh5cDhaSklJSDlWY3QwZjk0MGfSAZsBQVVfeXFMT2x1YUFxcVVJOEp6MnIxQ3ZweWFEYnV3TWRNM1NLd2lpUWk3MEtYaDBNQmEtXzNHeXhxbDAwRmNMNGJBSXBQbTRXQXBQNVVhVENXWHZoVFZwVTBiYnRBSUppRTdWdFRST0d4T0I3eVZJUzJ5STFzSmpWWHlCR3JieE9WWEVNcEFTUUIyUjRhXzRXdVk5TDRnMEJ0Wm8?oc=5",
-      "isNew": false
-    },
-    {
-      "id": "190c7adc2c05",
-      "title": "10-year U.S. Treasury yield hits highest level since November 2023",
-      "source": "CNBC",
-      "date": "2026-09-02T09:14:56Z",
-      "topic": "Rates & Macro",
-      "summary": "",
-      "link": "https://news.google.com/rss/articles/CBMid0FVX3lxTE1kTzdvcFpPblpSZkZpcWRPSHhhU21LNEVydjZneUlLVl82dEgtc25DSHg3Uzg0QktBazF5a0RLbnhpN093VklqRWI5VERFWXhzcUk2clJaeURaakN2c2UtdUhSVFNTaDAtNW1XN1JONzVlZFdVWlI00gF8QVVfeXFMTkJLbUdLZ1lYM1l3S3pSUUZQZ2xRWDd6R2NhOVlsOXFZTGszZGhhZHJvSWRrNDd4Q2Y1dHd3Tm9paDRIdGYtUmZJNzUwSDFGRlRwRG5XNEhUUDZMS05qSlhFWjM4cEV4SklPOTAzU3NyNWM1SDE2MC0wdy1vcA?oc=5",
       "isNew": false
     }
   ]
