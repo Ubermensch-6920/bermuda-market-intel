@@ -1,5 +1,5 @@
 {
-  "updated": "2026-09-07T04:47:27Z",
+  "updated": "2026-09-07T12:38:51Z",
   "topics": [
     "Insurance AM",
     "Private Credit",
@@ -7,6 +7,26 @@
     "Structured Credit"
   ],
   "items": [
+    {
+      "id": "3d91d98ce9da",
+      "title": "China says it will pump $54 billion into banks and insurers \u2014 but their stocks still fell",
+      "source": "CNBC",
+      "date": "2026-09-07T06:27:53Z",
+      "topic": "Private Credit",
+      "summary": "",
+      "link": "https://news.google.com/rss/articles/CBMipAFBVV95cUxONGRkT2VHM2tCTWpYZzhsc05CbGRvRDFaMjlYWDFzcHVxa3NMcDdTYXJIb2dDS0hPWDgzX1UxNElKTm9qdlhGd0hueXgwaW4yWWNkUE9rRjdVbkxRMkc5VkE2ZXVyeHVCYV9sTHI2WHdiMWROcXZCZXVSaFlNUXgwVmRxa3FEWExWQ3NZMkF4QURDQVRudDhCMTlYRTlHdHNwLVlmYw?oc=5",
+      "isNew": false
+    },
+    {
+      "id": "68752656e498",
+      "title": "Macquarie Asset Management prices European CLO",
+      "source": "Macquarie",
+      "date": "2026-09-04T09:48:41Z",
+      "topic": "Insurance AM",
+      "summary": "",
+      "link": "https://news.google.com/rss/articles/CBMioAFBVV95cUxPX2pPQlNCMWZ1N1VBWGdyWHp6N3R1UFV4MTNDVzJjRTlxVEF6SXpZcS1GOHY4dlVVWjBqN3Etc2JuOTRHbmNJci1jVnVleW5xZEQwSnhMelFzNUVkZW1QV0R1aU96b3lGSjhCT2czYnNhUlNOc1c3RFZVbUdHNGljYi16R3VHdGQ4dkRlSWMxVS0zazg3N3gxVkUzQmtmWUdu?oc=5",
+      "isNew": false
+    },
     {
       "id": "c4a1a0278a2c",
       "title": "The Bond Markets Are Pushing Up Rates. Will Central Banks Follow?",
@@ -40,7 +60,7 @@
     {
       "id": "d191afb6e2c0",
       "title": "Global Bond Markets Take a Breather",
-      "source": "wsj.com",
+      "source": "WSJ",
       "date": "2026-09-03T16:08:00Z",
       "topic": "Rates & Macro",
       "summary": "",
@@ -180,7 +200,7 @@
     {
       "id": "0e14302f6545",
       "title": "Insurance Midyear Outlook: Finding Value in Tight Markets",
-      "source": "alliancebernstein.com",
+      "source": "AllianceBernstein",
       "date": "2026-09-03T00:45:47Z",
       "topic": "Private Credit",
       "summary": "",
@@ -190,7 +210,7 @@
     {
       "id": "5a1383e590b3",
       "title": "Insurance Midyear Outlook: Finding Value in Tight Markets",
-      "source": "alliancebernstein.com",
+      "source": "AllianceBernstein",
       "date": "2026-09-03T00:45:47Z",
       "topic": "Insurance AM",
       "summary": "",
@@ -285,26 +305,6 @@
       "topic": "Rates & Macro",
       "summary": "",
       "link": "https://news.google.com/rss/articles/CBMi5AFBVV95cUxQR0FoZUkyMTBjUWxyWTl2Z2ZZU0xlbmRPb0g0N1ZMRFZNV0F1MF9FSFY3OUdidTRyYTF4ZjgtNEt0X3Fva3ItcUFSVlhINWFVWkl4R2Fha1RUWWt0OVlEeGR6cjEwRFBoaEI3bC1iMEFmalhteDFPM0t5a3RWNGJpV282S2tEN0RfRzJzcGhjRWxyMTg2X05tV1A2VFRqbzJkbFREa1dGSk83VmlLUGVYY0k5OHZCX0hhc2MtLWxXRGxaT2dIZi1wLUdYZl9KNHBaMnZleFRyZU82Vkx0WjhHN25ReVg?oc=5",
-      "isNew": false
-    },
-    {
-      "id": "10bd51dc24a5",
-      "title": "Walter Global Asset Management invests in Equisoft to support its next phase of international growth",
-      "source": "PR Newswire Canada",
-      "date": "2026-09-02T12:02:00Z",
-      "topic": "Insurance AM",
-      "summary": "",
-      "link": "https://news.google.com/rss/articles/CBMi6AFBVV95cUxOQ2dUWWM5V2RFRzNGakNhblR6UWhtbkIwb3lDTHQtWk0wZnZwVEVnUWZ5bTZlNXZqdDctYXNkTXhsLWY1NzZnYzZNXzk2MlZsOEozQ3ZZRkp4QnEtVzFqd0owTGhHU0ZnVUYzdjQ3X2M5aXl3dFBGemxtX2JhajNkNVFaSEltUWw4cFV5TmxpVmVlUE42Umpkbm9DY3lsd3l6QlJidVNvWGJOWGdjNHE2Q3dNM1N5bjhLUVNGSGJlM2Z3TUwxSU1NLXFhbEdVTV9CSmtUMnBDUV9VY0tLYy03Ung4RXpyTUpC?oc=5",
-      "isNew": false
-    },
-    {
-      "id": "7ba20bc27c48",
-      "title": "Morning Bid: Bonds boil",
-      "source": "WTVB",
-      "date": "2026-09-02T11:07:35Z",
-      "topic": "Rates & Macro",
-      "summary": "",
-      "link": "https://news.google.com/rss/articles/CBMiY0FVX3lxTE8wY0FlRk44T2VHUVJIVFhxZ2czVWY3WEtHOGs1MXUyY2lvWlhfTVJzTWxJcVlHQmoyQzNROFluWGJDbkRQdnVpc2dnWjFGT3pNS1dpbDhtX1NwNXdqVFQ3MnZaVQ?oc=5",
       "isNew": false
     }
   ]
