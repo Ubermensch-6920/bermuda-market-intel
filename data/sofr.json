@@ -1632,8 +1632,8 @@
     {
       "date": "2026-09-04",
       "rate": 3.65,
-      "ust_3m": null,
-      "ust_1y": null
+      "ust_3m": 3.91,
+      "ust_1y": 4.13
     }
   ],
   "year_ago": {
@@ -1661,5 +1661,5 @@
     }
   },
   "note": "Published daily by NY Fed at ~8:00 AM ET. Averages are backward-looking compounded (30/90/180-day) via FRED.",
-  "_fetched": "2026-09-08T16:39:56.263533Z"
+  "_fetched": "2026-09-08T21:11:28.289143Z"
 }
