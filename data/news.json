@@ -1,5 +1,5 @@
 {
-  "updated": "2026-09-08T11:25:10Z",
+  "updated": "2026-09-08T16:43:12Z",
   "topics": [
     "Insurance AM",
     "Private Credit",
@@ -7,6 +7,26 @@
     "Structured Credit"
   ],
   "items": [
+    {
+      "id": "fa48bf0ae833",
+      "title": "Solvency II recalibration offers selective boost to RNFs",
+      "source": "Structured Credit Investor",
+      "date": "2026-09-08T10:23:17Z",
+      "topic": "Structured Credit",
+      "summary": "",
+      "link": "https://news.google.com/rss/articles/CBMi1AFBVV95cUxQa3N5RnN2Skc1b1JmZTJ3d1FUR3VGM2FYQjJBRzBQWmhEMDdiZlJKcTRIeGk5QjVMcWhSb0hFUTFQcHZRc3J1OW9BOXp1SGFyZzlZbjFfRUtLdWwtQ29BWXcyQVZIblNDYnFsUGl3R3ZQVlN6dllLTDQzQXMzc3V5MFp5UGdGNHBxdlRRaUY0YjA2WElFVDB2UEVDQnZZWUsyVHQ5NVpWcm9qUWE5aTRFajdSMUhrc19FU0hRXzZoT25WaHpyaXZtcHFlWU1DMkNwSnhWTg?oc=5",
+      "isNew": false
+    },
+    {
+      "id": "12d17202dac1",
+      "title": "What is driving the global rise in long-term interest rates?",
+      "source": "Bruegel",
+      "date": "2026-09-08T10:04:23Z",
+      "topic": "Rates & Macro",
+      "summary": "",
+      "link": "https://news.google.com/rss/articles/CBMiigFBVV95cUxPaW55UHBoRVdaV1EtcE53TFQ2U1l3dm14Y19SNzZTMmd6aHltY3RCd21Qb29FREtnVElrSm1sSmMxMThSdUlGZER1M0NpaFF6UEw4REpOOVhqUFRuczFKdXZuSThTUWI3d2FfMnpCVzl3MFRPSlozZnQyeEZ3OUhmNDl4dGx5TlNtTEE?oc=5",
+      "isNew": false
+    },
     {
       "id": "3d91d98ce9da",
       "title": "China says it will pump $54 billion into banks and insurers \u2014 but their stocks still fell",
@@ -30,7 +50,7 @@
     {
       "id": "c4a1a0278a2c",
       "title": "The Bond Markets Are Pushing Up Rates. Will Central Banks Follow?",
-      "source": "nytimes.com",
+      "source": "The New York Times",
       "date": "2026-09-04T09:03:39Z",
       "topic": "Rates & Macro",
       "summary": "",
@@ -270,7 +290,7 @@
     {
       "id": "d23843a4508a",
       "title": "Why bond yields are rising and why everyone should care",
-      "source": "pbs.org",
+      "source": "PBS",
       "date": "2026-09-02T17:27:16Z",
       "topic": "Rates & Macro",
       "summary": "",
@@ -285,26 +305,6 @@
       "topic": "Structured Credit",
       "summary": "",
       "link": "https://news.google.com/rss/articles/CBMijAFBVV95cUxOYThXa0owSkNRblVNbFJNSXRsbmNGZHd4Y2pYT3hwWDM3eEh4aGlwTmF4dUZ4MlFQTllOei1BS2JDSDhJVmFyYzJkVWl2X1RDM0IwS0pFVkxuSThPUnc3bm9PNVNsQU9YVzlrWUt0S21xWS1hTzM3MF9hOUtweEEwVmFNZDZsdkFRdDVLMg?oc=5",
-      "isNew": false
-    },
-    {
-      "id": "c46998cd0888",
-      "title": "Bank of Canada holds interest rate again as volatility threatens growth",
-      "source": "The Real Economy Blog",
-      "date": "2026-09-02T15:19:26Z",
-      "topic": "Rates & Macro",
-      "summary": "",
-      "link": "https://news.google.com/rss/articles/CBMipAFBVV95cUxOZDRPTVRlZE9aOVVaTVB3dHNZbFJSMDQ2elNLUlE0MEhUUzNCNWNzT2ZfOHQ5SFR1X2JkWDBwSXZ1bWpVVS1WYmpmcnFOWHZmdlNUeG9SS0txUmx1eVRfaHRfZlJEdVhYUk0yaVlULUw4WjVsMFNXdmFtZnlXWXRDTEk1Xzkzc3NvRVlEaEhULURfbDJqRjdjRHFYZmdZNWh6SjlWRA?oc=5",
-      "isNew": false
-    },
-    {
-      "id": "95936458b508",
-      "title": "Spiking Bond Yields Pay the Rich and Squeeze Everyone Else",
-      "source": "Jacobin",
-      "date": "2026-09-02T13:53:20Z",
-      "topic": "Rates & Macro",
-      "summary": "",
-      "link": "https://news.google.com/rss/articles/CBMifkFVX3lxTE9rSTROdVhqam9uRl8yaGF5M2ZQa1pERXVhTUtPVW5rN2RGUTAyYUpnZkprMUUzejRDZjd0ZVdLNFRWZlJrMWozTUdIcG5MbUlzRVVGVjFDVWRUemx6aEFKeldLT1dBRUZZYnZXb2p1SXhNbjNwRTA3enB6Y1RQUQ?oc=5",
       "isNew": false
     }
   ]
