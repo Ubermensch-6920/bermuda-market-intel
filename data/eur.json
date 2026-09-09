@@ -1,5 +1,5 @@
 {
-  "date": "2026-09-07",
+  "date": "2026-09-08",
   "prior_date": "",
   "source": "ECB SDW (EUR AAA Govt \u2014 EIOPA proxy)",
   "url": "https://data.ecb.europa.eu/",
@@ -15,6 +15,17 @@
     "30Y"
   ],
   "yields": [
+    2.7654,
+    2.9198,
+    2.9723,
+    3.0591,
+    3.1815,
+    3.3785,
+    3.6279,
+    3.7562,
+    3.7617
+  ],
+  "prior_yields": [
     2.768,
     2.9133,
     2.9641,
@@ -24,17 +35,6 @@
     3.6455,
     3.7769,
     3.7842
-  ],
-  "prior_yields": [
-    2.7384,
-    2.8766,
-    2.9243,
-    3.0143,
-    3.1427,
-    3.3465,
-    3.6037,
-    3.7384,
-    3.7546
   ],
   "prior_1m_yields": [
     2.5945,
@@ -73,5 +73,5 @@
   ],
   "year_ago_date": "",
   "note": "EUR AAA govt curve proxy. Actual EIOPA RFR includes UFR extrapolation.",
-  "_fetched": "2026-09-09T04:43:42.466718Z"
+  "_fetched": "2026-09-09T11:24:39.133846Z"
 }

@@ -1,5 +1,5 @@
 {
-  "updated": "2026-09-09T04:48:09Z",
+  "updated": "2026-09-09T11:29:02Z",
   "topics": [
     "Insurance AM",
     "Private Credit",
@@ -7,6 +7,16 @@
     "Structured Credit"
   ],
   "items": [
+    {
+      "id": "1aacf54270e7",
+      "title": "Allianz Asset Management GmbH Makes New Investment in Slide Insurance Holdings, Inc. $SLDE",
+      "source": "MarketBeat",
+      "date": "2026-09-09T07:22:57Z",
+      "topic": "Insurance AM",
+      "summary": "",
+      "link": "https://news.google.com/rss/articles/CBMi4gFBVV95cUxNb2hySUNGRmNXNnl4ZUQ2bFl3R3ZXNGpfV3NLQ1k0MElHTkpvZWREZDdFTnJpaElsVXViS3NjSy1PeEFqWUJueWczVUU2eERveFFyRnNlbTBTbFlFY3U4am0tRVRTTV9PamgxMDVXbUMyREdvV1QwdWUtdEM5Y2JvbFVYb0wzbmhCcDM5MS1pN1ZhbEI3ODdlM1RaN2FPQU5sbWFVaFFxM3RoRWFRLXNxcmxNLTJGMWJEa0pfTy1HV09sbFBXNUZkcEtuUVZsWFlaMVdLYklLakVOaXIyTDhOUWh3?oc=5",
+      "isNew": false
+    },
     {
       "id": "fa48bf0ae833",
       "title": "Solvency II recalibration offers selective boost to RNFs",
@@ -30,7 +40,7 @@
     {
       "id": "69c35b956d36",
       "title": "Deadline extended for AsianInvestor Insurance Awards 2027",
-      "source": "asianinvestor.net",
+      "source": "AsianInvestor",
       "date": "2026-09-08T07:06:08Z",
       "topic": "Structured Credit",
       "summary": "",
@@ -78,9 +88,19 @@
       "isNew": false
     },
     {
+      "id": "676d873ed598",
+      "title": "Fed governor Waller muddies outlook on possible rate hike later this month",
+      "source": "PBS",
+      "date": "2026-09-04T00:08:19Z",
+      "topic": "Rates & Macro",
+      "summary": "",
+      "link": "https://news.google.com/rss/articles/CBMisAFBVV95cUxNYkprM1h1WDVtVjB0dDlscGZNeUxuUkw3TWhYZFhDYkZyYl93UmJSM3NYcXdRN2tfQzRuS2V4WTBBb2VtVmE2VTlGcnU2Nk9KeUVfYjBIbkswX2pMUHNfSk5xT2FDVXBaaHllX2lUZEgyVjdzR1F3REJIN284SnF6WUtha0Vtb0NSVmNCSm1FTUFPYXJzYW9fcERTNHFYYXY4TGg4a1FhM0VmdFJoWnhlTdIBtgFBVV95cUxPY1VTZzBtaXdkUll5UEFzY0daeWtWUGM0U05nTk96SHNveVdEd3RtdG9fMjNuSjB4bHdSSmtTdmlJYUlVZmotQWs1Qk9sMFdwcDNhelJ5NElBM2tRaDFxU2d5LW9sVzQzMGhyd0t4a3ZrNS1kVElnaGNfR0xLYl9yU3FwOU1EenpWeUhZTHh6bDRYMVR2RjZIMnUxODBBNWJEcE5aQ0NsSklQU0xZdE9aZ1F6MXpWZw?oc=5",
+      "isNew": false
+    },
+    {
       "id": "5b912a3b9d1b",
       "title": "The $9.6 Trillion Insurance Portfolio Is Going Private",
-      "source": "Forbes",
+      "source": "forbes.com",
       "date": "2026-09-03T22:22:26Z",
       "topic": "Private Credit",
       "summary": "",
@@ -110,7 +130,7 @@
     {
       "id": "d191afb6e2c0",
       "title": "Global Bond Markets Take a Breather",
-      "source": "WSJ",
+      "source": "wsj.com",
       "date": "2026-09-03T16:08:00Z",
       "topic": "Rates & Macro",
       "summary": "",
@@ -285,26 +305,6 @@
       "topic": "Private Credit",
       "summary": "",
       "link": "https://news.google.com/rss/articles/CBMiogFBVV95cUxNb0t0TWxwcWRwSWVNd05RNjVhdi01cG96VXkwN2dMb3FqY2lvUC1ESEFma3Y1dXR1TU40U0w5VEZxOURNbkZ6MTBSZmdubGJwQ1RDLUdvdmZDV1czaDgtV0ZrOWJYQzQ0eG9lTTRVR2JqRFk5ZlJsSVNjMkRPWE1lNUZPWWxSMHFITnNMUGFqc1c2TWNubFd4Z0l0ZGpXc1RYUnc?oc=5",
-      "isNew": false
-    },
-    {
-      "id": "58afc6926b28",
-      "title": "How L&G is innovating to build EM private credit exposure",
-      "source": "New Private Markets",
-      "date": "2026-09-02T17:33:42Z",
-      "topic": "Private Credit",
-      "summary": "",
-      "link": "https://news.google.com/rss/articles/CBMilgFBVV95cUxNUkNxRVlFSjd0UmdSQ2tkanIzSktKV3FraGhnUEhGZFBTUkF2OUFDSEpFZFZuUjQ4QjhkSUJWb21yQ3F2dFI2X3lvaDBlMUw2NUVkZVN2elhWdjF1eGR4RUN3emRHWmQxNzFpemZTWndVNGxKNDFKQl9YNmlicUJxSDJPMFJxWS1sd2VnTFFKanlIYW0yMnc?oc=5",
-      "isNew": false
-    },
-    {
-      "id": "d23843a4508a",
-      "title": "Why bond yields are rising and why everyone should care",
-      "source": "PBS",
-      "date": "2026-09-02T17:27:16Z",
-      "topic": "Rates & Macro",
-      "summary": "",
-      "link": "https://news.google.com/rss/articles/CBMilwFBVV95cUxOdFZ4T2tWendKU28yS0d2WkVEVFQwTUNCWnQ5RDJvckpMbDVsVlcyYk1aZW5JYzYxTVhDX25IRm9kMm5ydFo5OWdjZk1XS2Rpc05wR0dZdm5kYjdDcXJfa2pJVGJ4ODNrcjVRMzNoUXEyVVFqdzFQTWt4RzNNSGt1Q1l0TXdCTndfbDYxdnpObWxfeGJJaUkw0gGcAUFVX3lxTE05aXlnM2xsaF9hS0NjSmpYeVF1VEpIRFpiQnBlY2NZUEdjOFhyVlJ5RVpzLVlxeWJsTllPNjhwR19NOTNJQVEzbWU0bU15UDNMbFhLYVZ1MEljM0w3MUM0QnRUVXVHMmJ4U045QVpEUlVjTW5IQndPU2Ntc1d0NkVybFVSQzNTZTh4blRIODJXekpPUFJ5N2ZFdTEwTA?oc=5",
       "isNew": false
     }
   ]
