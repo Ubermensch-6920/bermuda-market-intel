@@ -1,5 +1,5 @@
 {
-  "updated": "2026-09-08T23:28:39Z",
+  "updated": "2026-09-09T04:48:09Z",
   "naic": [
     {
       "id": "4b6fc7851ff7",
@@ -57,7 +57,7 @@
       "date": "2026-09-01",
       "cat": "General",
       "summary": "",
-      "source": "American Hospital Association",
+      "source": "aha.org",
       "link": "https://news.google.com/rss/articles/CBMirAFBVV95cUxPNTc5TlJEdGxoTXVqaEljMHUwOU9RTFdXMlgySF9zcVZlM2RFOFpBaW5FamZueExPcm9nMW5NU0VMbXYzRDZCbVdkblVKZHdnRFlyVnNlQ3JxNW9hRFRRZndnd1F2MWZGd1lfMVVDQ19abDJYVXg2QzN5ZFpUZkZRSjRMcXgyV2VIc0VXZVgtaVR3TUxiMVU1dXlHZ1ROZG9FZHhUenNNeWpfVi0w?oc=5",
       "isNew": true
     },
@@ -77,7 +77,7 @@
       "date": "2026-08-26",
       "cat": "Investment",
       "summary": "",
-      "source": "Substack",
+      "source": "roddubitsky.substack.com",
       "link": "https://news.google.com/rss/articles/CBMidkFVX3lxTE9nSDdPRmdDb2w1eTF3WlU2SWJNVVQ2NEFxS01rSlhTaVBxR3BqT0RRMkxOZW1yNFFRc3hVbTlSU0dxck9NTzJMYnlPTWlZT2tNOEl1V3ZVS2FNSVJud3ZDZlhCRUFwRTRrRG1hMEdwZnFIcU14eUE?oc=5",
       "isNew": true
     },
@@ -127,7 +127,7 @@
       "date": "2026-08-24",
       "cat": "Governance",
       "summary": "",
-      "source": "JD Supra",
+      "source": "jdsupra.com",
       "link": "https://news.google.com/rss/articles/CBMihwFBVV95cUxQTFpNdEtZWmctV3psRWVXek9lVnRIb2FqX3Atb0NabUNnVVJ5N0xuWlFzQ3FlSGF3M1ZhcWlMNDh5OFVwYmtyTTNnaDlLUTZpN0x4WXpoOVl2a3VmbThZVURKQlpHMURfTXRkcXlSdlE0U1FZSXpTN2gyTExPUjZqNy1NQkZ4OUE?oc=5",
       "isNew": true
     },
@@ -137,7 +137,7 @@
       "date": "2026-08-21",
       "cat": "General",
       "summary": "",
-      "source": "caymanfinance.ky",
+      "source": "Cayman Finance",
       "link": "https://news.google.com/rss/articles/CBMinAFBVV95cUxPeDdNT04xWERXZWJKU3R5dG9ZMDgyUlZwTE5WOENfT1JGUGpUS2JZS1dNajNBaWw4UFRvOXZPaWo1MENLYVNRaEdpLVd5MnVCUHdIZ1ozblE1MTg1eVhBNDFkSk9oNXp3d3lIaUVhNGZBOS14XzJGdFZSN2ttTDJyMnRYZ1pSTzRvY0tGV3hTU3FqWjU2dTFFRkhlNzM?oc=5",
       "isNew": true
     },
@@ -197,7 +197,7 @@
       "date": "2026-08-19",
       "cat": "General",
       "summary": "",
-      "source": "caymanfinance.ky",
+      "source": "Cayman Finance",
       "link": "https://news.google.com/rss/articles/CBMixAFBVV95cUxPVU9oN19GaWVwc3J6VWdyM29Cb0FndDdlenNiR0loWFVfNTliaHlrVUkta3VQZVNxa21DS01lU0hZRS10SktzUlM0eTBSdWpNZEJIdWRvU1A0bXgzeWZHMVpYQ2F5S3p6TWl1aUFCWE9mT05XR2VNVktMcUdDYmlCWmROc292RjNMb3hfVWM4X0xMaHZCOFF0VHd6Sl9YOGNsaFktbm01TUsyS0RtV1oxbXhfb1p0MG5fejR1cnEtS0pHd1NQ?oc=5",
       "isNew": true
     },
@@ -259,7 +259,7 @@
       "date": "2026-08-28",
       "cat": "Governance",
       "summary": "",
-      "source": "royalgazette.com",
+      "source": "Royal Gazette | Bermuda",
       "link": "https://news.google.com/rss/articles/CBMiuwFBVV95cUxOY0tsTC1oWm1KTVJNcklfODRlRUw4cDdUOExSUjJuRnEyS0hMSFowOHpmS1B3YjJ1WlBNNnlRR2pTUGw3UGRJNE13bDRQNll0a3hZd05rZUV1clhNTDNTSXBwVWhqZFFYZWp5cUtkbTFPSGpRQVh0UTdVNVRYZ0dod1BYS05qVzJJVjZPd3AxSmQ4OElJeWliQ092VTFiTmlDcVBJUnJYV1BJQk1JSk5fSUVFTGRXeEZtYlc0?oc=5",
       "isNew": true
     },
@@ -269,7 +269,7 @@
       "date": "2026-08-27",
       "cat": "General",
       "summary": "",
-      "source": "royalgazette.com",
+      "source": "Royal Gazette | Bermuda",
       "link": "https://news.google.com/rss/articles/CBMiuwFBVV95cUxPVlNweFlyMy1yRV82Tk9BY1JKbW4xa2hpNU5JX2ZRTlkwczBRbnNHRTVkd3JwVk5LazU4ZHdjY1dqbG9iOXFZT2tuZ1c4V1V4TWhoY2dIcFU1OXJVYTh4dFlRNDB5c0F2UVVMNjBXbENKRGEyVEV2aVo1X0N4RGZySVBubTdsdFQwT09qSUN5VkVmZFFxbDVYbVBlRDhPXzNvbUI1WVQ4Z0dnV25DVjR2MkVXb0RiOFZFVWxr?oc=5",
       "isNew": true
     },
@@ -299,7 +299,7 @@
       "date": "2026-08-24",
       "cat": "General",
       "summary": "",
-      "source": "royalgazette.com",
+      "source": "Royal Gazette | Bermuda",
       "link": "https://news.google.com/rss/articles/CBMiwAFBVV95cUxPVEJSMnhBY2czSFNvUDJjRXNUTFB4ZHBrOXpISDRuTHNYVkFIRG5TaUlKNkdSRFFjeU9SNDl5dWJPN1V6a3lnX01PblM2U3NwWU1OZGJDdVRScDh6N2JCSXJ0WVJXSnRDdFNRQzhkeVZWVENId3Nlb2Faa0NYNS02TlNPZ3RGajdCa2ZkTmp6NmQxMUk5dGF5Z25UZzFwb254WUl3M1o0V2tJbk1kNlk2ODdtR0VuOTlleW5JVlZQNC0?oc=5",
       "isNew": true
     },
@@ -319,7 +319,7 @@
       "date": "2026-08-17",
       "cat": "Governance",
       "summary": "",
-      "source": "royalgazette.com",
+      "source": "Royal Gazette | Bermuda",
       "link": "https://news.google.com/rss/articles/CBMingFBVV95cUxQX1NuNGNLalFSVkVtdkk4Q1Z1YkJpRGxoY2FkU1dnamVRdmlEbG1Vbmp4UkxHTk0wTm9CX2xJdFJRd3Y5M1Y5OFhYNHZzQ0sxaDBSMVRuakhyeEVfaklGWk5MOVhBSDd3VkcwLW13SktSTHd0cl8zSTZrcDJHTEJqZFlKN1Y2eFo4di1LbGNZczluSHBmMU42VmFqU2Y1QQ?oc=5",
       "isNew": true
     },
@@ -339,9 +339,9 @@
       "date": "2026-08-10",
       "cat": "General",
       "summary": "",
-      "source": "royalgazette.com",
+      "source": "Royal Gazette | Bermuda",
       "link": "https://news.google.com/rss/articles/CBMipAFBVV95cUxNT1JWUHJKaGpHbDRkRXpSWFdXbE1mOFlwVEpNeHdsUFpEc3piS0JhV0lZcHFXR3JhVW9HS2hMQTdVcHVlT1hTWGZqRVljZGx0SUpJUDJaNWpJLUtJSFZTRzZRa3JfcEJOdDBLcFVINVk2ekJHMnNZeGpNSC1LTllmT2xDWFpDYzRjNGZhLUJNUVh4Y1RocjZ1RjhxTHFqdmpPZUlHUQ?oc=5",
-      "isNew": true
+      "isNew": false
     },
     {
       "id": "3bbdb9a6e63c",
@@ -351,7 +351,7 @@
       "summary": "",
       "source": "Bernews",
       "link": "https://news.google.com/rss/articles/CBMiekFVX3lxTE1tTmdWVUZLZkUwcFpYY0RnbktoRlYzMS1Id1RDRTBNOEc0YUpNdWpNODhqWFN6VkNkc2dnV3ZnVHctTDFicmFEQnRGR3E3NnYwaGtKUkpvUDJPSW4tNHQzNW9jOHVMOXl4S1FadDc4VHR2WnZWRnE5dEN3?oc=5",
-      "isNew": true
+      "isNew": false
     },
     {
       "id": "4c597685d5b5",
@@ -479,7 +479,7 @@
       "date": "2026-07-21",
       "cat": "General",
       "summary": "",
-      "source": "royalgazette.com",
+      "source": "Royal Gazette | Bermuda",
       "link": "https://news.google.com/rss/articles/CBMitgFBVV95cUxNdHZNOGJEMWdLZTRNYjl3V1RYTmotWmdRVHV5aHpiOWxHNXdMZkEyOGRHb1RNUVB4T1pES2ZoSmczUGtHM2dwQ3hqVnV4LUw2T0pLR3NZOGtVSVNqdDdIWlNCeUhXQTVtOFF2VTdVVjlyMlk4VGZMR0JCOHlnNWJGQzR4S1pTWGJTYmhZWktVYnRKbkZBdDd4SEFKWWF5bUVQd3p2S0xFTXFMTkJXRENOZWFDMlVjUQ?oc=5",
       "isNew": false
     },
@@ -563,7 +563,7 @@
       "summary": "",
       "source": "Business in Cameroon",
       "link": "https://news.google.com/rss/articles/CBMiygFBVV95cUxPNHFnd25oZlJXbWpqRU13ZFM5eVZZZHdNMS1SU0s0WF95QWJwZ0dEMGNHaFl4Sl9ZcWdVaExoNXBSaUZxS3VSSElGZGc4YWowVG1WSDcyM1VWZ1h3OW5aWmNWbkhUUFN6Z3Qwc21kaE1VR0VxNG84eGRHZmtLZl9Bc2lwVHk5X1NtTHQtS2JyMlFEN0dlT0tyMDBybENFZTdpSWRTa3RCdzQ3aXFNRmdCNUFYQlh4dEdhNlhPdlNOSmhOdXdiWEQzUFB3?oc=5",
-      "isNew": true
+      "isNew": false
     },
     {
       "id": "1b6e78109297",
@@ -591,7 +591,7 @@
       "date": "2026-07-29",
       "cat": "Licensing",
       "summary": "",
-      "source": "caymanfinance.ky",
+      "source": "Cayman Finance",
       "link": "https://news.google.com/rss/articles/CBMimwFBVV95cUxPbjctUnRXSmlFbHZINHdNSHFEQ19OTzVXeXMtVnJuejBDbHBMZEY1ZjNTWW1FLUVwVm5BdXdWbDFBTWhXQzNobWt6eWZlRmpWVUY5TGNncjJQQTFKczl0RWNnSnRNaG5tdnJGOTRFanBaYl9vWnNrR3RoaDFTZzRBT2VwUkRSQ3NpTEJkakcwV0I1YmtSY25qYVFlMA?oc=5",
       "isNew": false
     },
@@ -611,7 +611,7 @@
       "date": "2026-07-29",
       "cat": "General",
       "summary": "",
-      "source": "Lexology",
+      "source": "lexology.com",
       "link": "https://news.google.com/rss/articles/CBMiiwFBVV95cUxOTFFjLW15TlVPOGd6bE43S0hXR0VFUEI3bXA0VFVScWxCUFhBcFN6dXFXd1BDYmJPd19DYUFUdUY0ZWxnRXhwWDhaQWxiU1FiSVM2NXozeGpWQkl4cUQ1eWlSdFJabUVEUGNoaXRVZXJoVVJNOUNFQXNxa0xMX215RlpuNFRtN2NzM3pJ?oc=5",
       "isNew": false
     },
@@ -721,7 +721,7 @@
       "date": "2026-06-26",
       "cat": "General",
       "summary": "",
-      "source": "JD Supra",
+      "source": "jdsupra.com",
       "link": "https://news.google.com/rss/articles/CBMiiAFBVV95cUxNcklMVDg1a1NLMjBGNy1fRHlST3Bra0JqYXhTR2VPdWpkdXdOa0IzVmNrbnlxdWE2eDRaNWVISmhwNUx5SS1WbWMwYUNSeEMweFdfOFFCWi0tdldldE9kZFpMSUNNT05TNzhhNFZYTjlMMXVUYXRmS1JwUVZaTDcyUWF6OVdIczUw?oc=5",
       "isNew": false
     },

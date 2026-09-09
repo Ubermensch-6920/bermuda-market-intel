@@ -1,5 +1,5 @@
 {
-  "updated": "2026-09-08T23:28:39Z",
+  "updated": "2026-09-09T04:48:09Z",
   "topics": [
     "Insurance AM",
     "Private Credit",
@@ -31,7 +31,7 @@
       "id": "69c35b956d36",
       "title": "Deadline extended for AsianInvestor Insurance Awards 2027",
       "source": "asianinvestor.net",
-      "date": "2026-09-08T07:06:07Z",
+      "date": "2026-09-08T07:06:08Z",
       "topic": "Structured Credit",
       "summary": "",
       "link": "https://news.google.com/rss/articles/CBMipAFBVV95cUxPaWtaUmJ1X0Z5NGxUNHpidENkLW1xa1NGNTNpOTNVSnNtVG43ZkJzSzJrWjFlRklrVjBua3pmaU93R1pJRkotai1BU3FRR1pmRVhuWGo3NXhvbkhrVHJRV2VTNlBJMmdydFg2emRfeVUzSk1ncEluYm1nX0tYd1l6Y3NzaklER011Ty0tV0FNUUpleXJkanVlU0gteEVPUHBVZVU4WQ?oc=5",
@@ -98,6 +98,16 @@
       "isNew": false
     },
     {
+      "id": "fc379c7b67a6",
+      "title": "Can Treasury Buyback Reverse Bearish Sentiment in Bonds?",
+      "source": "CME Group",
+      "date": "2026-09-03T18:59:16Z",
+      "topic": "Rates & Macro",
+      "summary": "",
+      "link": "https://news.google.com/rss/articles/CBMiuAFBVV95cUxNYmktOW9uZnk2dGNWN1dxMnd5N0ptQUtGSHA1SkxVNlZ3alJjZ2ltOEd0UjBsMDhGeWlEWjExMVFrTk5qQTZUNzZPWW02bEV4T1ltVDI0NHdpU1NVbjRiUkZScGg3NEFXSFAzaF90Zng0WUc0cVpxaHJXVHdnMVFMWFVxZHZaRl8xTUhpQWVWUS0tN0hLSFJTQ1c2U2hxay15bzN4cEJ0cE00R1ZZdW9rNjIta3ZWdmFQ?oc=5",
+      "isNew": false
+    },
+    {
       "id": "d191afb6e2c0",
       "title": "Global Bond Markets Take a Breather",
       "source": "WSJ",
@@ -140,21 +150,11 @@
     {
       "id": "a3bab54fab48",
       "title": "The bond market rout is global. Here\u2019s what\u2019s driving it",
-      "source": "CNN",
+      "source": "cnn.com",
       "date": "2026-09-03T14:21:32Z",
       "topic": "Rates & Macro",
       "summary": "",
       "link": "https://news.google.com/rss/articles/CBMidkFVX3lxTE0xY2pJRlVWWEFqZVFNb0hrVEUwSmRCZzBtMXVXVExDeFA1ZkFNVXpWV3RGdUZCa1JZNjJ2OVVIbkRERlF0aG1qWTMyQXF6ZjY4eXZfSmlKUmp3TFBudDZkbGFyUjVoUTVCX0JPbXhIZ3NwUmNSOWc?oc=5",
-      "isNew": false
-    },
-    {
-      "id": "fc379c7b67a6",
-      "title": "Can Treasury Buyback Reverse Bearish Sentiment in Bonds?",
-      "source": "CME Group",
-      "date": "2026-09-03T12:33:45Z",
-      "topic": "Rates & Macro",
-      "summary": "",
-      "link": "https://news.google.com/rss/articles/CBMiuAFBVV95cUxNYmktOW9uZnk2dGNWN1dxMnd5N0ptQUtGSHA1SkxVNlZ3alJjZ2ltOEd0UjBsMDhGeWlEWjExMVFrTk5qQTZUNzZPWW02bEV4T1ltVDI0NHdpU1NVbjRiUkZScGg3NEFXSFAzaF90Zng0WUc0cVpxaHJXVHdnMVFMWFVxZHZaRl8xTUhpQWVWUS0tN0hLSFJTQ1c2U2hxay15bzN4cEJ0cE00R1ZZdW9rNjIta3ZWdmFQ?oc=5",
       "isNew": false
     },
     {
@@ -240,7 +240,7 @@
     {
       "id": "0e14302f6545",
       "title": "Insurance Midyear Outlook: Finding Value in Tight Markets",
-      "source": "alliancebernstein.com",
+      "source": "AllianceBernstein",
       "date": "2026-09-03T00:45:47Z",
       "topic": "Private Credit",
       "summary": "",
@@ -250,7 +250,7 @@
     {
       "id": "5a1383e590b3",
       "title": "Insurance Midyear Outlook: Finding Value in Tight Markets",
-      "source": "alliancebernstein.com",
+      "source": "AllianceBernstein",
       "date": "2026-09-03T00:45:47Z",
       "topic": "Insurance AM",
       "summary": "",
