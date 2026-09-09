@@ -40,9 +40,9 @@
     5.736,
     5.996,
     6.182,
-    6.36,
+    6.362,
     6.563,
-    6.768,
+    6.765,
     6.9375,
     7.095,
     7.4
@@ -64,9 +64,9 @@
     5.724,
     5.898,
     5.984,
-    6.273,
+    6.275,
     6.604,
-    6.504,
+    6.501,
     null,
     null,
     7.253
@@ -79,5 +79,5 @@
     "year_ago": "TE year delta reconstruction"
   },
   "note": "FBIL latest first, then Investing/TE/FRED, then local history / cache. India 3M curve is exact once local history accumulates.",
-  "_fetched": "2026-09-09T16:39:08.658802Z"
+  "_fetched": "2026-09-09T20:56:42.888160Z"
 }
