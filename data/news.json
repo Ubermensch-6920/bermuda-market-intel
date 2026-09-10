@@ -1,5 +1,5 @@
 {
-  "updated": "2026-09-10T04:48:33Z",
+  "updated": "2026-09-10T11:25:23Z",
   "topics": [
     "Insurance AM",
     "Private Credit",
@@ -28,6 +28,16 @@
       "isNew": false
     },
     {
+      "id": "e9d4a513e74a",
+      "title": "Swiss LP adviser InPact enters portfolio finance amid broad private debt push",
+      "source": "pei-privatecredit.com",
+      "date": "2026-09-08T16:36:01Z",
+      "topic": "Private Credit",
+      "summary": "",
+      "link": "https://news.google.com/rss/articles/CBMitAFBVV95cUxOQVg2Nmk4QmREeHdWLWFaV1NfeEJBOC1uclZDNjlPZ1pMemRiUGNnYWtzVmJ1OFprQ3p5d2IzUUwxME5wMHZYVTN1ekplREwxVDNFX1NPek10N0p5VzVpMWNQOTdkdm83MnVUd0pCM21RYVlBUHhjakdoT3hCTmVpWkZqMjhZSkJsOVZwdmcxSWFXSmp2c3VVeFhrX3dGc3EyblZCS3FYcUFHdGtzcjFXd3Y0VUM?oc=5",
+      "isNew": false
+    },
+    {
       "id": "fa48bf0ae833",
       "title": "Solvency II recalibration offers selective boost to RNFs",
       "source": "Structured Credit Investor",
@@ -40,7 +50,7 @@
     {
       "id": "12d17202dac1",
       "title": "What is driving the global rise in long-term interest rates?",
-      "source": "bruegel.org",
+      "source": "Bruegel",
       "date": "2026-09-08T10:04:23Z",
       "topic": "Rates & Macro",
       "summary": "",
@@ -295,16 +305,6 @@
       "topic": "Rates & Macro",
       "summary": "",
       "link": "https://news.google.com/rss/articles/CBMigwFBVV95cUxQZHUxMWV6alo1MWFYM191bnlDTlhjTlc0Y2t0UjE4TndrZW9PczcxTmg5a1M0ZWk5M2Fqb0RvVlNIQWFuNG1nb3BtbjhhM2NmbkhDVENZTF9qYU53UDBWR3ROTl9XSlFDVGNLUF9sN29rSlhZc0xfSGZKcWlFanB4b2R1bw?oc=5",
-      "isNew": false
-    },
-    {
-      "id": "0e14302f6545",
-      "title": "Insurance Midyear Outlook: Finding Value in Tight Markets",
-      "source": "AllianceBernstein",
-      "date": "2026-09-03T00:45:47Z",
-      "topic": "Private Credit",
-      "summary": "",
-      "link": "https://news.google.com/rss/articles/CBMi6wFBVV95cUxOZFVZc21JX1NaM0Z0dnlSLXB4cXliOHU2NlpkcnljcHRwekxGQTlYaFVEQk52dWo5czR2Tm5QaWZJaTQwRDJHeEhWRnZEX3RabEFYMVBISTdBanA0WGVMcXJFS0U2Vi05Tm4ybUgzdVpuZW5Qd2xfcVVZUDZBWkQ1Y0pCdmpUUlNzOGI0bW5FTVVoZ01MR0JCOEUxY1h3blF4M1gyYVlMdkhHQ0xZRXhfWjI0WnN3WGhhRGFSVWp1TnNJTlNhWkJOWUFVZ1d2eEVMc0RIWWZoQ1pKVG9UWkpCUm4ybHJRZnFFeHhB?oc=5",
       "isNew": false
     }
   ]
