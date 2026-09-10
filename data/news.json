@@ -1,5 +1,5 @@
 {
-  "updated": "2026-09-10T11:25:23Z",
+  "updated": "2026-09-10T16:29:20Z",
   "topics": [
     "Insurance AM",
     "Private Credit",
@@ -7,6 +7,16 @@
     "Structured Credit"
   ],
   "items": [
+    {
+      "id": "5070e645fddc",
+      "title": "ECB raises interest rates to 2.5% and warns Iran war is fuelling inflation",
+      "source": "The Guardian",
+      "date": "2026-09-10T13:10:00Z",
+      "topic": "Rates & Macro",
+      "summary": "",
+      "link": "https://news.google.com/rss/articles/CBMiwgFBVV95cUxQUXYyQndqNHNWeFNoRDFITkpSSkVhcThqTTEtdTk5dzZpdXdIeWVEdndJRFZXZTBfN2c0UGlvZTJKQnlkSTI4aEMwRTFNODlxR2NVQjAtZmtwdTNpV3VjOTFtLW9nbTdVaDMwZmxReGFzN2xNRnBpbVktaExoa0Rad2s1QXJESXlzekxZbVloZWlxUk5ZOVVDS0g3ZWpsZWZjUmd0S3NyY2x0bFkzZTFFX2JHMGwyaGQyRkRCeVQzbm5ZUQ?oc=5",
+      "isNew": false
+    },
     {
       "id": "9abf9984bd64",
       "title": "AllianzGI amasses \u20ac1bn+ for largest impact direct lending fund on record",
@@ -120,7 +130,7 @@
     {
       "id": "1f2199e2abd6",
       "title": "Stock Market Under the Trump Administration: What is Driving Markets in 2026?",
-      "source": "U.S. Bank",
+      "source": "usbank.com",
       "date": "2026-09-04T07:00:00Z",
       "topic": "Insurance AM",
       "summary": "",
@@ -130,7 +140,7 @@
     {
       "id": "a17ddd50a64f",
       "title": "Viewpoint: Global Reinsurance Pricing to Remain Under Pressure Through 2027",
-      "source": "Insurance Journal",
+      "source": "insurancejournal.com",
       "date": "2026-09-04T05:04:42Z",
       "topic": "Insurance AM",
       "summary": "",
@@ -150,7 +160,7 @@
     {
       "id": "5b912a3b9d1b",
       "title": "The $9.6 Trillion Insurance Portfolio Is Going Private",
-      "source": "Forbes",
+      "source": "forbes.com",
       "date": "2026-09-03T22:22:26Z",
       "topic": "Private Credit",
       "summary": "",
@@ -220,7 +230,7 @@
     {
       "id": "a3bab54fab48",
       "title": "The bond market rout is global. Here\u2019s what\u2019s driving it",
-      "source": "cnn.com",
+      "source": "CNN",
       "date": "2026-09-03T14:21:32Z",
       "topic": "Rates & Macro",
       "summary": "",
@@ -270,7 +280,7 @@
     {
       "id": "0e20b829dd7d",
       "title": "Why the rise in government debt is freaking out the bond market",
-      "source": "Kansas Reflector",
+      "source": "kansasreflector.com",
       "date": "2026-09-03T08:35:32Z",
       "topic": "Rates & Macro",
       "summary": "",
@@ -292,16 +302,6 @@
       "title": "Bond yields fall, stocks rally as Fed's Waller comments curb rate hike bets",
       "source": "Reuters",
       "date": "2026-09-03T02:06:57Z",
-      "topic": "Rates & Macro",
-      "summary": "",
-      "link": "https://news.google.com/rss/articles/CBMigwFBVV95cUxQZHUxMWV6alo1MWFYM191bnlDTlhjTlc0Y2t0UjE4TndrZW9PczcxTmg5a1M0ZWk5M2Fqb0RvVlNIQWFuNG1nb3BtbjhhM2NmbkhDVENZTF9qYU53UDBWR3ROTl9XSlFDVGNLUF9sN29rSlhZc0xfSGZKcWlFanB4b2R1bw?oc=5",
-      "isNew": false
-    },
-    {
-      "id": "b20b3013ef3b",
-      "title": "Bond yields ease, stocks rally following Fed governor Waller comments",
-      "source": "Reuters",
-      "date": "2026-09-03T02:02:00Z",
       "topic": "Rates & Macro",
       "summary": "",
       "link": "https://news.google.com/rss/articles/CBMigwFBVV95cUxQZHUxMWV6alo1MWFYM191bnlDTlhjTlc0Y2t0UjE4TndrZW9PczcxTmg5a1M0ZWk5M2Fqb0RvVlNIQWFuNG1nb3BtbjhhM2NmbkhDVENZTF9qYU53UDBWR3ROTl9XSlFDVGNLUF9sN29rSlhZc0xfSGZKcWlFanB4b2R1bw?oc=5",
