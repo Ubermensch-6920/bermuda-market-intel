@@ -1,5 +1,5 @@
 {
-  "updated": "2026-09-09T23:20:02Z",
+  "updated": "2026-09-10T04:48:33Z",
   "topics": [
     "Insurance AM",
     "Private Credit",
@@ -40,7 +40,7 @@
     {
       "id": "12d17202dac1",
       "title": "What is driving the global rise in long-term interest rates?",
-      "source": "Bruegel",
+      "source": "bruegel.org",
       "date": "2026-09-08T10:04:23Z",
       "topic": "Rates & Macro",
       "summary": "",
@@ -140,7 +140,7 @@
     {
       "id": "5b912a3b9d1b",
       "title": "The $9.6 Trillion Insurance Portfolio Is Going Private",
-      "source": "forbes.com",
+      "source": "Forbes",
       "date": "2026-09-03T22:22:26Z",
       "topic": "Private Credit",
       "summary": "",
