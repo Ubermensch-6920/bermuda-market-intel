@@ -1,5 +1,5 @@
 {
-  "updated": "2026-09-11T04:46:33Z",
+  "updated": "2026-09-11T11:27:02Z",
   "topics": [
     "Insurance AM",
     "Private Credit",
@@ -15,6 +15,16 @@
       "topic": "Rates & Macro",
       "summary": "",
       "link": "https://news.google.com/rss/articles/CBMiwgFBVV95cUxQUXYyQndqNHNWeFNoRDFITkpSSkVhcThqTTEtdTk5dzZpdXdIeWVEdndJRFZXZTBfN2c0UGlvZTJKQnlkSTI4aEMwRTFNODlxR2NVQjAtZmtwdTNpV3VjOTFtLW9nbTdVaDMwZmxReGFzN2xNRnBpbVktaExoa0Rad2s1QXJESXlzekxZbVloZWlxUk5ZOVVDS0g3ZWpsZWZjUmd0S3NyY2x0bFkzZTFFX2JHMGwyaGQyRkRCeVQzbm5ZUQ?oc=5",
+      "isNew": false
+    },
+    {
+      "id": "5dc618eed32f",
+      "title": "Bond yields hit multi-year highs as traders brace for new ECB rate-hike cycle",
+      "source": "Reuters",
+      "date": "2026-09-10T15:54:41Z",
+      "topic": "Rates & Macro",
+      "summary": "",
+      "link": "https://news.google.com/rss/articles/CBMitgFBVV95cUxOdFpuTDFaWjFEOW82UlRWWm1NY0RjNkdBZS1EOWFvb21UbkxZUWxZN3ZwZEJ2R25wZC1ZVEF1WmkzNFVXN3VUNVdpSXk3RGUyTmNtRUh1VDFEMnFMNDN2ekpnSzdWTzFNUkh2ZUdMcngta1lzVm1jb1VNZnR6cjhVUEkzQi1kUzREY2FXbGd5eGtCWEJ3YzRGRFJXdF9BVm1MQVRCN2dPcDQ3aE42a1hZVUQxR1JRZw?oc=5",
       "isNew": false
     },
     {
@@ -38,9 +48,29 @@
       "isNew": false
     },
     {
+      "id": "60e6a7bd67f6",
+      "title": "European Central Bank Raises Rates in Bid to Quell Inflation",
+      "source": "The New York Times",
+      "date": "2026-09-10T12:26:33Z",
+      "topic": "Rates & Macro",
+      "summary": "",
+      "link": "https://news.google.com/rss/articles/CBMijgFBVV95cUxPMGlxa0FOS0lsVkNiRERaRE1FRjF2M092VmxtRG9GMGo5VG1paktWRFJ5Q1hRVkNfX0kwXzNnemV1NEJ4UHZmcFNSelRmdjRnbkQ5YmJtLW5LTTE2b1NFQmczbE1RdXV3VkRKUDJlRjFzeFhVTXplVjhfMC10SWVCWV9oZnRhQUtadm9naE1R?oc=5",
+      "isNew": false
+    },
+    {
+      "id": "9fc3c1972f69",
+      "title": "Can Central Banks Rescue Us From High Interest Rates And Rising Debt?",
+      "source": "Hoover Institution",
+      "date": "2026-09-10T01:18:11Z",
+      "topic": "Rates & Macro",
+      "summary": "",
+      "link": "https://news.google.com/rss/articles/CBMiogFBVV95cUxPNTVyRjM4Qnh3aWt3cjhtVUQxdFNTdTFESE1SUXRxUldkVzBsMjZhdEgxLTkyUmNmdUthSEs1SUFBM0dZV28zS1pYVTNodGhobFVXQmZmZ2JOUHF1TXdnOEw1VDNKN1B1TnZkVHFjVVJBSUd5Smtfd2IwTGdXdUNFQWp3QlVFNk1XUmhTdGdBU2gzX09RU1hxQ2RobE5WTE1UZWc?oc=5",
+      "isNew": false
+    },
+    {
       "id": "9abf9984bd64",
       "title": "AllianzGI amasses \u20ac1bn+ for largest impact direct lending fund on record",
-      "source": "newprivatemarkets.com",
+      "source": "New Private Markets",
       "date": "2026-09-09T12:22:29Z",
       "topic": "Private Credit",
       "summary": "",
@@ -218,16 +248,6 @@
       "isNew": false
     },
     {
-      "id": "d191afb6e2c0",
-      "title": "Global Bond Markets Take a Breather",
-      "source": "WSJ",
-      "date": "2026-09-03T16:08:00Z",
-      "topic": "Rates & Macro",
-      "summary": "",
-      "link": "https://news.google.com/rss/articles/CBMikgFBVV95cUxPLW1CTWp1LW5Zclhoc0hEeUlGOV9XelNnUGwtREZoeU9SOGdLR3ZBRDVtY3FDb25Ma2poRXJ5R3dmbVdJVDJTaktpVndRdXJfYWhFT1pMV0tMOURqSGFUWEF1aTVudVVTWXR1Rkh1US1CZmx4VDFVWlBlZTBnRG1RLS1vZ2swaEFtNzh5bzlmVzdKQQ?oc=5",
-      "isNew": false
-    },
-    {
       "id": "59c3c705fc82",
       "title": "Blackstone private credit fund maintains 5% cap as redemption requests remain elevated",
       "source": "reuters.com",
@@ -285,26 +305,6 @@
       "topic": "Insurance AM",
       "summary": "",
       "link": "https://news.google.com/rss/articles/CBMifkFVX3lxTE15elFRXy01bTQzN3BYbXZVbVl2QlY2Z3FzQUVQZDJLR3NYbU55a1pfVHdhUEowWUtxWXA5SHU2cFRZMDhSdnd6eU1jcmFHeXk4NVhvM09TTkVXRkk2Y2gySGY0bHRkWG1PTjFNUHlURHpUNjNYQzVFTzFYX2Rydw?oc=5",
-      "isNew": false
-    },
-    {
-      "id": "da6aa875e6a3",
-      "title": "The best car insurance companies in Oklahoma",
-      "source": "CNBC",
-      "date": "2026-09-03T10:13:15Z",
-      "topic": "Private Credit",
-      "summary": "",
-      "link": "https://news.google.com/rss/articles/CBMia0FVX3lxTE1HbDZQX1ZIZUFLUzRhdmdKZ3h1T2ZMRUsxd0tqNnUwTldMcmdPRHp0cWFaVHJTMFpxb05JUzZudDZUOWQ1UDN3SU41N01RVTM1MkVrclBPMTBHNWJxY2N2ek5fYXc1VFJCbEZz0gFwQVVfeXFMTlhRN2Z6TjMzVEdkVXByeFRpS3VscEVqYnluY0FId3FNQ0JOLXNYTFFOWGltX1EwWkVHeEw3eURxbm96Zk5nTDFtUlQ5SkRLWUJIbUdLUHdkVGt2RFBzOHpkOEE5ZGl6aHZYSUJ0NEhtVw?oc=5",
-      "isNew": false
-    },
-    {
-      "id": "43cef66c2270",
-      "title": "Treasury yields fall after Fed's Waller signals support for no rate hike",
-      "source": "cnbc.com",
-      "date": "2026-09-03T08:48:50Z",
-      "topic": "Rates & Macro",
-      "summary": "",
-      "link": "https://news.google.com/rss/articles/CBMibkFVX3lxTE5ZeVk1ak5PdXJlMmRuLTY4cFU2TVd1ZDhrUG9MWnRWTzVXNTJjMUQ1eFFuTzZwQ2tjR05tcDV2VDRCVUJlQXdyc29qbEJpTG1UQ0lGZWdicWNxckMtNFNqcVVCNHg4OHlUcm8ycXFB0gFzQVVfeXFMTzV6UWFJbUNWeHZWOFZlRGVJbzlkQ29UbUI5YjlycVB6Qzlwb0NqeklpRktwYWVyZHMwODA4REtkQWdZM3otQXdmV3V2QmN2WU5ac25OQXhmMTBTZFpMZDRIdmo4MjdxRU0wUzREWG1zamRiYw?oc=5",
       "isNew": false
     }
   ]
