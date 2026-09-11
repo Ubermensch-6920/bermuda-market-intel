@@ -1,5 +1,5 @@
 {
-  "updated": "2026-09-11T21:03:32Z",
+  "updated": "2026-09-11T23:21:00Z",
   "naic": [
     {
       "id": "ee93f87bb4f6",
@@ -17,7 +17,7 @@
       "date": "2026-09-04",
       "cat": "General",
       "summary": "",
-      "source": "wsj.com",
+      "source": "WSJ",
       "link": "https://news.google.com/rss/articles/CBMihgFBVV95cUxNN0VvUUJZQnpDbXBhdTc5bnN5MFVpaWdnakNXc3dzS3FYbV8tRTNRNVd4cEdNU0pRclJyeE1ZN2luVER2T0F2RWhLckdoNXFBcHhWNnptMllPbjA5Sm1wZjZRRkFNNFA2RENfWlFFMmtBQ1VNQUVCbU9oVTIzQ0NXNl9xZWdjZw?oc=5",
       "isNew": true
     },
@@ -87,7 +87,7 @@
       "date": "2026-08-26",
       "cat": "Investment",
       "summary": "",
-      "source": "Substack",
+      "source": "roddubitsky.substack.com",
       "link": "https://news.google.com/rss/articles/CBMidkFVX3lxTE9nSDdPRmdDb2w1eTF3WlU2SWJNVVQ2NEFxS01rSlhTaVBxR3BqT0RRMkxOZW1yNFFRc3hVbTlSU0dxck9NTzJMYnlPTWlZT2tNOEl1V3ZVS2FNSVJud3ZDZlhCRUFwRTRrRG1hMEdwZnFIcU14eUE?oc=5",
       "isNew": true
     },
@@ -289,7 +289,7 @@
       "date": "2026-08-24",
       "cat": "General",
       "summary": "",
-      "source": "Bernews",
+      "source": "bernews.com",
       "link": "https://news.google.com/rss/articles/CBMidkFVX3lxTFAtMk5oeGM2aThiN1Zud1A4NWtYdy1fTVBDc1pscG15QWFwcVlEU0RqQ3lCb1pJYzNWSV9QdXRYWEFWTFFGd05iY0dNT1VZMUxMRUwzbGtDS1lvUG1nYWxhN203RVluS21PM1haNDJyVC1xd2NuTXc?oc=5",
       "isNew": true
     },
@@ -309,7 +309,7 @@
       "date": "2026-08-20",
       "cat": "General",
       "summary": "",
-      "source": "Bernews",
+      "source": "bernews.com",
       "link": "https://news.google.com/rss/articles/CBMic0FVX3lxTFBMaXl4eXRTMllDZEtiNkFXdVF3OEIzYXVJb3F2ME0yV0h0NHlERWZib3ItRGMwamphamI0d2tJcVlzVVdJeFhUUFlxajJEYVh5M2tIX01UeGl2eVlhbFo5Qlc4c1lCaFdCXzd5bmNDclVVRm8?oc=5",
       "isNew": true
     },
@@ -349,7 +349,7 @@
       "date": "2026-08-10",
       "cat": "General",
       "summary": "",
-      "source": "Bernews",
+      "source": "bernews.com",
       "link": "https://news.google.com/rss/articles/CBMiekFVX3lxTE1tTmdWVUZLZkUwcFpYY0RnbktoRlYzMS1Id1RDRTBNOEc0YUpNdWpNODhqWFN6VkNkc2dnV3ZnVHctTDFicmFEQnRGR3E3NnYwaGtKUkpvUDJPSW4tNHQzNW9jOHVMOXl4S1FadDc4VHR2WnZWRnE5dEN3?oc=5",
       "isNew": false
     },
@@ -399,7 +399,7 @@
       "date": "2026-07-23",
       "cat": "Investment",
       "summary": "",
-      "source": "Bernews",
+      "source": "bernews.com",
       "link": "https://news.google.com/rss/articles/CBMiaEFVX3lxTFAtN1ViUDFtajhjdWkxaER1aVBHUXRYVmw5MGlROWF0c3lya2J3M0lEeDdNOU9jWGNEY1laelRkT3VsLTRJbFlrRmFYaUNwM0lHME5PeWI4Nzh5TEdNSEJlZVZ2MkhnM2dB?oc=5",
       "isNew": false
     },
