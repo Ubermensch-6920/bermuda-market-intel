@@ -1,5 +1,5 @@
 {
-  "updated": "2026-09-11T16:34:12Z",
+  "updated": "2026-09-11T21:03:32Z",
   "topics": [
     "Insurance AM",
     "Private Credit",
@@ -8,6 +8,16 @@
   ],
   "items": [
     {
+      "id": "008f8a56a378",
+      "title": "Economists think a rate hike is coming. Here\u2019s what that could mean for the economy",
+      "source": "Northeastern Global News",
+      "date": "2026-09-11T19:37:00Z",
+      "topic": "Rates & Macro",
+      "summary": "",
+      "link": "https://news.google.com/rss/articles/CBMie0FVX3lxTFBwQ3BHUFg3c0VXdWFNSGFpR3JSaFBodUZxMmJHUzJZMTlhVldTMVZqbWEzSGFvckhhVGVJbWtlOVpPcHNxNW5GaWdWV0NYN09zVTBLMVJkdVcwUG1HdGkyOWZsZmx3akoyaEFxakIyQ25jY1pONldYanpwTQ?oc=5",
+      "isNew": false
+    },
+    {
       "id": "b5f06b803bce",
       "title": "Surging bonds yields presage pain\u2014and not just for bond investors",
       "source": "The Economist",
@@ -15,6 +25,16 @@
       "topic": "Rates & Macro",
       "summary": "",
       "link": "https://news.google.com/rss/articles/CBMiwgFBVV95cUxNYzFoREd5U044TVVrMWt5aG16V201R0c2Yzg0Q3NnSU5kNkRwb3JIeWV5emo1S0lHWVR5R21iY190Q2JjV0NiV0JvcS1mS01MSEg4MU9IMk1HSDFrWE5ZYWtMdXF0VTBBb09VTXNtY3B4M2JPSjFONS1nbHcxNFBKMXlOUjJJS0RQMEFGSHJRdy1SN2h0cEdPRFFnUVk1bkRLcGJaVEJrRm80WXJSbmVTVWw3Q0M1a1BMZTZIZjZqdklFUQ?oc=5",
+      "isNew": false
+    },
+    {
+      "id": "e74527f53120",
+      "title": "Surging bond yields presage pain\u2014and not just for bond investors",
+      "source": "The Economist",
+      "date": "2026-09-11T16:02:32Z",
+      "topic": "Rates & Macro",
+      "summary": "",
+      "link": "https://news.google.com/rss/articles/CBMiwAFBVV95cUxNeW5sVHpqU0VJbnY0XzUxYjlmbmhfZVYtdGxNTHBJbnRVV2h1Y1FlYTJVNGpyeWJtQlU2WjhkeE5rcmt4MWtyd0JEejdJNU1JcEluYW52OUZZNFM5UHNLd3J1dV85bW9MajkwWElVQTZQWDVMY1l0bW1IbTU2TDAwQzExejVLdk1fMTc1UkdrTjNpNi03ellyZjFTNnFXSHpQYWRjRFAya1dLSFUtQlVBLThGcHBmSzRNZGRrUElvSWc?oc=5",
       "isNew": false
     },
     {
@@ -60,7 +80,7 @@
     {
       "id": "60e6a7bd67f6",
       "title": "European Central Bank Raises Rates in Bid to Quell Inflation",
-      "source": "The New York Times",
+      "source": "nytimes.com",
       "date": "2026-09-10T12:26:33Z",
       "topic": "Rates & Macro",
       "summary": "",
@@ -90,11 +110,21 @@
     {
       "id": "1aacf54270e7",
       "title": "Allianz Asset Management GmbH Makes New Investment in Slide Insurance Holdings, Inc. $SLDE",
-      "source": "marketbeat.com",
+      "source": "MarketBeat",
       "date": "2026-09-09T07:22:57Z",
       "topic": "Insurance AM",
       "summary": "",
       "link": "https://news.google.com/rss/articles/CBMi4gFBVV95cUxNb2hySUNGRmNXNnl4ZUQ2bFl3R3ZXNGpfV3NLQ1k0MElHTkpvZWREZDdFTnJpaElsVXViS3NjSy1PeEFqWUJueWczVUU2eERveFFyRnNlbTBTbFlFY3U4am0tRVRTTV9PamgxMDVXbUMyREdvV1QwdWUtdEM5Y2JvbFVYb0wzbmhCcDM5MS1pN1ZhbEI3ODdlM1RaN2FPQU5sbWFVaFFxM3RoRWFRLXNxcmxNLTJGMWJEa0pfTy1HV09sbFBXNUZkcEtuUVZsWFlaMVdLYklLakVOaXIyTDhOUWh3?oc=5",
+      "isNew": false
+    },
+    {
+      "id": "56e51e9c8cc2",
+      "title": "There\u2019s a simple way the Fed could help calm the bond market",
+      "source": "CNN",
+      "date": "2026-09-08T17:33:57Z",
+      "topic": "Rates & Macro",
+      "summary": "",
+      "link": "https://news.google.com/rss/articles/CBMibEFVX3lxTE1xS0xVRGFsRlhGb1BFXy1Vc1c5Zjd1NkxfajlLZ0JUQkZfM1VkVVhhUkh1TnZHZnlMeTI4R3Rkb0dqMG1CWVk4WFhYdkxyMUVhVUM3TUhtdWdqeDlMRTZpVjU5UTBTN3VGOVZzZA?oc=5",
       "isNew": false
     },
     {
@@ -190,7 +220,7 @@
     {
       "id": "c4a1a0278a2c",
       "title": "The Bond Markets Are Pushing Up Rates. Will Central Banks Follow?",
-      "source": "The New York Times",
+      "source": "nytimes.com",
       "date": "2026-09-04T09:03:39Z",
       "topic": "Rates & Macro",
       "summary": "",
@@ -275,36 +305,6 @@
       "topic": "Rates & Macro",
       "summary": "",
       "link": "https://news.google.com/rss/articles/CBMiqgFBVV95cUxPb19UUEJ3Tk1pWThjSzY4X0Y2NEtyTzZoRVVJTmt0SVF0LTc1b0VUNm9sTlJZWG02TU1HcmhqUjQ3c2hMUkdNUFRzdEFaTXBVNHhFTHkydk0wNHMxT1F4OWFleThaVW0xVVVCa0xfZGVPUnJ6S1FHMW9BN1BQem8tN2RlQllKSzZaNGJUdktRdkFLNUJDUllMOUF5LVBCSE9vbG96ZnlJWU55Zw?oc=5",
-      "isNew": false
-    },
-    {
-      "id": "d10c177aa6c6",
-      "title": "SafePoint Insurance Makes Strategic Investment in Arrow Risk Management",
-      "source": "Business Wire",
-      "date": "2026-09-03T14:37:00Z",
-      "topic": "Insurance AM",
-      "summary": "",
-      "link": "https://news.google.com/rss/articles/CBMixwFBVV95cUxQYTI1RExZeTh2Tjd3bUhubklkNDBDckp2RXNWZnU3aHdJWFBwMklNZWJuYjdQajRjUThYNVZOSGVlMEpSYW9zd0FLeXhxcWZPZ0NnQXhzc3MzdWl0SWE5SzA2SlppWWpiUzByQzZ1cnd4Vk8ydkEyVUw4V1A3ZVlqRnpOdDJ6cGUzb3BnWHE5Vk1zOXNYMjVkdVEzelpoVEl5eHdKbTkzeXNPMWtQM3VZQUJJdWtPcWxZNl83SWt2NVQ3RGdjYWRj?oc=5",
-      "isNew": false
-    },
-    {
-      "id": "a3bab54fab48",
-      "title": "The bond market rout is global. Here\u2019s what\u2019s driving it",
-      "source": "CNN",
-      "date": "2026-09-03T14:21:32Z",
-      "topic": "Rates & Macro",
-      "summary": "",
-      "link": "https://news.google.com/rss/articles/CBMidkFVX3lxTE0xY2pJRlVWWEFqZVFNb0hrVEUwSmRCZzBtMXVXVExDeFA1ZkFNVXpWV3RGdUZCa1JZNjJ2OVVIbkRERlF0aG1qWTMyQXF6ZjY4eXZfSmlKUmp3TFBudDZkbGFyUjVoUTVCX0JPbXhIZ3NwUmNSOWc?oc=5",
-      "isNew": false
-    },
-    {
-      "id": "4bfb1213c47b",
-      "title": "Treasury yields fall after top Fed official signals support for rate hold",
-      "source": "ft.com",
-      "date": "2026-09-03T12:30:23Z",
-      "topic": "Rates & Macro",
-      "summary": "",
-      "link": "https://news.google.com/rss/articles/CBMihAFBVV95cUxONV9sN1lwMEpHa3MwdV9WQWRFQ1UwZzJycnNxM25DZU45WVhEZGdqN3EyU3pBYkw3WnlvS1FkekplTFdUNUdHel9xa0JBeGJWOS1IdlE5OEdKNzhFc0VOb3F1dHF4RURUMWZhektSemRTVzZ2V3U2OEttVTA5aVlQbHJGc04?oc=5",
       "isNew": false
     }
   ]
