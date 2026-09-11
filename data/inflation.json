@@ -1,13 +1,13 @@
 {
-  "updated": "2026-09-11T11:26:16.271355Z",
+  "updated": "2026-09-11T16:33:22.450085Z",
   "countries": {
     "us": {
       "series": "CPIAUCSL",
       "label": "US CPI-U (SA, BLS)",
-      "yoy": 3.54,
-      "mom": 0.245,
+      "yoy": 3.71,
+      "mom": 1.318,
       "trend": "up",
-      "date": "2026-07-01"
+      "date": "2026-08-01"
     },
     "jp": {
       "series": "JPNCPIALLMINMEI",
@@ -42,5 +42,5 @@
       "date": null
     }
   },
-  "_fetched": "2026-09-11T11:26:16.271361Z"
+  "_fetched": "2026-09-11T16:33:22.450090Z"
 }

@@ -1,5 +1,5 @@
 {
-  "updated": "2026-09-11T11:27:02Z",
+  "updated": "2026-09-11T16:34:12Z",
   "topics": [
     "Insurance AM",
     "Private Credit",
@@ -7,6 +7,16 @@
     "Structured Credit"
   ],
   "items": [
+    {
+      "id": "b5f06b803bce",
+      "title": "Surging bonds yields presage pain\u2014and not just for bond investors",
+      "source": "The Economist",
+      "date": "2026-09-11T16:02:32Z",
+      "topic": "Rates & Macro",
+      "summary": "",
+      "link": "https://news.google.com/rss/articles/CBMiwgFBVV95cUxNYzFoREd5U044TVVrMWt5aG16V201R0c2Yzg0Q3NnSU5kNkRwb3JIeWV5emo1S0lHWVR5R21iY190Q2JjV0NiV0JvcS1mS01MSEg4MU9IMk1HSDFrWE5ZYWtMdXF0VTBBb09VTXNtY3B4M2JPSjFONS1nbHcxNFBKMXlOUjJJS0RQMEFGSHJRdy1SN2h0cEdPRFFnUVk1bkRLcGJaVEJrRm80WXJSbmVTVWw3Q0M1a1BMZTZIZjZqdklFUQ?oc=5",
+      "isNew": false
+    },
     {
       "id": "5070e645fddc",
       "title": "ECB raises interest rates to 2.5% and warns Iran war is fuelling inflation",
@@ -80,7 +90,7 @@
     {
       "id": "1aacf54270e7",
       "title": "Allianz Asset Management GmbH Makes New Investment in Slide Insurance Holdings, Inc. $SLDE",
-      "source": "MarketBeat",
+      "source": "marketbeat.com",
       "date": "2026-09-09T07:22:57Z",
       "topic": "Insurance AM",
       "summary": "",
@@ -295,16 +305,6 @@
       "topic": "Rates & Macro",
       "summary": "",
       "link": "https://news.google.com/rss/articles/CBMihAFBVV95cUxONV9sN1lwMEpHa3MwdV9WQWRFQ1UwZzJycnNxM25DZU45WVhEZGdqN3EyU3pBYkw3WnlvS1FkekplTFdUNUdHel9xa0JBeGJWOS1IdlE5OEdKNzhFc0VOb3F1dHF4RURUMWZhektSemRTVzZ2V3U2OEttVTA5aVlQbHJGc04?oc=5",
-      "isNew": false
-    },
-    {
-      "id": "d16d335f6bec",
-      "title": "Walter Global Asset Management invests in Equisoft",
-      "source": "Coverager",
-      "date": "2026-09-03T11:34:36Z",
-      "topic": "Insurance AM",
-      "summary": "",
-      "link": "https://news.google.com/rss/articles/CBMifkFVX3lxTE15elFRXy01bTQzN3BYbXZVbVl2QlY2Z3FzQUVQZDJLR3NYbU55a1pfVHdhUEowWUtxWXA5SHU2cFRZMDhSdnd6eU1jcmFHeXk4NVhvM09TTkVXRkk2Y2gySGY0bHRkWG1PTjFNUHlURHpUNjNYQzVFTzFYX2Rydw?oc=5",
       "isNew": false
     }
   ]
