@@ -1,5 +1,5 @@
 {
-  "updated": "2026-09-12T15:37:17Z",
+  "updated": "2026-09-12T20:43:35Z",
   "naic": [
     {
       "id": "ee93f87bb4f6",
@@ -289,7 +289,7 @@
       "date": "2026-08-24",
       "cat": "General",
       "summary": "",
-      "source": "bernews.com",
+      "source": "Bernews",
       "link": "https://news.google.com/rss/articles/CBMidkFVX3lxTFAtMk5oeGM2aThiN1Zud1A4NWtYdy1fTVBDc1pscG15QWFwcVlEU0RqQ3lCb1pJYzNWSV9QdXRYWEFWTFFGd05iY0dNT1VZMUxMRUwzbGtDS1lvUG1nYWxhN203RVluS21PM1haNDJyVC1xd2NuTXc?oc=5",
       "isNew": true
     },
@@ -309,7 +309,7 @@
       "date": "2026-08-20",
       "cat": "General",
       "summary": "",
-      "source": "bernews.com",
+      "source": "Bernews",
       "link": "https://news.google.com/rss/articles/CBMic0FVX3lxTFBMaXl4eXRTMllDZEtiNkFXdVF3OEIzYXVJb3F2ME0yV0h0NHlERWZib3ItRGMwamphamI0d2tJcVlzVVdJeFhUUFlxajJEYVh5M2tIX01UeGl2eVlhbFo5Qlc4c1lCaFdCXzd5bmNDclVVRm8?oc=5",
       "isNew": true
     },
@@ -349,7 +349,7 @@
       "date": "2026-08-10",
       "cat": "General",
       "summary": "",
-      "source": "bernews.com",
+      "source": "Bernews",
       "link": "https://news.google.com/rss/articles/CBMiekFVX3lxTE1tTmdWVUZLZkUwcFpYY0RnbktoRlYzMS1Id1RDRTBNOEc0YUpNdWpNODhqWFN6VkNkc2dnV3ZnVHctTDFicmFEQnRGR3E3NnYwaGtKUkpvUDJPSW4tNHQzNW9jOHVMOXl4S1FadDc4VHR2WnZWRnE5dEN3?oc=5",
       "isNew": false
     },
@@ -399,7 +399,7 @@
       "date": "2026-07-23",
       "cat": "Investment",
       "summary": "",
-      "source": "bernews.com",
+      "source": "Bernews",
       "link": "https://news.google.com/rss/articles/CBMiaEFVX3lxTFAtN1ViUDFtajhjdWkxaER1aVBHUXRYVmw5MGlROWF0c3lya2J3M0lEeDdNOU9jWGNEY1laelRkT3VsLTRJbFlrRmFYaUNwM0lHME5PeWI4Nzh5TEdNSEJlZVZ2MkhnM2dB?oc=5",
       "isNew": false
     },
@@ -531,7 +531,7 @@
       "date": "2026-09-07",
       "cat": "General",
       "summary": "",
-      "source": "Captive Insurance Times",
+      "source": "captiveinsurancetimes.com",
       "link": "https://news.google.com/rss/articles/CBMi5gFBVV95cUxQVzJhcm5kQkxmTHgxMXl3NTZXZnpDYmZFV2NUOTQzOHhsaUoxY1hrcU9nNGdiU0RPWVRBSXpjdTVEbmlKWmxBdGhnSU81Ymx1Rjl4TVoyZWo1dmdDbE1yUTQ1YzN6eVhpQkJmdm1hZEs2ZHlsSGZRemU1alNaNHJ5U01YLS1YS0prLV9Mc2hSaHptZFNwUFk3dGN5TEVKNk43RS0tRDhCLVNUeGZ4T19RNy1vYTlfWi1OMFZiOUpyczgtemhTT0lNb2NndnA1d1JRV3c2REtfbmlPUzRsV0JWZ2JaRlU4Zw?oc=5",
       "isNew": true
     },
@@ -621,7 +621,7 @@
       "date": "2026-07-29",
       "cat": "General",
       "summary": "",
-      "source": "lexology.com",
+      "source": "Lexology",
       "link": "https://news.google.com/rss/articles/CBMiiwFBVV95cUxOTFFjLW15TlVPOGd6bE43S0hXR0VFUEI3bXA0VFVScWxCUFhBcFN6dXFXd1BDYmJPd19DYUFUdUY0ZWxnRXhwWDhaQWxiU1FiSVM2NXozeGpWQkl4cUQ1eWlSdFJabUVEUGNoaXRVZXJoVVJNOUNFQXNxa0xMX215RlpuNFRtN2NzM3pJ?oc=5",
       "isNew": false
     },
@@ -631,7 +631,7 @@
       "date": "2026-07-28",
       "cat": "Capital/Solvency",
       "summary": "",
-      "source": "Captive Insurance Times",
+      "source": "captiveinsurancetimes.com",
       "link": "https://news.google.com/rss/articles/CBMi3wFBVV95cUxQT2YyckdNRjRZbmJudWtCNktUek80N3d2RXM4YkktQXprT2xnRmZFcW0xa3I0WERNS3c3Q2dadUtfU0drU211bi00VHRRMlh6MDFGTl9OMHZBa3h6RWYwcHVUSzNSY3FZblRFdkotMjFVUUNkc1RMV2hGVnhhWEZlWlBIVkVwd2xOeVI0S0pDamxuMTFtSmk2cC0wdThnODFPYk92S1Zya3ktZG5LdU4wd3BrMTZ5bHpraDZGMFNrdFFfQmxzSm1Fc1FGeTRqSExUU3hqMHNUa291S1pEUGU4?oc=5",
       "isNew": false
     },
