@@ -1,5 +1,5 @@
 {
-  "updated": "2026-09-11T23:21:00Z",
+  "updated": "2026-09-12T04:40:17Z",
   "topics": [
     "Insurance AM",
     "Private Credit",
@@ -8,10 +8,30 @@
   ],
   "items": [
     {
+      "id": "efe6567068f0",
+      "title": "Barings on why asset managers and investors are queuing up for solutions",
+      "source": "pei-privatecredit.com",
+      "date": "2026-09-11T22:31:26Z",
+      "topic": "Private Credit",
+      "summary": "",
+      "link": "https://news.google.com/rss/articles/CBMirgFBVV95cUxNUWxHQkZwcTFySnh3dWVkbGE3bC1oMVZMUmk0MUlIN1EyYVhEbGVkQm9pdm1wM2JvSlZVOWJJcVE2UFN1REd2TWtHbHJXaVJUemNIbW1IOFlaYUJNbDZQaFJXSlJVcTRUVS05Mk1aQjJhQmtHTVdCSFhrUExrXzJ5Mmx4R3hJNmdQTnhKdXRvSGxvajFoU1hzaWhjQ1p0S1NiWDNPZi1YTXpsb2toZ1E?oc=5",
+      "isNew": false
+    },
+    {
+      "id": "68a17151d378",
+      "title": "Barings on why asset managers and investors are queuing up for solutions",
+      "source": "pei-privatecredit.com",
+      "date": "2026-09-11T22:31:26Z",
+      "topic": "Insurance AM",
+      "summary": "",
+      "link": "https://news.google.com/rss/articles/CBMirgFBVV95cUxNUWxHQkZwcTFySnh3dWVkbGE3bC1oMVZMUmk0MUlIN1EyYVhEbGVkQm9pdm1wM2JvSlZVOWJJcVE2UFN1REd2TWtHbHJXaVJUemNIbW1IOFlaYUJNbDZQaFJXSlJVcTRUVS05Mk1aQjJhQmtHTVdCSFhrUExrXzJ5Mmx4R3hJNmdQTnhKdXRvSGxvajFoU1hzaWhjQ1p0S1NiWDNPZi1YTXpsb2toZ1E?oc=5",
+      "isNew": false
+    },
+    {
       "id": "008f8a56a378",
       "title": "Economists think a rate hike is coming. Here\u2019s what that could mean for the economy",
-      "source": "news.northeastern.edu",
-      "date": "2026-09-11T19:37:00Z",
+      "source": "Northeastern Global News",
+      "date": "2026-09-11T19:37:30Z",
       "topic": "Rates & Macro",
       "summary": "",
       "link": "https://news.google.com/rss/articles/CBMie0FVX3lxTFBwQ3BHUFg3c0VXdWFNSGFpR3JSaFBodUZxMmJHUzJZMTlhVldTMVZqbWEzSGFvckhhVGVJbWtlOVpPcHNxNW5GaWdWV0NYN09zVTBLMVJkdVcwUG1HdGkyOWZsZmx3akoyaEFxakIyQ25jY1pONldYanpwTQ?oc=5",
@@ -250,7 +270,7 @@
     {
       "id": "a17ddd50a64f",
       "title": "Viewpoint: Global Reinsurance Pricing to Remain Under Pressure Through 2027",
-      "source": "Insurance Journal",
+      "source": "insurancejournal.com",
       "date": "2026-09-04T05:04:42Z",
       "topic": "Insurance AM",
       "summary": "",
@@ -285,26 +305,6 @@
       "topic": "Rates & Macro",
       "summary": "",
       "link": "https://news.google.com/rss/articles/CBMihgFBVV95cUxQX3ZGQmxraTBxUFRDaUFUVVZlM3NIM0JsbHVCY1VTVzRnVHBORFRXbldFbXRjYTVyZDRyRFpNV3o3TDgyU2lLVnJCdUxSNl9nY3FRbnRzd25nQkExcUZJb1hrWHUtUFp2amtrdW9BbTJTdlAxSDNLMmxlYk40VEtaaUY5aDR3Z9IBiwFBVV95cUxQb1VUX2p4NlhOSEN2X2tTMmE0M3hJS2QwMmZ5Y3VOeVhnbGMxRUMzbG5saTdGWFc5TTMyNlMwekg4WHVjTkNYT2xmZk80WE1DRWptSmFzVTJiR2hKQVA1X3F3OWowUWtsbDVhVUEtLWRpbHFFWGJZbV9WTGg1UVRmMWs4M1pLbWNpNFdv?oc=5",
-      "isNew": false
-    },
-    {
-      "id": "fc379c7b67a6",
-      "title": "Can Treasury Buyback Reverse Bearish Sentiment in Bonds?",
-      "source": "CME Group",
-      "date": "2026-09-03T18:59:16Z",
-      "topic": "Rates & Macro",
-      "summary": "",
-      "link": "https://news.google.com/rss/articles/CBMiuAFBVV95cUxNYmktOW9uZnk2dGNWN1dxMnd5N0ptQUtGSHA1SkxVNlZ3alJjZ2ltOEd0UjBsMDhGeWlEWjExMVFrTk5qQTZUNzZPWW02bEV4T1ltVDI0NHdpU1NVbjRiUkZScGg3NEFXSFAzaF90Zng0WUc0cVpxaHJXVHdnMVFMWFVxZHZaRl8xTUhpQWVWUS0tN0hLSFJTQ1c2U2hxay15bzN4cEJ0cE00R1ZZdW9rNjIta3ZWdmFQ?oc=5",
-      "isNew": false
-    },
-    {
-      "id": "59c3c705fc82",
-      "title": "Blackstone private credit fund maintains 5% cap as redemption requests remain elevated",
-      "source": "reuters.com",
-      "date": "2026-09-03T15:33:57Z",
-      "topic": "Private Credit",
-      "summary": "",
-      "link": "https://news.google.com/rss/articles/CBMizwFBVV95cUxQSENVd0wwZHktbm9iTXpRNXJyVTNRNGRJeDAzeUx2d3E0cUlCY3pZWG5OVUFpbUluZkQ2XzJhc3RGclZBYUlvNmhuQkNYcVRubjAyaW5peXBVcWNiYUN5R25wTDFONTFVNFpHUzNjMHVFWHhkZVZPZzk3T21henJJRFBidXRMMjZHMkVEUENrQThvWV9EcGEwVVdNUFh4SVZsX01EMGRRQjNRT1VwQ2RyOTB2VWNWU3lMVHZ3NXBEU1hDaGVZa0pwd2NSYS1RNUU?oc=5",
       "isNew": false
     }
   ]
