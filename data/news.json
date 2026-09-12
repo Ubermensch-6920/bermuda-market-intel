@@ -1,5 +1,5 @@
 {
-  "updated": "2026-09-12T04:40:17Z",
+  "updated": "2026-09-12T10:52:32Z",
   "topics": [
     "Insurance AM",
     "Private Credit",
@@ -25,6 +25,16 @@
       "topic": "Insurance AM",
       "summary": "",
       "link": "https://news.google.com/rss/articles/CBMirgFBVV95cUxNUWxHQkZwcTFySnh3dWVkbGE3bC1oMVZMUmk0MUlIN1EyYVhEbGVkQm9pdm1wM2JvSlZVOWJJcVE2UFN1REd2TWtHbHJXaVJUemNIbW1IOFlaYUJNbDZQaFJXSlJVcTRUVS05Mk1aQjJhQmtHTVdCSFhrUExrXzJ5Mmx4R3hJNmdQTnhKdXRvSGxvajFoU1hzaWhjQ1p0S1NiWDNPZi1YTXpsb2toZ1E?oc=5",
+      "isNew": false
+    },
+    {
+      "id": "790c59857dc2",
+      "title": "After Unitranche: How the Middle Market Capital Stack Is Being Pulled Apart from Inside",
+      "source": "ABF Journal",
+      "date": "2026-09-11T22:10:26Z",
+      "topic": "Private Credit",
+      "summary": "",
+      "link": "https://news.google.com/rss/articles/CBMitAFBVV95cUxQVVdQXzFtT3pmOXBnNmxuVmFWdHgxbG9LUm00d3lZQXRpRGdfTzFTZ2hfZWk0dFh6TF82NmlNZmxNVUo2eXhYSGk2cWJVZXRDMVVZNkVoVDNQejZHdzBUd1FzQUZuOXlzTFd3NUQ3dVRDN3M3clBIQlRHdGR0dS1hWHItaGJUcm9XQmtBSk1CVVVUYkxPZmdpUVNOY2ZrQVBfb0lJTk9jU0xRUWlUUWdWcVNVQko?oc=5",
       "isNew": false
     },
     {
@@ -68,16 +78,6 @@
       "isNew": false
     },
     {
-      "id": "5070e645fddc",
-      "title": "ECB raises interest rates to 2.5% and warns Iran war is fuelling inflation",
-      "source": "The Guardian",
-      "date": "2026-09-10T15:58:00Z",
-      "topic": "Rates & Macro",
-      "summary": "",
-      "link": "https://news.google.com/rss/articles/CBMiwgFBVV95cUxQUXYyQndqNHNWeFNoRDFITkpSSkVhcThqTTEtdTk5dzZpdXdIeWVEdndJRFZXZTBfN2c0UGlvZTJKQnlkSTI4aEMwRTFNODlxR2NVQjAtZmtwdTNpV3VjOTFtLW9nbTdVaDMwZmxReGFzN2xNRnBpbVktaExoa0Rad2s1QXJESXlzekxZbVloZWlxUk5ZOVVDS0g3ZWpsZWZjUmd0S3NyY2x0bFkzZTFFX2JHMGwyaGQyRkRCeVQzbm5ZUQ?oc=5",
-      "isNew": false
-    },
-    {
       "id": "5dc618eed32f",
       "title": "Bond yields hit multi-year highs as traders brace for new ECB rate-hike cycle",
       "source": "Reuters",
@@ -95,6 +95,16 @@
       "topic": "Rates & Macro",
       "summary": "",
       "link": "https://news.google.com/rss/articles/CBMiqgFBVV95cUxOcEptZDVUSnhIN183c3VUUjM5MzloTjFfd3EwMHVwa2JNaU5aUFhnUV9JbUJiY001cE04NEdSNXNqbXJneGlFMXlXc2p5M2RUT1daWVVWRmVpdzdjazBVVXZZbTFYRnktRWhjWUNyUmxPelAtbXZxTUluQ211ZTlvQ2RQSVRLc2x1ay1LOEstT0dUT0JmTjljTWVreWlKZ2czOUhTUDBUMGF4QQ?oc=5",
+      "isNew": false
+    },
+    {
+      "id": "5070e645fddc",
+      "title": "ECB raises interest rates to 2.5% and warns Iran war is fuelling inflation",
+      "source": "theguardian.com",
+      "date": "2026-09-10T13:10:00Z",
+      "topic": "Rates & Macro",
+      "summary": "",
+      "link": "https://news.google.com/rss/articles/CBMiwgFBVV95cUxQUXYyQndqNHNWeFNoRDFITkpSSkVhcThqTTEtdTk5dzZpdXdIeWVEdndJRFZXZTBfN2c0UGlvZTJKQnlkSTI4aEMwRTFNODlxR2NVQjAtZmtwdTNpV3VjOTFtLW9nbTdVaDMwZmxReGFzN2xNRnBpbVktaExoa0Rad2s1QXJESXlzekxZbVloZWlxUk5ZOVVDS0g3ZWpsZWZjUmd0S3NyY2x0bFkzZTFFX2JHMGwyaGQyRkRCeVQzbm5ZUQ?oc=5",
       "isNew": false
     },
     {
@@ -270,7 +280,7 @@
     {
       "id": "a17ddd50a64f",
       "title": "Viewpoint: Global Reinsurance Pricing to Remain Under Pressure Through 2027",
-      "source": "insurancejournal.com",
+      "source": "Insurance Journal",
       "date": "2026-09-04T05:04:42Z",
       "topic": "Insurance AM",
       "summary": "",
@@ -295,16 +305,6 @@
       "topic": "Private Credit",
       "summary": "",
       "link": "https://news.google.com/rss/articles/CBMiugFBVV95cUxQQTVhejVIZ0tjZ1VvTFVqWDVicGt3aWJwcURSZkNwdW5fYjM1LUtFSUExOGxTc0lIRDZlYnNablE3MXk4bTR3WW5QTkU4QXBhSkpxTWlqSDJId21qRUp2T0IwUmRQbENkZ1hHclE4eFNoVWJNMjVVdEdOcnZGUzBDMTZuNGxGd3J4UnNkNHlzVmVjQkZ5N1ZlMGVYUUMzR2hwa2JqckhaNG5UX2NyZ2U1aG5sRmY1aU9GM0E?oc=5",
-      "isNew": false
-    },
-    {
-      "id": "ee4d7335c474",
-      "title": "Vance says Fed should lower interest rates: 'Would be nice to have some help'",
-      "source": "cnbc.com",
-      "date": "2026-09-03T19:18:59Z",
-      "topic": "Rates & Macro",
-      "summary": "",
-      "link": "https://news.google.com/rss/articles/CBMihgFBVV95cUxQX3ZGQmxraTBxUFRDaUFUVVZlM3NIM0JsbHVCY1VTVzRnVHBORFRXbldFbXRjYTVyZDRyRFpNV3o3TDgyU2lLVnJCdUxSNl9nY3FRbnRzd25nQkExcUZJb1hrWHUtUFp2amtrdW9BbTJTdlAxSDNLMmxlYk40VEtaaUY5aDR3Z9IBiwFBVV95cUxQb1VUX2p4NlhOSEN2X2tTMmE0M3hJS2QwMmZ5Y3VOeVhnbGMxRUMzbG5saTdGWFc5TTMyNlMwekg4WHVjTkNYT2xmZk80WE1DRWptSmFzVTJiR2hKQVA1X3F3OWowUWtsbDVhVUEtLWRpbHFFWGJZbV9WTGg1UVRmMWs4M1pLbWNpNFdv?oc=5",
       "isNew": false
     }
   ]
