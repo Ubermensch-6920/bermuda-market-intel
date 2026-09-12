@@ -1,5 +1,5 @@
 {
-  "updated": "2026-09-12T10:52:32Z",
+  "updated": "2026-09-12T15:37:17Z",
   "topics": [
     "Insurance AM",
     "Private Credit",
@@ -60,7 +60,7 @@
     {
       "id": "e74527f53120",
       "title": "Surging bond yields presage pain\u2014and not just for bond investors",
-      "source": "The Economist",
+      "source": "economist.com",
       "date": "2026-09-11T16:02:32Z",
       "topic": "Rates & Macro",
       "summary": "",
@@ -75,6 +75,26 @@
       "topic": "Rates & Macro",
       "summary": "",
       "link": "https://news.google.com/rss/articles/CBMiqgFBVV95cUxOT2FWUnZ2OXJzNkR6VEpTYXhoMDZ2Mm1VYkZ3N1NCT051SHk2S1FxbnNIcGtBam1pNGN5M2lCazQwMFV5UHBNQUVERTVyTHd5VmFHaXBmRWdRVG9IY0gzWWNkT1Q5cXl3VUw2eVFkeVc2ZVA2R1JTcnA0NE5BU1BjUWI2dTVTMXQ0cURjTGw0N0t3cERhdnNfMHlvbW80MGZ5aVhRRWFZX3Fadw?oc=5",
+      "isNew": false
+    },
+    {
+      "id": "b0d4bc518d6a",
+      "title": "How to Make Sense of Mayhem in the Bond Market",
+      "source": "The New York Times",
+      "date": "2026-09-11T09:03:06Z",
+      "topic": "Rates & Macro",
+      "summary": "",
+      "link": "https://news.google.com/rss/articles/CBMigAFBVV95cUxNYS1NcmVLQ2tzMmJNUGRmR2dvT3ZDUkFQZVNrLUdfa1JVazlXdzItNEkteWhxU3hMNEZ4OXZZS2tnWFQ2U3c3LWdkQ2lfYU5BX01nNXpuNkVSQ0lRWGduWWhSX0ZlcGROSllsTHE3M2FCZVVvT3hVbnlRTTdqT3dKQw?oc=5",
+      "isNew": false
+    },
+    {
+      "id": "5070e645fddc",
+      "title": "ECB raises interest rates to 2.5% and warns Iran war is fuelling inflation",
+      "source": "The Guardian",
+      "date": "2026-09-10T15:58:00Z",
+      "topic": "Rates & Macro",
+      "summary": "",
+      "link": "https://news.google.com/rss/articles/CBMiwgFBVV95cUxQUXYyQndqNHNWeFNoRDFITkpSSkVhcThqTTEtdTk5dzZpdXdIeWVEdndJRFZXZTBfN2c0UGlvZTJKQnlkSTI4aEMwRTFNODlxR2NVQjAtZmtwdTNpV3VjOTFtLW9nbTdVaDMwZmxReGFzN2xNRnBpbVktaExoa0Rad2s1QXJESXlzekxZbVloZWlxUk5ZOVVDS0g3ZWpsZWZjUmd0S3NyY2x0bFkzZTFFX2JHMGwyaGQyRkRCeVQzbm5ZUQ?oc=5",
       "isNew": false
     },
     {
@@ -98,16 +118,6 @@
       "isNew": false
     },
     {
-      "id": "5070e645fddc",
-      "title": "ECB raises interest rates to 2.5% and warns Iran war is fuelling inflation",
-      "source": "theguardian.com",
-      "date": "2026-09-10T13:10:00Z",
-      "topic": "Rates & Macro",
-      "summary": "",
-      "link": "https://news.google.com/rss/articles/CBMiwgFBVV95cUxQUXYyQndqNHNWeFNoRDFITkpSSkVhcThqTTEtdTk5dzZpdXdIeWVEdndJRFZXZTBfN2c0UGlvZTJKQnlkSTI4aEMwRTFNODlxR2NVQjAtZmtwdTNpV3VjOTFtLW9nbTdVaDMwZmxReGFzN2xNRnBpbVktaExoa0Rad2s1QXJESXlzekxZbVloZWlxUk5ZOVVDS0g3ZWpsZWZjUmd0S3NyY2x0bFkzZTFFX2JHMGwyaGQyRkRCeVQzbm5ZUQ?oc=5",
-      "isNew": false
-    },
-    {
       "id": "977df193e5bb",
       "title": "Bond Yields: Higher for Longer \u2014 and for Fundamental Reasons",
       "source": "TD Economics",
@@ -125,6 +135,16 @@
       "topic": "Rates & Macro",
       "summary": "",
       "link": "https://news.google.com/rss/articles/CBMijgFBVV95cUxPMGlxa0FOS0lsVkNiRERaRE1FRjF2M092VmxtRG9GMGo5VG1paktWRFJ5Q1hRVkNfX0kwXzNnemV1NEJ4UHZmcFNSelRmdjRnbkQ5YmJtLW5LTTE2b1NFQmczbE1RdXV3VkRKUDJlRjFzeFhVTXplVjhfMC10SWVCWV9oZnRhQUtadm9naE1R?oc=5",
+      "isNew": false
+    },
+    {
+      "id": "e73f2fca15c6",
+      "title": "Japan must raise rates, central banker says",
+      "source": "Financial Times",
+      "date": "2026-09-10T05:34:56Z",
+      "topic": "Rates & Macro",
+      "summary": "",
+      "link": "https://news.google.com/rss/articles/CBMihAFBVV95cUxQcWlMYTl2YXBoM1d5Z2JzNVBvWGF1U205NktqRVJFSjBPbUk3UGVEN3ZmS2w2c2FpLXBfeEZOaDV3dm5yamtsMDU4cmRweHJhR04yQ0tQTlJYeDBnTnpVTW1FZms0ekJKX1dWZm1zOHd4azlaV3VhV0dxaEdVcWZXMDZMb0E?oc=5",
       "isNew": false
     },
     {
@@ -285,26 +305,6 @@
       "topic": "Insurance AM",
       "summary": "",
       "link": "https://news.google.com/rss/articles/CBMifkFVX3lxTFBjTlMwMldvSVBSaHRXaTFzSjNNVG80TVRMN2hJSzhxanlNVmJPSEJ0Qm80MWU2MDVsMkFROGo0N0lBaFczeEdxRThsbnkyN3dBUzgxaXA0UWVhMUJuczF6LU1FQjdHV3ZvSnRReG1QRGN6WFc5T0NoSmtsWVo1dw?oc=5",
-      "isNew": false
-    },
-    {
-      "id": "676d873ed598",
-      "title": "Fed governor Waller muddies outlook on possible rate hike later this month",
-      "source": "PBS",
-      "date": "2026-09-04T00:08:19Z",
-      "topic": "Rates & Macro",
-      "summary": "",
-      "link": "https://news.google.com/rss/articles/CBMisAFBVV95cUxNYkprM1h1WDVtVjB0dDlscGZNeUxuUkw3TWhYZFhDYkZyYl93UmJSM3NYcXdRN2tfQzRuS2V4WTBBb2VtVmE2VTlGcnU2Nk9KeUVfYjBIbkswX2pMUHNfSk5xT2FDVXBaaHllX2lUZEgyVjdzR1F3REJIN284SnF6WUtha0Vtb0NSVmNCSm1FTUFPYXJzYW9fcERTNHFYYXY4TGg4a1FhM0VmdFJoWnhlTdIBtgFBVV95cUxPY1VTZzBtaXdkUll5UEFzY0daeWtWUGM0U05nTk96SHNveVdEd3RtdG9fMjNuSjB4bHdSSmtTdmlJYUlVZmotQWs1Qk9sMFdwcDNhelJ5NElBM2tRaDFxU2d5LW9sVzQzMGhyd0t4a3ZrNS1kVElnaGNfR0xLYl9yU3FwOU1EenpWeUhZTHh6bDRYMVR2RjZIMnUxODBBNWJEcE5aQ0NsSklQU0xZdE9aZ1F6MXpWZw?oc=5",
-      "isNew": false
-    },
-    {
-      "id": "5b912a3b9d1b",
-      "title": "The $9.6 Trillion Insurance Portfolio Is Going Private",
-      "source": "Forbes",
-      "date": "2026-09-03T22:22:26Z",
-      "topic": "Private Credit",
-      "summary": "",
-      "link": "https://news.google.com/rss/articles/CBMiugFBVV95cUxQQTVhejVIZ0tjZ1VvTFVqWDVicGt3aWJwcURSZkNwdW5fYjM1LUtFSUExOGxTc0lIRDZlYnNablE3MXk4bTR3WW5QTkU4QXBhSkpxTWlqSDJId21qRUp2T0IwUmRQbENkZ1hHclE4eFNoVWJNMjVVdEdOcnZGUzBDMTZuNGxGd3J4UnNkNHlzVmVjQkZ5N1ZlMGVYUUMzR2hwa2JqckhaNG5UX2NyZ2U1aG5sRmY1aU9GM0E?oc=5",
       "isNew": false
     }
   ]
