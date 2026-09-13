@@ -1,5 +1,5 @@
 {
-  "updated": "2026-09-13T11:59:01Z",
+  "updated": "2026-09-13T16:22:40Z",
   "topics": [
     "Insurance AM",
     "Private Credit",
@@ -80,7 +80,7 @@
     {
       "id": "9f9d03934fc6",
       "title": "Week Ahead for FX, Bonds: All Eyes on Fed Rate Decision",
-      "source": "WSJ",
+      "source": "wsj.com",
       "date": "2026-09-11T15:49:00Z",
       "topic": "Rates & Macro",
       "summary": "",
@@ -120,7 +120,7 @@
     {
       "id": "5dc618eed32f",
       "title": "Bond yields hit multi-year highs as traders brace for new ECB rate-hike cycle",
-      "source": "reuters.com",
+      "source": "Reuters",
       "date": "2026-09-10T15:54:41Z",
       "topic": "Rates & Macro",
       "summary": "",
@@ -140,7 +140,7 @@
     {
       "id": "5070e645fddc",
       "title": "ECB raises interest rates to 2.5% and warns Iran war is fuelling inflation",
-      "source": "The Guardian",
+      "source": "theguardian.com",
       "date": "2026-09-10T13:10:00Z",
       "topic": "Rates & Macro",
       "summary": "",
@@ -250,7 +250,7 @@
     {
       "id": "69c35b956d36",
       "title": "Deadline extended for AsianInvestor Insurance Awards 2027",
-      "source": "asianinvestor.net",
+      "source": "AsianInvestor",
       "date": "2026-09-08T07:06:08Z",
       "topic": "Structured Credit",
       "summary": "",
