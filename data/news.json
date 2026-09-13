@@ -1,5 +1,5 @@
 {
-  "updated": "2026-09-12T23:07:49Z",
+  "updated": "2026-09-13T04:54:02Z",
   "topics": [
     "Insurance AM",
     "Private Credit",
@@ -7,6 +7,16 @@
     "Structured Credit"
   ],
   "items": [
+    {
+      "id": "686157019185",
+      "title": "Want $4,500 in Passive Income? Invest $100,000 Into This Insurance Giant's 18-Year Dividend Growth Streak",
+      "source": "24/7 Wall St.",
+      "date": "2026-09-12T18:04:00Z",
+      "topic": "Insurance AM",
+      "summary": "",
+      "link": "https://news.google.com/rss/articles/CBMi2wFBVV95cUxQTW1mNm1waEhDUXllenppRXNqVnh6TUNYZFFNeEt5S3NmUk5PazY1SEx2bnlKdkpPQ2xwN21HMklpQ3YyTkFqMzFlREJKOTJXM1NWRUNCMy1jYlNLSTlvVnNCeWhRN3ZYZnM4VldkMW1uS1NoSGRNdjNXSFgteUhlTFRMalZvMDUwZW03dDFvUDBVX1V6NDhxMGtEMFBIc2xZLWJKeE0zZ3Y2aDRUb3hHYWRTS3Y1Y3RvRTA3ZktCS1dURzA2TnI1aHVzSkNhOVdDeVhZczVpUmd1cE0?oc=5",
+      "isNew": false
+    },
     {
       "id": "efe6567068f0",
       "title": "Barings on why asset managers and investors are queuing up for solutions",
@@ -60,7 +70,7 @@
     {
       "id": "e74527f53120",
       "title": "Surging bond yields presage pain\u2014and not just for bond investors",
-      "source": "The Economist",
+      "source": "economist.com",
       "date": "2026-09-11T16:02:32Z",
       "topic": "Rates & Macro",
       "summary": "",
@@ -78,6 +88,16 @@
       "isNew": false
     },
     {
+      "id": "14b46801073d",
+      "title": "Global bond sell-off deepens as $100 oil stokes stagflation fears",
+      "source": "cnbc.com",
+      "date": "2026-09-11T10:35:08Z",
+      "topic": "Rates & Macro",
+      "summary": "",
+      "link": "https://news.google.com/rss/articles/CBMifEFVX3lxTFA0WlI5R19SMnNWLWlkTzU2QXVFRUlnalI0MjRLWV9HS1YyWFB4Zy1GelhTeG95bHBpc09QclpVb21QTFR5OC1FQlJ0SjJfYUNEVmtCbHczVUNhMnNGN1hJVmlWamJSdWhWZUZLb0FrdDRnUTdmeDlYZ2FXc3bSAYIBQVVfeXFMT01sUzZlekZLMzdZZkVEcmFONHNLdEdpQnhhM3l2R21EcXhxWWdhTE50cVRhckNQV2lQb0UyWDNjblFGRWJiakFyN3dzeGhOandBYm9MU2RwaDJzM3FVb0NURFFqRzFlNl9iRDFjWWJXeHJuQzNIMm1jN0JRWTNBMXFqQQ?oc=5",
+      "isNew": false
+    },
+    {
       "id": "b0d4bc518d6a",
       "title": "How to Make Sense of Mayhem in the Bond Market",
       "source": "The New York Times",
@@ -85,6 +105,16 @@
       "topic": "Rates & Macro",
       "summary": "",
       "link": "https://news.google.com/rss/articles/CBMigAFBVV95cUxNYS1NcmVLQ2tzMmJNUGRmR2dvT3ZDUkFQZVNrLUdfa1JVazlXdzItNEkteWhxU3hMNEZ4OXZZS2tnWFQ2U3c3LWdkQ2lfYU5BX01nNXpuNkVSQ0lRWGduWWhSX0ZlcGROSllsTHE3M2FCZVVvT3hVbnlRTTdqT3dKQw?oc=5",
+      "isNew": false
+    },
+    {
+      "id": "633aea9d9630",
+      "title": "Expansion of private credit into retail investment market impacting institutional investors: expert",
+      "source": "Benefits Canada.com",
+      "date": "2026-09-10T16:04:53Z",
+      "topic": "Private Credit",
+      "summary": "",
+      "link": "https://news.google.com/rss/articles/CBMi9AFBVV95cUxQT0FkN29ScVlGbXFVdWl4d19nOXpZblB4dkpPRjRRTFF1VTFWNXZKSUt3dzV3ZG8wWFZIaVF2aF9zLWJRXzFmQmp2Tlp0ZGtCamJFR1dza1FaMVJKc0hDZE9ldlFtMzQzQ2NSdXM0eDV2aTZVOXNNdHpWR2dyVFdMc1lvSWhWcE5udGJheHJ4cDUtSTFaUnh1UlNsYU9CbWs5OFJyc0FvcWcxZFpmMWN0b1FSYlBtVTRvd2Y2YmFQT3dwZ2tTUVNudGRMWUJmekhYZ1IzMEZoTi1wWVJGTmhQZnM3ZDF1SUR5b2xzZUZMRkdITnhG?oc=5",
       "isNew": false
     },
     {
@@ -200,7 +230,7 @@
     {
       "id": "fa48bf0ae833",
       "title": "Solvency II recalibration offers selective boost to RNFs",
-      "source": "structuredcreditinvestor.com",
+      "source": "Structured Credit Investor",
       "date": "2026-09-08T10:23:17Z",
       "topic": "Structured Credit",
       "summary": "",
@@ -220,7 +250,7 @@
     {
       "id": "69c35b956d36",
       "title": "Deadline extended for AsianInvestor Insurance Awards 2027",
-      "source": "AsianInvestor",
+      "source": "asianinvestor.net",
       "date": "2026-09-08T07:06:08Z",
       "topic": "Structured Credit",
       "summary": "",
@@ -250,7 +280,7 @@
     {
       "id": "3d91d98ce9da",
       "title": "China says it will pump $54 billion into banks and insurers \u2014 but their stocks still fell",
-      "source": "CNBC",
+      "source": "cnbc.com",
       "date": "2026-09-07T06:27:53Z",
       "topic": "Private Credit",
       "summary": "",
@@ -275,36 +305,6 @@
       "topic": "Insurance AM",
       "summary": "",
       "link": "https://news.google.com/rss/articles/CBMioAFBVV95cUxPX2pPQlNCMWZ1N1VBWGdyWHp6N3R1UFV4MTNDVzJjRTlxVEF6SXpZcS1GOHY4dlVVWjBqN3Etc2JuOTRHbmNJci1jVnVleW5xZEQwSnhMelFzNUVkZW1QV0R1aU96b3lGSjhCT2czYnNhUlNOc1c3RFZVbUdHNGljYi16R3VHdGQ4dkRlSWMxVS0zazg3N3gxVkUzQmtmWUdu?oc=5",
-      "isNew": false
-    },
-    {
-      "id": "c4a1a0278a2c",
-      "title": "The Bond Markets Are Pushing Up Rates. Will Central Banks Follow?",
-      "source": "The New York Times",
-      "date": "2026-09-04T07:00:00Z",
-      "topic": "Rates & Macro",
-      "summary": "",
-      "link": "https://news.google.com/rss/articles/CBMihwFBVV95cUxQVVl1MHdpSGJrVmVLd1pJbkIyMmU4Uk5FcDlqZnF2d1lmMGpVbDBuLU5ROGZCeDM2d3hoXzg2cDZuVEk5N25qQnloeVVxYUpkNEhwYkViYTZCUS1FZW00dDhlNXRJQXlrcXFvdENWZElrZ290bzJQdmp4T1lkZktNMTZVLThNUlk?oc=5",
-      "isNew": false
-    },
-    {
-      "id": "1f2199e2abd6",
-      "title": "Stock Market Under the Trump Administration: What is Driving Markets in 2026?",
-      "source": "U.S. Bank",
-      "date": "2026-09-04T07:00:00Z",
-      "topic": "Insurance AM",
-      "summary": "",
-      "link": "https://news.google.com/rss/articles/CBMingFBVV95cUxPcUowVHR1VXAzd0Zfamw1MkVSejFsRGo1bkdGdHhjNVBZVFdwU3VpcE5neGJOeWl6RmdQVkFsYlcxNEVTRGg3WHNYSGR1d1BpTjV4T2NqdWdER3ZtQ0RVbU40WTcyRXRaTEM5bFZteVlYNE5EYkM1M1BaR0lYTGlUeFlTeDhVMzRaWFFqZEZhcGc3RFJoZy1qZy1mTGViQQ?oc=5",
-      "isNew": false
-    },
-    {
-      "id": "a17ddd50a64f",
-      "title": "Viewpoint: Global Reinsurance Pricing to Remain Under Pressure Through 2027",
-      "source": "Insurance Journal",
-      "date": "2026-09-04T05:04:42Z",
-      "topic": "Insurance AM",
-      "summary": "",
-      "link": "https://news.google.com/rss/articles/CBMifkFVX3lxTFBjTlMwMldvSVBSaHRXaTFzSjNNVG80TVRMN2hJSzhxanlNVmJPSEJ0Qm80MWU2MDVsMkFROGo0N0lBaFczeEdxRThsbnkyN3dBUzgxaXA0UWVhMUJuczF6LU1FQjdHV3ZvSnRReG1QRGN6WFc5T0NoSmtsWVo1dw?oc=5",
       "isNew": false
     }
   ]
