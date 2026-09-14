@@ -1,5 +1,5 @@
 {
-  "updated": "2026-09-13T23:15:31Z",
+  "updated": "2026-09-14T05:02:43Z",
   "topics": [
     "Insurance AM",
     "Private Credit",
@@ -148,6 +148,16 @@
       "isNew": false
     },
     {
+      "id": "e00737cd7dee",
+      "title": "ECB Hikes Rates and Raises Both Inflation and Growth Forecasts",
+      "source": "Morningstar",
+      "date": "2026-09-10T13:38:52Z",
+      "topic": "Rates & Macro",
+      "summary": "",
+      "link": "https://news.google.com/rss/articles/CBMioAFBVV95cUxPV1g4dmRzV3h0clo2VzhBVGFuYk9UZEpqV1VxYkYwN3VTdmdCWGFOTm41MjRvZ1FjbVRmRVNhMW5zNllJUDRiSDlpRzdMQk9VdG40cmI5S1FoYUtlSUdzcF9RT0w2RVZwck00UThrM29BWjJRcjIwNDNoX1pHdmMwX0V0RGtVOW9pN2hKcWhoNDZyWGRJamM4MUxPbm9uQTh4?oc=5",
+      "isNew": false
+    },
+    {
       "id": "5070e645fddc",
       "title": "ECB raises interest rates to 2.5% and warns Iran war is fuelling inflation",
       "source": "The Guardian",
@@ -160,7 +170,7 @@
     {
       "id": "977df193e5bb",
       "title": "Bond Yields: Higher for Longer \u2014 and for Fundamental Reasons",
-      "source": "TD Economics",
+      "source": "economics.td.com",
       "date": "2026-09-10T12:29:27Z",
       "topic": "Rates & Macro",
       "summary": "",
@@ -210,7 +220,7 @@
     {
       "id": "1aacf54270e7",
       "title": "Allianz Asset Management GmbH Makes New Investment in Slide Insurance Holdings, Inc. $SLDE",
-      "source": "marketbeat.com",
+      "source": "MarketBeat",
       "date": "2026-09-09T07:22:57Z",
       "topic": "Insurance AM",
       "summary": "",
@@ -295,16 +305,6 @@
       "topic": "Private Credit",
       "summary": "",
       "link": "https://news.google.com/rss/articles/CBMipAFBVV95cUxONGRkT2VHM2tCTWpYZzhsc05CbGRvRDFaMjlYWDFzcHVxa3NMcDdTYXJIb2dDS0hPWDgzX1UxNElKTm9qdlhGd0hueXgwaW4yWWNkUE9rRjdVbkxRMkc5VkE2ZXVyeHVCYV9sTHI2WHdiMWROcXZCZXVSaFlNUXgwVmRxa3FEWExWQ3NZMkF4QURDQVRudDhCMTlYRTlHdHNwLVlmYw?oc=5",
-      "isNew": false
-    },
-    {
-      "id": "2c1ecc7c6870",
-      "title": "\u2018There\u2019s no plan\u2019: as instability in global bond markets rises, what are the knock-on effects?",
-      "source": "The Guardian",
-      "date": "2026-09-04T16:49:00Z",
-      "topic": "Rates & Macro",
-      "summary": "",
-      "link": "https://news.google.com/rss/articles/CBMiqwFBVV95cUxPaC1Ra0lsRHFnWVctazdBUzlqSmFSbGZqWkNRQlN0M1hrT3N0MkY5Y3FscnhWcGxDdzVMdHJGZGFDS215Q2tPNWVmd0VXWlMxeUJnazNxQ0FoYXVKY1FlTlRrakZjcC1fdkpZQzFCLVZ5Vlk4Vl9tNUhUaElHNy1lcDRWQVRJdlplb0ZGZ3VHa0ZlMXFOTTdsQnMzLUNNck11OFl1N1Q3dDJSR2M?oc=5",
       "isNew": false
     }
   ]
