@@ -1,6 +1,16 @@
 {
-  "updated": "2026-09-14T05:02:43Z",
+  "updated": "2026-09-14T12:55:56Z",
   "naic": [
+    {
+      "id": "c4e9ab7557cb",
+      "title": "Warren Presses Insurance Watchdogs for Answers Amid Walter Probe",
+      "date": "2026-09-14",
+      "cat": "General",
+      "summary": "",
+      "source": "Claims Journal",
+      "link": "https://news.google.com/rss/articles/CBMic0FVX3lxTFBqNFptM09aUHhyU0NmM2lmbFlsUHhCRDJRVkhqUy0wVzQxTlZEOURsazd1MS1rMU5zOXc3cVVueFFWb25wUWtCSjFMc1Ffd1BzRnpLSko1b2hDenB0ZHhmWUJsT2ZCR0F1RU5XcG9JYVVGQXM?oc=5",
+      "isNew": true
+    },
     {
       "id": "ee93f87bb4f6",
       "title": "Bermuda proves regulatory recognition must be earned",
@@ -87,7 +97,7 @@
       "date": "2026-08-26",
       "cat": "Investment",
       "summary": "",
-      "source": "Substack",
+      "source": "roddubitsky.substack.com",
       "link": "https://news.google.com/rss/articles/CBMidkFVX3lxTE9nSDdPRmdDb2w1eTF3WlU2SWJNVVQ2NEFxS01rSlhTaVBxR3BqT0RRMkxOZW1yNFFRc3hVbTlSU0dxck9NTzJMYnlPTWlZT2tNOEl1V3ZVS2FNSVJud3ZDZlhCRUFwRTRrRG1hMEdwZnFIcU14eUE?oc=5",
       "isNew": true
     },
@@ -147,7 +157,7 @@
       "date": "2026-08-21",
       "cat": "General",
       "summary": "",
-      "source": "caymanfinance.ky",
+      "source": "Cayman Finance",
       "link": "https://news.google.com/rss/articles/CBMinAFBVV95cUxPeDdNT04xWERXZWJKU3R5dG9ZMDgyUlZwTE5WOENfT1JGUGpUS2JZS1dNajNBaWw4UFRvOXZPaWo1MENLYVNRaEdpLVd5MnVCUHdIZ1ozblE1MTg1eVhBNDFkSk9oNXp3d3lIaUVhNGZBOS14XzJGdFZSN2ttTDJyMnRYZ1pSTzRvY0tGV3hTU3FqWjU2dTFFRkhlNzM?oc=5",
       "isNew": true
     },
@@ -207,7 +217,7 @@
       "date": "2026-08-19",
       "cat": "General",
       "summary": "",
-      "source": "caymanfinance.ky",
+      "source": "Cayman Finance",
       "link": "https://news.google.com/rss/articles/CBMixAFBVV95cUxPVU9oN19GaWVwc3J6VWdyM29Cb0FndDdlenNiR0loWFVfNTliaHlrVUkta3VQZVNxa21DS01lU0hZRS10SktzUlM0eTBSdWpNZEJIdWRvU1A0bXgzeWZHMVpYQ2F5S3p6TWl1aUFCWE9mT05XR2VNVktMcUdDYmlCWmROc292RjNMb3hfVWM4X0xMaHZCOFF0VHd6Sl9YOGNsaFktbm01TUsyS0RtV1oxbXhfb1p0MG5fejR1cnEtS0pHd1NQ?oc=5",
       "isNew": true
     },
@@ -240,26 +250,26 @@
       "source": "Cayman Compass",
       "link": "https://news.google.com/rss/articles/CBMilAFBVV95cUxNcHp4UTBucmRTWkVaSW9uSjdtS1J3MV9EcW04XzVlSkpiazRCNFVXeVBLSEtuQ0dwbDhMQXBUSUFRdm5mZWhXNlRpdEV3elNWUjRlbHE4aG9WMG9zdTdvLXBXWS1IUnhYMS1JLXh1RjBBRS1rVjh2WVBPQ3JOZ3ZOYmVmZUY3aktSc0hENjJRQ3ZmSzZB?oc=5",
       "isNew": true
-    },
-    {
-      "id": "e96a9b0fbaed",
-      "title": "NAIC data shows US homeowners insurance market under growing pressure",
-      "date": "2026-08-18",
-      "cat": "General",
-      "summary": "",
-      "source": "PropertyCasualty360",
-      "link": "https://news.google.com/rss/articles/CBMiuAFBVV95cUxPS2dNVExsQlh0ZFFoMnhfVzlyU1RUWTZkUDFhWTJTT29sd3BkTWNfOXVrV0dHOUVaWmUyOHFNdzZvR1Y1dVB4OEdudTVCOWRmZDJTNXFXcnVobUNDZmk5MlUxYmxaMm13THc1a0IxQUtDVjh2TlZfYURlWE1VMDhJUTJyY2YxSkJ6YVdKTDdZT3lXM3RnVWY2QnVHYk13M1BYQmZHc1JrUWtHaGZqeDh5T0lrbDBnVGZQ?oc=5",
-      "isNew": true
     }
   ],
   "bma": [
+    {
+      "id": "a9d3c2a96684",
+      "title": "Jerome Wilson, Karim Creary: Navigating BMA\u2019s proposed AI guidance note",
+      "date": "2026-09-14",
+      "cat": "Governance",
+      "summary": "",
+      "source": "Royal Gazette | Bermuda",
+      "link": "https://news.google.com/rss/articles/CBMizAFBVV95cUxPZEkyWkpUQlZXRjFhcXpoN21ndi1uRUJJb3NmaGlQaHNxMUhEZkdYWU5vbmJ6bmxfbGxjVTBQSm5nWmZmampWNjZIQlVoU0pXUHY0bW1PR1V5VTVzWHYyWHpRNlhEZ3VzR2RwNWRQQ2MwRWRlR2RmU0lWRUVjQWZOYWpuMGNESWxkMnVoQ3ZFMl92NmRJTUNXOXowTGcyT0htcGZ1eG1PRzhDaFNsUnMtZGFCZUEyMDVia3hIeHdBTS14RGpmQXVJNG9xN0g?oc=5",
+      "isNew": true
+    },
     {
       "id": "c08cc230fa97",
       "title": "A look at the BMA\u2019s AI consultation paper",
       "date": "2026-08-28",
       "cat": "Governance",
       "summary": "",
-      "source": "royalgazette.com",
+      "source": "Royal Gazette | Bermuda",
       "link": "https://news.google.com/rss/articles/CBMiuwFBVV95cUxOY0tsTC1oWm1KTVJNcklfODRlRUw4cDdUOExSUjJuRnEyS0hMSFowOHpmS1B3YjJ1WlBNNnlRR2pTUGw3UGRJNE13bDRQNll0a3hZd05rZUV1clhNTDNTSXBwVWhqZFFYZWp5cUtkbTFPSGpRQVh0UTdVNVRYZ0dod1BYS05qVzJJVjZPd3AxSmQ4OElJeWliQ092VTFiTmlDcVBJUnJYV1BJQk1JSk5fSUVFTGRXeEZtYlc0?oc=5",
       "isNew": true
     },
@@ -269,7 +279,7 @@
       "date": "2026-08-27",
       "cat": "General",
       "summary": "",
-      "source": "royalgazette.com",
+      "source": "Royal Gazette | Bermuda",
       "link": "https://news.google.com/rss/articles/CBMiuwFBVV95cUxPVlNweFlyMy1yRV82Tk9BY1JKbW4xa2hpNU5JX2ZRTlkwczBRbnNHRTVkd3JwVk5LazU4ZHdjY1dqbG9iOXFZT2tuZ1c4V1V4TWhoY2dIcFU1OXJVYTh4dFlRNDB5c0F2UVVMNjBXbENKRGEyVEV2aVo1X0N4RGZySVBubTdsdFQwT09qSUN5VkVmZFFxbDVYbVBlRDhPXzNvbUI1WVQ4Z0dnV25DVjR2MkVXb0RiOFZFVWxr?oc=5",
       "isNew": true
     },
@@ -299,7 +309,7 @@
       "date": "2026-08-24",
       "cat": "General",
       "summary": "",
-      "source": "royalgazette.com",
+      "source": "Royal Gazette | Bermuda",
       "link": "https://news.google.com/rss/articles/CBMiwAFBVV95cUxPVEJSMnhBY2czSFNvUDJjRXNUTFB4ZHBrOXpISDRuTHNYVkFIRG5TaUlKNkdSRFFjeU9SNDl5dWJPN1V6a3lnX01PblM2U3NwWU1OZGJDdVRScDh6N2JCSXJ0WVJXSnRDdFNRQzhkeVZWVENId3Nlb2Faa0NYNS02TlNPZ3RGajdCa2ZkTmp6NmQxMUk5dGF5Z25UZzFwb254WUl3M1o0V2tJbk1kNlk2ODdtR0VuOTlleW5JVlZQNC0?oc=5",
       "isNew": true
     },
@@ -319,7 +329,7 @@
       "date": "2026-08-17",
       "cat": "Governance",
       "summary": "",
-      "source": "royalgazette.com",
+      "source": "Royal Gazette | Bermuda",
       "link": "https://news.google.com/rss/articles/CBMingFBVV95cUxQX1NuNGNLalFSVkVtdkk4Q1Z1YkJpRGxoY2FkU1dnamVRdmlEbG1Vbmp4UkxHTk0wTm9CX2xJdFJRd3Y5M1Y5OFhYNHZzQ0sxaDBSMVRuakhyeEVfaklGWk5MOVhBSDd3VkcwLW13SktSTHd0cl8zSTZrcDJHTEJqZFlKN1Y2eFo4di1LbGNZczluSHBmMU42VmFqU2Y1QQ?oc=5",
       "isNew": true
     },
@@ -329,7 +339,7 @@
       "date": "2026-08-13",
       "cat": "General",
       "summary": "",
-      "source": "royalgazette.com",
+      "source": "Royal Gazette | Bermuda",
       "link": "https://news.google.com/rss/articles/CBMiqAFBVV95cUxPN3czb3ZwTzU1RXByMVdGdV9OQVczMzY5S0hrSXdXY1piTUZfMUlOeXJ0QkxKa3loLTQ0OWhSV25hOVh1b2JKOExuNXppZzR4WE1xT2lfbmFiY0ExMV81OTIyUVNlRUtWTXlFaEp0aURKMTc5OFFBQ00tam81VVBTZmJ0ampzb0NjZWZGUUpPN09JbHljLWJUcWtkbU0tcnN3NWZDZ2puSEM?oc=5",
       "isNew": false
     },
@@ -339,7 +349,7 @@
       "date": "2026-08-10",
       "cat": "General",
       "summary": "",
-      "source": "royalgazette.com",
+      "source": "Royal Gazette | Bermuda",
       "link": "https://news.google.com/rss/articles/CBMipAFBVV95cUxNT1JWUHJKaGpHbDRkRXpSWFdXbE1mOFlwVEpNeHdsUFpEc3piS0JhV0lZcHFXR3JhVW9HS2hMQTdVcHVlT1hTWGZqRVljZGx0SUpJUDJaNWpJLUtJSFZTRzZRa3JfcEJOdDBLcFVINVk2ekJHMnNZeGpNSC1LTllmT2xDWFpDYzRjNGZhLUJNUVh4Y1RocjZ1RjhxTHFqdmpPZUlHUQ?oc=5",
       "isNew": false
     },
@@ -479,7 +489,7 @@
       "date": "2026-07-21",
       "cat": "General",
       "summary": "",
-      "source": "royalgazette.com",
+      "source": "Royal Gazette | Bermuda",
       "link": "https://news.google.com/rss/articles/CBMitgFBVV95cUxNdHZNOGJEMWdLZTRNYjl3V1RYTmotWmdRVHV5aHpiOWxHNXdMZkEyOGRHb1RNUVB4T1pES2ZoSmczUGtHM2dwQ3hqVnV4LUw2T0pLR3NZOGtVSVNqdDdIWlNCeUhXQTVtOFF2VTdVVjlyMlk4VGZMR0JCOHlnNWJGQzR4S1pTWGJTYmhZWktVYnRKbkZBdDd4SEFKWWF5bUVQd3p2S0xFTXFMTkJXRENOZWFDMlVjUQ?oc=5",
       "isNew": false
     },
@@ -491,16 +501,6 @@
       "summary": "",
       "source": "Captive Insurance Times",
       "link": "https://news.google.com/rss/articles/CBMi6wFBVV95cUxNdHhqWnNrVldZaGRVMk5rdjZRTzFIMC1MR05KTmF3OXFkU1dWVUFlRldqXzQ1MzV4WGVFZnRPT0RxYjl0cmIwUzZ0TjNJOHFyNzZaeEtCNFBQNlVpV0MwVjVPQ3h3TzV5cnlKdDdzR0picWhESEtsbHZCWndZZ1BTT2JteVB3SjZhVXZKNm9fOWVPWE13bUJvQlJpcnNmS3Y3S0dIQjZzenRVRGJRZ24tNnFMZGhJU2ZYckJ1eWhhMlBKT0lBZjFfQXk0LVZzdG83NG9CbnhmdGJDd0hoaDRobklrT0k1UDdvSWdB?oc=5",
-      "isNew": false
-    },
-    {
-      "id": "cb4bcd073611",
-      "title": "BMA consults on stablecoin guidance for Bermuda captive insurers",
-      "date": "2026-07-21",
-      "cat": "General",
-      "summary": "",
-      "source": "Captive Insurance Times",
-      "link": "https://news.google.com/rss/articles/CBMi5gFBVV95cUxQMWp5NXdFel9yRkpmS2hURGlMS0ljdV9lRFJjbWZkTUdSZW4xQmNLa1VWSVV1a012clYteFZtWGRKTXNvNmNSUVdaUFYxT0tpZ0lxQlFhNWxkOWZmRDl3RXlhZmFnR0pSWXdUSkd4dmVQb3I2VmdfMWZqa1ZFZGY0dTRkTFpIUHBnSmpOanVFZ1I1cjlSYVM4bEJvWW5Ib1JVbEJ2VmNNQkdyRHQyeVZUa3cyNlA4bG10bTNFR05sLV9DdFl6blZyZlhLLXNkQTBEV29HQy0yRExLN0YxRmxEdlg2Snl5Zw?oc=5",
       "isNew": false
     }
   ],
@@ -521,7 +521,7 @@
       "date": "2026-09-08",
       "cat": "General",
       "summary": "",
-      "source": "businessincameroon.com",
+      "source": "Business in Cameroon",
       "link": "https://news.google.com/rss/articles/CBMitwFBVV95cUxNT2k4M2d6TVhGQTVlQ2lJb2ZSM0JVd2NXaHVYWGp5dWdoZEpwNHJ6OWZIRVJRUmdlRkJzNVdoOXItcGNrblFUTVk1WjVJbVRnRjBWUm5UOWZkM2Z3TTJiNk1TMkFJODVHRm5DVE1JVDRhcndjYnd3X1RfRWxkV09BSUFVRlp4djhHY2dQWGdCZm0zeFZrcXVGWWZRSjcxWFRja2VuQmczUzdUTU05UUp2eWF6a0NRVTg?oc=5",
       "isNew": true
     },
@@ -531,7 +531,7 @@
       "date": "2026-09-07",
       "cat": "General",
       "summary": "",
-      "source": "Captive Insurance Times",
+      "source": "captiveinsurancetimes.com",
       "link": "https://news.google.com/rss/articles/CBMi5gFBVV95cUxQVzJhcm5kQkxmTHgxMXl3NTZXZnpDYmZFV2NUOTQzOHhsaUoxY1hrcU9nNGdiU0RPWVRBSXpjdTVEbmlKWmxBdGhnSU81Ymx1Rjl4TVoyZWo1dmdDbE1yUTQ1YzN6eVhpQkJmdm1hZEs2ZHlsSGZRemU1alNaNHJ5U01YLS1YS0prLV9Mc2hSaHptZFNwUFk3dGN5TEVKNk43RS0tRDhCLVNUeGZ4T19RNy1vYTlfWi1OMFZiOUpyczgtemhTT0lNb2NndnA1d1JRV3c2REtfbmlPUzRsV0JWZ2JaRlU4Zw?oc=5",
       "isNew": true
     },
@@ -571,7 +571,7 @@
       "date": "2026-08-19",
       "cat": "General",
       "summary": "",
-      "source": "caymanfinance.ky",
+      "source": "Cayman Finance",
       "link": "https://news.google.com/rss/articles/CBMixAFBVV95cUxPVU9oN19GaWVwc3J6VWdyM29Cb0FndDdlenNiR0loWFVfNTliaHlrVUkta3VQZVNxa21DS01lU0hZRS10SktzUlM0eTBSdWpNZEJIdWRvU1A0bXgzeWZHMVpYQ2F5S3p6TWl1aUFCWE9mT05XR2VNVktMcUdDYmlCWmROc292RjNMb3hfVWM4X0xMaHZCOFF0VHd6Sl9YOGNsaFktbm01TUsyS0RtV1oxbXhfb1p0MG5fejR1cnEtS0pHd1NQ?oc=5",
       "isNew": true
     },
@@ -611,7 +611,7 @@
       "date": "2026-07-29",
       "cat": "Licensing",
       "summary": "",
-      "source": "caymanfinance.ky",
+      "source": "Cayman Finance",
       "link": "https://news.google.com/rss/articles/CBMimwFBVV95cUxPbjctUnRXSmlFbHZINHdNSHFEQ19OTzVXeXMtVnJuejBDbHBMZEY1ZjNTWW1FLUVwVm5BdXdWbDFBTWhXQzNobWt6eWZlRmpWVUY5TGNncjJQQTFKczl0RWNnSnRNaG5tdnJGOTRFanBaYl9vWnNrR3RoaDFTZzRBT2VwUkRSQ3NpTEJkakcwV0I1YmtSY25qYVFlMA?oc=5",
       "isNew": false
     },
@@ -641,7 +641,7 @@
       "date": "2026-07-28",
       "cat": "Capital/Solvency",
       "summary": "",
-      "source": "Captive Insurance Times",
+      "source": "captiveinsurancetimes.com",
       "link": "https://news.google.com/rss/articles/CBMi3wFBVV95cUxQT2YyckdNRjRZbmJudWtCNktUek80N3d2RXM4YkktQXprT2xnRmZFcW0xa3I0WERNS3c3Q2dadUtfU0drU211bi00VHRRMlh6MDFGTl9OMHZBa3h6RWYwcHVUSzNSY3FZblRFdkotMjFVUUNkc1RMV2hGVnhhWEZlWlBIVkVwd2xOeVI0S0pDamxuMTFtSmk2cC0wdThnODFPYk92S1Zya3ktZG5LdU4wd3BrMTZ5bHpraDZGMFNrdFFfQmxzSm1Fc1FGeTRqSExUU3hqMHNUa291S1pEUGU4?oc=5",
       "isNew": false
     },

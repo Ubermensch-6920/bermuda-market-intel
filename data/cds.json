@@ -24,7 +24,7 @@
       "name": "AA Corp",
       "spread": 59,
       "prior": 60,
-      "series_id": "",
+      "series_id": "BAMLC0A2CAA",
       "date": "2026-09-10",
       "source": "credit.json"
     },
@@ -56,7 +56,7 @@
       "name": "B Corp",
       "spread": 280,
       "prior": 280,
-      "series_id": "",
+      "series_id": "BAMLH0A2HYB",
       "date": "2026-09-10",
       "source": "credit.json"
     },
@@ -103,5 +103,5 @@
       "source": "cache"
     }
   },
-  "_fetched": "2026-09-14T04:59:05.395386Z"
+  "_fetched": "2026-09-14T12:51:42.737967Z"
 }
