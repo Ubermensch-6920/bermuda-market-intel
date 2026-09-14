@@ -1,5 +1,5 @@
 {
-  "updated": "2026-09-14T12:55:56Z",
+  "updated": "2026-09-14T19:56:19Z",
   "topics": [
     "Insurance AM",
     "Private Credit",
@@ -7,6 +7,16 @@
     "Structured Credit"
   ],
   "items": [
+    {
+      "id": "1ae8cca6aa16",
+      "title": "10-year Treasury yield hits 5%, critical threshold for US economy and markets",
+      "source": "CNN",
+      "date": "2026-09-14T14:21:05Z",
+      "topic": "Rates & Macro",
+      "summary": "",
+      "link": "https://news.google.com/rss/articles/CBMidkFVX3lxTE91dmcwS01EcUI0YWxEZ3JjZFJKSXlPUXVVNE12b3NMd0FtX0p5ckVmRHhEdTNYMUpNSVVfT0ZqVjNkZUhkTWVrSGloV2dJY3JhYWw5bEtrZy0xd3NXTVdJbXR0RFllMEJCbWRyOHFkOXdpR0Fzb0E?oc=5",
+      "isNew": false
+    },
     {
       "id": "d9362c891b6a",
       "title": "MetLife IM Hires Roger Goncalves for Global Growth",
@@ -210,7 +220,7 @@
     {
       "id": "e73f2fca15c6",
       "title": "Japan must raise rates, central banker says",
-      "source": "ft.com",
+      "source": "Financial Times",
       "date": "2026-09-10T05:34:56Z",
       "topic": "Rates & Macro",
       "summary": "",
@@ -290,21 +300,11 @@
     {
       "id": "69c35b956d36",
       "title": "Deadline extended for AsianInvestor Insurance Awards 2027",
-      "source": "asianinvestor.net",
+      "source": "AsianInvestor",
       "date": "2026-09-08T07:06:08Z",
       "topic": "Structured Credit",
       "summary": "",
       "link": "https://news.google.com/rss/articles/CBMipAFBVV95cUxPaWtaUmJ1X0Z5NGxUNHpidENkLW1xa1NGNTNpOTNVSnNtVG43ZkJzSzJrWjFlRklrVjBua3pmaU93R1pJRkotai1BU3FRR1pmRVhuWGo3NXhvbkhrVHJRV2VTNlBJMmdydFg2emRfeVUzSk1ncEluYm1nX0tYd1l6Y3NzaklER011Ty0tV0FNUUpleXJkanVlU0gteEVPUHBVZVU4WQ?oc=5",
-      "isNew": false
-    },
-    {
-      "id": "6337e3afb78c",
-      "title": "Commercial Real Estate: As Europe\u2019s Banks Step Back, Insurers Step In",
-      "source": "AllianceBernstein",
-      "date": "2026-09-08T07:00:00Z",
-      "topic": "Private Credit",
-      "summary": "",
-      "link": "https://news.google.com/rss/articles/CBMi4gFBVV95cUxNWjRheU9XUEFsUzNsZVpKbzZPWjh3b1VvZmVaSU5LVEUxZVgtQ0tRTkltTnA2Z1lMSDBVZE5ZYVIzeHFPZ25yTVl2T3ZBR3huZm43RmF6SHI3UEdKQXpYbDhWR0FfbHVyNFdkVVFiS0JxdTJKUW4xR3Fzb182NUtMYWc5ZzFVVG10Q1ZyOWpKemVoTHc4WjN0cERVelpRaWE0MncxeDNla1VUblBOaWtJS0JBcDNpdjJDUFR1SjQ5R0Y0Wmp5Wll0bUlabWZtdXlaaG1JLXVwQUwxaVh0ODVsbVFB?oc=5",
       "isNew": false
     }
   ]

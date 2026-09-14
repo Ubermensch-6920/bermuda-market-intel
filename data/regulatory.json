@@ -1,5 +1,5 @@
 {
-  "updated": "2026-09-14T12:55:56Z",
+  "updated": "2026-09-14T19:56:19Z",
   "naic": [
     {
       "id": "c4e9ab7557cb",
@@ -97,7 +97,7 @@
       "date": "2026-08-26",
       "cat": "Investment",
       "summary": "",
-      "source": "roddubitsky.substack.com",
+      "source": "Substack",
       "link": "https://news.google.com/rss/articles/CBMidkFVX3lxTE9nSDdPRmdDb2w1eTF3WlU2SWJNVVQ2NEFxS01rSlhTaVBxR3BqT0RRMkxOZW1yNFFRc3hVbTlSU0dxck9NTzJMYnlPTWlZT2tNOEl1V3ZVS2FNSVJud3ZDZlhCRUFwRTRrRG1hMEdwZnFIcU14eUE?oc=5",
       "isNew": true
     },
@@ -253,6 +253,16 @@
     }
   ],
   "bma": [
+    {
+      "id": "ef0f8962fc9d",
+      "title": "Navigating BMA\u2019s proposed AI guidance note",
+      "date": "2026-09-14",
+      "cat": "Governance",
+      "summary": "",
+      "source": "Royal Gazette | Bermuda",
+      "link": "https://news.google.com/rss/articles/CBMizAFBVV95cUxPZEkyWkpUQlZXRjFhcXpoN21ndi1uRUJJb3NmaGlQaHNxMUhEZkdYWU5vbmJ6bmxfbGxjVTBQSm5nWmZmampWNjZIQlVoU0pXUHY0bW1PR1V5VTVzWHYyWHpRNlhEZ3VzR2RwNWRQQ2MwRWRlR2RmU0lWRUVjQWZOYWpuMGNESWxkMnVoQ3ZFMl92NmRJTUNXOXowTGcyT0htcGZ1eG1PRzhDaFNsUnMtZGFCZUEyMDVia3hIeHdBTS14RGpmQXVJNG9xN0g?oc=5",
+      "isNew": true
+    },
     {
       "id": "a9d3c2a96684",
       "title": "Jerome Wilson, Karim Creary: Navigating BMA\u2019s proposed AI guidance note",
@@ -491,16 +501,6 @@
       "summary": "",
       "source": "Royal Gazette | Bermuda",
       "link": "https://news.google.com/rss/articles/CBMitgFBVV95cUxNdHZNOGJEMWdLZTRNYjl3V1RYTmotWmdRVHV5aHpiOWxHNXdMZkEyOGRHb1RNUVB4T1pES2ZoSmczUGtHM2dwQ3hqVnV4LUw2T0pLR3NZOGtVSVNqdDdIWlNCeUhXQTVtOFF2VTdVVjlyMlk4VGZMR0JCOHlnNWJGQzR4S1pTWGJTYmhZWktVYnRKbkZBdDd4SEFKWWF5bUVQd3p2S0xFTXFMTkJXRENOZWFDMlVjUQ?oc=5",
-      "isNew": false
-    },
-    {
-      "id": "0fd2b1f6ffab",
-      "title": "BMA consults on stablecoin guidance for Bermuda captive insurers",
-      "date": "2026-07-21",
-      "cat": "General",
-      "summary": "",
-      "source": "Captive Insurance Times",
-      "link": "https://news.google.com/rss/articles/CBMi6wFBVV95cUxNdHhqWnNrVldZaGRVMk5rdjZRTzFIMC1MR05KTmF3OXFkU1dWVUFlRldqXzQ1MzV4WGVFZnRPT0RxYjl0cmIwUzZ0TjNJOHFyNzZaeEtCNFBQNlVpV0MwVjVPQ3h3TzV5cnlKdDdzR0picWhESEtsbHZCWndZZ1BTT2JteVB3SjZhVXZKNm9fOWVPWE13bUJvQlJpcnNmS3Y3S0dIQjZzenRVRGJRZ24tNnFMZGhJU2ZYckJ1eWhhMlBKT0lBZjFfQXk0LVZzdG83NG9CbnhmdGJDd0hoaDRobklrT0k1UDdvSWdB?oc=5",
       "isNew": false
     }
   ],
