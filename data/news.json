@@ -1,5 +1,5 @@
 {
-  "updated": "2026-09-14T19:56:19Z",
+  "updated": "2026-09-14T23:58:00Z",
   "topics": [
     "Insurance AM",
     "Private Credit",
@@ -7,6 +7,26 @@
     "Structured Credit"
   ],
   "items": [
+    {
+      "id": "b3a774911fdd",
+      "title": "Westaim Announces Rebrand to Aventus Capital and Rebrand of CCaventus, Its Institutional Asset Manager, as Part of the Aventus Asset Management Platform",
+      "source": "Business Wire",
+      "date": "2026-09-14T21:15:00Z",
+      "topic": "Insurance AM",
+      "summary": "",
+      "link": "https://news.google.com/rss/articles/CBMisAJBVV95cUxNQXptRE5hSlI3WmtYVjJ6b3J1UkNBZTA0bnpDYVB6aUpWUnJjYkwyam1QSFFiSG9RRkV2cFF0elB1R2pqSFlISWx6QWp0aWFsYmF2WGw5Q19YMEtaREEwLS1Nc0tOZnhsM04wbGZhTmVrSjBtekFGRzhCMFZubTdlUjZBVTZUVU9EWlVRQ1N3aWNGZzdEaERydTlDSHNYOXFiTF9wdUJaUkgzWnR2aGlYU2VhUlY1R25vV3FpZWl0SGZEZ0tvNXNLR2tSRkJIYXQ0V3gzWnp5YUdIb3p1a2hibWtxMWRiM2szZVdrZ2lPY2tNclhhZVczYno4bkNtcU51TWVSdUMyeVBFc2F1VHl1eWo2SFdnWlRfQ3B5ZElxTGN1ZVphXzc3OWNXTGpoSHVK?oc=5",
+      "isNew": false
+    },
+    {
+      "id": "750c575e5dfb",
+      "title": "U.S. 10-Year Yield Cools After Topping 5%, German Bund Yield Hits 15-Year High",
+      "source": "WSJ",
+      "date": "2026-09-14T19:45:00Z",
+      "topic": "Rates & Macro",
+      "summary": "",
+      "link": "https://news.google.com/rss/articles/CBMiywFBVV95cUxPUUViTThLVXZVVW9Uck9RZHRIcm1zQm9tcXFjX1ZBckl6NGJQRTVvREEyYjFlUzBKdHRaUTF3eGlHb1JaSnN5ZXpSU2ZnZUNNNURYUXgxME9Xam96THNITzNTNjlNVUdNUmFSbUhoSXgzLXgxM0pWOFZ2aVNuN2lYb0ZXdGlpN3NIeUVJR3FaY0VmcDFERWFXU1g1dUE4R3NoZGU0SVRfS3dVdTA5VjlKd2FBUy1tYWJtaWxhc0FNclUzM2xFdUpSUTlzcw?oc=5",
+      "isNew": false
+    },
     {
       "id": "1ae8cca6aa16",
       "title": "10-year Treasury yield hits 5%, critical threshold for US economy and markets",
@@ -200,7 +220,7 @@
     {
       "id": "977df193e5bb",
       "title": "Bond Yields: Higher for Longer \u2014 and for Fundamental Reasons",
-      "source": "TD Economics",
+      "source": "economics.td.com",
       "date": "2026-09-10T12:29:27Z",
       "topic": "Rates & Macro",
       "summary": "",
@@ -285,26 +305,6 @@
       "topic": "Structured Credit",
       "summary": "",
       "link": "https://news.google.com/rss/articles/CBMi1AFBVV95cUxQa3N5RnN2Skc1b1JmZTJ3d1FUR3VGM2FYQjJBRzBQWmhEMDdiZlJKcTRIeGk5QjVMcWhSb0hFUTFQcHZRc3J1OW9BOXp1SGFyZzlZbjFfRUtLdWwtQ29BWXcyQVZIblNDYnFsUGl3R3ZQVlN6dllLTDQzQXMzc3V5MFp5UGdGNHBxdlRRaUY0YjA2WElFVDB2UEVDQnZZWUsyVHQ5NVpWcm9qUWE5aTRFajdSMUhrc19FU0hRXzZoT25WaHpyaXZtcHFlWU1DMkNwSnhWTg?oc=5",
-      "isNew": false
-    },
-    {
-      "id": "12d17202dac1",
-      "title": "What is driving the global rise in long-term interest rates?",
-      "source": "Bruegel",
-      "date": "2026-09-08T10:04:23Z",
-      "topic": "Rates & Macro",
-      "summary": "",
-      "link": "https://news.google.com/rss/articles/CBMiigFBVV95cUxPaW55UHBoRVdaV1EtcE53TFQ2U1l3dm14Y19SNzZTMmd6aHltY3RCd21Qb29FREtnVElrSm1sSmMxMThSdUlGZER1M0NpaFF6UEw4REpOOVhqUFRuczFKdXZuSThTUWI3d2FfMnpCVzl3MFRPSlozZnQyeEZ3OUhmNDl4dGx5TlNtTEE?oc=5",
-      "isNew": false
-    },
-    {
-      "id": "69c35b956d36",
-      "title": "Deadline extended for AsianInvestor Insurance Awards 2027",
-      "source": "AsianInvestor",
-      "date": "2026-09-08T07:06:08Z",
-      "topic": "Structured Credit",
-      "summary": "",
-      "link": "https://news.google.com/rss/articles/CBMipAFBVV95cUxPaWtaUmJ1X0Z5NGxUNHpidENkLW1xa1NGNTNpOTNVSnNtVG43ZkJzSzJrWjFlRklrVjBua3pmaU93R1pJRkotai1BU3FRR1pmRVhuWGo3NXhvbkhrVHJRV2VTNlBJMmdydFg2emRfeVUzSk1ncEluYm1nX0tYd1l6Y3NzaklER011Ty0tV0FNUUpleXJkanVlU0gteEVPUHBVZVU4WQ?oc=5",
       "isNew": false
     }
   ]
