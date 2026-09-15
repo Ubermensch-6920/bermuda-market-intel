@@ -5,7 +5,7 @@
     "gilt": "ok",
     "eur": "ok",
     "india": "ok",
-    "credit": "ok",
+    "credit": "partial",
     "cds": "ok",
     "sofr": "ok",
     "bma_rates": "ok",
@@ -13,6 +13,6 @@
     "inflation": "ok",
     "myga": "ok"
   },
-  "run": "2026-09-14T23:57:23.529797Z",
-  "_fetched": "2026-09-14T23:57:31.255636Z"
+  "run": "2026-09-15T04:59:57.135922Z",
+  "_fetched": "2026-09-15T05:01:41.017462Z"
 }

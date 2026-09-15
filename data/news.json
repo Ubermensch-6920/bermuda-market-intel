@@ -1,5 +1,5 @@
 {
-  "updated": "2026-09-14T23:58:00Z",
+  "updated": "2026-09-15T05:02:20Z",
   "topics": [
     "Insurance AM",
     "Private Credit",
@@ -7,6 +7,16 @@
     "Structured Credit"
   ],
   "items": [
+    {
+      "id": "58846fd1dbf2",
+      "title": "Spike on 10-year bond yields renews concerns over U.S. debt",
+      "source": "The Washington Post",
+      "date": "2026-09-15T03:01:00Z",
+      "topic": "Rates & Macro",
+      "summary": "",
+      "link": "https://news.google.com/rss/articles/CBMiqgFBVV95cUxPLU1rUElEWkVFZ1UyajZsc0FSVDc5M1d4VzhmSE02YWxXMkVRdzlXY0UwRTY1SGV5VU9YYUo3U1BSWGkzY0hwS0ZPZHJaWGZ4MFhSR1dBZi05MThpazlkeGZ2YzJUTE5TSEZwLVZyajBJVGtad0JpMHdYNFRiRFpFTmZHV21lNmdJZjBMNzdnRy1pVDlmeTZybXE4TlZjX044N0hzWkdPTldjQQ?oc=5",
+      "isNew": false
+    },
     {
       "id": "b3a774911fdd",
       "title": "Westaim Announces Rebrand to Aventus Capital and Rebrand of CCaventus, Its Institutional Asset Manager, as Part of the Aventus Asset Management Platform",
@@ -220,7 +230,7 @@
     {
       "id": "977df193e5bb",
       "title": "Bond Yields: Higher for Longer \u2014 and for Fundamental Reasons",
-      "source": "economics.td.com",
+      "source": "TD Economics",
       "date": "2026-09-10T12:29:27Z",
       "topic": "Rates & Macro",
       "summary": "",
@@ -295,16 +305,6 @@
       "topic": "Private Credit",
       "summary": "",
       "link": "https://news.google.com/rss/articles/CBMitAFBVV95cUxOQVg2Nmk4QmREeHdWLWFaV1NfeEJBOC1uclZDNjlPZ1pMemRiUGNnYWtzVmJ1OFprQ3p5d2IzUUwxME5wMHZYVTN1ekplREwxVDNFX1NPek10N0p5VzVpMWNQOTdkdm83MnVUd0pCM21RYVlBUHhjakdoT3hCTmVpWkZqMjhZSkJsOVZwdmcxSWFXSmp2c3VVeFhrX3dGc3EyblZCS3FYcUFHdGtzcjFXd3Y0VUM?oc=5",
-      "isNew": false
-    },
-    {
-      "id": "fa48bf0ae833",
-      "title": "Solvency II recalibration offers selective boost to RNFs",
-      "source": "Structured Credit Investor",
-      "date": "2026-09-08T10:23:17Z",
-      "topic": "Structured Credit",
-      "summary": "",
-      "link": "https://news.google.com/rss/articles/CBMi1AFBVV95cUxQa3N5RnN2Skc1b1JmZTJ3d1FUR3VGM2FYQjJBRzBQWmhEMDdiZlJKcTRIeGk5QjVMcWhSb0hFUTFQcHZRc3J1OW9BOXp1SGFyZzlZbjFfRUtLdWwtQ29BWXcyQVZIblNDYnFsUGl3R3ZQVlN6dllLTDQzQXMzc3V5MFp5UGdGNHBxdlRRaUY0YjA2WElFVDB2UEVDQnZZWUsyVHQ5NVpWcm9qUWE5aTRFajdSMUhrc19FU0hRXzZoT25WaHpyaXZtcHFlWU1DMkNwSnhWTg?oc=5",
       "isNew": false
     }
   ]
