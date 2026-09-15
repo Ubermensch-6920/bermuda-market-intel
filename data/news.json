@@ -1,5 +1,5 @@
 {
-  "updated": "2026-09-15T05:02:20Z",
+  "updated": "2026-09-15T11:49:40Z",
   "topics": [
     "Insurance AM",
     "Private Credit",
@@ -28,6 +28,16 @@
       "isNew": false
     },
     {
+      "id": "212bb50bb4fc",
+      "title": "Sen. Warren probes private equity's bet on life insurers",
+      "source": "American Banker",
+      "date": "2026-09-14T20:11:00Z",
+      "topic": "Private Credit",
+      "summary": "",
+      "link": "https://news.google.com/rss/articles/CBMilAFBVV95cUxNRU1zeTB6X1FYekNwNkZiYldaZGtfX2dEbzk0QmFORldXVjlVQWhwMER4T0NKNTZoTW9kcVdEcElWTXJVQllDNl92c2JqMU55eFZjNzNKdWpiRmM5REYwZThFcWZuSWNOWXFvbktsZklraDdnVkV2OXNIY1o3YURHRjdoU1ZmV1NmRUg1LVlIV1F4MmtR?oc=5",
+      "isNew": false
+    },
+    {
       "id": "750c575e5dfb",
       "title": "U.S. 10-Year Yield Cools After Topping 5%, German Bund Yield Hits 15-Year High",
       "source": "WSJ",
@@ -50,7 +60,7 @@
     {
       "id": "d9362c891b6a",
       "title": "MetLife IM Hires Roger Goncalves for Global Growth",
-      "source": "Funds Society",
+      "source": "fundssociety.com",
       "date": "2026-09-14T11:45:14Z",
       "topic": "Insurance AM",
       "summary": "",
@@ -60,7 +70,7 @@
     {
       "id": "ebf1a9cb9027",
       "title": "Verdant Rock Secures 30% Quota Share Reinsurance Treaty with A+ Rated Panel, Expanding Emerging Market Guarantee Capacity",
-      "source": "TradingView",
+      "source": "tradingview.com",
       "date": "2026-09-14T11:00:12Z",
       "topic": "Structured Credit",
       "summary": "",
@@ -188,6 +198,16 @@
       "isNew": false
     },
     {
+      "id": "5070e645fddc",
+      "title": "ECB raises interest rates to 2.5% and warns Iran war is fuelling inflation",
+      "source": "The Guardian",
+      "date": "2026-09-10T15:58:00Z",
+      "topic": "Rates & Macro",
+      "summary": "",
+      "link": "https://news.google.com/rss/articles/CBMiwgFBVV95cUxQUXYyQndqNHNWeFNoRDFITkpSSkVhcThqTTEtdTk5dzZpdXdIeWVEdndJRFZXZTBfN2c0UGlvZTJKQnlkSTI4aEMwRTFNODlxR2NVQjAtZmtwdTNpV3VjOTFtLW9nbTdVaDMwZmxReGFzN2xNRnBpbVktaExoa0Rad2s1QXJESXlzekxZbVloZWlxUk5ZOVVDS0g3ZWpsZWZjUmd0S3NyY2x0bFkzZTFFX2JHMGwyaGQyRkRCeVQzbm5ZUQ?oc=5",
+      "isNew": false
+    },
+    {
       "id": "5dc618eed32f",
       "title": "Bond yields hit multi-year highs as traders brace for new ECB rate-hike cycle",
       "source": "Reuters",
@@ -215,16 +235,6 @@
       "topic": "Rates & Macro",
       "summary": "",
       "link": "https://news.google.com/rss/articles/CBMioAFBVV95cUxPV1g4dmRzV3h0clo2VzhBVGFuYk9UZEpqV1VxYkYwN3VTdmdCWGFOTm41MjRvZ1FjbVRmRVNhMW5zNllJUDRiSDlpRzdMQk9VdG40cmI5S1FoYUtlSUdzcF9RT0w2RVZwck00UThrM29BWjJRcjIwNDNoX1pHdmMwX0V0RGtVOW9pN2hKcWhoNDZyWGRJamM4MUxPbm9uQTh4?oc=5",
-      "isNew": false
-    },
-    {
-      "id": "5070e645fddc",
-      "title": "ECB raises interest rates to 2.5% and warns Iran war is fuelling inflation",
-      "source": "The Guardian",
-      "date": "2026-09-10T13:10:00Z",
-      "topic": "Rates & Macro",
-      "summary": "",
-      "link": "https://news.google.com/rss/articles/CBMiwgFBVV95cUxQUXYyQndqNHNWeFNoRDFITkpSSkVhcThqTTEtdTk5dzZpdXdIeWVEdndJRFZXZTBfN2c0UGlvZTJKQnlkSTI4aEMwRTFNODlxR2NVQjAtZmtwdTNpV3VjOTFtLW9nbTdVaDMwZmxReGFzN2xNRnBpbVktaExoa0Rad2s1QXJESXlzekxZbVloZWlxUk5ZOVVDS0g3ZWpsZWZjUmd0S3NyY2x0bFkzZTFFX2JHMGwyaGQyRkRCeVQzbm5ZUQ?oc=5",
       "isNew": false
     },
     {
@@ -288,23 +298,13 @@
       "isNew": false
     },
     {
-      "id": "56e51e9c8cc2",
-      "title": "There\u2019s a simple way the Fed could help calm the bond market",
-      "source": "CNN",
-      "date": "2026-09-08T17:33:57Z",
+      "id": "88f34386e7fc",
+      "title": "Higher Treasury yields may present opportunities",
+      "source": "BNY",
+      "date": "2026-09-09T07:00:00Z",
       "topic": "Rates & Macro",
       "summary": "",
-      "link": "https://news.google.com/rss/articles/CBMibEFVX3lxTE1xS0xVRGFsRlhGb1BFXy1Vc1c5Zjd1NkxfajlLZ0JUQkZfM1VkVVhhUkh1TnZHZnlMeTI4R3Rkb0dqMG1CWVk4WFhYdkxyMUVhVUM3TUhtdWdqeDlMRTZpVjU5UTBTN3VGOVZzZA?oc=5",
-      "isNew": false
-    },
-    {
-      "id": "e9d4a513e74a",
-      "title": "Swiss LP adviser InPact enters portfolio finance amid broad private debt push",
-      "source": "pei-privatecredit.com",
-      "date": "2026-09-08T16:36:01Z",
-      "topic": "Private Credit",
-      "summary": "",
-      "link": "https://news.google.com/rss/articles/CBMitAFBVV95cUxOQVg2Nmk4QmREeHdWLWFaV1NfeEJBOC1uclZDNjlPZ1pMemRiUGNnYWtzVmJ1OFprQ3p5d2IzUUwxME5wMHZYVTN1ekplREwxVDNFX1NPek10N0p5VzVpMWNQOTdkdm83MnVUd0pCM21RYVlBUHhjakdoT3hCTmVpWkZqMjhZSkJsOVZwdmcxSWFXSmp2c3VVeFhrX3dGc3EyblZCS3FYcUFHdGtzcjFXd3Y0VUM?oc=5",
+      "link": "https://news.google.com/rss/articles/CBMixgFBVV95cUxPMFRlUy1BNi1yX0k0dXpxVVlQVXZheDVIanZPY0hzQjk1bEh3ODFkcnhWZXozckt5QlU2a1E5SlZta3hIX1VNRVlYc3ZuNk1uSVNIcElXNmNGTE94ME1aUzc4RHpuUVZDeDk3ZkNNbUcwMTA0ckdEazNXN0RxTU11dXlSR1lMcENkaFJfc0N5RlJrYVdRbHQ1U005SzcwUXpNNmpCTWRZUWFmZ25fMVhHZWM4a0xqeWR0cGxFbGdvUDNrbkpMTnc?oc=5",
       "isNew": false
     }
   ]
