@@ -1,5 +1,5 @@
 {
-  "updated": "2026-09-15T11:49:40Z",
+  "updated": "2026-09-15T17:06:50Z",
   "topics": [
     "Insurance AM",
     "Private Credit",
@@ -7,6 +7,26 @@
     "Structured Credit"
   ],
   "items": [
+    {
+      "id": "1bc87c13c4af",
+      "title": "KKR at barclays conference: private credit push gains scale",
+      "source": "Investing.com",
+      "date": "2026-09-15T13:32:57Z",
+      "topic": "Private Credit",
+      "summary": "",
+      "link": "https://news.google.com/rss/articles/CBMitAFBVV95cUxQMHozbHRmcXloWmxjdHJCRTRBb2VPX1RjVXZVQTZPUEV5Ti10aEY3NzJfbEpPVXBKQ2hsV1F5bmtwZHBoc1FzVW9QUnljUGE5NGVzMEZFOGEyWnRGS1pTRTRqT3p6NTN4TU1KcVRHb2RiZ1BrYWtRRF8tdEpnMU5wemk5VGpUV0pPYUZZaVAwUTR0SUM0WjRCNjVUbnd0UXZsTWxnVE9Fc3dqS3JGbFo2RjBKUDI?oc=5",
+      "isNew": false
+    },
+    {
+      "id": "6f42f3fd2d90",
+      "title": "The next phase of life insurance investing",
+      "source": "InsuranceNewsNet",
+      "date": "2026-09-15T12:00:00Z",
+      "topic": "Structured Credit",
+      "summary": "",
+      "link": "https://news.google.com/rss/articles/CBMiigFBVV95cUxQRS1xT1hoSGVmeldMdmdrbHY4c3lLTS0tRzBlU0l2OVhLdWk3Q3N2a00wdWV3enhyZV9tWl9NQmdhazBjRmxJT2pYbUxURmJDbVktQzJCVUpydnpHZklfRlVUQ1dDRHBUQUNmTnRYM3hvem9CQmgybEpIcmxuWGhhdHNYUjRRUFJnYVE?oc=5",
+      "isNew": false
+    },
     {
       "id": "58846fd1dbf2",
       "title": "Spike on 10-year bond yields renews concerns over U.S. debt",
@@ -60,7 +80,7 @@
     {
       "id": "d9362c891b6a",
       "title": "MetLife IM Hires Roger Goncalves for Global Growth",
-      "source": "fundssociety.com",
+      "source": "Funds Society",
       "date": "2026-09-14T11:45:14Z",
       "topic": "Insurance AM",
       "summary": "",
@@ -68,9 +88,19 @@
       "isNew": false
     },
     {
+      "id": "ab72631b3a91",
+      "title": "'The bond market has taken down more governments than howitzers': Scott Bessent cuts Kevin Warsh some slack ahead of anticipated rate meeting",
+      "source": "Fortune",
+      "date": "2026-09-14T11:19:00Z",
+      "topic": "Rates & Macro",
+      "summary": "",
+      "link": "https://news.google.com/rss/articles/CBMilwFBVV95cUxNT0V1VFB2MFFsTFJvaFg3TzNNQllUWThYOUVqbXR4RGhhTE9STzhxV25BTDN6ZFpoZ01jWkg2RkZnbHhqSjFnb3VBY2tPU3FuN3R5aEhMS25jR1hWN1ExUVN0QWY5YjM1dHdoZWNvcU1vR2dqZ1NMeVlLSlVIZVkzTGoxSTIwdUpQLVlhVGV1N0JnWHVYYTFN?oc=5",
+      "isNew": false
+    },
+    {
       "id": "ebf1a9cb9027",
       "title": "Verdant Rock Secures 30% Quota Share Reinsurance Treaty with A+ Rated Panel, Expanding Emerging Market Guarantee Capacity",
-      "source": "tradingview.com",
+      "source": "TradingView",
       "date": "2026-09-14T11:00:12Z",
       "topic": "Structured Credit",
       "summary": "",
@@ -275,36 +305,6 @@
       "topic": "Rates & Macro",
       "summary": "",
       "link": "https://news.google.com/rss/articles/CBMiogFBVV95cUxPNTVyRjM4Qnh3aWt3cjhtVUQxdFNTdTFESE1SUXRxUldkVzBsMjZhdEgxLTkyUmNmdUthSEs1SUFBM0dZV28zS1pYVTNodGhobFVXQmZmZ2JOUHF1TXdnOEw1VDNKN1B1TnZkVHFjVVJBSUd5Smtfd2IwTGdXdUNFQWp3QlVFNk1XUmhTdGdBU2gzX09RU1hxQ2RobE5WTE1UZWc?oc=5",
-      "isNew": false
-    },
-    {
-      "id": "9abf9984bd64",
-      "title": "AllianzGI amasses \u20ac1bn+ for largest impact direct lending fund on record",
-      "source": "New Private Markets",
-      "date": "2026-09-09T12:22:29Z",
-      "topic": "Private Credit",
-      "summary": "",
-      "link": "https://news.google.com/rss/articles/CBMiqgFBVV95cUxQQU1pdjNiQVE2ZVdoZUlIb1d6NF9OZWVkX3kxNC1VQlBSb1RjdklIazVHYXNIenBTMXVvUmNUWTlyWXIzRkxUUEw5dllVNnB1WXpiTUJ2Ujk0TzlkamZuOUpWb0FRSGVKbUFCVS1SeURydHhQaThjaUduS1JrVjhscDgyX0dLNWlfYmdXZjNhbmtCUzlWcHVETFNKSU1aXzV3NjBJRGh0OENUZw?oc=5",
-      "isNew": false
-    },
-    {
-      "id": "1aacf54270e7",
-      "title": "Allianz Asset Management GmbH Makes New Investment in Slide Insurance Holdings, Inc. $SLDE",
-      "source": "MarketBeat",
-      "date": "2026-09-09T07:22:57Z",
-      "topic": "Insurance AM",
-      "summary": "",
-      "link": "https://news.google.com/rss/articles/CBMi4gFBVV95cUxNb2hySUNGRmNXNnl4ZUQ2bFl3R3ZXNGpfV3NLQ1k0MElHTkpvZWREZDdFTnJpaElsVXViS3NjSy1PeEFqWUJueWczVUU2eERveFFyRnNlbTBTbFlFY3U4am0tRVRTTV9PamgxMDVXbUMyREdvV1QwdWUtdEM5Y2JvbFVYb0wzbmhCcDM5MS1pN1ZhbEI3ODdlM1RaN2FPQU5sbWFVaFFxM3RoRWFRLXNxcmxNLTJGMWJEa0pfTy1HV09sbFBXNUZkcEtuUVZsWFlaMVdLYklLakVOaXIyTDhOUWh3?oc=5",
-      "isNew": false
-    },
-    {
-      "id": "88f34386e7fc",
-      "title": "Higher Treasury yields may present opportunities",
-      "source": "BNY",
-      "date": "2026-09-09T07:00:00Z",
-      "topic": "Rates & Macro",
-      "summary": "",
-      "link": "https://news.google.com/rss/articles/CBMixgFBVV95cUxPMFRlUy1BNi1yX0k0dXpxVVlQVXZheDVIanZPY0hzQjk1bEh3ODFkcnhWZXozckt5QlU2a1E5SlZta3hIX1VNRVlYc3ZuNk1uSVNIcElXNmNGTE94ME1aUzc4RHpuUVZDeDk3ZkNNbUcwMTA0ckdEazNXN0RxTU11dXlSR1lMcENkaFJfc0N5RlJrYVdRbHQ1U005SzcwUXpNNmpCTWRZUWFmZ25fMVhHZWM4a0xqeWR0cGxFbGdvUDNrbkpMTnc?oc=5",
       "isNew": false
     }
   ]
