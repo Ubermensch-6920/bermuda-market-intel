@@ -32,16 +32,16 @@
       "name": "A Corp",
       "spread": 68,
       "prior": 68,
-      "series_id": "BAMLC0A3CA",
-      "date": "2026-09-11",
+      "series_id": "",
+      "date": "2026-09-14",
       "source": "credit.json"
     },
     "bbb": {
       "name": "BBB Corp",
-      "spread": 97,
-      "prior": 98,
-      "series_id": "BAMLC0A4CBBB",
-      "date": "2026-09-11",
+      "spread": 98,
+      "prior": 97,
+      "series_id": "",
+      "date": "2026-09-14",
       "source": "credit.json"
     },
     "bb": {
@@ -103,5 +103,5 @@
       "source": "cache"
     }
   },
-  "_fetched": "2026-09-15T17:03:14.759054Z"
+  "_fetched": "2026-09-15T21:23:03.288747Z"
 }
