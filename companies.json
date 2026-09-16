@@ -1,0 +1,21 @@
+{
+  "_comment": "Bermuda life & annuity reinsurers tracked by scripts/news_monitor.py. Edit this list freely - the monitor reloads it every run. 'name' is the heading shown on the dashboard; 'aliases' are extra phrases that also count as a match. Matching is case-insensitive and whole-phrase (word-boundary), so short names like 'Monument Re' will not match 'Monument Insurance Group' unless you add it as an alias.",
+  "companies": [
+    {"name": "Athene",          "aliases": ["Athene Holding", "Athene Annuity", "Apollo/Athene"]},
+    {"name": "Global Atlantic", "aliases": ["GA Financial", "Global Atlantic Financial Group"]},
+    {"name": "Wilton Re",       "aliases": ["Wilton Reassurance"]},
+    {"name": "Fortitude Re",    "aliases": ["Fortitude Reinsurance"]},
+    {"name": "Resolution Re",   "aliases": ["Resolution Life"]},
+    {"name": "Monument Re",     "aliases": ["Monument Insurance"]},
+    {"name": "Somerset Re",     "aliases": ["Somerset Reinsurance"]},
+    {"name": "Martello Re",     "aliases": []},
+    {"name": "Prismic Re",      "aliases": ["Prismic Life"]},
+    {"name": "Aspida",          "aliases": ["Aspida Life Re", "Aspida Holdings"]},
+    {"name": "Kuvare",          "aliases": ["Kuvare Life Re", "Kuvare Holdings"]},
+    {"name": "Talcott",         "aliases": ["Talcott Resolution", "Talcott Financial"]},
+    {"name": "Venerable",       "aliases": ["Venerable Holdings"]},
+    {"name": "RGA",             "aliases": ["Reinsurance Group of America"]},
+    {"name": "Sagicor",         "aliases": ["Sagicor Financial", "Sagicor Life"]},
+    {"name": "Catalina",        "aliases": ["Catalina Holdings"]}
+  ]
+}
