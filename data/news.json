@@ -1,5 +1,5 @@
 {
-  "updated": "2026-09-16T04:54:51Z",
+  "updated": "2026-09-16T11:40:13Z",
   "topics": [
     "Insurance AM",
     "Private Credit",
@@ -7,6 +7,56 @@
     "Structured Credit"
   ],
   "items": [
+    {
+      "id": "8786c2ccfdab",
+      "title": "Insuring the Unmeasurable: Why Data Centers\u2019 Love For Captive Insurance Is Dangerous. Who Bears the Ultimate Residual Risk?",
+      "source": "Substack",
+      "date": "2026-09-16T09:17:07Z",
+      "topic": "Structured Credit",
+      "summary": "",
+      "link": "https://news.google.com/rss/articles/CBMihAFBVV95cUxObVc5bDZCVUVYUDBEYVFYUXFLMXdMV2RCRkdyY2V1N0FnY0xnWkJLMFN5a1hpblRwOWYtZmVQQVctTE81Q1ZodUUtQTF3RjBfLXFmdUZMRHA1VXY0RVU5WUxLNVcxS1Z0VlVwWl9pc3BMVFdpUDN4anJPT19RakdxT25DSUk?oc=5",
+      "isNew": false
+    },
+    {
+      "id": "2715a0e40961",
+      "title": "Fed Meeting Will Test Central Bank\u2019s Credibility With Bond Investors",
+      "source": "The New York Times",
+      "date": "2026-09-16T09:04:18Z",
+      "topic": "Rates & Macro",
+      "summary": "",
+      "link": "https://news.google.com/rss/articles/CBMigAFBVV95cUxNdDhaR0FSM3hRc1hMbnBLT0NKRU9veTlkYWdXV2ktdkVHT2t5MGkxaHBzUjdDanVBeFdmb1VBZVNyUE5XZXo4YjJ0ZVlRVDY5TmJyclhnSFdZd09Ia2dIUFYtbDFOdktUZWM3Rm1rUlRjQUJvTjNCQVBBdlhzSG5Scg?oc=5",
+      "isNew": false
+    },
+    {
+      "id": "db3f715f8320",
+      "title": "Why Global Bond Yields Are Surging",
+      "source": "Goldman Sachs",
+      "date": "2026-09-16T07:01:05Z",
+      "topic": "Rates & Macro",
+      "summary": "",
+      "link": "https://news.google.com/rss/articles/CBMinAFBVV95cUxOZEduWEthM0N0TmVYVzBmcmxzdWg3VXpuN2tpdGt4ZWNYVVB3WUp2OEtlMmtQMFduYW9NSDkweEV0dFVkTmFNN2NDTERRbnE5TWFGckk0dlNmZmpDVDdzZTQtVVB6VEUtTGNXZDl1aG5jT1NhOGpKaUJMajdXUkl2MWpVaFdzTTVETDRCQVlJWjhYWTRVemt3aER6ODc?oc=5",
+      "isNew": false
+    },
+    {
+      "id": "c48a6b561a3c",
+      "title": "The Fed meeting is a pivotal moment for the bond market",
+      "source": "KCRA",
+      "date": "2026-09-15T21:10:00Z",
+      "topic": "Rates & Macro",
+      "summary": "",
+      "link": "https://news.google.com/rss/articles/CBMidkFVX3lxTFB1QVRXWWxMdEItUmhvRVZRM0FwTTJZNVB5bmRleUpYQnNHNTFMMXdyQTVJTW01UGFVcE5aZzI5YjJVNDkyR2F2M1BtY25STzUxeGxGLXN4anlERW1rY1BGNEluRHR6cWh0c0pGSHdibUQ0SlV0NWc?oc=5",
+      "isNew": false
+    },
+    {
+      "id": "0248ee298385",
+      "title": "What to expect from stocks and bonds if interest rates remain higher for longer, according to investing pros",
+      "source": "CNBC",
+      "date": "2026-09-15T14:00:02Z",
+      "topic": "Rates & Macro",
+      "summary": "",
+      "link": "https://news.google.com/rss/articles/CBMiogFBVV95cUxQNWJOamtoYl90U1pINUszbU10WVhUbjBWaXFMZGp6OUpZQWpVSkFGSmpXc25vbEpHd3NpTmlqb1ZxSVcwb1ptWWgybmFzV3VFWnlIVVdqYjk4dFpDZHRKaFVkMGdnSXg2aHE0d09qZnNDVUZ1c293dWpjVjhWZlU3ZmEtVkJEYmo1VkJvWjhyQXc5RDF5WngyYzZNbGN6NG00WmfSAacBQVVfeXFMUEFmQXJ2aW5hQWJCVGZOZlFGanA4bExsWUZMb2dWcERYeFFqNjhxUS1uS2xNX3RLWWdCeVhaSGs4SHlldzN4ZG52TDJjUmtya3ZpS3ctYlRGRl9VbzVkZndpYkNtV2RQZDhKYjEwVUlYc1RmTmlkUy1kYWlSY2dwaGlPcWUxZGowOUZ6QkVVbGwtN3Q0QU53OTUxdHFIdm1xejFaQ25mX2M?oc=5",
+      "isNew": false
+    },
     {
       "id": "1bc87c13c4af",
       "title": "KKR at barclays conference: private credit push gains scale",
@@ -40,7 +90,7 @@
     {
       "id": "17536f3d8436",
       "title": "BlueOrchard raises $250m for climate-focused private debt fund",
-      "source": "alternativecreditinvestor.com",
+      "source": "Alternative Credit Investor",
       "date": "2026-09-15T10:59:54Z",
       "topic": "Private Credit",
       "summary": "",
@@ -80,7 +130,7 @@
     {
       "id": "750c575e5dfb",
       "title": "U.S. 10-Year Yield Cools After Topping 5%, German Bund Yield Hits 15-Year High",
-      "source": "WSJ",
+      "source": "wsj.com",
       "date": "2026-09-14T19:45:00Z",
       "topic": "Rates & Macro",
       "summary": "",
@@ -110,7 +160,7 @@
     {
       "id": "ab72631b3a91",
       "title": "'The bond market has taken down more governments than howitzers': Scott Bessent cuts Kevin Warsh some slack ahead of anticipated rate meeting",
-      "source": "Fortune",
+      "source": "fortune.com",
       "date": "2026-09-14T11:19:00Z",
       "topic": "Rates & Macro",
       "summary": "",
@@ -120,11 +170,11 @@
     {
       "id": "ebf1a9cb9027",
       "title": "Verdant Rock Secures 30% Quota Share Reinsurance Treaty with A+ Rated Panel, Expanding Emerging Market Guarantee Capacity",
-      "source": "TradingView",
-      "date": "2026-09-14T11:00:12Z",
+      "source": "Sin Chew Daily",
+      "date": "2026-09-14T10:52:00Z",
       "topic": "Structured Credit",
       "summary": "",
-      "link": "https://news.google.com/rss/articles/CBMiggJBVV95cUxNU0JkWWlJVUtSMmJyMHdkZUNtVGlPVTd3UHkweU81SjBkeFFwd3ZJcEVMWGtZN2lVZHpEelRxTGFlM29FR3NfUDhyY3lIZ3RxNWhQQnJadU1tTXB5d3J3WTdNOE5EaWxhQVJYSW1VQzhiU3pMeXFGaXktRDdKUW1MLWZZUWRIcDNqVWl3NjRVQlhKZ3NfdjlOU2g5NFhFc2psZ3Q3cktJT1YzbzY1T1NRc2V6LVF4VlBJcHJkbzU0OUtfNWpNWGE1bTBGb2NyX2tJX3VTNkNhd0tYODV3MFY2OG9COUFJOXVobFVabkY0TkxNU0JwM2NYRVRGTEdBLVUtN2c?oc=5",
+      "link": "https://news.google.com/rss/articles/CBMiakFVX3lxTFBCX0hnVXZHWjEycUtTd1prMU9LTDhwTWR5QUx5azJfcmZ4cF9jSzNjY1BGanRQSVhySVNBcXJGYzRJQXZpR2tFNTVMVElfLWJPWDZzNmdDUXpYMHNMVGcwaXRwNlJSM2tHZ1E?oc=5",
       "isNew": false
     },
     {
@@ -210,7 +260,7 @@
     {
       "id": "9f9d03934fc6",
       "title": "Week Ahead for FX, Bonds: All Eyes on Fed Rate Decision",
-      "source": "WSJ",
+      "source": "wsj.com",
       "date": "2026-09-11T15:49:00Z",
       "topic": "Rates & Macro",
       "summary": "",
@@ -255,56 +305,6 @@
       "topic": "Rates & Macro",
       "summary": "",
       "link": "https://news.google.com/rss/articles/CBMiwgFBVV95cUxQUXYyQndqNHNWeFNoRDFITkpSSkVhcThqTTEtdTk5dzZpdXdIeWVEdndJRFZXZTBfN2c0UGlvZTJKQnlkSTI4aEMwRTFNODlxR2NVQjAtZmtwdTNpV3VjOTFtLW9nbTdVaDMwZmxReGFzN2xNRnBpbVktaExoa0Rad2s1QXJESXlzekxZbVloZWlxUk5ZOVVDS0g3ZWpsZWZjUmd0S3NyY2x0bFkzZTFFX2JHMGwyaGQyRkRCeVQzbm5ZUQ?oc=5",
-      "isNew": false
-    },
-    {
-      "id": "5dc618eed32f",
-      "title": "Bond yields hit multi-year highs as traders brace for new ECB rate-hike cycle",
-      "source": "Reuters",
-      "date": "2026-09-10T15:54:41Z",
-      "topic": "Rates & Macro",
-      "summary": "",
-      "link": "https://news.google.com/rss/articles/CBMitgFBVV95cUxOdFpuTDFaWjFEOW82UlRWWm1NY0RjNkdBZS1EOWFvb21UbkxZUWxZN3ZwZEJ2R25wZC1ZVEF1WmkzNFVXN3VUNVdpSXk3RGUyTmNtRUh1VDFEMnFMNDN2ekpnSzdWTzFNUkh2ZUdMcngta1lzVm1jb1VNZnR6cjhVUEkzQi1kUzREY2FXbGd5eGtCWEJ3YzRGRFJXdF9BVm1MQVRCN2dPcDQ3aE42a1hZVUQxR1JRZw?oc=5",
-      "isNew": false
-    },
-    {
-      "id": "afdd236adacc",
-      "title": "The ECB Just Raised Interest Rates. Here\u2019s What to Know.",
-      "source": "WSJ",
-      "date": "2026-09-10T15:27:00Z",
-      "topic": "Rates & Macro",
-      "summary": "",
-      "link": "https://news.google.com/rss/articles/CBMiqgFBVV95cUxOcEptZDVUSnhIN183c3VUUjM5MzloTjFfd3EwMHVwa2JNaU5aUFhnUV9JbUJiY001cE04NEdSNXNqbXJneGlFMXlXc2p5M2RUT1daWVVWRmVpdzdjazBVVXZZbTFYRnktRWhjWUNyUmxPelAtbXZxTUluQ211ZTlvQ2RQSVRLc2x1ay1LOEstT0dUT0JmTjljTWVreWlKZ2czOUhTUDBUMGF4QQ?oc=5",
-      "isNew": false
-    },
-    {
-      "id": "e00737cd7dee",
-      "title": "ECB Hikes Rates and Raises Both Inflation and Growth Forecasts",
-      "source": "Morningstar",
-      "date": "2026-09-10T13:38:52Z",
-      "topic": "Rates & Macro",
-      "summary": "",
-      "link": "https://news.google.com/rss/articles/CBMioAFBVV95cUxPV1g4dmRzV3h0clo2VzhBVGFuYk9UZEpqV1VxYkYwN3VTdmdCWGFOTm41MjRvZ1FjbVRmRVNhMW5zNllJUDRiSDlpRzdMQk9VdG40cmI5S1FoYUtlSUdzcF9RT0w2RVZwck00UThrM29BWjJRcjIwNDNoX1pHdmMwX0V0RGtVOW9pN2hKcWhoNDZyWGRJamM4MUxPbm9uQTh4?oc=5",
-      "isNew": false
-    },
-    {
-      "id": "977df193e5bb",
-      "title": "Bond Yields: Higher for Longer \u2014 and for Fundamental Reasons",
-      "source": "TD Economics",
-      "date": "2026-09-10T12:29:27Z",
-      "topic": "Rates & Macro",
-      "summary": "",
-      "link": "https://news.google.com/rss/articles/CBMiUEFVX3lxTFBiT1ZqbDMwOFZxenN0SWhBRFNqMklOdzZ0WnJPY1NmNkpHcy1OTEdUeFl6UXBtb3RwU1kyVm4zRnZMTU5SOXpZdDlKUlZJTC1E?oc=5",
-      "isNew": false
-    },
-    {
-      "id": "60e6a7bd67f6",
-      "title": "European Central Bank Raises Rates in Bid to Quell Inflation",
-      "source": "nytimes.com",
-      "date": "2026-09-10T12:26:33Z",
-      "topic": "Rates & Macro",
-      "summary": "",
-      "link": "https://news.google.com/rss/articles/CBMijgFBVV95cUxPMGlxa0FOS0lsVkNiRERaRE1FRjF2M092VmxtRG9GMGo5VG1paktWRFJ5Q1hRVkNfX0kwXzNnemV1NEJ4UHZmcFNSelRmdjRnbkQ5YmJtLW5LTTE2b1NFQmczbE1RdXV3VkRKUDJlRjFzeFhVTXplVjhfMC10SWVCWV9oZnRhQUtadm9naE1R?oc=5",
       "isNew": false
     }
   ]

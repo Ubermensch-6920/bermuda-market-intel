@@ -1,5 +1,5 @@
 {
-  "updated": "2026-09-16T04:54:51Z",
+  "updated": "2026-09-16T11:40:13Z",
   "naic": [
     {
       "id": "978ec4834502",
@@ -7,7 +7,7 @@
       "date": "2026-09-15",
       "cat": "Investment",
       "summary": "",
-      "source": "ThinkAdvisor",
+      "source": "thinkadvisor.com",
       "link": "https://news.google.com/rss/articles/CBMiqwFBVV95cUxOX3R4TmRVdjJqSXNxSHVUMDdINnpVY1lQRl9GbFpQazRNaDN6YkNDMDZQZlp3aUJLa0k0UnA2SGdyZlgwM2EtLWN0ZEloQkJBNk52WVdySnpReGFaWUxVMGtZQzc0LUNzQXpCUk0wbWM3dnctUTRfNXp2N01CcVFFS3JWUl93SVdvZGhFcmgybXhnaEpwWnpkdmhVN1hibWNpaFp0MVNVRTUzYWc?oc=5",
       "isNew": true
     },
@@ -17,7 +17,7 @@
       "date": "2026-09-14",
       "cat": "General",
       "summary": "",
-      "source": "claimsjournal.com",
+      "source": "Claims Journal",
       "link": "https://news.google.com/rss/articles/CBMic0FVX3lxTFBqNFptM09aUHhyU0NmM2lmbFlsUHhCRDJRVkhqUy0wVzQxTlZEOURsazd1MS1rMU5zOXc3cVVueFFWb25wUWtCSjFMc1Ffd1BzRnpLSko1b2hDenB0ZHhmWUJsT2ZCR0F1RU5XcG9JYVVGQXM?oc=5",
       "isNew": true
     },
@@ -57,7 +57,7 @@
       "date": "2026-09-03",
       "cat": "General",
       "summary": "",
-      "source": "BenefitsPRO",
+      "source": "benefitspro.com",
       "link": "https://news.google.com/rss/articles/CBMimgFBVV95cUxORkZvZl93NkFKcmYtUEhaamRSZVRLUVdfclNqbFVFVUhmaG9JNWVfRk1RQ2pxOElzR3ByWnNDV0hwVWNMdXB4OHh2QXVSSWZlYkJ2Mno3dWFwUWVZaHlhRG4wa2xQcnBBYUxjNDJJRldiRkpsNEZsd1R2SEsydzJNSEJNYXpXRkNsY2JXaXM0TlIwLUE3UGx2N05B?oc=5",
       "isNew": true
     },
@@ -247,7 +247,7 @@
       "date": "2026-08-19",
       "cat": "General",
       "summary": "",
-      "source": "Captive International",
+      "source": "captiveinternational.com",
       "link": "https://news.google.com/rss/articles/CBMivwFBVV95cUxPYlBqZFprRHQxUW41YlRGLVlDWXZrQmQtYkRVZ2l4ZF9CVlZNcU44U0xQelVoSWtuaFFIREdkQWJ2ZmtwS2duYzVOdUhvUHVMTHgxQmtkZHkyalo2RmlQeGx0bGM1UF9GVWxUUmp1akpQNEVGVmhBZGE0R2VjeUJhYTZBNWNld041V25kaG0tM1RqTmp3RjRZWjZhblRSWXJDaXc2c05uTGFnM2xYTW13QkRpanZsaWoxQmFYa0lmWQ?oc=5",
       "isNew": true
     }
@@ -309,7 +309,7 @@
       "date": "2026-08-24",
       "cat": "General",
       "summary": "",
-      "source": "bernews.com",
+      "source": "Bernews",
       "link": "https://news.google.com/rss/articles/CBMidkFVX3lxTFAtMk5oeGM2aThiN1Zud1A4NWtYdy1fTVBDc1pscG15QWFwcVlEU0RqQ3lCb1pJYzNWSV9QdXRYWEFWTFFGd05iY0dNT1VZMUxMRUwzbGtDS1lvUG1nYWxhN203RVluS21PM1haNDJyVC1xd2NuTXc?oc=5",
       "isNew": true
     },
@@ -329,7 +329,7 @@
       "date": "2026-08-20",
       "cat": "General",
       "summary": "",
-      "source": "bernews.com",
+      "source": "Bernews",
       "link": "https://news.google.com/rss/articles/CBMic0FVX3lxTFBMaXl4eXRTMllDZEtiNkFXdVF3OEIzYXVJb3F2ME0yV0h0NHlERWZib3ItRGMwamphamI0d2tJcVlzVVdJeFhUUFlxajJEYVh5M2tIX01UeGl2eVlhbFo5Qlc4c1lCaFdCXzd5bmNDclVVRm8?oc=5",
       "isNew": true
     },
@@ -369,7 +369,7 @@
       "date": "2026-08-10",
       "cat": "General",
       "summary": "",
-      "source": "bernews.com",
+      "source": "Bernews",
       "link": "https://news.google.com/rss/articles/CBMiekFVX3lxTE1tTmdWVUZLZkUwcFpYY0RnbktoRlYzMS1Id1RDRTBNOEc0YUpNdWpNODhqWFN6VkNkc2dnV3ZnVHctTDFicmFEQnRGR3E3NnYwaGtKUkpvUDJPSW4tNHQzNW9jOHVMOXl4S1FadDc4VHR2WnZWRnE5dEN3?oc=5",
       "isNew": false
     },
@@ -479,7 +479,7 @@
       "date": "2026-07-22",
       "cat": "General",
       "summary": "",
-      "source": "Captive International",
+      "source": "captiveinternational.com",
       "link": "https://news.google.com/rss/articles/CBMigwFBVV95cUxNbENnbmtsM0pnWjdtZWFkeXNXVUVTQ2x4N1Z0SlI4YmJhRTFtdUpRWDBEWTBkcnp5WEJGejBLdkZJWmxYQk9oTWMxM09FblYzQXo5eG1BNWg4V2hNdk5SaXd5MUxHVWF3b1pwQnBBWDN1c1BPa3VVeXN5eW5mUkRqdTJoMA?oc=5",
       "isNew": false
     },
@@ -541,7 +541,7 @@
       "date": "2026-09-04",
       "cat": "General",
       "summary": "",
-      "source": "Captive International",
+      "source": "captiveinternational.com",
       "link": "https://news.google.com/rss/articles/CBMilgFBVV95cUxPSGJ0OXE0X2RZb0lpLVJQNlNnOTl1T1lBcXRCd05iYm81ZW9QTldUMUlzd2Nla2x1ZHpqdzU2dXlNdWNHd2tkR1I3S29jREdZaEd4TVR1RlV5WkVvUzFCSUFZeGVmVlhwQ0czX2ZzQ2dmTlN2eUl0cjlza1U1NDhxdS1HZVM3STN2bmk4TTlqMXVqMm9EUVE?oc=5",
       "isNew": true
     },
