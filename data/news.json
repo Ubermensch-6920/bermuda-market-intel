@@ -1,5 +1,5 @@
 {
-  "updated": "2026-09-16T11:40:13Z",
+  "updated": "2026-09-16T17:03:51Z",
   "topics": [
     "Insurance AM",
     "Private Credit",
@@ -50,7 +50,7 @@
     {
       "id": "0248ee298385",
       "title": "What to expect from stocks and bonds if interest rates remain higher for longer, according to investing pros",
-      "source": "CNBC",
+      "source": "cnbc.com",
       "date": "2026-09-15T14:00:02Z",
       "topic": "Rates & Macro",
       "summary": "",
@@ -100,7 +100,7 @@
     {
       "id": "58846fd1dbf2",
       "title": "Spike on 10-year bond yields renews concerns over U.S. debt",
-      "source": "The Washington Post",
+      "source": "washingtonpost.com",
       "date": "2026-09-15T03:01:00Z",
       "topic": "Rates & Macro",
       "summary": "",
@@ -130,7 +130,7 @@
     {
       "id": "750c575e5dfb",
       "title": "U.S. 10-Year Yield Cools After Topping 5%, German Bund Yield Hits 15-Year High",
-      "source": "wsj.com",
+      "source": "WSJ",
       "date": "2026-09-14T19:45:00Z",
       "topic": "Rates & Macro",
       "summary": "",
@@ -140,7 +140,7 @@
     {
       "id": "1ae8cca6aa16",
       "title": "10-year Treasury yield hits 5%, critical threshold for US economy and markets",
-      "source": "CNN",
+      "source": "cnn.com",
       "date": "2026-09-14T14:21:05Z",
       "topic": "Rates & Macro",
       "summary": "",
@@ -160,7 +160,7 @@
     {
       "id": "ab72631b3a91",
       "title": "'The bond market has taken down more governments than howitzers': Scott Bessent cuts Kevin Warsh some slack ahead of anticipated rate meeting",
-      "source": "fortune.com",
+      "source": "Fortune",
       "date": "2026-09-14T11:19:00Z",
       "topic": "Rates & Macro",
       "summary": "",
@@ -298,13 +298,13 @@
       "isNew": false
     },
     {
-      "id": "5070e645fddc",
-      "title": "ECB raises interest rates to 2.5% and warns Iran war is fuelling inflation",
-      "source": "The Guardian",
-      "date": "2026-09-10T15:58:00Z",
+      "id": "5dc618eed32f",
+      "title": "Bond yields hit multi-year highs as traders brace for new ECB rate-hike cycle",
+      "source": "Reuters",
+      "date": "2026-09-10T15:54:41Z",
       "topic": "Rates & Macro",
       "summary": "",
-      "link": "https://news.google.com/rss/articles/CBMiwgFBVV95cUxQUXYyQndqNHNWeFNoRDFITkpSSkVhcThqTTEtdTk5dzZpdXdIeWVEdndJRFZXZTBfN2c0UGlvZTJKQnlkSTI4aEMwRTFNODlxR2NVQjAtZmtwdTNpV3VjOTFtLW9nbTdVaDMwZmxReGFzN2xNRnBpbVktaExoa0Rad2s1QXJESXlzekxZbVloZWlxUk5ZOVVDS0g3ZWpsZWZjUmd0S3NyY2x0bFkzZTFFX2JHMGwyaGQyRkRCeVQzbm5ZUQ?oc=5",
+      "link": "https://news.google.com/rss/articles/CBMitgFBVV95cUxOdFpuTDFaWjFEOW82UlRWWm1NY0RjNkdBZS1EOWFvb21UbkxZUWxZN3ZwZEJ2R25wZC1ZVEF1WmkzNFVXN3VUNVdpSXk3RGUyTmNtRUh1VDFEMnFMNDN2ekpnSzdWTzFNUkh2ZUdMcngta1lzVm1jb1VNZnR6cjhVUEkzQi1kUzREY2FXbGd5eGtCWEJ3YzRGRFJXdF9BVm1MQVRCN2dPcDQ3aE42a1hZVUQxR1JRZw?oc=5",
       "isNew": false
     }
   ]
