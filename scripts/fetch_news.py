@@ -15,24 +15,26 @@ to show and simply refreshes whenever the feeds are reachable again.
 
 Run:  python scripts/fetch_news.py
 """
-import base64
 import hashlib
-import html
 import json
 import logging
-import re
 import sys
 import urllib.parse
-import urllib.request
-from concurrent.futures import ThreadPoolExecutor, as_completed
 from datetime import datetime, timedelta, timezone
-from email.utils import parsedate_to_datetime
 from pathlib import Path
-from xml.etree import ElementTree as ET
 
-# Reuse the shared pipeline helpers (HTTP headers, logging, data dir, health).
+# Reuse the shared pipeline helpers (HTTP headers, logging, data dir, health,
+# and the generic RSS parsing/link-resolution that news_monitor.py shares).
 sys.path.insert(0, str(Path(__file__).parent))
-from fetchlib import DATA, HDR, log, record_source, flush_source_health  # noqa: E402
+from fetchlib import (  # noqa: E402
+    DATA, log, record_source, flush_source_health,
+    fetch_feed, parse_feed_date, resolve_many, strip_html,
+)
+
+# Module-local aliases keep the rest of this file reading as it always has.
+_strip_html = strip_html
+_parse_date = parse_feed_date
+_resolve_many = resolve_many
 
 logging.basicConfig(level=logging.INFO, format="%(message)s")
 
@@ -151,141 +153,14 @@ def _item_id(*parts):
     return hashlib.sha1("|".join(p for p in parts if p).encode("utf-8")).hexdigest()[:12]
 
 
-def _strip_html(text):
-    if not text:
-        return ""
-    text = re.sub(r"<[^>]+>", " ", text)
-    text = html.unescape(text)
-    return re.sub(r"\s+", " ", text).strip()
-
-
-def _parse_date(raw):
-    """Parse an RSS pubDate into a UTC datetime, or None."""
-    if not raw:
-        return None
-    try:
-        dt = parsedate_to_datetime(raw)
-        if dt.tzinfo is None:
-            dt = dt.replace(tzinfo=timezone.utc)
-        return dt.astimezone(timezone.utc)
-    except (TypeError, ValueError):
-        pass
-    for fmt in ("%Y-%m-%dT%H:%M:%SZ", "%Y-%m-%d"):
-        try:
-            return datetime.strptime(raw[:19] if "T" in raw else raw[:10], fmt).replace(tzinfo=timezone.utc)
-        except ValueError:
-            continue
-    return None
-
-
-def _http_get_bytes(url, timeout=15):
-    req = urllib.request.Request(url, headers=HDR)
-    with urllib.request.urlopen(req, timeout=timeout) as r:
-        return r.read()
-
-
 def fetch_rss(query):
     """Fetch a Google News RSS search and return parsed items.
 
-    Returns list of {title, link, source, date(datetime|None), summary}.
-    Raises on network/parse failure so callers can fall back.
+    Thin wrapper over fetchlib.fetch_feed(); the shared parser handles the
+    " - Publisher" headline suffix and redundant descriptions that Google
+    News emits. Raises on network/parse failure so callers can fall back.
     """
-    url = GOOGLE_NEWS.format(q=urllib.parse.quote(query))
-    raw = _http_get_bytes(url)
-    root = ET.fromstring(raw)
-    items = []
-    for it in root.iter("item"):
-        title = (it.findtext("title") or "").strip()
-        link = (it.findtext("link") or "").strip()
-        if not title or not link:
-            continue
-        pub = _parse_date(it.findtext("pubDate"))
-        src_el = it.find("source")
-        source = (src_el.text.strip() if src_el is not None and src_el.text else "")
-        summary = _strip_html(it.findtext("description"))
-        # Google News titles are "Headline - Publisher"; split out the source
-        # and keep a clean headline.
-        if not source and " - " in title:
-            source = title.rsplit(" - ", 1)[-1].strip()
-        if source and title.endswith(" - " + source):
-            title = title[: -(len(source) + 3)].strip()
-        # The description for Google News search is usually just the headline,
-        # so only keep it as a summary when it adds information.
-        if summary and summary.lower().startswith(title.lower()[:40]):
-            summary = ""
-        items.append({
-            "title": title,
-            "link": link,
-            "source": source,
-            "date": pub,
-            "summary": summary,
-        })
-    return items
-
-
-def _decode_google_news_link(link):
-    """Best-effort offline decode of a Google News RSS redirect URL.
-
-    Google embeds the real article URL as a base64 blob in the path
-    (news.google.com/rss/articles/<blob>); the encoding is undocumented and
-    has changed over time, so this is opportunistic only -- callers fall
-    back to _resolve_article_link's HTTP redirect chain when it misses.
-    """
-    try:
-        parsed = urllib.parse.urlparse(link)
-        if "news.google.com" not in parsed.netloc or "/articles/" not in parsed.path:
-            return None
-        blob = parsed.path.rsplit("/articles/", 1)[-1]
-        blob += "=" * (-len(blob) % 4)
-        decoded = base64.urlsafe_b64decode(blob).decode("latin1", errors="ignore")
-        m = re.search(r"https?://[A-Za-z0-9\-._~:/?#\[\]@!$&'()*+,;=%]+", decoded)
-        if m and "google.com" not in urllib.parse.urlparse(m.group(0)).netloc:
-            return m.group(0)
-    except Exception:
-        pass
-    return None
-
-
-def _resolve_article_link(link, timeout=6):
-    """Resolve a Google News RSS link to the real publisher URL.
-
-    Tries the cheap offline decode first, then falls back to following the
-    HTTP redirect chain. Returns the original Google link, unchanged, if
-    both fail -- callers/UI treat an unresolved news.google.com link as
-    "don't paywall-wrap this" rather than sending Google's redirect page
-    through a paywall remover.
-    """
-    if "news.google.com" not in link:
-        return link
-    decoded = _decode_google_news_link(link)
-    if decoded:
-        return decoded
-    try:
-        req = urllib.request.Request(link, headers=HDR)
-        with urllib.request.urlopen(req, timeout=timeout) as r:
-            final = r.geturl()
-            if "news.google.com" not in final:
-                return final
-    except Exception:
-        pass
-    return link
-
-
-def _resolve_many(links, timeout=6, workers=10):
-    """Resolve a batch of Google News links concurrently (bounded, short
-    per-request timeout so a run of dead links can't blow the CI budget).
-    Returns {original_link: resolved_link_or_original}."""
-    uniq = list(dict.fromkeys(links))
-    out = {}
-    with ThreadPoolExecutor(max_workers=workers) as ex:
-        fmap = {ex.submit(_resolve_article_link, l, timeout): l for l in uniq}
-        for fut in as_completed(fmap):
-            link = fmap[fut]
-            try:
-                out[link] = fut.result()
-            except Exception:
-                out[link] = link
-    return out
+    return fetch_feed(GOOGLE_NEWS.format(q=urllib.parse.quote(query)))
 
 
 def _categorize(text):

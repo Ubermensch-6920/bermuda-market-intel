@@ -8,8 +8,14 @@
 - Source-health recorder: every fetcher reports which upstream sources were
   attempted and whether they succeeded, so data/source_health.json can show
   active vs fallback vs stagnant sources on the dashboard.
+- Generic RSS helpers: fetch_feed() parses any public RSS/Atom feed, plus the
+  Google News link-resolution helpers. These started life inside fetch_news.py
+  and moved here once a second fetcher (news_monitor.py) needed them, so the
+  parsing and redirect-unwrapping quirks are fixed in exactly one place.
 """
+import base64
 import csv
+import html
 import io
 import json
 import logging
@@ -19,8 +25,11 @@ import time
 import urllib.error
 import urllib.parse
 import urllib.request
-from datetime import datetime
+from concurrent.futures import ThreadPoolExecutor, as_completed
+from datetime import datetime, timezone
+from email.utils import parsedate_to_datetime
 from pathlib import Path
+from xml.etree import ElementTree as ET
 
 log = logging.getLogger("fetch")
 DATA = Path(__file__).parent.parent / "data"
@@ -276,4 +285,186 @@ def flush_source_health():
     HEALTH_FILE.write_text(json.dumps(out, indent=2))
     log.info(f"  source health: {counts['active']} active, {counts['fallback']} fallback, "
              f"{counts['stagnant']} stagnant -> {HEALTH_FILE.name}")
+    return out
+
+
+# ---------------------------------------------------------------------------
+# Generic RSS / news-feed helpers
+# ---------------------------------------------------------------------------
+# Hoisted out of fetch_news.py so news_monitor.py can reuse the same parsing.
+# fetch_feed() is deliberately source-agnostic: give it any RSS or Atom URL.
+
+def strip_html(text):
+    """Flatten an HTML snippet to plain text (feed summaries are full of it)."""
+    if not text:
+        return ""
+    text = re.sub(r"<[^>]+>", " ", text)
+    text = html.unescape(text)
+    return re.sub(r"\s+", " ", text).strip()
+
+
+def parse_feed_date(raw):
+    """Parse an RSS pubDate / Atom updated stamp into a UTC datetime, or None."""
+    if not raw:
+        return None
+    try:
+        dt = parsedate_to_datetime(raw)
+        if dt.tzinfo is None:
+            dt = dt.replace(tzinfo=timezone.utc)
+        return dt.astimezone(timezone.utc)
+    except (TypeError, ValueError):
+        pass
+    for fmt in ("%Y-%m-%dT%H:%M:%SZ", "%Y-%m-%d"):
+        try:
+            return datetime.strptime(raw[:19] if "T" in raw else raw[:10], fmt).replace(tzinfo=timezone.utc)
+        except ValueError:
+            continue
+    return None
+
+
+def http_get_bytes(url, timeout=15):
+    req = urllib.request.Request(url, headers=HDR)
+    with urllib.request.urlopen(req, timeout=timeout) as r:
+        return r.read()
+
+
+def fetch_feed(url, timeout=15):
+    """Fetch and parse any public RSS/Atom feed.
+
+    Returns a list of {title, link, source, date(datetime|None), summary}.
+    Raises on network/parse failure so callers can decide how to degrade --
+    every caller in this repo catches, logs, and falls back to cached data.
+
+    Handles both RSS <item> and Atom <entry>, and splits the trailing
+    " - Publisher" that Google News appends to its headlines.
+    """
+    raw = http_get_bytes(url, timeout=timeout)
+    root = ET.fromstring(raw)
+    items = []
+    # RSS items first; if the feed is Atom there are none, so fall back to
+    # <entry> (tag names carry the Atom namespace, hence the endswith check).
+    nodes = list(root.iter("item"))
+    if not nodes:
+        nodes = [n for n in root.iter() if n.tag.endswith("}entry") or n.tag == "entry"]
+
+    for it in nodes:
+        title = (_node_text(it, "title") or "").strip()
+        link = (_node_text(it, "link") or "").strip()
+        if not link:
+            # Atom puts the URL in <link href="...">.
+            for child in it:
+                if (child.tag.endswith("}link") or child.tag == "link") and child.get("href"):
+                    link = child.get("href").strip()
+                    break
+        if not title or not link:
+            continue
+        pub = parse_feed_date(
+            _node_text(it, "pubDate")
+            or _node_text(it, "updated")
+            or _node_text(it, "published")
+            or _node_text(it, "date")
+        )
+        source = ""
+        for child in it:
+            if child.tag.endswith("}source") or child.tag == "source":
+                source = (child.text or "").strip()
+                break
+        summary = strip_html(
+            _node_text(it, "description")
+            or _node_text(it, "summary")
+            or _node_text(it, "content")
+        )
+        # Google News titles are "Headline - Publisher"; split out the source
+        # and keep a clean headline.
+        if not source and " - " in title:
+            source = title.rsplit(" - ", 1)[-1].strip()
+        if source and title.endswith(" - " + source):
+            title = title[: -(len(source) + 3)].strip()
+        # The description for a Google News search is usually just the
+        # headline again, so only keep it when it adds information.
+        if summary and summary.lower().startswith(title.lower()[:40]):
+            summary = ""
+        items.append({
+            "title": title,
+            "link": link,
+            "source": source,
+            "date": pub,
+            "summary": summary,
+        })
+    return items
+
+
+def _node_text(node, name):
+    """findtext() that ignores XML namespaces (Atom feeds are namespaced)."""
+    val = node.findtext(name)
+    if val:
+        return val
+    for child in node:
+        if child.tag.endswith("}" + name):
+            return child.text or ""
+    return ""
+
+
+def decode_google_news_link(link):
+    """Best-effort offline decode of a Google News RSS redirect URL.
+
+    Google embeds the real article URL as a base64 blob in the path
+    (news.google.com/rss/articles/<blob>); the encoding is undocumented and
+    has changed over time, so this is opportunistic only -- callers fall
+    back to resolve_article_link's HTTP redirect chain when it misses.
+    """
+    try:
+        parsed = urllib.parse.urlparse(link)
+        if "news.google.com" not in parsed.netloc or "/articles/" not in parsed.path:
+            return None
+        blob = parsed.path.rsplit("/articles/", 1)[-1]
+        blob += "=" * (-len(blob) % 4)
+        decoded = base64.urlsafe_b64decode(blob).decode("latin1", errors="ignore")
+        m = re.search(r"https?://[A-Za-z0-9\-._~:/?#\[\]@!$&'()*+,;=%]+", decoded)
+        if m and "google.com" not in urllib.parse.urlparse(m.group(0)).netloc:
+            return m.group(0)
+    except Exception:
+        pass
+    return None
+
+
+def resolve_article_link(link, timeout=6):
+    """Resolve a Google News RSS link to the real publisher URL.
+
+    Tries the cheap offline decode first, then falls back to following the
+    HTTP redirect chain. Returns the original Google link, unchanged, if
+    both fail -- callers/UI treat an unresolved news.google.com link as
+    "don't paywall-wrap this" rather than sending Google's redirect page
+    through a paywall remover.
+    """
+    if "news.google.com" not in link:
+        return link
+    decoded = decode_google_news_link(link)
+    if decoded:
+        return decoded
+    try:
+        req = urllib.request.Request(link, headers=HDR)
+        with urllib.request.urlopen(req, timeout=timeout) as r:
+            final = r.geturl()
+            if "news.google.com" not in final:
+                return final
+    except Exception:
+        pass
+    return link
+
+
+def resolve_many(links, timeout=6, workers=10):
+    """Resolve a batch of Google News links concurrently (bounded, short
+    per-request timeout so a run of dead links can't blow the CI budget).
+    Returns {original_link: resolved_link_or_original}."""
+    uniq = list(dict.fromkeys(links))
+    out = {}
+    with ThreadPoolExecutor(max_workers=workers) as ex:
+        fmap = {ex.submit(resolve_article_link, l, timeout): l for l in uniq}
+        for fut in as_completed(fmap):
+            link = fmap[fut]
+            try:
+                out[link] = fut.result()
+            except Exception:
+                out[link] = link
     return out
