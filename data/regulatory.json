@@ -1,13 +1,23 @@
 {
-  "updated": "2026-09-15T21:26:30Z",
+  "updated": "2026-09-16T04:54:51Z",
   "naic": [
+    {
+      "id": "978ec4834502",
+      "title": "Sen. Warren Asks NAIC About How It Oversees Insurers' Private Assets",
+      "date": "2026-09-15",
+      "cat": "Investment",
+      "summary": "",
+      "source": "ThinkAdvisor",
+      "link": "https://news.google.com/rss/articles/CBMiqwFBVV95cUxOX3R4TmRVdjJqSXNxSHVUMDdINnpVY1lQRl9GbFpQazRNaDN6YkNDMDZQZlp3aUJLa0k0UnA2SGdyZlgwM2EtLWN0ZEloQkJBNk52WVdySnpReGFaWUxVMGtZQzc0LUNzQXpCUk0wbWM3dnctUTRfNXp2N01CcVFFS3JWUl93SVdvZGhFcmgybXhnaEpwWnpkdmhVN1hibWNpaFp0MVNVRTUzYWc?oc=5",
+      "isNew": true
+    },
     {
       "id": "c4e9ab7557cb",
       "title": "Warren Presses Insurance Watchdogs for Answers Amid Walter Probe",
       "date": "2026-09-14",
       "cat": "General",
       "summary": "",
-      "source": "Claims Journal",
+      "source": "claimsjournal.com",
       "link": "https://news.google.com/rss/articles/CBMic0FVX3lxTFBqNFptM09aUHhyU0NmM2lmbFlsUHhCRDJRVkhqUy0wVzQxTlZEOURsazd1MS1rMU5zOXc3cVVueFFWb25wUWtCSjFMc1Ffd1BzRnpLSko1b2hDenB0ZHhmWUJsT2ZCR0F1RU5XcG9JYVVGQXM?oc=5",
       "isNew": true
     },
@@ -187,7 +197,7 @@
       "date": "2026-08-20",
       "cat": "Investment",
       "summary": "",
-      "source": "cryptobriefing.com",
+      "source": "Crypto Briefing",
       "link": "https://news.google.com/rss/articles/CBMib0FVX3lxTE9GUnc4RXVqcUx0dEE5RjlUUTVoeWlGaEMtRlVPVEFfWXFVOFc2NWxvT3lQcnlkOFJZVGF2aVZWUVowdGhSSWx6UDFFZWoxQTVfVEJob3d1MXpVU05YTmRYWHZQckg2SkFVMHpfRjRkbw?oc=5",
       "isNew": true
     },
@@ -239,16 +249,6 @@
       "summary": "",
       "source": "Captive International",
       "link": "https://news.google.com/rss/articles/CBMivwFBVV95cUxPYlBqZFprRHQxUW41YlRGLVlDWXZrQmQtYkRVZ2l4ZF9CVlZNcU44U0xQelVoSWtuaFFIREdkQWJ2ZmtwS2duYzVOdUhvUHVMTHgxQmtkZHkyalo2RmlQeGx0bGM1UF9GVWxUUmp1akpQNEVGVmhBZGE0R2VjeUJhYTZBNWNld041V25kaG0tM1RqTmp3RjRZWjZhblRSWXJDaXc2c05uTGFnM2xYTW13QkRpanZsaWoxQmFYa0lmWQ?oc=5",
-      "isNew": true
-    },
-    {
-      "id": "cd631b299f88",
-      "title": "Cayman launches US reinsurance qualification bid",
-      "date": "2026-08-19",
-      "cat": "General",
-      "summary": "",
-      "source": "Cayman Compass",
-      "link": "https://news.google.com/rss/articles/CBMilAFBVV95cUxNcHp4UTBucmRTWkVaSW9uSjdtS1J3MV9EcW04XzVlSkpiazRCNFVXeVBLSEtuQ0dwbDhMQXBUSUFRdm5mZWhXNlRpdEV3elNWUjRlbHE4aG9WMG9zdTdvLXBXWS1IUnhYMS1JLXh1RjBBRS1rVjh2WVBPQ3JOZ3ZOYmVmZUY3aktSc0hENjJRQ3ZmSzZB?oc=5",
       "isNew": true
     }
   ],
@@ -309,7 +309,7 @@
       "date": "2026-08-24",
       "cat": "General",
       "summary": "",
-      "source": "Bernews",
+      "source": "bernews.com",
       "link": "https://news.google.com/rss/articles/CBMidkFVX3lxTFAtMk5oeGM2aThiN1Zud1A4NWtYdy1fTVBDc1pscG15QWFwcVlEU0RqQ3lCb1pJYzNWSV9QdXRYWEFWTFFGd05iY0dNT1VZMUxMRUwzbGtDS1lvUG1nYWxhN203RVluS21PM1haNDJyVC1xd2NuTXc?oc=5",
       "isNew": true
     },
@@ -329,7 +329,7 @@
       "date": "2026-08-20",
       "cat": "General",
       "summary": "",
-      "source": "Bernews",
+      "source": "bernews.com",
       "link": "https://news.google.com/rss/articles/CBMic0FVX3lxTFBMaXl4eXRTMllDZEtiNkFXdVF3OEIzYXVJb3F2ME0yV0h0NHlERWZib3ItRGMwamphamI0d2tJcVlzVVdJeFhUUFlxajJEYVh5M2tIX01UeGl2eVlhbFo5Qlc4c1lCaFdCXzd5bmNDclVVRm8?oc=5",
       "isNew": true
     },
@@ -341,7 +341,7 @@
       "summary": "",
       "source": "Royal Gazette | Bermuda",
       "link": "https://news.google.com/rss/articles/CBMingFBVV95cUxQX1NuNGNLalFSVkVtdkk4Q1Z1YkJpRGxoY2FkU1dnamVRdmlEbG1Vbmp4UkxHTk0wTm9CX2xJdFJRd3Y5M1Y5OFhYNHZzQ0sxaDBSMVRuakhyeEVfaklGWk5MOVhBSDd3VkcwLW13SktSTHd0cl8zSTZrcDJHTEJqZFlKN1Y2eFo4di1LbGNZczluSHBmMU42VmFqU2Y1QQ?oc=5",
-      "isNew": true
+      "isNew": false
     },
     {
       "id": "b6e174b0844c",
@@ -369,7 +369,7 @@
       "date": "2026-08-10",
       "cat": "General",
       "summary": "",
-      "source": "Bernews",
+      "source": "bernews.com",
       "link": "https://news.google.com/rss/articles/CBMiekFVX3lxTE1tTmdWVUZLZkUwcFpYY0RnbktoRlYzMS1Id1RDRTBNOEc0YUpNdWpNODhqWFN6VkNkc2dnV3ZnVHctTDFicmFEQnRGR3E3NnYwaGtKUkpvUDJPSW4tNHQzNW9jOHVMOXl4S1FadDc4VHR2WnZWRnE5dEN3?oc=5",
       "isNew": false
     },
@@ -439,7 +439,7 @@
       "date": "2026-07-22",
       "cat": "General",
       "summary": "",
-      "source": "artemis.bm",
+      "source": "Artemis.bm",
       "link": "https://news.google.com/rss/articles/CBMipAFBVV95cUxOM1B5X2ZUMThlOWl6Z2kyUWQ2cWpPLUM4a1ZiSXBaR2VPVmRLRjBzbWoyX2lxNkp6RElEUllTWDNibE5hYTFsV293RGJOcGdnT0R6SldVLWRMX2JFa3I0ZW1FUjlLTFJFVW9ReXlTN3ZqTVBiVHpoRVdzZENGYzFNdlBrQjY3MEJmUjZIQ2gtSDJXR0t1WlJ5VUsxaVNFMDdHeXduSQ?oc=5",
       "isNew": false
     },
