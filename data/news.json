@@ -1,5 +1,5 @@
 {
-  "updated": "2026-09-16T17:03:51Z",
+  "updated": "2026-09-16T18:56:45Z",
   "topics": [
     "Insurance AM",
     "Private Credit",
@@ -7,6 +7,26 @@
     "Structured Credit"
   ],
   "items": [
+    {
+      "id": "12fe84050794",
+      "title": "BlueOrchard climate fund reaches $250m first close",
+      "source": "africaprivateequitynews.com",
+      "date": "2026-09-16T17:21:35Z",
+      "topic": "Private Credit",
+      "summary": "",
+      "link": "https://news.google.com/rss/articles/CBMif0FVX3lxTE1tN2F5cDBVU0NmbU9NNEtjQjhsOWlBWTRxYWZOSUhvdG1uNjVNVkpaa2xYSExqQlhkYmJzSlZRSGJJTmpobGFTOWZhd3RNSmVMQkI5WGU2UWVxdUo0eDhkQURaU3BoVmozYmgyazhCNUZ0RmNPcW5Kbjh0OHVZQ1k?oc=5",
+      "isNew": false
+    },
+    {
+      "id": "188aa4f8cf60",
+      "title": "Fed Meeting Is a Big Moment for the Bond Market",
+      "source": "The New York Times",
+      "date": "2026-09-16T12:37:14Z",
+      "topic": "Rates & Macro",
+      "summary": "",
+      "link": "https://news.google.com/rss/articles/CBMigAFBVV95cUxNdDhaR0FSM3hRc1hMbnBLT0NKRU9veTlkYWdXV2ktdkVHT2t5MGkxaHBzUjdDanVBeFdmb1VBZVNyUE5XZXo4YjJ0ZVlRVDY5TmJyclhnSFdZd09Ia2dIUFYtbDFOdktUZWM3Rm1rUlRjQUJvTjNCQVBBdlhzSG5Scg?oc=5",
+      "isNew": false
+    },
     {
       "id": "8786c2ccfdab",
       "title": "Insuring the Unmeasurable: Why Data Centers\u2019 Love For Captive Insurance Is Dangerous. Who Bears the Ultimate Residual Risk?",
@@ -100,7 +120,7 @@
     {
       "id": "58846fd1dbf2",
       "title": "Spike on 10-year bond yields renews concerns over U.S. debt",
-      "source": "washingtonpost.com",
+      "source": "The Washington Post",
       "date": "2026-09-15T03:01:00Z",
       "topic": "Rates & Macro",
       "summary": "",
@@ -260,7 +280,7 @@
     {
       "id": "9f9d03934fc6",
       "title": "Week Ahead for FX, Bonds: All Eyes on Fed Rate Decision",
-      "source": "wsj.com",
+      "source": "WSJ",
       "date": "2026-09-11T15:49:00Z",
       "topic": "Rates & Macro",
       "summary": "",
@@ -285,26 +305,6 @@
       "topic": "Rates & Macro",
       "summary": "",
       "link": "https://news.google.com/rss/articles/CBMigAFBVV95cUxNYS1NcmVLQ2tzMmJNUGRmR2dvT3ZDUkFQZVNrLUdfa1JVazlXdzItNEkteWhxU3hMNEZ4OXZZS2tnWFQ2U3c3LWdkQ2lfYU5BX01nNXpuNkVSQ0lRWGduWWhSX0ZlcGROSllsTHE3M2FCZVVvT3hVbnlRTTdqT3dKQw?oc=5",
-      "isNew": false
-    },
-    {
-      "id": "633aea9d9630",
-      "title": "Expansion of private credit into retail investment market impacting institutional investors: expert",
-      "source": "Benefits Canada.com",
-      "date": "2026-09-10T16:04:53Z",
-      "topic": "Private Credit",
-      "summary": "",
-      "link": "https://news.google.com/rss/articles/CBMi9AFBVV95cUxQT0FkN29ScVlGbXFVdWl4d19nOXpZblB4dkpPRjRRTFF1VTFWNXZKSUt3dzV3ZG8wWFZIaVF2aF9zLWJRXzFmQmp2Tlp0ZGtCamJFR1dza1FaMVJKc0hDZE9ldlFtMzQzQ2NSdXM0eDV2aTZVOXNNdHpWR2dyVFdMc1lvSWhWcE5udGJheHJ4cDUtSTFaUnh1UlNsYU9CbWs5OFJyc0FvcWcxZFpmMWN0b1FSYlBtVTRvd2Y2YmFQT3dwZ2tTUVNudGRMWUJmekhYZ1IzMEZoTi1wWVJGTmhQZnM3ZDF1SUR5b2xzZUZMRkdITnhG?oc=5",
-      "isNew": false
-    },
-    {
-      "id": "5dc618eed32f",
-      "title": "Bond yields hit multi-year highs as traders brace for new ECB rate-hike cycle",
-      "source": "Reuters",
-      "date": "2026-09-10T15:54:41Z",
-      "topic": "Rates & Macro",
-      "summary": "",
-      "link": "https://news.google.com/rss/articles/CBMitgFBVV95cUxOdFpuTDFaWjFEOW82UlRWWm1NY0RjNkdBZS1EOWFvb21UbkxZUWxZN3ZwZEJ2R25wZC1ZVEF1WmkzNFVXN3VUNVdpSXk3RGUyTmNtRUh1VDFEMnFMNDN2ekpnSzdWTzFNUkh2ZUdMcngta1lzVm1jb1VNZnR6cjhVUEkzQi1kUzREY2FXbGd5eGtCWEJ3YzRGRFJXdF9BVm1MQVRCN2dPcDQ3aE42a1hZVUQxR1JRZw?oc=5",
       "isNew": false
     }
   ]

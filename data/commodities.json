@@ -2,11 +2,11 @@
   "date": "2026-09-16",
   "source": "FRED / TradingEconomics / Investing / Yahoo Finance",
   "gold": {
-    "spot": 4346.34,
+    "spot": 4301.58,
     "spot_date": "",
     "spot_source": "TradingEconomics",
     "unit": "USD/troy oz",
-    "prior_1d": 4389.1,
+    "prior_1d": 4341.7,
     "prior_1d_date": "2026-09-16",
     "prior_1m": 4420.6,
     "prior_1m_date": "2026-08-18",
@@ -18,7 +18,7 @@
     "prior_2y_date": "2024-09-17",
     "futures": {
       "3M": {
-        "price": 4387.0,
+        "price": 4345.5,
         "expiry": "Dec 2026",
         "contract": "GCZ26",
         "prior_1m": 4420.6,
@@ -35,7 +35,7 @@
         "prior_2y_contract": "GCZ24"
       },
       "6M": {
-        "price": 4461.3,
+        "price": 4422.0,
         "expiry": "Apr 2027",
         "contract": "GCJ27",
         "prior_1m": 4455.4,
@@ -88,23 +88,23 @@
     }
   },
   "wti": {
-    "spot": 97.26,
-    "spot_date": "2026-09-09",
+    "spot": 107.02,
+    "spot_date": "2026-09-15",
     "spot_source": "FRED",
     "unit": "USD/barrel",
-    "prior_1d": 102.54,
-    "prior_1d_date": "2026-09-16",
+    "prior_1d": 107.02,
+    "prior_1d_date": "2026-09-15",
     "prior_1m": 86.04,
     "prior_1m_date": "2026-08-17",
-    "prior_3m": 76.6,
-    "prior_3m_date": "2026-06-18",
+    "prior_3m": 80.65,
+    "prior_3m_date": "2026-06-17",
     "prior_1y": 64.89,
     "prior_1y_date": "2025-09-16",
     "prior_2y": 71.1,
     "prior_2y_date": "2024-09-16",
     "futures": {
       "3M": {
-        "price": 92.82,
+        "price": 92.62,
         "expiry": "Dec 2026",
         "contract": "CLZ26",
         "prior_1m": 82.72,
@@ -121,7 +121,7 @@
         "prior_2y_contract": "CLZ24"
       },
       "6M": {
-        "price": 83.3,
+        "price": 83.07,
         "expiry": "Mar 2027",
         "contract": "CLH27",
         "prior_1m": 78.4,
@@ -138,7 +138,7 @@
         "prior_2y_contract": "CLH25"
       },
       "12M": {
-        "price": 74.58,
+        "price": 74.46,
         "expiry": "Sep 2027",
         "contract": "CLU27",
         "prior_1m": 73.65,
@@ -174,12 +174,12 @@
     }
   },
   "brent": {
-    "spot": 109.51,
-    "spot_date": "2026-09-09",
+    "spot": 130.8,
+    "spot_date": "2026-09-15",
     "spot_source": "FRED",
     "unit": "USD/barrel",
-    "prior_1d": 105.8,
-    "prior_1d_date": "2026-09-16",
+    "prior_1d": 130.8,
+    "prior_1d_date": "2026-09-15",
     "prior_1m": 92.43,
     "prior_1m_date": "2026-08-17",
     "prior_3m": 80.33,
@@ -190,7 +190,7 @@
     "prior_2y_date": "2024-09-16",
     "futures": {
       "3M": {
-        "price": 100.67,
+        "price": 100.5,
         "expiry": "Dec 2026",
         "contract": "BZZ26",
         "prior_1m": 89.45,
@@ -207,7 +207,7 @@
         "prior_2y_contract": "BZZ24"
       },
       "6M": {
-        "price": 90.48,
+        "price": 90.73,
         "expiry": "Mar 2027",
         "contract": "BZH27",
         "prior_1m": 84.08,
@@ -260,7 +260,7 @@
     }
   },
   "usdinr": {
-    "spot": 95.94,
+    "spot": 95.95,
     "spot_date": "2026-09-16",
     "spot_source": "Yahoo INR=X",
     "unit": "INR per USD",
@@ -276,7 +276,7 @@
     "prior_2y_date": "2024-09-17",
     "futures": {
       "3M": {
-        "price": 96.39,
+        "price": 96.4,
         "expiry": "3M",
         "contract": "CIP derived",
         "prior_1m": null,
@@ -293,7 +293,7 @@
         "prior_2y_contract": "INRZ24"
       },
       "6M": {
-        "price": 96.8,
+        "price": 96.81,
         "expiry": "6M",
         "contract": "CIP derived",
         "prior_1m": null,
@@ -310,7 +310,7 @@
         "prior_2y_contract": "INRH25"
       },
       "12M": {
-        "price": 97.43,
+        "price": 97.44,
         "expiry": "12M",
         "contract": "CIP derived",
         "prior_1m": null,
@@ -346,5 +346,5 @@
     }
   },
   "note": "Spot history comes from daily FRED series. Futures history is roll-aware by target date. USD/INR latest spot: FRED DEXINUS, then Yahoo INR=X / keyless FX APIs when FRED lags; forwards fall back to CIP derivation from India/UST curves when market quotes are unavailable.",
-  "_fetched": "2026-09-16T17:02:11.059125Z"
+  "_fetched": "2026-09-16T18:55:55.762807Z"
 }
