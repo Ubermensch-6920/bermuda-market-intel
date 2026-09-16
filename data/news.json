@@ -1,5 +1,5 @@
 {
-  "updated": "2026-09-16T18:56:45Z",
+  "updated": "2026-09-16T21:23:35Z",
   "topics": [
     "Insurance AM",
     "Private Credit",
@@ -7,6 +7,16 @@
     "Structured Credit"
   ],
   "items": [
+    {
+      "id": "92d71e838776",
+      "title": "Fed Rate Hike Squeezes an Already Stressed Private Credit Sector",
+      "source": "Global Finance Magazine",
+      "date": "2026-09-16T19:50:17Z",
+      "topic": "Private Credit",
+      "summary": "",
+      "link": "https://news.google.com/rss/articles/CBMinwFBVV95cUxQLTV0b1F2UFNfVW5wRDRIS3lqLUFnZmRYUHNVUzJiempqei1jZ0lQV2U5eTB2Z3RkeHJmYVVhUnBfb1RqYU9JSFNHVkotVHRkZmlLQ05CNHpqVTQtWEpoMEcwM2RuenllRjkxUDlsSU9jTXpGcEFfckxrTWt3Qk9YZEtTQmZvWTZNUVBpaFA3bm9ZRmR3SDJZeHVqUTlXNUE?oc=5",
+      "isNew": false
+    },
     {
       "id": "12fe84050794",
       "title": "BlueOrchard climate fund reaches $250m first close",
@@ -60,7 +70,7 @@
     {
       "id": "c48a6b561a3c",
       "title": "The Fed meeting is a pivotal moment for the bond market",
-      "source": "KCRA",
+      "source": "kcra.com",
       "date": "2026-09-15T21:10:00Z",
       "topic": "Rates & Macro",
       "summary": "",
@@ -70,7 +80,7 @@
     {
       "id": "0248ee298385",
       "title": "What to expect from stocks and bonds if interest rates remain higher for longer, according to investing pros",
-      "source": "cnbc.com",
+      "source": "CNBC",
       "date": "2026-09-15T14:00:02Z",
       "topic": "Rates & Macro",
       "summary": "",
@@ -295,16 +305,6 @@
       "topic": "Rates & Macro",
       "summary": "",
       "link": "https://news.google.com/rss/articles/CBMifEFVX3lxTFA0WlI5R19SMnNWLWlkTzU2QXVFRUlnalI0MjRLWV9HS1YyWFB4Zy1GelhTeG95bHBpc09QclpVb21QTFR5OC1FQlJ0SjJfYUNEVmtCbHczVUNhMnNGN1hJVmlWamJSdWhWZUZLb0FrdDRnUTdmeDlYZ2FXc3bSAYIBQVVfeXFMT01sUzZlekZLMzdZZkVEcmFONHNLdEdpQnhhM3l2R21EcXhxWWdhTE50cVRhckNQV2lQb0UyWDNjblFGRWJiakFyN3dzeGhOandBYm9MU2RwaDJzM3FVb0NURFFqRzFlNl9iRDFjWWJXeHJuQzNIMm1jN0JRWTNBMXFqQQ?oc=5",
-      "isNew": false
-    },
-    {
-      "id": "b0d4bc518d6a",
-      "title": "How to Make Sense of Mayhem in the Bond Market",
-      "source": "The New York Times",
-      "date": "2026-09-11T09:03:06Z",
-      "topic": "Rates & Macro",
-      "summary": "",
-      "link": "https://news.google.com/rss/articles/CBMigAFBVV95cUxNYS1NcmVLQ2tzMmJNUGRmR2dvT3ZDUkFQZVNrLUdfa1JVazlXdzItNEkteWhxU3hMNEZ4OXZZS2tnWFQ2U3c3LWdkQ2lfYU5BX01nNXpuNkVSQ0lRWGduWWhSX0ZlcGROSllsTHE3M2FCZVVvT3hVbnlRTTdqT3dKQw?oc=5",
       "isNew": false
     }
   ]

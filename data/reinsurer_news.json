@@ -1,5 +1,5 @@
 {
-  "updated": "2026-09-16T18:56:47Z",
+  "updated": "2026-09-16T21:23:38Z",
   "lookback_days": 14,
   "feeds": [
     {
@@ -83,7 +83,7 @@
     {
       "name": "Google News: Somerset Re",
       "ok": true,
-      "count": 1,
+      "count": 0,
       "error": null
     },
     {
@@ -272,8 +272,8 @@
       "id": "2d1331b18ab5",
       "title": "Aspida Appoints Brian Lewis As CFO",
       "link": "https://news.google.com/rss/articles/CBMibEFVX3lxTE4wTVRmN3M0ZUtIVkRTaGJZN2R5RGNpTS01aEV4RGVwcVlBTFMtS2pObkNZTm9vZGM4Y3BrXzZPU2t2OEhXUzhLOFIyRmpCSGRWb1c3dm5MaTB3UmhhbEYyd1FwZy1GeTdPVnFVMw?oc=5",
-      "source": "bernews.com",
-      "feed": "Google News: Aspida",
+      "source": "Bernews",
+      "feed": "Google News: Fortitude Re",
       "date": "2026-09-04T07:00:00Z",
       "summary": "",
       "companies": [

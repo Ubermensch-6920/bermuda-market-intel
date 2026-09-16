@@ -1,19 +1,19 @@
 # Reinsurer News Monitor
 
 Bermuda life & annuity watchlist — last 14 days — 18 items
-Generated Wed 16 Sep 2026, 15:56 ADT
+Generated Wed 16 Sep 2026, 18:23 ADT
 
 ## Feed status
 
 - ✅ **Artemis.bm** — 10 items
-- ✅ **Google News (16 of 16 companies)** — 46 items
+- ✅ **Google News (16 of 16 companies)** — 45 items
 - ❌ **Reinsurance News** — failed: HTTPError: HTTP Error 403: Forbidden
 
 ## Aspida
 
 - **2026-09-14** — The Manila Times — [Aspida Appoints Aaron Sarfatti as Chief Risk Officer](https://news.google.com/rss/articles/CBMixAFBVV95cUxQbWRhdlItOHFLM3gxS1hJVU5JNkQwTXdWYWtwOXNhb28tQURtU3RLcGQxS0gyRktaU2VZUWdrUE9TbkstM0plb1N1NXZsM2dCOG9JVkJ0Rk1nVGptQTlESkpKZ0NMQmtOOXNWQ3lEVE82NER6M0FoSXZRYTVaRm9ucTI5ZnAxcll1NjdvcXNBWGFTUjZTQnZqZTBjZXJoc0pfXzZ5M0duQkp2U1dIZl9QbTlzRGJkWFFmMTZhOFlFMVpENlZh0gHKAUFVX3lxTE5Kd012QkZON3lzaHQtbldVdjhTeVpJcDZ2bnNfY3JHUV9GS0h6cHU4NW1fU3VoaWpSTHZtRzZrS3VBakxvclE4TXo1TVNaaHNKTTJBMkxnWnlyYUYzdUFya3pNLWpDZmdnaEphYnkyMUVEbVdpOW90eDkzRDlUTmdGVmF1TG9taWVoRkczc21nRHl6cXoxdDRPblpIR0Q5bzNRM0FGaTAwUDBlc2lEU0ZSRE1VZV9VMllYSnhTdnU0TUk3QzVmaGF5Z1E?oc=5)
 - **2026-09-07** — Royal Gazette | Bermuda — [Aspida Re names Brian Lewis as CFO](https://news.google.com/rss/articles/CBMipAFBVV95cUxOWnRKa1g4eTlyRWN3dmFQdnFCZzFoZzNnVFE1ZVBELXBtZ2prYmhaTVNRRUYwaV9walRVOVBxNk9UcXYtN1JNX1JrQ08yaHZvT3dxaWxJX0lzZGFraXpJUE5GOU8zaUlJcVN0cUVhVXh0UnBrVEEwYjFoM1M4aS1XRlhUdlluWjI1SUpJdV9WUDFsZFVtTzRpUlpKWVM4TV9KSzJSMA?oc=5)
-- **2026-09-04** — bernews.com — [Aspida Appoints Brian Lewis As CFO](https://news.google.com/rss/articles/CBMibEFVX3lxTE4wTVRmN3M0ZUtIVkRTaGJZN2R5RGNpTS01aEV4RGVwcVlBTFMtS2pObkNZTm9vZGM4Y3BrXzZPU2t2OEhXUzhLOFIyRmpCSGRWb1c3dm5MaTB3UmhhbEYyd1FwZy1GeTdPVnFVMw?oc=5)
+- **2026-09-04** — Bernews — [Aspida Appoints Brian Lewis As CFO](https://news.google.com/rss/articles/CBMibEFVX3lxTE4wTVRmN3M0ZUtIVkRTaGJZN2R5RGNpTS01aEV4RGVwcVlBTFMtS2pObkNZTm9vZGM4Y3BrXzZPU2t2OEhXUzhLOFIyRmpCSGRWb1c3dm5MaTB3UmhhbEYyd1FwZy1GeTdPVnFVMw?oc=5)
 - **2026-09-03** — Investing.com — [Aspida Life Re appoints Brian Lewis as CFO in Bermuda](https://news.google.com/rss/articles/CBMirwFBVV95cUxNRlRVd054RlgybGtZb2FzUjhJcWpvOVBjTjJpLTBvWG9HdVN2SUppZ0Z5WDlNQ0RjcjJZcDh0Ty1mRWVsN1NsY1RRcjFwdjg2SEhzeGdyeGRDZEVRUFY4azF3VC04U3Y4RHJ4bVQwal9nY0Z0ZDlHbG5odktxem0ybVktM09hVmhZcHJfUXVCQVV6eU5VWXQ4WVhDSl9hN1BPdzktS2JhNUFGQ0w2Y0Zn?oc=5)
 - **2026-09-03** — The Manila Times — [Aspida Appoints Brian Lewis as Chief Financial Officer of Aspida Re](https://news.google.com/rss/articles/CBMi2AFBVV95cUxPNElYXzI1OTZscFZ3Ymttc1N6Zl9iNmwyWVQ2dXJ6UWJGcUlZb1NtdG5PN24wZkJCdHlfc0VpRENoVnFpanRrS3FsU1FidmlFcmxIbExxbDkwamRnWjNlVEpvTk80N3RnNlhxdVktLUhoNkFsLTA5YVZMWXJ3RkN1WVUtZ1pTSHZ4aEFJZGZ5V1dCTkRtWlVwTHFWYlFuX1VYOVJRWWZwNzJCOWZwYk8wdXVraVlTSzNNbnFOaUpfWFU4M2hGYjhUbFVWVzdKcHl2LWc3ZTVXb1TSAd4BQVVfeXFMTUdNRzdVY2w2MldFZjJCTU5rWXBfSndETFdDWV9hWVBGRERuR1lEaUlERW5VOW1vNE5TUXE1bC1UbG9aY2dNZTFZT3JVcDR5VEZlZEhNenhydWNrRTROeEVuWlJCcjVUcmtlMnBDZ09obGdIOEV4VzVzRXIyNHZrcjJvUFNwcklCU2JXdVpWVXpGSzY3RXZLWTkyZ3lGd1FVSENVdXoycHVEM09XRGUzS0l5YjBvOXZvYWNERmJOYjFQZFpTZUtXQUJvd3BLU25tRFNuMlJjU1B6Nk5aSlR3?oc=5)
 
