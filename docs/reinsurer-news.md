@@ -1,13 +1,28 @@
 # Reinsurer News Monitor
 
-Bermuda life & annuity watchlist — last 14 days — 17 items
-Generated Thu 17 Sep 2026, 08:47 ADT
+Bermuda life & annuity watchlist — last 14 days — 15 items
+Generated Thu 17 Sep 2026, 14:08 ADT
 
 ## Feed status
 
 - ✅ **Artemis.bm** — 10 items
-- ✅ **Google News (16 of 16 companies)** — 37 items
-- ✅ **Reinsurance News** — 10 items
+- ❌ **Google News: Aspida** — failed: HTTPError: HTTP Error 503: Service Unavailable
+- ❌ **Google News: Athene** — failed: HTTPError: HTTP Error 503: Service Unavailable
+- ❌ **Google News: Catalina** — failed: HTTPError: HTTP Error 503: Service Unavailable
+- ❌ **Google News: Fortitude Re** — failed: HTTPError: HTTP Error 503: Service Unavailable
+- ❌ **Google News: Global Atlantic** — failed: HTTPError: HTTP Error 503: Service Unavailable
+- ❌ **Google News: Kuvare** — failed: HTTPError: HTTP Error 503: Service Unavailable
+- ❌ **Google News: Martello Re** — failed: HTTPError: HTTP Error 503: Service Unavailable
+- ❌ **Google News: Monument Re** — failed: HTTPError: HTTP Error 503: Service Unavailable
+- ❌ **Google News: Prismic Re** — failed: HTTPError: HTTP Error 503: Service Unavailable
+- ❌ **Google News: RGA** — failed: HTTPError: HTTP Error 503: Service Unavailable
+- ❌ **Google News: Resolution Re** — failed: HTTPError: HTTP Error 503: Service Unavailable
+- ❌ **Google News: Sagicor** — failed: HTTPError: HTTP Error 503: Service Unavailable
+- ❌ **Google News: Somerset Re** — failed: HTTPError: HTTP Error 503: Service Unavailable
+- ❌ **Google News: Talcott** — failed: HTTPError: HTTP Error 503: Service Unavailable
+- ❌ **Google News: Venerable** — failed: HTTPError: HTTP Error 503: Service Unavailable
+- ❌ **Google News: Wilton Re** — failed: HTTPError: HTTP Error 503: Service Unavailable
+- ❌ **Reinsurance News** — failed: HTTPError: HTTP Error 403: Forbidden
 
 ## Aspida
 
@@ -16,7 +31,6 @@ Generated Thu 17 Sep 2026, 08:47 ADT
 - **2026-09-14** — GlobeNewswire — [Aspida Appoints Aaron Sarfatti as Chief Risk Officer](https://news.google.com/rss/articles/CBMiwgFBVV95cUxQVzAzX1dBbk96QVU1N3BMM1gzWThtbTBNdlljY0tlYWxTMWpBRFM3dEkwdllsMGNJNHlTY3hwNXVXQTdXOUItXzEydDBxdFc5TUtNS3NyLXQ5OWc3WU5wdWtOcjg5bzB0NFAwbWxIcmYxRXBHMlZlclY4RXc4dlFtM3lpQjNJV3ZsT1JIV1c4TnNTdGZPbVZaSnkxVmRYQnR6UkhfR3hZVU9oZHRkVlBhOGJTTHRZc2kzUzY5XzFQUGpoUQ?oc=5)
 - **2026-09-07** — Royal Gazette | Bermuda — [Aspida Re names Brian Lewis as CFO](https://news.google.com/rss/articles/CBMipAFBVV95cUxOWnRKa1g4eTlyRWN3dmFQdnFCZzFoZzNnVFE1ZVBELXBtZ2prYmhaTVNRRUYwaV9walRVOVBxNk9UcXYtN1JNX1JrQ08yaHZvT3dxaWxJX0lzZGFraXpJUE5GOU8zaUlJcVN0cUVhVXh0UnBrVEEwYjFoM1M4aS1XRlhUdlluWjI1SUpJdV9WUDFsZFVtTzRpUlpKWVM4TV9KSzJSMA?oc=5)
 - **2026-09-04** — Bernews — [Aspida Appoints Brian Lewis As CFO](https://news.google.com/rss/articles/CBMibEFVX3lxTE4wTVRmN3M0ZUtIVkRTaGJZN2R5RGNpTS01aEV4RGVwcVlBTFMtS2pObkNZTm9vZGM4Y3BrXzZPU2t2OEhXUzhLOFIyRmpCSGRWb1c3dm5MaTB3UmhhbEYyd1FwZy1GeTdPVnFVMw?oc=5)
-- **2026-09-03** — Investing.com India — [Aspida Life Re appoints Brian Lewis as CFO in Bermuda By Investing.com](https://news.google.com/rss/articles/CBMitAFBVV95cUxOU3BsQThGREpyN21pWGU4dGhOMVBrOUdycURiNVFmeS10Z0tBVE5ISmFWQXcyLXNQcks1Y0dJdVNVMEdjSWdJQWNXY01zdFQ4bFlWZFZUdnpmZ0ZqbWh6TDFsY3pHQklQOGhyTEhjdEE4UnhyOWZiQjFKZHhVb1RSWG90dUlnYnNtWjM2dzlFMnhGUE1fSHAwX01wSUJrdWpHSUNWM1BkQkZUVTlqSjE3SmpZSHQ?oc=5)
 
 ## RGA
 
@@ -29,7 +43,6 @@ Generated Thu 17 Sep 2026, 08:47 ADT
 - **2026-09-09** — Yahoo Finance — [Are You Looking for a Top Momentum Pick? Why Reinsurance Group (RGA) is a Great Choice](https://news.google.com/rss/articles/CBMimgFBVV95cUxQWE9WLVhYcU1ZSkx3a294b1FVejcwWnNrTFlmQWNldTZFYy1IdHAwVHljeFNLSE15Y0RLdnJmYTdxY1lCUmRqaXVDb2NDTjlQREUxbzR4MVJ6TFVmMWJma1Q2TzBla09xSUZGdkhSaFpfcEFRT2sxend6WGdJVUlyeWVsR3dRUk9GN1JISmtzcGVrNU9pcHVIa21R?oc=5)
 - **2026-09-06** — MarketBeat — [Reinsurance Group of America, Incorporated (NYSE:RGA) Given Consensus Recommendation of "Moderate Buy" by Analysts](https://news.google.com/rss/articles/CBMigwJBVV95cUxPQktCWkJWYUZzQ2dsZjlndjVheGlEbHkzSGdnVFVIeC04QVpvaVFYdEtpb3phcnJwOFVUU2tVak40cjAybGltZjdDUWxJV3gwZEdIRnljSkxmcmRsaUJhdnNqQUhQSm13Q2h4cFFISzBYdjg0TTU0bnpxTWIwMjUyMzQxUUo1TVNvdnNIVVByekJEaE9vRmQtR2loOFMyajBFOXE2SXRfaVIzSmlyT05EV2M0S21OM3VmRy1lM29jV3AxZHdINUEzVnVfcHZBNENyRTNwQzVPNTNtUnJnYW90Vm5MWUx0SHZZcWRBRkNNa2NpVVI1RzZEZ3FhVDcxQ2dTNGJN?oc=5)
 - **2026-09-04** — simplywall.st — [Will Reinsurance Group of America's Earnings Outperformance and Upward Revisions Change RGA's Narrative?](https://news.google.com/rss/articles/CBMi3gFBVV95cUxOeFFYMlZkQmZiUWxueHNPaFIyLWJVNTZHaGxiUnpTMXRzYlJCelRaSWwwU1FaWnZuUkpQek1FajBoRl80MUNXRlQtS25tOVE1SGtwMk1Sb1R3TC1Ua2YtWGdtLWhiNmRIdF9KUTNtbTRYTDEyY2tBQjhrN0ttVW5LSWYtcXM3bkdDNWVjejlkb21SZU51dkxKUS1Zc0R4OVhWNlJkU1dYcnBVRVhHQWFjWWRRRzBlZ3NFZHZMTnhhUFE2aUtyejE0bGhxQnJaam1CdnpRUVU3RXhjemh4TXfSAeMBQVVfeXFMTkd2R3l2OFRtb0drNFVlNnZJb2F1U1RmWnRyMC1QQ1RuTXZCYmtlSkFBLUJPWDVsMlIyODBvOGxiVm41dW9aaVlzZFFtbHJOMkRGalJjNGdNYjByQ3JhQS1CNnlnckp4bEg2REUwUENTLWptczZaMXVnVS1NbXFzMVRSc1BXU3BENkM2TWx2Y3lnZm5oR2RlS0pNRDNtcEF1UlpsNTMwYnBpUWZtX2pCUl9hbnlxb3lzLUdEcGNnRW51QkRkSUYzSUFLby0xWFpiYUpxbTdTaEdZRHQ5cnBsYjJzR0E?oc=5)
-- **2026-09-03** — TradingView — [RGA Hits 52-Week High: Time to Add the Stock for Better Returns?](https://news.google.com/rss/articles/CBMiugFBVV95cUxOWm9DX2JUdlBVRXBfc2JMWXpCemJPRlg4eHpBam9PQUtMTnV6bDJaYlhUeGFEbDl0RE9rUnpNa2VxNUh3ajE4QkZTZ0JzMkVvMXZXM1hRUWhqRHZpSWZpSVNfaGU1a3U1WlFmbVRMTi0tM3BISmJHT2VGUHhIWXFnMFVZeFY1Q1VJLS1QTGV2VVBQWjhpTE5Jak5kN0wwZkhNZ3VXNVA1WDZOTVlKb09waXQxcHkzMVpXQWc?oc=5)
 
 ## Sagicor
 
