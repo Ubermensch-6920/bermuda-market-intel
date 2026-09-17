@@ -1,5 +1,5 @@
 {
-  "updated": "2026-09-17T05:01:12Z",
+  "updated": "2026-09-17T11:47:13Z",
   "topics": [
     "Insurance AM",
     "Private Credit",
@@ -7,6 +7,16 @@
     "Structured Credit"
   ],
   "items": [
+    {
+      "id": "fefcacde8a40",
+      "title": "Property reinsurance investing offers more manageable tail risk than perceived: Agecroft",
+      "source": "Artemis.bm",
+      "date": "2026-09-17T08:02:07Z",
+      "topic": "Insurance AM",
+      "summary": "",
+      "link": "https://news.google.com/rss/articles/CBMitwFBVV95cUxQQm9nSWdxSnl0blVCZm82YlNGaEFxcU84ZHFIMDVWeGRlZUU2OEhYc0ZBVXByTVJwSTJFSG93X0JEd3ZfalFpLVRBVEhZbC1RQmZ0VEJRU0pJdDZpUlZuRFVWNjBXem5FbDktTFZYWWxfS3B0UUFndXJIQWVBdHVVNTYyamhfSXZ6MGc4MlFSZl9oVUtjTmNLMjB5SmJrZnVwbHJ4dDYzR3cyUkl6MjBZUWlBa3h4elk?oc=5",
+      "isNew": false
+    },
     {
       "id": "92d71e838776",
       "title": "Fed Rate Hike Squeezes an Already Stressed Private Credit Sector",
@@ -295,16 +305,6 @@
       "topic": "Rates & Macro",
       "summary": "",
       "link": "https://news.google.com/rss/articles/CBMiwgFBVV95cUxNYzFoREd5U044TVVrMWt5aG16V201R0c2Yzg0Q3NnSU5kNkRwb3JIeWV5emo1S0lHWVR5R21iY190Q2JjV0NiV0JvcS1mS01MSEg4MU9IMk1HSDFrWE5ZYWtMdXF0VTBBb09VTXNtY3B4M2JPSjFONS1nbHcxNFBKMXlOUjJJS0RQMEFGSHJRdy1SN2h0cEdPRFFnUVk1bkRLcGJaVEJrRm80WXJSbmVTVWw3Q0M1a1BMZTZIZjZqdklFUQ?oc=5",
-      "isNew": false
-    },
-    {
-      "id": "e74527f53120",
-      "title": "Surging bond yields presage pain\u2014and not just for bond investors",
-      "source": "The Economist",
-      "date": "2026-09-11T16:02:32Z",
-      "topic": "Rates & Macro",
-      "summary": "",
-      "link": "https://news.google.com/rss/articles/CBMiwAFBVV95cUxNeW5sVHpqU0VJbnY0XzUxYjlmbmhfZVYtdGxNTHBJbnRVV2h1Y1FlYTJVNGpyeWJtQlU2WjhkeE5rcmt4MWtyd0JEejdJNU1JcEluYW52OUZZNFM5UHNLd3J1dV85bW9MajkwWElVQTZQWDVMY1l0bW1IbTU2TDAwQzExejVLdk1fMTc1UkdrTjNpNi03ellyZjFTNnFXSHpQYWRjRFAya1dLSFUtQlVBLThGcHBmSzRNZGRrUElvSWc?oc=5",
       "isNew": false
     }
   ]

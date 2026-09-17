@@ -1,5 +1,5 @@
 {
-  "updated": "2026-09-17T05:01:16Z",
+  "updated": "2026-09-17T11:47:16Z",
   "lookback_days": 14,
   "feeds": [
     {
@@ -11,13 +11,13 @@
     {
       "name": "Google News: Aspida",
       "ok": true,
-      "count": 5,
+      "count": 6,
       "error": null
     },
     {
       "name": "Google News: Athene",
       "ok": true,
-      "count": 9,
+      "count": 6,
       "error": null
     },
     {
@@ -29,7 +29,7 @@
     {
       "name": "Google News: Fortitude Re",
       "ok": true,
-      "count": 5,
+      "count": 4,
       "error": null
     },
     {
@@ -59,13 +59,13 @@
     {
       "name": "Google News: Prismic Re",
       "ok": true,
-      "count": 1,
+      "count": 0,
       "error": null
     },
     {
       "name": "Google News: RGA",
       "ok": true,
-      "count": 12,
+      "count": 11,
       "error": null
     },
     {
@@ -89,7 +89,7 @@
     {
       "name": "Google News: Talcott",
       "ok": true,
-      "count": 1,
+      "count": 0,
       "error": null
     },
     {
@@ -101,7 +101,7 @@
     {
       "name": "Google News: Wilton Re",
       "ok": true,
-      "count": 5,
+      "count": 1,
       "error": null
     },
     {
@@ -139,10 +139,10 @@
     {
       "id": "56161ec89b77",
       "title": "Aspida Appoints Aaron Sarfatti as Chief Risk Officer",
-      "link": "https://news.google.com/rss/articles/CBMixAFBVV95cUxQbWRhdlItOHFLM3gxS1hJVU5JNkQwTXdWYWtwOXNhb28tQURtU3RLcGQxS0gyRktaU2VZUWdrUE9TbkstM0plb1N1NXZsM2dCOG9JVkJ0Rk1nVGptQTlESkpKZ0NMQmtOOXNWQ3lEVE82NER6M0FoSXZRYTVaRm9ucTI5ZnAxcll1NjdvcXNBWGFTUjZTQnZqZTBjZXJoc0pfXzZ5M0duQkp2U1dIZl9QbTlzRGJkWFFmMTZhOFlFMVpENlZh0gHKAUFVX3lxTE5Kd012QkZON3lzaHQtbldVdjhTeVpJcDZ2bnNfY3JHUV9GS0h6cHU4NW1fU3VoaWpSTHZtRzZrS3VBakxvclE4TXo1TVNaaHNKTTJBMkxnWnlyYUYzdUFya3pNLWpDZmdnaEphYnkyMUVEbVdpOW90eDkzRDlUTmdGVmF1TG9taWVoRkczc21nRHl6cXoxdDRPblpIR0Q5bzNRM0FGaTAwUDBlc2lEU0ZSRE1VZV9VMllYSnhTdnU0TUk3QzVmaGF5Z1E?oc=5",
-      "source": "The Manila Times",
+      "link": "https://news.google.com/rss/articles/CBMiwgFBVV95cUxQVzAzX1dBbk96QVU1N3BMM1gzWThtbTBNdlljY0tlYWxTMWpBRFM3dEkwdllsMGNJNHlTY3hwNXVXQTdXOUItXzEydDBxdFc5TUtNS3NyLXQ5OWc3WU5wdWtOcjg5bzB0NFAwbWxIcmYxRXBHMlZlclY4RXc4dlFtM3lpQjNJV3ZsT1JIV1c4TnNTdGZPbVZaSnkxVmRYQnR6UkhfR3hZVU9oZHRkVlBhOGJTTHRZc2kzUzY5XzFQUGpoUQ?oc=5",
+      "source": "GlobeNewswire",
       "feed": "Google News: Aspida",
-      "date": "2026-09-14T13:19:57Z",
+      "date": "2026-09-14T13:00:00Z",
       "summary": "",
       "companies": [
         "Aspida"
@@ -285,7 +285,7 @@
       "title": "Aspida Appoints Brian Lewis As CFO",
       "link": "https://news.google.com/rss/articles/CBMibEFVX3lxTE4wTVRmN3M0ZUtIVkRTaGJZN2R5RGNpTS01aEV4RGVwcVlBTFMtS2pObkNZTm9vZGM4Y3BrXzZPU2t2OEhXUzhLOFIyRmpCSGRWb1c3dm5MaTB3UmhhbEYyd1FwZy1GeTdPVnFVMw?oc=5",
       "source": "Bernews",
-      "feed": "Google News: Aspida",
+      "feed": "Google News: Fortitude Re",
       "date": "2026-09-04T07:00:00Z",
       "summary": "",
       "companies": [
@@ -305,6 +305,18 @@
       ]
     },
     {
+      "id": "3b0a9d5a7361",
+      "title": "Aspida Life Re appoints Brian Lewis as CFO in Bermuda By Investing.com",
+      "link": "https://news.google.com/rss/articles/CBMitAFBVV95cUxOU3BsQThGREpyN21pWGU4dGhOMVBrOUdycURiNVFmeS10Z0tBVE5ISmFWQXcyLXNQcks1Y0dJdVNVMEdjSWdJQWNXY01zdFQ4bFlWZFZUdnpmZ0ZqbWh6TDFsY3pHQklQOGhyTEhjdEE4UnhyOWZiQjFKZHhVb1RSWG90dUlnYnNtWjM2dzlFMnhGUE1fSHAwX01wSUJrdWpHSUNWM1BkQkZUVTlqSjE3SmpZSHQ?oc=5",
+      "source": "Investing.com India",
+      "feed": "Google News: Fortitude Re",
+      "date": "2026-09-03T13:38:31Z",
+      "summary": "",
+      "companies": [
+        "Aspida"
+      ]
+    },
+    {
       "id": "9ed517a97d97",
       "title": "Reinsurance Group of America, Incorporated (RGA) Hits Fresh High: Is There Still Room to Run?",
       "link": "https://news.google.com/rss/articles/CBMiqwFBVV95cUxPUkJpb3duSjFWdjlJcW1oc3JURThKNWk5djFGanNqZmxyNmtiMHljY2ZRMkxKMGk3SmgxQUNsYld4dFBYTUx1WExZSk4zOHozcUJOMFpxejVybjdlUVdDeERabnV3LVJaTFF6XzhkLWc0Nm5DaWVoOHZPUGNudWxZN09hNUo3akNScGtrMlhJenpHajFGSlE5UUZEaUdDdkZrcHhrdllDc2VTUm8?oc=5",
@@ -314,18 +326,6 @@
       "summary": "",
       "companies": [
         "RGA"
-      ]
-    },
-    {
-      "id": "3b0a9d5a7361",
-      "title": "Aspida Life Re appoints Brian Lewis as CFO in Bermuda",
-      "link": "https://news.google.com/rss/articles/CBMirwFBVV95cUxNRlRVd054RlgybGtZb2FzUjhJcWpvOVBjTjJpLTBvWG9HdVN2SUppZ0Z5WDlNQ0RjcjJZcDh0Ty1mRWVsN1NsY1RRcjFwdjg2SEhzeGdyeGRDZEVRUFY4azF3VC04U3Y4RHJ4bVQwal9nY0Z0ZDlHbG5odktxem0ybVktM09hVmhZcHJfUXVCQVV6eU5VWXQ4WVhDSl9hN1BPdzktS2JhNUFGQ0w2Y0Zn?oc=5",
-      "source": "Investing.com",
-      "feed": "Google News: Fortitude Re",
-      "date": "2026-09-03T07:00:00Z",
-      "summary": "",
-      "companies": [
-        "Aspida"
       ]
     },
     {

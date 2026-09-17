@@ -1,23 +1,22 @@
 # Reinsurer News Monitor
 
-Bermuda life & annuity watchlist — last 14 days — 19 items
-Generated Thu 17 Sep 2026, 02:01 ADT
+Bermuda life & annuity watchlist — last 14 days — 17 items
+Generated Thu 17 Sep 2026, 08:47 ADT
 
 ## Feed status
 
 - ✅ **Artemis.bm** — 10 items
-- ✅ **Google News (16 of 16 companies)** — 47 items
+- ✅ **Google News (16 of 16 companies)** — 37 items
 - ✅ **Reinsurance News** — 10 items
 
 ## Aspida
 
 - **2026-09-17** — Reinsurance News — [Aspida Holdings welcomes Sarfatti as Chief Risk Officer](https://www.reinsurancene.ws/aspida-holdings-welcomes-sarfatti-as-chief-risk-officer/)
   - Aspida Holdings Ltd., a provider of retirement and reinsurance solutions, has announced the appointment of Aaron Sarfatti as Chief Risk Officer. In his new position, Sarfatti will lead Aspida’s enterprise risk function, helping strengthen the company’s risk management capabilities and supporting disciplined growth across its retirement and reinsurance businesses. The executive brings over two deca
-- **2026-09-14** — The Manila Times — [Aspida Appoints Aaron Sarfatti as Chief Risk Officer](https://news.google.com/rss/articles/CBMixAFBVV95cUxQbWRhdlItOHFLM3gxS1hJVU5JNkQwTXdWYWtwOXNhb28tQURtU3RLcGQxS0gyRktaU2VZUWdrUE9TbkstM0plb1N1NXZsM2dCOG9JVkJ0Rk1nVGptQTlESkpKZ0NMQmtOOXNWQ3lEVE82NER6M0FoSXZRYTVaRm9ucTI5ZnAxcll1NjdvcXNBWGFTUjZTQnZqZTBjZXJoc0pfXzZ5M0duQkp2U1dIZl9QbTlzRGJkWFFmMTZhOFlFMVpENlZh0gHKAUFVX3lxTE5Kd012QkZON3lzaHQtbldVdjhTeVpJcDZ2bnNfY3JHUV9GS0h6cHU4NW1fU3VoaWpSTHZtRzZrS3VBakxvclE4TXo1TVNaaHNKTTJBMkxnWnlyYUYzdUFya3pNLWpDZmdnaEphYnkyMUVEbVdpOW90eDkzRDlUTmdGVmF1TG9taWVoRkczc21nRHl6cXoxdDRPblpIR0Q5bzNRM0FGaTAwUDBlc2lEU0ZSRE1VZV9VMllYSnhTdnU0TUk3QzVmaGF5Z1E?oc=5)
+- **2026-09-14** — GlobeNewswire — [Aspida Appoints Aaron Sarfatti as Chief Risk Officer](https://news.google.com/rss/articles/CBMiwgFBVV95cUxQVzAzX1dBbk96QVU1N3BMM1gzWThtbTBNdlljY0tlYWxTMWpBRFM3dEkwdllsMGNJNHlTY3hwNXVXQTdXOUItXzEydDBxdFc5TUtNS3NyLXQ5OWc3WU5wdWtOcjg5bzB0NFAwbWxIcmYxRXBHMlZlclY4RXc4dlFtM3lpQjNJV3ZsT1JIV1c4TnNTdGZPbVZaSnkxVmRYQnR6UkhfR3hZVU9oZHRkVlBhOGJTTHRZc2kzUzY5XzFQUGpoUQ?oc=5)
 - **2026-09-07** — Royal Gazette | Bermuda — [Aspida Re names Brian Lewis as CFO](https://news.google.com/rss/articles/CBMipAFBVV95cUxOWnRKa1g4eTlyRWN3dmFQdnFCZzFoZzNnVFE1ZVBELXBtZ2prYmhaTVNRRUYwaV9walRVOVBxNk9UcXYtN1JNX1JrQ08yaHZvT3dxaWxJX0lzZGFraXpJUE5GOU8zaUlJcVN0cUVhVXh0UnBrVEEwYjFoM1M4aS1XRlhUdlluWjI1SUpJdV9WUDFsZFVtTzRpUlpKWVM4TV9KSzJSMA?oc=5)
 - **2026-09-04** — Bernews — [Aspida Appoints Brian Lewis As CFO](https://news.google.com/rss/articles/CBMibEFVX3lxTE4wTVRmN3M0ZUtIVkRTaGJZN2R5RGNpTS01aEV4RGVwcVlBTFMtS2pObkNZTm9vZGM4Y3BrXzZPU2t2OEhXUzhLOFIyRmpCSGRWb1c3dm5MaTB3UmhhbEYyd1FwZy1GeTdPVnFVMw?oc=5)
-- **2026-09-03** — Investing.com — [Aspida Life Re appoints Brian Lewis as CFO in Bermuda](https://news.google.com/rss/articles/CBMirwFBVV95cUxNRlRVd054RlgybGtZb2FzUjhJcWpvOVBjTjJpLTBvWG9HdVN2SUppZ0Z5WDlNQ0RjcjJZcDh0Ty1mRWVsN1NsY1RRcjFwdjg2SEhzeGdyeGRDZEVRUFY4azF3VC04U3Y4RHJ4bVQwal9nY0Z0ZDlHbG5odktxem0ybVktM09hVmhZcHJfUXVCQVV6eU5VWXQ4WVhDSl9hN1BPdzktS2JhNUFGQ0w2Y0Zn?oc=5)
-- **2026-09-03** — The Manila Times — [Aspida Appoints Brian Lewis as Chief Financial Officer of Aspida Re](https://news.google.com/rss/articles/CBMi2AFBVV95cUxPNElYXzI1OTZscFZ3Ymttc1N6Zl9iNmwyWVQ2dXJ6UWJGcUlZb1NtdG5PN24wZkJCdHlfc0VpRENoVnFpanRrS3FsU1FidmlFcmxIbExxbDkwamRnWjNlVEpvTk80N3RnNlhxdVktLUhoNkFsLTA5YVZMWXJ3RkN1WVUtZ1pTSHZ4aEFJZGZ5V1dCTkRtWlVwTHFWYlFuX1VYOVJRWWZwNzJCOWZwYk8wdXVraVlTSzNNbnFOaUpfWFU4M2hGYjhUbFVWVzdKcHl2LWc3ZTVXb1TSAd4BQVVfeXFMTUdNRzdVY2w2MldFZjJCTU5rWXBfSndETFdDWV9hWVBGRERuR1lEaUlERW5VOW1vNE5TUXE1bC1UbG9aY2dNZTFZT3JVcDR5VEZlZEhNenhydWNrRTROeEVuWlJCcjVUcmtlMnBDZ09obGdIOEV4VzVzRXIyNHZrcjJvUFNwcklCU2JXdVpWVXpGSzY3RXZLWTkyZ3lGd1FVSENVdXoycHVEM09XRGUzS0l5YjBvOXZvYWNERmJOYjFQZFpTZUtXQUJvd3BLU25tRFNuMlJjU1B6Nk5aSlR3?oc=5)
+- **2026-09-03** — Investing.com India — [Aspida Life Re appoints Brian Lewis as CFO in Bermuda By Investing.com](https://news.google.com/rss/articles/CBMitAFBVV95cUxOU3BsQThGREpyN21pWGU4dGhOMVBrOUdycURiNVFmeS10Z0tBVE5ISmFWQXcyLXNQcks1Y0dJdVNVMEdjSWdJQWNXY01zdFQ4bFlWZFZUdnpmZ0ZqbWh6TDFsY3pHQklQOGhyTEhjdEE4UnhyOWZiQjFKZHhVb1RSWG90dUlnYnNtWjM2dzlFMnhGUE1fSHAwX01wSUJrdWpHSUNWM1BkQkZUVTlqSjE3SmpZSHQ?oc=5)
 
 ## RGA
 
@@ -31,7 +30,6 @@ Generated Thu 17 Sep 2026, 02:01 ADT
 - **2026-09-06** — MarketBeat — [Reinsurance Group of America, Incorporated (NYSE:RGA) Given Consensus Recommendation of "Moderate Buy" by Analysts](https://news.google.com/rss/articles/CBMigwJBVV95cUxPQktCWkJWYUZzQ2dsZjlndjVheGlEbHkzSGdnVFVIeC04QVpvaVFYdEtpb3phcnJwOFVUU2tVak40cjAybGltZjdDUWxJV3gwZEdIRnljSkxmcmRsaUJhdnNqQUhQSm13Q2h4cFFISzBYdjg0TTU0bnpxTWIwMjUyMzQxUUo1TVNvdnNIVVByekJEaE9vRmQtR2loOFMyajBFOXE2SXRfaVIzSmlyT05EV2M0S21OM3VmRy1lM29jV3AxZHdINUEzVnVfcHZBNENyRTNwQzVPNTNtUnJnYW90Vm5MWUx0SHZZcWRBRkNNa2NpVVI1RzZEZ3FhVDcxQ2dTNGJN?oc=5)
 - **2026-09-04** — simplywall.st — [Will Reinsurance Group of America's Earnings Outperformance and Upward Revisions Change RGA's Narrative?](https://news.google.com/rss/articles/CBMi3gFBVV95cUxOeFFYMlZkQmZiUWxueHNPaFIyLWJVNTZHaGxiUnpTMXRzYlJCelRaSWwwU1FaWnZuUkpQek1FajBoRl80MUNXRlQtS25tOVE1SGtwMk1Sb1R3TC1Ua2YtWGdtLWhiNmRIdF9KUTNtbTRYTDEyY2tBQjhrN0ttVW5LSWYtcXM3bkdDNWVjejlkb21SZU51dkxKUS1Zc0R4OVhWNlJkU1dYcnBVRVhHQWFjWWRRRzBlZ3NFZHZMTnhhUFE2aUtyejE0bGhxQnJaam1CdnpRUVU3RXhjemh4TXfSAeMBQVVfeXFMTkd2R3l2OFRtb0drNFVlNnZJb2F1U1RmWnRyMC1QQ1RuTXZCYmtlSkFBLUJPWDVsMlIyODBvOGxiVm41dW9aaVlzZFFtbHJOMkRGalJjNGdNYjByQ3JhQS1CNnlnckp4bEg2REUwUENTLWptczZaMXVnVS1NbXFzMVRSc1BXU3BENkM2TWx2Y3lnZm5oR2RlS0pNRDNtcEF1UlpsNTMwYnBpUWZtX2pCUl9hbnlxb3lzLUdEcGNnRW51QkRkSUYzSUFLby0xWFpiYUpxbTdTaEdZRHQ5cnBsYjJzR0E?oc=5)
 - **2026-09-03** — TradingView — [RGA Hits 52-Week High: Time to Add the Stock for Better Returns?](https://news.google.com/rss/articles/CBMiugFBVV95cUxOWm9DX2JUdlBVRXBfc2JMWXpCemJPRlg4eHpBam9PQUtMTnV6bDJaYlhUeGFEbDl0RE9rUnpNa2VxNUh3ajE4QkZTZ0JzMkVvMXZXM1hRUWhqRHZpSWZpSVNfaGU1a3U1WlFmbVRMTi0tM3BISmJHT2VGUHhIWXFnMFVZeFY1Q1VJLS1QTGV2VVBQWjhpTE5Jak5kN0wwZkhNZ3VXNVA1WDZOTVlKb09waXQxcHkzMVpXQWc?oc=5)
-- **2026-09-03** — Yahoo Finance — [Reinsurance Group of America, Incorporated (RGA) Hits Fresh High: Is There Still Room to Run?](https://news.google.com/rss/articles/CBMiqwFBVV95cUxPUkJpb3duSjFWdjlJcW1oc3JURThKNWk5djFGanNqZmxyNmtiMHljY2ZRMkxKMGk3SmgxQUNsYld4dFBYTUx1WExZSk4zOHozcUJOMFpxejVybjdlUVdDeERabnV3LVJaTFF6XzhkLWc0Nm5DaWVoOHZPUGNudWxZN09hNUo3akNScGtrMlhJenpHajFGSlE5UUZEaUdDdkZrcHhrdllDc2VTUm8?oc=5)
 
 ## Sagicor
 
