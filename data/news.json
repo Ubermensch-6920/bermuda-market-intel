@@ -1,5 +1,5 @@
 {
-  "updated": "2026-09-17T17:07:45Z",
+  "updated": "2026-09-17T21:28:12Z",
   "topics": [
     "Insurance AM",
     "Private Credit",
@@ -7,6 +7,36 @@
     "Structured Credit"
   ],
   "items": [
+    {
+      "id": "a23def733e7f",
+      "title": "The End of Shopping? Agentic AI and the Future of Consumer Financial Services Introduction",
+      "source": "Consumer Finance Monitor",
+      "date": "2026-09-17T17:12:15Z",
+      "topic": "Private Credit",
+      "summary": "",
+      "link": "https://news.google.com/rss/articles/CBMi1wFBVV95cUxPN204Y0ZrOWFNdGRfVnJQc2JpRXF1bDY3cVhqRHVwcXdFc3A5WHRjR21zOWFFb0tsZXZwTm1OSTVMVUVzNFNReEljUkhsaHoxcHVxUThEQmNrVDlTZFpSSjRWd244NTZXZ3ZqVTVBVnpJODh4dVlLaHY3dDloLVhRZG14amxicGVpX29BTUYtdEI3aC1vYTZEZDdSR2lWRW4weEswRnkzRUFmUW9vZXRNZFB0RENtdzdJSHgwRXV4MmItb2VMM1VHNDN2UkQ1cWZiMzBEcWFQdw?oc=5",
+      "isNew": false
+    },
+    {
+      "id": "858c4f218a81",
+      "title": "3 Life Insurers to Watch as Annuity Sales Hit First-Half Record Highs",
+      "source": "TradingView",
+      "date": "2026-09-17T16:27:00Z",
+      "topic": "Insurance AM",
+      "summary": "",
+      "link": "https://news.google.com/rss/articles/CBMiwwFBVV95cUxPekVidzFOZFhmb1JHenhhYTRUaHkzenQyVloyQl93ckt1bUJHYWZFRWlkemVXd2IzMTd4ODM0MFl2MlBsbmlsOEVYR3dPTkNtZkdSUDhYU1Qya2VJdkdvTElnYnhkblVLVDY2bUNNeWZWaHJFdGtfNTRfOE44OFg2SlJka1pDWXQ4N2cwVXV4OWo2R2FXNFN4b005XzBaMDdjd2VMX2VrRHBMei1PeFhWSlo1RU9LLXRGbkI2a2k2R2NaVFU?oc=5",
+      "isNew": false
+    },
+    {
+      "id": "bb5b5b5c92c2",
+      "title": "Why the Bank of England Didn\u2019t Follow the Fed in Raising Interest Rates",
+      "source": "WSJ",
+      "date": "2026-09-17T15:33:43Z",
+      "topic": "Rates & Macro",
+      "summary": "",
+      "link": "https://news.google.com/rss/articles/CBMiwAFBVV95cUxQUHFTTGwzMjhlWGxWVjNMWDhmTnhicmVwazdvSDgzRU00SjkxR3ZVLXJzc0hEd1dBOWVkOFJEX1hQVUl2VHdVZk5sdjF5Qnk2VVBjd3pqX1hlNDRxOEIyZG91VFVoT0l2bng0VFVfV0g5dXNmaTBVNGwzaGtiaXJIemNaYkZMTmc3aHJGbW9LVm9LNjRRZy05T0R4RDlqNE5DOG5fNEpGeEZ6eGpoNEQwbXV3OUJQN3dpSVpSRXdsc24?oc=5",
+      "isNew": false
+    },
     {
       "id": "fefcacde8a40",
       "title": "Property reinsurance investing offers more manageable tail risk than perceived: Agecroft",
@@ -45,6 +75,16 @@
       "topic": "Private Credit",
       "summary": "",
       "link": "https://news.google.com/rss/articles/CBMif0FVX3lxTE1tN2F5cDBVU0NmbU9NNEtjQjhsOWlBWTRxYWZOSUhvdG1uNjVNVkpaa2xYSExqQlhkYmJzSlZRSGJJTmpobGFTOWZhd3RNSmVMQkI5WGU2UWVxdUo0eDhkQURaU3BoVmozYmgyazhCNUZ0RmNPcW5Kbjh0OHVZQ1k?oc=5",
+      "isNew": false
+    },
+    {
+      "id": "88f34386e7fc",
+      "title": "Higher Treasury yields may present opportunities",
+      "source": "BNY",
+      "date": "2026-09-16T16:18:29Z",
+      "topic": "Rates & Macro",
+      "summary": "",
+      "link": "https://news.google.com/rss/articles/CBMi3gFBVV95cUxOOEcyRDNRVUtDNWNUdmtPSkVLalc5UTRWTEduc0xndFZETVBXS0xOZ3Y5Z2Rab18wWnd0bGhCSnBuUkRzSEhmZE4wR0ZYZm55NG12Sm5GT2VTdThPem56U2RtR1RYZVhxdTMxaU5XYjJNU0NyTGhubU5EYXJFaS14dW55ZDg5QjNqWHpVRTJqeGFJRUtFZ2hEQ0RYSXpTeHZUZ0VERGdoaHc2eWVzTVotTG9Id1A1a2ppSzJ5UHhKQjBmN0tKc3UxT0hLbmdyVmFnajc3QmV0Q25OWHlXRVE?oc=5",
       "isNew": false
     },
     {
@@ -95,6 +135,16 @@
       "topic": "Rates & Macro",
       "summary": "",
       "link": "https://news.google.com/rss/articles/CBMidkFVX3lxTFB1QVRXWWxMdEItUmhvRVZRM0FwTTJZNVB5bmRleUpYQnNHNTFMMXdyQTVJTW01UGFVcE5aZzI5YjJVNDkyR2F2M1BtY25STzUxeGxGLXN4anlERW1rY1BGNEluRHR6cWh0c0pGSHdibUQ0SlV0NWc?oc=5",
+      "isNew": false
+    },
+    {
+      "id": "63f3980918e1",
+      "title": "10-year Treasury yield hits highest level since 2007 ahead of Fed rate decision",
+      "source": "CNN",
+      "date": "2026-09-15T16:54:26Z",
+      "topic": "Rates & Macro",
+      "summary": "",
+      "link": "https://news.google.com/rss/articles/CBMic0FVX3lxTE8zZ21xTmJjb1g2ZHZ3WFlRaVdtdWJERlpHMXA0a0p5TlJJaS1aZE9QUERISk9BSm1BV3dJUTVlbWE4VDdBVFlJV2p6THY4SzRsSDdSSkU4czhZUC1nYlpYWF9VMUJadzRRUGlUQWtjX1VvM1U?oc=5",
       "isNew": false
     },
     {
@@ -150,7 +200,7 @@
     {
       "id": "58846fd1dbf2",
       "title": "Spike on 10-year bond yields renews concerns over U.S. debt",
-      "source": "The Washington Post",
+      "source": "washingtonpost.com",
       "date": "2026-09-15T03:01:00Z",
       "topic": "Rates & Macro",
       "summary": "",
@@ -255,56 +305,6 @@
       "topic": "Insurance AM",
       "summary": "",
       "link": "https://news.google.com/rss/articles/CBMi2wFBVV95cUxQTW1mNm1waEhDUXllenppRXNqVnh6TUNYZFFNeEt5S3NmUk5PazY1SEx2bnlKdkpPQ2xwN21HMklpQ3YyTkFqMzFlREJKOTJXM1NWRUNCMy1jYlNLSTlvVnNCeWhRN3ZYZnM4VldkMW1uS1NoSGRNdjNXSFgteUhlTFRMalZvMDUwZW03dDFvUDBVX1V6NDhxMGtEMFBIc2xZLWJKeE0zZ3Y2aDRUb3hHYWRTS3Y1Y3RvRTA3ZktCS1dURzA2TnI1aHVzSkNhOVdDeVhZczVpUmd1cE0?oc=5",
-      "isNew": false
-    },
-    {
-      "id": "efe6567068f0",
-      "title": "Barings on why asset managers and investors are queuing up for solutions",
-      "source": "pei-privatecredit.com",
-      "date": "2026-09-11T22:31:26Z",
-      "topic": "Private Credit",
-      "summary": "",
-      "link": "https://news.google.com/rss/articles/CBMirgFBVV95cUxNUWxHQkZwcTFySnh3dWVkbGE3bC1oMVZMUmk0MUlIN1EyYVhEbGVkQm9pdm1wM2JvSlZVOWJJcVE2UFN1REd2TWtHbHJXaVJUemNIbW1IOFlaYUJNbDZQaFJXSlJVcTRUVS05Mk1aQjJhQmtHTVdCSFhrUExrXzJ5Mmx4R3hJNmdQTnhKdXRvSGxvajFoU1hzaWhjQ1p0S1NiWDNPZi1YTXpsb2toZ1E?oc=5",
-      "isNew": false
-    },
-    {
-      "id": "68a17151d378",
-      "title": "Barings on why asset managers and investors are queuing up for solutions",
-      "source": "pei-privatecredit.com",
-      "date": "2026-09-11T22:31:26Z",
-      "topic": "Insurance AM",
-      "summary": "",
-      "link": "https://news.google.com/rss/articles/CBMirgFBVV95cUxNUWxHQkZwcTFySnh3dWVkbGE3bC1oMVZMUmk0MUlIN1EyYVhEbGVkQm9pdm1wM2JvSlZVOWJJcVE2UFN1REd2TWtHbHJXaVJUemNIbW1IOFlaYUJNbDZQaFJXSlJVcTRUVS05Mk1aQjJhQmtHTVdCSFhrUExrXzJ5Mmx4R3hJNmdQTnhKdXRvSGxvajFoU1hzaWhjQ1p0S1NiWDNPZi1YTXpsb2toZ1E?oc=5",
-      "isNew": false
-    },
-    {
-      "id": "790c59857dc2",
-      "title": "After Unitranche: How the Middle Market Capital Stack Is Being Pulled Apart from Inside",
-      "source": "ABF Journal",
-      "date": "2026-09-11T22:10:26Z",
-      "topic": "Private Credit",
-      "summary": "",
-      "link": "https://news.google.com/rss/articles/CBMitAFBVV95cUxQVVdQXzFtT3pmOXBnNmxuVmFWdHgxbG9LUm00d3lZQXRpRGdfTzFTZ2hfZWk0dFh6TF82NmlNZmxNVUo2eXhYSGk2cWJVZXRDMVVZNkVoVDNQejZHdzBUd1FzQUZuOXlzTFd3NUQ3dVRDN3M3clBIQlRHdGR0dS1hWHItaGJUcm9XQmtBSk1CVVVUYkxPZmdpUVNOY2ZrQVBfb0lJTk9jU0xRUWlUUWdWcVNVQko?oc=5",
-      "isNew": false
-    },
-    {
-      "id": "008f8a56a378",
-      "title": "Economists think a rate hike is coming. Here\u2019s what that could mean for the economy",
-      "source": "Northeastern Global News",
-      "date": "2026-09-11T19:37:30Z",
-      "topic": "Rates & Macro",
-      "summary": "",
-      "link": "https://news.google.com/rss/articles/CBMie0FVX3lxTFBwQ3BHUFg3c0VXdWFNSGFpR3JSaFBodUZxMmJHUzJZMTlhVldTMVZqbWEzSGFvckhhVGVJbWtlOVpPcHNxNW5GaWdWV0NYN09zVTBLMVJkdVcwUG1HdGkyOWZsZmx3akoyaEFxakIyQ25jY1pONldYanpwTQ?oc=5",
-      "isNew": false
-    },
-    {
-      "id": "b5f06b803bce",
-      "title": "Surging bonds yields presage pain\u2014and not just for bond investors",
-      "source": "The Economist",
-      "date": "2026-09-11T16:02:32Z",
-      "topic": "Rates & Macro",
-      "summary": "",
-      "link": "https://news.google.com/rss/articles/CBMiwgFBVV95cUxNYzFoREd5U044TVVrMWt5aG16V201R0c2Yzg0Q3NnSU5kNkRwb3JIeWV5emo1S0lHWVR5R21iY190Q2JjV0NiV0JvcS1mS01MSEg4MU9IMk1HSDFrWE5ZYWtMdXF0VTBBb09VTXNtY3B4M2JPSjFONS1nbHcxNFBKMXlOUjJJS0RQMEFGSHJRdy1SN2h0cEdPRFFnUVk1bkRLcGJaVEJrRm80WXJSbmVTVWw3Q0M1a1BMZTZIZjZqdklFUQ?oc=5",
       "isNew": false
     }
   ]

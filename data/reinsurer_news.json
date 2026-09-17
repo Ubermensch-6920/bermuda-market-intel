@@ -1,5 +1,5 @@
 {
-  "updated": "2026-09-17T17:08:14Z",
+  "updated": "2026-09-17T21:28:16Z",
   "lookback_days": 14,
   "feeds": [
     {
@@ -10,105 +10,105 @@
     },
     {
       "name": "Google News: Aspida",
-      "ok": false,
-      "count": 0,
-      "error": "HTTPError: HTTP Error 503: Service Unavailable"
+      "ok": true,
+      "count": 6,
+      "error": null
     },
     {
       "name": "Google News: Athene",
-      "ok": false,
-      "count": 0,
-      "error": "HTTPError: HTTP Error 503: Service Unavailable"
+      "ok": true,
+      "count": 8,
+      "error": null
     },
     {
       "name": "Google News: Catalina",
-      "ok": false,
+      "ok": true,
       "count": 0,
-      "error": "HTTPError: HTTP Error 503: Service Unavailable"
+      "error": null
     },
     {
       "name": "Google News: Fortitude Re",
-      "ok": false,
-      "count": 0,
-      "error": "HTTPError: HTTP Error 503: Service Unavailable"
+      "ok": true,
+      "count": 3,
+      "error": null
     },
     {
       "name": "Google News: Global Atlantic",
-      "ok": false,
-      "count": 0,
-      "error": "HTTPError: HTTP Error 503: Service Unavailable"
+      "ok": true,
+      "count": 4,
+      "error": null
     },
     {
       "name": "Google News: Kuvare",
-      "ok": false,
+      "ok": true,
       "count": 0,
-      "error": "HTTPError: HTTP Error 503: Service Unavailable"
+      "error": null
     },
     {
       "name": "Google News: Martello Re",
-      "ok": false,
+      "ok": true,
       "count": 0,
-      "error": "HTTPError: HTTP Error 503: Service Unavailable"
+      "error": null
     },
     {
       "name": "Google News: Monument Re",
-      "ok": false,
-      "count": 0,
-      "error": "HTTPError: HTTP Error 503: Service Unavailable"
+      "ok": true,
+      "count": 1,
+      "error": null
     },
     {
       "name": "Google News: Prismic Re",
-      "ok": false,
+      "ok": true,
       "count": 0,
-      "error": "HTTPError: HTTP Error 503: Service Unavailable"
+      "error": null
     },
     {
       "name": "Google News: RGA",
-      "ok": false,
-      "count": 0,
-      "error": "HTTPError: HTTP Error 503: Service Unavailable"
+      "ok": true,
+      "count": 10,
+      "error": null
     },
     {
       "name": "Google News: Resolution Re",
-      "ok": false,
+      "ok": true,
       "count": 0,
-      "error": "HTTPError: HTTP Error 503: Service Unavailable"
+      "error": null
     },
     {
       "name": "Google News: Sagicor",
-      "ok": false,
-      "count": 0,
-      "error": "HTTPError: HTTP Error 503: Service Unavailable"
+      "ok": true,
+      "count": 2,
+      "error": null
     },
     {
       "name": "Google News: Somerset Re",
-      "ok": false,
-      "count": 0,
-      "error": "HTTPError: HTTP Error 503: Service Unavailable"
+      "ok": true,
+      "count": 1,
+      "error": null
     },
     {
       "name": "Google News: Talcott",
-      "ok": false,
+      "ok": true,
       "count": 0,
-      "error": "HTTPError: HTTP Error 503: Service Unavailable"
+      "error": null
     },
     {
       "name": "Google News: Venerable",
-      "ok": false,
+      "ok": true,
       "count": 0,
-      "error": "HTTPError: HTTP Error 503: Service Unavailable"
+      "error": null
     },
     {
       "name": "Google News: Wilton Re",
-      "ok": false,
-      "count": 0,
-      "error": "HTTPError: HTTP Error 503: Service Unavailable"
+      "ok": true,
+      "count": 1,
+      "error": null
     },
     {
       "name": "Reinsurance News",
-      "ok": false,
-      "count": 0,
-      "error": "HTTPError: HTTP Error 403: Forbidden"
+      "ok": true,
+      "count": 10,
+      "error": null
     }
   ],
   "items": [
@@ -164,7 +164,7 @@
       "id": "ae911c65adbb",
       "title": "Reinsurance Group of America, Incorporated $RGA Shares Bought by Engineers Gate Manager LP",
       "link": "https://news.google.com/rss/articles/CBMi4wFBVV95cUxQRTVvWWhHeTg5eTNreS1KcWQwVFNPSFBDNjFZcHpSSEFoNFhEUWI4UDNETXdlY1k4OXQ3MDVfclNUSlR5Z04wTEstQVdzc2h3S0dmVW9FWjdUNmVGU3Qwd0RseXc5VndJbERFNUhnWkFNRXpSRnZ3M2JJcUprZnFlZmNJckNhREdEWWswa0RXdWZYRFl2VUZxUTJHOFNYTnVhVW51UWZjMl9LamFvdWpjaUN2RmdEREhfdEZXcXRNQVNMWkpRNDgyTmpFb01YTWFCWGVlTVJ6dGRXMFpaMUFwRXlHNA?oc=5",
-      "source": "MarketBeat",
+      "source": "marketbeat.com",
       "feed": "Google News: RGA",
       "date": "2026-09-12T08:37:55Z",
       "summary": "",
@@ -200,7 +200,7 @@
       "id": "8233bcb1e5a4",
       "title": "42,185 Shares in Reinsurance Group of America, Incorporated $RGA Acquired by Squarepoint Ops LLC",
       "link": "https://news.google.com/rss/articles/CBMi6gFBVV95cUxOenJxWjVuY0hHS1pUeEVacERKT1lmUHl0ZmRZemJCX0tsR0dBSThhdlMxZ0ozbXJDV2xvbmpOaE9kdi1vM0JnOTl2VEEwUTdFYlQtQ1ZCSC1ublBaT3dTZU1STm5va2lIcDhpaC1sQ2k4clBjNkpTZEROZXBuenZUQ09JTGR3X3V1UFBZSFZoLURFUVE2NXNPcDdOWTFoVHpOZmtTSDR5Rk1mWGdNalRFNTB0cTU4UFlVcFVvVGVxUnVDN2hUQmU0aEV2Ml9DX0c0VUR4M3NmRWlSanp2NFl1NGdTcEh3QmhwV1E?oc=5",
-      "source": "MarketBeat",
+      "source": "marketbeat.com",
       "feed": "Google News: RGA",
       "date": "2026-09-11T09:08:06Z",
       "summary": "",
@@ -260,7 +260,7 @@
       "id": "9599107d12bf",
       "title": "Reinsurance Group of America, Incorporated (NYSE:RGA) Given Consensus Recommendation of \"Moderate Buy\" by Analysts",
       "link": "https://news.google.com/rss/articles/CBMigwJBVV95cUxPQktCWkJWYUZzQ2dsZjlndjVheGlEbHkzSGdnVFVIeC04QVpvaVFYdEtpb3phcnJwOFVUU2tVak40cjAybGltZjdDUWxJV3gwZEdIRnljSkxmcmRsaUJhdnNqQUhQSm13Q2h4cFFISzBYdjg0TTU0bnpxTWIwMjUyMzQxUUo1TVNvdnNIVVByekJEaE9vRmQtR2loOFMyajBFOXE2SXRfaVIzSmlyT05EV2M0S21OM3VmRy1lM29jV3AxZHdINUEzVnVfcHZBNENyRTNwQzVPNTNtUnJnYW90Vm5MWUx0SHZZcWRBRkNNa2NpVVI1RzZEZ3FhVDcxQ2dTNGJN?oc=5",
-      "source": "MarketBeat",
+      "source": "marketbeat.com",
       "feed": "Google News: RGA",
       "date": "2026-09-06T06:19:49Z",
       "summary": "",
