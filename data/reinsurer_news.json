@@ -1,5 +1,5 @@
 {
-  "updated": "2026-09-16T21:23:38Z",
+  "updated": "2026-09-17T05:01:16Z",
   "lookback_days": 14,
   "feeds": [
     {
@@ -11,13 +11,13 @@
     {
       "name": "Google News: Aspida",
       "ok": true,
-      "count": 4,
+      "count": 5,
       "error": null
     },
     {
       "name": "Google News: Athene",
       "ok": true,
-      "count": 10,
+      "count": 9,
       "error": null
     },
     {
@@ -65,7 +65,7 @@
     {
       "name": "Google News: RGA",
       "ok": true,
-      "count": 11,
+      "count": 12,
       "error": null
     },
     {
@@ -83,7 +83,7 @@
     {
       "name": "Google News: Somerset Re",
       "ok": true,
-      "count": 0,
+      "count": 1,
       "error": null
     },
     {
@@ -106,12 +106,24 @@
     },
     {
       "name": "Reinsurance News",
-      "ok": false,
-      "count": 0,
-      "error": "HTTPError: HTTP Error 403: Forbidden"
+      "ok": true,
+      "count": 10,
+      "error": null
     }
   ],
   "items": [
+    {
+      "id": "a992038e6b80",
+      "title": "Aspida Holdings welcomes Sarfatti as Chief Risk Officer",
+      "link": "https://www.reinsurancene.ws/aspida-holdings-welcomes-sarfatti-as-chief-risk-officer/",
+      "source": "Reinsurance News",
+      "feed": "Reinsurance News",
+      "date": "2026-09-17T05:00:44Z",
+      "summary": "Aspida Holdings Ltd., a provider of retirement and reinsurance solutions, has announced the appointment of Aaron Sarfatti as Chief Risk Officer. In his new position, Sarfatti will lead Aspida\u2019s enterprise risk function, helping strengthen the company\u2019s risk management capabilities and supporting disciplined growth across its retirement and reinsurance businesses. The executive brings over two deca",
+      "companies": [
+        "Aspida"
+      ]
+    },
     {
       "id": "3cf38ff30348",
       "title": "Is Reinsurance Group of America (RGA) Worth Its Price After 152% Gains?",
@@ -273,7 +285,7 @@
       "title": "Aspida Appoints Brian Lewis As CFO",
       "link": "https://news.google.com/rss/articles/CBMibEFVX3lxTE4wTVRmN3M0ZUtIVkRTaGJZN2R5RGNpTS01aEV4RGVwcVlBTFMtS2pObkNZTm9vZGM4Y3BrXzZPU2t2OEhXUzhLOFIyRmpCSGRWb1c3dm5MaTB3UmhhbEYyd1FwZy1GeTdPVnFVMw?oc=5",
       "source": "Bernews",
-      "feed": "Google News: Fortitude Re",
+      "feed": "Google News: Aspida",
       "date": "2026-09-04T07:00:00Z",
       "summary": "",
       "companies": [
