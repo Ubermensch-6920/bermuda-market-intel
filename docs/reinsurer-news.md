@@ -1,21 +1,23 @@
 # Reinsurer News Monitor
 
 Bermuda life & annuity watchlist — last 14 days — 15 items
-Generated Fri 18 Sep 2026, 01:50 ADT
+Generated Fri 18 Sep 2026, 08:21 ADT
 
 ## Feed status
 
 - ✅ **Artemis.bm** — 10 items
-- ✅ **Google News (16 of 16 companies)** — 36 items
+- ✅ **Google News (16 of 16 companies)** — 37 items
 - ❌ **Reinsurance News** — failed: HTTPError: HTTP Error 403: Forbidden
+
+## Athene
+
+- **2026-09-08** — hrtoday.in — [Francisco Prat Appointed Executive Vice President and Chief Human Resources Officer at Athene](https://news.google.com/rss/articles/CBMiswFBVV95cUxNdURaeHg5ZFZRZnkxRWI2RndnMk9OanZjUVdfRFdrM2Zpb3Q1WTlEN0N1SnFtZjdwV3dxS0cyNEV0WTVwNkJCSnhfSXBWYlhSbVhYbF93TWNfYXZFLThPTkh3ZERpRUNQQWtkSndoaWplRHdSTE13a05WWmNobDQzNk1vUnBROVlNTzc2TlUxUTJ6YktWdTBjSjRmMVV2ZGg0cEo4YS1kUVJIMFA5OXpkS2ZrRQ?oc=5)
 
 ## Aspida
 
-- **2026-09-17** — Reinsurance News — [Aspida Holdings welcomes Sarfatti as Chief Risk Officer](https://www.reinsurancene.ws/aspida-holdings-welcomes-sarfatti-as-chief-risk-officer/)
-  - Aspida Holdings Ltd., a provider of retirement and reinsurance solutions, has announced the appointment of Aaron Sarfatti as Chief Risk Officer. In his new position, Sarfatti will lead Aspida’s enterprise risk function, helping strengthen the company’s risk management capabilities and supporting disciplined growth across its retirement and reinsurance businesses. The executive brings over two deca
+- **2026-09-17** — Reinsurance News — [Aspida Holdings welcomes Sarfatti as Chief Risk Officer](https://news.google.com/rss/articles/CBMijgFBVV95cUxPaTZwXzUzNmRxS29Dcm45VVBwaHJveHRCV3pOVVdLQV9ZekM1dXFYdjZYWFd6c2hQMWxWX3l5YVR2VUJqZFhDMXgyX2JGSU1aNGdCUDB1M1ZaTGJfTTBpRXB5c2d4c2pmM0ZFU3IwOGNuR21STWJyRy1FNTREdW8wYlIzTTB2UnJIb3BhMld3?oc=5)
 - **2026-09-14** — Investing.com — [Aspida appoints Aaron Sarfatti as chief risk officer](https://news.google.com/rss/articles/CBMirgFBVV95cUxNV2JRTmN1RkpQOVhUX3VWQUdFVmptOE5KbWE5bFRET3lFMzFSZE9hcjd1eUswbkhFY3ZvS0gtWDJZNGtFMTBPQjdDVTlqN2dIcjM2NjBCTXl5Q1JvLWw2ZmdOS21GbWI1TkZSanYtQzc3a01ZWFRkMnRWaW05MGtsdmtSNE53Ym9Ua2t5TTRkQ2tzbmN2cVAzTGM5SE9ndmxkYWpZTVpvYkRmalVFUmc?oc=5)
 - **2026-09-07** — Royal Gazette | Bermuda — [Aspida Re names Brian Lewis as CFO](https://news.google.com/rss/articles/CBMipAFBVV95cUxOWnRKa1g4eTlyRWN3dmFQdnFCZzFoZzNnVFE1ZVBELXBtZ2prYmhaTVNRRUYwaV9walRVOVBxNk9UcXYtN1JNX1JrQ08yaHZvT3dxaWxJX0lzZGFraXpJUE5GOU8zaUlJcVN0cUVhVXh0UnBrVEEwYjFoM1M4aS1XRlhUdlluWjI1SUpJdV9WUDFsZFVtTzRpUlpKWVM4TV9KSzJSMA?oc=5)
-- **2026-09-04** — Bernews — [Aspida Appoints Brian Lewis As CFO](https://news.google.com/rss/articles/CBMibEFVX3lxTE4wTVRmN3M0ZUtIVkRTaGJZN2R5RGNpTS01aEV4RGVwcVlBTFMtS2pObkNZTm9vZGM4Y3BrXzZPU2t2OEhXUzhLOFIyRmpCSGRWb1c3dm5MaTB3UmhhbEYyd1FwZy1GeTdPVnFVMw?oc=5)
 
 ## RGA
 
@@ -34,7 +36,7 @@ Generated Fri 18 Sep 2026, 01:50 ADT
 - **2026-09-11** — kalkine.ca — [Sagicor Financial Company Ltd. Class A (TSX:SFC) Gains Momentum as Insurance Growth Strategy and Capital Optimisation Support Investor Confidence](https://news.google.com/rss/articles/CBMihgJBVV95cUxNU180cVdraE4wQUVYZVhaZFZIZ1hjWm9UZ1VkdVQwZ2Jqd3dxWmx0Nnk1T2pETTFUY1JFMUtDLUtTTk9TTFhhaF9FTFhpX2NrVFREelVhUFhmOTFwWnFBdi15U2dOSEJNc1V5LXdzLUF3OUcxbDhUdkdPQ0duVGNhTktLQUJiVGlybEpRNFFTN3RpX0VZU0Z6eXdaY0tHWG85ZjRhUkdJWDFVYWRpZjlMOGROekRzZV96elUwQXhrQS1WZ0lDQlMxQUZiSHNzU2p5LURtbEkyX21wbFdKdS1hcmRrYmxsOF9mWUdaSzM1LTZMYjlOWWZKNjdhV3l1cllBRjNSUTNB?oc=5)
 - **2026-09-08** — kalkine.ca — [4.3% Yield Puts Sagicor Financial Co. Ltd. Class A (SFC) on the Income Investor Radar](https://news.google.com/rss/articles/CBMiswFBVV95cUxNT3V3QmswSllNMEZhVm9CSlEwQllhaVNjQ0RwVU0yRzk3cnNmZFFzUS1tWTJYOEd0ajlzMlY5X3k5blpJTDZpSzRvVFk3M29rWGZLdkdwYjZMX29La2RqUi16ZEp6NERnMUR3YmU4MWlVamxibFRGWXBKNUQ4WEdnOHdfTHhjVEx4VGJDbnpvWFNRVHJYT012TWNyZlV2a19Fd2RPNnFpalVTNUZjNWZDSHF6OA?oc=5)
 
-_No news in the window: Athene, Global Atlantic, Wilton Re, Fortitude Re, Resolution Re, Monument Re, Somerset Re, Martello Re, Prismic Re, Kuvare, Talcott, Venerable, Catalina_
+_No news in the window: Global Atlantic, Wilton Re, Fortitude Re, Resolution Re, Monument Re, Somerset Re, Martello Re, Prismic Re, Kuvare, Talcott, Venerable, Catalina_
 
 ---
 

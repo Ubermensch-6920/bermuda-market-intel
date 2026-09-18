@@ -1,5 +1,5 @@
 {
-  "updated": "2026-09-18T04:50:07Z",
+  "updated": "2026-09-18T11:21:00Z",
   "lookback_days": 14,
   "feeds": [
     {
@@ -17,7 +17,7 @@
     {
       "name": "Google News: Athene",
       "ok": true,
-      "count": 9,
+      "count": 10,
       "error": null
     },
     {
@@ -29,13 +29,13 @@
     {
       "name": "Google News: Fortitude Re",
       "ok": true,
-      "count": 3,
+      "count": 2,
       "error": null
     },
     {
       "name": "Google News: Global Atlantic",
       "ok": true,
-      "count": 4,
+      "count": 5,
       "error": null
     },
     {
@@ -53,7 +53,7 @@
     {
       "name": "Google News: Monument Re",
       "ok": true,
-      "count": 1,
+      "count": 0,
       "error": null
     },
     {
@@ -89,7 +89,7 @@
     {
       "name": "Google News: Talcott",
       "ok": true,
-      "count": 0,
+      "count": 1,
       "error": null
     },
     {
@@ -115,11 +115,11 @@
     {
       "id": "a992038e6b80",
       "title": "Aspida Holdings welcomes Sarfatti as Chief Risk Officer",
-      "link": "https://www.reinsurancene.ws/aspida-holdings-welcomes-sarfatti-as-chief-risk-officer/",
+      "link": "https://news.google.com/rss/articles/CBMijgFBVV95cUxPaTZwXzUzNmRxS29Dcm45VVBwaHJveHRCV3pOVVdLQV9ZekM1dXFYdjZYWFd6c2hQMWxWX3l5YVR2VUJqZFhDMXgyX2JGSU1aNGdCUDB1M1ZaTGJfTTBpRXB5c2d4c2pmM0ZFU3IwOGNuR21STWJyRy1FNTREdW8wYlIzTTB2UnJIb3BhMld3?oc=5",
       "source": "Reinsurance News",
-      "feed": "Reinsurance News",
-      "date": "2026-09-17T05:00:44Z",
-      "summary": "Aspida Holdings Ltd., a provider of retirement and reinsurance solutions, has announced the appointment of Aaron Sarfatti as Chief Risk Officer. In his new position, Sarfatti will lead Aspida\u2019s enterprise risk function, helping strengthen the company\u2019s risk management capabilities and supporting disciplined growth across its retirement and reinsurance businesses. The executive brings over two deca",
+      "feed": "Google News: Aspida",
+      "date": "2026-09-17T05:02:15Z",
+      "summary": "",
       "companies": [
         "Aspida"
       ]
@@ -242,6 +242,18 @@
       "summary": "",
       "companies": [
         "Sagicor"
+      ]
+    },
+    {
+      "id": "16eb4c470995",
+      "title": "Francisco Prat Appointed Executive Vice President and Chief Human Resources Officer at Athene",
+      "link": "https://news.google.com/rss/articles/CBMiswFBVV95cUxNdURaeHg5ZFZRZnkxRWI2RndnMk9OanZjUVdfRFdrM2Zpb3Q1WTlEN0N1SnFtZjdwV3dxS0cyNEV0WTVwNkJCSnhfSXBWYlhSbVhYbF93TWNfYXZFLThPTkh3ZERpRUNQQWtkSndoaWplRHdSTE13a05WWmNobDQzNk1vUnBROVlNTzc2TlUxUTJ6YktWdTBjSjRmMVV2ZGg0cEo4YS1kUVJIMFA5OXpkS2ZrRQ?oc=5",
+      "source": "hrtoday.in",
+      "feed": "Google News: Athene",
+      "date": "2026-09-08T12:17:21Z",
+      "summary": "",
+      "companies": [
+        "Athene"
       ]
     },
     {
