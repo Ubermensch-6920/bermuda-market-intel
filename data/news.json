@@ -1,5 +1,5 @@
 {
-  "updated": "2026-09-17T21:28:12Z",
+  "updated": "2026-09-18T04:50:03Z",
   "topics": [
     "Insurance AM",
     "Private Credit",
@@ -18,6 +18,16 @@
       "isNew": false
     },
     {
+      "id": "bb5b5b5c92c2",
+      "title": "Why the Bank of England Didn\u2019t Follow the Fed in Raising Interest Rates",
+      "source": "WSJ",
+      "date": "2026-09-17T16:29:00Z",
+      "topic": "Rates & Macro",
+      "summary": "",
+      "link": "https://news.google.com/rss/articles/CBMiwAFBVV95cUxQUHFTTGwzMjhlWGxWVjNMWDhmTnhicmVwazdvSDgzRU00SjkxR3ZVLXJzc0hEd1dBOWVkOFJEX1hQVUl2VHdVZk5sdjF5Qnk2VVBjd3pqX1hlNDRxOEIyZG91VFVoT0l2bng0VFVfV0g5dXNmaTBVNGwzaGtiaXJIemNaYkZMTmc3aHJGbW9LVm9LNjRRZy05T0R4RDlqNE5DOG5fNEpGeEZ6eGpoNEQwbXV3OUJQN3dpSVpSRXdsc24?oc=5",
+      "isNew": false
+    },
+    {
       "id": "858c4f218a81",
       "title": "3 Life Insurers to Watch as Annuity Sales Hit First-Half Record Highs",
       "source": "TradingView",
@@ -25,16 +35,6 @@
       "topic": "Insurance AM",
       "summary": "",
       "link": "https://news.google.com/rss/articles/CBMiwwFBVV95cUxPekVidzFOZFhmb1JHenhhYTRUaHkzenQyVloyQl93ckt1bUJHYWZFRWlkemVXd2IzMTd4ODM0MFl2MlBsbmlsOEVYR3dPTkNtZkdSUDhYU1Qya2VJdkdvTElnYnhkblVLVDY2bUNNeWZWaHJFdGtfNTRfOE44OFg2SlJka1pDWXQ4N2cwVXV4OWo2R2FXNFN4b005XzBaMDdjd2VMX2VrRHBMei1PeFhWSlo1RU9LLXRGbkI2a2k2R2NaVFU?oc=5",
-      "isNew": false
-    },
-    {
-      "id": "bb5b5b5c92c2",
-      "title": "Why the Bank of England Didn\u2019t Follow the Fed in Raising Interest Rates",
-      "source": "WSJ",
-      "date": "2026-09-17T15:33:43Z",
-      "topic": "Rates & Macro",
-      "summary": "",
-      "link": "https://news.google.com/rss/articles/CBMiwAFBVV95cUxQUHFTTGwzMjhlWGxWVjNMWDhmTnhicmVwazdvSDgzRU00SjkxR3ZVLXJzc0hEd1dBOWVkOFJEX1hQVUl2VHdVZk5sdjF5Qnk2VVBjd3pqX1hlNDRxOEIyZG91VFVoT0l2bng0VFVfV0g5dXNmaTBVNGwzaGtiaXJIemNaYkZMTmc3aHJGbW9LVm9LNjRRZy05T0R4RDlqNE5DOG5fNEpGeEZ6eGpoNEQwbXV3OUJQN3dpSVpSRXdsc24?oc=5",
       "isNew": false
     },
     {
@@ -200,7 +200,7 @@
     {
       "id": "58846fd1dbf2",
       "title": "Spike on 10-year bond yields renews concerns over U.S. debt",
-      "source": "washingtonpost.com",
+      "source": "The Washington Post",
       "date": "2026-09-15T03:01:00Z",
       "topic": "Rates & Macro",
       "summary": "",

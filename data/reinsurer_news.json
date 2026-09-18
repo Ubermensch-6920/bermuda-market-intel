@@ -1,5 +1,5 @@
 {
-  "updated": "2026-09-17T21:28:16Z",
+  "updated": "2026-09-18T04:50:07Z",
   "lookback_days": 14,
   "feeds": [
     {
@@ -11,13 +11,13 @@
     {
       "name": "Google News: Aspida",
       "ok": true,
-      "count": 6,
+      "count": 5,
       "error": null
     },
     {
       "name": "Google News: Athene",
       "ok": true,
-      "count": 8,
+      "count": 9,
       "error": null
     },
     {
@@ -106,9 +106,9 @@
     },
     {
       "name": "Reinsurance News",
-      "ok": true,
-      "count": 10,
-      "error": null
+      "ok": false,
+      "count": 0,
+      "error": "HTTPError: HTTP Error 403: Forbidden"
     }
   ],
   "items": [
@@ -138,11 +138,11 @@
     },
     {
       "id": "56161ec89b77",
-      "title": "Aspida Appoints Aaron Sarfatti as Chief Risk Officer",
-      "link": "https://news.google.com/rss/articles/CBMiwgFBVV95cUxQVzAzX1dBbk96QVU1N3BMM1gzWThtbTBNdlljY0tlYWxTMWpBRFM3dEkwdllsMGNJNHlTY3hwNXVXQTdXOUItXzEydDBxdFc5TUtNS3NyLXQ5OWc3WU5wdWtOcjg5bzB0NFAwbWxIcmYxRXBHMlZlclY4RXc4dlFtM3lpQjNJV3ZsT1JIV1c4TnNTdGZPbVZaSnkxVmRYQnR6UkhfR3hZVU9oZHRkVlBhOGJTTHRZc2kzUzY5XzFQUGpoUQ?oc=5",
-      "source": "GlobeNewswire",
+      "title": "Aspida appoints Aaron Sarfatti as chief risk officer",
+      "link": "https://news.google.com/rss/articles/CBMirgFBVV95cUxNV2JRTmN1RkpQOVhUX3VWQUdFVmptOE5KbWE5bFRET3lFMzFSZE9hcjd1eUswbkhFY3ZvS0gtWDJZNGtFMTBPQjdDVTlqN2dIcjM2NjBCTXl5Q1JvLWw2ZmdOS21GbWI1TkZSanYtQzc3a01ZWFRkMnRWaW05MGtsdmtSNE53Ym9Ua2t5TTRkQ2tzbmN2cVAzTGM5SE9ndmxkYWpZTVpvYkRmalVFUmc?oc=5",
+      "source": "Investing.com",
       "feed": "Google News: Aspida",
-      "date": "2026-09-14T13:00:00Z",
+      "date": "2026-09-14T14:59:34Z",
       "summary": "",
       "companies": [
         "Aspida"
@@ -164,7 +164,7 @@
       "id": "ae911c65adbb",
       "title": "Reinsurance Group of America, Incorporated $RGA Shares Bought by Engineers Gate Manager LP",
       "link": "https://news.google.com/rss/articles/CBMi4wFBVV95cUxQRTVvWWhHeTg5eTNreS1KcWQwVFNPSFBDNjFZcHpSSEFoNFhEUWI4UDNETXdlY1k4OXQ3MDVfclNUSlR5Z04wTEstQVdzc2h3S0dmVW9FWjdUNmVGU3Qwd0RseXc5VndJbERFNUhnWkFNRXpSRnZ3M2JJcUprZnFlZmNJckNhREdEWWswa0RXdWZYRFl2VUZxUTJHOFNYTnVhVW51UWZjMl9LamFvdWpjaUN2RmdEREhfdEZXcXRNQVNMWkpRNDgyTmpFb01YTWFCWGVlTVJ6dGRXMFpaMUFwRXlHNA?oc=5",
-      "source": "marketbeat.com",
+      "source": "MarketBeat",
       "feed": "Google News: RGA",
       "date": "2026-09-12T08:37:55Z",
       "summary": "",
@@ -200,7 +200,7 @@
       "id": "8233bcb1e5a4",
       "title": "42,185 Shares in Reinsurance Group of America, Incorporated $RGA Acquired by Squarepoint Ops LLC",
       "link": "https://news.google.com/rss/articles/CBMi6gFBVV95cUxOenJxWjVuY0hHS1pUeEVacERKT1lmUHl0ZmRZemJCX0tsR0dBSThhdlMxZ0ozbXJDV2xvbmpOaE9kdi1vM0JnOTl2VEEwUTdFYlQtQ1ZCSC1ublBaT3dTZU1STm5va2lIcDhpaC1sQ2k4clBjNkpTZEROZXBuenZUQ09JTGR3X3V1UFBZSFZoLURFUVE2NXNPcDdOWTFoVHpOZmtTSDR5Rk1mWGdNalRFNTB0cTU4UFlVcFVvVGVxUnVDN2hUQmU0aEV2Ml9DX0c0VUR4M3NmRWlSanp2NFl1NGdTcEh3QmhwV1E?oc=5",
-      "source": "marketbeat.com",
+      "source": "MarketBeat",
       "feed": "Google News: RGA",
       "date": "2026-09-11T09:08:06Z",
       "summary": "",
@@ -226,7 +226,7 @@
       "link": "https://news.google.com/rss/articles/CBMimgFBVV95cUxQWE9WLVhYcU1ZSkx3a294b1FVejcwWnNrTFlmQWNldTZFYy1IdHAwVHljeFNLSE15Y0RLdnJmYTdxY1lCUmRqaXVDb2NDTjlQREUxbzR4MVJ6TFVmMWJma1Q2TzBla09xSUZGdkhSaFpfcEFRT2sxend6WGdJVUlyeWVsR3dRUk9GN1JISmtzcGVrNU9pcHVIa21R?oc=5",
       "source": "Yahoo Finance",
       "feed": "Google News: RGA",
-      "date": "2026-09-09T16:00:03Z",
+      "date": "2026-09-09T07:00:00Z",
       "summary": "",
       "companies": [
         "RGA"
@@ -260,7 +260,7 @@
       "id": "9599107d12bf",
       "title": "Reinsurance Group of America, Incorporated (NYSE:RGA) Given Consensus Recommendation of \"Moderate Buy\" by Analysts",
       "link": "https://news.google.com/rss/articles/CBMigwJBVV95cUxPQktCWkJWYUZzQ2dsZjlndjVheGlEbHkzSGdnVFVIeC04QVpvaVFYdEtpb3phcnJwOFVUU2tVak40cjAybGltZjdDUWxJV3gwZEdIRnljSkxmcmRsaUJhdnNqQUhQSm13Q2h4cFFISzBYdjg0TTU0bnpxTWIwMjUyMzQxUUo1TVNvdnNIVVByekJEaE9vRmQtR2loOFMyajBFOXE2SXRfaVIzSmlyT05EV2M0S21OM3VmRy1lM29jV3AxZHdINUEzVnVfcHZBNENyRTNwQzVPNTNtUnJnYW90Vm5MWUx0SHZZcWRBRkNNa2NpVVI1RzZEZ3FhVDcxQ2dTNGJN?oc=5",
-      "source": "marketbeat.com",
+      "source": "MarketBeat",
       "feed": "Google News: RGA",
       "date": "2026-09-06T06:19:49Z",
       "summary": "",
