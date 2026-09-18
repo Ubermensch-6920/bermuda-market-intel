@@ -1,5 +1,5 @@
 {
-  "updated": "2026-09-18T16:30:25Z",
+  "updated": "2026-09-18T21:02:44Z",
   "topics": [
     "Insurance AM",
     "Private Credit",
@@ -7,6 +7,26 @@
     "Structured Credit"
   ],
   "items": [
+    {
+      "id": "62b45a66c5e8",
+      "title": "The Private Equity And Private Credit Loop Threatening Life Insurers",
+      "source": "Forbes",
+      "date": "2026-09-18T18:16:50Z",
+      "topic": "Private Credit",
+      "summary": "",
+      "link": "https://news.google.com/rss/articles/CBMizwFBVV95cUxOekJwQlZPS2JFbHl4RlA0N29laGw0WWhMMi1jS2RVd3hYcHVLTFF5ajN4UUZFa2REWkFkWmNDT1IxbmJNT3VVT2x1RFd5UU9nZlNWak5pYUNnc1FDcGxRU2R3RjBfcmpEVE5Xd1BsTE5YSUdjTlRKZ0hkc2k5ay1sS0FTeFdETkxLRXd4Vk9lbExhTGFRS0ZudnVmVGUzemlNYmc4aFUxRzZmYVQ0WHg2SHJoVDZEaUdIX0xyazNHNkstUm5jRWFYR1BfSW42YVk?oc=5",
+      "isNew": false
+    },
+    {
+      "id": "750c575e5dfb",
+      "title": "U.S. 10-Year Yield Cools After Topping 5%, German Bund Yield Hits 15-Year High",
+      "source": "WSJ",
+      "date": "2026-09-18T17:49:18Z",
+      "topic": "Rates & Macro",
+      "summary": "",
+      "link": "https://news.google.com/rss/articles/CBMiywFBVV95cUxPUUViTThLVXZVVW9Uck9RZHRIcm1zQm9tcXFjX1ZBckl6NGJQRTVvREEyYjFlUzBKdHRaUTF3eGlHb1JaSnN5ZXpSU2ZnZUNNNURYUXgxME9Xam96THNITzNTNjlNVUdNUmFSbUhoSXgzLXgxM0pWOFZ2aVNuN2lYb0ZXdGlpN3NIeUVJR3FaY0VmcDFERWFXU1g1dUE4R3NoZGU0SVRfS3dVdTA5VjlKd2FBUy1tYWJtaWxhc0FNclUzM2xFdUpSUTlzcw?oc=5",
+      "isNew": false
+    },
     {
       "id": "d55f5bbd2d36",
       "title": "Buyout firms are slicing their debt to try to get cautious insurance dollars",
@@ -58,9 +78,19 @@
       "isNew": false
     },
     {
+      "id": "6cdff851c6e5",
+      "title": "Who\u2019s Bankrolling Non-QM?",
+      "source": "National Mortgage Professional",
+      "date": "2026-09-17T20:08:47Z",
+      "topic": "Private Credit",
+      "summary": "",
+      "link": "https://news.google.com/rss/articles/CBMihAFBVV95cUxNQkdxVGREdkdaSTd2S0ZuTzk2Skl0LWJKWDdwdDZlcGVnVWt4NlN5WEF4NmNfV3hxd0lJRmw0QXFFSldJckJhcm95NTk0Yjloclc0NV96Zm1xN3BWeUpDU2QybmpzRm55bVU0X1lXNlFmT3E4YlZZVkI2X180UFJ5QmYxT2I?oc=5",
+      "isNew": false
+    },
+    {
       "id": "a23def733e7f",
       "title": "The End of Shopping? Agentic AI and the Future of Consumer Financial Services Introduction",
-      "source": "consumerfinancemonitor.com",
+      "source": "Consumer Finance Monitor",
       "date": "2026-09-17T17:12:15Z",
       "topic": "Private Credit",
       "summary": "",
@@ -140,7 +170,7 @@
     {
       "id": "8786c2ccfdab",
       "title": "Insuring the Unmeasurable: Why Data Centers\u2019 Love For Captive Insurance Is Dangerous. Who Bears the Ultimate Residual Risk?",
-      "source": "Substack",
+      "source": "contrarianunicus.substack.com",
       "date": "2026-09-16T09:17:07Z",
       "topic": "Structured Credit",
       "summary": "",
@@ -270,41 +300,11 @@
     {
       "id": "b3a774911fdd",
       "title": "Westaim Announces Rebrand to Aventus Capital and Rebrand of CCaventus, Its Institutional Asset Manager, as Part of the Aventus Asset Management Platform",
-      "source": "Business Wire",
+      "source": "businesswire.com",
       "date": "2026-09-14T21:17:51Z",
       "topic": "Insurance AM",
       "summary": "",
       "link": "https://news.google.com/rss/articles/CBMisAJBVV95cUxNQXptRE5hSlI3WmtYVjJ6b3J1UkNBZTA0bnpDYVB6aUpWUnJjYkwyam1QSFFiSG9RRkV2cFF0elB1R2pqSFlISWx6QWp0aWFsYmF2WGw5Q19YMEtaREEwLS1Nc0tOZnhsM04wbGZhTmVrSjBtekFGRzhCMFZubTdlUjZBVTZUVU9EWlVRQ1N3aWNGZzdEaERydTlDSHNYOXFiTF9wdUJaUkgzWnR2aGlYU2VhUlY1R25vV3FpZWl0SGZEZ0tvNXNLR2tSRkJIYXQ0V3gzWnp5YUdIb3p1a2hibWtxMWRiM2szZVdrZ2lPY2tNclhhZVczYno4bkNtcU51TWVSdUMyeVBFc2F1VHl1eWo2SFdnWlRfQ3B5ZElxTGN1ZVphXzc3OWNXTGpoSHVK?oc=5",
-      "isNew": false
-    },
-    {
-      "id": "212bb50bb4fc",
-      "title": "Sen. Warren probes private equity's bet on life insurers",
-      "source": "American Banker",
-      "date": "2026-09-14T20:11:00Z",
-      "topic": "Private Credit",
-      "summary": "",
-      "link": "https://news.google.com/rss/articles/CBMilAFBVV95cUxNRU1zeTB6X1FYekNwNkZiYldaZGtfX2dEbzk0QmFORldXVjlVQWhwMER4T0NKNTZoTW9kcVdEcElWTXJVQllDNl92c2JqMU55eFZjNzNKdWpiRmM5REYwZThFcWZuSWNOWXFvbktsZklraDdnVkV2OXNIY1o3YURHRjdoU1ZmV1NmRUg1LVlIV1F4MmtR?oc=5",
-      "isNew": false
-    },
-    {
-      "id": "750c575e5dfb",
-      "title": "U.S. 10-Year Yield Cools After Topping 5%, German Bund Yield Hits 15-Year High",
-      "source": "WSJ",
-      "date": "2026-09-14T19:45:00Z",
-      "topic": "Rates & Macro",
-      "summary": "",
-      "link": "https://news.google.com/rss/articles/CBMiywFBVV95cUxPUUViTThLVXZVVW9Uck9RZHRIcm1zQm9tcXFjX1ZBckl6NGJQRTVvREEyYjFlUzBKdHRaUTF3eGlHb1JaSnN5ZXpSU2ZnZUNNNURYUXgxME9Xam96THNITzNTNjlNVUdNUmFSbUhoSXgzLXgxM0pWOFZ2aVNuN2lYb0ZXdGlpN3NIeUVJR3FaY0VmcDFERWFXU1g1dUE4R3NoZGU0SVRfS3dVdTA5VjlKd2FBUy1tYWJtaWxhc0FNclUzM2xFdUpSUTlzcw?oc=5",
-      "isNew": false
-    },
-    {
-      "id": "1ae8cca6aa16",
-      "title": "10-year Treasury yield hits 5%, critical threshold for US economy and markets",
-      "source": "CNN",
-      "date": "2026-09-14T14:21:05Z",
-      "topic": "Rates & Macro",
-      "summary": "",
-      "link": "https://news.google.com/rss/articles/CBMidkFVX3lxTE91dmcwS01EcUI0YWxEZ3JjZFJKSXlPUXVVNE12b3NMd0FtX0p5ckVmRHhEdTNYMUpNSVVfT0ZqVjNkZUhkTWVrSGloV2dJY3JhYWw5bEtrZy0xd3NXTVdJbXR0RFllMEJCbWRyOHFkOXdpR0Fzb0E?oc=5",
       "isNew": false
     }
   ]
