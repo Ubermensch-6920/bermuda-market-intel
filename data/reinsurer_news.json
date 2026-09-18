@@ -1,5 +1,5 @@
 {
-  "updated": "2026-09-18T11:21:00Z",
+  "updated": "2026-09-18T16:30:28Z",
   "lookback_days": 14,
   "feeds": [
     {
@@ -17,7 +17,7 @@
     {
       "name": "Google News: Athene",
       "ok": true,
-      "count": 10,
+      "count": 9,
       "error": null
     },
     {
@@ -101,7 +101,7 @@
     {
       "name": "Google News: Wilton Re",
       "ok": true,
-      "count": 1,
+      "count": 0,
       "error": null
     },
     {
@@ -154,7 +154,7 @@
       "link": "https://news.google.com/rss/articles/CBMi3AFBVV95cUxPRm1FSHU4a1k2SFpWaEx4Z21lT1F0T29wZGpiR0g2bHV1X2xkQ0RBTGlHTTEwYjZXa3RzREhRcWhoOHBpTFUyUDI5bnFXY29udlp1RE9BbFpScUxBZzc1SHRHUFFXSjZYckdBSXBVNUE3SmVxSk96alVudTltZ3lmM28wUk0zVHFwZjMtN1YyU0xFVkRhN1RWM1Vaelh0Yld2ZHBPRk11c3AxV3ZGWjZyekN5aW9CTTdZZnloSl9jVXBqdUg5TTNUOUNSM1N4eWE4OGo1T011bHN2dkxy0gHiAUFVX3lxTE9jQ0UyZzhKY3VZMzgySXNGdlVYYXBWTGFyZWJtTEhZazktSDZMS2dXR0tCSjBDaUk2S0Nxa3NaczhEeE90aWc2YlU2dlRoQzhfN3NJR3hNd0p2NTdDX1N6a05INTR0YTg0eWctZnJ5Z1V0R2ZTRjBYM2Y2N1hTcFpiUXVvS2Z3X1lINWxHLUE5MmZEczNQUDBWNU1kOHI2dTE1WVlqcnA0UHNYdGdzY1lRQXBjdlo5WTZPODZkQWtoYkhnd0g5MlRjVlk0Tmc0SjZsOGlEcnhWYUZxb25fWVpzX3c?oc=5",
       "source": "simplywall.st",
       "feed": "Google News: RGA",
-      "date": "2026-09-13T16:23:43Z",
+      "date": "2026-09-13T20:36:52Z",
       "summary": "",
       "companies": [
         "RGA"

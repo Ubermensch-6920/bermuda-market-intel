@@ -1,5 +1,5 @@
 {
-  "updated": "2026-09-18T11:20:57Z",
+  "updated": "2026-09-18T16:30:25Z",
   "naic": [
     {
       "id": "d392645d4b7f",
@@ -254,6 +254,16 @@
   ],
   "bma": [
     {
+      "id": "e6058a67aba2",
+      "title": "Hanwha Life enters Abu Dhabi through blockchain and tokenized assets",
+      "date": "2026-09-18",
+      "cat": "Investment",
+      "summary": "",
+      "source": "Insurance Business",
+      "link": "https://news.google.com/rss/articles/CBMi2gFBVV95cUxOWDI4MnBIaUFqM0xRYmVMb3VqdmtiLUZwMUtxMGN2bERqaEFXOTNxa2hHZlZJUVpEQWV5NWU3NWQ0RllVNExkM19PeWI0Tk15V0VGb0t5UTJ4cHRwTWpRV1hFTXVabE1jTW5GU2hIckNkdEhCeTJ5Y3JFckZ5Y2k4VGU4eTZPWVFtWjdBRXRMN0xIUFdKcXdVQmpRcEtuVXRhUWJrNjdOdmJ3OWdaM0VuMG1jUkhkMFJ0eUxiSlUwQnVYSW1ZR0l6Y1ZFalJoSlJsTmY5US1hR3Q4UQ?oc=5",
+      "isNew": true
+    },
+    {
       "id": "ef0f8962fc9d",
       "title": "Navigating BMA\u2019s proposed AI guidance note",
       "date": "2026-09-14",
@@ -485,16 +495,6 @@
     },
     {
       "id": "9031dc5d5857",
-      "title": "BMA launches consultation on use of stablecoins",
-      "date": "2026-07-21",
-      "cat": "General",
-      "summary": "",
-      "source": "Royal Gazette | Bermuda",
-      "link": "https://news.google.com/rss/articles/CBMitgFBVV95cUxNdHZNOGJEMWdLZTRNYjl3V1RYTmotWmdRVHV5aHpiOWxHNXdMZkEyOGRHb1RNUVB4T1pES2ZoSmczUGtHM2dwQ3hqVnV4LUw2T0pLR3NZOGtVSVNqdDdIWlNCeUhXQTVtOFF2VTdVVjlyMlk4VGZMR0JCOHlnNWJGQzR4S1pTWGJTYmhZWktVYnRKbkZBdDd4SEFKWWF5bUVQd3p2S0xFTXFMTkJXRENOZWFDMlVjUQ?oc=5",
-      "isNew": false
-    },
-    {
-      "id": "0d992566e74b",
       "title": "BMA launches consultation on use of stablecoins",
       "date": "2026-07-21",
       "cat": "General",

@@ -1,5 +1,5 @@
 {
-  "updated": "2026-09-18T11:20:57Z",
+  "updated": "2026-09-18T16:30:25Z",
   "topics": [
     "Insurance AM",
     "Private Credit",
@@ -7,6 +7,26 @@
     "Structured Credit"
   ],
   "items": [
+    {
+      "id": "d55f5bbd2d36",
+      "title": "Buyout firms are slicing their debt to try to get cautious insurance dollars",
+      "source": "Insurance Business",
+      "date": "2026-09-18T13:57:57Z",
+      "topic": "Private Credit",
+      "summary": "",
+      "link": "https://news.google.com/rss/articles/CBMi4gFBVV95cUxPMUtOVjBRRlNpdjR0cEo3X0Jvd1NjUnVZV2RuQUNZaVFZZ0I5M1pCcmhESk9aZlZ1YjVYZjlYNTgzYkc1RFB1NWpZZlZkRzVMcVJVZmNMam9RMGpaaGRHZldkNkNNSDQ2aHpTZEdtcnhqdDZDRXZVQ0k2bGxwOHE0NzRQNkt2RGU3U3BqXzc4aTMtcEJmUXlyQzVMWkRrcmhJR0NaZWJDR1gwRlhRR2hENUJEOWJvLS1vMDBLQTBmRElSTFNUYzBCSTZhNlpRRUZZbDhWR2VXaFpGNXZYRUpGbHRR?oc=5",
+      "isNew": false
+    },
+    {
+      "id": "3830e6102182",
+      "title": "Moody\u2019s: Insurers set to boost private credit allocations",
+      "source": "Alternative Credit Investor",
+      "date": "2026-09-18T13:53:26Z",
+      "topic": "Private Credit",
+      "summary": "",
+      "link": "https://news.google.com/rss/articles/CBMiqAFBVV95cUxNT3VIRTU5eEcybTNGN05pRDZqbFdCSnpCZnA0Z3VTa3JoM3dqUUdVRkV0eGhVMy03aU1TNDFjclk4TGtEUWctaWpXWkpyZmNEQ25abWNMSTdSTFJhR3BQanlkRFBXT0tNTlUwdXc2ZWhIdkZhRVFveVlJX2pmLW1QaWRvQ29iYk5BNEpTcko4TGxYV2x2a3lndFJLQ05yOEwyVEpFTks0bVc?oc=5",
+      "isNew": false
+    },
     {
       "id": "2aa41f4ad90a",
       "title": "Brookfield Corporation: Record Fundraising, Growing Insurance Earnings, And A Near-Term Investor Day Catalyst",
@@ -28,9 +48,19 @@
       "isNew": false
     },
     {
+      "id": "bd03bdd50a67",
+      "title": "Private equity turns to financial engineering to lure insurance billions",
+      "source": "Financial Times",
+      "date": "2026-09-18T04:01:00Z",
+      "topic": "Private Credit",
+      "summary": "",
+      "link": "https://news.google.com/rss/articles/CBMihAFBVV95cUxNRWVVY1VnOEdTa1dFbEZYaWlDeUxCZnJTdW1ZaG5kVF81MUl1NHZZcWpSSkVfZC1ZeFFFSUtiVDE0aGM3TXpXbXIyV2hFR09XQ0w4eTdYZmdEcW92aXVnTVl3M1hpWW5iU092RjN3NFd2ckFudWhiMDFQY2tlcWZzdXJyay0?oc=5",
+      "isNew": false
+    },
+    {
       "id": "a23def733e7f",
       "title": "The End of Shopping? Agentic AI and the Future of Consumer Financial Services Introduction",
-      "source": "Consumer Finance Monitor",
+      "source": "consumerfinancemonitor.com",
       "date": "2026-09-17T17:12:15Z",
       "topic": "Private Credit",
       "summary": "",
@@ -110,7 +140,7 @@
     {
       "id": "8786c2ccfdab",
       "title": "Insuring the Unmeasurable: Why Data Centers\u2019 Love For Captive Insurance Is Dangerous. Who Bears the Ultimate Residual Risk?",
-      "source": "contrarianunicus.substack.com",
+      "source": "Substack",
       "date": "2026-09-16T09:17:07Z",
       "topic": "Structured Credit",
       "summary": "",
@@ -218,6 +248,16 @@
       "isNew": false
     },
     {
+      "id": "e415101fcb50",
+      "title": "J.P. Morgan Asset Management Closes $1.1 Billion U.S. Net Lease Fund, More Than Double Initial Target",
+      "source": "Pulse 2.0",
+      "date": "2026-09-15T05:23:50Z",
+      "topic": "Insurance AM",
+      "summary": "",
+      "link": "https://news.google.com/rss/articles/CBMiuAFBVV95cUxNN0owelR5VkdlTnAtVF9MaHVxY0h5blZUMEx1b1dGTnBIVG9zbHM2Mnc3VkoxbG1YSkNsdnVxMzBBbE5HMVoyOXp0YzAyX245LThwNlpCaTA0bVdKWHRQZmFtT3NvUllVR2RsZ3lPcXVBdGMtSl9ESGtweE5xSXRaT19VT05wUGxkR2NJcmkzVG5sTXZnWHhDMGdkZUN4dFctWXJFbHlkWWZRdllOcEU4UG5nd2Y3eEVY0gG-AUFVX3lxTE9uQzdmWFdUTmtRR0xpRWxvOFpPZk9McXBOQ3RKOUlRNTFzOVhNX0RwWFhQbGkyUHA3Z0FLLUozOHRSS2dueHB1QzczZS16NXhaSVFkTnRVVG5HcDhpVjhwUk96SDBnYW9PVmFVOFktMTdRRXBGRzNNN2tZNXloYnc1Vk1RWXFVcWM0anRta3F4TVRLU0RsR1FVNVdXTHBfazg3UjdOWnVjSnlkNEpiTE9hdjFZRG1zdDNDWVVvLUE?oc=5",
+      "isNew": false
+    },
+    {
       "id": "58846fd1dbf2",
       "title": "Spike on 10-year bond yields renews concerns over U.S. debt",
       "source": "The Washington Post",
@@ -260,51 +300,11 @@
     {
       "id": "1ae8cca6aa16",
       "title": "10-year Treasury yield hits 5%, critical threshold for US economy and markets",
-      "source": "cnn.com",
+      "source": "CNN",
       "date": "2026-09-14T14:21:05Z",
       "topic": "Rates & Macro",
       "summary": "",
       "link": "https://news.google.com/rss/articles/CBMidkFVX3lxTE91dmcwS01EcUI0YWxEZ3JjZFJKSXlPUXVVNE12b3NMd0FtX0p5ckVmRHhEdTNYMUpNSVVfT0ZqVjNkZUhkTWVrSGloV2dJY3JhYWw5bEtrZy0xd3NXTVdJbXR0RFllMEJCbWRyOHFkOXdpR0Fzb0E?oc=5",
-      "isNew": false
-    },
-    {
-      "id": "d9362c891b6a",
-      "title": "MetLife IM Hires Roger Goncalves for Global Growth",
-      "source": "Funds Society",
-      "date": "2026-09-14T11:45:14Z",
-      "topic": "Insurance AM",
-      "summary": "",
-      "link": "https://news.google.com/rss/articles/CBMizgFBVV95cUxQZVlfQjNwd21vMFdteVhsZEQwWmlGb0J3QzhIaE1ycEpIWmQ5ZVgxbDFPY0pMNU5Bc3o0bElnZ0hFbkhwYVNvOU1XOHdOZmJycm8zN0Z4Nm5GbUJIdjR0OC1HZVZPUGszVVR4VVJfb3ZrejRRWnM4MkJlQ2tKU2g4NDE1V0VrTkt1Ni1mdEVZOGtvMGdpdGFDSUp3UV9WR0JfQ3BGNDJ4dDdEVjNwS2ppTEtuNFh3ajdwd0ZjWmo3bjhxNm5DbkluNXZHbWhZdw?oc=5",
-      "isNew": false
-    },
-    {
-      "id": "ab72631b3a91",
-      "title": "'The bond market has taken down more governments than howitzers': Scott Bessent cuts Kevin Warsh some slack ahead of anticipated rate meeting",
-      "source": "Fortune",
-      "date": "2026-09-14T11:19:00Z",
-      "topic": "Rates & Macro",
-      "summary": "",
-      "link": "https://news.google.com/rss/articles/CBMilwFBVV95cUxNT0V1VFB2MFFsTFJvaFg3TzNNQllUWThYOUVqbXR4RGhhTE9STzhxV25BTDN6ZFpoZ01jWkg2RkZnbHhqSjFnb3VBY2tPU3FuN3R5aEhMS25jR1hWN1ExUVN0QWY5YjM1dHdoZWNvcU1vR2dqZ1NMeVlLSlVIZVkzTGoxSTIwdUpQLVlhVGV1N0JnWHVYYTFN?oc=5",
-      "isNew": false
-    },
-    {
-      "id": "ebf1a9cb9027",
-      "title": "Verdant Rock Secures 30% Quota Share Reinsurance Treaty with A+ Rated Panel, Expanding Emerging Market Guarantee Capacity",
-      "source": "Sin Chew Daily",
-      "date": "2026-09-14T10:52:00Z",
-      "topic": "Structured Credit",
-      "summary": "",
-      "link": "https://news.google.com/rss/articles/CBMiakFVX3lxTFBCX0hnVXZHWjEycUtTd1prMU9LTDhwTWR5QUx5azJfcmZ4cF9jSzNjY1BGanRQSVhySVNBcXJGYzRJQXZpR2tFNTVMVElfLWJPWDZzNmdDUXpYMHNMVGcwaXRwNlJSM2tHZ1E?oc=5",
-      "isNew": false
-    },
-    {
-      "id": "b77615d7be23",
-      "title": "Mark Walter\u2019s Financial Empire Was Fueled by Retirement Savers",
-      "source": "WSJ",
-      "date": "2026-09-14T09:30:00Z",
-      "topic": "Private Credit",
-      "summary": "",
-      "link": "https://news.google.com/rss/articles/CBMinwFBVV95cUxQdXdPMndJZng3OTV3Q0pDcXBSdWdBUWF0akxfRzZkX0NWV3dhaGdnaW9RTkllOXRpQUg1QndUTHV4ZUJxdGZlaklqUlhfdzFIWGhETEFTQ1pKU2V6cDJQM0Vzd1FiOUltTFhWZWlfb3czTm1HYlpNSEtydTBkZ21kUGxJWmpkeE5PVm8tbEsxZzJSMm51b1N3UHVKVkJtMmM?oc=5",
       "isNew": false
     }
   ]
