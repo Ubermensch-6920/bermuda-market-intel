@@ -1,5 +1,5 @@
 {
-  "updated": "2026-09-19T11:06:46Z",
+  "updated": "2026-09-19T15:58:07Z",
   "lookback_days": 14,
   "feeds": [
     {
@@ -89,7 +89,7 @@
     {
       "name": "Google News: Talcott",
       "ok": true,
-      "count": 3,
+      "count": 4,
       "error": null
     },
     {
@@ -106,9 +106,9 @@
     },
     {
       "name": "Reinsurance News",
-      "ok": false,
-      "count": 0,
-      "error": "HTTPError: HTTP Error 403: Forbidden"
+      "ok": true,
+      "count": 10,
+      "error": null
     }
   ],
   "items": [

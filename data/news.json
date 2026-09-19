@@ -1,5 +1,5 @@
 {
-  "updated": "2026-09-19T11:06:44Z",
+  "updated": "2026-09-19T15:58:04Z",
   "topics": [
     "Insurance AM",
     "Private Credit",
@@ -60,7 +60,7 @@
     {
       "id": "a8881c8435bf",
       "title": "Casualty sidecars require discipline on both sides as asset risk grows: Ledger",
-      "source": "Artemis.bm",
+      "source": "artemis.bm",
       "date": "2026-09-18T13:02:50Z",
       "topic": "Insurance AM",
       "summary": "",
@@ -101,7 +101,7 @@
       "id": "bd03bdd50a67",
       "title": "Private equity turns to financial engineering to lure insurance billions",
       "source": "Financial Times",
-      "date": "2026-09-18T04:00:09Z",
+      "date": "2026-09-18T04:01:00Z",
       "topic": "Private Credit",
       "summary": "",
       "link": "https://news.google.com/rss/articles/CBMihAFBVV95cUxNRWVVY1VnOEdTa1dFbEZYaWlDeUxCZnJTdW1ZaG5kVF81MUl1NHZZcWpSSkVfZC1ZeFFFSUtiVDE0aGM3TXpXbXIyV2hFR09XQ0w4eTdYZmdEcW92aXVnTVl3M1hpWW5iU092RjN3NFd2ckFudWhiMDFQY2tlcWZzdXJyay0?oc=5",
@@ -180,7 +180,7 @@
     {
       "id": "d9a75696e235",
       "title": "Bond market woes likely a factor for Fed, but intervention seen as unlikely",
-      "source": "Reuters",
+      "source": "reuters.com",
       "date": "2026-09-16T18:23:33Z",
       "topic": "Rates & Macro",
       "summary": "",
@@ -290,7 +290,7 @@
     {
       "id": "6f42f3fd2d90",
       "title": "The next phase of life insurance investing",
-      "source": "insurancenewsnet.com",
+      "source": "InsuranceNewsNet",
       "date": "2026-09-15T12:07:39Z",
       "topic": "Structured Credit",
       "summary": "",
