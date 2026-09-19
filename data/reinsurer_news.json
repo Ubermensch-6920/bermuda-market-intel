@@ -1,5 +1,5 @@
 {
-  "updated": "2026-09-19T20:45:55Z",
+  "updated": "2026-09-19T23:11:30Z",
   "lookback_days": 14,
   "feeds": [
     {
@@ -17,7 +17,7 @@
     {
       "name": "Google News: Athene",
       "ok": true,
-      "count": 10,
+      "count": 9,
       "error": null
     },
     {
@@ -65,7 +65,7 @@
     {
       "name": "Google News: RGA",
       "ok": true,
-      "count": 10,
+      "count": 11,
       "error": null
     },
     {
@@ -129,7 +129,7 @@
       "title": "Former RGA leader takes helm at West Grove Re",
       "link": "https://news.google.com/rss/articles/CBMihwFBVV95cUxNck54Nm9NejlNOWdic09ueHdrRHAyUDdhQVJlMHJkZFhqNVpHRmtySTNEejZGZFU0VlZURDZlcUU3dGowbGlGdnl3M2VBUW5UVFd2OEtGdm85clRycUFhWklHN3JTUjZPdGR1dUtwT3VhcTYzVWJqS0paNm1jR0kxUW5CQUotVUk?oc=5",
       "source": "Intelligent Insurer",
-      "feed": "Google News: Talcott",
+      "feed": "Google News: RGA",
       "date": "2026-09-18T14:34:10Z",
       "summary": "",
       "companies": [
@@ -173,12 +173,24 @@
       ]
     },
     {
+      "id": "c0599158f88d",
+      "title": "Corient Private Wealth LP Increases Stock Holdings in Reinsurance Group of America, Incorporated $RGA",
+      "link": "https://news.google.com/rss/articles/CBMi8gFBVV95cUxQVjJ0M01Za1NrYTUwZ1Bvc09sa3JNVnAybU9LTjFlbGJaa0pBZFNwTEJNRTA1X0w5M2pfQnpKZFVYcnVXaklPazUzQkJCNG1BV1FVQ1d2QW9LQmIzQWcwYUdHclpHaEhEazhWblFGb2pXcFhRT1BGWkthT0o0V3gya21yenYzSWZTbks2SnVMM1JqbHEwTjc0YVNOYlFQMmt1MnFzYi1hRmlpa1NDNHpOclR2QUNJNmcxNnJFYlhTczZSLXZSTkJRTV9hT2h3bDVOTXFpLS1vSFVuOC0xbE9UVEpHTUNJWl9ndjd5NWs0RzJWZw?oc=5",
+      "source": "MarketBeat",
+      "feed": "Google News: RGA",
+      "date": "2026-09-14T08:41:09Z",
+      "summary": "",
+      "companies": [
+        "RGA"
+      ]
+    },
+    {
       "id": "9bef67d8d283",
       "title": "Reinsurance Group Of America (RGA) Gets A Fresh Value Backing On Its Global Growth Story",
       "link": "https://news.google.com/rss/articles/CBMi3AFBVV95cUxPRm1FSHU4a1k2SFpWaEx4Z21lT1F0T29wZGpiR0g2bHV1X2xkQ0RBTGlHTTEwYjZXa3RzREhRcWhoOHBpTFUyUDI5bnFXY29udlp1RE9BbFpScUxBZzc1SHRHUFFXSjZYckdBSXBVNUE3SmVxSk96alVudTltZ3lmM28wUk0zVHFwZjMtN1YyU0xFVkRhN1RWM1Vaelh0Yld2ZHBPRk11c3AxV3ZGWjZyekN5aW9CTTdZZnloSl9jVXBqdUg5TTNUOUNSM1N4eWE4OGo1T011bHN2dkxy0gHiAUFVX3lxTE9jQ0UyZzhKY3VZMzgySXNGdlVYYXBWTGFyZWJtTEhZazktSDZMS2dXR0tCSjBDaUk2S0Nxa3NaczhEeE90aWc2YlU2dlRoQzhfN3NJR3hNd0p2NTdDX1N6a05INTR0YTg0eWctZnJ5Z1V0R2ZTRjBYM2Y2N1hTcFpiUXVvS2Z3X1lINWxHLUE5MmZEczNQUDBWNU1kOHI2dTE1WVlqcnA0UHNYdGdzY1lRQXBjdlo5WTZPODZkQWtoYkhnd0g5MlRjVlk0Tmc0SjZsOGlEcnhWYUZxb25fWVpzX3c?oc=5",
       "source": "simplywall.st",
       "feed": "Google News: RGA",
-      "date": "2026-09-13T16:23:43Z",
+      "date": "2026-09-13T20:36:52Z",
       "summary": "",
       "companies": [
         "RGA"
@@ -188,7 +200,7 @@
       "id": "ae911c65adbb",
       "title": "Reinsurance Group of America, Incorporated $RGA Shares Bought by Engineers Gate Manager LP",
       "link": "https://news.google.com/rss/articles/CBMi4wFBVV95cUxQRTVvWWhHeTg5eTNreS1KcWQwVFNPSFBDNjFZcHpSSEFoNFhEUWI4UDNETXdlY1k4OXQ3MDVfclNUSlR5Z04wTEstQVdzc2h3S0dmVW9FWjdUNmVGU3Qwd0RseXc5VndJbERFNUhnWkFNRXpSRnZ3M2JJcUprZnFlZmNJckNhREdEWWswa0RXdWZYRFl2VUZxUTJHOFNYTnVhVW51UWZjMl9LamFvdWpjaUN2RmdEREhfdEZXcXRNQVNMWkpRNDgyTmpFb01YTWFCWGVlTVJ6dGRXMFpaMUFwRXlHNA?oc=5",
-      "source": "marketbeat.com",
+      "source": "MarketBeat",
       "feed": "Google News: RGA",
       "date": "2026-09-12T08:37:55Z",
       "summary": "",
@@ -224,7 +236,7 @@
       "id": "8233bcb1e5a4",
       "title": "42,185 Shares in Reinsurance Group of America, Incorporated $RGA Acquired by Squarepoint Ops LLC",
       "link": "https://news.google.com/rss/articles/CBMi6gFBVV95cUxOenJxWjVuY0hHS1pUeEVacERKT1lmUHl0ZmRZemJCX0tsR0dBSThhdlMxZ0ozbXJDV2xvbmpOaE9kdi1vM0JnOTl2VEEwUTdFYlQtQ1ZCSC1ublBaT3dTZU1STm5va2lIcDhpaC1sQ2k4clBjNkpTZEROZXBuenZUQ09JTGR3X3V1UFBZSFZoLURFUVE2NXNPcDdOWTFoVHpOZmtTSDR5Rk1mWGdNalRFNTB0cTU4UFlVcFVvVGVxUnVDN2hUQmU0aEV2Ml9DX0c0VUR4M3NmRWlSanp2NFl1NGdTcEh3QmhwV1E?oc=5",
-      "source": "marketbeat.com",
+      "source": "MarketBeat",
       "feed": "Google News: RGA",
       "date": "2026-09-11T09:08:06Z",
       "summary": "",
@@ -238,7 +250,7 @@
       "link": "https://news.google.com/rss/articles/CBMi3gFBVV95cUxPcC0xQlNQSTloaFBOUDRybUM0enlXbldxRkFBSHpiVDBKOVlQTXRiUExIeWFJYlJJQVotSXFjNklfVjlJMHhiTnRvMXgxYk00QlBjQXI0cmhKQk9GcHptVW1TLUEtaWNPWHlSX3k2Y0tkRTB4T21hc1NfN0FPbWlIS0JVMnZrQTg5c0lnWXU3dGdwZl90Y0ZnUTZSdmpPNzFPM1hpSXYzNjNlRk92blgzMDJ5dWRLblM4NW1MLTFWbWl0T3BpUGpJNU8yQzJTeGM2VXFfZHVQZHNLZFU0LVHSAeMBQVVfeXFMTmV0SmVyV2tCYmxxVjVXREx1VFlPTGw2aHlpZ2VLb3FtU25QdXp6QUwxY2hUMlJja3o4c1ZjeEhrLXA4SldBc2dLVVh4SlJNbnJGaURQN0hlQ2pteGNkeDIwTTllQ2RDYVpWSk5wYVpHeGI2bkcybWFEaEJPR2FTdFNqWEVtM3ljUHRZZDluUHVvcE9FUGxybXFJNjN0ekJ5Mk1MbXlsaXFydnhwYjFFM01BZklJM2ZSUTVTSl9mNDh4eXQ3R2xRWW8zX0UySV8wNXpHcmNYNk1ITlV1aW5fLXBqV0U?oc=5",
       "source": "simplywall.st",
       "feed": "Google News: RGA",
-      "date": "2026-09-11T00:23:48Z",
+      "date": "2026-09-10T07:00:00Z",
       "summary": "",
       "companies": [
         "RGA"
@@ -257,6 +269,18 @@
       ]
     },
     {
+      "id": "ba419f696714",
+      "title": "4.3% Yield Puts Sagicor Financial Co. Ltd. Class A (SFC) on the Income Investor Radar",
+      "link": "https://news.google.com/rss/articles/CBMiswFBVV95cUxNT3V3QmswSllNMEZhVm9CSlEwQllhaVNjQ0RwVU0yRzk3cnNmZFFzUS1tWTJYOEd0ajlzMlY5X3k5blpJTDZpSzRvVFk3M29rWGZLdkdwYjZMX29La2RqUi16ZEp6NERnMUR3YmU4MWlVamxibFRGWXBKNUQ4WEdnOHdfTHhjVEx4VGJDbnpvWFNRVHJYT012TWNyZlV2a19Fd2RPNnFpalVTNUZjNWZDSHF6OA?oc=5",
+      "source": "kalkine.ca",
+      "feed": "Google News: Sagicor",
+      "date": "2026-09-08T13:51:00Z",
+      "summary": "",
+      "companies": [
+        "Sagicor"
+      ]
+    },
+    {
       "id": "16eb4c470995",
       "title": "Francisco Prat Appointed Executive Vice President and Chief Human Resources Officer at Athene",
       "link": "https://news.google.com/rss/articles/CBMiswFBVV95cUxNdURaeHg5ZFZRZnkxRWI2RndnMk9OanZjUVdfRFdrM2Zpb3Q1WTlEN0N1SnFtZjdwV3dxS0cyNEV0WTVwNkJCSnhfSXBWYlhSbVhYbF93TWNfYXZFLThPTkh3ZERpRUNQQWtkSndoaWplRHdSTE13a05WWmNobDQzNk1vUnBROVlNTzc2TlUxUTJ6YktWdTBjSjRmMVV2ZGg0cEo4YS1kUVJIMFA5OXpkS2ZrRQ?oc=5",
@@ -269,24 +293,12 @@
       ]
     },
     {
-      "id": "ba419f696714",
-      "title": "4.3% Yield Puts Sagicor Financial Co. Ltd. Class A (SFC) on the Income Investor Radar",
-      "link": "https://news.google.com/rss/articles/CBMiswFBVV95cUxNT3V3QmswSllNMEZhVm9CSlEwQllhaVNjQ0RwVU0yRzk3cnNmZFFzUS1tWTJYOEd0ajlzMlY5X3k5blpJTDZpSzRvVFk3M29rWGZLdkdwYjZMX29La2RqUi16ZEp6NERnMUR3YmU4MWlVamxibFRGWXBKNUQ4WEdnOHdfTHhjVEx4VGJDbnpvWFNRVHJYT012TWNyZlV2a19Fd2RPNnFpalVTNUZjNWZDSHF6OA?oc=5",
-      "source": "kalkine.ca",
-      "feed": "Google News: Sagicor",
-      "date": "2026-09-08T07:00:00Z",
-      "summary": "",
-      "companies": [
-        "Sagicor"
-      ]
-    },
-    {
       "id": "8133f9c6c76b",
       "title": "Aspida Re names Brian Lewis as CFO",
       "link": "https://news.google.com/rss/articles/CBMipAFBVV95cUxOWnRKa1g4eTlyRWN3dmFQdnFCZzFoZzNnVFE1ZVBELXBtZ2prYmhaTVNRRUYwaV9walRVOVBxNk9UcXYtN1JNX1JrQ08yaHZvT3dxaWxJX0lzZGFraXpJUE5GOU8zaUlJcVN0cUVhVXh0UnBrVEEwYjFoM1M4aS1XRlhUdlluWjI1SUpJdV9WUDFsZFVtTzRpUlpKWVM4TV9KSzJSMA?oc=5",
       "source": "Royal Gazette | Bermuda",
       "feed": "Google News: Fortitude Re",
-      "date": "2026-09-07T07:00:00Z",
+      "date": "2026-09-07T13:37:57Z",
       "summary": "",
       "companies": [
         "Aspida"
@@ -296,7 +308,7 @@
       "id": "9599107d12bf",
       "title": "Reinsurance Group of America, Incorporated (NYSE:RGA) Given Consensus Recommendation of \"Moderate Buy\" by Analysts",
       "link": "https://news.google.com/rss/articles/CBMigwJBVV95cUxPQktCWkJWYUZzQ2dsZjlndjVheGlEbHkzSGdnVFVIeC04QVpvaVFYdEtpb3phcnJwOFVUU2tVak40cjAybGltZjdDUWxJV3gwZEdIRnljSkxmcmRsaUJhdnNqQUhQSm13Q2h4cFFISzBYdjg0TTU0bnpxTWIwMjUyMzQxUUo1TVNvdnNIVVByekJEaE9vRmQtR2loOFMyajBFOXE2SXRfaVIzSmlyT05EV2M0S21OM3VmRy1lM29jV3AxZHdINUEzVnVfcHZBNENyRTNwQzVPNTNtUnJnYW90Vm5MWUx0SHZZcWRBRkNNa2NpVVI1RzZEZ3FhVDcxQ2dTNGJN?oc=5",
-      "source": "marketbeat.com",
+      "source": "MarketBeat",
       "feed": "Google News: RGA",
       "date": "2026-09-06T06:19:49Z",
       "summary": "",

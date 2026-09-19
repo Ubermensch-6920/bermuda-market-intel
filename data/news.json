@@ -1,5 +1,5 @@
 {
-  "updated": "2026-09-19T20:45:52Z",
+  "updated": "2026-09-19T23:11:28Z",
   "topics": [
     "Insurance AM",
     "Private Credit",
@@ -30,7 +30,7 @@
     {
       "id": "d55f5bbd2d36",
       "title": "Buyout firms are slicing their debt to try to get cautious insurance dollars",
-      "source": "Insurance Business",
+      "source": "insurancebusinessmag.com",
       "date": "2026-09-18T13:57:57Z",
       "topic": "Private Credit",
       "summary": "",
@@ -40,7 +40,7 @@
     {
       "id": "3830e6102182",
       "title": "Moody\u2019s: Insurers set to boost private credit allocations",
-      "source": "alternativecreditinvestor.com",
+      "source": "Alternative Credit Investor",
       "date": "2026-09-18T13:53:26Z",
       "topic": "Private Credit",
       "summary": "",
@@ -80,7 +80,7 @@
     {
       "id": "a54844c35e38",
       "title": "How money moved across Mark Walter\u2019s empire",
-      "source": "ft.com",
+      "source": "Financial Times",
       "date": "2026-09-18T04:01:07Z",
       "topic": "Insurance AM",
       "summary": "",
@@ -90,7 +90,7 @@
     {
       "id": "bd03bdd50a67",
       "title": "Private equity turns to financial engineering to lure insurance billions",
-      "source": "ft.com",
+      "source": "Financial Times",
       "date": "2026-09-18T04:01:00Z",
       "topic": "Private Credit",
       "summary": "",
@@ -120,7 +120,7 @@
     {
       "id": "bb5b5b5c92c2",
       "title": "Why the Bank of England Didn\u2019t Follow the Fed in Raising Interest Rates",
-      "source": "WSJ",
+      "source": "wsj.com",
       "date": "2026-09-17T16:29:00Z",
       "topic": "Rates & Macro",
       "summary": "",
@@ -148,6 +148,16 @@
       "isNew": false
     },
     {
+      "id": "908a40c1c785",
+      "title": "What \u201cfiscal dominance\u201d would mean for the U.S. economy",
+      "source": "marketplace.org",
+      "date": "2026-09-16T22:15:00Z",
+      "topic": "Rates & Macro",
+      "summary": "",
+      "link": "https://news.google.com/rss/articles/CBMinAFBVV95cUxPWUFWcnVnUGhVMW5NM08zODRHaU1CNTJsMUEyRWprSW9zM2d5YXJVdlcwYmpEMXpMTzZxQnZwZDhXX3VMOHlaZzk0cTlKV0owWFJkTUJYdFRHTkxfeU1LTHBxNTlwYUlqOGtuRDhMWUtVSjR3eElwRnpYQ0pSMWRaSWo3cnRGajZEalZ5OUNzVUgtU2xlTjZCSUp1Mng?oc=5",
+      "isNew": false
+    },
+    {
       "id": "92d71e838776",
       "title": "Fed Rate Hike Squeezes an Already Stressed Private Credit Sector",
       "source": "Global Finance Magazine",
@@ -170,7 +180,7 @@
     {
       "id": "d9a75696e235",
       "title": "Bond market woes likely a factor for Fed, but intervention seen as unlikely",
-      "source": "reuters.com",
+      "source": "Reuters",
       "date": "2026-09-16T18:23:33Z",
       "topic": "Rates & Macro",
       "summary": "",
@@ -293,16 +303,6 @@
       "source": "InsuranceNewsNet",
       "date": "2026-09-15T12:07:39Z",
       "topic": "Structured Credit",
-      "summary": "",
-      "link": "https://news.google.com/rss/articles/CBMiigFBVV95cUxQRS1xT1hoSGVmeldMdmdrbHY4c3lLTS0tRzBlU0l2OVhLdWk3Q3N2a00wdWV3enhyZV9tWl9NQmdhazBjRmxJT2pYbUxURmJDbVktQzJCVUpydnpHZklfRlVUQ1dDRHBUQUNmTnRYM3hvem9CQmgybEpIcmxuWGhhdHNYUjRRUFJnYVE?oc=5",
-      "isNew": false
-    },
-    {
-      "id": "2f07368bd49b",
-      "title": "The next phase of life insurance investing",
-      "source": "InsuranceNewsNet",
-      "date": "2026-09-15T12:07:39Z",
-      "topic": "Insurance AM",
       "summary": "",
       "link": "https://news.google.com/rss/articles/CBMiigFBVV95cUxQRS1xT1hoSGVmeldMdmdrbHY4c3lLTS0tRzBlU0l2OVhLdWk3Q3N2a00wdWV3enhyZV9tWl9NQmdhazBjRmxJT2pYbUxURmJDbVktQzJCVUpydnpHZklfRlVUQ1dDRHBUQUNmTnRYM3hvem9CQmgybEpIcmxuWGhhdHNYUjRRUFJnYVE?oc=5",
       "isNew": false
