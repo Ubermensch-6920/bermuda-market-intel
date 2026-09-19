@@ -1,12 +1,12 @@
 # Reinsurer News Monitor
 
-Bermuda life & annuity watchlist — last 14 days — 17 items
-Generated Sat 19 Sep 2026, 01:43 ADT
+Bermuda life & annuity watchlist — last 14 days — 16 items
+Generated Sat 19 Sep 2026, 08:06 ADT
 
 ## Feed status
 
 - ✅ **Artemis.bm** — 10 items
-- ✅ **Google News (16 of 16 companies)** — 38 items
+- ✅ **Google News (16 of 16 companies)** — 36 items
 - ❌ **Reinsurance News** — failed: HTTPError: HTTP Error 403: Forbidden
 
 ## Athene
@@ -17,7 +17,7 @@ Generated Sat 19 Sep 2026, 01:43 ADT
 ## Aspida
 
 - **2026-09-17** — Reinsurance News — [Aspida Holdings welcomes Sarfatti as Chief Risk Officer](https://news.google.com/rss/articles/CBMijgFBVV95cUxPaTZwXzUzNmRxS29Dcm45VVBwaHJveHRCV3pOVVdLQV9ZekM1dXFYdjZYWFd6c2hQMWxWX3l5YVR2VUJqZFhDMXgyX2JGSU1aNGdCUDB1M1ZaTGJfTTBpRXB5c2d4c2pmM0ZFU3IwOGNuR21STWJyRy1FNTREdW8wYlIzTTB2UnJIb3BhMld3?oc=5)
-- **2026-09-14** — The Manila Times — [Aspida Appoints Aaron Sarfatti as Chief Risk Officer](https://news.google.com/rss/articles/CBMixAFBVV95cUxQbWRhdlItOHFLM3gxS1hJVU5JNkQwTXdWYWtwOXNhb28tQURtU3RLcGQxS0gyRktaU2VZUWdrUE9TbkstM0plb1N1NXZsM2dCOG9JVkJ0Rk1nVGptQTlESkpKZ0NMQmtOOXNWQ3lEVE82NER6M0FoSXZRYTVaRm9ucTI5ZnAxcll1NjdvcXNBWGFTUjZTQnZqZTBjZXJoc0pfXzZ5M0duQkp2U1dIZl9QbTlzRGJkWFFmMTZhOFlFMVpENlZh0gHKAUFVX3lxTE5Kd012QkZON3lzaHQtbldVdjhTeVpJcDZ2bnNfY3JHUV9GS0h6cHU4NW1fU3VoaWpSTHZtRzZrS3VBakxvclE4TXo1TVNaaHNKTTJBMkxnWnlyYUYzdUFya3pNLWpDZmdnaEphYnkyMUVEbVdpOW90eDkzRDlUTmdGVmF1TG9taWVoRkczc21nRHl6cXoxdDRPblpIR0Q5bzNRM0FGaTAwUDBlc2lEU0ZSRE1VZV9VMllYSnhTdnU0TUk3QzVmaGF5Z1E?oc=5)
+- **2026-09-14** — GlobeNewswire — [Aspida Appoints Aaron Sarfatti as Chief Risk Officer](https://news.google.com/rss/articles/CBMiwgFBVV95cUxQVzAzX1dBbk96QVU1N3BMM1gzWThtbTBNdlljY0tlYWxTMWpBRFM3dEkwdllsMGNJNHlTY3hwNXVXQTdXOUItXzEydDBxdFc5TUtNS3NyLXQ5OWc3WU5wdWtOcjg5bzB0NFAwbWxIcmYxRXBHMlZlclY4RXc4dlFtM3lpQjNJV3ZsT1JIV1c4TnNTdGZPbVZaSnkxVmRYQnR6UkhfR3hZVU9oZHRkVlBhOGJTTHRZc2kzUzY5XzFQUGpoUQ?oc=5)
 - **2026-09-07** — Royal Gazette | Bermuda — [Aspida Re names Brian Lewis as CFO](https://news.google.com/rss/articles/CBMipAFBVV95cUxOWnRKa1g4eTlyRWN3dmFQdnFCZzFoZzNnVFE1ZVBELXBtZ2prYmhaTVNRRUYwaV9walRVOVBxNk9UcXYtN1JNX1JrQ08yaHZvT3dxaWxJX0lzZGFraXpJUE5GOU8zaUlJcVN0cUVhVXh0UnBrVEEwYjFoM1M4aS1XRlhUdlluWjI1SUpJdV9WUDFsZFVtTzRpUlpKWVM4TV9KSzJSMA?oc=5)
 
 ## RGA
@@ -31,7 +31,6 @@ Generated Sat 19 Sep 2026, 01:43 ADT
 - **2026-09-10** — simplywall.st — [How Investors Are Reacting To Reinsurance Group Of America Stock After Earnings Estimate Upgrades](https://news.google.com/rss/articles/CBMi3gFBVV95cUxPcC0xQlNQSTloaFBOUDRybUM0enlXbldxRkFBSHpiVDBKOVlQTXRiUExIeWFJYlJJQVotSXFjNklfVjlJMHhiTnRvMXgxYk00QlBjQXI0cmhKQk9GcHptVW1TLUEtaWNPWHlSX3k2Y0tkRTB4T21hc1NfN0FPbWlIS0JVMnZrQTg5c0lnWXU3dGdwZl90Y0ZnUTZSdmpPNzFPM1hpSXYzNjNlRk92blgzMDJ5dWRLblM4NW1MLTFWbWl0T3BpUGpJNU8yQzJTeGM2VXFfZHVQZHNLZFU0LVHSAeMBQVVfeXFMTmV0SmVyV2tCYmxxVjVXREx1VFlPTGw2aHlpZ2VLb3FtU25QdXp6QUwxY2hUMlJja3o4c1ZjeEhrLXA4SldBc2dLVVh4SlJNbnJGaURQN0hlQ2pteGNkeDIwTTllQ2RDYVpWSk5wYVpHeGI2bkcybWFEaEJPR2FTdFNqWEVtM3ljUHRZZDluUHVvcE9FUGxybXFJNjN0ekJ5Mk1MbXlsaXFydnhwYjFFM01BZklJM2ZSUTVTSl9mNDh4eXQ3R2xRWW8zX0UySV8wNXpHcmNYNk1ITlV1aW5fLXBqV0U?oc=5)
 - **2026-09-09** — Yahoo Finance — [Are You Looking for a Top Momentum Pick? Why Reinsurance Group (RGA) is a Great Choice](https://news.google.com/rss/articles/CBMimgFBVV95cUxQWE9WLVhYcU1ZSkx3a294b1FVejcwWnNrTFlmQWNldTZFYy1IdHAwVHljeFNLSE15Y0RLdnJmYTdxY1lCUmRqaXVDb2NDTjlQREUxbzR4MVJ6TFVmMWJma1Q2TzBla09xSUZGdkhSaFpfcEFRT2sxend6WGdJVUlyeWVsR3dRUk9GN1JISmtzcGVrNU9pcHVIa21R?oc=5)
 - **2026-09-06** — MarketBeat — [Reinsurance Group of America, Incorporated (NYSE:RGA) Given Consensus Recommendation of "Moderate Buy" by Analysts](https://news.google.com/rss/articles/CBMigwJBVV95cUxPQktCWkJWYUZzQ2dsZjlndjVheGlEbHkzSGdnVFVIeC04QVpvaVFYdEtpb3phcnJwOFVUU2tVak40cjAybGltZjdDUWxJV3gwZEdIRnljSkxmcmRsaUJhdnNqQUhQSm13Q2h4cFFISzBYdjg0TTU0bnpxTWIwMjUyMzQxUUo1TVNvdnNIVVByekJEaE9vRmQtR2loOFMyajBFOXE2SXRfaVIzSmlyT05EV2M0S21OM3VmRy1lM29jV3AxZHdINUEzVnVfcHZBNENyRTNwQzVPNTNtUnJnYW90Vm5MWUx0SHZZcWRBRkNNa2NpVVI1RzZEZ3FhVDcxQ2dTNGJN?oc=5)
-- **2026-09-05** — MarketBeat — [AXQ Capital LP Purchases Shares of 7,323 Reinsurance Group of America, Incorporated $RGA](https://news.google.com/rss/articles/CBMi3wFBVV95cUxQX013MW1EM2dVUUxjaU02eHJZRmZ1ZFpSZmJKVk9CejAtckhNNzlYOW80OExfdXVGWnUxdllJclRWTWF2bU5icVhRdXEzbVNCMFlFd2ZUWTlNd1p3anZmSzB4WC00Q1V4ejdTQ0ZfVnk5bHFRRWcxenlZYllBdEEwUTNRMVlLSFVoc0NNc0gzMjhPOW1MMGpaaXZFcndHZDZ0NndYZlJjUDZvbUpHOTcyLVFvT3NWSFVlNURFdDRVbG9ndWkzZmFEOWtoQTdVRlF4ZldSbmpOU3R3b0ppdDlR?oc=5)
 
 ## Sagicor
 

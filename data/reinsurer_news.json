@@ -1,5 +1,5 @@
 {
-  "updated": "2026-09-19T04:43:10Z",
+  "updated": "2026-09-19T11:06:46Z",
   "lookback_days": 14,
   "feeds": [
     {
@@ -17,7 +17,7 @@
     {
       "name": "Google News: Athene",
       "ok": true,
-      "count": 10,
+      "count": 9,
       "error": null
     },
     {
@@ -35,7 +35,7 @@
     {
       "name": "Google News: Global Atlantic",
       "ok": true,
-      "count": 6,
+      "count": 5,
       "error": null
     },
     {
@@ -163,10 +163,10 @@
     {
       "id": "56161ec89b77",
       "title": "Aspida Appoints Aaron Sarfatti as Chief Risk Officer",
-      "link": "https://news.google.com/rss/articles/CBMixAFBVV95cUxQbWRhdlItOHFLM3gxS1hJVU5JNkQwTXdWYWtwOXNhb28tQURtU3RLcGQxS0gyRktaU2VZUWdrUE9TbkstM0plb1N1NXZsM2dCOG9JVkJ0Rk1nVGptQTlESkpKZ0NMQmtOOXNWQ3lEVE82NER6M0FoSXZRYTVaRm9ucTI5ZnAxcll1NjdvcXNBWGFTUjZTQnZqZTBjZXJoc0pfXzZ5M0duQkp2U1dIZl9QbTlzRGJkWFFmMTZhOFlFMVpENlZh0gHKAUFVX3lxTE5Kd012QkZON3lzaHQtbldVdjhTeVpJcDZ2bnNfY3JHUV9GS0h6cHU4NW1fU3VoaWpSTHZtRzZrS3VBakxvclE4TXo1TVNaaHNKTTJBMkxnWnlyYUYzdUFya3pNLWpDZmdnaEphYnkyMUVEbVdpOW90eDkzRDlUTmdGVmF1TG9taWVoRkczc21nRHl6cXoxdDRPblpIR0Q5bzNRM0FGaTAwUDBlc2lEU0ZSRE1VZV9VMllYSnhTdnU0TUk3QzVmaGF5Z1E?oc=5",
-      "source": "The Manila Times",
+      "link": "https://news.google.com/rss/articles/CBMiwgFBVV95cUxQVzAzX1dBbk96QVU1N3BMM1gzWThtbTBNdlljY0tlYWxTMWpBRFM3dEkwdllsMGNJNHlTY3hwNXVXQTdXOUItXzEydDBxdFc5TUtNS3NyLXQ5OWc3WU5wdWtOcjg5bzB0NFAwbWxIcmYxRXBHMlZlclY4RXc4dlFtM3lpQjNJV3ZsT1JIV1c4TnNTdGZPbVZaSnkxVmRYQnR6UkhfR3hZVU9oZHRkVlBhOGJTTHRZc2kzUzY5XzFQUGpoUQ?oc=5",
+      "source": "GlobeNewswire",
       "feed": "Google News: Aspida",
-      "date": "2026-09-14T13:19:57Z",
+      "date": "2026-09-14T13:00:00Z",
       "summary": "",
       "companies": [
         "Aspida"
@@ -257,18 +257,6 @@
       ]
     },
     {
-      "id": "ba419f696714",
-      "title": "4.3% Yield Puts Sagicor Financial Co. Ltd. Class A (SFC) on the Income Investor Radar",
-      "link": "https://news.google.com/rss/articles/CBMiswFBVV95cUxNT3V3QmswSllNMEZhVm9CSlEwQllhaVNjQ0RwVU0yRzk3cnNmZFFzUS1tWTJYOEd0ajlzMlY5X3k5blpJTDZpSzRvVFk3M29rWGZLdkdwYjZMX29La2RqUi16ZEp6NERnMUR3YmU4MWlVamxibFRGWXBKNUQ4WEdnOHdfTHhjVEx4VGJDbnpvWFNRVHJYT012TWNyZlV2a19Fd2RPNnFpalVTNUZjNWZDSHF6OA?oc=5",
-      "source": "kalkine.ca",
-      "feed": "Google News: Sagicor",
-      "date": "2026-09-08T13:51:00Z",
-      "summary": "",
-      "companies": [
-        "Sagicor"
-      ]
-    },
-    {
       "id": "16eb4c470995",
       "title": "Francisco Prat Appointed Executive Vice President and Chief Human Resources Officer at Athene",
       "link": "https://news.google.com/rss/articles/CBMiswFBVV95cUxNdURaeHg5ZFZRZnkxRWI2RndnMk9OanZjUVdfRFdrM2Zpb3Q1WTlEN0N1SnFtZjdwV3dxS0cyNEV0WTVwNkJCSnhfSXBWYlhSbVhYbF93TWNfYXZFLThPTkh3ZERpRUNQQWtkSndoaWplRHdSTE13a05WWmNobDQzNk1vUnBROVlNTzc2TlUxUTJ6YktWdTBjSjRmMVV2ZGg0cEo4YS1kUVJIMFA5OXpkS2ZrRQ?oc=5",
@@ -281,12 +269,24 @@
       ]
     },
     {
+      "id": "ba419f696714",
+      "title": "4.3% Yield Puts Sagicor Financial Co. Ltd. Class A (SFC) on the Income Investor Radar",
+      "link": "https://news.google.com/rss/articles/CBMiswFBVV95cUxNT3V3QmswSllNMEZhVm9CSlEwQllhaVNjQ0RwVU0yRzk3cnNmZFFzUS1tWTJYOEd0ajlzMlY5X3k5blpJTDZpSzRvVFk3M29rWGZLdkdwYjZMX29La2RqUi16ZEp6NERnMUR3YmU4MWlVamxibFRGWXBKNUQ4WEdnOHdfTHhjVEx4VGJDbnpvWFNRVHJYT012TWNyZlV2a19Fd2RPNnFpalVTNUZjNWZDSHF6OA?oc=5",
+      "source": "kalkine.ca",
+      "feed": "Google News: Sagicor",
+      "date": "2026-09-08T07:00:00Z",
+      "summary": "",
+      "companies": [
+        "Sagicor"
+      ]
+    },
+    {
       "id": "8133f9c6c76b",
       "title": "Aspida Re names Brian Lewis as CFO",
       "link": "https://news.google.com/rss/articles/CBMipAFBVV95cUxOWnRKa1g4eTlyRWN3dmFQdnFCZzFoZzNnVFE1ZVBELXBtZ2prYmhaTVNRRUYwaV9walRVOVBxNk9UcXYtN1JNX1JrQ08yaHZvT3dxaWxJX0lzZGFraXpJUE5GOU8zaUlJcVN0cUVhVXh0UnBrVEEwYjFoM1M4aS1XRlhUdlluWjI1SUpJdV9WUDFsZFVtTzRpUlpKWVM4TV9KSzJSMA?oc=5",
       "source": "Royal Gazette | Bermuda",
       "feed": "Google News: Fortitude Re",
-      "date": "2026-09-07T13:37:57Z",
+      "date": "2026-09-07T07:00:00Z",
       "summary": "",
       "companies": [
         "Aspida"

@@ -1,5 +1,5 @@
 {
-  "updated": "2026-09-19T04:43:07Z",
+  "updated": "2026-09-19T11:06:44Z",
   "topics": [
     "Insurance AM",
     "Private Credit",
@@ -28,6 +28,16 @@
       "isNew": false
     },
     {
+      "id": "40376df42dfc",
+      "title": "How To Win Assets in the 9.6T U.S. Insurance Market",
+      "source": "dakota.com",
+      "date": "2026-09-18T14:37:31Z",
+      "topic": "Private Credit",
+      "summary": "",
+      "link": "https://news.google.com/rss/articles/CBMikAFBVV95cUxQbE9HNEdOYm50N1hEVllQRXVXbnpwbV80R3U4V05SWE1vUlkxbkJYb2l5UFZTVWZ5eE4wWUk1UzBPeGRCNFJ2YTBqalgtTzAwWWZHNXlubTBhcVpZcWZkU01FZUVRdmVuZVFxaDFzZmlJNGdZc2tFUHlKQ0ZxQ2JhMDVqQlJ0WVpRb2ZhNW9OcETSAaABQVVfeXFMTkFxUjk0UWZhbFM3MW03U25nT2xnTWZVU3M5LXRNWnVRUmdVU29Ud3NHUlUycGoxUTltWi10ZkVEclNRM2FLVWVJSEhVdXZwS3A4Q2NOSGVSUUREdzZHcy1zSE5qWXRmc0lsdHVFT1h4cnZWRmpaV1FFSVcwVXVKT2JicHNfWE1sYlQxZ0pPNVJlalJ6dmxROGpRYVdPUFFEdw?oc=5",
+      "isNew": false
+    },
+    {
       "id": "d55f5bbd2d36",
       "title": "Buyout firms are slicing their debt to try to get cautious insurance dollars",
       "source": "Insurance Business",
@@ -45,6 +55,16 @@
       "topic": "Private Credit",
       "summary": "",
       "link": "https://news.google.com/rss/articles/CBMiqAFBVV95cUxNT3VIRTU5eEcybTNGN05pRDZqbFdCSnpCZnA0Z3VTa3JoM3dqUUdVRkV0eGhVMy03aU1TNDFjclk4TGtEUWctaWpXWkpyZmNEQ25abWNMSTdSTFJhR3BQanlkRFBXT0tNTlUwdXc2ZWhIdkZhRVFveVlJX2pmLW1QaWRvQ29iYk5BNEpTcko4TGxYV2x2a3lndFJLQ05yOEwyVEpFTks0bVc?oc=5",
+      "isNew": false
+    },
+    {
+      "id": "a8881c8435bf",
+      "title": "Casualty sidecars require discipline on both sides as asset risk grows: Ledger",
+      "source": "Artemis.bm",
+      "date": "2026-09-18T13:02:50Z",
+      "topic": "Insurance AM",
+      "summary": "",
+      "link": "https://news.google.com/rss/articles/CBMiqgFBVV95cUxOZmNEYWJRMWl1NlpYRUI0WHVsNGY3TzA3d29aSkNRSnAyNTBLRDV1c3BfbWFfTmU4QTJGWHFKWmRaVkloZ1AzbGxGaWg2eExUclUydnNYMWJybFVrb3BYUzh4UkFOSXVuSDhwS1JwQmNWVDB2TFZQcWdrOV9YVW1KYkc2TnphMHhDdDFuUFJwczdxZEo1aXZzYWZZV0ZSZEc1QnR4Si1fd1F3dw?oc=5",
       "isNew": false
     },
     {
@@ -68,23 +88,23 @@
       "isNew": false
     },
     {
-      "id": "bd03bdd50a67",
-      "title": "Private equity turns to financial engineering to lure insurance billions",
-      "source": "Financial Times",
-      "date": "2026-09-18T04:01:00Z",
-      "topic": "Private Credit",
-      "summary": "",
-      "link": "https://news.google.com/rss/articles/CBMihAFBVV95cUxNRWVVY1VnOEdTa1dFbEZYaWlDeUxCZnJTdW1ZaG5kVF81MUl1NHZZcWpSSkVfZC1ZeFFFSUtiVDE0aGM3TXpXbXIyV2hFR09XQ0w4eTdYZmdEcW92aXVnTVl3M1hpWW5iU092RjN3NFd2ckFudWhiMDFQY2tlcWZzdXJyay0?oc=5",
-      "isNew": false
-    },
-    {
       "id": "a54844c35e38",
       "title": "How money moved across Mark Walter\u2019s empire",
       "source": "Financial Times",
-      "date": "2026-09-18T04:00:10Z",
+      "date": "2026-09-18T04:01:07Z",
       "topic": "Insurance AM",
       "summary": "",
       "link": "https://news.google.com/rss/articles/CBMihAFBVV95cUxPRWVxNFp3b243c1k1cl9ZRFBxOHVzZzhqX3FveDNfaHA2NTdMTUlwaWlnNXZ3WHR6YlRhd0x2QjR4TFNUVloxRmpWbEpVd1dqUU5QSEppeTExQlNNRncyWHdUSDNwc0c3Ukd4WGx2YlhpSk1IQk10czFUUXRLVzRadkxVa3g?oc=5",
+      "isNew": false
+    },
+    {
+      "id": "bd03bdd50a67",
+      "title": "Private equity turns to financial engineering to lure insurance billions",
+      "source": "Financial Times",
+      "date": "2026-09-18T04:00:09Z",
+      "topic": "Private Credit",
+      "summary": "",
+      "link": "https://news.google.com/rss/articles/CBMihAFBVV95cUxNRWVVY1VnOEdTa1dFbEZYaWlDeUxCZnJTdW1ZaG5kVF81MUl1NHZZcWpSSkVfZC1ZeFFFSUtiVDE0aGM3TXpXbXIyV2hFR09XQ0w4eTdYZmdEcW92aXVnTVl3M1hpWW5iU092RjN3NFd2ckFudWhiMDFQY2tlcWZzdXJyay0?oc=5",
       "isNew": false
     },
     {
@@ -270,7 +290,7 @@
     {
       "id": "6f42f3fd2d90",
       "title": "The next phase of life insurance investing",
-      "source": "InsuranceNewsNet",
+      "source": "insurancenewsnet.com",
       "date": "2026-09-15T12:07:39Z",
       "topic": "Structured Credit",
       "summary": "",
@@ -285,26 +305,6 @@
       "topic": "Insurance AM",
       "summary": "",
       "link": "https://news.google.com/rss/articles/CBMiigFBVV95cUxQRS1xT1hoSGVmeldMdmdrbHY4c3lLTS0tRzBlU0l2OVhLdWk3Q3N2a00wdWV3enhyZV9tWl9NQmdhazBjRmxJT2pYbUxURmJDbVktQzJCVUpydnpHZklfRlVUQ1dDRHBUQUNmTnRYM3hvem9CQmgybEpIcmxuWGhhdHNYUjRRUFJnYVE?oc=5",
-      "isNew": false
-    },
-    {
-      "id": "17536f3d8436",
-      "title": "BlueOrchard raises $250m for climate-focused private debt fund",
-      "source": "Alternative Credit Investor",
-      "date": "2026-09-15T10:59:54Z",
-      "topic": "Private Credit",
-      "summary": "",
-      "link": "https://news.google.com/rss/articles/CBMisAFBVV95cUxQVjg5UnRfUXZId3JkN2VGaVpDNXZHcDFJTjQxMlN6OGtjbkFWZk8tclZtRUozcndJOVVkYWRoRUlkY1g2MF82a1pFN0R1SUlDM0Ryb3pFZ1dtYnYybmVJSVlZZDJyQjJFY2hNRHlGYWtCc3lVWFkzb1JZM0hoeTdISG5hQjdfSjdiNnJyMGJqV2tmQk54bVZBWG9uUXJLdkJjOVJtcmlfTUpqRU5Jdnh5TQ?oc=5",
-      "isNew": false
-    },
-    {
-      "id": "e415101fcb50",
-      "title": "J.P. Morgan Asset Management Closes $1.1 Billion U.S. Net Lease Fund, More Than Double Initial Target",
-      "source": "pulse2.com",
-      "date": "2026-09-15T05:23:50Z",
-      "topic": "Insurance AM",
-      "summary": "",
-      "link": "https://news.google.com/rss/articles/CBMiuAFBVV95cUxNN0owelR5VkdlTnAtVF9MaHVxY0h5blZUMEx1b1dGTnBIVG9zbHM2Mnc3VkoxbG1YSkNsdnVxMzBBbE5HMVoyOXp0YzAyX245LThwNlpCaTA0bVdKWHRQZmFtT3NvUllVR2RsZ3lPcXVBdGMtSl9ESGtweE5xSXRaT19VT05wUGxkR2NJcmkzVG5sTXZnWHhDMGdkZUN4dFctWXJFbHlkWWZRdllOcEU4UG5nd2Y3eEVY0gG-AUFVX3lxTE9uQzdmWFdUTmtRR0xpRWxvOFpPZk9McXBOQ3RKOUlRNTFzOVhNX0RwWFhQbGkyUHA3Z0FLLUozOHRSS2dueHB1QzczZS16NXhaSVFkTnRVVG5HcDhpVjhwUk96SDBnYW9PVmFVOFktMTdRRXBGRzNNN2tZNXloYnc1Vk1RWXFVcWM0anRta3F4TVRLU0RsR1FVNVdXTHBfazg3UjdOWnVjSnlkNEpiTE9hdjFZRG1zdDNDWVVvLUE?oc=5",
       "isNew": false
     }
   ]
