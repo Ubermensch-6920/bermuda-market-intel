@@ -1,12 +1,12 @@
 # Reinsurer News Monitor
 
-Bermuda life & annuity watchlist — last 14 days — 16 items
-Generated Fri 18 Sep 2026, 20:25 ADT
+Bermuda life & annuity watchlist — last 14 days — 17 items
+Generated Sat 19 Sep 2026, 01:43 ADT
 
 ## Feed status
 
 - ✅ **Artemis.bm** — 10 items
-- ✅ **Google News (16 of 16 companies)** — 37 items
+- ✅ **Google News (16 of 16 companies)** — 38 items
 - ❌ **Reinsurance News** — failed: HTTPError: HTTP Error 403: Forbidden
 
 ## Athene
@@ -17,11 +17,12 @@ Generated Fri 18 Sep 2026, 20:25 ADT
 ## Aspida
 
 - **2026-09-17** — Reinsurance News — [Aspida Holdings welcomes Sarfatti as Chief Risk Officer](https://news.google.com/rss/articles/CBMijgFBVV95cUxPaTZwXzUzNmRxS29Dcm45VVBwaHJveHRCV3pOVVdLQV9ZekM1dXFYdjZYWFd6c2hQMWxWX3l5YVR2VUJqZFhDMXgyX2JGSU1aNGdCUDB1M1ZaTGJfTTBpRXB5c2d4c2pmM0ZFU3IwOGNuR21STWJyRy1FNTREdW8wYlIzTTB2UnJIb3BhMld3?oc=5)
-- **2026-09-14** — GlobeNewswire — [Aspida Appoints Aaron Sarfatti as Chief Risk Officer](https://news.google.com/rss/articles/CBMiwgFBVV95cUxQVzAzX1dBbk96QVU1N3BMM1gzWThtbTBNdlljY0tlYWxTMWpBRFM3dEkwdllsMGNJNHlTY3hwNXVXQTdXOUItXzEydDBxdFc5TUtNS3NyLXQ5OWc3WU5wdWtOcjg5bzB0NFAwbWxIcmYxRXBHMlZlclY4RXc4dlFtM3lpQjNJV3ZsT1JIV1c4TnNTdGZPbVZaSnkxVmRYQnR6UkhfR3hZVU9oZHRkVlBhOGJTTHRZc2kzUzY5XzFQUGpoUQ?oc=5)
+- **2026-09-14** — The Manila Times — [Aspida Appoints Aaron Sarfatti as Chief Risk Officer](https://news.google.com/rss/articles/CBMixAFBVV95cUxQbWRhdlItOHFLM3gxS1hJVU5JNkQwTXdWYWtwOXNhb28tQURtU3RLcGQxS0gyRktaU2VZUWdrUE9TbkstM0plb1N1NXZsM2dCOG9JVkJ0Rk1nVGptQTlESkpKZ0NMQmtOOXNWQ3lEVE82NER6M0FoSXZRYTVaRm9ucTI5ZnAxcll1NjdvcXNBWGFTUjZTQnZqZTBjZXJoc0pfXzZ5M0duQkp2U1dIZl9QbTlzRGJkWFFmMTZhOFlFMVpENlZh0gHKAUFVX3lxTE5Kd012QkZON3lzaHQtbldVdjhTeVpJcDZ2bnNfY3JHUV9GS0h6cHU4NW1fU3VoaWpSTHZtRzZrS3VBakxvclE4TXo1TVNaaHNKTTJBMkxnWnlyYUYzdUFya3pNLWpDZmdnaEphYnkyMUVEbVdpOW90eDkzRDlUTmdGVmF1TG9taWVoRkczc21nRHl6cXoxdDRPblpIR0Q5bzNRM0FGaTAwUDBlc2lEU0ZSRE1VZV9VMllYSnhTdnU0TUk3QzVmaGF5Z1E?oc=5)
 - **2026-09-07** — Royal Gazette | Bermuda — [Aspida Re names Brian Lewis as CFO](https://news.google.com/rss/articles/CBMipAFBVV95cUxOWnRKa1g4eTlyRWN3dmFQdnFCZzFoZzNnVFE1ZVBELXBtZ2prYmhaTVNRRUYwaV9walRVOVBxNk9UcXYtN1JNX1JrQ08yaHZvT3dxaWxJX0lzZGFraXpJUE5GOU8zaUlJcVN0cUVhVXh0UnBrVEEwYjFoM1M4aS1XRlhUdlluWjI1SUpJdV9WUDFsZFVtTzRpUlpKWVM4TV9KSzJSMA?oc=5)
 
 ## RGA
 
+- **2026-09-18** — Intelligent Insurer — [Former RGA leader takes helm at West Grove Re](https://news.google.com/rss/articles/CBMihwFBVV95cUxNck54Nm9NejlNOWdic09ueHdrRHAyUDdhQVJlMHJkZFhqNVpHRmtySTNEejZGZFU0VlZURDZlcUU3dGowbGlGdnl3M2VBUW5UVFd2OEtGdm85clRycUFhWklHN3JTUjZPdGR1dUtwT3VhcTYzVWJqS0paNm1jR0kxUW5CQUotVUk?oc=5)
 - **2026-09-15** — Yahoo Finance — [Is Reinsurance Group of America (RGA) Worth Its Price After 152% Gains?](https://news.google.com/rss/articles/CBMiogFBVV95cUxPTlB5YU9uSnhLeThqVGlzR0xJay1sMjdxRkozT1NxVjlMa1VoWXVkWlBTclFJVDdmVk13LW1mc2F6MVd0Rk1XSWQ3VXo2ODZBd2FxajV2T28xRXZydUw5NFRvOHFBZWwtbUZPQ2d6Ty1WSHpLbXJWcXRBOGZJVWxncmZDc3dyZVdEVy1aRTNzZ0hiY3Fnanphak41dHRjSlkwMGc?oc=5)
 - **2026-09-13** — simplywall.st — [Reinsurance Group Of America (RGA) Gets A Fresh Value Backing On Its Global Growth Story](https://news.google.com/rss/articles/CBMi3AFBVV95cUxPRm1FSHU4a1k2SFpWaEx4Z21lT1F0T29wZGpiR0g2bHV1X2xkQ0RBTGlHTTEwYjZXa3RzREhRcWhoOHBpTFUyUDI5bnFXY29udlp1RE9BbFpScUxBZzc1SHRHUFFXSjZYckdBSXBVNUE3SmVxSk96alVudTltZ3lmM28wUk0zVHFwZjMtN1YyU0xFVkRhN1RWM1Vaelh0Yld2ZHBPRk11c3AxV3ZGWjZyekN5aW9CTTdZZnloSl9jVXBqdUg5TTNUOUNSM1N4eWE4OGo1T011bHN2dkxy0gHiAUFVX3lxTE9jQ0UyZzhKY3VZMzgySXNGdlVYYXBWTGFyZWJtTEhZazktSDZMS2dXR0tCSjBDaUk2S0Nxa3NaczhEeE90aWc2YlU2dlRoQzhfN3NJR3hNd0p2NTdDX1N6a05INTR0YTg0eWctZnJ5Z1V0R2ZTRjBYM2Y2N1hTcFpiUXVvS2Z3X1lINWxHLUE5MmZEczNQUDBWNU1kOHI2dTE1WVlqcnA0UHNYdGdzY1lRQXBjdlo5WTZPODZkQWtoYkhnd0g5MlRjVlk0Tmc0SjZsOGlEcnhWYUZxb25fWVpzX3c?oc=5)
 - **2026-09-12** — MarketBeat — [Reinsurance Group of America, Incorporated $RGA Shares Bought by Engineers Gate Manager LP](https://news.google.com/rss/articles/CBMi4wFBVV95cUxQRTVvWWhHeTg5eTNreS1KcWQwVFNPSFBDNjFZcHpSSEFoNFhEUWI4UDNETXdlY1k4OXQ3MDVfclNUSlR5Z04wTEstQVdzc2h3S0dmVW9FWjdUNmVGU3Qwd0RseXc5VndJbERFNUhnWkFNRXpSRnZ3M2JJcUprZnFlZmNJckNhREdEWWswa0RXdWZYRFl2VUZxUTJHOFNYTnVhVW51UWZjMl9LamFvdWpjaUN2RmdEREhfdEZXcXRNQVNMWkpRNDgyTmpFb01YTWFCWGVlTVJ6dGRXMFpaMUFwRXlHNA?oc=5)

@@ -1,5 +1,5 @@
 {
-  "updated": "2026-09-18T23:25:02Z",
+  "updated": "2026-09-19T04:43:07Z",
   "topics": [
     "Insurance AM",
     "Private Credit",
@@ -71,10 +71,20 @@
       "id": "bd03bdd50a67",
       "title": "Private equity turns to financial engineering to lure insurance billions",
       "source": "Financial Times",
-      "date": "2026-09-18T04:00:09Z",
+      "date": "2026-09-18T04:01:00Z",
       "topic": "Private Credit",
       "summary": "",
       "link": "https://news.google.com/rss/articles/CBMihAFBVV95cUxNRWVVY1VnOEdTa1dFbEZYaWlDeUxCZnJTdW1ZaG5kVF81MUl1NHZZcWpSSkVfZC1ZeFFFSUtiVDE0aGM3TXpXbXIyV2hFR09XQ0w4eTdYZmdEcW92aXVnTVl3M1hpWW5iU092RjN3NFd2ckFudWhiMDFQY2tlcWZzdXJyay0?oc=5",
+      "isNew": false
+    },
+    {
+      "id": "a54844c35e38",
+      "title": "How money moved across Mark Walter\u2019s empire",
+      "source": "Financial Times",
+      "date": "2026-09-18T04:00:10Z",
+      "topic": "Insurance AM",
+      "summary": "",
+      "link": "https://news.google.com/rss/articles/CBMihAFBVV95cUxPRWVxNFp3b243c1k1cl9ZRFBxOHVzZzhqX3FveDNfaHA2NTdMTUlwaWlnNXZ3WHR6YlRhd0x2QjR4TFNUVloxRmpWbEpVd1dqUU5QSEppeTExQlNNRncyWHdUSDNwc0c3Ukd4WGx2YlhpSk1IQk10czFUUXRLVzRadkxVa3g?oc=5",
       "isNew": false
     },
     {
@@ -148,6 +158,16 @@
       "isNew": false
     },
     {
+      "id": "d9a75696e235",
+      "title": "Bond market woes likely a factor for Fed, but intervention seen as unlikely",
+      "source": "Reuters",
+      "date": "2026-09-16T18:23:33Z",
+      "topic": "Rates & Macro",
+      "summary": "",
+      "link": "https://news.google.com/rss/articles/CBMiqgFBVV95cUxNWHQzSC11Z3EtOUFVMG9sQnYwOHhnZkJGM2VoVWtFNWp1Y0ZlM2lIMEhoSnkzaExSQlZ4SzVFRkk0aHR3S0NUWC1ZdWQ0MXdJNmxoYWdxdGJJcmtDWENDa0JvNE9fQjFCTFhqTVZZR0NuQmNDNE03dHVEcUVmZDdpaUhXUTFWdzdmeXJUVkxGdThDaG8wNGRWSXl3V09DZVNDN1BzbllrN0tSZw?oc=5",
+      "isNew": false
+    },
+    {
       "id": "12fe84050794",
       "title": "BlueOrchard climate fund reaches $250m first close",
       "source": "africaprivateequitynews.com",
@@ -170,7 +190,7 @@
     {
       "id": "8786c2ccfdab",
       "title": "Insuring the Unmeasurable: Why Data Centers\u2019 Love For Captive Insurance Is Dangerous. Who Bears the Ultimate Residual Risk?",
-      "source": "contrarianunicus.substack.com",
+      "source": "Substack",
       "date": "2026-09-16T09:17:07Z",
       "topic": "Structured Credit",
       "summary": "",
@@ -285,26 +305,6 @@
       "topic": "Insurance AM",
       "summary": "",
       "link": "https://news.google.com/rss/articles/CBMiuAFBVV95cUxNN0owelR5VkdlTnAtVF9MaHVxY0h5blZUMEx1b1dGTnBIVG9zbHM2Mnc3VkoxbG1YSkNsdnVxMzBBbE5HMVoyOXp0YzAyX245LThwNlpCaTA0bVdKWHRQZmFtT3NvUllVR2RsZ3lPcXVBdGMtSl9ESGtweE5xSXRaT19VT05wUGxkR2NJcmkzVG5sTXZnWHhDMGdkZUN4dFctWXJFbHlkWWZRdllOcEU4UG5nd2Y3eEVY0gG-AUFVX3lxTE9uQzdmWFdUTmtRR0xpRWxvOFpPZk9McXBOQ3RKOUlRNTFzOVhNX0RwWFhQbGkyUHA3Z0FLLUozOHRSS2dueHB1QzczZS16NXhaSVFkTnRVVG5HcDhpVjhwUk96SDBnYW9PVmFVOFktMTdRRXBGRzNNN2tZNXloYnc1Vk1RWXFVcWM0anRta3F4TVRLU0RsR1FVNVdXTHBfazg3UjdOWnVjSnlkNEpiTE9hdjFZRG1zdDNDWVVvLUE?oc=5",
-      "isNew": false
-    },
-    {
-      "id": "58846fd1dbf2",
-      "title": "Spike on 10-year bond yields renews concerns over U.S. debt",
-      "source": "The Washington Post",
-      "date": "2026-09-15T03:01:00Z",
-      "topic": "Rates & Macro",
-      "summary": "",
-      "link": "https://news.google.com/rss/articles/CBMiqgFBVV95cUxPLU1rUElEWkVFZ1UyajZsc0FSVDc5M1d4VzhmSE02YWxXMkVRdzlXY0UwRTY1SGV5VU9YYUo3U1BSWGkzY0hwS0ZPZHJaWGZ4MFhSR1dBZi05MThpazlkeGZ2YzJUTE5TSEZwLVZyajBJVGtad0JpMHdYNFRiRFpFTmZHV21lNmdJZjBMNzdnRy1pVDlmeTZybXE4TlZjX044N0hzWkdPTldjQQ?oc=5",
-      "isNew": false
-    },
-    {
-      "id": "b3a774911fdd",
-      "title": "Westaim Announces Rebrand to Aventus Capital and Rebrand of CCaventus, Its Institutional Asset Manager, as Part of the Aventus Asset Management Platform",
-      "source": "Business Wire",
-      "date": "2026-09-14T21:17:51Z",
-      "topic": "Insurance AM",
-      "summary": "",
-      "link": "https://news.google.com/rss/articles/CBMisAJBVV95cUxNQXptRE5hSlI3WmtYVjJ6b3J1UkNBZTA0bnpDYVB6aUpWUnJjYkwyam1QSFFiSG9RRkV2cFF0elB1R2pqSFlISWx6QWp0aWFsYmF2WGw5Q19YMEtaREEwLS1Nc0tOZnhsM04wbGZhTmVrSjBtekFGRzhCMFZubTdlUjZBVTZUVU9EWlVRQ1N3aWNGZzdEaERydTlDSHNYOXFiTF9wdUJaUkgzWnR2aGlYU2VhUlY1R25vV3FpZWl0SGZEZ0tvNXNLR2tSRkJIYXQ0V3gzWnp5YUdIb3p1a2hibWtxMWRiM2szZVdrZ2lPY2tNclhhZVczYno4bkNtcU51TWVSdUMyeVBFc2F1VHl1eWo2SFdnWlRfQ3B5ZElxTGN1ZVphXzc3OWNXTGpoSHVK?oc=5",
       "isNew": false
     }
   ]
