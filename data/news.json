@@ -1,5 +1,5 @@
 {
-  "updated": "2026-09-20T11:30:19Z",
+  "updated": "2026-09-20T16:11:38Z",
   "topics": [
     "Insurance AM",
     "Private Credit",
@@ -8,23 +8,33 @@
   ],
   "items": [
     {
-      "id": "750c575e5dfb",
-      "title": "U.S. 10-Year Yield Cools After Topping 5%, German Bund Yield Hits 15-Year High",
-      "source": "WSJ",
-      "date": "2026-09-20T07:58:38Z",
+      "id": "154bcf2dbbde",
+      "title": "10 Ways to Explain Why Interest Rates Are So High",
+      "source": "The New York Times",
+      "date": "2026-09-19T12:00:05Z",
       "topic": "Rates & Macro",
       "summary": "",
-      "link": "https://news.google.com/rss/articles/CBMiywFBVV95cUxPUUViTThLVXZVVW9Uck9RZHRIcm1zQm9tcXFjX1ZBckl6NGJQRTVvREEyYjFlUzBKdHRaUTF3eGlHb1JaSnN5ZXpSU2ZnZUNNNURYUXgxME9Xam96THNITzNTNjlNVUdNUmFSbUhoSXgzLXgxM0pWOFZ2aVNuN2lYb0ZXdGlpN3NIeUVJR3FaY0VmcDFERWFXU1g1dUE4R3NoZGU0SVRfS3dVdTA5VjlKd2FBUy1tYWJtaWxhc0FNclUzM2xFdUpSUTlzcw?oc=5",
+      "link": "https://news.google.com/rss/articles/CBMijgFBVV95cUxNRW5YWVh0NGRxU2ZrcmloZkhuUXJtSmgtMG5ySnhPRjBSYXR6aDJrN1M3REN2dlNUNkJETEhJbzhOd2JkcGZsZnlsaE13RWpvXzJBZEJsY25DbkJ3S29tcHlYRXlrRGV5Qk9RYmRHREcxWV92VTJObG10T2RxSkhrQjMtd0FGYXdxMENLazJB?oc=5",
       "isNew": false
     },
     {
       "id": "62b45a66c5e8",
       "title": "The Private Equity And Private Credit Loop Threatening Life Insurers",
-      "source": "forbes.com",
+      "source": "Forbes",
       "date": "2026-09-18T18:16:50Z",
       "topic": "Private Credit",
       "summary": "",
       "link": "https://news.google.com/rss/articles/CBMizwFBVV95cUxOekJwQlZPS2JFbHl4RlA0N29laGw0WWhMMi1jS2RVd3hYcHVLTFF5ajN4UUZFa2REWkFkWmNDT1IxbmJNT3VVT2x1RFd5UU9nZlNWak5pYUNnc1FDcGxRU2R3RjBfcmpEVE5Xd1BsTE5YSUdjTlRKZ0hkc2k5ay1sS0FTeFdETkxLRXd4Vk9lbExhTGFRS0ZudnVmVGUzemlNYmc4aFUxRzZmYVQ0WHg2SHJoVDZEaUdIX0xyazNHNkstUm5jRWFYR1BfSW42YVk?oc=5",
+      "isNew": false
+    },
+    {
+      "id": "3155239457f0",
+      "title": "What Set Off the Rise in Interest Rates? Mainly, the Iran War.",
+      "source": "The New York Times",
+      "date": "2026-09-18T15:52:46Z",
+      "topic": "Rates & Macro",
+      "summary": "",
+      "link": "https://news.google.com/rss/articles/CBMiigFBVV95cUxPcUVYT1JmOFZKQTE0RTlXMkczR0tFaVpCbUducWpycnpUU2g4QzhvbVNyNk1vNHFEQjNvdmpOMDkyWTB2aUVmUkpDZ1RkSkRZclR4clRHNWJhV1lEeDA3aVZ5Q1Brc0ZtdXllMVhtb21jOElBZzBNQ2pxbk5NdGVTV0NGTEx1M3R3Z0E?oc=5",
       "isNew": false
     },
     {
@@ -60,7 +70,7 @@
     {
       "id": "3830e6102182",
       "title": "Moody\u2019s: Insurers set to boost private credit allocations",
-      "source": "alternativecreditinvestor.com",
+      "source": "Alternative Credit Investor",
       "date": "2026-09-18T13:53:26Z",
       "topic": "Private Credit",
       "summary": "",
@@ -90,7 +100,7 @@
     {
       "id": "9c2fbc64ef29",
       "title": "Why Japan\u2019s markets flipped the usual script after central bank rate hike",
-      "source": "CNBC",
+      "source": "cnbc.com",
       "date": "2026-09-18T07:19:25Z",
       "topic": "Rates & Macro",
       "summary": "",
@@ -295,16 +305,6 @@
       "topic": "Rates & Macro",
       "summary": "",
       "link": "https://news.google.com/rss/articles/CBMidkFVX3lxTFB1QVRXWWxMdEItUmhvRVZRM0FwTTJZNVB5bmRleUpYQnNHNTFMMXdyQTVJTW01UGFVcE5aZzI5YjJVNDkyR2F2M1BtY25STzUxeGxGLXN4anlERW1rY1BGNEluRHR6cWh0c0pGSHdibUQ0SlV0NWc?oc=5",
-      "isNew": false
-    },
-    {
-      "id": "63f3980918e1",
-      "title": "10-year Treasury yield hits highest level since 2007 ahead of Fed rate decision",
-      "source": "CNN",
-      "date": "2026-09-15T16:54:26Z",
-      "topic": "Rates & Macro",
-      "summary": "",
-      "link": "https://news.google.com/rss/articles/CBMic0FVX3lxTE8zZ21xTmJjb1g2ZHZ3WFlRaVdtdWJERlpHMXA0a0p5TlJJaS1aZE9QUERISk9BSm1BV3dJUTVlbWE4VDdBVFlJV2p6THY4SzRsSDdSSkU4czhZUC1nYlpYWF9VMUJadzRRUGlUQWtjX1VvM1U?oc=5",
       "isNew": false
     }
   ]

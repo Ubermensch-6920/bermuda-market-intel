@@ -1,5 +1,5 @@
 {
-  "updated": "2026-09-20T11:30:22Z",
+  "updated": "2026-09-20T16:11:41Z",
   "lookback_days": 14,
   "feeds": [
     {
@@ -17,7 +17,7 @@
     {
       "name": "Google News: Athene",
       "ok": true,
-      "count": 10,
+      "count": 9,
       "error": null
     },
     {
@@ -106,9 +106,9 @@
     },
     {
       "name": "Reinsurance News",
-      "ok": true,
-      "count": 10,
-      "error": null
+      "ok": false,
+      "count": 0,
+      "error": "HTTPError: HTTP Error 403: Forbidden"
     }
   ],
   "items": [
@@ -116,7 +116,7 @@
       "id": "2f66c80f38d4",
       "title": "LNC Stock Pops On Report Of Lincoln National\u2019s Potential $5B Reinsurance Deal With Talcott",
       "link": "https://news.google.com/rss/articles/CBMi8AFBVV95cUxObVNXSlZPbDItV2V4cFN0N1l4NFBGb2lMODJfbUFfeVN6OWMyMVl6WUtNc044dmI4aXpacGdjMGtwYkdkcWM5Vk1FN2hpODJ6NkVPa1pOa0g3aU13QnZ1NjFNc2dEQldXdW1odkZXaTVyYkpPM3YtM00wSE9DdmdoOS16SF8tUEJvYThCdWZTT1RyMWJWZm5KdTltUTcwRU55Y2FRMG42d19FU2Nnb1Y5MXZKTm5iQW9GclRlbFRiaTl3R1JyaWlCOFZUalhJMFdYWWxPd01OaWIzQWVjTFpvSWo2SGt6VWM1cUpESWIydU8?oc=5",
-      "source": "stocktwits.com",
+      "source": "Stocktwits",
       "feed": "Google News: Talcott",
       "date": "2026-09-20T00:47:07Z",
       "summary": "",
@@ -128,7 +128,7 @@
       "id": "032420a02f82",
       "title": "Athene settles eight-year legal battle with former director",
       "link": "https://news.google.com/rss/articles/CBMixgFBVV95cUxNTFc2VFFmVXFRWlR6RVFSb1M2US05M0pMa3FnMUNjQ3V5VlBVcUxhRDluWGxiRndHX1RZVFlCVlM5UHJDNjJDcGZJa1lmUHUyd2gtZVNXdkJMNEY0S3RmN0pXekotX3RwTDZBUWk1Umw2bGE5NXFXeldqZl9aVTF1S0dIaFpPcVlwNV9WQ0JWYXl0YmZncERTV0xkUDVobWRTa3g4XzdNNjFzY09NRGtIWUUwVlhuYV9Qd0ZpRG9OcHFsQ0VLcEE?oc=5",
-      "source": "Royal Gazette | Bermuda",
+      "source": "royalgazette.com",
       "feed": "Google News: Athene",
       "date": "2026-09-18T18:09:52Z",
       "summary": "",
@@ -140,7 +140,7 @@
       "id": "f490009a24cb",
       "title": "Former RGA leader takes helm at West Grove Re",
       "link": "https://news.google.com/rss/articles/CBMihwFBVV95cUxNck54Nm9NejlNOWdic09ueHdrRHAyUDdhQVJlMHJkZFhqNVpHRmtySTNEejZGZFU0VlZURDZlcUU3dGowbGlGdnl3M2VBUW5UVFd2OEtGdm85clRycUFhWklHN3JTUjZPdGR1dUtwT3VhcTYzVWJqS0paNm1jR0kxUW5CQUotVUk?oc=5",
-      "source": "intelligentinsurer.com",
+      "source": "Intelligent Insurer",
       "feed": "Google News: Talcott",
       "date": "2026-09-18T14:34:10Z",
       "summary": "",
@@ -158,6 +158,18 @@
       "summary": "",
       "companies": [
         "Aspida"
+      ]
+    },
+    {
+      "id": "be5610e259be",
+      "title": "California State Teachers Retirement System Acquires 624 Shares of Reinsurance Group of America, Incorporated $RGA",
+      "link": "https://news.google.com/rss/articles/CBMiigJBVV95cUxNRENDRTUyZ1hLS3NnRjJGRXhycjVEeVpwVkI2RFVZc0ZtWVdraTlFVE1fWktieHQtc1ZhOTJMV0MtVVVWUUx2WHFwaThOelZVTkliMDZnYUZRVWJkdU9IYzlVeEMtdVpLUXNkV1NYcVhuVzBCSm1TWDNTLWtkUnhmVy12NVZ0NFVHN1QzTGY0NGhtQjhqeHJFRGJTNzJ6dDlWSk8xT0lNdkZoOUNpUW5aR3BNeU5sVFVmeDl4V1dVeldveXBleXRoclZQUjBveEdEZUhkeVNjVFByR2ZndzlVTnlOZFdfVXJTcVllaFpWMWNEZUdNN0dxbzU3b1BjclZ0bS1JMEp2cU1Pdw?oc=5",
+      "source": "MarketBeat",
+      "feed": "Google News: RGA",
+      "date": "2026-09-15T07:00:00Z",
+      "summary": "",
+      "companies": [
+        "RGA"
       ]
     },
     {
@@ -262,7 +274,7 @@
       "link": "https://news.google.com/rss/articles/CBMi3gFBVV95cUxPcC0xQlNQSTloaFBOUDRybUM0enlXbldxRkFBSHpiVDBKOVlQTXRiUExIeWFJYlJJQVotSXFjNklfVjlJMHhiTnRvMXgxYk00QlBjQXI0cmhKQk9GcHptVW1TLUEtaWNPWHlSX3k2Y0tkRTB4T21hc1NfN0FPbWlIS0JVMnZrQTg5c0lnWXU3dGdwZl90Y0ZnUTZSdmpPNzFPM1hpSXYzNjNlRk92blgzMDJ5dWRLblM4NW1MLTFWbWl0T3BpUGpJNU8yQzJTeGM2VXFfZHVQZHNLZFU0LVHSAeMBQVVfeXFMTmV0SmVyV2tCYmxxVjVXREx1VFlPTGw2aHlpZ2VLb3FtU25QdXp6QUwxY2hUMlJja3o4c1ZjeEhrLXA4SldBc2dLVVh4SlJNbnJGaURQN0hlQ2pteGNkeDIwTTllQ2RDYVpWSk5wYVpHeGI2bkcybWFEaEJPR2FTdFNqWEVtM3ljUHRZZDluUHVvcE9FUGxybXFJNjN0ekJ5Mk1MbXlsaXFydnhwYjFFM01BZklJM2ZSUTVTSl9mNDh4eXQ3R2xRWW8zX0UySV8wNXpHcmNYNk1ITlV1aW5fLXBqV0U?oc=5",
       "source": "simplywall.st",
       "feed": "Google News: RGA",
-      "date": "2026-09-11T00:23:48Z",
+      "date": "2026-09-10T07:00:00Z",
       "summary": "",
       "companies": [
         "RGA"
@@ -308,7 +320,7 @@
       "id": "8133f9c6c76b",
       "title": "Aspida Re names Brian Lewis as CFO",
       "link": "https://news.google.com/rss/articles/CBMipAFBVV95cUxOWnRKa1g4eTlyRWN3dmFQdnFCZzFoZzNnVFE1ZVBELXBtZ2prYmhaTVNRRUYwaV9walRVOVBxNk9UcXYtN1JNX1JrQ08yaHZvT3dxaWxJX0lzZGFraXpJUE5GOU8zaUlJcVN0cUVhVXh0UnBrVEEwYjFoM1M4aS1XRlhUdlluWjI1SUpJdV9WUDFsZFVtTzRpUlpKWVM4TV9KSzJSMA?oc=5",
-      "source": "Royal Gazette | Bermuda",
+      "source": "royalgazette.com",
       "feed": "Google News: Fortitude Re",
       "date": "2026-09-07T07:00:00Z",
       "summary": "",
