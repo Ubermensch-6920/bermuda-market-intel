@@ -1,5 +1,5 @@
 {
-  "updated": "2026-09-20T04:59:45Z",
+  "updated": "2026-09-20T11:30:19Z",
   "topics": [
     "Insurance AM",
     "Private Credit",
@@ -8,9 +8,19 @@
   ],
   "items": [
     {
+      "id": "750c575e5dfb",
+      "title": "U.S. 10-Year Yield Cools After Topping 5%, German Bund Yield Hits 15-Year High",
+      "source": "WSJ",
+      "date": "2026-09-20T07:58:38Z",
+      "topic": "Rates & Macro",
+      "summary": "",
+      "link": "https://news.google.com/rss/articles/CBMiywFBVV95cUxPUUViTThLVXZVVW9Uck9RZHRIcm1zQm9tcXFjX1ZBckl6NGJQRTVvREEyYjFlUzBKdHRaUTF3eGlHb1JaSnN5ZXpSU2ZnZUNNNURYUXgxME9Xam96THNITzNTNjlNVUdNUmFSbUhoSXgzLXgxM0pWOFZ2aVNuN2lYb0ZXdGlpN3NIeUVJR3FaY0VmcDFERWFXU1g1dUE4R3NoZGU0SVRfS3dVdTA5VjlKd2FBUy1tYWJtaWxhc0FNclUzM2xFdUpSUTlzcw?oc=5",
+      "isNew": false
+    },
+    {
       "id": "62b45a66c5e8",
       "title": "The Private Equity And Private Credit Loop Threatening Life Insurers",
-      "source": "Forbes",
+      "source": "forbes.com",
       "date": "2026-09-18T18:16:50Z",
       "topic": "Private Credit",
       "summary": "",
@@ -28,6 +38,16 @@
       "isNew": false
     },
     {
+      "id": "c6995434714e",
+      "title": "How To Win Assets in the 9.6T U.S. Insurance Market",
+      "source": "dakota.com",
+      "date": "2026-09-18T14:37:31Z",
+      "topic": "Insurance AM",
+      "summary": "",
+      "link": "https://news.google.com/rss/articles/CBMikAFBVV95cUxQbE9HNEdOYm50N1hEVllQRXVXbnpwbV80R3U4V05SWE1vUlkxbkJYb2l5UFZTVWZ5eE4wWUk1UzBPeGRCNFJ2YTBqalgtTzAwWWZHNXlubTBhcVpZcWZkU01FZUVRdmVuZVFxaDFzZmlJNGdZc2tFUHlKQ0ZxQ2JhMDVqQlJ0WVpRb2ZhNW9OcETSAaABQVVfeXFMTkFxUjk0UWZhbFM3MW03U25nT2xnTWZVU3M5LXRNWnVRUmdVU29Ud3NHUlUycGoxUTltWi10ZkVEclNRM2FLVWVJSEhVdXZwS3A4Q2NOSGVSUUREdzZHcy1zSE5qWXRmc0lsdHVFT1h4cnZWRmpaV1FFSVcwVXVKT2JicHNfWE1sYlQxZ0pPNVJlalJ6dmxROGpRYVdPUFFEdw?oc=5",
+      "isNew": false
+    },
+    {
       "id": "d55f5bbd2d36",
       "title": "Buyout firms are slicing their debt to try to get cautious insurance dollars",
       "source": "Insurance Business",
@@ -40,7 +60,7 @@
     {
       "id": "3830e6102182",
       "title": "Moody\u2019s: Insurers set to boost private credit allocations",
-      "source": "Alternative Credit Investor",
+      "source": "alternativecreditinvestor.com",
       "date": "2026-09-18T13:53:26Z",
       "topic": "Private Credit",
       "summary": "",
@@ -140,7 +160,7 @@
     {
       "id": "fefcacde8a40",
       "title": "Property reinsurance investing offers more manageable tail risk than perceived: Agecroft",
-      "source": "Artemis.bm",
+      "source": "artemis.bm",
       "date": "2026-09-17T08:02:07Z",
       "topic": "Insurance AM",
       "summary": "",
@@ -285,26 +305,6 @@
       "topic": "Rates & Macro",
       "summary": "",
       "link": "https://news.google.com/rss/articles/CBMic0FVX3lxTE8zZ21xTmJjb1g2ZHZ3WFlRaVdtdWJERlpHMXA0a0p5TlJJaS1aZE9QUERISk9BSm1BV3dJUTVlbWE4VDdBVFlJV2p6THY4SzRsSDdSSkU4czhZUC1nYlpYWF9VMUJadzRRUGlUQWtjX1VvM1U?oc=5",
-      "isNew": false
-    },
-    {
-      "id": "0248ee298385",
-      "title": "What to expect from stocks and bonds if interest rates remain higher for longer, according to investing pros",
-      "source": "CNBC",
-      "date": "2026-09-15T14:00:02Z",
-      "topic": "Rates & Macro",
-      "summary": "",
-      "link": "https://news.google.com/rss/articles/CBMiogFBVV95cUxQNWJOamtoYl90U1pINUszbU10WVhUbjBWaXFMZGp6OUpZQWpVSkFGSmpXc25vbEpHd3NpTmlqb1ZxSVcwb1ptWWgybmFzV3VFWnlIVVdqYjk4dFpDZHRKaFVkMGdnSXg2aHE0d09qZnNDVUZ1c293dWpjVjhWZlU3ZmEtVkJEYmo1VkJvWjhyQXc5RDF5WngyYzZNbGN6NG00WmfSAacBQVVfeXFMUEFmQXJ2aW5hQWJCVGZOZlFGanA4bExsWUZMb2dWcERYeFFqNjhxUS1uS2xNX3RLWWdCeVhaSGs4SHlldzN4ZG52TDJjUmtya3ZpS3ctYlRGRl9VbzVkZndpYkNtV2RQZDhKYjEwVUlYc1RmTmlkUy1kYWlSY2dwaGlPcWUxZGowOUZ6QkVVbGwtN3Q0QU53OTUxdHFIdm1xejFaQ25mX2M?oc=5",
-      "isNew": false
-    },
-    {
-      "id": "1bc87c13c4af",
-      "title": "KKR at barclays conference: private credit push gains scale",
-      "source": "Investing.com",
-      "date": "2026-09-15T13:32:57Z",
-      "topic": "Private Credit",
-      "summary": "",
-      "link": "https://news.google.com/rss/articles/CBMitAFBVV95cUxQMHozbHRmcXloWmxjdHJCRTRBb2VPX1RjVXZVQTZPUEV5Ti10aEY3NzJfbEpPVXBKQ2hsV1F5bmtwZHBoc1FzVW9QUnljUGE5NGVzMEZFOGEyWnRGS1pTRTRqT3p6NTN4TU1KcVRHb2RiZ1BrYWtRRF8tdEpnMU5wemk5VGpUV0pPYUZZaVAwUTR0SUM0WjRCNjVUbnd0UXZsTWxnVE9Fc3dqS3JGbFo2RjBKUDI?oc=5",
       "isNew": false
     }
   ]

@@ -1,5 +1,5 @@
 {
-  "updated": "2026-09-20T04:59:45Z",
+  "updated": "2026-09-20T11:30:19Z",
   "naic": [
     {
       "id": "d392645d4b7f",
@@ -117,7 +117,7 @@
       "date": "2026-08-27",
       "cat": "General",
       "summary": "",
-      "source": "PR Newswire",
+      "source": "prnewswire.com",
       "link": "https://news.google.com/rss/articles/CBMi0AFBVV95cUxQX050SzY3ZHI1amVIdThwNV9xQ1o3NVg4UTdyaXNScU9Dd3Z6eGU5S3ZPZFl5MnAzMDhteVZ1cmRTb0h2MmlfMWl3YmhMRGNRenY2enhGalFqcXpaX1FabUR3TU5MWjBFRUdhS0pla2w4Z0tPc2pLNDZKM0lnV21rQ0FWTGlYNEo5VHdnTjNlbnZmNEs5MktTcks4aTBRdEVfRDdoRG5QUHY3UHpMTVJwSFhEV0d1Um1jYURLeXNqUjJUak1FUDR2ODUxaVZwUWFQ?oc=5",
       "isNew": true
     },
@@ -127,7 +127,7 @@
       "date": "2026-08-26",
       "cat": "Investment",
       "summary": "",
-      "source": "roddubitsky.substack.com",
+      "source": "Substack",
       "link": "https://news.google.com/rss/articles/CBMidkFVX3lxTE9nSDdPRmdDb2w1eTF3WlU2SWJNVVQ2NEFxS01rSlhTaVBxR3BqT0RRMkxOZW1yNFFRc3hVbTlSU0dxck9NTzJMYnlPTWlZT2tNOEl1V3ZVS2FNSVJud3ZDZlhCRUFwRTRrRG1hMEdwZnFIcU14eUE?oc=5",
       "isNew": true
     },
@@ -179,6 +179,16 @@
       "summary": "",
       "source": "JD Supra",
       "link": "https://news.google.com/rss/articles/CBMihwFBVV95cUxQTFpNdEtZWmctV3psRWVXek9lVnRIb2FqX3Atb0NabUNnVVJ5N0xuWlFzQ3FlSGF3M1ZhcWlMNDh5OFVwYmtyTTNnaDlLUTZpN0x4WXpoOVl2a3VmbThZVURKQlpHMURfTXRkcXlSdlE0U1FZSXpTN2gyTExPUjZqNy1NQkZ4OUE?oc=5",
+      "isNew": true
+    },
+    {
+      "id": "0ab745104420",
+      "title": "CI seeks QJ status in US for insurance sector",
+      "date": "2026-08-23",
+      "cat": "General",
+      "summary": "",
+      "source": "Cayman News Service",
+      "link": "https://news.google.com/rss/articles/CBMijAFBVV95cUxNaXRtdS0zdDE4WHc0bWFqdXFiQjduZjF1RWVnZ2NrckVlVC01OFJxTGU5dmtqcUFQZTVhNUl3MUZsMkw5QTd6MWpRQ0VMS2FnbF9xS1cxbmRHSkZfai10TDJVUDlpbDhObE05VjJ1Q1ozOGktSUJ0RnZlTFl3M25PajdQOF9yQ0sxM1lRYQ?oc=5",
       "isNew": true
     },
     {
@@ -239,16 +249,6 @@
       "summary": "",
       "source": "Captive Insurance Times",
       "link": "https://news.google.com/rss/articles/CBMi3wFBVV95cUxNZU9zVnZkMm44UVQzb0JudmxnUGpCc0tWckJRU0xvTHItV2I2R0F2VXBxUTlya0hhV2VEbjJHbHkxM005allkcXdDLTJmVHlTTllFbDhWVXhZZlJhS1l5UzctYWdkNDBYNXphREpwZ3NOblR6WHZTc1FhRFBQX0JkOFIySlJNTWNHRFI2WEFYSFNSMF8xeDRkbnE3UlNsc1I5UW5vZUxTMjA3SlRoRnNfSVF3QjdXTm5fZ0lKd2l2ZHVtQ1lUdmVOdkZkYW13ZXZueTBvczFmbVNfSktYYkRR?oc=5",
-      "isNew": false
-    },
-    {
-      "id": "b20fb814eeae",
-      "title": "The Cayman Islands\u2019 path to Qualified Jurisdiction status: A pivotal moment for reinsurance",
-      "date": "2026-08-19",
-      "cat": "General",
-      "summary": "",
-      "source": "Cayman Finance",
-      "link": "https://news.google.com/rss/articles/CBMixAFBVV95cUxPVU9oN19GaWVwc3J6VWdyM29Cb0FndDdlenNiR0loWFVfNTliaHlrVUkta3VQZVNxa21DS01lU0hZRS10SktzUlM0eTBSdWpNZEJIdWRvU1A0bXgzeWZHMVpYQ2F5S3p6TWl1aUFCWE9mT05XR2VNVktMcUdDYmlCWmROc292RjNMb3hfVWM4X0xMaHZCOFF0VHd6Sl9YOGNsaFktbm01TUsyS0RtV1oxbXhfb1p0MG5fejR1cnEtS0pHd1NQ?oc=5",
       "isNew": false
     }
   ],
@@ -319,7 +319,7 @@
       "date": "2026-08-24",
       "cat": "General",
       "summary": "",
-      "source": "Bernews",
+      "source": "bernews.com",
       "link": "https://news.google.com/rss/articles/CBMidkFVX3lxTFAtMk5oeGM2aThiN1Zud1A4NWtYdy1fTVBDc1pscG15QWFwcVlEU0RqQ3lCb1pJYzNWSV9QdXRYWEFWTFFGd05iY0dNT1VZMUxMRUwzbGtDS1lvUG1nYWxhN203RVluS21PM1haNDJyVC1xd2NuTXc?oc=5",
       "isNew": true
     },
@@ -339,7 +339,7 @@
       "date": "2026-08-20",
       "cat": "General",
       "summary": "",
-      "source": "Bernews",
+      "source": "bernews.com",
       "link": "https://news.google.com/rss/articles/CBMic0FVX3lxTFBMaXl4eXRTMllDZEtiNkFXdVF3OEIzYXVJb3F2ME0yV0h0NHlERWZib3ItRGMwamphamI0d2tJcVlzVVdJeFhUUFlxajJEYVh5M2tIX01UeGl2eVlhbFo5Qlc4c1lCaFdCXzd5bmNDclVVRm8?oc=5",
       "isNew": false
     },
@@ -379,7 +379,7 @@
       "date": "2026-08-10",
       "cat": "General",
       "summary": "",
-      "source": "Bernews",
+      "source": "bernews.com",
       "link": "https://news.google.com/rss/articles/CBMiekFVX3lxTE1tTmdWVUZLZkUwcFpYY0RnbktoRlYzMS1Id1RDRTBNOEc0YUpNdWpNODhqWFN6VkNkc2dnV3ZnVHctTDFicmFEQnRGR3E3NnYwaGtKUkpvUDJPSW4tNHQzNW9jOHVMOXl4S1FadDc4VHR2WnZWRnE5dEN3?oc=5",
       "isNew": false
     },
@@ -449,7 +449,7 @@
       "date": "2026-07-22",
       "cat": "General",
       "summary": "",
-      "source": "Artemis.bm",
+      "source": "artemis.bm",
       "link": "https://news.google.com/rss/articles/CBMipAFBVV95cUxOM1B5X2ZUMThlOWl6Z2kyUWQ2cWpPLUM4a1ZiSXBaR2VPVmRLRjBzbWoyX2lxNkp6RElEUllTWDNibE5hYTFsV293RGJOcGdnT0R6SldVLWRMX2JFa3I0ZW1FUjlLTFJFVW9ReXlTN3ZqTVBiVHpoRVdzZENGYzFNdlBrQjY3MEJmUjZIQ2gtSDJXR0t1WlJ5VUsxaVNFMDdHeXduSQ?oc=5",
       "isNew": false
     },
@@ -641,7 +641,7 @@
       "date": "2026-07-28",
       "cat": "Capital/Solvency",
       "summary": "",
-      "source": "captiveinsurancetimes.com",
+      "source": "Captive Insurance Times",
       "link": "https://news.google.com/rss/articles/CBMi3wFBVV95cUxQT2YyckdNRjRZbmJudWtCNktUek80N3d2RXM4YkktQXprT2xnRmZFcW0xa3I0WERNS3c3Q2dadUtfU0drU211bi00VHRRMlh6MDFGTl9OMHZBa3h6RWYwcHVUSzNSY3FZblRFdkotMjFVUUNkc1RMV2hGVnhhWEZlWlBIVkVwd2xOeVI0S0pDamxuMTFtSmk2cC0wdThnODFPYk92S1Zya3ktZG5LdU4wd3BrMTZ5bHpraDZGMFNrdFFfQmxzSm1Fc1FGeTRqSExUU3hqMHNUa291S1pEUGU4?oc=5",
       "isNew": false
     },
