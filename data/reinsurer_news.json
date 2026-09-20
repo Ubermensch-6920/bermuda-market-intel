@@ -1,5 +1,5 @@
 {
-  "updated": "2026-09-19T23:11:30Z",
+  "updated": "2026-09-20T04:59:48Z",
   "lookback_days": 14,
   "feeds": [
     {
@@ -17,7 +17,7 @@
     {
       "name": "Google News: Athene",
       "ok": true,
-      "count": 9,
+      "count": 10,
       "error": null
     },
     {
@@ -140,7 +140,7 @@
       "id": "a992038e6b80",
       "title": "Aspida Holdings welcomes Sarfatti as Chief Risk Officer",
       "link": "https://news.google.com/rss/articles/CBMijgFBVV95cUxPaTZwXzUzNmRxS29Dcm45VVBwaHJveHRCV3pOVVdLQV9ZekM1dXFYdjZYWFd6c2hQMWxWX3l5YVR2VUJqZFhDMXgyX2JGSU1aNGdCUDB1M1ZaTGJfTTBpRXB5c2d4c2pmM0ZFU3IwOGNuR21STWJyRy1FNTREdW8wYlIzTTB2UnJIb3BhMld3?oc=5",
-      "source": "Reinsurance News",
+      "source": "reinsurancene.ws",
       "feed": "Google News: Aspida",
       "date": "2026-09-17T05:02:15Z",
       "summary": "",
@@ -238,7 +238,7 @@
       "link": "https://news.google.com/rss/articles/CBMi6gFBVV95cUxOenJxWjVuY0hHS1pUeEVacERKT1lmUHl0ZmRZemJCX0tsR0dBSThhdlMxZ0ozbXJDV2xvbmpOaE9kdi1vM0JnOTl2VEEwUTdFYlQtQ1ZCSC1ublBaT3dTZU1STm5va2lIcDhpaC1sQ2k4clBjNkpTZEROZXBuenZUQ09JTGR3X3V1UFBZSFZoLURFUVE2NXNPcDdOWTFoVHpOZmtTSDR5Rk1mWGdNalRFNTB0cTU4UFlVcFVvVGVxUnVDN2hUQmU0aEV2Ml9DX0c0VUR4M3NmRWlSanp2NFl1NGdTcEh3QmhwV1E?oc=5",
       "source": "MarketBeat",
       "feed": "Google News: RGA",
-      "date": "2026-09-11T09:08:06Z",
+      "date": "2026-09-11T07:00:00Z",
       "summary": "",
       "companies": [
         "RGA"
@@ -310,7 +310,7 @@
       "link": "https://news.google.com/rss/articles/CBMigwJBVV95cUxPQktCWkJWYUZzQ2dsZjlndjVheGlEbHkzSGdnVFVIeC04QVpvaVFYdEtpb3phcnJwOFVUU2tVak40cjAybGltZjdDUWxJV3gwZEdIRnljSkxmcmRsaUJhdnNqQUhQSm13Q2h4cFFISzBYdjg0TTU0bnpxTWIwMjUyMzQxUUo1TVNvdnNIVVByekJEaE9vRmQtR2loOFMyajBFOXE2SXRfaVIzSmlyT05EV2M0S21OM3VmRy1lM29jV3AxZHdINUEzVnVfcHZBNENyRTNwQzVPNTNtUnJnYW90Vm5MWUx0SHZZcWRBRkNNa2NpVVI1RzZEZ3FhVDcxQ2dTNGJN?oc=5",
       "source": "MarketBeat",
       "feed": "Google News: RGA",
-      "date": "2026-09-06T06:19:49Z",
+      "date": "2026-09-06T07:00:00Z",
       "summary": "",
       "companies": [
         "RGA"

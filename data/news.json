@@ -1,5 +1,5 @@
 {
-  "updated": "2026-09-19T23:11:28Z",
+  "updated": "2026-09-20T04:59:45Z",
   "topics": [
     "Insurance AM",
     "Private Credit",
@@ -30,7 +30,7 @@
     {
       "id": "d55f5bbd2d36",
       "title": "Buyout firms are slicing their debt to try to get cautious insurance dollars",
-      "source": "insurancebusinessmag.com",
+      "source": "Insurance Business",
       "date": "2026-09-18T13:57:57Z",
       "topic": "Private Credit",
       "summary": "",
@@ -120,7 +120,7 @@
     {
       "id": "bb5b5b5c92c2",
       "title": "Why the Bank of England Didn\u2019t Follow the Fed in Raising Interest Rates",
-      "source": "wsj.com",
+      "source": "WSJ",
       "date": "2026-09-17T16:29:00Z",
       "topic": "Rates & Macro",
       "summary": "",
@@ -258,6 +258,16 @@
       "isNew": false
     },
     {
+      "id": "294e235be7ee",
+      "title": "Fed raises interest rates to 3.75%-4.00% in first rate hike in three years, with more expected",
+      "source": "U.S. Bank",
+      "date": "2026-09-16T07:00:00Z",
+      "topic": "Rates & Macro",
+      "summary": "",
+      "link": "https://news.google.com/rss/articles/CBMipAFBVV95cUxNRHE2X3NqMTh3SDJDcXAyMlBMcE96b2xIc3BBSTJvNXA1WFZuSHlpanRkMnlJdjNYZUdONHVqT3g5VXZONm02UGRzTjVLSU11bldvdHktMjVOVHBrdnYya3RCS0c1TFp1Zl9lX1dDQUhaTTVMM2wzeFlvNGFYNktiVEl2dk50aWhUU3diQUFYaVh1OXpQRnZPdDN5LTdycndSRDVOdw?oc=5",
+      "isNew": false
+    },
+    {
       "id": "c48a6b561a3c",
       "title": "The Fed meeting is a pivotal moment for the bond market",
       "source": "KCRA",
@@ -295,16 +305,6 @@
       "topic": "Private Credit",
       "summary": "",
       "link": "https://news.google.com/rss/articles/CBMitAFBVV95cUxQMHozbHRmcXloWmxjdHJCRTRBb2VPX1RjVXZVQTZPUEV5Ti10aEY3NzJfbEpPVXBKQ2hsV1F5bmtwZHBoc1FzVW9QUnljUGE5NGVzMEZFOGEyWnRGS1pTRTRqT3p6NTN4TU1KcVRHb2RiZ1BrYWtRRF8tdEpnMU5wemk5VGpUV0pPYUZZaVAwUTR0SUM0WjRCNjVUbnd0UXZsTWxnVE9Fc3dqS3JGbFo2RjBKUDI?oc=5",
-      "isNew": false
-    },
-    {
-      "id": "6f42f3fd2d90",
-      "title": "The next phase of life insurance investing",
-      "source": "InsuranceNewsNet",
-      "date": "2026-09-15T12:07:39Z",
-      "topic": "Structured Credit",
-      "summary": "",
-      "link": "https://news.google.com/rss/articles/CBMiigFBVV95cUxQRS1xT1hoSGVmeldMdmdrbHY4c3lLTS0tRzBlU0l2OVhLdWk3Q3N2a00wdWV3enhyZV9tWl9NQmdhazBjRmxJT2pYbUxURmJDbVktQzJCVUpydnpHZklfRlVUQ1dDRHBUQUNmTnRYM3hvem9CQmgybEpIcmxuWGhhdHNYUjRRUFJnYVE?oc=5",
       "isNew": false
     }
   ]

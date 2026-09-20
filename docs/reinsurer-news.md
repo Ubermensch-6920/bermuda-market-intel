@@ -1,12 +1,12 @@
 # Reinsurer News Monitor
 
 Bermuda life & annuity watchlist — last 14 days — 17 items
-Generated Sat 19 Sep 2026, 20:11 ADT
+Generated Sun 20 Sep 2026, 01:59 ADT
 
 ## Feed status
 
 - ✅ **Artemis.bm** — 10 items
-- ✅ **Google News (16 of 16 companies)** — 40 items
+- ✅ **Google News (16 of 16 companies)** — 41 items
 - ❌ **Reinsurance News** — failed: HTTPError: HTTP Error 403: Forbidden
 
 ## Athene
@@ -16,7 +16,7 @@ Generated Sat 19 Sep 2026, 20:11 ADT
 
 ## Aspida
 
-- **2026-09-17** — Reinsurance News — [Aspida Holdings welcomes Sarfatti as Chief Risk Officer](https://news.google.com/rss/articles/CBMijgFBVV95cUxPaTZwXzUzNmRxS29Dcm45VVBwaHJveHRCV3pOVVdLQV9ZekM1dXFYdjZYWFd6c2hQMWxWX3l5YVR2VUJqZFhDMXgyX2JGSU1aNGdCUDB1M1ZaTGJfTTBpRXB5c2d4c2pmM0ZFU3IwOGNuR21STWJyRy1FNTREdW8wYlIzTTB2UnJIb3BhMld3?oc=5)
+- **2026-09-17** — reinsurancene.ws — [Aspida Holdings welcomes Sarfatti as Chief Risk Officer](https://news.google.com/rss/articles/CBMijgFBVV95cUxPaTZwXzUzNmRxS29Dcm45VVBwaHJveHRCV3pOVVdLQV9ZekM1dXFYdjZYWFd6c2hQMWxWX3l5YVR2VUJqZFhDMXgyX2JGSU1aNGdCUDB1M1ZaTGJfTTBpRXB5c2d4c2pmM0ZFU3IwOGNuR21STWJyRy1FNTREdW8wYlIzTTB2UnJIb3BhMld3?oc=5)
 - **2026-09-14** — GlobeNewswire — [Aspida Appoints Aaron Sarfatti as Chief Risk Officer](https://news.google.com/rss/articles/CBMiwgFBVV95cUxQVzAzX1dBbk96QVU1N3BMM1gzWThtbTBNdlljY0tlYWxTMWpBRFM3dEkwdllsMGNJNHlTY3hwNXVXQTdXOUItXzEydDBxdFc5TUtNS3NyLXQ5OWc3WU5wdWtOcjg5bzB0NFAwbWxIcmYxRXBHMlZlclY4RXc4dlFtM3lpQjNJV3ZsT1JIV1c4TnNTdGZPbVZaSnkxVmRYQnR6UkhfR3hZVU9oZHRkVlBhOGJTTHRZc2kzUzY5XzFQUGpoUQ?oc=5)
 - **2026-09-07** — Royal Gazette | Bermuda — [Aspida Re names Brian Lewis as CFO](https://news.google.com/rss/articles/CBMipAFBVV95cUxOWnRKa1g4eTlyRWN3dmFQdnFCZzFoZzNnVFE1ZVBELXBtZ2prYmhaTVNRRUYwaV9walRVOVBxNk9UcXYtN1JNX1JrQ08yaHZvT3dxaWxJX0lzZGFraXpJUE5GOU8zaUlJcVN0cUVhVXh0UnBrVEEwYjFoM1M4aS1XRlhUdlluWjI1SUpJdV9WUDFsZFVtTzRpUlpKWVM4TV9KSzJSMA?oc=5)
 
