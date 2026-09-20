@@ -1,5 +1,5 @@
 {
-  "updated": "2026-09-20T20:54:40Z",
+  "updated": "2026-09-20T23:19:48Z",
   "lookback_days": 14,
   "feeds": [
     {
@@ -35,7 +35,7 @@
     {
       "name": "Google News: Global Atlantic",
       "ok": true,
-      "count": 6,
+      "count": 7,
       "error": null
     },
     {
@@ -106,9 +106,9 @@
     },
     {
       "name": "Reinsurance News",
-      "ok": true,
-      "count": 10,
-      "error": null
+      "ok": false,
+      "count": 0,
+      "error": "HTTPError: HTTP Error 403: Forbidden"
     }
   ],
   "items": [
@@ -128,7 +128,7 @@
       "id": "032420a02f82",
       "title": "Athene settles eight-year legal battle with former director",
       "link": "https://news.google.com/rss/articles/CBMixgFBVV95cUxNTFc2VFFmVXFRWlR6RVFSb1M2US05M0pMa3FnMUNjQ3V5VlBVcUxhRDluWGxiRndHX1RZVFlCVlM5UHJDNjJDcGZJa1lmUHUyd2gtZVNXdkJMNEY0S3RmN0pXekotX3RwTDZBUWk1Umw2bGE5NXFXeldqZl9aVTF1S0dIaFpPcVlwNV9WQ0JWYXl0YmZncERTV0xkUDVobWRTa3g4XzdNNjFzY09NRGtIWUUwVlhuYV9Qd0ZpRG9OcHFsQ0VLcEE?oc=5",
-      "source": "royalgazette.com",
+      "source": "Royal Gazette | Bermuda",
       "feed": "Google News: Athene",
       "date": "2026-09-18T18:09:52Z",
       "summary": "",
@@ -320,7 +320,7 @@
       "id": "8133f9c6c76b",
       "title": "Aspida Re names Brian Lewis as CFO",
       "link": "https://news.google.com/rss/articles/CBMipAFBVV95cUxOWnRKa1g4eTlyRWN3dmFQdnFCZzFoZzNnVFE1ZVBELXBtZ2prYmhaTVNRRUYwaV9walRVOVBxNk9UcXYtN1JNX1JrQ08yaHZvT3dxaWxJX0lzZGFraXpJUE5GOU8zaUlJcVN0cUVhVXh0UnBrVEEwYjFoM1M4aS1XRlhUdlluWjI1SUpJdV9WUDFsZFVtTzRpUlpKWVM4TV9KSzJSMA?oc=5",
-      "source": "royalgazette.com",
+      "source": "Royal Gazette | Bermuda",
       "feed": "Google News: Fortitude Re",
       "date": "2026-09-07T07:00:00Z",
       "summary": "",
