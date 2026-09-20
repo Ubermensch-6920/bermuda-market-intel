@@ -1,5 +1,5 @@
 {
-  "updated": "2026-09-20T16:11:41Z",
+  "updated": "2026-09-20T20:54:40Z",
   "lookback_days": 14,
   "feeds": [
     {
@@ -17,7 +17,7 @@
     {
       "name": "Google News: Athene",
       "ok": true,
-      "count": 9,
+      "count": 10,
       "error": null
     },
     {
@@ -106,9 +106,9 @@
     },
     {
       "name": "Reinsurance News",
-      "ok": false,
-      "count": 0,
-      "error": "HTTPError: HTTP Error 403: Forbidden"
+      "ok": true,
+      "count": 10,
+      "error": null
     }
   ],
   "items": [

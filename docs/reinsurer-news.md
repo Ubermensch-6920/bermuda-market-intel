@@ -1,13 +1,13 @@
 # Reinsurer News Monitor
 
 Bermuda life & annuity watchlist — last 14 days — 18 items
-Generated Sun 20 Sep 2026, 13:11 ADT
+Generated Sun 20 Sep 2026, 17:54 ADT
 
 ## Feed status
 
 - ✅ **Artemis.bm** — 10 items
-- ✅ **Google News (16 of 16 companies)** — 39 items
-- ❌ **Reinsurance News** — failed: HTTPError: HTTP Error 403: Forbidden
+- ✅ **Google News (16 of 16 companies)** — 40 items
+- ✅ **Reinsurance News** — 10 items
 
 ## Athene
 
