@@ -1,5 +1,5 @@
 {
-  "updated": "2026-09-21T05:03:17Z",
+  "updated": "2026-09-21T12:54:49Z",
   "topics": [
     "Insurance AM",
     "Private Credit",
@@ -8,9 +8,39 @@
   ],
   "items": [
     {
+      "id": "750c575e5dfb",
+      "title": "U.S. 10-Year Yield Cools After Topping 5%, German Bund Yield Hits 15-Year High",
+      "source": "WSJ",
+      "date": "2026-09-21T09:04:09Z",
+      "topic": "Rates & Macro",
+      "summary": "",
+      "link": "https://news.google.com/rss/articles/CBMiywFBVV95cUxPUUViTThLVXZVVW9Uck9RZHRIcm1zQm9tcXFjX1ZBckl6NGJQRTVvREEyYjFlUzBKdHRaUTF3eGlHb1JaSnN5ZXpSU2ZnZUNNNURYUXgxME9Xam96THNITzNTNjlNVUdNUmFSbUhoSXgzLXgxM0pWOFZ2aVNuN2lYb0ZXdGlpN3NIeUVJR3FaY0VmcDFERWFXU1g1dUE4R3NoZGU0SVRfS3dVdTA5VjlKd2FBUy1tYWJtaWxhc0FNclUzM2xFdUpSUTlzcw?oc=5",
+      "isNew": false
+    },
+    {
+      "id": "a0ccc93645ac",
+      "title": "Hanwha Finance expands financial cooperation with Abu Dhabi",
+      "source": "Hanwha Group",
+      "date": "2026-09-21T06:54:50Z",
+      "topic": "Insurance AM",
+      "summary": "",
+      "link": "https://news.google.com/rss/articles/CBMiiAJBVV95cUxOb1FKRlA1NEd2aVhSS1VmdEVwMDZud19Dd1E2SDVWLTZFLUdxRmtseGtydFZlT0RLd0dlV2FQb29pM2tOc3ktYWlPdWxyZi1ENEFKeEV4TzJrT1ZHZWRpRXRUSnVMSksyclFVMEg5aVRLZ0ZDa2EzSUtjMXAxOW5pMUVpQ21IeEF2cWhlVHdfUmRkbmoxcTFBbEIwUTZrN1p3VFE4T3k3MElYeTN4alhiUF8yQm82dWREUzB3OGJSMlJUdktCTEdPaFJMeXZNOEJEalFJR1lsUlFoZ08tNkRWRTRPYUVpREo1YS1yMnRUaklnYjZFbEQzTXQwb0NlczVHZUtrRWFCWHo?oc=5",
+      "isNew": false
+    },
+    {
+      "id": "d12532d85ad8",
+      "title": "The Silver Lining in Soaring Interest Rates: The Economy Can Handle Them",
+      "source": "WSJ",
+      "date": "2026-09-20T15:18:00Z",
+      "topic": "Rates & Macro",
+      "summary": "",
+      "link": "https://news.google.com/rss/articles/CBMiwgFBVV95cUxQOFNjb3dWRURPbU9ZTXVqcG52dmZHUjBSQ0R5RlE3RkktMkgtZ00ycW5OQTdvajk1NnQyWkR5TTNBZkNzNXkwLUdIbl9EeWJHOGQzU3ZSNFRLTnktRkoyNnY0X05PdzBSOTMwTE10RkNucjBuOU9iUzM5T3RIU2s3OFB4eWViT3hDd0NsdjBtUmt6NUNFRm5oclBteTlDUk52TkxsQWNBcWhua0JMdjBGMkF0bnlHQmtqVmRQTV9wMEV0Zw?oc=5",
+      "isNew": false
+    },
+    {
       "id": "154bcf2dbbde",
       "title": "10 Ways to Explain Why Interest Rates Are So High",
-      "source": "The New York Times",
+      "source": "nytimes.com",
       "date": "2026-09-19T12:00:06Z",
       "topic": "Rates & Macro",
       "summary": "",
@@ -30,7 +60,7 @@
     {
       "id": "3155239457f0",
       "title": "What Set Off the Rise in Interest Rates? Mainly, the Iran War.",
-      "source": "The New York Times",
+      "source": "nytimes.com",
       "date": "2026-09-18T15:52:46Z",
       "topic": "Rates & Macro",
       "summary": "",
@@ -70,7 +100,7 @@
     {
       "id": "3830e6102182",
       "title": "Moody\u2019s: Insurers set to boost private credit allocations",
-      "source": "Alternative Credit Investor",
+      "source": "alternativecreditinvestor.com",
       "date": "2026-09-18T13:53:26Z",
       "topic": "Private Credit",
       "summary": "",
@@ -108,16 +138,6 @@
       "isNew": false
     },
     {
-      "id": "a54844c35e38",
-      "title": "How money moved across Mark Walter\u2019s empire",
-      "source": "Financial Times",
-      "date": "2026-09-18T04:01:07Z",
-      "topic": "Insurance AM",
-      "summary": "",
-      "link": "https://news.google.com/rss/articles/CBMihAFBVV95cUxPRWVxNFp3b243c1k1cl9ZRFBxOHVzZzhqX3FveDNfaHA2NTdMTUlwaWlnNXZ3WHR6YlRhd0x2QjR4TFNUVloxRmpWbEpVd1dqUU5QSEppeTExQlNNRncyWHdUSDNwc0c3Ukd4WGx2YlhpSk1IQk10czFUUXRLVzRadkxVa3g?oc=5",
-      "isNew": false
-    },
-    {
       "id": "bd03bdd50a67",
       "title": "Private equity turns to financial engineering to lure insurance billions",
       "source": "Financial Times",
@@ -125,6 +145,16 @@
       "topic": "Private Credit",
       "summary": "",
       "link": "https://news.google.com/rss/articles/CBMihAFBVV95cUxNRWVVY1VnOEdTa1dFbEZYaWlDeUxCZnJTdW1ZaG5kVF81MUl1NHZZcWpSSkVfZC1ZeFFFSUtiVDE0aGM3TXpXbXIyV2hFR09XQ0w4eTdYZmdEcW92aXVnTVl3M1hpWW5iU092RjN3NFd2ckFudWhiMDFQY2tlcWZzdXJyay0?oc=5",
+      "isNew": false
+    },
+    {
+      "id": "a54844c35e38",
+      "title": "How money moved across Mark Walter\u2019s empire",
+      "source": "Financial Times",
+      "date": "2026-09-18T04:00:10Z",
+      "topic": "Insurance AM",
+      "summary": "",
+      "link": "https://news.google.com/rss/articles/CBMihAFBVV95cUxPRWVxNFp3b243c1k1cl9ZRFBxOHVzZzhqX3FveDNfaHA2NTdMTUlwaWlnNXZ3WHR6YlRhd0x2QjR4TFNUVloxRmpWbEpVd1dqUU5QSEppeTExQlNNRncyWHdUSDNwc0c3Ukd4WGx2YlhpSk1IQk10czFUUXRLVzRadkxVa3g?oc=5",
       "isNew": false
     },
     {
@@ -160,11 +190,11 @@
     {
       "id": "858c4f218a81",
       "title": "3 Life Insurers to Watch as Annuity Sales Hit First-Half Record Highs",
-      "source": "TradingView",
+      "source": "Eastern Progress",
       "date": "2026-09-17T16:27:00Z",
       "topic": "Insurance AM",
       "summary": "",
-      "link": "https://news.google.com/rss/articles/CBMiwwFBVV95cUxPekVidzFOZFhmb1JHenhhYTRUaHkzenQyVloyQl93ckt1bUJHYWZFRWlkemVXd2IzMTd4ODM0MFl2MlBsbmlsOEVYR3dPTkNtZkdSUDhYU1Qya2VJdkdvTElnYnhkblVLVDY2bUNNeWZWaHJFdGtfNTRfOE44OFg2SlJka1pDWXQ4N2cwVXV4OWo2R2FXNFN4b005XzBaMDdjd2VMX2VrRHBMei1PeFhWSlo1RU9LLXRGbkI2a2k2R2NaVFU?oc=5",
+      "link": "https://news.google.com/rss/articles/CBMi5gFBVV95cUxORC1GQmVsNnN3MkRrVlE1cFZJRlpyazdjRlZfbFhFb1BPdmhubDdFeGxEalQxTUZtOUVoSkJ4ZktDbWVHS0I1THJNQ19TRDlhSHpWLVY4Q2toaVUzSVRXQTNwd1kyMl9WMlpqWDUtQVVSalA1bzJDbi10YVJLaENFZ29YdkVTamM2SllvSnh6WEhZTEFQWnRnUUxZam11a0loUV9nOVBLSGpHNFlSOXVORkpfZVpqNTJDR3UyNDF6TG9CVVc2VDV3RS1VWnppODc1X3MzOW1SZmdZemhGSUxRczgzQ2Qwdw?oc=5",
       "isNew": false
     },
     {
@@ -175,6 +205,16 @@
       "topic": "Insurance AM",
       "summary": "",
       "link": "https://news.google.com/rss/articles/CBMitwFBVV95cUxQQm9nSWdxSnl0blVCZm82YlNGaEFxcU84ZHFIMDVWeGRlZUU2OEhYc0ZBVXByTVJwSTJFSG93X0JEd3ZfalFpLVRBVEhZbC1RQmZ0VEJRU0pJdDZpUlZuRFVWNjBXem5FbDktTFZYWWxfS3B0UUFndXJIQWVBdHVVNTYyamhfSXZ6MGc4MlFSZl9oVUtjTmNLMjB5SmJrZnVwbHJ4dDYzR3cyUkl6MjBZUWlBa3h4elk?oc=5",
+      "isNew": false
+    },
+    {
+      "id": "76c502fcb138",
+      "title": "Solvency II: Expanding the investment universe",
+      "source": "BNY",
+      "date": "2026-09-17T07:00:00Z",
+      "topic": "Structured Credit",
+      "summary": "",
+      "link": "https://news.google.com/rss/articles/CBMiuAFBVV95cUxNSUprRkJtNWtLZkhsa19Lb1gzaGt4emdSUUF1QVIwbzNGZ2dLM09NYlV4em9rMkZaYVY2Q2x1THFWSmxvaXYyd1NiazZtM1hFRUJRS1dwLUliUXZEZU1mVC12QXRYVEVGeXNfYnRYb0RtYUt4dlN4SF9qcm0zQzdqZ2h6dFRDQmxwN2xlY3dLS2JWdW9sNVkyaFQxX0FQLUp5SHdMWkVvMWFGQVlDTE5MVmdyRWRzR0hq?oc=5",
       "isNew": false
     },
     {
@@ -200,7 +240,7 @@
     {
       "id": "09f478719199",
       "title": "What the Fed rate hike likely means for you",
-      "source": "pbs.org",
+      "source": "PBS",
       "date": "2026-09-16T19:08:08Z",
       "topic": "Rates & Macro",
       "summary": "",
@@ -265,46 +305,6 @@
       "topic": "Rates & Macro",
       "summary": "",
       "link": "https://news.google.com/rss/articles/CBMigAFBVV95cUxNdDhaR0FSM3hRc1hMbnBLT0NKRU9veTlkYWdXV2ktdkVHT2t5MGkxaHBzUjdDanVBeFdmb1VBZVNyUE5XZXo4YjJ0ZVlRVDY5TmJyclhnSFdZd09Ia2dIUFYtbDFOdktUZWM3Rm1rUlRjQUJvTjNCQVBBdlhzSG5Scg?oc=5",
-      "isNew": false
-    },
-    {
-      "id": "db3f715f8320",
-      "title": "Why Global Bond Yields Are Surging",
-      "source": "Goldman Sachs",
-      "date": "2026-09-16T07:01:05Z",
-      "topic": "Rates & Macro",
-      "summary": "",
-      "link": "https://news.google.com/rss/articles/CBMinAFBVV95cUxOZEduWEthM0N0TmVYVzBmcmxzdWg3VXpuN2tpdGt4ZWNYVVB3WUp2OEtlMmtQMFduYW9NSDkweEV0dFVkTmFNN2NDTERRbnE5TWFGckk0dlNmZmpDVDdzZTQtVVB6VEUtTGNXZDl1aG5jT1NhOGpKaUJMajdXUkl2MWpVaFdzTTVETDRCQVlJWjhYWTRVemt3aER6ODc?oc=5",
-      "isNew": false
-    },
-    {
-      "id": "3cd954eb7bcd",
-      "title": "Fed raises rates to 3.75%-4.00%, first hike since 2023",
-      "source": "U.S. Bank",
-      "date": "2026-09-16T07:00:00Z",
-      "topic": "Rates & Macro",
-      "summary": "",
-      "link": "https://news.google.com/rss/articles/CBMipAFBVV95cUxNRHE2X3NqMTh3SDJDcXAyMlBMcE96b2xIc3BBSTJvNXA1WFZuSHlpanRkMnlJdjNYZUdONHVqT3g5VXZONm02UGRzTjVLSU11bldvdHktMjVOVHBrdnYya3RCS0c1TFp1Zl9lX1dDQUhaTTVMM2wzeFlvNGFYNktiVEl2dk50aWhUU3diQUFYaVh1OXpQRnZPdDN5LTdycndSRDVOdw?oc=5",
-      "isNew": false
-    },
-    {
-      "id": "294e235be7ee",
-      "title": "Fed raises interest rates to 3.75%-4.00% in first rate hike in three years, with more expected",
-      "source": "U.S. Bank",
-      "date": "2026-09-16T07:00:00Z",
-      "topic": "Rates & Macro",
-      "summary": "",
-      "link": "https://news.google.com/rss/articles/CBMipAFBVV95cUxNRHE2X3NqMTh3SDJDcXAyMlBMcE96b2xIc3BBSTJvNXA1WFZuSHlpanRkMnlJdjNYZUdONHVqT3g5VXZONm02UGRzTjVLSU11bldvdHktMjVOVHBrdnYya3RCS0c1TFp1Zl9lX1dDQUhaTTVMM2wzeFlvNGFYNktiVEl2dk50aWhUU3diQUFYaVh1OXpQRnZPdDN5LTdycndSRDVOdw?oc=5",
-      "isNew": false
-    },
-    {
-      "id": "c48a6b561a3c",
-      "title": "The Fed meeting is a pivotal moment for the bond market",
-      "source": "KCRA",
-      "date": "2026-09-15T21:10:00Z",
-      "topic": "Rates & Macro",
-      "summary": "",
-      "link": "https://news.google.com/rss/articles/CBMidkFVX3lxTFB1QVRXWWxMdEItUmhvRVZRM0FwTTJZNVB5bmRleUpYQnNHNTFMMXdyQTVJTW01UGFVcE5aZzI5YjJVNDkyR2F2M1BtY25STzUxeGxGLXN4anlERW1rY1BGNEluRHR6cWh0c0pGSHdibUQ0SlV0NWc?oc=5",
       "isNew": false
     }
   ]
