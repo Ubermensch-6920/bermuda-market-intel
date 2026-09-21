@@ -1,5 +1,5 @@
 {
-  "updated": "2026-09-21T12:54:49Z",
+  "updated": "2026-09-21T20:07:02Z",
   "topics": [
     "Insurance AM",
     "Private Credit",
@@ -8,13 +8,33 @@
   ],
   "items": [
     {
+      "id": "b8c55cff9669",
+      "title": "Insurers pivot private credit allocations toward structured risk: Moody\u2019s",
+      "source": "Intelligent Insurer",
+      "date": "2026-09-21T13:45:21Z",
+      "topic": "Private Credit",
+      "summary": "",
+      "link": "https://news.google.com/rss/articles/CBMiqgFBVV95cUxPckswbWlwbnpuVFlfZlR2cnBKcHotT29OZFh1dUF1ajZQdjVTeHdXdE56V0ZjRF9MQk5PSE4zZHI0Z25XZzhkcmtjR1FuTnl2LWthN1lIZTlvSHVkeWpxenZ0enZkLXRwVHRMUjNHb0oyU0c0cWZMUEtXbGlTc0wxM1h0bXlNVEVCdUlmTDZoWEZuSDBuNkdsOVZEUFpDZHBzbkMzYzUzNEdCZw?oc=5",
+      "isNew": false
+    },
+    {
       "id": "750c575e5dfb",
       "title": "U.S. 10-Year Yield Cools After Topping 5%, German Bund Yield Hits 15-Year High",
-      "source": "WSJ",
+      "source": "wsj.com",
       "date": "2026-09-21T09:04:09Z",
       "topic": "Rates & Macro",
       "summary": "",
       "link": "https://news.google.com/rss/articles/CBMiywFBVV95cUxPUUViTThLVXZVVW9Uck9RZHRIcm1zQm9tcXFjX1ZBckl6NGJQRTVvREEyYjFlUzBKdHRaUTF3eGlHb1JaSnN5ZXpSU2ZnZUNNNURYUXgxME9Xam96THNITzNTNjlNVUdNUmFSbUhoSXgzLXgxM0pWOFZ2aVNuN2lYb0ZXdGlpN3NIeUVJR3FaY0VmcDFERWFXU1g1dUE4R3NoZGU0SVRfS3dVdTA5VjlKd2FBUy1tYWJtaWxhc0FNclUzM2xFdUpSUTlzcw?oc=5",
+      "isNew": false
+    },
+    {
+      "id": "653260cbd953",
+      "title": "Government Bond Yields Fall as Risk Sentiment Tentatively Improves",
+      "source": "wsj.com",
+      "date": "2026-09-21T08:50:00Z",
+      "topic": "Rates & Macro",
+      "summary": "",
+      "link": "https://news.google.com/rss/articles/CBMiuwFBVV95cUxOclRMVXQyTkZiLThMRF9OSG9ZLVNBWE1DUkpoQUdRNDQ0akx4ZlNJZElBY2lRazk2ZlNKeE5IQU9fN2Vpc09ZRlR6RDhqV0VUcFNHSFpyTnk2V1ppbU5HcGRCMTZhZjhXV056a1RKMHUxa1daemlqZjhJcXpYdURUQmhqNU1KY3pYaDBneUc5eFp1YUVhbWhxXzFtVFozZ2xYTmxvd2xVZ3V0SlNaUllXQjMyNkRUYWYyZ1dV?oc=5",
       "isNew": false
     },
     {
@@ -40,7 +60,7 @@
     {
       "id": "154bcf2dbbde",
       "title": "10 Ways to Explain Why Interest Rates Are So High",
-      "source": "nytimes.com",
+      "source": "The New York Times",
       "date": "2026-09-19T12:00:06Z",
       "topic": "Rates & Macro",
       "summary": "",
@@ -60,7 +80,7 @@
     {
       "id": "3155239457f0",
       "title": "What Set Off the Rise in Interest Rates? Mainly, the Iran War.",
-      "source": "nytimes.com",
+      "source": "The New York Times",
       "date": "2026-09-18T15:52:46Z",
       "topic": "Rates & Macro",
       "summary": "",
@@ -100,7 +120,7 @@
     {
       "id": "3830e6102182",
       "title": "Moody\u2019s: Insurers set to boost private credit allocations",
-      "source": "alternativecreditinvestor.com",
+      "source": "Alternative Credit Investor",
       "date": "2026-09-18T13:53:26Z",
       "topic": "Private Credit",
       "summary": "",
@@ -138,6 +158,16 @@
       "isNew": false
     },
     {
+      "id": "a54844c35e38",
+      "title": "How money moved across Mark Walter\u2019s empire",
+      "source": "Financial Times",
+      "date": "2026-09-18T04:01:07Z",
+      "topic": "Insurance AM",
+      "summary": "",
+      "link": "https://news.google.com/rss/articles/CBMihAFBVV95cUxPRWVxNFp3b243c1k1cl9ZRFBxOHVzZzhqX3FveDNfaHA2NTdMTUlwaWlnNXZ3WHR6YlRhd0x2QjR4TFNUVloxRmpWbEpVd1dqUU5QSEppeTExQlNNRncyWHdUSDNwc0c3Ukd4WGx2YlhpSk1IQk10czFUUXRLVzRadkxVa3g?oc=5",
+      "isNew": false
+    },
+    {
       "id": "bd03bdd50a67",
       "title": "Private equity turns to financial engineering to lure insurance billions",
       "source": "Financial Times",
@@ -145,16 +175,6 @@
       "topic": "Private Credit",
       "summary": "",
       "link": "https://news.google.com/rss/articles/CBMihAFBVV95cUxNRWVVY1VnOEdTa1dFbEZYaWlDeUxCZnJTdW1ZaG5kVF81MUl1NHZZcWpSSkVfZC1ZeFFFSUtiVDE0aGM3TXpXbXIyV2hFR09XQ0w4eTdYZmdEcW92aXVnTVl3M1hpWW5iU092RjN3NFd2ckFudWhiMDFQY2tlcWZzdXJyay0?oc=5",
-      "isNew": false
-    },
-    {
-      "id": "a54844c35e38",
-      "title": "How money moved across Mark Walter\u2019s empire",
-      "source": "Financial Times",
-      "date": "2026-09-18T04:00:10Z",
-      "topic": "Insurance AM",
-      "summary": "",
-      "link": "https://news.google.com/rss/articles/CBMihAFBVV95cUxPRWVxNFp3b243c1k1cl9ZRFBxOHVzZzhqX3FveDNfaHA2NTdMTUlwaWlnNXZ3WHR6YlRhd0x2QjR4TFNUVloxRmpWbEpVd1dqUU5QSEppeTExQlNNRncyWHdUSDNwc0c3Ukd4WGx2YlhpSk1IQk10czFUUXRLVzRadkxVa3g?oc=5",
       "isNew": false
     },
     {
@@ -190,7 +210,7 @@
     {
       "id": "858c4f218a81",
       "title": "3 Life Insurers to Watch as Annuity Sales Hit First-Half Record Highs",
-      "source": "Eastern Progress",
+      "source": "easternprogress.com",
       "date": "2026-09-17T16:27:00Z",
       "topic": "Insurance AM",
       "summary": "",
@@ -230,7 +250,7 @@
     {
       "id": "92d71e838776",
       "title": "Fed Rate Hike Squeezes an Already Stressed Private Credit Sector",
-      "source": "Global Finance Magazine",
+      "source": "gfmag.com",
       "date": "2026-09-16T19:50:17Z",
       "topic": "Private Credit",
       "summary": "",
@@ -285,26 +305,6 @@
       "topic": "Structured Credit",
       "summary": "",
       "link": "https://news.google.com/rss/articles/CBMihAFBVV95cUxObVc5bDZCVUVYUDBEYVFYUXFLMXdMV2RCRkdyY2V1N0FnY0xnWkJLMFN5a1hpblRwOWYtZmVQQVctTE81Q1ZodUUtQTF3RjBfLXFmdUZMRHA1VXY0RVU5WUxLNVcxS1Z0VlVwWl9pc3BMVFdpUDN4anJPT19RakdxT25DSUk?oc=5",
-      "isNew": false
-    },
-    {
-      "id": "2715a0e40961",
-      "title": "Fed Meeting Will Test Central Bank\u2019s Credibility With Bond Investors",
-      "source": "The New York Times",
-      "date": "2026-09-16T09:04:18Z",
-      "topic": "Rates & Macro",
-      "summary": "",
-      "link": "https://news.google.com/rss/articles/CBMigAFBVV95cUxNdDhaR0FSM3hRc1hMbnBLT0NKRU9veTlkYWdXV2ktdkVHT2t5MGkxaHBzUjdDanVBeFdmb1VBZVNyUE5XZXo4YjJ0ZVlRVDY5TmJyclhnSFdZd09Ia2dIUFYtbDFOdktUZWM3Rm1rUlRjQUJvTjNCQVBBdlhzSG5Scg?oc=5",
-      "isNew": false
-    },
-    {
-      "id": "188aa4f8cf60",
-      "title": "Fed Meeting Is a Big Moment for the Bond Market",
-      "source": "The New York Times",
-      "date": "2026-09-16T09:04:18Z",
-      "topic": "Rates & Macro",
-      "summary": "",
-      "link": "https://news.google.com/rss/articles/CBMigAFBVV95cUxNdDhaR0FSM3hRc1hMbnBLT0NKRU9veTlkYWdXV2ktdkVHT2t5MGkxaHBzUjdDanVBeFdmb1VBZVNyUE5XZXo4YjJ0ZVlRVDY5TmJyclhnSFdZd09Ia2dIUFYtbDFOdktUZWM3Rm1rUlRjQUJvTjNCQVBBdlhzSG5Scg?oc=5",
       "isNew": false
     }
   ]

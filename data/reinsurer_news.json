@@ -1,5 +1,5 @@
 {
-  "updated": "2026-09-21T12:54:52Z",
+  "updated": "2026-09-21T20:07:05Z",
   "lookback_days": 14,
   "feeds": [
     {
@@ -35,7 +35,7 @@
     {
       "name": "Google News: Global Atlantic",
       "ok": true,
-      "count": 9,
+      "count": 7,
       "error": null
     },
     {
@@ -106,19 +106,55 @@
     },
     {
       "name": "Reinsurance News",
-      "ok": true,
-      "count": 10,
-      "error": null
+      "ok": false,
+      "count": 0,
+      "error": "HTTPError: HTTP Error 403: Forbidden"
     }
   ],
   "items": [
     {
+      "id": "b27fed0e57d4",
+      "title": "Apollo Global Management stock gains on Yankees stake and Athene risk update",
+      "link": "https://news.google.com/rss/articles/CBMixwFBVV95cUxOS1pkVlRXTk1TckJqY0xtcDBBWXNKa2FZNVBPRTN0Z2hHMGVNOU9hZnBaQUYtZzNfWkEyY2FpRVRneVJvNkdCVmVLdWd1ZGFFclp2cERYb0FDdm5CUlY5MUZqLUJDOVU1dDdaSVZCRlFPYzVkalA4WlFWY3V6RTJUaUJfY2xudzhoWTJyS1owTm9lQnkyTkFuZ0pWb09STVlJRldrWmlFdEVrV29OaGNHckUyS2NwdGh3U1VnbWNDRElIT3VhWlhF?oc=5",
+      "source": "AD HOC NEWS",
+      "feed": "Google News: Athene",
+      "date": "2026-09-21T17:55:39Z",
+      "summary": "",
+      "companies": [
+        "Athene"
+      ]
+    },
+    {
+      "id": "dc755937c783",
+      "title": "RGA Expands Growth Runway Through Financial Solutions & Longevity",
+      "link": "https://news.google.com/rss/articles/CBMiuwFBVV95cUxPMFdSSGJGZjNlREVWeDlyaDNSYmE3eGtaT24xVnN3cENFYmdvUEJiajZGX2Z5SENaZHdVc0ZGc2t4UklhcDdlbTZOSUt1ZTRocEwtZk9Sd2NHZHdGRUpNaUNmekkyenlkYm9paEhZb0tMTHoyb2pOYzNFNTdnelZCSU9QdjJoWDY1MzlZNVdpMmpMSnptWWlNbEM4b29XS1JPc2JNR1FrSmE3RHFzUXZfaU9OMXNLSzBZTlVz?oc=5",
+      "source": "TradingView",
+      "feed": "Google News: RGA",
+      "date": "2026-09-21T16:32:00Z",
+      "summary": "",
+      "companies": [
+        "RGA"
+      ]
+    },
+    {
+      "id": "1480bb032115",
+      "title": "Global Atlantic announces launch of ForeLifetime Income",
+      "link": "https://news.google.com/rss/articles/CBMiqAFBVV95cUxQUnJqVzFENmVnTF9BanNrODl0emlXWE8ydGhNM01SRUh6ZkU5NUhoVXBlUjNQYXlfcVFLajVXNjBRbFRRbnJKTDhCVW81U0dUaGwwcDhRTl96eTdGVzFXVjRLSUoyYWVtRnBGcWFMQzFXdWhfalVJV08yNnVzMzhJNmNvWUUtQVpjNHc2NjItUGphbHNFTzNvV0hfbndzWWlocjkweWNYcko?oc=5",
+      "source": "TipRanks",
+      "feed": "Google News: Global Atlantic",
+      "date": "2026-09-21T11:17:36Z",
+      "summary": "",
+      "companies": [
+        "Global Atlantic"
+      ]
+    },
+    {
       "id": "7efacc1cc589",
       "title": "Global Atlantic Announces Launch of ForeLifetime Income, a New Fixed Index Annuity",
-      "link": "https://news.google.com/rss/articles/CBMivwFBVV95cUxPS2lvUnhIczhJNUtuQ3NwbG9YLVJzdEItTXF6c0xBX0xlM2VWYmFUalhrMTNmNFdoYVp1Rm1mZUYwMWIxSjdMQ04tdFBRLThHUnhGdGpJc3kxSlpRRTBnY0JQRzBZT0F2aEllMEtHQXF6WmZpbE9JU1BKdmJJVHY2ZUFzTFhfb2JDaXZ4ZUJJekE2ZEpOa2hKN2h6VFcxVGJ4VTFNbkpTSlotOE1KOHE1WG1FU2J4ZmtTd05LT1ZrSQ?oc=5",
-      "source": "Stock Titan",
+      "link": "https://news.google.com/rss/articles/CBMi1AFBVV95cUxOdGFNU3ZBNmszaDFReUpTLUpBcEdhVFRZZ0lsdG1uNkd3OGVDdzZBRS1pVng0Q2pHdlZUWWs0WnZkcmlPUmlfc2dyei1tQ19DMGo5SV9lamFWdkxCSTBVSDNWN1B1dHBSay10Wmw3MDlFSElmWk8zNDBkeGdYZ3hmUElNS2lLWW02Tmp5VWZNMGNOMWpXWE1vTWpUeXVXYTdWZEFKT0d2TFJBakZHelFKVGZhYmo0UGxDMHJTSTVSRnZnQ0F1UGRneTByNWdzUG5BdHJOWA?oc=5",
+      "source": "Business Wire",
       "feed": "Google News: Global Atlantic",
-      "date": "2026-09-21T11:02:39Z",
+      "date": "2026-09-21T11:00:00Z",
       "summary": "",
       "companies": [
         "Global Atlantic"
@@ -164,7 +200,7 @@
       "id": "a992038e6b80",
       "title": "Aspida Holdings welcomes Sarfatti as Chief Risk Officer",
       "link": "https://news.google.com/rss/articles/CBMijgFBVV95cUxPaTZwXzUzNmRxS29Dcm45VVBwaHJveHRCV3pOVVdLQV9ZekM1dXFYdjZYWFd6c2hQMWxWX3l5YVR2VUJqZFhDMXgyX2JGSU1aNGdCUDB1M1ZaTGJfTTBpRXB5c2d4c2pmM0ZFU3IwOGNuR21STWJyRy1FNTREdW8wYlIzTTB2UnJIb3BhMld3?oc=5",
-      "source": "Reinsurance News",
+      "source": "reinsurancene.ws",
       "feed": "Google News: Aspida",
       "date": "2026-09-17T05:02:15Z",
       "summary": "",
@@ -188,9 +224,9 @@
       "id": "3cf38ff30348",
       "title": "Is Reinsurance Group of America (RGA) Worth Its Price After 152% Gains?",
       "link": "https://news.google.com/rss/articles/CBMiogFBVV95cUxPTlB5YU9uSnhLeThqVGlzR0xJay1sMjdxRkozT1NxVjlMa1VoWXVkWlBTclFJVDdmVk13LW1mc2F6MVd0Rk1XSWQ3VXo2ODZBd2FxajV2T28xRXZydUw5NFRvOHFBZWwtbUZPQ2d6Ty1WSHpLbXJWcXRBOGZJVWxncmZDc3dyZVdEVy1aRTNzZ0hiY3Fnanphak41dHRjSlkwMGc?oc=5",
-      "source": "finance.yahoo.com",
+      "source": "Yahoo Finance",
       "feed": "Google News: RGA",
-      "date": "2026-09-15T05:17:29Z",
+      "date": "2026-09-15T05:17:00Z",
       "summary": "",
       "companies": [
         "RGA"
@@ -238,7 +274,7 @@
       "link": "https://news.google.com/rss/articles/CBMi4wFBVV95cUxQRTVvWWhHeTg5eTNreS1KcWQwVFNPSFBDNjFZcHpSSEFoNFhEUWI4UDNETXdlY1k4OXQ3MDVfclNUSlR5Z04wTEstQVdzc2h3S0dmVW9FWjdUNmVGU3Qwd0RseXc5VndJbERFNUhnWkFNRXpSRnZ3M2JJcUprZnFlZmNJckNhREdEWWswa0RXdWZYRFl2VUZxUTJHOFNYTnVhVW51UWZjMl9LamFvdWpjaUN2RmdEREhfdEZXcXRNQVNMWkpRNDgyTmpFb01YTWFCWGVlTVJ6dGRXMFpaMUFwRXlHNA?oc=5",
       "source": "MarketBeat",
       "feed": "Google News: RGA",
-      "date": "2026-09-12T08:37:55Z",
+      "date": "2026-09-12T07:00:00Z",
       "summary": "",
       "companies": [
         "RGA"
@@ -260,7 +296,7 @@
       "id": "f1de125d0e6b",
       "title": "Are Investors Undervaluing Reinsurance Group of America (RGA) Right Now?",
       "link": "https://news.google.com/rss/articles/CBMiswFBVV95cUxNN2toSjhRdkd1b0dLcmJmUkxhNHdkb0dkMFRhY0VHeG96WXFvSlFSTFpfdUtuN3B0M3VCM2xydUU1emlSRGt0WUR0aUJ0cDRtTFhuODNvNjY4Q04wYjNGaDhmRmhfU3EtN0haRnZiX2tWNWkxOE45REdOUDV4U3pxQVhLazJ5UWI4Tk9TSTR1WE5ERS0tRFBWX2tfME1tQzRkUGlab21Rb1M2cDl1cm4yNFRUZw?oc=5",
-      "source": "finance.yahoo.com",
+      "source": "Yahoo Finance",
       "feed": "Google News: RGA",
       "date": "2026-09-11T07:00:00Z",
       "summary": "",
@@ -296,7 +332,7 @@
       "id": "b9661577d6b1",
       "title": "Are You Looking for a Top Momentum Pick? Why Reinsurance Group (RGA) is a Great Choice",
       "link": "https://news.google.com/rss/articles/CBMimgFBVV95cUxQWE9WLVhYcU1ZSkx3a294b1FVejcwWnNrTFlmQWNldTZFYy1IdHAwVHljeFNLSE15Y0RLdnJmYTdxY1lCUmRqaXVDb2NDTjlQREUxbzR4MVJ6TFVmMWJma1Q2TzBla09xSUZGdkhSaFpfcEFRT2sxend6WGdJVUlyeWVsR3dRUk9GN1JISmtzcGVrNU9pcHVIa21R?oc=5",
-      "source": "finance.yahoo.com",
+      "source": "Yahoo Finance",
       "feed": "Google News: RGA",
       "date": "2026-09-09T07:00:00Z",
       "summary": "",

@@ -1,5 +1,5 @@
 {
-  "updated": "2026-09-21T12:54:49Z",
+  "updated": "2026-09-21T20:07:02Z",
   "naic": [
     {
       "id": "d392645d4b7f",
@@ -511,7 +511,7 @@
       "date": "2026-09-09",
       "cat": "Reporting",
       "summary": "",
-      "source": "finance.yahoo.com",
+      "source": "Yahoo Finance",
       "link": "https://news.google.com/rss/articles/CBMinwFBVV95cUxPeF9SQlBiWDh0TjQtUlhxMTZyV2dqei1RSzNVVS1qczJ4cWktWmtmTGNCTG9XcS1CamotVlNRV285MmJWRWNpOUhDZjBLR0JFQ1RCLWllQVJCOFB3cGFOUnVjVTNST21RMXVndUlySEc5SXF6dmd1ZUFFbmxVUzlnZ2c1cWdNaGJiN2hORmZSWlNFMzc1dEU5a3J0bUhtOGM?oc=5",
       "isNew": true
     },
@@ -551,8 +551,18 @@
       "date": "2026-08-29",
       "cat": "General",
       "summary": "",
-      "source": "caymancompass.com",
+      "source": "Cayman Compass",
       "link": "https://news.google.com/rss/articles/CBMiowFBVV95cUxQZVpJRDVRQ2VYX3dpZzNnczNwR0tib3Vqd2pqOXhZdUJpWl9ZZW5sdk15X3FqRGRxWmVMbURDNE5jUXlfMlFZNDV1X3VXYVBlX0ZkcjlGdVpKeVphM3FCSUs2TTJRZW9LZnl4MjJZNkJTdU05dFhDbkY4SDNfR18tRWpybUJneUhZSVh3clo3WW0tRWFkc29YbjhOZ0xsNHNXOVI0?oc=5",
+      "isNew": true
+    },
+    {
+      "id": "eb831e35bcfb",
+      "title": "Cayman Islands' new AML Rule and new Sanctions Rule - practical guide for investment funds",
+      "date": "2026-08-24",
+      "cat": "Investment",
+      "summary": "",
+      "source": "Cayman Finance",
+      "link": "https://news.google.com/rss/articles/CBMiwgFBVV95cUxOdi13dnhON09ZdWo3bkR1TWVXWHdjVFJTc3VjNnVjNDY3N0M3dGFwUjFiSUQ5b2JoMHBRU3pqQ0hxbWlSN2hnTVp4YlNaNjdqdjF5Tl94cW1mU1NqWl9lcUJoX0JadHN2QlZuc3J1Z3E4THlJbzNRMjRuYWFSa0s5NUdTOG1UMDhETy1kS0Z0cmRpYlU1NGtCUmFoLUJOTUsxd2xiVU1fUTVoWF9abGlRcmhrc0U3cFF6WDNRWHhmSHl1Zw?oc=5",
       "isNew": true
     },
     {
@@ -731,7 +741,7 @@
       "date": "2026-07-01",
       "cat": "Governance",
       "summary": "",
-      "source": "caymancompass.com",
+      "source": "Cayman Compass",
       "link": "https://news.google.com/rss/articles/CBMirgFBVV95cUxOVWdmX3c0N2F6UHZTRld2S1Z1dHVibHF6NV9VbkMtVWx2ZWVrb0ZabVpLcjRGemFmOWZxSTNWY2hNVjRvcXJjTG9CUW9jNGIydDlQTG1EeDZkaUVCY1I5S3pmazNQWi04MVdYR29OQ0trajcySWxSaUR5NEFLR1ducVJvUGNOQmNZUkE2NHdIUjFqZUhRZzQ1blcybzlieEw2YS15R0VCWTVrd0h4NUE?oc=5",
       "isNew": false
     },
@@ -743,16 +753,6 @@
       "summary": "",
       "source": "Capmad",
       "link": "https://news.google.com/rss/articles/CBMiswFBVV95cUxPZXNXLVk0dzd2eE5nVDd5OFhfVTV1OEo0S3lJbEFwSFYtNmZacW1MRnBtQnExUkZXXzdJMDhQQTlpejdPZE1NeG5uUkNnVWVVVTE3SExRdnF3Zk9QQTllWlBDT2JCc1BKR192MXk1RzNMVnZILW95SHgyTkxKamNiV2RqVWFxMWRhcVlNMGNtTXpQOGJISzBkdWhJbm9KdkdGV2gxRTRQbVloaXVMakxIS3pMbw?oc=5",
-      "isNew": false
-    },
-    {
-      "id": "d2d2c8d52833",
-      "title": "What CIMA\u2019s 2026 Thematic Review means for Cayman reinsurers | Walkers",
-      "date": "2026-06-26",
-      "cat": "General",
-      "summary": "",
-      "source": "JD Supra",
-      "link": "https://news.google.com/rss/articles/CBMiiAFBVV95cUxNcklMVDg1a1NLMjBGNy1fRHlST3Bra0JqYXhTR2VPdWpkdXdOa0IzVmNrbnlxdWE2eDRaNWVISmhwNUx5SS1WbWMwYUNSeEMweFdfOFFCWi0tdldldE9kZFpMSUNNT05TNzhhNFZYTjlMMXVUYXRmS1JwUVZaTDcyUWF6OVdIczUw?oc=5",
       "isNew": false
     }
   ]
