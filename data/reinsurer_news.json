@@ -1,5 +1,5 @@
 {
-  "updated": "2026-09-22T05:03:12Z",
+  "updated": "2026-09-22T11:44:20Z",
   "lookback_days": 14,
   "feeds": [
     {
@@ -65,7 +65,7 @@
     {
       "name": "Google News: RGA",
       "ok": true,
-      "count": 10,
+      "count": 11,
       "error": null
     },
     {
@@ -77,7 +77,7 @@
     {
       "name": "Google News: Sagicor",
       "ok": true,
-      "count": 2,
+      "count": 1,
       "error": null
     },
     {
@@ -112,6 +112,18 @@
     }
   ],
   "items": [
+    {
+      "id": "86b19d684ede",
+      "title": "Reinsurance Group of America (RGA): Buy, Sell, or Hold Post Q2 Earnings?",
+      "link": "https://news.google.com/rss/articles/CBMixgFBVV95cUxNVFJPaWJPeExtVUl1MGs5TXVhU2NhM2ZpT2VtcWx6alpnX0JMNlhzTWo4andGRmFaeTgxemtXN3NTM2t1c3YyeE1HSllrQTRJWU5aWks4Tkd5QTlxSHRxb1VtX3VkalpFdG9SZDBlM2UwWlN2TG43TDVyVWFNMTJ6V0R5MGJtX3QzazNFS2M0bHNQeEZOb0pqUFlaS2g2cXZCLWU5bUxNOERiRlJjc1lvOVJLMHhqT3lLUFFvZnlacmN2X2tlMUE?oc=5",
+      "source": "TradingView",
+      "feed": "Google News: RGA",
+      "date": "2026-09-22T04:06:00Z",
+      "summary": "",
+      "companies": [
+        "RGA"
+      ]
+    },
     {
       "id": "b27fed0e57d4",
       "title": "Apollo Global Management stock gains on Yankees stake and Athene risk update",
@@ -151,10 +163,10 @@
     {
       "id": "7efacc1cc589",
       "title": "Global Atlantic Announces Launch of ForeLifetime Income, a New Fixed Index Annuity",
-      "link": "https://news.google.com/rss/articles/CBMi1AFBVV95cUxOdGFNU3ZBNmszaDFReUpTLUpBcEdhVFRZZ0lsdG1uNkd3OGVDdzZBRS1pVng0Q2pHdlZUWWs0WnZkcmlPUmlfc2dyei1tQ19DMGo5SV9lamFWdkxCSTBVSDNWN1B1dHBSay10Wmw3MDlFSElmWk8zNDBkeGdYZ3hmUElNS2lLWW02Tmp5VWZNMGNOMWpXWE1vTWpUeXVXYTdWZEFKT0d2TFJBakZHelFKVGZhYmo0UGxDMHJTSTVSRnZnQ0F1UGRneTByNWdzUG5BdHJOWA?oc=5",
-      "source": "Business Wire",
+      "link": "https://news.google.com/rss/articles/CBMivwFBVV95cUxPS2lvUnhIczhJNUtuQ3NwbG9YLVJzdEItTXF6c0xBX0xlM2VWYmFUalhrMTNmNFdoYVp1Rm1mZUYwMWIxSjdMQ04tdFBRLThHUnhGdGpJc3kxSlpRRTBnY0JQRzBZT0F2aEllMEtHQXF6WmZpbE9JU1BKdmJJVHY2ZUFzTFhfb2JDaXZ4ZUJJekE2ZEpOa2hKN2h6VFcxVGJ4VTFNbkpTSlotOE1KOHE1WG1FU2J4ZmtTd05LT1ZrSQ?oc=5",
+      "source": "Stock Titan",
       "feed": "Google News: Global Atlantic",
-      "date": "2026-09-21T11:00:00Z",
+      "date": "2026-09-21T11:02:39Z",
       "summary": "",
       "companies": [
         "Global Atlantic"
@@ -200,7 +212,7 @@
       "id": "a992038e6b80",
       "title": "Aspida Holdings welcomes Sarfatti as Chief Risk Officer",
       "link": "https://news.google.com/rss/articles/CBMijgFBVV95cUxPaTZwXzUzNmRxS29Dcm45VVBwaHJveHRCV3pOVVdLQV9ZekM1dXFYdjZYWFd6c2hQMWxWX3l5YVR2VUJqZFhDMXgyX2JGSU1aNGdCUDB1M1ZaTGJfTTBpRXB5c2d4c2pmM0ZFU3IwOGNuR21STWJyRy1FNTREdW8wYlIzTTB2UnJIb3BhMld3?oc=5",
-      "source": "Reinsurance News",
+      "source": "reinsurancene.ws",
       "feed": "Google News: Aspida",
       "date": "2026-09-17T05:02:15Z",
       "summary": "",
@@ -272,7 +284,7 @@
       "id": "ae911c65adbb",
       "title": "Reinsurance Group of America, Incorporated $RGA Shares Bought by Engineers Gate Manager LP",
       "link": "https://news.google.com/rss/articles/CBMi4wFBVV95cUxQRTVvWWhHeTg5eTNreS1KcWQwVFNPSFBDNjFZcHpSSEFoNFhEUWI4UDNETXdlY1k4OXQ3MDVfclNUSlR5Z04wTEstQVdzc2h3S0dmVW9FWjdUNmVGU3Qwd0RseXc5VndJbERFNUhnWkFNRXpSRnZ3M2JJcUprZnFlZmNJckNhREdEWWswa0RXdWZYRFl2VUZxUTJHOFNYTnVhVW51UWZjMl9LamFvdWpjaUN2RmdEREhfdEZXcXRNQVNMWkpRNDgyTmpFb01YTWFCWGVlTVJ6dGRXMFpaMUFwRXlHNA?oc=5",
-      "source": "marketbeat.com",
+      "source": "MarketBeat",
       "feed": "Google News: RGA",
       "date": "2026-09-12T07:00:00Z",
       "summary": "",
@@ -308,7 +320,7 @@
       "id": "8233bcb1e5a4",
       "title": "42,185 Shares in Reinsurance Group of America, Incorporated $RGA Acquired by Squarepoint Ops LLC",
       "link": "https://news.google.com/rss/articles/CBMi6gFBVV95cUxOenJxWjVuY0hHS1pUeEVacERKT1lmUHl0ZmRZemJCX0tsR0dBSThhdlMxZ0ozbXJDV2xvbmpOaE9kdi1vM0JnOTl2VEEwUTdFYlQtQ1ZCSC1ublBaT3dTZU1STm5va2lIcDhpaC1sQ2k4clBjNkpTZEROZXBuenZUQ09JTGR3X3V1UFBZSFZoLURFUVE2NXNPcDdOWTFoVHpOZmtTSDR5Rk1mWGdNalRFNTB0cTU4UFlVcFVvVGVxUnVDN2hUQmU0aEV2Ml9DX0c0VUR4M3NmRWlSanp2NFl1NGdTcEh3QmhwV1E?oc=5",
-      "source": "marketbeat.com",
+      "source": "MarketBeat",
       "feed": "Google News: RGA",
       "date": "2026-09-11T07:00:00Z",
       "summary": "",

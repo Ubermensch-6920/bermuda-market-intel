@@ -1,5 +1,5 @@
 {
-  "updated": "2026-09-22T05:03:10Z",
+  "updated": "2026-09-22T11:44:17Z",
   "topics": [
     "Insurance AM",
     "Private Credit",
@@ -7,6 +7,16 @@
     "Structured Credit"
   ],
   "items": [
+    {
+      "id": "79ece7ef9395",
+      "title": "Why Bond Markets Are Pricing In Too Many Interest Rate Rises",
+      "source": "Morningstar",
+      "date": "2026-09-22T05:12:47Z",
+      "topic": "Rates & Macro",
+      "summary": "",
+      "link": "https://news.google.com/rss/articles/CBMiogFBVV95cUxOaGRrNUFnMmVGZmg0alg2YUhySUNZSWlDUHhRV1ZLcnRpdDNUamxMQ2RneHJVSjZBbFBUSmJfaC1YYmRVUVNSaXhkVllKWU5rRFpSUmViY2R1VVZJbDY5dlBjT3puWjN6dFJEekYwZEVqcVdLTTl1SXVTZU1teHZUT0p1WTY2RmszSzBVWHBqWWZQdjdiRElYQjBKbmtRZm9tYWc?oc=5",
+      "isNew": false
+    },
     {
       "id": "5014267dafb8",
       "title": "Convergence of Asset Management, Insurance Capital and Strategic M&A: Key Takeaways From the Skadden-PJT Partners Panel Event",
@@ -38,16 +48,6 @@
       "isNew": false
     },
     {
-      "id": "750c575e5dfb",
-      "title": "U.S. 10-Year Yield Cools After Topping 5%, German Bund Yield Hits 15-Year High",
-      "source": "WSJ",
-      "date": "2026-09-21T09:04:09Z",
-      "topic": "Rates & Macro",
-      "summary": "",
-      "link": "https://news.google.com/rss/articles/CBMiywFBVV95cUxPUUViTThLVXZVVW9Uck9RZHRIcm1zQm9tcXFjX1ZBckl6NGJQRTVvREEyYjFlUzBKdHRaUTF3eGlHb1JaSnN5ZXpSU2ZnZUNNNURYUXgxME9Xam96THNITzNTNjlNVUdNUmFSbUhoSXgzLXgxM0pWOFZ2aVNuN2lYb0ZXdGlpN3NIeUVJR3FaY0VmcDFERWFXU1g1dUE4R3NoZGU0SVRfS3dVdTA5VjlKd2FBUy1tYWJtaWxhc0FNclUzM2xFdUpSUTlzcw?oc=5",
-      "isNew": false
-    },
-    {
       "id": "653260cbd953",
       "title": "Government Bond Yields Fall as Risk Sentiment Tentatively Improves",
       "source": "wsj.com",
@@ -60,7 +60,7 @@
     {
       "id": "a0ccc93645ac",
       "title": "Hanwha Finance expands financial cooperation with Abu Dhabi",
-      "source": "hanwha.com",
+      "source": "Hanwha Group",
       "date": "2026-09-21T06:54:50Z",
       "topic": "Insurance AM",
       "summary": "",
@@ -140,7 +140,7 @@
     {
       "id": "3830e6102182",
       "title": "Moody\u2019s: Insurers set to boost private credit allocations",
-      "source": "alternativecreditinvestor.com",
+      "source": "Alternative Credit Investor",
       "date": "2026-09-18T13:53:26Z",
       "topic": "Private Credit",
       "summary": "",
@@ -218,16 +218,6 @@
       "isNew": false
     },
     {
-      "id": "bb5b5b5c92c2",
-      "title": "Why the Bank of England Didn\u2019t Follow the Fed in Raising Interest Rates",
-      "source": "WSJ",
-      "date": "2026-09-17T16:29:00Z",
-      "topic": "Rates & Macro",
-      "summary": "",
-      "link": "https://news.google.com/rss/articles/CBMiwAFBVV95cUxQUHFTTGwzMjhlWGxWVjNMWDhmTnhicmVwazdvSDgzRU00SjkxR3ZVLXJzc0hEd1dBOWVkOFJEX1hQVUl2VHdVZk5sdjF5Qnk2VVBjd3pqX1hlNDRxOEIyZG91VFVoT0l2bng0VFVfV0g5dXNmaTBVNGwzaGtiaXJIemNaYkZMTmc3aHJGbW9LVm9LNjRRZy05T0R4RDlqNE5DOG5fNEpGeEZ6eGpoNEQwbXV3OUJQN3dpSVpSRXdsc24?oc=5",
-      "isNew": false
-    },
-    {
       "id": "858c4f218a81",
       "title": "3 Life Insurers to Watch as Annuity Sales Hit First-Half Record Highs",
       "source": "easternprogress.com",
@@ -235,6 +225,16 @@
       "topic": "Insurance AM",
       "summary": "",
       "link": "https://news.google.com/rss/articles/CBMi5gFBVV95cUxORC1GQmVsNnN3MkRrVlE1cFZJRlpyazdjRlZfbFhFb1BPdmhubDdFeGxEalQxTUZtOUVoSkJ4ZktDbWVHS0I1THJNQ19TRDlhSHpWLVY4Q2toaVUzSVRXQTNwd1kyMl9WMlpqWDUtQVVSalA1bzJDbi10YVJLaENFZ29YdkVTamM2SllvSnh6WEhZTEFQWnRnUUxZam11a0loUV9nOVBLSGpHNFlSOXVORkpfZVpqNTJDR3UyNDF6TG9CVVc2VDV3RS1VWnppODc1X3MzOW1SZmdZemhGSUxRczgzQ2Qwdw?oc=5",
+      "isNew": false
+    },
+    {
+      "id": "bb5b5b5c92c2",
+      "title": "Why the Bank of England Didn\u2019t Follow the Fed in Raising Interest Rates",
+      "source": "WSJ",
+      "date": "2026-09-17T15:33:43Z",
+      "topic": "Rates & Macro",
+      "summary": "",
+      "link": "https://news.google.com/rss/articles/CBMiwAFBVV95cUxQUHFTTGwzMjhlWGxWVjNMWDhmTnhicmVwazdvSDgzRU00SjkxR3ZVLXJzc0hEd1dBOWVkOFJEX1hQVUl2VHdVZk5sdjF5Qnk2VVBjd3pqX1hlNDRxOEIyZG91VFVoT0l2bng0VFVfV0g5dXNmaTBVNGwzaGtiaXJIemNaYkZMTmc3aHJGbW9LVm9LNjRRZy05T0R4RDlqNE5DOG5fNEpGeEZ6eGpoNEQwbXV3OUJQN3dpSVpSRXdsc24?oc=5",
       "isNew": false
     },
     {
