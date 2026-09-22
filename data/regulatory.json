@@ -1,5 +1,5 @@
 {
-  "updated": "2026-09-21T20:07:02Z",
+  "updated": "2026-09-22T00:12:51Z",
   "naic": [
     {
       "id": "d392645d4b7f",
@@ -162,6 +162,16 @@
       "isNew": true
     },
     {
+      "id": "f4b6cd776541",
+      "title": "NAIC summer 2026: Colorado commissioner urges action toward an AI model law",
+      "date": "2026-08-24",
+      "cat": "Governance",
+      "summary": "",
+      "source": "S&P Global",
+      "link": "https://news.google.com/rss/articles/CBMi9AFBVV95cUxNaC01cmpUeTlHS3hIU05hVXJUcF9JRy1ySTdjdWNnLXVaN2dmcnpneHJnaE9mQXBLeHZJaWVRZDJNTWFxelRXV0d2TjVBOXlDV0dWcjlHczY3a19TLUhUb21kUkJYdEVGWm1EWndGWFVtTlZHVTNOdmpiaGk1dkJzazlVNjNLWjY3NFhNakhPMENHSHlxSTNEdzFabWFGWGtVLUZGMU8wTTZNSmllV0VKVWktREJJRWRIZlI2RDNyYlpEZmVoNDUxNWJjV0dicm1ycURBWGszdjdqQS0tOEtPQUo4aEt4Qi1TQVFwb3hES0w3OVNn?oc=5",
+      "isNew": true
+    },
+    {
       "id": "2ea3f94986a3",
       "title": "NAIC Launches Multi-State Pilot of AI Systems Evaluation Tool",
       "date": "2026-08-24",
@@ -189,7 +199,7 @@
       "summary": "",
       "source": "Cayman News Service",
       "link": "https://news.google.com/rss/articles/CBMijAFBVV95cUxNaXRtdS0zdDE4WHc0bWFqdXFiQjduZjF1RWVnZ2NrckVlVC01OFJxTGU5dmtqcUFQZTVhNUl3MUZsMkw5QTd6MWpRQ0VMS2FnbF9xS1cxbmRHSkZfai10TDJVUDlpbDhObE05VjJ1Q1ozOGktSUJ0RnZlTFl3M25PajdQOF9yQ0sxM1lRYQ?oc=5",
-      "isNew": true
+      "isNew": false
     },
     {
       "id": "cfcee51e4106",
@@ -240,16 +250,6 @@
       "source": "Reinsurance News",
       "link": "https://news.google.com/rss/articles/CBMiqAFBVV95cUxNNGkwZkZXYXotUVRyZ3FvOUp5MzdGYXh5dmFyQ0NiV1FsTXUyOS1FSUtHOV8tUEhpeFhPdUR3MU1WX2RnSTR2XzhsbUViWnItX0tydlNpbWpEdW9jVUdnNDN2bmZ3OV8zVHJudllCX3l0NjhsSDkycUdKejFkaXRhcUdFWnU2MHg2Xzlzal96N0pjQ0VUTVVJeDNFSjBvakZDc09nOGZPNkI?oc=5",
       "isNew": false
-    },
-    {
-      "id": "9187c2fd59e7",
-      "title": "Guernsey applies for NAIC Qualified Jurisdiction status",
-      "date": "2026-08-20",
-      "cat": "General",
-      "summary": "",
-      "source": "Captive Insurance Times",
-      "link": "https://news.google.com/rss/articles/CBMi3wFBVV95cUxNZU9zVnZkMm44UVQzb0JudmxnUGpCc0tWckJRU0xvTHItV2I2R0F2VXBxUTlya0hhV2VEbjJHbHkxM005allkcXdDLTJmVHlTTllFbDhWVXhZZlJhS1l5UzctYWdkNDBYNXphREpwZ3NOblR6WHZTc1FhRFBQX0JkOFIySlJNTWNHRFI2WEFYSFNSMF8xeDRkbnE3UlNsc1I5UW5vZUxTMjA3SlRoRnNfSVF3QjdXTm5fZ0lKd2l2ZHVtQ1lUdmVOdkZkYW13ZXZueTBvczFmbVNfSktYYkRR?oc=5",
-      "isNew": false
     }
   ],
   "bma": [
@@ -259,7 +259,7 @@
       "date": "2026-09-18",
       "cat": "Investment",
       "summary": "",
-      "source": "Insurance Business",
+      "source": "insurancebusinessmag.com",
       "link": "https://news.google.com/rss/articles/CBMi2gFBVV95cUxOWDI4MnBIaUFqM0xRYmVMb3VqdmtiLUZwMUtxMGN2bERqaEFXOTNxa2hHZlZJUVpEQWV5NWU3NWQ0RllVNExkM19PeWI0Tk15V0VGb0t5UTJ4cHRwTWpRV1hFTXVabE1jTW5GU2hIckNkdEhCeTJ5Y3JFckZ5Y2k4VGU4eTZPWVFtWjdBRXRMN0xIUFdKcXdVQmpRcEtuVXRhUWJrNjdOdmJ3OWdaM0VuMG1jUkhkMFJ0eUxiSlUwQnVYSW1ZR0l6Y1ZFalJoSlJsTmY5US1hR3Q4UQ?oc=5",
       "isNew": true
     },
@@ -573,7 +573,7 @@
       "summary": "",
       "source": "Capmad",
       "link": "https://news.google.com/rss/articles/CBMiywFBVV95cUxQRDRZcU5hX04wU3pxcks3MXc0QnJuc1FtakFIZUtnY3BuUktPVTR0Uldlbm1JOWFzdEF3Um1oMThUZmZVYjFZcHBaUWo3d25jTktHV2pGRXpOSEVrTzZRMlYyckpfTVlnRHdSU2FldnkxLWNNQWdjcnV3N2JIaDFPYzhmTGREQTBvb050NTJVdUY5UWVwODZDNElZa1cxY0FVOGNlZGtWVzNlT1NVSVdNdEhpQmZKRzlmTm1DVUU2a21rNFBiX2ltaGtrMA?oc=5",
-      "isNew": true
+      "isNew": false
     },
     {
       "id": "830d963cc682",
@@ -631,7 +631,7 @@
       "date": "2026-07-29",
       "cat": "General",
       "summary": "",
-      "source": "Insurance Business",
+      "source": "insurancebusinessmag.com",
       "link": "https://news.google.com/rss/articles/CBMiywFBVV95cUxPS2lqcVB0NzVrNldvOTNtUTVjNnZTOWdUdjVtMmhvX0ZRUlA2UEt1SFF0QVlJd3dybmE3U1JiNF80TVloYmhjLXNlQWlSMHItZW1CdDlsdklOZ0lhc3E2V0RIeTlVejZxcEdCN2ZiU21Sa016QlQxMGJ6MG5OZ1dnUXQyT21QVjNTaWVWRmFGUm5kSktsanFtQnd6OEo4MFk2bnZHOVBKS2ZBaU5CNjRiWmMxd1Q1YmlKRW1LWDMyZ05RaWVnQWlVZHpqTQ?oc=5",
       "isNew": false
     },
@@ -721,7 +721,7 @@
       "date": "2026-07-14",
       "cat": "General",
       "summary": "",
-      "source": "Insurance Business",
+      "source": "insurancebusinessmag.com",
       "link": "https://news.google.com/rss/articles/CBMi2gFBVV95cUxOWEI0T3hNdnh5M0U2ekhDYWJRRnplN3g1ZDVheG9NRUZwR2lxUjJaVDhLSkFGdjRWWENGRkJVVjJwQ0FMY05KenJha1JHZkd3em0wczVrOXFYbks4UGxfQUg0NDJQUVlQQ0hVOFNGWmsyMXM5NFlTV3F2YmlxbWQ3alZDcHQ1ajktRUhnTkdNX3Bia1dON3RVSGdqa1I1ZzNlWnNCX0Y5VU5SR2lpanlhSjRvc1pWUFlHN3FxbkZtM0NUVXc5NlRlWHAtTUoxX3lTTEdiYUpDTnZTUQ?oc=5",
       "isNew": false
     },

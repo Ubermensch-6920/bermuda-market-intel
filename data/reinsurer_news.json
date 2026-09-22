@@ -1,5 +1,5 @@
 {
-  "updated": "2026-09-21T20:07:05Z",
+  "updated": "2026-09-22T00:12:54Z",
   "lookback_days": 14,
   "feeds": [
     {
@@ -29,7 +29,7 @@
     {
       "name": "Google News: Fortitude Re",
       "ok": true,
-      "count": 1,
+      "count": 0,
       "error": null
     },
     {
@@ -89,7 +89,7 @@
     {
       "name": "Google News: Talcott",
       "ok": true,
-      "count": 5,
+      "count": 4,
       "error": null
     },
     {
@@ -128,7 +128,7 @@
       "id": "dc755937c783",
       "title": "RGA Expands Growth Runway Through Financial Solutions & Longevity",
       "link": "https://news.google.com/rss/articles/CBMiuwFBVV95cUxPMFdSSGJGZjNlREVWeDlyaDNSYmE3eGtaT24xVnN3cENFYmdvUEJiajZGX2Z5SENaZHdVc0ZGc2t4UklhcDdlbTZOSUt1ZTRocEwtZk9Sd2NHZHdGRUpNaUNmekkyenlkYm9paEhZb0tMTHoyb2pOYzNFNTdnelZCSU9QdjJoWDY1MzlZNVdpMmpMSnptWWlNbEM4b29XS1JPc2JNR1FrSmE3RHFzUXZfaU9OMXNLSzBZTlVz?oc=5",
-      "source": "TradingView",
+      "source": "tradingview.com",
       "feed": "Google News: RGA",
       "date": "2026-09-21T16:32:00Z",
       "summary": "",
@@ -189,7 +189,7 @@
       "title": "Former RGA leader takes helm at West Grove Re",
       "link": "https://news.google.com/rss/articles/CBMihwFBVV95cUxNck54Nm9NejlNOWdic09ueHdrRHAyUDdhQVJlMHJkZFhqNVpHRmtySTNEejZGZFU0VlZURDZlcUU3dGowbGlGdnl3M2VBUW5UVFd2OEtGdm85clRycUFhWklHN3JTUjZPdGR1dUtwT3VhcTYzVWJqS0paNm1jR0kxUW5CQUotVUk?oc=5",
       "source": "Intelligent Insurer",
-      "feed": "Google News: Talcott",
+      "feed": "Google News: RGA",
       "date": "2026-09-18T14:34:10Z",
       "summary": "",
       "companies": [
@@ -200,7 +200,7 @@
       "id": "a992038e6b80",
       "title": "Aspida Holdings welcomes Sarfatti as Chief Risk Officer",
       "link": "https://news.google.com/rss/articles/CBMijgFBVV95cUxPaTZwXzUzNmRxS29Dcm45VVBwaHJveHRCV3pOVVdLQV9ZekM1dXFYdjZYWFd6c2hQMWxWX3l5YVR2VUJqZFhDMXgyX2JGSU1aNGdCUDB1M1ZaTGJfTTBpRXB5c2d4c2pmM0ZFU3IwOGNuR21STWJyRy1FNTREdW8wYlIzTTB2UnJIb3BhMld3?oc=5",
-      "source": "reinsurancene.ws",
+      "source": "Reinsurance News",
       "feed": "Google News: Aspida",
       "date": "2026-09-17T05:02:15Z",
       "summary": "",
@@ -226,7 +226,7 @@
       "link": "https://news.google.com/rss/articles/CBMiogFBVV95cUxPTlB5YU9uSnhLeThqVGlzR0xJay1sMjdxRkozT1NxVjlMa1VoWXVkWlBTclFJVDdmVk13LW1mc2F6MVd0Rk1XSWQ3VXo2ODZBd2FxajV2T28xRXZydUw5NFRvOHFBZWwtbUZPQ2d6Ty1WSHpLbXJWcXRBOGZJVWxncmZDc3dyZVdEVy1aRTNzZ0hiY3Fnanphak41dHRjSlkwMGc?oc=5",
       "source": "Yahoo Finance",
       "feed": "Google News: RGA",
-      "date": "2026-09-15T05:17:00Z",
+      "date": "2026-09-15T05:17:29Z",
       "summary": "",
       "companies": [
         "RGA"
@@ -236,7 +236,7 @@
       "id": "56161ec89b77",
       "title": "Aspida Appoints Aaron Sarfatti as Chief Risk Officer",
       "link": "https://news.google.com/rss/articles/CBMiwgFBVV95cUxQVzAzX1dBbk96QVU1N3BMM1gzWThtbTBNdlljY0tlYWxTMWpBRFM3dEkwdllsMGNJNHlTY3hwNXVXQTdXOUItXzEydDBxdFc5TUtNS3NyLXQ5OWc3WU5wdWtOcjg5bzB0NFAwbWxIcmYxRXBHMlZlclY4RXc4dlFtM3lpQjNJV3ZsT1JIV1c4TnNTdGZPbVZaSnkxVmRYQnR6UkhfR3hZVU9oZHRkVlBhOGJTTHRZc2kzUzY5XzFQUGpoUQ?oc=5",
-      "source": "GlobeNewswire",
+      "source": "globenewswire.com",
       "feed": "Google News: Aspida",
       "date": "2026-09-14T13:00:00Z",
       "summary": "",
