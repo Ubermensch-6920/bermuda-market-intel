@@ -1,19 +1,18 @@
 # Reinsurer News Monitor
 
-Bermuda life & annuity watchlist — last 14 days — 21 items
-Generated Tue 22 Sep 2026, 08:44 ADT
+Bermuda life & annuity watchlist — last 14 days — 20 items
+Generated Tue 22 Sep 2026, 14:05 ADT
 
 ## Feed status
 
 - ✅ **Artemis.bm** — 10 items
-- ✅ **Google News (16 of 16 companies)** — 37 items
+- ✅ **Google News (16 of 16 companies)** — 38 items
 - ❌ **Reinsurance News** — failed: HTTPError: HTTP Error 403: Forbidden
 
 ## Athene
 
 - **2026-09-21** — AD HOC NEWS — [Apollo Global Management stock gains on Yankees stake and Athene risk update](https://news.google.com/rss/articles/CBMixwFBVV95cUxOS1pkVlRXTk1TckJqY0xtcDBBWXNKa2FZNVBPRTN0Z2hHMGVNOU9hZnBaQUYtZzNfWkEyY2FpRVRneVJvNkdCVmVLdWd1ZGFFclp2cERYb0FDdm5CUlY5MUZqLUJDOVU1dDdaSVZCRlFPYzVkalA4WlFWY3V6RTJUaUJfY2xudzhoWTJyS1owTm9lQnkyTkFuZ0pWb09STVlJRldrWmlFdEVrV29OaGNHckUyS2NwdGh3U1VnbWNDRElIT3VhWlhF?oc=5)
 - **2026-09-18** — Royal Gazette | Bermuda — [Athene settles eight-year legal battle with former director](https://news.google.com/rss/articles/CBMixgFBVV95cUxNTFc2VFFmVXFRWlR6RVFSb1M2US05M0pMa3FnMUNjQ3V5VlBVcUxhRDluWGxiRndHX1RZVFlCVlM5UHJDNjJDcGZJa1lmUHUyd2gtZVNXdkJMNEY0S3RmN0pXekotX3RwTDZBUWk1Umw2bGE5NXFXeldqZl9aVTF1S0dIaFpPcVlwNV9WQ0JWYXl0YmZncERTV0xkUDVobWRTa3g4XzdNNjFzY09NRGtIWUUwVlhuYV9Qd0ZpRG9OcHFsQ0VLcEE?oc=5)
-- **2026-09-08** — hrtoday.in — [Francisco Prat Appointed Executive Vice President and Chief Human Resources Officer at Athene](https://news.google.com/rss/articles/CBMiswFBVV95cUxNdURaeHg5ZFZRZnkxRWI2RndnMk9OanZjUVdfRFdrM2Zpb3Q1WTlEN0N1SnFtZjdwV3dxS0cyNEV0WTVwNkJCSnhfSXBWYlhSbVhYbF93TWNfYXZFLThPTkh3ZERpRUNQQWtkSndoaWplRHdSTE13a05WWmNobDQzNk1vUnBROVlNTzc2TlUxUTJ6YktWdTBjSjRmMVV2ZGg0cEo4YS1kUVJIMFA5OXpkS2ZrRQ?oc=5)
 
 ## Global Atlantic
 
@@ -22,7 +21,7 @@ Generated Tue 22 Sep 2026, 08:44 ADT
 
 ## Aspida
 
-- **2026-09-17** — reinsurancene.ws — [Aspida Holdings welcomes Sarfatti as Chief Risk Officer](https://news.google.com/rss/articles/CBMijgFBVV95cUxPaTZwXzUzNmRxS29Dcm45VVBwaHJveHRCV3pOVVdLQV9ZekM1dXFYdjZYWFd6c2hQMWxWX3l5YVR2VUJqZFhDMXgyX2JGSU1aNGdCUDB1M1ZaTGJfTTBpRXB5c2d4c2pmM0ZFU3IwOGNuR21STWJyRy1FNTREdW8wYlIzTTB2UnJIb3BhMld3?oc=5)
+- **2026-09-17** — Reinsurance News — [Aspida Holdings welcomes Sarfatti as Chief Risk Officer](https://news.google.com/rss/articles/CBMijgFBVV95cUxPaTZwXzUzNmRxS29Dcm45VVBwaHJveHRCV3pOVVdLQV9ZekM1dXFYdjZYWFd6c2hQMWxWX3l5YVR2VUJqZFhDMXgyX2JGSU1aNGdCUDB1M1ZaTGJfTTBpRXB5c2d4c2pmM0ZFU3IwOGNuR21STWJyRy1FNTREdW8wYlIzTTB2UnJIb3BhMld3?oc=5)
 - **2026-09-14** — GlobeNewswire — [Aspida Appoints Aaron Sarfatti as Chief Risk Officer](https://news.google.com/rss/articles/CBMiwgFBVV95cUxQVzAzX1dBbk96QVU1N3BMM1gzWThtbTBNdlljY0tlYWxTMWpBRFM3dEkwdllsMGNJNHlTY3hwNXVXQTdXOUItXzEydDBxdFc5TUtNS3NyLXQ5OWc3WU5wdWtOcjg5bzB0NFAwbWxIcmYxRXBHMlZlclY4RXc4dlFtM3lpQjNJV3ZsT1JIV1c4TnNTdGZPbVZaSnkxVmRYQnR6UkhfR3hZVU9oZHRkVlBhOGJTTHRZc2kzUzY5XzFQUGpoUQ?oc=5)
 
 ## Talcott
@@ -31,7 +30,7 @@ Generated Tue 22 Sep 2026, 08:44 ADT
 
 ## RGA
 
-- **2026-09-22** — TradingView — [Reinsurance Group of America (RGA): Buy, Sell, or Hold Post Q2 Earnings?](https://news.google.com/rss/articles/CBMixgFBVV95cUxNVFJPaWJPeExtVUl1MGs5TXVhU2NhM2ZpT2VtcWx6alpnX0JMNlhzTWo4andGRmFaeTgxemtXN3NTM2t1c3YyeE1HSllrQTRJWU5aWks4Tkd5QTlxSHRxb1VtX3VkalpFdG9SZDBlM2UwWlN2TG43TDVyVWFNMTJ6V0R5MGJtX3QzazNFS2M0bHNQeEZOb0pqUFlaS2g2cXZCLWU5bUxNOERiRlJjc1lvOVJLMHhqT3lLUFFvZnlacmN2X2tlMUE?oc=5)
+- **2026-09-22** — Yahoo Finance — [Reinsurance Group of America (RGA): Buy, Sell, or Hold Post Q2 Earnings?](https://news.google.com/rss/articles/CBMinwFBVV95cUxQY1NXZTRZWUVMaWFnM0tNbXJMOFpNUHJEOGNxR05DOHdTMzB5U28ycnM3RDFkOC1qSnJ6UmdtejJUb2lldjFQS290UE9WNWdOTGgwQUczWnAySUQxZG5rSVRhbGVpYjFqUzUxVFlWdlVqTDV3RnRUVFhGeWpjUE1xa2RNNjVaS2xrZW96UUtXenh5YUNqbWdLWjgzZUdqYkE?oc=5)
 - **2026-09-21** — TradingView — [RGA Expands Growth Runway Through Financial Solutions & Longevity](https://news.google.com/rss/articles/CBMiuwFBVV95cUxPMFdSSGJGZjNlREVWeDlyaDNSYmE3eGtaT24xVnN3cENFYmdvUEJiajZGX2Z5SENaZHdVc0ZGc2t4UklhcDdlbTZOSUt1ZTRocEwtZk9Sd2NHZHdGRUpNaUNmekkyenlkYm9paEhZb0tMTHoyb2pOYzNFNTdnelZCSU9QdjJoWDY1MzlZNVdpMmpMSnptWWlNbEM4b29XS1JPc2JNR1FrSmE3RHFzUXZfaU9OMXNLSzBZTlVz?oc=5)
 - **2026-09-18** — Intelligent Insurer — [Former RGA leader takes helm at West Grove Re](https://news.google.com/rss/articles/CBMihwFBVV95cUxNck54Nm9NejlNOWdic09ueHdrRHAyUDdhQVJlMHJkZFhqNVpHRmtySTNEejZGZFU0VlZURDZlcUU3dGowbGlGdnl3M2VBUW5UVFd2OEtGdm85clRycUFhWklHN3JTUjZPdGR1dUtwT3VhcTYzVWJqS0paNm1jR0kxUW5CQUotVUk?oc=5)
 - **2026-09-15** — MarketBeat — [California State Teachers Retirement System Acquires 624 Shares of Reinsurance Group of America, Incorporated $RGA](https://news.google.com/rss/articles/CBMiigJBVV95cUxNRENDRTUyZ1hLS3NnRjJGRXhycjVEeVpwVkI2RFVZc0ZtWVdraTlFVE1fWktieHQtc1ZhOTJMV0MtVVVWUUx2WHFwaThOelZVTkliMDZnYUZRVWJkdU9IYzlVeEMtdVpLUXNkV1NYcVhuVzBCSm1TWDNTLWtkUnhmVy12NVZ0NFVHN1QzTGY0NGhtQjhqeHJFRGJTNzJ6dDlWSk8xT0lNdkZoOUNpUW5aR3BNeU5sVFVmeDl4V1dVeldveXBleXRoclZQUjBveEdEZUhkeVNjVFByR2ZndzlVTnlOZFdfVXJTcVllaFpWMWNEZUdNN0dxbzU3b1BjclZ0bS1JMEp2cU1Pdw?oc=5)

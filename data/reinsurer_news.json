@@ -1,5 +1,5 @@
 {
-  "updated": "2026-09-22T11:44:20Z",
+  "updated": "2026-09-22T17:05:28Z",
   "lookback_days": 14,
   "feeds": [
     {
@@ -101,7 +101,7 @@
     {
       "name": "Google News: Wilton Re",
       "ok": true,
-      "count": 0,
+      "count": 1,
       "error": null
     },
     {
@@ -115,10 +115,10 @@
     {
       "id": "86b19d684ede",
       "title": "Reinsurance Group of America (RGA): Buy, Sell, or Hold Post Q2 Earnings?",
-      "link": "https://news.google.com/rss/articles/CBMixgFBVV95cUxNVFJPaWJPeExtVUl1MGs5TXVhU2NhM2ZpT2VtcWx6alpnX0JMNlhzTWo4andGRmFaeTgxemtXN3NTM2t1c3YyeE1HSllrQTRJWU5aWks4Tkd5QTlxSHRxb1VtX3VkalpFdG9SZDBlM2UwWlN2TG43TDVyVWFNMTJ6V0R5MGJtX3QzazNFS2M0bHNQeEZOb0pqUFlaS2g2cXZCLWU5bUxNOERiRlJjc1lvOVJLMHhqT3lLUFFvZnlacmN2X2tlMUE?oc=5",
-      "source": "TradingView",
+      "link": "https://news.google.com/rss/articles/CBMinwFBVV95cUxQY1NXZTRZWUVMaWFnM0tNbXJMOFpNUHJEOGNxR05DOHdTMzB5U28ycnM3RDFkOC1qSnJ6UmdtejJUb2lldjFQS290UE9WNWdOTGgwQUczWnAySUQxZG5rSVRhbGVpYjFqUzUxVFlWdlVqTDV3RnRUVFhGeWpjUE1xa2RNNjVaS2xrZW96UUtXenh5YUNqbWdLWjgzZUdqYkE?oc=5",
+      "source": "Yahoo Finance",
       "feed": "Google News: RGA",
-      "date": "2026-09-22T04:06:00Z",
+      "date": "2026-09-22T12:37:46Z",
       "summary": "",
       "companies": [
         "RGA"
@@ -212,7 +212,7 @@
       "id": "a992038e6b80",
       "title": "Aspida Holdings welcomes Sarfatti as Chief Risk Officer",
       "link": "https://news.google.com/rss/articles/CBMijgFBVV95cUxPaTZwXzUzNmRxS29Dcm45VVBwaHJveHRCV3pOVVdLQV9ZekM1dXFYdjZYWFd6c2hQMWxWX3l5YVR2VUJqZFhDMXgyX2JGSU1aNGdCUDB1M1ZaTGJfTTBpRXB5c2d4c2pmM0ZFU3IwOGNuR21STWJyRy1FNTREdW8wYlIzTTB2UnJIb3BhMld3?oc=5",
-      "source": "reinsurancene.ws",
+      "source": "Reinsurance News",
       "feed": "Google News: Aspida",
       "date": "2026-09-17T05:02:15Z",
       "summary": "",
