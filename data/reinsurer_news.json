@@ -1,5 +1,5 @@
 {
-  "updated": "2026-09-22T17:05:28Z",
+  "updated": "2026-09-22T21:25:03Z",
   "lookback_days": 14,
   "feeds": [
     {
@@ -35,7 +35,7 @@
     {
       "name": "Google News: Global Atlantic",
       "ok": true,
-      "count": 7,
+      "count": 8,
       "error": null
     },
     {
@@ -89,7 +89,7 @@
     {
       "name": "Google News: Talcott",
       "ok": true,
-      "count": 4,
+      "count": 6,
       "error": null
     },
     {
@@ -115,10 +115,10 @@
     {
       "id": "86b19d684ede",
       "title": "Reinsurance Group of America (RGA): Buy, Sell, or Hold Post Q2 Earnings?",
-      "link": "https://news.google.com/rss/articles/CBMinwFBVV95cUxQY1NXZTRZWUVMaWFnM0tNbXJMOFpNUHJEOGNxR05DOHdTMzB5U28ycnM3RDFkOC1qSnJ6UmdtejJUb2lldjFQS290UE9WNWdOTGgwQUczWnAySUQxZG5rSVRhbGVpYjFqUzUxVFlWdlVqTDV3RnRUVFhGeWpjUE1xa2RNNjVaS2xrZW96UUtXenh5YUNqbWdLWjgzZUdqYkE?oc=5",
-      "source": "Yahoo Finance",
+      "link": "https://news.google.com/rss/articles/CBMixwFBVV95cUxOM1BtVnNoUU50QkhXX2gyWllvRUJQa0RMOERwck1Uc2RIRUxhYkF3UEdvT2lwcWFZNVU1cHg0Wk12T3k3d3Z3YXROOXR4Rl9oeDB0aW5MR1Y4OGg3WU9lRlpFdi1SX2dlb1o4Q2cyTUxmMDZXeHVlSGd4M09WQVZDMEFHTHhhTlVLSHBiZUo1MDZ1N3I5VXRSeWpmal9jQjVPX2dPZ21tZkl3VUd4OHFFZVdzNTNHbXBFZm5TZ3JxT2FuMFEwV1lF?oc=5",
+      "source": "FinancialContent",
       "feed": "Google News: RGA",
-      "date": "2026-09-22T12:37:46Z",
+      "date": "2026-09-22T04:06:00Z",
       "summary": "",
       "companies": [
         "RGA"
@@ -140,7 +140,7 @@
       "id": "dc755937c783",
       "title": "RGA Expands Growth Runway Through Financial Solutions & Longevity",
       "link": "https://news.google.com/rss/articles/CBMiuwFBVV95cUxPMFdSSGJGZjNlREVWeDlyaDNSYmE3eGtaT24xVnN3cENFYmdvUEJiajZGX2Z5SENaZHdVc0ZGc2t4UklhcDdlbTZOSUt1ZTRocEwtZk9Sd2NHZHdGRUpNaUNmekkyenlkYm9paEhZb0tMTHoyb2pOYzNFNTdnelZCSU9QdjJoWDY1MzlZNVdpMmpMSnptWWlNbEM4b29XS1JPc2JNR1FrSmE3RHFzUXZfaU9OMXNLSzBZTlVz?oc=5",
-      "source": "TradingView",
+      "source": "tradingview.com",
       "feed": "Google News: RGA",
       "date": "2026-09-21T16:32:00Z",
       "summary": "",

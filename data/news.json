@@ -1,5 +1,5 @@
 {
-  "updated": "2026-09-22T17:05:26Z",
+  "updated": "2026-09-22T21:25:01Z",
   "topics": [
     "Insurance AM",
     "Private Credit",
@@ -10,7 +10,7 @@
     {
       "id": "750c575e5dfb",
       "title": "U.S. 10-Year Yield Cools After Topping 5%, German Bund Yield Hits 15-Year High",
-      "source": "wsj.com",
+      "source": "WSJ",
       "date": "2026-09-22T15:34:36Z",
       "topic": "Rates & Macro",
       "summary": "",
@@ -208,6 +208,16 @@
       "isNew": false
     },
     {
+      "id": "c81dca1a3458",
+      "title": "BOJ lifts rates to 31-year high, pivots towards preemptive inflation fight",
+      "source": "reuters.com",
+      "date": "2026-09-17T22:06:51Z",
+      "topic": "Rates & Macro",
+      "summary": "",
+      "link": "https://news.google.com/rss/articles/CBMipgFBVV95cUxON2RfLXdWN0d6WEpRd3JFZ09UTGszUGZWQ0FKUnkzT2VCRE1jUmxMLXg4QlNqdERTc1hqaHRUY3lNNHRLZVRzbWJLQzg1bEdkRjl4eGZKRXVrTWoyUVBhVFRWT1RkV0F4azdlaVVKSWtaZXJfbnJEOThMVW5STEZZVDlWUV9UX25TMUkyanlKMlZSY2J4bHcyV3k2NGQ4UWxOdE5lNG9n?oc=5",
+      "isNew": false
+    },
+    {
       "id": "6cdff851c6e5",
       "title": "Who\u2019s Bankrolling Non-QM?",
       "source": "National Mortgage Professional",
@@ -228,16 +238,6 @@
       "isNew": false
     },
     {
-      "id": "bb5b5b5c92c2",
-      "title": "Why the Bank of England Didn\u2019t Follow the Fed in Raising Interest Rates",
-      "source": "wsj.com",
-      "date": "2026-09-17T16:29:00Z",
-      "topic": "Rates & Macro",
-      "summary": "",
-      "link": "https://news.google.com/rss/articles/CBMiwAFBVV95cUxQUHFTTGwzMjhlWGxWVjNMWDhmTnhicmVwazdvSDgzRU00SjkxR3ZVLXJzc0hEd1dBOWVkOFJEX1hQVUl2VHdVZk5sdjF5Qnk2VVBjd3pqX1hlNDRxOEIyZG91VFVoT0l2bng0VFVfV0g5dXNmaTBVNGwzaGtiaXJIemNaYkZMTmc3aHJGbW9LVm9LNjRRZy05T0R4RDlqNE5DOG5fNEpGeEZ6eGpoNEQwbXV3OUJQN3dpSVpSRXdsc24?oc=5",
-      "isNew": false
-    },
-    {
       "id": "858c4f218a81",
       "title": "3 Life Insurers to Watch as Annuity Sales Hit First-Half Record Highs",
       "source": "Eastern Progress",
@@ -248,9 +248,19 @@
       "isNew": false
     },
     {
+      "id": "bb5b5b5c92c2",
+      "title": "Why the Bank of England Didn\u2019t Follow the Fed in Raising Interest Rates",
+      "source": "WSJ",
+      "date": "2026-09-17T15:33:43Z",
+      "topic": "Rates & Macro",
+      "summary": "",
+      "link": "https://news.google.com/rss/articles/CBMiwAFBVV95cUxQUHFTTGwzMjhlWGxWVjNMWDhmTnhicmVwazdvSDgzRU00SjkxR3ZVLXJzc0hEd1dBOWVkOFJEX1hQVUl2VHdVZk5sdjF5Qnk2VVBjd3pqX1hlNDRxOEIyZG91VFVoT0l2bng0VFVfV0g5dXNmaTBVNGwzaGtiaXJIemNaYkZMTmc3aHJGbW9LVm9LNjRRZy05T0R4RDlqNE5DOG5fNEpGeEZ6eGpoNEQwbXV3OUJQN3dpSVpSRXdsc24?oc=5",
+      "isNew": false
+    },
+    {
       "id": "fefcacde8a40",
       "title": "Property reinsurance investing offers more manageable tail risk than perceived: Agecroft",
-      "source": "Artemis.bm",
+      "source": "artemis.bm",
       "date": "2026-09-17T08:02:07Z",
       "topic": "Insurance AM",
       "summary": "",
@@ -295,16 +305,6 @@
       "topic": "Rates & Macro",
       "summary": "",
       "link": "https://news.google.com/rss/articles/CBMihwFBVV95cUxPeGxPU095Y1JPU3hiRjc1UkN3OWtqazMyNVkySkliRHJtZEtubjRqaTZDa09US1VsaGpPVTJ6bGd5Um5la3AxT2luZXRGekMzQ2s1Z1VzcXdLUmQ4TGc5eUJDaUs5NW9PUTBJeHVLcy1jWUNGaXlJWGVlWVJUU0hRYktXWW5NckXSAYwBQVVfeXFMTm5vME9DbHJOTGVXdjh6blVJMEpLc1h3TzdDc0xRTzFVLTJ1cl9WcGw2cU91YlRnZEpRMUF6TE5mTWFuYnhuX2xLNDJpS19Ta1VGeklxMXk5MTE1bE9rR1NSN2JvbXVwRS1xbl9qbHg5TkJTb3hSLXA0UGFnZHZOakFfTUdkQXZ3c01fbTU?oc=5",
-      "isNew": false
-    },
-    {
-      "id": "d9a75696e235",
-      "title": "Bond market woes likely a factor for Fed, but intervention seen as unlikely",
-      "source": "Reuters",
-      "date": "2026-09-16T18:23:33Z",
-      "topic": "Rates & Macro",
-      "summary": "",
-      "link": "https://news.google.com/rss/articles/CBMiqgFBVV95cUxNWHQzSC11Z3EtOUFVMG9sQnYwOHhnZkJGM2VoVWtFNWp1Y0ZlM2lIMEhoSnkzaExSQlZ4SzVFRkk0aHR3S0NUWC1ZdWQ0MXdJNmxoYWdxdGJJcmtDWENDa0JvNE9fQjFCTFhqTVZZR0NuQmNDNE03dHVEcUVmZDdpaUhXUTFWdzdmeXJUVkxGdThDaG8wNGRWSXl3V09DZVNDN1BzbllrN0tSZw?oc=5",
       "isNew": false
     }
   ]
