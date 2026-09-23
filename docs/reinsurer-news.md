@@ -1,12 +1,27 @@
 # Reinsurer News Monitor
 
 Bermuda life & annuity watchlist — last 14 days — 20 items
-Generated Tue 22 Sep 2026, 18:25 ADT
+Generated Wed 23 Sep 2026, 01:51 ADT
 
 ## Feed status
 
 - ✅ **Artemis.bm** — 10 items
-- ✅ **Google News (16 of 16 companies)** — 41 items
+- ❌ **Google News: Aspida** — failed: HTTPError: HTTP Error 503: Service Unavailable
+- ❌ **Google News: Athene** — failed: HTTPError: HTTP Error 503: Service Unavailable
+- ❌ **Google News: Catalina** — failed: HTTPError: HTTP Error 503: Service Unavailable
+- ❌ **Google News: Fortitude Re** — failed: HTTPError: HTTP Error 503: Service Unavailable
+- ❌ **Google News: Global Atlantic** — failed: HTTPError: HTTP Error 503: Service Unavailable
+- ❌ **Google News: Kuvare** — failed: HTTPError: HTTP Error 503: Service Unavailable
+- ❌ **Google News: Martello Re** — failed: HTTPError: HTTP Error 503: Service Unavailable
+- ❌ **Google News: Monument Re** — failed: HTTPError: HTTP Error 503: Service Unavailable
+- ❌ **Google News: Prismic Re** — failed: HTTPError: HTTP Error 503: Service Unavailable
+- ❌ **Google News: RGA** — failed: HTTPError: HTTP Error 503: Service Unavailable
+- ❌ **Google News: Resolution Re** — failed: HTTPError: HTTP Error 503: Service Unavailable
+- ❌ **Google News: Sagicor** — failed: HTTPError: HTTP Error 503: Service Unavailable
+- ❌ **Google News: Somerset Re** — failed: HTTPError: HTTP Error 503: Service Unavailable
+- ❌ **Google News: Talcott** — failed: HTTPError: HTTP Error 503: Service Unavailable
+- ❌ **Google News: Venerable** — failed: HTTPError: HTTP Error 503: Service Unavailable
+- ❌ **Google News: Wilton Re** — failed: HTTPError: HTTP Error 503: Service Unavailable
 - ❌ **Reinsurance News** — failed: HTTPError: HTTP Error 403: Forbidden
 
 ## Athene
