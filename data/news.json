@@ -1,5 +1,5 @@
 {
-  "updated": "2026-09-23T04:51:19Z",
+  "updated": "2026-09-23T11:43:22Z",
   "topics": [
     "Insurance AM",
     "Private Credit",
@@ -7,6 +7,16 @@
     "Structured Credit"
   ],
   "items": [
+    {
+      "id": "435f7b0303b9",
+      "title": "Aegon fund taps insurance boom in credit risk transfer",
+      "source": "Structured Credit Investor",
+      "date": "2026-09-23T11:22:29Z",
+      "topic": "Insurance AM",
+      "summary": "",
+      "link": "https://news.google.com/rss/articles/CBMixwFBVV95cUxPeTNDRGRxMVR3Yi0tV0dRV1BfYVkxNFVoZmowRGQ3Z1VpNEJ6VWE3QWZRM2gtd1lwX1FJdGUtay1LUExoOEw0aUlGUHFTUEZDZWQ5TUUtQlpRTzdrcG9pc1N6QlE1SUpMQnBURF9mQ0c4RkpqZEZJY1VwVzB3ZUV1NTFSbkM4YjZrbmlpNWZkTWRrRk1nLTEwSzhyLUJHMlZZdkpiYVRTaGdZRndEaU04YzJ5TDRYa2VGQ2VUNmJ0NFg1RTBkNFBF?oc=5",
+      "isNew": false
+    },
     {
       "id": "750c575e5dfb",
       "title": "U.S. 10-Year Yield Cools After Topping 5%, German Bund Yield Hits 15-Year High",
@@ -188,6 +198,16 @@
       "isNew": false
     },
     {
+      "id": "adad130a6a68",
+      "title": "Japan raises interest rates to 31-year high to curb impact of rising prices | Bank of Japan",
+      "source": "The Guardian",
+      "date": "2026-09-18T07:14:00Z",
+      "topic": "Rates & Macro",
+      "summary": "",
+      "link": "https://news.google.com/rss/articles/CBMiqgFBVV95cUxNOVhza1NzR202aG1nOTNQMGFmN1ExZGgxb3NfaWZGWTRaUi11blRFaHZaazBDZ2k4MVR6ckpzSi1wa1QzQjNTeTRuQkRYOXZoUzEyaWt4YVJZczdtaGRTNnZpWHNxWXlmTndSaU50bjhtSG8yMVhSb0xyZGpGQldpUDdfQjNQSUU5ZVFUNVlUemU3TXQ5a3RmbmZuSWZFX3dYcmxRNzhVZDVudw?oc=5",
+      "isNew": false
+    },
+    {
       "id": "a54844c35e38",
       "title": "How money moved across Mark Walter\u2019s empire",
       "source": "Financial Times",
@@ -238,6 +258,16 @@
       "isNew": false
     },
     {
+      "id": "bb5b5b5c92c2",
+      "title": "Why the Bank of England Didn\u2019t Follow the Fed in Raising Interest Rates",
+      "source": "WSJ",
+      "date": "2026-09-17T16:29:00Z",
+      "topic": "Rates & Macro",
+      "summary": "",
+      "link": "https://news.google.com/rss/articles/CBMiwAFBVV95cUxQUHFTTGwzMjhlWGxWVjNMWDhmTnhicmVwazdvSDgzRU00SjkxR3ZVLXJzc0hEd1dBOWVkOFJEX1hQVUl2VHdVZk5sdjF5Qnk2VVBjd3pqX1hlNDRxOEIyZG91VFVoT0l2bng0VFVfV0g5dXNmaTBVNGwzaGtiaXJIemNaYkZMTmc3aHJGbW9LVm9LNjRRZy05T0R4RDlqNE5DOG5fNEpGeEZ6eGpoNEQwbXV3OUJQN3dpSVpSRXdsc24?oc=5",
+      "isNew": false
+    },
+    {
       "id": "858c4f218a81",
       "title": "3 Life Insurers to Watch as Annuity Sales Hit First-Half Record Highs",
       "source": "Eastern Progress",
@@ -248,19 +278,9 @@
       "isNew": false
     },
     {
-      "id": "bb5b5b5c92c2",
-      "title": "Why the Bank of England Didn\u2019t Follow the Fed in Raising Interest Rates",
-      "source": "WSJ",
-      "date": "2026-09-17T15:33:43Z",
-      "topic": "Rates & Macro",
-      "summary": "",
-      "link": "https://news.google.com/rss/articles/CBMiwAFBVV95cUxQUHFTTGwzMjhlWGxWVjNMWDhmTnhicmVwazdvSDgzRU00SjkxR3ZVLXJzc0hEd1dBOWVkOFJEX1hQVUl2VHdVZk5sdjF5Qnk2VVBjd3pqX1hlNDRxOEIyZG91VFVoT0l2bng0VFVfV0g5dXNmaTBVNGwzaGtiaXJIemNaYkZMTmc3aHJGbW9LVm9LNjRRZy05T0R4RDlqNE5DOG5fNEpGeEZ6eGpoNEQwbXV3OUJQN3dpSVpSRXdsc24?oc=5",
-      "isNew": false
-    },
-    {
       "id": "fefcacde8a40",
       "title": "Property reinsurance investing offers more manageable tail risk than perceived: Agecroft",
-      "source": "artemis.bm",
+      "source": "Artemis.bm",
       "date": "2026-09-17T08:02:07Z",
       "topic": "Insurance AM",
       "summary": "",
@@ -274,7 +294,7 @@
       "date": "2026-09-17T07:00:00Z",
       "topic": "Structured Credit",
       "summary": "",
-      "link": "https://news.google.com/rss/articles/CBMiuAFBVV95cUxNSUprRkJtNWtLZkhsa19Lb1gzaGt4emdSUUF1QVIwbzNGZ2dLM09NYlV4em9rMkZaYVY2Q2x1THFWSmxvaXYyd1NiazZtM1hFRUJRS1dwLUliUXZEZU1mVC12QXRYVEVGeXNfYnRYb0RtYUt4dlN4SF9qcm0zQzdqZ2h6dFRDQmxwN2xlY3dLS2JWdW9sNVkyaFQxX0FQLUp5SHdMWkVvMWFGQVlDTE5MVmdyRWRzR0hq?oc=5",
+      "link": "https://news.google.com/rss/articles/CBMisgFBVV95cUxNQTlERHVEQ0k0dnBGY1pqX1F6X0JCU0ZWYU12aXVxRUlaRTgtTUJRRjVfczBEUFdXZ3lFUGRBUGprNE0xYVpsTDVUSGt4TGxYZzE2N05ZbmFFbDE3dHRiN2oyZy1hRURIVmtHai02aTl2eHRZMWF0S1hEUkFWWlNYR04zNmRCa21pWmxGU0gzU083TV9mRGRVbmRGV1k4d01zR1pVeElLeVNCX3F1b0Nwc1dn?oc=5",
       "isNew": false
     },
     {
@@ -285,26 +305,6 @@
       "topic": "Rates & Macro",
       "summary": "",
       "link": "https://news.google.com/rss/articles/CBMinAFBVV95cUxPWUFWcnVnUGhVMW5NM08zODRHaU1CNTJsMUEyRWprSW9zM2d5YXJVdlcwYmpEMXpMTzZxQnZwZDhXX3VMOHlaZzk0cTlKV0owWFJkTUJYdFRHTkxfeU1LTHBxNTlwYUlqOGtuRDhMWUtVSjR3eElwRnpYQ0pSMWRaSWo3cnRGajZEalZ5OUNzVUgtU2xlTjZCSUp1Mng?oc=5",
-      "isNew": false
-    },
-    {
-      "id": "92d71e838776",
-      "title": "Fed Rate Hike Squeezes an Already Stressed Private Credit Sector",
-      "source": "Global Finance Magazine",
-      "date": "2026-09-16T19:50:17Z",
-      "topic": "Private Credit",
-      "summary": "",
-      "link": "https://news.google.com/rss/articles/CBMinwFBVV95cUxQLTV0b1F2UFNfVW5wRDRIS3lqLUFnZmRYUHNVUzJiempqei1jZ0lQV2U5eTB2Z3RkeHJmYVVhUnBfb1RqYU9JSFNHVkotVHRkZmlLQ05CNHpqVTQtWEpoMEcwM2RuenllRjkxUDlsSU9jTXpGcEFfckxrTWt3Qk9YZEtTQmZvWTZNUVBpaFA3bm9ZRmR3SDJZeHVqUTlXNUE?oc=5",
-      "isNew": false
-    },
-    {
-      "id": "09f478719199",
-      "title": "What the Fed rate hike likely means for you",
-      "source": "PBS",
-      "date": "2026-09-16T19:08:08Z",
-      "topic": "Rates & Macro",
-      "summary": "",
-      "link": "https://news.google.com/rss/articles/CBMihwFBVV95cUxPeGxPU095Y1JPU3hiRjc1UkN3OWtqazMyNVkySkliRHJtZEtubjRqaTZDa09US1VsaGpPVTJ6bGd5Um5la3AxT2luZXRGekMzQ2s1Z1VzcXdLUmQ4TGc5eUJDaUs5NW9PUTBJeHVLcy1jWUNGaXlJWGVlWVJUU0hRYktXWW5NckXSAYwBQVVfeXFMTm5vME9DbHJOTGVXdjh6blVJMEpLc1h3TzdDc0xRTzFVLTJ1cl9WcGw2cU91YlRnZEpRMUF6TE5mTWFuYnhuX2xLNDJpS19Ta1VGeklxMXk5MTE1bE9rR1NSN2JvbXVwRS1xbl9qbHg5TkJTb3hSLXA0UGFnZHZOakFfTUdkQXZ3c01fbTU?oc=5",
       "isNew": false
     }
   ]
