@@ -2,11 +2,11 @@
   "date": "2026-09-23",
   "source": "FRED / TradingEconomics / Investing / Yahoo Finance",
   "gold": {
-    "spot": 4285.4,
+    "spot": 4287.2,
     "spot_date": "",
     "spot_source": "TradingEconomics",
     "unit": "USD/troy oz",
-    "prior_1d": 4319.5,
+    "prior_1d": 4322.7,
     "prior_1d_date": "2026-09-23",
     "prior_1m": 4694.5,
     "prior_1m_date": "2026-08-25",
@@ -18,7 +18,7 @@
     "prior_2y_date": "2024-09-24",
     "futures": {
       "3M": {
-        "price": 4320.0,
+        "price": 4322.7,
         "expiry": "Dec 2026",
         "contract": "GCZ26",
         "prior_1m": 4694.5,
@@ -35,7 +35,7 @@
         "prior_2y_contract": "GCZ24"
       },
       "6M": {
-        "price": 4405.2,
+        "price": 4400.4,
         "expiry": "Apr 2027",
         "contract": "GCJ27",
         "prior_1m": 4731.5,
@@ -88,12 +88,12 @@
     }
   },
   "wti": {
-    "spot": 107.02,
-    "spot_date": "2026-09-15",
+    "spot": 96.41,
+    "spot_date": "2026-09-22",
     "spot_source": "FRED",
     "unit": "USD/barrel",
-    "prior_1d": 91.49,
-    "prior_1d_date": "2026-09-23",
+    "prior_1d": 96.41,
+    "prior_1d_date": "2026-09-22",
     "prior_1m": 86.34,
     "prior_1m_date": "2026-08-24",
     "prior_3m": 71.42,
@@ -104,7 +104,7 @@
     "prior_2y_date": "2024-09-23",
     "futures": {
       "3M": {
-        "price": 89.06,
+        "price": 89.83,
         "expiry": "Dec 2026",
         "contract": "CLZ26",
         "prior_1m": 80.88,
@@ -121,7 +121,7 @@
         "prior_2y_contract": "CLZ24"
       },
       "6M": {
-        "price": 82.79,
+        "price": 83.18,
         "expiry": "Mar 2027",
         "contract": "CLH27",
         "prior_1m": 76.35,
@@ -138,7 +138,7 @@
         "prior_2y_contract": "CLH25"
       },
       "12M": {
-        "price": 75.5,
+        "price": 75.61,
         "expiry": "Sep 2027",
         "contract": "CLU27",
         "prior_1m": 72.16,
@@ -174,12 +174,12 @@
     }
   },
   "brent": {
-    "spot": 130.8,
-    "spot_date": "2026-09-15",
+    "spot": 114.89,
+    "spot_date": "2026-09-22",
     "spot_source": "FRED",
     "unit": "USD/barrel",
-    "prior_1d": 97.77,
-    "prior_1d_date": "2026-09-23",
+    "prior_1d": 114.89,
+    "prior_1d_date": "2026-09-22",
     "prior_1m": 92.71,
     "prior_1m_date": "2026-08-24",
     "prior_3m": 72.09,
@@ -190,7 +190,7 @@
     "prior_2y_date": "2024-09-23",
     "futures": {
       "3M": {
-        "price": 97.8,
+        "price": 98.36,
         "expiry": "Dec 2026",
         "contract": "BZZ26",
         "prior_1m": 87.27,
@@ -207,7 +207,7 @@
         "prior_2y_contract": "BZZ24"
       },
       "6M": {
-        "price": 89.81,
+        "price": 90.82,
         "expiry": "Mar 2027",
         "contract": "BZH27",
         "prior_1m": 82.05,
@@ -276,7 +276,7 @@
     "prior_2y_date": "2024-09-24",
     "futures": {
       "3M": {
-        "price": 96.21,
+        "price": 96.2,
         "expiry": "3M",
         "contract": "CIP derived",
         "prior_1m": null,
@@ -293,7 +293,7 @@
         "prior_2y_contract": "INRZ24"
       },
       "6M": {
-        "price": 96.63,
+        "price": 96.61,
         "expiry": "6M",
         "contract": "CIP derived",
         "prior_1m": null,
@@ -310,7 +310,7 @@
         "prior_2y_contract": "INRH25"
       },
       "12M": {
-        "price": 97.34,
+        "price": 97.29,
         "expiry": "12M",
         "contract": "CIP derived",
         "prior_1m": null,
@@ -327,7 +327,7 @@
         "prior_2y_contract": "INRU25"
       },
       "24M": {
-        "price": 98.63,
+        "price": 98.38,
         "expiry": "24M",
         "contract": "CIP derived",
         "prior_1m": null,
@@ -346,5 +346,5 @@
     }
   },
   "note": "Spot history comes from daily FRED series. Futures history is roll-aware by target date. USD/INR latest spot: FRED DEXINUS, then Yahoo INR=X / keyless FX APIs when FRED lags; forwards fall back to CIP derivation from India/UST curves when market quotes are unavailable.",
-  "_fetched": "2026-09-23T17:05:44.248195Z"
+  "_fetched": "2026-09-23T21:35:13.662397Z"
 }

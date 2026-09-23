@@ -1,5 +1,5 @@
 {
-  "updated": "2026-09-23T17:06:40Z",
+  "updated": "2026-09-23T21:36:09Z",
   "lookback_days": 14,
   "feeds": [
     {
@@ -29,7 +29,7 @@
     {
       "name": "Google News: Fortitude Re",
       "ok": true,
-      "count": 1,
+      "count": 0,
       "error": null
     },
     {
@@ -77,7 +77,7 @@
     {
       "name": "Google News: Sagicor",
       "ok": true,
-      "count": 2,
+      "count": 3,
       "error": null
     },
     {
@@ -106,12 +106,24 @@
     },
     {
       "name": "Reinsurance News",
-      "ok": true,
-      "count": 10,
-      "error": null
+      "ok": false,
+      "count": 0,
+      "error": "HTTPError: HTTP Error 403: Forbidden"
     }
   ],
   "items": [
+    {
+      "id": "cf58e7d43753",
+      "title": "Sagicor Financial Stock Slips as Debt Refinancing, Earnings Sensitivity and Market Volatility Pressure Sentiment",
+      "link": "https://news.google.com/rss/articles/CBMi3gFBVV95cUxPampXbEtkSGp6enBWN3hWRTZ1YzhVTUo4RjV0V1ZWZTg3VDB3VVVrMFR2ajNwbDZmQ1dBVXY1T3cwQi1xU0F4UEg3djdENlZiRFNUamtYeDBoM00zck5ISHJnT0otaEhFVGE3cFJvN0NIcjZfMnc3N1prNDBrR1hHUlZfdGNpNklyS0hSbUNPODloMG5UQndaVHlJYmdKQzY3d2pXVEtoS1JPdUlmRzdMTUFVV284TFh6c3dVbzVKblhJX3N4MDBYc1ZjYnU4YWxQQXNNSDA4dUFYSDJRa3c?oc=5",
+      "source": "kalkine.ca",
+      "feed": "Google News: Sagicor",
+      "date": "2026-09-23T18:13:00Z",
+      "summary": "",
+      "companies": [
+        "Sagicor"
+      ]
+    },
     {
       "id": "8c3300c005c4",
       "title": "Sagicor prices $250M note offering to repay debt",
@@ -125,24 +137,24 @@
       ]
     },
     {
-      "id": "64bdca379950",
-      "title": "Reinsurance Group of America, Incorporated (RGA) Latest Stock News & Headlines",
-      "link": "https://news.google.com/rss/articles/CBMiU0FVX3lxTFBFaS1XRDFLbm04T3pyVE8tU2ZiWTYwU3hFRXE2bEFTVURWdGVnUkRBdVhjTEJ5SDlZMG9ZY0xNMDRDbjJNSmlCZUpQdFlnSDB2dGRZ?oc=5",
-      "source": "Yahoo Finance",
+      "id": "9e0a35ca35eb",
+      "title": "Reinsurance Group of America, Incorporated (RGA) Stock Price, News, Quote & History",
+      "link": "https://news.google.com/rss/articles/CBMiUEFVX3lxTE1qamdrTE91Y3FMZFdXWkp6N2hGVlFXY08zdXdsUmlQM0tnMjg0V2o5UmRFTHVIdEdTbnlUSm9vem5BbHZ5MmE5LVpHZWJ3LXh5?oc=5",
+      "source": "Yahoo! Finance Canada",
       "feed": "Google News: RGA",
-      "date": "2026-09-22T15:56:02Z",
+      "date": "2026-09-22T21:26:56Z",
       "summary": "",
       "companies": [
         "RGA"
       ]
     },
     {
-      "id": "9e0a35ca35eb",
-      "title": "Reinsurance Group of America, Incorporated (RGA) stock price, news, quote and history",
-      "link": "https://news.google.com/rss/articles/CBMiUEFVX3lxTE0yXy1Yd0VxYl81bGtMT0p2WXQ5QnVqQlRXSTk4UUROZlVMeXJMbnJ2VXI2dlZQREFtVDZEa25ETVBmMkxOUTdJTTAzR04tT0RY?oc=5",
-      "source": "Yahoo Finance UK",
+      "id": "64bdca379950",
+      "title": "Reinsurance Group of America, Incorporated (RGA) latest stock news and headlines",
+      "link": "https://news.google.com/rss/articles/CBMiV0FVX3lxTE5CdHFXVjBaOUtpRG1uM296dngxVElqR0x6cFZ2NjVySDAyaUZSQkpGdmRxWkk2U3VNR3lFQUxxeTdvbmxWQ3lybXM4cmVvN3VIcGJHS3pWNA?oc=5",
+      "source": "Yahoo Finance Australia",
       "feed": "Google News: RGA",
-      "date": "2026-09-22T12:39:56Z",
+      "date": "2026-09-22T21:00:11Z",
       "summary": "",
       "companies": [
         "RGA"
@@ -151,8 +163,8 @@
     {
       "id": "86b19d684ede",
       "title": "Reinsurance Group of America (RGA): Buy, Sell, or Hold Post Q2 Earnings?",
-      "link": "https://news.google.com/rss/articles/CBMixwFBVV95cUxOM1BtVnNoUU50QkhXX2gyWllvRUJQa0RMOERwck1Uc2RIRUxhYkF3UEdvT2lwcWFZNVU1cHg0Wk12T3k3d3Z3YXROOXR4Rl9oeDB0aW5MR1Y4OGg3WU9lRlpFdi1SX2dlb1o4Q2cyTUxmMDZXeHVlSGd4M09WQVZDMEFHTHhhTlVLSHBiZUo1MDZ1N3I5VXRSeWpmal9jQjVPX2dPZ21tZkl3VUd4OHFFZVdzNTNHbXBFZm5TZ3JxT2FuMFEwV1lF?oc=5",
-      "source": "FinancialContent",
+      "link": "https://news.google.com/rss/articles/CBMi5wFBVV95cUxNZnd0OXYtVmxDWnhfSWFwc1dRa0Vpc2w3VHE2SVR2YXg3alA1OHRnNTZaYXJLLS1MdUNuRkk3NTJVZlIxN1pRUllrTjN5M1QxQnV6YUNnUzhPRkZ4YVM0Ymp0YmJjSnRpSXFSOWFfaklSY24zRFR2aFN0Q2xFX0xGOW9SRElYdklQcEhMOFJBTUFUNW55N0ZFMTBCaEhUMjB0QjZTQzJQUjBNejFnajh0TmZMOVBFaXR4UGJ2OHY0RV82WmUtQjlleWNfRkpQc3BIN1NfYm9iTGh4d1lfVWJWV1FGeEU3NW8?oc=5",
+      "source": "The Globe and Mail",
       "feed": "Google News: RGA",
       "date": "2026-09-22T04:06:00Z",
       "summary": "",
@@ -176,7 +188,7 @@
       "id": "dc755937c783",
       "title": "RGA Expands Growth Runway Through Financial Solutions & Longevity",
       "link": "https://news.google.com/rss/articles/CBMiuwFBVV95cUxPMFdSSGJGZjNlREVWeDlyaDNSYmE3eGtaT24xVnN3cENFYmdvUEJiajZGX2Z5SENaZHdVc0ZGc2t4UklhcDdlbTZOSUt1ZTRocEwtZk9Sd2NHZHdGRUpNaUNmekkyenlkYm9paEhZb0tMTHoyb2pOYzNFNTdnelZCSU9QdjJoWDY1MzlZNVdpMmpMSnptWWlNbEM4b29XS1JPc2JNR1FrSmE3RHFzUXZfaU9OMXNLSzBZTlVz?oc=5",
-      "source": "tradingview.com",
+      "source": "TradingView",
       "feed": "Google News: RGA",
       "date": "2026-09-21T16:32:00Z",
       "summary": "",
@@ -224,7 +236,7 @@
       "id": "032420a02f82",
       "title": "Athene settles eight-year legal battle with former director",
       "link": "https://news.google.com/rss/articles/CBMixgFBVV95cUxNTFc2VFFmVXFRWlR6RVFSb1M2US05M0pMa3FnMUNjQ3V5VlBVcUxhRDluWGxiRndHX1RZVFlCVlM5UHJDNjJDcGZJa1lmUHUyd2gtZVNXdkJMNEY0S3RmN0pXekotX3RwTDZBUWk1Umw2bGE5NXFXeldqZl9aVTF1S0dIaFpPcVlwNV9WQ0JWYXl0YmZncERTV0xkUDVobWRTa3g4XzdNNjFzY09NRGtIWUUwVlhuYV9Qd0ZpRG9OcHFsQ0VLcEE?oc=5",
-      "source": "Royal Gazette | Bermuda",
+      "source": "royalgazette.com",
       "feed": "Google News: Athene",
       "date": "2026-09-18T18:09:52Z",
       "summary": "",
@@ -237,7 +249,7 @@
       "title": "Former RGA leader takes helm at West Grove Re",
       "link": "https://news.google.com/rss/articles/CBMihwFBVV95cUxNck54Nm9NejlNOWdic09ueHdrRHAyUDdhQVJlMHJkZFhqNVpHRmtySTNEejZGZFU0VlZURDZlcUU3dGowbGlGdnl3M2VBUW5UVFd2OEtGdm85clRycUFhWklHN3JTUjZPdGR1dUtwT3VhcTYzVWJqS0paNm1jR0kxUW5CQUotVUk?oc=5",
       "source": "Intelligent Insurer",
-      "feed": "Google News: RGA",
+      "feed": "Google News: Talcott",
       "date": "2026-09-18T14:34:10Z",
       "summary": "",
       "companies": [
@@ -296,7 +308,7 @@
       "id": "3cf38ff30348",
       "title": "Is Reinsurance Group of America (RGA) Worth Its Price After 152% Gains?",
       "link": "https://news.google.com/rss/articles/CBMiogFBVV95cUxPTlB5YU9uSnhLeThqVGlzR0xJay1sMjdxRkozT1NxVjlMa1VoWXVkWlBTclFJVDdmVk13LW1mc2F6MVd0Rk1XSWQ3VXo2ODZBd2FxajV2T28xRXZydUw5NFRvOHFBZWwtbUZPQ2d6Ty1WSHpLbXJWcXRBOGZJVWxncmZDc3dyZVdEVy1aRTNzZ0hiY3Fnanphak41dHRjSlkwMGc?oc=5",
-      "source": "Yahoo Finance",
+      "source": "finance.yahoo.com",
       "feed": "Google News: RGA",
       "date": "2026-09-14T07:00:00Z",
       "summary": "",
@@ -344,7 +356,7 @@
       "id": "f1de125d0e6b",
       "title": "Are Investors Undervaluing Reinsurance Group of America (RGA) Right Now?",
       "link": "https://news.google.com/rss/articles/CBMiswFBVV95cUxNN2toSjhRdkd1b0dLcmJmUkxhNHdkb0dkMFRhY0VHeG96WXFvSlFSTFpfdUtuN3B0M3VCM2xydUU1emlSRGt0WUR0aUJ0cDRtTFhuODNvNjY4Q04wYjNGaDhmRmhfU3EtN0haRnZiX2tWNWkxOE45REdOUDV4U3pxQVhLazJ5UWI4Tk9TSTR1WE5ERS0tRFBWX2tfME1tQzRkUGlab21Rb1M2cDl1cm4yNFRUZw?oc=5",
-      "source": "Yahoo Finance",
+      "source": "finance.yahoo.com",
       "feed": "Google News: RGA",
       "date": "2026-09-11T07:00:00Z",
       "summary": "",

@@ -1,5 +1,5 @@
 {
-  "updated": "2026-09-23T17:06:37Z",
+  "updated": "2026-09-23T21:36:06Z",
   "topics": [
     "Insurance AM",
     "Private Credit",
@@ -11,7 +11,7 @@
       "id": "c10277ef889b",
       "title": "Abacus Global Management Closes $400 Million Life Insurance Securitization",
       "source": "citybiz",
-      "date": "2026-09-23T13:09:02Z",
+      "date": "2026-09-23T13:14:27Z",
       "topic": "Insurance AM",
       "summary": "",
       "link": "https://news.google.com/rss/articles/CBMisgFBVV95cUxQYW1EcmRQSFpRb096MjJSQ3hDTTdSYnl0U3hFekhqbVFOT3U4V0JZcElnTWF5TWdZNlFEYlpmNXpEcXlBTVJDN1hoZkllZHlPX0tQNWtaM1pQVGFfZVlCRmFqSU9hdzhmWi1pZktzZUt4R3NHOUZFVEZGeW1vUDV6b3F1UTNjZ25aaWczZmZxNHR2b0czZkN6MW1nMjlXTmFRTU1vOWFDa3F5cExGLURjclRB?oc=5",
@@ -25,6 +25,26 @@
       "topic": "Insurance AM",
       "summary": "",
       "link": "https://news.google.com/rss/articles/CBMixwFBVV95cUxPeTNDRGRxMVR3Yi0tV0dRV1BfYVkxNFVoZmowRGQ3Z1VpNEJ6VWE3QWZRM2gtd1lwX1FJdGUtay1LUExoOEw0aUlGUHFTUEZDZWQ5TUUtQlpRTzdrcG9pc1N6QlE1SUpMQnBURF9mQ0c4RkpqZEZJY1VwVzB3ZUV1NTFSbkM4YjZrbmlpNWZkTWRrRk1nLTEwSzhyLUJHMlZZdkpiYVRTaGdZRndEaU04YzJ5TDRYa2VGQ2VUNmJ0NFg1RTBkNFBF?oc=5",
+      "isNew": false
+    },
+    {
+      "id": "76c502fcb138",
+      "title": "Solvency II: Expanding the investment universe",
+      "source": "BNY",
+      "date": "2026-09-23T10:42:58Z",
+      "topic": "Structured Credit",
+      "summary": "",
+      "link": "https://news.google.com/rss/articles/CBMivgFBVV95cUxOTHlzSnNXWjYtYWRVWjFoNzAwT0hwMzZfa3JPRGo3OXl3Tk8xMHMzQlJwYnFXNWFJUjBmZC14bndIWV9PV1NYQzk0eThFeDY1WlQ0c3l5cG93T1ZrTjNWaGF3SHJIVnNhNXRWd3NrS1RxR2NkNndhMVdqN3J1WUItU29fUlVOTUpnYjZObXUyaXBuTzJ1UXZqekJ4eFd4cXFqWnZJRFF4Ui11ZlYtai1VaFdzWW4tUVdZSHFSeE5n?oc=5",
+      "isNew": false
+    },
+    {
+      "id": "6ad7a4a30e2e",
+      "title": "Implications of rising bond yields",
+      "source": "Vanguard Corporate",
+      "date": "2026-09-23T04:00:00Z",
+      "topic": "Rates & Macro",
+      "summary": "",
+      "link": "https://news.google.com/rss/articles/CBMirAFBVV95cUxQSXo5d0VnU1A4OXRGQlNjM3hjR01hV21aX0VCb29oU3FadkdiRmtCdllON0VETHdnck9RLU42YTJxaHpoMEdSU29mNl9DUWVETG1YZHR3VElJYTFPVzktNEJNSGNVWW45OGhjSzF2WUJBUzhkbFAxSEk2UV9rcEh3NGkwc0w3OE5OWmhtUjlHN3p4b2FPeEZkRDBxZkc5Vy1FUTJYdVBhNXZzejJD?oc=5",
       "isNew": false
     },
     {
@@ -60,7 +80,7 @@
     {
       "id": "5014267dafb8",
       "title": "Convergence of Asset Management, Insurance Capital and Strategic M&A: Key Takeaways From the Skadden-PJT Partners Panel Event",
-      "source": "JD Supra",
+      "source": "jdsupra.com",
       "date": "2026-09-21T20:45:14Z",
       "topic": "Insurance AM",
       "summary": "",
@@ -70,7 +90,7 @@
     {
       "id": "09f6c1ca39f4",
       "title": "ELTIF 2.0 explained: EU private markets for retail",
-      "source": "rankiapro.com",
+      "source": "RankiaPro",
       "date": "2026-09-21T17:08:03Z",
       "topic": "Structured Credit",
       "summary": "",
@@ -100,7 +120,7 @@
     {
       "id": "a0ccc93645ac",
       "title": "Hanwha Finance expands financial cooperation with Abu Dhabi",
-      "source": "hanwha.com",
+      "source": "Hanwha Group",
       "date": "2026-09-21T06:54:50Z",
       "topic": "Insurance AM",
       "summary": "",
@@ -110,8 +130,8 @@
     {
       "id": "d12532d85ad8",
       "title": "The Silver Lining in Soaring Interest Rates: The Economy Can Handle Them",
-      "source": "WSJ",
-      "date": "2026-09-20T15:18:00Z",
+      "source": "wsj.com",
+      "date": "2026-09-20T15:19:41Z",
       "topic": "Rates & Macro",
       "summary": "",
       "link": "https://news.google.com/rss/articles/CBMiwgFBVV95cUxQOFNjb3dWRURPbU9ZTXVqcG52dmZHUjBSQ0R5RlE3RkktMkgtZ00ycW5OQTdvajk1NnQyWkR5TTNBZkNzNXkwLUdIbl9EeWJHOGQzU3ZSNFRLTnktRkoyNnY0X05PdzBSOTMwTE10RkNucjBuOU9iUzM5T3RIU2s3OFB4eWViT3hDd0NsdjBtUmt6NUNFRm5oclBteTlDUk52TkxsQWNBcWhua0JMdjBGMkF0bnlHQmtqVmRQTV9wMEV0Zw?oc=5",
@@ -210,7 +230,7 @@
     {
       "id": "9c2fbc64ef29",
       "title": "Why Japan\u2019s markets flipped the usual script after central bank rate hike",
-      "source": "CNBC",
+      "source": "cnbc.com",
       "date": "2026-09-18T07:19:25Z",
       "topic": "Rates & Macro",
       "summary": "",
@@ -278,16 +298,6 @@
       "isNew": false
     },
     {
-      "id": "bb5b5b5c92c2",
-      "title": "Why the Bank of England Didn\u2019t Follow the Fed in Raising Interest Rates",
-      "source": "WSJ",
-      "date": "2026-09-17T16:29:00Z",
-      "topic": "Rates & Macro",
-      "summary": "",
-      "link": "https://news.google.com/rss/articles/CBMiwAFBVV95cUxQUHFTTGwzMjhlWGxWVjNMWDhmTnhicmVwazdvSDgzRU00SjkxR3ZVLXJzc0hEd1dBOWVkOFJEX1hQVUl2VHdVZk5sdjF5Qnk2VVBjd3pqX1hlNDRxOEIyZG91VFVoT0l2bng0VFVfV0g5dXNmaTBVNGwzaGtiaXJIemNaYkZMTmc3aHJGbW9LVm9LNjRRZy05T0R4RDlqNE5DOG5fNEpGeEZ6eGpoNEQwbXV3OUJQN3dpSVpSRXdsc24?oc=5",
-      "isNew": false
-    },
-    {
       "id": "858c4f218a81",
       "title": "3 Life Insurers to Watch as Annuity Sales Hit First-Half Record Highs",
       "source": "Eastern Progress",
@@ -295,16 +305,6 @@
       "topic": "Insurance AM",
       "summary": "",
       "link": "https://news.google.com/rss/articles/CBMi5gFBVV95cUxORC1GQmVsNnN3MkRrVlE1cFZJRlpyazdjRlZfbFhFb1BPdmhubDdFeGxEalQxTUZtOUVoSkJ4ZktDbWVHS0I1THJNQ19TRDlhSHpWLVY4Q2toaVUzSVRXQTNwd1kyMl9WMlpqWDUtQVVSalA1bzJDbi10YVJLaENFZ29YdkVTamM2SllvSnh6WEhZTEFQWnRnUUxZam11a0loUV9nOVBLSGpHNFlSOXVORkpfZVpqNTJDR3UyNDF6TG9CVVc2VDV3RS1VWnppODc1X3MzOW1SZmdZemhGSUxRczgzQ2Qwdw?oc=5",
-      "isNew": false
-    },
-    {
-      "id": "fefcacde8a40",
-      "title": "Property reinsurance investing offers more manageable tail risk than perceived: Agecroft",
-      "source": "Artemis.bm",
-      "date": "2026-09-17T08:02:07Z",
-      "topic": "Insurance AM",
-      "summary": "",
-      "link": "https://news.google.com/rss/articles/CBMitwFBVV95cUxQQm9nSWdxSnl0blVCZm82YlNGaEFxcU84ZHFIMDVWeGRlZUU2OEhYc0ZBVXByTVJwSTJFSG93X0JEd3ZfalFpLVRBVEhZbC1RQmZ0VEJRU0pJdDZpUlZuRFVWNjBXem5FbDktTFZYWWxfS3B0UUFndXJIQWVBdHVVNTYyamhfSXZ6MGc4MlFSZl9oVUtjTmNLMjB5SmJrZnVwbHJ4dDYzR3cyUkl6MjBZUWlBa3h4elk?oc=5",
       "isNew": false
     }
   ]
