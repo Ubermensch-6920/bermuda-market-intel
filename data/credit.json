@@ -1,5 +1,5 @@
 {
-  "date": "2026-09-21",
+  "date": "2026-09-22",
   "source": "FRED / ICE BofA Indices",
   "url": "https://fred.stlouisfed.org/release?rid=209",
   "status": "ok",
@@ -15,20 +15,20 @@
       "bucket": "IG",
       "source": "fred",
       "series_id": "BAMLC0A0CM",
-      "date": "2026-09-21",
-      "prior_date": "2026-09-18",
-      "age_days": 2
+      "date": "2026-09-22",
+      "prior_date": "2026-09-21",
+      "age_days": 1
     },
     "aaa": {
       "name": "US AAA",
-      "spread": 40,
-      "prior": 39,
+      "spread": 39,
+      "prior": 40,
       "bucket": "AAA",
       "source": "fred",
       "series_id": "BAMLC0A1CAAA",
-      "date": "2026-09-21",
-      "prior_date": "2026-09-18",
-      "age_days": 2
+      "date": "2026-09-22",
+      "prior_date": "2026-09-21",
+      "age_days": 1
     },
     "aa": {
       "name": "US AA",
@@ -37,9 +37,9 @@
       "bucket": "AA",
       "source": "fred",
       "series_id": "BAMLC0A2CAA",
-      "date": "2026-09-21",
-      "prior_date": "2026-09-18",
-      "age_days": 2
+      "date": "2026-09-22",
+      "prior_date": "2026-09-21",
+      "age_days": 1
     },
     "a": {
       "name": "US A",
@@ -48,64 +48,64 @@
       "bucket": "A",
       "source": "fred",
       "series_id": "BAMLC0A3CA",
-      "date": "2026-09-21",
-      "prior_date": "2026-09-18",
-      "age_days": 2
+      "date": "2026-09-22",
+      "prior_date": "2026-09-21",
+      "age_days": 1
     },
     "bbb": {
       "name": "US BBB",
       "spread": 95,
-      "prior": 94,
+      "prior": 95,
       "bucket": "BBB",
       "source": "fred",
       "series_id": "BAMLC0A4CBBB",
-      "date": "2026-09-21",
-      "prior_date": "2026-09-18",
-      "age_days": 2
+      "date": "2026-09-22",
+      "prior_date": "2026-09-21",
+      "age_days": 1
     },
     "hy": {
       "name": "US HY",
-      "spread": 266,
-      "prior": 268,
+      "spread": 268,
+      "prior": 266,
       "bucket": "HY",
       "source": "fred",
       "series_id": "BAMLH0A0HYM2",
-      "date": "2026-09-21",
-      "prior_date": "2026-09-18",
-      "age_days": 2
+      "date": "2026-09-22",
+      "prior_date": "2026-09-21",
+      "age_days": 1
     },
     "bb": {
       "name": "US BB",
-      "spread": 153,
-      "prior": 155,
+      "spread": 156,
+      "prior": 153,
       "bucket": "BB",
       "source": "fred",
       "series_id": "BAMLH0A1HYBB",
-      "date": "2026-09-21",
-      "prior_date": "2026-09-18",
-      "age_days": 2
+      "date": "2026-09-22",
+      "prior_date": "2026-09-21",
+      "age_days": 1
     },
     "b": {
       "name": "US B",
-      "spread": 270,
-      "prior": 273,
+      "spread": 271,
+      "prior": 270,
       "bucket": "B",
       "source": "fred",
       "series_id": "BAMLH0A2HYB",
-      "date": "2026-09-21",
-      "prior_date": "2026-09-18",
-      "age_days": 2
+      "date": "2026-09-22",
+      "prior_date": "2026-09-21",
+      "age_days": 1
     },
     "ccc": {
       "name": "US CCC+",
-      "spread": 1077,
-      "prior": 1083,
+      "spread": 1075,
+      "prior": 1077,
       "bucket": "CCC",
       "source": "fred",
       "series_id": "BAMLH0A3HYC",
-      "date": "2026-09-21",
-      "prior_date": "2026-09-18",
-      "age_days": 2
+      "date": "2026-09-22",
+      "prior_date": "2026-09-21",
+      "age_days": 1
     }
   },
   "quarter_history": [
@@ -175,5 +175,5 @@
     }
   ],
   "note": "ICE BofA option-adjusted spreads from FRED. Uses bounded CSV and graph API fallbacks over a recent window; cache is used only where FRED data is unavailable. Values are basis points.",
-  "_fetched": "2026-09-23T11:42:54.198010Z"
+  "_fetched": "2026-09-23T17:06:08.805052Z"
 }

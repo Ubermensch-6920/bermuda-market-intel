@@ -1,5 +1,5 @@
 {
-  "updated": "2026-09-23T11:43:24Z",
+  "updated": "2026-09-23T17:06:40Z",
   "lookback_days": 14,
   "feeds": [
     {
@@ -35,7 +35,7 @@
     {
       "name": "Google News: Global Atlantic",
       "ok": true,
-      "count": 8,
+      "count": 9,
       "error": null
     },
     {
@@ -89,7 +89,7 @@
     {
       "name": "Google News: Talcott",
       "ok": true,
-      "count": 6,
+      "count": 7,
       "error": null
     },
     {
@@ -106,9 +106,9 @@
     },
     {
       "name": "Reinsurance News",
-      "ok": false,
-      "count": 0,
-      "error": "HTTPError: HTTP Error 403: Forbidden"
+      "ok": true,
+      "count": 10,
+      "error": null
     }
   ],
   "items": [
@@ -126,11 +126,11 @@
     },
     {
       "id": "64bdca379950",
-      "title": "Reinsurance Group of America, Incorporated (RGA) latest stock news and headlines",
-      "link": "https://news.google.com/rss/articles/CBMiV0FVX3lxTE5CdHFXVjBaOUtpRG1uM296dngxVElqR0x6cFZ2NjVySDAyaUZSQkpGdmRxWkk2U3VNR3lFQUxxeTdvbmxWQ3lybXM4cmVvN3VIcGJHS3pWNA?oc=5",
-      "source": "Yahoo Finance Australia",
+      "title": "Reinsurance Group of America, Incorporated (RGA) Latest Stock News & Headlines",
+      "link": "https://news.google.com/rss/articles/CBMiU0FVX3lxTFBFaS1XRDFLbm04T3pyVE8tU2ZiWTYwU3hFRXE2bEFTVURWdGVnUkRBdVhjTEJ5SDlZMG9ZY0xNMDRDbjJNSmlCZUpQdFlnSDB2dGRZ?oc=5",
+      "source": "Yahoo Finance",
       "feed": "Google News: RGA",
-      "date": "2026-09-22T13:06:17Z",
+      "date": "2026-09-22T15:56:02Z",
       "summary": "",
       "companies": [
         "RGA"
@@ -138,11 +138,11 @@
     },
     {
       "id": "9e0a35ca35eb",
-      "title": "Reinsurance Group of America, Incorporated (RGA) Stock Price, News, Quote & History",
-      "link": "https://news.google.com/rss/articles/CBMiUEFVX3lxTE1qamdrTE91Y3FMZFdXWkp6N2hGVlFXY08zdXdsUmlQM0tnMjg0V2o5UmRFTHVIdEdTbnlUSm9vem5BbHZ5MmE5LVpHZWJ3LXh5?oc=5",
-      "source": "Yahoo! Finance Canada",
+      "title": "Reinsurance Group of America, Incorporated (RGA) stock price, news, quote and history",
+      "link": "https://news.google.com/rss/articles/CBMiUEFVX3lxTE0yXy1Yd0VxYl81bGtMT0p2WXQ5QnVqQlRXSTk4UUROZlVMeXJMbnJ2VXI2dlZQREFtVDZEa25ETVBmMkxOUTdJTTAzR04tT0RY?oc=5",
+      "source": "Yahoo Finance UK",
       "feed": "Google News: RGA",
-      "date": "2026-09-22T12:53:39Z",
+      "date": "2026-09-22T12:39:56Z",
       "summary": "",
       "companies": [
         "RGA"
@@ -176,7 +176,7 @@
       "id": "dc755937c783",
       "title": "RGA Expands Growth Runway Through Financial Solutions & Longevity",
       "link": "https://news.google.com/rss/articles/CBMiuwFBVV95cUxPMFdSSGJGZjNlREVWeDlyaDNSYmE3eGtaT24xVnN3cENFYmdvUEJiajZGX2Z5SENaZHdVc0ZGc2t4UklhcDdlbTZOSUt1ZTRocEwtZk9Sd2NHZHdGRUpNaUNmekkyenlkYm9paEhZb0tMTHoyb2pOYzNFNTdnelZCSU9QdjJoWDY1MzlZNVdpMmpMSnptWWlNbEM4b29XS1JPc2JNR1FrSmE3RHFzUXZfaU9OMXNLSzBZTlVz?oc=5",
-      "source": "TradingView",
+      "source": "tradingview.com",
       "feed": "Google News: RGA",
       "date": "2026-09-21T16:32:00Z",
       "summary": "",
@@ -237,7 +237,7 @@
       "title": "Former RGA leader takes helm at West Grove Re",
       "link": "https://news.google.com/rss/articles/CBMihwFBVV95cUxNck54Nm9NejlNOWdic09ueHdrRHAyUDdhQVJlMHJkZFhqNVpHRmtySTNEejZGZFU0VlZURDZlcUU3dGowbGlGdnl3M2VBUW5UVFd2OEtGdm85clRycUFhWklHN3JTUjZPdGR1dUtwT3VhcTYzVWJqS0paNm1jR0kxUW5CQUotVUk?oc=5",
       "source": "Intelligent Insurer",
-      "feed": "Google News: Talcott",
+      "feed": "Google News: RGA",
       "date": "2026-09-18T14:34:10Z",
       "summary": "",
       "companies": [

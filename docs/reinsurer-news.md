@@ -1,13 +1,13 @@
 # Reinsurer News Monitor
 
 Bermuda life & annuity watchlist — last 14 days — 21 items
-Generated Wed 23 Sep 2026, 08:43 ADT
+Generated Wed 23 Sep 2026, 14:06 ADT
 
 ## Feed status
 
 - ✅ **Artemis.bm** — 10 items
-- ✅ **Google News (16 of 16 companies)** — 45 items
-- ❌ **Reinsurance News** — failed: HTTPError: HTTP Error 403: Forbidden
+- ✅ **Google News (16 of 16 companies)** — 47 items
+- ✅ **Reinsurance News** — 10 items
 
 ## Athene
 
@@ -30,10 +30,10 @@ Generated Wed 23 Sep 2026, 08:43 ADT
 
 ## RGA
 
-- **2026-09-22** — Yahoo Finance Australia — [Reinsurance Group of America, Incorporated (RGA) latest stock news and headlines](https://news.google.com/rss/articles/CBMiV0FVX3lxTE5CdHFXVjBaOUtpRG1uM296dngxVElqR0x6cFZ2NjVySDAyaUZSQkpGdmRxWkk2U3VNR3lFQUxxeTdvbmxWQ3lybXM4cmVvN3VIcGJHS3pWNA?oc=5)
-- **2026-09-22** — Yahoo! Finance Canada — [Reinsurance Group of America, Incorporated (RGA) Stock Price, News, Quote & History](https://news.google.com/rss/articles/CBMiUEFVX3lxTE1qamdrTE91Y3FMZFdXWkp6N2hGVlFXY08zdXdsUmlQM0tnMjg0V2o5UmRFTHVIdEdTbnlUSm9vem5BbHZ5MmE5LVpHZWJ3LXh5?oc=5)
+- **2026-09-22** — Yahoo Finance — [Reinsurance Group of America, Incorporated (RGA) Latest Stock News & Headlines](https://news.google.com/rss/articles/CBMiU0FVX3lxTFBFaS1XRDFLbm04T3pyVE8tU2ZiWTYwU3hFRXE2bEFTVURWdGVnUkRBdVhjTEJ5SDlZMG9ZY0xNMDRDbjJNSmlCZUpQdFlnSDB2dGRZ?oc=5)
+- **2026-09-22** — Yahoo Finance UK — [Reinsurance Group of America, Incorporated (RGA) stock price, news, quote and history](https://news.google.com/rss/articles/CBMiUEFVX3lxTE0yXy1Yd0VxYl81bGtMT0p2WXQ5QnVqQlRXSTk4UUROZlVMeXJMbnJ2VXI2dlZQREFtVDZEa25ETVBmMkxOUTdJTTAzR04tT0RY?oc=5)
 - **2026-09-22** — FinancialContent — [Reinsurance Group of America (RGA): Buy, Sell, or Hold Post Q2 Earnings?](https://news.google.com/rss/articles/CBMixwFBVV95cUxOM1BtVnNoUU50QkhXX2gyWllvRUJQa0RMOERwck1Uc2RIRUxhYkF3UEdvT2lwcWFZNVU1cHg0Wk12T3k3d3Z3YXROOXR4Rl9oeDB0aW5MR1Y4OGg3WU9lRlpFdi1SX2dlb1o4Q2cyTUxmMDZXeHVlSGd4M09WQVZDMEFHTHhhTlVLSHBiZUo1MDZ1N3I5VXRSeWpmal9jQjVPX2dPZ21tZkl3VUd4OHFFZVdzNTNHbXBFZm5TZ3JxT2FuMFEwV1lF?oc=5)
-- **2026-09-21** — TradingView — [RGA Expands Growth Runway Through Financial Solutions & Longevity](https://news.google.com/rss/articles/CBMiuwFBVV95cUxPMFdSSGJGZjNlREVWeDlyaDNSYmE3eGtaT24xVnN3cENFYmdvUEJiajZGX2Z5SENaZHdVc0ZGc2t4UklhcDdlbTZOSUt1ZTRocEwtZk9Sd2NHZHdGRUpNaUNmekkyenlkYm9paEhZb0tMTHoyb2pOYzNFNTdnelZCSU9QdjJoWDY1MzlZNVdpMmpMSnptWWlNbEM4b29XS1JPc2JNR1FrSmE3RHFzUXZfaU9OMXNLSzBZTlVz?oc=5)
+- **2026-09-21** — tradingview.com — [RGA Expands Growth Runway Through Financial Solutions & Longevity](https://news.google.com/rss/articles/CBMiuwFBVV95cUxPMFdSSGJGZjNlREVWeDlyaDNSYmE3eGtaT24xVnN3cENFYmdvUEJiajZGX2Z5SENaZHdVc0ZGc2t4UklhcDdlbTZOSUt1ZTRocEwtZk9Sd2NHZHdGRUpNaUNmekkyenlkYm9paEhZb0tMTHoyb2pOYzNFNTdnelZCSU9QdjJoWDY1MzlZNVdpMmpMSnptWWlNbEM4b29XS1JPc2JNR1FrSmE3RHFzUXZfaU9OMXNLSzBZTlVz?oc=5)
 - **2026-09-18** — Intelligent Insurer — [Former RGA leader takes helm at West Grove Re](https://news.google.com/rss/articles/CBMihwFBVV95cUxNck54Nm9NejlNOWdic09ueHdrRHAyUDdhQVJlMHJkZFhqNVpHRmtySTNEejZGZFU0VlZURDZlcUU3dGowbGlGdnl3M2VBUW5UVFd2OEtGdm85clRycUFhWklHN3JTUjZPdGR1dUtwT3VhcTYzVWJqS0paNm1jR0kxUW5CQUotVUk?oc=5)
 - **2026-09-15** — MarketBeat — [California State Teachers Retirement System Acquires 624 Shares of Reinsurance Group of America, Incorporated $RGA](https://news.google.com/rss/articles/CBMiigJBVV95cUxNRENDRTUyZ1hLS3NnRjJGRXhycjVEeVpwVkI2RFVZc0ZtWVdraTlFVE1fWktieHQtc1ZhOTJMV0MtVVVWUUx2WHFwaThOelZVTkliMDZnYUZRVWJkdU9IYzlVeEMtdVpLUXNkV1NYcVhuVzBCSm1TWDNTLWtkUnhmVy12NVZ0NFVHN1QzTGY0NGhtQjhqeHJFRGJTNzJ6dDlWSk8xT0lNdkZoOUNpUW5aR3BNeU5sVFVmeDl4V1dVeldveXBleXRoclZQUjBveEdEZUhkeVNjVFByR2ZndzlVTnlOZFdfVXJTcVllaFpWMWNEZUdNN0dxbzU3b1BjclZ0bS1JMEp2cU1Pdw?oc=5)
 - **2026-09-14** — MarketBeat — [Corient Private Wealth LP Increases Stock Holdings in Reinsurance Group of America, Incorporated $RGA](https://news.google.com/rss/articles/CBMi8gFBVV95cUxQVjJ0M01Za1NrYTUwZ1Bvc09sa3JNVnAybU9LTjFlbGJaa0pBZFNwTEJNRTA1X0w5M2pfQnpKZFVYcnVXaklPazUzQkJCNG1BV1FVQ1d2QW9LQmIzQWcwYUdHclpHaEhEazhWblFGb2pXcFhRT1BGWkthT0o0V3gya21yenYzSWZTbks2SnVMM1JqbHEwTjc0YVNOYlFQMmt1MnFzYi1hRmlpa1NDNHpOclR2QUNJNmcxNnJFYlhTczZSLXZSTkJRTV9hT2h3bDVOTXFpLS1vSFVuOC0xbE9UVEpHTUNJWl9ndjd5NWs0RzJWZw?oc=5)

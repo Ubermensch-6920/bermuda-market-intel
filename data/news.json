@@ -1,5 +1,5 @@
 {
-  "updated": "2026-09-23T11:43:22Z",
+  "updated": "2026-09-23T17:06:37Z",
   "topics": [
     "Insurance AM",
     "Private Credit",
@@ -8,6 +8,16 @@
   ],
   "items": [
     {
+      "id": "c10277ef889b",
+      "title": "Abacus Global Management Closes $400 Million Life Insurance Securitization",
+      "source": "citybiz",
+      "date": "2026-09-23T13:09:02Z",
+      "topic": "Insurance AM",
+      "summary": "",
+      "link": "https://news.google.com/rss/articles/CBMisgFBVV95cUxQYW1EcmRQSFpRb096MjJSQ3hDTTdSYnl0U3hFekhqbVFOT3U4V0JZcElnTWF5TWdZNlFEYlpmNXpEcXlBTVJDN1hoZkllZHlPX0tQNWtaM1pQVGFfZVlCRmFqSU9hdzhmWi1pZktzZUt4R3NHOUZFVEZGeW1vUDV6b3F1UTNjZ25aaWczZmZxNHR2b0czZkN6MW1nMjlXTmFRTU1vOWFDa3F5cExGLURjclRB?oc=5",
+      "isNew": false
+    },
+    {
       "id": "435f7b0303b9",
       "title": "Aegon fund taps insurance boom in credit risk transfer",
       "source": "Structured Credit Investor",
@@ -15,6 +25,16 @@
       "topic": "Insurance AM",
       "summary": "",
       "link": "https://news.google.com/rss/articles/CBMixwFBVV95cUxPeTNDRGRxMVR3Yi0tV0dRV1BfYVkxNFVoZmowRGQ3Z1VpNEJ6VWE3QWZRM2gtd1lwX1FJdGUtay1LUExoOEw0aUlGUHFTUEZDZWQ5TUUtQlpRTzdrcG9pc1N6QlE1SUpMQnBURF9mQ0c4RkpqZEZJY1VwVzB3ZUV1NTFSbkM4YjZrbmlpNWZkTWRrRk1nLTEwSzhyLUJHMlZZdkpiYVRTaGdZRndEaU04YzJ5TDRYa2VGQ2VUNmJ0NFg1RTBkNFBF?oc=5",
+      "isNew": false
+    },
+    {
+      "id": "540e22eb71f4",
+      "title": "KKR Launches Equipment Finance Platform Akrapoint Commercial Capital",
+      "source": "InsuranceNewsNet",
+      "date": "2026-09-22T16:26:07Z",
+      "topic": "Insurance AM",
+      "summary": "",
+      "link": "https://news.google.com/rss/articles/CBMiqgFBVV95cUxOMEQ3cTlmTFVhR25rbDZZbm5hdDJ2RGJmUXU5SEVxWGoyVm1VNXdBeDBEbU96VGdHVE1xR0lhSXZyNTdWZ01hQkljMmxoaEhsZV9Ha3ZXSXdjM0pZU2w0YTdKTlA3cmdXTVVuN0dPS2Q3bUhiQWR0SDZ4ZkZQb01pLUxGUldPaTZoV2NJdlpXSEpXb3FQR2EzUDFsbnFxNGJodFY4TWNmTk9Ndw?oc=5",
       "isNew": false
     },
     {
@@ -50,7 +70,7 @@
     {
       "id": "09f6c1ca39f4",
       "title": "ELTIF 2.0 explained: EU private markets for retail",
-      "source": "RankiaPro",
+      "source": "rankiapro.com",
       "date": "2026-09-21T17:08:03Z",
       "topic": "Structured Credit",
       "summary": "",
@@ -70,7 +90,7 @@
     {
       "id": "653260cbd953",
       "title": "Government Bond Yields Fall as Risk Sentiment Tentatively Improves",
-      "source": "wsj.com",
+      "source": "WSJ",
       "date": "2026-09-21T08:50:00Z",
       "topic": "Rates & Macro",
       "summary": "",
@@ -80,7 +100,7 @@
     {
       "id": "a0ccc93645ac",
       "title": "Hanwha Finance expands financial cooperation with Abu Dhabi",
-      "source": "Hanwha Group",
+      "source": "hanwha.com",
       "date": "2026-09-21T06:54:50Z",
       "topic": "Insurance AM",
       "summary": "",
@@ -285,26 +305,6 @@
       "topic": "Insurance AM",
       "summary": "",
       "link": "https://news.google.com/rss/articles/CBMitwFBVV95cUxQQm9nSWdxSnl0blVCZm82YlNGaEFxcU84ZHFIMDVWeGRlZUU2OEhYc0ZBVXByTVJwSTJFSG93X0JEd3ZfalFpLVRBVEhZbC1RQmZ0VEJRU0pJdDZpUlZuRFVWNjBXem5FbDktTFZYWWxfS3B0UUFndXJIQWVBdHVVNTYyamhfSXZ6MGc4MlFSZl9oVUtjTmNLMjB5SmJrZnVwbHJ4dDYzR3cyUkl6MjBZUWlBa3h4elk?oc=5",
-      "isNew": false
-    },
-    {
-      "id": "76c502fcb138",
-      "title": "Solvency II: Expanding the investment universe",
-      "source": "BNY",
-      "date": "2026-09-17T07:00:00Z",
-      "topic": "Structured Credit",
-      "summary": "",
-      "link": "https://news.google.com/rss/articles/CBMisgFBVV95cUxNQTlERHVEQ0k0dnBGY1pqX1F6X0JCU0ZWYU12aXVxRUlaRTgtTUJRRjVfczBEUFdXZ3lFUGRBUGprNE0xYVpsTDVUSGt4TGxYZzE2N05ZbmFFbDE3dHRiN2oyZy1hRURIVmtHai02aTl2eHRZMWF0S1hEUkFWWlNYR04zNmRCa21pWmxGU0gzU083TV9mRGRVbmRGV1k4d01zR1pVeElLeVNCX3F1b0Nwc1dn?oc=5",
-      "isNew": false
-    },
-    {
-      "id": "908a40c1c785",
-      "title": "What \u201cfiscal dominance\u201d would mean for the U.S. economy",
-      "source": "marketplace.org",
-      "date": "2026-09-16T22:15:00Z",
-      "topic": "Rates & Macro",
-      "summary": "",
-      "link": "https://news.google.com/rss/articles/CBMinAFBVV95cUxPWUFWcnVnUGhVMW5NM08zODRHaU1CNTJsMUEyRWprSW9zM2d5YXJVdlcwYmpEMXpMTzZxQnZwZDhXX3VMOHlaZzk0cTlKV0owWFJkTUJYdFRHTkxfeU1LTHBxNTlwYUlqOGtuRDhMWUtVSjR3eElwRnpYQ0pSMWRaSWo3cnRGajZEalZ5OUNzVUgtU2xlTjZCSUp1Mng?oc=5",
       "isNew": false
     }
   ]
