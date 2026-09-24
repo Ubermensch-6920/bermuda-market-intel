@@ -1,7 +1,7 @@
 # Reinsurer News Monitor
 
 Bermuda life & annuity watchlist — last 14 days — 22 items
-Generated Wed 23 Sep 2026, 18:36 ADT
+Generated Thu 24 Sep 2026, 01:56 ADT
 
 ## Feed status
 
@@ -12,7 +12,7 @@ Generated Wed 23 Sep 2026, 18:36 ADT
 ## Athene
 
 - **2026-09-21** — AD HOC NEWS — [Apollo Global Management stock gains on Yankees stake and Athene risk update](https://news.google.com/rss/articles/CBMixwFBVV95cUxOS1pkVlRXTk1TckJqY0xtcDBBWXNKa2FZNVBPRTN0Z2hHMGVNOU9hZnBaQUYtZzNfWkEyY2FpRVRneVJvNkdCVmVLdWd1ZGFFclp2cERYb0FDdm5CUlY5MUZqLUJDOVU1dDdaSVZCRlFPYzVkalA4WlFWY3V6RTJUaUJfY2xudzhoWTJyS1owTm9lQnkyTkFuZ0pWb09STVlJRldrWmlFdEVrV29OaGNHckUyS2NwdGh3U1VnbWNDRElIT3VhWlhF?oc=5)
-- **2026-09-18** — royalgazette.com — [Athene settles eight-year legal battle with former director](https://news.google.com/rss/articles/CBMixgFBVV95cUxNTFc2VFFmVXFRWlR6RVFSb1M2US05M0pMa3FnMUNjQ3V5VlBVcUxhRDluWGxiRndHX1RZVFlCVlM5UHJDNjJDcGZJa1lmUHUyd2gtZVNXdkJMNEY0S3RmN0pXekotX3RwTDZBUWk1Umw2bGE5NXFXeldqZl9aVTF1S0dIaFpPcVlwNV9WQ0JWYXl0YmZncERTV0xkUDVobWRTa3g4XzdNNjFzY09NRGtIWUUwVlhuYV9Qd0ZpRG9OcHFsQ0VLcEE?oc=5)
+- **2026-09-18** — Royal Gazette | Bermuda — [Athene settles eight-year legal battle with former director](https://news.google.com/rss/articles/CBMixgFBVV95cUxNTFc2VFFmVXFRWlR6RVFSb1M2US05M0pMa3FnMUNjQ3V5VlBVcUxhRDluWGxiRndHX1RZVFlCVlM5UHJDNjJDcGZJa1lmUHUyd2gtZVNXdkJMNEY0S3RmN0pXekotX3RwTDZBUWk1Umw2bGE5NXFXeldqZl9aVTF1S0dIaFpPcVlwNV9WQ0JWYXl0YmZncERTV0xkUDVobWRTa3g4XzdNNjFzY09NRGtIWUUwVlhuYV9Qd0ZpRG9OcHFsQ0VLcEE?oc=5)
 
 ## Global Atlantic
 
@@ -30,7 +30,8 @@ Generated Wed 23 Sep 2026, 18:36 ADT
 
 ## RGA
 
-- **2026-09-22** — Yahoo! Finance Canada — [Reinsurance Group of America, Incorporated (RGA) Stock Price, News, Quote & History](https://news.google.com/rss/articles/CBMiUEFVX3lxTE1qamdrTE91Y3FMZFdXWkp6N2hGVlFXY08zdXdsUmlQM0tnMjg0V2o5UmRFTHVIdEdTbnlUSm9vem5BbHZ5MmE5LVpHZWJ3LXh5?oc=5)
+- **2026-09-23** — Yahoo! Finance Canada — [Reinsurance Group of America, I (RGA) Stock Forecasts](https://news.google.com/rss/articles/CBMikwFBVV95cUxNY3JTMUZhelhjVHZTalJLMVBGWTAzeHpZTXEyVWl1c1Azd0JsbVdacklxSUFYQTBPbUZoQkFOZ1QzTWIzS1M4WEFFaS1SMGRMSG9sOHFOYUdBaFhNTU1MN0FQSk5VN3Vjbnpwci1LVUlPTWtLWkxvN081WnVyM0w3WERQNVB0LXpSelpNV1RYOGpDakU?oc=5)
+- **2026-09-23** — Yahoo! Finance Canada — [Reinsurance Group of America, Incorporated (RGA) Stock Price, News, Quote & History](https://news.google.com/rss/articles/CBMiUEFVX3lxTE1qamdrTE91Y3FMZFdXWkp6N2hGVlFXY08zdXdsUmlQM0tnMjg0V2o5UmRFTHVIdEdTbnlUSm9vem5BbHZ5MmE5LVpHZWJ3LXh5?oc=5)
 - **2026-09-22** — Yahoo Finance Australia — [Reinsurance Group of America, Incorporated (RGA) latest stock news and headlines](https://news.google.com/rss/articles/CBMiV0FVX3lxTE5CdHFXVjBaOUtpRG1uM296dngxVElqR0x6cFZ2NjVySDAyaUZSQkpGdmRxWkk2U3VNR3lFQUxxeTdvbmxWQ3lybXM4cmVvN3VIcGJHS3pWNA?oc=5)
 - **2026-09-22** — The Globe and Mail — [Reinsurance Group of America (RGA): Buy, Sell, or Hold Post Q2 Earnings?](https://news.google.com/rss/articles/CBMi5wFBVV95cUxNZnd0OXYtVmxDWnhfSWFwc1dRa0Vpc2w3VHE2SVR2YXg3alA1OHRnNTZaYXJLLS1MdUNuRkk3NTJVZlIxN1pRUllrTjN5M1QxQnV6YUNnUzhPRkZ4YVM0Ymp0YmJjSnRpSXFSOWFfaklSY24zRFR2aFN0Q2xFX0xGOW9SRElYdklQcEhMOFJBTUFUNW55N0ZFMTBCaEhUMjB0QjZTQzJQUjBNejFnajh0TmZMOVBFaXR4UGJ2OHY0RV82WmUtQjlleWNfRkpQc3BIN1NfYm9iTGh4d1lfVWJWV1FGeEU3NW8?oc=5)
 - **2026-09-21** — TradingView — [RGA Expands Growth Runway Through Financial Solutions & Longevity](https://news.google.com/rss/articles/CBMiuwFBVV95cUxPMFdSSGJGZjNlREVWeDlyaDNSYmE3eGtaT24xVnN3cENFYmdvUEJiajZGX2Z5SENaZHdVc0ZGc2t4UklhcDdlbTZOSUt1ZTRocEwtZk9Sd2NHZHdGRUpNaUNmekkyenlkYm9paEhZb0tMTHoyb2pOYzNFNTdnelZCSU9QdjJoWDY1MzlZNVdpMmpMSnptWWlNbEM4b29XS1JPc2JNR1FrSmE3RHFzUXZfaU9OMXNLSzBZTlVz?oc=5)
@@ -40,8 +41,7 @@ Generated Wed 23 Sep 2026, 18:36 ADT
 - **2026-09-14** — finance.yahoo.com — [Is Reinsurance Group of America (RGA) Worth Its Price After 152% Gains?](https://news.google.com/rss/articles/CBMiogFBVV95cUxPTlB5YU9uSnhLeThqVGlzR0xJay1sMjdxRkozT1NxVjlMa1VoWXVkWlBTclFJVDdmVk13LW1mc2F6MVd0Rk1XSWQ3VXo2ODZBd2FxajV2T28xRXZydUw5NFRvOHFBZWwtbUZPQ2d6Ty1WSHpLbXJWcXRBOGZJVWxncmZDc3dyZVdEVy1aRTNzZ0hiY3Fnanphak41dHRjSlkwMGc?oc=5)
 - **2026-09-13** — simplywall.st — [Reinsurance Group Of America (RGA) Gets A Fresh Value Backing On Its Global Growth Story](https://news.google.com/rss/articles/CBMi3AFBVV95cUxPRm1FSHU4a1k2SFpWaEx4Z21lT1F0T29wZGpiR0g2bHV1X2xkQ0RBTGlHTTEwYjZXa3RzREhRcWhoOHBpTFUyUDI5bnFXY29udlp1RE9BbFpScUxBZzc1SHRHUFFXSjZYckdBSXBVNUE3SmVxSk96alVudTltZ3lmM28wUk0zVHFwZjMtN1YyU0xFVkRhN1RWM1Vaelh0Yld2ZHBPRk11c3AxV3ZGWjZyekN5aW9CTTdZZnloSl9jVXBqdUg5TTNUOUNSM1N4eWE4OGo1T011bHN2dkxy0gHiAUFVX3lxTE9jQ0UyZzhKY3VZMzgySXNGdlVYYXBWTGFyZWJtTEhZazktSDZMS2dXR0tCSjBDaUk2S0Nxa3NaczhEeE90aWc2YlU2dlRoQzhfN3NJR3hNd0p2NTdDX1N6a05INTR0YTg0eWctZnJ5Z1V0R2ZTRjBYM2Y2N1hTcFpiUXVvS2Z3X1lINWxHLUE5MmZEczNQUDBWNU1kOHI2dTE1WVlqcnA0UHNYdGdzY1lRQXBjdlo5WTZPODZkQWtoYkhnd0g5MlRjVlk0Tmc0SjZsOGlEcnhWYUZxb25fWVpzX3c?oc=5)
 - **2026-09-12** — MarketBeat — [Reinsurance Group of America, Incorporated $RGA Shares Bought by Engineers Gate Manager LP](https://news.google.com/rss/articles/CBMi4wFBVV95cUxQRTVvWWhHeTg5eTNreS1KcWQwVFNPSFBDNjFZcHpSSEFoNFhEUWI4UDNETXdlY1k4OXQ3MDVfclNUSlR5Z04wTEstQVdzc2h3S0dmVW9FWjdUNmVGU3Qwd0RseXc5VndJbERFNUhnWkFNRXpSRnZ3M2JJcUprZnFlZmNJckNhREdEWWswa0RXdWZYRFl2VUZxUTJHOFNYTnVhVW51UWZjMl9LamFvdWpjaUN2RmdEREhfdEZXcXRNQVNMWkpRNDgyTmpFb01YTWFCWGVlTVJ6dGRXMFpaMUFwRXlHNA?oc=5)
-- **2026-09-11** — finance.yahoo.com — [Are Investors Undervaluing Reinsurance Group of America (RGA) Right Now?](https://news.google.com/rss/articles/CBMiswFBVV95cUxNN2toSjhRdkd1b0dLcmJmUkxhNHdkb0dkMFRhY0VHeG96WXFvSlFSTFpfdUtuN3B0M3VCM2xydUU1emlSRGt0WUR0aUJ0cDRtTFhuODNvNjY4Q04wYjNGaDhmRmhfU3EtN0haRnZiX2tWNWkxOE45REdOUDV4U3pxQVhLazJ5UWI4Tk9TSTR1WE5ERS0tRFBWX2tfME1tQzRkUGlab21Rb1M2cDl1cm4yNFRUZw?oc=5)
-- **2026-09-11** — MarketBeat — [42,185 Shares in Reinsurance Group of America, Incorporated $RGA Acquired by Squarepoint Ops LLC](https://news.google.com/rss/articles/CBMi6gFBVV95cUxOenJxWjVuY0hHS1pUeEVacERKT1lmUHl0ZmRZemJCX0tsR0dBSThhdlMxZ0ozbXJDV2xvbmpOaE9kdi1vM0JnOTl2VEEwUTdFYlQtQ1ZCSC1ublBaT3dTZU1STm5va2lIcDhpaC1sQ2k4clBjNkpTZEROZXBuenZUQ09JTGR3X3V1UFBZSFZoLURFUVE2NXNPcDdOWTFoVHpOZmtTSDR5Rk1mWGdNalRFNTB0cTU4UFlVcFVvVGVxUnVDN2hUQmU0aEV2Ml9DX0c0VUR4M3NmRWlSanp2NFl1NGdTcEh3QmhwV1E?oc=5)
+- **2026-09-11** — Yahoo Finance — [Are Investors Undervaluing Reinsurance Group of America (RGA) Right Now?](https://news.google.com/rss/articles/CBMiswFBVV95cUxNN2toSjhRdkd1b0dLcmJmUkxhNHdkb0dkMFRhY0VHeG96WXFvSlFSTFpfdUtuN3B0M3VCM2xydUU1emlSRGt0WUR0aUJ0cDRtTFhuODNvNjY4Q04wYjNGaDhmRmhfU3EtN0haRnZiX2tWNWkxOE45REdOUDV4U3pxQVhLazJ5UWI4Tk9TSTR1WE5ERS0tRFBWX2tfME1tQzRkUGlab21Rb1M2cDl1cm4yNFRUZw?oc=5)
 
 ## Sagicor
 

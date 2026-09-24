@@ -1,5 +1,5 @@
 {
-  "updated": "2026-09-23T21:36:09Z",
+  "updated": "2026-09-24T04:56:57Z",
   "lookback_days": 14,
   "feeds": [
     {
@@ -113,6 +113,18 @@
   ],
   "items": [
     {
+      "id": "1afa5ded1043",
+      "title": "Reinsurance Group of America, I (RGA) Stock Forecasts",
+      "link": "https://news.google.com/rss/articles/CBMikwFBVV95cUxNY3JTMUZhelhjVHZTalJLMVBGWTAzeHpZTXEyVWl1c1Azd0JsbVdacklxSUFYQTBPbUZoQkFOZ1QzTWIzS1M4WEFFaS1SMGRMSG9sOHFOYUdBaFhNTU1MN0FQSk5VN3Vjbnpwci1LVUlPTWtLWkxvN081WnVyM0w3WERQNVB0LXpSelpNV1RYOGpDakU?oc=5",
+      "source": "Yahoo! Finance Canada",
+      "feed": "Google News: RGA",
+      "date": "2026-09-23T23:29:37Z",
+      "summary": "",
+      "companies": [
+        "RGA"
+      ]
+    },
+    {
       "id": "cf58e7d43753",
       "title": "Sagicor Financial Stock Slips as Debt Refinancing, Earnings Sensitivity and Market Volatility Pressure Sentiment",
       "link": "https://news.google.com/rss/articles/CBMi3gFBVV95cUxPampXbEtkSGp6enBWN3hWRTZ1YzhVTUo4RjV0V1ZWZTg3VDB3VVVrMFR2ajNwbDZmQ1dBVXY1T3cwQi1xU0F4UEg3djdENlZiRFNUamtYeDBoM00zck5ISHJnT0otaEhFVGE3cFJvN0NIcjZfMnc3N1prNDBrR1hHUlZfdGNpNklyS0hSbUNPODloMG5UQndaVHlJYmdKQzY3d2pXVEtoS1JPdUlmRzdMTUFVV284TFh6c3dVbzVKblhJX3N4MDBYc1ZjYnU4YWxQQXNNSDA4dUFYSDJRa3c?oc=5",
@@ -125,24 +137,12 @@
       ]
     },
     {
-      "id": "8c3300c005c4",
-      "title": "Sagicor prices $250M note offering to repay debt",
-      "link": "https://news.google.com/rss/articles/CBMiiAFBVV95cUxNTE14Zi1oNTRGcHNjVlU1MTl4TzRpbU1KZnc5TWhXRThDOEtVOGhWMk1fQzVha0ljczRWMWdTTWdYMm4tY2otYlhyUmRoRGVsd0FvaF9NWUY3Vk9FMU5JOUxiY0RQSGN2bE92bXJJVm5zcEFzTWRfQ0k4ZUdvdzRiNV9GOGFwYjZJ?oc=5",
-      "source": "Dealroom",
-      "feed": "Google News: Sagicor",
-      "date": "2026-09-22T22:17:01Z",
-      "summary": "",
-      "companies": [
-        "Sagicor"
-      ]
-    },
-    {
       "id": "9e0a35ca35eb",
       "title": "Reinsurance Group of America, Incorporated (RGA) Stock Price, News, Quote & History",
       "link": "https://news.google.com/rss/articles/CBMiUEFVX3lxTE1qamdrTE91Y3FMZFdXWkp6N2hGVlFXY08zdXdsUmlQM0tnMjg0V2o5UmRFTHVIdEdTbnlUSm9vem5BbHZ5MmE5LVpHZWJ3LXh5?oc=5",
       "source": "Yahoo! Finance Canada",
       "feed": "Google News: RGA",
-      "date": "2026-09-22T21:26:56Z",
+      "date": "2026-09-23T04:44:24Z",
       "summary": "",
       "companies": [
         "RGA"
@@ -154,10 +154,22 @@
       "link": "https://news.google.com/rss/articles/CBMiV0FVX3lxTE5CdHFXVjBaOUtpRG1uM296dngxVElqR0x6cFZ2NjVySDAyaUZSQkpGdmRxWkk2U3VNR3lFQUxxeTdvbmxWQ3lybXM4cmVvN3VIcGJHS3pWNA?oc=5",
       "source": "Yahoo Finance Australia",
       "feed": "Google News: RGA",
-      "date": "2026-09-22T21:00:11Z",
+      "date": "2026-09-23T02:04:58Z",
       "summary": "",
       "companies": [
         "RGA"
+      ]
+    },
+    {
+      "id": "8c3300c005c4",
+      "title": "Sagicor prices $250M note offering to repay debt",
+      "link": "https://news.google.com/rss/articles/CBMiiAFBVV95cUxNTE14Zi1oNTRGcHNjVlU1MTl4TzRpbU1KZnc5TWhXRThDOEtVOGhWMk1fQzVha0ljczRWMWdTTWdYMm4tY2otYlhyUmRoRGVsd0FvaF9NWUY3Vk9FMU5JOUxiY0RQSGN2bE92bXJJVm5zcEFzTWRfQ0k4ZUdvdzRiNV9GOGFwYjZJ?oc=5",
+      "source": "Dealroom",
+      "feed": "Google News: Sagicor",
+      "date": "2026-09-22T22:17:01Z",
+      "summary": "",
+      "companies": [
+        "Sagicor"
       ]
     },
     {
@@ -236,7 +248,7 @@
       "id": "032420a02f82",
       "title": "Athene settles eight-year legal battle with former director",
       "link": "https://news.google.com/rss/articles/CBMixgFBVV95cUxNTFc2VFFmVXFRWlR6RVFSb1M2US05M0pMa3FnMUNjQ3V5VlBVcUxhRDluWGxiRndHX1RZVFlCVlM5UHJDNjJDcGZJa1lmUHUyd2gtZVNXdkJMNEY0S3RmN0pXekotX3RwTDZBUWk1Umw2bGE5NXFXeldqZl9aVTF1S0dIaFpPcVlwNV9WQ0JWYXl0YmZncERTV0xkUDVobWRTa3g4XzdNNjFzY09NRGtIWUUwVlhuYV9Qd0ZpRG9OcHFsQ0VLcEE?oc=5",
-      "source": "royalgazette.com",
+      "source": "Royal Gazette | Bermuda",
       "feed": "Google News: Athene",
       "date": "2026-09-18T18:09:52Z",
       "summary": "",
@@ -356,7 +368,7 @@
       "id": "f1de125d0e6b",
       "title": "Are Investors Undervaluing Reinsurance Group of America (RGA) Right Now?",
       "link": "https://news.google.com/rss/articles/CBMiswFBVV95cUxNN2toSjhRdkd1b0dLcmJmUkxhNHdkb0dkMFRhY0VHeG96WXFvSlFSTFpfdUtuN3B0M3VCM2xydUU1emlSRGt0WUR0aUJ0cDRtTFhuODNvNjY4Q04wYjNGaDhmRmhfU3EtN0haRnZiX2tWNWkxOE45REdOUDV4U3pxQVhLazJ5UWI4Tk9TSTR1WE5ERS0tRFBWX2tfME1tQzRkUGlab21Rb1M2cDl1cm4yNFRUZw?oc=5",
-      "source": "finance.yahoo.com",
+      "source": "Yahoo Finance",
       "feed": "Google News: RGA",
       "date": "2026-09-11T07:00:00Z",
       "summary": "",

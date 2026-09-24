@@ -1,5 +1,5 @@
 {
-  "updated": "2026-09-23T21:36:06Z",
+  "updated": "2026-09-24T04:56:55Z",
   "topics": [
     "Insurance AM",
     "Private Credit",
@@ -7,6 +7,16 @@
     "Structured Credit"
   ],
   "items": [
+    {
+      "id": "154bcf2dbbde",
+      "title": "10 Ways to Explain Why Interest Rates Are So High",
+      "source": "The New York Times",
+      "date": "2026-09-23T18:40:00Z",
+      "topic": "Rates & Macro",
+      "summary": "",
+      "link": "https://news.google.com/rss/articles/CBMijgFBVV95cUxNRW5YWVh0NGRxU2ZrcmloZkhuUXJtSmgtMG5ySnhPRjBSYXR6aDJrN1M3REN2dlNUNkJETEhJbzhOd2JkcGZsZnlsaE13RWpvXzJBZEJsY25DbkJ3S29tcHlYRXlrRGV5Qk9RYmRHREcxWV92VTJObG10T2RxSkhrQjMtd0FGYXdxMENLazJB?oc=5",
+      "isNew": false
+    },
     {
       "id": "c10277ef889b",
       "title": "Abacus Global Management Closes $400 Million Life Insurance Securitization",
@@ -80,7 +90,7 @@
     {
       "id": "5014267dafb8",
       "title": "Convergence of Asset Management, Insurance Capital and Strategic M&A: Key Takeaways From the Skadden-PJT Partners Panel Event",
-      "source": "jdsupra.com",
+      "source": "JD Supra",
       "date": "2026-09-21T20:45:14Z",
       "topic": "Insurance AM",
       "summary": "",
@@ -135,16 +145,6 @@
       "topic": "Rates & Macro",
       "summary": "",
       "link": "https://news.google.com/rss/articles/CBMiwgFBVV95cUxQOFNjb3dWRURPbU9ZTXVqcG52dmZHUjBSQ0R5RlE3RkktMkgtZ00ycW5OQTdvajk1NnQyWkR5TTNBZkNzNXkwLUdIbl9EeWJHOGQzU3ZSNFRLTnktRkoyNnY0X05PdzBSOTMwTE10RkNucjBuOU9iUzM5T3RIU2s3OFB4eWViT3hDd0NsdjBtUmt6NUNFRm5oclBteTlDUk52TkxsQWNBcWhua0JMdjBGMkF0bnlHQmtqVmRQTV9wMEV0Zw?oc=5",
-      "isNew": false
-    },
-    {
-      "id": "154bcf2dbbde",
-      "title": "10 Ways to Explain Why Interest Rates Are So High",
-      "source": "The New York Times",
-      "date": "2026-09-19T12:00:06Z",
-      "topic": "Rates & Macro",
-      "summary": "",
-      "link": "https://news.google.com/rss/articles/CBMijgFBVV95cUxNRW5YWVh0NGRxU2ZrcmloZkhuUXJtSmgtMG5ySnhPRjBSYXR6aDJrN1M3REN2dlNUNkJETEhJbzhOd2JkcGZsZnlsaE13RWpvXzJBZEJsY25DbkJ3S29tcHlYRXlrRGV5Qk9RYmRHREcxWV92VTJObG10T2RxSkhrQjMtd0FGYXdxMENLazJB?oc=5",
       "isNew": false
     },
     {
@@ -218,6 +218,16 @@
       "isNew": false
     },
     {
+      "id": "6f6198278d96",
+      "title": "Bank of Japan Raises Rates, Making U.S. Less Alluring for Tokyo Investors",
+      "source": "WSJ",
+      "date": "2026-09-18T08:56:00Z",
+      "topic": "Rates & Macro",
+      "summary": "",
+      "link": "https://news.google.com/rss/articles/CBMiygFBVV95cUxPaUo2NVY4c3UzcU9VeDBvMHZ2bkI2bTJsUEkxeW5HNHBQZ0ZkNXgzZlVqekJKUHFpSDZ2ZTAwZERVTmttV1ZJY0tBSllxaE9vN1poTG9sNWZFcVZXSlVxdkRwanpuaTF3VFRHbm1ZQ3MxeEdzQlNpa28tUnRSMlFfLWpvXzJjUURRMno0X3VaOUtENmNiQ1NvSEk4Xy1xdGZNbWV6RXdsNTl6ZURJbGhXcF96MUxOQk0wM0YwWkN3SnIxdHNyWjB4YjNn?oc=5",
+      "isNew": false
+    },
+    {
       "id": "2aa41f4ad90a",
       "title": "Brookfield Corporation: Record Fundraising, Growing Insurance Earnings, And A Near-Term Investor Day Catalyst",
       "source": "Seeking Alpha",
@@ -230,7 +240,7 @@
     {
       "id": "9c2fbc64ef29",
       "title": "Why Japan\u2019s markets flipped the usual script after central bank rate hike",
-      "source": "cnbc.com",
+      "source": "CNBC",
       "date": "2026-09-18T07:19:25Z",
       "topic": "Rates & Macro",
       "summary": "",
@@ -295,16 +305,6 @@
       "topic": "Private Credit",
       "summary": "",
       "link": "https://news.google.com/rss/articles/CBMi1wFBVV95cUxPN204Y0ZrOWFNdGRfVnJQc2JpRXF1bDY3cVhqRHVwcXdFc3A5WHRjR21zOWFFb0tsZXZwTm1OSTVMVUVzNFNReEljUkhsaHoxcHVxUThEQmNrVDlTZFpSSjRWd244NTZXZ3ZqVTVBVnpJODh4dVlLaHY3dDloLVhRZG14amxicGVpX29BTUYtdEI3aC1vYTZEZDdSR2lWRW4weEswRnkzRUFmUW9vZXRNZFB0RENtdzdJSHgwRXV4MmItb2VMM1VHNDN2UkQ1cWZiMzBEcWFQdw?oc=5",
-      "isNew": false
-    },
-    {
-      "id": "858c4f218a81",
-      "title": "3 Life Insurers to Watch as Annuity Sales Hit First-Half Record Highs",
-      "source": "Eastern Progress",
-      "date": "2026-09-17T16:27:00Z",
-      "topic": "Insurance AM",
-      "summary": "",
-      "link": "https://news.google.com/rss/articles/CBMi5gFBVV95cUxORC1GQmVsNnN3MkRrVlE1cFZJRlpyazdjRlZfbFhFb1BPdmhubDdFeGxEalQxTUZtOUVoSkJ4ZktDbWVHS0I1THJNQ19TRDlhSHpWLVY4Q2toaVUzSVRXQTNwd1kyMl9WMlpqWDUtQVVSalA1bzJDbi10YVJLaENFZ29YdkVTamM2SllvSnh6WEhZTEFQWnRnUUxZam11a0loUV9nOVBLSGpHNFlSOXVORkpfZVpqNTJDR3UyNDF6TG9CVVc2VDV3RS1VWnppODc1X3MzOW1SZmdZemhGSUxRczgzQ2Qwdw?oc=5",
       "isNew": false
     }
   ]
