@@ -1,5 +1,5 @@
 {
-  "updated": "2026-09-24T04:56:57Z",
+  "updated": "2026-09-24T11:51:49Z",
   "lookback_days": 14,
   "feeds": [
     {
@@ -35,7 +35,7 @@
     {
       "name": "Google News: Global Atlantic",
       "ok": true,
-      "count": 9,
+      "count": 11,
       "error": null
     },
     {
@@ -106,12 +106,36 @@
     },
     {
       "name": "Reinsurance News",
-      "ok": false,
-      "count": 0,
-      "error": "HTTPError: HTTP Error 403: Forbidden"
+      "ok": true,
+      "count": 10,
+      "error": null
     }
   ],
   "items": [
+    {
+      "id": "9e0a35ca35eb",
+      "title": "Reinsurance Group of America, Incorporated (RGA) Stock Price, News, Quote & History",
+      "link": "https://news.google.com/rss/articles/CBMiUEFVX3lxTE1qamdrTE91Y3FMZFdXWkp6N2hGVlFXY08zdXdsUmlQM0tnMjg0V2o5UmRFTHVIdEdTbnlUSm9vem5BbHZ5MmE5LVpHZWJ3LXh5?oc=5",
+      "source": "Yahoo! Finance Canada",
+      "feed": "Google News: RGA",
+      "date": "2026-09-24T10:06:28Z",
+      "summary": "",
+      "companies": [
+        "RGA"
+      ]
+    },
+    {
+      "id": "5c751d67c2d4",
+      "title": "Reinsurance Group Of America (RGA) Could Be 9% Undervalued Following Its Recent Run",
+      "link": "https://news.google.com/rss/articles/CBMi4wFBVV95cUxOWlRkdHE3Qnk4cUdDV25jQnZzeFhKVjFhNV9jM2FNc2NNVTlDYkZSa01iZ0lYbTRuVVl2M1p2UnFoM1FJY1p5RFNrcUp1NUlUbEtvak1kS3o4a0tRYUNfUHZXWHN5RHpyT1FIQy1uQjhvT3pENkY0cVJ3QWVvcDk0WGF4Rm5tX29qLXNLTm11bnVXNzdLdkN1Vzd4Q3hKUVhGd3VYRGtzcjNXaUZXM0syWVBLdWJnTFBCWHVfU0dWNTBRWDdNaGlKTW9kZk0zV1Z5OGc4QWxrYkp1aTZDZkhLWndaSdIB4wFBVV95cUxOWlRkdHE3Qnk4cUdDV25jQnZzeFhKVjFhNV9jM2FNc2NNVTlDYkZSa01iZ0lYbTRuVVl2M1p2UnFoM1FJY1p5RFNrcUp1NUlUbEtvak1kS3o4a0tRYUNfUHZXWHN5RHpyT1FIQy1uQjhvT3pENkY0cVJ3QWVvcDk0WGF4Rm5tX29qLXNLTm11bnVXNzdLdkN1Vzd4Q3hKUVhGd3VYRGtzcjNXaUZXM0syWVBLdWJnTFBCWHVfU0dWNTBRWDdNaGlKTW9kZk0zV1Z5OGc4QWxrYkp1aTZDZkhLWndaSQ?oc=5",
+      "source": "simplywall.st",
+      "feed": "Google News: RGA",
+      "date": "2026-09-24T08:34:56Z",
+      "summary": "",
+      "companies": [
+        "RGA"
+      ]
+    },
     {
       "id": "1afa5ded1043",
       "title": "Reinsurance Group of America, I (RGA) Stock Forecasts",
@@ -134,18 +158,6 @@
       "summary": "",
       "companies": [
         "Sagicor"
-      ]
-    },
-    {
-      "id": "9e0a35ca35eb",
-      "title": "Reinsurance Group of America, Incorporated (RGA) Stock Price, News, Quote & History",
-      "link": "https://news.google.com/rss/articles/CBMiUEFVX3lxTE1qamdrTE91Y3FMZFdXWkp6N2hGVlFXY08zdXdsUmlQM0tnMjg0V2o5UmRFTHVIdEdTbnlUSm9vem5BbHZ5MmE5LVpHZWJ3LXh5?oc=5",
-      "source": "Yahoo! Finance Canada",
-      "feed": "Google News: RGA",
-      "date": "2026-09-23T04:44:24Z",
-      "summary": "",
-      "companies": [
-        "RGA"
       ]
     },
     {
@@ -281,6 +293,18 @@
       ]
     },
     {
+      "id": "3cf38ff30348",
+      "title": "Is Reinsurance Group of America (RGA) Worth Its Price After 152% Gains?",
+      "link": "https://news.google.com/rss/articles/CBMiogFBVV95cUxPTlB5YU9uSnhLeThqVGlzR0xJay1sMjdxRkozT1NxVjlMa1VoWXVkWlBTclFJVDdmVk13LW1mc2F6MVd0Rk1XSWQ3VXo2ODZBd2FxajV2T28xRXZydUw5NFRvOHFBZWwtbUZPQ2d6Ty1WSHpLbXJWcXRBOGZJVWxncmZDc3dyZVdEVy1aRTNzZ0hiY3Fnanphak41dHRjSlkwMGc?oc=5",
+      "source": "Yahoo Finance",
+      "feed": "Google News: RGA",
+      "date": "2026-09-15T07:00:00Z",
+      "summary": "",
+      "companies": [
+        "RGA"
+      ]
+    },
+    {
       "id": "be5610e259be",
       "title": "California State Teachers Retirement System Acquires 624 Shares of Reinsurance Group of America, Incorporated $RGA",
       "link": "https://news.google.com/rss/articles/CBMiigJBVV95cUxNRENDRTUyZ1hLS3NnRjJGRXhycjVEeVpwVkI2RFVZc0ZtWVdraTlFVE1fWktieHQtc1ZhOTJMV0MtVVVWUUx2WHFwaThOelZVTkliMDZnYUZRVWJkdU9IYzlVeEMtdVpLUXNkV1NYcVhuVzBCSm1TWDNTLWtkUnhmVy12NVZ0NFVHN1QzTGY0NGhtQjhqeHJFRGJTNzJ6dDlWSk8xT0lNdkZoOUNpUW5aR3BNeU5sVFVmeDl4V1dVeldveXBleXRoclZQUjBveEdEZUhkeVNjVFByR2ZndzlVTnlOZFdfVXJTcVllaFpWMWNEZUdNN0dxbzU3b1BjclZ0bS1JMEp2cU1Pdw?oc=5",
@@ -290,18 +314,6 @@
       "summary": "",
       "companies": [
         "RGA"
-      ]
-    },
-    {
-      "id": "56161ec89b77",
-      "title": "Aspida Appoints Aaron Sarfatti as Chief Risk Officer",
-      "link": "https://news.google.com/rss/articles/CBMiwgFBVV95cUxQVzAzX1dBbk96QVU1N3BMM1gzWThtbTBNdlljY0tlYWxTMWpBRFM3dEkwdllsMGNJNHlTY3hwNXVXQTdXOUItXzEydDBxdFc5TUtNS3NyLXQ5OWc3WU5wdWtOcjg5bzB0NFAwbWxIcmYxRXBHMlZlclY4RXc4dlFtM3lpQjNJV3ZsT1JIV1c4TnNTdGZPbVZaSnkxVmRYQnR6UkhfR3hZVU9oZHRkVlBhOGJTTHRZc2kzUzY5XzFQUGpoUQ?oc=5",
-      "source": "GlobeNewswire",
-      "feed": "Google News: Aspida",
-      "date": "2026-09-14T13:00:00Z",
-      "summary": "",
-      "companies": [
-        "Aspida"
       ]
     },
     {
@@ -317,15 +329,15 @@
       ]
     },
     {
-      "id": "3cf38ff30348",
-      "title": "Is Reinsurance Group of America (RGA) Worth Its Price After 152% Gains?",
-      "link": "https://news.google.com/rss/articles/CBMiogFBVV95cUxPTlB5YU9uSnhLeThqVGlzR0xJay1sMjdxRkozT1NxVjlMa1VoWXVkWlBTclFJVDdmVk13LW1mc2F6MVd0Rk1XSWQ3VXo2ODZBd2FxajV2T28xRXZydUw5NFRvOHFBZWwtbUZPQ2d6Ty1WSHpLbXJWcXRBOGZJVWxncmZDc3dyZVdEVy1aRTNzZ0hiY3Fnanphak41dHRjSlkwMGc?oc=5",
-      "source": "finance.yahoo.com",
-      "feed": "Google News: RGA",
+      "id": "56161ec89b77",
+      "title": "Aspida Appoints Aaron Sarfatti as Chief Risk Officer",
+      "link": "https://news.google.com/rss/articles/CBMixAFBVV95cUxQbWRhdlItOHFLM3gxS1hJVU5JNkQwTXdWYWtwOXNhb28tQURtU3RLcGQxS0gyRktaU2VZUWdrUE9TbkstM0plb1N1NXZsM2dCOG9JVkJ0Rk1nVGptQTlESkpKZ0NMQmtOOXNWQ3lEVE82NER6M0FoSXZRYTVaRm9ucTI5ZnAxcll1NjdvcXNBWGFTUjZTQnZqZTBjZXJoc0pfXzZ5M0duQkp2U1dIZl9QbTlzRGJkWFFmMTZhOFlFMVpENlZh0gHKAUFVX3lxTE5Kd012QkZON3lzaHQtbldVdjhTeVpJcDZ2bnNfY3JHUV9GS0h6cHU4NW1fU3VoaWpSTHZtRzZrS3VBakxvclE4TXo1TVNaaHNKTTJBMkxnWnlyYUYzdUFya3pNLWpDZmdnaEphYnkyMUVEbVdpOW90eDkzRDlUTmdGVmF1TG9taWVoRkczc21nRHl6cXoxdDRPblpIR0Q5bzNRM0FGaTAwUDBlc2lEU0ZSRE1VZV9VMllYSnhTdnU0TUk3QzVmaGF5Z1E?oc=5",
+      "source": "The Manila Times",
+      "feed": "Google News: Aspida",
       "date": "2026-09-14T07:00:00Z",
       "summary": "",
       "companies": [
-        "RGA"
+        "Aspida"
       ]
     },
     {

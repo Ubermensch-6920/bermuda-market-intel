@@ -1,5 +1,5 @@
 {
-  "updated": "2026-09-24T04:56:55Z",
+  "updated": "2026-09-24T11:51:46Z",
   "topics": [
     "Insurance AM",
     "Private Credit",
@@ -7,6 +7,26 @@
     "Structured Credit"
   ],
   "items": [
+    {
+      "id": "f8e165bf4a5d",
+      "title": "Private Equity Is Buying Life Insurers, and the Public Bears the Heightened Risk.",
+      "source": "promarket.org",
+      "date": "2026-09-24T10:00:00Z",
+      "topic": "Private Credit",
+      "summary": "",
+      "link": "https://news.google.com/rss/articles/CBMiuAFBVV95cUxPZ3BXNDhqcDVVZEw4LVpXMzRHRGdmckQwRmdaMlRKNXVQaWlLQ0s0aGhUdno1SEpTRi0xandqVkJveVJaWkJSdTFFSDFRZTlMdWNlMWVfQXVqcUd0Qy1SRE41WmtraW84X1VhSUR3cUVZblhJOEFoODVmdEd1X3dWc0M5SThNYTc1UEYyTEZjWGh0Nl82NnpwX3lkdWJYMGJueFBjaXRabHFONmNiMmozLXdrVHNvdHI2?oc=5",
+      "isNew": false
+    },
+    {
+      "id": "bf97acbbcdf0",
+      "title": "Private Investments and Insurance Companies",
+      "source": "Every CRS Report",
+      "date": "2026-09-24T07:10:46Z",
+      "topic": "Insurance AM",
+      "summary": "",
+      "link": "https://news.google.com/rss/articles/CBMiYEFVX3lxTE13aVNIX3FBZE0xNEo3NUpWRFhMWkhWNFZyWUwyT1R6d212SURfejNldmVFSjRsSkg3dzFjQWd4dmYxLVl5a3dqSmlzM1F3MFN3X0J4Z2g1ZWlpZ09HQ1JHSg?oc=5",
+      "isNew": false
+    },
     {
       "id": "154bcf2dbbde",
       "title": "10 Ways to Explain Why Interest Rates Are So High",
@@ -80,11 +100,21 @@
     {
       "id": "79ece7ef9395",
       "title": "Why Bond Markets Are Pricing In Too Many Interest Rate Rises",
-      "source": "Morningstar",
+      "source": "global.morningstar.com",
       "date": "2026-09-22T05:12:47Z",
       "topic": "Rates & Macro",
       "summary": "",
       "link": "https://news.google.com/rss/articles/CBMiogFBVV95cUxOaGRrNUFnMmVGZmg0alg2YUhySUNZSWlDUHhRV1ZLcnRpdDNUamxMQ2RneHJVSjZBbFBUSmJfaC1YYmRVUVNSaXhkVllKWU5rRFpSUmViY2R1VVZJbDY5dlBjT3puWjN6dFJEekYwZEVqcVdLTTl1SXVTZU1teHZUT0p1WTY2RmszSzBVWHBqWWZQdjdiRElYQjBKbmtRZm9tYWc?oc=5",
+      "isNew": false
+    },
+    {
+      "id": "c7f0f8be1345",
+      "title": "ILS NYC 2027 - Insurance linked securities conference in New York from Artemis",
+      "source": "Artemis.bm",
+      "date": "2026-09-22T04:40:35Z",
+      "topic": "Insurance AM",
+      "summary": "",
+      "link": "https://news.google.com/rss/articles/CBMiTEFVX3lxTE9jR3pRRTYtY3hYUWJsQ1hPbXM2NzE5QUFod2V4RUx2N1JOblFLTlFmWTZYSjZ0V01Fd3BfWmhwcDJZemo5cVdQOVZoNkY?oc=5",
       "isNew": false
     },
     {
@@ -150,7 +180,7 @@
     {
       "id": "62b45a66c5e8",
       "title": "The Private Equity And Private Credit Loop Threatening Life Insurers",
-      "source": "Forbes",
+      "source": "forbes.com",
       "date": "2026-09-18T18:16:50Z",
       "topic": "Private Credit",
       "summary": "",
@@ -250,7 +280,7 @@
     {
       "id": "adad130a6a68",
       "title": "Japan raises interest rates to 31-year high to curb impact of rising prices | Bank of Japan",
-      "source": "The Guardian",
+      "source": "theguardian.com",
       "date": "2026-09-18T07:14:00Z",
       "topic": "Rates & Macro",
       "summary": "",
@@ -275,36 +305,6 @@
       "topic": "Private Credit",
       "summary": "",
       "link": "https://news.google.com/rss/articles/CBMihAFBVV95cUxNRWVVY1VnOEdTa1dFbEZYaWlDeUxCZnJTdW1ZaG5kVF81MUl1NHZZcWpSSkVfZC1ZeFFFSUtiVDE0aGM3TXpXbXIyV2hFR09XQ0w4eTdYZmdEcW92aXVnTVl3M1hpWW5iU092RjN3NFd2ckFudWhiMDFQY2tlcWZzdXJyay0?oc=5",
-      "isNew": false
-    },
-    {
-      "id": "c81dca1a3458",
-      "title": "BOJ lifts rates to 31-year high, pivots towards preemptive inflation fight",
-      "source": "reuters.com",
-      "date": "2026-09-17T22:06:51Z",
-      "topic": "Rates & Macro",
-      "summary": "",
-      "link": "https://news.google.com/rss/articles/CBMipgFBVV95cUxON2RfLXdWN0d6WEpRd3JFZ09UTGszUGZWQ0FKUnkzT2VCRE1jUmxMLXg4QlNqdERTc1hqaHRUY3lNNHRLZVRzbWJLQzg1bEdkRjl4eGZKRXVrTWoyUVBhVFRWT1RkV0F4azdlaVVKSWtaZXJfbnJEOThMVW5STEZZVDlWUV9UX25TMUkyanlKMlZSY2J4bHcyV3k2NGQ4UWxOdE5lNG9n?oc=5",
-      "isNew": false
-    },
-    {
-      "id": "6cdff851c6e5",
-      "title": "Who\u2019s Bankrolling Non-QM?",
-      "source": "National Mortgage Professional",
-      "date": "2026-09-17T20:08:47Z",
-      "topic": "Private Credit",
-      "summary": "",
-      "link": "https://news.google.com/rss/articles/CBMihAFBVV95cUxNQkdxVGREdkdaSTd2S0ZuTzk2Skl0LWJKWDdwdDZlcGVnVWt4NlN5WEF4NmNfV3hxd0lJRmw0QXFFSldJckJhcm95NTk0Yjloclc0NV96Zm1xN3BWeUpDU2QybmpzRm55bVU0X1lXNlFmT3E4YlZZVkI2X180UFJ5QmYxT2I?oc=5",
-      "isNew": false
-    },
-    {
-      "id": "a23def733e7f",
-      "title": "The End of Shopping? Agentic AI and the Future of Consumer Financial Services Introduction",
-      "source": "Consumer Finance Monitor",
-      "date": "2026-09-17T17:12:15Z",
-      "topic": "Private Credit",
-      "summary": "",
-      "link": "https://news.google.com/rss/articles/CBMi1wFBVV95cUxPN204Y0ZrOWFNdGRfVnJQc2JpRXF1bDY3cVhqRHVwcXdFc3A5WHRjR21zOWFFb0tsZXZwTm1OSTVMVUVzNFNReEljUkhsaHoxcHVxUThEQmNrVDlTZFpSSjRWd244NTZXZ3ZqVTVBVnpJODh4dVlLaHY3dDloLVhRZG14amxicGVpX29BTUYtdEI3aC1vYTZEZDdSR2lWRW4weEswRnkzRUFmUW9vZXRNZFB0RENtdzdJSHgwRXV4MmItb2VMM1VHNDN2UkQ1cWZiMzBEcWFQdw?oc=5",
       "isNew": false
     }
   ]
