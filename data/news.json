@@ -1,5 +1,5 @@
 {
-  "updated": "2026-09-25T11:56:55Z",
+  "updated": "2026-09-25T17:16:56Z",
   "topics": [
     "Insurance AM",
     "Private Credit",
@@ -7,6 +7,36 @@
     "Structured Credit"
   ],
   "items": [
+    {
+      "id": "6e2b5445ad0d",
+      "title": "PIC and USS target more infra debt, eye digital space",
+      "source": "Infrastructure Investor",
+      "date": "2026-09-25T14:52:28Z",
+      "topic": "Private Credit",
+      "summary": "",
+      "link": "https://news.google.com/rss/articles/CBMilwFBVV95cUxQSzd6N2VicVhUcU5NeUNfZjNhZ1JzeFBtLVVzZkE0c3o0REZpUWNDZm96VEExcTJGbEFHYl9SS0ppb1h6YjRDZ2hFM3o3czVGWEVYeTQ1Y1VNZy1BcnlPQmFNeWh5ZGxOZS1ReEZwVXZleUIxd2MydjJ0UzJ4ako2UGhmcWVRWFdNdC1CNGg1WDl2YmVYV1RB?oc=5",
+      "isNew": false
+    },
+    {
+      "id": "867cc7d53dad",
+      "title": "Rich People Fleeing Private Credit Haven't Learned Their Lesson",
+      "source": "FA Mag",
+      "date": "2026-09-25T13:32:12Z",
+      "topic": "Private Credit",
+      "summary": "",
+      "link": "https://news.google.com/rss/articles/CBMiswFBVV95cUxQUzluT3NTdkdwNXVFcTJ6TG1VN3R5ZGdkYWw1VzZFTE9UaDRrZWhESWtGdHo5OEU4N2xoZkFkcmM1Vk1McVFMU3JEcFIta1RkSWM4QUg2TEFVTW5XdWFYZkgyNXY5a1JTS3U1TVhqZXduU2c1bWtJNm8xTWlyXzI2dURjTFpjeks4eHVES3JqSVdZajJVSlJzVUZwbFBtNW50bjY5UUY0MmZxbmhFRll6ZmFRNA?oc=5",
+      "isNew": false
+    },
+    {
+      "id": "50e86e724bb5",
+      "title": "US insurance regulators defend oversight of insurers\u2019 growing private credit ties",
+      "source": "Alternative Credit Investor",
+      "date": "2026-09-25T12:04:56Z",
+      "topic": "Structured Credit",
+      "summary": "",
+      "link": "https://news.google.com/rss/articles/CBMiygFBVV95cUxOYkYwb2V3Q3k1WGQyX0tLU291V1FELWM2UG5ZLTRuMFlGQ2FzT09RSnllMkxvb1dodnNmOGV5cHlrNll5eGxHMUdibkFOMjR5WTJwRFZhZ19xZE5SbHY2RHZrb2huX3FjX0R4VE1nODExQ3FFc0hya3BXbVVFM3plaENPWEo0dWlLQjVFTTQ3Z1NoMWRTNC1ZRndxWUZ1cjZTWGVvcnpLY0hWRGZ2aVZiVlBvS2otdDljZkpRX1lTcXo0ejFncGppMXhn?oc=5",
+      "isNew": false
+    },
     {
       "id": "b0c2fcedf6de",
       "title": "From lender to advisor: Amy McIver on fund finance's next chapter",
@@ -100,7 +130,7 @@
     {
       "id": "824a4e522e8b",
       "title": "JGB yields jump as inflation worries resurface",
-      "source": "Reuters",
+      "source": "reuters.com",
       "date": "2026-09-24T00:58:00Z",
       "topic": "Rates & Macro",
       "summary": "",
@@ -160,7 +190,7 @@
     {
       "id": "6ad7a4a30e2e",
       "title": "Implications of rising bond yields",
-      "source": "corporate.vanguard.com",
+      "source": "Vanguard Corporate",
       "date": "2026-09-23T04:00:00Z",
       "topic": "Rates & Macro",
       "summary": "",
@@ -200,7 +230,7 @@
     {
       "id": "c7f0f8be1345",
       "title": "ILS NYC 2027 - Insurance linked securities conference in New York from Artemis",
-      "source": "Artemis.bm",
+      "source": "artemis.bm",
       "date": "2026-09-22T04:40:35Z",
       "topic": "Insurance AM",
       "summary": "",
@@ -275,36 +305,6 @@
       "topic": "Private Credit",
       "summary": "",
       "link": "https://news.google.com/rss/articles/CBMizwFBVV95cUxOekJwQlZPS2JFbHl4RlA0N29laGw0WWhMMi1jS2RVd3hYcHVLTFF5ajN4UUZFa2REWkFkWmNDT1IxbmJNT3VVT2x1RFd5UU9nZlNWak5pYUNnc1FDcGxRU2R3RjBfcmpEVE5Xd1BsTE5YSUdjTlRKZ0hkc2k5ay1sS0FTeFdETkxLRXd4Vk9lbExhTGFRS0ZudnVmVGUzemlNYmc4aFUxRzZmYVQ0WHg2SHJoVDZEaUdIX0xyazNHNkstUm5jRWFYR1BfSW42YVk?oc=5",
-      "isNew": false
-    },
-    {
-      "id": "3155239457f0",
-      "title": "What Set Off the Rise in Interest Rates? Mainly, the Iran War.",
-      "source": "The New York Times",
-      "date": "2026-09-18T15:52:46Z",
-      "topic": "Rates & Macro",
-      "summary": "",
-      "link": "https://news.google.com/rss/articles/CBMiigFBVV95cUxPcUVYT1JmOFZKQTE0RTlXMkczR0tFaVpCbUducWpycnpUU2g4QzhvbVNyNk1vNHFEQjNvdmpOMDkyWTB2aUVmUkpDZ1RkSkRZclR4clRHNWJhV1lEeDA3aVZ5Q1Brc0ZtdXllMVhtb21jOElBZzBNQ2pxbk5NdGVTV0NGTEx1M3R3Z0E?oc=5",
-      "isNew": false
-    },
-    {
-      "id": "40376df42dfc",
-      "title": "How To Win Assets in the 9.6T U.S. Insurance Market",
-      "source": "dakota.com",
-      "date": "2026-09-18T14:37:31Z",
-      "topic": "Private Credit",
-      "summary": "",
-      "link": "https://news.google.com/rss/articles/CBMikAFBVV95cUxQbE9HNEdOYm50N1hEVllQRXVXbnpwbV80R3U4V05SWE1vUlkxbkJYb2l5UFZTVWZ5eE4wWUk1UzBPeGRCNFJ2YTBqalgtTzAwWWZHNXlubTBhcVpZcWZkU01FZUVRdmVuZVFxaDFzZmlJNGdZc2tFUHlKQ0ZxQ2JhMDVqQlJ0WVpRb2ZhNW9OcETSAaABQVVfeXFMTkFxUjk0UWZhbFM3MW03U25nT2xnTWZVU3M5LXRNWnVRUmdVU29Ud3NHUlUycGoxUTltWi10ZkVEclNRM2FLVWVJSEhVdXZwS3A4Q2NOSGVSUUREdzZHcy1zSE5qWXRmc0lsdHVFT1h4cnZWRmpaV1FFSVcwVXVKT2JicHNfWE1sYlQxZ0pPNVJlalJ6dmxROGpRYVdPUFFEdw?oc=5",
-      "isNew": false
-    },
-    {
-      "id": "c6995434714e",
-      "title": "How To Win Assets in the 9.6T U.S. Insurance Market",
-      "source": "dakota.com",
-      "date": "2026-09-18T14:37:31Z",
-      "topic": "Insurance AM",
-      "summary": "",
-      "link": "https://news.google.com/rss/articles/CBMikAFBVV95cUxQbE9HNEdOYm50N1hEVllQRXVXbnpwbV80R3U4V05SWE1vUlkxbkJYb2l5UFZTVWZ5eE4wWUk1UzBPeGRCNFJ2YTBqalgtTzAwWWZHNXlubTBhcVpZcWZkU01FZUVRdmVuZVFxaDFzZmlJNGdZc2tFUHlKQ0ZxQ2JhMDVqQlJ0WVpRb2ZhNW9OcETSAaABQVVfeXFMTkFxUjk0UWZhbFM3MW03U25nT2xnTWZVU3M5LXRNWnVRUmdVU29Ud3NHUlUycGoxUTltWi10ZkVEclNRM2FLVWVJSEhVdXZwS3A4Q2NOSGVSUUREdzZHcy1zSE5qWXRmc0lsdHVFT1h4cnZWRmpaV1FFSVcwVXVKT2JicHNfWE1sYlQxZ0pPNVJlalJ6dmxROGpRYVdPUFFEdw?oc=5",
       "isNew": false
     }
   ]

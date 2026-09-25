@@ -1,5 +1,5 @@
 {
-  "updated": "2026-09-25T11:56:58Z",
+  "updated": "2026-09-25T17:16:58Z",
   "lookback_days": 14,
   "feeds": [
     {
@@ -29,7 +29,7 @@
     {
       "name": "Google News: Fortitude Re",
       "ok": true,
-      "count": 0,
+      "count": 1,
       "error": null
     },
     {
@@ -77,7 +77,7 @@
     {
       "name": "Google News: Sagicor",
       "ok": true,
-      "count": 3,
+      "count": 2,
       "error": null
     },
     {
@@ -112,6 +112,18 @@
     }
   ],
   "items": [
+    {
+      "id": "0840968d5739",
+      "title": "Is Reinsurance Group of America, Incorporated (RGA) Rewriting the Retirement Planning Playbook?",
+      "link": "https://news.google.com/rss/articles/CBMi1gFBVV95cUxNc21qRmRLU292MGg1S3RfaVFGc0lFS1JyWEJ0Q1N0aEJQZEFuMWNNVGFxR2FFUzJYblNSWWRVTEFaZlZYTktCdHd3VVl1Q1RpSnNUQnpGMG42SWlZWUo4RGZmY3MzbUgxNnZKbkRIMlZFV3hqc3ZleDBseUIwSTAwSmhnUFkyclZzTi1oTHE1Q0lxX1hzOUF2Nk5JMExpSlVaSUVxd1VLdUNsWUF3V3ZnRkF3aFkwMU0xLTZROFVNR0RINm94RzFTZDZlY1ZXVDFJcGp5bzh3?oc=5",
+      "source": "Kalkine Media",
+      "feed": "Google News: RGA",
+      "date": "2026-09-25T12:30:00Z",
+      "summary": "",
+      "companies": [
+        "RGA"
+      ]
+    },
     {
       "id": "9e0a35ca35eb",
       "title": "Reinsurance Group of America, Incorporated (RGA) Stock Price, News, Quote & History",
@@ -161,18 +173,6 @@
       ]
     },
     {
-      "id": "8c3300c005c4",
-      "title": "Sagicor prices $250M note offering to repay debt",
-      "link": "https://news.google.com/rss/articles/CBMiiAFBVV95cUxNTE14Zi1oNTRGcHNjVlU1MTl4TzRpbU1KZnc5TWhXRThDOEtVOGhWMk1fQzVha0ljczRWMWdTTWdYMm4tY2otYlhyUmRoRGVsd0FvaF9NWUY3Vk9FMU5JOUxiY0RQSGN2bE92bXJJVm5zcEFzTWRfQ0k4ZUdvdzRiNV9GOGFwYjZJ?oc=5",
-      "source": "Dealroom",
-      "feed": "Google News: Sagicor",
-      "date": "2026-09-23T08:20:31Z",
-      "summary": "",
-      "companies": [
-        "Sagicor"
-      ]
-    },
-    {
       "id": "4a417dcfb8ba",
       "title": "West Grove Re appoints former RGA leader Anthony Young as CEO",
       "link": "https://news.google.com/rss/articles/CBMipwFBVV95cUxOVHktYXVlOHVTdVQ4SUZCUnN1TS1vcDlCRkJTOEc3RmdpRWxFd0FkLUZvc2VDTkpXaDFSUllMQ3ZSZWxCb0JWZlZXNUtVX1BmOG9IQUhhT0Y5eFJiNEFSV0ZUREgxMUNmaFI5bmJRbXQzVWt3MExUTEJRU0FESl9HTDZXQ1REVEx1RlZ3Q1FQc0d2ZnFadzk1aEg2YUZxUHN6VzBEaWhZSQ?oc=5",
@@ -197,10 +197,22 @@
       ]
     },
     {
+      "id": "8c3300c005c4",
+      "title": "Sagicor prices $250M note offering to repay debt",
+      "link": "https://news.google.com/rss/articles/CBMiiAFBVV95cUxNTE14Zi1oNTRGcHNjVlU1MTl4TzRpbU1KZnc5TWhXRThDOEtVOGhWMk1fQzVha0ljczRWMWdTTWdYMm4tY2otYlhyUmRoRGVsd0FvaF9NWUY3Vk9FMU5JOUxiY0RQSGN2bE92bXJJVm5zcEFzTWRfQ0k4ZUdvdzRiNV9GOGFwYjZJ?oc=5",
+      "source": "Dealroom",
+      "feed": "Google News: Sagicor",
+      "date": "2026-09-22T22:17:01Z",
+      "summary": "",
+      "companies": [
+        "Sagicor"
+      ]
+    },
+    {
       "id": "64bdca379950",
       "title": "Reinsurance Group of America, Incorporated (RGA) latest stock news and headlines",
       "link": "https://news.google.com/rss/articles/CBMiV0FVX3lxTE5CdHFXVjBaOUtpRG1uM296dngxVElqR0x6cFZ2NjVySDAyaUZSQkpGdmRxWkk2U3VNR3lFQUxxeTdvbmxWQ3lybXM4cmVvN3VIcGJHS3pWNA?oc=5",
-      "source": "au.finance.yahoo.com",
+      "source": "Yahoo Finance Australia",
       "feed": "Google News: RGA",
       "date": "2026-09-22T20:38:27Z",
       "summary": "",
@@ -212,7 +224,7 @@
       "id": "86b19d684ede",
       "title": "Reinsurance Group of America (RGA): Buy, Sell, or Hold Post Q2 Earnings?",
       "link": "https://news.google.com/rss/articles/CBMi5wFBVV95cUxNZnd0OXYtVmxDWnhfSWFwc1dRa0Vpc2w3VHE2SVR2YXg3alA1OHRnNTZaYXJLLS1MdUNuRkk3NTJVZlIxN1pRUllrTjN5M1QxQnV6YUNnUzhPRkZ4YVM0Ymp0YmJjSnRpSXFSOWFfaklSY24zRFR2aFN0Q2xFX0xGOW9SRElYdklQcEhMOFJBTUFUNW55N0ZFMTBCaEhUMjB0QjZTQzJQUjBNejFnajh0TmZMOVBFaXR4UGJ2OHY0RV82WmUtQjlleWNfRkpQc3BIN1NfYm9iTGh4d1lfVWJWV1FGeEU3NW8?oc=5",
-      "source": "The Globe and Mail",
+      "source": "theglobeandmail.com",
       "feed": "Google News: RGA",
       "date": "2026-09-22T04:06:00Z",
       "summary": "",
@@ -308,7 +320,7 @@
       "id": "a992038e6b80",
       "title": "Aspida Holdings welcomes Sarfatti as Chief Risk Officer",
       "link": "https://news.google.com/rss/articles/CBMijgFBVV95cUxPaTZwXzUzNmRxS29Dcm45VVBwaHJveHRCV3pOVVdLQV9ZekM1dXFYdjZYWFd6c2hQMWxWX3l5YVR2VUJqZFhDMXgyX2JGSU1aNGdCUDB1M1ZaTGJfTTBpRXB5c2d4c2pmM0ZFU3IwOGNuR21STWJyRy1FNTREdW8wYlIzTTB2UnJIb3BhMld3?oc=5",
-      "source": "reinsurancene.ws",
+      "source": "Reinsurance News",
       "feed": "Google News: Aspida",
       "date": "2026-09-17T05:02:15Z",
       "summary": "",

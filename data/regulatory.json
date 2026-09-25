@@ -1,6 +1,36 @@
 {
-  "updated": "2026-09-25T11:56:55Z",
+  "updated": "2026-09-25T17:16:56Z",
   "naic": [
+    {
+      "id": "ff8a1c9afebb",
+      "title": "US insurance regulators defend oversight of insurers\u2019 growing private credit ties",
+      "date": "2026-09-25",
+      "cat": "Investment",
+      "summary": "",
+      "source": "Alternative Credit Investor",
+      "link": "https://news.google.com/rss/articles/CBMiygFBVV95cUxOYkYwb2V3Q3k1WGQyX0tLU291V1FELWM2UG5ZLTRuMFlGQ2FzT09RSnllMkxvb1dodnNmOGV5cHlrNll5eGxHMUdibkFOMjR5WTJwRFZhZ19xZE5SbHY2RHZrb2huX3FjX0R4VE1nODExQ3FFc0hya3BXbVVFM3plaENPWEo0dWlLQjVFTTQ3Z1NoMWRTNC1ZRndxWUZ1cjZTWGVvcnpLY0hWRGZ2aVZiVlBvS2otdDljZkpRX1lTcXo0ejFncGppMXhn?oc=5",
+      "isNew": true
+    },
+    {
+      "id": "d40352ecc529",
+      "title": "NAIC targets $1.2 trillion in insurer private credit with tighter solvency rules",
+      "date": "2026-09-25",
+      "cat": "Capital/Solvency",
+      "summary": "",
+      "source": "Insurance Business",
+      "link": "https://news.google.com/rss/articles/CBMi5AFBVV95cUxQVE1rOEdRM0pnYlU2ZzZETHBfQXlrcG1hTDNReHpDNUwtM3hKSkFoRFdKcmdJMVlmeUtlNllwVWs2NTVHT3EydEVrd2lZSU9iR3JKd2dFVV9DbTY5R2FXUXNUU1R5akNDUWFWM1h3MTNjYTdGbXBLdzRrdmVfcmlxWnQwSjVxVUNIdGNldVJDV1dJR1hjc3BrTVF2SXFUQU9IMWxhWGc1X01yUkpoczU5TnlBMFpnWk1kS08zUGxwS19iWndkS01TZTYzTWRSb1phOWl4cnhWY1NlN052OUhHS1dBems?oc=5",
+      "isNew": true
+    },
+    {
+      "id": "dd61a0388d78",
+      "title": "NAIC Details State Oversight of Changing Insurance Investments and Risk",
+      "date": "2026-09-25",
+      "cat": "Investment",
+      "summary": "",
+      "source": "Program Business",
+      "link": "https://news.google.com/rss/articles/CBMiqAFBVV95cUxPNVpaLWNCV01QU1dfUnREeS03U2loTmVNN3lxN3V2c3FVMW5hcUY2UnVTMGo5NHFZdE55Wml2WlNRRmpnSHNUZ0J4a05Xbzl5cmh2OGVKYnZ1Rk9tUGRacFZEVlphTTQ5Z3p1MEhPTzkzcXFIZlgxX1FtS0RHSjZMRHJsMVhpeG8tYV9lWUxETlJ1ZnNjQl9xa0pKR0JNZUdXN0NTXy1UV3M?oc=5",
+      "isNew": true
+    },
     {
       "id": "9dcffecf88f0",
       "title": "NAIC Letter Details Proactive State Oversight of Evolving Insurance Landscape",
@@ -217,38 +247,8 @@
       "date": "2026-08-21",
       "cat": "General",
       "summary": "",
-      "source": "caymanfinance.ky",
+      "source": "Cayman Finance",
       "link": "https://news.google.com/rss/articles/CBMinAFBVV95cUxPeDdNT04xWERXZWJKU3R5dG9ZMDgyUlZwTE5WOENfT1JGUGpUS2JZS1dNajNBaWw4UFRvOXZPaWo1MENLYVNRaEdpLVd5MnVCUHdIZ1ozblE1MTg1eVhBNDFkSk9oNXp3d3lIaUVhNGZBOS14XzJGdFZSN2ttTDJyMnRYZ1pSTzRvY0tGV3hTU3FqWjU2dTFFRkhlNzM?oc=5",
-      "isNew": false
-    },
-    {
-      "id": "7c2a4ef7305b",
-      "title": "NAIC proposes new restrictions on bond classification for ABS with significant ALM risk",
-      "date": "2026-08-20",
-      "cat": "General",
-      "summary": "",
-      "source": "DLA Piper",
-      "link": "https://news.google.com/rss/articles/CBMi3gFBVV95cUxOcGxBVmhyM1I4WTEwdHA2V0pqNlJnd1lnVXVWRk5TdEh0LWtVWmlNT3VlN0VMZ3dxZWxmRU9oQjBTNnZUV0pzX2luRzM2R2xnQzQ1UHZ3T3VfTTJzSk5xVGtuR2xjaDdMRXlFbzZJcVpiZVh2WEpqZWplVzFrTWEtR2xubzRtVjc3OFdNdjcyaUU1ZTQtR2FNd3VCd0xFZmtkckpEd3FtYVp0N2dlMU1DeE1LSDAySWJaaGRWTndlSEVvYzI2WGp5c0lRQkg2NGJvZ0NBajJ2WlpiWkNScUE?oc=5",
-      "isNew": false
-    },
-    {
-      "id": "260f5794b3cb",
-      "title": "NAIC Working Group adopts independent adjuster licensing guideline, seeks comments",
-      "date": "2026-08-20",
-      "cat": "Licensing",
-      "summary": "",
-      "source": "repairerdrivennews.com",
-      "link": "https://news.google.com/rss/articles/CBMixwFBVV95cUxOdnJHdmR6eVJyZGQzVTNGR25ycVV1VW1vaVNkU0lUYk5TNEQtSk8zdzdxbXVKOTZFQUx6amdhOWFVRFE1REhEVmNCNTRQTW5VNWtBQktxOThIemVHYXg1TGRpVXljUk0yV1BwNUd1bmdzS3FwRExxaXdyOTczanFVY3ZoaEVjTFJVbHI3UWl5VGFJZjBZUloyY3J4eHBEWmxZU2VfQjNZM05kU3RGZFFYUGJMZFZ3MVNwNEdOekhzM2oyUV8zSzA0?oc=5",
-      "isNew": false
-    },
-    {
-      "id": "497ce88c10c9",
-      "title": "Moody\u2019s urges tougher NAIC treatment for private credit ratings",
-      "date": "2026-08-20",
-      "cat": "Investment",
-      "summary": "",
-      "source": "Crypto Briefing",
-      "link": "https://news.google.com/rss/articles/CBMib0FVX3lxTE9GUnc4RXVqcUx0dEE5RjlUUTVoeWlGaEMtRlVPVEFfWXFVOFc2NWxvT3lQcnlkOFJZVGF2aVZWUVowdGhSSWx6UDFFZWoxQTVfVEJob3d1MXpVU05YTmRYWHZQckg2SkFVMHpfRjRkbw?oc=5",
       "isNew": false
     }
   ],
@@ -329,7 +329,7 @@
       "date": "2026-08-24",
       "cat": "General",
       "summary": "",
-      "source": "Bernews",
+      "source": "bernews.com",
       "link": "https://news.google.com/rss/articles/CBMidkFVX3lxTFAtMk5oeGM2aThiN1Zud1A4NWtYdy1fTVBDc1pscG15QWFwcVlEU0RqQ3lCb1pJYzNWSV9QdXRYWEFWTFFGd05iY0dNT1VZMUxMRUwzbGtDS1lvUG1nYWxhN203RVluS21PM1haNDJyVC1xd2NuTXc?oc=5",
       "isNew": false
     },
@@ -349,7 +349,7 @@
       "date": "2026-08-20",
       "cat": "General",
       "summary": "",
-      "source": "Bernews",
+      "source": "bernews.com",
       "link": "https://news.google.com/rss/articles/CBMic0FVX3lxTFBMaXl4eXRTMllDZEtiNkFXdVF3OEIzYXVJb3F2ME0yV0h0NHlERWZib3ItRGMwamphamI0d2tJcVlzVVdJeFhUUFlxajJEYVh5M2tIX01UeGl2eVlhbFo5Qlc4c1lCaFdCXzd5bmNDclVVRm8?oc=5",
       "isNew": false
     },
@@ -389,7 +389,7 @@
       "date": "2026-08-10",
       "cat": "General",
       "summary": "",
-      "source": "Bernews",
+      "source": "bernews.com",
       "link": "https://news.google.com/rss/articles/CBMiekFVX3lxTE1tTmdWVUZLZkUwcFpYY0RnbktoRlYzMS1Id1RDRTBNOEc0YUpNdWpNODhqWFN6VkNkc2dnV3ZnVHctTDFicmFEQnRGR3E3NnYwaGtKUkpvUDJPSW4tNHQzNW9jOHVMOXl4S1FadDc4VHR2WnZWRnE5dEN3?oc=5",
       "isNew": false
     },
@@ -459,7 +459,7 @@
       "date": "2026-07-22",
       "cat": "General",
       "summary": "",
-      "source": "Artemis.bm",
+      "source": "artemis.bm",
       "link": "https://news.google.com/rss/articles/CBMipAFBVV95cUxOM1B5X2ZUMThlOWl6Z2kyUWQ2cWpPLUM4a1ZiSXBaR2VPVmRLRjBzbWoyX2lxNkp6RElEUllTWDNibE5hYTFsV293RGJOcGdnT0R6SldVLWRMX2JFa3I0ZW1FUjlLTFJFVW9ReXlTN3ZqTVBiVHpoRVdzZENGYzFNdlBrQjY3MEJmUjZIQ2gtSDJXR0t1WlJ5VUsxaVNFMDdHeXduSQ?oc=5",
       "isNew": false
     },
@@ -499,7 +499,7 @@
       "date": "2026-07-22",
       "cat": "General",
       "summary": "",
-      "source": "captiveinternational.com",
+      "source": "Captive International",
       "link": "https://news.google.com/rss/articles/CBMigwFBVV95cUxNbENnbmtsM0pnWjdtZWFkeXNXVUVTQ2x4N1Z0SlI4YmJhRTFtdUpRWDBEWTBkcnp5WEJGejBLdkZJWmxYQk9oTWMxM09FblYzQXo5eG1BNWg4V2hNdk5SaXd5MUxHVWF3b1pwQnBBWDN1c1BPa3VVeXN5eW5mUkRqdTJoMA?oc=5",
       "isNew": false
     }
@@ -561,7 +561,7 @@
       "date": "2026-08-24",
       "cat": "Investment",
       "summary": "",
-      "source": "caymanfinance.ky",
+      "source": "Cayman Finance",
       "link": "https://news.google.com/rss/articles/CBMiwgFBVV95cUxOdi13dnhON09ZdWo3bkR1TWVXWHdjVFJTc3VjNnVjNDY3N0M3dGFwUjFiSUQ5b2JoMHBRU3pqQ0hxbWlSN2hnTVp4YlNaNjdqdjF5Tl94cW1mU1NqWl9lcUJoX0JadHN2QlZuc3J1Z3E4THlJbzNRMjRuYWFSa0s5NUdTOG1UMDhETy1kS0Z0cmRpYlU1NGtCUmFoLUJOTUsxd2xiVU1fUTVoWF9abGlRcmhrc0U3cFF6WDNRWHhmSHl1Zw?oc=5",
       "isNew": false
     },
@@ -581,7 +581,7 @@
       "date": "2026-08-19",
       "cat": "General",
       "summary": "",
-      "source": "caymanfinance.ky",
+      "source": "Cayman Finance",
       "link": "https://news.google.com/rss/articles/CBMixAFBVV95cUxPVU9oN19GaWVwc3J6VWdyM29Cb0FndDdlenNiR0loWFVfNTliaHlrVUkta3VQZVNxa21DS01lU0hZRS10SktzUlM0eTBSdWpNZEJIdWRvU1A0bXgzeWZHMVpYQ2F5S3p6TWl1aUFCWE9mT05XR2VNVktMcUdDYmlCWmROc292RjNMb3hfVWM4X0xMaHZCOFF0VHd6Sl9YOGNsaFktbm01TUsyS0RtV1oxbXhfb1p0MG5fejR1cnEtS0pHd1NQ?oc=5",
       "isNew": false
     },
@@ -621,7 +621,7 @@
       "date": "2026-07-29",
       "cat": "Licensing",
       "summary": "",
-      "source": "caymanfinance.ky",
+      "source": "Cayman Finance",
       "link": "https://news.google.com/rss/articles/CBMimwFBVV95cUxPbjctUnRXSmlFbHZINHdNSHFEQ19OTzVXeXMtVnJuejBDbHBMZEY1ZjNTWW1FLUVwVm5BdXdWbDFBTWhXQzNobWt6eWZlRmpWVUY5TGNncjJQQTFKczl0RWNnSnRNaG5tdnJGOTRFanBaYl9vWnNrR3RoaDFTZzRBT2VwUkRSQ3NpTEJkakcwV0I1YmtSY25qYVFlMA?oc=5",
       "isNew": false
     },
