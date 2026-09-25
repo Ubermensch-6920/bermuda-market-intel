@@ -14,15 +14,15 @@
     "30Y"
   ],
   "yields": [
-    5.73,
-    6.43,
-    6.63,
-    6.83,
-    7.14,
+    6.19,
+    6.51,
+    6.69,
+    6.82,
     7.11,
-    7.2425,
-    7.375,
-    7.64
+    7.14,
+    7.2625,
+    7.385,
+    7.63
   ],
   "prior_yields": [
     5.77,
@@ -37,15 +37,15 @@
   ],
   "prior_date": "2026-09-24",
   "prior_1m_yields": [
-    5.789,
-    6.098,
-    6.246,
-    6.472,
-    6.708,
-    6.847,
+    5.792,
+    6.102,
+    6.248,
+    6.459,
+    6.703,
+    6.855,
     7.0075,
     7.165,
-    7.474
+    7.479
   ],
   "prior_1m_date": "",
   "prior_3m_yields": [
@@ -61,15 +61,15 @@
   ],
   "prior_3m_date": "2026-06-26",
   "year_ago_yields": [
-    5.863,
     5.808,
-    5.914,
-    6.252,
-    6.486,
-    6.483,
+    5.757,
+    5.916,
+    6.199,
+    6.481,
+    6.491,
     null,
     null,
-    7.175
+    7.188
   ],
   "year_ago_date": "",
   "derived": {
@@ -79,5 +79,5 @@
     "year_ago": "TE year delta reconstruction"
   },
   "note": "FBIL latest first, then Investing/TE/FRED, then local history / cache. India 3M curve is exact once local history accumulates.",
-  "_fetched": "2026-09-25T04:59:08.380954Z"
+  "_fetched": "2026-09-25T11:52:28.279062Z"
 }
