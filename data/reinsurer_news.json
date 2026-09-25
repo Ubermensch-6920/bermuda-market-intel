@@ -1,5 +1,5 @@
 {
-  "updated": "2026-09-25T17:16:58Z",
+  "updated": "2026-09-25T21:40:24Z",
   "lookback_days": 14,
   "feeds": [
     {
@@ -106,9 +106,9 @@
     },
     {
       "name": "Reinsurance News",
-      "ok": true,
-      "count": 10,
-      "error": null
+      "ok": false,
+      "count": 0,
+      "error": "HTTPError: HTTP Error 403: Forbidden"
     }
   ],
   "items": [
@@ -119,18 +119,6 @@
       "source": "Kalkine Media",
       "feed": "Google News: RGA",
       "date": "2026-09-25T12:30:00Z",
-      "summary": "",
-      "companies": [
-        "RGA"
-      ]
-    },
-    {
-      "id": "9e0a35ca35eb",
-      "title": "Reinsurance Group of America, Incorporated (RGA) Stock Price, News, Quote & History",
-      "link": "https://news.google.com/rss/articles/CBMiUEFVX3lxTE1qamdrTE91Y3FMZFdXWkp6N2hGVlFXY08zdXdsUmlQM0tnMjg0V2o5UmRFTHVIdEdTbnlUSm9vem5BbHZ5MmE5LVpHZWJ3LXh5?oc=5",
-      "source": "Yahoo! Finance Canada",
-      "feed": "Google News: RGA",
-      "date": "2026-09-24T13:36:14Z",
       "summary": "",
       "companies": [
         "RGA"
@@ -155,6 +143,30 @@
       "source": "Yahoo Finance",
       "feed": "Google News: RGA",
       "date": "2026-09-24T00:04:02Z",
+      "summary": "",
+      "companies": [
+        "RGA"
+      ]
+    },
+    {
+      "id": "64bdca379950",
+      "title": "Reinsurance Group of America, Incorporated (RGA) latest stock news and headlines",
+      "link": "https://news.google.com/rss/articles/CBMiV0FVX3lxTE5CdHFXVjBaOUtpRG1uM296dngxVElqR0x6cFZ2NjVySDAyaUZSQkpGdmRxWkk2U3VNR3lFQUxxeTdvbmxWQ3lybXM4cmVvN3VIcGJHS3pWNA?oc=5",
+      "source": "Yahoo Finance Australia",
+      "feed": "Google News: RGA",
+      "date": "2026-09-23T20:38:27Z",
+      "summary": "",
+      "companies": [
+        "RGA"
+      ]
+    },
+    {
+      "id": "9e0a35ca35eb",
+      "title": "Reinsurance Group of America, Incorporated (RGA) Stock Price, News, Quote & History",
+      "link": "https://news.google.com/rss/articles/CBMiUEFVX3lxTE1qamdrTE91Y3FMZFdXWkp6N2hGVlFXY08zdXdsUmlQM0tnMjg0V2o5UmRFTHVIdEdTbnlUSm9vem5BbHZ5MmE5LVpHZWJ3LXh5?oc=5",
+      "source": "Yahoo! Finance Canada",
+      "feed": "Google News: RGA",
+      "date": "2026-09-23T19:36:14Z",
       "summary": "",
       "companies": [
         "RGA"
@@ -209,22 +221,10 @@
       ]
     },
     {
-      "id": "64bdca379950",
-      "title": "Reinsurance Group of America, Incorporated (RGA) latest stock news and headlines",
-      "link": "https://news.google.com/rss/articles/CBMiV0FVX3lxTE5CdHFXVjBaOUtpRG1uM296dngxVElqR0x6cFZ2NjVySDAyaUZSQkpGdmRxWkk2U3VNR3lFQUxxeTdvbmxWQ3lybXM4cmVvN3VIcGJHS3pWNA?oc=5",
-      "source": "Yahoo Finance Australia",
-      "feed": "Google News: RGA",
-      "date": "2026-09-22T20:38:27Z",
-      "summary": "",
-      "companies": [
-        "RGA"
-      ]
-    },
-    {
       "id": "86b19d684ede",
       "title": "Reinsurance Group of America (RGA): Buy, Sell, or Hold Post Q2 Earnings?",
       "link": "https://news.google.com/rss/articles/CBMi5wFBVV95cUxNZnd0OXYtVmxDWnhfSWFwc1dRa0Vpc2w3VHE2SVR2YXg3alA1OHRnNTZaYXJLLS1MdUNuRkk3NTJVZlIxN1pRUllrTjN5M1QxQnV6YUNnUzhPRkZ4YVM0Ymp0YmJjSnRpSXFSOWFfaklSY24zRFR2aFN0Q2xFX0xGOW9SRElYdklQcEhMOFJBTUFUNW55N0ZFMTBCaEhUMjB0QjZTQzJQUjBNejFnajh0TmZMOVBFaXR4UGJ2OHY0RV82WmUtQjlleWNfRkpQc3BIN1NfYm9iTGh4d1lfVWJWV1FGeEU3NW8?oc=5",
-      "source": "theglobeandmail.com",
+      "source": "The Globe and Mail",
       "feed": "Google News: RGA",
       "date": "2026-09-22T04:06:00Z",
       "summary": "",

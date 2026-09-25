@@ -1,13 +1,13 @@
 # Reinsurer News Monitor
 
 Bermuda life & annuity watchlist — last 14 days — 22 items
-Generated Fri 25 Sep 2026, 14:16 ADT
+Generated Fri 25 Sep 2026, 18:40 ADT
 
 ## Feed status
 
 - ✅ **Artemis.bm** — 10 items
 - ✅ **Google News (16 of 16 companies)** — 51 items
-- ✅ **Reinsurance News** — 10 items
+- ❌ **Reinsurance News** — failed: HTTPError: HTTP Error 403: Forbidden
 
 ## Athene
 
@@ -32,12 +32,12 @@ Generated Fri 25 Sep 2026, 14:16 ADT
 ## RGA
 
 - **2026-09-25** — Kalkine Media — [Is Reinsurance Group of America, Incorporated (RGA) Rewriting the Retirement Planning Playbook?](https://news.google.com/rss/articles/CBMi1gFBVV95cUxNc21qRmRLU292MGg1S3RfaVFGc0lFS1JyWEJ0Q1N0aEJQZEFuMWNNVGFxR2FFUzJYblNSWWRVTEFaZlZYTktCdHd3VVl1Q1RpSnNUQnpGMG42SWlZWUo4RGZmY3MzbUgxNnZKbkRIMlZFV3hqc3ZleDBseUIwSTAwSmhnUFkyclZzTi1oTHE1Q0lxX1hzOUF2Nk5JMExpSlVaSUVxd1VLdUNsWUF3V3ZnRkF3aFkwMU0xLTZROFVNR0RINm94RzFTZDZlY1ZXVDFJcGp5bzh3?oc=5)
-- **2026-09-24** — Yahoo! Finance Canada — [Reinsurance Group of America, Incorporated (RGA) Stock Price, News, Quote & History](https://news.google.com/rss/articles/CBMiUEFVX3lxTE1qamdrTE91Y3FMZFdXWkp6N2hGVlFXY08zdXdsUmlQM0tnMjg0V2o5UmRFTHVIdEdTbnlUSm9vem5BbHZ5MmE5LVpHZWJ3LXh5?oc=5)
 - **2026-09-24** — simplywall.st — [Reinsurance Group Of America (RGA) Could Be 9% Undervalued Following Its Recent Run](https://news.google.com/rss/articles/CBMi3gFBVV95cUxPYm9CUnNBY1J5blJ5d3UyQXNXMlhzUFg0elRySUQ5a1FtUGNiaXBjeUtSbGxVMDlDUzZqZ0txbE5ic0RrWFNyRThKT2pmaWxfUUNob1FhZ2NNTUhIcUNLRlF2R2pteWM3bTZYd2pIWWRuQ1pkaE9lZWFqUzV6YXk2bGVFQ0txVlY4SEVUV29FLVYzTEhpOHhFb0cwUVo1ZVg5LWFOM2ZUeXRWeUt4bzNFZzB1VzBJYmRIYm9iNk5VVXVkVGZ1QW5hMTJsUjNaUFBjb05tc0lCTXY4cnpIQnfSAeMBQVVfeXFMTlpUZHRxN0J5OHFHQ1duY0J2c3hYSlYxYTVfYzNhTXNjTVU5Q2JGUmtNYmdJWG00blVZdjNadlJxaDNRSWNaeURTa3FKdTVJVGxLb2pNZEt6OGtLUWFDX1B2V1hzeUR6ck9RSEMtbkI4b096RDZGNHFSd0Flb3A5NFhheEZubV9vai1zS05tdW51Vzc3S3ZDdVc3eEN4SlFYRnd1WERrc3IzV2lGVzNLMllQS3ViZ0xQQlh1X1NHVjUwUVg3TWhpSk1vZGZNM1dWeThnOEFsa2JKdWk2Q2ZIS1p3Wkk?oc=5)
 - **2026-09-23** — Yahoo Finance — [Reinsurance Group of America, I (RGA) Stock Forecasts](https://news.google.com/rss/articles/CBMijwFBVV95cUxPODJJY1lNYzNMdXdFOHU3dWRWUElzaDJSSF81cUlBQTJnVGhaWnM1RzQ1ZnF6eW9fODdNN0pOdlUxSGtkRFIyaDdxMDBkQUloTUMyaG1hdUhfNFl2M3VIbmROTHFKTzROaXRoako4bDU2VEs5MDZPZWExbXpvYUJEd2g2eTQteUtnOENic2xDVQ?oc=5)
+- **2026-09-23** — Yahoo Finance Australia — [Reinsurance Group of America, Incorporated (RGA) latest stock news and headlines](https://news.google.com/rss/articles/CBMiV0FVX3lxTE5CdHFXVjBaOUtpRG1uM296dngxVElqR0x6cFZ2NjVySDAyaUZSQkpGdmRxWkk2U3VNR3lFQUxxeTdvbmxWQ3lybXM4cmVvN3VIcGJHS3pWNA?oc=5)
+- **2026-09-23** — Yahoo! Finance Canada — [Reinsurance Group of America, Incorporated (RGA) Stock Price, News, Quote & History](https://news.google.com/rss/articles/CBMiUEFVX3lxTE1qamdrTE91Y3FMZFdXWkp6N2hGVlFXY08zdXdsUmlQM0tnMjg0V2o5UmRFTHVIdEdTbnlUSm9vem5BbHZ5MmE5LVpHZWJ3LXh5?oc=5)
 - **2026-09-23** — Bermuda Re — [West Grove Re appoints former RGA leader Anthony Young as CEO](https://news.google.com/rss/articles/CBMipwFBVV95cUxOVHktYXVlOHVTdVQ4SUZCUnN1TS1vcDlCRkJTOEc3RmdpRWxFd0FkLUZvc2VDTkpXaDFSUllMQ3ZSZWxCb0JWZlZXNUtVX1BmOG9IQUhhT0Y5eFJiNEFSV0ZUREgxMUNmaFI5bmJRbXQzVWt3MExUTEJRU0FESl9HTDZXQ1REVEx1RlZ3Q1FQc0d2ZnFadzk1aEg2YUZxUHN6VzBEaWhZSQ?oc=5)
-- **2026-09-22** — Yahoo Finance Australia — [Reinsurance Group of America, Incorporated (RGA) latest stock news and headlines](https://news.google.com/rss/articles/CBMiV0FVX3lxTE5CdHFXVjBaOUtpRG1uM296dngxVElqR0x6cFZ2NjVySDAyaUZSQkpGdmRxWkk2U3VNR3lFQUxxeTdvbmxWQ3lybXM4cmVvN3VIcGJHS3pWNA?oc=5)
-- **2026-09-22** — theglobeandmail.com — [Reinsurance Group of America (RGA): Buy, Sell, or Hold Post Q2 Earnings?](https://news.google.com/rss/articles/CBMi5wFBVV95cUxNZnd0OXYtVmxDWnhfSWFwc1dRa0Vpc2w3VHE2SVR2YXg3alA1OHRnNTZaYXJLLS1MdUNuRkk3NTJVZlIxN1pRUllrTjN5M1QxQnV6YUNnUzhPRkZ4YVM0Ymp0YmJjSnRpSXFSOWFfaklSY24zRFR2aFN0Q2xFX0xGOW9SRElYdklQcEhMOFJBTUFUNW55N0ZFMTBCaEhUMjB0QjZTQzJQUjBNejFnajh0TmZMOVBFaXR4UGJ2OHY0RV82WmUtQjlleWNfRkpQc3BIN1NfYm9iTGh4d1lfVWJWV1FGeEU3NW8?oc=5)
+- **2026-09-22** — The Globe and Mail — [Reinsurance Group of America (RGA): Buy, Sell, or Hold Post Q2 Earnings?](https://news.google.com/rss/articles/CBMi5wFBVV95cUxNZnd0OXYtVmxDWnhfSWFwc1dRa0Vpc2w3VHE2SVR2YXg3alA1OHRnNTZaYXJLLS1MdUNuRkk3NTJVZlIxN1pRUllrTjN5M1QxQnV6YUNnUzhPRkZ4YVM0Ymp0YmJjSnRpSXFSOWFfaklSY24zRFR2aFN0Q2xFX0xGOW9SRElYdklQcEhMOFJBTUFUNW55N0ZFMTBCaEhUMjB0QjZTQzJQUjBNejFnajh0TmZMOVBFaXR4UGJ2OHY0RV82WmUtQjlleWNfRkpQc3BIN1NfYm9iTGh4d1lfVWJWV1FGeEU3NW8?oc=5)
 - **2026-09-21** — TradingView — [RGA Expands Growth Runway Through Financial Solutions & Longevity](https://news.google.com/rss/articles/CBMiuwFBVV95cUxPMFdSSGJGZjNlREVWeDlyaDNSYmE3eGtaT24xVnN3cENFYmdvUEJiajZGX2Z5SENaZHdVc0ZGc2t4UklhcDdlbTZOSUt1ZTRocEwtZk9Sd2NHZHdGRUpNaUNmekkyenlkYm9paEhZb0tMTHoyb2pOYzNFNTdnelZCSU9QdjJoWDY1MzlZNVdpMmpMSnptWWlNbEM4b29XS1JPc2JNR1FrSmE3RHFzUXZfaU9OMXNLSzBZTlVz?oc=5)
 - **2026-09-18** — Intelligent Insurer — [Former RGA leader takes helm at West Grove Re](https://news.google.com/rss/articles/CBMihwFBVV95cUxNck54Nm9NejlNOWdic09ueHdrRHAyUDdhQVJlMHJkZFhqNVpHRmtySTNEejZGZFU0VlZURDZlcUU3dGowbGlGdnl3M2VBUW5UVFd2OEtGdm85clRycUFhWklHN3JTUjZPdGR1dUtwT3VhcTYzVWJqS0paNm1jR0kxUW5CQUotVUk?oc=5)
 - **2026-09-15** — MarketBeat — [California State Teachers Retirement System Acquires 624 Shares of Reinsurance Group of America, Incorporated $RGA](https://news.google.com/rss/articles/CBMiigJBVV95cUxNRENDRTUyZ1hLS3NnRjJGRXhycjVEeVpwVkI2RFVZc0ZtWVdraTlFVE1fWktieHQtc1ZhOTJMV0MtVVVWUUx2WHFwaThOelZVTkliMDZnYUZRVWJkdU9IYzlVeEMtdVpLUXNkV1NYcVhuVzBCSm1TWDNTLWtkUnhmVy12NVZ0NFVHN1QzTGY0NGhtQjhqeHJFRGJTNzJ6dDlWSk8xT0lNdkZoOUNpUW5aR3BNeU5sVFVmeDl4V1dVeldveXBleXRoclZQUjBveEdEZUhkeVNjVFByR2ZndzlVTnlOZFdfVXJTcVllaFpWMWNEZUdNN0dxbzU3b1BjclZ0bS1JMEp2cU1Pdw?oc=5)
