@@ -1,5 +1,5 @@
 {
-  "updated": "2026-09-24T21:36:39Z",
+  "updated": "2026-09-25T05:04:49Z",
   "topics": [
     "Insurance AM",
     "Private Credit",
@@ -7,6 +7,16 @@
     "Structured Credit"
   ],
   "items": [
+    {
+      "id": "c4b7f13a254e",
+      "title": "Why the bond market is freaking out, and what it means for your money",
+      "source": "CBS News",
+      "date": "2026-09-24T19:08:00Z",
+      "topic": "Rates & Macro",
+      "summary": "",
+      "link": "https://news.google.com/rss/articles/CBMie0FVX3lxTE9TdmlpTmlrZWppS2ZjMHJSMll0aXF5Q2tYc1FRcmdrbldENHRiTW9RVE5QWVZJOEtRTTEzMmFfdjIxMnpGd1FCTmxyUnF6dUZDY2ZDTUpTc3N4cWlZRWo4RmFuVUdKbWRTYkg3blRvbjdrOVJwTXpkUkFaSQ?oc=5",
+      "isNew": false
+    },
     {
       "id": "dc4ef9852ec0",
       "title": "Loan Note: Trust is building in semi-liquid fund market; regulators eye insurance ownership",
@@ -58,6 +68,26 @@
       "isNew": false
     },
     {
+      "id": "824a4e522e8b",
+      "title": "JGB yields jump as inflation worries resurface",
+      "source": "Reuters",
+      "date": "2026-09-24T00:58:00Z",
+      "topic": "Rates & Macro",
+      "summary": "",
+      "link": "https://news.google.com/rss/articles/CBMiwgFBVV95cUxPQXBZNDBQTW02eEF0MFZoT0dHRnp3d3Q2bU1YTmFMQWxpdEFWM0FTSDRpV2FnSjdmOGVzT0dTaWFqT1cwS0s3SEUwdnV1cS02UlVBRGkzb1NBcThtZjBTT2Zsd2NUWTB1ejMxUHlxTWVrMmFkUktDbFZYbHJZbDAwMXJWX040YzA3WjRiZjhWNWQyMlQ3cmRNSWhySjQxaVl0S0Q4YXc5bGFNRDU1S3dqMHVnWVVnTFdaVW5TcXlCeVdOdw?oc=5",
+      "isNew": false
+    },
+    {
+      "id": "154bcf2dbbde",
+      "title": "10 Ways to Explain Why Interest Rates Are So High",
+      "source": "The New York Times",
+      "date": "2026-09-23T18:40:00Z",
+      "topic": "Rates & Macro",
+      "summary": "",
+      "link": "https://news.google.com/rss/articles/CBMijgFBVV95cUxNRW5YWVh0NGRxU2ZrcmloZkhuUXJtSmgtMG5ySnhPRjBSYXR6aDJrN1M3REN2dlNUNkJETEhJbzhOd2JkcGZsZnlsaE13RWpvXzJBZEJsY25DbkJ3S29tcHlYRXlrRGV5Qk9RYmRHREcxWV92VTJObG10T2RxSkhrQjMtd0FGYXdxMENLazJB?oc=5",
+      "isNew": false
+    },
+    {
       "id": "3d9f55f0bef7",
       "title": "Lawsuit claims Delaware Life hid billions in insurer-linked investments",
       "source": "InsuranceNewsNet",
@@ -98,19 +128,9 @@
       "isNew": false
     },
     {
-      "id": "154bcf2dbbde",
-      "title": "10 Ways to Explain Why Interest Rates Are So High",
-      "source": "The New York Times",
-      "date": "2026-09-23T07:00:00Z",
-      "topic": "Rates & Macro",
-      "summary": "",
-      "link": "https://news.google.com/rss/articles/CBMijgFBVV95cUxNRW5YWVh0NGRxU2ZrcmloZkhuUXJtSmgtMG5ySnhPRjBSYXR6aDJrN1M3REN2dlNUNkJETEhJbzhOd2JkcGZsZnlsaE13RWpvXzJBZEJsY25DbkJ3S29tcHlYRXlrRGV5Qk9RYmRHREcxWV92VTJObG10T2RxSkhrQjMtd0FGYXdxMENLazJB?oc=5",
-      "isNew": false
-    },
-    {
       "id": "6ad7a4a30e2e",
       "title": "Implications of rising bond yields",
-      "source": "Vanguard Corporate",
+      "source": "corporate.vanguard.com",
       "date": "2026-09-23T04:00:00Z",
       "topic": "Rates & Macro",
       "summary": "",
@@ -140,7 +160,7 @@
     {
       "id": "79ece7ef9395",
       "title": "Why Bond Markets Are Pricing In Too Many Interest Rate Rises",
-      "source": "Morningstar",
+      "source": "global.morningstar.com",
       "date": "2026-09-22T05:12:47Z",
       "topic": "Rates & Macro",
       "summary": "",
@@ -160,7 +180,7 @@
     {
       "id": "5014267dafb8",
       "title": "Convergence of Asset Management, Insurance Capital and Strategic M&A: Key Takeaways From the Skadden-PJT Partners Panel Event",
-      "source": "jdsupra.com",
+      "source": "JD Supra",
       "date": "2026-09-21T20:45:14Z",
       "topic": "Insurance AM",
       "summary": "",
@@ -220,7 +240,7 @@
     {
       "id": "62b45a66c5e8",
       "title": "The Private Equity And Private Credit Loop Threatening Life Insurers",
-      "source": "forbes.com",
+      "source": "Forbes",
       "date": "2026-09-18T18:16:50Z",
       "topic": "Private Credit",
       "summary": "",
@@ -285,26 +305,6 @@
       "topic": "Insurance AM",
       "summary": "",
       "link": "https://news.google.com/rss/articles/CBMiqgFBVV95cUxOZmNEYWJRMWl1NlpYRUI0WHVsNGY3TzA3d29aSkNRSnAyNTBLRDV1c3BfbWFfTmU4QTJGWHFKWmRaVkloZ1AzbGxGaWg2eExUclUydnNYMWJybFVrb3BYUzh4UkFOSXVuSDhwS1JwQmNWVDB2TFZQcWdrOV9YVW1KYkc2TnphMHhDdDFuUFJwczdxZEo1aXZzYWZZV0ZSZEc1QnR4Si1fd1F3dw?oc=5",
-      "isNew": false
-    },
-    {
-      "id": "6f6198278d96",
-      "title": "Bank of Japan Raises Rates, Making U.S. Less Alluring for Tokyo Investors",
-      "source": "WSJ",
-      "date": "2026-09-18T08:56:00Z",
-      "topic": "Rates & Macro",
-      "summary": "",
-      "link": "https://news.google.com/rss/articles/CBMiygFBVV95cUxPaUo2NVY4c3UzcU9VeDBvMHZ2bkI2bTJsUEkxeW5HNHBQZ0ZkNXgzZlVqekJKUHFpSDZ2ZTAwZERVTmttV1ZJY0tBSllxaE9vN1poTG9sNWZFcVZXSlVxdkRwanpuaTF3VFRHbm1ZQ3MxeEdzQlNpa28tUnRSMlFfLWpvXzJjUURRMno0X3VaOUtENmNiQ1NvSEk4Xy1xdGZNbWV6RXdsNTl6ZURJbGhXcF96MUxOQk0wM0YwWkN3SnIxdHNyWjB4YjNn?oc=5",
-      "isNew": false
-    },
-    {
-      "id": "2aa41f4ad90a",
-      "title": "Brookfield Corporation: Record Fundraising, Growing Insurance Earnings, And A Near-Term Investor Day Catalyst",
-      "source": "Seeking Alpha",
-      "date": "2026-09-18T07:54:11Z",
-      "topic": "Insurance AM",
-      "summary": "",
-      "link": "https://news.google.com/rss/articles/CBMi4AFBVV95cUxQLUpXal8xODdycXQ1LTNLc1JvOHhIV09xdjRJN1JzWnIwRHF4Q0tEMm9zM0laX3lTSk5KNGo4b2FfYUtkSWpUeXpHYlgwLWRiZExybVBWamg4ZHV6LXEtc2JuOVdfWF9zYUhxQmdwOUNYdVdYR0pkQm5iVjIzUURSQU5jNVV1eTlwaFZuUWJQLU0tYTdpZ0pvRjdfVFVla3ZURllxeHpIS2RDZ0pwRXl0ZnZZRVZ2T1hFQ2VtZ3A5eHdBN3VNTGl3Q2ZYT09QM3JGQWpKMHZPM0xWREpNMnJOeg?oc=5",
       "isNew": false
     }
   ]

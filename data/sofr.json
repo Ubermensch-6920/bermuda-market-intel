@@ -78,8 +78,8 @@
     {
       "date": "2025-09-09",
       "rate": 4.4,
-      "ust_3m": 4.1,
-      "ust_1y": 3.68
+      "ust_3m": null,
+      "ust_1y": null
     },
     {
       "date": "2025-09-10",
@@ -1637,29 +1637,10 @@
     }
   ],
   "year_ago": {
-    "rate": 4.13,
-    "date": "2025-09-24"
+    "rate": 4.18,
+    "date": "2025-09-25"
   },
-  "term_rates": {
-    "1M": {
-      "name": "SOFR 30D Avg",
-      "rate": 3.6976,
-      "prior": 3.6903,
-      "date": "2026-09-24"
-    },
-    "3M": {
-      "name": "SOFR 90D Avg",
-      "rate": 3.6645,
-      "prior": 3.662,
-      "date": "2026-09-24"
-    },
-    "6M": {
-      "name": "SOFR 180D Avg",
-      "rate": 3.6667,
-      "prior": 3.6654,
-      "date": "2026-09-24"
-    }
-  },
+  "term_rates": {},
   "note": "Published daily by NY Fed at ~8:00 AM ET. Averages are backward-looking compounded (30/90/180-day) via FRED.",
-  "_fetched": "2026-09-24T21:32:54.850149Z"
+  "_fetched": "2026-09-25T05:01:28.354266Z"
 }
