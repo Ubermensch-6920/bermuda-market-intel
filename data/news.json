@@ -1,5 +1,5 @@
 {
-  "updated": "2026-09-26T21:15:50Z",
+  "updated": "2026-09-26T23:42:56Z",
   "topics": [
     "Insurance AM",
     "Private Credit",
@@ -14,13 +14,13 @@
       "date": "2026-09-26T20:51:19Z",
       "topic": "Insurance AM",
       "summary": "",
-      "link": "https://news.google.com/rss/articles/CBMiogFBVV95cUxPdTFxUlV3WU9xT3BFNThfSk42SEtMc1VWSUwzV3gyN183NzVsNERXR1U4c0I1d2Q2Ul9lX2FLdHNBdDVwbmNYUm5TZ2QwWjBjdHlaZ0YyQ3hDdEgtR2liUk1UTDJLM2Zad0w3MFhOb293cE5UVmdnT0pWdzhCUTdGR1NrYWdxdzVfbjVJbnJWU1BTVjBZeXlnLVZwT3B1R1ZvSGfSAacBQVVfeXFMTXRGRlVYbU14aGpXZjhKdjVJTVRsLUVHSWhvZjRfWjAyc0VQT0tNMC1GM3lDWmxBQzFkMG1OdjN1Y0JiLUZXdzVDYXM5bENSOHdreXV0Z3RVczZRN0hLWmY4YzNmalliOGpyVS1PVXBDQ3dEQzZ1aE1kWGJhazlieEF5WnF1NFNSUFVhMGRIb3phYWdPN2NmUHVlWHNleE1SZ3FpbHNtWlU?oc=5",
+      "link": "https://news.google.com/rss/articles/CBMipwFBVV95cUxNdEZGVVhtTXhoaldmOEp2NUlNVGwtRUdJaG9mNF9aMDJzRVBPS00wLUYzeUNabEFDMWQwbU52M3VjQmItRld3NUNhczlsQ1I4d2t5dXRndFVzNlE3SEtaZjhjM2ZqWWI4anJVLU9VcENDd0RDNnVoTWRYYmFrOWJ4QXlacXU0U1JQVWEwZEhvemFhZ083Y2ZQdWVYc2V4TVJncWlsc21aVdIBpwFBVV95cUxNdEZGVVhtTXhoaldmOEp2NUlNVGwtRUdJaG9mNF9aMDJzRVBPS00wLUYzeUNabEFDMWQwbU52M3VjQmItRld3NUNhczlsQ1I4d2t5dXRndFVzNlE3SEtaZjhjM2ZqWWI4anJVLU9VcENDd0RDNnVoTWRYYmFrOWJ4QXlacXU0U1JQVWEwZEhvemFhZ083Y2ZQdWVYc2V4TVJncWlsc21aVQ?oc=5",
       "isNew": false
     },
     {
       "id": "57fa6c31471f",
       "title": "NAIC tightens oversight of private credit and insurer investments",
-      "source": "Beinsure",
+      "source": "beinsure.com",
       "date": "2026-09-25T19:06:35Z",
       "topic": "Structured Credit",
       "summary": "",
@@ -40,7 +40,7 @@
     {
       "id": "867cc7d53dad",
       "title": "Rich People Fleeing Private Credit Haven't Learned Their Lesson",
-      "source": "fa-mag.com",
+      "source": "FA Mag",
       "date": "2026-09-25T13:32:12Z",
       "topic": "Private Credit",
       "summary": "",
@@ -78,9 +78,19 @@
       "isNew": false
     },
     {
+      "id": "d23843a4508a",
+      "title": "Why bond yields are rising and why everyone should care",
+      "source": "ABC News - Breaking News, Latest News and Videos",
+      "date": "2026-09-24T21:01:48Z",
+      "topic": "Rates & Macro",
+      "summary": "",
+      "link": "https://news.google.com/rss/articles/CBMifEFVX3lxTFA5WDlvXzdlLXBPNm1qcnBaeXRFaGFUVldPWE5ORkpUaXRVM2hCRWN4RUpMRUpjYm5IRm5OQ3BIWk42cXJSNmM0MEpKLVd2aWNyUmp0b3dQeHFXOUZlbW9tbjBHUlV1Nkswdmh6M1RCSjA3WXBPdm56TEpFdl_SAYIBQVVfeXFMT25wQ0VBdDdyVkxhSXBoeWpPeXNlLVpKVjBmQUppdmxHeFpTd0ZEX0h6bXl0cWV5OElHU3IzeXpQdmcxX1NyRUZvQWZkeWdQZlA3cVROMjVyVTc0b0E4LWp0cHZnOVRYZnd2UGRZWWVEMVJUT2dSS1FKWTFndmZ0TWJnZw?oc=5",
+      "isNew": false
+    },
+    {
       "id": "c4b7f13a254e",
       "title": "Why the bond market is freaking out, and what it means for your money",
-      "source": "cbsnews.com",
+      "source": "CBS News",
       "date": "2026-09-24T19:08:00Z",
       "topic": "Rates & Macro",
       "summary": "",
@@ -210,7 +220,7 @@
     {
       "id": "76c502fcb138",
       "title": "Solvency II: Expanding the investment universe",
-      "source": "BNY",
+      "source": "bny.com",
       "date": "2026-09-23T10:42:58Z",
       "topic": "Structured Credit",
       "summary": "",
@@ -220,7 +230,7 @@
     {
       "id": "154bcf2dbbde",
       "title": "10 Ways to Explain Why Interest Rates Are So High",
-      "source": "The New York Times",
+      "source": "nytimes.com",
       "date": "2026-09-23T07:00:00Z",
       "topic": "Rates & Macro",
       "summary": "",
@@ -295,16 +305,6 @@
       "topic": "Structured Credit",
       "summary": "",
       "link": "https://news.google.com/rss/articles/CBMisAFBVV95cUxPZmdmMDhxN0F0OGNiaFN6SE53T0dRazQ3bUM1cS0yRDB3bjVZYUlqVExHU1lQNHU5bDhnSXRKeHRuVEVpR3FZU3FfUDMzaFVrb1JtUk1oMTBUM085M0JfVzN3UWRNY3d5Y05IdUloT2ZqenE0bWhhUlFYUjhxMjgzVHVrY1gtVVBaZVFVN3VtX2h4V2pBaGZEVDZ0WDBBX2dndmFWWkJmd1BpUGxpMWJNTQ?oc=5",
-      "isNew": false
-    },
-    {
-      "id": "b8c55cff9669",
-      "title": "Insurers pivot private credit allocations toward structured risk: Moody\u2019s",
-      "source": "Intelligent Insurer",
-      "date": "2026-09-21T13:45:21Z",
-      "topic": "Private Credit",
-      "summary": "",
-      "link": "https://news.google.com/rss/articles/CBMiqgFBVV95cUxPckswbWlwbnpuVFlfZlR2cnBKcHotT29OZFh1dUF1ajZQdjVTeHdXdE56V0ZjRF9MQk5PSE4zZHI0Z25XZzhkcmtjR1FuTnl2LWthN1lIZTlvSHVkeWpxenZ0enZkLXRwVHRMUjNHb0oyU0c0cWZMUEtXbGlTc0wxM1h0bXlNVEVCdUlmTDZoWEZuSDBuNkdsOVZEUFpDZHBzbkMzYzUzNEdCZw?oc=5",
       "isNew": false
     }
   ]
