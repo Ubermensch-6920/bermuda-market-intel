@@ -1,5 +1,5 @@
 {
-  "updated": "2026-09-26T11:31:09Z",
+  "updated": "2026-09-26T16:29:14Z",
   "lookback_days": 14,
   "feeds": [
     {
@@ -65,7 +65,7 @@
     {
       "name": "Google News: RGA",
       "ok": true,
-      "count": 13,
+      "count": 14,
       "error": null
     },
     {
@@ -101,7 +101,7 @@
     {
       "name": "Google News: Wilton Re",
       "ok": true,
-      "count": 1,
+      "count": 0,
       "error": null
     },
     {
@@ -112,6 +112,18 @@
     }
   ],
   "items": [
+    {
+      "id": "f50a10d65523",
+      "title": "Did Earnings Beat Just Shift Reinsurance Group of America Stock Investment Narrative?",
+      "link": "https://news.google.com/rss/articles/CBMi3gFBVV95cUxPM012V2VlZTlBRnE3OGdDbk1mRVo5OTR1Vld6M0JPVEJOWmllLWFQaVM0XzAyUFAwZHFQczdobG51Tkp6WXd3aWZXQlRsX21wdmt1S1NLSEZoSXctYlUzaHVvSDQxOURTVGpFdDVxTXNIYno0a0JNTmRfRWVmNzh3VlY1d3c1Zl9Oc0lPMVBzV3UydHVsbm1sWWdEajRrZ0hnVDRYS2htNzJqdFZENmk3RFBNS0YtY2dWeFNTVTVxblNKSDRCeDUwZUh2aU9WTGduc2NlUWpxVE84QkZXcHfSAeMBQVVfeXFMT3ZzTk1adVppWkY0OTJYTm4wNDJlb0xWV1dMeFVrS1k5T2RSODVXT3JKOUdMcVlWRmpaT2I1UFB3c2trSFVrRzlJNzV1SWlZeERWUFVzR245b2N3VmtTN29sUVY1cXByaHJkdURuUHV3RlVDNWZqYkszcW83UWNxSEhvSGcwSTh2T3FOaFdmVHl2dGx1bWxzV3Y0a0w5Q0tfM2ZhNFNUcm10TElaSm1vR3hhNkdGRnFJZU8zbXFnQUN5eTBnYmlYX1M1VDlZa0c3LWh4SExUdVRWZjNPSVlDUTFkbms?oc=5",
+      "source": "simplywall.st",
+      "feed": "Google News: RGA",
+      "date": "2026-09-26T11:36:05Z",
+      "summary": "",
+      "companies": [
+        "RGA"
+      ]
+    },
     {
       "id": "0840968d5739",
       "title": "Is Reinsurance Group of America, Incorporated (RGA) Rewriting the Retirement Planning Playbook?",
@@ -127,7 +139,7 @@
     {
       "id": "5c751d67c2d4",
       "title": "Reinsurance Group Of America (RGA) Could Be 9% Undervalued Following Its Recent Run",
-      "link": "https://news.google.com/rss/articles/CBMi3gFBVV95cUxPYm9CUnNBY1J5blJ5d3UyQXNXMlhzUFg0elRySUQ5a1FtUGNiaXBjeUtSbGxVMDlDUzZqZ0txbE5ic0RrWFNyRThKT2pmaWxfUUNob1FhZ2NNTUhIcUNLRlF2R2pteWM3bTZYd2pIWWRuQ1pkaE9lZWFqUzV6YXk2bGVFQ0txVlY4SEVUV29FLVYzTEhpOHhFb0cwUVo1ZVg5LWFOM2ZUeXRWeUt4bzNFZzB1VzBJYmRIYm9iNk5VVXVkVGZ1QW5hMTJsUjNaUFBjb05tc0lCTXY4cnpIQnfSAeMBQVVfeXFMTlpUZHRxN0J5OHFHQ1duY0J2c3hYSlYxYTVfYzNhTXNjTVU5Q2JGUmtNYmdJWG00blVZdjNadlJxaDNRSWNaeURTa3FKdTVJVGxLb2pNZEt6OGtLUWFDX1B2V1hzeUR6ck9RSEMtbkI4b096RDZGNHFSd0Flb3A5NFhheEZubV9vai1zS05tdW51Vzc3S3ZDdVc3eEN4SlFYRnd1WERrc3IzV2lGVzNLMllQS3ViZ0xQQlh1X1NHVjUwUVg3TWhpSk1vZGZNM1dWeThnOEFsa2JKdWk2Q2ZIS1p3Wkk?oc=5",
+      "link": "https://news.google.com/rss/articles/CBMi4wFBVV95cUxOWlRkdHE3Qnk4cUdDV25jQnZzeFhKVjFhNV9jM2FNc2NNVTlDYkZSa01iZ0lYbTRuVVl2M1p2UnFoM1FJY1p5RFNrcUp1NUlUbEtvak1kS3o4a0tRYUNfUHZXWHN5RHpyT1FIQy1uQjhvT3pENkY0cVJ3QWVvcDk0WGF4Rm5tX29qLXNLTm11bnVXNzdLdkN1Vzd4Q3hKUVhGd3VYRGtzcjNXaUZXM0syWVBLdWJnTFBCWHVfU0dWNTBRWDdNaGlKTW9kZk0zV1Z5OGc4QWxrYkp1aTZDZkhLWndaSdIB4wFBVV95cUxOWlRkdHE3Qnk4cUdDV25jQnZzeFhKVjFhNV9jM2FNc2NNVTlDYkZSa01iZ0lYbTRuVVl2M1p2UnFoM1FJY1p5RFNrcUp1NUlUbEtvak1kS3o4a0tRYUNfUHZXWHN5RHpyT1FIQy1uQjhvT3pENkY0cVJ3QWVvcDk0WGF4Rm5tX29qLXNLTm11bnVXNzdLdkN1Vzd4Q3hKUVhGd3VYRGtzcjNXaUZXM0syWVBLdWJnTFBCWHVfU0dWNTBRWDdNaGlKTW9kZk0zV1Z5OGc4QWxrYkp1aTZDZkhLWndaSQ?oc=5",
       "source": "simplywall.st",
       "feed": "Google News: RGA",
       "date": "2026-09-24T08:34:56Z",
@@ -164,7 +176,7 @@
       "id": "9e0a35ca35eb",
       "title": "Reinsurance Group of America, Incorporated (RGA) Stock Price, News, Quote & History",
       "link": "https://news.google.com/rss/articles/CBMiUEFVX3lxTE1qamdrTE91Y3FMZFdXWkp6N2hGVlFXY08zdXdsUmlQM0tnMjg0V2o5UmRFTHVIdEdTbnlUSm9vem5BbHZ5MmE5LVpHZWJ3LXh5?oc=5",
-      "source": "Yahoo! Finance Canada",
+      "source": "ca.finance.yahoo.com",
       "feed": "Google News: RGA",
       "date": "2026-09-23T19:36:14Z",
       "summary": "",
@@ -224,7 +236,7 @@
       "id": "86b19d684ede",
       "title": "Reinsurance Group of America (RGA): Buy, Sell, or Hold Post Q2 Earnings?",
       "link": "https://news.google.com/rss/articles/CBMi5wFBVV95cUxNZnd0OXYtVmxDWnhfSWFwc1dRa0Vpc2w3VHE2SVR2YXg3alA1OHRnNTZaYXJLLS1MdUNuRkk3NTJVZlIxN1pRUllrTjN5M1QxQnV6YUNnUzhPRkZ4YVM0Ymp0YmJjSnRpSXFSOWFfaklSY24zRFR2aFN0Q2xFX0xGOW9SRElYdklQcEhMOFJBTUFUNW55N0ZFMTBCaEhUMjB0QjZTQzJQUjBNejFnajh0TmZMOVBFaXR4UGJ2OHY0RV82WmUtQjlleWNfRkpQc3BIN1NfYm9iTGh4d1lfVWJWV1FGeEU3NW8?oc=5",
-      "source": "The Globe and Mail",
+      "source": "theglobeandmail.com",
       "feed": "Google News: RGA",
       "date": "2026-09-22T04:06:00Z",
       "summary": "",

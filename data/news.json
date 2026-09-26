@@ -1,5 +1,5 @@
 {
-  "updated": "2026-09-26T11:31:07Z",
+  "updated": "2026-09-26T16:29:11Z",
   "topics": [
     "Insurance AM",
     "Private Credit",
@@ -10,7 +10,7 @@
     {
       "id": "57fa6c31471f",
       "title": "NAIC tightens oversight of private credit and insurer investments",
-      "source": "Beinsure",
+      "source": "beinsure.com",
       "date": "2026-09-25T19:06:35Z",
       "topic": "Structured Credit",
       "summary": "",
@@ -138,13 +138,13 @@
       "isNew": false
     },
     {
-      "id": "824a4e522e8b",
-      "title": "JGB yields jump as inflation worries resurface",
-      "source": "Reuters",
-      "date": "2026-09-24T05:49:22Z",
-      "topic": "Rates & Macro",
+      "id": "fe504f9ceaca",
+      "title": "2027 Commercial Real Estate Outlook",
+      "source": "Deloitte",
+      "date": "2026-09-24T07:00:00Z",
+      "topic": "Insurance AM",
       "summary": "",
-      "link": "https://news.google.com/rss/articles/CBMiwgFBVV95cUxPQXBZNDBQTW02eEF0MFZoT0dHRnp3d3Q2bU1YTmFMQWxpdEFWM0FTSDRpV2FnSjdmOGVzT0dTaWFqT1cwS0s3SEUwdnV1cS02UlVBRGkzb1NBcThtZjBTT2Zsd2NUWTB1ejMxUHlxTWVrMmFkUktDbFZYbHJZbDAwMXJWX040YzA3WjRiZjhWNWQyMlQ3cmRNSWhySjQxaVl0S0Q4YXc5bGFNRDU1S3dqMHVnWVVnTFdaVW5TcXlCeVdOdw?oc=5",
+      "link": "https://news.google.com/rss/articles/CBMi1wFBVV95cUxOckRVZFVWZlZad1hiMmxVQml6eEEwUWR1SFJPRm1SWVQ1NXFsLVlsM0JMb1FDS1pFdE42aWFMWmtkU3Y1WWRQMEppZUZXZFphTm5uWnJrUlhLQ2poN21qXzU4R3BjR3dTbGNCSW9yR1hXd2dEblJQMmp4OWIza2l2WUJobHhXZDB0Mk1FZnVLN0VGY3c1T0RjZHJTalVPWTY1am1tRGNrNHA0bEd1dFJBZ3NocXVBWjJUSm82WDNQN256aE44eUJEcWlxek5vM0FiOGRraHRpVQ?oc=5",
       "isNew": false
     },
     {
@@ -155,6 +155,16 @@
       "topic": "Private Credit",
       "summary": "",
       "link": "https://news.google.com/rss/articles/CBMi1AFBVV95cUxNb1VCaHRrcjRKbGdOQ2hQN0dPUHhad0dnSFlUVTZYZUY5VGNPYW9CZV9MRXpzaWstWm9zZklrcnNRZDFyWTdiX3JJQTFEbFhjSm5GLTZUTjRqc250bTRLa1lFUGRaVTdtWnRValctbmFjUmRVTXJyRlVVaFpBN3RjbS1SQ05VU3BNXzA5Y2t6SkFrQXRmRUdGZzB6V2JrXzBfb1h4M2c5alJzZ3ktcVF5ZWU1QVpGbjF1LVcwczhyRmpVanlMZGdKRm5Vb0NLVFo5ZTFkTQ?oc=5",
+      "isNew": false
+    },
+    {
+      "id": "824a4e522e8b",
+      "title": "JGB yields jump as inflation worries resurface",
+      "source": "Reuters",
+      "date": "2026-09-24T00:58:00Z",
+      "topic": "Rates & Macro",
+      "summary": "",
+      "link": "https://news.google.com/rss/articles/CBMiwgFBVV95cUxPQXBZNDBQTW02eEF0MFZoT0dHRnp3d3Q2bU1YTmFMQWxpdEFWM0FTSDRpV2FnSjdmOGVzT0dTaWFqT1cwS0s3SEUwdnV1cS02UlVBRGkzb1NBcThtZjBTT2Zsd2NUWTB1ejMxUHlxTWVrMmFkUktDbFZYbHJZbDAwMXJWX040YzA3WjRiZjhWNWQyMlQ3cmRNSWhySjQxaVl0S0Q4YXc5bGFNRDU1S3dqMHVnWVVnTFdaVW5TcXlCeVdOdw?oc=5",
       "isNew": false
     },
     {
@@ -240,7 +250,7 @@
     {
       "id": "79ece7ef9395",
       "title": "Why Bond Markets Are Pricing In Too Many Interest Rate Rises",
-      "source": "Morningstar",
+      "source": "global.morningstar.com",
       "date": "2026-09-22T05:12:47Z",
       "topic": "Rates & Macro",
       "summary": "",
@@ -295,16 +305,6 @@
       "topic": "Rates & Macro",
       "summary": "",
       "link": "https://news.google.com/rss/articles/CBMiuwFBVV95cUxOclRMVXQyTkZiLThMRF9OSG9ZLVNBWE1DUkpoQUdRNDQ0akx4ZlNJZElBY2lRazk2ZlNKeE5IQU9fN2Vpc09ZRlR6RDhqV0VUcFNHSFpyTnk2V1ppbU5HcGRCMTZhZjhXV056a1RKMHUxa1daemlqZjhJcXpYdURUQmhqNU1KY3pYaDBneUc5eFp1YUVhbWhxXzFtVFozZ2xYTmxvd2xVZ3V0SlNaUllXQjMyNkRUYWYyZ1dV?oc=5",
-      "isNew": false
-    },
-    {
-      "id": "a0ccc93645ac",
-      "title": "Hanwha Finance expands financial cooperation with Abu Dhabi",
-      "source": "Hanwha Group",
-      "date": "2026-09-21T06:54:50Z",
-      "topic": "Insurance AM",
-      "summary": "",
-      "link": "https://news.google.com/rss/articles/CBMiiAJBVV95cUxOb1FKRlA1NEd2aVhSS1VmdEVwMDZud19Dd1E2SDVWLTZFLUdxRmtseGtydFZlT0RLd0dlV2FQb29pM2tOc3ktYWlPdWxyZi1ENEFKeEV4TzJrT1ZHZWRpRXRUSnVMSksyclFVMEg5aVRLZ0ZDa2EzSUtjMXAxOW5pMUVpQ21IeEF2cWhlVHdfUmRkbmoxcTFBbEIwUTZrN1p3VFE4T3k3MElYeTN4alhiUF8yQm82dWREUzB3OGJSMlJUdktCTEdPaFJMeXZNOEJEalFJR1lsUlFoZ08tNkRWRTRPYUVpREo1YS1yMnRUaklnYjZFbEQzTXQwb0NlczVHZUtrRWFCWHo?oc=5",
       "isNew": false
     }
   ]
