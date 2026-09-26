@@ -1,5 +1,5 @@
 {
-  "updated": "2026-09-26T16:29:11Z",
+  "updated": "2026-09-26T21:15:50Z",
   "topics": [
     "Insurance AM",
     "Private Credit",
@@ -8,9 +8,19 @@
   ],
   "items": [
     {
+      "id": "f910afc7c4a8",
+      "title": "Abacus Global Completes Over $400 Million Securitization Of Life Insurance Assets",
+      "source": "Pulse 2.0",
+      "date": "2026-09-26T20:51:19Z",
+      "topic": "Insurance AM",
+      "summary": "",
+      "link": "https://news.google.com/rss/articles/CBMiogFBVV95cUxPdTFxUlV3WU9xT3BFNThfSk42SEtMc1VWSUwzV3gyN183NzVsNERXR1U4c0I1d2Q2Ul9lX2FLdHNBdDVwbmNYUm5TZ2QwWjBjdHlaZ0YyQ3hDdEgtR2liUk1UTDJLM2Zad0w3MFhOb293cE5UVmdnT0pWdzhCUTdGR1NrYWdxdzVfbjVJbnJWU1BTVjBZeXlnLVZwT3B1R1ZvSGfSAacBQVVfeXFMTXRGRlVYbU14aGpXZjhKdjVJTVRsLUVHSWhvZjRfWjAyc0VQT0tNMC1GM3lDWmxBQzFkMG1OdjN1Y0JiLUZXdzVDYXM5bENSOHdreXV0Z3RVczZRN0hLWmY4YzNmalliOGpyVS1PVXBDQ3dEQzZ1aE1kWGJhazlieEF5WnF1NFNSUFVhMGRIb3phYWdPN2NmUHVlWHNleE1SZ3FpbHNtWlU?oc=5",
+      "isNew": false
+    },
+    {
       "id": "57fa6c31471f",
       "title": "NAIC tightens oversight of private credit and insurer investments",
-      "source": "beinsure.com",
+      "source": "Beinsure",
       "date": "2026-09-25T19:06:35Z",
       "topic": "Structured Credit",
       "summary": "",
@@ -30,7 +40,7 @@
     {
       "id": "867cc7d53dad",
       "title": "Rich People Fleeing Private Credit Haven't Learned Their Lesson",
-      "source": "FA Mag",
+      "source": "fa-mag.com",
       "date": "2026-09-25T13:32:12Z",
       "topic": "Private Credit",
       "summary": "",
@@ -70,7 +80,7 @@
     {
       "id": "c4b7f13a254e",
       "title": "Why the bond market is freaking out, and what it means for your money",
-      "source": "CBS News",
+      "source": "cbsnews.com",
       "date": "2026-09-24T19:08:00Z",
       "topic": "Rates & Macro",
       "summary": "",
@@ -250,7 +260,7 @@
     {
       "id": "79ece7ef9395",
       "title": "Why Bond Markets Are Pricing In Too Many Interest Rate Rises",
-      "source": "global.morningstar.com",
+      "source": "Morningstar",
       "date": "2026-09-22T05:12:47Z",
       "topic": "Rates & Macro",
       "summary": "",
@@ -295,16 +305,6 @@
       "topic": "Private Credit",
       "summary": "",
       "link": "https://news.google.com/rss/articles/CBMiqgFBVV95cUxPckswbWlwbnpuVFlfZlR2cnBKcHotT29OZFh1dUF1ajZQdjVTeHdXdE56V0ZjRF9MQk5PSE4zZHI0Z25XZzhkcmtjR1FuTnl2LWthN1lIZTlvSHVkeWpxenZ0enZkLXRwVHRMUjNHb0oyU0c0cWZMUEtXbGlTc0wxM1h0bXlNVEVCdUlmTDZoWEZuSDBuNkdsOVZEUFpDZHBzbkMzYzUzNEdCZw?oc=5",
-      "isNew": false
-    },
-    {
-      "id": "653260cbd953",
-      "title": "Government Bond Yields Fall as Risk Sentiment Tentatively Improves",
-      "source": "WSJ",
-      "date": "2026-09-21T08:50:00Z",
-      "topic": "Rates & Macro",
-      "summary": "",
-      "link": "https://news.google.com/rss/articles/CBMiuwFBVV95cUxOclRMVXQyTkZiLThMRF9OSG9ZLVNBWE1DUkpoQUdRNDQ0akx4ZlNJZElBY2lRazk2ZlNKeE5IQU9fN2Vpc09ZRlR6RDhqV0VUcFNHSFpyTnk2V1ppbU5HcGRCMTZhZjhXV056a1RKMHUxa1daemlqZjhJcXpYdURUQmhqNU1KY3pYaDBneUc5eFp1YUVhbWhxXzFtVFozZ2xYTmxvd2xVZ3V0SlNaUllXQjMyNkRUYWYyZ1dV?oc=5",
       "isNew": false
     }
   ]

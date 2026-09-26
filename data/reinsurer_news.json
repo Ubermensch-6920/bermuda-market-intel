@@ -1,5 +1,5 @@
 {
-  "updated": "2026-09-26T16:29:14Z",
+  "updated": "2026-09-26T21:15:52Z",
   "lookback_days": 14,
   "feeds": [
     {
@@ -35,7 +35,7 @@
     {
       "name": "Google News: Global Atlantic",
       "ok": true,
-      "count": 14,
+      "count": 12,
       "error": null
     },
     {
@@ -65,7 +65,7 @@
     {
       "name": "Google News: RGA",
       "ok": true,
-      "count": 14,
+      "count": 13,
       "error": null
     },
     {
@@ -101,7 +101,7 @@
     {
       "name": "Google News: Wilton Re",
       "ok": true,
-      "count": 0,
+      "count": 2,
       "error": null
     },
     {
@@ -131,6 +131,18 @@
       "source": "Kalkine Media",
       "feed": "Google News: RGA",
       "date": "2026-09-25T12:30:00Z",
+      "summary": "",
+      "companies": [
+        "RGA"
+      ]
+    },
+    {
+      "id": "9e0a35ca35eb",
+      "title": "Reinsurance Group of America, Incorporated (RGA) Stock Price, News, Quote & History",
+      "link": "https://news.google.com/rss/articles/CBMiUEFVX3lxTE1qamdrTE91Y3FMZFdXWkp6N2hGVlFXY08zdXdsUmlQM0tnMjg0V2o5UmRFTHVIdEdTbnlUSm9vem5BbHZ5MmE5LVpHZWJ3LXh5?oc=5",
+      "source": "Yahoo! Finance Canada",
+      "feed": "Google News: RGA",
+      "date": "2026-09-24T15:51:25Z",
       "summary": "",
       "companies": [
         "RGA"
@@ -167,18 +179,6 @@
       "source": "Yahoo Finance Australia",
       "feed": "Google News: RGA",
       "date": "2026-09-23T20:38:27Z",
-      "summary": "",
-      "companies": [
-        "RGA"
-      ]
-    },
-    {
-      "id": "9e0a35ca35eb",
-      "title": "Reinsurance Group of America, Incorporated (RGA) Stock Price, News, Quote & History",
-      "link": "https://news.google.com/rss/articles/CBMiUEFVX3lxTE1qamdrTE91Y3FMZFdXWkp6N2hGVlFXY08zdXdsUmlQM0tnMjg0V2o5UmRFTHVIdEdTbnlUSm9vem5BbHZ5MmE5LVpHZWJ3LXh5?oc=5",
-      "source": "ca.finance.yahoo.com",
-      "feed": "Google News: RGA",
-      "date": "2026-09-23T19:36:14Z",
       "summary": "",
       "companies": [
         "RGA"
@@ -224,7 +224,7 @@
       "id": "8c3300c005c4",
       "title": "Sagicor prices $250M note offering to repay debt",
       "link": "https://news.google.com/rss/articles/CBMiiAFBVV95cUxNTE14Zi1oNTRGcHNjVlU1MTl4TzRpbU1KZnc5TWhXRThDOEtVOGhWMk1fQzVha0ljczRWMWdTTWdYMm4tY2otYlhyUmRoRGVsd0FvaF9NWUY3Vk9FMU5JOUxiY0RQSGN2bE92bXJJVm5zcEFzTWRfQ0k4ZUdvdzRiNV9GOGFwYjZJ?oc=5",
-      "source": "Dealroom",
+      "source": "app.dealroom.co",
       "feed": "Google News: Sagicor",
       "date": "2026-09-22T22:17:01Z",
       "summary": "",
@@ -236,7 +236,7 @@
       "id": "86b19d684ede",
       "title": "Reinsurance Group of America (RGA): Buy, Sell, or Hold Post Q2 Earnings?",
       "link": "https://news.google.com/rss/articles/CBMi5wFBVV95cUxNZnd0OXYtVmxDWnhfSWFwc1dRa0Vpc2w3VHE2SVR2YXg3alA1OHRnNTZaYXJLLS1MdUNuRkk3NTJVZlIxN1pRUllrTjN5M1QxQnV6YUNnUzhPRkZ4YVM0Ymp0YmJjSnRpSXFSOWFfaklSY24zRFR2aFN0Q2xFX0xGOW9SRElYdklQcEhMOFJBTUFUNW55N0ZFMTBCaEhUMjB0QjZTQzJQUjBNejFnajh0TmZMOVBFaXR4UGJ2OHY0RV82WmUtQjlleWNfRkpQc3BIN1NfYm9iTGh4d1lfVWJWV1FGeEU3NW8?oc=5",
-      "source": "theglobeandmail.com",
+      "source": "The Globe and Mail",
       "feed": "Google News: RGA",
       "date": "2026-09-22T04:06:00Z",
       "summary": "",
@@ -284,7 +284,7 @@
       "id": "7efacc1cc589",
       "title": "Global Atlantic Announces Launch of ForeLifetime Income, a New Fixed Index Annuity",
       "link": "https://news.google.com/rss/articles/CBMivwFBVV95cUxPS2lvUnhIczhJNUtuQ3NwbG9YLVJzdEItTXF6c0xBX0xlM2VWYmFUalhrMTNmNFdoYVp1Rm1mZUYwMWIxSjdMQ04tdFBRLThHUnhGdGpJc3kxSlpRRTBnY0JQRzBZT0F2aEllMEtHQXF6WmZpbE9JU1BKdmJJVHY2ZUFzTFhfb2JDaXZ4ZUJJekE2ZEpOa2hKN2h6VFcxVGJ4VTFNbkpTSlotOE1KOHE1WG1FU2J4ZmtTd05LT1ZrSQ?oc=5",
-      "source": "Stock Titan",
+      "source": "stocktitan.net",
       "feed": "Google News: Global Atlantic",
       "date": "2026-09-21T11:00:00Z",
       "summary": "",
