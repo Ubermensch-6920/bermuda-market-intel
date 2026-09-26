@@ -1,5 +1,5 @@
 {
-  "updated": "2026-09-25T21:40:21Z",
+  "updated": "2026-09-26T05:04:20Z",
   "topics": [
     "Insurance AM",
     "Private Credit",
@@ -11,7 +11,7 @@
       "id": "57fa6c31471f",
       "title": "NAIC tightens oversight of private credit and insurer investments",
       "source": "Beinsure",
-      "date": "2026-09-25T18:06:02Z",
+      "date": "2026-09-25T19:06:35Z",
       "topic": "Structured Credit",
       "summary": "",
       "link": "https://news.google.com/rss/articles/CBMifkFVX3lxTFBqaEg4OF9tTnVQZUYyMTZZXzFCX1RsTmRzUWptUWdVOXMwVVNOUkZ3OFFmbC16MGpvNm1lWkZKRVFWVVhBX1dPTUlfeGlZUDdVcXVodWdPTVJXVFQ2Yy1rTXlzelAtaC1nYTRta3VEODlRbTVIZFlDSW9iUjRfZw?oc=5",
@@ -70,7 +70,7 @@
     {
       "id": "c4b7f13a254e",
       "title": "Why the bond market is freaking out, and what it means for your money",
-      "source": "cbsnews.com",
+      "source": "CBS News",
       "date": "2026-09-24T19:08:00Z",
       "topic": "Rates & Macro",
       "summary": "",
@@ -138,6 +138,16 @@
       "isNew": false
     },
     {
+      "id": "824a4e522e8b",
+      "title": "JGB yields jump as inflation worries resurface",
+      "source": "Reuters",
+      "date": "2026-09-24T05:49:22Z",
+      "topic": "Rates & Macro",
+      "summary": "",
+      "link": "https://news.google.com/rss/articles/CBMiwgFBVV95cUxPQXBZNDBQTW02eEF0MFZoT0dHRnp3d3Q2bU1YTmFMQWxpdEFWM0FTSDRpV2FnSjdmOGVzT0dTaWFqT1cwS0s3SEUwdnV1cS02UlVBRGkzb1NBcThtZjBTT2Zsd2NUWTB1ejMxUHlxTWVrMmFkUktDbFZYbHJZbDAwMXJWX040YzA3WjRiZjhWNWQyMlQ3cmRNSWhySjQxaVl0S0Q4YXc5bGFNRDU1S3dqMHVnWVVnTFdaVW5TcXlCeVdOdw?oc=5",
+      "isNew": false
+    },
+    {
       "id": "f4461c5bf23b",
       "title": "Apollo Global Management Sees AI, Private Credit and Retirement Driving Growth",
       "source": "TradingView",
@@ -145,16 +155,6 @@
       "topic": "Private Credit",
       "summary": "",
       "link": "https://news.google.com/rss/articles/CBMi1AFBVV95cUxNb1VCaHRrcjRKbGdOQ2hQN0dPUHhad0dnSFlUVTZYZUY5VGNPYW9CZV9MRXpzaWstWm9zZklrcnNRZDFyWTdiX3JJQTFEbFhjSm5GLTZUTjRqc250bTRLa1lFUGRaVTdtWnRValctbmFjUmRVTXJyRlVVaFpBN3RjbS1SQ05VU3BNXzA5Y2t6SkFrQXRmRUdGZzB6V2JrXzBfb1h4M2c5alJzZ3ktcVF5ZWU1QVpGbjF1LVcwczhyRmpVanlMZGdKRm5Vb0NLVFo5ZTFkTQ?oc=5",
-      "isNew": false
-    },
-    {
-      "id": "824a4e522e8b",
-      "title": "JGB yields jump as inflation worries resurface",
-      "source": "reuters.com",
-      "date": "2026-09-24T00:58:00Z",
-      "topic": "Rates & Macro",
-      "summary": "",
-      "link": "https://news.google.com/rss/articles/CBMiwgFBVV95cUxPQXBZNDBQTW02eEF0MFZoT0dHRnp3d3Q2bU1YTmFMQWxpdEFWM0FTSDRpV2FnSjdmOGVzT0dTaWFqT1cwS0s3SEUwdnV1cS02UlVBRGkzb1NBcThtZjBTT2Zsd2NUWTB1ejMxUHlxTWVrMmFkUktDbFZYbHJZbDAwMXJWX040YzA3WjRiZjhWNWQyMlQ3cmRNSWhySjQxaVl0S0Q4YXc5bGFNRDU1S3dqMHVnWVVnTFdaVW5TcXlCeVdOdw?oc=5",
       "isNew": false
     },
     {
@@ -170,7 +170,7 @@
     {
       "id": "c10277ef889b",
       "title": "Abacus Global Management Closes $400 Million Life Insurance Securitization",
-      "source": "citybiz",
+      "source": "citybiz.co",
       "date": "2026-09-23T13:14:27Z",
       "topic": "Insurance AM",
       "summary": "",
@@ -200,7 +200,7 @@
     {
       "id": "154bcf2dbbde",
       "title": "10 Ways to Explain Why Interest Rates Are So High",
-      "source": "nytimes.com",
+      "source": "The New York Times",
       "date": "2026-09-23T07:00:00Z",
       "topic": "Rates & Macro",
       "summary": "",
@@ -210,7 +210,7 @@
     {
       "id": "6ad7a4a30e2e",
       "title": "Implications of rising bond yields",
-      "source": "corporate.vanguard.com",
+      "source": "Vanguard Corporate",
       "date": "2026-09-23T04:00:00Z",
       "topic": "Rates & Macro",
       "summary": "",
