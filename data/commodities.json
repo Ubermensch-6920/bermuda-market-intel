@@ -12,8 +12,8 @@
     "prior_1m_date": "2026-08-28",
     "prior_3m": 4038.9,
     "prior_3m_date": "2026-06-29",
-    "prior_1y": 3809.0,
-    "prior_1y_date": "2025-09-26",
+    "prior_1y": 3855.2,
+    "prior_1y_date": "2025-09-29",
     "prior_2y": 2668.1,
     "prior_2y_date": "2024-09-27",
     "futures": {
@@ -27,8 +27,8 @@
         "prior_3m": 4067.6,
         "prior_3m_date": "2026-06-29",
         "prior_3m_contract": "GCV26",
-        "prior_1y": 3809.0,
-        "prior_1y_date": "2025-09-26",
+        "prior_1y": 3855.2,
+        "prior_1y_date": "2025-09-29",
         "prior_1y_contract": "GCZ25",
         "prior_2y": null,
         "prior_2y_date": "",
@@ -61,8 +61,8 @@
         "prior_3m": 4194.2,
         "prior_3m_date": "2026-06-29",
         "prior_3m_contract": "GCM27",
-        "prior_1y": 3942.1,
-        "prior_1y_date": "2025-09-26",
+        "prior_1y": 3992.3,
+        "prior_1y_date": "2025-09-29",
         "prior_1y_contract": "GCV26",
         "prior_2y": null,
         "prior_2y_date": "",
@@ -78,8 +78,8 @@
         "prior_3m": 4389.2,
         "prior_3m_date": "2026-06-29",
         "prior_3m_contract": "GCM28",
-        "prior_1y": 4072.1,
-        "prior_1y_date": "2025-09-26",
+        "prior_1y": 4123.8,
+        "prior_1y_date": "2025-09-29",
         "prior_1y_contract": "GCV27",
         "prior_2y": null,
         "prior_2y_date": "",
@@ -164,8 +164,8 @@
         "prior_3m": 65.55,
         "prior_3m_date": "2026-06-29",
         "prior_3m_contract": "CLM28",
-        "prior_1y": 62.89,
-        "prior_1y_date": "2025-09-26",
+        "prior_1y": 61.85,
+        "prior_1y_date": "2025-09-29",
         "prior_1y_contract": "CLU27",
         "prior_2y": null,
         "prior_2y_date": "",
@@ -250,8 +250,8 @@
         "prior_3m": 69.99,
         "prior_3m_date": "2026-06-29",
         "prior_3m_contract": "BZM28",
-        "prior_1y": 66.74,
-        "prior_1y_date": "2025-09-26",
+        "prior_1y": 65.73,
+        "prior_1y_date": "2025-09-29",
         "prior_1y_contract": "BZU27",
         "prior_2y": null,
         "prior_2y_date": "",
@@ -260,7 +260,7 @@
     }
   },
   "usdinr": {
-    "spot": 95.82,
+    "spot": 95.8,
     "spot_date": "2026-09-27",
     "spot_source": "Yahoo INR=X",
     "unit": "INR per USD",
@@ -276,7 +276,7 @@
     "prior_2y_date": "2024-09-27",
     "futures": {
       "3M": {
-        "price": 96.28,
+        "price": 96.26,
         "expiry": "3M",
         "contract": "CIP derived",
         "prior_1m": null,
@@ -293,7 +293,7 @@
         "prior_2y_contract": "INRZ24"
       },
       "6M": {
-        "price": 96.69,
+        "price": 96.67,
         "expiry": "6M",
         "contract": "CIP derived",
         "prior_1m": null,
@@ -310,7 +310,7 @@
         "prior_2y_contract": "INRH25"
       },
       "12M": {
-        "price": 97.36,
+        "price": 97.34,
         "expiry": "12M",
         "contract": "CIP derived",
         "prior_1m": null,
@@ -327,7 +327,7 @@
         "prior_2y_contract": "INRU25"
       },
       "24M": {
-        "price": 98.81,
+        "price": 98.84,
         "expiry": "24M",
         "contract": "CIP derived",
         "prior_1m": null,
@@ -346,5 +346,5 @@
     }
   },
   "note": "Spot history comes from daily FRED series. Futures history is roll-aware by target date. USD/INR latest spot: FRED DEXINUS, then Yahoo INR=X / keyless FX APIs when FRED lags; forwards fall back to CIP derivation from India/UST curves when market quotes are unavailable.",
-  "_fetched": "2026-09-27T12:07:40.560829Z"
+  "_fetched": "2026-09-27T17:02:36.971182Z"
 }

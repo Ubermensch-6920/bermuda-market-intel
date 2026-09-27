@@ -1,18 +1,18 @@
 # Reinsurer News Monitor
 
 Bermuda life & annuity watchlist — last 14 days — 22 items
-Generated Sun 27 Sep 2026, 09:08 ADT
+Generated Sun 27 Sep 2026, 14:03 ADT
 
 ## Feed status
 
 - ✅ **Artemis.bm** — 10 items
-- ✅ **Google News (16 of 16 companies)** — 50 items
+- ✅ **Google News (16 of 16 companies)** — 51 items
 - ✅ **Reinsurance News** — 10 items
 
 ## Athene
 
 - **2026-09-21** — AD HOC NEWS — [Apollo Global Management stock gains on Yankees stake and Athene risk update](https://news.google.com/rss/articles/CBMixwFBVV95cUxOS1pkVlRXTk1TckJqY0xtcDBBWXNKa2FZNVBPRTN0Z2hHMGVNOU9hZnBaQUYtZzNfWkEyY2FpRVRneVJvNkdCVmVLdWd1ZGFFclp2cERYb0FDdm5CUlY5MUZqLUJDOVU1dDdaSVZCRlFPYzVkalA4WlFWY3V6RTJUaUJfY2xudzhoWTJyS1owTm9lQnkyTkFuZ0pWb09STVlJRldrWmlFdEVrV29OaGNHckUyS2NwdGh3U1VnbWNDRElIT3VhWlhF?oc=5)
-- **2026-09-18** — Royal Gazette | Bermuda — [Athene settles eight-year legal battle with former director](https://news.google.com/rss/articles/CBMixgFBVV95cUxNTFc2VFFmVXFRWlR6RVFSb1M2US05M0pMa3FnMUNjQ3V5VlBVcUxhRDluWGxiRndHX1RZVFlCVlM5UHJDNjJDcGZJa1lmUHUyd2gtZVNXdkJMNEY0S3RmN0pXekotX3RwTDZBUWk1Umw2bGE5NXFXeldqZl9aVTF1S0dIaFpPcVlwNV9WQ0JWYXl0YmZncERTV0xkUDVobWRTa3g4XzdNNjFzY09NRGtIWUUwVlhuYV9Qd0ZpRG9OcHFsQ0VLcEE?oc=5)
+- **2026-09-18** — royalgazette.com — [Athene settles eight-year legal battle with former director](https://news.google.com/rss/articles/CBMixgFBVV95cUxNTFc2VFFmVXFRWlR6RVFSb1M2US05M0pMa3FnMUNjQ3V5VlBVcUxhRDluWGxiRndHX1RZVFlCVlM5UHJDNjJDcGZJa1lmUHUyd2gtZVNXdkJMNEY0S3RmN0pXekotX3RwTDZBUWk1Umw2bGE5NXFXeldqZl9aVTF1S0dIaFpPcVlwNV9WQ0JWYXl0YmZncERTV0xkUDVobWRTa3g4XzdNNjFzY09NRGtIWUUwVlhuYV9Qd0ZpRG9OcHFsQ0VLcEE?oc=5)
 
 ## Global Atlantic
 
@@ -32,13 +32,13 @@ Generated Sun 27 Sep 2026, 09:08 ADT
 ## RGA
 
 - **2026-09-26** — simplywall.st — [Did Earnings Beat Just Shift Reinsurance Group of America Stock Investment Narrative?](https://news.google.com/rss/articles/CBMi3gFBVV95cUxPM012V2VlZTlBRnE3OGdDbk1mRVo5OTR1Vld6M0JPVEJOWmllLWFQaVM0XzAyUFAwZHFQczdobG51Tkp6WXd3aWZXQlRsX21wdmt1S1NLSEZoSXctYlUzaHVvSDQxOURTVGpFdDVxTXNIYno0a0JNTmRfRWVmNzh3VlY1d3c1Zl9Oc0lPMVBzV3UydHVsbm1sWWdEajRrZ0hnVDRYS2htNzJqdFZENmk3RFBNS0YtY2dWeFNTVTVxblNKSDRCeDUwZUh2aU9WTGduc2NlUWpxVE84QkZXcHfSAeMBQVVfeXFMT3ZzTk1adVppWkY0OTJYTm4wNDJlb0xWV1dMeFVrS1k5T2RSODVXT3JKOUdMcVlWRmpaT2I1UFB3c2trSFVrRzlJNzV1SWlZeERWUFVzR245b2N3VmtTN29sUVY1cXByaHJkdURuUHV3RlVDNWZqYkszcW83UWNxSEhvSGcwSTh2T3FOaFdmVHl2dGx1bWxzV3Y0a0w5Q0tfM2ZhNFNUcm10TElaSm1vR3hhNkdGRnFJZU8zbXFnQUN5eTBnYmlYX1M1VDlZa0c3LWh4SExUdVRWZjNPSVlDUTFkbms?oc=5)
+- **2026-09-25** — Yahoo! Finance Canada — [Reinsurance Group of America, Incorporated (RGA) Stock Price, News, Quote & History](https://news.google.com/rss/articles/CBMiUEFVX3lxTE1qamdrTE91Y3FMZFdXWkp6N2hGVlFXY08zdXdsUmlQM0tnMjg0V2o5UmRFTHVIdEdTbnlUSm9vem5BbHZ5MmE5LVpHZWJ3LXh5?oc=5)
 - **2026-09-25** — Kalkine Media — [Is Reinsurance Group of America, Incorporated (RGA) Rewriting the Retirement Planning Playbook?](https://news.google.com/rss/articles/CBMi1gFBVV95cUxNc21qRmRLU292MGg1S3RfaVFGc0lFS1JyWEJ0Q1N0aEJQZEFuMWNNVGFxR2FFUzJYblNSWWRVTEFaZlZYTktCdHd3VVl1Q1RpSnNUQnpGMG42SWlZWUo4RGZmY3MzbUgxNnZKbkRIMlZFV3hqc3ZleDBseUIwSTAwSmhnUFkyclZzTi1oTHE1Q0lxX1hzOUF2Nk5JMExpSlVaSUVxd1VLdUNsWUF3V3ZnRkF3aFkwMU0xLTZROFVNR0RINm94RzFTZDZlY1ZXVDFJcGp5bzh3?oc=5)
-- **2026-09-24** — Yahoo! Finance Canada — [Reinsurance Group of America, Incorporated (RGA) Stock Price, News, Quote & History](https://news.google.com/rss/articles/CBMiUEFVX3lxTE1qamdrTE91Y3FMZFdXWkp6N2hGVlFXY08zdXdsUmlQM0tnMjg0V2o5UmRFTHVIdEdTbnlUSm9vem5BbHZ5MmE5LVpHZWJ3LXh5?oc=5)
 - **2026-09-24** — simplywall.st — [Reinsurance Group Of America (RGA) Could Be 9% Undervalued Following Its Recent Run](https://news.google.com/rss/articles/CBMi3gFBVV95cUxPYm9CUnNBY1J5blJ5d3UyQXNXMlhzUFg0elRySUQ5a1FtUGNiaXBjeUtSbGxVMDlDUzZqZ0txbE5ic0RrWFNyRThKT2pmaWxfUUNob1FhZ2NNTUhIcUNLRlF2R2pteWM3bTZYd2pIWWRuQ1pkaE9lZWFqUzV6YXk2bGVFQ0txVlY4SEVUV29FLVYzTEhpOHhFb0cwUVo1ZVg5LWFOM2ZUeXRWeUt4bzNFZzB1VzBJYmRIYm9iNk5VVXVkVGZ1QW5hMTJsUjNaUFBjb05tc0lCTXY4cnpIQnfSAeMBQVVfeXFMTlpUZHRxN0J5OHFHQ1duY0J2c3hYSlYxYTVfYzNhTXNjTVU5Q2JGUmtNYmdJWG00blVZdjNadlJxaDNRSWNaeURTa3FKdTVJVGxLb2pNZEt6OGtLUWFDX1B2V1hzeUR6ck9RSEMtbkI4b096RDZGNHFSd0Flb3A5NFhheEZubV9vai1zS05tdW51Vzc3S3ZDdVc3eEN4SlFYRnd1WERrc3IzV2lGVzNLMllQS3ViZ0xQQlh1X1NHVjUwUVg3TWhpSk1vZGZNM1dWeThnOEFsa2JKdWk2Q2ZIS1p3Wkk?oc=5)
 - **2026-09-23** — Yahoo Finance — [Reinsurance Group of America, I (RGA) Stock Forecasts](https://news.google.com/rss/articles/CBMijwFBVV95cUxPODJJY1lNYzNMdXdFOHU3dWRWUElzaDJSSF81cUlBQTJnVGhaWnM1RzQ1ZnF6eW9fODdNN0pOdlUxSGtkRFIyaDdxMDBkQUloTUMyaG1hdUhfNFl2M3VIbmROTHFKTzROaXRoako4bDU2VEs5MDZPZWExbXpvYUJEd2g2eTQteUtnOENic2xDVQ?oc=5)
 - **2026-09-23** — Yahoo Finance Australia — [Reinsurance Group of America, Incorporated (RGA) latest stock news and headlines](https://news.google.com/rss/articles/CBMiV0FVX3lxTE5CdHFXVjBaOUtpRG1uM296dngxVElqR0x6cFZ2NjVySDAyaUZSQkpGdmRxWkk2U3VNR3lFQUxxeTdvbmxWQ3lybXM4cmVvN3VIcGJHS3pWNA?oc=5)
 - **2026-09-23** — Bermuda Re — [West Grove Re appoints former RGA leader Anthony Young as CEO](https://news.google.com/rss/articles/CBMipwFBVV95cUxOVHktYXVlOHVTdVQ4SUZCUnN1TS1vcDlCRkJTOEc3RmdpRWxFd0FkLUZvc2VDTkpXaDFSUllMQ3ZSZWxCb0JWZlZXNUtVX1BmOG9IQUhhT0Y5eFJiNEFSV0ZUREgxMUNmaFI5bmJRbXQzVWt3MExUTEJRU0FESl9HTDZXQ1REVEx1RlZ3Q1FQc0d2ZnFadzk1aEg2YUZxUHN6VzBEaWhZSQ?oc=5)
-- **2026-09-22** — financialcontent.com — [Reinsurance Group of America (RGA): Buy, Sell, or Hold Post Q2 Earnings?](https://news.google.com/rss/articles/CBMixwFBVV95cUxOM1BtVnNoUU50QkhXX2gyWllvRUJQa0RMOERwck1Uc2RIRUxhYkF3UEdvT2lwcWFZNVU1cHg0Wk12T3k3d3Z3YXROOXR4Rl9oeDB0aW5MR1Y4OGg3WU9lRlpFdi1SX2dlb1o4Q2cyTUxmMDZXeHVlSGd4M09WQVZDMEFHTHhhTlVLSHBiZUo1MDZ1N3I5VXRSeWpmal9jQjVPX2dPZ21tZkl3VUd4OHFFZVdzNTNHbXBFZm5TZ3JxT2FuMFEwV1lF?oc=5)
+- **2026-09-22** — The Globe and Mail — [Reinsurance Group of America (RGA): Buy, Sell, or Hold Post Q2 Earnings?](https://news.google.com/rss/articles/CBMi5AFBVV95cUxQZkZ0Z3R2R3ZiS05QSFpFRTVjOVljVHR0WUlSREY1V2RtRFVNZFFPZHVBUmhha0RtQzhFZURmQklGWEdhR3JWQU9wYnhpX1NPRUU1enptZDB1RFBZS3NjWDQtak0wRjI1WG1SZUxzOHY3ZFhnRzZ6ZVZTb0VMWWxjZVVEdTJPaENLYXNXUUgwaUdNUmRRYWR4eXFwUHJMdXdMNFNheFg3ZkF2LV9LZTdGbzlvNXFQTW0xTjE1bmNVcjNZeU94ZzdVMnB0a1dUM3ZPYloxN3NiTWtnNm1Jb2dqaHBtMC0?oc=5)
 - **2026-09-21** — Yahoo Finance — [RGA Expands Growth Runway Through Financial Solutions & Longevity](https://news.google.com/rss/articles/CBMiogFBVV95cUxOaVU5cVZRVmkzcS1sSFJPOXpKWFdaSWpHZ1R6cHBYY0hscnBQR3NGM3RiWkVQMU4yNXN3eUNLOTlHNU5GTThXaE5HYlFySkNpVWFocnZzSjBlaGZzQWxsTzhyRUR1U3V1LWpzMzBQMTd6V0I3TTdLaEs1M190cTVzamNFSWFZbE5fa2xVRFROc3lMeDN6RzEyMXNkVFdMYkkwTVE?oc=5)
 - **2026-09-18** — Intelligent Insurer — [Former RGA leader takes helm at West Grove Re](https://news.google.com/rss/articles/CBMihwFBVV95cUxNck54Nm9NejlNOWdic09ueHdrRHAyUDdhQVJlMHJkZFhqNVpHRmtySTNEejZGZFU0VlZURDZlcUU3dGowbGlGdnl3M2VBUW5UVFd2OEtGdm85clRycUFhWklHN3JTUjZPdGR1dUtwT3VhcTYzVWJqS0paNm1jR0kxUW5CQUotVUk?oc=5)
 - **2026-09-15** — Yahoo Finance — [Is Reinsurance Group of America (RGA) Worth Its Price After 152% Gains?](https://news.google.com/rss/articles/CBMiogFBVV95cUxPTlB5YU9uSnhLeThqVGlzR0xJay1sMjdxRkozT1NxVjlMa1VoWXVkWlBTclFJVDdmVk13LW1mc2F6MVd0Rk1XSWQ3VXo2ODZBd2FxajV2T28xRXZydUw5NFRvOHFBZWwtbUZPQ2d6Ty1WSHpLbXJWcXRBOGZJVWxncmZDc3dyZVdEVy1aRTNzZ0hiY3Fnanphak41dHRjSlkwMGc?oc=5)
@@ -47,7 +47,7 @@ Generated Sun 27 Sep 2026, 09:08 ADT
 ## Sagicor
 
 - **2026-09-23** — kalkine.ca — [Sagicor Financial Stock Slips as Debt Refinancing, Earnings Sensitivity and Market Volatility Pressure Sentiment](https://news.google.com/rss/articles/CBMi3gFBVV95cUxPampXbEtkSGp6enBWN3hWRTZ1YzhVTUo4RjV0V1ZWZTg3VDB3VVVrMFR2ajNwbDZmQ1dBVXY1T3cwQi1xU0F4UEg3djdENlZiRFNUamtYeDBoM00zck5ISHJnT0otaEhFVGE3cFJvN0NIcjZfMnc3N1prNDBrR1hHUlZfdGNpNklyS0hSbUNPODloMG5UQndaVHlJYmdKQzY3d2pXVEtoS1JPdUlmRzdMTUFVV284TFh6c3dVbzVKblhJX3N4MDBYc1ZjYnU4YWxQQXNNSDA4dUFYSDJRa3c?oc=5)
-- **2026-09-22** — Dealroom.co — [Sagicor prices $250M note offering to repay debt](https://news.google.com/rss/articles/CBMiiAFBVV95cUxNTE14Zi1oNTRGcHNjVlU1MTl4TzRpbU1KZnc5TWhXRThDOEtVOGhWMk1fQzVha0ljczRWMWdTTWdYMm4tY2otYlhyUmRoRGVsd0FvaF9NWUY3Vk9FMU5JOUxiY0RQSGN2bE92bXJJVm5zcEFzTWRfQ0k4ZUdvdzRiNV9GOGFwYjZJ?oc=5)
+- **2026-09-23** — Dealroom — [Sagicor prices $250M note offering to repay debt](https://news.google.com/rss/articles/CBMiiAFBVV95cUxNTE14Zi1oNTRGcHNjVlU1MTl4TzRpbU1KZnc5TWhXRThDOEtVOGhWMk1fQzVha0ljczRWMWdTTWdYMm4tY2otYlhyUmRoRGVsd0FvaF9NWUY3Vk9FMU5JOUxiY0RQSGN2bE92bXJJVm5zcEFzTWRfQ0k4ZUdvdzRiNV9GOGFwYjZJ?oc=5)
 
 _No news in the window: Wilton Re, Fortitude Re, Resolution Re, Monument Re, Somerset Re, Martello Re, Prismic Re, Kuvare, Venerable, Catalina_
 
