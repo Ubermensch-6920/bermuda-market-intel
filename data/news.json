@@ -1,5 +1,5 @@
 {
-  "updated": "2026-09-27T05:24:17Z",
+  "updated": "2026-09-27T12:08:31Z",
   "topics": [
     "Insurance AM",
     "Private Credit",
@@ -30,7 +30,7 @@
     {
       "id": "6e2b5445ad0d",
       "title": "PIC and USS target more infra debt, eye digital space",
-      "source": "Infrastructure Investor",
+      "source": "infrastructureinvestor.com",
       "date": "2026-09-25T14:54:28Z",
       "topic": "Private Credit",
       "summary": "",
@@ -48,9 +48,19 @@
       "isNew": false
     },
     {
+      "id": "c10277ef889b",
+      "title": "Abacus Global Management Closes $400 Million Life Insurance Securitization",
+      "source": "citybiz",
+      "date": "2026-09-25T12:42:04Z",
+      "topic": "Insurance AM",
+      "summary": "",
+      "link": "https://news.google.com/rss/articles/CBMitAFBVV95cUxNdWJ6Q1YxdDM2SG14VnNGT196RFNrLXBnLU5USk9wY1lpX0M3bWIyTzgyYkp6ZDdBM1F4RUFpeEhHTXA4Zkg1NlBUa2plRU9VbTZ5b1BnTzQ2WEluaUJNSDZ6VHJleFBvWTUtbDBtMzcxVEtVcGo5WUVMUmlYcUdicHUzTHdfcXl5cGVZVHlIU2ZxZ1pRSVNPNXgwWDJ1cjFReXZId1lXLWhTV1dFRWJ1dDAxb0c?oc=5",
+      "isNew": false
+    },
+    {
       "id": "50e86e724bb5",
       "title": "US insurance regulators defend oversight of insurers\u2019 growing private credit ties",
-      "source": "alternativecreditinvestor.com",
+      "source": "Alternative Credit Investor",
       "date": "2026-09-25T12:04:56Z",
       "topic": "Structured Credit",
       "summary": "",
@@ -80,7 +90,7 @@
     {
       "id": "d23843a4508a",
       "title": "Why bond yields are rising and why everyone should care",
-      "source": "ABC News - Breaking News, Latest News and Videos",
+      "source": "abcnews.com",
       "date": "2026-09-24T21:01:48Z",
       "topic": "Rates & Macro",
       "summary": "",
@@ -110,11 +120,11 @@
     {
       "id": "8c556505b2a7",
       "title": "Global bond sell-off deepens, sending borrowing costs higher around the world",
-      "source": "CNN",
-      "date": "2026-09-24T12:44:45Z",
+      "source": "wpsdlocal6.com",
+      "date": "2026-09-24T15:28:00Z",
       "topic": "Rates & Macro",
       "summary": "",
-      "link": "https://news.google.com/rss/articles/CBMia0FVX3lxTE93eV9ITVo1NjlGaDVKMUhsXzlTR2ZIV2Y1dGQ3Y2xoYTJxQ1E3QnNrRXRGNkU4TU9rVnIyTUV2Z2ptX2ZjR2dQR0VnX0dobDR2d1B1aEN5SDREMFp0cGNSNXZKejJNdEdHVHNr?oc=5",
+      "link": "https://news.google.com/rss/articles/CBMi7wFBVV95cUxQaG9mbHhrZWstajZvYW5hbHVRdHBTZ05ER2N2bjUxS1Y0OXUxWHFVdUhFTm9LcnVWaHJKYW1TcTFhczdJRURTTndocmhiMWs4YjJlWnQ3dm1ZbTM1RzR5SlRfN2pJbm9JQkkxS05VbVNiUnA5THZYLTFGTUtuRENXb3piQnhaWHJpaHAySFFGdllldG8yeXhyNUJIWFJJQnRRa096ODNNYTVpUmd1NmNJUXR5S04wNEFucElodmk3T2F4Tmw1YTNCQjhiZzZzdlZFVWdaNGF2THU0cjNVV2I1R0NMdkZteC16X0RHekk4RQ?oc=5",
       "isNew": false
     },
     {
@@ -198,16 +208,6 @@
       "isNew": false
     },
     {
-      "id": "c10277ef889b",
-      "title": "Abacus Global Management Closes $400 Million Life Insurance Securitization",
-      "source": "citybiz",
-      "date": "2026-09-23T13:14:27Z",
-      "topic": "Insurance AM",
-      "summary": "",
-      "link": "https://news.google.com/rss/articles/CBMisgFBVV95cUxQYW1EcmRQSFpRb096MjJSQ3hDTTdSYnl0U3hFekhqbVFOT3U4V0JZcElnTWF5TWdZNlFEYlpmNXpEcXlBTVJDN1hoZkllZHlPX0tQNWtaM1pQVGFfZVlCRmFqSU9hdzhmWi1pZktzZUt4R3NHOUZFVEZGeW1vUDV6b3F1UTNjZ25aaWczZmZxNHR2b0czZkN6MW1nMjlXTmFRTU1vOWFDa3F5cExGLURjclRB?oc=5",
-      "isNew": false
-    },
-    {
       "id": "435f7b0303b9",
       "title": "Aegon fund taps insurance boom in credit risk transfer",
       "source": "Structured Credit Investor",
@@ -215,6 +215,16 @@
       "topic": "Insurance AM",
       "summary": "",
       "link": "https://news.google.com/rss/articles/CBMixwFBVV95cUxPeTNDRGRxMVR3Yi0tV0dRV1BfYVkxNFVoZmowRGQ3Z1VpNEJ6VWE3QWZRM2gtd1lwX1FJdGUtay1LUExoOEw0aUlGUHFTUEZDZWQ5TUUtQlpRTzdrcG9pc1N6QlE1SUpMQnBURF9mQ0c4RkpqZEZJY1VwVzB3ZUV1NTFSbkM4YjZrbmlpNWZkTWRrRk1nLTEwSzhyLUJHMlZZdkpiYVRTaGdZRndEaU04YzJ5TDRYa2VGQ2VUNmJ0NFg1RTBkNFBF?oc=5",
+      "isNew": false
+    },
+    {
+      "id": "76c502fcb138",
+      "title": "Solvency II: Expanding the investment universe",
+      "source": "BNY",
+      "date": "2026-09-23T10:42:58Z",
+      "topic": "Structured Credit",
+      "summary": "",
+      "link": "https://news.google.com/rss/articles/CBMivgFBVV95cUxOTHlzSnNXWjYtYWRVWjFoNzAwT0hwMzZfa3JPRGo3OXl3Tk8xMHMzQlJwYnFXNWFJUjBmZC14bndIWV9PV1NYQzk0eThFeDY1WlQ0c3l5cG93T1ZrTjNWaGF3SHJIVnNhNXRWd3NrS1RxR2NkNndhMVdqN3J1WUItU29fUlVOTUpnYjZObXUyaXBuTzJ1UXZqekJ4eFd4cXFqWnZJRFF4Ui11ZlYtai1VaFdzWW4tUVdZSHFSeE5n?oc=5",
       "isNew": false
     },
     {
@@ -295,16 +305,6 @@
       "topic": "Structured Credit",
       "summary": "",
       "link": "https://news.google.com/rss/articles/CBMisAFBVV95cUxPZmdmMDhxN0F0OGNiaFN6SE53T0dRazQ3bUM1cS0yRDB3bjVZYUlqVExHU1lQNHU5bDhnSXRKeHRuVEVpR3FZU3FfUDMzaFVrb1JtUk1oMTBUM085M0JfVzN3UWRNY3d5Y05IdUloT2ZqenE0bWhhUlFYUjhxMjgzVHVrY1gtVVBaZVFVN3VtX2h4V2pBaGZEVDZ0WDBBX2dndmFWWkJmd1BpUGxpMWJNTQ?oc=5",
-      "isNew": false
-    },
-    {
-      "id": "653260cbd953",
-      "title": "Government Bond Yields Fall as Risk Sentiment Tentatively Improves",
-      "source": "WSJ",
-      "date": "2026-09-21T08:50:00Z",
-      "topic": "Rates & Macro",
-      "summary": "",
-      "link": "https://news.google.com/rss/articles/CBMiuwFBVV95cUxOclRMVXQyTkZiLThMRF9OSG9ZLVNBWE1DUkpoQUdRNDQ0akx4ZlNJZElBY2lRazk2ZlNKeE5IQU9fN2Vpc09ZRlR6RDhqV0VUcFNHSFpyTnk2V1ppbU5HcGRCMTZhZjhXV056a1RKMHUxa1daemlqZjhJcXpYdURUQmhqNU1KY3pYaDBneUc5eFp1YUVhbWhxXzFtVFozZ2xYTmxvd2xVZ3V0SlNaUllXQjMyNkRUYWYyZ1dV?oc=5",
       "isNew": false
     }
   ]
