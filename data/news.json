@@ -1,5 +1,5 @@
 {
-  "updated": "2026-09-27T21:26:22Z",
+  "updated": "2026-09-28T05:29:42Z",
   "topics": [
     "Insurance AM",
     "Private Credit",
@@ -7,6 +7,16 @@
     "Structured Credit"
   ],
   "items": [
+    {
+      "id": "c7f0f8be1345",
+      "title": "ILS NYC 2027 - Insurance linked securities conference in New York from Artemis",
+      "source": "Artemis.bm",
+      "date": "2026-09-28T01:32:41Z",
+      "topic": "Insurance AM",
+      "summary": "",
+      "link": "https://news.google.com/rss/articles/CBMiTEFVX3lxTE9jR3pRRTYtY3hYUWJsQ1hPbXM2NzE5QUFod2V4RUx2N1JOblFLTlFmWTZYSjZ0V01Fd3BfWmhwcDJZemo5cVdQOVZoNkY?oc=5",
+      "isNew": false
+    },
     {
       "id": "f910afc7c4a8",
       "title": "Abacus Global Completes Over $400 Million Securitization Of Life Insurance Assets",
@@ -30,7 +40,7 @@
     {
       "id": "6e2b5445ad0d",
       "title": "PIC and USS target more infra debt, eye digital space",
-      "source": "Infrastructure Investor",
+      "source": "infrastructureinvestor.com",
       "date": "2026-09-25T14:54:28Z",
       "topic": "Private Credit",
       "summary": "",
@@ -90,7 +100,7 @@
     {
       "id": "d23843a4508a",
       "title": "Why bond yields are rising and why everyone should care",
-      "source": "ABC News - Breaking News, Latest News and Videos",
+      "source": "abcnews.com",
       "date": "2026-09-24T21:01:48Z",
       "topic": "Rates & Macro",
       "summary": "",
@@ -260,21 +270,11 @@
     {
       "id": "79ece7ef9395",
       "title": "Why Bond Markets Are Pricing In Too Many Interest Rate Rises",
-      "source": "Morningstar",
+      "source": "global.morningstar.com",
       "date": "2026-09-22T05:12:47Z",
       "topic": "Rates & Macro",
       "summary": "",
       "link": "https://news.google.com/rss/articles/CBMiogFBVV95cUxOaGRrNUFnMmVGZmg0alg2YUhySUNZSWlDUHhRV1ZLcnRpdDNUamxMQ2RneHJVSjZBbFBUSmJfaC1YYmRVUVNSaXhkVllKWU5rRFpSUmViY2R1VVZJbDY5dlBjT3puWjN6dFJEekYwZEVqcVdLTTl1SXVTZU1teHZUT0p1WTY2RmszSzBVWHBqWWZQdjdiRElYQjBKbmtRZm9tYWc?oc=5",
-      "isNew": false
-    },
-    {
-      "id": "c7f0f8be1345",
-      "title": "ILS NYC 2027 - Insurance linked securities conference in New York from Artemis",
-      "source": "Artemis.bm",
-      "date": "2026-09-22T04:40:35Z",
-      "topic": "Insurance AM",
-      "summary": "",
-      "link": "https://news.google.com/rss/articles/CBMiTEFVX3lxTE9jR3pRRTYtY3hYUWJsQ1hPbXM2NzE5QUFod2V4RUx2N1JOblFLTlFmWTZYSjZ0V01Fd3BfWmhwcDJZemo5cVdQOVZoNkY?oc=5",
       "isNew": false
     },
     {
@@ -300,7 +300,7 @@
     {
       "id": "653260cbd953",
       "title": "Government Bond Yields Fall as Risk Sentiment Tentatively Improves",
-      "source": "wsj.com",
+      "source": "WSJ",
       "date": "2026-09-21T08:50:00Z",
       "topic": "Rates & Macro",
       "summary": "",
