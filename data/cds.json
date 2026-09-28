@@ -1,5 +1,5 @@
 {
-  "date": "2026-09-24",
+  "date": "2026-09-25",
   "source": "FRED ICE BofA / TradingEconomics",
   "status": "partial",
   "sovereign": {
@@ -14,58 +14,58 @@
   "corporate": {
     "aaa": {
       "name": "AAA Corp",
-      "spread": 40,
-      "prior": 39,
+      "spread": 41,
+      "prior": 40,
       "series_id": "",
-      "date": "2026-09-24",
+      "date": "2026-09-25",
       "source": "credit.json"
     },
     "aa": {
       "name": "AA Corp",
-      "spread": 58,
-      "prior": 57,
+      "spread": 59,
+      "prior": 58,
       "series_id": "",
-      "date": "2026-09-24",
+      "date": "2026-09-25",
       "source": "credit.json"
     },
     "a": {
       "name": "A Corp",
-      "spread": 67,
-      "prior": 66,
+      "spread": 69,
+      "prior": 67,
       "series_id": "",
-      "date": "2026-09-24",
+      "date": "2026-09-25",
       "source": "credit.json"
     },
     "bbb": {
       "name": "BBB Corp",
-      "spread": 97,
-      "prior": 95,
+      "spread": 99,
+      "prior": 97,
       "series_id": "",
-      "date": "2026-09-24",
+      "date": "2026-09-25",
       "source": "credit.json"
     },
     "bb": {
       "name": "BB Corp",
-      "spread": 164,
-      "prior": 159,
+      "spread": 176,
+      "prior": 164,
       "series_id": "",
-      "date": "2026-09-24",
+      "date": "2026-09-25",
       "source": "credit.json"
     },
     "b": {
       "name": "B Corp",
-      "spread": 286,
-      "prior": 278,
+      "spread": 300,
+      "prior": 286,
       "series_id": "",
-      "date": "2026-09-24",
+      "date": "2026-09-25",
       "source": "credit.json"
     },
     "ccc": {
       "name": "CCC Corp",
-      "spread": 1112,
-      "prior": 1093,
+      "spread": 1128,
+      "prior": 1112,
       "series_id": "",
-      "date": "2026-09-24",
+      "date": "2026-09-25",
       "source": "credit.json"
     }
   },
@@ -103,5 +103,5 @@
       "source": "cache"
     }
   },
-  "_fetched": "2026-09-28T13:58:00.154301Z"
+  "_fetched": "2026-09-28T18:42:45.365112Z"
 }
