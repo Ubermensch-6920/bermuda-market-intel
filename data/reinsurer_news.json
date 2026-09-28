@@ -1,5 +1,5 @@
 {
-  "updated": "2026-09-28T18:44:44Z",
+  "updated": "2026-09-28T21:17:26Z",
   "lookback_days": 14,
   "feeds": [
     {
@@ -140,7 +140,7 @@
       "id": "16b4627e7b60",
       "title": "Fortitude Re acquires insurtech Dayforward",
       "link": "https://news.google.com/rss/articles/CBMirwFBVV95cUxOMF83bmU2Z280OXdIcDY0a0c1eERxTmU5S3dwd1JaUU9lTk9kV002bng2NzFPUnpDOGozNTBQVHpXOUpIUkZpN3B3S3R4YXE3dzJuNXVpZ3U1bDVWSVA3UklDOXNjWnNjaTVaQWtjRld6cm5jQXcwdUlJUlRXQmFKMWZSQmh5eE9RcjNZOHhCMzlOcjZSQnIxVzczQkstWDY0WTVlM0JWQWpHWmZZbmh3?oc=5",
-      "source": "royalgazette.com",
+      "source": "Royal Gazette | Bermuda",
       "feed": "Google News: Fortitude Re",
       "date": "2026-09-28T15:12:44Z",
       "summary": "",
@@ -152,12 +152,24 @@
       "id": "16c882df8b54",
       "title": "Five students awarded full scholarships from Athene",
       "link": "https://news.google.com/rss/articles/CBMiuwFBVV95cUxPYVdkclEwZHItSTVwb2VXVjNwQzZ1R2xWSlZXSWYtWTg5RWFJNnZIWTZoWmVQOU0yOERJNEU3SlVJTEJKMzVlNnJhV3VpV0lNczJ5Ylp2SmNDdElPdlZ0X29IZThDNWg2YkctYXhqdERfRHJfSzhON0VwOHlvel9iVDBSTTE4S1B2N24taXI3bjVxRkFSRFVnblk3OHBVOFNLQlVqN01Yckp3RzNPLXJBSldiZkVFMVRYVlRj?oc=5",
-      "source": "royalgazette.com",
+      "source": "Royal Gazette | Bermuda",
       "feed": "Google News: Athene",
       "date": "2026-09-28T15:05:18Z",
       "summary": "",
       "companies": [
         "Athene"
+      ]
+    },
+    {
+      "id": "ab8651daa2c5",
+      "title": "Fortitude Re expands insurtech capabilities with annuity platform buy",
+      "link": "https://news.google.com/rss/articles/CBMipwFBVV95cUxNSjgtV1pJSEVkVm1jUXVEbEhWODg4bV84MlB0a1BnWFZqbEN0bHc2dFZkdkxPRWQzMEhieWhrTXVkeWJwU01sZnlWWHNoeVhwZ3oxLURVVGJZTmN0OFgzUFo3N3hpcnZVUmdTVHdnbzFqbl9ZVjdQUTZySDU5TUozTlltS3FISjJpWDJUelVRS1F3bENRQVIyXzh5NmZTOWI1SDdlWkRlWQ?oc=5",
+      "source": "Intelligent Insurer",
+      "feed": "Google News: Fortitude Re",
+      "date": "2026-09-28T14:29:36Z",
+      "summary": "",
+      "companies": [
+        "Fortitude Re"
       ]
     },
     {
@@ -168,18 +180,6 @@
       "feed": "Reinsurance News",
       "date": "2026-09-28T14:00:24Z",
       "summary": "Fortitude Re, formed by FGH Parent, L.P. and its subsidiaries, has acquired nearly all the assets of Dayforward, a digitally native insurance technology company, through a newly formed entity that will be renamed Fortitude Life. The transaction includes Dayforward\u2019s technology platform, distribution agreements, intellectual property, licensed insurance agency and its team, but excludes the firm\u2019s ",
-      "companies": [
-        "Fortitude Re"
-      ]
-    },
-    {
-      "id": "ab8651daa2c5",
-      "title": "Fortitude Re expands insurtech capabilities with annuity platform buy",
-      "link": "https://news.google.com/rss/articles/CBMipwFBVV95cUxNSjgtV1pJSEVkVm1jUXVEbEhWODg4bV84MlB0a1BnWFZqbEN0bHc2dFZkdkxPRWQzMEhieWhrTXVkeWJwU01sZnlWWHNoeVhwZ3oxLURVVGJZTmN0OFgzUFo3N3hpcnZVUmdTVHdnbzFqbl9ZVjdQUTZySDU5TUozTlltS3FISjJpWDJUelVRS1F3bENRQVIyXzh5NmZTOWI1SDdlWkRlWQ?oc=5",
-      "source": "Intelligent Insurer",
-      "feed": "Google News: Fortitude Re",
-      "date": "2026-09-28T13:50:10Z",
-      "summary": "",
       "companies": [
         "Fortitude Re"
       ]
@@ -236,7 +236,7 @@
       "id": "2f66c80f38d4",
       "title": "LNC Stock Pops On Report Of Lincoln National\u2019s Potential $5B Reinsurance Deal With Talcott",
       "link": "https://news.google.com/rss/articles/CBMi8AFBVV95cUxObVNXSlZPbDItV2V4cFN0N1l4NFBGb2lMODJfbUFfeVN6OWMyMVl6WUtNc044dmI4aXpacGdjMGtwYkdkcWM5Vk1FN2hpODJ6NkVPa1pOa0g3aU13QnZ1NjFNc2dEQldXdW1odkZXaTVyYkpPM3YtM00wSE9DdmdoOS16SF8tUEJvYThCdWZTT1RyMWJWZm5KdTltUTcwRU55Y2FRMG42d19FU2Nnb1Y5MXZKTm5iQW9GclRlbFRiaTl3R1JyaWlCOFZUalhJMFdYWWxPd01OaWIzQWVjTFpvSWo2SGt6VWM1cUpESWIydU8?oc=5",
-      "source": "stocktwits.com",
+      "source": "Stocktwits",
       "feed": "Google News: Talcott",
       "date": "2026-09-26T21:03:58Z",
       "summary": "",
@@ -344,7 +344,7 @@
       "id": "4a417dcfb8ba",
       "title": "West Grove Re appoints former RGA leader Anthony Young as CEO",
       "link": "https://news.google.com/rss/articles/CBMipwFBVV95cUxOVHktYXVlOHVTdVQ4SUZCUnN1TS1vcDlCRkJTOEc3RmdpRWxFd0FkLUZvc2VDTkpXaDFSUllMQ3ZSZWxCb0JWZlZXNUtVX1BmOG9IQUhhT0Y5eFJiNEFSV0ZUREgxMUNmaFI5bmJRbXQzVWt3MExUTEJRU0FESl9HTDZXQ1REVEx1RlZ3Q1FQc0d2ZnFadzk1aEg2YUZxUHN6VzBEaWhZSQ?oc=5",
-      "source": "Bermuda Re",
+      "source": "bermudareinsurancemagazine.com",
       "feed": "Google News: Talcott",
       "date": "2026-09-23T07:00:00Z",
       "summary": "",
@@ -428,7 +428,7 @@
       "id": "032420a02f82",
       "title": "Athene settles eight-year legal battle with former director",
       "link": "https://news.google.com/rss/articles/CBMixgFBVV95cUxNTFc2VFFmVXFRWlR6RVFSb1M2US05M0pMa3FnMUNjQ3V5VlBVcUxhRDluWGxiRndHX1RZVFlCVlM5UHJDNjJDcGZJa1lmUHUyd2gtZVNXdkJMNEY0S3RmN0pXekotX3RwTDZBUWk1Umw2bGE5NXFXeldqZl9aVTF1S0dIaFpPcVlwNV9WQ0JWYXl0YmZncERTV0xkUDVobWRTa3g4XzdNNjFzY09NRGtIWUUwVlhuYV9Qd0ZpRG9OcHFsQ0VLcEE?oc=5",
-      "source": "royalgazette.com",
+      "source": "Royal Gazette | Bermuda",
       "feed": "Google News: Athene",
       "date": "2026-09-18T18:09:52Z",
       "summary": "",

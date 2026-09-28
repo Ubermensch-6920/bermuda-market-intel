@@ -1,7 +1,7 @@
 # Reinsurer News Monitor
 
 Bermuda life & annuity watchlist — last 14 days — 29 items
-Generated Mon 28 Sep 2026, 15:44 ADT
+Generated Mon 28 Sep 2026, 18:17 ADT
 
 ## Feed status
 
@@ -11,9 +11,9 @@ Generated Mon 28 Sep 2026, 15:44 ADT
 
 ## Athene
 
-- **2026-09-28** — royalgazette.com — [Five students awarded full scholarships from Athene](https://news.google.com/rss/articles/CBMiuwFBVV95cUxPYVdkclEwZHItSTVwb2VXVjNwQzZ1R2xWSlZXSWYtWTg5RWFJNnZIWTZoWmVQOU0yOERJNEU3SlVJTEJKMzVlNnJhV3VpV0lNczJ5Ylp2SmNDdElPdlZ0X29IZThDNWg2YkctYXhqdERfRHJfSzhON0VwOHlvel9iVDBSTTE4S1B2N24taXI3bjVxRkFSRFVnblk3OHBVOFNLQlVqN01Yckp3RzNPLXJBSldiZkVFMVRYVlRj?oc=5)
+- **2026-09-28** — Royal Gazette | Bermuda — [Five students awarded full scholarships from Athene](https://news.google.com/rss/articles/CBMiuwFBVV95cUxPYVdkclEwZHItSTVwb2VXVjNwQzZ1R2xWSlZXSWYtWTg5RWFJNnZIWTZoWmVQOU0yOERJNEU3SlVJTEJKMzVlNnJhV3VpV0lNczJ5Ylp2SmNDdElPdlZ0X29IZThDNWg2YkctYXhqdERfRHJfSzhON0VwOHlvel9iVDBSTTE4S1B2N24taXI3bjVxRkFSRFVnblk3OHBVOFNLQlVqN01Yckp3RzNPLXJBSldiZkVFMVRYVlRj?oc=5)
 - **2026-09-21** — AD HOC NEWS — [Apollo Global Management stock gains on Yankees stake and Athene risk update](https://news.google.com/rss/articles/CBMixwFBVV95cUxOS1pkVlRXTk1TckJqY0xtcDBBWXNKa2FZNVBPRTN0Z2hHMGVNOU9hZnBaQUYtZzNfWkEyY2FpRVRneVJvNkdCVmVLdWd1ZGFFclp2cERYb0FDdm5CUlY5MUZqLUJDOVU1dDdaSVZCRlFPYzVkalA4WlFWY3V6RTJUaUJfY2xudzhoWTJyS1owTm9lQnkyTkFuZ0pWb09STVlJRldrWmlFdEVrV29OaGNHckUyS2NwdGh3U1VnbWNDRElIT3VhWlhF?oc=5)
-- **2026-09-18** — royalgazette.com — [Athene settles eight-year legal battle with former director](https://news.google.com/rss/articles/CBMixgFBVV95cUxNTFc2VFFmVXFRWlR6RVFSb1M2US05M0pMa3FnMUNjQ3V5VlBVcUxhRDluWGxiRndHX1RZVFlCVlM5UHJDNjJDcGZJa1lmUHUyd2gtZVNXdkJMNEY0S3RmN0pXekotX3RwTDZBUWk1Umw2bGE5NXFXeldqZl9aVTF1S0dIaFpPcVlwNV9WQ0JWYXl0YmZncERTV0xkUDVobWRTa3g4XzdNNjFzY09NRGtIWUUwVlhuYV9Qd0ZpRG9OcHFsQ0VLcEE?oc=5)
+- **2026-09-18** — Royal Gazette | Bermuda — [Athene settles eight-year legal battle with former director](https://news.google.com/rss/articles/CBMixgFBVV95cUxNTFc2VFFmVXFRWlR6RVFSb1M2US05M0pMa3FnMUNjQ3V5VlBVcUxhRDluWGxiRndHX1RZVFlCVlM5UHJDNjJDcGZJa1lmUHUyd2gtZVNXdkJMNEY0S3RmN0pXekotX3RwTDZBUWk1Umw2bGE5NXFXeldqZl9aVTF1S0dIaFpPcVlwNV9WQ0JWYXl0YmZncERTV0xkUDVobWRTa3g4XzdNNjFzY09NRGtIWUUwVlhuYV9Qd0ZpRG9OcHFsQ0VLcEE?oc=5)
 
 ## Global Atlantic
 
@@ -23,10 +23,10 @@ Generated Mon 28 Sep 2026, 15:44 ADT
 
 ## Fortitude Re
 
-- **2026-09-28** — royalgazette.com — [Fortitude Re acquires insurtech Dayforward](https://news.google.com/rss/articles/CBMirwFBVV95cUxOMF83bmU2Z280OXdIcDY0a0c1eERxTmU5S3dwd1JaUU9lTk9kV002bng2NzFPUnpDOGozNTBQVHpXOUpIUkZpN3B3S3R4YXE3dzJuNXVpZ3U1bDVWSVA3UklDOXNjWnNjaTVaQWtjRld6cm5jQXcwdUlJUlRXQmFKMWZSQmh5eE9RcjNZOHhCMzlOcjZSQnIxVzczQkstWDY0WTVlM0JWQWpHWmZZbmh3?oc=5)
+- **2026-09-28** — Royal Gazette | Bermuda — [Fortitude Re acquires insurtech Dayforward](https://news.google.com/rss/articles/CBMirwFBVV95cUxOMF83bmU2Z280OXdIcDY0a0c1eERxTmU5S3dwd1JaUU9lTk9kV002bng2NzFPUnpDOGozNTBQVHpXOUpIUkZpN3B3S3R4YXE3dzJuNXVpZ3U1bDVWSVA3UklDOXNjWnNjaTVaQWtjRld6cm5jQXcwdUlJUlRXQmFKMWZSQmh5eE9RcjNZOHhCMzlOcjZSQnIxVzczQkstWDY0WTVlM0JWQWpHWmZZbmh3?oc=5)
+- **2026-09-28** — Intelligent Insurer — [Fortitude Re expands insurtech capabilities with annuity platform buy](https://news.google.com/rss/articles/CBMipwFBVV95cUxNSjgtV1pJSEVkVm1jUXVEbEhWODg4bV84MlB0a1BnWFZqbEN0bHc2dFZkdkxPRWQzMEhieWhrTXVkeWJwU01sZnlWWHNoeVhwZ3oxLURVVGJZTmN0OFgzUFo3N3hpcnZVUmdTVHdnbzFqbl9ZVjdQUTZySDU5TUozTlltS3FISjJpWDJUelVRS1F3bENRQVIyXzh5NmZTOWI1SDdlWkRlWQ?oc=5)
 - **2026-09-28** — Reinsurance News — [Fortitude Re advances long-term strategy with Dayforward acquisition](https://www.reinsurancene.ws/fortitude-re-advances-long-term-strategy-with-dayforward-acquisition/)
   - Fortitude Re, formed by FGH Parent, L.P. and its subsidiaries, has acquired nearly all the assets of Dayforward, a digitally native insurance technology company, through a newly formed entity that will be renamed Fortitude Life. The transaction includes Dayforward’s technology platform, distribution agreements, intellectual property, licensed insurance agency and its team, but excludes the firm’s 
-- **2026-09-28** — Intelligent Insurer — [Fortitude Re expands insurtech capabilities with annuity platform buy](https://news.google.com/rss/articles/CBMipwFBVV95cUxNSjgtV1pJSEVkVm1jUXVEbEhWODg4bV84MlB0a1BnWFZqbEN0bHc2dFZkdkxPRWQzMEhieWhrTXVkeWJwU01sZnlWWHNoeVhwZ3oxLURVVGJZTmN0OFgzUFo3N3hpcnZVUmdTVHdnbzFqbl9ZVjdQUTZySDU5TUozTlltS3FISjJpWDJUelVRS1F3bENRQVIyXzh5NmZTOWI1SDdlWkRlWQ?oc=5)
 - **2026-09-28** — Coverager — [Fortitude Re acquires Dayforward](https://news.google.com/rss/articles/CBMiZkFVX3lxTE96U2NFQm9GM0VHOUdtSkd2Nm94MEliM2RGZXdMVHRCRW9NOXh1aTU3Ulk5eVV5WWlxay10RmJmYzBwMWR1ZVNuZC05Y1FfTFMyakluM0dBcmhZSUVwR2lhVW82dmZDUQ?oc=5)
 - **2026-09-28** — Dealroom.co — [Fortitude Re buys Dayforward to power annuity push](https://news.google.com/rss/articles/CBMijAFBVV95cUxOOHdkSzd1YUNZT09KUWlQWWtVLUs5OWxnVXBCNEY2Z3ZJcWxhaTVfNVpZUGhYUDdXY2Z6THpXVElHNUpfZGtmTmg3cUJQb2g5emcydExZTWR5ZjNFRUVPVGpXb0xTQi0xTzRma0luNVM4TVBtWnh0aEJVdzJEVndPR2hNTzNYQ0F1MEo3NA?oc=5)
 - **2026-09-28** — Business Wire — [Fortitude Re Acquires Dayforward to Broaden Capabilities](https://news.google.com/rss/articles/CBMiswFBVV95cUxQWFlMQ1lrdkVJbGUzV2l5a1R0MFdXUnpWSFpiWmhRQlFPM0NvcVRveW1kZTFLb0xYWWRtM0pyRDczZk45TUFBLWg4U2pyem5wVk1pS3FOTWZxeHhJVjMzRmVnUWZxLWN1OWhWdTROSmhzYmUwQ0FodHhkejlyNGhCalZsd1BiNFk1THhtSHBOd3plNmJ5cTNac1pvajVOakxNUWhMMFNyRXhZUEwyZGYtNnVtaw?oc=5)
@@ -37,7 +37,7 @@ Generated Mon 28 Sep 2026, 15:44 ADT
 
 ## Talcott
 
-- **2026-09-26** — stocktwits.com — [LNC Stock Pops On Report Of Lincoln National’s Potential $5B Reinsurance Deal With Talcott](https://news.google.com/rss/articles/CBMi8AFBVV95cUxObVNXSlZPbDItV2V4cFN0N1l4NFBGb2lMODJfbUFfeVN6OWMyMVl6WUtNc044dmI4aXpacGdjMGtwYkdkcWM5Vk1FN2hpODJ6NkVPa1pOa0g3aU13QnZ1NjFNc2dEQldXdW1odkZXaTVyYkpPM3YtM00wSE9DdmdoOS16SF8tUEJvYThCdWZTT1RyMWJWZm5KdTltUTcwRU55Y2FRMG42d19FU2Nnb1Y5MXZKTm5iQW9GclRlbFRiaTl3R1JyaWlCOFZUalhJMFdYWWxPd01OaWIzQWVjTFpvSWo2SGt6VWM1cUpESWIydU8?oc=5)
+- **2026-09-26** — Stocktwits — [LNC Stock Pops On Report Of Lincoln National’s Potential $5B Reinsurance Deal With Talcott](https://news.google.com/rss/articles/CBMi8AFBVV95cUxObVNXSlZPbDItV2V4cFN0N1l4NFBGb2lMODJfbUFfeVN6OWMyMVl6WUtNc044dmI4aXpacGdjMGtwYkdkcWM5Vk1FN2hpODJ6NkVPa1pOa0g3aU13QnZ1NjFNc2dEQldXdW1odkZXaTVyYkpPM3YtM00wSE9DdmdoOS16SF8tUEJvYThCdWZTT1RyMWJWZm5KdTltUTcwRU55Y2FRMG42d19FU2Nnb1Y5MXZKTm5iQW9GclRlbFRiaTl3R1JyaWlCOFZUalhJMFdYWWxPd01OaWIzQWVjTFpvSWo2SGt6VWM1cUpESWIydU8?oc=5)
 
 ## Venerable
 
@@ -53,7 +53,7 @@ Generated Mon 28 Sep 2026, 15:44 ADT
 - **2026-09-24** — simplywall.st — [Reinsurance Group Of America (RGA) Could Be 9% Undervalued Following Its Recent Run](https://news.google.com/rss/articles/CBMi3gFBVV95cUxPYm9CUnNBY1J5blJ5d3UyQXNXMlhzUFg0elRySUQ5a1FtUGNiaXBjeUtSbGxVMDlDUzZqZ0txbE5ic0RrWFNyRThKT2pmaWxfUUNob1FhZ2NNTUhIcUNLRlF2R2pteWM3bTZYd2pIWWRuQ1pkaE9lZWFqUzV6YXk2bGVFQ0txVlY4SEVUV29FLVYzTEhpOHhFb0cwUVo1ZVg5LWFOM2ZUeXRWeUt4bzNFZzB1VzBJYmRIYm9iNk5VVXVkVGZ1QW5hMTJsUjNaUFBjb05tc0lCTXY4cnpIQnfSAeMBQVVfeXFMTlpUZHRxN0J5OHFHQ1duY0J2c3hYSlYxYTVfYzNhTXNjTVU5Q2JGUmtNYmdJWG00blVZdjNadlJxaDNRSWNaeURTa3FKdTVJVGxLb2pNZEt6OGtLUWFDX1B2V1hzeUR6ck9RSEMtbkI4b096RDZGNHFSd0Flb3A5NFhheEZubV9vai1zS05tdW51Vzc3S3ZDdVc3eEN4SlFYRnd1WERrc3IzV2lGVzNLMllQS3ViZ0xQQlh1X1NHVjUwUVg3TWhpSk1vZGZNM1dWeThnOEFsa2JKdWk2Q2ZIS1p3Wkk?oc=5)
 - **2026-09-23** — Yahoo Finance — [Reinsurance Group of America, I (RGA) Stock Forecasts](https://news.google.com/rss/articles/CBMijwFBVV95cUxPODJJY1lNYzNMdXdFOHU3dWRWUElzaDJSSF81cUlBQTJnVGhaWnM1RzQ1ZnF6eW9fODdNN0pOdlUxSGtkRFIyaDdxMDBkQUloTUMyaG1hdUhfNFl2M3VIbmROTHFKTzROaXRoako4bDU2VEs5MDZPZWExbXpvYUJEd2g2eTQteUtnOENic2xDVQ?oc=5)
 - **2026-09-23** — Yahoo Finance Australia — [Reinsurance Group of America, Incorporated (RGA) latest stock news and headlines](https://news.google.com/rss/articles/CBMiV0FVX3lxTE5CdHFXVjBaOUtpRG1uM296dngxVElqR0x6cFZ2NjVySDAyaUZSQkpGdmRxWkk2U3VNR3lFQUxxeTdvbmxWQ3lybXM4cmVvN3VIcGJHS3pWNA?oc=5)
-- **2026-09-23** — Bermuda Re — [West Grove Re appoints former RGA leader Anthony Young as CEO](https://news.google.com/rss/articles/CBMipwFBVV95cUxOVHktYXVlOHVTdVQ4SUZCUnN1TS1vcDlCRkJTOEc3RmdpRWxFd0FkLUZvc2VDTkpXaDFSUllMQ3ZSZWxCb0JWZlZXNUtVX1BmOG9IQUhhT0Y5eFJiNEFSV0ZUREgxMUNmaFI5bmJRbXQzVWt3MExUTEJRU0FESl9HTDZXQ1REVEx1RlZ3Q1FQc0d2ZnFadzk1aEg2YUZxUHN6VzBEaWhZSQ?oc=5)
+- **2026-09-23** — bermudareinsurancemagazine.com — [West Grove Re appoints former RGA leader Anthony Young as CEO](https://news.google.com/rss/articles/CBMipwFBVV95cUxOVHktYXVlOHVTdVQ4SUZCUnN1TS1vcDlCRkJTOEc3RmdpRWxFd0FkLUZvc2VDTkpXaDFSUllMQ3ZSZWxCb0JWZlZXNUtVX1BmOG9IQUhhT0Y5eFJiNEFSV0ZUREgxMUNmaFI5bmJRbXQzVWt3MExUTEJRU0FESl9HTDZXQ1REVEx1RlZ3Q1FQc0d2ZnFadzk1aEg2YUZxUHN6VzBEaWhZSQ?oc=5)
 - **2026-09-22** — The Globe and Mail — [Reinsurance Group of America (RGA): Buy, Sell, or Hold Post Q2 Earnings?](https://news.google.com/rss/articles/CBMi5AFBVV95cUxQZkZ0Z3R2R3ZiS05QSFpFRTVjOVljVHR0WUlSREY1V2RtRFVNZFFPZHVBUmhha0RtQzhFZURmQklGWEdhR3JWQU9wYnhpX1NPRUU1enptZDB1RFBZS3NjWDQtak0wRjI1WG1SZUxzOHY3ZFhnRzZ6ZVZTb0VMWWxjZVVEdTJPaENLYXNXUUgwaUdNUmRRYWR4eXFwUHJMdXdMNFNheFg3ZkF2LV9LZTdGbzlvNXFQTW0xTjE1bmNVcjNZeU94ZzdVMnB0a1dUM3ZPYloxN3NiTWtnNm1Jb2dqaHBtMC0?oc=5)
 - **2026-09-21** — TradingView — [RGA Expands Growth Runway Through Financial Solutions & Longevity](https://news.google.com/rss/articles/CBMiuwFBVV95cUxPMFdSSGJGZjNlREVWeDlyaDNSYmE3eGtaT24xVnN3cENFYmdvUEJiajZGX2Z5SENaZHdVc0ZGc2t4UklhcDdlbTZOSUt1ZTRocEwtZk9Sd2NHZHdGRUpNaUNmekkyenlkYm9paEhZb0tMTHoyb2pOYzNFNTdnelZCSU9QdjJoWDY1MzlZNVdpMmpMSnptWWlNbEM4b29XS1JPc2JNR1FrSmE3RHFzUXZfaU9OMXNLSzBZTlVz?oc=5)
 - **2026-09-18** — Intelligent Insurer — [Former RGA leader takes helm at West Grove Re](https://news.google.com/rss/articles/CBMihwFBVV95cUxNck54Nm9NejlNOWdic09ueHdrRHAyUDdhQVJlMHJkZFhqNVpHRmtySTNEejZGZFU0VlZURDZlcUU3dGowbGlGdnl3M2VBUW5UVFd2OEtGdm85clRycUFhWklHN3JTUjZPdGR1dUtwT3VhcTYzVWJqS0paNm1jR0kxUW5CQUotVUk?oc=5)
