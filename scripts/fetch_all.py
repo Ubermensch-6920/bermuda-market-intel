@@ -2,10 +2,11 @@
 """GENESIS — Data Pipeline v8.
 Improved India / UK rates sourcing and roll-aware commodity futures history.
 """
-import json, re, sys, os, logging, time, io, zipfile, csv
+import json, re, sys, os, logging, time, io, zipfile, csv, threading
 from datetime import datetime, timedelta, date
 from pathlib import Path
 from concurrent.futures import ThreadPoolExecutor, as_completed
+import urllib.error
 import urllib.request
 
 try:
@@ -114,13 +115,6 @@ def fred_prior_single(series_id, days_ago, max_diff_days=14):
     if diff > max_diff_days:
         return None, ""
     return round(best["value"], 4), best["date"]
-
-def get_prior_spot(fred_series, yahoo_symbol, days_ago, max_diff_days=14):
-    """FRED-first prior spot price; falls back to Yahoo Finance close."""
-    v, d = fred_prior_single(fred_series, days_ago, max_diff_days=max_diff_days)
-    if v is not None:
-        return v, d
-    return yahoo_price_at(yahoo_symbol, days_ago, max_diff_days=max_diff_days)
 
 def validate_yield(val):
     """Range-check a yield value. Returns rounded float or None."""
@@ -613,66 +607,81 @@ def te_bonds_table(url, code_map):
     record_source("TradingEconomics", "bond yield tables", ok=bool(out))
     return out
 
-def yahoo_price(symbol):
-    """Fetch latest close price for a Yahoo Finance symbol (futures, indices, etc.)."""
-    try:
-        url = f"https://query1.finance.yahoo.com/v8/finance/chart/{symbol}?interval=1d&range=5d"
-        data = json.loads(get(url, timeout=6))
-        closes = data["chart"]["result"][0]["indicators"]["quote"][0]["close"]
-        for v in reversed(closes):
-            if v is not None:
-                record_source("Yahoo Finance", "futures / spot prices", ok=True)
-                return round(v, 2)
-    except Exception:
-        pass
-    record_source("Yahoo Finance", "futures / spot prices", ok=False)
-    return None
+# Yahoo chart API, shared by every Yahoo lookup. Transient failures (429/5xx,
+# timeouts) retry with backoff, alternating onto query2; a 400/404 means the
+# symbol isn't listed (expired or not-yet-listed contract) and returns at once.
+# Payloads are cached for the run so a contract used by several tenor/horizon
+# lookups is only fetched once.
+_YAHOO_HOSTS = ("query1.finance.yahoo.com", "query2.finance.yahoo.com")
+_yahoo_cache = {}
+_yahoo_cache_lock = threading.Lock()
 
-def yahoo_price_at(symbol, days_ago, max_diff_days=5):
-    """Fetch close price for a Yahoo Finance symbol approximately N days ago."""
-    try:
-        target_dt = datetime.utcnow() - timedelta(days=days_ago)
-        p1 = int((target_dt - timedelta(days=10)).timestamp())
-        p2 = int((target_dt + timedelta(days=3)).timestamp())
-        url = f"https://query1.finance.yahoo.com/v8/finance/chart/{symbol}?interval=1d&period1={p1}&period2={p2}"
-        data = json.loads(get(url, timeout=6))
-        result = data["chart"]["result"][0]
-        timestamps = result.get("timestamp", [])
-        closes = result["indicators"]["quote"][0]["close"]
-        if not timestamps:
-            return None, ""
-        target_ts = int(target_dt.timestamp())
-        pairs = [(ts, c) for ts, c in zip(timestamps, closes) if c is not None]
-        if not pairs:
-            return None, ""
-        best_ts, best_c = min(pairs, key=lambda x: abs(x[0] - target_ts))
-        if abs(best_ts - target_ts) > max_diff_days * 86400:
-            return None, ""
-        return round(best_c, 2), datetime.utcfromtimestamp(best_ts).strftime("%Y-%m-%d")
-    except Exception:
+def _yahoo_chart(symbol, query, timeout=10, retries=2):
+    key = (symbol, query)
+    with _yahoo_cache_lock:
+        if key in _yahoo_cache:
+            return _yahoo_cache[key]
+    result = None
+    for attempt in range(retries + 1):
+        url = f"https://{_YAHOO_HOSTS[attempt % 2]}/v8/finance/chart/{symbol}?{query}"
+        try:
+            data = json.loads(get(url, timeout=timeout))
+            result = ((data.get("chart") or {}).get("result") or [None])[0]
+            break
+        except urllib.error.HTTPError as e:
+            if e.code in (400, 404):
+                break
+        except Exception:
+            pass
+        if attempt < retries:
+            time.sleep(1.5 * (attempt + 1))
+    with _yahoo_cache_lock:
+        _yahoo_cache[key] = result
+    return result
+
+def yahoo_daily_bars(symbol, range_="5y"):
+    """Daily closes for a Yahoo symbol as [(YYYY-MM-DD, close)], oldest first.
+
+    Bars are dated in the exchange's local time, and a live intraday bar that
+    shares a date with the day's bar replaces it.
+    """
+    res = _yahoo_chart(symbol, f"interval=1d&range={range_}")
+    out = []
+    if res:
+        try:
+            ts = res.get("timestamp") or []
+            closes = res["indicators"]["quote"][0].get("close") or []
+            off = (res.get("meta") or {}).get("gmtoffset") or 0
+            for t, c in zip(ts, closes):
+                if c is None:
+                    continue
+                d = datetime.utcfromtimestamp(t + off).strftime("%Y-%m-%d")
+                if out and out[-1][0] == d:
+                    out[-1] = (d, c)
+                else:
+                    out.append((d, c))
+        except Exception:
+            out = []
+    record_source("Yahoo Finance", "futures / spot prices", ok=bool(out))
+    return out
+
+def bar_near(bars, target, max_diff_days):
+    """Close of the bar nearest `target` (a date) within tolerance -> (close, date_str)."""
+    if not bars:
         return None, ""
+    best = min(bars, key=lambda b: abs((date.fromisoformat(b[0]) - target).days))
+    if abs((date.fromisoformat(best[0]) - target).days) > max_diff_days:
+        return None, ""
+    return best[1], best[0]
+
+def yahoo_price(symbol):
+    """Latest close for a Yahoo Finance symbol (futures, indices, FX, etc.)."""
+    bars = yahoo_daily_bars(symbol, "5d")
+    return round(bars[-1][1], 2) if bars else None
 
 def yahoo_price_near_date(symbol, target_dt, max_diff_days=5):
-    try:
-        p1 = int((target_dt - timedelta(days=10)).timestamp())
-        p2 = int((target_dt + timedelta(days=3)).timestamp())
-        url = f"https://query1.finance.yahoo.com/v8/finance/chart/{symbol}?interval=1d&period1={p1}&period2={p2}"
-        data = json.loads(get(url, timeout=6))
-        result = data["chart"]["result"][0]
-        timestamps = result.get("timestamp", [])
-        closes = result["indicators"]["quote"][0]["close"]
-        if not timestamps:
-            return None, ""
-        target_ts = int(target_dt.timestamp())
-        pairs = [(ts, c) for ts, c in zip(timestamps, closes) if c is not None]
-        if not pairs:
-            return None, ""
-        best_ts, best_c = min(pairs, key=lambda x: abs(x[0] - target_ts))
-        if abs(best_ts - target_ts) > max_diff_days * 86400:
-            return None, ""
-        return round(best_c, 2), datetime.utcfromtimestamp(best_ts).strftime("%Y-%m-%d")
-    except Exception:
-        return None, ""
+    v, d = bar_near(yahoo_daily_bars(symbol), target_dt.date(), max_diff_days)
+    return (round(v, 2), d) if v is not None else (None, "")
 
 # Commodity futures helpers
 _MONTH_ABBR = ["jan", "feb", "mar", "apr", "may", "jun", "jul", "aug", "sep", "oct", "nov", "dec"]
@@ -2252,119 +2261,339 @@ def fetch_bma_rates():
     log.info(f"  BMA RATES OK: {output.get('as_of_date_iso') or output.get('as_of_date','')}")
 
 # ── 9. COMMODITIES ──
+COMM_TENOR_NS = [("3M", 3), ("6M", 6), ("12M", 12), ("24M", 24)]
+# (label, days back, match tolerance in days). Anchored on the spot's own date.
+COMM_PRIOR_HORIZONS = [("1m", 30, 14), ("3m", 91, 14), ("1y", 365, 14), ("2y", 730, 21)]
+# Futures history is roll-aware: further back the contract is less certain to
+# have traded right on the target date, so 1y/2y get a wider window.
+FUT_PRIOR_MAX_DIFF = {"1m": 5, "3m": 5, "1y": 7, "2y": 10}
+# A quote older than this is treated as not trading (illiquid / delisted).
+FUT_STALE_DAYS = 7
+COMM_HISTORY_FILE = DATA / "commodities_history.jsonl"
+COMM_HISTORY_KEEP_DAYS = 800
+
+COMMODITY_SPECS = {
+    # Gold "spot" is physical XAU/USD. The front-month future (GC=F) is the
+    # same contract as the 3M tenor, so using it as spot would zero out the
+    # curve's contango; it's only a sanity reference and last-resort proxy.
+    # (FRED's LBMA series GOLDAMGBD228NLBM was discontinued; it 400s.)
+    "gold":  {"label": "Gold", "unit": "USD/troy oz", "front": "GC=F", "fred": None,
+              "te": "https://tradingeconomics.com/commodity/gold", "inv": "/commodities/gold",
+              "true_spot": True, "tol": 0.08, "sym_fn": _gold_symbol},
+    # Crude "spot" is quoted off the front-month future, which trades daily.
+    # FRED's EIA series (DCOILWTICO/DCOILBRENTEU) publish weekly with a lag of
+    # up to a week, so they're a fallback only.
+    "wti":   {"label": "WTI", "unit": "USD/barrel", "front": "CL=F", "fred": "DCOILWTICO",
+              "te": "https://tradingeconomics.com/commodity/crude-oil", "inv": "/commodities/crude-oil",
+              "true_spot": False, "tol": 0.30, "sym_fn": _wti_symbol},
+    "brent": {"label": "Brent", "unit": "USD/barrel", "front": "BZ=F", "fred": "DCOILBRENTEU",
+              "te": "https://tradingeconomics.com/commodity/brent-crude-oil", "inv": "/commodities/brent-oil",
+              "true_spot": False, "tol": 0.30, "sym_fn": _brent_symbol},
+}
+
+def _plausible(v, ref, tol):
+    """Reject scraped values that are clearly the wrong number (e.g. a gold
+    scrape once returned 91.5): within ±tol of a reference price."""
+    if v is None or v <= 0:
+        return False
+    return ref is None or abs(v - ref) / ref <= tol
+
+def swissquote_xau():
+    """Keyless XAU/USD mid from Swissquote's public quote feed."""
+    try:
+        data = json.loads(get("https://forex-data-feed.swissquote.com/public-quotes/bboquotes/instrument/XAU/USD", timeout=8))
+        for platform in data or []:
+            for prof in platform.get("spreadProfilePrices") or []:
+                bid, ask = prof.get("bid"), prof.get("ask")
+                if bid and ask:
+                    return round((float(bid) + float(ask)) / 2, 2)
+    except Exception:
+        pass
+    return None
+
+def gold_api_xau():
+    """Keyless XAU/USD from gold-api.com."""
+    try:
+        v = float(json.loads(get("https://api.gold-api.com/price/XAU", timeout=8))["price"])
+        return round(v, 2) if v > 0 else None
+    except Exception:
+        return None
+
+def _spot_kind(key, source):
+    """Which series a spot value belongs to, so priors are only ever compared
+    like-for-like: 'spot' (physical XAU), 'front' (front-month future) or
+    'fred' (EIA physical crude)."""
+    source = source or ""
+    if source.startswith("FRED"):
+        return "fred"
+    if source.startswith("Yahoo"):
+        return "front"
+    if source.startswith("cache"):
+        return None
+    return "spot" if COMMODITY_SPECS[key]["true_spot"] else "front"
+
+def load_commodity_history():
+    rows = []
+    try:
+        if COMM_HISTORY_FILE.exists():
+            for line in COMM_HISTORY_FILE.read_text().splitlines():
+                if line.strip():
+                    rows.append(json.loads(line))
+    except Exception as e:
+        log.warning(f"  commodity history load failed: {e}")
+    rows.sort(key=lambda r: r.get("date", ""))
+    return rows
+
+def commodity_history_row(payload, row_date, live=True):
+    """Compact per-day snapshot of a commodities.json payload.
+
+    live=True keeps only prices fetched this run (no cache carry-forwards);
+    the git backfill passes live=False since old payloads lack those flags.
+    """
+    row = {"date": row_date}
+    for key, spec in COMMODITY_SPECS.items():
+        c = payload.get(key) or {}
+        futs = {}
+        for t, f in (c.get("futures") or {}).items():
+            if not isinstance(f, dict) or f.get("price") is None:
+                continue
+            if live and (f.get("price_source") != "Yahoo" or f.get("stale")):
+                continue
+            futs[t] = {"price": f["price"], "contract": f.get("contract")}
+        entry = {}
+        spot = c.get("spot")
+        kind = c.get("spot_kind") or _spot_kind(key, c.get("spot_source"))
+        if live and c.get("spot_source") == "cache":
+            kind = None
+        ref = (futs.get("3M") or {}).get("price")
+        if spot is not None and kind and kind != "fred" and _plausible(spot, ref, spec["tol"]):
+            entry.update({"spot": spot, "spot_date": c.get("spot_date") or row_date, "spot_kind": kind})
+        if futs:
+            entry["futures"] = futs
+        if entry:
+            row[key] = entry
+    return row
+
+def save_commodity_history(row):
+    """Upsert today's snapshot. Merges into an earlier run's row for the same
+    day, so a later run where some source failed can't erase what the earlier
+    one captured."""
+    cutoff = (datetime.utcnow() - timedelta(days=COMM_HISTORY_KEEP_DAYS)).strftime("%Y-%m-%d")
+    rows = [r for r in load_commodity_history() if r.get("date", "") >= cutoff]
+    prev = next((r for r in rows if r["date"] == row["date"]), {})
+    rows = [r for r in rows if r["date"] != row["date"]]
+    for key in COMMODITY_SPECS:
+        old, new = prev.get(key) or {}, row.get(key) or {}
+        merged = {**old, **{k: v for k, v in new.items() if k != "futures"}}
+        futs = {**(old.get("futures") or {}), **(new.get("futures") or {})}
+        if futs:
+            merged["futures"] = futs
+        if merged:
+            row[key] = merged
+    rows.append(row)
+    rows.sort(key=lambda r: r["date"])
+    COMM_HISTORY_FILE.write_text("".join(json.dumps(r, separators=(",", ":")) + "\n" for r in rows))
+
+def _history_spot_bars(history, key, kind):
+    by_date = {}
+    for r in history:
+        e = r.get(key) or {}
+        if e.get("spot") is not None and e.get("spot_kind") == kind:
+            by_date[e.get("spot_date") or r["date"]] = e["spot"]
+    return sorted(by_date.items())
+
+def _history_future(history, key, tenor, target, max_diff_days):
+    cands = [(r["date"], ((r.get(key) or {}).get("futures") or {}).get(tenor)) for r in history]
+    cands = [(d, f) for d, f in cands if f and f.get("price") is not None]
+    if not cands:
+        return None, "", ""
+    d, f = min(cands, key=lambda x: abs((date.fromisoformat(x[0]) - target).days))
+    if abs((date.fromisoformat(d) - target).days) > max_diff_days:
+        return None, "", ""
+    return f["price"], d, f.get("contract") or ""
+
+def _priors_from_bars(bars, spot_date):
+    """{horizon: (close, date)} from an oldest-first bar list.
+
+    1d is the previous trading session before the spot's date, not "the bar
+    nearest 24h ago" (on a Monday that is often Monday itself -> 0% change).
+    """
+    out = {}
+    if not bars or not spot_date:
+        return out
+    anchor = date.fromisoformat(spot_date)
+    prev = [b for b in bars if b[0] < spot_date]
+    if prev and (anchor - date.fromisoformat(prev[-1][0])).days <= 5:
+        out["1d"] = (round(prev[-1][1], 2), prev[-1][0])
+    for lbl, days, tol in COMM_PRIOR_HORIZONS:
+        v, d = bar_near(bars, anchor - timedelta(days=days), tol)
+        if v is not None:
+            out[lbl] = (round(v, 2), d)
+    return out
+
+def commodity_spot(key, history, last):
+    """Spot, its date/source, and 1d..2y priors taken from the same series."""
+    spec = COMMODITY_SPECS[key]
+    today = datetime.utcnow().strftime("%Y-%m-%d")
+    last_c = (last or {}).get(key) or {}
+    front = yahoo_daily_bars(spec["front"])
+    front_fresh = bool(front) and (date.fromisoformat(today) - date.fromisoformat(front[-1][0])).days <= FUT_STALE_DAYS
+    ref = front[-1][1] if front else last_c.get("spot")
+    spot = spot_date = source = None
+    series = []
+
+    if spec["true_spot"]:
+        # Live scrapes carry no date; label them with the front month's latest
+        # session so a weekend run reads as Friday's close, not Sunday's.
+        as_of = front[-1][0] if front_fresh else today
+        for name, fn in (("TradingEconomics", lambda: scrape_te_last_value(spec["te"])),
+                         ("Swissquote", swissquote_xau),
+                         ("gold-api.com", gold_api_xau),
+                         ("Investing", lambda: scrape_commodity_spot(spec["inv"]))):
+            v = fn()
+            ok = _plausible(v, ref, spec["tol"])
+            if name != "Investing":  # scrape_commodity_spot records its own health
+                record_source(name, f"{spec['label']} spot", ok=ok,
+                              note=None if ok or v is None else f"rejected implausible {v}")
+            if ok:
+                spot, spot_date, source = round(v, 2), as_of, name
+                break
+            if v is not None:
+                log.warning(f"  {spec['label']} spot from {name} rejected: {v} vs reference {ref}")
+
+    if spot is None and front_fresh:
+        spot, spot_date = round(front[-1][1], 2), front[-1][0]
+        source = f"Yahoo {spec['front']}" + (" (front-month proxy)" if spec["true_spot"] else " (front month)")
+        series = front
+
+    if spot is None and spec["fred"]:
+        obs = fred_csv(spec["fred"], start=(datetime.utcnow() - timedelta(days=COMM_PRIOR_HORIZONS[-1][1] + 45)).strftime("%Y-%m-%d"), retries=1)
+        if obs:
+            spot, spot_date, source = round(obs[0]["value"], 2), obs[0]["date"], "FRED"
+            series = [(o["date"], o["value"]) for o in reversed(obs)]
+
+    if spot is None and not spec["true_spot"]:
+        for name, fn in (("TradingEconomics", lambda: scrape_te_last_value(spec["te"])),
+                         ("Investing", lambda: scrape_commodity_spot(spec["inv"]))):
+            v = fn()
+            if _plausible(v, ref, spec["tol"]):
+                spot, spot_date, source = round(v, 2), today, name
+                break
+
+    kind = _spot_kind(key, source) if source else None
+    if spot is None and last_c.get("spot") is not None:
+        spot, spot_date = last_c["spot"], last_c.get("spot_date") or (last or {}).get("date", "")
+        source, kind = "cache", last_c.get("spot_kind") or _spot_kind(key, last_c.get("spot_source"))
+        log.warning(f"  {spec['label']} spot: all live sources failed, carrying forward cached {spot}")
+
+    priors = _priors_from_bars(series, spot_date) if series else {}
+    if kind:
+        hist = _priors_from_bars(_history_spot_bars(history, key, kind), spot_date)
+        for h, v in hist.items():
+            priors.setdefault(h, v)
+    if kind == "spot":
+        # Where our own spot history doesn't reach (it starts Apr 2026), fall
+        # back to the front month: ~1% of futures basis is noise against a
+        # 1m+ move, but it would swamp a 1d change, so 1d never falls back.
+        for h, v in _priors_from_bars(front, spot_date).items():
+            if h != "1d":
+                priors.setdefault(h, v)
+
+    out = {"spot": spot, "spot_date": spot_date or "", "spot_source": source, "spot_kind": kind, "unit": spec["unit"]}
+    for h in ("1d", "1m", "3m", "1y", "2y"):
+        v, d = priors.get(h, (None, ""))
+        out[f"prior_{h}"], out[f"prior_{h}_date"] = v, d
+    log.info(f"  {spec['label']} spot: {spot} ({spot_date}, {source})")
+    return out
+
+def futures_curve(sym_fn, label, history_key=None, history=None, last_futures=None, last_date=""):
+    """Roll-aware futures curve with 1m/3m/1y/2y priors per tenor.
+
+    Current price: the tenor's contract, else the next listed contract or two
+    (Yahoo lists far-dated contracts patchily, and CME only lists Jun/Dec gold
+    beyond ~2 years), else its last known quote flagged stale. Priors: the
+    contract that was that tenor on the target date, else our own daily
+    snapshot history (Yahoo drops expired contracts, so most 1y/2y lookups
+    need it).
+    """
+    now_dt = datetime.utcnow()
+    today = now_dt.date()
+    history = history or []
+    last_futures = last_futures or {}
+
+    plan = {}
+    for lbl, months in COMM_TENOR_NS:
+        plan[lbl] = {h: (now_dt - timedelta(days=days),) + sym_fn(months, base_dt=now_dt - timedelta(days=days))
+                     for h, days, _ in COMM_PRIOR_HORIZONS}
+    symbols = {sym_fn(m, base_dt=now_dt)[0] for _, m in COMM_TENOR_NS}
+    symbols |= {v[1] for p in plan.values() for v in p.values()}
+    with ThreadPoolExecutor(max_workers=8) as ex:
+        list(ex.map(yahoo_daily_bars, symbols))
+
+    result = {}
+    for lbl, months in COMM_TENOR_NS:
+        entry = {"price": None, "price_date": "", "price_source": None}
+        primary_sym, primary_exp = sym_fn(months, base_dt=now_dt)
+        entry.update({"expiry": primary_exp, "contract": primary_sym.split(".")[0]})
+        stale_pick = None
+        tried = []
+        for k in range(3):
+            sym, exp = sym_fn(months + k, base_dt=now_dt)
+            if sym in tried:
+                continue
+            tried.append(sym)
+            bars = yahoo_daily_bars(sym)
+            if not bars:
+                continue
+            pick = (round(bars[-1][1], 2), bars[-1][0], sym, exp)
+            if (today - date.fromisoformat(bars[-1][0])).days <= FUT_STALE_DAYS:
+                entry.update({"price": pick[0], "price_date": pick[1], "contract": sym.split(".")[0],
+                              "expiry": exp, "price_source": "Yahoo"})
+                if k:
+                    log.info(f"  {label} {lbl}: {primary_sym} unavailable, used {sym}")
+                break
+            stale_pick = stale_pick or pick
+        if entry["price"] is None:
+            cached = last_futures.get(lbl) or {}
+            if stale_pick:
+                entry.update({"price": stale_pick[0], "price_date": stale_pick[1], "contract": stale_pick[2].split(".")[0],
+                              "expiry": stale_pick[3], "price_source": "Yahoo", "stale": True})
+            else:
+                cached_date = cached.get("price_date") or last_date
+                if cached.get("price") is not None and cached.get("contract") == entry["contract"] \
+                        and cached.get("price_source") in ("Yahoo", "cache", None) and cached_date \
+                        and (today - date.fromisoformat(cached_date)).days <= 14:
+                    entry.update({"price": cached["price"], "price_date": cached_date,
+                                  "price_source": "cache", "stale": True})
+
+        for h, _, _ in COMM_PRIOR_HORIZONS:
+            target_dt, hsym, _hexp = plan[lbl][h]
+            v, d = bar_near(yahoo_daily_bars(hsym), target_dt.date(), FUT_PRIOR_MAX_DIFF[h])
+            contract = hsym.split(".")[0]
+            if v is None and history_key:
+                v, d, hc = _history_future(history, history_key, lbl, target_dt.date(), FUT_PRIOR_MAX_DIFF[h])
+                contract = hc or contract
+            entry[f"prior_{h}"] = round(v, 2) if v is not None else None
+            entry[f"prior_{h}_date"] = d or ""
+            entry[f"prior_{h}_contract"] = contract
+        result[lbl] = entry
+        log.info(f"  {label} {lbl}: {entry['price']} via {entry['contract']}"
+                 + (" (stale)" if entry.get("stale") else "")
+                 + " | priors " + ", ".join(f"{h}={entry[f'prior_{h}']}" for h, _, _ in COMM_PRIOR_HORIZONS))
+    return result
+
 def fetch_commodities():
     log.info("COMMODITIES: fetching")
-    TENOR_ORDER = ["3M", "6M", "12M", "24M"]
-    TENOR_NS = [("3M", 3), ("6M", 6), ("12M", 12), ("24M", 24)]
     last = load_last_commodities()
+    history = load_commodity_history()
 
-    def get_spot(fred_series, inv_path, yahoo_front, te_url=None):
-        obs = fred_csv(fred_series, start="2023-01-01")
-        if obs:
-            return round(obs[0]["value"], 2), obs[0]["date"], "FRED"
-        if te_url:
-            v = scrape_te_last_value(te_url)
-            if v:
-                return v, "", "TradingEconomics"
-        v = scrape_commodity_spot(inv_path)
-        if v:
-            return v, "", "Investing"
-        v = yahoo_price(yahoo_front)
-        return v, "", "Yahoo"
-
-    def fetch_all_futures(sym_fn, label_prefix):
-        now_dt = datetime.utcnow()
-        tasks = []
-        for lbl, months in TENOR_NS:
-            cur_sym, cur_exp = sym_fn(months, base_dt=now_dt)
-            tasks.append((lbl, months, cur_sym, cur_exp, "now", now_dt))
-            tasks.append((lbl, months, None, None, "1m", now_dt - timedelta(days=30)))
-            tasks.append((lbl, months, None, None, "3m", now_dt - timedelta(days=91)))
-            tasks.append((lbl, months, None, None, "1y", now_dt - timedelta(days=365)))
-            tasks.append((lbl, months, None, None, "2y", now_dt - timedelta(days=730)))
-
-        raw = {}
-        # Further back in history the roll-aware contract is less certain to have
-        # traded within a tight window of the target date, so widen the match
-        # tolerance for the 1y/2y lookups (1m/3m keep the tighter default).
-        MAX_DIFF_BY_KIND = {"1y": 7, "2y": 10}
-
-        def run(task):
-            lbl, months, sym, exp, kind, target_dt = task
-            if kind == "now":
-                return lbl, kind, yahoo_price(sym), "", sym, exp
-            hist_sym, hist_exp = sym_fn(months, base_dt=target_dt)
-            v, d = yahoo_price_near_date(hist_sym, target_dt, max_diff_days=MAX_DIFF_BY_KIND.get(kind, 5))
-            return lbl, kind, v, d, hist_sym, hist_exp
-
-        with ThreadPoolExecutor(max_workers=12) as ex:
-            fmap = {ex.submit(run, t): t for t in tasks}
-            for fut in as_completed(fmap):
-                try:
-                    lbl, kind, price, d, sym, exp = fut.result()
-                    raw.setdefault(lbl, {})[kind] = {"price": price, "date": d, "symbol": sym, "expiry": exp}
-                    log.info(f"  {label_prefix} {lbl}/{kind}: {price} via {sym}")
-                except Exception:
-                    pass
-
-        result = {}
-        for lbl, months in TENOR_NS:
-            r = raw.get(lbl, {})
-            cur = r.get("now", {})
-            p1m = r.get("1m", {})
-            p3m = r.get("3m", {})
-            p1y = r.get("1y", {})
-            p2y = r.get("2y", {})
-            result[lbl] = {
-                "price": cur.get("price"),
-                "expiry": cur.get("expiry"),
-                "contract": (cur.get("symbol") or "").split(".")[0],
-                "prior_1m": p1m.get("price"),
-                "prior_1m_date": p1m.get("date"),
-                "prior_1m_contract": (p1m.get("symbol") or "").split(".")[0],
-                "prior_3m": p3m.get("price"),
-                "prior_3m_date": p3m.get("date"),
-                "prior_3m_contract": (p3m.get("symbol") or "").split(".")[0],
-                "prior_1y": p1y.get("price"),
-                "prior_1y_date": p1y.get("date"),
-                "prior_1y_contract": (p1y.get("symbol") or "").split(".")[0],
-                "prior_2y": p2y.get("price"),
-                "prior_2y_date": p2y.get("date"),
-                "prior_2y_contract": (p2y.get("symbol") or "").split(".")[0],
-            }
-        return {lbl: result[lbl] for lbl in TENOR_ORDER if lbl in result}
-
-    gold_spot, gold_spot_date, gold_spot_source = get_spot("GOLDAMGBD228NLBM", "/commodities/gold", "GC=F", "https://tradingeconomics.com/commodity/gold")
-    gold_1d, gold_1d_d = get_prior_spot("GOLDAMGBD228NLBM", "GC=F",   1, max_diff_days=5)
-    gold_1m, gold_1m_d = get_prior_spot("GOLDAMGBD228NLBM", "GC=F",  30)
-    gold_3m, gold_3m_d = get_prior_spot("GOLDAMGBD228NLBM", "GC=F",  91)
-    gold_1y, gold_1y_d = get_prior_spot("GOLDAMGBD228NLBM", "GC=F", 365)
-    gold_2y, gold_2y_d = get_prior_spot("GOLDAMGBD228NLBM", "GC=F", 730, max_diff_days=21)
-    gold_futures = fetch_all_futures(_gold_symbol, "Gold")
-
-    wti_spot, wti_spot_date, wti_spot_source = get_spot("DCOILWTICO", "/commodities/crude-oil", "CL=F", "https://tradingeconomics.com/commodity/crude-oil")
-    wti_1d, wti_1d_d   = get_prior_spot("DCOILWTICO",   "CL=F",   1, max_diff_days=5)
-    wti_1m, wti_1m_d   = get_prior_spot("DCOILWTICO",   "CL=F",  30)
-    wti_3m, wti_3m_d   = get_prior_spot("DCOILWTICO",   "CL=F",  91)
-    wti_1y, wti_1y_d   = get_prior_spot("DCOILWTICO",   "CL=F", 365)
-    wti_2y, wti_2y_d   = get_prior_spot("DCOILWTICO",   "CL=F", 730, max_diff_days=21)
-    wti_futures = fetch_all_futures(_wti_symbol, "WTI")
-
-    brent_spot, brent_spot_date, brent_spot_source = get_spot("DCOILBRENTEU", "/commodities/brent-oil", "BZ=F", "https://tradingeconomics.com/commodity/brent-crude-oil")
-    brent_1d, brent_1d_d = get_prior_spot("DCOILBRENTEU", "BZ=F",   1, max_diff_days=5)
-    brent_1m, brent_1m_d = get_prior_spot("DCOILBRENTEU", "BZ=F",  30)
-    brent_3m, brent_3m_d = get_prior_spot("DCOILBRENTEU", "BZ=F",  91)
-    brent_1y, brent_1y_d = get_prior_spot("DCOILBRENTEU", "BZ=F", 365)
-    brent_2y, brent_2y_d = get_prior_spot("DCOILBRENTEU", "BZ=F", 730, max_diff_days=21)
-    brent_futures = fetch_all_futures(_brent_symbol, "Brent")
-
-    if last:
-        if gold_spot is None:
-            gold_spot = last.get("gold", {}).get("spot")
-        if wti_spot is None:
-            wti_spot = last.get("wti", {}).get("spot")
-        if brent_spot is None:
-            brent_spot = last.get("brent", {}).get("spot")
+    blocks = {}
+    for key, spec in COMMODITY_SPECS.items():
+        block = commodity_spot(key, history, last)
+        block["futures"] = futures_curve(spec["sym_fn"], spec["label"], history_key=key, history=history,
+                                         last_futures=((last or {}).get(key) or {}).get("futures"),
+                                         last_date=(last or {}).get("date", ""))
+        blocks[key] = block
 
     # USD/INR spot and history from FRED DEXINUS (Indian Rupees per 1 USD)
     # Fallback for latest spot uses manual market scrape if FRED is stale/unavailable.
@@ -2442,7 +2671,7 @@ def fetch_commodities():
         if _v is not None and 50 <= _v <= 150 and usdinr_spot_date and _d < usdinr_spot_date:
             usdinr_1d, usdinr_1d_d = _v, _d
 
-    usdinr_futures = fetch_all_futures(_usdinr_symbol, "USDINR")
+    usdinr_futures = futures_curve(_usdinr_symbol, "USDINR")
     for source_name, fwds in [
         ("NSE-USDINR", nse_usdinr_forwards(usdinr_spot)),
         ("INV-FWD", scrape_usdinr_forwards(usdinr_spot)),
@@ -2515,45 +2744,10 @@ def fetch_commodities():
                 usdinr_futures[t]["contract"] = "cache"
                 usdinr_futures[t]["expiry"] = t
 
-    write("commodities.json", {
+    payload = {
         "date": datetime.utcnow().strftime("%Y-%m-%d"),
-        "source": "FRED / TradingEconomics / Investing / Yahoo Finance",
-        "gold": {
-            "spot": gold_spot,
-            "spot_date": gold_spot_date,
-            "spot_source": gold_spot_source,
-            "unit": "USD/troy oz",
-            "prior_1d": gold_1d, "prior_1d_date": gold_1d_d,
-            "prior_1m": gold_1m, "prior_1m_date": gold_1m_d,
-            "prior_3m": gold_3m, "prior_3m_date": gold_3m_d,
-            "prior_1y": gold_1y, "prior_1y_date": gold_1y_d,
-            "prior_2y": gold_2y, "prior_2y_date": gold_2y_d,
-            "futures": gold_futures
-        },
-        "wti": {
-            "spot": wti_spot,
-            "spot_date": wti_spot_date,
-            "spot_source": wti_spot_source,
-            "unit": "USD/barrel",
-            "prior_1d": wti_1d,   "prior_1d_date": wti_1d_d,
-            "prior_1m": wti_1m,   "prior_1m_date": wti_1m_d,
-            "prior_3m": wti_3m,   "prior_3m_date": wti_3m_d,
-            "prior_1y": wti_1y,   "prior_1y_date": wti_1y_d,
-            "prior_2y": wti_2y,   "prior_2y_date": wti_2y_d,
-            "futures": wti_futures
-        },
-        "brent": {
-            "spot": brent_spot,
-            "spot_date": brent_spot_date,
-            "spot_source": brent_spot_source,
-            "unit": "USD/barrel",
-            "prior_1d": brent_1d, "prior_1d_date": brent_1d_d,
-            "prior_1m": brent_1m, "prior_1m_date": brent_1m_d,
-            "prior_3m": brent_3m, "prior_3m_date": brent_3m_d,
-            "prior_1y": brent_1y, "prior_1y_date": brent_1y_d,
-            "prior_2y": brent_2y, "prior_2y_date": brent_2y_d,
-            "futures": brent_futures
-        },
+        "source": "TradingEconomics / Swissquote (gold spot) / Yahoo Finance (crude spot, futures) / FRED",
+        **blocks,
         "usdinr": {
             "spot": usdinr_spot,
             "spot_date": usdinr_spot_date,
@@ -2566,8 +2760,13 @@ def fetch_commodities():
             "prior_2y": usdinr_2y, "prior_2y_date": usdinr_2y_d,
             "futures": usdinr_futures,
         },
-        "note": "Spot history comes from daily FRED series. Futures history is roll-aware by target date. USD/INR latest spot: FRED DEXINUS, then Yahoo INR=X / keyless FX APIs when FRED lags; forwards fall back to CIP derivation from India/UST curves when market quotes are unavailable."
-    })
+        "note": "Gold spot is physical XAU/USD (TradingEconomics, then Swissquote / gold-api.com), sanity-checked against the front-month future. WTI/Brent spot is the front-month future (Yahoo), with FRED's weekly EIA series as fallback. Spot priors come from the same series as spot (1d = previous session). Futures history is roll-aware by target date, backed by data/commodities_history.jsonl where Yahoo no longer lists expired contracts. USD/INR latest spot: FRED DEXINUS, then Yahoo INR=X / keyless FX APIs when FRED lags; forwards fall back to CIP derivation from India/UST curves when market quotes are unavailable."
+    }
+    write("commodities.json", payload)
+    try:
+        save_commodity_history(commodity_history_row(payload, payload["date"]))
+    except Exception as e:
+        log.warning(f"  commodity history save failed: {e}")
     log.info("  COMMODITIES OK")
 
 # ── RUN ──

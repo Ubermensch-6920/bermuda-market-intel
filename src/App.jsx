@@ -1177,7 +1177,7 @@ const CommoditiesSection = ({ data, loading, error }) => {
 
   const cfg = COMMODITY_CONFIGS[sel];
   const cd = data[sel] || {};
-  const { spot, spot_date, unit, prior_1d, prior_1d_date, prior_1m, prior_1m_date, prior_3m, prior_3m_date, prior_1y, prior_1y_date, prior_2y, prior_2y_date, futures } = cd;
+  const { spot, spot_date, spot_source, unit, prior_1d, prior_1d_date, prior_1m, prior_1m_date, prior_3m, prior_3m_date, prior_1y, prior_1y_date, prior_2y, prior_2y_date, futures } = cd;
 
   // FX rates (USD/INR) use 4dp number formatting; commodities use USD currency formatting
   const fmtSpotVal = v => cfg.isFX ? (v != null ? v.toFixed(4) : "—") : fmtUSD(v);
@@ -1208,6 +1208,8 @@ const CommoditiesSection = ({ data, loading, error }) => {
         price: f.price,
         expiry: f.expiry,
         contract: f.contract,
+        stale: f.stale,
+        priceDate: f.price_date,
         prior_1m: f.prior_1m,
         prior_1m_date: f.prior_1m_date,
         prior_3m: f.prior_3m,
@@ -1273,7 +1275,7 @@ const CommoditiesSection = ({ data, loading, error }) => {
             <div style={{ fontSize: 36, fontWeight: 800, color: cfg.color, fontFamily: "monospace", letterSpacing: "-0.02em" }}>
               {fmtSpotVal(spot)}
             </div>
-            <div style={{ fontSize: 12, color: "#64748b", marginTop: 4 }}>{spot_date || "—"}</div>
+            <div style={{ fontSize: 12, color: "#64748b", marginTop: 4 }}>{spot_date || "—"}{spot_source ? ` · ${spot_source}` : ""}</div>
           </div>
           <div style={{ display: "flex", gap: 20, flexWrap: "wrap", marginLeft: "auto" }}>
             {[
@@ -1356,7 +1358,7 @@ const CommoditiesSection = ({ data, loading, error }) => {
                   <td style={{ padding: "9px 14px", fontWeight: 700, color: cfg.color, fontFamily: "monospace" }}>{row.tenor}</td>
                   <td style={{ padding: "9px 14px", color: "#94a3b8", fontFamily: "monospace", fontSize: 12 }}>{row.contract || "—"}</td>
                   <td style={{ padding: "9px 14px", color: "#cbd5e1", fontSize: 12 }}>{row.expiry || "—"}</td>
-                  <td style={{ padding: "9px 14px", textAlign: "right", fontFamily: "monospace", fontWeight: 600, color: "#f1f5f9" }}>{fmtFutVal(row.price)}</td>
+                  <td title={row.stale ? `Last quote ${row.priceDate || "unknown"} — no fresh price this run` : undefined} style={{ padding: "9px 14px", textAlign: "right", fontFamily: "monospace", fontWeight: 600, color: row.stale ? "#64748b" : "#f1f5f9" }}>{fmtFutVal(row.price)}{row.stale ? " *" : ""}</td>
                   <td style={{ padding: "9px 14px", textAlign: "right", fontFamily: "monospace", color: futChgCol(row.vsSpot) }}>
                     {fmtFutChgVal(row.vsSpot)}
                   </td>
@@ -1382,7 +1384,7 @@ const CommoditiesSection = ({ data, loading, error }) => {
           </table>
         </div>
         <div style={{ padding: "10px 20px", fontSize: 11, color: "#475569", borderTop: "1px solid #151820" }}>
-          FRED (spot) / Yahoo Finance (futures) • Contango = futures &gt; spot (red) • Backwardation = futures &lt; spot (green) • 1M/3M/12M/24M prior = same tenor's roll-aware contract price at that date
+          Spot source shown above; futures via Yahoo Finance (* = stale last quote, hover for date) • Contango = futures &gt; spot (red) • Backwardation = futures &lt; spot (green) • 1M/3M/12M/24M prior = same tenor's roll-aware contract price at that date
         </div>
       </div>
 
