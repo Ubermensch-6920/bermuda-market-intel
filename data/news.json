@@ -1,5 +1,5 @@
 {
-  "updated": "2026-09-28T05:29:42Z",
+  "updated": "2026-09-28T14:03:14Z",
   "topics": [
     "Insurance AM",
     "Private Credit",
@@ -11,10 +11,20 @@
       "id": "c7f0f8be1345",
       "title": "ILS NYC 2027 - Insurance linked securities conference in New York from Artemis",
       "source": "Artemis.bm",
-      "date": "2026-09-28T01:32:41Z",
+      "date": "2026-09-28T10:43:15Z",
       "topic": "Insurance AM",
       "summary": "",
       "link": "https://news.google.com/rss/articles/CBMiTEFVX3lxTE9jR3pRRTYtY3hYUWJsQ1hPbXM2NzE5QUFod2V4RUx2N1JOblFLTlFmWTZYSjZ0V01Fd3BfWmhwcDJZemo5cVdQOVZoNkY?oc=5",
+      "isNew": false
+    },
+    {
+      "id": "2ecf4f81febb",
+      "title": "See How Mark Walter Turned a Ho-Hum Insurance Company Into a Risk-Taking Lender",
+      "source": "WSJ",
+      "date": "2026-09-28T09:30:00Z",
+      "topic": "Private Credit",
+      "summary": "",
+      "link": "https://news.google.com/rss/articles/CBMisgFBVV95cUxOSFJJcVBtWEtJcEdLTS1IRnNHakdQN0s3SDhBTDVxbGRZYXZOaEg2R25UcmdGdlhleWZZVXFSdHNlYkdTbVhzT0tidFlpVC1CQkZwbzN4M01teWJrV19hanR5bThtME51VHNpeXRRVzM3blhoRjNHYmotajdrMkFndjhvam9ZcWVWd0pZNFNpV2dxSVJPZnVzcDl1SW9oNG1EcVkzWUZjTzNqZmhPT3F4MzVR?oc=5",
       "isNew": false
     },
     {
@@ -40,7 +50,7 @@
     {
       "id": "6e2b5445ad0d",
       "title": "PIC and USS target more infra debt, eye digital space",
-      "source": "infrastructureinvestor.com",
+      "source": "Infrastructure Investor",
       "date": "2026-09-25T14:54:28Z",
       "topic": "Private Credit",
       "summary": "",
@@ -100,7 +110,7 @@
     {
       "id": "d23843a4508a",
       "title": "Why bond yields are rising and why everyone should care",
-      "source": "abcnews.com",
+      "source": "ABC News - Breaking News, Latest News and Videos",
       "date": "2026-09-24T21:01:48Z",
       "topic": "Rates & Macro",
       "summary": "",
@@ -110,7 +120,7 @@
     {
       "id": "c4b7f13a254e",
       "title": "Why the bond market is freaking out, and what it means for your money",
-      "source": "CBS News",
+      "source": "cbsnews.com",
       "date": "2026-09-24T19:08:00Z",
       "topic": "Rates & Macro",
       "summary": "",
@@ -210,7 +220,7 @@
     {
       "id": "3d9f55f0bef7",
       "title": "Lawsuit claims Delaware Life hid billions in insurer-linked investments",
-      "source": "InsuranceNewsNet",
+      "source": "insurancenewsnet.com",
       "date": "2026-09-23T13:14:58Z",
       "topic": "Insurance AM",
       "summary": "",
@@ -270,7 +280,7 @@
     {
       "id": "79ece7ef9395",
       "title": "Why Bond Markets Are Pricing In Too Many Interest Rate Rises",
-      "source": "global.morningstar.com",
+      "source": "Morningstar",
       "date": "2026-09-22T05:12:47Z",
       "topic": "Rates & Macro",
       "summary": "",
@@ -295,16 +305,6 @@
       "topic": "Structured Credit",
       "summary": "",
       "link": "https://news.google.com/rss/articles/CBMisAFBVV95cUxPZmdmMDhxN0F0OGNiaFN6SE53T0dRazQ3bUM1cS0yRDB3bjVZYUlqVExHU1lQNHU5bDhnSXRKeHRuVEVpR3FZU3FfUDMzaFVrb1JtUk1oMTBUM085M0JfVzN3UWRNY3d5Y05IdUloT2ZqenE0bWhhUlFYUjhxMjgzVHVrY1gtVVBaZVFVN3VtX2h4V2pBaGZEVDZ0WDBBX2dndmFWWkJmd1BpUGxpMWJNTQ?oc=5",
-      "isNew": false
-    },
-    {
-      "id": "653260cbd953",
-      "title": "Government Bond Yields Fall as Risk Sentiment Tentatively Improves",
-      "source": "WSJ",
-      "date": "2026-09-21T08:50:00Z",
-      "topic": "Rates & Macro",
-      "summary": "",
-      "link": "https://news.google.com/rss/articles/CBMiuwFBVV95cUxOclRMVXQyTkZiLThMRF9OSG9ZLVNBWE1DUkpoQUdRNDQ0akx4ZlNJZElBY2lRazk2ZlNKeE5IQU9fN2Vpc09ZRlR6RDhqV0VUcFNHSFpyTnk2V1ppbU5HcGRCMTZhZjhXV056a1RKMHUxa1daemlqZjhJcXpYdURUQmhqNU1KY3pYaDBneUc5eFp1YUVhbWhxXzFtVFozZ2xYTmxvd2xVZ3V0SlNaUllXQjMyNkRUYWYyZ1dV?oc=5",
       "isNew": false
     }
   ]

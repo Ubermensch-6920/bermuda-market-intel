@@ -1,5 +1,5 @@
 {
-  "updated": "2026-09-28T05:29:45Z",
+  "updated": "2026-09-28T14:03:16Z",
   "lookback_days": 14,
   "feeds": [
     {
@@ -11,7 +11,7 @@
     {
       "name": "Google News: Aspida",
       "ok": true,
-      "count": 3,
+      "count": 1,
       "error": null
     },
     {
@@ -29,13 +29,13 @@
     {
       "name": "Google News: Fortitude Re",
       "ok": true,
-      "count": 2,
+      "count": 4,
       "error": null
     },
     {
       "name": "Google News: Global Atlantic",
       "ok": true,
-      "count": 11,
+      "count": 12,
       "error": null
     },
     {
@@ -65,7 +65,7 @@
     {
       "name": "Google News: RGA",
       "ok": true,
-      "count": 14,
+      "count": 13,
       "error": null
     },
     {
@@ -101,7 +101,7 @@
     {
       "name": "Google News: Wilton Re",
       "ok": true,
-      "count": 2,
+      "count": 3,
       "error": null
     },
     {
@@ -112,6 +112,54 @@
     }
   ],
   "items": [
+    {
+      "id": "5a51c86832a1",
+      "title": "Fortitude Re advances long-term strategy with Dayforward acquisition",
+      "link": "https://www.reinsurancene.ws/fortitude-re-advances-long-term-strategy-with-dayforward-acquisition/",
+      "source": "Reinsurance News",
+      "feed": "Reinsurance News",
+      "date": "2026-09-28T14:00:24Z",
+      "summary": "Fortitude Re, formed by FGH Parent, L.P. and its subsidiaries, has acquired nearly all the assets of Dayforward, a digitally native insurance technology company, through a newly formed entity that will be renamed Fortitude Life. The transaction includes Dayforward\u2019s technology platform, distribution agreements, intellectual property, licensed insurance agency and its team, but excludes the firm\u2019s ",
+      "companies": [
+        "Fortitude Re"
+      ]
+    },
+    {
+      "id": "ab8651daa2c5",
+      "title": "Fortitude Re expands insurtech capabilities with annuity platform buy",
+      "link": "https://news.google.com/rss/articles/CBMipwFBVV95cUxNSjgtV1pJSEVkVm1jUXVEbEhWODg4bV84MlB0a1BnWFZqbEN0bHc2dFZkdkxPRWQzMEhieWhrTXVkeWJwU01sZnlWWHNoeVhwZ3oxLURVVGJZTmN0OFgzUFo3N3hpcnZVUmdTVHdnbzFqbl9ZVjdQUTZySDU5TUozTlltS3FISjJpWDJUelVRS1F3bENRQVIyXzh5NmZTOWI1SDdlWkRlWQ?oc=5",
+      "source": "Intelligent Insurer",
+      "feed": "Google News: Fortitude Re",
+      "date": "2026-09-28T13:49:17Z",
+      "summary": "",
+      "companies": [
+        "Fortitude Re"
+      ]
+    },
+    {
+      "id": "10c37dfa31b8",
+      "title": "Fortitude Re acquires Dayforward",
+      "link": "https://news.google.com/rss/articles/CBMiZkFVX3lxTE96U2NFQm9GM0VHOUdtSkd2Nm94MEliM2RGZXdMVHRCRW9NOXh1aTU3Ulk5eVV5WWlxay10RmJmYzBwMWR1ZVNuZC05Y1FfTFMyakluM0dBcmhZSUVwR2lhVW82dmZDUQ?oc=5",
+      "source": "Coverager",
+      "feed": "Google News: Fortitude Re",
+      "date": "2026-09-28T12:48:22Z",
+      "summary": "",
+      "companies": [
+        "Fortitude Re"
+      ]
+    },
+    {
+      "id": "3cfe6135446b",
+      "title": "Fortitude Re Acquires Dayforward to Broaden Capabilities",
+      "link": "https://news.google.com/rss/articles/CBMiswFBVV95cUxQWFlMQ1lrdkVJbGUzV2l5a1R0MFdXUnpWSFpiWmhRQlFPM0NvcVRveW1kZTFLb0xYWWRtM0pyRDczZk45TUFBLWg4U2pyem5wVk1pS3FOTWZxeHhJVjMzRmVnUWZxLWN1OWhWdTROSmhzYmUwQ0FodHhkejlyNGhCalZsd1BiNFk1THhtSHBOd3plNmJ5cTNac1pvajVOakxNUWhMMFNyRXhZUEwyZGYtNnVtaw?oc=5",
+      "source": "Business Wire",
+      "feed": "Google News: Fortitude Re",
+      "date": "2026-09-28T12:00:00Z",
+      "summary": "",
+      "companies": [
+        "Fortitude Re"
+      ]
+    },
     {
       "id": "2f66c80f38d4",
       "title": "LNC Stock Pops On Report Of Lincoln National\u2019s Potential $5B Reinsurance Deal With Talcott",
@@ -152,7 +200,7 @@
       "id": "0840968d5739",
       "title": "Is Reinsurance Group of America, Incorporated (RGA) Rewriting the Retirement Planning Playbook?",
       "link": "https://news.google.com/rss/articles/CBMi1gFBVV95cUxNc21qRmRLU292MGg1S3RfaVFGc0lFS1JyWEJ0Q1N0aEJQZEFuMWNNVGFxR2FFUzJYblNSWWRVTEFaZlZYTktCdHd3VVl1Q1RpSnNUQnpGMG42SWlZWUo4RGZmY3MzbUgxNnZKbkRIMlZFV3hqc3ZleDBseUIwSTAwSmhnUFkyclZzTi1oTHE1Q0lxX1hzOUF2Nk5JMExpSlVaSUVxd1VLdUNsWUF3V3ZnRkF3aFkwMU0xLTZROFVNR0RINm94RzFTZDZlY1ZXVDFJcGp5bzh3?oc=5",
-      "source": "Kalkine Media",
+      "source": "kalkinemedia.com",
       "feed": "Google News: RGA",
       "date": "2026-09-25T12:30:00Z",
       "summary": "",
@@ -332,7 +380,7 @@
       "id": "a992038e6b80",
       "title": "Aspida Holdings welcomes Sarfatti as Chief Risk Officer",
       "link": "https://news.google.com/rss/articles/CBMijgFBVV95cUxPaTZwXzUzNmRxS29Dcm45VVBwaHJveHRCV3pOVVdLQV9ZekM1dXFYdjZYWFd6c2hQMWxWX3l5YVR2VUJqZFhDMXgyX2JGSU1aNGdCUDB1M1ZaTGJfTTBpRXB5c2d4c2pmM0ZFU3IwOGNuR21STWJyRy1FNTREdW8wYlIzTTB2UnJIb3BhMld3?oc=5",
-      "source": "Reinsurance News",
+      "source": "reinsurancene.ws",
       "feed": "Google News: Aspida",
       "date": "2026-09-17T05:02:15Z",
       "summary": "",
