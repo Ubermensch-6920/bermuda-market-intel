@@ -1,5 +1,5 @@
 {
-  "date": "2026-09-25",
+  "date": "2026-09-28",
   "source": "FRED ICE BofA / TradingEconomics",
   "status": "partial",
   "sovereign": {
@@ -14,58 +14,58 @@
   "corporate": {
     "aaa": {
       "name": "AAA Corp",
-      "spread": 41,
-      "prior": 40,
+      "spread": 42,
+      "prior": 41,
       "series_id": "",
-      "date": "2026-09-25",
+      "date": "2026-09-28",
       "source": "credit.json"
     },
     "aa": {
       "name": "AA Corp",
-      "spread": 59,
-      "prior": 58,
+      "spread": 61,
+      "prior": 59,
       "series_id": "",
-      "date": "2026-09-25",
+      "date": "2026-09-28",
       "source": "credit.json"
     },
     "a": {
       "name": "A Corp",
-      "spread": 69,
-      "prior": 67,
+      "spread": 71,
+      "prior": 69,
       "series_id": "",
-      "date": "2026-09-25",
+      "date": "2026-09-28",
       "source": "credit.json"
     },
     "bbb": {
       "name": "BBB Corp",
-      "spread": 99,
-      "prior": 97,
+      "spread": 102,
+      "prior": 99,
       "series_id": "",
-      "date": "2026-09-25",
+      "date": "2026-09-28",
       "source": "credit.json"
     },
     "bb": {
       "name": "BB Corp",
-      "spread": 176,
-      "prior": 164,
+      "spread": 183,
+      "prior": 176,
       "series_id": "",
-      "date": "2026-09-25",
+      "date": "2026-09-28",
       "source": "credit.json"
     },
     "b": {
       "name": "B Corp",
-      "spread": 300,
-      "prior": 286,
+      "spread": 309,
+      "prior": 300,
       "series_id": "",
-      "date": "2026-09-25",
+      "date": "2026-09-28",
       "source": "credit.json"
     },
     "ccc": {
       "name": "CCC Corp",
-      "spread": 1128,
-      "prior": 1112,
+      "spread": 1146,
+      "prior": 1128,
       "series_id": "",
-      "date": "2026-09-25",
+      "date": "2026-09-28",
       "source": "credit.json"
     }
   },
@@ -103,5 +103,5 @@
       "source": "cache"
     }
   },
-  "_fetched": "2026-09-29T09:51:51.288529Z"
+  "_fetched": "2026-09-29T18:07:15.668476Z"
 }

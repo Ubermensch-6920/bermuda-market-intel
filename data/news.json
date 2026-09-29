@@ -1,5 +1,5 @@
 {
-  "updated": "2026-09-29T09:53:42Z",
+  "updated": "2026-09-29T18:08:59Z",
   "topics": [
     "Insurance AM",
     "Private Credit",
@@ -8,10 +8,20 @@
   ],
   "items": [
     {
+      "id": "aa3c581787f2",
+      "title": "Battered bond market braces for a new era of interest rates",
+      "source": "Reuters",
+      "date": "2026-09-29T04:47:00Z",
+      "topic": "Rates & Macro",
+      "summary": "",
+      "link": "https://news.google.com/rss/articles/CBMipgFBVV95cUxQUFJEcnNjUGNwM1N4MlNkdG1pZ0VwVmt4cWhUZ2t0UkN4aHlRNzVyR3hCd2dUMG1FRWszT05VOUN4MUhDSGhXQUhIamhNWWJJNUpGXzZWcFc2Mk5Hcl9yNXBaaWVDVDlZQWg0d2xIRGl0RFhqWjJlR1ZORGlrNXRmdGZxSF9URFQ3Zzc5d2dER1g4U3hvZDZXMHNKVlhFaGRBRmRKRVJR?oc=5",
+      "isNew": false
+    },
+    {
       "id": "c7f0f8be1345",
       "title": "ILS NYC 2027 - Insurance linked securities conference in New York from Artemis",
       "source": "Artemis.bm",
-      "date": "2026-09-28T22:43:16Z",
+      "date": "2026-09-28T22:44:31Z",
       "topic": "Insurance AM",
       "summary": "",
       "link": "https://news.google.com/rss/articles/CBMiTEFVX3lxTE9jR3pRRTYtY3hYUWJsQ1hPbXM2NzE5QUFod2V4RUx2N1JOblFLTlFmWTZYSjZ0V01Fd3BfWmhwcDJZemo5cVdQOVZoNkY?oc=5",
@@ -95,16 +105,6 @@
       "topic": "Private Credit",
       "summary": "",
       "link": "https://news.google.com/rss/articles/CBMipAFBVV95cUxQODRRVzlnUmc5eHhyclNaeU5JeUMwZHBFSVRSOUw3VlJGbVFpZmtseWl0RnNhR0xsd1VXcjZhQVdycUZtcnl3a2ptTVRKaFVoSDduR0I0UWVYS1VvRnBuOXUtelB3N3h5T2M3aDRZTHZFQ1BFd3VXSmdVYzVIM1h2Mm9ieFZ6WFNSTThFZnBXbEkzbjRsdklRdU1waDFqSUVKUF92Ug?oc=5",
-      "isNew": false
-    },
-    {
-      "id": "c10277ef889b",
-      "title": "Abacus Global Management Closes $400 Million Life Insurance Securitization",
-      "source": "citybiz",
-      "date": "2026-09-25T12:42:04Z",
-      "topic": "Insurance AM",
-      "summary": "",
-      "link": "https://news.google.com/rss/articles/CBMitAFBVV95cUxNdWJ6Q1YxdDM2SG14VnNGT196RFNrLXBnLU5USk9wY1lpX0M3bWIyTzgyYkp6ZDdBM1F4RUFpeEhHTXA4Zkg1NlBUa2plRU9VbTZ5b1BnTzQ2WEluaUJNSDZ6VHJleFBvWTUtbDBtMzcxVEtVcGo5WUVMUmlYcUdicHUzTHdfcXl5cGVZVHlIU2ZxZ1pRSVNPNXgwWDJ1cjFReXZId1lXLWhTV1dFRWJ1dDAxb0c?oc=5",
       "isNew": false
     },
     {
@@ -268,6 +268,26 @@
       "isNew": false
     },
     {
+      "id": "c10277ef889b",
+      "title": "Abacus Global Management Closes $400 Million Life Insurance Securitization",
+      "source": "citybiz",
+      "date": "2026-09-23T13:14:27Z",
+      "topic": "Insurance AM",
+      "summary": "",
+      "link": "https://news.google.com/rss/articles/CBMisgFBVV95cUxQYW1EcmRQSFpRb096MjJSQ3hDTTdSYnl0U3hFekhqbVFOT3U4V0JZcElnTWF5TWdZNlFEYlpmNXpEcXlBTVJDN1hoZkllZHlPX0tQNWtaM1pQVGFfZVlCRmFqSU9hdzhmWi1pZktzZUt4R3NHOUZFVEZGeW1vUDV6b3F1UTNjZ25aaWczZmZxNHR2b0czZkN6MW1nMjlXTmFRTU1vOWFDa3F5cExGLURjclRB?oc=5",
+      "isNew": false
+    },
+    {
+      "id": "9a63767cf5e3",
+      "title": "Aegon AM unveils insured credit fund",
+      "source": "Alternative Credit Investor",
+      "date": "2026-09-23T11:29:55Z",
+      "topic": "Private Credit",
+      "summary": "",
+      "link": "https://news.google.com/rss/articles/CBMijwFBVV95cUxPMndkVDN1Y0NqUW5RZVVuUXVVN0F2ZjVVSnplQ05lUkQ4dWwxVFJvSzg0RGpyOTJMWHMyMW5jR24zOEhCOXFuVGQxcmczbjhKQjRCQk9YRHd4ZGo0Q2UxU09XdE9LWGZWSlJ3RkFIT2lwQm90Q0hIcGxKVms2bDJkaDNrS2xoSFM5VnJNWUU1bw?oc=5",
+      "isNew": false
+    },
+    {
       "id": "435f7b0303b9",
       "title": "Aegon fund taps insurance boom in credit risk transfer",
       "source": "Structured Credit Investor",
@@ -285,26 +305,6 @@
       "topic": "Structured Credit",
       "summary": "",
       "link": "https://news.google.com/rss/articles/CBMiugFBVV95cUxQTlNnV0F1MkxRd2NJYm9hb0s1NG9VcmVRelZUd05yZEVZZTk0TUxVWEx6am8xLTQ0cURYUTdHRlRjNllCSUhDTVppYkdoNzV2OHlxR1oxVFZaVDNha3QxSTZ4eWlJM2NYMjVidjMtX3JJb3ZTYmE0SXVyekRHdGV0UUJJZVFFZ3hubEJmMXlPaDMybEVNejBPTFJJUnlRdXF4WUV5QUozRVRJN0JlTG13bUFGM3V0MHBzRGc?oc=5",
-      "isNew": false
-    },
-    {
-      "id": "154bcf2dbbde",
-      "title": "10 Ways to Explain Why Interest Rates Are So High",
-      "source": "The New York Times",
-      "date": "2026-09-23T07:00:00Z",
-      "topic": "Rates & Macro",
-      "summary": "",
-      "link": "https://news.google.com/rss/articles/CBMijgFBVV95cUxNRW5YWVh0NGRxU2ZrcmloZkhuUXJtSmgtMG5ySnhPRjBSYXR6aDJrN1M3REN2dlNUNkJETEhJbzhOd2JkcGZsZnlsaE13RWpvXzJBZEJsY25DbkJ3S29tcHlYRXlrRGV5Qk9RYmRHREcxWV92VTJObG10T2RxSkhrQjMtd0FGYXdxMENLazJB?oc=5",
-      "isNew": false
-    },
-    {
-      "id": "6ad7a4a30e2e",
-      "title": "Implications of rising bond yields",
-      "source": "Vanguard Corporate",
-      "date": "2026-09-23T04:00:00Z",
-      "topic": "Rates & Macro",
-      "summary": "",
-      "link": "https://news.google.com/rss/articles/CBMirAFBVV95cUxQSXo5d0VnU1A4OXRGQlNjM3hjR01hV21aX0VCb29oU3FadkdiRmtCdllON0VETHdnck9RLU42YTJxaHpoMEdSU29mNl9DUWVETG1YZHR3VElJYTFPVzktNEJNSGNVWW45OGhjSzF2WUJBUzhkbFAxSEk2UV9rcEh3NGkwc0w3OE5OWmhtUjlHN3p4b2FPeEZkRDBxZkc5Vy1FUTJYdVBhNXZzejJD?oc=5",
       "isNew": false
     }
   ]
