@@ -1,5 +1,5 @@
 {
-  "updated": "2026-09-28T21:17:23Z",
+  "updated": "2026-09-29T01:05:26Z",
   "topics": [
     "Insurance AM",
     "Private Credit",
@@ -7,6 +7,16 @@
     "Structured Credit"
   ],
   "items": [
+    {
+      "id": "68059848f9b2",
+      "title": "New York Life Investment Management to Acquire Majority Ownership Stake in Invictus Capital Partners",
+      "source": "InsuranceNewsNet",
+      "date": "2026-09-28T22:03:35Z",
+      "topic": "Insurance AM",
+      "summary": "",
+      "link": "https://news.google.com/rss/articles/CBMi1AFBVV95cUxPWmp2bXBfekd0Z3IwTXdOZEJ2ZzJpLUhqWDhQTGxBNDZqdXB1QXE2dWc2MV9mbUswalVvcEU1VFpVN2poSEI1Nk5ZVDhFenhKUFhKdGptTW5qUEdpZHBGQXpoNy1xaDRzMnVkY21Gc1B2Y2JWSFBQYXhRVHpFNDNxcExEOUlDOThJUTlWQXJwQXFMczV5Unk2X282TW84LVhBazMzN1JQMktwMHFpeXRYQnJYY19yRGxrV0JMdTBkV2s3Q1ZXQTBrTDNIQnEzSldZSkRFMg?oc=5",
+      "isNew": false
+    },
     {
       "id": "c7f0f8be1345",
       "title": "ILS NYC 2027 - Insurance linked securities conference in New York from Artemis",
@@ -30,7 +40,7 @@
     {
       "id": "2ecf4f81febb",
       "title": "See How Mark Walter Turned a Ho-Hum Insurance Company Into a Risk-Taking Lender",
-      "source": "wsj.com",
+      "source": "WSJ",
       "date": "2026-09-28T09:30:00Z",
       "topic": "Private Credit",
       "summary": "",
@@ -60,7 +70,7 @@
     {
       "id": "6e2b5445ad0d",
       "title": "PIC and USS target more infra debt, eye digital space",
-      "source": "infrastructureinvestor.com",
+      "source": "Infrastructure Investor",
       "date": "2026-09-25T14:54:28Z",
       "topic": "Private Credit",
       "summary": "",
@@ -150,11 +160,11 @@
     {
       "id": "8c556505b2a7",
       "title": "Global bond sell-off deepens, sending borrowing costs higher around the world",
-      "source": "wpsdlocal6.com",
-      "date": "2026-09-24T15:28:00Z",
+      "source": "CNN",
+      "date": "2026-09-24T12:44:45Z",
       "topic": "Rates & Macro",
       "summary": "",
-      "link": "https://news.google.com/rss/articles/CBMi7wFBVV95cUxQaG9mbHhrZWstajZvYW5hbHVRdHBTZ05ER2N2bjUxS1Y0OXUxWHFVdUhFTm9LcnVWaHJKYW1TcTFhczdJRURTTndocmhiMWs4YjJlWnQ3dm1ZbTM1RzR5SlRfN2pJbm9JQkkxS05VbVNiUnA5THZYLTFGTUtuRENXb3piQnhaWHJpaHAySFFGdllldG8yeXhyNUJIWFJJQnRRa096ODNNYTVpUmd1NmNJUXR5S04wNEFucElodmk3T2F4Tmw1YTNCQjhiZzZzdlZFVWdaNGF2THU0cjNVV2I1R0NMdkZteC16X0RHekk4RQ?oc=5",
+      "link": "https://news.google.com/rss/articles/CBMia0FVX3lxTE93eV9ITVo1NjlGaDVKMUhsXzlTR2ZIV2Y1dGQ3Y2xoYTJxQ1E3QnNrRXRGNkU4TU9rVnIyTUV2Z2ptX2ZjR2dQR0VnX0dobDR2d1B1aEN5SDREMFp0cGNSNXZKejJNdEdHVHNr?oc=5",
       "isNew": false
     },
     {
@@ -295,16 +305,6 @@
       "topic": "Rates & Macro",
       "summary": "",
       "link": "https://news.google.com/rss/articles/CBMiogFBVV95cUxOaGRrNUFnMmVGZmg0alg2YUhySUNZSWlDUHhRV1ZLcnRpdDNUamxMQ2RneHJVSjZBbFBUSmJfaC1YYmRVUVNSaXhkVllKWU5rRFpSUmViY2R1VVZJbDY5dlBjT3puWjN6dFJEekYwZEVqcVdLTTl1SXVTZU1teHZUT0p1WTY2RmszSzBVWHBqWWZQdjdiRElYQjBKbmtRZm9tYWc?oc=5",
-      "isNew": false
-    },
-    {
-      "id": "5014267dafb8",
-      "title": "Convergence of Asset Management, Insurance Capital and Strategic M&A: Key Takeaways From the Skadden-PJT Partners Panel Event",
-      "source": "JD Supra",
-      "date": "2026-09-21T20:45:14Z",
-      "topic": "Insurance AM",
-      "summary": "",
-      "link": "https://news.google.com/rss/articles/CBMif0FVX3lxTFA2S0x1b2NiZk93a1g5NlUyNlRUVng1a1RWaVVZZ2Z6Y3BPdGFIWlVKUWhqbEJ2R1RBbjZWTHFzRVNfdmtTOW0yRVBtOWpiRTdDOEFrXzZ0WkZDQ3Y3UVEtcU1sYV9TRW5STlVKMWE4aTRKcThXVnJhQUVKaS1XTEk?oc=5",
       "isNew": false
     }
   ]
