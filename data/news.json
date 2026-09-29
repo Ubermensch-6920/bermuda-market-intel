@@ -1,5 +1,5 @@
 {
-  "updated": "2026-09-29T01:05:26Z",
+  "updated": "2026-09-29T09:53:42Z",
   "topics": [
     "Insurance AM",
     "Private Credit",
@@ -8,23 +8,23 @@
   ],
   "items": [
     {
-      "id": "68059848f9b2",
-      "title": "New York Life Investment Management to Acquire Majority Ownership Stake in Invictus Capital Partners",
-      "source": "InsuranceNewsNet",
-      "date": "2026-09-28T22:03:35Z",
-      "topic": "Insurance AM",
-      "summary": "",
-      "link": "https://news.google.com/rss/articles/CBMi1AFBVV95cUxPWmp2bXBfekd0Z3IwTXdOZEJ2ZzJpLUhqWDhQTGxBNDZqdXB1QXE2dWc2MV9mbUswalVvcEU1VFpVN2poSEI1Nk5ZVDhFenhKUFhKdGptTW5qUEdpZHBGQXpoNy1xaDRzMnVkY21Gc1B2Y2JWSFBQYXhRVHpFNDNxcExEOUlDOThJUTlWQXJwQXFMczV5Unk2X282TW84LVhBazMzN1JQMktwMHFpeXRYQnJYY19yRGxrV0JMdTBkV2s3Q1ZXQTBrTDNIQnEzSldZSkRFMg?oc=5",
-      "isNew": false
-    },
-    {
       "id": "c7f0f8be1345",
       "title": "ILS NYC 2027 - Insurance linked securities conference in New York from Artemis",
       "source": "Artemis.bm",
-      "date": "2026-09-28T16:43:15Z",
+      "date": "2026-09-28T22:43:16Z",
       "topic": "Insurance AM",
       "summary": "",
       "link": "https://news.google.com/rss/articles/CBMiTEFVX3lxTE9jR3pRRTYtY3hYUWJsQ1hPbXM2NzE5QUFod2V4RUx2N1JOblFLTlFmWTZYSjZ0V01Fd3BfWmhwcDJZemo5cVdQOVZoNkY?oc=5",
+      "isNew": false
+    },
+    {
+      "id": "68059848f9b2",
+      "title": "New York Life Investment Management to Acquire Majority Ownership Stake in Invictus Capital Partners",
+      "source": "Business Wire",
+      "date": "2026-09-28T21:05:00Z",
+      "topic": "Insurance AM",
+      "summary": "",
+      "link": "https://news.google.com/rss/articles/CBMi7gFBVV95cUxPXzM2SU5iNzRjanV2ZVZvZExCWWxCU04xYzFzU0VoOWowUnNrajA1SW5fNEdJVEFZLXdXb29HenRobXFuVEhCT0d0RnlYelA3M19JMDdhUl9jdEFyM2tFbElUVTk5NXhtNHEyY0RNd0puZGZQcThPMkcyWWVNbGFsQWw3SHRfX2c5THlYWXNGekNocjlha3ZWcjNndXBNWDlJTVBmYnBVTmFta3BqX2c0eEFrRk9FRHBBUlFaampqdm1KVUtGbnZIRW1RaC0yTDdFZEcyUk1qVmhTWU5DLVpXU3V2ekpldzJldWpGUk9n?oc=5",
       "isNew": false
     },
     {
@@ -45,6 +45,16 @@
       "topic": "Private Credit",
       "summary": "",
       "link": "https://news.google.com/rss/articles/CBMisgFBVV95cUxOSFJJcVBtWEtJcEdLTS1IRnNHakdQN0s3SDhBTDVxbGRZYXZOaEg2R25UcmdGdlhleWZZVXFSdHNlYkdTbVhzT0tidFlpVC1CQkZwbzN4M01teWJrV19hanR5bThtME51VHNpeXRRVzM3blhoRjNHYmotajdrMkFndjhvam9ZcWVWd0pZNFNpV2dxSVJPZnVzcDl1SW9oNG1EcVkzWUZjTzNqZmhPT3F4MzVR?oc=5",
+      "isNew": false
+    },
+    {
+      "id": "b01d5288823c",
+      "title": "Bank of Japan debated need for faster rate hikes, July minutes show",
+      "source": "Reuters",
+      "date": "2026-09-28T00:58:00Z",
+      "topic": "Rates & Macro",
+      "summary": "",
+      "link": "https://news.google.com/rss/articles/CBMisgFBVV95cUxNM0Rid1RQcVo2QlNMTTZDOGEyYmRtQnFYVVJDN1pBMGpwNGxzS19vN1VBMHVXbDFtWkZHOVJhZTNxaWptMGsxbkxDQ2ZSNjZkNFdMTUQwZEhuaW1FUGhHUnJhWGU1eU5NQ1QwRWpDUURJQS1HUUdNYmFZbldSdFk4VGRXSGhUTkVPbk1QSUxzMV9ZckpvMWJYaTNPaWswYnpCTkpEUk9xNUhFMjEyVDRJek93?oc=5",
       "isNew": false
     },
     {
@@ -168,6 +178,16 @@
       "isNew": false
     },
     {
+      "id": "2141551b1901",
+      "title": "Private credit steady as private equity rebounds",
+      "source": "Alternative Credit Investor",
+      "date": "2026-09-24T11:43:55Z",
+      "topic": "Private Credit",
+      "summary": "",
+      "link": "https://news.google.com/rss/articles/CBMinwFBVV95cUxNNmNVeU9ialBGa3E0NWZBVkZGRmRXOGx5ckgxQ00xLWJydHF2ak8tMUhFMWRoZ3I2M1VsT25BMTBjNHJQMmdMcjBWMVh3MW1nVmVtLWdaVUhHUk5sdk1Yek1rcHFiYUxFaUs2ckpxTG1FWUFJYlFLTE9YWTcwUU9HQmxhd1dETVcwZmJKWGNOVDRRRTRnX1ZLZ3ZpYnNGU28?oc=5",
+      "isNew": false
+    },
+    {
       "id": "dc4ef9852ec0",
       "title": "Loan Note: Trust is building in semi-liquid fund market; regulators eye insurance ownership",
       "source": "pei-privatecredit.com",
@@ -258,6 +278,16 @@
       "isNew": false
     },
     {
+      "id": "76c502fcb138",
+      "title": "Solvency II: Expanding the investment universe",
+      "source": "BNY",
+      "date": "2026-09-23T09:59:11Z",
+      "topic": "Structured Credit",
+      "summary": "",
+      "link": "https://news.google.com/rss/articles/CBMiugFBVV95cUxQTlNnV0F1MkxRd2NJYm9hb0s1NG9VcmVRelZUd05yZEVZZTk0TUxVWEx6am8xLTQ0cURYUTdHRlRjNllCSUhDTVppYkdoNzV2OHlxR1oxVFZaVDNha3QxSTZ4eWlJM2NYMjVidjMtX3JJb3ZTYmE0SXVyekRHdGV0UUJJZVFFZ3hubEJmMXlPaDMybEVNejBPTFJJUnlRdXF4WUV5QUozRVRJN0JlTG13bUFGM3V0MHBzRGc?oc=5",
+      "isNew": false
+    },
+    {
       "id": "154bcf2dbbde",
       "title": "10 Ways to Explain Why Interest Rates Are So High",
       "source": "The New York Times",
@@ -275,36 +305,6 @@
       "topic": "Rates & Macro",
       "summary": "",
       "link": "https://news.google.com/rss/articles/CBMirAFBVV95cUxQSXo5d0VnU1A4OXRGQlNjM3hjR01hV21aX0VCb29oU3FadkdiRmtCdllON0VETHdnck9RLU42YTJxaHpoMEdSU29mNl9DUWVETG1YZHR3VElJYTFPVzktNEJNSGNVWW45OGhjSzF2WUJBUzhkbFAxSEk2UV9rcEh3NGkwc0w3OE5OWmhtUjlHN3p4b2FPeEZkRDBxZkc5Vy1FUTJYdVBhNXZzejJD?oc=5",
-      "isNew": false
-    },
-    {
-      "id": "540e22eb71f4",
-      "title": "KKR Launches Equipment Finance Platform Akrapoint Commercial Capital",
-      "source": "InsuranceNewsNet",
-      "date": "2026-09-22T16:26:07Z",
-      "topic": "Insurance AM",
-      "summary": "",
-      "link": "https://news.google.com/rss/articles/CBMiqgFBVV95cUxOMEQ3cTlmTFVhR25rbDZZbm5hdDJ2RGJmUXU5SEVxWGoyVm1VNXdBeDBEbU96VGdHVE1xR0lhSXZyNTdWZ01hQkljMmxoaEhsZV9Ha3ZXSXdjM0pZU2w0YTdKTlA3cmdXTVVuN0dPS2Q3bUhiQWR0SDZ4ZkZQb01pLUxGUldPaTZoV2NJdlpXSEpXb3FQR2EzUDFsbnFxNGJodFY4TWNmTk9Ndw?oc=5",
-      "isNew": false
-    },
-    {
-      "id": "750c575e5dfb",
-      "title": "U.S. 10-Year Yield Cools After Topping 5%, German Bund Yield Hits 15-Year High",
-      "source": "WSJ",
-      "date": "2026-09-22T15:34:36Z",
-      "topic": "Rates & Macro",
-      "summary": "",
-      "link": "https://news.google.com/rss/articles/CBMiywFBVV95cUxPUUViTThLVXZVVW9Uck9RZHRIcm1zQm9tcXFjX1ZBckl6NGJQRTVvREEyYjFlUzBKdHRaUTF3eGlHb1JaSnN5ZXpSU2ZnZUNNNURYUXgxME9Xam96THNITzNTNjlNVUdNUmFSbUhoSXgzLXgxM0pWOFZ2aVNuN2lYb0ZXdGlpN3NIeUVJR3FaY0VmcDFERWFXU1g1dUE4R3NoZGU0SVRfS3dVdTA5VjlKd2FBUy1tYWJtaWxhc0FNclUzM2xFdUpSUTlzcw?oc=5",
-      "isNew": false
-    },
-    {
-      "id": "79ece7ef9395",
-      "title": "Why Bond Markets Are Pricing In Too Many Interest Rate Rises",
-      "source": "Morningstar",
-      "date": "2026-09-22T05:12:47Z",
-      "topic": "Rates & Macro",
-      "summary": "",
-      "link": "https://news.google.com/rss/articles/CBMiogFBVV95cUxOaGRrNUFnMmVGZmg0alg2YUhySUNZSWlDUHhRV1ZLcnRpdDNUamxMQ2RneHJVSjZBbFBUSmJfaC1YYmRVUVNSaXhkVllKWU5rRFpSUmViY2R1VVZJbDY5dlBjT3puWjN6dFJEekYwZEVqcVdLTTl1SXVTZU1teHZUT0p1WTY2RmszSzBVWHBqWWZQdjdiRElYQjBKbmtRZm9tYWc?oc=5",
       "isNew": false
     }
   ]
