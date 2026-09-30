@@ -1,12 +1,12 @@
 # Reinsurer News Monitor
 
 Bermuda life & annuity watchlist — last 14 days — 34 items
-Generated Wed 30 Sep 2026, 09:39 ADT
+Generated Wed 30 Sep 2026, 17:05 ADT
 
 ## Feed status
 
 - ✅ **Artemis.bm** — 10 items
-- ✅ **Google News (16 of 16 companies)** — 53 items
+- ✅ **Google News (16 of 16 companies)** — 52 items
 - ✅ **Reinsurance News** — 10 items
 
 ## Athene
@@ -34,7 +34,7 @@ Generated Wed 30 Sep 2026, 09:39 ADT
 - **2026-09-28** — Reinsurance News — [Fortitude Re advances long-term strategy with Dayforward acquisition](https://www.reinsurancene.ws/fortitude-re-advances-long-term-strategy-with-dayforward-acquisition/)
   - Fortitude Re, formed by FGH Parent, L.P. and its subsidiaries, has acquired nearly all the assets of Dayforward, a digitally native insurance technology company, through a newly formed entity that will be renamed Fortitude Life. The transaction includes Dayforward’s technology platform, distribution agreements, intellectual property, licensed insurance agency and its team, but excludes the firm’s 
 - **2026-09-28** — Coverager — [Fortitude Re acquires Dayforward](https://news.google.com/rss/articles/CBMiZkFVX3lxTE96U2NFQm9GM0VHOUdtSkd2Nm94MEliM2RGZXdMVHRCRW9NOXh1aTU3Ulk5eVV5WWlxay10RmJmYzBwMWR1ZVNuZC05Y1FfTFMyakluM0dBcmhZSUVwR2lhVW82dmZDUQ?oc=5)
-- **2026-09-28** — businesswire.com — [Fortitude Re Acquires Dayforward to Broaden Capabilities](https://news.google.com/rss/articles/CBMiswFBVV95cUxQWFlMQ1lrdkVJbGUzV2l5a1R0MFdXUnpWSFpiWmhRQlFPM0NvcVRveW1kZTFLb0xYWWRtM0pyRDczZk45TUFBLWg4U2pyem5wVk1pS3FOTWZxeHhJVjMzRmVnUWZxLWN1OWhWdTROSmhzYmUwQ0FodHhkejlyNGhCalZsd1BiNFk1THhtSHBOd3plNmJ5cTNac1pvajVOakxNUWhMMFNyRXhZUEwyZGYtNnVtaw?oc=5)
+- **2026-09-28** — Business Wire — [Fortitude Re Acquires Dayforward to Broaden Capabilities](https://news.google.com/rss/articles/CBMiswFBVV95cUxQWFlMQ1lrdkVJbGUzV2l5a1R0MFdXUnpWSFpiWmhRQlFPM0NvcVRveW1kZTFLb0xYWWRtM0pyRDczZk45TUFBLWg4U2pyem5wVk1pS3FOTWZxeHhJVjMzRmVnUWZxLWN1OWhWdTROSmhzYmUwQ0FodHhkejlyNGhCalZsd1BiNFk1THhtSHBOd3plNmJ5cTNac1pvajVOakxNUWhMMFNyRXhZUEwyZGYtNnVtaw?oc=5)
 
 ## Aspida
 
@@ -50,7 +50,7 @@ Generated Wed 30 Sep 2026, 09:39 ADT
 
 ## RGA
 
-- **2026-09-29** — Yahoo! Finance Canada — [Reinsurance Group of America, Incorporated (RGA) Stock Price, News, Quote & History](https://news.google.com/rss/articles/CBMiUEFVX3lxTE1qamdrTE91Y3FMZFdXWkp6N2hGVlFXY08zdXdsUmlQM0tnMjg0V2o5UmRFTHVIdEdTbnlUSm9vem5BbHZ5MmE5LVpHZWJ3LXh5?oc=5)
+- **2026-09-30** — Yahoo! Finance Canada — [Reinsurance Group of America, Incorporated (RGA) Stock Price, News, Quote & History](https://news.google.com/rss/articles/CBMiUEFVX3lxTE1qamdrTE91Y3FMZFdXWkp6N2hGVlFXY08zdXdsUmlQM0tnMjg0V2o5UmRFTHVIdEdTbnlUSm9vem5BbHZ5MmE5LVpHZWJ3LXh5?oc=5)
 - **2026-09-29** — Yahoo Finance Australia — [Reinsurance Group of America, Incorporated (RGA) latest stock news and headlines](https://news.google.com/rss/articles/CBMiV0FVX3lxTE5CdHFXVjBaOUtpRG1uM296dngxVElqR0x6cFZ2NjVySDAyaUZSQkpGdmRxWkk2U3VNR3lFQUxxeTdvbmxWQ3lybXM4cmVvN3VIcGJHS3pWNA?oc=5)
 - **2026-09-28** — MarketBeat — [Reinsurance Group of America (NYSE:RGA) Stock Rating Raised to "Overweight" at Morgan Stanley](https://news.google.com/rss/articles/CBMi5gFBVV95cUxNODVIb1lMYWlTTjM5VjVPMVhzUWtWbTJ1Y0hKeENHWTdqRVRuanFPYXowZE9ZLUR4X0YxVmhCUzN5X1pxUjl4ZGx4NU1yWWloZVBMMXVyeVRrTUxOU3VOOVNLMVJGOHlyY3J3czR3dEdrbXhsSWhreThrQkJCUzBZSDN6QUxVTGcxRVRpeVVqV3VHLWNHZVp4M012bFNiN3JHR0ppMGVPY2E5SE5fWWtlRVczb2paLW9TdTFtM19RT21nNmgtNVBiZ3J5eXNEcjFMOEJmSkl0SlV1Rzllb1NxRlhLVjlGZw?oc=5)
 - **2026-09-28** — Yahoo Finance — [Should Value Investors Buy Reinsurance Group of America (RGA) Stock?](https://news.google.com/rss/articles/CBMipAFBVV95cUxOX0VjSENUVzNXdmtiUC1ZS2V2SmhnZmlKQjhBRElaSTZGWXdiQ3hka1E3Nm1IMi1ES0dxUVBmU1pBSmV1OS1HZmk4NkpQZWZCSXN2MGhpa0FXU0oyU056SXc1aHZEM25GVnRYRlZpX01yXy1rbG1mUzhVemNvZ0poUWtEbFVsQ1VtT3h0WmhJSFBBOVF3NVRVVEdTNmh5ZlF5ekNoUw?oc=5)

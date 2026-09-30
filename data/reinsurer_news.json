@@ -1,5 +1,5 @@
 {
-  "updated": "2026-09-30T12:39:02Z",
+  "updated": "2026-09-30T20:05:45Z",
   "lookback_days": 14,
   "feeds": [
     {
@@ -89,7 +89,7 @@
     {
       "name": "Google News: Talcott",
       "ok": true,
-      "count": 7,
+      "count": 8,
       "error": null
     },
     {
@@ -101,7 +101,7 @@
     {
       "name": "Google News: Wilton Re",
       "ok": true,
-      "count": 4,
+      "count": 2,
       "error": null
     },
     {
@@ -118,7 +118,7 @@
       "link": "https://news.google.com/rss/articles/CBMi6wFBVV95cUxPbjNuZXJUWXZ6NWFYS1lFSHU0Ui1YSGRhLWxnM3E3dFg5QlUwSVFxc2k1ZGlvejRYRzFMaUR0NUhTNjRRUDBsLTFFMk5kV0dYY0lxTnZlUUdQQzlXV0ZLdy1RaFAyeVRqUjFfRUFkTF92RU5EcVVIMjNnSXViZU1OMnA0N1FrTmhCa0x3WERfaXF0VmxJOUdFSVE3S1djekpCOWRDUmJjWTFWYlFZZmxieVhtNzcyRFEySjJlSWVqSGIwd2FPTzEyYVBRNHphX0ZhOUc5REZTVGNTVmpLeW80Qk5lOXpTYUhsdjVF?oc=5",
       "source": "Family Wealth Report",
       "feed": "Google News: Global Atlantic",
-      "date": "2026-09-30T11:06:25Z",
+      "date": "2026-09-30T11:05:28Z",
       "summary": "",
       "companies": [
         "Global Atlantic"
@@ -130,7 +130,7 @@
       "link": "https://news.google.com/rss/articles/CBMiUEFVX3lxTE1qamdrTE91Y3FMZFdXWkp6N2hGVlFXY08zdXdsUmlQM0tnMjg0V2o5UmRFTHVIdEdTbnlUSm9vem5BbHZ5MmE5LVpHZWJ3LXh5?oc=5",
       "source": "Yahoo! Finance Canada",
       "feed": "Google News: RGA",
-      "date": "2026-09-29T23:21:33Z",
+      "date": "2026-09-30T06:41:20Z",
       "summary": "",
       "companies": [
         "RGA"
@@ -308,7 +308,7 @@
       "id": "3cfe6135446b",
       "title": "Fortitude Re Acquires Dayforward to Broaden Capabilities",
       "link": "https://news.google.com/rss/articles/CBMiswFBVV95cUxQWFlMQ1lrdkVJbGUzV2l5a1R0MFdXUnpWSFpiWmhRQlFPM0NvcVRveW1kZTFLb0xYWWRtM0pyRDczZk45TUFBLWg4U2pyem5wVk1pS3FOTWZxeHhJVjMzRmVnUWZxLWN1OWhWdTROSmhzYmUwQ0FodHhkejlyNGhCalZsd1BiNFk1THhtSHBOd3plNmJ5cTNac1pvajVOakxNUWhMMFNyRXhZUEwyZGYtNnVtaw?oc=5",
-      "source": "businesswire.com",
+      "source": "Business Wire",
       "feed": "Google News: Fortitude Re",
       "date": "2026-09-28T12:00:00Z",
       "summary": "",
@@ -405,7 +405,7 @@
       "title": "West Grove Re appoints former RGA leader Anthony Young as CEO",
       "link": "https://news.google.com/rss/articles/CBMipwFBVV95cUxOVHktYXVlOHVTdVQ4SUZCUnN1TS1vcDlCRkJTOEc3RmdpRWxFd0FkLUZvc2VDTkpXaDFSUllMQ3ZSZWxCb0JWZlZXNUtVX1BmOG9IQUhhT0Y5eFJiNEFSV0ZUREgxMUNmaFI5bmJRbXQzVWt3MExUTEJRU0FESl9HTDZXQ1REVEx1RlZ3Q1FQc0d2ZnFadzk1aEg2YUZxUHN6VzBEaWhZSQ?oc=5",
       "source": "Bermuda Re",
-      "feed": "Google News: RGA",
+      "feed": "Google News: Talcott",
       "date": "2026-09-23T07:00:00Z",
       "summary": "",
       "companies": [
@@ -466,7 +466,7 @@
       "link": "https://news.google.com/rss/articles/CBMivwFBVV95cUxPS2lvUnhIczhJNUtuQ3NwbG9YLVJzdEItTXF6c0xBX0xlM2VWYmFUalhrMTNmNFdoYVp1Rm1mZUYwMWIxSjdMQ04tdFBRLThHUnhGdGpJc3kxSlpRRTBnY0JQRzBZT0F2aEllMEtHQXF6WmZpbE9JU1BKdmJJVHY2ZUFzTFhfb2JDaXZ4ZUJJekE2ZEpOa2hKN2h6VFcxVGJ4VTFNbkpTSlotOE1KOHE1WG1FU2J4ZmtTd05LT1ZrSQ?oc=5",
       "source": "Stock Titan",
       "feed": "Google News: Global Atlantic",
-      "date": "2026-09-21T11:00:00Z",
+      "date": "2026-09-21T07:00:00Z",
       "summary": "",
       "companies": [
         "Global Atlantic"

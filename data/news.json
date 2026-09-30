@@ -1,5 +1,5 @@
 {
-  "updated": "2026-09-30T12:39:00Z",
+  "updated": "2026-09-30T20:05:42Z",
   "topics": [
     "Insurance AM",
     "Private Credit",
@@ -7,6 +7,16 @@
     "Structured Credit"
   ],
   "items": [
+    {
+      "id": "303f7798ffa8",
+      "title": "Treasury Yields Hit Fresh Highs",
+      "source": "WSJ",
+      "date": "2026-09-30T18:55:00Z",
+      "topic": "Rates & Macro",
+      "summary": "",
+      "link": "https://news.google.com/rss/articles/CBMiqgFBVV95cUxNR1h4Wm1PMS0zdk5jczNlaHg3aDlpSXd6Y3hWaFM2MmR6ZkV0cWc2LVdsOTdWbEdrNW85WXNCR08zeDF3TWJLRVpFZEFvTFpxVTEyM2JuM3JNSFdoa1k1NzNXR0xRU0d2ZEptY2pndU9SelM3d0pqcTFMVWtkRFJ1NEc3NU5RbDZ3MHB3dmJ5YzYyU2dBWi1MRW5hZzlzQUZxNm5LMUlMbUh4dw?oc=5",
+      "isNew": false
+    },
     {
       "id": "e919491abe13",
       "title": "Private credit and UK life insurers: structuring for matching adjustment",
@@ -70,7 +80,7 @@
     {
       "id": "68059848f9b2",
       "title": "New York Life Investment Management to Acquire Majority Ownership Stake in Invictus Capital Partners",
-      "source": "businesswire.com",
+      "source": "Business Wire",
       "date": "2026-09-28T21:05:31Z",
       "topic": "Insurance AM",
       "summary": "",
@@ -100,7 +110,7 @@
     {
       "id": "f49712bb0c0c",
       "title": "Barings CEO Michael Freno: \"The private credit opportunity extends well beyond direct lending\"",
-      "source": "ipe.com",
+      "source": "Investment & Pensions Europe",
       "date": "2026-09-28T07:00:00Z",
       "topic": "Private Credit",
       "summary": "",
@@ -200,7 +210,7 @@
     {
       "id": "c4b7f13a254e",
       "title": "Why the bond market is freaking out, and what it means for your money",
-      "source": "CBS News",
+      "source": "cbsnews.com",
       "date": "2026-09-24T19:08:00Z",
       "topic": "Rates & Macro",
       "summary": "",
@@ -295,16 +305,6 @@
       "topic": "Insurance AM",
       "summary": "",
       "link": "https://news.google.com/rss/articles/CBMi1wFBVV95cUxOckRVZFVWZlZad1hiMmxVQml6eEEwUWR1SFJPRm1SWVQ1NXFsLVlsM0JMb1FDS1pFdE42aWFMWmtkU3Y1WWRQMEppZUZXZFphTm5uWnJrUlhLQ2poN21qXzU4R3BjR3dTbGNCSW9yR1hXd2dEblJQMmp4OWIza2l2WUJobHhXZDB0Mk1FZnVLN0VGY3c1T0RjZHJTalVPWTY1am1tRGNrNHA0bEd1dFJBZ3NocXVBWjJUSm82WDNQN256aE44eUJEcWlxek5vM0FiOGRraHRpVQ?oc=5",
-      "isNew": false
-    },
-    {
-      "id": "f4461c5bf23b",
-      "title": "Apollo Global Management Sees AI, Private Credit and Retirement Driving Growth",
-      "source": "TradingView",
-      "date": "2026-09-24T04:02:00Z",
-      "topic": "Private Credit",
-      "summary": "",
-      "link": "https://news.google.com/rss/articles/CBMi1AFBVV95cUxNb1VCaHRrcjRKbGdOQ2hQN0dPUHhad0dnSFlUVTZYZUY5VGNPYW9CZV9MRXpzaWstWm9zZklrcnNRZDFyWTdiX3JJQTFEbFhjSm5GLTZUTjRqc250bTRLa1lFUGRaVTdtWnRValctbmFjUmRVTXJyRlVVaFpBN3RjbS1SQ05VU3BNXzA5Y2t6SkFrQXRmRUdGZzB6V2JrXzBfb1h4M2c5alJzZ3ktcVF5ZWU1QVpGbjF1LVcwczhyRmpVanlMZGdKRm5Vb0NLVFo5ZTFkTQ?oc=5",
       "isNew": false
     }
   ]
