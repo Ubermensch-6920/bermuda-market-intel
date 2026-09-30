@@ -1,5 +1,5 @@
 {
-  "updated": "2026-09-29T22:18:51Z",
+  "updated": "2026-09-30T05:36:42Z",
   "topics": [
     "Insurance AM",
     "Private Credit",
@@ -8,9 +8,19 @@
   ],
   "items": [
     {
+      "id": "1224c9e18c92",
+      "title": "Connecting the Dots: A Holistic Approach for Insurers",
+      "source": "AllianceBernstein",
+      "date": "2026-09-29T23:26:15Z",
+      "topic": "Insurance AM",
+      "summary": "",
+      "link": "https://news.google.com/rss/articles/CBMi0wFBVV95cUxNenh6WjIwTWIxUUpsY3duLTJwbEhZbTYtckNwTC0wLWRpOG1GemtXaFdlb3NDVWxvbVJ0QWlxMVYyV0tuYnlLUVd0SjJIQVpzNnhsWDFNUkFQWkp2MHIxNS1lY3BXT3hPVFU1ZUpkRzVUUEttTjNEczhnRTNLakhJZjdxanp5OWFFX0w0Vzl0M05vRlpSUVlpbHFGb1hranNLVzJsemxlVGxKeDZ0M2dPVExKRUk0bkNSc1J5X01hT0VSa19XTHMzNnpJMU5XRzA3cEZF?oc=5",
+      "isNew": false
+    },
+    {
       "id": "2fff5938a737",
       "title": "Cayman well placed as rated fund structures move offshore, Proskauer partners say",
-      "source": "Cayman Finance",
+      "source": "caymanfinance.ky",
       "date": "2026-09-29T20:08:15Z",
       "topic": "Structured Credit",
       "summary": "",
@@ -40,8 +50,8 @@
     {
       "id": "68059848f9b2",
       "title": "New York Life Investment Management to Acquire Majority Ownership Stake in Invictus Capital Partners",
-      "source": "Business Wire",
-      "date": "2026-09-28T21:05:00Z",
+      "source": "businesswire.com",
+      "date": "2026-09-28T21:05:31Z",
       "topic": "Insurance AM",
       "summary": "",
       "link": "https://news.google.com/rss/articles/CBMi7gFBVV95cUxPXzM2SU5iNzRjanV2ZVZvZExCWWxCU04xYzFzU0VoOWowUnNrajA1SW5fNEdJVEFZLXdXb29HenRobXFuVEhCT0d0RnlYelA3M19JMDdhUl9jdEFyM2tFbElUVTk5NXhtNHEyY0RNd0puZGZQcThPMkcyWWVNbGFsQWw3SHRfX2c5THlYWXNGekNocjlha3ZWcjNndXBNWDlJTVBmYnBVTmFta3BqX2c0eEFrRk9FRHBBUlFaampqdm1KVUtGbnZIRW1RaC0yTDdFZEcyUk1qVmhTWU5DLVpXU3V2ekpldzJldWpGUk9n?oc=5",
@@ -100,7 +110,7 @@
     {
       "id": "6e2b5445ad0d",
       "title": "PIC and USS target more infra debt, eye digital space",
-      "source": "infrastructureinvestor.com",
+      "source": "Infrastructure Investor",
       "date": "2026-09-25T15:14:07Z",
       "topic": "Private Credit",
       "summary": "",
@@ -295,16 +305,6 @@
       "topic": "Private Credit",
       "summary": "",
       "link": "https://news.google.com/rss/articles/CBMijwFBVV95cUxPMndkVDN1Y0NqUW5RZVVuUXVVN0F2ZjVVSnplQ05lUkQ4dWwxVFJvSzg0RGpyOTJMWHMyMW5jR24zOEhCOXFuVGQxcmczbjhKQjRCQk9YRHd4ZGo0Q2UxU09XdE9LWGZWSlJ3RkFIT2lwQm90Q0hIcGxKVms2bDJkaDNrS2xoSFM5VnJNWUU1bw?oc=5",
-      "isNew": false
-    },
-    {
-      "id": "435f7b0303b9",
-      "title": "Aegon fund taps insurance boom in credit risk transfer",
-      "source": "Structured Credit Investor",
-      "date": "2026-09-23T11:22:29Z",
-      "topic": "Insurance AM",
-      "summary": "",
-      "link": "https://news.google.com/rss/articles/CBMixwFBVV95cUxPeTNDRGRxMVR3Yi0tV0dRV1BfYVkxNFVoZmowRGQ3Z1VpNEJ6VWE3QWZRM2gtd1lwX1FJdGUtay1LUExoOEw0aUlGUHFTUEZDZWQ5TUUtQlpRTzdrcG9pc1N6QlE1SUpMQnBURF9mQ0c4RkpqZEZJY1VwVzB3ZUV1NTFSbkM4YjZrbmlpNWZkTWRrRk1nLTEwSzhyLUJHMlZZdkpiYVRTaGdZRndEaU04YzJ5TDRYa2VGQ2VUNmJ0NFg1RTBkNFBF?oc=5",
       "isNew": false
     }
   ]
