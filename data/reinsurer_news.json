@@ -1,5 +1,5 @@
 {
-  "updated": "2026-09-30T05:36:45Z",
+  "updated": "2026-09-30T12:39:02Z",
   "lookback_days": 14,
   "feeds": [
     {
@@ -35,7 +35,7 @@
     {
       "name": "Google News: Global Atlantic",
       "ok": true,
-      "count": 7,
+      "count": 8,
       "error": null
     },
     {
@@ -65,7 +65,7 @@
     {
       "name": "Google News: RGA",
       "ok": true,
-      "count": 16,
+      "count": 14,
       "error": null
     },
     {
@@ -89,7 +89,7 @@
     {
       "name": "Google News: Talcott",
       "ok": true,
-      "count": 8,
+      "count": 7,
       "error": null
     },
     {
@@ -101,7 +101,7 @@
     {
       "name": "Google News: Wilton Re",
       "ok": true,
-      "count": 3,
+      "count": 4,
       "error": null
     },
     {
@@ -112,6 +112,30 @@
     }
   ],
   "items": [
+    {
+      "id": "d89b20ae51a3",
+      "title": "Who's Moving Where In Wealth Management? \u2013 Kestra, Mesirow, Global Atlantic, KKR",
+      "link": "https://news.google.com/rss/articles/CBMi6wFBVV95cUxPbjNuZXJUWXZ6NWFYS1lFSHU0Ui1YSGRhLWxnM3E3dFg5QlUwSVFxc2k1ZGlvejRYRzFMaUR0NUhTNjRRUDBsLTFFMk5kV0dYY0lxTnZlUUdQQzlXV0ZLdy1RaFAyeVRqUjFfRUFkTF92RU5EcVVIMjNnSXViZU1OMnA0N1FrTmhCa0x3WERfaXF0VmxJOUdFSVE3S1djekpCOWRDUmJjWTFWYlFZZmxieVhtNzcyRFEySjJlSWVqSGIwd2FPTzEyYVBRNHphX0ZhOUc5REZTVGNTVmpLeW80Qk5lOXpTYUhsdjVF?oc=5",
+      "source": "Family Wealth Report",
+      "feed": "Google News: Global Atlantic",
+      "date": "2026-09-30T11:06:25Z",
+      "summary": "",
+      "companies": [
+        "Global Atlantic"
+      ]
+    },
+    {
+      "id": "9e0a35ca35eb",
+      "title": "Reinsurance Group of America, Incorporated (RGA) Stock Price, News, Quote & History",
+      "link": "https://news.google.com/rss/articles/CBMiUEFVX3lxTE1qamdrTE91Y3FMZFdXWkp6N2hGVlFXY08zdXdsUmlQM0tnMjg0V2o5UmRFTHVIdEdTbnlUSm9vem5BbHZ5MmE5LVpHZWJ3LXh5?oc=5",
+      "source": "Yahoo! Finance Canada",
+      "feed": "Google News: RGA",
+      "date": "2026-09-29T23:21:33Z",
+      "summary": "",
+      "companies": [
+        "RGA"
+      ]
+    },
     {
       "id": "64bdca379950",
       "title": "Reinsurance Group of America, Incorporated (RGA) latest stock news and headlines",
@@ -176,7 +200,7 @@
       "id": "4426b69dd45e",
       "title": "Fortitude Re buys Dayforward to power annuity push",
       "link": "https://news.google.com/rss/articles/CBMijAFBVV95cUxOOHdkSzd1YUNZT09KUWlQWWtVLUs5OWxnVXBCNEY2Z3ZJcWxhaTVfNVpZUGhYUDdXY2Z6THpXVElHNUpfZGtmTmg3cUJQb2g5emcydExZTWR5ZjNFRUVPVGpXb0xTQi0xTzRma0luNVM4TVBtWnh0aEJVdzJEVndPR2hNTzNYQ0F1MEo3NA?oc=5",
-      "source": "Dealroom.co",
+      "source": "Dealroom",
       "feed": "Google News: Fortitude Re",
       "date": "2026-09-29T01:03:21Z",
       "summary": "",
@@ -272,7 +296,7 @@
       "id": "502bb76b019e",
       "title": "Should Value Investors Buy Reinsurance Group of America (RGA) Stock?",
       "link": "https://news.google.com/rss/articles/CBMipAFBVV95cUxOX0VjSENUVzNXdmtiUC1ZS2V2SmhnZmlKQjhBRElaSTZGWXdiQ3hka1E3Nm1IMi1ES0dxUVBmU1pBSmV1OS1HZmk4NkpQZWZCSXN2MGhpa0FXU0oyU056SXc1aHZEM25GVnRYRlZpX01yXy1rbG1mUzhVemNvZ0poUWtEbFVsQ1VtT3h0WmhJSFBBOVF3NVRVVEdTNmh5ZlF5ekNoUw?oc=5",
-      "source": "finance.yahoo.com",
+      "source": "Yahoo Finance",
       "feed": "Google News: RGA",
       "date": "2026-09-28T12:40:02Z",
       "summary": "",
@@ -317,18 +341,6 @@
       ]
     },
     {
-      "id": "9e0a35ca35eb",
-      "title": "Reinsurance Group of America, Incorporated (RGA) Stock Price, News, Quote & History",
-      "link": "https://news.google.com/rss/articles/CBMiUEFVX3lxTE1qamdrTE91Y3FMZFdXWkp6N2hGVlFXY08zdXdsUmlQM0tnMjg0V2o5UmRFTHVIdEdTbnlUSm9vem5BbHZ5MmE5LVpHZWJ3LXh5?oc=5",
-      "source": "Yahoo! Finance Canada",
-      "feed": "Google News: RGA",
-      "date": "2026-09-25T12:57:14Z",
-      "summary": "",
-      "companies": [
-        "RGA"
-      ]
-    },
-    {
       "id": "0840968d5739",
       "title": "Is Reinsurance Group of America, Incorporated (RGA) Rewriting the Retirement Planning Playbook?",
       "link": "https://news.google.com/rss/articles/CBMi1gFBVV95cUxNc21qRmRLU292MGg1S3RfaVFGc0lFS1JyWEJ0Q1N0aEJQZEFuMWNNVGFxR2FFUzJYblNSWWRVTEFaZlZYTktCdHd3VVl1Q1RpSnNUQnpGMG42SWlZWUo4RGZmY3MzbUgxNnZKbkRIMlZFV3hqc3ZleDBseUIwSTAwSmhnUFkyclZzTi1oTHE1Q0lxX1hzOUF2Nk5JMExpSlVaSUVxd1VLdUNsWUF3V3ZnRkF3aFkwMU0xLTZROFVNR0RINm94RzFTZDZlY1ZXVDFJcGp5bzh3?oc=5",
@@ -356,7 +368,7 @@
       "id": "1afa5ded1043",
       "title": "Reinsurance Group of America, I (RGA) Stock Forecasts",
       "link": "https://news.google.com/rss/articles/CBMijwFBVV95cUxPODJJY1lNYzNMdXdFOHU3dWRWUElzaDJSSF81cUlBQTJnVGhaWnM1RzQ1ZnF6eW9fODdNN0pOdlUxSGtkRFIyaDdxMDBkQUloTUMyaG1hdUhfNFl2M3VIbmROTHFKTzROaXRoako4bDU2VEs5MDZPZWExbXpvYUJEd2g2eTQteUtnOENic2xDVQ?oc=5",
-      "source": "finance.yahoo.com",
+      "source": "Yahoo Finance",
       "feed": "Google News: RGA",
       "date": "2026-09-24T00:04:02Z",
       "summary": "",
@@ -380,7 +392,7 @@
       "id": "8c3300c005c4",
       "title": "Sagicor prices $250M note offering to repay debt",
       "link": "https://news.google.com/rss/articles/CBMiiAFBVV95cUxNTE14Zi1oNTRGcHNjVlU1MTl4TzRpbU1KZnc5TWhXRThDOEtVOGhWMk1fQzVha0ljczRWMWdTTWdYMm4tY2otYlhyUmRoRGVsd0FvaF9NWUY3Vk9FMU5JOUxiY0RQSGN2bE92bXJJVm5zcEFzTWRfQ0k4ZUdvdzRiNV9GOGFwYjZJ?oc=5",
-      "source": "Dealroom.co",
+      "source": "Dealroom",
       "feed": "Google News: Sagicor",
       "date": "2026-09-23T08:20:31Z",
       "summary": "",
@@ -392,7 +404,7 @@
       "id": "4a417dcfb8ba",
       "title": "West Grove Re appoints former RGA leader Anthony Young as CEO",
       "link": "https://news.google.com/rss/articles/CBMipwFBVV95cUxOVHktYXVlOHVTdVQ4SUZCUnN1TS1vcDlCRkJTOEc3RmdpRWxFd0FkLUZvc2VDTkpXaDFSUllMQ3ZSZWxCb0JWZlZXNUtVX1BmOG9IQUhhT0Y5eFJiNEFSV0ZUREgxMUNmaFI5bmJRbXQzVWt3MExUTEJRU0FESl9HTDZXQ1REVEx1RlZ3Q1FQc0d2ZnFadzk1aEg2YUZxUHN6VzBEaWhZSQ?oc=5",
-      "source": "bermudareinsurancemagazine.com",
+      "source": "Bermuda Re",
       "feed": "Google News: RGA",
       "date": "2026-09-23T07:00:00Z",
       "summary": "",
@@ -404,7 +416,7 @@
       "id": "421eac435a55",
       "title": "KKR/Global Atlantic: Reinsurance Business Draws Mutuals, Traditional Life Insurers into Private Equity\u2019s \u2018Insurance as Asset Class\u2019 Model",
       "link": "https://news.google.com/rss/articles/CBMi8wFBVV95cUxQeEROYTR3aEJLVzZCZW1Zc2xjZVdEOFdBSUMtYXFPajZocU9sY3hPaUwzeVBMR0dTbWMtQlpQcWZFTHBmeHRYOXdvU1B2Vm8ta1hKTmdzLXlWaTdRVTZ1U0hGb0ZmbWJobWxZeW1jTmtDWE8zdnBlWEJ0NzNCbDBBd2JyeWpmQzJaUWdaeWp2VVZUZmRRRURJS3FETnkxM1Y0dTFvRDhJMTNvTkZWU0x5X3RFbmdZelhuT1NtWDNBTk04a1JoMTZVd3EwSGpHY01KNDZOcUhDajZkT3dnX2JBRHBocmQweFB6RFQxTXdOLVJtV2M?oc=5",
-      "source": "thecapitolforum.com",
+      "source": "The Capitol Forum",
       "feed": "Google News: Global Atlantic",
       "date": "2026-09-23T07:00:00Z",
       "summary": "",
@@ -422,18 +434,6 @@
       "summary": "",
       "companies": [
         "RGA"
-      ]
-    },
-    {
-      "id": "b27fed0e57d4",
-      "title": "Apollo Global Management stock gains on Yankees stake and Athene risk update",
-      "link": "https://news.google.com/rss/articles/CBMixwFBVV95cUxOS1pkVlRXTk1TckJqY0xtcDBBWXNKa2FZNVBPRTN0Z2hHMGVNOU9hZnBaQUYtZzNfWkEyY2FpRVRneVJvNkdCVmVLdWd1ZGFFclp2cERYb0FDdm5CUlY5MUZqLUJDOVU1dDdaSVZCRlFPYzVkalA4WlFWY3V6RTJUaUJfY2xudzhoWTJyS1owTm9lQnkyTkFuZ0pWb09STVlJRldrWmlFdEVrV29OaGNHckUyS2NwdGh3U1VnbWNDRElIT3VhWlhF?oc=5",
-      "source": "AD HOC NEWS",
-      "feed": "Google News: Athene",
-      "date": "2026-09-21T17:55:39Z",
-      "summary": "",
-      "companies": [
-        "Athene"
       ]
     },
     {
@@ -470,6 +470,18 @@
       "summary": "",
       "companies": [
         "Global Atlantic"
+      ]
+    },
+    {
+      "id": "b27fed0e57d4",
+      "title": "Apollo Global Management stock gains on Yankees stake and Athene risk update",
+      "link": "https://news.google.com/rss/articles/CBMixwFBVV95cUxOS1pkVlRXTk1TckJqY0xtcDBBWXNKa2FZNVBPRTN0Z2hHMGVNOU9hZnBaQUYtZzNfWkEyY2FpRVRneVJvNkdCVmVLdWd1ZGFFclp2cERYb0FDdm5CUlY5MUZqLUJDOVU1dDdaSVZCRlFPYzVkalA4WlFWY3V6RTJUaUJfY2xudzhoWTJyS1owTm9lQnkyTkFuZ0pWb09STVlJRldrWmlFdEVrV29OaGNHckUyS2NwdGh3U1VnbWNDRElIT3VhWlhF?oc=5",
+      "source": "AD HOC NEWS",
+      "feed": "Google News: Athene",
+      "date": "2026-09-21T07:00:00Z",
+      "summary": "",
+      "companies": [
+        "Athene"
       ]
     },
     {
