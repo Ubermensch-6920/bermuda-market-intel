@@ -1,5 +1,5 @@
 {
-  "updated": "2026-10-01T00:36:38Z",
+  "updated": "2026-10-01T10:12:18Z",
   "topics": [
     "Insurance AM",
     "Private Credit",
@@ -7,6 +7,16 @@
     "Structured Credit"
   ],
   "items": [
+    {
+      "id": "0fd5ca2355b1",
+      "title": "After sharp rise in private credit, here's where it's now headed",
+      "source": "thenationalnews.com",
+      "date": "2026-10-01T05:31:58Z",
+      "topic": "Private Credit",
+      "summary": "",
+      "link": "https://news.google.com/rss/articles/CBMivwFBVV95cUxQaEF2eHpsRHhRU3A2Sm1Jc1loZ20tRWR2LVI1OHNJSDcyZjlpZXVJSDRYTjd4LUhwS3NUR25yNFhZVEp0aXAtQ0JBSWhoNHYyWDJ1eW56WmRHS2F5MENYeWdtSkVURGwyR3JxdVlIR19JUjlzNUctMGlHejZmZWN2U1lyQjFyN3d6dkMtZFpvaVpvN2M2Rks3N2wxbFRkYXRjV2JtNjBKSlFscmpXX3V0RncwWG5HZmxCcXVUaVVJNA?oc=5",
+      "isNew": false
+    },
     {
       "id": "e919491abe13",
       "title": "Private credit and UK life insurers: structuring for matching adjustment",
@@ -41,10 +51,10 @@
       "id": "1224c9e18c92",
       "title": "Connecting the Dots: A Holistic Approach for Insurers",
       "source": "AllianceBernstein",
-      "date": "2026-09-29T23:26:15Z",
+      "date": "2026-09-29T20:37:44Z",
       "topic": "Insurance AM",
       "summary": "",
-      "link": "https://news.google.com/rss/articles/CBMi0wFBVV95cUxNenh6WjIwTWIxUUpsY3duLTJwbEhZbTYtckNwTC0wLWRpOG1GemtXaFdlb3NDVWxvbVJ0QWlxMVYyV0tuYnlLUVd0SjJIQVpzNnhsWDFNUkFQWkp2MHIxNS1lY3BXT3hPVFU1ZUpkRzVUUEttTjNEczhnRTNLakhJZjdxanp5OWFFX0w0Vzl0M05vRlpSUVlpbHFGb1hranNLVzJsemxlVGxKeDZ0M2dPVExKRUk0bkNSc1J5X01hT0VSa19XTHMzNnpJMU5XRzA3cEZF?oc=5",
+      "link": "https://news.google.com/rss/articles/CBMi2AFBVV95cUxOVjYxUW5DNGlVcldoNUFHdEZFZ2dJMF9BamdhWjFobkEwWnlfLWRfLThHT2ptSW91LVgxSDFHOURwS3ZIOTNUNF80b1VMbkZvaktsLW1BLUw1U19lWjA0UmkzUmV5T3ZNSVo3a1hDbTlzc0NpR2RfX1pzcEF3bU02MzR5a09yd2VkWFExaFVHNGlORjhtVkY4OVNsT2NuYzV0TW9BZFJSQTlBd1preXNiV2VfM2JGYUU4RWMxSmZ1c3I2TFFYQlhfUVlhZHFxVHhUU1hlN3hyVjk?oc=5",
       "isNew": false
     },
     {
@@ -55,6 +65,26 @@
       "topic": "Structured Credit",
       "summary": "",
       "link": "https://news.google.com/rss/articles/CBMiuAFBVV95cUxOYVZFUlZIV2x3dldmbEl1eUhIelNwUGVLZHFDZFZkYTlJaEl3eXRUQ0pESWV1ZkdUdXdVeU1QSGpUV21rYVY2ZnFnRlNMVTAwcGM0RG9SUTBIVkVMT0dyQmctbXg4NHQ3eFZ1cjhtdnVKNEIya1d3OF9XMnI1V3hPaFN2R24xNGU2RzAtRVdNdmtYd3BtV0J2R0txdDVpX0dNSGE5b1p1OEhTVlExblhKY1Bza1NqZUNY?oc=5",
+      "isNew": false
+    },
+    {
+      "id": "d16195c52dbe",
+      "title": "Equities end slightly lower as bond yields hold near multi-decade highs",
+      "source": "Tacoma News Tribune",
+      "date": "2026-09-29T19:11:00Z",
+      "topic": "Rates & Macro",
+      "summary": "",
+      "link": "https://news.google.com/rss/articles/CBMidEFVX3lxTE5hYjl3MEF5U0ZabDRMQ2VtUjMxaG1XN1gxd251R29OaDA2eGU0dWpRSEpObXVHcWpneldIZlJGUEZXaGNCMnhydVBJOThfN2pkNWQwVlNnWHUzaHFyUkR1ZkZkQ3RVSTg4U3BoQjR5b3E0SW9F?oc=5",
+      "isNew": false
+    },
+    {
+      "id": "d78fddfd39e2",
+      "title": "PHL Variable Should Not The Be The Only Insurer Under Scrutiny",
+      "source": "Forbes",
+      "date": "2026-09-29T16:03:26Z",
+      "topic": "Insurance AM",
+      "summary": "",
+      "link": "https://news.google.com/rss/articles/CBMixwFBVV95cUxPSkFZcnNCSWR5dFkyQy1uZ0UwckQzR1FEN2dNeXlCclpwM01ZSVZUeGdxWW90RzNiTUR4WnlqSzBzaUJtNTNqM3phWnRfbF93UFNFRXFNekRxVmFUdnotVllGaU9uS2t2cURvTFd2WHlUbWlWOVMtcWJYNDM4VVNOVlNnWU1zVFdtWk5wTVBvWFVlcTVtOUZVOVRIQ1MzemNSM1hmaVZNOElZaDY2ZllfZ1F0YmNlMkFfVkY0eHIyeV9UYW1ndW8w?oc=5",
       "isNew": false
     },
     {
@@ -275,36 +305,6 @@
       "topic": "Private Credit",
       "summary": "",
       "link": "https://news.google.com/rss/articles/CBMiuAFBVV95cUxPZ3BXNDhqcDVVZEw4LVpXMzRHRGdmckQwRmdaMlRKNXVQaWlLQ0s0aGhUdno1SEpTRi0xandqVkJveVJaWkJSdTFFSDFRZTlMdWNlMWVfQXVqcUd0Qy1SRE41WmtraW84X1VhSUR3cUVZblhJOEFoODVmdEd1X3dWc0M5SThNYTc1UEYyTEZjWGh0Nl82NnpwX3lkdWJYMGJueFBjaXRabHFONmNiMmozLXdrVHNvdHI2?oc=5",
-      "isNew": false
-    },
-    {
-      "id": "343664d0bf42",
-      "title": "Aegon AM brings its insurance-backed credit strategy to European institutional investors",
-      "source": "RankiaPro",
-      "date": "2026-09-24T07:20:06Z",
-      "topic": "Insurance AM",
-      "summary": "",
-      "link": "https://news.google.com/rss/articles/CBMiuwFBVV95cUxPcmlUVjdQN2FwLTJpSHVHQ253RThPblZPLXlZbXZsYVczN0xQbkRTcjNSYU1BYU84SlBIWHlQbEVkRklOVFY1dWZ6U2NRdkV2MHUtbHR5OWR3aEtrRndFaGl5eXJQZEV5aFdQOUJ6VjhzbkhPOS1wSWMxai1CMUtTWXZMTTZFQjVOamFJaTZRbjN0NEpOUmpESnZNWWkyRTFBbFlkdVRaSy1qcjBtU2d0NjN3SW5OVmFGOF93?oc=5",
-      "isNew": false
-    },
-    {
-      "id": "bf97acbbcdf0",
-      "title": "Private Investments and Insurance Companies",
-      "source": "Every CRS Report",
-      "date": "2026-09-24T07:10:46Z",
-      "topic": "Insurance AM",
-      "summary": "",
-      "link": "https://news.google.com/rss/articles/CBMiYEFVX3lxTE13aVNIX3FBZE0xNEo3NUpWRFhMWkhWNFZyWUwyT1R6d212SURfejNldmVFSjRsSkg3dzFjQWd4dmYxLVl5a3dqSmlzM1F3MFN3X0J4Z2g1ZWlpZ09HQ1JHSg?oc=5",
-      "isNew": false
-    },
-    {
-      "id": "fe504f9ceaca",
-      "title": "2027 Commercial Real Estate Outlook",
-      "source": "Deloitte",
-      "date": "2026-09-24T07:00:00Z",
-      "topic": "Insurance AM",
-      "summary": "",
-      "link": "https://news.google.com/rss/articles/CBMi1wFBVV95cUxOckRVZFVWZlZad1hiMmxVQml6eEEwUWR1SFJPRm1SWVQ1NXFsLVlsM0JMb1FDS1pFdE42aWFMWmtkU3Y1WWRQMEppZUZXZFphTm5uWnJrUlhLQ2poN21qXzU4R3BjR3dTbGNCSW9yR1hXd2dEblJQMmp4OWIza2l2WUJobHhXZDB0Mk1FZnVLN0VGY3c1T0RjZHJTalVPWTY1am1tRGNrNHA0bEd1dFJBZ3NocXVBWjJUSm82WDNQN256aE44eUJEcWlxek5vM0FiOGRraHRpVQ?oc=5",
       "isNew": false
     }
   ]
