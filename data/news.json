@@ -1,5 +1,5 @@
 {
-  "updated": "2026-10-01T10:12:18Z",
+  "updated": "2026-10-01T18:28:28Z",
   "topics": [
     "Insurance AM",
     "Private Credit",
@@ -7,6 +7,26 @@
     "Structured Credit"
   ],
   "items": [
+    {
+      "id": "a7549777ec32",
+      "title": "U.S. Bond Yields Hit Highest Level Since 2002",
+      "source": "The New York Times",
+      "date": "2026-10-01T13:12:29Z",
+      "topic": "Rates & Macro",
+      "summary": "",
+      "link": "https://news.google.com/rss/articles/CBMigwFBVV95cUxNQnJCNkJ1amNqVkhnUnRoYy1TN0t0ZkxmSFlqSVY5aXQzVUpCanhTamN2eDBDNjhmeTNnSUw2V2xDODV4UWJZTE5YcE5WZWFuaGJBX3U0NjV3ZWluZVVXRVdCLWdtV3gwSF9jRzVpNEpoSU9NeVdTNVpqeFVtT3RUVXh4Yw?oc=5",
+      "isNew": false
+    },
+    {
+      "id": "7c50c13d4525",
+      "title": "Delaware Life\u2019s Private-Credit Investments Reach 45% of Debt Portfolio",
+      "source": "Program Business",
+      "date": "2026-10-01T13:02:35Z",
+      "topic": "Private Credit",
+      "summary": "",
+      "link": "https://news.google.com/rss/articles/CBMipAFBVV95cUxQa1RpeFlvckN3NldZalVoNUlHSGtNTm4wN3phU2pldWRtMS1xOGFKeDlzRmU1ci1FelpiT25CYU9LSU1YZ1V3WDJ3emZfZ01xWlh1b280dEFHYUtrWnhCRDhTLW1KNmZycTYzaG5VUW9YWEx1N3o2VTI1WTJSYy1SbWpMZS1QVFRxTVQtWjdvVXZpUkNDcmpWX3JpU3IxTlV2R3Jlcg?oc=5",
+      "isNew": false
+    },
     {
       "id": "0fd5ca2355b1",
       "title": "After sharp rise in private credit, here's where it's now headed",
@@ -38,6 +58,16 @@
       "isNew": false
     },
     {
+      "id": "aadafc138da2",
+      "title": "Opinion | Trump threw a fit about the interest rates he caused. He\u2019s still right.",
+      "source": "The Washington Post",
+      "date": "2026-09-30T17:15:00Z",
+      "topic": "Rates & Macro",
+      "summary": "",
+      "link": "https://news.google.com/rss/articles/CBMikgFBVV95cUxPSllCcHF4a3U3T1NZZm5wN2cwQTVKcXFhWmo5Y3JnSkNKSGhMeGxtOHloZkEyRXpSaTR5cF9MRFBVQWdtMzcwLVoyTnQ0YmVNUGpvcllheEtJNVFtdWlYVXdLNmx5emlYaVRpZkhqT1VvdmFFTXFSQi1RQl9kQVhjX3lJcjlOX0hmemMzRTNXbUpYdw?oc=5",
+      "isNew": false
+    },
+    {
       "id": "9359d8adda9a",
       "title": "Private credit and UK life insurers: structuring for matching adjustment",
       "source": "Macfarlanes",
@@ -45,6 +75,16 @@
       "topic": "Structured Credit",
       "summary": "",
       "link": "https://news.google.com/rss/articles/CBMitwFBVV95cUxOZ3RIakhYZXRsR0JySGdPMG4wWUxwMkdXY2Y0MW5xZDFMVDRHSDBBZzVtLVpNOXk4WTFHejdnam16QUl6Ym5MUm9QX3BTc1B2eDBWaHB5M0RLaEtrS2dRUG9PSzNOSG5HWngta2RHOG1JWU1Ubl9EbUVJOGlxRGV5Y2pUaGQ1QnVXTjAtQWpsX0lYYmxSWFJNSUtiNFJjdnpBS2NVd1hEMm9udXd0MmY5cDloTjlvWnM?oc=5",
+      "isNew": false
+    },
+    {
+      "id": "2ecf4f81febb",
+      "title": "See How Mark Walter Turned a Ho-Hum Insurance Company Into a Risk-Taking Lender",
+      "source": "WSJ",
+      "date": "2026-09-30T07:00:00Z",
+      "topic": "Private Credit",
+      "summary": "",
+      "link": "https://news.google.com/rss/articles/CBMisgFBVV95cUxOSFJJcVBtWEtJcEdLTS1IRnNHakdQN0s3SDhBTDVxbGRZYXZOaEg2R25UcmdGdlhleWZZVXFSdHNlYkdTbVhzT0tidFlpVC1CQkZwbzN4M01teWJrV19hanR5bThtME51VHNpeXRRVzM3blhoRjNHYmotajdrMkFndjhvam9ZcWVWd0pZNFNpV2dxSVJPZnVzcDl1SW9oNG1EcVkzWUZjTzNqZmhPT3F4MzVR?oc=5",
       "isNew": false
     },
     {
@@ -125,16 +165,6 @@
       "topic": "Insurance AM",
       "summary": "",
       "link": "https://news.google.com/rss/articles/CBMilgFBVV95cUxPQVFGY3NBZjFOT1FScXJCTTVWQUQ4MkQ2aW5SblJPWDFYSVBOSnpSbjlnX1FnZ1l1V2dRY0tWcFV0RTlXd2VyTEN1eFJhQWVENFBQdW1ZTllWOVNIemlRVVg1ZEc3a0g5WWllbjg1UFl0T19zcEs1MEd3QU9TOEVhRUMtU0NCTmY0bzZibDFRR0d2bkR1eXc?oc=5",
-      "isNew": false
-    },
-    {
-      "id": "2ecf4f81febb",
-      "title": "See How Mark Walter Turned a Ho-Hum Insurance Company Into a Risk-Taking Lender",
-      "source": "WSJ",
-      "date": "2026-09-28T09:30:00Z",
-      "topic": "Private Credit",
-      "summary": "",
-      "link": "https://news.google.com/rss/articles/CBMisgFBVV95cUxOSFJJcVBtWEtJcEdLTS1IRnNHakdQN0s3SDhBTDVxbGRZYXZOaEg2R25UcmdGdlhleWZZVXFSdHNlYkdTbVhzT0tidFlpVC1CQkZwbzN4M01teWJrV19hanR5bThtME51VHNpeXRRVzM3blhoRjNHYmotajdrMkFndjhvam9ZcWVWd0pZNFNpV2dxSVJPZnVzcDl1SW9oNG1EcVkzWUZjTzNqZmhPT3F4MzVR?oc=5",
       "isNew": false
     },
     {
@@ -275,36 +305,6 @@
       "topic": "Rates & Macro",
       "summary": "",
       "link": "https://news.google.com/rss/articles/CBMia0FVX3lxTE93eV9ITVo1NjlGaDVKMUhsXzlTR2ZIV2Y1dGQ3Y2xoYTJxQ1E3QnNrRXRGNkU4TU9rVnIyTUV2Z2ptX2ZjR2dQR0VnX0dobDR2d1B1aEN5SDREMFp0cGNSNXZKejJNdEdHVHNr?oc=5",
-      "isNew": false
-    },
-    {
-      "id": "2141551b1901",
-      "title": "Private credit steady as private equity rebounds",
-      "source": "Alternative Credit Investor",
-      "date": "2026-09-24T11:43:55Z",
-      "topic": "Private Credit",
-      "summary": "",
-      "link": "https://news.google.com/rss/articles/CBMinwFBVV95cUxNNmNVeU9ialBGa3E0NWZBVkZGRmRXOGx5ckgxQ00xLWJydHF2ak8tMUhFMWRoZ3I2M1VsT25BMTBjNHJQMmdMcjBWMVh3MW1nVmVtLWdaVUhHUk5sdk1Yek1rcHFiYUxFaUs2ckpxTG1FWUFJYlFLTE9YWTcwUU9HQmxhd1dETVcwZmJKWGNOVDRRRTRnX1ZLZ3ZpYnNGU28?oc=5",
-      "isNew": false
-    },
-    {
-      "id": "dc4ef9852ec0",
-      "title": "Loan Note: Trust is building in semi-liquid fund market; regulators eye insurance ownership",
-      "source": "pei-privatecredit.com",
-      "date": "2026-09-24T11:30:53Z",
-      "topic": "Private Credit",
-      "summary": "",
-      "link": "https://news.google.com/rss/articles/CBMixAFBVV95cUxOSXo2a2RYME5SdjRTMHlPQWwyVll0SnVLZVU0dUVPSlN1UFU1Z2lrR2VrMURaSjBCdFU2V2tqVEozbWxFQ3NVYm9NamVUVXMxRnZyX3EzNG1Od2VRVy1FVWRUd3hUTWxISEFqVVdBdWtydzJGWS0yZlpuWVdHaTdfMm1Wdm9WMmNrcjk5NVRLcFFFaFhwbkdocm9aUkFsUDNTY1pkX05CTmVEZENmXzN1VnpnYldGUEJCek5zbmQyS1gwMmJB?oc=5",
-      "isNew": false
-    },
-    {
-      "id": "f8e165bf4a5d",
-      "title": "Private Equity Is Buying Life Insurers, and the Public Bears the Heightened Risk.",
-      "source": "promarket.org",
-      "date": "2026-09-24T10:00:00Z",
-      "topic": "Private Credit",
-      "summary": "",
-      "link": "https://news.google.com/rss/articles/CBMiuAFBVV95cUxPZ3BXNDhqcDVVZEw4LVpXMzRHRGdmckQwRmdaMlRKNXVQaWlLQ0s0aGhUdno1SEpTRi0xandqVkJveVJaWkJSdTFFSDFRZTlMdWNlMWVfQXVqcUd0Qy1SRE41WmtraW84X1VhSUR3cUVZblhJOEFoODVmdEd1X3dWc0M5SThNYTc1UEYyTEZjWGh0Nl82NnpwX3lkdWJYMGJueFBjaXRabHFONmNiMmozLXdrVHNvdHI2?oc=5",
       "isNew": false
     }
   ]
