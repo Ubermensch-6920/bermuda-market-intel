@@ -1,7 +1,7 @@
 {
   "results": {
     "ust": "ok",
-    "jgb": "ok",
+    "jgb": "The read operation timed out",
     "gilt": "ok",
     "eur": "ok",
     "india": "ok",
@@ -13,6 +13,6 @@
     "inflation": "ok",
     "myga": "ok"
   },
-  "run": "2026-09-30T20:05:04.353894Z",
-  "_fetched": "2026-09-30T20:05:13.742384Z"
+  "run": "2026-10-01T00:35:58.729401Z",
+  "_fetched": "2026-10-01T00:36:07.092804Z"
 }

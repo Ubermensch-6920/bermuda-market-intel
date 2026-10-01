@@ -1,12 +1,12 @@
 # Reinsurer News Monitor
 
 Bermuda life & annuity watchlist — last 14 days — 34 items
-Generated Wed 30 Sep 2026, 17:05 ADT
+Generated Wed 30 Sep 2026, 21:36 ADT
 
 ## Feed status
 
 - ✅ **Artemis.bm** — 10 items
-- ✅ **Google News (16 of 16 companies)** — 52 items
+- ✅ **Google News (16 of 16 companies)** — 50 items
 - ✅ **Reinsurance News** — 10 items
 
 ## Athene

@@ -1,5 +1,5 @@
 {
-  "updated": "2026-09-30T20:05:45Z",
+  "updated": "2026-10-01T00:36:40Z",
   "lookback_days": 14,
   "feeds": [
     {
@@ -11,7 +11,7 @@
     {
       "name": "Google News: Aspida",
       "ok": true,
-      "count": 1,
+      "count": 0,
       "error": null
     },
     {
@@ -89,7 +89,7 @@
     {
       "name": "Google News: Talcott",
       "ok": true,
-      "count": 8,
+      "count": 7,
       "error": null
     },
     {
@@ -466,7 +466,7 @@
       "link": "https://news.google.com/rss/articles/CBMivwFBVV95cUxPS2lvUnhIczhJNUtuQ3NwbG9YLVJzdEItTXF6c0xBX0xlM2VWYmFUalhrMTNmNFdoYVp1Rm1mZUYwMWIxSjdMQ04tdFBRLThHUnhGdGpJc3kxSlpRRTBnY0JQRzBZT0F2aEllMEtHQXF6WmZpbE9JU1BKdmJJVHY2ZUFzTFhfb2JDaXZ4ZUJJekE2ZEpOa2hKN2h6VFcxVGJ4VTFNbkpTSlotOE1KOHE1WG1FU2J4ZmtTd05LT1ZrSQ?oc=5",
       "source": "Stock Titan",
       "feed": "Google News: Global Atlantic",
-      "date": "2026-09-21T07:00:00Z",
+      "date": "2026-09-21T11:00:00Z",
       "summary": "",
       "companies": [
         "Global Atlantic"

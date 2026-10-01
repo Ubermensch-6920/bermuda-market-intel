@@ -1,5 +1,5 @@
 {
-  "updated": "2026-09-30T20:05:42Z",
+  "updated": "2026-10-01T00:36:38Z",
   "naic": [
     {
       "id": "ff8a1c9afebb",
@@ -47,7 +47,7 @@
       "date": "2026-09-25",
       "cat": "Investment",
       "summary": "",
-      "source": "USA Herald",
+      "source": "usaherald.com",
       "link": "https://news.google.com/rss/articles/CBMiogFBVV95cUxNTGp3emc5VS10RHVUdXFiUzU0YjdDdVVHcW1BMG1jRHBrbUFTWXBxM1VJaWpDcFIwcUFzby1JTFpnV3M0Q1JVOGgzd0pGMHNpNkQ4My1uMW1EQ2g4RGNzWkM5THhXeU1ZRkNoSVhURWE4U1lpNUstbF9udWRZZTNpNVU5dXNneXh3ZktyM280UnlNR0JNLUFjNjIwSmE2dzhSVmc?oc=5",
       "isNew": true
     },
@@ -169,7 +169,7 @@
       "summary": "",
       "source": "American Hospital Association",
       "link": "https://news.google.com/rss/articles/CBMirAFBVV95cUxPNTc5TlJEdGxoTXVqaEljMHUwOU9RTFdXMlgySF9zcVZlM2RFOFpBaW5FamZueExPcm9nMW5NU0VMbXYzRDZCbVdkblVKZHdnRFlyVnNlQ3JxNW9hRFRRZndnd1F2MWZGd1lfMVVDQ19abDJYVXg2QzN5ZFpUZkZRSjRMcXgyV2VIc0VXZVgtaVR3TUxiMVU1dXlHZ1ROZG9FZHhUenNNeWpfVi0w?oc=5",
-      "isNew": true
+      "isNew": false
     },
     {
       "id": "1a18c1a97a4d",

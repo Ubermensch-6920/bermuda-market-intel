@@ -17,7 +17,7 @@
       "series_id": "BAMLC0A0CM",
       "date": "2026-09-29",
       "prior_date": "2026-09-28",
-      "age_days": 1
+      "age_days": 2
     },
     "aaa": {
       "name": "US AAA",
@@ -28,7 +28,7 @@
       "series_id": "BAMLC0A1CAAA",
       "date": "2026-09-29",
       "prior_date": "2026-09-28",
-      "age_days": 1
+      "age_days": 2
     },
     "aa": {
       "name": "US AA",
@@ -39,7 +39,7 @@
       "series_id": "BAMLC0A2CAA",
       "date": "2026-09-29",
       "prior_date": "2026-09-28",
-      "age_days": 1
+      "age_days": 2
     },
     "a": {
       "name": "US A",
@@ -50,7 +50,7 @@
       "series_id": "BAMLC0A3CA",
       "date": "2026-09-29",
       "prior_date": "2026-09-28",
-      "age_days": 1
+      "age_days": 2
     },
     "bbb": {
       "name": "US BBB",
@@ -61,7 +61,7 @@
       "series_id": "BAMLC0A4CBBB",
       "date": "2026-09-29",
       "prior_date": "2026-09-28",
-      "age_days": 1
+      "age_days": 2
     },
     "hy": {
       "name": "US HY",
@@ -72,7 +72,7 @@
       "series_id": "BAMLH0A0HYM2",
       "date": "2026-09-29",
       "prior_date": "2026-09-28",
-      "age_days": 1
+      "age_days": 2
     },
     "bb": {
       "name": "US BB",
@@ -83,7 +83,7 @@
       "series_id": "BAMLH0A1HYBB",
       "date": "2026-09-29",
       "prior_date": "2026-09-28",
-      "age_days": 1
+      "age_days": 2
     },
     "b": {
       "name": "US B",
@@ -94,7 +94,7 @@
       "series_id": "BAMLH0A2HYB",
       "date": "2026-09-29",
       "prior_date": "2026-09-28",
-      "age_days": 1
+      "age_days": 2
     },
     "ccc": {
       "name": "US CCC+",
@@ -105,10 +105,26 @@
       "series_id": "BAMLH0A3HYC",
       "date": "2026-09-29",
       "prior_date": "2026-09-28",
-      "age_days": 1
+      "age_days": 2
     }
   },
   "quarter_history": [
+    {
+      "quarter": "2026 Q3",
+      "date": "2026-09-30",
+      "spreads": {
+        "ig": 84,
+        "aaa": 41,
+        "aa": 60,
+        "a": 71,
+        "bbb": 102,
+        "hy": 308,
+        "bb": 189,
+        "b": 316,
+        "ccc": 1157
+      },
+      "source": "fred"
+    },
     {
       "quarter": "2026 Q2",
       "date": "2026-06-30",
@@ -156,24 +172,8 @@
         "ccc": 885
       },
       "source": "fred"
-    },
-    {
-      "quarter": "2025 Q3",
-      "date": "2025-09-30",
-      "spreads": {
-        "ig": 76,
-        "aaa": 31,
-        "aa": 43,
-        "a": 63,
-        "bbb": 97,
-        "hy": 280,
-        "bb": 177,
-        "b": 283,
-        "ccc": 807
-      },
-      "source": "fred"
     }
   ],
   "note": "ICE BofA option-adjusted spreads from FRED. Uses bounded CSV and graph API fallbacks over a recent window; cache is used only where FRED data is unavailable. Values are basis points.",
-  "_fetched": "2026-09-30T20:05:13.741734Z"
+  "_fetched": "2026-10-01T00:36:07.092166Z"
 }
