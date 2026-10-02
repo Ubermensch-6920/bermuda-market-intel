@@ -1,5 +1,5 @@
 {
-  "updated": "2026-10-02T09:50:12Z",
+  "updated": "2026-10-02T17:55:35Z",
   "lookback_days": 14,
   "feeds": [
     {
@@ -29,7 +29,7 @@
     {
       "name": "Google News: Fortitude Re",
       "ok": true,
-      "count": 8,
+      "count": 7,
       "error": null
     },
     {
@@ -101,7 +101,7 @@
     {
       "name": "Google News: Wilton Re",
       "ok": true,
-      "count": 3,
+      "count": 4,
       "error": null
     },
     {
@@ -112,6 +112,54 @@
     }
   ],
   "items": [
+    {
+      "id": "ddfba5477534",
+      "title": "Will Reinsurance Group (RGA) Beat Estimates Again in Its Next Earnings Report?",
+      "link": "https://news.google.com/rss/articles/CBMiowFBVV95cUxPeUVIUGR4cXpLZEkwa3FKZlR0a293clBKVjhFREozWXp4NmR3RGRMVTFodUFNWDdEUnd2Z0RNTm1fOVUwdnN2NXVBX1k4RVFvWi1pNG5WWkpKMnBXcGVtYkZ3RzZHQ2JSR0ZoaFlwb2NpV1JaRUZBN0tIVHpJX3lvNU1YSnk4U1pKaFkzc1RWNW9paWJkSzJaS0Z0T0FmekVBRVFB?oc=5",
+      "source": "Yahoo Finance",
+      "feed": "Google News: RGA",
+      "date": "2026-10-02T15:10:04Z",
+      "summary": "",
+      "companies": [
+        "RGA"
+      ]
+    },
+    {
+      "id": "f40e420fb639",
+      "title": "Fortitude Re parent acquires insurtech Dayforward annuity technology platform",
+      "link": "https://news.google.com/rss/articles/CBMiggFBVV95cUxQcjZVeElENk94UGE3RlhnbC11N1ZqUVAzZy1objVFZWpqdlo3WndnVWd0bkY3Z3dBdGxkNVFnUml2T3E4OXdhMTU3R3c0T3kyNWpDUmRrb3RHOHNQNURqb0lLT09XQS1EUkVUcTFISlNvdzc3NzZJU3pZQjNiMVFQZW9B?oc=5",
+      "source": "Beinsure",
+      "feed": "Google News: Fortitude Re",
+      "date": "2026-10-02T13:22:12Z",
+      "summary": "",
+      "companies": [
+        "Fortitude Re"
+      ]
+    },
+    {
+      "id": "6fd06032cc65",
+      "title": "Lincoln closes $6.3bn reinsurance transaction with Talcott",
+      "link": "https://www.reinsurancene.ws/lincoln-closes-6-3bn-reinsurance-transaction-with-talcott/",
+      "source": "Reinsurance News",
+      "feed": "Reinsurance News",
+      "date": "2026-10-02T11:00:45Z",
+      "summary": "Lincoln Financial has closed its previously announced $6.3 billion reinsurance transaction with Talcott Financial Group, effective October 1, 2026. Lincoln explained that the $6.3 billion total transaction includes the reinsurance by a Talcott subsidiary of approximately $5.8 billion of in-force guaranteed universal life (GUL) statutory reserves, representing approximately 37% of Lincoln\u2019s remaini",
+      "companies": [
+        "Talcott"
+      ]
+    },
+    {
+      "id": "2a8fb056de1a",
+      "title": "Fortitude Re expands insurtech capabilities with Dayforward buy, Fortitude Life launch",
+      "link": "https://news.google.com/rss/articles/CBMixwFBVV95cUxQRVY0aU4tNWJ5LWlGV2E4SGlIY0ZCWEJET1dueG9XMGQzUHcxNHRVcW05WmdoN0lUcnZIRkpwU3FaMHd1V2xySzR6WXRTenRnUjNfTWFHSmMycUVfallwOHVkS2VXYVVnT200dnp2d095MnA1TzJ5bE02d2pLa1JOLVBRaGpSellYR2RvMkM1ZWxoWXoxX3lTOUhrRXVQUm8zeUM3aG00SkppYjhQZ0c2ZlBpckZ6elZhdEtYcnlQRUNqSVZjQmhv?oc=5",
+      "source": "Bermuda Re",
+      "feed": "Google News: Fortitude Re",
+      "date": "2026-10-02T10:41:32Z",
+      "summary": "",
+      "companies": [
+        "Fortitude Re"
+      ]
+    },
     {
       "id": "64bdca379950",
       "title": "Reinsurance Group of America, Incorporated (RGA) latest stock news and headlines",
@@ -200,7 +248,7 @@
       "id": "294d3e80954e",
       "title": "Global Atlantic Names Dan Farrelly Head of IMO and IBD Channels",
       "link": "https://news.google.com/rss/articles/CBMivAFBVV95cUxQc0hOeFFFOHlVYTk4T0UydktyRTFBRU5meXNIUVd2NFNtUmkyUWs3NWtESG8yMTJUaFQ3TFdtYnI2cFVNSzdxb2pWMVkwV1JBSGliNmYxNUpTR1FhSFd5WXVGSG9XWEt3ajJiMGFYeEhKSGpFZzNMbmtydVNqN25qMmRnaTJxQmY2Smx5UWZUM2FVRkZwVUkya2NNQ2xVRldWQzIxZ3N0aHVFaHBHaHUtRkNoOU5UOTUwSE5pVg?oc=5",
-      "source": "businesswire.com",
+      "source": "Business Wire",
       "feed": "Google News: Global Atlantic",
       "date": "2026-09-29T11:00:00Z",
       "summary": "",
@@ -272,7 +320,7 @@
       "id": "7bd7169ce084",
       "title": "Morgan Stanley Upgrades Reinsurance Group of America(RGA.US) to Buy Rating, Raises Target Price to $295",
       "link": "https://news.google.com/rss/articles/CBMirgFBVV95cUxObWdPdmlqWGtWQ0ZRQTVENk9pWFBIZU1JWWR5SmotS3hockt6V3M3aHdmU251WS1JdHcyMHZiQ0JOb2NGMUwxS1J0V1RUdTlZcFVab21VTUtXcENnR0p6MkxlZUxQTVFOUWVVcVBGOUxJM0NwQWtYVW5ZODFVRjhHRG5sVlZOT0JrZUdfWVBETW5mV2tvR1E0ME5YdzRzdTZnd2RSbURnZ0puV09EMWc?oc=5",
-      "source": "moomoo.com",
+      "source": "Moomoo",
       "feed": "Google News: RGA",
       "date": "2026-09-28T15:31:00Z",
       "summary": "",
@@ -368,7 +416,7 @@
       "id": "3cfe6135446b",
       "title": "Fortitude Re Acquires Dayforward to Broaden Capabilities",
       "link": "https://news.google.com/rss/articles/CBMiswFBVV95cUxQWFlMQ1lrdkVJbGUzV2l5a1R0MFdXUnpWSFpiWmhRQlFPM0NvcVRveW1kZTFLb0xYWWRtM0pyRDczZk45TUFBLWg4U2pyem5wVk1pS3FOTWZxeHhJVjMzRmVnUWZxLWN1OWhWdTROSmhzYmUwQ0FodHhkejlyNGhCalZsd1BiNFk1THhtSHBOd3plNmJ5cTNac1pvajVOakxNUWhMMFNyRXhZUEwyZGYtNnVtaw?oc=5",
-      "source": "businesswire.com",
+      "source": "Business Wire",
       "feed": "Google News: Fortitude Re",
       "date": "2026-09-28T12:00:00Z",
       "summary": "",
@@ -427,25 +475,13 @@
     {
       "id": "1afa5ded1043",
       "title": "Reinsurance Group of America, I (RGA) Stock Forecasts",
-      "link": "https://news.google.com/rss/articles/CBMijwFBVV95cUxPODJJY1lNYzNMdXdFOHU3dWRWUElzaDJSSF81cUlBQTJnVGhaWnM1RzQ1ZnF6eW9fODdNN0pOdlUxSGtkRFIyaDdxMDBkQUloTUMyaG1hdUhfNFl2M3VIbmROTHFKTzROaXRoako4bDU2VEs5MDZPZWExbXpvYUJEd2g2eTQteUtnOENic2xDVQ?oc=5",
-      "source": "Yahoo Finance",
+      "link": "https://news.google.com/rss/articles/CBMikwFBVV95cUxNY3JTMUZhelhjVHZTalJLMVBGWTAzeHpZTXEyVWl1c1Azd0JsbVdacklxSUFYQTBPbUZoQkFOZ1QzTWIzS1M4WEFFaS1SMGRMSG9sOHFOYUdBaFhNTU1MN0FQSk5VN3Vjbnpwci1LVUlPTWtLWkxvN081WnVyM0w3WERQNVB0LXpSelpNV1RYOGpDakU?oc=5",
+      "source": "Yahoo! Finance Canada",
       "feed": "Google News: RGA",
-      "date": "2026-09-24T00:04:02Z",
+      "date": "2026-09-23T23:29:37Z",
       "summary": "",
       "companies": [
         "RGA"
-      ]
-    },
-    {
-      "id": "cf58e7d43753",
-      "title": "Sagicor Financial Stock Slips as Debt Refinancing, Earnings Sensitivity and Market Volatility Pressure Sentiment",
-      "link": "https://news.google.com/rss/articles/CBMi3gFBVV95cUxPampXbEtkSGp6enBWN3hWRTZ1YzhVTUo4RjV0V1ZWZTg3VDB3VVVrMFR2ajNwbDZmQ1dBVXY1T3cwQi1xU0F4UEg3djdENlZiRFNUamtYeDBoM00zck5ISHJnT0otaEhFVGE3cFJvN0NIcjZfMnc3N1prNDBrR1hHUlZfdGNpNklyS0hSbUNPODloMG5UQndaVHlJYmdKQzY3d2pXVEtoS1JPdUlmRzdMTUFVV284TFh6c3dVbzVKblhJX3N4MDBYc1ZjYnU4YWxQQXNNSDA4dUFYSDJRa3c?oc=5",
-      "source": "kalkine.ca",
-      "feed": "Google News: Sagicor",
-      "date": "2026-09-23T18:13:00Z",
-      "summary": "",
-      "companies": [
-        "Sagicor"
       ]
     },
     {
@@ -461,10 +497,22 @@
       ]
     },
     {
+      "id": "cf58e7d43753",
+      "title": "Sagicor Financial Stock Slips as Debt Refinancing, Earnings Sensitivity and Market Volatility Pressure Sentiment",
+      "link": "https://news.google.com/rss/articles/CBMi3gFBVV95cUxPampXbEtkSGp6enBWN3hWRTZ1YzhVTUo4RjV0V1ZWZTg3VDB3VVVrMFR2ajNwbDZmQ1dBVXY1T3cwQi1xU0F4UEg3djdENlZiRFNUamtYeDBoM00zck5ISHJnT0otaEhFVGE3cFJvN0NIcjZfMnc3N1prNDBrR1hHUlZfdGNpNklyS0hSbUNPODloMG5UQndaVHlJYmdKQzY3d2pXVEtoS1JPdUlmRzdMTUFVV284TFh6c3dVbzVKblhJX3N4MDBYc1ZjYnU4YWxQQXNNSDA4dUFYSDJRa3c?oc=5",
+      "source": "kalkine.ca",
+      "feed": "Google News: Sagicor",
+      "date": "2026-09-23T07:00:00Z",
+      "summary": "",
+      "companies": [
+        "Sagicor"
+      ]
+    },
+    {
       "id": "421eac435a55",
       "title": "KKR/Global Atlantic: Reinsurance Business Draws Mutuals, Traditional Life Insurers into Private Equity\u2019s \u2018Insurance as Asset Class\u2019 Model",
       "link": "https://news.google.com/rss/articles/CBMi8wFBVV95cUxQeEROYTR3aEJLVzZCZW1Zc2xjZVdEOFdBSUMtYXFPajZocU9sY3hPaUwzeVBMR0dTbWMtQlpQcWZFTHBmeHRYOXdvU1B2Vm8ta1hKTmdzLXlWaTdRVTZ1U0hGb0ZmbWJobWxZeW1jTmtDWE8zdnBlWEJ0NzNCbDBBd2JyeWpmQzJaUWdaeWp2VVZUZmRRRURJS3FETnkxM1Y0dTFvRDhJMTNvTkZWU0x5X3RFbmdZelhuT1NtWDNBTk04a1JoMTZVd3EwSGpHY01KNDZOcUhDajZkT3dnX2JBRHBocmQweFB6RFQxTXdOLVJtV2M?oc=5",
-      "source": "The Capitol Forum",
+      "source": "thecapitolforum.com",
       "feed": "Google News: Global Atlantic",
       "date": "2026-09-23T07:00:00Z",
       "summary": "",

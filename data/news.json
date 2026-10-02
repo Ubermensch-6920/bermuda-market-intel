@@ -1,5 +1,5 @@
 {
-  "updated": "2026-10-02T09:50:09Z",
+  "updated": "2026-10-02T17:55:31Z",
   "topics": [
     "Insurance AM",
     "Private Credit",
@@ -60,7 +60,7 @@
     {
       "id": "aadafc138da2",
       "title": "Opinion | Trump threw a fit about the interest rates he caused. He\u2019s still right.",
-      "source": "washingtonpost.com",
+      "source": "The Washington Post",
       "date": "2026-09-30T17:15:00Z",
       "topic": "Rates & Macro",
       "summary": "",
@@ -150,7 +150,7 @@
     {
       "id": "c7f0f8be1345",
       "title": "ILS NYC 2027 - Insurance linked securities conference in New York from Artemis",
-      "source": "artemis.bm",
+      "source": "Artemis.bm",
       "date": "2026-09-28T22:44:31Z",
       "topic": "Insurance AM",
       "summary": "",
@@ -160,7 +160,7 @@
     {
       "id": "68059848f9b2",
       "title": "New York Life Investment Management to Acquire Majority Ownership Stake in Invictus Capital Partners",
-      "source": "businesswire.com",
+      "source": "Business Wire",
       "date": "2026-09-28T21:05:31Z",
       "topic": "Insurance AM",
       "summary": "",
@@ -188,9 +188,19 @@
       "isNew": false
     },
     {
+      "id": "4b2ea142ed40",
+      "title": "Opinion | There\u2019s a New Threat to Your Personal Finances",
+      "source": "The New York Times",
+      "date": "2026-09-28T09:04:04Z",
+      "topic": "Rates & Macro",
+      "summary": "",
+      "link": "https://news.google.com/rss/articles/CBMieEFVX3lxTE5iRERWSFRsbkRRTVJJM3A3UHh4blRnb0VqSW84ZTRHOENiVUgzdmt0aE52RzN6bzZBTDBKdzdIYXVrbG5sT1hRX2dRV291anpUajRSYmFxbnppLXNPNEIySUtiWEhJTlFOZEprN3FsMlVnSlkyblJ5aQ?oc=5",
+      "isNew": false
+    },
+    {
       "id": "f49712bb0c0c",
       "title": "Barings CEO Michael Freno: \"The private credit opportunity extends well beyond direct lending\"",
-      "source": "Investment & Pensions Europe",
+      "source": "ipe.com",
       "date": "2026-09-28T07:00:00Z",
       "topic": "Private Credit",
       "summary": "",
@@ -238,6 +248,16 @@
       "isNew": false
     },
     {
+      "id": "611b488b21da",
+      "title": "Week Ahead for FX, Bonds: U.S. Jobs Data in Focus as Another Fed Rate Hike Looks Possible",
+      "source": "WSJ",
+      "date": "2026-09-25T15:46:00Z",
+      "topic": "Rates & Macro",
+      "summary": "",
+      "link": "https://news.google.com/rss/articles/CBMiwAFBVV95cUxQVmJuaDFNY3BwcS1HQmg4VjIzX3hBU0JMS3FCeDM2YnVlTm9CcGR1eE1yYzlKd1BKcVJoX2tyNTZLYmFEblhZMmZia3JoYWxmRFY5WmZfdXlvbW04cVFudlFJa0dHdTN3RFY3ZEU5SnVoMHZ0dDc5ZEd5aVlJSDBCOEFJd2RPYjlTU3p1N2NoVndLWU5pcXpQX25nQzhfdmd2ejBpYXVwS3VkVlJrdXBtZEV6SzFpS2tIVEJaUVZaWjQ?oc=5",
+      "isNew": false
+    },
+    {
       "id": "6e2b5445ad0d",
       "title": "PIC and USS target more infra debt, eye digital space",
       "source": "Infrastructure Investor",
@@ -258,6 +278,16 @@
       "isNew": false
     },
     {
+      "id": "c10277ef889b",
+      "title": "Abacus Global Management Closes $400 Million Life Insurance Securitization",
+      "source": "citybiz",
+      "date": "2026-09-25T12:42:04Z",
+      "topic": "Insurance AM",
+      "summary": "",
+      "link": "https://news.google.com/rss/articles/CBMitAFBVV95cUxNdWJ6Q1YxdDM2SG14VnNGT196RFNrLXBnLU5USk9wY1lpX0M3bWIyTzgyYkp6ZDdBM1F4RUFpeEhHTXA4Zkg1NlBUa2plRU9VbTZ5b1BnTzQ2WEluaUJNSDZ6VHJleFBvWTUtbDBtMzcxVEtVcGo5WUVMUmlYcUdicHUzTHdfcXl5cGVZVHlIU2ZxZ1pRSVNPNXgwWDJ1cjFReXZId1lXLWhTV1dFRWJ1dDAxb0c?oc=5",
+      "isNew": false
+    },
+    {
       "id": "50e86e724bb5",
       "title": "US insurance regulators defend oversight of insurers\u2019 growing private credit ties",
       "source": "Alternative Credit Investor",
@@ -275,36 +305,6 @@
       "topic": "Private Credit",
       "summary": "",
       "link": "https://news.google.com/rss/articles/CBMiygFBVV95cUxOYkYwb2V3Q3k1WGQyX0tLU291V1FELWM2UG5ZLTRuMFlGQ2FzT09RSnllMkxvb1dodnNmOGV5cHlrNll5eGxHMUdibkFOMjR5WTJwRFZhZ19xZE5SbHY2RHZrb2huX3FjX0R4VE1nODExQ3FFc0hya3BXbVVFM3plaENPWEo0dWlLQjVFTTQ3Z1NoMWRTNC1ZRndxWUZ1cjZTWGVvcnpLY0hWRGZ2aVZiVlBvS2otdDljZkpRX1lTcXo0ejFncGppMXhn?oc=5",
-      "isNew": false
-    },
-    {
-      "id": "b0c2fcedf6de",
-      "title": "From lender to advisor: Amy McIver on fund finance's next chapter",
-      "source": "Structured Credit Investor",
-      "date": "2026-09-25T09:02:00Z",
-      "topic": "Private Credit",
-      "summary": "",
-      "link": "https://news.google.com/rss/articles/CBMi5AFBVV95cUxNT0VYcFlWamFkU250aThIbU04Nk9TTDBOWUNqV0xUVFJuOTZJSWs5NFZSZG9Ea3JiQUM0emtPSDFleEpJbk12R1c3cGpCeWh5aC1ZWmthUVEwNGdqek9PMEdWX2FlUUZSeWJ6UnZjaW9pWk5vSHlqRXdOTGdoSjUxaEh6bHZVN00yT3dwRTdtb0dNanZFZ1M3SS00UUJkMUdHZzFXRzMzYklwZWxfc3pCLVMwVm1vOGVtY202SjJDRFpmaXVGOWUxcHItaDJKaXBOSzNXZXVLMWl5bGlXOUhlQUE5Vzc?oc=5",
-      "isNew": false
-    },
-    {
-      "id": "d23843a4508a",
-      "title": "Why bond yields are rising and why everyone should care",
-      "source": "ABC News - Breaking News, Latest News and Videos",
-      "date": "2026-09-24T21:01:48Z",
-      "topic": "Rates & Macro",
-      "summary": "",
-      "link": "https://news.google.com/rss/articles/CBMifEFVX3lxTFA5WDlvXzdlLXBPNm1qcnBaeXRFaGFUVldPWE5ORkpUaXRVM2hCRWN4RUpMRUpjYm5IRm5OQ3BIWk42cXJSNmM0MEpKLVd2aWNyUmp0b3dQeHFXOUZlbW9tbjBHUlV1Nkswdmh6M1RCSjA3WXBPdm56TEpFdl_SAYIBQVVfeXFMT25wQ0VBdDdyVkxhSXBoeWpPeXNlLVpKVjBmQUppdmxHeFpTd0ZEX0h6bXl0cWV5OElHU3IzeXpQdmcxX1NyRUZvQWZkeWdQZlA3cVROMjVyVTc0b0E4LWp0cHZnOVRYZnd2UGRZWWVEMVJUT2dSS1FKWTFndmZ0TWJnZw?oc=5",
-      "isNew": false
-    },
-    {
-      "id": "c4b7f13a254e",
-      "title": "Why the bond market is freaking out, and what it means for your money",
-      "source": "CBS News",
-      "date": "2026-09-24T19:08:00Z",
-      "topic": "Rates & Macro",
-      "summary": "",
-      "link": "https://news.google.com/rss/articles/CBMie0FVX3lxTE9TdmlpTmlrZWppS2ZjMHJSMll0aXF5Q2tYc1FRcmdrbldENHRiTW9RVE5QWVZJOEtRTTEzMmFfdjIxMnpGd1FCTmxyUnF6dUZDY2ZDTUpTc3N4cWlZRWo4RmFuVUdKbWRTYkg3blRvbjdrOVJwTXpkUkFaSQ?oc=5",
       "isNew": false
     }
   ]
