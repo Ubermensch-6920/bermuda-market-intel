@@ -1,5 +1,5 @@
 {
-  "updated": "2026-10-01T18:28:28Z",
+  "updated": "2026-10-02T00:50:54Z",
   "topics": [
     "Insurance AM",
     "Private Credit",
@@ -11,7 +11,7 @@
       "id": "a7549777ec32",
       "title": "U.S. Bond Yields Hit Highest Level Since 2002",
       "source": "The New York Times",
-      "date": "2026-10-01T13:12:29Z",
+      "date": "2026-10-01T20:23:38Z",
       "topic": "Rates & Macro",
       "summary": "",
       "link": "https://news.google.com/rss/articles/CBMigwFBVV95cUxNQnJCNkJ1amNqVkhnUnRoYy1TN0t0ZkxmSFlqSVY5aXQzVUpCanhTamN2eDBDNjhmeTNnSUw2V2xDODV4UWJZTE5YcE5WZWFuaGJBX3U0NjV3ZWluZVVXRVdCLWdtV3gwSF9jRzVpNEpoSU9NeVdTNVpqeFVtT3RUVXh4Yw?oc=5",
@@ -60,7 +60,7 @@
     {
       "id": "aadafc138da2",
       "title": "Opinion | Trump threw a fit about the interest rates he caused. He\u2019s still right.",
-      "source": "The Washington Post",
+      "source": "washingtonpost.com",
       "date": "2026-09-30T17:15:00Z",
       "topic": "Rates & Macro",
       "summary": "",
@@ -85,6 +85,16 @@
       "topic": "Private Credit",
       "summary": "",
       "link": "https://news.google.com/rss/articles/CBMisgFBVV95cUxOSFJJcVBtWEtJcEdLTS1IRnNHakdQN0s3SDhBTDVxbGRZYXZOaEg2R25UcmdGdlhleWZZVXFSdHNlYkdTbVhzT0tidFlpVC1CQkZwbzN4M01teWJrV19hanR5bThtME51VHNpeXRRVzM3blhoRjNHYmotajdrMkFndjhvam9ZcWVWd0pZNFNpV2dxSVJPZnVzcDl1SW9oNG1EcVkzWUZjTzNqZmhPT3F4MzVR?oc=5",
+      "isNew": false
+    },
+    {
+      "id": "aa3c581787f2",
+      "title": "Battered bond market braces for a new era of interest rates",
+      "source": "Reuters",
+      "date": "2026-09-30T00:47:37Z",
+      "topic": "Rates & Macro",
+      "summary": "",
+      "link": "https://news.google.com/rss/articles/CBMipgFBVV95cUxQUFJEcnNjUGNwM1N4MlNkdG1pZ0VwVmt4cWhUZ2t0UkN4aHlRNzVyR3hCd2dUMG1FRWszT05VOUN4MUhDSGhXQUhIamhNWWJJNUpGXzZWcFc2Mk5Hcl9yNXBaaWVDVDlZQWg0d2xIRGl0RFhqWjJlR1ZORGlrNXRmdGZxSF9URFQ3Zzc5d2dER1g4U3hvZDZXMHNKVlhFaGRBRmRKRVJR?oc=5",
       "isNew": false
     },
     {
@@ -125,16 +135,6 @@
       "topic": "Insurance AM",
       "summary": "",
       "link": "https://news.google.com/rss/articles/CBMixwFBVV95cUxPSkFZcnNCSWR5dFkyQy1uZ0UwckQzR1FEN2dNeXlCclpwM01ZSVZUeGdxWW90RzNiTUR4WnlqSzBzaUJtNTNqM3phWnRfbF93UFNFRXFNekRxVmFUdnotVllGaU9uS2t2cURvTFd2WHlUbWlWOVMtcWJYNDM4VVNOVlNnWU1zVFdtWk5wTVBvWFVlcTVtOUZVOVRIQ1MzemNSM1hmaVZNOElZaDY2ZllfZ1F0YmNlMkFfVkY0eHIyeV9UYW1ndW8w?oc=5",
-      "isNew": false
-    },
-    {
-      "id": "aa3c581787f2",
-      "title": "Battered bond market braces for a new era of interest rates",
-      "source": "Reuters",
-      "date": "2026-09-29T04:47:00Z",
-      "topic": "Rates & Macro",
-      "summary": "",
-      "link": "https://news.google.com/rss/articles/CBMipgFBVV95cUxQUFJEcnNjUGNwM1N4MlNkdG1pZ0VwVmt4cWhUZ2t0UkN4aHlRNzVyR3hCd2dUMG1FRWszT05VOUN4MUhDSGhXQUhIamhNWWJJNUpGXzZWcFc2Mk5Hcl9yNXBaaWVDVDlZQWg0d2xIRGl0RFhqWjJlR1ZORGlrNXRmdGZxSF9URFQ3Zzc5d2dER1g4U3hvZDZXMHNKVlhFaGRBRmRKRVJR?oc=5",
       "isNew": false
     },
     {
