@@ -1,5 +1,5 @@
 {
-  "updated": "2026-10-02T17:55:35Z",
+  "updated": "2026-10-02T22:17:55Z",
   "lookback_days": 14,
   "feeds": [
     {
@@ -29,13 +29,13 @@
     {
       "name": "Google News: Fortitude Re",
       "ok": true,
-      "count": 7,
+      "count": 8,
       "error": null
     },
     {
       "name": "Google News: Global Atlantic",
       "ok": true,
-      "count": 9,
+      "count": 8,
       "error": null
     },
     {
@@ -65,7 +65,7 @@
     {
       "name": "Google News: RGA",
       "ok": true,
-      "count": 17,
+      "count": 19,
       "error": null
     },
     {
@@ -83,7 +83,7 @@
     {
       "name": "Google News: Somerset Re",
       "ok": true,
-      "count": 0,
+      "count": 1,
       "error": null
     },
     {
@@ -101,7 +101,7 @@
     {
       "name": "Google News: Wilton Re",
       "ok": true,
-      "count": 4,
+      "count": 3,
       "error": null
     },
     {
@@ -112,6 +112,30 @@
     }
   ],
   "items": [
+    {
+      "id": "79f7286605e7",
+      "title": "Reinsurance Group of America (RGA) Stock Looks Close to Fair Value",
+      "link": "https://news.google.com/rss/articles/CBMi3gFBVV95cUxPcTNWWTFKME5FZEVHckpKZWplWERVUVdoa0V4cmpFXzVmWXl3Z09UYVZ4YUxIZVdEcWlFXy11cXJ0VXJIbms3b1hiYTZ1ekh3bGR1YnAxcnZ3ZzJXUmFPd0g2Tmltb0xoMWdDMTc4QU0wNXdyZVVxcEJMQ3dkM2tnLUZoUk8ybDVRbHBBTkJmbEhmY1JUR3dvOG9Tc3o5QkpBeWpVMnc1b1hBMHZoRGFXYTR6ZlhfcWY1NTgxR2hENDNzN0ZYaFRObkJCZXlZWm1tOWczWk90N1RlSlJzb3fSAeMBQVVfeXFMTlBxakpkVHZwWUp2REFaMTFyX0FtOElrZXFMYXoxMEdqSmozaGM0c2MxSlMtem45a3JSd20ycWNHdTBzQUo5VVg0aF9QbWpLeEFCblVHVGt6RERWY3Q4X1NKdDZZa1ZNNjNMclNqbnE3dHVlRHhoQmxraXJLdzZlNDlwSktIUW1xaExnT3JFT2dfejFfRWxmelF6RjM0ZHZhRXpBaENtRlBFaXB2ejduNnIyR21rN2tJbWtiUXBVTUVkaWxfZGdJUmxyU3kwQlp2VENpUmwwMEpiSEtKLXhmbmJQZEE?oc=5",
+      "source": "Simply Wall Street",
+      "feed": "Google News: RGA",
+      "date": "2026-10-02T19:36:50Z",
+      "summary": "",
+      "companies": [
+        "RGA"
+      ]
+    },
+    {
+      "id": "8cd9b2f87f8a",
+      "title": "Talcott closes $6.3bn Lincoln Financial deal",
+      "link": "https://news.google.com/rss/articles/CBMisAFBVV95cUxNVTJKR2ZYLWdrZElGM2xoMmswUk5CWmhHSmk4WklCaVZwQ1ZQNGxwWWJIc0xlMkpqMVBIYUtvNWhiRk85M1REMU1PdU9tY2JHZF9NWkRRd0lBUTJ0MGJYaEpaX0dJaVU1eHdCY19BUGY5bzI1dG1IZDg0RU14ZHFqV3FZSUl3NjZZWl8zVkNBWW5KY3FqaGVJRFNYUUVMVGN6cFZVVDlMZzdnaGxpQlZSaQ?oc=5",
+      "source": "royalgazette.com",
+      "feed": "Google News: Somerset Re",
+      "date": "2026-10-02T19:05:23Z",
+      "summary": "",
+      "companies": [
+        "Talcott"
+      ]
+    },
     {
       "id": "ddfba5477534",
       "title": "Will Reinsurance Group (RGA) Beat Estimates Again in Its Next Earnings Report?",
@@ -125,6 +149,18 @@
       ]
     },
     {
+      "id": "1bf7d91dd1ba",
+      "title": "Fortitude Re parent acquires Dayforward annuity insurtech platform",
+      "link": "https://news.google.com/rss/articles/CBMiggFBVV95cUxQcjZVeElENk94UGE3RlhnbC11N1ZqUVAzZy1objVFZWpqdlo3WndnVWd0bkY3Z3dBdGxkNVFnUml2T3E4OXdhMTU3R3c0T3kyNWpDUmRrb3RHOHNQNURqb0lLT09XQS1EUkVUcTFISlNvdzc3NzZJU3pZQjNiMVFQZW9B?oc=5",
+      "source": "Beinsure",
+      "feed": "Google News: Fortitude Re",
+      "date": "2026-10-02T13:26:23Z",
+      "summary": "",
+      "companies": [
+        "Fortitude Re"
+      ]
+    },
+    {
       "id": "f40e420fb639",
       "title": "Fortitude Re parent acquires insurtech Dayforward annuity technology platform",
       "link": "https://news.google.com/rss/articles/CBMiggFBVV95cUxQcjZVeElENk94UGE3RlhnbC11N1ZqUVAzZy1objVFZWpqdlo3WndnVWd0bkY3Z3dBdGxkNVFnUml2T3E4OXdhMTU3R3c0T3kyNWpDUmRrb3RHOHNQNURqb0lLT09XQS1EUkVUcTFISlNvdzc3NzZJU3pZQjNiMVFQZW9B?oc=5",
@@ -134,6 +170,18 @@
       "summary": "",
       "companies": [
         "Fortitude Re"
+      ]
+    },
+    {
+      "id": "93badd9f437b",
+      "title": "Lincoln National Reports Closing of $6.3 Billion Reinsurance Transaction With Talcott",
+      "link": "https://news.google.com/rss/articles/CBMitgFBVV95cUxPZDJLelk5RVNTWjUxRXY2MjRUNTdsZ3FYMXdRT1V4aEIyZDIycWRuOW5vUjU5QTljTG4yak9wXzhURzJlS05OWnhNWDBkM3RPQU95UzQxQmtTSF92T29ZeC1XZ3ZTRWJDRW1rbHpJTU9KRVY3eV9zM2VQaWVnVVcwTGFhaktvcThBN2FaQ1lqeTl5Yld0c3dtX1FoeE5YZU9ZdnIwMVBfZW9pcUtJRERDM3RMZ1pnZw?oc=5",
+      "source": "moomoo.com",
+      "feed": "Google News: Talcott",
+      "date": "2026-10-02T11:04:03Z",
+      "summary": "",
+      "companies": [
+        "Talcott"
       ]
     },
     {
@@ -166,22 +214,10 @@
       "link": "https://news.google.com/rss/articles/CBMiV0FVX3lxTE5CdHFXVjBaOUtpRG1uM296dngxVElqR0x6cFZ2NjVySDAyaUZSQkpGdmRxWkk2U3VNR3lFQUxxeTdvbmxWQ3lybXM4cmVvN3VIcGJHS3pWNA?oc=5",
       "source": "Yahoo Finance Australia",
       "feed": "Google News: RGA",
-      "date": "2026-10-02T07:24:56Z",
+      "date": "2026-10-01T21:30:53Z",
       "summary": "",
       "companies": [
         "RGA"
-      ]
-    },
-    {
-      "id": "93badd9f437b",
-      "title": "Lincoln National Reports Closing of $6.3 Billion Reinsurance Transaction With Talcott",
-      "link": "https://news.google.com/rss/articles/CBMioAFBVV95cUxNOXZEa3g5UWxMbWdsU1JHdklJbl9obXJoRk56QkNXbHZNaXdIZmhhcExMSW5velk1UjRvMTl6RGlMTnZsUGdtTnBuRVdvX2ZTM0g5TEhSbHp5YTFWeWxDS0ZwdTBESk5GNXNfUndhYnEyZWdoLW1yTHd4WE16MWEycUdFN18tZ1FrSTdaNVFBb1VNeXVZdVhYaWVtUEN6cllH?oc=5",
-      "source": "Yahoo Finance",
-      "feed": "Google News: Talcott",
-      "date": "2026-10-01T21:09:38Z",
-      "summary": "",
-      "companies": [
-        "Talcott"
       ]
     },
     {
@@ -320,7 +356,7 @@
       "id": "7bd7169ce084",
       "title": "Morgan Stanley Upgrades Reinsurance Group of America(RGA.US) to Buy Rating, Raises Target Price to $295",
       "link": "https://news.google.com/rss/articles/CBMirgFBVV95cUxObWdPdmlqWGtWQ0ZRQTVENk9pWFBIZU1JWWR5SmotS3hockt6V3M3aHdmU251WS1JdHcyMHZiQ0JOb2NGMUwxS1J0V1RUdTlZcFVab21VTUtXcENnR0p6MkxlZUxQTVFOUWVVcVBGOUxJM0NwQWtYVW5ZODFVRjhHRG5sVlZOT0JrZUdfWVBETW5mV2tvR1E0ME5YdzRzdTZnd2RSbURnZ0puV09EMWc?oc=5",
-      "source": "Moomoo",
+      "source": "moomoo.com",
       "feed": "Google News: RGA",
       "date": "2026-09-28T15:31:00Z",
       "summary": "",
@@ -344,7 +380,7 @@
       "id": "16b4627e7b60",
       "title": "Fortitude Re acquires insurtech Dayforward",
       "link": "https://news.google.com/rss/articles/CBMirwFBVV95cUxOMF83bmU2Z280OXdIcDY0a0c1eERxTmU5S3dwd1JaUU9lTk9kV002bng2NzFPUnpDOGozNTBQVHpXOUpIUkZpN3B3S3R4YXE3dzJuNXVpZ3U1bDVWSVA3UklDOXNjWnNjaTVaQWtjRld6cm5jQXcwdUlJUlRXQmFKMWZSQmh5eE9RcjNZOHhCMzlOcjZSQnIxVzczQkstWDY0WTVlM0JWQWpHWmZZbmh3?oc=5",
-      "source": "Royal Gazette | Bermuda",
+      "source": "royalgazette.com",
       "feed": "Google News: Fortitude Re",
       "date": "2026-09-28T15:12:44Z",
       "summary": "",
@@ -356,7 +392,7 @@
       "id": "16c882df8b54",
       "title": "Five students awarded full scholarships from Athene",
       "link": "https://news.google.com/rss/articles/CBMiuwFBVV95cUxPYVdkclEwZHItSTVwb2VXVjNwQzZ1R2xWSlZXSWYtWTg5RWFJNnZIWTZoWmVQOU0yOERJNEU3SlVJTEJKMzVlNnJhV3VpV0lNczJ5Ylp2SmNDdElPdlZ0X29IZThDNWg2YkctYXhqdERfRHJfSzhON0VwOHlvel9iVDBSTTE4S1B2N24taXI3bjVxRkFSRFVnblk3OHBVOFNLQlVqN01Yckp3RzNPLXJBSldiZkVFMVRYVlRj?oc=5",
-      "source": "Royal Gazette | Bermuda",
+      "source": "royalgazette.com",
       "feed": "Google News: Athene",
       "date": "2026-09-28T15:05:18Z",
       "summary": "",
@@ -489,7 +525,7 @@
       "title": "West Grove Re appoints former RGA leader Anthony Young as CEO",
       "link": "https://news.google.com/rss/articles/CBMipwFBVV95cUxOVHktYXVlOHVTdVQ4SUZCUnN1TS1vcDlCRkJTOEc3RmdpRWxFd0FkLUZvc2VDTkpXaDFSUllMQ3ZSZWxCb0JWZlZXNUtVX1BmOG9IQUhhT0Y5eFJiNEFSV0ZUREgxMUNmaFI5bmJRbXQzVWt3MExUTEJRU0FESl9HTDZXQ1REVEx1RlZ3Q1FQc0d2ZnFadzk1aEg2YUZxUHN6VzBEaWhZSQ?oc=5",
       "source": "Bermuda Re",
-      "feed": "Google News: Talcott",
+      "feed": "Google News: RGA",
       "date": "2026-09-23T07:00:00Z",
       "summary": "",
       "companies": [

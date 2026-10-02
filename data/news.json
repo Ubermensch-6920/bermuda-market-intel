@@ -1,5 +1,5 @@
 {
-  "updated": "2026-10-02T17:55:31Z",
+  "updated": "2026-10-02T22:17:51Z",
   "topics": [
     "Insurance AM",
     "Private Credit",
@@ -18,6 +18,16 @@
       "isNew": false
     },
     {
+      "id": "a7549777ec32",
+      "title": "U.S. Bond Yields Hit Highest Level Since 2002",
+      "source": "The New York Times",
+      "date": "2026-10-01T20:23:38Z",
+      "topic": "Rates & Macro",
+      "summary": "",
+      "link": "https://news.google.com/rss/articles/CBMigwFBVV95cUxNQnJCNkJ1amNqVkhnUnRoYy1TN0t0ZkxmSFlqSVY5aXQzVUpCanhTamN2eDBDNjhmeTNnSUw2V2xDODV4UWJZTE5YcE5WZWFuaGJBX3U0NjV3ZWluZVVXRVdCLWdtV3gwSF9jRzVpNEpoSU9NeVdTNVpqeFVtT3RUVXh4Yw?oc=5",
+      "isNew": false
+    },
+    {
       "id": "7c50c13d4525",
       "title": "Delaware Life\u2019s Private-Credit Investments Reach 45% of Debt Portfolio",
       "source": "Program Business",
@@ -28,16 +38,6 @@
       "isNew": false
     },
     {
-      "id": "a7549777ec32",
-      "title": "U.S. Bond Yields Hit Highest Level Since 2002",
-      "source": "The New York Times",
-      "date": "2026-10-01T12:02:58Z",
-      "topic": "Rates & Macro",
-      "summary": "",
-      "link": "https://news.google.com/rss/articles/CBMigwFBVV95cUxNQnJCNkJ1amNqVkhnUnRoYy1TN0t0ZkxmSFlqSVY5aXQzVUpCanhTamN2eDBDNjhmeTNnSUw2V2xDODV4UWJZTE5YcE5WZWFuaGJBX3U0NjV3ZWluZVVXRVdCLWdtV3gwSF9jRzVpNEpoSU9NeVdTNVpqeFVtT3RUVXh4Yw?oc=5",
-      "isNew": false
-    },
-    {
       "id": "0fd5ca2355b1",
       "title": "After sharp rise in private credit, here's where it's now headed",
       "source": "thenationalnews.com",
@@ -45,6 +45,16 @@
       "topic": "Private Credit",
       "summary": "",
       "link": "https://news.google.com/rss/articles/CBMivwFBVV95cUxQaEF2eHpsRHhRU3A2Sm1Jc1loZ20tRWR2LVI1OHNJSDcyZjlpZXVJSDRYTjd4LUhwS3NUR25yNFhZVEp0aXAtQ0JBSWhoNHYyWDJ1eW56WmRHS2F5MENYeWdtSkVURGwyR3JxdVlIR19JUjlzNUctMGlHejZmZWN2U1lyQjFyN3d6dkMtZFpvaVpvN2M2Rks3N2wxbFRkYXRjV2JtNjBKSlFscmpXX3V0RncwWG5HZmxCcXVUaVVJNA?oc=5",
+      "isNew": false
+    },
+    {
+      "id": "e919491abe13",
+      "title": "Private credit and UK life insurers: structuring for matching adjustment",
+      "source": "Lexology",
+      "date": "2026-09-30T19:11:50Z",
+      "topic": "Private Credit",
+      "summary": "",
+      "link": "https://news.google.com/rss/articles/CBMiiwFBVV95cUxNVFlrU2pNemlXcXh3RGx1bkltTG1Jb1Y0ZWUtOHZfcjV5aGM3VTBCYVU2MUI1ZkFoY1BGeXRMNE53SFZDQWgwOU5DMjlnNTJ3d0syZmFzSVZfclI3ZnhiLWFVbThXMnlaeWZnTjVhYUNLSFJONmVVRVZxSzlZVnd4U2gzRExYTXpxOVRr?oc=5",
       "isNew": false
     },
     {
@@ -65,16 +75,6 @@
       "topic": "Rates & Macro",
       "summary": "",
       "link": "https://news.google.com/rss/articles/CBMikgFBVV95cUxPSllCcHF4a3U3T1NZZm5wN2cwQTVKcXFhWmo5Y3JnSkNKSGhMeGxtOHloZkEyRXpSaTR5cF9MRFBVQWdtMzcwLVoyTnQ0YmVNUGpvcllheEtJNVFtdWlYVXdLNmx5emlYaVRpZkhqT1VvdmFFTXFSQi1RQl9kQVhjX3lJcjlOX0hmemMzRTNXbUpYdw?oc=5",
-      "isNew": false
-    },
-    {
-      "id": "e919491abe13",
-      "title": "Private credit and UK life insurers: structuring for matching adjustment",
-      "source": "Macfarlanes",
-      "date": "2026-09-30T11:44:09Z",
-      "topic": "Private Credit",
-      "summary": "",
-      "link": "https://news.google.com/rss/articles/CBMitwFBVV95cUxOZ3RIakhYZXRsR0JySGdPMG4wWUxwMkdXY2Y0MW5xZDFMVDRHSDBBZzVtLVpNOXk4WTFHejdnam16QUl6Ym5MUm9QX3BTc1B2eDBWaHB5M0RLaEtrS2dRUG9PSzNOSG5HWngta2RHOG1JWU1Ubl9EbUVJOGlxRGV5Y2pUaGQ1QnVXTjAtQWpsX0lYYmxSWFJNSUtiNFJjdnpBS2NVd1hEMm9udXd0MmY5cDloTjlvWnM?oc=5",
       "isNew": false
     },
     {
@@ -200,7 +200,7 @@
     {
       "id": "f49712bb0c0c",
       "title": "Barings CEO Michael Freno: \"The private credit opportunity extends well beyond direct lending\"",
-      "source": "ipe.com",
+      "source": "Investment & Pensions Europe",
       "date": "2026-09-28T07:00:00Z",
       "topic": "Private Credit",
       "summary": "",
@@ -230,7 +230,7 @@
     {
       "id": "f910afc7c4a8",
       "title": "Abacus Global Completes Over $400 Million Securitization Of Life Insurance Assets",
-      "source": "Pulse 2.0",
+      "source": "pulse2.com",
       "date": "2026-09-26T20:51:19Z",
       "topic": "Insurance AM",
       "summary": "",
@@ -278,16 +278,6 @@
       "isNew": false
     },
     {
-      "id": "c10277ef889b",
-      "title": "Abacus Global Management Closes $400 Million Life Insurance Securitization",
-      "source": "citybiz",
-      "date": "2026-09-25T12:42:04Z",
-      "topic": "Insurance AM",
-      "summary": "",
-      "link": "https://news.google.com/rss/articles/CBMitAFBVV95cUxNdWJ6Q1YxdDM2SG14VnNGT196RFNrLXBnLU5USk9wY1lpX0M3bWIyTzgyYkp6ZDdBM1F4RUFpeEhHTXA4Zkg1NlBUa2plRU9VbTZ5b1BnTzQ2WEluaUJNSDZ6VHJleFBvWTUtbDBtMzcxVEtVcGo5WUVMUmlYcUdicHUzTHdfcXl5cGVZVHlIU2ZxZ1pRSVNPNXgwWDJ1cjFReXZId1lXLWhTV1dFRWJ1dDAxb0c?oc=5",
-      "isNew": false
-    },
-    {
       "id": "50e86e724bb5",
       "title": "US insurance regulators defend oversight of insurers\u2019 growing private credit ties",
       "source": "Alternative Credit Investor",
@@ -305,6 +295,16 @@
       "topic": "Private Credit",
       "summary": "",
       "link": "https://news.google.com/rss/articles/CBMiygFBVV95cUxOYkYwb2V3Q3k1WGQyX0tLU291V1FELWM2UG5ZLTRuMFlGQ2FzT09RSnllMkxvb1dodnNmOGV5cHlrNll5eGxHMUdibkFOMjR5WTJwRFZhZ19xZE5SbHY2RHZrb2huX3FjX0R4VE1nODExQ3FFc0hya3BXbVVFM3plaENPWEo0dWlLQjVFTTQ3Z1NoMWRTNC1ZRndxWUZ1cjZTWGVvcnpLY0hWRGZ2aVZiVlBvS2otdDljZkpRX1lTcXo0ejFncGppMXhn?oc=5",
+      "isNew": false
+    },
+    {
+      "id": "2141551b1901",
+      "title": "Private credit steady as private equity rebounds",
+      "source": "Alternative Credit Investor",
+      "date": "2026-09-24T11:43:55Z",
+      "topic": "Private Credit",
+      "summary": "",
+      "link": "https://news.google.com/rss/articles/CBMinwFBVV95cUxNNmNVeU9ialBGa3E0NWZBVkZGRmRXOGx5ckgxQ00xLWJydHF2ak8tMUhFMWRoZ3I2M1VsT25BMTBjNHJQMmdMcjBWMVh3MW1nVmVtLWdaVUhHUk5sdk1Yek1rcHFiYUxFaUs2ckpxTG1FWUFJYlFLTE9YWTcwUU9HQmxhd1dETVcwZmJKWGNOVDRRRTRnX1ZLZ3ZpYnNGU28?oc=5",
       "isNew": false
     }
   ]
