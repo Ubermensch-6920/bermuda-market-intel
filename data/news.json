@@ -1,5 +1,5 @@
 {
-  "updated": "2026-10-02T00:50:54Z",
+  "updated": "2026-10-02T09:50:09Z",
   "topics": [
     "Insurance AM",
     "Private Credit",
@@ -8,13 +8,13 @@
   ],
   "items": [
     {
-      "id": "a7549777ec32",
-      "title": "U.S. Bond Yields Hit Highest Level Since 2002",
-      "source": "The New York Times",
-      "date": "2026-10-01T20:23:38Z",
+      "id": "f687e7281867",
+      "title": "Fed\u2019s Logan Wants More Hikes, But Says Bond Moves Could Help",
+      "source": "Bloomberg.com",
+      "date": "2026-10-02T00:38:00Z",
       "topic": "Rates & Macro",
       "summary": "",
-      "link": "https://news.google.com/rss/articles/CBMigwFBVV95cUxNQnJCNkJ1amNqVkhnUnRoYy1TN0t0ZkxmSFlqSVY5aXQzVUpCanhTamN2eDBDNjhmeTNnSUw2V2xDODV4UWJZTE5YcE5WZWFuaGJBX3U0NjV3ZWluZVVXRVdCLWdtV3gwSF9jRzVpNEpoSU9NeVdTNVpqeFVtT3RUVXh4Yw?oc=5",
+      "link": "https://news.google.com/rss/articles/CBMisAFBVV95cUxNYnlDY194NEJMQ28xWnRVNDJWcXZnMW1mdzhqazd0MU5sWWN2ZkpYMTAyTnRXM1R6VE1oTUFYUnNJNEM2TXdDemEzdEw4QXJhS0g2SzRJUmR5NFpJNGl4d0EwWXFidXBKNU1sYllZRDBEQ3lUS3VIS1NPRWZaWEV0U2J2c0tOT3dzOEx0aHQzZnZpUllRQ3pBWmkxcFBxNDFOdlM2WmNYVjNVT2daUERiYQ?oc=5",
       "isNew": false
     },
     {
@@ -28,6 +28,16 @@
       "isNew": false
     },
     {
+      "id": "a7549777ec32",
+      "title": "U.S. Bond Yields Hit Highest Level Since 2002",
+      "source": "The New York Times",
+      "date": "2026-10-01T12:02:58Z",
+      "topic": "Rates & Macro",
+      "summary": "",
+      "link": "https://news.google.com/rss/articles/CBMigwFBVV95cUxNQnJCNkJ1amNqVkhnUnRoYy1TN0t0ZkxmSFlqSVY5aXQzVUpCanhTamN2eDBDNjhmeTNnSUw2V2xDODV4UWJZTE5YcE5WZWFuaGJBX3U0NjV3ZWluZVVXRVdCLWdtV3gwSF9jRzVpNEpoSU9NeVdTNVpqeFVtT3RUVXh4Yw?oc=5",
+      "isNew": false
+    },
+    {
       "id": "0fd5ca2355b1",
       "title": "After sharp rise in private credit, here's where it's now headed",
       "source": "thenationalnews.com",
@@ -35,16 +45,6 @@
       "topic": "Private Credit",
       "summary": "",
       "link": "https://news.google.com/rss/articles/CBMivwFBVV95cUxQaEF2eHpsRHhRU3A2Sm1Jc1loZ20tRWR2LVI1OHNJSDcyZjlpZXVJSDRYTjd4LUhwS3NUR25yNFhZVEp0aXAtQ0JBSWhoNHYyWDJ1eW56WmRHS2F5MENYeWdtSkVURGwyR3JxdVlIR19JUjlzNUctMGlHejZmZWN2U1lyQjFyN3d6dkMtZFpvaVpvN2M2Rks3N2wxbFRkYXRjV2JtNjBKSlFscmpXX3V0RncwWG5HZmxCcXVUaVVJNA?oc=5",
-      "isNew": false
-    },
-    {
-      "id": "e919491abe13",
-      "title": "Private credit and UK life insurers: structuring for matching adjustment",
-      "source": "Lexology",
-      "date": "2026-09-30T19:11:50Z",
-      "topic": "Private Credit",
-      "summary": "",
-      "link": "https://news.google.com/rss/articles/CBMiiwFBVV95cUxNVFlrU2pNemlXcXh3RGx1bkltTG1Jb1Y0ZWUtOHZfcjV5aGM3VTBCYVU2MUI1ZkFoY1BGeXRMNE53SFZDQWgwOU5DMjlnNTJ3d0syZmFzSVZfclI3ZnhiLWFVbThXMnlaeWZnTjVhYUNLSFJONmVVRVZxSzlZVnd4U2gzRExYTXpxOVRr?oc=5",
       "isNew": false
     },
     {
@@ -68,6 +68,16 @@
       "isNew": false
     },
     {
+      "id": "e919491abe13",
+      "title": "Private credit and UK life insurers: structuring for matching adjustment",
+      "source": "Macfarlanes",
+      "date": "2026-09-30T11:44:09Z",
+      "topic": "Private Credit",
+      "summary": "",
+      "link": "https://news.google.com/rss/articles/CBMitwFBVV95cUxOZ3RIakhYZXRsR0JySGdPMG4wWUxwMkdXY2Y0MW5xZDFMVDRHSDBBZzVtLVpNOXk4WTFHejdnam16QUl6Ym5MUm9QX3BTc1B2eDBWaHB5M0RLaEtrS2dRUG9PSzNOSG5HWngta2RHOG1JWU1Ubl9EbUVJOGlxRGV5Y2pUaGQ1QnVXTjAtQWpsX0lYYmxSWFJNSUtiNFJjdnpBS2NVd1hEMm9udXd0MmY5cDloTjlvWnM?oc=5",
+      "isNew": false
+    },
+    {
       "id": "9359d8adda9a",
       "title": "Private credit and UK life insurers: structuring for matching adjustment",
       "source": "Macfarlanes",
@@ -75,16 +85,6 @@
       "topic": "Structured Credit",
       "summary": "",
       "link": "https://news.google.com/rss/articles/CBMitwFBVV95cUxOZ3RIakhYZXRsR0JySGdPMG4wWUxwMkdXY2Y0MW5xZDFMVDRHSDBBZzVtLVpNOXk4WTFHejdnam16QUl6Ym5MUm9QX3BTc1B2eDBWaHB5M0RLaEtrS2dRUG9PSzNOSG5HWngta2RHOG1JWU1Ubl9EbUVJOGlxRGV5Y2pUaGQ1QnVXTjAtQWpsX0lYYmxSWFJNSUtiNFJjdnpBS2NVd1hEMm9udXd0MmY5cDloTjlvWnM?oc=5",
-      "isNew": false
-    },
-    {
-      "id": "2ecf4f81febb",
-      "title": "See How Mark Walter Turned a Ho-Hum Insurance Company Into a Risk-Taking Lender",
-      "source": "WSJ",
-      "date": "2026-09-30T07:00:00Z",
-      "topic": "Private Credit",
-      "summary": "",
-      "link": "https://news.google.com/rss/articles/CBMisgFBVV95cUxOSFJJcVBtWEtJcEdLTS1IRnNHakdQN0s3SDhBTDVxbGRZYXZOaEg2R25UcmdGdlhleWZZVXFSdHNlYkdTbVhzT0tidFlpVC1CQkZwbzN4M01teWJrV19hanR5bThtME51VHNpeXRRVzM3blhoRjNHYmotajdrMkFndjhvam9ZcWVWd0pZNFNpV2dxSVJPZnVzcDl1SW9oNG1EcVkzWUZjTzNqZmhPT3F4MzVR?oc=5",
       "isNew": false
     },
     {
@@ -118,6 +118,16 @@
       "isNew": false
     },
     {
+      "id": "27e73124d198",
+      "title": "Treasury Yields Push To Fresh Highs",
+      "source": "WSJ",
+      "date": "2026-09-29T19:41:00Z",
+      "topic": "Rates & Macro",
+      "summary": "",
+      "link": "https://news.google.com/rss/articles/CBMipAFBVV95cUxPT05aOHdJS2k3TXNtTkY4MGUxRFFBZjV6bGNHM21EbjRCaHhSR0dYbjVqTmx2azdNVXRoRkh5b3RxbS1pVXNUYmJ0R25UWkxvTV8zUHhfSEQtMTdpUHZWTFVtZHJESDdqb0FkRWRoWDRTTWlPTm5mbmc3UWpzbVJpSDBOMmtDWmZGb1FfVkJjek1wVWdnVDhmXzB6MEhPdFJlMFVSRA?oc=5",
+      "isNew": false
+    },
+    {
       "id": "d16195c52dbe",
       "title": "Equities end slightly lower as bond yields hold near multi-decade highs",
       "source": "Tacoma News Tribune",
@@ -140,7 +150,7 @@
     {
       "id": "c7f0f8be1345",
       "title": "ILS NYC 2027 - Insurance linked securities conference in New York from Artemis",
-      "source": "Artemis.bm",
+      "source": "artemis.bm",
       "date": "2026-09-28T22:44:31Z",
       "topic": "Insurance AM",
       "summary": "",
@@ -150,7 +160,7 @@
     {
       "id": "68059848f9b2",
       "title": "New York Life Investment Management to Acquire Majority Ownership Stake in Invictus Capital Partners",
-      "source": "Business Wire",
+      "source": "businesswire.com",
       "date": "2026-09-28T21:05:31Z",
       "topic": "Insurance AM",
       "summary": "",
@@ -168,6 +178,16 @@
       "isNew": false
     },
     {
+      "id": "2ecf4f81febb",
+      "title": "See How Mark Walter Turned a Ho-Hum Insurance Company Into a Risk-Taking Lender",
+      "source": "WSJ",
+      "date": "2026-09-28T09:30:00Z",
+      "topic": "Private Credit",
+      "summary": "",
+      "link": "https://news.google.com/rss/articles/CBMisgFBVV95cUxOSFJJcVBtWEtJcEdLTS1IRnNHakdQN0s3SDhBTDVxbGRZYXZOaEg2R25UcmdGdlhleWZZVXFSdHNlYkdTbVhzT0tidFlpVC1CQkZwbzN4M01teWJrV19hanR5bThtME51VHNpeXRRVzM3blhoRjNHYmotajdrMkFndjhvam9ZcWVWd0pZNFNpV2dxSVJPZnVzcDl1SW9oNG1EcVkzWUZjTzNqZmhPT3F4MzVR?oc=5",
+      "isNew": false
+    },
+    {
       "id": "f49712bb0c0c",
       "title": "Barings CEO Michael Freno: \"The private credit opportunity extends well beyond direct lending\"",
       "source": "Investment & Pensions Europe",
@@ -175,6 +195,16 @@
       "topic": "Private Credit",
       "summary": "",
       "link": "https://news.google.com/rss/articles/CBMi1gFBVV95cUxQVkhoX05aZl9PRUFNcS10VHRGcWpUUWtfcG1vNWU5bVR5bDdSRmU1b25JZ2JKR1lvTnJlNjlpRjNzQlJMMlEyazdkbGRoSWlzTTRRei0xenE2X2pVeFJ2Tjl6dElHcTV1TGtKVlk1ekNYckgtaW4yM0VkZ1ZFT21xRlFJTzdTR3YyZXZTNmtIQ3hnQUtQVGVqejJZWFFvMDNJUmU5TWdMMGVfNkw1REpFY0k2dkxwenBGMDNVS29UNW9YZEZMUUt5VktibGZMY1FfaElTT0FB?oc=5",
+      "isNew": false
+    },
+    {
+      "id": "61e3e7866543",
+      "title": "3 Credit Insurer Stocks Investors Are Watching As Bond Market Stress Builds",
+      "source": "Simply Wall Street",
+      "date": "2026-09-28T03:47:34Z",
+      "topic": "Insurance AM",
+      "summary": "",
+      "link": "https://news.google.com/rss/articles/CBMiygFBVV95cUxNY2ZjVzZrc3lXbjhqVWljeDlfbWM2ajJ6NVN0OVZQOEdobE9TZ0IxMTNMNHE2bkNfTlZQaWNzWXdsQXJMZ3d0QUZWWTkwRkM0WmR0X0llNG9iT3pPNWhhSVpmWjZZamJrNXc4MnFyMzBvSXJiZUxsRV9uU2ZDMzN6SU15ZzlKSE00Xzd4VF9IS2ZRZVJQOElNckRvblQ0V211SUlMMHJnNS1Hak9LOS00ZEZFUXduVFJqdUlYVTVkMGR6RFZId0JTSXdB0gHPAUFVX3lxTE9oaWdBUUZfbExOV3BDZ0s3N09mVmQ1UE9idGxiM1VKODN5VnM4VHJrNEVkWTlRZmgtNGJVcDRWb1hMek9mYlJnWWtxdHg5VGI4b3FNNmI4SXRqOTV3enVUa1RmbGM5VkZTVG1RQWhEX3dXTW5WbHpBdmNQbDdyallBbHl1YnkzUFhrQ1AxT29NR05ac0RuMmh2THZ1aFowN0QwcmNGaDV2U2V0NHFHNmFQanVuNmM5a3hNU1ZNcEJ1M1ZtWlYtcExQa1lnRkM4VQ?oc=5",
       "isNew": false
     },
     {
@@ -275,36 +305,6 @@
       "topic": "Rates & Macro",
       "summary": "",
       "link": "https://news.google.com/rss/articles/CBMie0FVX3lxTE9TdmlpTmlrZWppS2ZjMHJSMll0aXF5Q2tYc1FRcmdrbldENHRiTW9RVE5QWVZJOEtRTTEzMmFfdjIxMnpGd1FCTmxyUnF6dUZDY2ZDTUpTc3N4cWlZRWo4RmFuVUdKbWRTYkg3blRvbjdrOVJwTXpkUkFaSQ?oc=5",
-      "isNew": false
-    },
-    {
-      "id": "5849b299f551",
-      "title": "Surging Treasury yields pose a brand new problem for Kevin Warsh and the Fed",
-      "source": "CNBC",
-      "date": "2026-09-24T18:30:35Z",
-      "topic": "Rates & Macro",
-      "summary": "",
-      "link": "https://news.google.com/rss/articles/CBMiuwFBVV95cUxPR21RNks3NUh3SlB3bUU2VEs1ZHlfSUJLcGI2ZlE2MVB3ZjF3ci1vMEhuRWE4NDlmcnF2QmNsUGx1SEV0UWNERnBza05EMVEwYzBnQzd4Y3FkRGhLYmRERmVZRy13UE9ONmU1b2s1UmV5azQyRHpCSERKZzNpR1dRc0pSbWpFa0x0SkJqdHFkNy1TaXg0M3NvaVZWdDZ0bFhpTnM1OGdEdTZPU3RWTy1VVl85NmtrNVNwbHl3?oc=5",
-      "isNew": false
-    },
-    {
-      "id": "091ea32b2b3f",
-      "title": "Rising Treasury yields could push car loan rates higher, experts say. What buyers need to know",
-      "source": "CNBC",
-      "date": "2026-09-24T16:14:35Z",
-      "topic": "Rates & Macro",
-      "summary": "",
-      "link": "https://news.google.com/rss/articles/CBMijgFBVV95cUxQYTdZbFM4VjNCY2xYWXU3dnFoMGlIMEF0YW8xTm1sNElsbTlXVzBxTEkwOW5Tek1pZ0Jrdk45SHVBU19LVU1XdVVjSF96VGVZQXhXc0thQVJ4QmxqMDFKLXdoek01aXZnek9zMUZzMlZKSi1sb1o4MzdXcVZtWHZuUWQwSV9YQ2lZbGo0ZzVB0gGTAUFVX3lxTE14VmR6d2JuQ1gtMGx6dTlXMWNPd0wweUZOVkpJT1VrSjJ4Nlc4ZTdJbXlpdE5ucWlyZUdLZEU1OVhxUzlDWTZrajV1Nzd4OG1lQ1V0YkppakNKYTMxV0czcmlJaDFqT0hEMmt5ZHkyUHpsLXBvSjBuOEJ0RHBpLWZYdXdEdWx2bnE3YnFGTHBsN0RoVQ?oc=5",
-      "isNew": false
-    },
-    {
-      "id": "8c556505b2a7",
-      "title": "Global bond sell-off deepens, sending borrowing costs higher around the world",
-      "source": "CNN",
-      "date": "2026-09-24T12:44:45Z",
-      "topic": "Rates & Macro",
-      "summary": "",
-      "link": "https://news.google.com/rss/articles/CBMia0FVX3lxTE93eV9ITVo1NjlGaDVKMUhsXzlTR2ZIV2Y1dGQ3Y2xoYTJxQ1E3QnNrRXRGNkU4TU9rVnIyTUV2Z2ptX2ZjR2dQR0VnX0dobDR2d1B1aEN5SDREMFp0cGNSNXZKejJNdEdHVHNr?oc=5",
       "isNew": false
     }
   ]

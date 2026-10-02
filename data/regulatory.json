@@ -1,5 +1,5 @@
 {
-  "updated": "2026-10-02T00:50:54Z",
+  "updated": "2026-10-02T09:50:09Z",
   "naic": [
     {
       "id": "ff8a1c9afebb",
@@ -27,7 +27,7 @@
       "date": "2026-09-25",
       "cat": "Capital/Solvency",
       "summary": "",
-      "source": "insurancebusinessmag.com",
+      "source": "Insurance Business",
       "link": "https://news.google.com/rss/articles/CBMi5AFBVV95cUxQVE1rOEdRM0pnYlU2ZzZETHBfQXlrcG1hTDNReHpDNUwtM3hKSkFoRFdKcmdJMVlmeUtlNllwVWs2NTVHT3EydEVrd2lZSU9iR3JKd2dFVV9DbTY5R2FXUXNUU1R5akNDUWFWM1h3MTNjYTdGbXBLdzRrdmVfcmlxWnQwSjVxVUNIdGNldVJDV1dJR1hjc3BrTVF2SXFUQU9IMWxhWGc1X01yUkpoczU5TnlBMFpnWk1kS08zUGxwS19iWndkS01TZTYzTWRSb1phOWl4cnhWY1NlN052OUhHS1dBems?oc=5",
       "isNew": true
     },
@@ -329,7 +329,7 @@
       "date": "2026-08-24",
       "cat": "General",
       "summary": "",
-      "source": "bernews.com",
+      "source": "Bernews",
       "link": "https://news.google.com/rss/articles/CBMidkFVX3lxTFAtMk5oeGM2aThiN1Zud1A4NWtYdy1fTVBDc1pscG15QWFwcVlEU0RqQ3lCb1pJYzNWSV9QdXRYWEFWTFFGd05iY0dNT1VZMUxMRUwzbGtDS1lvUG1nYWxhN203RVluS21PM1haNDJyVC1xd2NuTXc?oc=5",
       "isNew": false
     },
@@ -349,7 +349,7 @@
       "date": "2026-08-20",
       "cat": "General",
       "summary": "",
-      "source": "bernews.com",
+      "source": "Bernews",
       "link": "https://news.google.com/rss/articles/CBMic0FVX3lxTFBMaXl4eXRTMllDZEtiNkFXdVF3OEIzYXVJb3F2ME0yV0h0NHlERWZib3ItRGMwamphamI0d2tJcVlzVVdJeFhUUFlxajJEYVh5M2tIX01UeGl2eVlhbFo5Qlc4c1lCaFdCXzd5bmNDclVVRm8?oc=5",
       "isNew": false
     },
@@ -389,7 +389,7 @@
       "date": "2026-08-10",
       "cat": "General",
       "summary": "",
-      "source": "bernews.com",
+      "source": "Bernews",
       "link": "https://news.google.com/rss/articles/CBMiekFVX3lxTE1tTmdWVUZLZkUwcFpYY0RnbktoRlYzMS1Id1RDRTBNOEc0YUpNdWpNODhqWFN6VkNkc2dnV3ZnVHctTDFicmFEQnRGR3E3NnYwaGtKUkpvUDJPSW4tNHQzNW9jOHVMOXl4S1FadDc4VHR2WnZWRnE5dEN3?oc=5",
       "isNew": false
     },
@@ -409,7 +409,7 @@
       "date": "2026-07-24",
       "cat": "General",
       "summary": "",
-      "source": "captiveinsurancetimes.com",
+      "source": "Captive Insurance Times",
       "link": "https://news.google.com/rss/articles/CBMi3wFBVV95cUxNRkRleEFhSmw5Zng1WnJqMWZHR1dvZVJwTUpmTlFnMUNxWXdZTUVVbnJMYTFlamZmRUhWcV9sTWtKME5KbnRTWFNKU3RlZnZlaTdnVFN3WXJGZzEtYU9GSTFTb3o4dmluNkpNd3gyd0FIa1JWdmpRVVE2TFhrUHBWaV9yNENFbExBUHNncGlscS16Z2Z5d2FGbnIzcGdpVjBkUG1LNmh5Z00zbHlaVVdVU2t2N3lUQk1RUFpOaS1vanYwaHRSRlVWS281blZpcV90dzdGWUJoMUJ5YkRRYUpZ?oc=5",
       "isNew": false
     },
@@ -459,7 +459,7 @@
       "date": "2026-07-22",
       "cat": "General",
       "summary": "",
-      "source": "Artemis.bm",
+      "source": "artemis.bm",
       "link": "https://news.google.com/rss/articles/CBMipAFBVV95cUxOM1B5X2ZUMThlOWl6Z2kyUWQ2cWpPLUM4a1ZiSXBaR2VPVmRLRjBzbWoyX2lxNkp6RElEUllTWDNibE5hYTFsV293RGJOcGdnT0R6SldVLWRMX2JFa3I0ZW1FUjlLTFJFVW9ReXlTN3ZqTVBiVHpoRVdzZENGYzFNdlBrQjY3MEJmUjZIQ2gtSDJXR0t1WlJ5VUsxaVNFMDdHeXduSQ?oc=5",
       "isNew": false
     },
@@ -586,12 +586,22 @@
       "isNew": false
     },
     {
+      "id": "d5c145c64639",
+      "title": "Guide to Cayman Islands private funds: structure, registration and regulation",
+      "date": "2026-08-18",
+      "cat": "Licensing",
+      "summary": "",
+      "source": "JDSupra",
+      "link": "https://news.google.com/rss/articles/CBMihwFBVV95cUxONmZwYXNvSEYySVNIVHlPeDBRS1JkYlpteTVLOHBXRWtiZ05NZHlER1VHOFp5aHJIbHlfaFlVZzN0SV9XUmNlMF9NbWNfdXpWejlRV0xtR0dERVlET1VMeFFHekFGSGw0NzJjYU9KQW5kYS1rSHdzdm02Y3pPcHo1V21WVUNXZW8?oc=5",
+      "isNew": false
+    },
+    {
       "id": "f2653fba4be5",
       "title": "Chanas Assurances Plans to Double Capital, With CFA3.33 Billion in New Cash",
       "date": "2026-08-10",
       "cat": "Capital/Solvency",
       "summary": "",
-      "source": "Business in Cameroon",
+      "source": "businessincameroon.com",
       "link": "https://news.google.com/rss/articles/CBMiygFBVV95cUxPNHFnd25oZlJXbWpqRU13ZFM5eVZZZHdNMS1SU0s0WF95QWJwZ0dEMGNHaFl4Sl9ZcWdVaExoNXBSaUZxS3VSSElGZGc4YWowVG1WSDcyM1VWZ1h3OW5aWmNWbkhUUFN6Z3Qwc21kaE1VR0VxNG84eGRHZmtLZl9Bc2lwVHk5X1NtTHQtS2JyMlFEN0dlT0tyMDBybENFZTdpSWRTa3RCdzQ3aXFNRmdCNUFYQlh4dEdhNlhPdlNOSmhOdXdiWEQzUFB3?oc=5",
       "isNew": false
     },
@@ -631,7 +641,7 @@
       "date": "2026-07-29",
       "cat": "General",
       "summary": "",
-      "source": "insurancebusinessmag.com",
+      "source": "Insurance Business",
       "link": "https://news.google.com/rss/articles/CBMiywFBVV95cUxPS2lqcVB0NzVrNldvOTNtUTVjNnZTOWdUdjVtMmhvX0ZRUlA2UEt1SFF0QVlJd3dybmE3U1JiNF80TVloYmhjLXNlQWlSMHItZW1CdDlsdklOZ0lhc3E2V0RIeTlVejZxcEdCN2ZiU21Sa016QlQxMGJ6MG5OZ1dnUXQyT21QVjNTaWVWRmFGUm5kSktsanFtQnd6OEo4MFk2bnZHOVBKS2ZBaU5CNjRiWmMxd1Q1YmlKRW1LWDMyZ05RaWVnQWlVZHpqTQ?oc=5",
       "isNew": false
     },
@@ -721,7 +731,7 @@
       "date": "2026-07-14",
       "cat": "General",
       "summary": "",
-      "source": "insurancebusinessmag.com",
+      "source": "Insurance Business",
       "link": "https://news.google.com/rss/articles/CBMi2gFBVV95cUxOWEI0T3hNdnh5M0U2ekhDYWJRRnplN3g1ZDVheG9NRUZwR2lxUjJaVDhLSkFGdjRWWENGRkJVVjJwQ0FMY05KenJha1JHZkd3em0wczVrOXFYbks4UGxfQUg0NDJQUVlQQ0hVOFNGWmsyMXM5NFlTV3F2YmlxbWQ3alZDcHQ1ajktRUhnTkdNX3Bia1dON3RVSGdqa1I1ZzNlWnNCX0Y5VU5SR2lpanlhSjRvc1pWUFlHN3FxbkZtM0NUVXc5NlRlWHAtTUoxX3lTTEdiYUpDTnZTUQ?oc=5",
       "isNew": false
     },
@@ -743,16 +753,6 @@
       "summary": "",
       "source": "Cayman Compass",
       "link": "https://news.google.com/rss/articles/CBMirgFBVV95cUxOVWdmX3c0N2F6UHZTRld2S1Z1dHVibHF6NV9VbkMtVWx2ZWVrb0ZabVpLcjRGemFmOWZxSTNWY2hNVjRvcXJjTG9CUW9jNGIydDlQTG1EeDZkaUVCY1I5S3pmazNQWi04MVdYR29OQ0trajcySWxSaUR5NEFLR1ducVJvUGNOQmNZUkE2NHdIUjFqZUhRZzQ1blcybzlieEw2YS15R0VCWTVrd0h4NUE?oc=5",
-      "isNew": false
-    },
-    {
-      "id": "94eb94b54617",
-      "title": "CIMA zone: with 311 billion CFA francs, Senegal becomes the second-largest insurance market",
-      "date": "2026-06-29",
-      "cat": "General",
-      "summary": "",
-      "source": "Capmad",
-      "link": "https://news.google.com/rss/articles/CBMiswFBVV95cUxPZXNXLVk0dzd2eE5nVDd5OFhfVTV1OEo0S3lJbEFwSFYtNmZacW1MRnBtQnExUkZXXzdJMDhQQTlpejdPZE1NeG5uUkNnVWVVVTE3SExRdnF3Zk9QQTllWlBDT2JCc1BKR192MXk1RzNMVnZILW95SHgyTkxKamNiV2RqVWFxMWRhcVlNMGNtTXpQOGJISzBkdWhJbm9KdkdGV2gxRTRQbVloaXVMakxIS3pMbw?oc=5",
       "isNew": false
     }
   ]
