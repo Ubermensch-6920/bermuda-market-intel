@@ -1,5 +1,5 @@
 {
-  "updated": "2026-10-03T16:21:40Z",
+  "updated": "2026-10-03T21:20:07Z",
   "topics": [
     "Insurance AM",
     "Private Credit",
@@ -70,7 +70,7 @@
     {
       "id": "e919491abe13",
       "title": "Private credit and UK life insurers: structuring for matching adjustment",
-      "source": "Lexology",
+      "source": "lexology.com",
       "date": "2026-09-30T19:11:50Z",
       "topic": "Private Credit",
       "summary": "",
@@ -100,7 +100,7 @@
     {
       "id": "9359d8adda9a",
       "title": "Private credit and UK life insurers: structuring for matching adjustment",
-      "source": "macfarlanes.com",
+      "source": "Macfarlanes",
       "date": "2026-09-30T11:44:09Z",
       "topic": "Structured Credit",
       "summary": "",
@@ -160,11 +160,21 @@
     {
       "id": "d78fddfd39e2",
       "title": "PHL Variable Should Not The Be The Only Insurer Under Scrutiny",
-      "source": "forbes.com",
+      "source": "Forbes",
       "date": "2026-09-29T16:03:26Z",
       "topic": "Insurance AM",
       "summary": "",
       "link": "https://news.google.com/rss/articles/CBMixwFBVV95cUxPSkFZcnNCSWR5dFkyQy1uZ0UwckQzR1FEN2dNeXlCclpwM01ZSVZUeGdxWW90RzNiTUR4WnlqSzBzaUJtNTNqM3phWnRfbF93UFNFRXFNekRxVmFUdnotVllGaU9uS2t2cURvTFd2WHlUbWlWOVMtcWJYNDM4VVNOVlNnWU1zVFdtWk5wTVBvWFVlcTVtOUZVOVRIQ1MzemNSM1hmaVZNOElZaDY2ZllfZ1F0YmNlMkFfVkY0eHIyeV9UYW1ndW8w?oc=5",
+      "isNew": false
+    },
+    {
+      "id": "08f9e0dd8d52",
+      "title": "Third Wave Insurance Appoints Awan Sikri as Chief Information Officer",
+      "source": "The Des Moines Register",
+      "date": "2026-09-29T10:10:10Z",
+      "topic": "Insurance AM",
+      "summary": "",
+      "link": "https://news.google.com/rss/articles/CBMiywFBVV95cUxObHc1QWpEaEc1eEpKMHhjamE3R1B2TC1WV2VnRnBJM1owV2JxTlhCWTdFdnFYcDRzQ3Q3OGxCSnZGOFl5X2RWMV9Qay1KNG1QaGdWNFNZTFU4ZkdFM1dKUkdLNWtWYTFSdXZyZ29WZUFHbnR5SHlocy1fakt5N1BhMmJCb0lZSFY5UzFUYVo0S3VUMUd5UGJPUHZTSjAzZWxRUHNtTC1yRmFmVWZJTEt1bV9wMk9MNWtjLW56N2ZwQ3N3VFhuMnpISkNQTQ?oc=5",
       "isNew": false
     },
     {
@@ -280,7 +290,7 @@
     {
       "id": "6e2b5445ad0d",
       "title": "PIC and USS target more infra debt, eye digital space",
-      "source": "Infrastructure Investor",
+      "source": "infrastructureinvestor.com",
       "date": "2026-09-25T15:14:07Z",
       "topic": "Private Credit",
       "summary": "",
@@ -295,16 +305,6 @@
       "topic": "Private Credit",
       "summary": "",
       "link": "https://news.google.com/rss/articles/CBMipAFBVV95cUxQODRRVzlnUmc5eHhyclNaeU5JeUMwZHBFSVRSOUw3VlJGbVFpZmtseWl0RnNhR0xsd1VXcjZhQVdycUZtcnl3a2ptTVRKaFVoSDduR0I0UWVYS1VvRnBuOXUtelB3N3h5T2M3aDRZTHZFQ1BFd3VXSmdVYzVIM1h2Mm9ieFZ6WFNSTThFZnBXbEkzbjRsdklRdU1waDFqSUVKUF92Ug?oc=5",
-      "isNew": false
-    },
-    {
-      "id": "50e86e724bb5",
-      "title": "US insurance regulators defend oversight of insurers\u2019 growing private credit ties",
-      "source": "Alternative Credit Investor",
-      "date": "2026-09-25T12:04:56Z",
-      "topic": "Structured Credit",
-      "summary": "",
-      "link": "https://news.google.com/rss/articles/CBMiygFBVV95cUxOYkYwb2V3Q3k1WGQyX0tLU291V1FELWM2UG5ZLTRuMFlGQ2FzT09RSnllMkxvb1dodnNmOGV5cHlrNll5eGxHMUdibkFOMjR5WTJwRFZhZ19xZE5SbHY2RHZrb2huX3FjX0R4VE1nODExQ3FFc0hya3BXbVVFM3plaENPWEo0dWlLQjVFTTQ3Z1NoMWRTNC1ZRndxWUZ1cjZTWGVvcnpLY0hWRGZ2aVZiVlBvS2otdDljZkpRX1lTcXo0ejFncGppMXhn?oc=5",
       "isNew": false
     }
   ]

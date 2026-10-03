@@ -1,7 +1,7 @@
 # Reinsurer News Monitor
 
-Bermuda life & annuity watchlist — last 14 days — 39 items
-Generated Sat 03 Oct 2026, 13:21 ADT
+Bermuda life & annuity watchlist — last 14 days — 40 items
+Generated Sat 03 Oct 2026, 18:20 ADT
 
 ## Feed status
 
@@ -19,15 +19,19 @@ Generated Sat 03 Oct 2026, 13:21 ADT
 - **2026-09-30** — Family Wealth Report — [Who's Moving Where In Wealth Management? – Kestra, Mesirow, Global Atlantic, KKR](https://news.google.com/rss/articles/CBMi6wFBVV95cUxPbjNuZXJUWXZ6NWFYS1lFSHU0Ui1YSGRhLWxnM3E3dFg5QlUwSVFxc2k1ZGlvejRYRzFMaUR0NUhTNjRRUDBsLTFFMk5kV0dYY0lxTnZlUUdQQzlXV0ZLdy1RaFAyeVRqUjFfRUFkTF92RU5EcVVIMjNnSXViZU1OMnA0N1FrTmhCa0x3WERfaXF0VmxJOUdFSVE3S1djekpCOWRDUmJjWTFWYlFZZmxieVhtNzcyRFEySjJlSWVqSGIwd2FPTzEyYVBRNHphX0ZhOUc5REZTVGNTVmpLeW80Qk5lOXpTYUhsdjVF?oc=5)
 - **2026-09-29** — Reinsurance News — [Global Atlantic appoints Dan Farrelly as Head of IMO and IBD Channels](https://news.google.com/rss/articles/CBMioAFBVV95cUxPMkdpaWgxd2J2dkd3d2xkZFExOVRTMVV5ZVNDZDRmQjBaSjdhY2p4c19fdEk5Nko1aXFNTWVXcFJ0WG9jd0xaVVhVbFNfVmpONHBfaDBJdHVhX0xzWXNQSnNHNENobk1kaHRmV2hrODBCZTItc1RFSkFhQl9ISTNLb2ZhTzNtNThWbE1mN2Y0ZFlhM2tKTU96eUdPWXFQNWJJ?oc=5)
 - **2026-09-29** — Business Wire — [Global Atlantic Names Dan Farrelly Head of IMO and IBD Channels](https://news.google.com/rss/articles/CBMivAFBVV95cUxQc0hOeFFFOHlVYTk4T0UydktyRTFBRU5meXNIUVd2NFNtUmkyUWs3NWtESG8yMTJUaFQ3TFdtYnI2cFVNSzdxb2pWMVkwV1JBSGliNmYxNUpTR1FhSFd5WXVGSG9XWEt3ajJiMGFYeEhKSGpFZzNMbmtydVNqN25qMmRnaTJxQmY2Smx5UWZUM2FVRkZwVUkya2NNQ2xVRldWQzIxZ3N0aHVFaHBHaHUtRkNoOU5UOTUwSE5pVg?oc=5)
-- **2026-09-23** — The Capitol Forum — [KKR/Global Atlantic: Reinsurance Business Draws Mutuals, Traditional Life Insurers into Private Equity’s ‘Insurance as Asset Class’ Model](https://news.google.com/rss/articles/CBMi8wFBVV95cUxQeEROYTR3aEJLVzZCZW1Zc2xjZVdEOFdBSUMtYXFPajZocU9sY3hPaUwzeVBMR0dTbWMtQlpQcWZFTHBmeHRYOXdvU1B2Vm8ta1hKTmdzLXlWaTdRVTZ1U0hGb0ZmbWJobWxZeW1jTmtDWE8zdnBlWEJ0NzNCbDBBd2JyeWpmQzJaUWdaeWp2VVZUZmRRRURJS3FETnkxM1Y0dTFvRDhJMTNvTkZWU0x5X3RFbmdZelhuT1NtWDNBTk04a1JoMTZVd3EwSGpHY01KNDZOcUhDajZkT3dnX2JBRHBocmQweFB6RFQxTXdOLVJtV2M?oc=5)
+- **2026-09-23** — thecapitolforum.com — [KKR/Global Atlantic: Reinsurance Business Draws Mutuals, Traditional Life Insurers into Private Equity’s ‘Insurance as Asset Class’ Model](https://news.google.com/rss/articles/CBMi8wFBVV95cUxQeEROYTR3aEJLVzZCZW1Zc2xjZVdEOFdBSUMtYXFPajZocU9sY3hPaUwzeVBMR0dTbWMtQlpQcWZFTHBmeHRYOXdvU1B2Vm8ta1hKTmdzLXlWaTdRVTZ1U0hGb0ZmbWJobWxZeW1jTmtDWE8zdnBlWEJ0NzNCbDBBd2JyeWpmQzJaUWdaeWp2VVZUZmRRRURJS3FETnkxM1Y0dTFvRDhJMTNvTkZWU0x5X3RFbmdZelhuT1NtWDNBTk04a1JoMTZVd3EwSGpHY01KNDZOcUhDajZkT3dnX2JBRHBocmQweFB6RFQxTXdOLVJtV2M?oc=5)
 - **2026-09-21** — TipRanks — [Global Atlantic announces launch of ForeLifetime Income](https://news.google.com/rss/articles/CBMiqAFBVV95cUxQUnJqVzFENmVnTF9BanNrODl0emlXWE8ydGhNM01SRUh6ZkU5NUhoVXBlUjNQYXlfcVFLajVXNjBRbFRRbnJKTDhCVW81U0dUaGwwcDhRTl96eTdGVzFXVjRLSUoyYWVtRnBGcWFMQzFXdWhfalVJV08yNnVzMzhJNmNvWUUtQVpjNHc2NjItUGphbHNFTzNvV0hfbndzWWlocjkweWNYcko?oc=5)
-- **2026-09-21** — Stock Titan — [Global Atlantic Announces Launch of ForeLifetime Income, a New Fixed Index Annuity](https://news.google.com/rss/articles/CBMivwFBVV95cUxPS2lvUnhIczhJNUtuQ3NwbG9YLVJzdEItTXF6c0xBX0xlM2VWYmFUalhrMTNmNFdoYVp1Rm1mZUYwMWIxSjdMQ04tdFBRLThHUnhGdGpJc3kxSlpRRTBnY0JQRzBZT0F2aEllMEtHQXF6WmZpbE9JU1BKdmJJVHY2ZUFzTFhfb2JDaXZ4ZUJJekE2ZEpOa2hKN2h6VFcxVGJ4VTFNbkpTSlotOE1KOHE1WG1FU2J4ZmtTd05LT1ZrSQ?oc=5)
+- **2026-09-21** — stocktitan.net — [Global Atlantic Announces Launch of ForeLifetime Income, a New Fixed Index Annuity](https://news.google.com/rss/articles/CBMivwFBVV95cUxPS2lvUnhIczhJNUtuQ3NwbG9YLVJzdEItTXF6c0xBX0xlM2VWYmFUalhrMTNmNFdoYVp1Rm1mZUYwMWIxSjdMQ04tdFBRLThHUnhGdGpJc3kxSlpRRTBnY0JQRzBZT0F2aEllMEtHQXF6WmZpbE9JU1BKdmJJVHY2ZUFzTFhfb2JDaXZ4ZUJJekE2ZEpOa2hKN2h6VFcxVGJ4VTFNbkpTSlotOE1KOHE1WG1FU2J4ZmtTd05LT1ZrSQ?oc=5)
+
+## Wilton Re
+
+- **2026-09-30** — DXC Technology — [Wilton Re modernizes a scalable foundation for acquisition-driven growth](https://news.google.com/rss/articles/CBMimgFBVV95cUxQcUE3Ujl4eU1KWVZqci0yeGdoZUpWenFic0ozOUZ6LS1fR0g4VzQxaFk1YzFfRHh6MW56NWk2S05kN1pndjJTSnhsd2t0ejd5eDdkZlpyZkpDRFBVX09FblpOLVpSN2JMZG1UMzFGWVRHNDRublFmd19zX3ROaG96a0kyb2FOLWk2dExoMW1Oa1NaVURvZGtCZnBn?oc=5)
 
 ## Fortitude Re
 
 - **2026-10-02** — Beinsure — [Fortitude Re parent acquires Dayforward annuity insurtech platform](https://news.google.com/rss/articles/CBMiggFBVV95cUxQcjZVeElENk94UGE3RlhnbC11N1ZqUVAzZy1objVFZWpqdlo3WndnVWd0bkY3Z3dBdGxkNVFnUml2T3E4OXdhMTU3R3c0T3kyNWpDUmRrb3RHOHNQNURqb0lLT09XQS1EUkVUcTFISlNvdzc3NzZJU3pZQjNiMVFQZW9B?oc=5)
 - **2026-10-02** — Beinsure — [Fortitude Re parent acquires insurtech Dayforward annuity technology platform](https://news.google.com/rss/articles/CBMiggFBVV95cUxQcjZVeElENk94UGE3RlhnbC11N1ZqUVAzZy1objVFZWpqdlo3WndnVWd0bkY3Z3dBdGxkNVFnUml2T3E4OXdhMTU3R3c0T3kyNWpDUmRrb3RHOHNQNURqb0lLT09XQS1EUkVUcTFISlNvdzc3NzZJU3pZQjNiMVFQZW9B?oc=5)
-- **2026-10-02** — bermudareinsurancemagazine.com — [Fortitude Re expands insurtech capabilities with Dayforward buy, Fortitude Life launch](https://news.google.com/rss/articles/CBMixwFBVV95cUxQRVY0aU4tNWJ5LWlGV2E4SGlIY0ZCWEJET1dueG9XMGQzUHcxNHRVcW05WmdoN0lUcnZIRkpwU3FaMHd1V2xySzR6WXRTenRnUjNfTWFHSmMycUVfallwOHVkS2VXYVVnT200dnp2d095MnA1TzJ5bE02d2pLa1JOLVBRaGpSellYR2RvMkM1ZWxoWXoxX3lTOUhrRXVQUm8zeUM3aG00SkppYjhQZ0c2ZlBpckZ6elZhdEtYcnlQRUNqSVZjQmhv?oc=5)
+- **2026-10-02** — Bermuda Re — [Fortitude Re expands insurtech capabilities with Dayforward buy, Fortitude Life launch](https://news.google.com/rss/articles/CBMixwFBVV95cUxQRVY0aU4tNWJ5LWlGV2E4SGlIY0ZCWEJET1dueG9XMGQzUHcxNHRVcW05WmdoN0lUcnZIRkpwU3FaMHd1V2xySzR6WXRTenRnUjNfTWFHSmMycUVfallwOHVkS2VXYVVnT200dnp2d095MnA1TzJ5bE02d2pLa1JOLVBRaGpSellYR2RvMkM1ZWxoWXoxX3lTOUhrRXVQUm8zeUM3aG00SkppYjhQZ0c2ZlBpckZ6elZhdEtYcnlQRUNqSVZjQmhv?oc=5)
 - **2026-09-29** — Insurance Business — [Fortitude Re buys Dayforward to build its own annuity origination platform](https://news.google.com/rss/articles/CBMi6gFBVV95cUxQUzVjdjV1cTl2ajRJMjNxTmRjaTVJSV8weXJjRHQ3NmVOVHFUM0ZrUlExSFlEUFZZV3VfbFNOdUpzclBrZ0wyNXg5NzgzZXFISzc3cm9LdU1LXzI3YWpLQVdFSkFrTXl5d1J3b0xHWmc3TjgwRTdfM1o4d1ZwTncwYmRlZlpFWlluaWFteHFCSTBJQUh5dE4xcU0tV1d2UWJldUh0WEdZeHRNbTA0T203RjMwd0doakRZODNSYnZHSjN4b25ZcW80a2ZPcktieGswVDZmOVM5YjExOHJwRlZVV1dJYjRqSmV6ZkE?oc=5)
 - **2026-09-29** — Insurance Business — [Fortitude Re acquires insurtech to build its own annuity pipeline](https://news.google.com/rss/articles/CBMi3gFBVV95cUxNTTBGeGF4VlhtRWhJbDZZWEZXYXVVT2REcmVqNENCcExQRlR5SFdkNFQ4WFFJeGNieC1HU2s4TjhMN0x3M0Z4OVRuYlBUWDVUWmxENGVVRnJ5T3RBUXpsWXhvRk4yVm1PeFBWbGY1djI5YzU3anJCb1N2NDY2TVNkc2lpZGROTDRMOHMwbm02NUx1ejlPWnRkLXB5cnQxLTJibVBWd0s3T3lMTFRTUW1UcklyVzRlYmxoTzBmR3hhM0RiN0dPNWkzMmtzQW9PY0w1QVlWa3VtbU5wVmlIN0E?oc=5)
 - **2026-09-28** — Dealroom — [Fortitude Re buys Dayforward to power annuity push](https://news.google.com/rss/articles/CBMijAFBVV95cUxOOHdkSzd1YUNZT09KUWlQWWtVLUs5OWxnVXBCNEY2Z3ZJcWxhaTVfNVpZUGhYUDdXY2Z6THpXVElHNUpfZGtmTmg3cUJQb2g5emcydExZTWR5ZjNFRUVPVGpXb0xTQi0xTzRma0luNVM4TVBtWnh0aEJVdzJEVndPR2hNTzNYQ0F1MEo3NA?oc=5)
@@ -71,7 +75,7 @@ Generated Sat 03 Oct 2026, 13:21 ADT
 - **2026-09-23** — kalkine.ca — [Sagicor Financial Stock Slips as Debt Refinancing, Earnings Sensitivity and Market Volatility Pressure Sentiment](https://news.google.com/rss/articles/CBMi3gFBVV95cUxPampXbEtkSGp6enBWN3hWRTZ1YzhVTUo4RjV0V1ZWZTg3VDB3VVVrMFR2ajNwbDZmQ1dBVXY1T3cwQi1xU0F4UEg3djdENlZiRFNUamtYeDBoM00zck5ISHJnT0otaEhFVGE3cFJvN0NIcjZfMnc3N1prNDBrR1hHUlZfdGNpNklyS0hSbUNPODloMG5UQndaVHlJYmdKQzY3d2pXVEtoS1JPdUlmRzdMTUFVV284TFh6c3dVbzVKblhJX3N4MDBYc1ZjYnU4YWxQQXNNSDA4dUFYSDJRa3c?oc=5)
 - **2026-09-22** — Dealroom — [Sagicor prices $250M note offering to repay debt](https://news.google.com/rss/articles/CBMiiAFBVV95cUxNTE14Zi1oNTRGcHNjVlU1MTl4TzRpbU1KZnc5TWhXRThDOEtVOGhWMk1fQzVha0ljczRWMWdTTWdYMm4tY2otYlhyUmRoRGVsd0FvaF9NWUY3Vk9FMU5JOUxiY0RQSGN2bE92bXJJVm5zcEFzTWRfQ0k4ZUdvdzRiNV9GOGFwYjZJ?oc=5)
 
-_No news in the window: Wilton Re, Resolution Re, Monument Re, Somerset Re, Martello Re, Prismic Re, Aspida, Kuvare, Catalina_
+_No news in the window: Resolution Re, Monument Re, Somerset Re, Martello Re, Prismic Re, Aspida, Kuvare, Catalina_
 
 ---
 
