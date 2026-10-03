@@ -1,5 +1,5 @@
 {
-  "updated": "2026-10-03T11:43:59Z",
+  "updated": "2026-10-03T16:21:43Z",
   "lookback_days": 14,
   "feeds": [
     {
@@ -17,7 +17,7 @@
     {
       "name": "Google News: Athene",
       "ok": true,
-      "count": 7,
+      "count": 6,
       "error": null
     },
     {
@@ -29,7 +29,7 @@
     {
       "name": "Google News: Fortitude Re",
       "ok": true,
-      "count": 7,
+      "count": 6,
       "error": null
     },
     {
@@ -89,7 +89,7 @@
     {
       "name": "Google News: Talcott",
       "ok": true,
-      "count": 8,
+      "count": 7,
       "error": null
     },
     {
@@ -149,6 +149,18 @@
       ]
     },
     {
+      "id": "64bdca379950",
+      "title": "Reinsurance Group of America, Incorporated (RGA) latest stock news and headlines",
+      "link": "https://news.google.com/rss/articles/CBMiV0FVX3lxTE5CdHFXVjBaOUtpRG1uM296dngxVElqR0x6cFZ2NjVySDAyaUZSQkpGdmRxWkk2U3VNR3lFQUxxeTdvbmxWQ3lybXM4cmVvN3VIcGJHS3pWNA?oc=5",
+      "source": "Yahoo Finance Australia",
+      "feed": "Google News: RGA",
+      "date": "2026-10-02T15:50:42Z",
+      "summary": "",
+      "companies": [
+        "RGA"
+      ]
+    },
+    {
       "id": "ddfba5477534",
       "title": "Will Reinsurance Group (RGA) Beat Estimates Again in Its Next Earnings Report?",
       "link": "https://news.google.com/rss/articles/CBMiowFBVV95cUxPeUVIUGR4cXpLZEkwa3FKZlR0a293clBKVjhFREozWXp4NmR3RGRMVTFodUFNWDdEUnd2Z0RNTm1fOVUwdnN2NXVBX1k4RVFvWi1pNG5WWkpKMnBXcGVtYkZ3RzZHQ2JSR0ZoaFlwb2NpV1JaRUZBN0tIVHpJX3lvNU1YSnk4U1pKaFkzc1RWNW9paWJkSzJaS0Z0T0FmekVBRVFB?oc=5",
@@ -185,18 +197,6 @@
       ]
     },
     {
-      "id": "64bdca379950",
-      "title": "Reinsurance Group of America, Incorporated (RGA) latest stock news and headlines",
-      "link": "https://news.google.com/rss/articles/CBMiV0FVX3lxTE5CdHFXVjBaOUtpRG1uM296dngxVElqR0x6cFZ2NjVySDAyaUZSQkpGdmRxWkk2U3VNR3lFQUxxeTdvbmxWQ3lybXM4cmVvN3VIcGJHS3pWNA?oc=5",
-      "source": "Yahoo Finance Australia",
-      "feed": "Google News: RGA",
-      "date": "2026-10-02T11:08:21Z",
-      "summary": "",
-      "companies": [
-        "RGA"
-      ]
-    },
-    {
       "id": "93badd9f437b",
       "title": "Lincoln National Reports Closing of $6.3 Billion Reinsurance Transaction With Talcott",
       "link": "https://news.google.com/rss/articles/CBMitgFBVV95cUxPZDJLelk5RVNTWjUxRXY2MjRUNTdsZ3FYMXdRT1V4aEIyZDIycWRuOW5vUjU5QTljTG4yak9wXzhURzJlS05OWnhNWDBkM3RPQU95UzQxQmtTSF92T29ZeC1XZ3ZTRWJDRW1rbHpJTU9KRVY3eV9zM2VQaWVnVVcwTGFhaktvcThBN2FaQ1lqeTl5Yld0c3dtX1FoeE5YZU9ZdnIwMVBfZW9pcUtJRERDM3RMZ1pnZw?oc=5",
@@ -224,7 +224,7 @@
       "id": "2a8fb056de1a",
       "title": "Fortitude Re expands insurtech capabilities with Dayforward buy, Fortitude Life launch",
       "link": "https://news.google.com/rss/articles/CBMixwFBVV95cUxQRVY0aU4tNWJ5LWlGV2E4SGlIY0ZCWEJET1dueG9XMGQzUHcxNHRVcW05WmdoN0lUcnZIRkpwU3FaMHd1V2xySzR6WXRTenRnUjNfTWFHSmMycUVfallwOHVkS2VXYVVnT200dnp2d095MnA1TzJ5bE02d2pLa1JOLVBRaGpSellYR2RvMkM1ZWxoWXoxX3lTOUhrRXVQUm8zeUM3aG00SkppYjhQZ0c2ZlBpckZ6elZhdEtYcnlQRUNqSVZjQmhv?oc=5",
-      "source": "Bermuda Re",
+      "source": "bermudareinsurancemagazine.com",
       "feed": "Google News: Fortitude Re",
       "date": "2026-10-02T10:41:32Z",
       "summary": "",
@@ -536,7 +536,7 @@
       "id": "4a417dcfb8ba",
       "title": "West Grove Re appoints former RGA leader Anthony Young as CEO",
       "link": "https://news.google.com/rss/articles/CBMipwFBVV95cUxOVHktYXVlOHVTdVQ4SUZCUnN1TS1vcDlCRkJTOEc3RmdpRWxFd0FkLUZvc2VDTkpXaDFSUllMQ3ZSZWxCb0JWZlZXNUtVX1BmOG9IQUhhT0Y5eFJiNEFSV0ZUREgxMUNmaFI5bmJRbXQzVWt3MExUTEJRU0FESl9HTDZXQ1REVEx1RlZ3Q1FQc0d2ZnFadzk1aEg2YUZxUHN6VzBEaWhZSQ?oc=5",
-      "source": "Bermuda Re",
+      "source": "bermudareinsurancemagazine.com",
       "feed": "Google News: RGA",
       "date": "2026-09-23T07:00:00Z",
       "summary": "",
@@ -572,7 +572,7 @@
       "id": "8c3300c005c4",
       "title": "Sagicor prices $250M note offering to repay debt",
       "link": "https://news.google.com/rss/articles/CBMiiAFBVV95cUxNTE14Zi1oNTRGcHNjVlU1MTl4TzRpbU1KZnc5TWhXRThDOEtVOGhWMk1fQzVha0ljczRWMWdTTWdYMm4tY2otYlhyUmRoRGVsd0FvaF9NWUY3Vk9FMU5JOUxiY0RQSGN2bE92bXJJVm5zcEFzTWRfQ0k4ZUdvdzRiNV9GOGFwYjZJ?oc=5",
-      "source": "app.dealroom.co",
+      "source": "Dealroom",
       "feed": "Google News: Sagicor",
       "date": "2026-09-22T22:17:01Z",
       "summary": "",

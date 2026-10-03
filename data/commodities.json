@@ -303,7 +303,7 @@
     "prior_2y_date": "2024-10-04",
     "futures": {
       "3M": {
-        "price": 96.76,
+        "price": 96.85,
         "price_date": "",
         "price_source": null,
         "expiry": "3M",
@@ -322,7 +322,7 @@
         "prior_2y_contract": "INRF25"
       },
       "6M": {
-        "price": 97.16,
+        "price": 97.34,
         "price_date": "",
         "price_source": null,
         "expiry": "6M",
@@ -341,7 +341,7 @@
         "prior_2y_contract": "INRJ25"
       },
       "12M": {
-        "price": 97.81,
+        "price": 98.16,
         "price_date": "",
         "price_source": null,
         "expiry": "12M",
@@ -360,7 +360,7 @@
         "prior_2y_contract": "INRV25"
       },
       "24M": {
-        "price": 99.55,
+        "price": 99.46,
         "price_date": "",
         "price_source": null,
         "expiry": "24M",
@@ -381,5 +381,5 @@
     }
   },
   "note": "Gold spot is physical XAU/USD (TradingEconomics, then Swissquote / gold-api.com), sanity-checked against the front-month future. WTI/Brent spot is the front-month future (Yahoo), with FRED's weekly EIA series as fallback. Spot priors come from the same series as spot (1d = previous session). Futures history is roll-aware by target date, backed by data/commodities_history.jsonl where Yahoo no longer lists expired contracts. USD/INR latest spot: FRED DEXINUS, then Yahoo INR=X / keyless FX APIs when FRED lags; forwards fall back to CIP derivation from India/UST curves when market quotes are unavailable.",
-  "_fetched": "2026-10-03T11:43:03.941869Z"
+  "_fetched": "2026-10-03T16:20:48.182368Z"
 }
