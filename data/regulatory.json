@@ -1,6 +1,16 @@
 {
-  "updated": "2026-10-03T05:22:47Z",
+  "updated": "2026-10-03T11:43:56Z",
   "naic": [
+    {
+      "id": "f301b142e443",
+      "title": "Risk-Based Capital (RBC) in U.S. Insurance: What the Ratio Means and Why Regulators Use It",
+      "date": "2026-10-01",
+      "cat": "Capital/Solvency",
+      "summary": "",
+      "source": "sigortahaber.com",
+      "link": "https://news.google.com/rss/articles/CBMiuwFBVV95cUxORGotbzBicDBpZEVvWndMaHQya3dTTnF3QnZ2dkZIQUE4UWhVSFI0RWtrdjhhZnRVeU1CbWQ3RlNxVERVWnl4NXdDcm1TSGxtZGxPMnFua2NDNlozWUYxT0ExemxMcFptOWZ3RzNqcW9xQUQ4cnBYblAtci1taWhzS2xCUENxem1KbWRPb0lMMllyaEhqcjFLbm9Eelh4T3VMZUxYU0MybENNbWtrVWVEWXpvUmZqcEZNdFc4?oc=5",
+      "isNew": true
+    },
     {
       "id": "ff8a1c9afebb",
       "title": "US insurance regulators defend oversight of insurers\u2019 growing private credit ties",
@@ -240,16 +250,6 @@
       "source": "spglobal.com",
       "link": "https://news.google.com/rss/articles/CBMi9AFBVV95cUxNaC01cmpUeTlHS3hIU05hVXJUcF9JRy1ySTdjdWNnLXVaN2dmcnpneHJnaE9mQXBLeHZJaWVRZDJNTWFxelRXV0d2TjVBOXlDV0dWcjlHczY3a19TLUhUb21kUkJYdEVGWm1EWndGWFVtTlZHVTNOdmpiaGk1dkJzazlVNjNLWjY3NFhNakhPMENHSHlxSTNEdzFabWFGWGtVLUZGMU8wTTZNSmllV0VKVWktREJJRWRIZlI2RDNyYlpEZmVoNDUxNWJjV0dicm1ycURBWGszdjdqQS0tOEtPQUo4aEt4Qi1TQVFwb3hES0w3OVNn?oc=5",
       "isNew": false
-    },
-    {
-      "id": "2ea3f94986a3",
-      "title": "NAIC Launches Multi-State Pilot of AI Systems Evaluation Tool",
-      "date": "2026-08-24",
-      "cat": "Governance",
-      "summary": "",
-      "source": "JD Supra",
-      "link": "https://news.google.com/rss/articles/CBMihwFBVV95cUxQTFpNdEtZWmctV3psRWVXek9lVnRIb2FqX3Atb0NabUNnVVJ5N0xuWlFzQ3FlSGF3M1ZhcWlMNDh5OFVwYmtyTTNnaDlLUTZpN0x4WXpoOVl2a3VmbThZVURKQlpHMURfTXRkcXlSdlE0U1FZSXpTN2gyTExPUjZqNy1NQkZ4OUE?oc=5",
-      "isNew": false
     }
   ],
   "bma": [
@@ -329,7 +329,7 @@
       "date": "2026-08-24",
       "cat": "General",
       "summary": "",
-      "source": "bernews.com",
+      "source": "Bernews",
       "link": "https://news.google.com/rss/articles/CBMidkFVX3lxTFAtMk5oeGM2aThiN1Zud1A4NWtYdy1fTVBDc1pscG15QWFwcVlEU0RqQ3lCb1pJYzNWSV9QdXRYWEFWTFFGd05iY0dNT1VZMUxMRUwzbGtDS1lvUG1nYWxhN203RVluS21PM1haNDJyVC1xd2NuTXc?oc=5",
       "isNew": false
     },
@@ -339,7 +339,7 @@
       "date": "2026-08-24",
       "cat": "General",
       "summary": "",
-      "source": "royalgazette.com",
+      "source": "Royal Gazette | Bermuda",
       "link": "https://news.google.com/rss/articles/CBMiwAFBVV95cUxPVEJSMnhBY2czSFNvUDJjRXNUTFB4ZHBrOXpISDRuTHNYVkFIRG5TaUlKNkdSRFFjeU9SNDl5dWJPN1V6a3lnX01PblM2U3NwWU1OZGJDdVRScDh6N2JCSXJ0WVJXSnRDdFNRQzhkeVZWVENId3Nlb2Faa0NYNS02TlNPZ3RGajdCa2ZkTmp6NmQxMUk5dGF5Z25UZzFwb254WUl3M1o0V2tJbk1kNlk2ODdtR0VuOTlleW5JVlZQNC0?oc=5",
       "isNew": false
     },
@@ -349,7 +349,7 @@
       "date": "2026-08-20",
       "cat": "General",
       "summary": "",
-      "source": "bernews.com",
+      "source": "Bernews",
       "link": "https://news.google.com/rss/articles/CBMic0FVX3lxTFBMaXl4eXRTMllDZEtiNkFXdVF3OEIzYXVJb3F2ME0yV0h0NHlERWZib3ItRGMwamphamI0d2tJcVlzVVdJeFhUUFlxajJEYVh5M2tIX01UeGl2eVlhbFo5Qlc4c1lCaFdCXzd5bmNDclVVRm8?oc=5",
       "isNew": false
     },
@@ -389,7 +389,7 @@
       "date": "2026-08-10",
       "cat": "General",
       "summary": "",
-      "source": "bernews.com",
+      "source": "Bernews",
       "link": "https://news.google.com/rss/articles/CBMiekFVX3lxTE1tTmdWVUZLZkUwcFpYY0RnbktoRlYzMS1Id1RDRTBNOEc0YUpNdWpNODhqWFN6VkNkc2dnV3ZnVHctTDFicmFEQnRGR3E3NnYwaGtKUkpvUDJPSW4tNHQzNW9jOHVMOXl4S1FadDc4VHR2WnZWRnE5dEN3?oc=5",
       "isNew": false
     },
@@ -601,8 +601,18 @@
       "date": "2026-08-18",
       "cat": "Licensing",
       "summary": "",
-      "source": "jdsupra.com",
+      "source": "JDSupra",
       "link": "https://news.google.com/rss/articles/CBMihwFBVV95cUxONmZwYXNvSEYySVNIVHlPeDBRS1JkYlpteTVLOHBXRWtiZ05NZHlER1VHOFp5aHJIbHlfaFlVZzN0SV9XUmNlMF9NbWNfdXpWejlRV0xtR0dERVlET1VMeFFHekFGSGw0NzJjYU9KQW5kYS1rSHdzdm02Y3pPcHo1V21WVUNXZW8?oc=5",
+      "isNew": false
+    },
+    {
+      "id": "2d5882d835c2",
+      "title": "Cayman Islands applies for NAIC Qualified Jurisdiction Status (QJS)",
+      "date": "2026-08-17",
+      "cat": "General",
+      "summary": "",
+      "source": "Reinsurance News",
+      "link": "https://news.google.com/rss/articles/CBMimwFBVV95cUxOd1NrUUNVT2FwVmtQSUF6Qk9QVURpSTBENXlBaFJlU2FPVE9pVVdZdG1jOHc4clYtX0hJNTd1RlJPTWxQemI5ejh0c1JTRVVzaTI0LUZSSFlMNHM3STNkUTdEbkRDQW5mUGNNR3ZhR1FoSXNUY09DRnBmQzNmVTE0VWNyOGlQVlJZRGFST2hnMTQwY0x1eDJPYUxkaw?oc=5",
       "isNew": false
     },
     {
@@ -743,16 +753,6 @@
       "summary": "",
       "source": "Insurance Business",
       "link": "https://news.google.com/rss/articles/CBMi2gFBVV95cUxOWEI0T3hNdnh5M0U2ekhDYWJRRnplN3g1ZDVheG9NRUZwR2lxUjJaVDhLSkFGdjRWWENGRkJVVjJwQ0FMY05KenJha1JHZkd3em0wczVrOXFYbks4UGxfQUg0NDJQUVlQQ0hVOFNGWmsyMXM5NFlTV3F2YmlxbWQ3alZDcHQ1ajktRUhnTkdNX3Bia1dON3RVSGdqa1I1ZzNlWnNCX0Y5VU5SR2lpanlhSjRvc1pWUFlHN3FxbkZtM0NUVXc5NlRlWHAtTUoxX3lTTEdiYUpDTnZTUQ?oc=5",
-      "isNew": false
-    },
-    {
-      "id": "d50a6675fe0c",
-      "title": "Regulator\u2019s reinsurance review finds corporate governance weaknesses",
-      "date": "2026-07-01",
-      "cat": "Governance",
-      "summary": "",
-      "source": "Cayman Compass",
-      "link": "https://news.google.com/rss/articles/CBMirgFBVV95cUxOVWdmX3c0N2F6UHZTRld2S1Z1dHVibHF6NV9VbkMtVWx2ZWVrb0ZabVpLcjRGemFmOWZxSTNWY2hNVjRvcXJjTG9CUW9jNGIydDlQTG1EeDZkaUVCY1I5S3pmazNQWi04MVdYR29OQ0trajcySWxSaUR5NEFLR1ducVJvUGNOQmNZUkE2NHdIUjFqZUhRZzQ1blcybzlieEw2YS15R0VCWTVrd0h4NUE?oc=5",
       "isNew": false
     }
   ]
