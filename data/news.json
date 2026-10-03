@@ -1,5 +1,5 @@
 {
-  "updated": "2026-10-02T22:17:51Z",
+  "updated": "2026-10-03T05:22:47Z",
   "topics": [
     "Insurance AM",
     "Private Credit",
@@ -7,6 +7,16 @@
     "Structured Credit"
   ],
   "items": [
+    {
+      "id": "e10685ce7866",
+      "title": "Week Ahead for FX, Bonds: Fed Minutes in Focus as Near-Term Rate-Hike Prospects Dim",
+      "source": "WSJ",
+      "date": "2026-10-02T16:12:00Z",
+      "topic": "Rates & Macro",
+      "summary": "",
+      "link": "https://news.google.com/rss/articles/CBMizwFBVV95cUxNd0pFZWhSVE1ibzBDZHRBWDE0MWNOQ1pMdUdNVUM5SXNnWVlLa1JWRy05c1ZzbmxIcDlDVVB6eUV4a2lfSWo3YVM4REdCNDU5U0dZRGhBTFFZRFkyRV9BVE0wUTIxcW5sM1ZERWVMWXZfb3ZlRmdBelNlQlVBajhCckZkUUh3NzhTWXRobTBsM3RHNU13WjdnZE0tNWtjVWVrbVZtUzQ3ck8zV3lXMnVMeC11Z2xzNTRPWHJTNktvRWFucHlZU3ZGb0tQRTNMa1U?oc=5",
+      "isNew": false
+    },
     {
       "id": "f687e7281867",
       "title": "Fed\u2019s Logan Wants More Hikes, But Says Bond Moves Could Help",
@@ -18,16 +28,6 @@
       "isNew": false
     },
     {
-      "id": "a7549777ec32",
-      "title": "U.S. Bond Yields Hit Highest Level Since 2002",
-      "source": "The New York Times",
-      "date": "2026-10-01T20:23:38Z",
-      "topic": "Rates & Macro",
-      "summary": "",
-      "link": "https://news.google.com/rss/articles/CBMigwFBVV95cUxNQnJCNkJ1amNqVkhnUnRoYy1TN0t0ZkxmSFlqSVY5aXQzVUpCanhTamN2eDBDNjhmeTNnSUw2V2xDODV4UWJZTE5YcE5WZWFuaGJBX3U0NjV3ZWluZVVXRVdCLWdtV3gwSF9jRzVpNEpoSU9NeVdTNVpqeFVtT3RUVXh4Yw?oc=5",
-      "isNew": false
-    },
-    {
       "id": "7c50c13d4525",
       "title": "Delaware Life\u2019s Private-Credit Investments Reach 45% of Debt Portfolio",
       "source": "Program Business",
@@ -35,6 +35,16 @@
       "topic": "Private Credit",
       "summary": "",
       "link": "https://news.google.com/rss/articles/CBMipAFBVV95cUxQa1RpeFlvckN3NldZalVoNUlHSGtNTm4wN3phU2pldWRtMS1xOGFKeDlzRmU1ci1FelpiT25CYU9LSU1YZ1V3WDJ3emZfZ01xWlh1b280dEFHYUtrWnhCRDhTLW1KNmZycTYzaG5VUW9YWEx1N3o2VTI1WTJSYy1SbWpMZS1QVFRxTVQtWjdvVXZpUkNDcmpWX3JpU3IxTlV2R3Jlcg?oc=5",
+      "isNew": false
+    },
+    {
+      "id": "a7549777ec32",
+      "title": "U.S. Bond Yields Hit Highest Level Since 2002",
+      "source": "The New York Times",
+      "date": "2026-10-01T12:02:58Z",
+      "topic": "Rates & Macro",
+      "summary": "",
+      "link": "https://news.google.com/rss/articles/CBMigwFBVV95cUxNQnJCNkJ1amNqVkhnUnRoYy1TN0t0ZkxmSFlqSVY5aXQzVUpCanhTamN2eDBDNjhmeTNnSUw2V2xDODV4UWJZTE5YcE5WZWFuaGJBX3U0NjV3ZWluZVVXRVdCLWdtV3gwSF9jRzVpNEpoSU9NeVdTNVpqeFVtT3RUVXh4Yw?oc=5",
       "isNew": false
     },
     {
@@ -161,7 +171,7 @@
       "id": "68059848f9b2",
       "title": "New York Life Investment Management to Acquire Majority Ownership Stake in Invictus Capital Partners",
       "source": "Business Wire",
-      "date": "2026-09-28T21:05:31Z",
+      "date": "2026-09-28T21:05:00Z",
       "topic": "Insurance AM",
       "summary": "",
       "link": "https://news.google.com/rss/articles/CBMi7gFBVV95cUxPXzM2SU5iNzRjanV2ZVZvZExCWWxCU04xYzFzU0VoOWowUnNrajA1SW5fNEdJVEFZLXdXb29HenRobXFuVEhCT0d0RnlYelA3M19JMDdhUl9jdEFyM2tFbElUVTk5NXhtNHEyY0RNd0puZGZQcThPMkcyWWVNbGFsQWw3SHRfX2c5THlYWXNGekNocjlha3ZWcjNndXBNWDlJTVBmYnBVTmFta3BqX2c0eEFrRk9FRHBBUlFaampqdm1KVUtGbnZIRW1RaC0yTDdFZEcyUk1qVmhTWU5DLVpXU3V2ekpldzJldWpGUk9n?oc=5",
@@ -230,7 +240,7 @@
     {
       "id": "f910afc7c4a8",
       "title": "Abacus Global Completes Over $400 Million Securitization Of Life Insurance Assets",
-      "source": "pulse2.com",
+      "source": "Pulse 2.0",
       "date": "2026-09-26T20:51:19Z",
       "topic": "Insurance AM",
       "summary": "",
@@ -295,16 +305,6 @@
       "topic": "Private Credit",
       "summary": "",
       "link": "https://news.google.com/rss/articles/CBMiygFBVV95cUxOYkYwb2V3Q3k1WGQyX0tLU291V1FELWM2UG5ZLTRuMFlGQ2FzT09RSnllMkxvb1dodnNmOGV5cHlrNll5eGxHMUdibkFOMjR5WTJwRFZhZ19xZE5SbHY2RHZrb2huX3FjX0R4VE1nODExQ3FFc0hya3BXbVVFM3plaENPWEo0dWlLQjVFTTQ3Z1NoMWRTNC1ZRndxWUZ1cjZTWGVvcnpLY0hWRGZ2aVZiVlBvS2otdDljZkpRX1lTcXo0ejFncGppMXhn?oc=5",
-      "isNew": false
-    },
-    {
-      "id": "2141551b1901",
-      "title": "Private credit steady as private equity rebounds",
-      "source": "Alternative Credit Investor",
-      "date": "2026-09-24T11:43:55Z",
-      "topic": "Private Credit",
-      "summary": "",
-      "link": "https://news.google.com/rss/articles/CBMinwFBVV95cUxNNmNVeU9ialBGa3E0NWZBVkZGRmRXOGx5ckgxQ00xLWJydHF2ak8tMUhFMWRoZ3I2M1VsT25BMTBjNHJQMmdMcjBWMVh3MW1nVmVtLWdaVUhHUk5sdk1Yek1rcHFiYUxFaUs2ckpxTG1FWUFJYlFLTE9YWTcwUU9HQmxhd1dETVcwZmJKWGNOVDRRRTRnX1ZLZ3ZpYnNGU28?oc=5",
       "isNew": false
     }
   ]
