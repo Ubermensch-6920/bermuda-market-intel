@@ -1,5 +1,5 @@
 {
-  "updated": "2026-10-04T05:57:33Z",
+  "updated": "2026-10-04T12:27:03Z",
   "topics": [
     "Insurance AM",
     "Private Credit",
@@ -7,16 +7,6 @@
     "Structured Credit"
   ],
   "items": [
-    {
-      "id": "b9e8e5f3b036",
-      "title": "Prudential Financial (PRU) Q2 2026 Earnings Call Transcript",
-      "source": "fortune.com",
-      "date": "2026-10-03T01:57:26Z",
-      "topic": "Insurance AM",
-      "summary": "",
-      "link": "https://news.google.com/rss/articles/CBMidEFVX3lxTE1xRFlqbXBrU09WRk5xd0tPU2FHOUpiV19iMDRMSGk4aldwUnBlVmdPVGtrVDItbl93LWxRVmZ1X2RPUVdQNk1KRVIwYVV3a0JBbWV6eWdyS1dQVUF2U0I1SE9nZDNZbXU3MkdERFhkQ252d1RI?oc=5",
-      "isNew": false
-    },
     {
       "id": "e10685ce7866",
       "title": "Week Ahead for FX, Bonds: Fed Minutes in Focus as Near-Term Rate-Hike Prospects Dim",
@@ -65,6 +55,16 @@
       "topic": "Rates & Macro",
       "summary": "",
       "link": "https://news.google.com/rss/articles/CBMigwFBVV95cUxNQnJCNkJ1amNqVkhnUnRoYy1TN0t0ZkxmSFlqSVY5aXQzVUpCanhTamN2eDBDNjhmeTNnSUw2V2xDODV4UWJZTE5YcE5WZWFuaGJBX3U0NjV3ZWluZVVXRVdCLWdtV3gwSF9jRzVpNEpoSU9NeVdTNVpqeFVtT3RUVXh4Yw?oc=5",
+      "isNew": false
+    },
+    {
+      "id": "3d8575e98247",
+      "title": "Why are world bond markets selling off again?",
+      "source": "Reuters",
+      "date": "2026-10-01T11:17:00Z",
+      "topic": "Rates & Macro",
+      "summary": "",
+      "link": "https://news.google.com/rss/articles/CBMingFBVV95cUxQbHlJS0dDUGUxQWFaeWpJX21IdEZqSmw1UFRBcmcxajlsZW1yNlVVRm1ZQUVHQ0huUGdIdnBRTU1id0k3dVl1SlJ0UkxmNFUwNy1nWTNDcWtZdVpqOHp3czVja1hNWnZfQ2RxZnNUNDJYdXlSdVluME5vTjlhNVlYOEhUVVZRNVd1RzU3NWJyb0Q5R1hxZ2NOVGdZSFBnQQ?oc=5",
       "isNew": false
     },
     {
@@ -210,7 +210,7 @@
     {
       "id": "68059848f9b2",
       "title": "New York Life Investment Management to Acquire Majority Ownership Stake in Invictus Capital Partners",
-      "source": "Business Wire",
+      "source": "businesswire.com",
       "date": "2026-09-28T21:05:00Z",
       "topic": "Insurance AM",
       "summary": "",
@@ -298,13 +298,13 @@
       "isNew": false
     },
     {
-      "id": "6e2b5445ad0d",
-      "title": "PIC and USS target more infra debt, eye digital space",
-      "source": "Infrastructure Investor",
-      "date": "2026-09-25T15:14:07Z",
-      "topic": "Private Credit",
+      "id": "50e86e724bb5",
+      "title": "US insurance regulators defend oversight of insurers\u2019 growing private credit ties",
+      "source": "Alternative Credit Investor",
+      "date": "2026-09-25T12:04:56Z",
+      "topic": "Structured Credit",
       "summary": "",
-      "link": "https://news.google.com/rss/articles/CBMilwFBVV95cUxQSzd6N2VicVhUcU5NeUNfZjNhZ1JzeFBtLVVzZkE0c3o0REZpUWNDZm96VEExcTJGbEFHYl9SS0ppb1h6YjRDZ2hFM3o3czVGWEVYeTQ1Y1VNZy1BcnlPQmFNeWh5ZGxOZS1ReEZwVXZleUIxd2MydjJ0UzJ4ako2UGhmcWVRWFdNdC1CNGg1WDl2YmVYV1RB?oc=5",
+      "link": "https://news.google.com/rss/articles/CBMiygFBVV95cUxOYkYwb2V3Q3k1WGQyX0tLU291V1FELWM2UG5ZLTRuMFlGQ2FzT09RSnllMkxvb1dodnNmOGV5cHlrNll5eGxHMUdibkFOMjR5WTJwRFZhZ19xZE5SbHY2RHZrb2huX3FjX0R4VE1nODExQ3FFc0hya3BXbVVFM3plaENPWEo0dWlLQjVFTTQ3Z1NoMWRTNC1ZRndxWUZ1cjZTWGVvcnpLY0hWRGZ2aVZiVlBvS2otdDljZkpRX1lTcXo0ejFncGppMXhn?oc=5",
       "isNew": false
     }
   ]
