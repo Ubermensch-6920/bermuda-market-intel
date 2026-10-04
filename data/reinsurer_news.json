@@ -1,5 +1,5 @@
 {
-  "updated": "2026-10-04T12:27:05Z",
+  "updated": "2026-10-04T18:42:10Z",
   "lookback_days": 14,
   "feeds": [
     {
@@ -17,7 +17,7 @@
     {
       "name": "Google News: Athene",
       "ok": true,
-      "count": 7,
+      "count": 9,
       "error": null
     },
     {
@@ -29,7 +29,7 @@
     {
       "name": "Google News: Fortitude Re",
       "ok": true,
-      "count": 6,
+      "count": 7,
       "error": null
     },
     {
@@ -89,7 +89,7 @@
     {
       "name": "Google News: Talcott",
       "ok": true,
-      "count": 6,
+      "count": 8,
       "error": null
     },
     {
@@ -128,7 +128,7 @@
       "id": "f21807a7ca43",
       "title": "Reinsurance Group of America upgraded to buy af...",
       "link": "https://news.google.com/rss/articles/CBMikgFBVV95cUxNU1d4V1A1RnJCeUdHZEFELXFpSVRsZGRpR1Z3M3pnR09VY3NBdXRWY3oyV2VrdWl5b0ZJbFdhUmZWQW0zajRqaHFDVHVOVjR1LVI5SHNxUnNiRHpXTG1vNGpSd0lZbC1kbEdQdmliTmdNMlFjd1ZycXJia0hZYWNGOEllWm5PYTMtcUJYelp3N19QZw?oc=5",
-      "source": "Pluang",
+      "source": "pluang.com",
       "feed": "Google News: RGA",
       "date": "2026-10-03T03:55:55Z",
       "summary": "",
@@ -185,10 +185,22 @@
       ]
     },
     {
+      "id": "64bdca379950",
+      "title": "Reinsurance Group of America, Incorporated (RGA) latest stock news and headlines",
+      "link": "https://news.google.com/rss/articles/CBMiV0FVX3lxTE5CdHFXVjBaOUtpRG1uM296dngxVElqR0x6cFZ2NjVySDAyaUZSQkpGdmRxWkk2U3VNR3lFQUxxeTdvbmxWQ3lybXM4cmVvN3VIcGJHS3pWNA?oc=5",
+      "source": "Yahoo Finance Australia",
+      "feed": "Google News: RGA",
+      "date": "2026-10-02T16:08:40Z",
+      "summary": "",
+      "companies": [
+        "RGA"
+      ]
+    },
+    {
       "id": "ddfba5477534",
       "title": "Will Reinsurance Group (RGA) Beat Estimates Again in Its Next Earnings Report?",
       "link": "https://news.google.com/rss/articles/CBMiowFBVV95cUxPeUVIUGR4cXpLZEkwa3FKZlR0a293clBKVjhFREozWXp4NmR3RGRMVTFodUFNWDdEUnd2Z0RNTm1fOVUwdnN2NXVBX1k4RVFvWi1pNG5WWkpKMnBXcGVtYkZ3RzZHQ2JSR0ZoaFlwb2NpV1JaRUZBN0tIVHpJX3lvNU1YSnk4U1pKaFkzc1RWNW9paWJkSzJaS0Z0T0FmekVBRVFB?oc=5",
-      "source": "finance.yahoo.com",
+      "source": "Yahoo Finance",
       "feed": "Google News: RGA",
       "date": "2026-10-02T15:10:04Z",
       "summary": "",
@@ -221,30 +233,6 @@
       ]
     },
     {
-      "id": "64bdca379950",
-      "title": "Reinsurance Group of America, Incorporated (RGA) latest stock news and headlines",
-      "link": "https://news.google.com/rss/articles/CBMiV0FVX3lxTE5CdHFXVjBaOUtpRG1uM296dngxVElqR0x6cFZ2NjVySDAyaUZSQkpGdmRxWkk2U3VNR3lFQUxxeTdvbmxWQ3lybXM4cmVvN3VIcGJHS3pWNA?oc=5",
-      "source": "Yahoo Finance Australia",
-      "feed": "Google News: RGA",
-      "date": "2026-10-02T11:17:34Z",
-      "summary": "",
-      "companies": [
-        "RGA"
-      ]
-    },
-    {
-      "id": "93badd9f437b",
-      "title": "Lincoln National Reports Closing of $6.3 Billion Reinsurance Transaction With Talcott",
-      "link": "https://news.google.com/rss/articles/CBMitgFBVV95cUxPZDJLelk5RVNTWjUxRXY2MjRUNTdsZ3FYMXdRT1V4aEIyZDIycWRuOW5vUjU5QTljTG4yak9wXzhURzJlS05OWnhNWDBkM3RPQU95UzQxQmtTSF92T29ZeC1XZ3ZTRWJDRW1rbHpJTU9KRVY3eV9zM2VQaWVnVVcwTGFhaktvcThBN2FaQ1lqeTl5Yld0c3dtX1FoeE5YZU9ZdnIwMVBfZW9pcUtJRERDM3RMZ1pnZw?oc=5",
-      "source": "Moomoo",
-      "feed": "Google News: Talcott",
-      "date": "2026-10-02T11:04:03Z",
-      "summary": "",
-      "companies": [
-        "Talcott"
-      ]
-    },
-    {
       "id": "6fd06032cc65",
       "title": "Lincoln closes $6.3bn reinsurance transaction with Talcott",
       "link": "https://www.reinsurancene.ws/lincoln-closes-6-3bn-reinsurance-transaction-with-talcott/",
@@ -269,10 +257,22 @@
       ]
     },
     {
+      "id": "93badd9f437b",
+      "title": "Lincoln National Reports Closing of $6.3 Billion Reinsurance Transaction With Talcott",
+      "link": "https://news.google.com/rss/articles/CBMioAFBVV95cUxNOXZEa3g5UWxMbWdsU1JHdklJbl9obXJoRk56QkNXbHZNaXdIZmhhcExMSW5velk1UjRvMTl6RGlMTnZsUGdtTnBuRVdvX2ZTM0g5TEhSbHp5YTFWeWxDS0ZwdTBESk5GNXNfUndhYnEyZWdoLW1yTHd4WE16MWEycUdFN18tZ1FrSTdaNVFBb1VNeXVZdVhYaWVtUEN6cllH?oc=5",
+      "source": "Yahoo Finance",
+      "feed": "Google News: Talcott",
+      "date": "2026-10-01T21:09:38Z",
+      "summary": "",
+      "companies": [
+        "Talcott"
+      ]
+    },
+    {
       "id": "30601983038d",
       "title": "Lincoln Financial Closes $6.3 Billion Reinsurance Transaction with Talcott",
-      "link": "https://news.google.com/rss/articles/CBMimAFBVV95cUxQWUl0cW5SX2VndmFNV01qOC1GdjA3M3hKc0lCZWxjMXg1X2pkTGt5TDhVMWcwSUFmWFliRk93U29LaFlnMU1YQ18za0czSnQyQmw2ckN1amVzeFQ3R3BWTVF0RmdTZmxucXQ3SE93QWtGcDB0QlZQQ2hIRGduQ25pNXg1Rm5URGNNdjFzbmZBZVRzM3hZMlJWdA?oc=5",
-      "source": "finance.yahoo.com",
+      "link": "https://news.google.com/rss/articles/CBMizgFBVV95cUxPNTduSjdDbGM0TlBraGUyTjl0Y0hWODNGWEZ0YTV0VERaX0xNWm85cVVmeXdxWFlXeWRHOXBtT1hjbHpnSW9SWGlNLTVsSE1GMkMtSWw0dmE5QVppNXBKdjFYS2E1Y0tXLTJ5djdvUEVmU3U4UUhsYmVuTXo5SW1zTlQ3ZXFvY3BIbk9KZkszQmFLcU5sU3B1SWt5bjlqb1lFV0tIVnh3akVvaHpaRGo5ZjNNTHdBZGtCVFhjSTRMcEJlZEp4NTFOc3VKaklXUQ?oc=5",
+      "source": "Business Wire",
       "feed": "Google News: Talcott",
       "date": "2026-10-01T20:15:00Z",
       "summary": "",
@@ -284,7 +284,7 @@
       "id": "3b1cd59c273a",
       "title": "Are Finance Stocks Lagging Reinsurance Group of America (RGA) This Year?",
       "link": "https://news.google.com/rss/articles/CBMiqAFBVV95cUxQQlh1YUkxSWE2QzVSUGg3RF9NaUU1a0Z6aHNLUzNHNkt4ZTFYbkJLckRsX3NXVEVrRl90eDNKXzdZNFNZMmw4dDg0YkM2TFpIVERqS0I2a0tTc3BZNG1JY0ZUdWNmR3ZCbHRJTjBZMWR0WjM3aG9palFxTlFBc19WZWhwOEhiMDZGOUtTcGZBcTgteF9ZV0dFWlJVcFZrOEVGam5SR3UzSU0?oc=5",
-      "source": "finance.yahoo.com",
+      "source": "Yahoo Finance",
       "feed": "Google News: RGA",
       "date": "2026-10-01T18:39:35Z",
       "summary": "",
@@ -308,7 +308,7 @@
       "id": "1afa5ded1043",
       "title": "Reinsurance Group of America, I (RGA) Stock Forecasts",
       "link": "https://news.google.com/rss/articles/CBMijwFBVV95cUxNUnNLTXVqQU1KTlR5SWpqQjFMNDJZNHVfRUtjUDhEekF4WGNBOGhOY3E2eUowUnFONjlsQ0dKZ3FZaEhqbEFTZ3Vzd1BkdlJRTmRMV29XYU1NX3R2RjNoMnBrWDl1QnB3OEVBc1BzMjByZVpDdE1SQXU2TEdqeFhWTmQ2SnpqRW5wUTI3cGt0RQ?oc=5",
-      "source": "finance.yahoo.com",
+      "source": "Yahoo Finance",
       "feed": "Google News: RGA",
       "date": "2026-10-01T03:37:30Z",
       "summary": "",
@@ -356,7 +356,7 @@
       "id": "294d3e80954e",
       "title": "Global Atlantic Names Dan Farrelly Head of IMO and IBD Channels",
       "link": "https://news.google.com/rss/articles/CBMivAFBVV95cUxQc0hOeFFFOHlVYTk4T0UydktyRTFBRU5meXNIUVd2NFNtUmkyUWs3NWtESG8yMTJUaFQ3TFdtYnI2cFVNSzdxb2pWMVkwV1JBSGliNmYxNUpTR1FhSFd5WXVGSG9XWEt3ajJiMGFYeEhKSGpFZzNMbmtydVNqN25qMmRnaTJxQmY2Smx5UWZUM2FVRkZwVUkya2NNQ2xVRldWQzIxZ3N0aHVFaHBHaHUtRkNoOU5UOTUwSE5pVg?oc=5",
-      "source": "businesswire.com",
+      "source": "Business Wire",
       "feed": "Google News: Global Atlantic",
       "date": "2026-09-29T11:00:00Z",
       "summary": "",
@@ -500,7 +500,7 @@
       "id": "502bb76b019e",
       "title": "Should Value Investors Buy Reinsurance Group of America (RGA) Stock?",
       "link": "https://news.google.com/rss/articles/CBMipAFBVV95cUxOX0VjSENUVzNXdmtiUC1ZS2V2SmhnZmlKQjhBRElaSTZGWXdiQ3hka1E3Nm1IMi1ES0dxUVBmU1pBSmV1OS1HZmk4NkpQZWZCSXN2MGhpa0FXU0oyU056SXc1aHZEM25GVnRYRlZpX01yXy1rbG1mUzhVemNvZ0poUWtEbFVsQ1VtT3h0WmhJSFBBOVF3NVRVVEdTNmh5ZlF5ekNoUw?oc=5",
-      "source": "finance.yahoo.com",
+      "source": "Yahoo Finance",
       "feed": "Google News: RGA",
       "date": "2026-09-28T12:40:02Z",
       "summary": "",
@@ -512,7 +512,7 @@
       "id": "3cfe6135446b",
       "title": "Fortitude Re Acquires Dayforward to Broaden Capabilities",
       "link": "https://news.google.com/rss/articles/CBMiswFBVV95cUxQWFlMQ1lrdkVJbGUzV2l5a1R0MFdXUnpWSFpiWmhRQlFPM0NvcVRveW1kZTFLb0xYWWRtM0pyRDczZk45TUFBLWg4U2pyem5wVk1pS3FOTWZxeHhJVjMzRmVnUWZxLWN1OWhWdTROSmhzYmUwQ0FodHhkejlyNGhCalZsd1BiNFk1THhtSHBOd3plNmJ5cTNac1pvajVOakxNUWhMMFNyRXhZUEwyZGYtNnVtaw?oc=5",
-      "source": "businesswire.com",
+      "source": "Business Wire",
       "feed": "Google News: Fortitude Re",
       "date": "2026-09-28T12:00:00Z",
       "summary": "",
@@ -608,7 +608,7 @@
       "id": "86b19d684ede",
       "title": "Reinsurance Group of America (RGA): Buy, Sell, or Hold Post Q2 Earnings?",
       "link": "https://news.google.com/rss/articles/CBMinwFBVV95cUxQY1NXZTRZWUVMaWFnM0tNbXJMOFpNUHJEOGNxR05DOHdTMzB5U28ycnM3RDFkOC1qSnJ6UmdtejJUb2lldjFQS290UE9WNWdOTGgwQUczWnAySUQxZG5rSVRhbGVpYjFqUzUxVFlWdlVqTDV3RnRUVFhGeWpjUE1xa2RNNjVaS2xrZW96UUtXenh5YUNqbWdLWjgzZUdqYkE?oc=5",
-      "source": "finance.yahoo.com",
+      "source": "Yahoo Finance",
       "feed": "Google News: RGA",
       "date": "2026-09-22T07:00:00Z",
       "summary": "",
@@ -632,7 +632,7 @@
       "id": "dc755937c783",
       "title": "RGA Expands Growth Runway Through Financial Solutions & Longevity",
       "link": "https://news.google.com/rss/articles/CBMiogFBVV95cUxOaVU5cVZRVmkzcS1sSFJPOXpKWFdaSWpHZ1R6cHBYY0hscnBQR3NGM3RiWkVQMU4yNXN3eUNLOTlHNU5GTThXaE5HYlFySkNpVWFocnZzSjBlaGZzQWxsTzhyRUR1U3V1LWpzMzBQMTd6V0I3TTdLaEs1M190cTVzamNFSWFZbE5fa2xVRFROc3lMeDN6RzEyMXNkVFdMYkkwTVE?oc=5",
-      "source": "finance.yahoo.com",
+      "source": "Yahoo Finance",
       "feed": "Google News: RGA",
       "date": "2026-09-21T07:00:00Z",
       "summary": "",
