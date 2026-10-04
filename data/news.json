@@ -1,5 +1,5 @@
 {
-  "updated": "2026-10-03T21:20:07Z",
+  "updated": "2026-10-04T05:57:33Z",
   "topics": [
     "Insurance AM",
     "Private Credit",
@@ -8,10 +8,20 @@
   ],
   "items": [
     {
+      "id": "b9e8e5f3b036",
+      "title": "Prudential Financial (PRU) Q2 2026 Earnings Call Transcript",
+      "source": "fortune.com",
+      "date": "2026-10-03T01:57:26Z",
+      "topic": "Insurance AM",
+      "summary": "",
+      "link": "https://news.google.com/rss/articles/CBMidEFVX3lxTE1xRFlqbXBrU09WRk5xd0tPU2FHOUpiV19iMDRMSGk4aldwUnBlVmdPVGtrVDItbl93LWxRVmZ1X2RPUVdQNk1KRVIwYVV3a0JBbWV6eWdyS1dQVUF2U0I1SE9nZDNZbXU3MkdERFhkQ252d1RI?oc=5",
+      "isNew": false
+    },
+    {
       "id": "e10685ce7866",
       "title": "Week Ahead for FX, Bonds: Fed Minutes in Focus as Near-Term Rate-Hike Prospects Dim",
       "source": "WSJ",
-      "date": "2026-10-02T16:13:37Z",
+      "date": "2026-10-02T16:12:00Z",
       "topic": "Rates & Macro",
       "summary": "",
       "link": "https://news.google.com/rss/articles/CBMizwFBVV95cUxNd0pFZWhSVE1ibzBDZHRBWDE0MWNOQ1pMdUdNVUM5SXNnWVlLa1JWRy05c1ZzbmxIcDlDVVB6eUV4a2lfSWo3YVM4REdCNDU5U0dZRGhBTFFZRFkyRV9BVE0wUTIxcW5sM1ZERWVMWXZfb3ZlRmdBelNlQlVBajhCckZkUUh3NzhTWXRobTBsM3RHNU13WjdnZE0tNWtjVWVrbVZtUzQ3ck8zV3lXMnVMeC11Z2xzNTRPWHJTNktvRWFucHlZU3ZGb0tQRTNMa1U?oc=5",
@@ -70,7 +80,7 @@
     {
       "id": "e919491abe13",
       "title": "Private credit and UK life insurers: structuring for matching adjustment",
-      "source": "lexology.com",
+      "source": "Lexology",
       "date": "2026-09-30T19:11:50Z",
       "topic": "Private Credit",
       "summary": "",
@@ -105,6 +115,16 @@
       "topic": "Structured Credit",
       "summary": "",
       "link": "https://news.google.com/rss/articles/CBMitwFBVV95cUxOZ3RIakhYZXRsR0JySGdPMG4wWUxwMkdXY2Y0MW5xZDFMVDRHSDBBZzVtLVpNOXk4WTFHejdnam16QUl6Ym5MUm9QX3BTc1B2eDBWaHB5M0RLaEtrS2dRUG9PSzNOSG5HWngta2RHOG1JWU1Ubl9EbUVJOGlxRGV5Y2pUaGQ1QnVXTjAtQWpsX0lYYmxSWFJNSUtiNFJjdnpBS2NVd1hEMm9udXd0MmY5cDloTjlvWnM?oc=5",
+      "isNew": false
+    },
+    {
+      "id": "2ecf4f81febb",
+      "title": "See How Mark Walter Turned a Ho-Hum Insurance Company Into a Risk-Taking Lender",
+      "source": "WSJ",
+      "date": "2026-09-30T07:00:00Z",
+      "topic": "Private Credit",
+      "summary": "",
+      "link": "https://news.google.com/rss/articles/CBMisgFBVV95cUxOSFJJcVBtWEtJcEdLTS1IRnNHakdQN0s3SDhBTDVxbGRZYXZOaEg2R25UcmdGdlhleWZZVXFSdHNlYkdTbVhzT0tidFlpVC1CQkZwbzN4M01teWJrV19hanR5bThtME51VHNpeXRRVzM3blhoRjNHYmotajdrMkFndjhvam9ZcWVWd0pZNFNpV2dxSVJPZnVzcDl1SW9oNG1EcVkzWUZjTzNqZmhPT3F4MzVR?oc=5",
       "isNew": false
     },
     {
@@ -208,16 +228,6 @@
       "isNew": false
     },
     {
-      "id": "2ecf4f81febb",
-      "title": "See How Mark Walter Turned a Ho-Hum Insurance Company Into a Risk-Taking Lender",
-      "source": "WSJ",
-      "date": "2026-09-28T09:30:00Z",
-      "topic": "Private Credit",
-      "summary": "",
-      "link": "https://news.google.com/rss/articles/CBMisgFBVV95cUxOSFJJcVBtWEtJcEdLTS1IRnNHakdQN0s3SDhBTDVxbGRZYXZOaEg2R25UcmdGdlhleWZZVXFSdHNlYkdTbVhzT0tidFlpVC1CQkZwbzN4M01teWJrV19hanR5bThtME51VHNpeXRRVzM3blhoRjNHYmotajdrMkFndjhvam9ZcWVWd0pZNFNpV2dxSVJPZnVzcDl1SW9oNG1EcVkzWUZjTzNqZmhPT3F4MzVR?oc=5",
-      "isNew": false
-    },
-    {
       "id": "4b2ea142ed40",
       "title": "Opinion | There\u2019s a New Threat to Your Personal Finances",
       "source": "The New York Times",
@@ -290,21 +300,11 @@
     {
       "id": "6e2b5445ad0d",
       "title": "PIC and USS target more infra debt, eye digital space",
-      "source": "infrastructureinvestor.com",
+      "source": "Infrastructure Investor",
       "date": "2026-09-25T15:14:07Z",
       "topic": "Private Credit",
       "summary": "",
       "link": "https://news.google.com/rss/articles/CBMilwFBVV95cUxQSzd6N2VicVhUcU5NeUNfZjNhZ1JzeFBtLVVzZkE0c3o0REZpUWNDZm96VEExcTJGbEFHYl9SS0ppb1h6YjRDZ2hFM3o3czVGWEVYeTQ1Y1VNZy1BcnlPQmFNeWh5ZGxOZS1ReEZwVXZleUIxd2MydjJ0UzJ4ako2UGhmcWVRWFdNdC1CNGg1WDl2YmVYV1RB?oc=5",
-      "isNew": false
-    },
-    {
-      "id": "867cc7d53dad",
-      "title": "Rich People Fleeing Private Credit Haven't Learned Their Lesson",
-      "source": "FA Mag",
-      "date": "2026-09-25T13:32:12Z",
-      "topic": "Private Credit",
-      "summary": "",
-      "link": "https://news.google.com/rss/articles/CBMipAFBVV95cUxQODRRVzlnUmc5eHhyclNaeU5JeUMwZHBFSVRSOUw3VlJGbVFpZmtseWl0RnNhR0xsd1VXcjZhQVdycUZtcnl3a2ptTVRKaFVoSDduR0I0UWVYS1VvRnBuOXUtelB3N3h5T2M3aDRZTHZFQ1BFd3VXSmdVYzVIM1h2Mm9ieFZ6WFNSTThFZnBXbEkzbjRsdklRdU1waDFqSUVKUF92Ug?oc=5",
       "isNew": false
     }
   ]
