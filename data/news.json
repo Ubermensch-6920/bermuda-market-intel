@@ -1,5 +1,5 @@
 {
-  "updated": "2026-10-05T05:45:06Z",
+  "updated": "2026-10-05T14:44:15Z",
   "topics": [
     "Insurance AM",
     "Private Credit",
@@ -7,6 +7,26 @@
     "Structured Credit"
   ],
   "items": [
+    {
+      "id": "a67632ff09bc",
+      "title": "2026 KKR Insurance CIO Survey",
+      "source": "KKR: A Leading Global Investment Firm",
+      "date": "2026-10-05T12:02:33Z",
+      "topic": "Private Credit",
+      "summary": "",
+      "link": "https://news.google.com/rss/articles/CBMiZEFVX3lxTE0wbjgyYzRxNVIwa3kxNlZSTjVaYzUzckdrRGxnMUx4dzR2eFpCaDYyRmdRNkVYZVZpMmNfaFV6cE5OZXdER0JmTVlsNV9fY01YaXZDWkM1Ums1VzNENzBCN2FIbTY?oc=5",
+      "isNew": false
+    },
+    {
+      "id": "6c330dfb4732",
+      "title": "The Changing Story Behind Higher Bond Yields",
+      "source": "Capital Economics",
+      "date": "2026-10-05T11:49:16Z",
+      "topic": "Rates & Macro",
+      "summary": "",
+      "link": "https://news.google.com/rss/articles/CBMihAFBVV95cUxNX1ZuQm9YVmIzUFBhNzJUV2lBQkdyemNDM0ZCN2RPMnRsa1pkaUNsSWVXTHpNVWlQZU5YQTBSdWdtWGQ3Ry1HUDRDRExkUmg3ckxqbXFnOGdiR010a19KTC16d1Q3TDBGbVRrX25HVHVQOU5XVnhOV2VjNGFrN2lJY05nc0o?oc=5",
+      "isNew": false
+    },
     {
       "id": "3b80b3a9e1b4",
       "title": "Insurance Lenders Embrace Risk In CRE Loans",
@@ -55,6 +75,16 @@
       "topic": "Rates & Macro",
       "summary": "",
       "link": "https://news.google.com/rss/articles/CBMisAFBVV95cUxNYnlDY194NEJMQ28xWnRVNDJWcXZnMW1mdzhqazd0MU5sWWN2ZkpYMTAyTnRXM1R6VE1oTUFYUnNJNEM2TXdDemEzdEw4QXJhS0g2SzRJUmR5NFpJNGl4d0EwWXFidXBKNU1sYllZRDBEQ3lUS3VIS1NPRWZaWEV0U2J2c0tOT3dzOEx0aHQzZnZpUllRQ3pBWmkxcFBxNDFOdlM2WmNYVjNVT2daUERiYQ?oc=5",
+      "isNew": false
+    },
+    {
+      "id": "0c7a54522cb1",
+      "title": "Global bond rout deepens, pushes US Treasury yields to 24-year peak",
+      "source": "Reuters",
+      "date": "2026-10-01T16:56:02Z",
+      "topic": "Rates & Macro",
+      "summary": "",
+      "link": "https://news.google.com/rss/articles/CBMipAFBVV95cUxQUVhtMHBxQWdQNG5xWlpJeHkzeVpHQXgtSDVVN3hVdTFONDZnanFkcDctT2dzZU1QVFRpT2lWdEZvQ2xJdzZ6dDJQdjNpT2FuekdycUxURXRtby02MUhXRlhJMWo0emY3YTBsRUFLZEx0Rjl1b0R0WGItU2ZrclFBUERFamRxdzdGRE1sRXlTb09VRktCWTExaU1MblhDZ19yZURhZQ?oc=5",
       "isNew": false
     },
     {
@@ -160,7 +190,7 @@
     {
       "id": "2fff5938a737",
       "title": "Cayman well placed as rated fund structures move offshore, Proskauer partners say",
-      "source": "caymanfinance.ky",
+      "source": "Cayman Finance",
       "date": "2026-09-29T20:08:15Z",
       "topic": "Structured Credit",
       "summary": "",
@@ -275,36 +305,6 @@
       "topic": "Insurance AM",
       "summary": "",
       "link": "https://news.google.com/rss/articles/CBMiygFBVV95cUxNY2ZjVzZrc3lXbjhqVWljeDlfbWM2ajJ6NVN0OVZQOEdobE9TZ0IxMTNMNHE2bkNfTlZQaWNzWXdsQXJMZ3d0QUZWWTkwRkM0WmR0X0llNG9iT3pPNWhhSVpmWjZZamJrNXc4MnFyMzBvSXJiZUxsRV9uU2ZDMzN6SU15ZzlKSE00Xzd4VF9IS2ZRZVJQOElNckRvblQ0V211SUlMMHJnNS1Hak9LOS00ZEZFUXduVFJqdUlYVTVkMGR6RFZId0JTSXdB0gHPAUFVX3lxTE9oaWdBUUZfbExOV3BDZ0s3N09mVmQ1UE9idGxiM1VKODN5VnM4VHJrNEVkWTlRZmgtNGJVcDRWb1hMek9mYlJnWWtxdHg5VGI4b3FNNmI4SXRqOTV3enVUa1RmbGM5VkZTVG1RQWhEX3dXTW5WbHpBdmNQbDdyallBbHl1YnkzUFhrQ1AxT29NR05ac0RuMmh2THZ1aFowN0QwcmNGaDV2U2V0NHFHNmFQanVuNmM5a3hNU1ZNcEJ1M1ZtWlYtcExQa1lnRkM4VQ?oc=5",
-      "isNew": false
-    },
-    {
-      "id": "b01d5288823c",
-      "title": "Bank of Japan debated need for faster rate hikes, July minutes show",
-      "source": "Reuters",
-      "date": "2026-09-28T00:58:00Z",
-      "topic": "Rates & Macro",
-      "summary": "",
-      "link": "https://news.google.com/rss/articles/CBMisgFBVV95cUxNM0Rid1RQcVo2QlNMTTZDOGEyYmRtQnFYVVJDN1pBMGpwNGxzS19vN1VBMHVXbDFtWkZHOVJhZTNxaWptMGsxbkxDQ2ZSNjZkNFdMTUQwZEhuaW1FUGhHUnJhWGU1eU5NQ1QwRWpDUURJQS1HUUdNYmFZbldSdFk4VGRXSGhUTkVPbk1QSUxzMV9ZckpvMWJYaTNPaWswYnpCTkpEUk9xNUhFMjEyVDRJek93?oc=5",
-      "isNew": false
-    },
-    {
-      "id": "f910afc7c4a8",
-      "title": "Abacus Global Completes Over $400 Million Securitization Of Life Insurance Assets",
-      "source": "Pulse 2.0",
-      "date": "2026-09-26T20:51:19Z",
-      "topic": "Insurance AM",
-      "summary": "",
-      "link": "https://news.google.com/rss/articles/CBMiogFBVV95cUxPdTFxUlV3WU9xT3BFNThfSk42SEtMc1VWSUwzV3gyN183NzVsNERXR1U4c0I1d2Q2Ul9lX2FLdHNBdDVwbmNYUm5TZ2QwWjBjdHlaZ0YyQ3hDdEgtR2liUk1UTDJLM2Zad0w3MFhOb293cE5UVmdnT0pWdzhCUTdGR1NrYWdxdzVfbjVJbnJWU1BTVjBZeXlnLVZwT3B1R1ZvSGfSAacBQVVfeXFMTXRGRlVYbU14aGpXZjhKdjVJTVRsLUVHSWhvZjRfWjAyc0VQT0tNMC1GM3lDWmxBQzFkMG1OdjN1Y0JiLUZXdzVDYXM5bENSOHdreXV0Z3RVczZRN0hLWmY4YzNmalliOGpyVS1PVXBDQ3dEQzZ1aE1kWGJhazlieEF5WnF1NFNSUFVhMGRIb3phYWdPN2NmUHVlWHNleE1SZ3FpbHNtWlU?oc=5",
-      "isNew": false
-    },
-    {
-      "id": "57fa6c31471f",
-      "title": "NAIC tightens oversight of private credit and insurer investments",
-      "source": "Beinsure",
-      "date": "2026-09-25T19:06:35Z",
-      "topic": "Structured Credit",
-      "summary": "",
-      "link": "https://news.google.com/rss/articles/CBMifkFVX3lxTFBqaEg4OF9tTnVQZUYyMTZZXzFCX1RsTmRzUWptUWdVOXMwVVNOUkZ3OFFmbC16MGpvNm1lWkZKRVFWVVhBX1dPTUlfeGlZUDdVcXVodWdPTVJXVFQ2Yy1rTXlzelAtaC1nYTRta3VEODlRbTVIZFlDSW9iUjRfZw?oc=5",
       "isNew": false
     }
   ]

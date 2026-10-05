@@ -1,5 +1,5 @@
 {
-  "date": "2026-10-01",
+  "date": "2026-10-02",
   "source": "FRED ICE BofA / TradingEconomics",
   "status": "partial",
   "sovereign": {
@@ -14,58 +14,58 @@
   "corporate": {
     "aaa": {
       "name": "AAA Corp",
-      "spread": 42,
-      "prior": 41,
+      "spread": 41,
+      "prior": 42,
       "series_id": "",
-      "date": "2026-10-01",
+      "date": "2026-10-02",
       "source": "credit.json"
     },
     "aa": {
       "name": "AA Corp",
-      "spread": 61,
-      "prior": 60,
+      "spread": 60,
+      "prior": 61,
       "series_id": "",
-      "date": "2026-10-01",
+      "date": "2026-10-02",
       "source": "credit.json"
     },
     "a": {
       "name": "A Corp",
-      "spread": 73,
-      "prior": 72,
+      "spread": 72,
+      "prior": 73,
       "series_id": "",
-      "date": "2026-10-01",
+      "date": "2026-10-02",
       "source": "credit.json"
     },
     "bbb": {
       "name": "BBB Corp",
-      "spread": 106,
-      "prior": 103,
+      "spread": 104,
+      "prior": 106,
       "series_id": "",
-      "date": "2026-10-01",
+      "date": "2026-10-02",
       "source": "credit.json"
     },
     "bb": {
       "name": "BB Corp",
-      "spread": 204,
-      "prior": 194,
+      "spread": 191,
+      "prior": 204,
       "series_id": "",
-      "date": "2026-10-01",
+      "date": "2026-10-02",
       "source": "credit.json"
     },
     "b": {
       "name": "B Corp",
-      "spread": 329,
-      "prior": 316,
+      "spread": 312,
+      "prior": 329,
       "series_id": "",
-      "date": "2026-10-01",
+      "date": "2026-10-02",
       "source": "credit.json"
     },
     "ccc": {
       "name": "CCC Corp",
-      "spread": 1215,
-      "prior": 1179,
+      "spread": 1202,
+      "prior": 1215,
       "series_id": "",
-      "date": "2026-10-01",
+      "date": "2026-10-02",
       "source": "credit.json"
     }
   },
@@ -103,5 +103,5 @@
       "source": "cache"
     }
   },
-  "_fetched": "2026-10-05T05:43:19.194585Z"
+  "_fetched": "2026-10-05T14:42:25.048288Z"
 }

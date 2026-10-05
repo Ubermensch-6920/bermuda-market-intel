@@ -1,5 +1,5 @@
 {
-  "updated": "2026-10-05T05:45:09Z",
+  "updated": "2026-10-05T14:44:17Z",
   "lookback_days": 14,
   "feeds": [
     {
@@ -35,7 +35,7 @@
     {
       "name": "Google News: Global Atlantic",
       "ok": true,
-      "count": 7,
+      "count": 8,
       "error": null
     },
     {
@@ -65,7 +65,7 @@
     {
       "name": "Google News: RGA",
       "ok": true,
-      "count": 21,
+      "count": 19,
       "error": null
     },
     {
@@ -89,7 +89,7 @@
     {
       "name": "Google News: Talcott",
       "ok": true,
-      "count": 9,
+      "count": 8,
       "error": null
     },
     {
@@ -101,7 +101,7 @@
     {
       "name": "Google News: Wilton Re",
       "ok": true,
-      "count": 4,
+      "count": 3,
       "error": null
     },
     {
@@ -112,6 +112,30 @@
     }
   ],
   "items": [
+    {
+      "id": "4bf52a2fcf31",
+      "title": "Prismic Life to reinsure $5bn of Prudential\u2019s Japanese whole life policies",
+      "link": "https://www.reinsurancene.ws/prismic-life-to-reinsure-5bn-of-prudentials-japanese-whole-life-policies/",
+      "source": "Reinsurance News",
+      "feed": "Reinsurance News",
+      "date": "2026-10-05T14:00:57Z",
+      "summary": "Prismic Life Holding Company, LP, a reinsurance company providing capital and risk management solutions to insurers, has reached an agreement with Prudential Financial, Inc., covering a portfolio of Japanese whole life insurance business. As part of the arrangement, Prismic will assume reinsurance on approximately $5 billion of reserves associated with USD-denominated whole life policies issued [\u2026",
+      "companies": [
+        "Prismic Re"
+      ]
+    },
+    {
+      "id": "9c77084be47e",
+      "title": "Reinsurance Group of America (RGA) Edges Higher as Shares Test Upper Range - Retail Volume",
+      "link": "https://news.google.com/rss/articles/CBMitgFBVV95cUxOa1o3bEpvclN6blBvUXllNjhLaTJTa1F0aXZPUmdveG5od2hkakJZcThfaDBjY1JtcGNuTTVCd0lFNWJ1YzVUeVY4eHpUM29hNTZaMDBFb1g2TVAtbm11SndkTVE5TWdDWk5rTmI4TVhrUWpLaEJPQUhjLWpoRmRKYzRKUC1MQVd2c29oQWlteTFFVjB6XzB0cEJSV01WQ3kyeXNWMGVPWnZtaGNhSnQzMEZTbGQzZw?oc=5",
+      "source": "siam.in",
+      "feed": "Google News: RGA",
+      "date": "2026-10-04T18:35:06Z",
+      "summary": "",
+      "companies": [
+        "RGA"
+      ]
+    },
     {
       "id": "2f66c80f38d4",
       "title": "LNC Stock Pops On Report Of Lincoln National\u2019s Potential $5B Reinsurance Deal With Talcott",
@@ -140,7 +164,7 @@
       "id": "5f29c68ac747",
       "title": "Reinsurance Group of America: Medical And Rate Tailwinds Carry Further Upside (Upgrade)",
       "link": "https://news.google.com/rss/articles/CBMiwwFBVV95cUxNdUR4aHF3YUF2QnFrQXBEVTl2WEFGRnB2OXkyWU12bXBaYUozSUtMM3I2aTZaRnZsci12ZXhkY0dTbTVJM1lubG9SbDBVSnl6LU9JUmtsd3VvVXVpNGcwVktJc2drSVRqcVF5Q2VOcXQyQmR6TWx5VkdsOGRrS2EtM29iSmpzNEk3dmZtSHZqc3V2YlJLTWhYU19XNkZ6ZjFVdFFXZUd6Z1NOTzBwbzZqQ2FQdHM2SUtiWlREYUJfdGp4SFk?oc=5",
-      "source": "Seeking Alpha",
+      "source": "seekingalpha.com",
       "feed": "Google News: RGA",
       "date": "2026-10-03T03:38:48Z",
       "summary": "",
@@ -155,18 +179,6 @@
       "source": "Yahoo Finance Australia",
       "feed": "Google News: RGA",
       "date": "2026-10-02T22:45:47Z",
-      "summary": "",
-      "companies": [
-        "RGA"
-      ]
-    },
-    {
-      "id": "9e0a35ca35eb",
-      "title": "Reinsurance Group of America, Incorporated (RGA) Stock Price, News, Quote & History",
-      "link": "https://news.google.com/rss/articles/CBMiUEFVX3lxTE1qamdrTE91Y3FMZFdXWkp6N2hGVlFXY08zdXdsUmlQM0tnMjg0V2o5UmRFTHVIdEdTbnlUSm9vem5BbHZ5MmE5LVpHZWJ3LXh5?oc=5",
-      "source": "Yahoo! Finance Canada",
-      "feed": "Google News: RGA",
-      "date": "2026-10-02T19:56:21Z",
       "summary": "",
       "companies": [
         "RGA"
@@ -257,6 +269,18 @@
       ]
     },
     {
+      "id": "9e0a35ca35eb",
+      "title": "Reinsurance Group of America, Incorporated (RGA) stock price, news, quote and history",
+      "link": "https://news.google.com/rss/articles/CBMiUEFVX3lxTFBRVVZXVmxhZ254QmlxZldRZzBKVUdwejdOUDl4cGNJM0ZhV3RmZm96cDVkbzVGRmRSaFhSUVJlNkFKMS01R1cxdXhFd3kzOHdL?oc=5",
+      "source": "Yahoo Finance Australia",
+      "feed": "Google News: RGA",
+      "date": "2026-10-02T02:12:25Z",
+      "summary": "",
+      "companies": [
+        "RGA"
+      ]
+    },
+    {
       "id": "93badd9f437b",
       "title": "Lincoln National Reports Closing of $6.3 Billion Reinsurance Transaction With Talcott",
       "link": "https://news.google.com/rss/articles/CBMioAFBVV95cUxNOXZEa3g5UWxMbWdsU1JHdklJbl9obXJoRk56QkNXbHZNaXdIZmhhcExMSW5velk1UjRvMTl6RGlMTnZsUGdtTnBuRVdvX2ZTM0g5TEhSbHp5YTFWeWxDS0ZwdTBESk5GNXNfUndhYnEyZWdoLW1yTHd4WE16MWEycUdFN18tZ1FrSTdaNVFBb1VNeXVZdVhYaWVtUEN6cllH?oc=5",
@@ -296,7 +320,7 @@
       "id": "895c87193d6d",
       "title": "Reinsurance Group of America, Incorporated (NYSE:RGA) Stock Has Consensus Price Target of $267.56 According to Analysts",
       "link": "https://news.google.com/rss/articles/CBMiigJBVV95cUxQblFsak5xb0l6TF90Y0xuck83bzFQZGlHWkx0MGxJOTJ5dWpOdC1vUU9QempIMFNKdVdORzJjNHVrNFcyMHJKTGxSY2tSVklLYmhONnE3ckV3T0RLT0ZtT29lQ1NyS3kzNlAzbC1SbVlVQzNranN5RTdvNXAwZlUxSXhlUGxEbmtLV01pSk5QcElKSmRCXzB0dDhRSVd2blRuRnptNE95WEl6MnlCWU9KRF9sSXhZdHJHZ3RCN1VRb0tQRS01VlRIYUtRT2RpZ0V4bUN0a1BUdDRwTERqNUZ0YnlyZWVmTFpkU3FZMkxGdTBKWnNPQTNMNVhmOEs1RDUtMnR6WmU2OXN6dw?oc=5",
-      "source": "MarketBeat",
+      "source": "marketbeat.com",
       "feed": "Google News: RGA",
       "date": "2026-10-01T06:45:34Z",
       "summary": "",
@@ -320,7 +344,7 @@
       "id": "d89b20ae51a3",
       "title": "Who's Moving Where In Wealth Management? \u2013 Kestra, Mesirow, Global Atlantic, KKR",
       "link": "https://news.google.com/rss/articles/CBMi6wFBVV95cUxPbjNuZXJUWXZ6NWFYS1lFSHU0Ui1YSGRhLWxnM3E3dFg5QlUwSVFxc2k1ZGlvejRYRzFMaUR0NUhTNjRRUDBsLTFFMk5kV0dYY0lxTnZlUUdQQzlXV0ZLdy1RaFAyeVRqUjFfRUFkTF92RU5EcVVIMjNnSXViZU1OMnA0N1FrTmhCa0x3WERfaXF0VmxJOUdFSVE3S1djekpCOWRDUmJjWTFWYlFZZmxieVhtNzcyRFEySjJlSWVqSGIwd2FPTzEyYVBRNHphX0ZhOUc5REZTVGNTVmpLeW80Qk5lOXpTYUhsdjVF?oc=5",
-      "source": "Family Wealth Report",
+      "source": "familywealthreport.com",
       "feed": "Google News: Global Atlantic",
       "date": "2026-09-30T11:05:28Z",
       "summary": "",
@@ -404,7 +428,7 @@
       "id": "05ae5e0a96b3",
       "title": "Reinsurance Group of America (NYSE:RGA) Stock Rating Raised to \"Overweight\" at Morgan Stanley",
       "link": "https://news.google.com/rss/articles/CBMi5gFBVV95cUxNODVIb1lMYWlTTjM5VjVPMVhzUWtWbTJ1Y0hKeENHWTdqRVRuanFPYXowZE9ZLUR4X0YxVmhCUzN5X1pxUjl4ZGx4NU1yWWloZVBMMXVyeVRrTUxOU3VOOVNLMVJGOHlyY3J3czR3dEdrbXhsSWhreThrQkJCUzBZSDN6QUxVTGcxRVRpeVVqV3VHLWNHZVp4M012bFNiN3JHR0ppMGVPY2E5SE5fWWtlRVczb2paLW9TdTFtM19RT21nNmgtNVBiZ3J5eXNEcjFMOEJmSkl0SlV1Rzllb1NxRlhLVjlGZw?oc=5",
-      "source": "MarketBeat",
+      "source": "marketbeat.com",
       "feed": "Google News: RGA",
       "date": "2026-09-28T16:11:37Z",
       "summary": "",
@@ -536,7 +560,7 @@
       "id": "0840968d5739",
       "title": "Is Reinsurance Group of America, Incorporated (RGA) Rewriting the Retirement Planning Playbook?",
       "link": "https://news.google.com/rss/articles/CBMi1gFBVV95cUxNc21qRmRLU292MGg1S3RfaVFGc0lFS1JyWEJ0Q1N0aEJQZEFuMWNNVGFxR2FFUzJYblNSWWRVTEFaZlZYTktCdHd3VVl1Q1RpSnNUQnpGMG42SWlZWUo4RGZmY3MzbUgxNnZKbkRIMlZFV3hqc3ZleDBseUIwSTAwSmhnUFkyclZzTi1oTHE1Q0lxX1hzOUF2Nk5JMExpSlVaSUVxd1VLdUNsWUF3V3ZnRkF3aFkwMU0xLTZROFVNR0RINm94RzFTZDZlY1ZXVDFJcGp5bzh3?oc=5",
-      "source": "kalkinemedia.com",
+      "source": "Kalkine Media",
       "feed": "Google News: RGA",
       "date": "2026-09-25T12:30:00Z",
       "summary": "",
@@ -596,7 +620,7 @@
       "id": "8c3300c005c4",
       "title": "Sagicor prices $250M note offering to repay debt",
       "link": "https://news.google.com/rss/articles/CBMiiAFBVV95cUxNTE14Zi1oNTRGcHNjVlU1MTl4TzRpbU1KZnc5TWhXRThDOEtVOGhWMk1fQzVha0ljczRWMWdTTWdYMm4tY2otYlhyUmRoRGVsd0FvaF9NWUY3Vk9FMU5JOUxiY0RQSGN2bE92bXJJVm5zcEFzTWRfQ0k4ZUdvdzRiNV9GOGFwYjZJ?oc=5",
-      "source": "Dealroom",
+      "source": "app.dealroom.co",
       "feed": "Google News: Sagicor",
       "date": "2026-09-22T22:17:01Z",
       "summary": "",
