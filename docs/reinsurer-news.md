@@ -1,12 +1,12 @@
 # Reinsurer News Monitor
 
 Bermuda life & annuity watchlist — last 14 days — 40 items
-Generated Sun 04 Oct 2026, 15:42 ADT
+Generated Sun 04 Oct 2026, 21:02 ADT
 
 ## Feed status
 
 - ✅ **Artemis.bm** — 10 items
-- ✅ **Google News (16 of 16 companies)** — 61 items
+- ✅ **Google News (16 of 16 companies)** — 64 items
 - ✅ **Reinsurance News** — 10 items
 
 ## Athene
@@ -57,11 +57,11 @@ Generated Sun 04 Oct 2026, 15:42 ADT
 
 ## RGA
 
-- **2026-10-03** — pluang.com — [Reinsurance Group of America upgraded to buy af...](https://news.google.com/rss/articles/CBMikgFBVV95cUxNU1d4V1A1RnJCeUdHZEFELXFpSVRsZGRpR1Z3M3pnR09VY3NBdXRWY3oyV2VrdWl5b0ZJbFdhUmZWQW0zajRqaHFDVHVOVjR1LVI5SHNxUnNiRHpXTG1vNGpSd0lZbC1kbEdQdmliTmdNMlFjd1ZycXJia0hZYWNGOEllWm5PYTMtcUJYelp3N19QZw?oc=5)
+- **2026-10-03** — Pluang — [Reinsurance Group of America upgraded to buy af...](https://news.google.com/rss/articles/CBMikgFBVV95cUxNU1d4V1A1RnJCeUdHZEFELXFpSVRsZGRpR1Z3M3pnR09VY3NBdXRWY3oyV2VrdWl5b0ZJbFdhUmZWQW0zajRqaHFDVHVOVjR1LVI5SHNxUnNiRHpXTG1vNGpSd0lZbC1kbEdQdmliTmdNMlFjd1ZycXJia0hZYWNGOEllWm5PYTMtcUJYelp3N19QZw?oc=5)
 - **2026-10-03** — Seeking Alpha — [Reinsurance Group of America: Medical And Rate Tailwinds Carry Further Upside (Upgrade)](https://news.google.com/rss/articles/CBMiwwFBVV95cUxNdUR4aHF3YUF2QnFrQXBEVTl2WEFGRnB2OXkyWU12bXBaYUozSUtMM3I2aTZaRnZsci12ZXhkY0dTbTVJM1lubG9SbDBVSnl6LU9JUmtsd3VvVXVpNGcwVktJc2drSVRqcVF5Q2VOcXQyQmR6TWx5VkdsOGRrS2EtM29iSmpzNEk3dmZtSHZqc3V2YlJLTWhYU19XNkZ6ZjFVdFFXZUd6Z1NOTzBwbzZqQ2FQdHM2SUtiWlREYUJfdGp4SFk?oc=5)
+- **2026-10-02** — Yahoo Finance Australia — [Reinsurance Group of America, Incorporated (RGA) latest stock news and headlines](https://news.google.com/rss/articles/CBMiV0FVX3lxTE5CdHFXVjBaOUtpRG1uM296dngxVElqR0x6cFZ2NjVySDAyaUZSQkpGdmRxWkk2U3VNR3lFQUxxeTdvbmxWQ3lybXM4cmVvN3VIcGJHS3pWNA?oc=5)
 - **2026-10-02** — Yahoo! Finance Canada — [Reinsurance Group of America, Incorporated (RGA) Stock Price, News, Quote & History](https://news.google.com/rss/articles/CBMiUEFVX3lxTE1qamdrTE91Y3FMZFdXWkp6N2hGVlFXY08zdXdsUmlQM0tnMjg0V2o5UmRFTHVIdEdTbnlUSm9vem5BbHZ5MmE5LVpHZWJ3LXh5?oc=5)
 - **2026-10-02** — Simply Wall Street — [Reinsurance Group of America (RGA) Stock Looks Close to Fair Value](https://news.google.com/rss/articles/CBMi3gFBVV95cUxPcTNWWTFKME5FZEVHckpKZWplWERVUVdoa0V4cmpFXzVmWXl3Z09UYVZ4YUxIZVdEcWlFXy11cXJ0VXJIbms3b1hiYTZ1ekh3bGR1YnAxcnZ3ZzJXUmFPd0g2Tmltb0xoMWdDMTc4QU0wNXdyZVVxcEJMQ3dkM2tnLUZoUk8ybDVRbHBBTkJmbEhmY1JUR3dvOG9Tc3o5QkpBeWpVMnc1b1hBMHZoRGFXYTR6ZlhfcWY1NTgxR2hENDNzN0ZYaFRObkJCZXlZWm1tOWczWk90N1RlSlJzb3fSAeMBQVVfeXFMTlBxakpkVHZwWUp2REFaMTFyX0FtOElrZXFMYXoxMEdqSmozaGM0c2MxSlMtem45a3JSd20ycWNHdTBzQUo5VVg0aF9QbWpLeEFCblVHVGt6RERWY3Q4X1NKdDZZa1ZNNjNMclNqbnE3dHVlRHhoQmxraXJLdzZlNDlwSktIUW1xaExnT3JFT2dfejFfRWxmelF6RjM0ZHZhRXpBaENtRlBFaXB2ejduNnIyR21rN2tJbWtiUXBVTUVkaWxfZGdJUmxyU3kwQlp2VENpUmwwMEpiSEtKLXhmbmJQZEE?oc=5)
-- **2026-10-02** — Yahoo Finance Australia — [Reinsurance Group of America, Incorporated (RGA) latest stock news and headlines](https://news.google.com/rss/articles/CBMiV0FVX3lxTE5CdHFXVjBaOUtpRG1uM296dngxVElqR0x6cFZ2NjVySDAyaUZSQkpGdmRxWkk2U3VNR3lFQUxxeTdvbmxWQ3lybXM4cmVvN3VIcGJHS3pWNA?oc=5)
 - **2026-10-02** — Yahoo Finance — [Will Reinsurance Group (RGA) Beat Estimates Again in Its Next Earnings Report?](https://news.google.com/rss/articles/CBMiowFBVV95cUxPeUVIUGR4cXpLZEkwa3FKZlR0a293clBKVjhFREozWXp4NmR3RGRMVTFodUFNWDdEUnd2Z0RNTm1fOVUwdnN2NXVBX1k4RVFvWi1pNG5WWkpKMnBXcGVtYkZ3RzZHQ2JSR0ZoaFlwb2NpV1JaRUZBN0tIVHpJX3lvNU1YSnk4U1pKaFkzc1RWNW9paWJkSzJaS0Z0T0FmekVBRVFB?oc=5)
 - **2026-10-01** — Yahoo Finance — [Are Finance Stocks Lagging Reinsurance Group of America (RGA) This Year?](https://news.google.com/rss/articles/CBMiqAFBVV95cUxQQlh1YUkxSWE2QzVSUGg3RF9NaUU1a0Z6aHNLUzNHNkt4ZTFYbkJLckRsX3NXVEVrRl90eDNKXzdZNFNZMmw4dDg0YkM2TFpIVERqS0I2a0tTc3BZNG1JY0ZUdWNmR3ZCbHRJTjBZMWR0WjM3aG9palFxTlFBc19WZWhwOEhiMDZGOUtTcGZBcTgteF9ZV0dFWlJVcFZrOEVGam5SR3UzSU0?oc=5)
 - **2026-10-01** — marketbeat.com — [Reinsurance Group of America, Incorporated (NYSE:RGA) Stock Has Consensus Price Target of $267.56 According to Analysts](https://news.google.com/rss/articles/CBMiigJBVV95cUxQblFsak5xb0l6TF90Y0xuck83bzFQZGlHWkx0MGxJOTJ5dWpOdC1vUU9QempIMFNKdVdORzJjNHVrNFcyMHJKTGxSY2tSVklLYmhONnE3ckV3T0RLT0ZtT29lQ1NyS3kzNlAzbC1SbVlVQzNranN5RTdvNXAwZlUxSXhlUGxEbmtLV01pSk5QcElKSmRCXzB0dDhRSVd2blRuRnptNE95WEl6MnlCWU9KRF9sSXhZdHJHZ3RCN1VRb0tQRS01VlRIYUtRT2RpZ0V4bUN0a1BUdDRwTERqNUZ0YnlyZWVmTFpkU3FZMkxGdTBKWnNPQTNMNVhmOEs1RDUtMnR6WmU2OXN6dw?oc=5)

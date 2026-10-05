@@ -1,5 +1,5 @@
 {
-  "updated": "2026-10-04T18:42:10Z",
+  "updated": "2026-10-05T00:02:21Z",
   "lookback_days": 14,
   "feeds": [
     {
@@ -29,13 +29,13 @@
     {
       "name": "Google News: Fortitude Re",
       "ok": true,
-      "count": 7,
+      "count": 8,
       "error": null
     },
     {
       "name": "Google News: Global Atlantic",
       "ok": true,
-      "count": 6,
+      "count": 7,
       "error": null
     },
     {
@@ -89,7 +89,7 @@
     {
       "name": "Google News: Talcott",
       "ok": true,
-      "count": 8,
+      "count": 9,
       "error": null
     },
     {
@@ -128,7 +128,7 @@
       "id": "f21807a7ca43",
       "title": "Reinsurance Group of America upgraded to buy af...",
       "link": "https://news.google.com/rss/articles/CBMikgFBVV95cUxNU1d4V1A1RnJCeUdHZEFELXFpSVRsZGRpR1Z3M3pnR09VY3NBdXRWY3oyV2VrdWl5b0ZJbFdhUmZWQW0zajRqaHFDVHVOVjR1LVI5SHNxUnNiRHpXTG1vNGpSd0lZbC1kbEdQdmliTmdNMlFjd1ZycXJia0hZYWNGOEllWm5PYTMtcUJYelp3N19QZw?oc=5",
-      "source": "pluang.com",
+      "source": "Pluang",
       "feed": "Google News: RGA",
       "date": "2026-10-03T03:55:55Z",
       "summary": "",
@@ -149,12 +149,24 @@
       ]
     },
     {
+      "id": "64bdca379950",
+      "title": "Reinsurance Group of America, Incorporated (RGA) latest stock news and headlines",
+      "link": "https://news.google.com/rss/articles/CBMiV0FVX3lxTE5CdHFXVjBaOUtpRG1uM296dngxVElqR0x6cFZ2NjVySDAyaUZSQkpGdmRxWkk2U3VNR3lFQUxxeTdvbmxWQ3lybXM4cmVvN3VIcGJHS3pWNA?oc=5",
+      "source": "Yahoo Finance Australia",
+      "feed": "Google News: RGA",
+      "date": "2026-10-02T22:45:47Z",
+      "summary": "",
+      "companies": [
+        "RGA"
+      ]
+    },
+    {
       "id": "9e0a35ca35eb",
       "title": "Reinsurance Group of America, Incorporated (RGA) Stock Price, News, Quote & History",
       "link": "https://news.google.com/rss/articles/CBMiUEFVX3lxTE1qamdrTE91Y3FMZFdXWkp6N2hGVlFXY08zdXdsUmlQM0tnMjg0V2o5UmRFTHVIdEdTbnlUSm9vem5BbHZ5MmE5LVpHZWJ3LXh5?oc=5",
       "source": "Yahoo! Finance Canada",
       "feed": "Google News: RGA",
-      "date": "2026-10-02T23:14:45Z",
+      "date": "2026-10-02T19:56:21Z",
       "summary": "",
       "companies": [
         "RGA"
@@ -182,18 +194,6 @@
       "summary": "",
       "companies": [
         "Talcott"
-      ]
-    },
-    {
-      "id": "64bdca379950",
-      "title": "Reinsurance Group of America, Incorporated (RGA) latest stock news and headlines",
-      "link": "https://news.google.com/rss/articles/CBMiV0FVX3lxTE5CdHFXVjBaOUtpRG1uM296dngxVElqR0x6cFZ2NjVySDAyaUZSQkpGdmRxWkk2U3VNR3lFQUxxeTdvbmxWQ3lybXM4cmVvN3VIcGJHS3pWNA?oc=5",
-      "source": "Yahoo Finance Australia",
-      "feed": "Google News: RGA",
-      "date": "2026-10-02T16:08:40Z",
-      "summary": "",
-      "companies": [
-        "RGA"
       ]
     },
     {
