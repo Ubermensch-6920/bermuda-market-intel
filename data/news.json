@@ -1,5 +1,5 @@
 {
-  "updated": "2026-10-05T14:44:15Z",
+  "updated": "2026-10-05T22:05:00Z",
   "topics": [
     "Insurance AM",
     "Private Credit",
@@ -8,9 +8,29 @@
   ],
   "items": [
     {
+      "id": "c3cc205e0200",
+      "title": "Aviva Investors buys infra CLO in private debt expansion",
+      "source": "Alternative Credit Investor",
+      "date": "2026-10-05T18:21:45Z",
+      "topic": "Structured Credit",
+      "summary": "",
+      "link": "https://news.google.com/rss/articles/CBMiowFBVV95cUxOUWppRHdBTXZ4NldsRk9LMzktUkZsc05jLUZsTWZrTW5XellLWi1ac3ExQkg1dHlEdzVDMDF0T2JVVW9QTklvUGEyVVZSQ2RjN3I4aTNmdW1GcG9SdGNZakZMRkdtazNwVHR1MmY1ZzR0Y25QRGE2TUVzZFhicnNhV1ZVdVR2M0ljSmNNVnRJRXZxU3NYaFEzWVNBWkNxdV9MZjhn?oc=5",
+      "isNew": false
+    },
+    {
+      "id": "09b8584b9f34",
+      "title": "French central bank head warns country at risk of being \u2018strangled by interest rates\u2019",
+      "source": "Financial Times",
+      "date": "2026-10-05T16:56:54Z",
+      "topic": "Rates & Macro",
+      "summary": "",
+      "link": "https://news.google.com/rss/articles/CBMihAFBVV95cUxOSmxyejBKSTZweV84bF80SkdYVXBPOUVpZl9USnZxSC1zZUFTR21JbXB5V042aGpFMlhvN0YxZFVBNTRZVjFtbjA1cFFFNEo5YWR4SlhwOUtzNERLTUZTeDZsZmdCRGNiSkxDU2h0Ym9qMkg0dTA2aGJGajJxb2ZNOVlIMTk?oc=5",
+      "isNew": false
+    },
+    {
       "id": "a67632ff09bc",
       "title": "2026 KKR Insurance CIO Survey",
-      "source": "KKR: A Leading Global Investment Firm",
+      "source": "kkr.com",
       "date": "2026-10-05T12:02:33Z",
       "topic": "Private Credit",
       "summary": "",
@@ -20,7 +40,7 @@
     {
       "id": "6c330dfb4732",
       "title": "The Changing Story Behind Higher Bond Yields",
-      "source": "Capital Economics",
+      "source": "capitaleconomics.com",
       "date": "2026-10-05T11:49:16Z",
       "topic": "Rates & Macro",
       "summary": "",
@@ -30,7 +50,7 @@
     {
       "id": "3b80b3a9e1b4",
       "title": "Insurance Lenders Embrace Risk In CRE Loans",
-      "source": "Bisnow",
+      "source": "bisnow.com",
       "date": "2026-10-04T20:32:08Z",
       "topic": "Private Credit",
       "summary": "",
@@ -228,6 +248,16 @@
       "isNew": false
     },
     {
+      "id": "dc955267e30b",
+      "title": "3 Life Insurers Poised for Growth Amid Strong Annuity Demand",
+      "source": "TradingView",
+      "date": "2026-09-29T13:21:00Z",
+      "topic": "Insurance AM",
+      "summary": "",
+      "link": "https://news.google.com/rss/articles/CBMitgFBVV95cUxPQ2lwSTdhQmY1ZkpzTUtnUVpRdV9IRGlOQWlhOFpFRWtyUHRVdklkblFPTVRtLXdrVXcxYUl3eS1MdHZtZG9RaXJpZnV4VnUteXJTLVRBelpVTnNQV1hZQmFlWG1FcklCYVdxZGpabExZb09GckpDTXAyMVZBa3FoLU1JelRzekVFZlVOcHlOc052WkJUT0pxeWV1dmkzR19lcG9TMzVSUVhOVk9XTWRqVnpsVHpQQQ?oc=5",
+      "isNew": false
+    },
+    {
       "id": "08f9e0dd8d52",
       "title": "Third Wave Insurance Appoints Awan Sikri as Chief Information Officer",
       "source": "The Des Moines Register",
@@ -275,36 +305,6 @@
       "topic": "Private Credit",
       "summary": "",
       "link": "https://news.google.com/rss/articles/CBMisgFBVV95cUxOSFJJcVBtWEtJcEdLTS1IRnNHakdQN0s3SDhBTDVxbGRZYXZOaEg2R25UcmdGdlhleWZZVXFSdHNlYkdTbVhzT0tidFlpVC1CQkZwbzN4M01teWJrV19hanR5bThtME51VHNpeXRRVzM3blhoRjNHYmotajdrMkFndjhvam9ZcWVWd0pZNFNpV2dxSVJPZnVzcDl1SW9oNG1EcVkzWUZjTzNqZmhPT3F4MzVR?oc=5",
-      "isNew": false
-    },
-    {
-      "id": "4b2ea142ed40",
-      "title": "Opinion | There\u2019s a New Threat to Your Personal Finances",
-      "source": "The New York Times",
-      "date": "2026-09-28T09:04:04Z",
-      "topic": "Rates & Macro",
-      "summary": "",
-      "link": "https://news.google.com/rss/articles/CBMieEFVX3lxTE5iRERWSFRsbkRRTVJJM3A3UHh4blRnb0VqSW84ZTRHOENiVUgzdmt0aE52RzN6bzZBTDBKdzdIYXVrbG5sT1hRX2dRV291anpUajRSYmFxbnppLXNPNEIySUtiWEhJTlFOZEprN3FsMlVnSlkyblJ5aQ?oc=5",
-      "isNew": false
-    },
-    {
-      "id": "f49712bb0c0c",
-      "title": "Barings CEO Michael Freno: \"The private credit opportunity extends well beyond direct lending\"",
-      "source": "Investment & Pensions Europe",
-      "date": "2026-09-28T07:00:00Z",
-      "topic": "Private Credit",
-      "summary": "",
-      "link": "https://news.google.com/rss/articles/CBMi1gFBVV95cUxQVkhoX05aZl9PRUFNcS10VHRGcWpUUWtfcG1vNWU5bVR5bDdSRmU1b25JZ2JKR1lvTnJlNjlpRjNzQlJMMlEyazdkbGRoSWlzTTRRei0xenE2X2pVeFJ2Tjl6dElHcTV1TGtKVlk1ekNYckgtaW4yM0VkZ1ZFT21xRlFJTzdTR3YyZXZTNmtIQ3hnQUtQVGVqejJZWFFvMDNJUmU5TWdMMGVfNkw1REpFY0k2dkxwenBGMDNVS29UNW9YZEZMUUt5VktibGZMY1FfaElTT0FB?oc=5",
-      "isNew": false
-    },
-    {
-      "id": "61e3e7866543",
-      "title": "3 Credit Insurer Stocks Investors Are Watching As Bond Market Stress Builds",
-      "source": "Simply Wall Street",
-      "date": "2026-09-28T03:47:34Z",
-      "topic": "Insurance AM",
-      "summary": "",
-      "link": "https://news.google.com/rss/articles/CBMiygFBVV95cUxNY2ZjVzZrc3lXbjhqVWljeDlfbWM2ajJ6NVN0OVZQOEdobE9TZ0IxMTNMNHE2bkNfTlZQaWNzWXdsQXJMZ3d0QUZWWTkwRkM0WmR0X0llNG9iT3pPNWhhSVpmWjZZamJrNXc4MnFyMzBvSXJiZUxsRV9uU2ZDMzN6SU15ZzlKSE00Xzd4VF9IS2ZRZVJQOElNckRvblQ0V211SUlMMHJnNS1Hak9LOS00ZEZFUXduVFJqdUlYVTVkMGR6RFZId0JTSXdB0gHPAUFVX3lxTE9oaWdBUUZfbExOV3BDZ0s3N09mVmQ1UE9idGxiM1VKODN5VnM4VHJrNEVkWTlRZmgtNGJVcDRWb1hMek9mYlJnWWtxdHg5VGI4b3FNNmI4SXRqOTV3enVUa1RmbGM5VkZTVG1RQWhEX3dXTW5WbHpBdmNQbDdyallBbHl1YnkzUFhrQ1AxT29NR05ac0RuMmh2THZ1aFowN0QwcmNGaDV2U2V0NHFHNmFQanVuNmM5a3hNU1ZNcEJ1M1ZtWlYtcExQa1lnRkM4VQ?oc=5",
       "isNew": false
     }
   ]

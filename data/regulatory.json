@@ -1,5 +1,5 @@
 {
-  "updated": "2026-10-05T14:44:15Z",
+  "updated": "2026-10-05T22:05:00Z",
   "naic": [
     {
       "id": "f301b142e443",
@@ -254,6 +254,16 @@
   ],
   "bma": [
     {
+      "id": "1a0eb2700578",
+      "title": "BMA sets out first phase of commercial insurer resolution regime",
+      "date": "2026-09-24",
+      "cat": "General",
+      "summary": "",
+      "source": "Intelligent Insurer",
+      "link": "https://news.google.com/rss/articles/CBMioAFBVV95cUxOREh5ODNfQmptRkNXSDF5dmJJaE54VUhLUkNIc1R1eXMxOWx5QVZBTWV1UFNvSlUzZTRaV1ZKV2MzamFwWEY4bmtpX0VDRlhBbEx4aHFlUzNfdWRXQWM5UXlRSkxQVmFmWGw5Mk1pbHAzLXFyMlkyZVpFNlI2Z1BwZ0R4TUVPTmE4MUlYVWJhWnlHNEFMQTZfZkE1Mi1CMlFW?oc=5",
+      "isNew": true
+    },
+    {
       "id": "7d8bf2092d2e",
       "title": "BMA proposes framework for failing insurers",
       "date": "2026-09-23",
@@ -490,16 +500,6 @@
       "cat": "General",
       "summary": "",
       "source": "Captive International",
-      "link": "https://news.google.com/rss/articles/CBMigwFBVV95cUxNbENnbmtsM0pnWjdtZWFkeXNXVUVTQ2x4N1Z0SlI4YmJhRTFtdUpRWDBEWTBkcnp5WEJGejBLdkZJWmxYQk9oTWMxM09FblYzQXo5eG1BNWg4V2hNdk5SaXd5MUxHVWF3b1pwQnBBWDN1c1BPa3VVeXN5eW5mUkRqdTJoMA?oc=5",
-      "isNew": false
-    },
-    {
-      "id": "5f3d0a0ec783",
-      "title": "BMA issues stablecoin consultation paper",
-      "date": "2026-07-22",
-      "cat": "General",
-      "summary": "",
-      "source": "captiveinternational.com",
       "link": "https://news.google.com/rss/articles/CBMigwFBVV95cUxNbENnbmtsM0pnWjdtZWFkeXNXVUVTQ2x4N1Z0SlI4YmJhRTFtdUpRWDBEWTBkcnp5WEJGejBLdkZJWmxYQk9oTWMxM09FblYzQXo5eG1BNWg4V2hNdk5SaXd5MUxHVWF3b1pwQnBBWDN1c1BPa3VVeXN5eW5mUkRqdTJoMA?oc=5",
       "isNew": false
     }
