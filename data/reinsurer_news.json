@@ -1,5 +1,5 @@
 {
-  "updated": "2026-10-05T00:02:21Z",
+  "updated": "2026-10-05T05:45:09Z",
   "lookback_days": 14,
   "feeds": [
     {
@@ -17,7 +17,7 @@
     {
       "name": "Google News: Athene",
       "ok": true,
-      "count": 9,
+      "count": 6,
       "error": null
     },
     {
@@ -65,7 +65,7 @@
     {
       "name": "Google News: RGA",
       "ok": true,
-      "count": 22,
+      "count": 21,
       "error": null
     },
     {
@@ -235,11 +235,11 @@
     {
       "id": "6fd06032cc65",
       "title": "Lincoln closes $6.3bn reinsurance transaction with Talcott",
-      "link": "https://www.reinsurancene.ws/lincoln-closes-6-3bn-reinsurance-transaction-with-talcott/",
+      "link": "https://news.google.com/rss/articles/CBMikAFBVV95cUxPdU03OWtNbVVla1BZaDlYOTRfbjdkTEpNV2FkMEN5VUFoWHN4SE9oUVd2dFZ4Y25VUXZoTDZaTlh5QkpHN3FfYVp3YWR3T0RVTnYwODByT2k3QlZETW0wa0syQTdkR1dRREhGbjJCM0hkWExzOEtsTUQ2YVB1aXRVcURZVGM3QkVFZDV3U3VsekY?oc=5",
       "source": "Reinsurance News",
-      "feed": "Reinsurance News",
-      "date": "2026-10-02T11:00:45Z",
-      "summary": "Lincoln Financial has closed its previously announced $6.3 billion reinsurance transaction with Talcott Financial Group, effective October 1, 2026. Lincoln explained that the $6.3 billion total transaction includes the reinsurance by a Talcott subsidiary of approximately $5.8 billion of in-force guaranteed universal life (GUL) statutory reserves, representing approximately 37% of Lincoln\u2019s remaini",
+      "feed": "Google News: Talcott",
+      "date": "2026-10-02T11:02:06Z",
+      "summary": "",
       "companies": [
         "Talcott"
       ]
@@ -296,7 +296,7 @@
       "id": "895c87193d6d",
       "title": "Reinsurance Group of America, Incorporated (NYSE:RGA) Stock Has Consensus Price Target of $267.56 According to Analysts",
       "link": "https://news.google.com/rss/articles/CBMiigJBVV95cUxQblFsak5xb0l6TF90Y0xuck83bzFQZGlHWkx0MGxJOTJ5dWpOdC1vUU9QempIMFNKdVdORzJjNHVrNFcyMHJKTGxSY2tSVklLYmhONnE3ckV3T0RLT0ZtT29lQ1NyS3kzNlAzbC1SbVlVQzNranN5RTdvNXAwZlUxSXhlUGxEbmtLV01pSk5QcElKSmRCXzB0dDhRSVd2blRuRnptNE95WEl6MnlCWU9KRF9sSXhZdHJHZ3RCN1VRb0tQRS01VlRIYUtRT2RpZ0V4bUN0a1BUdDRwTERqNUZ0YnlyZWVmTFpkU3FZMkxGdTBKWnNPQTNMNVhmOEs1RDUtMnR6WmU2OXN6dw?oc=5",
-      "source": "marketbeat.com",
+      "source": "MarketBeat",
       "feed": "Google News: RGA",
       "date": "2026-10-01T06:45:34Z",
       "summary": "",
@@ -332,7 +332,7 @@
       "id": "c430e80d19ac",
       "title": "Wilton Re modernizes a scalable foundation for acquisition-driven growth",
       "link": "https://news.google.com/rss/articles/CBMimgFBVV95cUxQcUE3Ujl4eU1KWVZqci0yeGdoZUpWenFic0ozOUZ6LS1fR0g4VzQxaFk1YzFfRHh6MW56NWk2S05kN1pndjJTSnhsd2t0ejd5eDdkZlpyZkpDRFBVX09FblpOLVpSN2JMZG1UMzFGWVRHNDRublFmd19zX3ROaG96a0kyb2FOLWk2dExoMW1Oa1NaVURvZGtCZnBn?oc=5",
-      "source": "DXC Technology",
+      "source": "dxc.com",
       "feed": "Google News: Wilton Re",
       "date": "2026-09-30T07:00:00Z",
       "summary": "",
@@ -404,7 +404,7 @@
       "id": "05ae5e0a96b3",
       "title": "Reinsurance Group of America (NYSE:RGA) Stock Rating Raised to \"Overweight\" at Morgan Stanley",
       "link": "https://news.google.com/rss/articles/CBMi5gFBVV95cUxNODVIb1lMYWlTTjM5VjVPMVhzUWtWbTJ1Y0hKeENHWTdqRVRuanFPYXowZE9ZLUR4X0YxVmhCUzN5X1pxUjl4ZGx4NU1yWWloZVBMMXVyeVRrTUxOU3VOOVNLMVJGOHlyY3J3czR3dEdrbXhsSWhreThrQkJCUzBZSDN6QUxVTGcxRVRpeVVqV3VHLWNHZVp4M012bFNiN3JHR0ppMGVPY2E5SE5fWWtlRVczb2paLW9TdTFtM19RT21nNmgtNVBiZ3J5eXNEcjFMOEJmSkl0SlV1Rzllb1NxRlhLVjlGZw?oc=5",
-      "source": "marketbeat.com",
+      "source": "MarketBeat",
       "feed": "Google News: RGA",
       "date": "2026-09-28T16:11:37Z",
       "summary": "",
@@ -536,7 +536,7 @@
       "id": "0840968d5739",
       "title": "Is Reinsurance Group of America, Incorporated (RGA) Rewriting the Retirement Planning Playbook?",
       "link": "https://news.google.com/rss/articles/CBMi1gFBVV95cUxNc21qRmRLU292MGg1S3RfaVFGc0lFS1JyWEJ0Q1N0aEJQZEFuMWNNVGFxR2FFUzJYblNSWWRVTEFaZlZYTktCdHd3VVl1Q1RpSnNUQnpGMG42SWlZWUo4RGZmY3MzbUgxNnZKbkRIMlZFV3hqc3ZleDBseUIwSTAwSmhnUFkyclZzTi1oTHE1Q0lxX1hzOUF2Nk5JMExpSlVaSUVxd1VLdUNsWUF3V3ZnRkF3aFkwMU0xLTZROFVNR0RINm94RzFTZDZlY1ZXVDFJcGp5bzh3?oc=5",
-      "source": "Kalkine Media",
+      "source": "kalkinemedia.com",
       "feed": "Google News: RGA",
       "date": "2026-09-25T12:30:00Z",
       "summary": "",
