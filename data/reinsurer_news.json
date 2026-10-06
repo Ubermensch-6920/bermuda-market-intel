@@ -1,5 +1,5 @@
 {
-  "updated": "2026-10-06T16:01:06Z",
+  "updated": "2026-10-06T22:42:42Z",
   "lookback_days": 14,
   "feeds": [
     {
@@ -29,13 +29,13 @@
     {
       "name": "Google News: Fortitude Re",
       "ok": true,
-      "count": 8,
+      "count": 7,
       "error": null
     },
     {
       "name": "Google News: Global Atlantic",
       "ok": true,
-      "count": 10,
+      "count": 11,
       "error": null
     },
     {
@@ -65,7 +65,7 @@
     {
       "name": "Google News: RGA",
       "ok": true,
-      "count": 18,
+      "count": 20,
       "error": null
     },
     {
@@ -77,7 +77,7 @@
     {
       "name": "Google News: Sagicor",
       "ok": true,
-      "count": 2,
+      "count": 1,
       "error": null
     },
     {
@@ -89,19 +89,19 @@
     {
       "name": "Google News: Talcott",
       "ok": true,
-      "count": 8,
+      "count": 9,
       "error": null
     },
     {
       "name": "Google News: Venerable",
       "ok": true,
-      "count": 1,
+      "count": 5,
       "error": null
     },
     {
       "name": "Google News: Wilton Re",
       "ok": true,
-      "count": 4,
+      "count": 5,
       "error": null
     },
     {
@@ -113,6 +113,42 @@
   ],
   "items": [
     {
+      "id": "d42d04a30682",
+      "title": "Venerable Annuity platform to add $4.5 bn of Guardian assets",
+      "link": "https://news.google.com/rss/articles/CBMijwFBVV95cUxPT09Nem9QcGxaQ1o1Y19WMkpNaFVxWGhhZXFiMmJRVUo3YmJZM09XNEZ0SEtTWUstdWUwWXBCWTYzYVZUWWNHdUhiMmJPMnNPNXkwNFpoUXY1YmtiNTAwZXQtTzVYaVVDbWdiVDcyeHVPRV9pS2NwaFFUa0JSd1lCVm5YRTV2YU5XTHA2TXJ5cw?oc=5",
+      "source": "Beinsure",
+      "feed": "Google News: Venerable",
+      "date": "2026-10-06T19:43:55Z",
+      "summary": "",
+      "companies": [
+        "Venerable"
+      ]
+    },
+    {
+      "id": "983d9d75579b",
+      "title": "Lincoln Financial closes $6.3 bn Talcott reinsurance transaction",
+      "link": "https://news.google.com/rss/articles/CBMilAFBVV95cUxPazg4R3pTQzBVTzh4QnhxdUpvRFZSX2JxYk5la1FlWXB2Z0xWa0E1OE5uVldBLVNFYlhCcUxNaDdxSzlQYmRJSFNVTmNFblBoS3M2eVN0dlZBTnZxTHlaNXNtcnQ1V044NFRoZnRCYUdPSmxucUFDeWpzSGphekZ4a3RQWmFib2hIUWtiVWVYZU9fb1lO?oc=5",
+      "source": "Beinsure",
+      "feed": "Google News: Talcott",
+      "date": "2026-10-06T19:21:31Z",
+      "summary": "",
+      "companies": [
+        "Talcott"
+      ]
+    },
+    {
+      "id": "9e0a35ca35eb",
+      "title": "Reinsurance Group of America, Incorporated (RGA) Stock Price, News, Quote & History",
+      "link": "https://news.google.com/rss/articles/CBMiUEFVX3lxTE1qamdrTE91Y3FMZFdXWkp6N2hGVlFXY08zdXdsUmlQM0tnMjg0V2o5UmRFTHVIdEdTbnlUSm9vem5BbHZ5MmE5LVpHZWJ3LXh5?oc=5",
+      "source": "Yahoo! Finance Canada",
+      "feed": "Google News: RGA",
+      "date": "2026-10-06T06:06:49Z",
+      "summary": "",
+      "companies": [
+        "RGA"
+      ]
+    },
+    {
       "id": "294d3e80954e",
       "title": "Global Atlantic names Dan Farrelly head of IMO and IBD channels",
       "link": "https://news.google.com/rss/articles/CBMipgFBVV95cUxQQ2NvYjZTbEo5NURrVDVBQlJuY0RpeEtWUU9sWDNBZndGemFra2MtaTB0bURPZWF5VUpVcUVEYy02R1REVUZtRGRpbWJhQnFwNFMwNWhoQURFNzgwb3E2anduVFJkVTBEWTZwT2NwTG5pc0NIZGFsaFVYenhlek1jWERkLW5wQTFCSmMtRVdzcGdkZlc2Vm9qbFlwSFBoeUhHV2dvZ25R?oc=5",
@@ -122,6 +158,18 @@
       "summary": "",
       "companies": [
         "Global Atlantic"
+      ]
+    },
+    {
+      "id": "64bdca379950",
+      "title": "Reinsurance Group of America, Incorporated (RGA) latest stock news and headlines",
+      "link": "https://news.google.com/rss/articles/CBMiV0FVX3lxTE5CdHFXVjBaOUtpRG1uM296dngxVElqR0x6cFZ2NjVySDAyaUZSQkpGdmRxWkk2U3VNR3lFQUxxeTdvbmxWQ3lybXM4cmVvN3VIcGJHS3pWNA?oc=5",
+      "source": "Yahoo Finance Australia",
+      "feed": "Google News: RGA",
+      "date": "2026-10-05T22:34:26Z",
+      "summary": "",
+      "companies": [
+        "RGA"
       ]
     },
     {
@@ -137,34 +185,10 @@
       ]
     },
     {
-      "id": "64bdca379950",
-      "title": "Reinsurance Group of America, Incorporated (RGA) latest stock news and headlines",
-      "link": "https://news.google.com/rss/articles/CBMiV0FVX3lxTE5CdHFXVjBaOUtpRG1uM296dngxVElqR0x6cFZ2NjVySDAyaUZSQkpGdmRxWkk2U3VNR3lFQUxxeTdvbmxWQ3lybXM4cmVvN3VIcGJHS3pWNA?oc=5",
-      "source": "au.finance.yahoo.com",
-      "feed": "Google News: RGA",
-      "date": "2026-10-05T13:33:14Z",
-      "summary": "",
-      "companies": [
-        "RGA"
-      ]
-    },
-    {
-      "id": "9e0a35ca35eb",
-      "title": "Reinsurance Group of America, Incorporated (RGA) stock price, news, quote and history",
-      "link": "https://news.google.com/rss/articles/CBMiUEFVX3lxTFBRVVZXVmxhZ254QmlxZldRZzBKVUdwejdOUDl4cGNJM0ZhV3RmZm96cDVkbzVGRmRSaFhSUVJlNkFKMS01R1cxdXhFd3kzOHdL?oc=5",
-      "source": "Yahoo Finance Australia",
-      "feed": "Google News: RGA",
-      "date": "2026-10-05T12:38:13Z",
-      "summary": "",
-      "companies": [
-        "RGA"
-      ]
-    },
-    {
       "id": "9c77084be47e",
       "title": "Reinsurance Group of America (RGA) Edges Higher as Shares Test Upper Range - Retail Volume",
       "link": "https://news.google.com/rss/articles/CBMitgFBVV95cUxOa1o3bEpvclN6blBvUXllNjhLaTJTa1F0aXZPUmdveG5od2hkakJZcThfaDBjY1JtcGNuTTVCd0lFNWJ1YzVUeVY4eHpUM29hNTZaMDBFb1g2TVAtbm11SndkTVE5TWdDWk5rTmI4TVhrUWpLaEJPQUhjLWpoRmRKYzRKUC1MQVd2c29oQWlteTFFVjB6XzB0cEJSV01WQ3kyeXNWMGVPWnZtaGNhSnQzMEZTbGQzZw?oc=5",
-      "source": "siam.in",
+      "source": "https://www.siam.in/",
       "feed": "Google News: RGA",
       "date": "2026-10-04T18:35:06Z",
       "summary": "",
@@ -368,7 +392,7 @@
       "id": "c430e80d19ac",
       "title": "Wilton Re modernizes a scalable foundation for acquisition-driven growth",
       "link": "https://news.google.com/rss/articles/CBMimgFBVV95cUxQcUE3Ujl4eU1KWVZqci0yeGdoZUpWenFic0ozOUZ6LS1fR0g4VzQxaFk1YzFfRHh6MW56NWk2S05kN1pndjJTSnhsd2t0ejd5eDdkZlpyZkpDRFBVX09FblpOLVpSN2JMZG1UMzFGWVRHNDRublFmd19zX3ROaG96a0kyb2FOLWk2dExoMW1Oa1NaVURvZGtCZnBn?oc=5",
-      "source": "dxc.com",
+      "source": "DXC Technology",
       "feed": "Google News: Wilton Re",
       "date": "2026-09-30T07:00:00Z",
       "summary": "",
@@ -464,7 +488,7 @@
       "id": "16b4627e7b60",
       "title": "Fortitude Re acquires insurtech Dayforward",
       "link": "https://news.google.com/rss/articles/CBMirwFBVV95cUxOMF83bmU2Z280OXdIcDY0a0c1eERxTmU5S3dwd1JaUU9lTk9kV002bng2NzFPUnpDOGozNTBQVHpXOUpIUkZpN3B3S3R4YXE3dzJuNXVpZ3U1bDVWSVA3UklDOXNjWnNjaTVaQWtjRld6cm5jQXcwdUlJUlRXQmFKMWZSQmh5eE9RcjNZOHhCMzlOcjZSQnIxVzczQkstWDY0WTVlM0JWQWpHWmZZbmh3?oc=5",
-      "source": "royalgazette.com",
+      "source": "Royal Gazette | Bermuda",
       "feed": "Google News: Fortitude Re",
       "date": "2026-09-28T15:12:44Z",
       "summary": "",

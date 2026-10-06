@@ -1,5 +1,5 @@
 {
-  "updated": "2026-10-06T16:01:04Z",
+  "updated": "2026-10-06T22:42:39Z",
   "topics": [
     "Insurance AM",
     "Private Credit",
@@ -11,10 +11,30 @@
       "id": "d80001bf288c",
       "title": "Huntington Bank expands captive insurance banking capabilities",
       "source": "Captive Insurance Times",
-      "date": "2026-10-06T15:24:21Z",
+      "date": "2026-10-06T20:13:46Z",
       "topic": "Insurance AM",
       "summary": "",
       "link": "https://news.google.com/rss/articles/CBMi5gFBVV95cUxNVjlXbUYxb3dlWWRxekdnWDlMSUJ6MWg2clRmNy0zZHloR1pSa1VjeU9iclBEaGw2c0dEeXF0REdUaFV5TkRod1NPLTlzaC1fcFVSbkx1YXU4WE5TRG9OWHUwTVphRkNGVDctb3BFNlRWR0RHMFlkMnh2SWhjYXpscWFucVdscHVpaU5zOXZ1UUMtWlNhVjdMNkxVZXNZMmh6ZHJVTXBYSGVaOEFUMEgxWTJFbW9YeUI4VlF6TTVvWS1UWlQwV3ZkOXFqMHJHaXpXTkU3alI5a1AwZGxsNTZjbGt6b3h1dw?oc=5",
+      "isNew": false
+    },
+    {
+      "id": "8d5198426498",
+      "title": "Long bonds light a short fuse",
+      "source": "RBC Wealth Management",
+      "date": "2026-10-06T18:30:18Z",
+      "topic": "Rates & Macro",
+      "summary": "",
+      "link": "https://news.google.com/rss/articles/CBMihwFBVV95cUxQRkNuWlg5X2lGazZzT3lhQnJsQnJDdVNEZF9Sc2ZQQmc2N1hZLVR2XzJXOTBCTFFFVXV3RklwU3ZRVGd3Qm53Smx3bXNERnJUM285ejN6bDJ3VjlxdjhlUTd3STM2RlFFWEZQT3pzM0xIdlJZMkV5eVFqNmNjRGllZnE5Nm04N3M?oc=5",
+      "isNew": false
+    },
+    {
+      "id": "dd954c197829",
+      "title": "EIOPA flags private credit, reinsurance risks at private equity-backed insurers",
+      "source": "Investment & Pensions Europe",
+      "date": "2026-10-06T16:14:37Z",
+      "topic": "Private Credit",
+      "summary": "",
+      "link": "https://news.google.com/rss/articles/CBMivAFBVV95cUxONExjVFU3c0IzN0tfZkk0anpyLVJ4N0N4cTZKNkx4YWlGbW5SZmVHRkM2eHJNS1NYaC1FVFZidHV4Um9xcU4tR082SU1oQno4VWZNZ2Z4Q0F1Q19vbDhPWERFblkxVUl4cWhaQUFWdzBKd1JEZjFGOUtfaVdNRnljV1lZSjF1UGdEZWlmblNjaE5OVTlMcnNoUTNZaU9QUnpXUlE5UDB5OHdDMVRmS3lHaG9fWWZrbVlpTm9BOQ?oc=5",
       "isNew": false
     },
     {
@@ -31,7 +51,7 @@
       "id": "c3cc205e0200",
       "title": "Aviva Investors buys infra CLO in private debt expansion",
       "source": "Alternative Credit Investor",
-      "date": "2026-10-06T00:50:22Z",
+      "date": "2026-10-06T01:42:39Z",
       "topic": "Structured Credit",
       "summary": "",
       "link": "https://news.google.com/rss/articles/CBMiowFBVV95cUxOUWppRHdBTXZ4NldsRk9LMzktUkZsc05jLUZsTWZrTW5XellLWi1ac3ExQkg1dHlEdzVDMDF0T2JVVW9QTklvUGEyVVZSQ2RjN3I4aTNmdW1GcG9SdGNZakZMRkdtazNwVHR1MmY1ZzR0Y25QRGE2TUVzZFhicnNhV1ZVdVR2M0ljSmNNVnRJRXZxU3NYaFEzWVNBWkNxdV9MZjhn?oc=5",
@@ -110,7 +130,7 @@
     {
       "id": "e10685ce7866",
       "title": "Week Ahead for FX, Bonds: Fed Minutes in Focus as Near-Term Rate-Hike Prospects Dim",
-      "source": "wsj.com",
+      "source": "WSJ",
       "date": "2026-10-02T16:12:00Z",
       "topic": "Rates & Macro",
       "summary": "",
@@ -220,7 +240,7 @@
     {
       "id": "303f7798ffa8",
       "title": "Treasury Yields Hit Fresh Highs",
-      "source": "wsj.com",
+      "source": "WSJ",
       "date": "2026-09-30T18:55:00Z",
       "topic": "Rates & Macro",
       "summary": "",
@@ -235,6 +255,16 @@
       "topic": "Rates & Macro",
       "summary": "",
       "link": "https://news.google.com/rss/articles/CBMikgFBVV95cUxPSllCcHF4a3U3T1NZZm5wN2cwQTVKcXFhWmo5Y3JnSkNKSGhMeGxtOHloZkEyRXpSaTR5cF9MRFBVQWdtMzcwLVoyTnQ0YmVNUGpvcllheEtJNVFtdWlYVXdLNmx5emlYaVRpZkhqT1VvdmFFTXFSQi1RQl9kQVhjX3lJcjlOX0hmemMzRTNXbUpYdw?oc=5",
+      "isNew": false
+    },
+    {
+      "id": "aa3c581787f2",
+      "title": "Battered bond market braces for a new era of interest rates",
+      "source": "Reuters",
+      "date": "2026-09-30T00:47:37Z",
+      "topic": "Rates & Macro",
+      "summary": "",
+      "link": "https://news.google.com/rss/articles/CBMipgFBVV95cUxQUFJEcnNjUGNwM1N4MlNkdG1pZ0VwVmt4cWhUZ2t0UkN4aHlRNzVyR3hCd2dUMG1FRWszT05VOUN4MUhDSGhXQUhIamhNWWJJNUpGXzZWcFc2Mk5Hcl9yNXBaaWVDVDlZQWg0d2xIRGl0RFhqWjJlR1ZORGlrNXRmdGZxSF9URFQ3Zzc5d2dER1g4U3hvZDZXMHNKVlhFaGRBRmRKRVJR?oc=5",
       "isNew": false
     },
     {
@@ -275,36 +305,6 @@
       "topic": "Rates & Macro",
       "summary": "",
       "link": "https://news.google.com/rss/articles/CBMidEFVX3lxTE5hYjl3MEF5U0ZabDRMQ2VtUjMxaG1XN1gxd251R29OaDA2eGU0dWpRSEpObXVHcWpneldIZlJGUEZXaGNCMnhydVBJOThfN2pkNWQwVlNnWHUzaHFyUkR1ZkZkQ3RVSTg4U3BoQjR5b3E0SW9F?oc=5",
-      "isNew": false
-    },
-    {
-      "id": "aa3c581787f2",
-      "title": "Battered bond market braces for a new era of interest rates",
-      "source": "Reuters",
-      "date": "2026-09-29T17:05:33Z",
-      "topic": "Rates & Macro",
-      "summary": "",
-      "link": "https://news.google.com/rss/articles/CBMipgFBVV95cUxQUFJEcnNjUGNwM1N4MlNkdG1pZ0VwVmt4cWhUZ2t0UkN4aHlRNzVyR3hCd2dUMG1FRWszT05VOUN4MUhDSGhXQUhIamhNWWJJNUpGXzZWcFc2Mk5Hcl9yNXBaaWVDVDlZQWg0d2xIRGl0RFhqWjJlR1ZORGlrNXRmdGZxSF9URFQ3Zzc5d2dER1g4U3hvZDZXMHNKVlhFaGRBRmRKRVJR?oc=5",
-      "isNew": false
-    },
-    {
-      "id": "d78fddfd39e2",
-      "title": "PHL Variable Should Not The Be The Only Insurer Under Scrutiny",
-      "source": "Forbes",
-      "date": "2026-09-29T16:03:26Z",
-      "topic": "Insurance AM",
-      "summary": "",
-      "link": "https://news.google.com/rss/articles/CBMixwFBVV95cUxPSkFZcnNCSWR5dFkyQy1uZ0UwckQzR1FEN2dNeXlCclpwM01ZSVZUeGdxWW90RzNiTUR4WnlqSzBzaUJtNTNqM3phWnRfbF93UFNFRXFNekRxVmFUdnotVllGaU9uS2t2cURvTFd2WHlUbWlWOVMtcWJYNDM4VVNOVlNnWU1zVFdtWk5wTVBvWFVlcTVtOUZVOVRIQ1MzemNSM1hmaVZNOElZaDY2ZllfZ1F0YmNlMkFfVkY0eHIyeV9UYW1ndW8w?oc=5",
-      "isNew": false
-    },
-    {
-      "id": "dc955267e30b",
-      "title": "3 Life Insurers Poised for Growth Amid Strong Annuity Demand",
-      "source": "TradingView",
-      "date": "2026-09-29T13:21:00Z",
-      "topic": "Insurance AM",
-      "summary": "",
-      "link": "https://news.google.com/rss/articles/CBMitgFBVV95cUxPQ2lwSTdhQmY1ZkpzTUtnUVpRdV9IRGlOQWlhOFpFRWtyUHRVdklkblFPTVRtLXdrVXcxYUl3eS1MdHZtZG9RaXJpZnV4VnUteXJTLVRBelpVTnNQV1hZQmFlWG1FcklCYVdxZGpabExZb09GckpDTXAyMVZBa3FoLU1JelRzekVFZlVOcHlOc052WkJUT0pxeWV1dmkzR19lcG9TMzVSUVhOVk9XTWRqVnpsVHpQQQ?oc=5",
       "isNew": false
     }
   ]
