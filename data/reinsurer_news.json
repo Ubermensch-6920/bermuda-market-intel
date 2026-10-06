@@ -1,5 +1,5 @@
 {
-  "updated": "2026-10-06T06:24:47Z",
+  "updated": "2026-10-06T16:01:06Z",
   "lookback_days": 14,
   "feeds": [
     {
@@ -17,7 +17,7 @@
     {
       "name": "Google News: Athene",
       "ok": true,
-      "count": 6,
+      "count": 7,
       "error": null
     },
     {
@@ -35,7 +35,7 @@
     {
       "name": "Google News: Global Atlantic",
       "ok": true,
-      "count": 9,
+      "count": 10,
       "error": null
     },
     {
@@ -65,7 +65,7 @@
     {
       "name": "Google News: RGA",
       "ok": true,
-      "count": 20,
+      "count": 18,
       "error": null
     },
     {
@@ -101,7 +101,7 @@
     {
       "name": "Google News: Wilton Re",
       "ok": true,
-      "count": 3,
+      "count": 4,
       "error": null
     },
     {
@@ -152,7 +152,7 @@
       "id": "9e0a35ca35eb",
       "title": "Reinsurance Group of America, Incorporated (RGA) stock price, news, quote and history",
       "link": "https://news.google.com/rss/articles/CBMiUEFVX3lxTFBRVVZXVmxhZ254QmlxZldRZzBKVUdwejdOUDl4cGNJM0ZhV3RmZm96cDVkbzVGRmRSaFhSUVJlNkFKMS01R1cxdXhFd3kzOHdL?oc=5",
-      "source": "au.finance.yahoo.com",
+      "source": "Yahoo Finance Australia",
       "feed": "Google News: RGA",
       "date": "2026-10-05T12:38:13Z",
       "summary": "",
@@ -284,7 +284,7 @@
       "id": "2a8fb056de1a",
       "title": "Fortitude Re expands insurtech capabilities with Dayforward buy, Fortitude Life launch",
       "link": "https://news.google.com/rss/articles/CBMixwFBVV95cUxQRVY0aU4tNWJ5LWlGV2E4SGlIY0ZCWEJET1dueG9XMGQzUHcxNHRVcW05WmdoN0lUcnZIRkpwU3FaMHd1V2xySzR6WXRTenRnUjNfTWFHSmMycUVfallwOHVkS2VXYVVnT200dnp2d095MnA1TzJ5bE02d2pLa1JOLVBRaGpSellYR2RvMkM1ZWxoWXoxX3lTOUhrRXVQUm8zeUM3aG00SkppYjhQZ0c2ZlBpckZ6elZhdEtYcnlQRUNqSVZjQmhv?oc=5",
-      "source": "bermudareinsurancemagazine.com",
+      "source": "Bermuda Re",
       "feed": "Google News: Fortitude Re",
       "date": "2026-10-02T10:41:32Z",
       "summary": "",
@@ -464,7 +464,7 @@
       "id": "16b4627e7b60",
       "title": "Fortitude Re acquires insurtech Dayforward",
       "link": "https://news.google.com/rss/articles/CBMirwFBVV95cUxOMF83bmU2Z280OXdIcDY0a0c1eERxTmU5S3dwd1JaUU9lTk9kV002bng2NzFPUnpDOGozNTBQVHpXOUpIUkZpN3B3S3R4YXE3dzJuNXVpZ3U1bDVWSVA3UklDOXNjWnNjaTVaQWtjRld6cm5jQXcwdUlJUlRXQmFKMWZSQmh5eE9RcjNZOHhCMzlOcjZSQnIxVzczQkstWDY0WTVlM0JWQWpHWmZZbmh3?oc=5",
-      "source": "Royal Gazette | Bermuda",
+      "source": "royalgazette.com",
       "feed": "Google News: Fortitude Re",
       "date": "2026-09-28T15:12:44Z",
       "summary": "",
@@ -584,7 +584,7 @@
       "id": "4a417dcfb8ba",
       "title": "West Grove Re appoints former RGA leader Anthony Young as CEO",
       "link": "https://news.google.com/rss/articles/CBMipwFBVV95cUxOVHktYXVlOHVTdVQ4SUZCUnN1TS1vcDlCRkJTOEc3RmdpRWxFd0FkLUZvc2VDTkpXaDFSUllMQ3ZSZWxCb0JWZlZXNUtVX1BmOG9IQUhhT0Y5eFJiNEFSV0ZUREgxMUNmaFI5bmJRbXQzVWt3MExUTEJRU0FESl9HTDZXQ1REVEx1RlZ3Q1FQc0d2ZnFadzk1aEg2YUZxUHN6VzBEaWhZSQ?oc=5",
-      "source": "bermudareinsurancemagazine.com",
+      "source": "Bermuda Re",
       "feed": "Google News: RGA",
       "date": "2026-09-23T07:00:00Z",
       "summary": "",

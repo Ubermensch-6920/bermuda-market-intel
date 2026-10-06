@@ -1,12 +1,12 @@
 # Reinsurer News Monitor
 
 Bermuda life & annuity watchlist — last 14 days — 38 items
-Generated Tue 06 Oct 2026, 03:24 ADT
+Generated Tue 06 Oct 2026, 13:01 ADT
 
 ## Feed status
 
 - ✅ **Artemis.bm** — 10 items
-- ✅ **Google News (16 of 16 companies)** — 60 items
+- ✅ **Google News (16 of 16 companies)** — 61 items
 - ✅ **Reinsurance News** — 10 items
 
 ## Athene
@@ -28,11 +28,11 @@ Generated Tue 06 Oct 2026, 03:24 ADT
 
 - **2026-10-02** — Beinsure — [Fortitude Re parent acquires Dayforward annuity insurtech platform](https://news.google.com/rss/articles/CBMiggFBVV95cUxQcjZVeElENk94UGE3RlhnbC11N1ZqUVAzZy1objVFZWpqdlo3WndnVWd0bkY3Z3dBdGxkNVFnUml2T3E4OXdhMTU3R3c0T3kyNWpDUmRrb3RHOHNQNURqb0lLT09XQS1EUkVUcTFISlNvdzc3NzZJU3pZQjNiMVFQZW9B?oc=5)
 - **2026-10-02** — Beinsure — [Fortitude Re parent acquires insurtech Dayforward annuity technology platform](https://news.google.com/rss/articles/CBMiggFBVV95cUxQcjZVeElENk94UGE3RlhnbC11N1ZqUVAzZy1objVFZWpqdlo3WndnVWd0bkY3Z3dBdGxkNVFnUml2T3E4OXdhMTU3R3c0T3kyNWpDUmRrb3RHOHNQNURqb0lLT09XQS1EUkVUcTFISlNvdzc3NzZJU3pZQjNiMVFQZW9B?oc=5)
-- **2026-10-02** — bermudareinsurancemagazine.com — [Fortitude Re expands insurtech capabilities with Dayforward buy, Fortitude Life launch](https://news.google.com/rss/articles/CBMixwFBVV95cUxQRVY0aU4tNWJ5LWlGV2E4SGlIY0ZCWEJET1dueG9XMGQzUHcxNHRVcW05WmdoN0lUcnZIRkpwU3FaMHd1V2xySzR6WXRTenRnUjNfTWFHSmMycUVfallwOHVkS2VXYVVnT200dnp2d095MnA1TzJ5bE02d2pLa1JOLVBRaGpSellYR2RvMkM1ZWxoWXoxX3lTOUhrRXVQUm8zeUM3aG00SkppYjhQZ0c2ZlBpckZ6elZhdEtYcnlQRUNqSVZjQmhv?oc=5)
+- **2026-10-02** — Bermuda Re — [Fortitude Re expands insurtech capabilities with Dayforward buy, Fortitude Life launch](https://news.google.com/rss/articles/CBMixwFBVV95cUxQRVY0aU4tNWJ5LWlGV2E4SGlIY0ZCWEJET1dueG9XMGQzUHcxNHRVcW05WmdoN0lUcnZIRkpwU3FaMHd1V2xySzR6WXRTenRnUjNfTWFHSmMycUVfallwOHVkS2VXYVVnT200dnp2d095MnA1TzJ5bE02d2pLa1JOLVBRaGpSellYR2RvMkM1ZWxoWXoxX3lTOUhrRXVQUm8zeUM3aG00SkppYjhQZ0c2ZlBpckZ6elZhdEtYcnlQRUNqSVZjQmhv?oc=5)
 - **2026-09-29** — Insurance Business — [Fortitude Re buys Dayforward to build its own annuity origination platform](https://news.google.com/rss/articles/CBMi6gFBVV95cUxQUzVjdjV1cTl2ajRJMjNxTmRjaTVJSV8weXJjRHQ3NmVOVHFUM0ZrUlExSFlEUFZZV3VfbFNOdUpzclBrZ0wyNXg5NzgzZXFISzc3cm9LdU1LXzI3YWpLQVdFSkFrTXl5d1J3b0xHWmc3TjgwRTdfM1o4d1ZwTncwYmRlZlpFWlluaWFteHFCSTBJQUh5dE4xcU0tV1d2UWJldUh0WEdZeHRNbTA0T203RjMwd0doakRZODNSYnZHSjN4b25ZcW80a2ZPcktieGswVDZmOVM5YjExOHJwRlZVV1dJYjRqSmV6ZkE?oc=5)
 - **2026-09-29** — Insurance Business — [Fortitude Re acquires insurtech to build its own annuity pipeline](https://news.google.com/rss/articles/CBMi3gFBVV95cUxNTTBGeGF4VlhtRWhJbDZZWEZXYXVVT2REcmVqNENCcExQRlR5SFdkNFQ4WFFJeGNieC1HU2s4TjhMN0x3M0Z4OVRuYlBUWDVUWmxENGVVRnJ5T3RBUXpsWXhvRk4yVm1PeFBWbGY1djI5YzU3anJCb1N2NDY2TVNkc2lpZGROTDRMOHMwbm02NUx1ejlPWnRkLXB5cnQxLTJibVBWd0s3T3lMTFRTUW1UcklyVzRlYmxoTzBmR3hhM0RiN0dPNWkzMmtzQW9PY0w1QVlWa3VtbU5wVmlIN0E?oc=5)
 - **2026-09-28** — Dealroom — [Fortitude Re buys Dayforward to power annuity push](https://news.google.com/rss/articles/CBMijAFBVV95cUxOOHdkSzd1YUNZT09KUWlQWWtVLUs5OWxnVXBCNEY2Z3ZJcWxhaTVfNVpZUGhYUDdXY2Z6THpXVElHNUpfZGtmTmg3cUJQb2g5emcydExZTWR5ZjNFRUVPVGpXb0xTQi0xTzRma0luNVM4TVBtWnh0aEJVdzJEVndPR2hNTzNYQ0F1MEo3NA?oc=5)
-- **2026-09-28** — Royal Gazette | Bermuda — [Fortitude Re acquires insurtech Dayforward](https://news.google.com/rss/articles/CBMirwFBVV95cUxOMF83bmU2Z280OXdIcDY0a0c1eERxTmU5S3dwd1JaUU9lTk9kV002bng2NzFPUnpDOGozNTBQVHpXOUpIUkZpN3B3S3R4YXE3dzJuNXVpZ3U1bDVWSVA3UklDOXNjWnNjaTVaQWtjRld6cm5jQXcwdUlJUlRXQmFKMWZSQmh5eE9RcjNZOHhCMzlOcjZSQnIxVzczQkstWDY0WTVlM0JWQWpHWmZZbmh3?oc=5)
+- **2026-09-28** — royalgazette.com — [Fortitude Re acquires insurtech Dayforward](https://news.google.com/rss/articles/CBMirwFBVV95cUxOMF83bmU2Z280OXdIcDY0a0c1eERxTmU5S3dwd1JaUU9lTk9kV002bng2NzFPUnpDOGozNTBQVHpXOUpIUkZpN3B3S3R4YXE3dzJuNXVpZ3U1bDVWSVA3UklDOXNjWnNjaTVaQWtjRld6cm5jQXcwdUlJUlRXQmFKMWZSQmh5eE9RcjNZOHhCMzlOcjZSQnIxVzczQkstWDY0WTVlM0JWQWpHWmZZbmh3?oc=5)
 - **2026-09-28** — Intelligent Insurer — [Fortitude Re expands insurtech capabilities with annuity platform buy](https://news.google.com/rss/articles/CBMipwFBVV95cUxNSjgtV1pJSEVkVm1jUXVEbEhWODg4bV84MlB0a1BnWFZqbEN0bHc2dFZkdkxPRWQzMEhieWhrTXVkeWJwU01sZnlWWHNoeVhwZ3oxLURVVGJZTmN0OFgzUFo3N3hpcnZVUmdTVHdnbzFqbl9ZVjdQUTZySDU5TUozTlltS3FISjJpWDJUelVRS1F3bENRQVIyXzh5NmZTOWI1SDdlWkRlWQ?oc=5)
 - **2026-09-28** — Reinsurance News — [Fortitude Re advances long-term strategy with Dayforward acquisition](https://www.reinsurancene.ws/fortitude-re-advances-long-term-strategy-with-dayforward-acquisition/)
   - Fortitude Re, formed by FGH Parent, L.P. and its subsidiaries, has acquired nearly all the assets of Dayforward, a digitally native insurance technology company, through a newly formed entity that will be renamed Fortitude Life. The transaction includes Dayforward’s technology platform, distribution agreements, intellectual property, licensed insurance agency and its team, but excludes the firm’s 
@@ -59,7 +59,7 @@ Generated Tue 06 Oct 2026, 03:24 ADT
 ## RGA
 
 - **2026-10-05** — au.finance.yahoo.com — [Reinsurance Group of America, Incorporated (RGA) latest stock news and headlines](https://news.google.com/rss/articles/CBMiV0FVX3lxTE5CdHFXVjBaOUtpRG1uM296dngxVElqR0x6cFZ2NjVySDAyaUZSQkpGdmRxWkk2U3VNR3lFQUxxeTdvbmxWQ3lybXM4cmVvN3VIcGJHS3pWNA?oc=5)
-- **2026-10-05** — au.finance.yahoo.com — [Reinsurance Group of America, Incorporated (RGA) stock price, news, quote and history](https://news.google.com/rss/articles/CBMiUEFVX3lxTFBRVVZXVmxhZ254QmlxZldRZzBKVUdwejdOUDl4cGNJM0ZhV3RmZm96cDVkbzVGRmRSaFhSUVJlNkFKMS01R1cxdXhFd3kzOHdL?oc=5)
+- **2026-10-05** — Yahoo Finance Australia — [Reinsurance Group of America, Incorporated (RGA) stock price, news, quote and history](https://news.google.com/rss/articles/CBMiUEFVX3lxTFBRVVZXVmxhZ254QmlxZldRZzBKVUdwejdOUDl4cGNJM0ZhV3RmZm96cDVkbzVGRmRSaFhSUVJlNkFKMS01R1cxdXhFd3kzOHdL?oc=5)
 - **2026-10-04** — siam.in — [Reinsurance Group of America (RGA) Edges Higher as Shares Test Upper Range - Retail Volume](https://news.google.com/rss/articles/CBMitgFBVV95cUxOa1o3bEpvclN6blBvUXllNjhLaTJTa1F0aXZPUmdveG5od2hkakJZcThfaDBjY1JtcGNuTTVCd0lFNWJ1YzVUeVY4eHpUM29hNTZaMDBFb1g2TVAtbm11SndkTVE5TWdDWk5rTmI4TVhrUWpLaEJPQUhjLWpoRmRKYzRKUC1MQVd2c29oQWlteTFFVjB6XzB0cEJSV01WQ3kyeXNWMGVPWnZtaGNhSnQzMEZTbGQzZw?oc=5)
 - **2026-10-03** — Pluang — [Reinsurance Group of America upgraded to buy af...](https://news.google.com/rss/articles/CBMikgFBVV95cUxNU1d4V1A1RnJCeUdHZEFELXFpSVRsZGRpR1Z3M3pnR09VY3NBdXRWY3oyV2VrdWl5b0ZJbFdhUmZWQW0zajRqaHFDVHVOVjR1LVI5SHNxUnNiRHpXTG1vNGpSd0lZbC1kbEdQdmliTmdNMlFjd1ZycXJia0hZYWNGOEllWm5PYTMtcUJYelp3N19QZw?oc=5)
 - **2026-10-03** — Seeking Alpha — [Reinsurance Group of America: Medical And Rate Tailwinds Carry Further Upside (Upgrade)](https://news.google.com/rss/articles/CBMiwwFBVV95cUxNdUR4aHF3YUF2QnFrQXBEVTl2WEFGRnB2OXkyWU12bXBaYUozSUtMM3I2aTZaRnZsci12ZXhkY0dTbTVJM1lubG9SbDBVSnl6LU9JUmtsd3VvVXVpNGcwVktJc2drSVRqcVF5Q2VOcXQyQmR6TWx5VkdsOGRrS2EtM29iSmpzNEk3dmZtSHZqc3V2YlJLTWhYU19XNkZ6ZjFVdFFXZUd6Z1NOTzBwbzZqQ2FQdHM2SUtiWlREYUJfdGp4SFk?oc=5)

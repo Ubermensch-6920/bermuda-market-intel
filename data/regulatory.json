@@ -1,6 +1,16 @@
 {
-  "updated": "2026-10-06T06:24:44Z",
+  "updated": "2026-10-06T16:01:04Z",
   "naic": [
+    {
+      "id": "c1d5c6f8d206",
+      "title": "CIRCA urges NAIC to base reinsurance recapture charge on risk, not domicile",
+      "date": "2026-10-06",
+      "cat": "General",
+      "summary": "",
+      "source": "Captive Insurance Times",
+      "link": "https://news.google.com/rss/articles/CBMi5gFBVV95cUxQektNUFhBM2ozZzNNNGN5Z19TRGt3SnpEbmk0YnFORWNyLUFKUGg0eHNiZDRvaTFMUVYwaFlsR3hyQVV3STI1ODZwUkRrVnZjM2FUMWxfR3R6a1ZMdkZDSFhjRTUtUkNzVXk2QWNSbk9oVW1wV20ybGstYTJLLW9GV3BWNElvemNkNkpZblZ1QnAtWkw1UHh5a3dlcm1NcUtvUlhDNTJVMTA1a0cxWXU4XzYwUDQta2FnRURLYnBvRFlfT3BCd3dxSUpacldWOVM0X3lXLUZyWHBkMUNXcUI2Q0lRQnJMQQ?oc=5",
+      "isNew": true
+    },
     {
       "id": "f301b142e443",
       "title": "Risk-Based Capital (RBC) in U.S. Insurance: What the Ratio Means and Why Regulators Use It",
@@ -77,7 +87,7 @@
       "date": "2026-09-24",
       "cat": "General",
       "summary": "",
-      "source": "prnewswire.com",
+      "source": "PR Newswire",
       "link": "https://news.google.com/rss/articles/CBMizgFBVV95cUxOeWJKVWVxa3czR1BhRl9GVWhkbHNXb3lnVjEyN3JINy0zRkpuMTVLalY2MDZnY2hNRHM0R09GSVZfWUl2RG9Na252NzVZM0RKd0JKbUpaVFcxZlpYOFBHMHQ1T3JnYzNULVhFN2s4YUR1Unh1TmM1WlFPVkdxZjJVSkhYSUZ4bk9ZTm5kcFdvSWhLSHhNaVFIRE9CNlRLdXc5M25LZzBEZjVFSnYxdS1fcnJoNFc2MVlLbXVmVExqekhuYVhlcEN1YkxQSGZndw?oc=5",
       "isNew": true
     },
@@ -239,16 +249,6 @@
       "summary": "",
       "source": "InsuranceNewsNet",
       "link": "https://news.google.com/rss/articles/CBMitgFBVV95cUxNcGdrZzZTTi1XNVJuOFFBS3VmOU5Nc1lGZ0ljcWg0djQ2cXZVTzRYZWU4VFF2RnRrS0VYVjBNOW1VeW84bnQ4WHNNWHQ4dGJINnppZUJCSXZMNmpJdktxXzNCOHRXWHRZdEJDMkU5RC0yQ2tGVUluMVdSLWNpcHpRbmNtZkJKazZEQ3pQQUlORi1mOEgyMmpad0pYWjdxdG5kNzlFTVVUMG0zQTY4STYzR2NPaUREdw?oc=5",
-      "isNew": false
-    },
-    {
-      "id": "f4b6cd776541",
-      "title": "NAIC summer 2026: Colorado commissioner urges action toward an AI model law",
-      "date": "2026-08-24",
-      "cat": "Governance",
-      "summary": "",
-      "source": "S&P Global",
-      "link": "https://news.google.com/rss/articles/CBMi9AFBVV95cUxNaC01cmpUeTlHS3hIU05hVXJUcF9JRy1ySTdjdWNnLXVaN2dmcnpneHJnaE9mQXBLeHZJaWVRZDJNTWFxelRXV0d2TjVBOXlDV0dWcjlHczY3a19TLUhUb21kUkJYdEVGWm1EWndGWFVtTlZHVTNOdmpiaGk1dkJzazlVNjNLWjY3NFhNakhPMENHSHlxSTNEdzFabWFGWGtVLUZGMU8wTTZNSmllV0VKVWktREJJRWRIZlI2RDNyYlpEZmVoNDUxNWJjV0dicm1ycURBWGszdjdqQS0tOEtPQUo4aEt4Qi1TQVFwb3hES0w3OVNn?oc=5",
       "isNew": false
     }
   ],
@@ -601,7 +601,7 @@
       "date": "2026-08-18",
       "cat": "Licensing",
       "summary": "",
-      "source": "JDSupra",
+      "source": "jdsupra.com",
       "link": "https://news.google.com/rss/articles/CBMihwFBVV95cUxONmZwYXNvSEYySVNIVHlPeDBRS1JkYlpteTVLOHBXRWtiZ05NZHlER1VHOFp5aHJIbHlfaFlVZzN0SV9XUmNlMF9NbWNfdXpWejlRV0xtR0dERVlET1VMeFFHekFGSGw0NzJjYU9KQW5kYS1rSHdzdm02Y3pPcHo1V21WVUNXZW8?oc=5",
       "isNew": false
     },
@@ -621,7 +621,7 @@
       "date": "2026-08-10",
       "cat": "Capital/Solvency",
       "summary": "",
-      "source": "Business in Cameroon",
+      "source": "businessincameroon.com",
       "link": "https://news.google.com/rss/articles/CBMiygFBVV95cUxPNHFnd25oZlJXbWpqRU13ZFM5eVZZZHdNMS1SU0s0WF95QWJwZ0dEMGNHaFl4Sl9ZcWdVaExoNXBSaUZxS3VSSElGZGc4YWowVG1WSDcyM1VWZ1h3OW5aWmNWbkhUUFN6Z3Qwc21kaE1VR0VxNG84eGRHZmtLZl9Bc2lwVHk5X1NtTHQtS2JyMlFEN0dlT0tyMDBybENFZTdpSWRTa3RCdzQ3aXFNRmdCNUFYQlh4dEdhNlhPdlNOSmhOdXdiWEQzUFB3?oc=5",
       "isNew": false
     },

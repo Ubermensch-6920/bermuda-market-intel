@@ -1,5 +1,5 @@
 {
-  "updated": "2026-10-06T06:24:44Z",
+  "updated": "2026-10-06T16:01:04Z",
   "topics": [
     "Insurance AM",
     "Private Credit",
@@ -7,6 +7,26 @@
     "Structured Credit"
   ],
   "items": [
+    {
+      "id": "d80001bf288c",
+      "title": "Huntington Bank expands captive insurance banking capabilities",
+      "source": "Captive Insurance Times",
+      "date": "2026-10-06T15:24:21Z",
+      "topic": "Insurance AM",
+      "summary": "",
+      "link": "https://news.google.com/rss/articles/CBMi5gFBVV95cUxNVjlXbUYxb3dlWWRxekdnWDlMSUJ6MWg2clRmNy0zZHloR1pSa1VjeU9iclBEaGw2c0dEeXF0REdUaFV5TkRod1NPLTlzaC1fcFVSbkx1YXU4WE5TRG9OWHUwTVphRkNGVDctb3BFNlRWR0RHMFlkMnh2SWhjYXpscWFucVdscHVpaU5zOXZ1UUMtWlNhVjdMNkxVZXNZMmh6ZHJVTXBYSGVaOEFUMEgxWTJFbW9YeUI4VlF6TTVvWS1UWlQwV3ZkOXFqMHJHaXpXTkU3alI5a1AwZGxsNTZjbGt6b3h1dw?oc=5",
+      "isNew": false
+    },
+    {
+      "id": "7c4d8ec574e7",
+      "title": "Shifting dynamics: private credit versus banks",
+      "source": "Financier Worldwide",
+      "date": "2026-10-06T15:15:38Z",
+      "topic": "Private Credit",
+      "summary": "",
+      "link": "https://news.google.com/rss/articles/CBMihwFBVV95cUxONDJuWGRRLUh1MTlzSkI5OHJTcUZ4eFFFdlVHa1loLUR3T1lFR0lSUmp6MWN1dmFnZUFuYmpnMjZHa0FldzMza1JfaVVwWkZVZjk0UXM4WW1uenZRYUtEaUVlQUlkc2ROdE5mNXZOMWhCdl9URzB2T1FWUkZwSWJFYW0xbjNBSHM?oc=5",
+      "isNew": false
+    },
     {
       "id": "c3cc205e0200",
       "title": "Aviva Investors buys infra CLO in private debt expansion",
@@ -21,7 +41,7 @@
       "id": "fccf4736d838",
       "title": "Insurance and Private Capital: The Next Phase of Convergence",
       "source": "The National Law Review",
-      "date": "2026-10-05T22:11:14Z",
+      "date": "2026-10-05T22:04:18Z",
       "topic": "Insurance AM",
       "summary": "",
       "link": "https://news.google.com/rss/articles/CBMijgFBVV95cUxNZk9heHlFZmh5MkF5dmNSX2dob3VFdExEaTYzNEhRQ2FlZHY3R2dpOEFwZkJBSkt3Uy01M3ZzQ2x4cVVXeXdWRXNhcHVxTHdNbXlKM3F4dVRMYUZrZzU2WnlVUVBNV013ZDdxMU45aEFpT1dSLXkxelRFOEJHMUtPMU1LSG1WNTZyVzhmbFZn0gGTAUFVX3lxTE1GbDc2Y3V3MFZ2R1VnLTRFc1VHeldCbXVCNDhEdVJSN01oZUZhajk0SmxENFUxVU5PN0N2b1pNT0RlXzlvY0ZSNFBUYThyNjRUX0FyT29Vd084Y2o5M1pVU2t6eDg1VW56Nmo3TUNzU29YNmlEeEZVTGRWYkpoVW9kdHBxSW8wZ09JQWkxUHBtb1FtYw?oc=5",
@@ -30,7 +50,7 @@
     {
       "id": "e1bf3a2ea780",
       "title": "Insurance providers dive into GPU financing game",
-      "source": "equipmentfinancenews.com",
+      "source": "Equipment Finance News",
       "date": "2026-10-05T17:27:47Z",
       "topic": "Private Credit",
       "summary": "",
@@ -80,7 +100,7 @@
     {
       "id": "b9e8e5f3b036",
       "title": "Prudential Financial (PRU) Q2 2026 Earnings Call Transcript",
-      "source": "fortune.com",
+      "source": "Fortune",
       "date": "2026-10-03T01:57:26Z",
       "topic": "Insurance AM",
       "summary": "",
@@ -90,7 +110,7 @@
     {
       "id": "e10685ce7866",
       "title": "Week Ahead for FX, Bonds: Fed Minutes in Focus as Near-Term Rate-Hike Prospects Dim",
-      "source": "WSJ",
+      "source": "wsj.com",
       "date": "2026-10-02T16:12:00Z",
       "topic": "Rates & Macro",
       "summary": "",
@@ -170,7 +190,7 @@
     {
       "id": "0fd5ca2355b1",
       "title": "After sharp rise in private credit, here's where it's now headed",
-      "source": "thenationalnews.com",
+      "source": "www.thenationalnews.com",
       "date": "2026-10-01T05:31:58Z",
       "topic": "Private Credit",
       "summary": "",
@@ -200,7 +220,7 @@
     {
       "id": "303f7798ffa8",
       "title": "Treasury Yields Hit Fresh Highs",
-      "source": "WSJ",
+      "source": "wsj.com",
       "date": "2026-09-30T18:55:00Z",
       "topic": "Rates & Macro",
       "summary": "",
@@ -215,16 +235,6 @@
       "topic": "Rates & Macro",
       "summary": "",
       "link": "https://news.google.com/rss/articles/CBMikgFBVV95cUxPSllCcHF4a3U3T1NZZm5wN2cwQTVKcXFhWmo5Y3JnSkNKSGhMeGxtOHloZkEyRXpSaTR5cF9MRFBVQWdtMzcwLVoyTnQ0YmVNUGpvcllheEtJNVFtdWlYVXdLNmx5emlYaVRpZkhqT1VvdmFFTXFSQi1RQl9kQVhjX3lJcjlOX0hmemMzRTNXbUpYdw?oc=5",
-      "isNew": false
-    },
-    {
-      "id": "aa3c581787f2",
-      "title": "Battered bond market braces for a new era of interest rates",
-      "source": "Reuters",
-      "date": "2026-09-30T00:47:37Z",
-      "topic": "Rates & Macro",
-      "summary": "",
-      "link": "https://news.google.com/rss/articles/CBMipgFBVV95cUxQUFJEcnNjUGNwM1N4MlNkdG1pZ0VwVmt4cWhUZ2t0UkN4aHlRNzVyR3hCd2dUMG1FRWszT05VOUN4MUhDSGhXQUhIamhNWWJJNUpGXzZWcFc2Mk5Hcl9yNXBaaWVDVDlZQWg0d2xIRGl0RFhqWjJlR1ZORGlrNXRmdGZxSF9URFQ3Zzc5d2dER1g4U3hvZDZXMHNKVlhFaGRBRmRKRVJR?oc=5",
       "isNew": false
     },
     {
@@ -268,6 +278,16 @@
       "isNew": false
     },
     {
+      "id": "aa3c581787f2",
+      "title": "Battered bond market braces for a new era of interest rates",
+      "source": "Reuters",
+      "date": "2026-09-29T17:05:33Z",
+      "topic": "Rates & Macro",
+      "summary": "",
+      "link": "https://news.google.com/rss/articles/CBMipgFBVV95cUxQUFJEcnNjUGNwM1N4MlNkdG1pZ0VwVmt4cWhUZ2t0UkN4aHlRNzVyR3hCd2dUMG1FRWszT05VOUN4MUhDSGhXQUhIamhNWWJJNUpGXzZWcFc2Mk5Hcl9yNXBaaWVDVDlZQWg0d2xIRGl0RFhqWjJlR1ZORGlrNXRmdGZxSF9URFQ3Zzc5d2dER1g4U3hvZDZXMHNKVlhFaGRBRmRKRVJR?oc=5",
+      "isNew": false
+    },
+    {
       "id": "d78fddfd39e2",
       "title": "PHL Variable Should Not The Be The Only Insurer Under Scrutiny",
       "source": "Forbes",
@@ -285,26 +305,6 @@
       "topic": "Insurance AM",
       "summary": "",
       "link": "https://news.google.com/rss/articles/CBMitgFBVV95cUxPQ2lwSTdhQmY1ZkpzTUtnUVpRdV9IRGlOQWlhOFpFRWtyUHRVdklkblFPTVRtLXdrVXcxYUl3eS1MdHZtZG9RaXJpZnV4VnUteXJTLVRBelpVTnNQV1hZQmFlWG1FcklCYVdxZGpabExZb09GckpDTXAyMVZBa3FoLU1JelRzekVFZlVOcHlOc052WkJUT0pxeWV1dmkzR19lcG9TMzVSUVhOVk9XTWRqVnpsVHpQQQ?oc=5",
-      "isNew": false
-    },
-    {
-      "id": "08f9e0dd8d52",
-      "title": "Third Wave Insurance Appoints Awan Sikri as Chief Information Officer",
-      "source": "The Des Moines Register",
-      "date": "2026-09-29T10:10:10Z",
-      "topic": "Insurance AM",
-      "summary": "",
-      "link": "https://news.google.com/rss/articles/CBMiywFBVV95cUxObHc1QWpEaEc1eEpKMHhjamE3R1B2TC1WV2VnRnBJM1owV2JxTlhCWTdFdnFYcDRzQ3Q3OGxCSnZGOFl5X2RWMV9Qay1KNG1QaGdWNFNZTFU4ZkdFM1dKUkdLNWtWYTFSdXZyZ29WZUFHbnR5SHlocy1fakt5N1BhMmJCb0lZSFY5UzFUYVo0S3VUMUd5UGJPUHZTSjAzZWxRUHNtTC1yRmFmVWZJTEt1bV9wMk9MNWtjLW56N2ZwQ3N3VFhuMnpISkNQTQ?oc=5",
-      "isNew": false
-    },
-    {
-      "id": "c7f0f8be1345",
-      "title": "ILS NYC 2027 - Insurance linked securities conference in New York from Artemis",
-      "source": "Artemis.bm",
-      "date": "2026-09-28T22:44:31Z",
-      "topic": "Insurance AM",
-      "summary": "",
-      "link": "https://news.google.com/rss/articles/CBMiTEFVX3lxTE9jR3pRRTYtY3hYUWJsQ1hPbXM2NzE5QUFod2V4RUx2N1JOblFLTlFmWTZYSjZ0V01Fd3BfWmhwcDJZemo5cVdQOVZoNkY?oc=5",
       "isNew": false
     }
   ]
