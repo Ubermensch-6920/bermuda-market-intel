@@ -1,5 +1,5 @@
 {
-  "updated": "2026-10-05T22:05:02Z",
+  "updated": "2026-10-06T06:24:47Z",
   "lookback_days": 14,
   "feeds": [
     {
@@ -17,7 +17,7 @@
     {
       "name": "Google News: Athene",
       "ok": true,
-      "count": 7,
+      "count": 6,
       "error": null
     },
     {
@@ -29,7 +29,7 @@
     {
       "name": "Google News: Fortitude Re",
       "ok": true,
-      "count": 7,
+      "count": 8,
       "error": null
     },
     {
@@ -53,7 +53,7 @@
     {
       "name": "Google News: Monument Re",
       "ok": true,
-      "count": 1,
+      "count": 2,
       "error": null
     },
     {
@@ -65,7 +65,7 @@
     {
       "name": "Google News: RGA",
       "ok": true,
-      "count": 19,
+      "count": 20,
       "error": null
     },
     {
@@ -118,7 +118,7 @@
       "link": "https://news.google.com/rss/articles/CBMipgFBVV95cUxQQ2NvYjZTbEo5NURrVDVBQlJuY0RpeEtWUU9sWDNBZndGemFra2MtaTB0bURPZWF5VUpVcUVEYy02R1REVUZtRGRpbWJhQnFwNFMwNWhoQURFNzgwb3E2anduVFJkVTBEWTZwT2NwTG5pc0NIZGFsaFVYenhlek1jWERkLW5wQTFCSmMtRVdzcGdkZlc2Vm9qbFlwSFBoeUhHV2dvZ25R?oc=5",
       "source": "InsuranceNewsNet",
       "feed": "Google News: Global Atlantic",
-      "date": "2026-10-05T18:18:52Z",
+      "date": "2026-10-06T00:39:42Z",
       "summary": "",
       "companies": [
         "Global Atlantic"
@@ -137,10 +137,22 @@
       ]
     },
     {
+      "id": "64bdca379950",
+      "title": "Reinsurance Group of America, Incorporated (RGA) latest stock news and headlines",
+      "link": "https://news.google.com/rss/articles/CBMiV0FVX3lxTE5CdHFXVjBaOUtpRG1uM296dngxVElqR0x6cFZ2NjVySDAyaUZSQkpGdmRxWkk2U3VNR3lFQUxxeTdvbmxWQ3lybXM4cmVvN3VIcGJHS3pWNA?oc=5",
+      "source": "au.finance.yahoo.com",
+      "feed": "Google News: RGA",
+      "date": "2026-10-05T13:33:14Z",
+      "summary": "",
+      "companies": [
+        "RGA"
+      ]
+    },
+    {
       "id": "9e0a35ca35eb",
       "title": "Reinsurance Group of America, Incorporated (RGA) stock price, news, quote and history",
       "link": "https://news.google.com/rss/articles/CBMiUEFVX3lxTFBRVVZXVmxhZ254QmlxZldRZzBKVUdwejdOUDl4cGNJM0ZhV3RmZm96cDVkbzVGRmRSaFhSUVJlNkFKMS01R1cxdXhFd3kzOHdL?oc=5",
-      "source": "Yahoo Finance Australia",
+      "source": "au.finance.yahoo.com",
       "feed": "Google News: RGA",
       "date": "2026-10-05T12:38:13Z",
       "summary": "",
@@ -191,18 +203,6 @@
       "source": "Seeking Alpha",
       "feed": "Google News: RGA",
       "date": "2026-10-03T03:38:48Z",
-      "summary": "",
-      "companies": [
-        "RGA"
-      ]
-    },
-    {
-      "id": "64bdca379950",
-      "title": "Reinsurance Group of America, Incorporated (RGA) latest stock news and headlines",
-      "link": "https://news.google.com/rss/articles/CBMiV0FVX3lxTE5CdHFXVjBaOUtpRG1uM296dngxVElqR0x6cFZ2NjVySDAyaUZSQkpGdmRxWkk2U3VNR3lFQUxxeTdvbmxWQ3lybXM4cmVvN3VIcGJHS3pWNA?oc=5",
-      "source": "Yahoo Finance Australia",
-      "feed": "Google News: RGA",
-      "date": "2026-10-02T22:45:47Z",
       "summary": "",
       "companies": [
         "RGA"
@@ -284,7 +284,7 @@
       "id": "2a8fb056de1a",
       "title": "Fortitude Re expands insurtech capabilities with Dayforward buy, Fortitude Life launch",
       "link": "https://news.google.com/rss/articles/CBMixwFBVV95cUxQRVY0aU4tNWJ5LWlGV2E4SGlIY0ZCWEJET1dueG9XMGQzUHcxNHRVcW05WmdoN0lUcnZIRkpwU3FaMHd1V2xySzR6WXRTenRnUjNfTWFHSmMycUVfallwOHVkS2VXYVVnT200dnp2d095MnA1TzJ5bE02d2pLa1JOLVBRaGpSellYR2RvMkM1ZWxoWXoxX3lTOUhrRXVQUm8zeUM3aG00SkppYjhQZ0c2ZlBpckZ6elZhdEtYcnlQRUNqSVZjQmhv?oc=5",
-      "source": "Bermuda Re",
+      "source": "bermudareinsurancemagazine.com",
       "feed": "Google News: Fortitude Re",
       "date": "2026-10-02T10:41:32Z",
       "summary": "",
@@ -584,7 +584,7 @@
       "id": "4a417dcfb8ba",
       "title": "West Grove Re appoints former RGA leader Anthony Young as CEO",
       "link": "https://news.google.com/rss/articles/CBMipwFBVV95cUxOVHktYXVlOHVTdVQ4SUZCUnN1TS1vcDlCRkJTOEc3RmdpRWxFd0FkLUZvc2VDTkpXaDFSUllMQ3ZSZWxCb0JWZlZXNUtVX1BmOG9IQUhhT0Y5eFJiNEFSV0ZUREgxMUNmaFI5bmJRbXQzVWt3MExUTEJRU0FESl9HTDZXQ1REVEx1RlZ3Q1FQc0d2ZnFadzk1aEg2YUZxUHN6VzBEaWhZSQ?oc=5",
-      "source": "Bermuda Re",
+      "source": "bermudareinsurancemagazine.com",
       "feed": "Google News: RGA",
       "date": "2026-09-23T07:00:00Z",
       "summary": "",
