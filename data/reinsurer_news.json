@@ -1,5 +1,5 @@
 {
-  "updated": "2026-10-07T02:07:20Z",
+  "updated": "2026-10-07T06:04:29Z",
   "lookback_days": 14,
   "feeds": [
     {
@@ -17,7 +17,7 @@
     {
       "name": "Google News: Athene",
       "ok": true,
-      "count": 7,
+      "count": 6,
       "error": null
     },
     {
@@ -95,7 +95,7 @@
     {
       "name": "Google News: Venerable",
       "ok": true,
-      "count": 7,
+      "count": 6,
       "error": null
     },
     {
