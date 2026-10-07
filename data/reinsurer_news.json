@@ -1,5 +1,5 @@
 {
-  "updated": "2026-10-07T14:54:14Z",
+  "updated": "2026-10-07T20:40:24Z",
   "lookback_days": 14,
   "feeds": [
     {
@@ -35,7 +35,7 @@
     {
       "name": "Google News: Global Atlantic",
       "ok": true,
-      "count": 9,
+      "count": 10,
       "error": null
     },
     {
@@ -65,7 +65,7 @@
     {
       "name": "Google News: RGA",
       "ok": true,
-      "count": 19,
+      "count": 18,
       "error": null
     },
     {
@@ -101,7 +101,7 @@
     {
       "name": "Google News: Wilton Re",
       "ok": true,
-      "count": 5,
+      "count": 4,
       "error": null
     },
     {
@@ -186,11 +186,11 @@
     },
     {
       "id": "9c77084be47e",
-      "title": "Reinsurance Group of America (RGA) Edges Higher as Shares Test Upper Range - Retail Volume",
-      "link": "https://news.google.com/rss/articles/CBMitgFBVV95cUxOa1o3bEpvclN6blBvUXllNjhLaTJTa1F0aXZPUmdveG5od2hkakJZcThfaDBjY1JtcGNuTTVCd0lFNWJ1YzVUeVY4eHpUM29hNTZaMDBFb1g2TVAtbm11SndkTVE5TWdDWk5rTmI4TVhrUWpLaEJPQUhjLWpoRmRKYzRKUC1MQVd2c29oQWlteTFFVjB6XzB0cEJSV01WQ3kyeXNWMGVPWnZtaGNhSnQzMEZTbGQzZw?oc=5",
-      "source": "https://www.siam.in/",
+      "title": "Reinsurance Group of America (RGA) Edges Higher as Shares Test Upper Range - Fibonacci Entry Signals",
+      "link": "https://news.google.com/rss/articles/CBMitwFBVV95cUxPLVNxQUtHeEJEcERpUjlWZDlLZFFkUVJGcERQa1B6dXc4VHpHUXRDSjRsUnNfSVV3Z3Q2RFR6d1ZZWUtWSl9mZDRidmhBMk1sdjFONkZ5WXlTXzZ6LXUtYzFmZUQ0V19EUnYtOUV3MDhfWVdkWEpnZVpKZkRKNnFGaDVpaUcwZDJya1lubVFYaEJ5SlVXVkpPeWt6SVZjNy1RM0E3U0lyc2c1MU5XMkJ1R0otZTJhejQ?oc=5",
+      "source": "www.dars.gov.et",
       "feed": "Google News: RGA",
-      "date": "2026-10-04T18:35:06Z",
+      "date": "2026-10-04T18:44:13Z",
       "summary": "",
       "companies": [
         "RGA"
@@ -437,18 +437,6 @@
       ]
     },
     {
-      "id": "4426b69dd45e",
-      "title": "Fortitude Re buys Dayforward to power annuity push",
-      "link": "https://news.google.com/rss/articles/CBMijAFBVV95cUxOOHdkSzd1YUNZT09KUWlQWWtVLUs5OWxnVXBCNEY2Z3ZJcWxhaTVfNVpZUGhYUDdXY2Z6THpXVElHNUpfZGtmTmg3cUJQb2g5emcydExZTWR5ZjNFRUVPVGpXb0xTQi0xTzRma0luNVM4TVBtWnh0aEJVdzJEVndPR2hNTzNYQ0F1MEo3NA?oc=5",
-      "source": "Dealroom",
-      "feed": "Google News: Fortitude Re",
-      "date": "2026-09-29T01:03:21Z",
-      "summary": "",
-      "companies": [
-        "Fortitude Re"
-      ]
-    },
-    {
       "id": "05ae5e0a96b3",
       "title": "Reinsurance Group of America (NYSE:RGA) Stock Rating Raised to \"Overweight\" at Morgan Stanley",
       "link": "https://news.google.com/rss/articles/CBMi5gFBVV95cUxNODVIb1lMYWlTTjM5VjVPMVhzUWtWbTJ1Y0hKeENHWTdqRVRuanFPYXowZE9ZLUR4X0YxVmhCUzN5X1pxUjl4ZGx4NU1yWWloZVBMMXVyeVRrTUxOU3VOOVNLMVJGOHlyY3J3czR3dEdrbXhsSWhreThrQkJCUzBZSDN6QUxVTGcxRVRpeVVqV3VHLWNHZVp4M012bFNiN3JHR0ppMGVPY2E5SE5fWWtlRVczb2paLW9TdTFtM19RT21nNmgtNVBiZ3J5eXNEcjFMOEJmSkl0SlV1Rzllb1NxRlhLVjlGZw?oc=5",
@@ -539,6 +527,18 @@
       "source": "Coverager",
       "feed": "Google News: Fortitude Re",
       "date": "2026-09-28T12:48:22Z",
+      "summary": "",
+      "companies": [
+        "Fortitude Re"
+      ]
+    },
+    {
+      "id": "4426b69dd45e",
+      "title": "Fortitude Re buys Dayforward to power annuity push",
+      "link": "https://news.google.com/rss/articles/CBMijAFBVV95cUxOOHdkSzd1YUNZT09KUWlQWWtVLUs5OWxnVXBCNEY2Z3ZJcWxhaTVfNVpZUGhYUDdXY2Z6THpXVElHNUpfZGtmTmg3cUJQb2g5emcydExZTWR5ZjNFRUVPVGpXb0xTQi0xTzRma0luNVM4TVBtWnh0aEJVdzJEVndPR2hNTzNYQ0F1MEo3NA?oc=5",
+      "source": "Dealroom",
+      "feed": "Google News: Fortitude Re",
+      "date": "2026-09-28T12:38:39Z",
       "summary": "",
       "companies": [
         "Fortitude Re"

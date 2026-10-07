@@ -63,5 +63,5 @@
     }
   },
   "note": "WAM = weighted average remaining maturity of outstanding central govt marketable debt (not duration). USA monthly, computed from Treasury MSPD per-CUSIP detail; Japan monthly via MOF JGB Outstanding; UK monthly via UK DMO; EUR annual via OECD (Germany proxy); India annual via RBI Annual Report.",
-  "_fetched": "2026-10-07T14:54:07.290702Z"
+  "_fetched": "2026-10-07T20:40:16.120315Z"
 }

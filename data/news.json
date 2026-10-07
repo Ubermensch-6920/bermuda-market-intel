@@ -1,5 +1,5 @@
 {
-  "updated": "2026-10-07T14:54:11Z",
+  "updated": "2026-10-07T20:40:20Z",
   "topics": [
     "Insurance AM",
     "Private Credit",
@@ -7,16 +7,6 @@
     "Structured Credit"
   ],
   "items": [
-    {
-      "id": "d80001bf288c",
-      "title": "Huntington Bank expands captive insurance banking capabilities",
-      "source": "Captive Insurance Times",
-      "date": "2026-10-06T20:13:46Z",
-      "topic": "Insurance AM",
-      "summary": "",
-      "link": "https://news.google.com/rss/articles/CBMi5gFBVV95cUxNVjlXbUYxb3dlWWRxekdnWDlMSUJ6MWg2clRmNy0zZHloR1pSa1VjeU9iclBEaGw2c0dEeXF0REdUaFV5TkRod1NPLTlzaC1fcFVSbkx1YXU4WE5TRG9OWHUwTVphRkNGVDctb3BFNlRWR0RHMFlkMnh2SWhjYXpscWFucVdscHVpaU5zOXZ1UUMtWlNhVjdMNkxVZXNZMmh6ZHJVTXBYSGVaOEFUMEgxWTJFbW9YeUI4VlF6TTVvWS1UWlQwV3ZkOXFqMHJHaXpXTkU3alI5a1AwZGxsNTZjbGt6b3h1dw?oc=5",
-      "isNew": false
-    },
     {
       "id": "fd63b981c741",
       "title": "Tradeweb Government Bond Update \u2013 September 2026",
@@ -45,6 +35,16 @@
       "topic": "Private Credit",
       "summary": "",
       "link": "https://news.google.com/rss/articles/CBMivAFBVV95cUxONExjVFU3c0IzN0tfZkk0anpyLVJ4N0N4cTZKNkx4YWlGbW5SZmVHRkM2eHJNS1NYaC1FVFZidHV4Um9xcU4tR082SU1oQno4VWZNZ2Z4Q0F1Q19vbDhPWERFblkxVUl4cWhaQUFWdzBKd1JEZjFGOUtfaVdNRnljV1lZSjF1UGdEZWlmblNjaE5OVTlMcnNoUTNZaU9QUnpXUlE5UDB5OHdDMVRmS3lHaG9fWWZrbVlpTm9BOQ?oc=5",
+      "isNew": false
+    },
+    {
+      "id": "d80001bf288c",
+      "title": "Huntington Bank expands captive insurance banking capabilities",
+      "source": "Captive Insurance Times",
+      "date": "2026-10-06T15:24:21Z",
+      "topic": "Insurance AM",
+      "summary": "",
+      "link": "https://news.google.com/rss/articles/CBMi4AFBVV95cUxQSWtxZkdKTENiaFhnUm5jTk92bEIwU0thenZIMFpvSmR6ZzF1a2Fqck1RSC13b09saEgtWlhWRVVRMVM3TlpDTWR4Mm9oSmRuVGMxOFRQNURESEluakhob2F2MGl5cmx4MUh1bmNQT2hIZ2xxcVNHc1RNdEtKaDhoRnNDd3JqUW04dWExT25BYnVWcUFfRm5aX3FkaUlscGdOeGEzUjhneUhERUozMWYxekZ0MmdVUDdOSkVNT3p2Nl9STXRCYUpTdFo4QU85aUNkLVRMeVladklqSTZ4ZHNjdQ?oc=5",
       "isNew": false
     },
     {
@@ -238,16 +238,6 @@
       "isNew": false
     },
     {
-      "id": "9359d8adda9a",
-      "title": "Private credit and UK life insurers: structuring for matching adjustment",
-      "source": "Lexology",
-      "date": "2026-09-30T19:11:50Z",
-      "topic": "Structured Credit",
-      "summary": "",
-      "link": "https://news.google.com/rss/articles/CBMiiwFBVV95cUxNVFlrU2pNemlXcXh3RGx1bkltTG1Jb1Y0ZWUtOHZfcjV5aGM3VTBCYVU2MUI1ZkFoY1BGeXRMNE53SFZDQWgwOU5DMjlnNTJ3d0syZmFzSVZfclI3ZnhiLWFVbThXMnlaeWZnTjVhYUNLSFJONmVVRVZxSzlZVnd4U2gzRExYTXpxOVRr?oc=5",
-      "isNew": false
-    },
-    {
       "id": "303f7798ffa8",
       "title": "Treasury Yields Hit Fresh Highs",
       "source": "WSJ",
@@ -265,6 +255,16 @@
       "topic": "Rates & Macro",
       "summary": "",
       "link": "https://news.google.com/rss/articles/CBMikgFBVV95cUxPSllCcHF4a3U3T1NZZm5wN2cwQTVKcXFhWmo5Y3JnSkNKSGhMeGxtOHloZkEyRXpSaTR5cF9MRFBVQWdtMzcwLVoyTnQ0YmVNUGpvcllheEtJNVFtdWlYVXdLNmx5emlYaVRpZkhqT1VvdmFFTXFSQi1RQl9kQVhjX3lJcjlOX0hmemMzRTNXbUpYdw?oc=5",
+      "isNew": false
+    },
+    {
+      "id": "9359d8adda9a",
+      "title": "Private credit and UK life insurers: structuring for matching adjustment",
+      "source": "Macfarlanes",
+      "date": "2026-09-30T11:44:09Z",
+      "topic": "Structured Credit",
+      "summary": "",
+      "link": "https://news.google.com/rss/articles/CBMitwFBVV95cUxOZ3RIakhYZXRsR0JySGdPMG4wWUxwMkdXY2Y0MW5xZDFMVDRHSDBBZzVtLVpNOXk4WTFHejdnam16QUl6Ym5MUm9QX3BTc1B2eDBWaHB5M0RLaEtrS2dRUG9PSzNOSG5HWngta2RHOG1JWU1Ubl9EbUVJOGlxRGV5Y2pUaGQ1QnVXTjAtQWpsX0lYYmxSWFJNSUtiNFJjdnpBS2NVd1hEMm9udXd0MmY5cDloTjlvWnM?oc=5",
       "isNew": false
     },
     {
