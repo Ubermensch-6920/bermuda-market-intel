@@ -1,5 +1,5 @@
 {
-  "updated": "2026-10-07T06:04:29Z",
+  "updated": "2026-10-07T13:29:58Z",
   "lookback_days": 14,
   "feeds": [
     {
@@ -17,7 +17,7 @@
     {
       "name": "Google News: Athene",
       "ok": true,
-      "count": 6,
+      "count": 9,
       "error": null
     },
     {
@@ -29,13 +29,13 @@
     {
       "name": "Google News: Fortitude Re",
       "ok": true,
-      "count": 8,
+      "count": 7,
       "error": null
     },
     {
       "name": "Google News: Global Atlantic",
       "ok": true,
-      "count": 11,
+      "count": 9,
       "error": null
     },
     {
@@ -65,7 +65,7 @@
     {
       "name": "Google News: RGA",
       "ok": true,
-      "count": 21,
+      "count": 19,
       "error": null
     },
     {
@@ -77,7 +77,7 @@
     {
       "name": "Google News: Sagicor",
       "ok": true,
-      "count": 1,
+      "count": 0,
       "error": null
     },
     {
@@ -95,7 +95,7 @@
     {
       "name": "Google News: Venerable",
       "ok": true,
-      "count": 6,
+      "count": 5,
       "error": null
     },
     {
@@ -149,6 +149,18 @@
       ]
     },
     {
+      "id": "294d3e80954e",
+      "title": "Global Atlantic names Dan Farrelly head of IMO and IBD channels",
+      "link": "https://news.google.com/rss/articles/CBMipgFBVV95cUxQQ2NvYjZTbEo5NURrVDVBQlJuY0RpeEtWUU9sWDNBZndGemFra2MtaTB0bURPZWF5VUpVcUVEYy02R1REVUZtRGRpbWJhQnFwNFMwNWhoQURFNzgwb3E2anduVFJkVTBEWTZwT2NwTG5pc0NIZGFsaFVYenhlek1jWERkLW5wQTFCSmMtRVdzcGdkZlc2Vm9qbFlwSFBoeUhHV2dvZ25R?oc=5",
+      "source": "InsuranceNewsNet",
+      "feed": "Google News: Global Atlantic",
+      "date": "2026-10-06T01:24:20Z",
+      "summary": "",
+      "companies": [
+        "Global Atlantic"
+      ]
+    },
+    {
       "id": "64bdca379950",
       "title": "Reinsurance Group of America, Incorporated (RGA) latest stock news and headlines",
       "link": "https://news.google.com/rss/articles/CBMiV0FVX3lxTE5CdHFXVjBaOUtpRG1uM296dngxVElqR0x6cFZ2NjVySDAyaUZSQkpGdmRxWkk2U3VNR3lFQUxxeTdvbmxWQ3lybXM4cmVvN3VIcGJHS3pWNA?oc=5",
@@ -158,18 +170,6 @@
       "summary": "",
       "companies": [
         "RGA"
-      ]
-    },
-    {
-      "id": "294d3e80954e",
-      "title": "Global Atlantic names Dan Farrelly head of IMO and IBD channels",
-      "link": "https://news.google.com/rss/articles/CBMipgFBVV95cUxQQ2NvYjZTbEo5NURrVDVBQlJuY0RpeEtWUU9sWDNBZndGemFra2MtaTB0bURPZWF5VUpVcUVEYy02R1REVUZtRGRpbWJhQnFwNFMwNWhoQURFNzgwb3E2anduVFJkVTBEWTZwT2NwTG5pc0NIZGFsaFVYenhlek1jWERkLW5wQTFCSmMtRVdzcGdkZlc2Vm9qbFlwSFBoeUhHV2dvZ25R?oc=5",
-      "source": "InsuranceNewsNet",
-      "feed": "Google News: Global Atlantic",
-      "date": "2026-10-06T00:39:42Z",
-      "summary": "",
-      "companies": [
-        "Global Atlantic"
       ]
     },
     {
@@ -550,7 +550,7 @@
       "link": "https://news.google.com/rss/articles/CBMipAFBVV95cUxOX0VjSENUVzNXdmtiUC1ZS2V2SmhnZmlKQjhBRElaSTZGWXdiQ3hka1E3Nm1IMi1ES0dxUVBmU1pBSmV1OS1HZmk4NkpQZWZCSXN2MGhpa0FXU0oyU056SXc1aHZEM25GVnRYRlZpX01yXy1rbG1mUzhVemNvZ0poUWtEbFVsQ1VtT3h0WmhJSFBBOVF3NVRVVEdTNmh5ZlF5ekNoUw?oc=5",
       "source": "Yahoo Finance",
       "feed": "Google News: RGA",
-      "date": "2026-09-28T12:40:02Z",
+      "date": "2026-09-28T07:00:00Z",
       "summary": "",
       "companies": [
         "RGA"
@@ -562,7 +562,7 @@
       "link": "https://news.google.com/rss/articles/CBMiswFBVV95cUxQWFlMQ1lrdkVJbGUzV2l5a1R0MFdXUnpWSFpiWmhRQlFPM0NvcVRveW1kZTFLb0xYWWRtM0pyRDczZk45TUFBLWg4U2pyem5wVk1pS3FOTWZxeHhJVjMzRmVnUWZxLWN1OWhWdTROSmhzYmUwQ0FodHhkejlyNGhCalZsd1BiNFk1THhtSHBOd3plNmJ5cTNac1pvajVOakxNUWhMMFNyRXhZUEwyZGYtNnVtaw?oc=5",
       "source": "Business Wire",
       "feed": "Google News: Fortitude Re",
-      "date": "2026-09-28T12:00:00Z",
+      "date": "2026-09-28T07:00:00Z",
       "summary": "",
       "companies": [
         "Fortitude Re"

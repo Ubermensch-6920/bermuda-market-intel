@@ -1,12 +1,12 @@
 # Reinsurer News Monitor
 
-Bermuda life & annuity watchlist — last 14 days — 39 items
-Generated Wed 07 Oct 2026, 03:04 ADT
+Bermuda life & annuity watchlist — last 14 days — 37 items
+Generated Wed 07 Oct 2026, 10:29 ADT
 
 ## Feed status
 
 - ✅ **Artemis.bm** — 10 items
-- ✅ **Google News (16 of 16 companies)** — 70 items
+- ✅ **Google News (16 of 16 companies)** — 66 items
 - ✅ **Reinsurance News** — 10 items
 
 ## Athene
@@ -18,7 +18,6 @@ Generated Wed 07 Oct 2026, 03:04 ADT
 - **2026-10-05** — InsuranceNewsNet — [Global Atlantic names Dan Farrelly head of IMO and IBD channels](https://news.google.com/rss/articles/CBMipgFBVV95cUxQQ2NvYjZTbEo5NURrVDVBQlJuY0RpeEtWUU9sWDNBZndGemFra2MtaTB0bURPZWF5VUpVcUVEYy02R1REVUZtRGRpbWJhQnFwNFMwNWhoQURFNzgwb3E2anduVFJkVTBEWTZwT2NwTG5pc0NIZGFsaFVYenhlek1jWERkLW5wQTFCSmMtRVdzcGdkZlc2Vm9qbFlwSFBoeUhHV2dvZ25R?oc=5)
 - **2026-09-30** — Family Wealth Report — [Who's Moving Where In Wealth Management? – Kestra, Mesirow, Global Atlantic, KKR](https://news.google.com/rss/articles/CBMi6wFBVV95cUxPbjNuZXJUWXZ6NWFYS1lFSHU0Ui1YSGRhLWxnM3E3dFg5QlUwSVFxc2k1ZGlvejRYRzFMaUR0NUhTNjRRUDBsLTFFMk5kV0dYY0lxTnZlUUdQQzlXV0ZLdy1RaFAyeVRqUjFfRUFkTF92RU5EcVVIMjNnSXViZU1OMnA0N1FrTmhCa0x3WERfaXF0VmxJOUdFSVE3S1djekpCOWRDUmJjWTFWYlFZZmxieVhtNzcyRFEySjJlSWVqSGIwd2FPTzEyYVBRNHphX0ZhOUc5REZTVGNTVmpLeW80Qk5lOXpTYUhsdjVF?oc=5)
 - **2026-09-29** — Reinsurance News — [Global Atlantic appoints Dan Farrelly as Head of IMO and IBD Channels](https://news.google.com/rss/articles/CBMioAFBVV95cUxPMkdpaWgxd2J2dkd3d2xkZFExOVRTMVV5ZVNDZDRmQjBaSjdhY2p4c19fdEk5Nko1aXFNTWVXcFJ0WG9jd0xaVVhVbFNfVmpONHBfaDBJdHVhX0xzWXNQSnNHNENobk1kaHRmV2hrODBCZTItc1RFSkFhQl9ISTNLb2ZhTzNtNThWbE1mN2Y0ZFlhM2tKTU96eUdPWXFQNWJJ?oc=5)
-- **2026-09-23** — thecapitolforum.com — [KKR/Global Atlantic: Reinsurance Business Draws Mutuals, Traditional Life Insurers into Private Equity’s ‘Insurance as Asset Class’ Model](https://news.google.com/rss/articles/CBMi8wFBVV95cUxQeEROYTR3aEJLVzZCZW1Zc2xjZVdEOFdBSUMtYXFPajZocU9sY3hPaUwzeVBMR0dTbWMtQlpQcWZFTHBmeHRYOXdvU1B2Vm8ta1hKTmdzLXlWaTdRVTZ1U0hGb0ZmbWJobWxZeW1jTmtDWE8zdnBlWEJ0NzNCbDBBd2JyeWpmQzJaUWdaeWp2VVZUZmRRRURJS3FETnkxM1Y0dTFvRDhJMTNvTkZWU0x5X3RFbmdZelhuT1NtWDNBTk04a1JoMTZVd3EwSGpHY01KNDZOcUhDajZkT3dnX2JBRHBocmQweFB6RFQxTXdOLVJtV2M?oc=5)
 
 ## Wilton Re
 
@@ -73,11 +72,7 @@ Generated Wed 07 Oct 2026, 03:04 ADT
 - **2026-09-28** — MarketBeat — [Reinsurance Group of America (NYSE:RGA) Stock Rating Raised to "Overweight" at Morgan Stanley](https://news.google.com/rss/articles/CBMi5gFBVV95cUxNODVIb1lMYWlTTjM5VjVPMVhzUWtWbTJ1Y0hKeENHWTdqRVRuanFPYXowZE9ZLUR4X0YxVmhCUzN5X1pxUjl4ZGx4NU1yWWloZVBMMXVyeVRrTUxOU3VOOVNLMVJGOHlyY3J3czR3dEdrbXhsSWhreThrQkJCUzBZSDN6QUxVTGcxRVRpeVVqV3VHLWNHZVp4M012bFNiN3JHR0ppMGVPY2E5SE5fWWtlRVczb2paLW9TdTFtM19RT21nNmgtNVBiZ3J5eXNEcjFMOEJmSkl0SlV1Rzllb1NxRlhLVjlGZw?oc=5)
 - **2026-09-28** — Moomoo — [Morgan Stanley Upgrades Reinsurance Group of America(RGA.US) to Buy Rating, Raises Target Price to $295](https://news.google.com/rss/articles/CBMirgFBVV95cUxObWdPdmlqWGtWQ0ZRQTVENk9pWFBIZU1JWWR5SmotS3hockt6V3M3aHdmU251WS1JdHcyMHZiQ0JOb2NGMUwxS1J0V1RUdTlZcFVab21VTUtXcENnR0p6MkxlZUxQTVFOUWVVcVBGOUxJM0NwQWtYVW5ZODFVRjhHRG5sVlZOT0JrZUdfWVBETW5mV2tvR1E0ME5YdzRzdTZnd2RSbURnZ0puV09EMWc?oc=5)
 
-## Sagicor
-
-- **2026-09-23** — kalkine.ca — [Sagicor Financial Stock Slips as Debt Refinancing, Earnings Sensitivity and Market Volatility Pressure Sentiment](https://news.google.com/rss/articles/CBMi3gFBVV95cUxPampXbEtkSGp6enBWN3hWRTZ1YzhVTUo4RjV0V1ZWZTg3VDB3VVVrMFR2ajNwbDZmQ1dBVXY1T3cwQi1xU0F4UEg3djdENlZiRFNUamtYeDBoM00zck5ISHJnT0otaEhFVGE3cFJvN0NIcjZfMnc3N1prNDBrR1hHUlZfdGNpNklyS0hSbUNPODloMG5UQndaVHlJYmdKQzY3d2pXVEtoS1JPdUlmRzdMTUFVV284TFh6c3dVbzVKblhJX3N4MDBYc1ZjYnU4YWxQQXNNSDA4dUFYSDJRa3c?oc=5)
-
-_No news in the window: Resolution Re, Monument Re, Somerset Re, Martello Re, Aspida, Kuvare, Catalina_
+_No news in the window: Resolution Re, Monument Re, Somerset Re, Martello Re, Aspida, Kuvare, Sagicor, Catalina_
 
 ---
 
