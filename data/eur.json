@@ -17,61 +17,61 @@
   "yields": [
     2.8922,
     3.0523,
-    null,
-    null,
-    null,
+    3.1103,
+    3.2083,
+    3.3332,
     3.5188,
-    null,
-    null,
-    null
+    3.7326,
+    3.8243,
+    3.7783
   ],
   "prior_yields": [
     2.8527,
     2.9971,
-    null,
-    null,
-    null,
+    3.0555,
+    3.1674,
+    3.3051,
     3.502,
-    null,
-    null,
-    null
+    3.7237,
+    3.8178,
+    3.7722
   ],
   "prior_1m_yields": [
     2.768,
     2.9133,
-    null,
-    null,
-    null,
+    2.9641,
+    3.0562,
+    3.1852,
     3.3895,
-    null,
-    null,
-    null
+    3.6455,
+    3.7769,
+    3.7842
   ],
   "prior_1m_date": "2026-09-07",
   "prior_3m_yields": [
     2.5249,
     2.6193,
-    null,
-    null,
-    null,
+    2.6606,
+    2.7674,
+    2.9142,
     3.137,
-    null,
-    null,
-    null
+    3.4149,
+    3.5654,
+    3.6064
   ],
   "prior_3m_date": "2026-07-08",
   "year_ago_yields": [
     1.9346,
     1.9857,
-    null,
-    null,
-    null,
+    2.0686,
+    2.2805,
+    2.5045,
     2.8018,
-    null,
-    null,
-    null
+    3.1345,
+    3.2873,
+    3.2759
   ],
   "year_ago_date": "2025-10-07",
   "note": "EUR AAA govt curve proxy. Actual EIOPA RFR includes UFR extrapolation.",
-  "_fetched": "2026-10-07T13:27:05.054968Z"
+  "_fetched": "2026-10-07T14:52:15.613420Z"
 }

@@ -1,17 +1,17 @@
 {
-  "date": "2025-03-31",
+  "date": "2026-09-30",
   "countries": {
     "usa": {
-      "wam_years": 6.4,
-      "wam_months": 76.8,
-      "prior_wam_years": 6.3,
-      "prior_date": "2025-02-28",
-      "change_years": 0.1,
-      "data_date": "2025-03-31",
-      "source": "cache",
-      "source_url": "https://fred.stlouisfed.org/series/AVMATPUSDM",
+      "wam_years": 5.81,
+      "wam_months": 69.7,
+      "prior_wam_years": 5.8,
+      "prior_date": "2026-08-31",
+      "change_years": 0.01,
+      "data_date": "2026-09-30",
+      "source": "US Treasury MSPD (computed)",
+      "source_url": "https://fiscaldata.treasury.gov/datasets/monthly-statement-public-debt/",
       "frequency": "monthly",
-      "note": null
+      "note": "Par-weighted remaining maturity of all marketable Treasuries outstanding, computed from the MSPD per-CUSIP table."
     },
     "japan": {
       "wam_years": 9.7,
@@ -62,6 +62,6 @@
       "note": "Static value from RBI Annual Report 2024. Updated annually."
     }
   },
-  "note": "WAM = weighted average remaining maturity of outstanding central govt marketable debt (not duration). USA monthly via FRED AVMATPUSDM; Japan monthly via MOF JGB Outstanding; UK monthly via UK DMO; EUR annual via OECD (Germany proxy); India annual via RBI Annual Report.",
-  "_fetched": "2026-10-07T13:29:51.209921Z"
+  "note": "WAM = weighted average remaining maturity of outstanding central govt marketable debt (not duration). USA monthly, computed from Treasury MSPD per-CUSIP detail; Japan monthly via MOF JGB Outstanding; UK monthly via UK DMO; EUR annual via OECD (Germany proxy); India annual via RBI Annual Report.",
+  "_fetched": "2026-10-07T14:54:07.290702Z"
 }

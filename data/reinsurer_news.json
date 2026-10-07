@@ -1,5 +1,5 @@
 {
-  "updated": "2026-10-07T13:29:58Z",
+  "updated": "2026-10-07T14:54:14Z",
   "lookback_days": 14,
   "feeds": [
     {
@@ -17,7 +17,7 @@
     {
       "name": "Google News: Athene",
       "ok": true,
-      "count": 9,
+      "count": 8,
       "error": null
     },
     {
@@ -29,7 +29,7 @@
     {
       "name": "Google News: Fortitude Re",
       "ok": true,
-      "count": 7,
+      "count": 8,
       "error": null
     },
     {
