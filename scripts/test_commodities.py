@@ -19,6 +19,24 @@ import fetch_all as fa  # noqa: E402
 TODAY = datetime.utcnow().date()
 
 
+# No test may reach the network: CI runners have it, so a leak would make the
+# result depend on what a live API returned that day. Every request must go
+# through a mocked get(); anything that slips past is recorded and fails the run.
+_NET_GUARD = mock.patch("urllib.request.urlopen", side_effect=OSError("network blocked in tests"))
+
+
+def setUpModule():
+    global _urlopen
+    _urlopen = _NET_GUARD.start()
+
+
+def tearDownModule():
+    _NET_GUARD.stop()
+    if _urlopen.call_count:
+        urls = [getattr(c.args[0], "full_url", c.args[0]) for c in _urlopen.call_args_list]
+        raise AssertionError(f"tests attempted real network access: {urls}")
+
+
 def trading_days(n, end=TODAY):
     """The last n weekdays up to and including `end`, oldest first."""
     out, d = [], end
