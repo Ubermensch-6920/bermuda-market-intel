@@ -27,8 +27,8 @@ HDR = {
     "Accept-Language": "en-US,en;q=0.9",
 }
 
-def get(url, timeout=8):
-    req = urllib.request.Request(url, headers=HDR)
+def get(url, timeout=8, accept=None):
+    req = urllib.request.Request(url, headers={**HDR, "Accept": accept} if accept else HDR)
     with urllib.request.urlopen(req, timeout=timeout) as r:
         return r.read().decode("utf-8", errors="replace")
 
@@ -2859,6 +2859,78 @@ def fetch_commodities():
 
 # ── RUN ──
 OECD_PRICES_URL = "https://sdmx.oecd.org/public/rest/data/OECD.SDD.TPS,DSD_PRICES@DF_PRICES_ALL,1.0"
+BIS_DATA_URL = "https://stats.bis.org/api/v1/data"
+SDMX_CSV = "application/vnd.sdmx.data+csv;version=1.0.0"
+# FRED's OECD-sourced CPI series for these were discontinued: (OECD ISO3, BIS ISO2)
+CPI_ALT_AREAS = {"jp": ("JPN", "JP"), "uk": ("GBR", "GB"), "in": ("IND", "IN")}
+
+def _http_error_detail(e):
+    """HTTPError plus the server's own explanation (SDMX APIs answer e.g.
+    "NoResultsFound"), so a failed lookup is diagnosable from the run log."""
+    try:
+        body = " ".join(e.read().decode("utf-8", "replace").split())
+    except Exception:
+        body = ""
+    return f"{e} — {body[:160]}" if body else str(e)
+
+def sdmx_observations(text):
+    """[(TIME_PERIOD, value)] from an SDMX data message in CSV, structure-
+    specific SDMX-ML (<Obs TIME_PERIOD=".." OBS_VALUE=".."/>) or generic
+    SDMX-ML (<Obs><ObsDimension value=".."/><ObsValue value=".."/></Obs>)."""
+    out = []
+    if not text.lstrip().startswith("<"):
+        for r in csv.DictReader(io.StringIO(text)):
+            v = _as_float(r.get("OBS_VALUE"))
+            if r.get("TIME_PERIOD") and v is not None:
+                out.append((r["TIME_PERIOD"], v))
+        return out
+    for m in re.finditer(r"<(?:\w+:)?Obs\b([^>]*?)/?>", text):
+        attrs = dict(re.findall(r'(\w+)="([^"]*)"', m.group(1)))
+        v = _as_float(attrs.get("OBS_VALUE"))
+        if attrs.get("TIME_PERIOD") and v is not None:
+            out.append((attrs["TIME_PERIOD"], v))
+    for m in re.finditer(r"<(?:\w+:)?Obs>(.*?)</(?:\w+:)?Obs>", text, flags=re.S):
+        p = re.search(r'ObsDimension[^>]*\bvalue="([^"]+)"', m.group(1))
+        v = re.search(r'ObsValue[^>]*\bvalue="([^"]+)"', m.group(1))
+        if p and v and _as_float(v.group(1)) is not None:
+            out.append((p.group(1), _as_float(v.group(1))))
+    return out
+
+def bis_cpi_yoy(ref_area2, start_month):
+    """Latest headline CPI YoY % from the BIS consumer-price dataset
+    (WS_LONG_CPI, unit 771 = year-on-year change in %) -> (yoy, date)."""
+    url = f"{BIS_DATA_URL}/WS_LONG_CPI/M.{ref_area2}.771/all?startPeriod={start_month}&detail=dataonly"
+    try:
+        obs = sdmx_observations(get(url, timeout=20, accept=SDMX_CSV))
+    except urllib.error.HTTPError as e:
+        log.warning(f"  BIS CPI {ref_area2}: {_http_error_detail(e)}")
+        obs = []
+    except Exception as e:
+        log.warning(f"  BIS CPI {ref_area2}: {e}")
+        obs = []
+    obs = [(p[:7], v) for p, v in obs if re.fullmatch(r"\d{4}-\d{2}", p[:7]) and -20 < v < 100]
+    record_source("BIS (CPI)", "JP / UK / IN inflation fallback", ok=bool(obs))
+    if not obs:
+        return None, None
+    period, v = max(obs)
+    return round(v, 2), f"{period}-01"
+
+def alt_cpi_yoy(key, today=None):
+    """CPI YoY for a country whose FRED series was discontinued: OECD first,
+    BIS when OECD has nothing or nothing from the last ~4 months (CPI for a
+    month is published 3-6 weeks after it ends). -> (yoy, date, source)."""
+    today = today or date.today()
+    iso3, iso2 = CPI_ALT_AREAS[key]
+    start = (today - timedelta(days=460)).strftime("%Y-%m")
+    best = None
+    yoy, d = oecd_cpi_yoy(iso3, start)
+    if yoy is not None:
+        best = (d, yoy, "OECD SDMX")
+    if best is None or (today - date.fromisoformat(best[0])).days > 120:
+        b_yoy, b_d = bis_cpi_yoy(iso2, start)
+        if b_yoy is not None and (best is None or b_d > best[0]):
+            best = (b_d, b_yoy, "BIS WS_LONG_CPI")
+    return (best[1], best[0], best[2]) if best else (None, None, None)
 
 def oecd_cpi_yoy(ref_area, start_month):
     """Latest headline CPI YoY % for one country from OECD's keyless SDMX API
@@ -2866,15 +2938,21 @@ def oecd_cpi_yoy(ref_area, start_month):
 
     FRED's OECD-sourced CPI series (JPNCPIALLMINMEI etc.) were discontinued,
     which blanked Japan / UK / India. Key: REF_AREA.FREQ.METHODOLOGY.MEASURE.
-    UNIT_MEASURE.EXPENDITURE.ADJUSTMENT.TRANSFORMATION; methodology and
-    adjustment are wildcarded and national, unadjusted rows preferred.
+    UNIT_MEASURE.EXPENDITURE.ADJUSTMENT.TRANSFORMATION; methodology, unit
+    and adjustment are wildcarded and national, unadjusted rows preferred.
+    (With the unit pinned to "PA", Japan matched nothing while UK/India did;
+    the cause isn't confirmed, so the key stays loose and failures log the
+    API's own reason.)
     """
-    url = f"{OECD_PRICES_URL}/{ref_area}.M..CPI.PA._T..GY?startPeriod={start_month}&format=csvfile"
+    url = f"{OECD_PRICES_URL}/{ref_area}.M..CPI.._T..GY?startPeriod={start_month}&format=csvfile"
     try:
         rows = list(csv.DictReader(io.StringIO(get(url, timeout=20))))
+    except urllib.error.HTTPError as e:
+        log.warning(f"  OECD CPI {ref_area}: {_http_error_detail(e)}")
+        rows = []
     except Exception as e:
         log.warning(f"  OECD CPI {ref_area}: {e}")
-        return None, None
+        rows = []
     best = {}
     for r in rows:
         if r.get("REF_AREA") != ref_area or r.get("MEASURE", "CPI") != "CPI" or r.get("TRANSFORMATION", "GY") != "GY":
@@ -2889,6 +2967,7 @@ def oecd_cpi_yoy(ref_area, start_month):
         rank = (r.get("METHODOLOGY") == "N") + (r.get("ADJUSTMENT") == "N")
         if period not in best or rank > best[period][0]:
             best[period] = (rank, v)
+    record_source("OECD (CPI)", "JP / UK / IN inflation", ok=bool(best))
     if not best:
         return None, None
     period = max(best)
@@ -2910,7 +2989,6 @@ def fetch_inflation():
         "eur": ("CP0000EZ19M086NEST", "Euro area HICP all items (ECB/FRED)"),
         "in":  ("INDCPIALLMINMEI",    "India CPI all items (OECD)"),
     }
-    oecd_area = {"jp": "JPN", "uk": "GBR", "in": "IND"}
     # Fetch 15+ months so we always have obs[0] and obs[12] for YoY.
     from datetime import date, timedelta
     start = (date.today() - timedelta(days=480)).isoformat()
@@ -2936,13 +3014,13 @@ def fetch_inflation():
                 entry["mom"] = mom
                 entry["trend"] = "up" if mom > 0 else ("down" if mom < 0 else "flat")
             log.info(f"  {key.upper()} ({sid}): YoY={entry['yoy']}%, date={entry['date']}")
-        elif key in oecd_area:
-            yoy, d = oecd_cpi_yoy(oecd_area[key], (date.today() - timedelta(days=200)).strftime("%Y-%m"))
+        elif key in CPI_ALT_AREAS:
+            yoy, d, src = alt_cpi_yoy(key)
             if yoy is not None:
-                entry.update({"yoy": yoy, "date": d, "source": "OECD SDMX (FRED series discontinued)"})
-                log.info(f"  {key.upper()} (OECD {oecd_area[key]}): YoY={yoy}%, date={d}")
+                entry.update({"yoy": yoy, "date": d, "source": f"{src} (FRED series discontinued)"})
+                log.info(f"  {key.upper()} ({src}): YoY={yoy}%, date={d}")
             else:
-                log.warning(f"  {key.upper()}: no data from FRED ({sid}) or OECD")
+                log.warning(f"  {key.upper()}: no data from FRED ({sid}), OECD or BIS")
         else:
             log.warning(f"  {key.upper()} ({sid}): only {len(obs)} obs, skipping YoY")
         if entry["yoy"] is None and (prev_countries.get(key) or {}).get("yoy") is not None:

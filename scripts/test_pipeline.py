@@ -19,6 +19,24 @@ import fetchlib  # noqa: E402
 TODAY = datetime.utcnow().date()
 
 
+# No test may reach the network: CI runners have it, so a leak would make the
+# result depend on what a live API returned that day. Every request must go
+# through a mocked get(); anything that slips past is recorded and fails the run.
+_NET_GUARD = mock.patch("urllib.request.urlopen", side_effect=OSError("network blocked in tests"))
+
+
+def setUpModule():
+    global _urlopen
+    _urlopen = _NET_GUARD.start()
+
+
+def tearDownModule():
+    _NET_GUARD.stop()
+    if _urlopen.call_count:
+        urls = [getattr(c.args[0], "full_url", c.args[0]) for c in _urlopen.call_args_list]
+        raise AssertionError(f"tests attempted real network access: {urls}")
+
+
 def days_back(n):
     return (TODAY - timedelta(days=n)).isoformat()
 
@@ -28,7 +46,7 @@ class Web:
     def __init__(self, routes):
         self.routes, self.calls = routes, []
 
-    def __call__(self, url, timeout=8):
+    def __call__(self, url, timeout=8, accept=None):
         self.calls.append(url)
         for key, body in self.routes.items():
             if key in url:
@@ -273,6 +291,96 @@ class ManifestTests(Base):
         self.assertEqual(r["ust"], "ok")
         self.assertEqual(r["jgb"], "error: AssertionError")
         self.assertEqual(r["myga"], "stale: no quotes parsed")
+
+
+class AltCpiTests(Base):
+    CSV_BIS = "FREQ,REF_AREA,UNIT_MEASURE,TIME_PERIOD,OBS_VALUE\nM,JP,771,2026-07,2.9\nM,JP,771,2026-08,3.1\n"
+
+    def test_sdmx_parser_handles_csv_and_both_xml_flavours(self):
+        self.assertEqual(fa.sdmx_observations(self.CSV_BIS), [("2026-07", 2.9), ("2026-08", 3.1)])
+        ss = '<message:DataSet><Series FREQ="M"><Obs TIME_PERIOD="2026-08" OBS_VALUE="3.1"/></Series></message:DataSet>'
+        self.assertEqual(fa.sdmx_observations(ss), [("2026-08", 3.1)])
+        gen = ('<generic:Series><generic:Obs><generic:ObsDimension value="2026-08"/>'
+               '<generic:ObsValue value="3.1"/></generic:Obs></generic:Series>')
+        self.assertEqual(fa.sdmx_observations(gen), [("2026-08", 3.1)])
+
+    def test_japan_falls_back_to_bis_and_logs_oecd_reason(self):
+        no_rows = urllib.error.HTTPError("u", 404, "Not Found", {}, __import__("io").BytesIO(b"NoResultsFound"))
+        seen = {}
+        def bis(url):
+            seen["url"] = url
+            return self.CSV_BIS
+        self.web({"sdmx.oecd.org": no_rows, "stats.bis.org": bis})
+        with self.assertLogs("fetch", level="WARNING") as logs:
+            yoy, d, src = fa.alt_cpi_yoy("jp")
+        self.assertEqual((yoy, d, src), (3.1, "2026-08-01", "BIS WS_LONG_CPI"))
+        self.assertIn("/WS_LONG_CPI/M.JP.771/all", seen["url"])
+        self.assertTrue(any("NoResultsFound" in m for m in logs.output))
+
+    def test_newer_source_wins_and_fresh_oecd_skips_bis(self):
+        today = TODAY
+        with mock.patch.object(fa, "oecd_cpi_yoy", return_value=(2.0, "2025-12-01")), \
+             mock.patch.object(fa, "bis_cpi_yoy", return_value=(3.1, "2026-08-01")):
+            self.assertEqual(fa.alt_cpi_yoy("jp", today=today.replace(year=2026, month=10, day=7)),
+                             (3.1, "2026-08-01", "BIS WS_LONG_CPI"))
+        bis = mock.Mock()
+        with mock.patch.object(fa, "oecd_cpi_yoy", return_value=(3.3, "2026-08-01")), \
+             mock.patch.object(fa, "bis_cpi_yoy", bis):
+            self.assertEqual(fa.alt_cpi_yoy("uk", today=today.replace(year=2026, month=10, day=7)),
+                             (3.3, "2026-08-01", "OECD SDMX"))
+        bis.assert_not_called()
+
+
+class UsDebtMaturityTests(unittest.TestCase):
+    def setUp(self):
+        import fetch_debt_maturity as fdm
+        self.fdm = fdm
+
+    def row(self, maturity, amt, cls="Bills"):
+        return {"record_date": "2026-09-30", "security_type_desc": "Marketable", "security_class1_desc": cls,
+                "security_class2_desc": "x", "maturity_date": maturity, "outstanding_amt": amt}
+
+    def test_par_weighted_maturity_skips_totals_matured_and_nulls(self):
+        from datetime import date
+        rows = [self.row("2027-09-30", "100"), self.row("2036-09-30", "300"),
+                self.row("null", "50"), self.row("2026-09-01", "70"),
+                self.row("2030-01-01", "999", cls="Total Marketable")]
+        as_of = date(2026, 9, 30)
+        wam = self.fdm.marketable_wam_years(rows, as_of)
+        yrs = lambda d: (d - as_of).days / 365.25
+        self.assertEqual(wam, round((100 * yrs(date(2027, 9, 30)) + 300 * yrs(date(2036, 9, 30))) / 400, 2))
+
+    def fiscaldata(self, months_rows):
+        from urllib.parse import urlparse, parse_qs
+        def get(url, timeout=12):
+            q = {k: v[0] for k, v in parse_qs(urlparse(url).query).items()}
+            self.assertIn("/services/api/fiscal_service/v1/debt/mspd/mspd_table_3_market", url)
+            self.assertNotIn("fields", q)
+            f = q.get("filter", "")
+            if f.startswith("record_date:eq:"):
+                data = months_rows[f.split(":", 2)[2]]
+            elif f.startswith("record_date:lt:"):
+                data = [{"record_date": m} for m in sorted(months_rows, reverse=True) if m < f.split(":", 2)[2]][:1]
+            else:
+                data = [{"record_date": max(months_rows)}]
+            return json.dumps({"data": data, "meta": {"total-pages": 1}})
+        return get
+
+    def test_latest_and_prior_month_from_per_cusip_table(self):
+        months = {"2026-09-30": [self.row("2032-09-30", "100")],
+                  "2026-08-31": [dict(self.row("2031-08-31", "100"), record_date="2026-08-31")]}
+        with mock.patch.object(self.fdm, "get", self.fiscaldata(months)):
+            wam, d, prior, prior_d = self.fdm._fiscaldata_marketable_wam()
+        self.assertEqual((d, prior_d), ("2026-09-30", "2026-08-31"))
+        self.assertAlmostEqual(wam, 6.0, places=2)
+        self.assertAlmostEqual(prior, 5.0, places=2)
+
+    def test_unexpected_fields_are_logged_not_guessed(self):
+        months = {"2026-09-30": [{"record_date": "2026-09-30", "maturity_dt": "2032-09-30", "amt_outstanding": "100"}]}
+        with mock.patch.object(self.fdm, "get", self.fiscaldata(months)), \
+             self.assertLogs("debt_maturity", level="WARNING") as logs:
+            self.assertEqual(self.fdm._fiscaldata_marketable_wam(), (None, "", None, ""))
+        self.assertTrue(any("amt_outstanding" in m and "maturity_dt" in m for m in logs.output))
 
 
 class InflationTests(Base):

@@ -3,7 +3,7 @@
 
 Standalone script — runs after the main pipeline. Writes data/debt_maturity.json.
 Sources:
-  USA   — FRED AVMATPUSDM (monthly, value in months)
+  USA   — computed from FiscalData MSPD Table 3 (per-CUSIP marketable detail, monthly)
   Japan — MOF JGB Outstanding CSV gbb{YYYYMM}.csv (monthly)
   UK    — UK DMO ExportReport?reportCode=D5I (monthly)
   EUR   — OECD SDMX DEU.WAMTD (Germany proxy, annual)
@@ -21,11 +21,11 @@ import sys
 import time
 import urllib.request
 import urllib.parse
-from datetime import datetime
+from datetime import date, datetime
 from pathlib import Path
 
 sys.path.insert(0, str(Path(__file__).parent))
-from fetchlib import fred_fetch, record_source, flush_source_health
+from fetchlib import record_source, flush_source_health
 
 logging.basicConfig(level=logging.INFO, format="%(asctime)s %(levelname)s %(message)s")
 log = logging.getLogger("debt_maturity")
@@ -42,7 +42,7 @@ HDR = {
 
 STATIC_DEFAULTS = {
     "usa":   {"wam_years": 6.4,  "prior_wam_years": None, "prior_date": "", "data_date": "", "frequency": "monthly",
-              "source": "static_default", "source_url": "https://fred.stlouisfed.org/series/AVMATPUSDM", "note": "Static default — pipeline fetch failed."},
+              "source": "static_default", "source_url": "https://fiscaldata.treasury.gov/datasets/monthly-statement-public-debt/", "note": "Static default — pipeline fetch failed."},
     "japan": {"wam_years": 9.7,  "prior_wam_years": None, "prior_date": "", "data_date": "", "frequency": "monthly",
               "source": "static_default", "source_url": "https://www.mof.go.jp/english/policy/jgbs/statistics/outstanding/", "note": "Static default — pipeline fetch failed."},
     "uk":    {"wam_years": 14.5, "prior_wam_years": None, "prior_date": "", "data_date": "", "frequency": "monthly",
@@ -69,11 +69,6 @@ def write(name, obj):
     log.info(f"  wrote {name}")
 
 
-def fred_csv(series_id, start="2015-01-01", retries=2):
-    """Fetch single FRED series, return list of {date, value} sorted newest first."""
-    return fred_fetch([series_id], start=start, retries=retries).get(series_id, [])
-
-
 # ── Cache ─────────────────────────────────────────────────────────────────────
 
 def _load_last():
@@ -93,28 +88,89 @@ def _cached_country(last, key):
 
 # ── Per-country fetch helpers ─────────────────────────────────────────────────
 
-def _fiscaldata_mspd_wam():
-    """FiscalData Treasury MSPD Table 5 — fallback USA source. Returns (wam_years, date_str)."""
+FISCALDATA_BASE = "https://api.fiscaldata.treasury.gov/services/api/fiscal_service"
+MSPD_DETAIL = "v1/debt/mspd/mspd_table_3_market"
+
+
+def _fiscaldata_rows(endpoint, params, max_pages=5):
+    """All rows for a FiscalData query, following page[number] up to max_pages."""
+    rows = []
+    for page in range(1, max_pages + 1):
+        q = urllib.parse.urlencode({**params, "page[number]": str(page)})
+        payload = json.loads(get(f"{FISCALDATA_BASE}/{endpoint}?{q}", timeout=30))
+        rows += payload.get("data", [])
+        if page >= int((payload.get("meta") or {}).get("total-pages") or 1):
+            break
+    return rows
+
+
+def _num(v):
     try:
-        params = urllib.parse.urlencode({
-            "fields": "record_date,avg_maturity_months,security_class1_desc",
-            "filter": "security_class1_desc:eq:Total Marketable",
-            "sort": "-record_date",
-            "page[size]": "5",
-        })
-        # Base path is .../services/api/fiscal_service/ — without "fiscal_service" every call 404s.
-        url = f"https://api.fiscaldata.treasury.gov/services/api/fiscal_service/v1/debt/mspd/mspd_table_5?{params}"
-        raw = get(url, timeout=15)
-        rows = json.loads(raw).get("data", [])
-        if rows:
-            months = float(rows[0]["avg_maturity_months"])
+        return float(str(v).replace(",", ""))
+    except (TypeError, ValueError):
+        return None
+
+
+def marketable_wam_years(rows, as_of):
+    """Par-weighted average remaining maturity (years) of MSPD per-CUSIP rows.
+
+    Skips subtotal rows ("Total ..."), rows without a parsable maturity date
+    or positive outstanding amount, and anything already matured.
+    """
+    total = weighted = 0.0
+    for r in rows:
+        if any(str(r.get(k) or "").strip().lower().startswith("total")
+               for k in ("security_type_desc", "security_class1_desc", "security_class2_desc")):
+            continue
+        try:
+            mat = date.fromisoformat(str(r.get("maturity_date") or "")[:10])
+        except ValueError:
+            continue
+        amt = _num(r.get("outstanding_amt"))
+        if amt is None or amt <= 0 or mat <= as_of:
+            continue
+        total += amt
+        weighted += amt * (mat - as_of).days / 365.25
+    return round(weighted / total, 2) if total else None
+
+
+def _fiscaldata_marketable_wam():
+    """US marketable-debt WAM from MSPD Table 3 (market): every unmatured bill,
+    note, bond, TIPS and FRN by CUSIP with its maturity date and amount
+    outstanding. Returns (wam, record_date, prior_wam, prior_record_date).
+
+    The table carries no ready-made average-maturity column (an earlier query
+    against MSPD Table 5 asked for one and got HTTP 400), so it is computed.
+    No `fields=` filter: a misnamed field 400s the whole request, whereas
+    unfiltered rows let us log what the table actually contains.
+    """
+    try:
+        latest = _fiscaldata_rows(MSPD_DETAIL, {"sort": "-record_date", "page[size]": "1"}, max_pages=1)
+        if not latest:
+            raise ValueError("no rows")
+        months = [latest[0]["record_date"]]
+        prev = _fiscaldata_rows(MSPD_DETAIL, {"filter": f"record_date:lt:{months[0]}",
+                                              "sort": "-record_date", "page[size]": "1"}, max_pages=1)
+        if prev:
+            months.append(prev[0]["record_date"])
+        results = []
+        for m in months:
+            rows = _fiscaldata_rows(MSPD_DETAIL, {"filter": f"record_date:eq:{m}", "page[size]": "10000"})
+            wam = marketable_wam_years(rows, date.fromisoformat(m))
+            if wam is None or not 1 <= wam <= 15:
+                log.warning(f"  FiscalData MSPD: no usable WAM for {m} from {len(rows)} rows "
+                            f"(fields: {sorted(rows[0].keys()) if rows else '—'})")
+                wam = None
+            results.append(wam)
+        if results[0] is not None:
+            log.info(f"  FiscalData MSPD: WAM {results[0]}yr as of {months[0]}")
             record_source("FiscalData Treasury", "USA WAM (MSPD)", ok=True)
-            return round(months / 12, 2), rows[0]["record_date"]
-        log.warning(f"  FiscalData MSPD: empty data array ({raw[:200]})")
+            prior = results[1] if len(results) > 1 else None
+            return results[0], months[0], prior, (months[1] if prior is not None else "")
     except Exception as e:
         log.warning(f"  FiscalData MSPD: {e}")
     record_source("FiscalData Treasury", "USA WAM (MSPD)", ok=False, fallback="cache")
-    return None, ""
+    return None, "", None, ""
 
 
 def _jgb_wam_from_mof():
@@ -241,32 +297,10 @@ def fetch_debt_maturity():
     countries = {}
 
     # ── USA ───────────────────────────────────────────────────────────────────
-    log.info("  USA: FRED AVMATPUSDM")
-    usa_wam, usa_date, usa_source, usa_url = None, "", "FRED AVMATPUSDM", "https://fred.stlouisfed.org/series/AVMATPUSDM"
-    usa_prior, usa_prior_date = None, ""
-    try:
-        obs = fred_csv("AVMATPUSDM", start="2015-01-01", retries=1)
-        if obs:
-            usa_wam = round(obs[0]["value"] / 12, 2)
-            usa_date = obs[0]["date"]
-            if len(obs) > 1:
-                usa_prior = round(obs[1]["value"] / 12, 2)
-                usa_prior_date = obs[1]["date"]
-            log.info(f"    FRED: {usa_wam}yr ({usa_date})")
-    except Exception as e:
-        log.warning(f"    FRED failed: {e}")
-
-    if usa_wam is None:
-        log.info("  USA: trying FiscalData MSPD fallback")
-        usa_wam, usa_date = _fiscaldata_mspd_wam()
-        if usa_wam:
-            usa_source = "FiscalData Treasury MSPD"
-            usa_url = "https://fiscaldata.treasury.gov/datasets/monthly-statement-public-debt/"
-            cached = _cached_country(last, "usa")
-            if cached:
-                usa_prior = cached.get("wam_years")
-                usa_prior_date = cached.get("data_date", "")
-
+    # (This used to try FRED "AVMATPUSDM" first; FRED has no such series and
+    # answers HTTP 400.)
+    log.info("  USA: FiscalData MSPD Table 3 (per-CUSIP detail)")
+    usa_wam, usa_date, usa_prior, usa_prior_date = _fiscaldata_marketable_wam()
     if usa_wam is None:
         cached = _cached_country(last, "usa")
         if cached and cached.get("wam_years"):
@@ -275,7 +309,14 @@ def fetch_debt_maturity():
         else:
             countries["usa"] = {**STATIC_DEFAULTS["usa"]}
     else:
-        countries["usa"] = _make_country(usa_wam, usa_prior, usa_prior_date, usa_date, usa_source, usa_url, "monthly", None)
+        countries["usa"] = _make_country(
+            usa_wam, usa_prior, usa_prior_date, usa_date,
+            "US Treasury MSPD (computed)",
+            "https://fiscaldata.treasury.gov/datasets/monthly-statement-public-debt/",
+            "monthly",
+            "Par-weighted remaining maturity of all marketable Treasuries outstanding, "
+            "computed from the MSPD per-CUSIP table.",
+        )
 
     # ── Japan ─────────────────────────────────────────────────────────────────
     log.info("  Japan: MOF JGB Outstanding CSV")
@@ -377,7 +418,7 @@ def fetch_debt_maturity():
         "note": (
             "WAM = weighted average remaining maturity of outstanding central govt "
             "marketable debt (not duration). "
-            "USA monthly via FRED AVMATPUSDM; "
+            "USA monthly, computed from Treasury MSPD per-CUSIP detail; "
             "Japan monthly via MOF JGB Outstanding; "
             "UK monthly via UK DMO; "
             "EUR annual via OECD (Germany proxy); "
