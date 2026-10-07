@@ -14,6 +14,7 @@ import {
   interpolateCurve, parseSchedule, scheduleAt, exitYearAnalysis,
   surrenderPeriodYears, SC_SCHEDULE_PRESETS, DEFAULT_VESTING,
   RATING_BUCKETS, SPREAD_STATS, observedSpreadBp, observedSampleSize,
+  CALCULATOR_DEFAULTS, analyseContract, analyseDefaultContract,
 } from "./annuityMoneyness.js";
 
 /* ═══════════════════════════════════════════════════════════════════
@@ -239,21 +240,10 @@ const Meter = ({ netBp, grossBp, verdict }) => {
 const GRID_RATES = [2.0, 2.5, 3.0, 3.5, 4.0, 4.5, 5.0, 5.5, 6.0, 6.5];
 const GRID_TERMS = [1, 2, 3, 4, 5, 6, 7, 8, 9, 10];
 
-/* The illustrative contract. Single source of truth so the Overview tile and
-   the full calculator cannot drift into showing different verdicts for what
-   reads as the same policy. A mid-schedule MYGA: written when money was
-   cheaper, four years still to run. */
-const DEFAULTS = {
-  av: 100000, basis: 80000, g: 3.25, n: 4, free: 10,
-  // Surrender charges are held as a SCHEDULE indexed from today, not a single
-  // current-year rate: schedule[0] applies to an exit now, schedule[k] to an
-  // exit in k years. That is what makes optimal exit timing computable.
-  // Default is a mid-schedule MYGA with four years left to run.
-  schedText: "5,4,3,2,0",
-  bonusPct: 0, vestText: DEFAULT_VESTING.join(","),
-  mvaIssue: 2.5, mvaMargin: 10, taxMode: "nq_1035", taxRate: 24, age: 65,
-  bench: "myga_arated",
-};
+/* The illustrative contract lives in annuityMoneyness.js (CALCULATOR_DEFAULTS)
+   so the Overview tile and the full calculator read one definition and one
+   input mapping (analyseContract) and cannot show different verdicts. */
+const DEFAULTS = CALCULATOR_DEFAULTS;
 
 export default function AnnuityMoneynessSection({ ust, credit, myga, loading, error }) {
   // ── Contract ──
@@ -340,15 +330,12 @@ export default function AnnuityMoneynessSection({ ust, credit, myga, loading, er
     mgsv, taxMode, taxRate, currentAge: age,
   }), [av, basis, free, freeOnFull, mvaOn, mvaIssue, mvaMargin, mgsv, taxMode, taxRate, age]);
 
-  const result = useMemo(() => analyseMoneyness({
-    ...contract,
-    guaranteedRate: g,
-    reinvestRate: marketRate,
-    yearsRemaining: n,
-    surrenderChargePct: sc,
-    mvaIndexNow,
-    mvaYearsOverride: scPeriod,
-  }), [contract, g, marketRate, n, sc, mvaIndexNow, scPeriod]);
+  const result = useMemo(() => analyseContract({
+    accountValue: av, basis, guaranteedRate: g, yearsRemaining: n, reinvestRate: marketRate,
+    schedule, freeWithdrawalPct: free, freeAppliesOnFullSurrender: freeOnFull,
+    mvaEnabled: mvaOn, mvaIndexAtIssue: mvaIssue, mvaMarginBp: mvaMargin, mgsvEnabled: mgsvOn,
+    taxMode, taxRate, currentAge: age, ustTenors, ustYields,
+  }), [av, basis, g, n, marketRate, schedule, free, freeOnFull, mvaOn, mvaIssue, mvaMargin, mgsvOn, taxMode, taxRate, age, ustTenors, ustYields]);
 
   // Wealth paths — the crossover is the whole story, so plot it rather than
   // asking the reader to trust a single break-even number.
@@ -1071,18 +1058,10 @@ export function AnnuityMoneynessTile({ ust, credit, onOpen }) {
   const ustTenors = ust?.tenors, ustYields = ust?.yields;
   const igOasBp = credit?.spreads?.ig?.spread ?? null;
 
-  // Exactly the contract the calculator opens on, so the tile and the page
-  // never disagree.
+  // Exactly the contract the calculator opens on, through the same input
+  // mapping, so the tile and the page never disagree.
   const { g, n } = DEFAULTS;
-  const { rate } = benchmarkRate(DEFAULTS.bench, n, { ustTenors, ustYields, igOasBp });
-  const res = rate == null ? null : analyseMoneyness({
-    accountValue: DEFAULTS.av, basis: DEFAULTS.basis, guaranteedRate: g, reinvestRate: rate,
-    yearsRemaining: n, surrenderChargePct: DEFAULTS.sc, freeWithdrawalPct: DEFAULTS.free,
-    mvaEnabled: true, mvaIndexAtIssue: DEFAULTS.mvaIssue,
-    mvaIndexNow: interpolateCurve(ustTenors, ustYields, n),
-    mvaMarginBp: DEFAULTS.mvaMargin, mgsv: 0.875 * DEFAULTS.basis,
-    taxMode: DEFAULTS.taxMode, taxRate: DEFAULTS.taxRate, currentAge: DEFAULTS.age,
-  });
+  const { rate, result: res } = analyseDefaultContract({ ustTenors, ustYields, igOasBp });
   const ink = res?.verdict ? VERDICT_INK[res.verdict.key] : "#94a3b8";
 
   return (

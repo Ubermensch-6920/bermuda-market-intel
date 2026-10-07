@@ -163,12 +163,23 @@ def fred_fetch(series_ids, start="2024-01-01", timeout=10, retries=2):
     source health for "FRED" automatically.
     """
     result = {sid: [] for sid in series_ids}
+    unknown = []
     if FRED_API_KEY:
         api_failed = []
         for sid in series_ids:
             try:
                 result[sid] = _fred_api_series(sid, start, timeout=timeout)
                 time.sleep(0.5)
+            except urllib.error.HTTPError as e:
+                if e.code == 400:
+                    # The API answers 400 for a series ID that doesn't exist
+                    # (or was discontinued). The public CSV endpoint can't do
+                    # better and only times out, ~30s per series per run.
+                    unknown.append(sid)
+                    log.warning(f"  FRED API {sid}: HTTP 400 — series not found; check the ID")
+                else:
+                    api_failed.append(sid)
+                    log.warning(f"  FRED API {sid}: {e}")
             except Exception as e:
                 api_failed.append(sid)
                 log.warning(f"  FRED API {sid}: {e}")
@@ -185,6 +196,7 @@ def fred_fetch(series_ids, start="2024-01-01", timeout=10, retries=2):
         feeds="rates / spreads / FX reference data",
         ok=got > 0,
         note=f"{got}/{len(series_ids)} series returned data"
+        + (f"; unknown IDs: {', '.join(unknown)}" if unknown else "")
         + ("" if FRED_API_KEY else " (no FRED_API_KEY; using public CSV endpoint)"),
     )
     return result
@@ -231,6 +243,17 @@ def record_source(source, feeds, ok, fallback=None, note=None):
     return entry
 
 
+SAME_WORKFLOW_WINDOW = 30 * 60  # seconds; a full refresh run takes ~5 minutes
+
+
+def _succeeded_this_workflow(last_success, now):
+    try:
+        ts = datetime.fromisoformat(last_success.rstrip("Z"))
+    except (AttributeError, ValueError):
+        return False
+    return 0 <= (now - ts).total_seconds() <= SAME_WORKFLOW_WINDOW
+
+
 def flush_source_health():
     """Merge this run's source outcomes into data/source_health.json."""
     existing = {}
@@ -252,7 +275,10 @@ def flush_source_health():
             "fallback": entry.get("fallback"),
             "note": entry.get("note"),
         }
-        if entry["ok"]:
+        if entry["ok"] or _succeeded_this_workflow(last_success, now):
+            # Several scripts in one workflow run share a source (FRED is used
+            # by fetch_all, fetch_credit_latest and fetch_debt_maturity); a
+            # later script's failure shouldn't mask an earlier one's success.
             merged["status"] = "active"
         else:
             age_days = None

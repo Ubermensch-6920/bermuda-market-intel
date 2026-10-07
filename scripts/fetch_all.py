@@ -138,6 +138,40 @@ def interpolate_curve(yields_dict, tenors):
                 yields_dict[t] = round(left[1] + (right[1] - left[1]) * (x - left[0]) / (right[0] - left[0]), 4)
     return yields_dict
 
+def hold_spikes(current, tenors, last, threshold_bp=25, calm_bp=8, max_holds=3, max_age_days=4):
+    """Hold a tenor at its previous value when it alone jumps.
+
+    Scraped curves occasionally return a wrong number for one tenor (India's
+    TE "52W" row flipped between ~6.1% and 5.8%/6.5% run to run, even on a
+    Saturday). If one tenor moves more than `threshold_bp` while the median
+    of the others moves at most `calm_bp`, keep the previous value. A hold
+    lasts at most `max_holds` consecutive runs, so a genuine level shift
+    still comes through. Mutates `current`; returns {tenor: consecutive holds}.
+    """
+    if not last or not last.get("date"):
+        return {}
+    try:
+        age = (datetime.utcnow().date() - date.fromisoformat(last["date"][:10])).days
+    except ValueError:
+        return {}
+    if age > max_age_days:
+        return {}
+    last_y = dict(zip(last.get("tenors", []), last.get("yields", [])))
+    held_before = last.get("held") or {}
+    moves = {t: abs(current[t] - last_y[t]) * 100 for t in tenors
+             if current.get(t) is not None and last_y.get(t) is not None}
+    held = {}
+    for t, mv in moves.items():
+        others = sorted(v for k, v in moves.items() if k != t)
+        if len(others) < 3 or mv <= threshold_bp:
+            continue
+        if others[len(others) // 2] <= calm_bp and held_before.get(t, 0) < max_holds:
+            held[t] = held_before.get(t, 0) + 1
+            log.warning(f"  {t}: {current[t]} is a {mv:.0f}bp jump with the rest of the curve calm; "
+                        f"holding previous {last_y[t]} (hold {held[t]}/{max_holds})")
+            current[t] = last_y[t]
+    return held
+
 def load_last_india():
     try:
         f = DATA / "india.json"
@@ -192,16 +226,15 @@ def append_curve_history(name, date_str, tenors, yields, source):
         "yields": yields,
         "_fetched": datetime.utcnow().isoformat() + "Z",
     }
+    # Upsert: the day's LAST run wins. Keeping the first run meant a pre-market
+    # snapshot (yesterday's close) stood in for the whole day.
     try:
-        existing = set()
+        rows = []
         if path.exists():
-            for line in path.read_text().splitlines():
-                if line.strip():
-                    obj = json.loads(line)
-                    existing.add(obj.get("date"))
-        if date_str not in existing:
-            with path.open("a", encoding="utf-8") as f:
-                f.write(json.dumps(row) + "\n")
+            rows = [json.loads(line) for line in path.read_text().splitlines() if line.strip()]
+        rows = [r for r in rows if r.get("date") != date_str] + [row]
+        rows.sort(key=lambda r: r.get("date", ""))
+        path.write_text("".join(json.dumps(r) + "\n" for r in rows))
     except Exception as e:
         log.warning(f"  history append failed for {name}: {e}")
 
@@ -643,7 +676,10 @@ def yahoo_daily_bars(symbol, range_="5y"):
     """Daily closes for a Yahoo symbol as [(YYYY-MM-DD, close)], oldest first.
 
     Bars are dated in the exchange's local time, and a live intraday bar that
-    shares a date with the day's bar replaces it.
+    shares a date with the day's bar replaces it. A bar stamped on a weekend
+    (the Sunday-evening open of futures and FX) belongs to Monday's session,
+    so it is dated Monday — otherwise Monday's "1D change" is measured against
+    Monday's own first hour.
     """
     res = _yahoo_chart(symbol, f"interval=1d&range={range_}")
     out = []
@@ -655,7 +691,10 @@ def yahoo_daily_bars(symbol, range_="5y"):
             for t, c in zip(ts, closes):
                 if c is None:
                     continue
-                d = datetime.utcfromtimestamp(t + off).strftime("%Y-%m-%d")
+                dt = datetime.utcfromtimestamp(t + off)
+                if dt.weekday() >= 5:
+                    dt += timedelta(days=7 - dt.weekday())
+                d = dt.strftime("%Y-%m-%d")
                 if out and out[-1][0] == d:
                     out[-1] = (d, c)
                 else:
@@ -861,65 +900,90 @@ def fetch_ust():
     log.info(f"  UST OK: {rows[0]['date']}")
 
 # ── 2. JGB ──
-def fetch_jgb():
-    log.info("JGB: fetching")
-    want = ["1Y", "2Y", "3Y", "5Y", "7Y", "10Y", "15Y", "20Y", "25Y", "30Y", "40Y"]
-    try:
-        raw = get("https://www.mof.go.jp/english/policy/jgbs/reference/interest_rate/jgbcme.csv")
-    except Exception:
-        record_source("MOF Japan", "JGB curve", ok=False)
-        raise
-    record_source("MOF Japan", "JGB curve", ok=True)
+JGB_TENORS = ["1Y", "2Y", "3Y", "5Y", "7Y", "10Y", "15Y", "20Y", "25Y", "30Y", "40Y"]
+JGB_BASE = "https://www.mof.go.jp/english/policy/jgbs/reference/interest_rate"
+# jgbcme.csv only holds the CURRENT month (one row on the 1st business day,
+# which used to crash the fetch); the full history lives in jgbcme_all.csv.
+JGB_HISTORY_URLS = [f"{JGB_BASE}/historical/jgbcme_all.csv", f"{JGB_BASE}/jgbcme_all.csv"]
+
+def parse_mof_jgb_csv(raw, want=JGB_TENORS):
+    """Rows from an MOF JGB yield CSV, newest first: [{date, yields}]."""
     lines = raw.split("\n")
-    hdr_idx, headers = -1, []
+    headers, hdr_idx = [], -1
     for i, line in enumerate(lines[:5]):
         if "date" in line.lower():
             hdr_idx = i
             headers = [h.strip().strip('"') for h in line.split(",")]
             break
-    assert hdr_idx >= 0
+    if hdr_idx < 0:
+        return []
     col = {h.replace(" ", ""): j for j, h in enumerate(headers) if h.replace(" ", "") in want}
     rows = []
-    for line in lines[hdr_idx+1:]:
+    for line in lines[hdr_idx + 1:]:
         parts = [p.strip().strip('"') for p in line.split(",")]
-        if len(parts) < 10:
+        m = re.match(r"(\d{4})[/-](\d{1,2})[/-](\d{1,2})", parts[0]) if parts else None
+        if not m or len(parts) < 10:
             continue
-        m = re.match(r"(\d{4})[/-](\d{1,2})[/-](\d{1,2})", parts[0])
-        if not m:
-            continue
-        date_val = f"{m[1]}-{m[2].zfill(2)}-{m[3].zfill(2)}"
         yd = {}
         for t in want:
-            if t in col:
-                try:
-                    yd[t] = round(float(parts[col[t]]), 4)
-                except Exception:
-                    yd[t] = None
-        rows.append({"date": date_val, "yields": yd})
+            try:
+                yd[t] = round(float(parts[col[t]]), 4) if t in col else None
+            except (ValueError, IndexError):
+                yd[t] = None
+        if any(v is not None for v in yd.values()):
+            rows.append({"date": f"{m[1]}-{m[2].zfill(2)}-{m[3].zfill(2)}", "yields": yd})
     rows.sort(key=lambda x: x["date"], reverse=True)
-    assert len(rows) >= 2
-    target_ya = (datetime.utcnow() - timedelta(days=365)).strftime("%Y-%m-%d")
-    ya_candidates = [r for r in rows if r["date"] <= target_ya]
-    ya_yields, ya_date = [None] * len(want), ""
-    if ya_candidates:
-        ya_yields = [ya_candidates[0]["yields"].get(t) for t in want]
-        ya_date = ya_candidates[0]["date"]
+    return rows
+
+def fetch_jgb():
+    log.info("JGB: fetching")
+    want = JGB_TENORS
+    try:
+        current_rows = parse_mof_jgb_csv(get(f"{JGB_BASE}/jgbcme.csv", timeout=15))
+    except Exception:
+        record_source("MOF Japan", "JGB curve", ok=False)
+        raise
+    if not current_rows:
+        record_source("MOF Japan", "JGB curve", ok=False, note="current-month CSV had no rows")
+        raise RuntimeError("JGB: current-month CSV had no parsable rows")
+    record_source("MOF Japan", "JGB curve", ok=True)
+
+    hist_rows = []
+    for url in JGB_HISTORY_URLS:
+        try:
+            hist_rows = parse_mof_jgb_csv(get(url, timeout=25))
+            if hist_rows:
+                break
+        except Exception as e:
+            log.warning(f"  JGB history {url}: {e}")
+    by_date = {r["date"]: r for r in hist_rows}
+    by_date.update({r["date"]: r for r in current_rows})  # current month wins
+    # Our own snapshots cover the case where the history file is unreachable.
+    for r in load_curve_history("jgb"):
+        by_date.setdefault(r["date"], r)
+    rows = sorted(by_date.values(), key=lambda r: r["date"], reverse=True)
+    latest = rows[0]
+    append_curve_history("jgb", latest["date"], want, [latest["yields"].get(t) for t in want], "MOF Japan")
+
+    prior = rows[1] if len(rows) > 1 else None
+    p1m_yields, p1m_date = find_prior_date_yields(rows, 30, want)
+    p3m_yields, p3m_date = find_prior_date_yields(rows, 91, want)
+    ya_yields, ya_date = find_prior_date_yields(rows, 365, want, max_diff_days=14)
     if not any(v is not None for v in ya_yields):
         fred_ya, fdate = fred_year_ago_10y("IRLTLT01JPM156N")
         if fred_ya:
             ya_yields[want.index("10Y")] = fred_ya
             ya_date = fdate
-    p1m_yields, p1m_date = find_prior_date_yields(rows, 30, want)
-    p3m_yields, p3m_date = find_prior_date_yields(rows, 91, want)
-    log.info(f"  JGB 1M ago: {p1m_date}, 3M ago: {p3m_date}")
+    log.info(f"  JGB rows: {len(current_rows)} current-month + {len(hist_rows)} history; "
+             f"1M ago: {p1m_date or '-'}, 3M ago: {p3m_date or '-'}, 1Y ago: {ya_date or '-'}")
     write("jgb.json", {
-        "date": rows[0]["date"],
-        "prior_date": rows[1]["date"],
+        "date": latest["date"],
+        "prior_date": prior["date"] if prior else "",
         "source": "Ministry of Finance Japan",
-        "url": "https://www.mof.go.jp/english/policy/jgbs/reference/interest_rate/",
+        "url": f"{JGB_BASE}/",
         "tenors": want,
-        "yields": [rows[0]["yields"].get(t) for t in want],
-        "prior_yields": [rows[1]["yields"].get(t) for t in want],
+        "yields": [latest["yields"].get(t) for t in want],
+        "prior_yields": [prior["yields"].get(t) for t in want] if prior else [None] * len(want),
         "prior_1m_yields": p1m_yields,
         "prior_1m_date": p1m_date,
         "prior_3m_yields": p3m_yields,
@@ -927,7 +991,7 @@ def fetch_jgb():
         "year_ago_yields": ya_yields,
         "year_ago_date": ya_date
     })
-    log.info(f"  JGB OK: {rows[0]['date']}")
+    log.info(f"  JGB OK: {latest['date']}")
 
 # ── 3. GILT ──
 GILT_INV = {"1Y": "/rates-bonds/uk-1-year-bond-yield", "2Y": "/rates-bonds/uk-2-year-bond-yield", "3Y": "/rates-bonds/uk-3-year-bond-yield", "5Y": "/rates-bonds/uk-5-year-bond-yield", "7Y": "/rates-bonds/uk-7-year-bond-yield", "10Y": "/rates-bonds/uk-10-year-bond-yield", "15Y": "/rates-bonds/uk-15-year-bond-yield", "20Y": "/rates-bonds/uk-20-year-bond-yield", "30Y": "/rates-bonds/uk-30-year-bond-yield"}
@@ -945,6 +1009,7 @@ def fetch_gilt():
         log.warning(f"  GILT BoE failed: {e}")
 
     current = {}
+    interpolated, cached, held, derived, last = [], [], {}, {}, None
     if rows:
         current = rows[0]["yields"].copy()
         date_str = rows[0]["date"]
@@ -983,7 +1048,9 @@ def fetch_gilt():
         except Exception:
             pass
 
+        missing = [t for t in tenors if current.get(t) is None]
         current = interpolate_curve(current, tenors)
+        interpolated = [t for t in missing if current.get(t) is not None]
 
         last = load_last_gilt()
         if last:
@@ -991,23 +1058,41 @@ def fetch_gilt():
             for t in tenors:
                 if current.get(t) is None and last_y.get(t) is not None:
                     current[t] = last_y[t]
+                    cached.append(t)
+        held = hold_spikes(current, tenors, last)
 
-        p1m_yields = [te.get(t, {}).get("m1") for t in tenors]
-        p1m_date = "TE month delta reconstruction"
-        p3m_yields, p3m_date = history_lookup("gilt", 91, tenors)
-        ya_yields = [te.get(t, {}).get("y1") for t in tenors]
-        ya_date = "TE year delta reconstruction"
-        prior_yields = [None] * len(tenors)
-        prior_date = ""
         date_str = datetime.utcnow().strftime("%Y-%m-%d")
+        hist_rows = [r for r in load_curve_history("gilt") if r["date"] < date_str]
+        # Prior day from our own daily snapshots (the scrape has no history).
+        prior_yields, prior_date = find_prior_date_yields(hist_rows, 1, tenors, max_diff_days=5)
+        if prior_date:
+            derived["prior_day"] = "own history"
+        p1m_yields = [te.get(t, {}).get("m1") for t in tenors]
+        p1m_date = ""
+        if any(v is not None for v in p1m_yields):
+            derived["prior_1m"] = "TE month delta reconstruction"
+        p3m_yields, p3m_date = find_prior_date_yields(hist_rows, 91, tenors)
+        if p3m_date:
+            derived["prior_3m"] = "own history"
+        ya_yields = [te.get(t, {}).get("y1") for t in tenors]
+        ya_date = ""
+        if any(v is not None for v in ya_yields):
+            derived["year_ago"] = "TE year delta reconstruction"
         source = "Investing.com / TradingEconomics / FRED / cache"
         source_url = "https://www.investing.com/rates-bonds/uk-government-bonds"
 
     valid_count = sum(1 for v in current.values() if v is not None)
     if valid_count < 3:
         raise Exception(f"GILT: insufficient data ({valid_count} tenors)")
+    if cached and len(cached) == len(tenors):
+        # Nothing live: rewriting the file would re-date stale numbers as today.
+        log.warning("  GILT: no live quotes; keeping the previous file")
+        return f"stale: no live gilt quotes; kept {(last or {}).get('date', 'previous')} curve"
 
-    append_curve_history("gilt", date_str, tenors, [current.get(t) for t in tenors], source)
+    # History records live quotes only, so a carried-forward value can't later
+    # pose as that day's market (and turn the next day's change into zero).
+    append_curve_history("gilt", date_str, tenors,
+                         [None if t in cached or t in held else current.get(t) for t in tenors], source)
 
     write("gilt.json", {
         "date": date_str,
@@ -1023,9 +1108,15 @@ def fetch_gilt():
         "prior_3m_date": p3m_date,
         "year_ago_yields": ya_yields,
         "year_ago_date": ya_date,
+        "derived": derived,
+        "interpolated": interpolated,
+        "cached": cached,
+        "held": held,
         "note": "Official BoE daily archive first; then market scrapes; then local history / cache."
     })
     log.info(f"  GILT OK: {valid_count} tenors")
+    if cached:
+        return f"partial: {len(cached)}/{len(tenors)} tenors carried forward"
 
 # ── 4. EUR ──
 def fetch_eur():
@@ -1035,7 +1126,7 @@ def fetch_eur():
     results = {}
     for tn, sk in ecb_map.items():
         try:
-            raw = get(f"https://data-api.ecb.europa.eu/service/data/YC/B.U2.EUR.4F.G_N_A.SV_C_YM.{sk}?lastNObservations=70&format=csvdata", timeout=15)
+            raw = get(f"https://data-api.ecb.europa.eu/service/data/YC/B.U2.EUR.4F.G_N_A.SV_C_YM.{sk}?lastNObservations=280&format=csvdata", timeout=15)
             lines = raw.strip().split("\n")
             if len(lines) < 2:
                 continue
@@ -1057,7 +1148,8 @@ def fetch_eur():
         except Exception as e:
             log.warning(f"  ECB {tn}: {e}")
     record_source("ECB SDW", "EUR AAA govt curve", ok=bool(results))
-    assert results
+    if not results:
+        raise RuntimeError("ECB: no tenor returned data")
     latest = max(r["date"] for r in results.values())
 
     def ecb_find_prior(days_ago):
@@ -1078,12 +1170,16 @@ def fetch_eur():
                 d_used = best["date"]
         return out, d_used
 
+    # ~280 business days covers the year-ago lookup (70 used to stop at ~3M).
     p1m_yields, p1m_date = ecb_find_prior(30)
     p3m_yields, p3m_date = ecb_find_prior(91)
+    ya_yields, ya_date = ecb_find_prior(365)
+    prior_date = next((r["all_obs"][1]["date"] for r in results.values()
+                       if r["date"] == latest and len(r["all_obs"]) > 1), "")
     log.info(f"  EUR 1M ago: {p1m_date}, 3M ago: {p3m_date}")
     write("eur.json", {
         "date": latest,
-        "prior_date": "",
+        "prior_date": prior_date,
         "source": "ECB SDW (EUR AAA Govt — EIOPA proxy)",
         "url": "https://data.ecb.europa.eu/",
         "tenors": tenors,
@@ -1093,8 +1189,8 @@ def fetch_eur():
         "prior_1m_date": p1m_date,
         "prior_3m_yields": p3m_yields,
         "prior_3m_date": p3m_date,
-        "year_ago_yields": [None] * len(tenors),
-        "year_ago_date": "",
+        "year_ago_yields": ya_yields,
+        "year_ago_date": ya_date,
         "note": "EUR AAA govt curve proxy. Actual EIOPA RFR includes UFR extrapolation."
     })
     log.info(f"  EUR OK: {latest}")
@@ -1155,18 +1251,26 @@ def fetch_india():
     except Exception:
         pass
 
+    missing = [t for t in tenors if current.get(t) is None]
     current = interpolate_curve(current, tenors)
+    interpolated = [t for t in missing if current.get(t) is not None]
 
+    cached = []
     last = load_last_india()
     if last:
         last_y = dict(zip(last.get("tenors", []), last.get("yields", [])))
         for t in tenors:
             if current.get(t) is None and last_y.get(t) is not None:
                 current[t] = last_y[t]
+                cached.append(t)
+    held = {} if rows else hold_spikes(current, tenors, last)
 
     valid_count = sum(1 for v in current.values() if v is not None)
     if valid_count < 3:
         raise Exception(f"INDIA: insufficient data ({valid_count} tenors)")
+    if cached and len(cached) == len(tenors):
+        log.warning("  INDIA: no live quotes; keeping the previous file")
+        return f"stale: no live India quotes; kept {(last or {}).get('date', 'previous')} curve"
 
     # Our own stored history (excluding today) supplies prior-day and fills
     # gaps the upstream sources leave — this is what makes comparisons
@@ -1234,7 +1338,8 @@ def fetch_india():
                         vals[i] = hv[i]
                         derived.setdefault(key, "own history")
 
-    append_curve_history("india", date_str, tenors, [current.get(t) for t in tenors], source)
+    append_curve_history("india", date_str, tenors,
+                         [None if t in cached or t in held else current.get(t) for t in tenors], source)
 
     write("india.json", {
         "date": date_str,
@@ -1251,9 +1356,14 @@ def fetch_india():
         "year_ago_yields": ya_yields,
         "year_ago_date": ya_date,
         "derived": derived,
+        "interpolated": interpolated,
+        "cached": cached,
+        "held": held,
         "note": "FBIL latest first, then Investing/TE/FRED, then local history / cache. India 3M curve is exact once local history accumulates."
     })
     log.info(f"  INDIA OK: {valid_count} tenors")
+    if cached:
+        return f"partial: {len(cached)}/{len(tenors)} tenors carried forward"
 
 # ── 6. CREDIT ──
 def fetch_credit():
@@ -1453,62 +1563,13 @@ def fetch_cds():
         except Exception as e:
             log.warning(f"  CDS sovereign WGB scrape failed: {e}")
 
-    # ── Part C: Sector OAS from FRED ──
-    SECTOR_SERIES = {
-        "financial_ig": {"series_id": "BAMLC0A0CMFIN",    "name": "Financials IG"},
-        "financial_hy": {"series_id": "BAMLH0A0HYM2FIN",  "name": "Financials HY"},
-        "tech_ig":      {"series_id": "BAMLC8A0C7T10YEY", "name": "Technology IG"},
-        "tech_hy":      {"series_id": "BAMLH0A0HYM2TMK",  "name": "Technology HY"},
-    }
+    # Sector OAS (financials / tech) used to come from four FRED ICE BofA IDs
+    # (BAMLC0A0CMFIN, BAMLH0A0HYM2FIN, BAMLC8A0C7T10YEY, BAMLH0A0HYM2TMK) that
+    # FRED does not publish: every run got HTTP 400, burned ~30s in fallback
+    # timeouts and rendered four permanently empty rows. Dropped.
     sector = {}
 
-    # Stage 1: bulk multi-series FRED fetch
-    sector_sids = [v["series_id"] for v in SECTOR_SERIES.values()]
-    try:
-        multi = fred_multi_csv(sector_sids, start="2024-01-01", retries=1)
-        for sec_key, meta in SECTOR_SERIES.items():
-            sid = meta["series_id"]
-            obs = multi.get(sid, [])
-            if obs:
-                curr = round(obs[0]["value"] * 100)
-                prior_val = round(obs[1]["value"] * 100) if len(obs) > 1 else curr
-                sector[sec_key] = {
-                    "name": meta["name"],
-                    "spread": curr,
-                    "prior": prior_val,
-                    "series_id": sid,
-                    "date": obs[0]["date"],
-                    "source": "fred_multi",
-                }
-                log.info(f"  CDS sector {sec_key}: {curr}bp")
-    except Exception as e:
-        log.warning(f"  CDS sector bulk FRED failed: {e}")
-
-    # Stage 2: individual download fallback for any missing sector series
-    for sec_key, meta in SECTOR_SERIES.items():
-        if sec_key in sector:
-            continue
-        sid = meta["series_id"]
-        try:
-            obs = fred_download_csv(sid, start="2024-01-01")
-            if obs:
-                curr = round(obs[0]["value"] * 100)
-                prior_val = round(obs[1]["value"] * 100) if len(obs) > 1 else curr
-                sector[sec_key] = {
-                    "name": meta["name"],
-                    "spread": curr,
-                    "prior": prior_val,
-                    "series_id": sid,
-                    "date": obs[0]["date"],
-                    "source": "fred_download",
-                }
-                log.info(f"  CDS sector {sec_key}: {curr}bp (download)")
-            else:
-                log.warning(f"  CDS sector {sec_key}: no data on FRED")
-        except Exception as e:
-            log.warning(f"  CDS sector {sec_key} download failed: {e}")
-
-    # ── Stage 3: cache fallback for all three dimensions ──
+    # ── Stage 3: cache fallback ──
     try:
         last_cds_file = DATA / "cds.json"
         if last_cds_file.exists():
@@ -1529,41 +1590,19 @@ def fetch_cds():
                     sovereign_date = last_sov.get("date", "")
                     sovereign_source = "cache"
                     log.warning("  CDS sovereign: using cache fallback")
-
-            for k, meta in SECTOR_SERIES.items():
-                if k not in sector:
-                    cached_sec = last_cds.get("sector", {}).get(k)
-                    if cached_sec:
-                        cached_sec = dict(cached_sec)
-                        cached_sec["source"] = "cache"
-                        sector[k] = cached_sec
     except Exception as e:
         log.warning(f"  CDS cache fallback failed: {e}")
-
-    # Fill any still-missing sector entries with explicit unavailable marker
-    for k, meta in SECTOR_SERIES.items():
-        if k not in sector:
-            sector[k] = {
-                "name": meta["name"],
-                "spread": None,
-                "prior": None,
-                "series_id": meta["series_id"],
-                "date": "",
-                "source": "unavailable",
-            }
 
     # ── Determine overall status ──
     fresh_corp = sum(1 for v in corporate.values() if v.get("source") == "credit.json")
     has_sov = sovereign_spread is not None and sovereign_source not in ("cache", "")
-    fresh_sector = sum(1 for v in sector.values() if v.get("source", "").startswith("fred"))
     any_cache = (
         any(v.get("source") == "cache" for v in corporate.values()) or
-        sovereign_source == "cache" or
-        any(v.get("source") in ("cache", "unavailable") for v in sector.values())
+        sovereign_source == "cache"
     )
-    if fresh_corp >= 7 and fresh_sector >= 1:
+    if fresh_corp >= 7 and has_sov:
         status = "ok"
-    elif fresh_corp >= 3 or has_sov or fresh_sector >= 1:
+    elif fresh_corp >= 3 or has_sov:
         status = "partial"
     elif any_cache:
         status = "cached"
@@ -1572,7 +1611,6 @@ def fetch_cds():
 
     dates = (
         [v.get("date", "") for v in corporate.values()] +
-        [v.get("date", "") for v in sector.values() if v.get("date")] +
         ([sovereign_date] if sovereign_date else [])
     )
     latest_date = max(dates, default="")
@@ -1593,7 +1631,9 @@ def fetch_cds():
         "corporate": corporate,
         "sector": sector,
     })
-    log.info(f"  CDS OK: {latest_date}, status={status}, sov={sovereign_spread}, corp={len(corporate)}, sector={len(sector)}")
+    log.info(f"  CDS OK: {latest_date}, status={status}, sov={sovereign_spread}, corp={len(corporate)}")
+    if status != "ok":
+        return f"{status}: sovereign {sovereign_source or 'unavailable'}" + (f" ({sovereign_date})" if sovereign_date else "")
 
 # ── 7. SOFR ──
 def fetch_sofr():
@@ -1889,7 +1929,7 @@ def _bma_discover_discount_files():
         if manual_path.exists():
             manual_files = (json.loads(manual_path.read_text()) or {}).get("known_files") or {}
             for k, url in manual_files.items():
-                if not isinstance(url, str) or "cdn.bma.bm" not in url:
+                if k.startswith("_") or not isinstance(url, str) or "cdn.bma.bm" not in url:
                     continue
                 try:
                     as_of_dt = datetime.strptime(k, "%Y-%m-%d")
@@ -2259,6 +2299,8 @@ def fetch_bma_rates():
 
     write("bma_rates.json", output)
     log.info(f"  BMA RATES OK: {output.get('as_of_date_iso') or output.get('as_of_date','')}")
+    if output.get("stale"):
+        return f"stale: latest workbook {have_iso}, expected {expected_iso}"
 
 # ── 9. COMMODITIES ──
 COMM_TENOR_NS = [("3M", 3), ("6M", 6), ("12M", 12), ("24M", 24)]
@@ -2431,6 +2473,36 @@ def _priors_from_bars(bars, spot_date):
             out[lbl] = (round(v, 2), d)
     return out
 
+def front_contract_prev_close(sym_fn, front, spot_date):
+    """Previous session's close of the contract the front-month quote is
+    actually tracking -> (close, date, contract) or None.
+
+    Yahoo's continuous front month (CL=F/BZ=F) switches its live quote to the
+    next contract days before its history follows, so near a roll the
+    "previous bar" can belong to the expiring contract and the 1D change
+    shows the calendar spread (Brent read about -5% from 28 Sep to 1 Oct
+    2026 on moves that never happened). Match the live quote to a listed
+    contract and use that contract's own prior bar.
+    """
+    if not front or not spot_date:
+        return None
+    last_d, last_px = front[-1]
+    best = None
+    for k in range(4):
+        sym, _ = sym_fn(k)
+        bars = yahoo_daily_bars(sym)
+        if not bars or bars[-1][0] != last_d:
+            continue
+        diff = abs(bars[-1][1] - last_px)
+        if best is None or diff < best[0]:
+            best = (diff, sym, bars)
+    if best is None or best[0] > max(0.02, 0.0005 * last_px):
+        return None
+    prev = [b for b in best[2] if b[0] < spot_date]
+    if not prev or (date.fromisoformat(spot_date) - date.fromisoformat(prev[-1][0])).days > 5:
+        return None
+    return round(prev[-1][1], 2), prev[-1][0], best[1].split(".")[0]
+
 def commodity_spot(key, history, last):
     """Spot, its date/source, and 1d..2y priors taken from the same series."""
     spec = COMMODITY_SPECS[key]
@@ -2487,6 +2559,10 @@ def commodity_spot(key, history, last):
         log.warning(f"  {spec['label']} spot: all live sources failed, carrying forward cached {spot}")
 
     priors = _priors_from_bars(series, spot_date) if series else {}
+    if series is front and not spec["true_spot"]:
+        same = front_contract_prev_close(spec["sym_fn"], front, spot_date)
+        if same:
+            priors["1d"] = same[:2]
     if kind:
         hist = _priors_from_bars(_history_spot_bars(history, key, kind), spot_date)
         for h, v in hist.items():
@@ -2609,7 +2685,10 @@ def fetch_commodities():
             best = min(usdinr_obs, key=lambda o: abs((datetime.strptime(o["date"], "%Y-%m-%d") - target).days))
             diff = abs((datetime.strptime(best["date"], "%Y-%m-%d") - target).days)
             return (round(best["value"], 4), best["date"]) if diff <= max_diff else (None, None)
-        usdinr_1d, usdinr_1d_d = _usdinr_prior(1, max_diff=5)
+        # 1d is the previous FRED print, not "the print nearest 24h ago" (with
+        # FRED's lag that is often the spot print itself -> a fake 0% day).
+        usdinr_1d, usdinr_1d_d = ((round(usdinr_obs[1]["value"], 4), usdinr_obs[1]["date"])
+                                  if len(usdinr_obs) > 1 else (None, None))
         usdinr_1m, usdinr_1m_d = _usdinr_prior(30)
         usdinr_3m, usdinr_3m_d = _usdinr_prior(91)
         usdinr_1y, usdinr_1y_d = _usdinr_prior(365)
@@ -2635,11 +2714,16 @@ def fetch_commodities():
         # Yahoo INR=X is USD/INR spot and works from CI runners (same host that
         # serves the gold/oil futures above); Investing is blocked from CI but
         # kept as a local-run fallback.
-        live_spot = yahoo_price("INR=X")
-        if live_spot is not None and 50 <= live_spot <= 150:
-            usdinr_spot = round(live_spot, 4)
-            usdinr_spot_date = datetime.utcnow().strftime("%Y-%m-%d")
+        inr_bars = [b for b in yahoo_daily_bars("INR=X", "5d") if 50 <= b[1] <= 150]
+        if inr_bars:
+            usdinr_spot = round(inr_bars[-1][1], 4)
+            usdinr_spot_date = inr_bars[-1][0]
             usdinr_spot_source = "Yahoo INR=X"
+            # Day-over-day from the same series. Comparing Yahoo's live quote
+            # with FRED's lagged noon rate read a two-session, two-source move
+            # as "1D".
+            usdinr_1d, usdinr_1d_d = ((round(inr_bars[-2][1], 4), inr_bars[-2][0])
+                                      if len(inr_bars) > 1 else (None, None))
         else:
             scraped_usdinr = scrape_fx_spot("/currencies/usd-inr")
             if scraped_usdinr is not None:
@@ -2664,9 +2748,10 @@ def fetch_commodities():
             except Exception:
                 pass
 
-    # FRED's publication lag means prior_1d is usually unavailable from DEXINUS;
-    # backfill it from Yahoo INR=X daily history so day-over-day change renders.
-    if usdinr_spot is not None and usdinr_1d is None:
+    # Scrape / keyless-API spots have no history of their own: take the prior
+    # session from Yahoo INR=X rather than FRED's lagged print.
+    if usdinr_spot is not None and usdinr_spot_source not in ("FRED DEXINUS", "Yahoo INR=X"):
+        usdinr_1d = usdinr_1d_d = None
         _v, _d = yahoo_price_near_date("INR=X", datetime.utcnow() - timedelta(days=1), max_diff_days=5)
         if _v is not None and 50 <= _v <= 150 and usdinr_spot_date and _d < usdinr_spot_date:
             usdinr_1d, usdinr_1d_d = _v, _d
@@ -2768,8 +2853,47 @@ def fetch_commodities():
     except Exception as e:
         log.warning(f"  commodity history save failed: {e}")
     log.info("  COMMODITIES OK")
+    cached_spots = [k for k in ("gold", "wti", "brent", "usdinr") if (payload.get(k) or {}).get("spot_source") == "cache"]
+    if cached_spots:
+        return f"{'stale' if len(cached_spots) == 4 else 'partial'}: cached spot for {', '.join(cached_spots)}"
 
 # ── RUN ──
+OECD_PRICES_URL = "https://sdmx.oecd.org/public/rest/data/OECD.SDD.TPS,DSD_PRICES@DF_PRICES_ALL,1.0"
+
+def oecd_cpi_yoy(ref_area, start_month):
+    """Latest headline CPI YoY % for one country from OECD's keyless SDMX API
+    -> (yoy, "YYYY-MM-01") or (None, None).
+
+    FRED's OECD-sourced CPI series (JPNCPIALLMINMEI etc.) were discontinued,
+    which blanked Japan / UK / India. Key: REF_AREA.FREQ.METHODOLOGY.MEASURE.
+    UNIT_MEASURE.EXPENDITURE.ADJUSTMENT.TRANSFORMATION; methodology and
+    adjustment are wildcarded and national, unadjusted rows preferred.
+    """
+    url = f"{OECD_PRICES_URL}/{ref_area}.M..CPI.PA._T..GY?startPeriod={start_month}&format=csvfile"
+    try:
+        rows = list(csv.DictReader(io.StringIO(get(url, timeout=20))))
+    except Exception as e:
+        log.warning(f"  OECD CPI {ref_area}: {e}")
+        return None, None
+    best = {}
+    for r in rows:
+        if r.get("REF_AREA") != ref_area or r.get("MEASURE", "CPI") != "CPI" or r.get("TRANSFORMATION", "GY") != "GY":
+            continue
+        try:
+            v = float(r["OBS_VALUE"])
+        except (KeyError, TypeError, ValueError):
+            continue
+        period = (r.get("TIME_PERIOD") or "")[:7]
+        if not re.fullmatch(r"\d{4}-\d{2}", period):
+            continue
+        rank = (r.get("METHODOLOGY") == "N") + (r.get("ADJUSTMENT") == "N")
+        if period not in best or rank > best[period][0]:
+            best[period] = (rank, v)
+    if not best:
+        return None, None
+    period = max(best)
+    return round(best[period][1], 2), f"{period}-01"
+
 def fetch_inflation():
     """Fetch CPI data for the 5 sovereign markets and write data/inflation.json.
 
@@ -2781,17 +2905,22 @@ def fetch_inflation():
     log.info("INFLATION: fetching CPI series")
     series_map = {
         "us":  ("CPIAUCSL",           "US CPI-U (SA, BLS)"),
-        "jp":  ("JPNCPIALLMINMEI",    "Japan CPI all items (OECD/FRED)"),
-        "uk":  ("GBRCPIALLMINMEI",    "UK CPI all items (OECD/FRED)"),
+        "jp":  ("JPNCPIALLMINMEI",    "Japan CPI all items (OECD)"),
+        "uk":  ("GBRCPIALLMINMEI",    "UK CPI all items (OECD)"),
         "eur": ("CP0000EZ19M086NEST", "Euro area HICP all items (ECB/FRED)"),
-        "in":  ("INDCPIALLMINMEI",    "India CPI all items (OECD/FRED)"),
+        "in":  ("INDCPIALLMINMEI",    "India CPI all items (OECD)"),
     }
+    oecd_area = {"jp": "JPN", "uk": "GBR", "in": "IND"}
     # Fetch 15+ months so we always have obs[0] and obs[12] for YoY.
     from datetime import date, timedelta
     start = (date.today() - timedelta(days=480)).isoformat()
     series_ids = [v[0] for v in series_map.values()]
     raw = fred_fetch(series_ids, start=start)
 
+    try:
+        prev_countries = json.loads((DATA / "inflation.json").read_text()).get("countries", {})
+    except Exception:
+        prev_countries = {}
     countries = {}
     for key, (sid, label) in series_map.items():
         obs = raw.get(sid, [])  # newest-first list of {date, value}
@@ -2802,12 +2931,24 @@ def fetch_inflation():
             yoy = round((obs[0]["value"] / obs[12]["value"] - 1) * 100, 2)
             entry["yoy"] = yoy
             if len(obs) >= 2:
-                mom = round(obs[0]["value"] - obs[1]["value"], 4)
+                # Percent change, not index points (US printed 1.318 = points).
+                mom = round((obs[0]["value"] / obs[1]["value"] - 1) * 100, 3)
                 entry["mom"] = mom
                 entry["trend"] = "up" if mom > 0 else ("down" if mom < 0 else "flat")
             log.info(f"  {key.upper()} ({sid}): YoY={entry['yoy']}%, date={entry['date']}")
+        elif key in oecd_area:
+            yoy, d = oecd_cpi_yoy(oecd_area[key], (date.today() - timedelta(days=200)).strftime("%Y-%m"))
+            if yoy is not None:
+                entry.update({"yoy": yoy, "date": d, "source": "OECD SDMX (FRED series discontinued)"})
+                log.info(f"  {key.upper()} (OECD {oecd_area[key]}): YoY={yoy}%, date={d}")
+            else:
+                log.warning(f"  {key.upper()}: no data from FRED ({sid}) or OECD")
         else:
             log.warning(f"  {key.upper()} ({sid}): only {len(obs)} obs, skipping YoY")
+        if entry["yoy"] is None and (prev_countries.get(key) or {}).get("yoy") is not None:
+            # A failed fetch used to overwrite good figures with nulls.
+            entry = dict(prev_countries[key], stale=True)
+            log.warning(f"  {key.upper()}: carrying forward {entry['yoy']}% ({entry.get('date')})")
         countries[key] = entry
 
     write("inflation.json", {
@@ -2815,6 +2956,9 @@ def fetch_inflation():
         "countries": countries,
     })
     log.info(f"  inflation.json written ({len([c for c in countries.values() if c['yoy'] is not None])}/5 with YoY)")
+    stale = [k for k, c in countries.items() if c.get("stale")]
+    if stale:
+        return f"stale: carried forward {', '.join(stale)}"
 
 
 def _fetch_myga():
@@ -2824,7 +2968,7 @@ def _fetch_myga():
     fetcher cannot take down the whole pipeline at module load.
     """
     from fetch_myga import fetch_myga
-    fetch_myga()
+    return fetch_myga()
 
 
 def main():
@@ -2844,12 +2988,15 @@ def main():
         ("inflation", fetch_inflation),
         ("myga", _fetch_myga),
     ]:
+        # A fetcher may return "stale: ..." / "partial: ..." to say it wrote
+        # something but not fresh data; an exception records its type, since a
+        # bare `assert` has an empty message (JGB once logged "" for days).
         try:
-            fn()
-            results[name] = "ok"
+            outcome = fn()
+            results[name] = outcome if isinstance(outcome, str) and outcome else "ok"
         except Exception as e:
-            log.error(f"  {name} FAILED: {e}")
-            results[name] = str(e)
+            results[name] = f"error: {type(e).__name__}" + (f": {e}" if str(e) else "")
+            log.error(f"  {name} FAILED: {results[name]}")
     write("manifest.json", {"results": results, "run": datetime.utcnow().isoformat() + "Z"})
     try:
         flush_source_health()

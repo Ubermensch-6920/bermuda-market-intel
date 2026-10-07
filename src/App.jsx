@@ -70,14 +70,17 @@ const CTooltip = ({ active, payload, label }) => {
   </div>);
 };
 
-const MetricCard = ({ label, value, change, loading: ld }) => {
-  const n = parseFloat(change);
+// `change` is a number in the card's own unit; `fmtChange` renders its
+// magnitude (default: basis points) and `period` labels the comparison.
+const fmtBpAbs = v => `${Math.abs(v).toFixed(1)}bp`;
+const MetricCard = ({ label, value, change, fmtChange = fmtBpAbs, period, loading: ld }) => {
+  const n = typeof change === "number" ? change : parseFloat(change);
   return (<div style={{ background: "#12141a", border: "1px solid #1e2028", borderRadius: 10, padding: "16px 20px", minWidth: 170 }}>
     <div style={{ fontSize: 12, color: "#94a3b8", textTransform: "uppercase", letterSpacing: "0.06em", marginBottom: 8, fontWeight: 600 }}>{label}</div>
     {ld ? <Loader size={18} style={{ color: "#60a5fa", animation: "spin 1s linear infinite" }} /> :
-      <div style={{ display: "flex", alignItems: "baseline", gap: 10 }}>
+      <div style={{ display: "flex", alignItems: "baseline", columnGap: 10, rowGap: 2, flexWrap: "wrap" }}>
         <span style={{ fontSize: 24, fontWeight: 700, color: "#f1f5f9", fontFamily: "'JetBrains Mono', monospace" }}>{value}</span>
-        {change != null && !isNaN(n) && <span style={{ fontSize: 13, color: chgCol(n), display: "flex", alignItems: "center", gap: 3, fontWeight: 600, fontFamily: "monospace" }}><ChgIcon v={change} />{Math.abs(n).toFixed(1)}bp</span>}
+        {change != null && !isNaN(n) && <span style={{ fontSize: 13, color: chgCol(n), display: "flex", alignItems: "center", gap: 3, fontWeight: 600, fontFamily: "monospace", whiteSpace: "nowrap" }}><ChgIcon v={n} />{fmtChange(n)}{period ? <span style={{ color: "#64748b", fontWeight: 500 }}>{period}</span> : null}</span>}
       </div>}
   </div>);
 };
@@ -188,6 +191,14 @@ const WamComparisonSection = ({ data, loading: ld, error }) => {
 // Common x-axis for all sovereign rate charts — enables direct visual comparison across views
 const STANDARD_TENORS = ["1Y", "2Y", "3Y", "5Y", "7Y", "10Y", "15Y", "20Y", "30Y"];
 const DERIVED_LABELS = { prior_day: "Prior day", prior_1m: "1M", prior_3m: "3M", year_ago: "1Y ago" };
+// Per-tenor provenance flags written by the pipeline for scraped curves.
+const TENOR_FLAGS = {
+  held: { mark: "†", text: "held at the previous value — a one-tenor jump with the rest of the curve calm was rejected as a bad quote" },
+  interpolated: { mark: "~", text: "interpolated between neighbouring tenors — no market quote this run" },
+  cached: { mark: "‡", text: "carried forward from the previous run — source unavailable" },
+};
+const tenorFlag = (data, t) =>
+  data.held?.[t] ? "held" : data.interpolated?.includes(t) ? "interpolated" : data.cached?.includes(t) ? "cached" : null;
 
 const SovSection = ({ data, title, accentColor, loading: ld, error, wamData, inflationData }) => {
   if (ld) return <div style={{ background: "#0d0f14", border: "1px solid #1e2028", borderRadius: 10, padding: 40, textAlign: "center", color: "#94a3b8" }}><Loader size={24} style={{ animation: "spin 1s linear infinite", margin: "0 auto 12px", display: "block", color: "#60a5fa" }} />Loading {title}…</div>;
@@ -219,7 +230,7 @@ const SovSection = ({ data, title, accentColor, loading: ld, error, wamData, inf
 
   // Table uses all tenors available in the dataset (including short-end for UST)
   const curveData = data.tenors.map((t, i) => ({
-    tenor: t, current: data.yields[i], prior: data.prior_yields?.[i],
+    tenor: t, flag: tenorFlag(data, t), current: data.yields[i], prior: data.prior_yields?.[i],
     prior1m: data.prior_1m_yields?.[i], prior3m: data.prior_3m_yields?.[i],
     yearAgo: data.year_ago_yields?.[i],
     change: data.yields[i] != null && data.prior_yields?.[i] != null ? ((data.yields[i] - data.prior_yields[i]) * 100).toFixed(1) : null,
@@ -267,8 +278,9 @@ const SovSection = ({ data, title, accentColor, loading: ld, error, wamData, inf
             <div style={{ fontSize: 11 }}>
               <span style={{ color: "#64748b" }}>Inflation (YoY, CPI)&nbsp;</span>
               <strong style={{ color: infColor, fontSize: 13 }}>{inf.toFixed(2)}%</strong>
-              <span style={{ color: "#475569", marginLeft: 4 }}>{trendIcon} MoM</span>
+              {inflationData.mom != null && <span style={{ color: "#475569", marginLeft: 4 }}>{trendIcon} {inflationData.mom > 0 ? "+" : ""}{inflationData.mom.toFixed(2)}% MoM</span>}
               {inflationData.date && <span style={{ color: "#475569" }}> · {inflationData.date.slice(0, 7)}</span>}
+              {inflationData.stale && <span style={{ color: "#f59e0b" }}> · stale (last fetch failed)</span>}
             </div>
             {real10y != null && (
               <div style={{ fontSize: 11 }}>
@@ -329,7 +341,7 @@ const SovSection = ({ data, title, accentColor, loading: ld, error, wamData, inf
             const ya = parseFloat(r.yaChange);
             return (<tr key={i} style={{ borderBottom: "1px solid #151820" }}>
               <td style={{ padding: "7px 12px", color: "#f1f5f9", fontWeight: 700, fontFamily: "monospace", fontSize: 13 }}>{r.tenor}</td>
-              <td style={{ padding: "7px 12px", color: "#f1f5f9", textAlign: "right", fontFamily: "monospace", fontWeight: 600, fontSize: 14 }}>{fmtY(r.current)}</td>
+              <td title={r.flag ? TENOR_FLAGS[r.flag].text : undefined} style={{ padding: "7px 12px", color: r.flag ? "#94a3b8" : "#f1f5f9", textAlign: "right", fontFamily: "monospace", fontWeight: 600, fontSize: 14 }}>{fmtY(r.current)}{r.flag ? <span style={{ color: "#f59e0b", marginLeft: 2 }}>{TENOR_FLAGS[r.flag].mark}</span> : null}</td>
               {hasPrior && <td style={{ padding: "7px 12px", color: "#94a3b8", textAlign: "right", fontFamily: "monospace" }}>{fmtY(r.prior)}</td>}
               {hasPrior && <td style={{ padding: "7px 12px", textAlign: "right", fontFamily: "monospace", color: chgCol(ch), fontWeight: 600 }}>{r.change != null ? (ch > 0 ? "+" : "") + r.change : "—"}</td>}
               {has1m && <td style={{ padding: "7px 12px", color: "#a5b4fc", textAlign: "right", fontFamily: "monospace" }}>{fmtY(r.prior1m)}</td>}
@@ -342,6 +354,13 @@ const SovSection = ({ data, title, accentColor, loading: ld, error, wamData, inf
           })}
         </tbody>
       </table>
+      {curveData.some(r => r.flag) && (
+        <div style={{ fontSize: 11, color: "#64748b", marginTop: 8, lineHeight: 1.6 }}>
+          {Object.entries(TENOR_FLAGS).filter(([k]) => curveData.some(r => r.flag === k)).map(([k, f]) => (
+            <div key={k}><span style={{ color: "#f59e0b" }}>{f.mark}</span> {curveData.filter(r => r.flag === k).map(r => r.tenor).join(", ")}: {f.text}</div>
+          ))}
+        </div>
+      )}
     </div>
   </div>);
 };
@@ -480,6 +499,8 @@ const CDSSection = ({ data, loading: ld, error }) => {
   const fmtBp = v => v != null ? v + "bp" : "—";
   const cdsChgCol = v => v > 0 ? "#f87171" : v < 0 ? "#4ade80" : "#94a3b8";
   const spreadChg = (curr, prior) => curr != null && prior != null ? curr - prior : null;
+  const sovAgeDays = sovereign?.date ? Math.floor((Date.now() - new Date(sovereign.date)) / 864e5) : null;
+  const hasSector = Object.values(sector).some(r => r.spread != null);
 
   const hasCache = (
     Object.values(corporate).some(r => r.source === "cache") ||
@@ -523,6 +544,11 @@ const CDSSection = ({ data, loading: ld, error }) => {
               <div style={{ fontSize: 11, color: "#475569", marginTop: 4 }}>
                 5Y CDS on US Treasuries{sovereign.date ? ` • ${sovereign.date}` : ""}{sovereign.source && sovereign.source !== "cache" ? ` • ${sovereign.source}` : ""}
               </div>
+              {sovereign.source === "cache" && (
+                <div style={{ fontSize: 11, color: "#f59e0b", marginTop: 4 }}>
+                  Cached{sovAgeDays != null ? ` — last live quote ${sovAgeDays} day${sovAgeDays === 1 ? "" : "s"} ago` : ""}
+                </div>
+              )}
             </div>
           </div>
         ) : (
@@ -532,7 +558,7 @@ const CDSSection = ({ data, loading: ld, error }) => {
 
       {/* Panel B: Corporate CDS by Rating */}
       <div style={{ padding: "10px 22px 16px", borderBottom: "1px solid #1e2028", overflowX: "auto" }}>
-        <div style={{ fontSize: 12, color: "#94a3b8", fontWeight: 700, textTransform: "uppercase", letterSpacing: "0.08em", marginBottom: 10 }}>Corporate CDS Equivalent — By Rating</div>
+        <div style={{ fontSize: 12, color: "#94a3b8", fontWeight: 700, textTransform: "uppercase", letterSpacing: "0.08em", marginBottom: 10 }}>Corporate Bond OAS by Rating — CDS Proxy</div>
         <table style={{ width: "100%", borderCollapse: "collapse", fontSize: 13 }}>
           <thead>
             <tr style={{ borderBottom: "2px solid #1e2028" }}>
@@ -572,11 +598,11 @@ const CDSSection = ({ data, loading: ld, error }) => {
             })}
           </tbody>
         </table>
-        <div style={{ fontSize: 11, color: "#475569", marginTop: 8 }}>ICE BofA OAS indices via FRED — used as 5Y CDS spread proxy.</div>
+        <div style={{ fontSize: 11, color: "#475569", marginTop: 8 }}>ICE BofA cash-bond option-adjusted spreads via FRED (same series as Credit Spreads). Not CDS quotes — OAS and CDS differ by the CDS-bond basis.</div>
       </div>
 
-      {/* Panel C: Sector CDS Indices */}
-      <div style={{ padding: "10px 22px 16px", overflowX: "auto" }}>
+      {/* Panel C: Sector indices (hidden when the pipeline has none) */}
+      {hasSector && <div style={{ padding: "10px 22px 16px", overflowX: "auto" }}>
         <div style={{ fontSize: 12, color: "#94a3b8", fontWeight: 700, textTransform: "uppercase", letterSpacing: "0.08em", marginBottom: 10 }}>Sector CDS Indices — Tech &amp; Finance</div>
         <table style={{ width: "100%", borderCollapse: "collapse", fontSize: 13 }}>
           <thead>
@@ -623,7 +649,7 @@ const CDSSection = ({ data, loading: ld, error }) => {
           </tbody>
         </table>
         <div style={{ fontSize: 11, color: "#475569", marginTop: 8 }}>Sector OAS sub-indices from FRED ICE BofA. Series availability varies.</div>
-      </div>
+      </div>}
     </div>
   </div>);
 };
@@ -781,6 +807,7 @@ const BmaRatesSection = ({ data, loading: ld, error }) => {
               const curr = ccyData?.rates?.[i];
               const p1m = ccyData?.prior_1m_rates?.[i];
               const prev = ccyData?.prior_rates?.[i];
+              if (curr == null && p1m == null && prev == null) return null; // tenor not published
               const ch1m = curr != null && p1m != null ? ((curr - p1m) * 100).toFixed(1) : null;
               const chQtr = curr != null && prev != null ? ((curr - prev) * 100).toFixed(1) : null;
               const ch1mNum = parseFloat(ch1m);
@@ -836,6 +863,7 @@ const BmaRatesSection = ({ data, loading: ld, error }) => {
             <tbody>
               {tenors.map(t => {
                 const vals = qCols.map(q => q.map[t]);
+                if (vals.every(v => v == null)) return null; // tenor not published
                 const qoq = vals[0] != null && vals[1] != null ? ((vals[0] - vals[1]) * 100).toFixed(1) : null;
                 const qoqNum = parseFloat(qoq);
                 return (
@@ -873,6 +901,9 @@ const SofrSection = ({ data, loading: ld, error }) => {
 
   const rates = data.rates || {};
   const history = data.history || [];
+  // One tick per month: letting recharts space ticks evenly labelled some
+  // months twice ("Sep '25 | Sep '25 | Oct '25 …").
+  const monthTicks = history.filter((h, i) => i === 0 || (h.date || "").slice(0, 7) !== (history[i - 1].date || "").slice(0, 7)).map(h => h.date);
   const ya = data.year_ago || {};
   const termRates = data.term_rates || {};
   const sofrDaily = rates.SOFR || {};
@@ -973,7 +1004,7 @@ const SofrSection = ({ data, loading: ld, error }) => {
         <LineChart data={history}>
           <CartesianGrid strokeDasharray="3 3" stroke="#1e2028" />
           <XAxis dataKey="date" tick={{ fill: "#94a3b8", fontSize: 10 }} axisLine={{ stroke: "#1e2028" }} tickLine={false}
-            interval="preserveStartEnd"
+            ticks={monthTicks} interval="preserveStartEnd"
             tickFormatter={d => {
               const p = (d || "").split("-");
               if (p.length < 3) return d;
@@ -1031,33 +1062,10 @@ const SofrSection = ({ data, loading: ld, error }) => {
 };
 
 // ═══════════════════════════════════════════
-// NEWS & REGULATORY UPDATES (live via scripts/fetch_news.py → data/*.json,
-// with curated fallbacks below so the UI is never empty before the first run)
+// NEWS & REGULATORY UPDATES (live via scripts/fetch_news.py → data/*.json).
+// No hardcoded fallback items: an empty feed says so instead of showing
+// placeholder headlines attributed to real outlets.
 // ═══════════════════════════════════════════
-const NEWS = [
-  { id: 1, title: "UK gilt 10Y hits 5% for first time since 2008", source: "CNBC", date: "2026-03-20T09:30:00Z", topic: "Rates & Macro", summary: "Energy surge + hawkish BOE." },
-  { id: 2, title: "BOJ holds; Takata dissents, calls for 25bp hike", source: "Reuters", date: "2026-03-19T08:00:00Z", topic: "Rates & Macro", summary: "Ueda signals possible rate hike." },
-  { id: 3, title: "Apollo raises $8.2B for insurance private credit", source: "Reuters", date: "2026-03-20T14:30:00Z", topic: "Private Credit", summary: "IG private placements for insurance." },
-  { id: 4, title: "BOE holds at 3.75%; inflation warning from conflict", source: "FT", date: "2026-03-20T10:00:00Z", topic: "Rates & Macro", summary: "Markets price in rate hikes." },
-  { id: 5, title: "Global reinsurer completes $1.5B structured credit deal", source: "Ins. Insider", date: "2026-03-19T16:45:00Z", topic: "Structured Credit", summary: "CLO/ABS to Class E insurer." },
-  { id: 6, title: "NAIC proposes enhanced private credit reporting", source: "AM Best", date: "2026-03-19T14:20:00Z", topic: "Insurance AM", summary: "More transparency on illiquid assets." },
-];
-// Per-regulator curated fallbacks (mirror scripts/fetch_news.py SEED_REG).
-const REG_FALLBACK = {
-  naic: [
-    { id: "naic1", title: "NAIC adopts enhanced reporting for insurer private credit", date: "2026-03-19", cat: "Reporting", summary: "Expanded Schedule disclosures for illiquid and affiliated investments.", link: "https://content.naic.org/", isNew: true },
-    { id: "naic2", title: "NAIC Macroprudential Working Group exposure on asset risk", date: "2026-02-12", cat: "Investment", summary: "Exposure draft on concentration and structured-asset risk for life insurers.", link: "https://content.naic.org/", isNew: false },
-  ],
-  bma: [
-    { id: "bma1", title: "Notice – Pre-Approval for New Insurance Registrations", date: "2026-03-19", cat: "Licensing", summary: "Updated Class D/E requirements.", link: "https://www.bma.bm/", isNew: true },
-    { id: "bma2", title: "Notice – 2025 Year-End BSCR Model Republication", date: "2026-02-18", cat: "Capital/Solvency", summary: "Republished BSCR with validation.", link: "https://www.bma.bm/", isNew: true },
-    { id: "bma3", title: "DP – AI Governance Framework", date: "2026-02-09", cat: "Governance", summary: "Final proposal Q3 2026.", link: "https://www.bma.bm/", isNew: true },
-  ],
-  cayman: [
-    { id: "cay1", title: "CIMA – Updated Rule on Reinsurance Arrangements", date: "2026-02-25", cat: "Capital/Solvency", summary: "Revised expectations for collateral and risk transfer in reinsurance.", link: "https://www.cima.ky/", isNew: true },
-    { id: "cay2", title: "CIMA – Statement of Guidance on Investment Activities", date: "2026-01-20", cat: "Investment", summary: "Guidance on prudent investment management for licensed insurers.", link: "https://www.cima.ky/", isNew: false },
-  ],
-};
 const REG_TABS = [
   { key: "naic", label: "NAIC", color: "#60a5fa" },
   { key: "bma", label: "BMA", color: "#4ade80" },
@@ -1066,9 +1074,11 @@ const REG_TABS = [
 const TC = { "Private Credit": "#8b5cf6", "Rates & Macro": "#4ade80", "Structured Credit": "#fbbf24", "Insurance AM": "#f472b6" };
 const CC = { "Capital/Solvency": "#f87171", Investment: "#fbbf24", Governance: "#a78bfa", Licensing: "#4ade80", Reporting: "#38bdf8", General: "#94a3b8" };
 
-// Live news items if loaded, else curated fallback.
-const newsItems = data => (data?.items?.length ? data.items : NEWS);
-const regItems = (data, key) => (data?.[key]?.length ? data[key] : (REG_FALLBACK[key] || []));
+// Live items only; an empty feed renders an empty state.
+const newsItems = data => data?.items || [];
+const regItems = (data, key) => data?.[key] || [];
+const REINSURER_NEWS_URL = import.meta.env.BASE_URL + "reinsurer-news.html";
+const FeedEmpty = () => <div style={{ padding: "18px 22px", fontSize: 13, color: "#64748b" }}>Nothing to show — the feed returned no items at the last pipeline run.</div>;
 
 // Title that links to the publication/presentation when a URL is present.
 // Pass paywall={true} for news articles to route via archive.ph. The pipeline
@@ -1092,12 +1102,16 @@ const NewsSection = ({ data, loading, error }) => {
   const live = !!data?.items?.length;
   return (<div style={{ background: "#0d0f14", border: "1px solid #1e2028", borderRadius: 10, overflow: "hidden" }}>
     <div style={{ padding: "16px 22px", borderBottom: "1px solid #1e2028" }}>
-      <h3 style={{ margin: "0 0 10px", fontSize: 17, fontWeight: 700, color: "#f1f5f9" }}><Newspaper size={18} style={{ verticalAlign: "middle", marginRight: 8 }} /> News</h3>
-      <div style={{ fontSize: 12, color: live ? "#4ade80" : "#fbbf24", marginBottom: 10 }}>{loading ? <><Loader size={13} style={{ verticalAlign: "middle", marginRight: 4, animation: "spin 1s linear infinite" }} />Refreshing…</> : live ? <>Live feed{data?.updated ? ` — updated ${timeAgo(data.updated)}` : ""}. Refresh to update.</> : <><AlertTriangle size={13} style={{ verticalAlign: "middle", marginRight: 4 }} />Showing curated fallback — run the data pipeline for live items.</>}</div>
+      <div style={{ display: "flex", alignItems: "baseline", justifyContent: "space-between", gap: 12, flexWrap: "wrap" }}>
+        <h3 style={{ margin: "0 0 10px", fontSize: 17, fontWeight: 700, color: "#f1f5f9" }}><Newspaper size={18} style={{ verticalAlign: "middle", marginRight: 8 }} /> News</h3>
+        <a href={REINSURER_NEWS_URL} target="_blank" rel="noopener noreferrer" style={{ fontSize: 12, color: "#60a5fa", textDecoration: "none" }}>Bermuda reinsurer news monitor <ExternalLink size={11} style={{ verticalAlign: "middle" }} /></a>
+      </div>
+      <div style={{ fontSize: 12, color: live ? "#4ade80" : "#fbbf24", marginBottom: 10 }}>{loading ? <><Loader size={13} style={{ verticalAlign: "middle", marginRight: 4, animation: "spin 1s linear infinite" }} />Refreshing…</> : live ? <>Live feed{data?.updated ? ` — updated ${timeAgo(data.updated)}` : ""}. Refresh to update.</> : <><AlertTriangle size={13} style={{ verticalAlign: "middle", marginRight: 4 }} />Feed unavailable — no items from the last pipeline run.</>}</div>
       <div style={{ display: "flex", gap: 6, flexWrap: "wrap" }}>{["All", ...topics].map(t => <button key={t} onClick={() => setSel(t)} style={{ background: sel === t ? (TC[t] || "#3b82f6") : "transparent", border: `1px solid ${sel === t ? (TC[t] || "#3b82f6") : "#334155"}`, borderRadius: 20, padding: "5px 16px", fontSize: 12, color: sel === t ? "#fff" : "#94a3b8", cursor: "pointer", fontWeight: 600 }}>{t}</button>)}</div>
     </div>
     <div style={{ maxHeight: 560, overflowY: "auto" }}>
       {error && !live && <div style={{ padding: "10px 22px", fontSize: 12, color: "#f87171" }}><AlertTriangle size={13} style={{ verticalAlign: "middle", marginRight: 4 }} />{error}</div>}
+      {!loading && filtered.length === 0 && <FeedEmpty />}
       {filtered.map(item => (<div key={item.id} style={{ padding: "14px 22px", borderBottom: "1px solid #151820" }} onMouseEnter={e => e.currentTarget.style.background = "#12141a"} onMouseLeave={e => e.currentTarget.style.background = "transparent"}>
         <div style={{ display: "flex", gap: 8, alignItems: "center", marginBottom: 5 }}><Badge color={TC[item.topic] || "#60a5fa"}>{item.topic}</Badge><span style={{ fontSize: 12, color: "#64748b" }}>{[item.source, item.date ? timeAgo(item.date) : null].filter(Boolean).join(" • ")}</span></div>
         <h4 style={{ margin: "0 0 4px", fontSize: 14, fontWeight: 600, lineHeight: 1.4 }}><ItemTitle title={item.title} link={item.link} paywall /></h4>
@@ -1120,12 +1134,13 @@ const RegulatorySection = ({ data, loading, error }) => {
       <h3 style={{ margin: "0 0 12px", fontSize: 17, fontWeight: 700, color: "#f1f5f9" }}><Shield size={18} style={{ verticalAlign: "middle", marginRight: 8 }} /> Regulatory Updates</h3>
       {/* Regulator tabs: NAIC / BMA / Cayman */}
       <div style={{ display: "flex", gap: 8, marginBottom: 12 }}>{REG_TABS.map(t => <button key={t.key} onClick={() => setTabReset(t.key)} style={{ padding: "7px 20px", borderRadius: 8, border: `1px solid ${tab === t.key ? t.color : "#334155"}`, background: tab === t.key ? t.color + "22" : "transparent", color: tab === t.key ? t.color : "#94a3b8", fontWeight: tab === t.key ? 700 : 500, fontSize: 13, cursor: "pointer" }}>{t.label}</button>)}</div>
-      <div style={{ fontSize: 12, color: live ? "#4ade80" : "#fbbf24", marginBottom: 10 }}>{loading ? <><Loader size={13} style={{ verticalAlign: "middle", marginRight: 4, animation: "spin 1s linear infinite" }} />Refreshing…</> : live ? <>Live feed{data?.updated ? ` — updated ${timeAgo(data.updated)}` : ""}.</> : <><AlertTriangle size={13} style={{ verticalAlign: "middle", marginRight: 4 }} />Showing curated fallback — run the data pipeline for live items.</>}</div>
+      <div style={{ fontSize: 12, color: live ? "#4ade80" : "#fbbf24", marginBottom: 10 }}>{loading ? <><Loader size={13} style={{ verticalAlign: "middle", marginRight: 4, animation: "spin 1s linear infinite" }} />Refreshing…</> : live ? <>Live feed{data?.updated ? ` — updated ${timeAgo(data.updated)}` : ""}.</> : <><AlertTriangle size={13} style={{ verticalAlign: "middle", marginRight: 4 }} />Feed unavailable — no items from the last pipeline run.</>}</div>
       <div style={{ display: "flex", gap: 6, flexWrap: "wrap" }}>{["All", ...cats].map(c => <button key={c} onClick={() => setCf(c)} style={{ background: cf === c ? (CC[c] || "#3b82f6") : "transparent", border: `1px solid ${cf === c ? (CC[c] || "#3b82f6") : "#334155"}`, borderRadius: 20, padding: "5px 16px", fontSize: 12, color: cf === c ? "#fff" : "#94a3b8", cursor: "pointer", fontWeight: 500 }}>{c}</button>)}</div>
     </div>
     <div style={{ maxHeight: 560, overflowY: "auto" }}>
       {error && !live && <div style={{ padding: "10px 22px", fontSize: 12, color: "#f87171" }}><AlertTriangle size={13} style={{ verticalAlign: "middle", marginRight: 4 }} />{error}</div>}
       {filtered.length === 0 && <div style={{ padding: "20px 22px", fontSize: 13, color: "#64748b" }}>No items.</div>}
+      {!loading && filtered.length === 0 && <FeedEmpty />}
       {filtered.map(item => (<div key={item.id} style={{ padding: "14px 22px", borderBottom: "1px solid #151820" }} onMouseEnter={e => e.currentTarget.style.background = "#12141a"} onMouseLeave={e => e.currentTarget.style.background = "transparent"}>
         <div style={{ display: "flex", gap: 8, alignItems: "center", marginBottom: 5 }}><Badge color={CC[item.cat] || "#60a5fa"}>{item.cat}</Badge>{item.isNew && <Badge color="#4ade80">NEW</Badge>}<span style={{ fontSize: 12, color: "#64748b" }}>{[item.source, item.date].filter(Boolean).join(" • ")}</span></div>
         <h4 style={{ margin: "0 0 4px", fontSize: 14, fontWeight: 600, lineHeight: 1.4 }}><ItemTitle title={item.title} link={item.link} /></h4>
@@ -1159,9 +1174,10 @@ const COMMODITY_CONFIGS = {
   usdinr: { label: "USD/INR",    color: "#a78bfa", unit: "INR per USD", symbol: "₹",  isFX: true },
 };
 
-const fmtUSD = (v, decimals = 2) => v != null ? `$${v.toLocaleString("en-US", { minimumFractionDigits: decimals, maximumFractionDigits: decimals })}` : "—";
+const fmtUSD = (v, decimals = 2) => v != null ? `${v < 0 ? "-" : ""}$${Math.abs(v).toLocaleString("en-US", { minimumFractionDigits: decimals, maximumFractionDigits: decimals })}` : "—";
 const fmtPct = v => v != null ? (v >= 0 ? "+" : "") + v.toFixed(2) + "%" : "—";
 const chgUSD = (cur, prior) => cur != null && prior != null ? round2(cur - prior) : null;
+const chgFx = (cur, prior) => cur != null && prior != null ? Math.round((cur - prior) * 1e4) / 1e4 : null;
 const chgPctComm = (cur, prior) => cur != null && prior != null ? round2(((cur - prior) / prior) * 100) : null;
 const round2 = v => Math.round(v * 100) / 100;
 const commChgCol = v => v == null ? "#64748b" : v > 0 ? "#f87171" : v < 0 ? "#4ade80" : "#64748b";
@@ -1489,6 +1505,7 @@ export default function App() {
   const jgb10y = gv("jgb", "10Y"), jgb10yP = gp("jgb", "10Y"), gilt10y = gv("gilt", "10Y"), gilt10yP = gp("gilt", "10Y");
   const india10y = gv("india", "10Y"), india10yP = gp("india", "10Y");
   const igS = data.credit?.spreads?.ig?.spread, igP = data.credit?.spreads?.ig?.prior;
+  const comm = data.commodities;
   const hyS = data.credit?.spreads?.hy?.spread, hyP = data.credit?.spreads?.hy?.prior;
   const sofrRate = data.sofr?.rates?.SOFR?.rate, sofrPrior = data.sofr?.rates?.SOFR?.prior;
 
@@ -1501,7 +1518,7 @@ export default function App() {
     switch (page) {
       case "ust": return <SovSection data={data.ust} title="US Treasury Par Yield Curve" accentColor="#3b82f6" loading={ls.ust} error={errs.ust} wamData={data.debt_maturity?.countries?.usa} inflationData={data.inflation?.countries?.us} />;
       case "jgb": return <SovSection data={data.jgb} title="Japan Government Bond Yields" accentColor="#ef4444" loading={ls.jgb} error={errs.jgb} wamData={data.debt_maturity?.countries?.japan} inflationData={data.inflation?.countries?.jp} />;
-      case "gilt": return <SovSection data={data.gilt} title="UK Gilt Nominal Par Yields" accentColor="#22c55e" loading={ls.gilt} error={errs.gilt} wamData={data.debt_maturity?.countries?.uk} inflationData={data.inflation?.countries?.uk} />;
+      case "gilt": return <SovSection data={data.gilt} title="UK Gilt Yields" accentColor="#22c55e" loading={ls.gilt} error={errs.gilt} wamData={data.debt_maturity?.countries?.uk} inflationData={data.inflation?.countries?.uk} />;
       case "eiopa": return <SovSection data={data.eiopa} title="EUR Govt Yield Curve (EIOPA proxy)" accentColor="#f59e0b" loading={ls.eiopa} error={errs.eiopa} wamData={data.debt_maturity?.countries?.eur} inflationData={data.inflation?.countries?.eur} />;
       case "india": return <SovSection data={data.india} title="India Government Bond Yields" accentColor="#ec4899" loading={ls.india} error={errs.india} wamData={data.debt_maturity?.countries?.india} inflationData={data.inflation?.countries?.in} />;
       case "bma_rates": return <BmaRatesSection data={data.bma_rates} loading={ls.bma_rates} error={errs.bma_rates} />;
@@ -1516,7 +1533,7 @@ export default function App() {
       default: return (<div style={{ display: "flex", flexDirection: "column", gap: 20 }}>
         {noData && <div style={{ background: "#1a1206", border: "1px solid #854d0e", borderRadius: 10, padding: "18px 22px" }}>
           <div style={{ color: "#fbbf24", fontWeight: 700, fontSize: 15, marginBottom: 6 }}>No data files found</div>
-          <div style={{ color: "#cbd5e1", fontSize: 13, lineHeight: 1.6 }}>Run the GitHub Actions workflow: Actions → "Refresh Data and Deploy" → Run workflow.<br />Or locally: <code style={{ color: "#f1f5f9", background: "#1e2028", padding: "2px 6px", borderRadius: 3 }}>python scripts/fetch_all.py</code></div>
+          <div style={{ color: "#cbd5e1", fontSize: 13, lineHeight: 1.6 }}>Run the GitHub Actions workflow: Actions → "Refresh and Deploy" → Run workflow.<br />Or locally: <code style={{ color: "#f1f5f9", background: "#1e2028", padding: "2px 6px", borderRadius: 3 }}>python scripts/fetch_all.py</code></div>
         </div>}
         {Object.keys(errs).length > 0 && !noData && <div style={{ background: "#1a0a0a", border: "1px solid #7f1d1d", borderRadius: 10, padding: "14px 22px" }}>
           <div style={{ color: "#f87171", fontWeight: 700, fontSize: 13, marginBottom: 5 }}><AlertTriangle size={15} style={{ verticalAlign: "middle", marginRight: 5 }} />Errors:</div>
@@ -1534,12 +1551,12 @@ export default function App() {
             <MetricCard label="JGB 10Y" value={fmtY(jgb10y)} change={chgBp(jgb10y, jgb10yP)} loading={ls.jgb} />
             <MetricCard label="UK Gilt 10Y" value={fmtY(gilt10y)} change={chgBp(gilt10y, gilt10yP)} loading={ls.gilt} />
             <MetricCard label="India 10Y" value={fmtY(india10y)} change={chgBp(india10y, india10yP)} loading={ls.india} />
-            <MetricCard label="US IG OAS" value={igS != null ? igS + "bp" : "—"} change={igP != null ? (igS - igP).toFixed(0) : null} loading={ls.credit} />
-            <MetricCard label="US HY OAS" value={hyS != null ? hyS + "bp" : "—"} change={hyP != null ? (hyS - hyP).toFixed(0) : null} loading={ls.credit} />
+            <MetricCard label="US IG OAS" value={igS != null ? igS + "bp" : "—"} change={igP != null ? igS - igP : null} loading={ls.credit} />
+            <MetricCard label="US HY OAS" value={hyS != null ? hyS + "bp" : "—"} change={hyP != null ? hyS - hyP : null} loading={ls.credit} />
             <MetricCard label="SOFR" value={sofrRate != null ? sofrRate.toFixed(2) + "%" : "—"} change={chgBp(sofrRate, sofrPrior)} loading={ls.sofr} />
-            <MetricCard label="Gold (spot)" value={data.commodities?.gold?.spot != null ? fmtUSD(data.commodities.gold.spot) : "—"} change={data.commodities?.gold?.spot != null && data.commodities?.gold?.prior_1m != null ? (chgUSD(data.commodities.gold.spot, data.commodities.gold.prior_1m) >= 0 ? "+" : "") + fmtUSD(chgUSD(data.commodities.gold.spot, data.commodities.gold.prior_1m)) + " 1M" : null} loading={ls.commodities} />
-            <MetricCard label="WTI (spot)" value={data.commodities?.wti?.spot != null ? fmtUSD(data.commodities.wti.spot) : "—"} change={data.commodities?.wti?.spot != null && data.commodities?.wti?.prior_1m != null ? (chgUSD(data.commodities.wti.spot, data.commodities.wti.prior_1m) >= 0 ? "+" : "") + fmtUSD(chgUSD(data.commodities.wti.spot, data.commodities.wti.prior_1m)) + " 1M" : null} loading={ls.commodities} />
-            <MetricCard label="USD/INR (spot)" value={data.commodities?.usdinr?.spot != null ? data.commodities.usdinr.spot.toFixed(4) : "—"} change={data.commodities?.usdinr?.spot != null && data.commodities?.usdinr?.prior_1m != null ? (chgUSD(data.commodities.usdinr.spot, data.commodities.usdinr.prior_1m) >= 0 ? "+" : "") + chgUSD(data.commodities.usdinr.spot, data.commodities.usdinr.prior_1m).toFixed(4) + " 1M" : null} loading={ls.commodities} />
+            <MetricCard label="Gold (spot)" value={fmtUSD(comm?.gold?.spot)} change={chgUSD(comm?.gold?.spot, comm?.gold?.prior_1d)} fmtChange={v => fmtUSD(Math.abs(v))} period="1D" loading={ls.commodities} />
+            <MetricCard label="WTI (spot)" value={fmtUSD(comm?.wti?.spot)} change={chgUSD(comm?.wti?.spot, comm?.wti?.prior_1d)} fmtChange={v => fmtUSD(Math.abs(v))} period="1D" loading={ls.commodities} />
+            <MetricCard label="USD/INR (spot)" value={comm?.usdinr?.spot != null ? comm.usdinr.spot.toFixed(4) : "—"} change={chgFx(comm?.usdinr?.spot, comm?.usdinr?.prior_1d)} fmtChange={v => `₹${Math.abs(v).toFixed(2)}`} period="1D" loading={ls.commodities} />
           </div>
         </div>
 
@@ -1616,7 +1633,7 @@ export default function App() {
       </div>
       <div style={{ flex: 1, overflow: "auto", padding: 20 }}>{renderPage()}</div>
       <div style={{ height: 28, padding: "0 22px", borderTop: "1px solid #1a1d23", background: "#0a0c12", display: "flex", alignItems: "center", justifyContent: "space-between", fontSize: 11, color: "#475569", flexShrink: 0 }}>
-        <div style={{ display: "flex", gap: 16 }}>{ust10y != null && <span>UST 10Y: {fmtY(ust10y)}</span>}{jgb10y != null && <span>JGB 10Y: {fmtY(jgb10y)}</span>}{gilt10y != null && <span>Gilt 10Y: {fmtY(gilt10y)}</span>}{india10y != null && <span>India 10Y: {fmtY(india10y)}</span>}{sofrRate != null && <span>SOFR: {sofrRate.toFixed(2)}%</span>}{igS != null && <span>IG: {igS}bp</span>}{hyS != null && <span>HY: {hyS}bp</span>}{data.cds?.sovereign?.us_5y?.spread != null && <span>US CDS: {data.cds.sovereign.us_5y.spread}bp</span>}{data.commodities?.usdinr?.spot != null && <span>USD/INR: {data.commodities.usdinr.spot.toFixed(4)}</span>}</div>
+        <div style={{ display: "flex", gap: 16 }}>{ust10y != null && <span>UST 10Y: {fmtY(ust10y)}</span>}{jgb10y != null && <span>JGB 10Y: {fmtY(jgb10y)}</span>}{gilt10y != null && <span>Gilt 10Y: {fmtY(gilt10y)}</span>}{india10y != null && <span>India 10Y: {fmtY(india10y)}</span>}{sofrRate != null && <span>SOFR: {sofrRate.toFixed(2)}%</span>}{igS != null && <span>IG: {igS}bp</span>}{hyS != null && <span>HY: {hyS}bp</span>}{data.cds?.sovereign?.us_5y?.spread != null && <span>US CDS: {data.cds.sovereign.us_5y.spread}bp{data.cds.sovereign.us_5y.source === "cache" ? " (cached)" : ""}</span>}{data.commodities?.usdinr?.spot != null && <span>USD/INR: {data.commodities.usdinr.spot.toFixed(4)}</span>}</div>
         <span>{PLATFORM_NAME} • {TOOL_NAME} • v13</span>
       </div>
     </div>
