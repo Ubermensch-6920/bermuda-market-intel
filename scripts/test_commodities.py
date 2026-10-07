@@ -215,6 +215,55 @@ class HistoryTests(Base):
         self.assertEqual(row["gold"]["futures"]["3M"]["price"], 4321.1)
 
 
+class RollAndDatingTests(Base):
+    def test_front_month_1d_uses_the_contract_spot_is_tracking(self):
+        # BZ=F's live bar has rolled to the next contract (98) but its history
+        # still holds the expiring one (104): the naive 1D would read -5.8%.
+        y = base_yahoo()
+        days = [d for d, _ in series(0, n=30)]
+        y["BZ=F"] = [(d, 104.0 + i * 0.01) for i, d in enumerate(days[:-1])] + [(days[-1], 98.0)]
+        nxt = fa._brent_symbol(1)[0]
+        y[nxt] = [(d, 97.0 + i * 0.01) for i, d in enumerate(days[:-1])] + [(days[-1], 98.0)]
+        self.web(FakeWeb(y))
+        out = fa.commodity_spot("brent", [], None)
+        self.assertEqual(out["spot"], 98.0)
+        self.assertEqual(out["prior_1d_date"], days[-2])
+        self.assertEqual(out["prior_1d"], round(97.0 + (len(days) - 2) * 0.01, 2))
+
+    def test_front_month_1d_falls_back_when_no_contract_matches(self):
+        y = base_yahoo()
+        self.web(FakeWeb(y))
+        out = fa.commodity_spot("wti", [], None)
+        self.assertEqual(out["prior_1d"], round(y["CL=F"][-2][1], 2))
+
+    def test_weekend_bar_is_dated_monday(self):
+        fri = next(d for d in trading_days(10) if d.weekday() == 4 and d < TODAY - timedelta(days=3))
+        sun, mon = fri + timedelta(days=2), fri + timedelta(days=3)
+        self.web(FakeWeb({"X=F": [(fri.isoformat(), 1.0), (sun.isoformat(), 2.0), (mon.isoformat(), 3.0)]}))
+        self.assertEqual(fa.yahoo_daily_bars("X=F"), [(fri.isoformat(), 1.0), (mon.isoformat(), 3.0)])
+
+    def test_usdinr_1d_from_yahoo_when_spot_is_yahoo(self):
+        y = base_yahoo()
+        y["INR=X"] = series(95, n=5, step=0.1)
+        self.web(FakeWeb(y, pages={"tradingeconomics.com": "Gold rose to 4380 USD"}))
+        stale_fred = [{"date": (TODAY - timedelta(days=6 + i)).isoformat(), "value": 90.0 + i} for i in range(400)]
+        fa.fred_csv.side_effect = lambda sid, **kw: stale_fred if sid == "DEXINUS" else []
+        fa.fetch_commodities()
+        d = json.loads((Path(self.tmp.name) / "commodities.json").read_text())["usdinr"]
+        self.assertEqual(d["spot_source"], "Yahoo INR=X")
+        self.assertEqual((d["spot"], d["spot_date"]), (round(y["INR=X"][-1][1], 4), y["INR=X"][-1][0]))
+        self.assertEqual((d["prior_1d"], d["prior_1d_date"]), (round(y["INR=X"][-2][1], 4), y["INR=X"][-2][0]))
+
+    def test_usdinr_1d_is_previous_fred_print_when_spot_is_fred(self):
+        self.web(FakeWeb(base_yahoo(), pages={"tradingeconomics.com": "Gold rose to 4380 USD"}))
+        fresh = [{"date": (TODAY - timedelta(days=i)).isoformat(), "value": 96.0 - i * 0.1} for i in range(400)]
+        fa.fred_csv.side_effect = lambda sid, **kw: fresh if sid == "DEXINUS" else []
+        fa.fetch_commodities()
+        d = json.loads((Path(self.tmp.name) / "commodities.json").read_text())["usdinr"]
+        self.assertEqual(d["spot_source"], "FRED DEXINUS")
+        self.assertEqual((d["prior_1d"], d["prior_1d_date"]), (95.9, fresh[1]["date"]))
+
+
 class EndToEnd(Base):
     def test_fetch_commodities_writes_payload_and_history(self):
         self.web(FakeWeb(base_yahoo(), pages={"tradingeconomics.com": "Gold rose to 4380 USD"}))

@@ -102,7 +102,8 @@ def _fiscaldata_mspd_wam():
             "sort": "-record_date",
             "page[size]": "5",
         })
-        url = f"https://api.fiscaldata.treasury.gov/services/api/v1/debt/mspd/mspd_table_5?{params}"
+        # Base path is .../services/api/fiscal_service/ — without "fiscal_service" every call 404s.
+        url = f"https://api.fiscaldata.treasury.gov/services/api/fiscal_service/v1/debt/mspd/mspd_table_5?{params}"
         raw = get(url, timeout=15)
         rows = json.loads(raw).get("data", [])
         if rows:

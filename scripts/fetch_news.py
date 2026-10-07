@@ -10,8 +10,8 @@ and does not keep growing. Writes two small JSON files the dashboard reads:
 Sources are public RSS (Google News RSS, which needs no API key and is
 reachable from CI runners) plus best-effort direct regulator pages. Everything
 degrades gracefully: if a feed is unreachable we keep the previously-saved
-items and/or a small curated seed list, so the dashboard always has something
-to show and simply refreshes whenever the feeds are reachable again.
+items and simply refresh whenever the feeds are reachable again. There is no
+curated fallback: an empty feed shows as unavailable, never as made-up items.
 
 Run:  python scripts/fetch_news.py
 """
@@ -44,7 +44,7 @@ REG_FILE = DATA / "regulatory.json"
 # How many items to keep per feed/category, and how recent counts as "new".
 MAX_NEWS = 30
 MAX_REG = 25
-NEW_WITHIN_DAYS = 30
+NEW_WITHIN_DAYS = 7  # feeds look back 60-90 days; "new" should mean this week
 GOOGLE_NEWS = "https://news.google.com/rss/search?q={q}&hl=en-US&gl=US&ceid=US:en"
 
 
@@ -73,9 +73,35 @@ REGULATORS = {
     "cayman": {
         "label": "Cayman",
         "query": ('"Cayman Islands Monetary Authority" OR CIMA (notice OR rule OR '
-                  'statement OR guidance OR consultation OR publication) insurance when:90d'),
+                  'statement OR guidance OR consultation OR publication) insurance '
+                  '-Cameroon -Afrique -Africa -CEMAC when:90d'),
     },
 }
+
+# Google News matches loosely (an article that mentions a regulator anywhere
+# in its body qualifies), so each regulator's items must also clear a
+# relevance check on title + summary, or come from a local outlet.
+REG_RELEVANCE = {
+    "naic": ("naic", "national association of insurance commissioners", "insurance regulator",
+             "insurance commissioner", "insurance watchdog"),
+    "bma": ("bma", "bermuda"),
+    "cayman": ("cayman", "cima"),
+}
+REG_LOCAL_SOURCES = {"naic": (), "bma": ("bernews", "royal gazette", "bermuda"), "cayman": ("cayman",)}
+# "CIMA" is also the Conférence Interafricaine des Marchés d'Assurances, the
+# insurance regulator for 14 African states; its news flooded the Cayman feed.
+AFRICAN_CIMA_MARKERS = ("cameroon", "cameroun", "africa", "afrique", "afrik", "cemac", "interafricaine",
+                        "inter-african", "senegal", "sénégal", "ivoire", "ivorian", "ivory coast", "gabon",
+                        "libreville", "benin", "bénin", "togo", "burkina", "niger", "tchad", "congo",
+                        "cfaf", "capmad")
+
+
+def reg_relevant(key, item):
+    text = f"{item.get('title', '')} {item.get('summary', '')}".lower()
+    src = (item.get("source") or "").lower()
+    if key == "cayman" and "cayman" not in f"{text} {src}" and any(m in f"{text} {src}" for m in AFRICAN_CIMA_MARKERS):
+        return False
+    return any(w in text for w in REG_RELEVANCE.get(key, ())) or any(w in src for w in REG_LOCAL_SOURCES.get(key, ()))
 
 # Keyword -> category for regulatory items (best-effort classification).
 CAT_RULES = [
@@ -85,60 +111,6 @@ CAT_RULES = [
     ("Licensing", ("licens", "registration", "authoris", "authoriz", "approval")),
     ("Reporting", ("reporting", "disclosure", "filing", "return", "form")),
 ]
-
-
-# ── Curated seed items (offline / first-run fallback so the UI is never empty) ──
-SEED_NEWS = [
-    {"title": "UK gilt 10Y hits 5% for first time since 2008", "source": "CNBC",
-     "date": "2026-03-20T09:30:00Z", "topic": "Rates & Macro",
-     "summary": "Energy surge plus hawkish BOE push long-end gilt yields higher.", "link": ""},
-    {"title": "Apollo raises $8.2B for insurance private credit", "source": "Reuters",
-     "date": "2026-03-20T14:30:00Z", "topic": "Private Credit",
-     "summary": "Investment-grade private placements earmarked for insurance balance sheets.", "link": ""},
-    {"title": "Global reinsurer completes $1.5B structured credit deal", "source": "Insurance Insider",
-     "date": "2026-03-19T16:45:00Z", "topic": "Structured Credit",
-     "summary": "CLO and ABS exposure transferred to a Class E insurer.", "link": ""},
-    {"title": "NAIC proposes enhanced private credit reporting", "source": "AM Best",
-     "date": "2026-03-19T14:20:00Z", "topic": "Insurance AM",
-     "summary": "More transparency sought on insurers' illiquid asset holdings.", "link": ""},
-]
-
-SEED_REG = {
-    "naic": [
-        {"title": "NAIC adopts enhanced reporting for insurer private credit",
-         "date": "2026-03-19", "cat": "Reporting",
-         "summary": "Expanded Schedule disclosures for illiquid and affiliated investments.",
-         "link": "https://content.naic.org/"},
-        {"title": "NAIC Macroprudential Working Group exposure on asset risk",
-         "date": "2026-02-12", "cat": "Investment",
-         "summary": "Exposure draft on concentration and structured-asset risk for life insurers.",
-         "link": "https://content.naic.org/"},
-    ],
-    "bma": [
-        {"title": "Notice – Pre-Approval for New Insurance Registrations",
-         "date": "2026-03-19", "cat": "Licensing",
-         "summary": "Updated Class D/E pre-approval requirements for new registrations.",
-         "link": "https://www.bma.bm/"},
-        {"title": "Notice – 2025 Year-End BSCR Model Republication",
-         "date": "2026-02-18", "cat": "Capital/Solvency",
-         "summary": "BSCR model republished with validation updates.",
-         "link": "https://www.bma.bm/"},
-        {"title": "Discussion Paper – AI Governance Framework",
-         "date": "2026-02-09", "cat": "Governance",
-         "summary": "Proposed framework for the governance of AI in regulated entities.",
-         "link": "https://www.bma.bm/"},
-    ],
-    "cayman": [
-        {"title": "CIMA – Updated Rule on Reinsurance Arrangements",
-         "date": "2026-02-25", "cat": "Capital/Solvency",
-         "summary": "Revised expectations for collateral and risk transfer in reinsurance.",
-         "link": "https://www.cima.ky/"},
-        {"title": "CIMA – Statement of Guidance on Investment Activities",
-         "date": "2026-01-20", "cat": "Investment",
-         "summary": "Guidance on prudent investment management for licensed insurers.",
-         "link": "https://www.cima.ky/"},
-    ],
-}
 
 
 def _now():
@@ -234,10 +206,9 @@ def build_news():
         except Exception as e:
             log.warning(f"  {topic}: feed failed ({e})")
 
+    # No curated fallback: an empty feed renders as "unavailable" rather than
+    # as made-up headlines attributed to real outlets.
     existing = _load_existing(NEWS_FILE).get("items", [])
-    if not fetched and not existing:
-        # First run with no network: fall back to curated seed.
-        fetched = [dict(s, id=_item_id(s["title"], s["topic"])) for s in SEED_NEWS]
 
     items = _merge(fetched, existing, "date", MAX_NEWS)
     # Drop dated items older than ~90 days to keep the feed fresh.
@@ -290,9 +261,11 @@ def build_regulatory():
             log.warning(f"  {cfg['label']}: feed failed ({e})")
 
         prev = existing.get(key, [])
-        if not fetched and not prev:
-            fetched = [dict(s, id=_item_id(s["title"], key)) for s in SEED_REG.get(key, [])]
-        merged = _merge(fetched, prev, "date", MAX_REG)
+        # Re-filter what was saved before too, so already-stored junk drops out.
+        fresh = [it for it in fetched if reg_relevant(key, it)]
+        if len(fresh) < len(fetched):
+            log.info(f"  {cfg['label']}: dropped {len(fetched) - len(fresh)} off-topic items")
+        merged = _merge(fresh, [it for it in prev if reg_relevant(key, it)], "date", MAX_REG)
         merged = _mark_new(merged, "date")
         out[key] = merged
         record_source(

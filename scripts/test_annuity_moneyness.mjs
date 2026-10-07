@@ -6,6 +6,7 @@ import {
   analyseMoneyness, dynamicLapse, benchmarkRate, verdictFor,
   parseSchedule, scheduleAt, bonusRecapturedFraction, exitYearAnalysis, surrenderPeriodYears,
   SC_SCHEDULE_PRESETS, DEFAULT_VESTING, observedSpreadBp, observedSampleSize,
+  CALCULATOR_DEFAULTS, analyseContract, analyseDefaultContract,
 } from "../src/annuityMoneyness.js";
 
 let pass = 0, fail = 0;
@@ -314,6 +315,34 @@ console.log("\noptimal exit year");
 
   check("zero remaining term ⇒ null", exitYearAnalysis({ ...base, guaranteedRate: 4, yearsRemaining: 0, schedule: [0] }) === null, "—", null);
   check("missing rate function ⇒ null", exitYearAnalysis({ accountValue: 1, guaranteedRate: 4, yearsRemaining: 5, schedule: [0] }) === null, "—", null);
+}
+
+console.log("\noverview tile reads the calculator's default contract");
+{
+  const D = CALCULATOR_DEFAULTS;
+  const { rate, result: tile } = analyseDefaultContract({ ustTenors: UST_T, ustYields: UST_Y });
+  const sched = parseSchedule(D.schedText);
+  const explicit = analyseMoneyness({
+    accountValue: D.av, basis: D.basis, guaranteedRate: D.g, reinvestRate: rate, yearsRemaining: D.n,
+    surrenderChargePct: 5, freeWithdrawalPct: D.free, mvaEnabled: true, mvaIndexAtIssue: D.mvaIssue,
+    mvaIndexNow: interpolateCurve(UST_T, UST_Y, 4), mvaMarginBp: D.mvaMargin, mgsv: 0.875 * D.basis,
+    taxMode: D.taxMode, taxRate: D.taxRate, currentAge: D.age, mvaYearsOverride: 4,
+  });
+  const noCharge = analyseMoneyness({ accountValue: D.av, basis: D.basis, guaranteedRate: D.g,
+    reinvestRate: rate, yearsRemaining: D.n, surrenderChargePct: 0, freeWithdrawalPct: D.free, mvaEnabled: true,
+    mvaIndexAtIssue: D.mvaIssue, mvaIndexNow: interpolateCurve(UST_T, UST_Y, 4), mvaMarginBp: D.mvaMargin,
+    mgsv: 0.875 * D.basis, taxMode: D.taxMode, taxRate: D.taxRate, currentAge: D.age });
+  check("default schedule charges 5% today", scheduleAt(sched, 0) === 5, scheduleAt(sched, 0), 5);
+  check("tile applies today's surrender charge", near(tile.netAdvantageBp, explicit.netAdvantageBp, 1e-9), tile.netAdvantageBp, explicit.netAdvantageBp);
+  check("tile differs from the charge-free evaluation", !near(tile.netAdvantageBp, noCharge.netAdvantageBp, 1), tile.netAdvantageBp, `≠ ${noCharge.netAdvantageBp}`);
+  check("tile verdict matches calculator verdict", tile.verdict.key === explicit.verdict.key, tile.verdict.key, explicit.verdict.key);
+  const viaCalc = analyseContract({
+    accountValue: D.av, basis: D.basis, guaranteedRate: D.g, yearsRemaining: D.n, reinvestRate: rate,
+    schedule: sched, freeWithdrawalPct: D.free, mvaIndexAtIssue: D.mvaIssue, mvaMarginBp: D.mvaMargin,
+    taxMode: D.taxMode, taxRate: D.taxRate, currentAge: D.age, ustTenors: UST_T, ustYields: UST_Y,
+  });
+  check("calculator path = tile path", near(viaCalc.netAdvantageBp, tile.netAdvantageBp, 1e-9), viaCalc.netAdvantageBp, tile.netAdvantageBp);
+  check("no curve ⇒ no tile result", analyseDefaultContract({}).result === null, "—", null);
 }
 
 console.log(`\n${pass} passed, ${fail} failed\n`);

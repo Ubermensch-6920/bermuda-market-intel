@@ -1,0 +1,50 @@
+name: Tests
+
+on:
+  pull_request:
+  push:
+    branches:
+      - main
+    paths:
+      - 'scripts/**'
+      - 'src/**'
+      - 'index.html'
+      - 'package*.json'
+      - 'requirements.txt'
+      - '.github/workflows/tests.yml'
+
+permissions:
+  contents: read
+
+jobs:
+  test:
+    runs-on: ubuntu-latest
+    timeout-minutes: 10
+    steps:
+      - uses: actions/checkout@v4
+
+      - uses: actions/setup-python@v5
+        with:
+          python-version: '3.11'
+
+      - name: Install Python dependencies
+        run: |
+          python -m pip install --upgrade pip
+          pip install -r requirements.txt
+
+      - name: Pipeline tests (network mocked)
+        run: |
+          python scripts/test_commodities.py
+          python scripts/test_pipeline.py
+
+      - uses: actions/setup-node@v4
+        with:
+          node-version: 20
+
+      - run: npm ci
+
+      - name: Annuity engine tests
+        run: node scripts/test_annuity_moneyness.mjs
+
+      - name: Build
+        run: npm run build

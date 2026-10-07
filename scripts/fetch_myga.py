@@ -345,7 +345,7 @@ def fetch_myga():
                 "status": "unavailable", "note": note,
                 "buckets": {}, "overall": {},
             })
-        return
+        return f"stale: {note}"
 
     buckets, overall = aggregate(all_quotes, tenors, yields)
     write_out({

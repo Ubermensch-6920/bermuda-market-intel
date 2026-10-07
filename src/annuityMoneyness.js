@@ -624,6 +624,62 @@ export function bonusRecapturedFraction(vestingSchedule, year) {
 export const DEFAULT_VESTING = [0, 0, 10, 20, 30, 40, 50, 60, 70, 80, 100];
 
 /**
+ * The contract the calculator opens on. The Overview tile reads the same
+ * object, so the headline and the calculator always describe one contract.
+ * Surrender charges are a SCHEDULE indexed from today: schedule[0] applies to
+ * an exit now, schedule[k] to an exit in k years. Default is a mid-schedule
+ * MYGA with four years left to run.
+ */
+export const CALCULATOR_DEFAULTS = {
+  av: 100000, basis: 80000, g: 3.25, n: 4, free: 10,
+  schedText: "5,4,3,2,0",
+  bonusPct: 0, vestText: DEFAULT_VESTING.join(","),
+  mvaIssue: 2.5, mvaMargin: 10, taxMode: "nq_1035", taxRate: 24, age: 65,
+  bench: "myga_arated",
+};
+
+/**
+ * One place that turns calculator inputs into an analyseMoneyness() call.
+ * The charge that applies today is schedule[0]; the MVA runs over the
+ * surrender period, referenced to the matched-maturity Treasury (NOT the
+ * reinvestment rate — both legs of the MVA ratio sit on a Treasury basis).
+ * The nonforfeiture floor is 87.5% of premium, approximated by cost basis.
+ */
+export function analyseContract({
+  accountValue, basis, guaranteedRate, yearsRemaining, reinvestRate, schedule,
+  freeWithdrawalPct, freeAppliesOnFullSurrender = true, mvaEnabled = true,
+  mvaIndexAtIssue, mvaMarginBp, mgsvEnabled = true, taxMode, taxRate, currentAge,
+  ustTenors, ustYields,
+}) {
+  const n = yearsRemaining;
+  const scPeriod = surrenderPeriodYears(schedule);
+  const mvaIndexNow = interpolateCurve(ustTenors, ustYields, Math.max(0.25, Math.min(scPeriod || n || 1, n || 1)));
+  return analyseMoneyness({
+    accountValue, basis, freeWithdrawalPct, freeAppliesOnFullSurrender,
+    mvaEnabled, mvaIndexAtIssue, mvaMarginBp,
+    mgsv: mgsvEnabled && basis != null ? 0.875 * basis : null,
+    taxMode, taxRate, currentAge,
+    guaranteedRate, reinvestRate, yearsRemaining: n,
+    surrenderChargePct: scheduleAt(schedule, 0),
+    mvaIndexNow, mvaYearsOverride: scPeriod,
+  });
+}
+
+/** The default contract against today's curve — what the Overview tile shows. */
+export function analyseDefaultContract({ ustTenors, ustYields, igOasBp }) {
+  const D = CALCULATOR_DEFAULTS;
+  const { rate } = benchmarkRate(D.bench, D.n, { ustTenors, ustYields, igOasBp });
+  if (rate == null) return { rate: null, result: null };
+  const result = analyseContract({
+    accountValue: D.av, basis: D.basis, guaranteedRate: D.g, yearsRemaining: D.n,
+    reinvestRate: rate, schedule: parseSchedule(D.schedText), freeWithdrawalPct: D.free,
+    mvaIndexAtIssue: D.mvaIssue, mvaMarginBp: D.mvaMargin,
+    taxMode: D.taxMode, taxRate: D.taxRate, currentAge: D.age, ustTenors, ustYields,
+  });
+  return { rate, result };
+}
+
+/**
  * After-tax terminal wealth at the guarantee date, for an exit taken at each
  * whole year from today through the guarantee date.
  *

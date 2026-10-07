@@ -61,6 +61,35 @@ jobs:
         run: python scripts/news_monitor.py
         continue-on-error: true
 
+      # Fetch steps use continue-on-error so one dead source can't block the
+      # refresh; this step makes what failed visible on the run instead.
+      - name: Summarize pipeline status
+        if: always()
+        run: |
+          python - <<'PY'
+          import json, os
+          from pathlib import Path
+          lines = ["## Pipeline status", "", "| Feed | Result |", "|---|---|"]
+          try:
+              results = json.loads(Path("data/manifest.json").read_text()).get("results", {})
+          except Exception as e:
+              results = {"manifest": f"error: unreadable ({e})"}
+          for name, res in results.items():
+              lines.append(f"| {name} | {res} |")
+              if res != "ok":
+                  print(f"::warning title={name}::{res}")
+          try:
+              health = json.loads(Path("data/source_health.json").read_text())
+              stagnant = [s["source"] for s in health.get("sources", []) if s.get("status") == "stagnant"]
+              lines += ["", f"Source health: {health.get('summary')}"]
+              if stagnant:
+                  lines.append("Stagnant: " + ", ".join(stagnant))
+          except Exception:
+              pass
+          with open(os.environ["GITHUB_STEP_SUMMARY"], "a") as f:
+              f.write("\n".join(lines) + "\n")
+          PY
+
       - name: Commit data if changed
         run: |
           git config user.name "github-actions[bot]"
