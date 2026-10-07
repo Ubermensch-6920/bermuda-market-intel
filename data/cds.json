@@ -69,39 +69,6 @@
       "source": "credit.json"
     }
   },
-  "sector": {
-    "financial_ig": {
-      "name": "Financials IG",
-      "spread": null,
-      "prior": null,
-      "series_id": "BAMLC0A0CMFIN",
-      "date": "",
-      "source": "cache"
-    },
-    "financial_hy": {
-      "name": "Financials HY",
-      "spread": null,
-      "prior": null,
-      "series_id": "BAMLH0A0HYM2FIN",
-      "date": "",
-      "source": "cache"
-    },
-    "tech_ig": {
-      "name": "Technology IG",
-      "spread": null,
-      "prior": null,
-      "series_id": "BAMLC8A0C7T10YEY",
-      "date": "",
-      "source": "cache"
-    },
-    "tech_hy": {
-      "name": "Technology HY",
-      "spread": null,
-      "prior": null,
-      "series_id": "BAMLH0A0HYM2TMK",
-      "date": "",
-      "source": "cache"
-    }
-  },
-  "_fetched": "2026-10-06T22:40:59.131455Z"
+  "sector": {},
+  "_fetched": "2026-10-07T02:05:31.358003Z"
 }

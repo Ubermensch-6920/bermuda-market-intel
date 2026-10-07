@@ -1,17 +1,17 @@
 {
-  "updated": "2026-10-06T22:41:51.998631Z",
+  "updated": "2026-10-07T02:06:32.513598Z",
   "countries": {
     "us": {
       "series": "CPIAUCSL",
       "label": "US CPI-U (SA, BLS)",
       "yoy": 3.71,
-      "mom": 1.318,
+      "mom": 0.396,
       "trend": "up",
       "date": "2026-08-01"
     },
     "jp": {
       "series": "JPNCPIALLMINMEI",
-      "label": "Japan CPI all items (OECD/FRED)",
+      "label": "Japan CPI all items (OECD)",
       "yoy": null,
       "mom": null,
       "trend": null,
@@ -19,28 +19,30 @@
     },
     "uk": {
       "series": "GBRCPIALLMINMEI",
-      "label": "UK CPI all items (OECD/FRED)",
-      "yoy": null,
+      "label": "UK CPI all items (OECD)",
+      "yoy": 3.3,
       "mom": null,
       "trend": null,
-      "date": null
+      "date": "2026-08-01",
+      "source": "OECD SDMX (FRED series discontinued)"
     },
     "eur": {
       "series": "CP0000EZ19M086NEST",
       "label": "Euro area HICP all items (ECB/FRED)",
       "yoy": 3.23,
-      "mom": 0.44,
+      "mom": 0.426,
       "trend": "up",
       "date": "2026-08-01"
     },
     "in": {
       "series": "INDCPIALLMINMEI",
-      "label": "India CPI all items (OECD/FRED)",
-      "yoy": null,
+      "label": "India CPI all items (OECD)",
+      "yoy": 4.96,
       "mom": null,
       "trend": null,
-      "date": null
+      "date": "2026-08-01",
+      "source": "OECD SDMX (FRED series discontinued)"
     }
   },
-  "_fetched": "2026-10-06T22:41:51.998634Z"
+  "_fetched": "2026-10-07T02:06:32.513605Z"
 }

@@ -1,5 +1,5 @@
 {
-  "updated": "2026-10-06T22:42:42Z",
+  "updated": "2026-10-07T02:07:20Z",
   "lookback_days": 14,
   "feeds": [
     {
@@ -29,7 +29,7 @@
     {
       "name": "Google News: Fortitude Re",
       "ok": true,
-      "count": 7,
+      "count": 8,
       "error": null
     },
     {
@@ -65,7 +65,7 @@
     {
       "name": "Google News: RGA",
       "ok": true,
-      "count": 20,
+      "count": 21,
       "error": null
     },
     {
@@ -95,7 +95,7 @@
     {
       "name": "Google News: Venerable",
       "ok": true,
-      "count": 5,
+      "count": 7,
       "error": null
     },
     {
@@ -118,7 +118,7 @@
       "link": "https://news.google.com/rss/articles/CBMijwFBVV95cUxPT09Nem9QcGxaQ1o1Y19WMkpNaFVxWGhhZXFiMmJRVUo3YmJZM09XNEZ0SEtTWUstdWUwWXBCWTYzYVZUWWNHdUhiMmJPMnNPNXkwNFpoUXY1YmtiNTAwZXQtTzVYaVVDbWdiVDcyeHVPRV9pS2NwaFFUa0JSd1lCVm5YRTV2YU5XTHA2TXJ5cw?oc=5",
       "source": "Beinsure",
       "feed": "Google News: Venerable",
-      "date": "2026-10-06T19:43:55Z",
+      "date": "2026-10-06T19:46:12Z",
       "summary": "",
       "companies": [
         "Venerable"
@@ -149,6 +149,18 @@
       ]
     },
     {
+      "id": "64bdca379950",
+      "title": "Reinsurance Group of America, Incorporated (RGA) latest stock news and headlines",
+      "link": "https://news.google.com/rss/articles/CBMiV0FVX3lxTE5CdHFXVjBaOUtpRG1uM296dngxVElqR0x6cFZ2NjVySDAyaUZSQkpGdmRxWkk2U3VNR3lFQUxxeTdvbmxWQ3lybXM4cmVvN3VIcGJHS3pWNA?oc=5",
+      "source": "Yahoo Finance Australia",
+      "feed": "Google News: RGA",
+      "date": "2026-10-06T00:47:11Z",
+      "summary": "",
+      "companies": [
+        "RGA"
+      ]
+    },
+    {
       "id": "294d3e80954e",
       "title": "Global Atlantic names Dan Farrelly head of IMO and IBD channels",
       "link": "https://news.google.com/rss/articles/CBMipgFBVV95cUxQQ2NvYjZTbEo5NURrVDVBQlJuY0RpeEtWUU9sWDNBZndGemFra2MtaTB0bURPZWF5VUpVcUVEYy02R1REVUZtRGRpbWJhQnFwNFMwNWhoQURFNzgwb3E2anduVFJkVTBEWTZwT2NwTG5pc0NIZGFsaFVYenhlek1jWERkLW5wQTFCSmMtRVdzcGdkZlc2Vm9qbFlwSFBoeUhHV2dvZ25R?oc=5",
@@ -158,18 +170,6 @@
       "summary": "",
       "companies": [
         "Global Atlantic"
-      ]
-    },
-    {
-      "id": "64bdca379950",
-      "title": "Reinsurance Group of America, Incorporated (RGA) latest stock news and headlines",
-      "link": "https://news.google.com/rss/articles/CBMiV0FVX3lxTE5CdHFXVjBaOUtpRG1uM296dngxVElqR0x6cFZ2NjVySDAyaUZSQkpGdmRxWkk2U3VNR3lFQUxxeTdvbmxWQ3lybXM4cmVvN3VIcGJHS3pWNA?oc=5",
-      "source": "Yahoo Finance Australia",
-      "feed": "Google News: RGA",
-      "date": "2026-10-05T22:34:26Z",
-      "summary": "",
-      "companies": [
-        "RGA"
       ]
     },
     {
