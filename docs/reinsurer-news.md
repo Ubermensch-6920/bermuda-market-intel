@@ -1,12 +1,12 @@
 # Reinsurer News Monitor
 
 Bermuda life & annuity watchlist — last 14 days — 37 items
-Generated Wed 07 Oct 2026, 22:03 ADT
+Generated Thu 08 Oct 2026, 07:38 ADT
 
 ## Feed status
 
 - ✅ **Artemis.bm** — 10 items
-- ✅ **Google News (16 of 16 companies)** — 64 items
+- ✅ **Google News (16 of 16 companies)** — 60 items
 - ✅ **Reinsurance News** — 10 items
 
 ## Athene
@@ -59,8 +59,8 @@ Generated Wed 07 Oct 2026, 22:03 ADT
 
 ## RGA
 
+- **2026-10-06** — Yahoo Finance Australia — [Reinsurance Group of America, Incorporated (RGA) latest stock news and headlines](https://news.google.com/rss/articles/CBMiV0FVX3lxTE5CdHFXVjBaOUtpRG1uM296dngxVElqR0x6cFZ2NjVySDAyaUZSQkpGdmRxWkk2U3VNR3lFQUxxeTdvbmxWQ3lybXM4cmVvN3VIcGJHS3pWNA?oc=5)
 - **2026-10-06** — Yahoo! Finance Canada — [Reinsurance Group of America, Incorporated (RGA) Stock Price, News, Quote & History](https://news.google.com/rss/articles/CBMiUEFVX3lxTE1qamdrTE91Y3FMZFdXWkp6N2hGVlFXY08zdXdsUmlQM0tnMjg0V2o5UmRFTHVIdEdTbnlUSm9vem5BbHZ5MmE5LVpHZWJ3LXh5?oc=5)
-- **2026-10-05** — Yahoo Finance Australia — [Reinsurance Group of America, Incorporated (RGA) latest stock news and headlines](https://news.google.com/rss/articles/CBMiV0FVX3lxTE5CdHFXVjBaOUtpRG1uM296dngxVElqR0x6cFZ2NjVySDAyaUZSQkpGdmRxWkk2U3VNR3lFQUxxeTdvbmxWQ3lybXM4cmVvN3VIcGJHS3pWNA?oc=5)
 - **2026-10-04** — www.dars.gov.et — [Reinsurance Group of America (RGA) Edges Higher as Shares Test Upper Range - Fibonacci Entry Signals](https://news.google.com/rss/articles/CBMitwFBVV95cUxPLVNxQUtHeEJEcERpUjlWZDlLZFFkUVJGcERQa1B6dXc4VHpHUXRDSjRsUnNfSVV3Z3Q2RFR6d1ZZWUtWSl9mZDRidmhBMk1sdjFONkZ5WXlTXzZ6LXUtYzFmZUQ0V19EUnYtOUV3MDhfWVdkWEpnZVpKZkRKNnFGaDVpaUcwZDJya1lubVFYaEJ5SlVXVkpPeWt6SVZjNy1RM0E3U0lyc2c1MU5XMkJ1R0otZTJhejQ?oc=5)
 - **2026-10-03** — Pluang — [Reinsurance Group of America upgraded to buy af...](https://news.google.com/rss/articles/CBMikgFBVV95cUxNU1d4V1A1RnJCeUdHZEFELXFpSVRsZGRpR1Z3M3pnR09VY3NBdXRWY3oyV2VrdWl5b0ZJbFdhUmZWQW0zajRqaHFDVHVOVjR1LVI5SHNxUnNiRHpXTG1vNGpSd0lZbC1kbEdQdmliTmdNMlFjd1ZycXJia0hZYWNGOEllWm5PYTMtcUJYelp3N19QZw?oc=5)
 - **2026-10-03** — Seeking Alpha — [Reinsurance Group of America: Medical And Rate Tailwinds Carry Further Upside (Upgrade)](https://news.google.com/rss/articles/CBMiwwFBVV95cUxNdUR4aHF3YUF2QnFrQXBEVTl2WEFGRnB2OXkyWU12bXBaYUozSUtMM3I2aTZaRnZsci12ZXhkY0dTbTVJM1lubG9SbDBVSnl6LU9JUmtsd3VvVXVpNGcwVktJc2drSVRqcVF5Q2VOcXQyQmR6TWx5VkdsOGRrS2EtM29iSmpzNEk3dmZtSHZqc3V2YlJLTWhYU19XNkZ6ZjFVdFFXZUd6Z1NOTzBwbzZqQ2FQdHM2SUtiWlREYUJfdGp4SFk?oc=5)

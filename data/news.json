@@ -1,5 +1,5 @@
 {
-  "updated": "2026-10-08T01:03:09Z",
+  "updated": "2026-10-08T10:38:22Z",
   "topics": [
     "Insurance AM",
     "Private Credit",
@@ -8,6 +8,26 @@
   ],
   "items": [
     {
+      "id": "5e31c8cd4c06",
+      "title": "What Can the ECB Do About Rising French Bond Yields?",
+      "source": "Morningstar",
+      "date": "2026-10-08T09:49:44Z",
+      "topic": "Rates & Macro",
+      "summary": "",
+      "link": "https://news.google.com/rss/articles/CBMilwFBVV95cUxObkUtajNaTzkybFA4N1dwcm5FRlFUQmtfQUNMUmRjRy0zVHRJSWpOSXo0MzJJQU9LWVhpQktwbWVmTW9Rc1NwbWhWeldvS2RSTDRVay04VWVwS3hYNFdqMFJPRFFDYU5iejZnM1UwSUQzUy1YZHcyRU5hRDg5Ul9mQm53YmpDZkh1c2Nzc2VuQkktX0RKTHJz?oc=5",
+      "isNew": false
+    },
+    {
+      "id": "ff7037130c36",
+      "title": "Turbulent bond markets threaten some countries more than others",
+      "source": "The Economist",
+      "date": "2026-10-08T09:18:47Z",
+      "topic": "Rates & Macro",
+      "summary": "",
+      "link": "https://news.google.com/rss/articles/CBMirgFBVV95cUxQSjFtakF0dVVSX04tTGE4NVZiUXZoYlRiNUtnMjJ4QlpWYVRHQVp1d3pwWUFPMThRczA2bC1yR0l3OTExWjRBbU14YU9wekZrLW5ucFNFajd1bEkzR2Zrci1lcmUxN295SzVnbFBzTHg2OURnTEh2ZlRCa0RRd1NMN3U0Q2YyYmRZUk9oXzZ0NVMyNi1CaVg4ZVo3bC0tRWJHNVdKcUp4NS1tUjBiMkE?oc=5",
+      "isNew": false
+    },
+    {
       "id": "e10685ce7866",
       "title": "Week Ahead for FX, Bonds: Fed Minutes in Focus as Near-Term Rate-Hike Prospects Dim",
       "source": "WSJ",
@@ -15,6 +35,16 @@
       "topic": "Rates & Macro",
       "summary": "",
       "link": "https://news.google.com/rss/articles/CBMizwFBVV95cUxNd0pFZWhSVE1ibzBDZHRBWDE0MWNOQ1pMdUdNVUM5SXNnWVlLa1JWRy05c1ZzbmxIcDlDVVB6eUV4a2lfSWo3YVM4REdCNDU5U0dZRGhBTFFZRFkyRV9BVE0wUTIxcW5sM1ZERWVMWXZfb3ZlRmdBelNlQlVBajhCckZkUUh3NzhTWXRobTBsM3RHNU13WjdnZE0tNWtjVWVrbVZtUzQ3ck8zV3lXMnVMeC11Z2xzNTRPWHJTNktvRWFucHlZU3ZGb0tQRTNMa1U?oc=5",
+      "isNew": false
+    },
+    {
+      "id": "3f75e2ed9dbb",
+      "title": "2026 Hong Kong Allocator Outlook",
+      "source": "Markets Group",
+      "date": "2026-10-07T20:27:05Z",
+      "topic": "Private Credit",
+      "summary": "",
+      "link": "https://news.google.com/rss/articles/CBMiiAFBVV95cUxQUEV3Vi1rT0tiUDR0UFRKNENIcVd0OUlaRkxiVkZBSjFKWno2SjZLc3MxdkJiTlNzYmNmSzc2dU9PQ09NMHBCbXRSYU5jUWFOemtURTVKb0JZSTR5LUxpN0tsOGgxNXQwVTI5UW9VeDcyU2RrdFgwV3V5WWJOU2FrSXFQYmZXeWEy?oc=5",
       "isNew": false
     },
     {
@@ -45,6 +75,16 @@
       "topic": "Private Credit",
       "summary": "",
       "link": "https://news.google.com/rss/articles/CBMivAFBVV95cUxONExjVFU3c0IzN0tfZkk0anpyLVJ4N0N4cTZKNkx4YWlGbW5SZmVHRkM2eHJNS1NYaC1FVFZidHV4Um9xcU4tR082SU1oQno4VWZNZ2Z4Q0F1Q19vbDhPWERFblkxVUl4cWhaQUFWdzBKd1JEZjFGOUtfaVdNRnljV1lZSjF1UGdEZWlmblNjaE5OVTlMcnNoUTNZaU9QUnpXUlE5UDB5OHdDMVRmS3lHaG9fWWZrbVlpTm9BOQ?oc=5",
+      "isNew": false
+    },
+    {
+      "id": "4963fe451d1d",
+      "title": "Scotia Wealth Management\u00ae launches Scotia Global Intelligence\u2122, expanding its offering for Ultra-High-Net-Worth clients",
+      "source": "scotiabank.investorroom.com",
+      "date": "2026-10-06T15:36:49Z",
+      "topic": "Insurance AM",
+      "summary": "",
+      "link": "https://news.google.com/rss/articles/CBMi_wFBVV95cUxPbXBxOXFUcXRJYmNjZUhjLVFlYWZVZDZ0TkNCX0ZJTFhpQnVvQkJkUUFKd3ppYmFUcE5obHJOZ2VidGwyVnVZZXNXMml2MUJlZS1IUTBiNkR4SGpTSkJJNm1IMVBod0gydTNiLVEyUThocXVlUUFpS2VvQlA2ejFfZVAzNUhRc05jd0JsOEFRODdVSW5KUGswN3h4Q0hDQ2ozNjRCMGljZmZxSGk0MWVqRTczcEVwQkR1b216UlpYVjZjVF9PdDI0T0tlR09ESDFxOE4zZEtEREgxQUMxenRwN1pQaWttWjhsUWZLSmVNYkxDTXMxc01pZ05jTndpalU?oc=5",
       "isNew": false
     },
     {
@@ -265,46 +305,6 @@
       "topic": "Rates & Macro",
       "summary": "",
       "link": "https://news.google.com/rss/articles/CBMiqgFBVV95cUxNR1h4Wm1PMS0zdk5jczNlaHg3aDlpSXd6Y3hWaFM2MmR6ZkV0cWc2LVdsOTdWbEdrNW85WXNCR08zeDF3TWJLRVpFZEFvTFpxVTEyM2JuM3JNSFdoa1k1NzNXR0xRU0d2ZEptY2pndU9SelM3d0pqcTFMVWtkRFJ1NEc3NU5RbDZ3MHB3dmJ5YzYyU2dBWi1MRW5hZzlzQUZxNm5LMUlMbUh4dw?oc=5",
-      "isNew": false
-    },
-    {
-      "id": "aadafc138da2",
-      "title": "Opinion | Trump threw a fit about the interest rates he caused. He\u2019s still right.",
-      "source": "The Washington Post",
-      "date": "2026-09-30T17:15:00Z",
-      "topic": "Rates & Macro",
-      "summary": "",
-      "link": "https://news.google.com/rss/articles/CBMikgFBVV95cUxPSllCcHF4a3U3T1NZZm5wN2cwQTVKcXFhWmo5Y3JnSkNKSGhMeGxtOHloZkEyRXpSaTR5cF9MRFBVQWdtMzcwLVoyTnQ0YmVNUGpvcllheEtJNVFtdWlYVXdLNmx5emlYaVRpZkhqT1VvdmFFTXFSQi1RQl9kQVhjX3lJcjlOX0hmemMzRTNXbUpYdw?oc=5",
-      "isNew": false
-    },
-    {
-      "id": "9359d8adda9a",
-      "title": "Private credit and UK life insurers: structuring for matching adjustment",
-      "source": "Macfarlanes",
-      "date": "2026-09-30T11:44:09Z",
-      "topic": "Structured Credit",
-      "summary": "",
-      "link": "https://news.google.com/rss/articles/CBMitwFBVV95cUxOZ3RIakhYZXRsR0JySGdPMG4wWUxwMkdXY2Y0MW5xZDFMVDRHSDBBZzVtLVpNOXk4WTFHejdnam16QUl6Ym5MUm9QX3BTc1B2eDBWaHB5M0RLaEtrS2dRUG9PSzNOSG5HWngta2RHOG1JWU1Ubl9EbUVJOGlxRGV5Y2pUaGQ1QnVXTjAtQWpsX0lYYmxSWFJNSUtiNFJjdnpBS2NVd1hEMm9udXd0MmY5cDloTjlvWnM?oc=5",
-      "isNew": false
-    },
-    {
-      "id": "aa3c581787f2",
-      "title": "Battered bond market braces for a new era of interest rates",
-      "source": "Reuters",
-      "date": "2026-09-30T00:47:37Z",
-      "topic": "Rates & Macro",
-      "summary": "",
-      "link": "https://news.google.com/rss/articles/CBMipgFBVV95cUxQUFJEcnNjUGNwM1N4MlNkdG1pZ0VwVmt4cWhUZ2t0UkN4aHlRNzVyR3hCd2dUMG1FRWszT05VOUN4MUhDSGhXQUhIamhNWWJJNUpGXzZWcFc2Mk5Hcl9yNXBaaWVDVDlZQWg0d2xIRGl0RFhqWjJlR1ZORGlrNXRmdGZxSF9URFQ3Zzc5d2dER1g4U3hvZDZXMHNKVlhFaGRBRmRKRVJR?oc=5",
-      "isNew": false
-    },
-    {
-      "id": "2fff5938a737",
-      "title": "Cayman well placed as rated fund structures move offshore, Proskauer partners say",
-      "source": "Cayman Finance",
-      "date": "2026-09-29T20:08:15Z",
-      "topic": "Structured Credit",
-      "summary": "",
-      "link": "https://news.google.com/rss/articles/CBMiuAFBVV95cUxOYVZFUlZIV2x3dldmbEl1eUhIelNwUGVLZHFDZFZkYTlJaEl3eXRUQ0pESWV1ZkdUdXdVeU1QSGpUV21rYVY2ZnFnRlNMVTAwcGM0RG9SUTBIVkVMT0dyQmctbXg4NHQ3eFZ1cjhtdnVKNEIya1d3OF9XMnI1V3hPaFN2R24xNGU2RzAtRVdNdmtYd3BtV0J2R0txdDVpX0dNSGE5b1p1OEhTVlExblhKY1Bza1NqZUNY?oc=5",
       "isNew": false
     }
   ]

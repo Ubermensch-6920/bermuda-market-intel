@@ -1,5 +1,5 @@
 {
-  "updated": "2026-10-08T01:03:12Z",
+  "updated": "2026-10-08T10:38:25Z",
   "lookback_days": 14,
   "feeds": [
     {
@@ -35,7 +35,7 @@
     {
       "name": "Google News: Global Atlantic",
       "ok": true,
-      "count": 8,
+      "count": 7,
       "error": null
     },
     {
@@ -65,7 +65,7 @@
     {
       "name": "Google News: RGA",
       "ok": true,
-      "count": 20,
+      "count": 19,
       "error": null
     },
     {
@@ -89,7 +89,7 @@
     {
       "name": "Google News: Talcott",
       "ok": true,
-      "count": 9,
+      "count": 7,
       "error": null
     },
     {
@@ -137,12 +137,24 @@
       ]
     },
     {
+      "id": "64bdca379950",
+      "title": "Reinsurance Group of America, Incorporated (RGA) latest stock news and headlines",
+      "link": "https://news.google.com/rss/articles/CBMiV0FVX3lxTE5CdHFXVjBaOUtpRG1uM296dngxVElqR0x6cFZ2NjVySDAyaUZSQkpGdmRxWkk2U3VNR3lFQUxxeTdvbmxWQ3lybXM4cmVvN3VIcGJHS3pWNA?oc=5",
+      "source": "Yahoo Finance Australia",
+      "feed": "Google News: RGA",
+      "date": "2026-10-06T09:54:26Z",
+      "summary": "",
+      "companies": [
+        "RGA"
+      ]
+    },
+    {
       "id": "9e0a35ca35eb",
       "title": "Reinsurance Group of America, Incorporated (RGA) Stock Price, News, Quote & History",
       "link": "https://news.google.com/rss/articles/CBMiUEFVX3lxTE1qamdrTE91Y3FMZFdXWkp6N2hGVlFXY08zdXdsUmlQM0tnMjg0V2o5UmRFTHVIdEdTbnlUSm9vem5BbHZ5MmE5LVpHZWJ3LXh5?oc=5",
       "source": "Yahoo! Finance Canada",
       "feed": "Google News: RGA",
-      "date": "2026-10-06T06:06:49Z",
+      "date": "2026-10-06T07:08:14Z",
       "summary": "",
       "companies": [
         "RGA"
@@ -158,18 +170,6 @@
       "summary": "",
       "companies": [
         "Global Atlantic"
-      ]
-    },
-    {
-      "id": "64bdca379950",
-      "title": "Reinsurance Group of America, Incorporated (RGA) latest stock news and headlines",
-      "link": "https://news.google.com/rss/articles/CBMiV0FVX3lxTE5CdHFXVjBaOUtpRG1uM296dngxVElqR0x6cFZ2NjVySDAyaUZSQkpGdmRxWkk2U3VNR3lFQUxxeTdvbmxWQ3lybXM4cmVvN3VIcGJHS3pWNA?oc=5",
-      "source": "Yahoo Finance Australia",
-      "feed": "Google News: RGA",
-      "date": "2026-10-06T00:59:18Z",
-      "summary": "",
-      "companies": [
-        "RGA"
       ]
     },
     {
@@ -249,7 +249,7 @@
       "title": "Talcott closes $6.3bn Lincoln Financial deal",
       "link": "https://news.google.com/rss/articles/CBMisAFBVV95cUxNVTJKR2ZYLWdrZElGM2xoMmswUk5CWmhHSmk4WklCaVZwQ1ZQNGxwWWJIc0xlMkpqMVBIYUtvNWhiRk85M1REMU1PdU9tY2JHZF9NWkRRd0lBUTJ0MGJYaEpaX0dJaVU1eHdCY19BUGY5bzI1dG1IZDg0RU14ZHFqV3FZSUl3NjZZWl8zVkNBWW5KY3FqaGVJRFNYUUVMVGN6cFZVVDlMZzdnaGxpQlZSaQ?oc=5",
       "source": "Royal Gazette | Bermuda",
-      "feed": "Google News: Talcott",
+      "feed": "Google News: Somerset Re",
       "date": "2026-10-02T19:05:23Z",
       "summary": "",
       "companies": [
