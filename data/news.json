@@ -1,5 +1,5 @@
 {
-  "updated": "2026-10-07T20:40:20Z",
+  "updated": "2026-10-08T01:03:09Z",
   "topics": [
     "Insurance AM",
     "Private Credit",
@@ -7,6 +7,16 @@
     "Structured Credit"
   ],
   "items": [
+    {
+      "id": "e10685ce7866",
+      "title": "Week Ahead for FX, Bonds: Fed Minutes in Focus as Near-Term Rate-Hike Prospects Dim",
+      "source": "WSJ",
+      "date": "2026-10-07T21:36:20Z",
+      "topic": "Rates & Macro",
+      "summary": "",
+      "link": "https://news.google.com/rss/articles/CBMizwFBVV95cUxNd0pFZWhSVE1ibzBDZHRBWDE0MWNOQ1pMdUdNVUM5SXNnWVlLa1JWRy05c1ZzbmxIcDlDVVB6eUV4a2lfSWo3YVM4REdCNDU5U0dZRGhBTFFZRFkyRV9BVE0wUTIxcW5sM1ZERWVMWXZfb3ZlRmdBelNlQlVBajhCckZkUUh3NzhTWXRobTBsM3RHNU13WjdnZE0tNWtjVWVrbVZtUzQ3ck8zV3lXMnVMeC11Z2xzNTRPWHJTNktvRWFucHlZU3ZGb0tQRTNMa1U?oc=5",
+      "isNew": false
+    },
     {
       "id": "fd63b981c741",
       "title": "Tradeweb Government Bond Update \u2013 September 2026",
@@ -78,6 +88,26 @@
       "isNew": false
     },
     {
+      "id": "c0cd04aca0fe",
+      "title": "Rising interest rates challenge utility financing plans, US Bank managing director says",
+      "source": "Utility Dive",
+      "date": "2026-10-05T21:59:56Z",
+      "topic": "Rates & Macro",
+      "summary": "",
+      "link": "https://news.google.com/rss/articles/CBMikgFBVV95cUxNZjlXU1pGc2NMc1F2VjJfSGRuYVg2aFYtQ3A4SzFjQVlhaEpQMWljeGtxa1pJd0h3OVpMR1VVaTVrUTJXUXpvZTNwREZmc0g0NDA2MVZHMHprcDY0Mjgtc3NsV1lCNVlkNXFYQ1RjMlBBMzE0dUpQR2tGZmpvRWc3SEd1bTFnVFRvWU1yeVNoTVExUQ?oc=5",
+      "isNew": false
+    },
+    {
+      "id": "cb6941b4bcfe",
+      "title": "'Indiscriminate' bond markets could compel the Bank of Canada to hike rates this year, says KPMG",
+      "source": "Financial Post",
+      "date": "2026-10-05T20:29:13Z",
+      "topic": "Rates & Macro",
+      "summary": "",
+      "link": "https://news.google.com/rss/articles/CBMigwFBVV95cUxQWmdzc1E2b0RQUV9fOTAxMEJubXItblhieGJ3cUhTN09MRk9QVjdPYTlzaVRTSFlmRWl6VVNITHM0enhfbzdEcUlUaGZRbGNrS0FkWE1YUEM5Y1VTcGVIZ0x6X2NEUlRmWWVPcEp4d3poaGdLbjRMcmtjUDV4MDJHYU1WWQ?oc=5",
+      "isNew": false
+    },
+    {
       "id": "e1bf3a2ea780",
       "title": "Insurance providers dive into GPU financing game",
       "source": "Equipment Finance News",
@@ -135,16 +165,6 @@
       "topic": "Insurance AM",
       "summary": "",
       "link": "https://news.google.com/rss/articles/CBMidEFVX3lxTE1xRFlqbXBrU09WRk5xd0tPU2FHOUpiV19iMDRMSGk4aldwUnBlVmdPVGtrVDItbl93LWxRVmZ1X2RPUVdQNk1KRVIwYVV3a0JBbWV6eWdyS1dQVUF2U0I1SE9nZDNZbXU3MkdERFhkQ252d1RI?oc=5",
-      "isNew": false
-    },
-    {
-      "id": "e10685ce7866",
-      "title": "Week Ahead for FX, Bonds: Fed Minutes in Focus as Near-Term Rate-Hike Prospects Dim",
-      "source": "WSJ",
-      "date": "2026-10-02T16:12:00Z",
-      "topic": "Rates & Macro",
-      "summary": "",
-      "link": "https://news.google.com/rss/articles/CBMizwFBVV95cUxNd0pFZWhSVE1ibzBDZHRBWDE0MWNOQ1pMdUdNVUM5SXNnWVlLa1JWRy05c1ZzbmxIcDlDVVB6eUV4a2lfSWo3YVM4REdCNDU5U0dZRGhBTFFZRFkyRV9BVE0wUTIxcW5sM1ZERWVMWXZfb3ZlRmdBelNlQlVBajhCckZkUUh3NzhTWXRobTBsM3RHNU13WjdnZE0tNWtjVWVrbVZtUzQ3ck8zV3lXMnVMeC11Z2xzNTRPWHJTNktvRWFucHlZU3ZGb0tQRTNMa1U?oc=5",
       "isNew": false
     },
     {
@@ -285,26 +305,6 @@
       "topic": "Structured Credit",
       "summary": "",
       "link": "https://news.google.com/rss/articles/CBMiuAFBVV95cUxOYVZFUlZIV2x3dldmbEl1eUhIelNwUGVLZHFDZFZkYTlJaEl3eXRUQ0pESWV1ZkdUdXdVeU1QSGpUV21rYVY2ZnFnRlNMVTAwcGM0RG9SUTBIVkVMT0dyQmctbXg4NHQ3eFZ1cjhtdnVKNEIya1d3OF9XMnI1V3hPaFN2R24xNGU2RzAtRVdNdmtYd3BtV0J2R0txdDVpX0dNSGE5b1p1OEhTVlExblhKY1Bza1NqZUNY?oc=5",
-      "isNew": false
-    },
-    {
-      "id": "27e73124d198",
-      "title": "Treasury Yields Push To Fresh Highs",
-      "source": "WSJ",
-      "date": "2026-09-29T19:41:00Z",
-      "topic": "Rates & Macro",
-      "summary": "",
-      "link": "https://news.google.com/rss/articles/CBMipAFBVV95cUxPT05aOHdJS2k3TXNtTkY4MGUxRFFBZjV6bGNHM21EbjRCaHhSR0dYbjVqTmx2azdNVXRoRkh5b3RxbS1pVXNUYmJ0R25UWkxvTV8zUHhfSEQtMTdpUHZWTFVtZHJESDdqb0FkRWRoWDRTTWlPTm5mbmc3UWpzbVJpSDBOMmtDWmZGb1FfVkJjek1wVWdnVDhmXzB6MEhPdFJlMFVSRA?oc=5",
-      "isNew": false
-    },
-    {
-      "id": "d16195c52dbe",
-      "title": "Equities end slightly lower as bond yields hold near multi-decade highs",
-      "source": "Tacoma News Tribune",
-      "date": "2026-09-29T19:11:00Z",
-      "topic": "Rates & Macro",
-      "summary": "",
-      "link": "https://news.google.com/rss/articles/CBMidEFVX3lxTE5hYjl3MEF5U0ZabDRMQ2VtUjMxaG1XN1gxd251R29OaDA2eGU0dWpRSEpObXVHcWpneldIZlJGUEZXaGNCMnhydVBJOThfN2pkNWQwVlNnWHUzaHFyUkR1ZkZkQ3RVSTg4U3BoQjR5b3E0SW9F?oc=5",
       "isNew": false
     }
   ]
