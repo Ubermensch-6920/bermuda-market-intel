@@ -1,5 +1,5 @@
 {
-  "updated": "2026-10-08T10:38:22Z",
+  "updated": "2026-10-08T18:53:29Z",
   "topics": [
     "Insurance AM",
     "Private Credit",
@@ -7,6 +7,26 @@
     "Structured Credit"
   ],
   "items": [
+    {
+      "id": "f53d003e8d90",
+      "title": "Sen. Warren concerned about private equity\u2019s growing life insurance role",
+      "source": "InsuranceNewsNet",
+      "date": "2026-10-08T16:02:30Z",
+      "topic": "Private Credit",
+      "summary": "",
+      "link": "https://news.google.com/rss/articles/CBMirwFBVV95cUxQelFoREFpenVyLXlLd0c0ZG1ZVU8zSF9SVkpEdmpNLXE5N3J5V043dVVOVVlINGlpdlQ2dEVRbzlQRUJTcU0yV2VpM3Jsd0I0SjhsTElzQ2pKOW9qMC1YcFZBeE1tNlItYWUtV2lsUnBieFpxRVRHbENMbjNPTlFNcjNqR29CUzNQR0pUTmxLMDBKdzdoeVNOLW9XSlBIUjlPdEFMNmZVNXNodlh2OUt3?oc=5",
+      "isNew": false
+    },
+    {
+      "id": "c615239d7eb7",
+      "title": "Harel Insurance Investments and Financial Services to Participate in the Jefferies Israel Financials Summit on October 21 in London",
+      "source": "PR Newswire",
+      "date": "2026-10-08T13:28:00Z",
+      "topic": "Insurance AM",
+      "summary": "",
+      "link": "https://news.google.com/rss/articles/CBMimgJBVV95cUxQbUdwMy1wLUY5UVpFdkhOWUM1MDRranBUNjZKUVo1Unp4eTc3d190elVEMDlBTnBRRHF0Q2tkRV84UEd3X3k1MEV2Qm5oMHo5VVp5RXdQWTRKaEpCcFZxODVQekJhSFpOVnR4a20yQUhab05yUkZhWlpLbEltLWVwc1ZzUzdfZ01GN1VUQW1YYzFqLUZaX1lVN3N3TVotNlNVOHpDUlJJNnJTQkIwQ0R4STNpeWp0UTBYWHVuek5ybEtMVUtKU3RrUjZDQmFkejUzZ0tvbV96UGIybGtnb1EyZ3pHTS1ZWnFDWkhtTGJqNFI1SVZuZnFrS0p2aDl6cWVtM3J2U2dMSkkxR0ZKM2Y0b3EwVFNSSTN1NkE?oc=5",
+      "isNew": false
+    },
     {
       "id": "5e31c8cd4c06",
       "title": "What Can the ECB Do About Rising French Bond Yields?",
@@ -25,16 +45,6 @@
       "topic": "Rates & Macro",
       "summary": "",
       "link": "https://news.google.com/rss/articles/CBMirgFBVV95cUxQSjFtakF0dVVSX04tTGE4NVZiUXZoYlRiNUtnMjJ4QlpWYVRHQVp1d3pwWUFPMThRczA2bC1yR0l3OTExWjRBbU14YU9wekZrLW5ucFNFajd1bEkzR2Zrci1lcmUxN295SzVnbFBzTHg2OURnTEh2ZlRCa0RRd1NMN3U0Q2YyYmRZUk9oXzZ0NVMyNi1CaVg4ZVo3bC0tRWJHNVdKcUp4NS1tUjBiMkE?oc=5",
-      "isNew": false
-    },
-    {
-      "id": "e10685ce7866",
-      "title": "Week Ahead for FX, Bonds: Fed Minutes in Focus as Near-Term Rate-Hike Prospects Dim",
-      "source": "WSJ",
-      "date": "2026-10-07T21:36:20Z",
-      "topic": "Rates & Macro",
-      "summary": "",
-      "link": "https://news.google.com/rss/articles/CBMizwFBVV95cUxNd0pFZWhSVE1ibzBDZHRBWDE0MWNOQ1pMdUdNVUM5SXNnWVlLa1JWRy05c1ZzbmxIcDlDVVB6eUV4a2lfSWo3YVM4REdCNDU5U0dZRGhBTFFZRFkyRV9BVE0wUTIxcW5sM1ZERWVMWXZfb3ZlRmdBelNlQlVBajhCckZkUUh3NzhTWXRobTBsM3RHNU13WjdnZE0tNWtjVWVrbVZtUzQ3ck8zV3lXMnVMeC11Z2xzNTRPWHJTNktvRWFucHlZU3ZGb0tQRTNMa1U?oc=5",
       "isNew": false
     },
     {
@@ -208,6 +218,16 @@
       "isNew": false
     },
     {
+      "id": "e10685ce7866",
+      "title": "Week Ahead for FX, Bonds: Fed Minutes in Focus as Near-Term Rate-Hike Prospects Dim",
+      "source": "WSJ",
+      "date": "2026-10-02T16:12:00Z",
+      "topic": "Rates & Macro",
+      "summary": "",
+      "link": "https://news.google.com/rss/articles/CBMizwFBVV95cUxNd0pFZWhSVE1ibzBDZHRBWDE0MWNOQ1pMdUdNVUM5SXNnWVlLa1JWRy05c1ZzbmxIcDlDVVB6eUV4a2lfSWo3YVM4REdCNDU5U0dZRGhBTFFZRFkyRV9BVE0wUTIxcW5sM1ZERWVMWXZfb3ZlRmdBelNlQlVBajhCckZkUUh3NzhTWXRobTBsM3RHNU13WjdnZE0tNWtjVWVrbVZtUzQ3ck8zV3lXMnVMeC11Z2xzNTRPWHJTNktvRWFucHlZU3ZGb0tQRTNMa1U?oc=5",
+      "isNew": false
+    },
+    {
       "id": "68e0958f42f3",
       "title": "Soft Jobs Report Boosts Market Bets Fed Will Skip October Rate Increase",
       "source": "The New York Times",
@@ -285,26 +305,6 @@
       "topic": "Private Credit",
       "summary": "",
       "link": "https://news.google.com/rss/articles/CBMivwFBVV95cUxQaEF2eHpsRHhRU3A2Sm1Jc1loZ20tRWR2LVI1OHNJSDcyZjlpZXVJSDRYTjd4LUhwS3NUR25yNFhZVEp0aXAtQ0JBSWhoNHYyWDJ1eW56WmRHS2F5MENYeWdtSkVURGwyR3JxdVlIR19JUjlzNUctMGlHejZmZWN2U1lyQjFyN3d6dkMtZFpvaVpvN2M2Rks3N2wxbFRkYXRjV2JtNjBKSlFscmpXX3V0RncwWG5HZmxCcXVUaVVJNA?oc=5",
-      "isNew": false
-    },
-    {
-      "id": "e919491abe13",
-      "title": "Private credit and UK life insurers: structuring for matching adjustment",
-      "source": "Lexology",
-      "date": "2026-09-30T19:11:50Z",
-      "topic": "Private Credit",
-      "summary": "",
-      "link": "https://news.google.com/rss/articles/CBMiiwFBVV95cUxNVFlrU2pNemlXcXh3RGx1bkltTG1Jb1Y0ZWUtOHZfcjV5aGM3VTBCYVU2MUI1ZkFoY1BGeXRMNE53SFZDQWgwOU5DMjlnNTJ3d0syZmFzSVZfclI3ZnhiLWFVbThXMnlaeWZnTjVhYUNLSFJONmVVRVZxSzlZVnd4U2gzRExYTXpxOVRr?oc=5",
-      "isNew": false
-    },
-    {
-      "id": "303f7798ffa8",
-      "title": "Treasury Yields Hit Fresh Highs",
-      "source": "WSJ",
-      "date": "2026-09-30T18:55:00Z",
-      "topic": "Rates & Macro",
-      "summary": "",
-      "link": "https://news.google.com/rss/articles/CBMiqgFBVV95cUxNR1h4Wm1PMS0zdk5jczNlaHg3aDlpSXd6Y3hWaFM2MmR6ZkV0cWc2LVdsOTdWbEdrNW85WXNCR08zeDF3TWJLRVpFZEFvTFpxVTEyM2JuM3JNSFdoa1k1NzNXR0xRU0d2ZEptY2pndU9SelM3d0pqcTFMVWtkRFJ1NEc3NU5RbDZ3MHB3dmJ5YzYyU2dBWi1MRW5hZzlzQUZxNm5LMUlMbUh4dw?oc=5",
       "isNew": false
     }
   ]
