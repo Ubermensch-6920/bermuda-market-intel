@@ -1,5 +1,5 @@
 {
-  "updated": "2026-10-08T18:53:32Z",
+  "updated": "2026-10-09T01:15:56Z",
   "lookback_days": 14,
   "feeds": [
     {
@@ -29,7 +29,7 @@
     {
       "name": "Google News: Fortitude Re",
       "ok": true,
-      "count": 8,
+      "count": 7,
       "error": null
     },
     {
@@ -65,7 +65,7 @@
     {
       "name": "Google News: RGA",
       "ok": true,
-      "count": 18,
+      "count": 19,
       "error": null
     },
     {
@@ -89,19 +89,19 @@
     {
       "name": "Google News: Talcott",
       "ok": true,
-      "count": 7,
+      "count": 6,
       "error": null
     },
     {
       "name": "Google News: Venerable",
       "ok": true,
-      "count": 8,
+      "count": 5,
       "error": null
     },
     {
       "name": "Google News: Wilton Re",
       "ok": true,
-      "count": 4,
+      "count": 3,
       "error": null
     },
     {
@@ -112,6 +112,54 @@
     }
   ],
   "items": [
+    {
+      "id": "170b4b6ac3ae",
+      "title": "Reinsurance Group of America Announces Third Quarter Earnings Release Date, Webcast",
+      "link": "https://news.google.com/rss/articles/CBMi1gFBVV95cUxQTWxQRHVEY2xMZGtCemFHSk9LMmM4ZHdEcjh0cEliVHEwT2RtYm5qeEJMSFVhZnc2WGZ5bkhGVzJKVW1NM2owZGs0a2xoVjBxdEQtcjNLX3g1V0tjTWp5SE4zWXVFZW90cTZSVFQ4TWFUQ2NOZVlOdTdQQ1FYWUlqNktuNUhfc0pPRDZzSEEzdW5vOGpFUnVHOFF2Z29tYS0wMFliNDVJSVNHRnIwVkNKYmRiMmpRSy1sV2x6aTVvb1J6OHo5N1MwSDFjVzZvRUxnTXR1Nm9n?oc=5",
+      "source": "Business Wire",
+      "feed": "Google News: RGA",
+      "date": "2026-10-08T20:15:00Z",
+      "summary": "",
+      "companies": [
+        "RGA"
+      ]
+    },
+    {
+      "id": "8e952f783824",
+      "title": "Reinsurance Group of America (NYSE:RGA) Sets New 1-Year High - Here's Why",
+      "link": "https://news.google.com/rss/articles/CBMixwFBVV95cUxQbUs5TF9ObG9wcUFjQ3BUQms5UW82cmJMODk0clR3ZUxpbUdYekhVd2xUeE4wZWtnaXhndi1GTzBhQlNkN3BJODI1RXozSHYzOUd0ZkNJekxCbzNBSHRTYWJZUGh0a0NTYkZjeGxIa2lzQ0xSc2FlV0dlNlpzVXVPWjdsejh1QnFoMXVnT3VqYjF4T05ZRmFIN2pKbHZOZzQxbWhiN25tMDNpeXVhb1pRNnBIRkg5bThULVZkVUVWNmR3NDJOd2hr?oc=5",
+      "source": "MarketBeat",
+      "feed": "Google News: RGA",
+      "date": "2026-10-08T19:17:35Z",
+      "summary": "",
+      "companies": [
+        "RGA"
+      ]
+    },
+    {
+      "id": "64bdca379950",
+      "title": "Reinsurance Group of America, Incorporated (RGA) latest stock news and headlines",
+      "link": "https://news.google.com/rss/articles/CBMiV0FVX3lxTE5CdHFXVjBaOUtpRG1uM296dngxVElqR0x6cFZ2NjVySDAyaUZSQkpGdmRxWkk2U3VNR3lFQUxxeTdvbmxWQ3lybXM4cmVvN3VIcGJHS3pWNA?oc=5",
+      "source": "Yahoo Finance Australia",
+      "feed": "Google News: RGA",
+      "date": "2026-10-06T23:31:05Z",
+      "summary": "",
+      "companies": [
+        "RGA"
+      ]
+    },
+    {
+      "id": "9e0a35ca35eb",
+      "title": "Reinsurance Group of America, Incorporated (RGA) Stock Price, News, Quote & History",
+      "link": "https://news.google.com/rss/articles/CBMiUEFVX3lxTE1qamdrTE91Y3FMZFdXWkp6N2hGVlFXY08zdXdsUmlQM0tnMjg0V2o5UmRFTHVIdEdTbnlUSm9vem5BbHZ5MmE5LVpHZWJ3LXh5?oc=5",
+      "source": "Yahoo! Finance Canada",
+      "feed": "Google News: RGA",
+      "date": "2026-10-06T19:49:05Z",
+      "summary": "",
+      "companies": [
+        "RGA"
+      ]
+    },
     {
       "id": "d42d04a30682",
       "title": "Venerable Annuity platform to add $4.5 bn of Guardian assets",
@@ -134,30 +182,6 @@
       "summary": "",
       "companies": [
         "Talcott"
-      ]
-    },
-    {
-      "id": "64bdca379950",
-      "title": "Reinsurance Group of America, Incorporated (RGA) latest stock news and headlines",
-      "link": "https://news.google.com/rss/articles/CBMiV0FVX3lxTE5CdHFXVjBaOUtpRG1uM296dngxVElqR0x6cFZ2NjVySDAyaUZSQkpGdmRxWkk2U3VNR3lFQUxxeTdvbmxWQ3lybXM4cmVvN3VIcGJHS3pWNA?oc=5",
-      "source": "Yahoo Finance Australia",
-      "feed": "Google News: RGA",
-      "date": "2026-10-06T09:54:26Z",
-      "summary": "",
-      "companies": [
-        "RGA"
-      ]
-    },
-    {
-      "id": "9e0a35ca35eb",
-      "title": "Reinsurance Group of America, Incorporated (RGA) Stock Price, News, Quote & History",
-      "link": "https://news.google.com/rss/articles/CBMiUEFVX3lxTE1qamdrTE91Y3FMZFdXWkp6N2hGVlFXY08zdXdsUmlQM0tnMjg0V2o5UmRFTHVIdEdTbnlUSm9vem5BbHZ5MmE5LVpHZWJ3LXh5?oc=5",
-      "source": "Yahoo! Finance Canada",
-      "feed": "Google News: RGA",
-      "date": "2026-10-06T07:08:14Z",
-      "summary": "",
-      "companies": [
-        "RGA"
       ]
     },
     {

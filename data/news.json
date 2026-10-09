@@ -1,5 +1,5 @@
 {
-  "updated": "2026-10-08T18:53:29Z",
+  "updated": "2026-10-09T01:15:54Z",
   "topics": [
     "Insurance AM",
     "Private Credit",
@@ -7,6 +7,16 @@
     "Structured Credit"
   ],
   "items": [
+    {
+      "id": "d5ad00cad6bf",
+      "title": "Life insurers concealed $21B in private-credit risk: Lawsuit",
+      "source": "American Banker",
+      "date": "2026-10-08T20:39:00Z",
+      "topic": "Private Credit",
+      "summary": "",
+      "link": "https://news.google.com/rss/articles/CBMimgFBVV95cUxNMHFwcGJ1Mzh1Snp4RnNDWldBV1YwR091UkxQLV9oaUJ0bmgyS1dDZEpfdmdkSWZEbjBwVW1vMkttVGltS3BzRzJxQnlZSUtwZUJVYmNva3pkZ3B0Q3gzczlkX0VnRXB0MnVBaV9kMm5Wd1pVWk5Pdlc1Y3U4b2N4MzZndDAxdzlaUFRvUU5DOEw0Vl94ODNyWFRB?oc=5",
+      "isNew": false
+    },
     {
       "id": "f53d003e8d90",
       "title": "Sen. Warren concerned about private equity\u2019s growing life insurance role",
@@ -31,10 +41,10 @@
       "id": "5e31c8cd4c06",
       "title": "What Can the ECB Do About Rising French Bond Yields?",
       "source": "Morningstar",
-      "date": "2026-10-08T09:49:44Z",
+      "date": "2026-10-08T09:53:14Z",
       "topic": "Rates & Macro",
       "summary": "",
-      "link": "https://news.google.com/rss/articles/CBMilwFBVV95cUxObkUtajNaTzkybFA4N1dwcm5FRlFUQmtfQUNMUmRjRy0zVHRJSWpOSXo0MzJJQU9LWVhpQktwbWVmTW9Rc1NwbWhWeldvS2RSTDRVay04VWVwS3hYNFdqMFJPRFFDYU5iejZnM1UwSUQzUy1YZHcyRU5hRDg5Ul9mQm53YmpDZkh1c2Nzc2VuQkktX0RKTHJz?oc=5",
+      "link": "https://news.google.com/rss/articles/CBMilAFBVV95cUxNaGZlQk5LbmtfdVhxYnEtZ0lFRUJXYXNScnJoZXl2QTFia01PWTlUM05IejVWZ0g0QXhNQlNCTVhDSTVIMGZLQ1pJNlEyT3N0V0d6ZjVlZVU4WW1KQU11cEFQbmtwb0llb2JuOEtwY3M0OWZ2blRfR19hdUdVaXZmUWh4UVF6engyeHFTZTA2WWRmY1RE?oc=5",
       "isNew": false
     },
     {
@@ -295,16 +305,6 @@
       "topic": "Rates & Macro",
       "summary": "",
       "link": "https://news.google.com/rss/articles/CBMingFBVV95cUxQbHlJS0dDUGUxQWFaeWpJX21IdEZqSmw1UFRBcmcxajlsZW1yNlVVRm1ZQUVHQ0huUGdIdnBRTU1id0k3dVl1SlJ0UkxmNFUwNy1nWTNDcWtZdVpqOHp3czVja1hNWnZfQ2RxZnNUNDJYdXlSdVluME5vTjlhNVlYOEhUVVZRNVd1RzU3NWJyb0Q5R1hxZ2NOVGdZSFBnQQ?oc=5",
-      "isNew": false
-    },
-    {
-      "id": "0fd5ca2355b1",
-      "title": "After sharp rise in private credit, here's where it's now headed",
-      "source": "www.thenationalnews.com",
-      "date": "2026-10-01T05:31:58Z",
-      "topic": "Private Credit",
-      "summary": "",
-      "link": "https://news.google.com/rss/articles/CBMivwFBVV95cUxQaEF2eHpsRHhRU3A2Sm1Jc1loZ20tRWR2LVI1OHNJSDcyZjlpZXVJSDRYTjd4LUhwS3NUR25yNFhZVEp0aXAtQ0JBSWhoNHYyWDJ1eW56WmRHS2F5MENYeWdtSkVURGwyR3JxdVlIR19JUjlzNUctMGlHejZmZWN2U1lyQjFyN3d6dkMtZFpvaVpvN2M2Rks3N2wxbFRkYXRjV2JtNjBKSlFscmpXX3V0RncwWG5HZmxCcXVUaVVJNA?oc=5",
       "isNew": false
     }
   ]
