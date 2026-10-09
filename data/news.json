@@ -1,5 +1,5 @@
 {
-  "updated": "2026-10-09T10:36:59Z",
+  "updated": "2026-10-09T18:24:00Z",
   "topics": [
     "Insurance AM",
     "Private Credit",
@@ -7,6 +7,16 @@
     "Structured Credit"
   ],
   "items": [
+    {
+      "id": "df8ea6281fd5",
+      "title": "Are Bonds Becoming a Better Investment for Portfolios?",
+      "source": "Goldman Sachs",
+      "date": "2026-10-09T07:01:06Z",
+      "topic": "Rates & Macro",
+      "summary": "",
+      "link": "https://news.google.com/rss/articles/CBMiogFBVV95cUxPU09zbGxQTTdYMHZEQkY0YlhCZllvTjVpUXF2RDhTWThLNF9rcVFxXzJaT0gzN3dlNzJWRjExQWhfdWNwY2l6WG5MRzEtNWs0MV9IeXBqZjVOd2pja2NZMnpNUHVaLUpuajR3cmUzRFZYXzdXcDNiaDBoOHViZm5ndHhxeFBsWllURllCNkszOE1Db1drdUloMC1ZWlZaVEdYNXc?oc=5",
+      "isNew": false
+    },
     {
       "id": "d5ad00cad6bf",
       "title": "Life insurers concealed $21B in private-credit risk: Lawsuit",
@@ -51,10 +61,10 @@
       "id": "5e31c8cd4c06",
       "title": "What Can the ECB Do About Rising French Bond Yields?",
       "source": "Morningstar",
-      "date": "2026-10-08T09:49:44Z",
+      "date": "2026-10-08T09:53:14Z",
       "topic": "Rates & Macro",
       "summary": "",
-      "link": "https://news.google.com/rss/articles/CBMilwFBVV95cUxObkUtajNaTzkybFA4N1dwcm5FRlFUQmtfQUNMUmRjRy0zVHRJSWpOSXo0MzJJQU9LWVhpQktwbWVmTW9Rc1NwbWhWeldvS2RSTDRVay04VWVwS3hYNFdqMFJPRFFDYU5iejZnM1UwSUQzUy1YZHcyRU5hRDg5Ul9mQm53YmpDZkh1c2Nzc2VuQkktX0RKTHJz?oc=5",
+      "link": "https://news.google.com/rss/articles/CBMilAFBVV95cUxNaGZlQk5LbmtfdVhxYnEtZ0lFRUJXYXNScnJoZXl2QTFia01PWTlUM05IejVWZ0g0QXhNQlNCTVhDSTVIMGZLQ1pJNlEyT3N0V0d6ZjVlZVU4WW1KQU11cEFQbmtwb0llb2JuOEtwY3M0OWZ2blRfR19hdUdVaXZmUWh4UVF6engyeHFTZTA2WWRmY1RE?oc=5",
       "isNew": false
     },
     {
@@ -68,6 +78,16 @@
       "isNew": false
     },
     {
+      "id": "1340feb0a9b2",
+      "title": "The countries most threatened by turbulent bond markets",
+      "source": "The Economist",
+      "date": "2026-10-08T09:18:47Z",
+      "topic": "Rates & Macro",
+      "summary": "",
+      "link": "https://news.google.com/rss/articles/CBMiowFBVV95cUxQemZPTlh5bERBWHdGTGRNXzNNeUhKb3J6NlpHcnctMExDSWgxRDlsQzM2NEZucXVPZmlkbmhHVS1lUUsyV3FwOElhVjltMmlGUWtsUndHVDhfbUhCWVR1YXhNbHVreHhZcHVyUmlIaGEwWEdYa21ROVV1aGRPSGJQZ0dVSlVMczZlcTVpVjFYQ0ZxVVJwREdpWkVwamV0T2oxVldv?oc=5",
+      "isNew": false
+    },
+    {
       "id": "3f75e2ed9dbb",
       "title": "2026 Hong Kong Allocator Outlook",
       "source": "Markets Group",
@@ -75,6 +95,16 @@
       "topic": "Private Credit",
       "summary": "",
       "link": "https://news.google.com/rss/articles/CBMiiAFBVV95cUxQUEV3Vi1rT0tiUDR0UFRKNENIcVd0OUlaRkxiVkZBSjFKWno2SjZLc3MxdkJiTlNzYmNmSzc2dU9PQ09NMHBCbXRSYU5jUWFOemtURTVKb0JZSTR5LUxpN0tsOGgxNXQwVTI5UW9VeDcyU2RrdFgwV3V5WWJOU2FrSXFQYmZXeWEy?oc=5",
+      "isNew": false
+    },
+    {
+      "id": "d80001bf288c",
+      "title": "Huntington Bank expands captive insurance banking capabilities",
+      "source": "Captive Insurance Times",
+      "date": "2026-10-06T20:13:46Z",
+      "topic": "Insurance AM",
+      "summary": "",
+      "link": "https://news.google.com/rss/articles/CBMi5gFBVV95cUxNVjlXbUYxb3dlWWRxekdnWDlMSUJ6MWg2clRmNy0zZHloR1pSa1VjeU9iclBEaGw2c0dEeXF0REdUaFV5TkRod1NPLTlzaC1fcFVSbkx1YXU4WE5TRG9OWHUwTVphRkNGVDctb3BFNlRWR0RHMFlkMnh2SWhjYXpscWFucVdscHVpaU5zOXZ1UUMtWlNhVjdMNkxVZXNZMmh6ZHJVTXBYSGVaOEFUMEgxWTJFbW9YeUI4VlF6TTVvWS1UWlQwV3ZkOXFqMHJHaXpXTkU3alI5a1AwZGxsNTZjbGt6b3h1dw?oc=5",
       "isNew": false
     },
     {
@@ -115,16 +145,6 @@
       "topic": "Insurance AM",
       "summary": "",
       "link": "https://news.google.com/rss/articles/CBMi_wFBVV95cUxPbXBxOXFUcXRJYmNjZUhjLVFlYWZVZDZ0TkNCX0ZJTFhpQnVvQkJkUUFKd3ppYmFUcE5obHJOZ2VidGwyVnVZZXNXMml2MUJlZS1IUTBiNkR4SGpTSkJJNm1IMVBod0gydTNiLVEyUThocXVlUUFpS2VvQlA2ejFfZVAzNUhRc05jd0JsOEFRODdVSW5KUGswN3h4Q0hDQ2ozNjRCMGljZmZxSGk0MWVqRTczcEVwQkR1b216UlpYVjZjVF9PdDI0T0tlR09ESDFxOE4zZEtEREgxQUMxenRwN1pQaWttWjhsUWZLSmVNYkxDTXMxc01pZ05jTndpalU?oc=5",
-      "isNew": false
-    },
-    {
-      "id": "d80001bf288c",
-      "title": "Huntington Bank expands captive insurance banking capabilities",
-      "source": "Captive Insurance Times",
-      "date": "2026-10-06T15:24:21Z",
-      "topic": "Insurance AM",
-      "summary": "",
-      "link": "https://news.google.com/rss/articles/CBMi4AFBVV95cUxQSWtxZkdKTENiaFhnUm5jTk92bEIwU0thenZIMFpvSmR6ZzF1a2Fqck1RSC13b09saEgtWlhWRVVRMVM3TlpDTWR4Mm9oSmRuVGMxOFRQNURESEluakhob2F2MGl5cmx4MUh1bmNQT2hIZ2xxcVNHc1RNdEtKaDhoRnNDd3JqUW04dWExT25BYnVWcUFfRm5aX3FkaUlscGdOeGEzUjhneUhERUozMWYxekZ0MmdVUDdOSkVNT3p2Nl9STXRCYUpTdFo4QU85aUNkLVRMeVladklqSTZ4ZHNjdQ?oc=5",
       "isNew": false
     },
     {
@@ -285,26 +305,6 @@
       "topic": "Rates & Macro",
       "summary": "",
       "link": "https://news.google.com/rss/articles/CBMisAFBVV95cUxNYnlDY194NEJMQ28xWnRVNDJWcXZnMW1mdzhqazd0MU5sWWN2ZkpYMTAyTnRXM1R6VE1oTUFYUnNJNEM2TXdDemEzdEw4QXJhS0g2SzRJUmR5NFpJNGl4d0EwWXFidXBKNU1sYllZRDBEQ3lUS3VIS1NPRWZaWEV0U2J2c0tOT3dzOEx0aHQzZnZpUllRQ3pBWmkxcFBxNDFOdlM2WmNYVjNVT2daUERiYQ?oc=5",
-      "isNew": false
-    },
-    {
-      "id": "0c7a54522cb1",
-      "title": "Global bond rout deepens, pushes US Treasury yields to 24-year peak",
-      "source": "Reuters",
-      "date": "2026-10-01T16:56:02Z",
-      "topic": "Rates & Macro",
-      "summary": "",
-      "link": "https://news.google.com/rss/articles/CBMipAFBVV95cUxQUVhtMHBxQWdQNG5xWlpJeHkzeVpHQXgtSDVVN3hVdTFONDZnanFkcDctT2dzZU1QVFRpT2lWdEZvQ2xJdzZ6dDJQdjNpT2FuekdycUxURXRtby02MUhXRlhJMWo0emY3YTBsRUFLZEx0Rjl1b0R0WGItU2ZrclFBUERFamRxdzdGRE1sRXlTb09VRktCWTExaU1MblhDZ19yZURhZQ?oc=5",
-      "isNew": false
-    },
-    {
-      "id": "7c50c13d4525",
-      "title": "Delaware Life\u2019s Private-Credit Investments Reach 45% of Debt Portfolio",
-      "source": "Program Business",
-      "date": "2026-10-01T13:02:35Z",
-      "topic": "Private Credit",
-      "summary": "",
-      "link": "https://news.google.com/rss/articles/CBMipAFBVV95cUxQa1RpeFlvckN3NldZalVoNUlHSGtNTm4wN3phU2pldWRtMS1xOGFKeDlzRmU1ci1FelpiT25CYU9LSU1YZ1V3WDJ3emZfZ01xWlh1b280dEFHYUtrWnhCRDhTLW1KNmZycTYzaG5VUW9YWEx1N3o2VTI1WTJSYy1SbWpMZS1QVFRxTVQtWjdvVXZpUkNDcmpWX3JpU3IxTlV2R3Jlcg?oc=5",
       "isNew": false
     }
   ]

@@ -1,5 +1,5 @@
 {
-  "updated": "2026-10-09T10:37:01Z",
+  "updated": "2026-10-09T18:24:03Z",
   "lookback_days": 14,
   "feeds": [
     {
@@ -17,7 +17,7 @@
     {
       "name": "Google News: Athene",
       "ok": true,
-      "count": 6,
+      "count": 7,
       "error": null
     },
     {
@@ -29,7 +29,7 @@
     {
       "name": "Google News: Fortitude Re",
       "ok": true,
-      "count": 7,
+      "count": 8,
       "error": null
     },
     {
@@ -65,7 +65,7 @@
     {
       "name": "Google News: RGA",
       "ok": true,
-      "count": 18,
+      "count": 19,
       "error": null
     },
     {
@@ -95,7 +95,7 @@
     {
       "name": "Google News: Venerable",
       "ok": true,
-      "count": 5,
+      "count": 7,
       "error": null
     },
     {
@@ -112,6 +112,30 @@
     }
   ],
   "items": [
+    {
+      "id": "d5e388dfd066",
+      "title": "Reinsurance Group of America, Incorporated $RGA Shares Sold by Douglas Lane & Associates LLC",
+      "link": "https://news.google.com/rss/articles/CBMi4wFBVV95cUxNMnI1UVRLQWdOV1otQUJ4dnR3VVJMUXczQzNGaF9LQmQ5NTJUYjk5djY1WlhCYURucGFmRi1wVGhnSzhKRlRNOXUwRmpRNTZ5RllEeC0ySnNvM2hubGt3ekVRR0twVm5Ra3Z0RkxOeEFhckY5V3d4cXNHNHM5Zk55RWVsR2tLZFYzNjdIY3JETVNpZDZEQlNfVEFDRkdhWjNYV21mYm1naWJaRVFYdGhrQ1dQcWRVWTFRb1hySUlEcmNZY0t3ekJxUHRBekdBZnZYNlc0RWIzM3FTa24wWDdNZ2F1OA?oc=5",
+      "source": "MarketBeat",
+      "feed": "Google News: RGA",
+      "date": "2026-10-09T17:23:22Z",
+      "summary": "",
+      "companies": [
+        "RGA"
+      ]
+    },
+    {
+      "id": "c75a8736568d",
+      "title": "Reinsurance Group of America, Incorporated (RGA) Hit a 52 Week High, Can the Run Continue?",
+      "link": "https://news.google.com/rss/articles/CBMilgFBVV95cUxOTTg2QVAwa3dqM1VsR3VTMjc5YzRGcmc2QlljZC11Umxva3o3dkxfRVF3Y1FBNldmOGY5Uzhrb0ZXWExpT1NaZlF2SjFrRXNSZF9KQThULUNmOXZGOXMzN1pZdzhsMEZRRVNSVVRtRWRsVGpoY0pzaDhzVm44ZnJPZXVxYXNQV09kOU10eUFacl9ud3lYMGc?oc=5",
+      "source": "Yahoo Finance Australia",
+      "feed": "Google News: RGA",
+      "date": "2026-10-09T12:15:02Z",
+      "summary": "",
+      "companies": [
+        "RGA"
+      ]
+    },
     {
       "id": "170b4b6ac3ae",
       "title": "Reinsurance Group of America Announces Third Quarter Earnings Release Date, Webcast",
@@ -182,6 +206,18 @@
       "summary": "",
       "companies": [
         "Talcott"
+      ]
+    },
+    {
+      "id": "bc246d763523",
+      "title": "Athene Hldg (ATH) Stock Price, News & Analysis",
+      "link": "https://news.google.com/rss/articles/CBMiUkFVX3lxTE1XZ1RQQXRrdV9TS0gwbTRGZFlKSGhlSFVzTVF0WW82a09sLU9nV2x4WWtZTXhNSlh2MTl1TDdwd1VQeGtBTnpocm1QNWF4dFBMbEE?oc=5",
+      "source": "Stock Titan",
+      "feed": "Google News: Athene",
+      "date": "2026-10-06T12:00:00Z",
+      "summary": "",
+      "companies": [
+        "Athene"
       ]
     },
     {
