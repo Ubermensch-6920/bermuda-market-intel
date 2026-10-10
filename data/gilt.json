@@ -23,7 +23,7 @@
     5.45,
     5.68,
     5.91,
-    5.94
+    5.95
   ],
   "prior_yields": [
     4.57,
@@ -45,7 +45,7 @@
     5.403,
     null,
     5.881,
-    5.921
+    5.931
   ],
   "prior_1m_date": "",
   "prior_3m_yields": [
@@ -69,7 +69,7 @@
     4.678,
     null,
     5.368,
-    5.479
+    5.489
   ],
   "year_ago_date": "",
   "derived": {
@@ -84,5 +84,5 @@
   "cached": [],
   "held": {},
   "note": "Official BoE daily archive first; then market scrapes; then local history / cache.",
-  "_fetched": "2026-10-10T09:51:26.769136Z"
+  "_fetched": "2026-10-10T17:20:50.272942Z"
 }
